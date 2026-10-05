@@ -20,7 +20,7 @@ jobs:
       - id: matrix
         shell: bash
         run: |
-          animals=$(jq -c 'keys | map(select(. != "frog" and . != "owl"))' configs/daily.json)
+          animals=$(jq -c 'keys' configs/daily.json)
           echo "animals=$animals" >> "$GITHUB_OUTPUT"
 
   render:
