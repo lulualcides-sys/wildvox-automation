@@ -12,9 +12,10 @@
       "https://www.pexels.com/download/video/27379232/"
     ],
     "min_unique_videos": 6,
-    "max_shot_seconds": 5.5,
+    "max_shot_seconds": 8,
     "max_freeze_seconds": 1,
-    "caption": "Jellyfish can hunt without a centralized brain. 🪼\n\n#Jellyfish #OceanFacts #AnimalFacts #MarineBiology #WildVox"
+    "caption": "Jellyfish can hunt without a centralized brain. 🪼\n\n#Jellyfish #OceanFacts #AnimalFacts #MarineBiology #WildVox",
+    "target_shot_seconds": 7
   },
   "octopus": {
     "title": "THREE HEARTS. BLUE BLOOD.",
@@ -30,9 +31,10 @@
       "https://www.pexels.com/download/video/34293687/"
     ],
     "min_unique_videos": 6,
-    "max_shot_seconds": 5.5,
+    "max_shot_seconds": 8,
     "max_freeze_seconds": 1,
-    "caption": "Three hearts, blue blood, and arms packed with neurons. 🐙\n\n#Octopus #AnimalFacts #OceanFacts #MarineLife #WildVox"
+    "caption": "Three hearts, blue blood, and arms packed with neurons. 🐙\n\n#Octopus #AnimalFacts #OceanFacts #MarineLife #WildVox",
+    "target_shot_seconds": 7
   },
   "sea_turtle": {
     "title": "THIS REPTILE CROSSES ENTIRE OCEANS",
@@ -48,9 +50,10 @@
       "https://www.pexels.com/download/video/33017624/"
     ],
     "min_unique_videos": 6,
-    "max_shot_seconds": 5.5,
+    "max_shot_seconds": 8,
     "max_freeze_seconds": 1,
-    "caption": "Sea turtles can navigate across huge stretches of ocean. 🐢\n\n#SeaTurtle #OceanFacts #AnimalFacts #MarineLife #WildVox"
+    "caption": "Sea turtles can navigate across huge stretches of ocean. 🐢\n\n#SeaTurtle #OceanFacts #AnimalFacts #MarineLife #WildVox",
+    "target_shot_seconds": 7
   },
   "dolphin": {
     "title": "DOLPHINS CAN SEE WITH SOUND",
@@ -66,9 +69,10 @@
       "https://www.pexels.com/download/video/4592360/"
     ],
     "min_unique_videos": 6,
-    "max_shot_seconds": 5.5,
+    "max_shot_seconds": 8,
     "max_freeze_seconds": 1,
-    "caption": "Dolphins can map their surroundings with echoes. 🐬\n\n#Dolphin #AnimalFacts #OceanFacts #MarineLife #WildVox"
+    "caption": "Dolphins can map their surroundings with echoes. 🐬\n\n#Dolphin #AnimalFacts #OceanFacts #MarineLife #WildVox",
+    "target_shot_seconds": 7
   },
   "stingray": {
     "title": "THIS FISH FLIES UNDERWATER",
@@ -84,9 +88,10 @@
       "https://www.pexels.com/download/video/34347517/"
     ],
     "min_unique_videos": 6,
-    "max_shot_seconds": 5.5,
+    "max_shot_seconds": 8,
     "max_freeze_seconds": 1,
-    "caption": "Stingrays glide through water like underwater wings. 🌊\n\n#Stingray #OceanFacts #AnimalFacts #MarineLife #WildVox"
+    "caption": "Stingrays glide through water like underwater wings. 🌊\n\n#Stingray #OceanFacts #AnimalFacts #MarineLife #WildVox",
+    "target_shot_seconds": 7
   },
   "crab": {
     "title": "WHY CRABS WALK SIDEWAYS",
@@ -101,8 +106,9 @@
       "https://www.pexels.com/download/video/7913414/"
     ],
     "min_unique_videos": 6,
-    "max_shot_seconds": 5.5,
+    "max_shot_seconds": 8,
     "max_freeze_seconds": 1,
-    "caption": "Crabs are built for sideways speed. 🦀\n\n#Crab #AnimalFacts #WildlifeTok #NatureFacts #WildVox"
+    "caption": "Crabs are built for sideways speed. 🦀\n\n#Crab #AnimalFacts #WildlifeTok #NatureFacts #WildVox",
+    "target_shot_seconds": 7
   }
 }
