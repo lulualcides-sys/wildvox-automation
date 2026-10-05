@@ -1,3 +1,4 @@
+import os
 import uuid
 from datetime import datetime, timezone
 
@@ -80,6 +81,14 @@ def build_context(user: User, db: Session) -> dict:
         "channel_count": len(channels),
         "plan": user.plan,
         "limits": plan_limits(user.plan),
+        "email_delivery_configured": bool(os.getenv("RESEND_API_KEY") and os.getenv("EMAIL_FROM")),
+        "billing_configured": bool(os.getenv("MERCADOPAGO_ACCESS_TOKEN")),
+        "storage_configured": bool(
+            os.getenv("S3_ENDPOINT_URL")
+            and os.getenv("S3_BUCKET")
+            and os.getenv("S3_ACCESS_KEY_ID")
+            and os.getenv("S3_SECRET_ACCESS_KEY")
+        ),
     }
 
 
@@ -133,6 +142,39 @@ def answer(message: str, ctx: dict) -> tuple[str, list[str]]:
         return (
             f"A estrutura do {provider} já existe no VoxFlow, mas o aplicativo oficial ainda precisa das credenciais/aprovação da plataforma.",
             ["Check integrations"],
+        )
+
+    if any(k in text for k in ["esqueci", "senha", "password", "email", "verificar", "verificação", "recuperar"]):
+        if not ctx["email_delivery_configured"]:
+            return (
+                "O fluxo de verificação e recuperação de senha já está pronto, mas o provedor de e-mail transacional ainda não está configurado. Por isso o VoxFlow não deve afirmar que enviou uma mensagem. Assim que a credencial de e-mail for ativada, os links terão expiração segura.",
+                ["Account security"],
+            )
+        return (
+            "A recuperação de senha e a verificação de e-mail estão ativas. Use Forgot password na tela de login ou Verify email em Account security.",
+            ["Account security"],
+        )
+
+    if any(k in text for k in ["pagamento", "pagar", "mercado pago", "billing", "assinatura", "pix", "cartão", "cartao"]):
+        if not ctx["billing_configured"]:
+            return (
+                "O billing do Mercado Pago já está implementado, mas ainda não existem credenciais de produção no servidor. Nenhuma cobrança real será iniciada até essa configuração ser feita.",
+                ["View pricing"],
+            )
+        return (
+            "O Mercado Pago está configurado. Você pode usar assinatura mensal ou checkout de 30 dias no painel Billing & plan. O plano só é liberado após confirmação autenticada do webhook.",
+            ["View pricing"],
+        )
+
+    if any(k in text for k in ["worker", "fila", "render não", "render nao", "renderização", "renderizacao"]):
+        if not ctx["storage_configured"]:
+            return (
+                "O motor WildVox v2, a fila e o worker já estão preparados, mas o storage S3/R2 ainda não está configurado. O VoxFlow não enfileira um render real sem worker/storage disponíveis, evitando jobs presos.",
+                ["Check automation"],
+            )
+        return (
+            "A produção usa fila isolada do site. Confira Production engine para saber se o render worker está online e se o job está queued, rendering, completed ou failed.",
+            ["Check automation"],
         )
 
     if any(k in text for k in ["preço", "preco", "plano", "starter", "creator", "pro", "limite", "mensal"]):
