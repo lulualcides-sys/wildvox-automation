@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 import argparse
+import hashlib
 import json
 import math
 import re
 import subprocess
+from urllib.parse import urlsplit, urlunsplit
 from pathlib import Path
 
 import numpy as np
@@ -135,45 +137,147 @@ Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
     ass.write_text(header + "\n".join(events) + "\n", encoding="utf-8")
     return ass
 
+def canonical_url(url):
+    parts = urlsplit(url)
+    # Ignore query strings when deduplicating media URLs. This catches the same
+    # Pexels/Wikimedia asset with different download parameters.
+    return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path, "", ""))
+
+def file_sha256(path):
+    h = hashlib.sha256()
+    with path.open("rb") as fh:
+        for chunk in iter(lambda: fh.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+def interleave_video_first(videos, images):
+    """Keep motion dominant without grouping all still images together."""
+    if not images:
+        return list(videos)
+    if not videos:
+        return list(images)
+
+    ordered = []
+    vi = ii = 0
+    # Prefer roughly three video assets for every still whenever possible.
+    while vi < len(videos) or ii < len(images):
+        for _ in range(3):
+            if vi < len(videos):
+                ordered.append(videos[vi])
+                vi += 1
+        if ii < len(images):
+            ordered.append(images[ii])
+            ii += 1
+        if vi >= len(videos):
+            while ii < len(images):
+                ordered.append(images[ii])
+                ii += 1
+    return ordered
+
 def build_visual(sources, key, duration):
-    local = []
-    for idx, source in enumerate(sources):
+    # URL-level dedupe before downloading.
+    unique_sources = []
+    seen_urls = set()
+    for source in sources:
         if isinstance(source, str):
             source = {"url": source, "type": "video"}
+        source = dict(source)
+        url = source["url"]
+        canon = canonical_url(url)
+        if canon in seen_urls:
+            print(f"Skipping duplicate source URL: {url}", flush=True)
+            continue
+        seen_urls.add(canon)
+        unique_sources.append(source)
+
+    # Download and byte-level dedupe. Different URLs sometimes point to the
+    # exact same media, so hashing prevents identical clips/images from appearing.
+    videos = []
+    images = []
+    seen_hashes = set()
+    for idx, source in enumerate(unique_sources):
         media_type = source.get("type", "video")
         ext = ".jpg" if media_type == "image" else ".mp4"
         p = WORK / f"{key}_source_{idx}{ext}"
         safe_download(source["url"], p)
-        local.append((p, media_type))
+        digest = file_sha256(p)
+        if digest in seen_hashes:
+            print(f"Skipping duplicate media bytes: {source['url']}", flush=True)
+            continue
+        seen_hashes.add(digest)
+        item = (p, media_type, source)
+        if media_type == "video":
+            videos.append(item)
+        else:
+            images.append(item)
 
-    # 8–12 distinct assets are preferred. We cut frequently rather than using aggressive zoom.
-    shot_len = 2.85
-    nshots = math.ceil(duration / shot_len)
+    local = interleave_video_first(videos, images)
+    if not local:
+        raise RuntimeError("No unique media sources available")
+
+    print(
+        f"Unique media for {key}: {len(videos)} video(s), {len(images)} image(s). "
+        "Each asset will be used at most once. No synthetic zoom.",
+        flush=True,
+    )
+
+    # Never cycle back to a source. One source = one shot. The shot duration is
+    # spread across the available unique assets, so the same clip/image is not
+    # repeated to fill the narration.
+    nshots = len(local)
+    base_shot_len = duration / nshots
     shots = []
 
-    for i in range(nshots):
-        src, media_type = local[i % len(local)]
+    for i, (src, media_type, _source_meta) in enumerate(local):
+        remaining = max(0.05, duration - (i * base_shot_len))
+        shot_len = remaining if i == nshots - 1 else base_shot_len
         out = WORK / f"{key}_shot_{i:02d}.mp4"
+
+        # No zoompan, no animated scaling and no crop on the foreground.
+        # Media is fitted once to the 9:16 canvas and padded.
+        vf = (
+            "scale=1080:1920:force_original_aspect_ratio=decrease,"
+            "pad=1080:1920:(ow-iw)/2:(oh-ih)/2:black,setsar=1,fps=30"
+        )
+
         if media_type == "image":
             run([
                 "ffmpeg","-y","-hide_banner","-loglevel","error",
-                "-loop","1","-i",str(src),"-t",f"{shot_len:.2f}","-an",
-                "-vf","split=2[bg][fg];[bg]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=28[bg];[fg]scale=1080:1920:force_original_aspect_ratio=decrease[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1,fps=30",
+                "-loop","1","-i",str(src),"-t",f"{shot_len:.3f}","-an",
+                "-vf",vf,
                 "-c:v","libx264","-preset","veryfast","-crf","20",
                 "-pix_fmt","yuv420p",str(out)
             ])
         else:
             srcdur = max(0.1, probe_duration(src))
-            maxstart = max(0.0, srcdur - shot_len - 0.05)
-            start = 0.0 if maxstart <= 0 else (i * 2.31) % maxstart
+            # Use one continuous, non-looping section from this clip.
+            playable = min(shot_len, srcdur)
+            maxstart = max(0.0, srcdur - playable)
+            # Deterministic offset gives variety without reusing the same clip.
+            start = 0.0 if maxstart <= 0 else ((i + 1) * 1.73) % maxstart
             run([
                 "ffmpeg","-y","-hide_banner","-loglevel","error",
-                "-stream_loop","-1","-ss",f"{start:.2f}","-i",str(src),
-                "-t",f"{shot_len:.2f}","-an",
-                "-vf","split=2[bg][fg];[bg]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=28[bg];[fg]scale=1080:1920:force_original_aspect_ratio=decrease[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1,fps=30",
+                "-ss",f"{start:.3f}","-i",str(src),
+                "-t",f"{playable:.3f}","-an",
+                "-vf",vf,
                 "-c:v","libx264","-preset","veryfast","-crf","20",
                 "-pix_fmt","yuv420p",str(out)
             ])
+
+            # If a source clip is shorter than its assigned slot, freeze its last
+            # frame rather than looping/repeating the video.
+            if playable + 0.05 < shot_len:
+                padded = WORK / f"{key}_shot_{i:02d}_padded.mp4"
+                run([
+                    "ffmpeg","-y","-hide_banner","-loglevel","error",
+                    "-i",str(out),
+                    "-vf",f"tpad=stop_mode=clone:stop_duration={shot_len-playable:.3f}",
+                    "-t",f"{shot_len:.3f}",
+                    "-c:v","libx264","-preset","veryfast","-crf","20",
+                    "-pix_fmt","yuv420p",str(padded)
+                ])
+                padded.replace(out)
+
         shots.append(out)
 
     concat = WORK / f"{key}_concat.txt"
