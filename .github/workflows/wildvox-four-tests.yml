@@ -1,0 +1,72 @@
+name: WildVox Four Test Videos
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/wildvox-four-tests.yml"
+      - "scripts/generate_video.py"
+      - "configs/test_batch.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    strategy:
+      fail-fast: false
+      matrix:
+        animal: [owl, shark, chameleon, frog]
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y espeak-ng ffmpeg curl fonts-dejavu-core
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "kokoro>=0.9.4" soundfile numpy
+      - name: Render ${{ matrix.animal }}
+        run: python scripts/generate_video.py --key "${{ matrix.animal }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: wildvox-${{ matrix.animal }}
+          path: |
+            output/${{ matrix.animal }}.mp4
+            output/${{ matrix.animal }}_michael.mp3
+            output/${{ matrix.animal }}_captions.ass
+            output/${{ matrix.animal }}_meta.json
+          retention-days: 1
+
+  publish-media:
+    needs: render
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: wildvox-*
+          path: public
+          merge-multiple: true
+      - name: Publish latest media branch
+        run: |
+          git config user.name "wildvox-bot"
+          git config user.email "actions@users.noreply.github.com"
+          mkdir /tmp/wildvox-public
+          cp public/*.mp4 /tmp/wildvox-public/
+          cp public/*_meta.json /tmp/wildvox-public/
+          git checkout --orphan media
+          git rm -rf . || true
+          cp /tmp/wildvox-public/* .
+          git add .
+          git commit -m "Publish latest WildVox test videos"
+          git push --force origin media
