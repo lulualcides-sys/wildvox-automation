@@ -52,7 +52,8 @@ a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:
   <main class="main"><div class="topbar"><div><small class="muted" id="accountLine">Workspace</small><h2 style="margin:4px 0" id="hello">Welcome 👋</h2></div><div><button class="btn btn-secondary" onclick="logout()">Log out</button> <button class="btn btn-primary" onclick="openWizard()">+ Create channel</button></div></div>
     <div class="dashgrid"><div class="stat"><small>Videos today</small><strong>0</strong></div><div class="stat"><small>Published</small><strong>0</strong></div><div class="stat"><small>Total views</small><strong>0</strong></div><div class="stat"><small>Automation health</small><strong style="color:var(--good)">Ready</strong></div></div>
     <div class="panel"><div style="display:flex;justify-content:space-between;align-items:center"><div><h3 style="margin:0">My channels</h3><small class="muted">Private to your account.</small></div><span class="status" id="planBadge">FREE</span></div><div id="channelList" style="margin-top:12px"><span class="muted">No channels yet. Create your first one.</span></div></div>
-    <div class="panel"><h3>Production</h3><p class="muted">Your videos, schedules and performance will appear here after you launch an automation.</p><button class="btn btn-primary" onclick="openWizard()">Create your first channel</button></div>
+    <div class="panel"><h3>Automation status</h3><p class="muted">Live health of the core VoxFlow services for your account.</p><div id="healthGrid" class="grid4" style="margin-top:14px"><div class="stat"><small>Checking</small><strong style="font-size:18px">...</strong></div></div><div class="mini" id="healthChecked">Waiting for status check.</div></div>
+<div class="panel"><h3>Production</h3><p class="muted">Your videos, schedules and performance will appear here after you launch an automation.</p><button class="btn btn-primary" onclick="openWizard()">Create your first channel</button></div>
   </main>
 </div>
 
@@ -129,6 +130,7 @@ async function openDashboard(){
     document.getElementById('accountLine').textContent=currentUser.email;
     document.getElementById('planBadge').textContent=(currentUser.plan||'free').toUpperCase();
     await loadChannels();
+    await loadSystemStatus();
     window.scrollTo(0,0);
   }catch(e){openAuth('login')}
 }
@@ -144,6 +146,21 @@ async function logout(){
 }
 function openWizard(){document.getElementById('wizard').classList.add('open')}
 function closeWizard(){document.getElementById('wizard').classList.remove('open')}
+async function loadSystemStatus(){
+  const grid=document.getElementById('healthGrid');
+  const checked=document.getElementById('healthChecked');
+  try{
+    const data=await api('/api/system/status');
+    grid.innerHTML=data.components.map(c => {
+      const ok=(c.status==='operational'||c.status==='ready');
+      return '<div class="stat"><small>'+escapeHtml(c.name)+'</small><strong style="font-size:18px;color:'+(ok?'var(--good)':'var(--warn)')+'">'+escapeHtml(c.status)+'</strong></div>';
+    }).join('');
+    checked.textContent='Last check: '+new Date(data.checked_at).toLocaleString();
+  }catch(e){
+    grid.innerHTML='<div class="stat"><small>System</small><strong style="font-size:18px;color:var(--warn)">attention</strong></div>';
+    checked.textContent='Status check failed.';
+  }
+}
 async function loadChannels(){
   const data=await api('/api/channels');
   const box=document.getElementById('channelList');
