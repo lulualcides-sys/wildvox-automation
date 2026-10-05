@@ -1,7 +1,10 @@
 import json
+import os
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
+
+import httpx
 
 from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
@@ -13,6 +16,8 @@ from .main import Base, Channel, User, current_user, db_session, engine, plan_li
 router = APIRouter(prefix="/api/production", tags=["production"])
 BASE_DIR = Path(__file__).resolve().parent.parent
 PRESETS_PATH = BASE_DIR / "engine" / "presets.json"
+RENDER_WORKER_URL = os.getenv("RENDER_WORKER_URL", "").rstrip("/")
+WORKER_SHARED_SECRET = os.getenv("WORKER_SHARED_SECRET", "")
 
 
 class WorkerHeartbeat(Base):
@@ -60,13 +65,17 @@ def month_start() -> datetime:
 
 
 def worker_online(db: Session) -> bool:
-    hb = db.get(WorkerHeartbeat, "primary-render")
-    if not hb:
+    if not RENDER_WORKER_URL or not WORKER_SHARED_SECRET:
         return False
-    seen = hb.last_seen_at
-    if seen.tzinfo is None:
-        seen = seen.replace(tzinfo=timezone.utc)
-    return (datetime.now(timezone.utc) - seen).total_seconds() < 45
+    try:
+        with httpx.Client(timeout=4) as client:
+            r = client.get(f"{RENDER_WORKER_URL}/health")
+        if r.status_code != 200:
+            return False
+        data = r.json()
+        return bool(data.get("ok") and data.get("storage_ready"))
+    except Exception:
+        return False
 
 def serialize(job: ProductionJob) -> dict:
     return {
@@ -101,7 +110,7 @@ def production_status(user: User = Depends(current_user), db: Session = Depends(
         },
         "worker_required": True,
         "worker_online": worker_online(db),
-        "worker_note": "A dedicated render worker is required for production rendering.",
+        "worker_note": "The renderer runs on demand and can sleep while idle to reduce infrastructure cost.",
     }
 
 
@@ -176,6 +185,28 @@ def queue_preview(
     )
     db.add(job)
     db.commit()
+
+    try:
+        with httpx.Client(timeout=8) as client:
+            r = client.post(
+                f"{RENDER_WORKER_URL}/render/{job.id}",
+                headers={"X-Worker-Secret": WORKER_SHARED_SECRET},
+            )
+        if r.status_code >= 400:
+            job.status = "failed"
+            job.error_message = f"Render worker rejected the job ({r.status_code})"
+            job.updated_at = datetime.now(timezone.utc)
+            db.commit()
+            raise HTTPException(status_code=503, detail="Render worker could not accept the job")
+    except HTTPException:
+        raise
+    except Exception as exc:
+        job.status = "failed"
+        job.error_message = f"Render worker unavailable: {exc}"
+        job.updated_at = datetime.now(timezone.utc)
+        db.commit()
+        raise HTTPException(status_code=503, detail="Render worker is unavailable")
+
     return {"job": serialize(job)}
 
 
