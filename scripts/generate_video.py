@@ -383,6 +383,22 @@ def main():
     cfg = data[args.key]
 
     voice, duration = generate_voice(cfg["script"], args.key)
+
+    min_duration = float(cfg.get("min_duration", 0) or 0)
+    max_duration = float(cfg.get("max_duration", 0) or 0)
+    if min_duration and duration < min_duration:
+        raise RuntimeError(
+            f"{args.key} narration is too short: {duration:.2f}s. "
+            f"Minimum required duration is {min_duration:.2f}s. "
+            "Expand the script before publishing."
+        )
+    if max_duration and duration > max_duration:
+        raise RuntimeError(
+            f"{args.key} narration is too long: {duration:.2f}s. "
+            f"Maximum allowed duration is {max_duration:.2f}s. "
+            "Tighten the script before publishing."
+        )
+
     ass = make_ass(cfg["script"], cfg["title"], args.key, duration)
     visual = build_visual(
         cfg["sources"],
