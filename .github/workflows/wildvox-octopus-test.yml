@@ -1,0 +1,58 @@
+name: WildVox Octopus Michael Test
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/wildvox-octopus-test.yml"
+      - "scripts/generate_octopus_test.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-test-video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y espeak-ng ffmpeg curl fonts-dejavu-core
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install "kokoro>=0.9.4" soundfile numpy
+
+      - name: Generate Michael voice and render video
+        run: |
+          python scripts/generate_octopus_test.py
+
+      - name: List outputs
+        if: always()
+        run: |
+          find output -maxdepth 1 -type f -printf "%f %s bytes\n" || true
+
+      - name: Upload final MP4 and audio
+        uses: actions/upload-artifact@v4
+        with:
+          name: wildvox-octopus-michael-test
+          path: |
+            output/wildvox_octopus_michael_test.mp4
+            output/wildvox_michael.mp3
+            output/wildvox_michael.wav
+            output/wildvox_captions.ass
+          if-no-files-found: error
+          retention-days: 7
