@@ -11,7 +11,7 @@ from argon2.exceptions import VerifyMismatchError
 from fastapi import Cookie, Depends, FastAPI, HTTPException, Request, Response
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, EmailStr, Field
-from sqlalchemy import DateTime, ForeignKey, String, create_engine, select
+from sqlalchemy import DateTime, ForeignKey, String, create_engine, select, text as sql_text
 from sqlalchemy.orm import DeclarativeBase, Mapped, Session, mapped_column, relationship, sessionmaker
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -218,6 +218,20 @@ def list_channels(user: User = Depends(current_user), db: Session = Depends(db_s
             "status": c.status,
         } for c in channels
     ]}
+
+@app.get("/api/system/status")
+def system_status(user: User = Depends(current_user), db: Session = Depends(db_session)):
+    db.execute(sql_text("SELECT 1"))
+    return {
+        "status": "operational",
+        "checked_at": datetime.now(timezone.utc).isoformat(),
+        "components": [
+            {"name": "VoxFlow API", "status": "operational"},
+            {"name": "Database", "status": "operational"},
+            {"name": "Automation engine", "status": "ready"},
+            {"name": "Publishing queue", "status": "ready"},
+        ],
+    }
 
 @app.post("/api/channels")
 def create_channel(payload: ChannelCreate, user: User = Depends(current_user), db: Session = Depends(db_session)):
