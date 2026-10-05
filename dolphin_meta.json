@@ -2,17 +2,18 @@
   "key": "dolphin",
   "title": "DOLPHINS CAN SEE WITH SOUND",
   "caption": "Dolphins can map their surroundings with echoes. 🐬\n\n#Dolphin #AnimalFacts #OceanFacts #MarineLife #WildVox",
-  "duration": 23.62,
+  "duration": 34.62,
   "voice": "am_michael",
   "speed": 1.08,
   "sources": [
-    "https://www.pexels.com/download/video/32726985/",
-    "https://www.pexels.com/download/video/4328537/",
-    "https://www.pexels.com/download/video/9700926/",
-    "https://www.pexels.com/download/video/5743313/",
+    "https://www.pexels.com/download/video/5358746/",
+    "https://www.pexels.com/download/video/5084207/",
+    "https://www.pexels.com/download/video/5743316/",
     "https://www.pexels.com/download/video/33926922/",
+    "https://www.pexels.com/download/video/5607990/",
+    "https://www.pexels.com/download/video/5607992/",
     "https://www.pexels.com/download/video/12121501/",
-    "https://www.pexels.com/download/video/12659674/",
     "https://www.pexels.com/download/video/4592360/"
-  ]
+  ],
+  "review_sheet": "dolphin_review.jpg"
 }
