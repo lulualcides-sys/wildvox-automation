@@ -1,7 +1,11 @@
-from fastapi import FastAPI
-from pydantic import BaseModel
+from pathlib import Path
 from typing import Literal
 
+from fastapi import FastAPI
+from fastapi.responses import FileResponse
+from pydantic import BaseModel
+
+BASE_DIR = Path(__file__).resolve().parent.parent
 app = FastAPI(title="VoxFlow AI API", version="0.1.0")
 
 class ChannelCreate(BaseModel):
@@ -10,6 +14,10 @@ class ChannelCreate(BaseModel):
     language: str = "en-US"
     videos_per_day: int = 3
     platform: Literal["tiktok", "instagram", "youtube"] = "tiktok"
+
+@app.get("/", include_in_schema=False)
+def web_app():
+    return FileResponse(BASE_DIR / "index.html")
 
 @app.get("/health")
 def health():
