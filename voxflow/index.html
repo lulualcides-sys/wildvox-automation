@@ -157,17 +157,21 @@ let pendingPlan=null;
 let resetToken=null;
 
 async function api(path, options={}){
-  const res=await fetch(path,{credentials:'same-origin',headers:{'Content-Type':'application/json',...(options.headers||{})},...options});
+  const opts={credentials:'same-origin',...options};
+  opts.headers={'Content-Type':'application/json',...(options.headers||{})};
+  const res=await fetch(path,opts);
   let data={};
   try{data=await res.json()}catch(_){}
   if(!res.ok) throw new Error(data.detail||'Something went wrong');
   return data;
 }
-function escapeHtml(v){
+
+function escapeHtml(value){
   const d=document.createElement('div');
-  d.textContent=String(v);
+  d.textContent=String(value??'');
   return d.innerHTML;
 }
+
 function openAuth(mode='register'){
   authMode=mode;
   renderAuth();
@@ -184,6 +188,7 @@ function renderAuth(){
   document.getElementById('forgotLink').style.display=register?'none':'block';
   document.getElementById('authError').style.display='none';
 }
+
 async function submitAuth(){
   const err=document.getElementById('authError');
   err.style.display='none';
@@ -204,6 +209,24 @@ async function submitAuth(){
     err.style.display='block';
   }
 }
+
+async function socialLogin(provider){
+  const err=document.getElementById('authError');
+  try{
+    const data=await api('/api/auth/providers');
+    const p=data.providers.find(function(x){return x.id===provider});
+    if(!p||!p.configured){
+      err.textContent=p?p.label+' login is ready, but developer credentials still need to be connected.':'Provider unavailable.';
+      err.style.display='block';
+      return;
+    }
+    window.location.href='/api/auth/oauth/'+provider;
+  }catch(e){
+    err.textContent=e.message;
+    err.style.display='block';
+  }
+}
+
 async function openDashboard(){
   try{
     const data=await api('/api/auth/me');
@@ -213,85 +236,167 @@ async function openDashboard(){
     document.getElementById('hello').textContent='Hello, '+currentUser.name+' 👋';
     document.getElementById('accountLine').textContent=currentUser.email;
     document.getElementById('planBadge').textContent=(currentUser.plan||'free').toUpperCase();
+
     await loadChannels();
-    await loadOnboarding();
-    await loadUsage();
-    await loadBilling();
-    await loadSecurity();
-    await loadProduction();
-    await loadSystemStatus();
-    await loadIntegrations();
-    await loadSupportHistory();
+    await Promise.all([
+      loadOnboarding(),
+      loadUsage(),
+      loadBilling(),
+      loadSecurity(),
+      loadProduction(),
+      loadSystemStatus(),
+      loadIntegrations(),
+      loadSupportHistory()
+    ]);
     window.scrollTo(0,0);
+
     if(pendingPlan){
       const plan=pendingPlan;
       pendingPlan=null;
       await checkoutPlan(plan,'subscribe');
     }
-  }catch(e){openAuth('login')}
+  }catch(e){
+    openAuth('login');
+  }
 }
+
 function backHome(){
   document.getElementById('app').classList.remove('active');
   document.getElementById('landing').classList.remove('hidden');
+  document.getElementById('supportChat').classList.remove('open');
   window.scrollTo(0,0);
 }
+
 async function logout(){
   try{await api('/api/auth/logout',{method:'POST'});}catch(_){}
   currentUser=null;
   backHome();
 }
+
 function openWizard(){document.getElementById('wizard').classList.add('open')}
 function closeWizard(){document.getElementById('wizard').classList.remove('open')}
-async function socialLogin(provider){
-  const err=document.getElementById('authError');
-  try{
-    const data=await api('/api/auth/providers');
-    const p=data.providers.find(x=>x.id===provider);
-    if(!p || !p.configured){
-      err.textContent=p ? p.label+' login is ready, but its developer credentials still need to be connected.' : 'Provider unavailable.';
-      err.style.display='block';
-      return;
-    }
-    window.location.href='/api/auth/oauth/'+provider;
-  }catch(e){err.textContent=e.message;err.style.display='block'}
+
+function openForgot(){
+  closeAuth();
+  document.getElementById('forgotModal').classList.add('open');
 }
-function openForgot(){closeAuth();document.getElementById('forgotModal').classList.add('open')}
 function closeForgot(){document.getElementById('forgotModal').classList.remove('open')}
+
 async function sendForgot(){
   const email=document.getElementById('forgotEmail').value.trim();
   const out=document.getElementById('forgotResult');
+  out.textContent='Sending...';
   try{
     const data=await api('/api/auth/forgot-password',{method:'POST',body:JSON.stringify({email})});
     out.textContent=data.configured?data.message:'Recovery is built, but transactional email delivery still needs provider credentials.';
-  }catch(e){out.textContent=e.message}
+  }catch(e){
+    out.textContent=e.message;
+  }
 }
+
 async function submitReset(){
   const password=document.getElementById('resetPasswordInput').value;
   const out=document.getElementById('resetResult');
+  out.textContent='Updating...';
   try{
     await api('/api/auth/reset-password',{method:'POST',body:JSON.stringify({token:resetToken,password})});
     out.textContent='Password updated. You can sign in now.';
-    setTimeout(()=>{document.getElementById('resetModal').classList.remove('open');openAuth('login')},900);
-  }catch(e){out.textContent=e.message}
+    history.replaceState({},'',window.location.pathname);
+    setTimeout(function(){
+      document.getElementById('resetModal').classList.remove('open');
+      openAuth('login');
+    },900);
+  }catch(e){
+    out.textContent=e.message;
+  }
 }
+
+async function loadChannels(){
+  const data=await api('/api/channels');
+  channelCache=data.channels||[];
+  const box=document.getElementById('channelList');
+  if(!channelCache.length){
+    box.innerHTML='<span class="muted">No channels yet. Create your first one.</span>';
+    return;
+  }
+  box.innerHTML=channelCache.map(function(c){
+    return '<div class="video"><div><strong>'+escapeHtml(c.name)+'</strong><div class="muted" style="font-size:12px;margin-top:3px">'+escapeHtml(c.niche)+' • '+escapeHtml(c.language)+' • '+escapeHtml(c.platform)+'</div></div><span class="pill">'+escapeHtml(c.status)+'</span></div>';
+  }).join('');
+}
+
+async function launchChannel(){
+  const name=document.getElementById('channelName').value.trim();
+  if(!name){alert('Enter a channel name.');return}
+  const payload={
+    name,
+    niche:document.getElementById('channelNiche').value,
+    language:document.getElementById('channelLanguage').value,
+    videos_per_day:Number(document.getElementById('channelVideos').value),
+    platform:document.getElementById('channelPlatform').value
+  };
+  try{
+    await api('/api/channels',{method:'POST',body:JSON.stringify(payload)});
+    closeWizard();
+    document.getElementById('channelName').value='';
+    await loadChannels();
+    await Promise.all([loadOnboarding(),loadUsage(),loadProduction()]);
+  }catch(e){
+    alert(e.message);
+  }
+}
+
+async function loadOnboarding(){
+  const box=document.getElementById('quickSteps');
+  const badge=document.getElementById('quickProgress');
+  try{
+    const data=await api('/api/onboarding');
+    badge.textContent=data.completed+'/'+data.total;
+    box.innerHTML=data.steps.map(function(s){
+      let action='';
+      if(s.id==='google'&&!s.done) action='<button class="btn btn-secondary" onclick="socialLogin(\'google\')">Use Google</button>';
+      if(s.id==='youtube'&&!s.done) action='<button class="btn btn-primary" onclick="connectPlatform(\'youtube\')">Connect YouTube</button>';
+      if(s.id==='channel'&&!s.done) action='<button class="btn btn-secondary" onclick="openWizard()">Create channel</button>';
+      return '<div class="quickstep"><div class="left"><span class="check '+(s.done?'done':'')+'">'+(s.done?'✓':'•')+'</span><div><strong>'+escapeHtml(s.label)+'</strong>'+(s.optional?'<div class="muted" style="font-size:11px">Optional during preview</div>':'')+'</div></div>'+action+'</div>';
+    }).join('');
+  }catch(e){
+    box.innerHTML='<div class="quickstep"><span class="muted">'+escapeHtml(e.message)+'</span></div>';
+  }
+}
+
+async function loadUsage(){
+  try{
+    const data=await api('/api/account/usage');
+    const used=data.channels.used;
+    const limit=data.channels.limit;
+    document.getElementById('usageLabel').textContent=(data.plan||'free').toUpperCase()+' plan · '+used+'/'+limit+' channel slots used · '+data.videos_per_month_limit+' videos/month';
+    document.getElementById('usageFill').style.width=Math.min(100,(used/Math.max(1,limit))*100)+'%';
+  }catch(e){
+    document.getElementById('usageLabel').textContent='Usage unavailable';
+  }
+}
+
 async function loadSecurity(){
   try{
     const data=await api('/api/account/security-status');
-    const text=document.getElementById('emailSecurityText');
+    const label=document.getElementById('emailSecurityText');
     const btn=document.getElementById('verifyEmailBtn');
     if(data.email_verified){
-      text.textContent='Verified email. Recovery features can trust this address.';
+      label.textContent='Verified email. Recovery features can trust this address.';
       btn.style.display='none';
     }else if(data.email_delivery_configured){
-      text.textContent='Not verified yet. Send a 24-hour verification link.';
+      label.textContent='Not verified yet. Send a secure 24-hour verification link.';
       btn.style.display='inline-block';
+      btn.disabled=false;
+      btn.textContent='Verify email';
     }else{
-      text.textContent='Verification flow is ready; transactional email credentials still need activation.';
+      label.textContent='Verification flow is ready; transactional email credentials still need activation.';
       btn.style.display='inline-block';
+      btn.disabled=true;
       btn.textContent='Email setup pending';
     }
-  }catch(e){}
+  }catch(_){}
 }
+
 async function requestVerification(){
   try{
     const data=await api('/api/account/send-verification',{method:'POST'});
@@ -299,8 +404,11 @@ async function requestVerification(){
     else if(data.configured) alert('Verification email sent.');
     else alert(data.detail||'Email delivery is not configured yet.');
     await loadSecurity();
-  }catch(e){alert(e.message)}
+  }catch(e){
+    alert(e.message);
+  }
 }
+
 function choosePlan(plan){
   if(!currentUser){
     pendingPlan=plan;
@@ -309,40 +417,158 @@ function choosePlan(plan){
   }
   checkoutPlan(plan,'subscribe');
 }
+
 async function loadBilling(){
   const grid=document.getElementById('billingGrid');
   try{
-    const [plans,status]=await Promise.all([api('/api/billing/plans'),api('/api/billing/status')]);
+    const values=await Promise.all([api('/api/billing/plans'),api('/api/billing/status')]);
+    const plans=values[0];
+    const status=values[1];
     document.getElementById('billingProvider').textContent=plans.configured?'Mercado Pago ready':'Preview · no charges';
-    grid.innerHTML=plans.plans.map(p=>{
-      const current=(status.plan===p.id);
-      return '<div class="billingcard '+(current?'current':'')+'"><span class="tiny">'+(current?'CURRENT PLAN':'MONTHLY')+'</span><strong>'+escapeHtml(p.name)+' · R
-  const box=document.getElementById('quickSteps');
-  const badge=document.getElementById('quickProgress');
+
+    grid.innerHTML=plans.plans.map(function(p){
+      const current=status.plan===p.id;
+      const price='R$'+Number(p.amount).toFixed(2).replace('.',',');
+      const subscribe=current
+        ? '<button class="btn btn-secondary" style="width:100%;margin-top:10px" disabled>Current plan</button>'
+        : '<button class="btn '+(p.id==='creator'?'btn-primary':'btn-secondary')+'" style="width:100%;margin-top:10px" onclick="checkoutPlan(\''+p.id+'\',\'subscribe\')">Subscribe</button>';
+      const oneMonth='<button class="btn btn-secondary" style="width:100%;margin-top:7px" onclick="checkoutPlan(\''+p.id+'\',\'month\')">Pay 30 days</button>';
+      return '<div class="billingcard '+(current?'current':'')+'"><span class="tiny">'+(current?'CURRENT PLAN':'MONTHLY')+'</span><strong>'+escapeHtml(p.name)+' · '+price+'</strong><div class="muted" style="font-size:13px;min-height:54px">'+escapeHtml(p.summary)+'</div>'+subscribe+oneMonth+'</div>';
+    }).join('');
+
+    const s=status.subscription;
+    document.getElementById('billingSubscription').textContent=s
+      ? 'Subscription: '+s.plan+' · '+s.status+' · '+s.mode
+      : 'No paid subscription yet.';
+  }catch(e){
+    grid.innerHTML='<div class="billingcard"><span class="muted">'+escapeHtml(e.message)+'</span></div>';
+  }
+}
+
+async function checkoutPlan(plan,mode){
+  if(!currentUser){
+    pendingPlan=plan;
+    openAuth('register');
+    return;
+  }
   try{
-    const data=await api('/api/onboarding');
-    badge.textContent=data.completed+'/'+data.total;
-    box.innerHTML=data.steps.map(s=>{
-      let action='';
-      if(s.id==='google' && !s.done) action='<button class="btn btn-secondary" onclick="socialLogin(\'google\')">Use Google</button>';
-      if(s.id==='youtube' && !s.done) action='<button class="btn btn-primary" onclick="connectPlatform(\'youtube\')">Connect YouTube</button>';
-      if(s.id==='channel' && !s.done) action='<button class="btn btn-secondary" onclick="openWizard()">Create channel</button>';
-      return '<div class="quickstep"><div class="left"><span class="check '+(s.done?'done':'')+'">'+(s.done?'✓':'•')+'</span><div><strong>'+escapeHtml(s.label)+'</strong>'+(s.optional?'<div class="muted" style="font-size:11px">Optional during preview</div>':'')+'</div></div>'+action+'</div>';
+    const path=mode==='month'?'/api/billing/pay-month/'+plan:'/api/billing/subscribe/'+plan;
+    const data=await api(path,{method:'POST'});
+    if(data.checkout_url) window.location.href=data.checkout_url;
+  }catch(e){
+    alert(e.message);
+  }
+}
+
+async function loadProduction(){
+  const badge=document.getElementById('workerBadge');
+  const note=document.getElementById('productionNote');
+  const jobs=document.getElementById('productionJobs');
+  const btn=document.getElementById('previewBtn');
+  try{
+    const values=await Promise.all([api('/api/production/status'),api('/api/production/jobs')]);
+    const status=values[0];
+    const data=values[1];
+    const online=!!status.worker_online;
+    badge.textContent=online?'Render worker online':'Render worker offline';
+    badge.className=online?'status':'pill';
+    btn.disabled=!online;
+    btn.style.opacity=online?'1':'.55';
+    note.textContent=online
+      ? 'WildVox v2 is ready to render queued jobs.'
+      : 'Queue and worker code are ready. The dedicated worker is intentionally not running yet to avoid extra infrastructure cost.';
+
+    if(!data.jobs.length){
+      jobs.innerHTML='<span class="muted">No production jobs yet.</span>';
+      return;
+    }
+    jobs.innerHTML=data.jobs.map(function(j){
+      const result=j.output_url
+        ? '<a href="'+escapeHtml(j.output_url)+'" target="_blank" rel="noopener">Open video</a>'
+        : '<span class="tiny">'+escapeHtml(j.error_message||'—').slice(0,80)+'</span>';
+      return '<div class="jobrow"><div><strong>'+escapeHtml(j.topic)+'</strong><div class="tiny">'+escapeHtml(j.engine)+'</div></div><span class="pill">'+escapeHtml(j.status)+'</span><div>'+result+'</div></div>';
     }).join('');
   }catch(e){
-    box.innerHTML='<div class="quickstep"><span class="muted">'+escapeHtml(e.message)+'</span></div>';
+    badge.textContent='Unavailable';
+    note.textContent=e.message;
+    btn.disabled=true;
   }
 }
-async function loadUsage(){
+
+async function queuePreview(){
+  if(!channelCache.length){
+    openWizard();
+    return;
+  }
   try{
-    const data=await api('/api/account/usage');
-    const used=data.channels.used, limit=data.channels.limit;
-    document.getElementById('usageLabel').textContent=(data.plan||'free').toUpperCase()+' plan · '+used+'/'+limit+' channel slots used · '+data.videos_per_month_limit+' video allowance';
-    document.getElementById('usageFill').style.width=Math.min(100,(used/Math.max(1,limit))*100)+'%';
+    await api('/api/production/preview',{method:'POST',body:JSON.stringify({channel_id:channelCache[0].id})});
+    await Promise.all([loadProduction(),loadUsage()]);
   }catch(e){
-    document.getElementById('usageLabel').textContent='Usage unavailable';
+    alert(e.message);
   }
 }
+
+async function loadSystemStatus(){
+  const grid=document.getElementById('healthGrid');
+  const checked=document.getElementById('healthChecked');
+  try{
+    const data=await api('/api/system/status');
+    grid.innerHTML=data.components.map(function(c){
+      const ok=c.status==='operational'||c.status==='ready';
+      return '<div class="stat"><small>'+escapeHtml(c.name)+'</small><strong style="font-size:18px;color:'+(ok?'var(--good)':'var(--warn)')+'">'+escapeHtml(c.status)+'</strong></div>';
+    }).join('');
+    checked.textContent='Last check: '+new Date(data.checked_at).toLocaleString();
+  }catch(e){
+    grid.innerHTML='<div class="stat"><small>System</small><strong style="font-size:18px;color:var(--warn)">attention</strong></div>';
+    checked.textContent='Status check failed.';
+  }
+}
+
+async function loadIntegrations(){
+  const grid=document.getElementById('platformGrid');
+  try{
+    const data=await api('/api/integrations');
+    grid.innerHTML=data.providers.map(function(p){
+      const state=p.connected?'Connected':(p.configured?'Ready to connect':'Setup needed');
+      const cls=p.connected?'status':'pill';
+      const rec=p.recommended?'<span class="recommend">RECOMMENDED</span>':'';
+      const info=p.id==='youtube'?'<div class="muted" style="font-size:12px;margin-top:8px">Best first connection for the private preview.</div>':'';
+      const action=p.connected
+        ? '<button class="btn btn-secondary" style="margin-top:10px;width:100%" onclick="disconnectPlatform(\''+p.id+'\')">Disconnect</button>'
+        : '<button class="btn '+(p.id==='youtube'?'btn-primary':'btn-secondary')+'" style="margin-top:10px;width:100%" onclick="connectPlatform(\''+p.id+'\')">'+(p.configured?'Connect':'Setup needed')+'</button>';
+      return '<div class="platformcard"><strong>'+escapeHtml(p.label)+' '+rec+'</strong><span class="'+cls+'">'+escapeHtml(state)+'</span>'+(p.handle?'<div class="muted" style="margin-top:8px">'+escapeHtml(p.handle)+'</div>':'')+info+action+'</div>';
+    }).join('');
+  }catch(e){
+    grid.innerHTML='<div class="platformcard"><strong>Connections unavailable</strong><span class="muted">'+escapeHtml(e.message)+'</span></div>';
+  }
+}
+
+function connectPlatform(provider){
+  window.location.href='/api/integrations/connect/'+provider;
+}
+
+async function disconnectPlatform(provider){
+  if(!confirm('Disconnect '+provider+' from VoxFlow?')) return;
+  try{
+    await api('/api/integrations/'+provider,{method:'DELETE'});
+    await Promise.all([loadIntegrations(),loadOnboarding()]);
+  }catch(e){
+    alert(e.message);
+  }
+}
+
+async function deleteAccount(){
+  if(!confirm('Delete your VoxFlow account? This cannot be undone.')) return;
+  try{
+    await api('/api/account',{method:'DELETE',body:JSON.stringify({confirm:'DELETE'})});
+    currentUser=null;
+    backHome();
+    alert('Account deleted.');
+  }catch(e){
+    alert(e.message);
+  }
+}
+
 function toggleSupport(){
   if(!currentUser){
     openAuth('login');
@@ -350,6 +576,7 @@ function toggleSupport(){
   }
   document.getElementById('supportChat').classList.toggle('open');
 }
+
 function addSupportMessage(role,content){
   const box=document.getElementById('supportMessages');
   const div=document.createElement('div');
@@ -358,24 +585,35 @@ function addSupportMessage(role,content){
   box.appendChild(div);
   box.scrollTop=box.scrollHeight;
 }
+
 function renderSupportActions(actions){
   const chips=document.getElementById('supportChips');
-  if(!actions || !actions.length) return;
-  chips.innerHTML=actions.map(a=>'<button class="support-chip" onclick="askSupport('+JSON.stringify(a).replace(/"/g,'&quot;')+')">'+escapeHtml(a)+'</button>').join('');
+  if(!actions||!actions.length) return;
+  chips.innerHTML='';
+  actions.forEach(function(action){
+    const b=document.createElement('button');
+    b.className='support-chip';
+    b.textContent=action;
+    b.onclick=function(){askSupport(action)};
+    chips.appendChild(b);
+  });
 }
+
 async function loadSupportHistory(){
   try{
     const data=await api('/api/support/history');
     if(!data.messages.length) return;
     const box=document.getElementById('supportMessages');
     box.innerHTML='';
-    data.messages.forEach(m=>addSupportMessage(m.role,m.content));
+    data.messages.forEach(function(m){addSupportMessage(m.role,m.content)});
   }catch(_){}
 }
+
 async function askSupport(text){
   document.getElementById('supportInput').value=text;
   await sendSupport();
 }
+
 async function sendSupport(){
   const input=document.getElementById('supportInput');
   const message=input.value.trim();
@@ -390,93 +628,7 @@ async function sendSupport(){
     addSupportMessage('assistant','Support could not complete the diagnostic: '+e.message);
   }
 }
-async function loadIntegrations(){
-  const grid=document.getElementById('platformGrid');
-  try{
-    const data=await api('/api/integrations');
-    grid.innerHTML=data.providers.map(p=>{
-      const state=p.connected?'Connected':(p.configured?'Ready to connect':'Setup needed');
-      const cls=p.connected?'status':'pill';
-      const rec=p.recommended?'<span class="recommend">RECOMMENDED</span>':'';
-      const info=p.id==='youtube'?'<div class="muted" style="font-size:12px;margin-top:8px">Best first connection for the private preview.</div>':'';
-      const action=p.connected
-        ? '<button class="btn btn-secondary" style="margin-top:10px;width:100%" onclick="disconnectPlatform(\''+p.id+'\')">Disconnect</button>'
-        : '<button class="btn '+(p.id==='youtube'?'btn-primary':'btn-secondary')+'" style="margin-top:10px;width:100%" onclick="connectPlatform(\''+p.id+'\')">'+(p.configured?'Connect':'Setup needed')+'</button>';
-      return '<div class="platformcard"><strong>'+escapeHtml(p.label)+' '+rec+'</strong><span class="'+cls+'">'+escapeHtml(state)+'</span>'+(p.handle?'<div class="muted" style="margin-top:8px">'+escapeHtml(p.handle)+'</div>':'')+info+action+'</div>';
-    }).join('');
-  }catch(e){
-    grid.innerHTML='<div class="platformcard"><strong>Connections unavailable</strong><span class="muted">'+escapeHtml(e.message)+'</span></div>';
-  }
-}
-async function connectPlatform(provider){
-  try{
-    window.location.href='/api/integrations/connect/'+provider;
-  }catch(e){
-    alert(e.message);
-  }
-}
-async function disconnectPlatform(provider){
-  if(!confirm('Disconnect '+provider+' from VoxFlow?')) return;
-  try{
-    await api('/api/integrations/'+provider,{method:'DELETE'});
-    await loadIntegrations();
-    await loadOnboarding();
-  }catch(e){alert(e.message)}
-}
-async function deleteAccount(){
-  if(!confirm('Delete your VoxFlow account? This cannot be undone.')) return;
-  try{
-    await api('/api/account',{method:'DELETE',body:JSON.stringify({confirm:'DELETE'})});
-    currentUser=null;backHome();alert('Account deleted.');
-  }catch(e){alert(e.message)}
-}
-async function loadSystemStatus(){
-  const grid=document.getElementById('healthGrid');
-  const checked=document.getElementById('healthChecked');
-  try{
-    const data=await api('/api/system/status');
-    grid.innerHTML=data.components.map(c => {
-      const ok=(c.status==='operational'||c.status==='ready');
-      return '<div class="stat"><small>'+escapeHtml(c.name)+'</small><strong style="font-size:18px;color:'+(ok?'var(--good)':'var(--warn)')+'">'+escapeHtml(c.status)+'</strong></div>';
-    }).join('');
-    checked.textContent='Last check: '+new Date(data.checked_at).toLocaleString();
-  }catch(e){
-    grid.innerHTML='<div class="stat"><small>System</small><strong style="font-size:18px;color:var(--warn)">attention</strong></div>';
-    checked.textContent='Status check failed.';
-  }
-}
-async function loadChannels(){
-  const data=await api('/api/channels');
-  channelCache=data.channels||[];
-  const box=document.getElementById('channelList');
-  if(!data.channels.length){
-    box.innerHTML='<span class="muted">No channels yet. Create your first one.</span>';
-    return;
-  }
-  box.innerHTML=data.channels.map(c =>
-    '<div class="video"><div><strong>'+escapeHtml(c.name)+'</strong><div class="muted" style="font-size:12px;margin-top:3px">'+escapeHtml(c.niche)+' • '+escapeHtml(c.language)+' • '+escapeHtml(c.platform)+'</div></div><span class="pill">'+escapeHtml(c.status)+'</span></div>'
-  ).join('');
-}
-async function launchChannel(){
-  const name=document.getElementById('channelName').value.trim();
-  if(!name){alert('Enter a channel name.');return}
-  const payload={
-    name:name,
-    niche:document.getElementById('channelNiche').value,
-    language:document.getElementById('channelLanguage').value,
-    videos_per_day:Number(document.getElementById('channelVideos').value),
-    platform:document.getElementById('channelPlatform').value
-  };
-  try{
-    await api('/api/channels',{method:'POST',body:JSON.stringify(payload)});
-    closeWizard();
-    document.getElementById('channelName').value='';
-    await loadChannels();
-    await loadOnboarding();
-    await loadUsage();
-    await loadProduction();
-  }catch(e){alert(e.message)}
-}
+
 window.addEventListener('load',async function(){
   const qs=new URLSearchParams(window.location.search);
   resetToken=qs.get('reset_token');
@@ -485,226 +637,9 @@ window.addEventListener('load',async function(){
     return;
   }
   try{
-    const d=await api('/api/auth/me');
-    currentUser=d.user;
-    if(qs.get('login')==='success' || qs.get('youtube')==='connected' || qs.get('email')==='verified' || qs.get('billing')){
-      history.replaceState({},'',window.location.pathname);
-      await openDashboard();
-    }
-  }catch(_){}
-});
-</script>
-</body></html>+Number(p.amount).toFixed(2).replace('.',',')+'</strong><div class="muted" style="font-size:13px;min-height:54px">'+escapeHtml(p.summary)+'</div><button class="btn '+(p.id==='creator'?'btn-primary':'btn-secondary')+'" style="width:100%;margin-top:10px" '+(current?'disabled':'onclick="checkoutPlan(\''+p.id+'\',\'subscribe\')"')+'>'+(current?'Current plan':'Subscribe')+'</button><button class="btn btn-secondary" style="width:100%;margin-top:7px" onclick="checkoutPlan(\''+p.id+'\',\'month\')">Pay 30 days</button></div>';
-    }).join('');
-    const s=status.subscription;
-    document.getElementById('billingSubscription').textContent=s?('Subscription: '+s.plan+' · '+s.status+' · '+s.mode):'No paid subscription yet.';
-  }catch(e){
-    grid.innerHTML='<div class="billingcard"><span class="muted">'+escapeHtml(e.message)+'</span></div>';
-  }
-}
-async function checkoutPlan(plan,mode){
-  if(!currentUser){pendingPlan=plan;openAuth('register');return}
-  try{
-    const path=mode==='month'?'/api/billing/pay-month/'+plan:'/api/billing/subscribe/'+plan;
-    const data=await api(path,{method:'POST'});
-    if(data.checkout_url) window.location.href=data.checkout_url;
-  }catch(e){alert(e.message)}
-}
-async function loadProduction(){
-  const badge=document.getElementById('workerBadge');
-  const note=document.getElementById('productionNote');
-  const jobs=document.getElementById('productionJobs');
-  const btn=document.getElementById('previewBtn');
-  try{
-    const [status,data]=await Promise.all([api('/api/production/status'),api('/api/production/jobs')]);
-    const online=!!status.worker_online;
-    badge.textContent=online?'Render worker online':'Render worker offline';
-    badge.className=online?'status':'pill';
-    btn.disabled=!online;
-    btn.style.opacity=online?'1':'.55';
-    note.textContent=online?'WildVox v2 engine is ready to render queued jobs.':'Queue and worker code are ready. The dedicated worker is intentionally not running yet to avoid extra infrastructure cost.';
-    if(!data.jobs.length){
-      jobs.innerHTML='<span class="muted">No production jobs yet.</span>';
-      return;
-    }
-    jobs.innerHTML=data.jobs.map(j=>'<div class="jobrow"><div><strong>'+escapeHtml(j.topic)+'</strong><div class="tiny">'+escapeHtml(j.engine)+'</div></div><span class="pill">'+escapeHtml(j.status)+'</span><div>'+(j.output_url?'<a href="'+escapeHtml(j.output_url)+'" target="_blank">Open video</a>':'<span class="tiny">'+(j.error_message?escapeHtml(j.error_message).slice(0,70):'—')+'</span>')+'</div></div>').join('');
-  }catch(e){
-    badge.textContent='Unavailable';
-    note.textContent=e.message;
-  }
-}
-async function queuePreview(){
-  if(!channelCache.length){openWizard();return}
-  try{
-    await api('/api/production/preview',{method:'POST',body:JSON.stringify({channel_id:channelCache[0].id})});
-    await loadProduction();
-    await loadUsage();
-  }catch(e){alert(e.message)}
-}
-async function loadOnboarding(){
-  const box=document.getElementById('quickSteps');
-  const badge=document.getElementById('quickProgress');
-  try{
-    const data=await api('/api/onboarding');
-    badge.textContent=data.completed+'/'+data.total;
-    box.innerHTML=data.steps.map(s=>{
-      let action='';
-      if(s.id==='google' && !s.done) action='<button class="btn btn-secondary" onclick="socialLogin(\'google\')">Use Google</button>';
-      if(s.id==='youtube' && !s.done) action='<button class="btn btn-primary" onclick="connectPlatform(\'youtube\')">Connect YouTube</button>';
-      if(s.id==='channel' && !s.done) action='<button class="btn btn-secondary" onclick="openWizard()">Create channel</button>';
-      return '<div class="quickstep"><div class="left"><span class="check '+(s.done?'done':'')+'">'+(s.done?'✓':'•')+'</span><div><strong>'+escapeHtml(s.label)+'</strong>'+(s.optional?'<div class="muted" style="font-size:11px">Optional during preview</div>':'')+'</div></div>'+action+'</div>';
-    }).join('');
-  }catch(e){
-    box.innerHTML='<div class="quickstep"><span class="muted">'+escapeHtml(e.message)+'</span></div>';
-  }
-}
-async function loadUsage(){
-  try{
-    const data=await api('/api/account/usage');
-    const used=data.channels.used, limit=data.channels.limit;
-    document.getElementById('usageLabel').textContent=(data.plan||'free').toUpperCase()+' plan · '+used+'/'+limit+' channel slots used · '+data.videos_per_month_limit+' video allowance';
-    document.getElementById('usageFill').style.width=Math.min(100,(used/Math.max(1,limit))*100)+'%';
-  }catch(e){
-    document.getElementById('usageLabel').textContent='Usage unavailable';
-  }
-}
-function toggleSupport(){
-  if(!currentUser){
-    openAuth('login');
-    return;
-  }
-  document.getElementById('supportChat').classList.toggle('open');
-}
-function addSupportMessage(role,content){
-  const box=document.getElementById('supportMessages');
-  const div=document.createElement('div');
-  div.className='msg '+role;
-  div.textContent=content;
-  box.appendChild(div);
-  box.scrollTop=box.scrollHeight;
-}
-function renderSupportActions(actions){
-  const chips=document.getElementById('supportChips');
-  if(!actions || !actions.length) return;
-  chips.innerHTML=actions.map(a=>'<button class="support-chip" onclick="askSupport('+JSON.stringify(a).replace(/"/g,'&quot;')+')">'+escapeHtml(a)+'</button>').join('');
-}
-async function loadSupportHistory(){
-  try{
-    const data=await api('/api/support/history');
-    if(!data.messages.length) return;
-    const box=document.getElementById('supportMessages');
-    box.innerHTML='';
-    data.messages.forEach(m=>addSupportMessage(m.role,m.content));
-  }catch(_){}
-}
-async function askSupport(text){
-  document.getElementById('supportInput').value=text;
-  await sendSupport();
-}
-async function sendSupport(){
-  const input=document.getElementById('supportInput');
-  const message=input.value.trim();
-  if(!message) return;
-  input.value='';
-  addSupportMessage('user',message);
-  try{
-    const data=await api('/api/support/chat',{method:'POST',body:JSON.stringify({message})});
-    addSupportMessage('assistant',data.reply);
-    renderSupportActions(data.actions||[]);
-  }catch(e){
-    addSupportMessage('assistant','Support could not complete the diagnostic: '+e.message);
-  }
-}
-async function loadIntegrations(){
-  const grid=document.getElementById('platformGrid');
-  try{
-    const data=await api('/api/integrations');
-    grid.innerHTML=data.providers.map(p=>{
-      const state=p.connected?'Connected':(p.configured?'Ready to connect':'Setup needed');
-      const cls=p.connected?'status':'pill';
-      const rec=p.recommended?'<span class="recommend">RECOMMENDED</span>':'';
-      const info=p.id==='youtube'?'<div class="muted" style="font-size:12px;margin-top:8px">Best first connection for the private preview.</div>':'';
-      const action=p.connected
-        ? '<button class="btn btn-secondary" style="margin-top:10px;width:100%" onclick="disconnectPlatform(\''+p.id+'\')">Disconnect</button>'
-        : '<button class="btn '+(p.id==='youtube'?'btn-primary':'btn-secondary')+'" style="margin-top:10px;width:100%" onclick="connectPlatform(\''+p.id+'\')">'+(p.configured?'Connect':'Setup needed')+'</button>';
-      return '<div class="platformcard"><strong>'+escapeHtml(p.label)+' '+rec+'</strong><span class="'+cls+'">'+escapeHtml(state)+'</span>'+(p.handle?'<div class="muted" style="margin-top:8px">'+escapeHtml(p.handle)+'</div>':'')+info+action+'</div>';
-    }).join('');
-  }catch(e){
-    grid.innerHTML='<div class="platformcard"><strong>Connections unavailable</strong><span class="muted">'+escapeHtml(e.message)+'</span></div>';
-  }
-}
-async function connectPlatform(provider){
-  try{
-    window.location.href='/api/integrations/connect/'+provider;
-  }catch(e){
-    alert(e.message);
-  }
-}
-async function disconnectPlatform(provider){
-  if(!confirm('Disconnect '+provider+' from VoxFlow?')) return;
-  try{
-    await api('/api/integrations/'+provider,{method:'DELETE'});
-    await loadIntegrations();
-    await loadOnboarding();
-  }catch(e){alert(e.message)}
-}
-async function deleteAccount(){
-  if(!confirm('Delete your VoxFlow account? This cannot be undone.')) return;
-  try{
-    await api('/api/account',{method:'DELETE',body:JSON.stringify({confirm:'DELETE'})});
-    currentUser=null;backHome();alert('Account deleted.');
-  }catch(e){alert(e.message)}
-}
-async function loadSystemStatus(){
-  const grid=document.getElementById('healthGrid');
-  const checked=document.getElementById('healthChecked');
-  try{
-    const data=await api('/api/system/status');
-    grid.innerHTML=data.components.map(c => {
-      const ok=(c.status==='operational'||c.status==='ready');
-      return '<div class="stat"><small>'+escapeHtml(c.name)+'</small><strong style="font-size:18px;color:'+(ok?'var(--good)':'var(--warn)')+'">'+escapeHtml(c.status)+'</strong></div>';
-    }).join('');
-    checked.textContent='Last check: '+new Date(data.checked_at).toLocaleString();
-  }catch(e){
-    grid.innerHTML='<div class="stat"><small>System</small><strong style="font-size:18px;color:var(--warn)">attention</strong></div>';
-    checked.textContent='Status check failed.';
-  }
-}
-async function loadChannels(){
-  const data=await api('/api/channels');
-  channelCache=data.channels||[];
-  const box=document.getElementById('channelList');
-  if(!data.channels.length){
-    box.innerHTML='<span class="muted">No channels yet. Create your first one.</span>';
-    return;
-  }
-  box.innerHTML=data.channels.map(c =>
-    '<div class="video"><div><strong>'+escapeHtml(c.name)+'</strong><div class="muted" style="font-size:12px;margin-top:3px">'+escapeHtml(c.niche)+' • '+escapeHtml(c.language)+' • '+escapeHtml(c.platform)+'</div></div><span class="pill">'+escapeHtml(c.status)+'</span></div>'
-  ).join('');
-}
-async function launchChannel(){
-  const name=document.getElementById('channelName').value.trim();
-  if(!name){alert('Enter a channel name.');return}
-  const payload={
-    name:name,
-    niche:document.getElementById('channelNiche').value,
-    language:document.getElementById('channelLanguage').value,
-    videos_per_day:Number(document.getElementById('channelVideos').value),
-    platform:document.getElementById('channelPlatform').value
-  };
-  try{
-    await api('/api/channels',{method:'POST',body:JSON.stringify(payload)});
-    closeWizard();
-    document.getElementById('channelName').value='';
-    await loadChannels();
-  }catch(e){alert(e.message)}
-}
-window.addEventListener('load',async function(){
-  try{
-    const d=await api('/api/auth/me');
-    currentUser=d.user;
-    const qs=new URLSearchParams(window.location.search);
-    if(qs.get('login')==='success' || qs.get('youtube')==='connected'){
+    const data=await api('/api/auth/me');
+    currentUser=data.user;
+    if(qs.get('login')==='success'||qs.get('youtube')==='connected'||qs.get('email')==='verified'||qs.get('billing')){
       history.replaceState({},'',window.location.pathname);
       await openDashboard();
     }
