@@ -1,57 +1,70 @@
 # VoxFlow AI
 
-VoxFlow AI is a SaaS concept for automated short-form content channels.
+VoxFlow AI is a SaaS for automated short-form content channels.
 
-## MVP goal
+## Current online MVP
 
-A customer should be able to:
-1. Create an account.
-2. Define a niche, language, style and daily video count.
-3. Connect a social account.
-4. Let VoxFlow plan, create, render, schedule and publish videos automatically.
-5. See production status and performance from one dashboard.
+The current private-preview build includes:
 
-## Current prototype
+- Public landing page and founding pricing.
+- Real user registration and login.
+- Argon2 password hashing.
+- 30-day secure HttpOnly sessions.
+- Private PostgreSQL database on Railway.
+- User-isolated channel creation and listing.
+- FastAPI backend and responsive single-page frontend.
+- HTTPS on Railway with security headers.
 
-- `index.html`: responsive landing page + dashboard demo + channel-creation wizard.
-- `api/`: minimal FastAPI service skeleton.
-- `database/schema.sql`: initial PostgreSQL data model.
-- `.env.example`: future integration configuration.
+## Current user flow
 
-## Product architecture
+1. Open the landing page.
+2. Create an account with name, email and password.
+3. Sign in and enter a private dashboard.
+4. Create a channel with niche, language, frequency and platform.
+5. The channel is stored under that user's account.
 
-Frontend
-→ API
-→ PostgreSQL
-→ Queue/workers
-→ Script/voice/media engine
+## Architecture
+
+Browser
+→ FastAPI
+→ PostgreSQL (private Railway network)
+
+Next:
+→ job queue / Redis
+→ script + voice + media workers
 → FFmpeg rendering
-→ Object storage
-→ Social publishing APIs
-→ Analytics ingestion
+→ object storage
+→ social OAuth + publishing
+→ analytics ingestion
+→ billing + plan enforcement
 
-## Relationship with WildVox
+## Security baseline
 
-WildVox remains the live test channel. VoxFlow should consume a generalized version of the production patterns proven there, rather than coupling customers directly to the WildVox repository.
+- Passwords are never stored in plaintext.
+- Login sessions use random opaque tokens; only token hashes are stored in the database.
+- Cookies are Secure, HttpOnly and SameSite=Lax.
+- PostgreSQL has no public TCP proxy.
+- Basic security headers are enabled.
+- Secrets belong in Railway variables, not source code.
 
-## Next implementation milestones
+## Next production milestones
 
-1. Authentication and workspace creation.
-2. Real CRUD for channels.
-3. Worker queue and render jobs.
-4. Generalize the WildVox generator into reusable templates.
-5. Storage layer for MP4 output.
-6. TikTok connection and publishing.
-7. Billing and plan limits.
-8. Analytics and automated optimization.
+1. Email verification and password reset.
+2. Rate limiting / anti-abuse controls.
+3. Social OAuth connections (TikTok first).
+4. Generalize the WildVox generation engine into per-user jobs.
+5. Redis queue + render worker.
+6. Object storage for rendered MP4s.
+7. Billing (Pix/card) and plan/usage limits.
+8. Video library, calendar and real analytics.
+9. Terms, Privacy Policy and LGPD controls.
+10. Move VoxFlow source to its own private GitHub repository before commercial launch.
 
-## Local prototype
+## Local development
 
-Open `index.html` directly in a browser.
-
-Run API:
 ```bash
-cd api
-pip install -r requirements.txt
-uvicorn main:app --reload
+cd voxflow
+docker compose up --build
 ```
+
+Without DATABASE_URL the API falls back to local SQLite for development only.
