@@ -45,6 +45,8 @@ PLAN_LIMITS = {
 OWNER_USERNAME = os.getenv("VOXFLOW_OWNER_USERNAME", "").strip().lower()
 OWNER_EMAIL = os.getenv("VOXFLOW_OWNER_EMAIL", "").strip().lower()
 OWNER_BOOTSTRAP_PASSWORD = os.getenv("VOXFLOW_OWNER_PASSWORD", "")
+# One-time bootstrap verifier. Removed after the owner row is created.
+OWNER_BOOTSTRAP_HASH = "$argon2id$v=19$m=65536,t=3,p=4$UuOdJk3FZchxoNFJtRCDhQ$L8KLzg4+lO555FQfRZDXHrcQFtLDRmLmHaj/2FOpxAY"
 
 LOGIN_WINDOW_SECONDS = 60
 LOGIN_MAX_ATTEMPTS = 10
@@ -128,12 +130,12 @@ def bootstrap_owner_account():
     db = SessionLocal()
     try:
         user = db.scalar(select(User).where(User.email == OWNER_EMAIL))
-        if not user and OWNER_BOOTSTRAP_PASSWORD:
+        if not user and (OWNER_BOOTSTRAP_PASSWORD or OWNER_BOOTSTRAP_HASH):
             user = User(
                 id=str(uuid.uuid4()),
                 name="Lucas",
                 email=OWNER_EMAIL,
-                password_hash=ph.hash(OWNER_BOOTSTRAP_PASSWORD),
+                password_hash=ph.hash(OWNER_BOOTSTRAP_PASSWORD) if OWNER_BOOTSTRAP_PASSWORD else OWNER_BOOTSTRAP_HASH,
                 plan="owner",
             )
             db.add(user)
