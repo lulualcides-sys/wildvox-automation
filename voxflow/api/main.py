@@ -40,7 +40,11 @@ PLAN_LIMITS = {
     "starter": {"channels": 1, "videos_per_day": 1, "videos_per_month": 30},
     "creator": {"channels": 2, "videos_per_day": 3, "videos_per_month": 90},
     "pro": {"channels": 3, "videos_per_day": 5, "videos_per_month": 150},
+    "owner": {"channels": 1_000_000, "videos_per_day": 1_000_000, "videos_per_month": 1_000_000_000},
 }
+OWNER_USERNAME = os.getenv("VOXFLOW_OWNER_USERNAME", "").strip().lower()
+OWNER_EMAIL = os.getenv("VOXFLOW_OWNER_EMAIL", "").strip().lower()
+OWNER_BOOTSTRAP_PASSWORD = os.getenv("VOXFLOW_OWNER_PASSWORD", "")
 
 LOGIN_WINDOW_SECONDS = 60
 LOGIN_MAX_ATTEMPTS = 10
@@ -115,7 +119,30 @@ class Channel(Base):
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="VoxFlow AI API", version="0.7.0")
+app = FastAPI(title="VoxFlow AI API", version="0.8.0")
+
+@app.on_event("startup")
+def bootstrap_owner_account():
+    if not OWNER_EMAIL:
+        return
+    db = SessionLocal()
+    try:
+        user = db.scalar(select(User).where(User.email == OWNER_EMAIL))
+        if not user and OWNER_BOOTSTRAP_PASSWORD:
+            user = User(
+                id=str(uuid.uuid4()),
+                name="Lucas",
+                email=OWNER_EMAIL,
+                password_hash=ph.hash(OWNER_BOOTSTRAP_PASSWORD),
+                plan="owner",
+            )
+            db.add(user)
+            db.commit()
+        elif user and user.plan != "owner":
+            user.plan = "owner"
+            db.commit()
+    finally:
+        db.close()
 
 @app.middleware("http")
 async def security_headers(request: Request, call_next):
@@ -138,14 +165,14 @@ class RegisterInput(BaseModel):
     password: str = Field(min_length=8, max_length=128)
 
 class LoginInput(BaseModel):
-    email: EmailStr
+    email: str = Field(min_length=1, max_length=320)
     password: str = Field(min_length=8, max_length=128)
 
 class ChannelCreate(BaseModel):
     name: str = Field(min_length=2, max_length=100)
     niche: str = Field(min_length=2, max_length=100)
     language: str = "en-US"
-    videos_per_day: int = Field(default=1, ge=1, le=10)
+    videos_per_day: int = Field(default=1, ge=1, le=100)
     platform: Literal["tiktok", "instagram", "youtube"] = "tiktok"
 
 class DeleteAccountInput(BaseModel):
@@ -291,7 +318,7 @@ def terms_page():
 
 @app.get("/health")
 def health():
-    return {"ok": True, "service": "voxflow-api", "version": "0.7.0"}
+    return {"ok": True, "service": "voxflow-api", "version": "0.8.0"}
 
 @app.get("/api/auth/providers")
 def auth_providers():
@@ -325,6 +352,8 @@ def register(payload: RegisterInput, response: Response, request: Request, db: S
 def login(payload: LoginInput, response: Response, request: Request, db: Session = Depends(db_session)):
     enforce_auth_rate_limit(request)
     email = str(payload.email).strip().lower()
+    if OWNER_USERNAME and OWNER_EMAIL and email == OWNER_USERNAME:
+        email = OWNER_EMAIL
     user = db.scalar(select(User).where(User.email == email))
     if not user:
         raise HTTPException(status_code=401, detail="Invalid email or password")
@@ -513,9 +542,10 @@ def account_usage(user: User = Depends(current_user), db: Session = Depends(db_s
     channel_count = len(db.scalars(select(Channel).where(Channel.user_id == user.id)).all())
     return {
         "plan": user.plan,
-        "channels": {"used": channel_count, "limit": limits["channels"]},
-        "videos_per_day_limit": limits["videos_per_day"],
-        "videos_per_month_limit": limits["videos_per_month"],
+        "unlimited": user.plan == "owner",
+        "channels": {"used": channel_count, "limit": None if user.plan == "owner" else limits["channels"]},
+        "videos_per_day_limit": None if user.plan == "owner" else limits["videos_per_day"],
+        "videos_per_month_limit": None if user.plan == "owner" else limits["videos_per_month"],
     }
 
 @app.get("/api/integrations/connect/youtube")
