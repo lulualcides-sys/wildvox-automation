@@ -65,6 +65,10 @@ class ResetPasswordInput(BaseModel):
     token: str = Field(min_length=20, max_length=300)
     password: str = Field(min_length=8, max_length=128)
 
+class ChangePasswordInput(BaseModel):
+    current_password: str = Field(min_length=8, max_length=128)
+    new_password: str = Field(min_length=8, max_length=128)
+
 
 def _hash(value: str) -> str:
     return hashlib.sha256(value.encode()).hexdigest()
@@ -183,6 +187,22 @@ def verify_email(token: str, db: Session = Depends(db_session)):
 
     return RedirectResponse((PUBLIC_BASE_URL or "/") + "/?email=verified")
 
+
+@router.post("/account/change-password")
+def change_password(
+    payload: ChangePasswordInput,
+    user: User = Depends(current_user),
+    db: Session = Depends(db_session),
+):
+    try:
+        ph.verify(user.password_hash, payload.current_password)
+    except Exception:
+        raise HTTPException(status_code=401, detail="Current password is incorrect")
+    if payload.current_password == payload.new_password:
+        raise HTTPException(status_code=400, detail="Choose a different new password")
+    user.password_hash = ph.hash(payload.new_password)
+    db.commit()
+    return {"ok": True}
 
 @router.post("/auth/forgot-password")
 def forgot_password(
