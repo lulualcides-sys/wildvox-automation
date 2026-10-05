@@ -18,6 +18,8 @@ WORK = ROOT / "work"
 OUT.mkdir(exist_ok=True)
 WORK.mkdir(exist_ok=True)
 
+FORBIDDEN_KEYS = {"frog", "owl"}
+
 def run(cmd):
     print("+", " ".join(map(str, cmd)), flush=True)
     subprocess.run(cmd, check=True)
@@ -432,6 +434,9 @@ def main():
     ap.add_argument("--key", required=True)
     ap.add_argument("--config", default="configs/test_batch.json")
     args = ap.parse_args()
+
+    if args.key in FORBIDDEN_KEYS:
+        raise RuntimeError(f"{args.key} is blocked from WildVox rendering/publication")
 
     data = json.loads((ROOT / args.config).read_text(encoding="utf-8"))
     cfg = data[args.key]
