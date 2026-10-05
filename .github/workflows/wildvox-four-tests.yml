@@ -48,6 +48,9 @@ jobs:
   publish-media:
     needs: render
     runs-on: ubuntu-latest
+    concurrency:
+      group: wildvox-media-branch
+      cancel-in-progress: false
     permissions:
       contents: write
     steps:
@@ -64,9 +67,9 @@ jobs:
           mkdir /tmp/wildvox-public
           cp public/*.mp4 /tmp/wildvox-public/
           cp public/*_meta.json /tmp/wildvox-public/
-          git checkout --orphan media
-          git rm -rf . || true
+          git fetch origin media
+          git checkout -B media origin/media
           cp /tmp/wildvox-public/* .
           git add .
-          git commit -m "Publish latest WildVox test videos"
-          git push --force origin media
+          git commit -m "Publish latest WildVox test videos" || true
+          git push origin media
