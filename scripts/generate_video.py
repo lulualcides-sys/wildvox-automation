@@ -137,29 +137,43 @@ Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
 
 def build_visual(sources, key, duration):
     local = []
-    for idx, url in enumerate(sources):
-        p = WORK / f"{key}_source_{idx}.mp4"
-        safe_download(url, p)
-        local.append(p)
+    for idx, source in enumerate(sources):
+        if isinstance(source, str):
+            source = {"url": source, "type": "video"}
+        media_type = source.get("type", "video")
+        ext = ".jpg" if media_type == "image" else ".mp4"
+        p = WORK / f"{key}_source_{idx}{ext}"
+        safe_download(source["url"], p)
+        local.append((p, media_type))
 
-    shot_len = 3.10
+    # 8–12 distinct assets are preferred. We cut frequently rather than using aggressive zoom.
+    shot_len = 2.85
     nshots = math.ceil(duration / shot_len)
     shots = []
 
     for i in range(nshots):
-        src = local[i % len(local)]
-        srcdur = max(0.1, probe_duration(src))
-        maxstart = max(0.0, srcdur - shot_len - 0.05)
-        start = 0.0 if maxstart <= 0 else (i * 2.31) % maxstart
+        src, media_type = local[i % len(local)]
         out = WORK / f"{key}_shot_{i:02d}.mp4"
-        run([
-            "ffmpeg","-y","-hide_banner","-loglevel","error",
-            "-stream_loop","-1","-ss",f"{start:.2f}","-i",str(src),
-            "-t",f"{shot_len:.2f}","-an",
-            "-vf","scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30",
-            "-c:v","libx264","-preset","veryfast","-crf","20",
-            "-pix_fmt","yuv420p",str(out)
-        ])
+        if media_type == "image":
+            run([
+                "ffmpeg","-y","-hide_banner","-loglevel","error",
+                "-loop","1","-i",str(src),"-t",f"{shot_len:.2f}","-an",
+                "-vf","scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30",
+                "-c:v","libx264","-preset","veryfast","-crf","20",
+                "-pix_fmt","yuv420p",str(out)
+            ])
+        else:
+            srcdur = max(0.1, probe_duration(src))
+            maxstart = max(0.0, srcdur - shot_len - 0.05)
+            start = 0.0 if maxstart <= 0 else (i * 2.31) % maxstart
+            run([
+                "ffmpeg","-y","-hide_banner","-loglevel","error",
+                "-stream_loop","-1","-ss",f"{start:.2f}","-i",str(src),
+                "-t",f"{shot_len:.2f}","-an",
+                "-vf","scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30",
+                "-c:v","libx264","-preset","veryfast","-crf","20",
+                "-pix_fmt","yuv420p",str(out)
+            ])
         shots.append(out)
 
     concat = WORK / f"{key}_concat.txt"
