@@ -84,7 +84,7 @@ a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:
     <div class="panel"><h3>Automation status</h3><p class="muted">Live health of the core VoxFlow services for your account.</p><div id="healthGrid" class="grid4" style="margin-top:14px"><div class="stat"><small>Checking</small><strong style="font-size:18px">...</strong></div></div><div class="mini" id="healthChecked">Waiting for status check.</div></div>
 <div class="panel"><h3>Connected platforms</h3><p class="muted">Connect the accounts VoxFlow will publish to. OAuth keeps platform passwords out of VoxFlow.</p><div id="platformGrid" class="platformgrid"><div class="platformcard"><strong>Loading...</strong><span class="muted">Checking connections</span></div></div></div>
 <div class="panel" id="billingPanel"><div style="display:flex;justify-content:space-between;gap:12px;align-items:center"><div><h3 style="margin:0">Billing & plan</h3><p class="muted" style="margin:5px 0 0">Mercado Pago integration for monthly subscriptions and 30-day checkout.</p></div><span class="pill" id="billingProvider">Checking</span></div><div id="billingGrid" class="billinggrid"><div class="billingcard"><span class="muted">Loading plans...</span></div></div><div id="billingSubscription" class="mini"></div></div>
-<div class="panel"><h3>Account security</h3><div class="securitygrid"><div class="securityitem"><strong>🔒 Password & session</strong><div class="muted" style="margin-top:5px">Argon2 password hashing + Secure/HttpOnly session cookies.</div></div><div class="securityitem"><strong>🛡️ Login protection</strong><div class="muted" style="margin-top:5px">Rate limiting against repeated sign-in attempts.</div></div><div class="securityitem"><strong>✉️ Email verification</strong><div class="muted" id="emailSecurityText" style="margin:5px 0 10px">Checking...</div><button class="btn btn-secondary" id="verifyEmailBtn" onclick="requestVerification()">Verify email</button></div><div class="securityitem"><strong>🗑️ Account control</strong><div class="muted" style="margin:5px 0 10px">Delete your account and stored account data.</div><button class="btn btn-secondary" onclick="deleteAccount()">Delete account</button></div></div></div>
+<div class="panel"><h3>Account security</h3><div class="securitygrid"><div class="securityitem"><strong>🔒 Password & session</strong><div class="muted" style="margin:5px 0 10px">Argon2 password hashing + Secure/HttpOnly session cookies.</div><button class="btn btn-secondary" onclick="openPasswordChange()">Change password</button></div><div class="securityitem"><strong>🛡️ Login protection</strong><div class="muted" style="margin-top:5px">Rate limiting against repeated sign-in attempts.</div></div><div class="securityitem"><strong>✉️ Email verification</strong><div class="muted" id="emailSecurityText" style="margin:5px 0 10px">Checking...</div><button class="btn btn-secondary" id="verifyEmailBtn" onclick="requestVerification()">Verify email</button></div><div class="securityitem"><strong>🗑️ Account control</strong><div class="muted" style="margin:5px 0 10px">Delete your account and stored account data.</div><button class="btn btn-secondary" onclick="deleteAccount()">Delete account</button></div></div></div>
 <div class="panel"><div style="display:flex;justify-content:space-between;align-items:center;gap:12px"><div><h3 style="margin:0">Production engine</h3><p class="muted" style="margin:5px 0 0">Real WildVox rendering engine, isolated from the web app through a job queue.</p></div><span class="pill" id="workerBadge">Checking worker</span></div><div style="display:flex;gap:9px;flex-wrap:wrap;margin-top:14px"><button class="btn btn-primary" id="previewBtn" onclick="queuePreview()">Generate real preview</button><button class="btn btn-secondary" onclick="loadProduction()">Refresh</button></div><div id="productionNote" class="mini"></div><div id="productionJobs" style="margin-top:12px"><span class="muted">No production jobs yet.</span></div></div>
   </main>
 </div>
@@ -110,6 +110,17 @@ a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:
   </div>
 </div>
 
+
+<div class="wizard" id="passwordModal">
+  <div class="wizardbox" style="max-width:440px">
+    <div style="display:flex;justify-content:space-between;align-items:center"><div><small class="muted">ACCOUNT SECURITY</small><h2>Change password</h2></div><button class="btn btn-secondary" onclick="closePasswordChange()">✕</button></div>
+    <div class="field"><label>Current password</label><input id="currentPassword" type="password"/></div>
+    <div class="field" style="margin-top:12px"><label>New password</label><input id="newPassword" type="password" minlength="8"/></div>
+    <div class="field" style="margin-top:12px"><label>Confirm new password</label><input id="confirmPassword" type="password" minlength="8"/></div>
+    <div id="passwordChangeResult" class="mini"></div>
+    <button class="btn btn-primary" style="width:100%;margin-top:16px" onclick="changePassword()">Update password</button>
+  </div>
+</div>
 <div class="wizard" id="forgotModal">
   <div class="wizardbox" style="max-width:440px">
     <div style="display:flex;justify-content:space-between;align-items:center"><div><small class="muted">ACCOUNT RECOVERY</small><h2>Reset your password</h2></div><button class="btn btn-secondary" onclick="closeForgot()">✕</button></div>
@@ -234,7 +245,7 @@ async function openDashboard(){
     document.getElementById('landing').classList.add('hidden');
     document.getElementById('app').classList.add('active');
     document.getElementById('hello').textContent='Hello, '+currentUser.name+' 👋';
-    document.getElementById('accountLine').textContent=currentUser.email;
+    document.getElementById('accountLine').textContent=currentUser.plan==='owner'?'OWNER · Unlimited':currentUser.email;
     document.getElementById('planBadge').textContent=(currentUser.plan||'free').toUpperCase();
 
     await loadChannels();
@@ -276,6 +287,27 @@ async function logout(){
 function openWizard(){document.getElementById('wizard').classList.add('open')}
 function closeWizard(){document.getElementById('wizard').classList.remove('open')}
 
+function openPasswordChange(){
+  document.getElementById('passwordChangeResult').textContent='';
+  document.getElementById('currentPassword').value='';
+  document.getElementById('newPassword').value='';
+  document.getElementById('confirmPassword').value='';
+  document.getElementById('passwordModal').classList.add('open');
+}
+function closePasswordChange(){document.getElementById('passwordModal').classList.remove('open')}
+async function changePassword(){
+  const current=document.getElementById('currentPassword').value;
+  const next=document.getElementById('newPassword').value;
+  const confirmNext=document.getElementById('confirmPassword').value;
+  const out=document.getElementById('passwordChangeResult');
+  if(next!==confirmNext){out.textContent='New passwords do not match.';return}
+  if(next.length<8){out.textContent='Use at least 8 characters.';return}
+  try{
+    await api('/api/account/change-password',{method:'POST',body:JSON.stringify({current_password:current,new_password:next})});
+    out.textContent='Password changed successfully.';
+    setTimeout(closePasswordChange,800);
+  }catch(e){out.textContent=e.message}
+}
 function openForgot(){
   closeAuth();
   document.getElementById('forgotModal').classList.add('open');
