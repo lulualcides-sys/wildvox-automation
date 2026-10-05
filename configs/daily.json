@@ -1,630 +1,112 @@
 {
-  "axolotl": {
-    "title": "THIS ANIMAL CAN REBUILD ITS OWN LIMBS",
-    "script": "This is an axolotl, a salamander that usually stays aquatic for life instead of completing the typical adult transformation. Those feathery branches behind its head are external gills. But its real superpower is regeneration. After an injury, cells gather into a structure called a blastema, then rebuild complex tissue. An axolotl can regenerate limbs and repair parts of organs without the heavy scarring humans usually produce. Scientists study that process because this small Mexican amphibian may reveal how vertebrate bodies can restart developmental programs after damage.",
+  "frog": {
+    "title": "THIS ANIMAL DRINKS THROUGH ITS SKIN",
+    "script": "Frogs have one of the strangest ways to stay hydrated. Many species absorb water directly through a specialized patch of skin on the belly and thighs instead of drinking through the mouth. Their skin also helps with gas exchange, which is why moisture is so important. A frog's tongue is attached near the front of the mouth and can flip outward in a split second to catch prey. In many species, the eyes can retract downward while swallowing and help push food toward the throat. That means a frog can literally use its eyes to help eat.",
     "sources": [
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/6_maja_06_r._ZOO_204.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Ambystoma mexicanum"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ambystoma_mexicanum_%286337857516%29.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Ambystoma mexicanum"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ambystoma_mexicanum_-_Teresa_Such_Ferrer_%28cropped%29.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Ambystoma mexicanum"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ambystoma_mexicanum_1.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Ambystoma mexicanum"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Ambystoma_mexicanum_at_Vancouver_Aquarium.jpg",
-        "license": "CC BY 3.0",
-        "assetTitle": "Ambystoma mexicanum"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Ambystoma_mexicanum_in_Ouwehands_Dierenpark_01.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Ambystoma mexicanum"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ambystoma_mexicanum_in_Ouwehands_Dierenpark_02.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Ambystoma mexicanum"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Axolotl_%28Ambystoma_mexicanum%29.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Axolotl video"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Axolotl_Ambystoma_mexicanum_Aquarium_Li%C3%A8ge_30012016_1.jpg",
-        "license": "CC0",
-        "assetTitle": "Ambystoma mexicanum"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Axolotl_Ambystoma_mexicanum_Aquarium_Li%C3%A8ge_30012016_2.jpg",
-        "license": "CC0",
-        "assetTitle": "Ambystoma mexicanum"
-      }
+      "https://www.pexels.com/download/video/855631/",
+      "https://www.pexels.com/download/video/854974/",
+      "https://www.pexels.com/download/video/854302/",
+      "https://www.pexels.com/download/video/29960564/"
     ],
-    "caption": "The axolotl can rebuild complex body parts with remarkably little scarring. 🦎✨\n\n#Axolotl #AnimalFacts #WildlifeTok #ScienceTok #NatureFacts #DidYouKnow #WildVox"
+    "caption": "Frogs can absorb water directly through their skin. 🐸\n\n#AnimalFacts #Frog #NatureFacts #WildlifeTok #DidYouKnow #WildVox"
   },
-  "pangolin": {
-    "title": "THE ONLY MAMMAL COVERED IN SCALES",
-    "script": "This is a pangolin, and it is a mammal, not a reptile. Its armor is made of keratin, the same protein found in human fingernails. When threatened, it curls into a tight ball and protects its softer underside with overlapping scales. Pangolins have no teeth. Instead, they raid ant and termite nests with a long, sticky tongue that can exceed the length of the body in some species. That bizarre design works beautifully in nature, yet it has also made pangolins among the animals most threatened by illegal wildlife trade.",
+  "chameleon": {
+    "title": "ITS EYES CAN LOOK IN TWO DIRECTIONS",
+    "script": "A chameleon can watch two parts of the world at the same time. Each eye can move largely independently, scanning for predators and prey without forcing the animal to turn its head. Once it spots a target, both eyes can lock forward to judge distance. Its feet grip branches like tongs, and many species use a prehensile tail as an extra anchor. Color change is not just camouflage either. It can help with communication and temperature control. Then comes the tongue, which can launch farther than the chameleon's own body length in some species.",
     "sources": [
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Indian_pangolin_%28Manis_crassicaudata%29_-_oo_246940_%28cropped_to_A%29.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Indian pangolin"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Manis.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Pangolin"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Manis_crassicaudata_-_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Indian pangolin"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Manis_javanica_101596.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Sunda pangolin"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Manis_javanica_14708922.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Sunda pangolin"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Newborn_male_Chinese_pangolin_%28Manis_pentadactyla%29.jpg",
-        "license": "CC BY 3.0",
-        "assetTitle": "Chinese pangolin"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Pangolin_%28Gir_Forest%2C_Gujarat%2C_India%29.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Indian pangolin"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pangolin_behaviour_%28Manis_crassicaudata%29.png",
-        "license": "CC BY 3.0",
-        "assetTitle": "Indian pangolin behavior"
-      }
+      "https://www.pexels.com/download/video/4815477/",
+      "https://www.pexels.com/download/video/17408065/",
+      "https://www.pexels.com/download/video/18976941/",
+      "https://www.pexels.com/download/video/8838067/"
     ],
-    "caption": "Pangolins are mammals wearing armor made from the same material as your nails. 🛡️\n\n#Pangolin #AnimalFacts #WildlifeConservation #NatureFacts #DidYouKnow #WildlifeTok #WildVox"
+    "caption": "A chameleon's eyes can scan in different directions. 🦎\n\n#AnimalFacts #Chameleon #Reptiles #NatureFacts #WildlifeTok #WildVox"
   },
-  "ogre_faced_spider": {
-    "title": "THIS SPIDER THROWS A NET",
-    "script": "This is an ogre-faced spider, and it does not wait for prey to enter a web. At night, it stretches a small silk net between its front legs, hangs above a hunting lane, then lunges to wrap insects below. Its enormous forward-facing eyes are extremely sensitive in darkness. Even stranger, it can detect airborne sounds through sensory organs on its legs. That lets it flip backward and cast the net at insects flying behind it. By day, the spider hides in plain sight, holding its narrow body like a dead twig.",
+  "shark": {
+    "title": "THIS PREDATOR CAN FEEL ELECTRICITY",
+    "script": "Sharks can detect signals you cannot see, hear, or smell. Around the snout are sensory organs called the ampullae of Lorenzini. They pick up tiny electrical fields produced by the muscles and nerves of other animals. That can help a shark find prey even in dark or murky water. Sharks also have skeletons made mostly of cartilage instead of bone, and their skin is covered with tiny tooth-like scales called dermal denticles. Their teeth are continuously replaced, with new rows moving forward as older teeth are lost.",
     "sources": [
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/..._spider_--_net-casting_spider_..._Deinopis_sp._%286073678732%29.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Deinopis net-casting spider"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/..._spider_--_net-casting_spider_..._Deinopis_sp._%286073686644%29.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Deinopis net-casting spider"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/..._spider_--_net-casting_spider_..._Deinopis_sp._%286073689020%29.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Deinopis net-casting spider"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Deinopis%2C_Net_Casting_Spider%2C_Sydney.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Deinopis net-casting spider"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Deinopis_guianensis_67742195.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Deinopis guianensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Deinopis_madagascariensis_2399440.jpg",
-        "license": "CC0",
-        "assetTitle": "Deinopis madagascariensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Deinopis_sp._%2832321889190%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Deinopis spider"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Deinopis_spinosa.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Deinopis spinosa"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Deinopis_subrufa_%281%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Deinopis subrufa"
-      }
+      "https://www.pexels.com/download/video/5968033/",
+      "https://www.pexels.com/download/video/7997336/",
+      "https://www.pexels.com/download/video/5712941/",
+      "https://www.pexels.com/download/video/5548359/"
     ],
-    "caption": "This spider holds a web in its hands and throws it at prey. 🕷️🕸️\n\n#OgreFacedSpider #SpiderFacts #AnimalFacts #WildlifeTok #NatureFacts #DidYouKnow #WildVox"
+    "caption": "Sharks can detect electrical signals from other animals. 🦈\n\n#AnimalFacts #Shark #OceanFacts #MarineLife #WildVox"
   },
-  "reef_stonefish": {
-    "title": "THE OCEAN FLOOR HAS A VENOMOUS TRAP",
-    "script": "This is a reef stonefish, one of the best ambush predators in shallow tropical water. Its lumpy skin and mottled colors make it look like rock or coral, so prey may swim within striking distance without noticing it. The fish waits almost motionless, then opens its mouth and attacks with explosive speed. Its most dangerous feature is defensive: thirteen stout dorsal spines can inject highly toxic venom when pressure pushes them into a threat. The disguise is so convincing that the greatest danger to people is accidentally stepping on what looks like an ordinary stone.",
+  "jellyfish": {
+    "title": "THIS ANIMAL HAS NO BRAIN",
+    "script": "A jellyfish can swim, hunt, and react to danger without having a brain like ours. Instead, many jellyfish use a diffuse network of nerves spread through the body. Their bell contracts to push water backward, creating a simple form of jet propulsion. Tentacles carry specialized stinging cells called nematocysts that can fire microscopic harpoons into prey. Jellyfish are mostly water, and their bodies have no bones, no heart, and no centralized brain. Yet some species have survived in Earth's oceans for hundreds of millions of years.",
     "sources": [
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Poisson-pierre_%28Synanceia_verrucosa%29_photographi%C3%A9_de_nuit_%28Ifremer_00619-73124_-_29091%29.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Synanceia verrucosa"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Poisson-pierre_%28Synanceia_verrucosa%29_photographi%C3%A9_de_nuit_%28Ifremer_00619-73124_-_29092%29.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Synanceia verrucosa"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Poissons-pierres_%28Synanceia_verrucosa%29_%28Ifremer_00618-72964%29.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Synanceia verrucosa"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Synanceia_verrucosa.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Synanceia verrucosa"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Synanceia_verrucosa2.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Synanceia verrucosa"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Synanceia_verrucosa_108700907.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Synanceia verrucosa"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Synanceia_verrucosa_348390818.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Synanceia verrucosa"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Synanceia_verrucosa_362583408.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Synanceia verrucosa"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Synanceia_verrucosa_399823361.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Synanceia verrucosa"
-      }
+      "https://www.pexels.com/download/video/13998966/",
+      "https://www.pexels.com/download/video/5533692/",
+      "https://www.pexels.com/download/video/12860645/",
+      "https://www.pexels.com/download/video/8572648/"
     ],
-    "caption": "That 'rock' can strike fast and carries venom in thirteen dorsal spines. 🪨🐟\n\n#Stonefish #OceanFacts #AnimalFacts #MarineLife #WildlifeTok #DidYouKnow #WildVox"
+    "caption": "Jellyfish can hunt without a centralized brain. 🪼\n\n#Jellyfish #OceanFacts #AnimalFacts #MarineBiology #WildVox"
   },
-  "geography_cone_snail": {
-    "title": "THIS SNAIL HUNTS WITH A VENOMOUS HARPOON",
-    "script": "This beautiful shell belongs to a geography cone snail, a slow animal with a shockingly fast weapon. Hidden inside is a modified tooth shaped like a tiny harpoon. When fish approach, the snail extends a flexible proboscis, fires the tooth, and injects a complex venom that can rapidly immobilize prey. Used teeth are discarded and replaced from a reserve. The venom is dangerous to humans, so a living cone snail should never be handled. Yet its chemical precision also fascinates researchers, because cone-snail toxins can reveal how nerve signals work and inspire new medicines.",
+  "octopus": {
+    "title": "THREE HEARTS AND BLUE BLOOD",
+    "script": "An octopus is built very differently from us. It has three hearts, and its blood appears blue because it uses a copper-based molecule called hemocyanin to carry oxygen. Most of its neurons are not concentrated in the central brain; a huge number are distributed through the arms. That helps each arm handle complex movements and sensory information. Octopuses can squeeze through tiny gaps because they have no rigid skeleton, and many species can rapidly change color and skin texture for camouflage or communication.",
     "sources": [
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cone_g%C3%A9ographique.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Conus geographus"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Conus-geographicus.jpg",
-        "license": "Public domain",
-        "assetTitle": "Conus geographus"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Conus-geographus-001.jpg",
-        "license": "Public domain",
-        "assetTitle": "Conus geographus"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Conus_geographus_%28MNHN-IM-2013-11448%29.jpeg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Conus geographus"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Conus_geographus_%28MNHN-IM-2013-54879%29.jpeg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Conus geographus"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Conus_geographus_%28geography_cone_snail%29_1_%2824422159755%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Conus geographus"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Conus_geographus_%28geography_cone_snail%29_2_%2824422156255%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Conus geographus"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Conus_geographus_1.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Conus geographus"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Conus_geographus_2.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Conus geographus"
-      }
+      "https://www.pexels.com/download/video/17841948/",
+      "https://www.pexels.com/download/video/1312397/",
+      "https://www.pexels.com/download/video/6430081/",
+      "https://www.pexels.com/download/video/15623347/"
     ],
-    "caption": "A cone snail fires a replaceable venomous tooth like a biological harpoon. 🐚🎯\n\n#ConeSnail #OceanFacts #VenomousAnimals #AnimalFacts #MarineLife #DidYouKnow #WildVox"
+    "caption": "Three hearts, blue blood, and arms packed with neurons. 🐙\n\n#Octopus #AnimalFacts #OceanFacts #WildVox"
   },
-  "red_lionfish": {
-    "title": "BEAUTIFUL FINS HIDE EIGHTEEN VENOMOUS SPINES",
-    "script": "This is a red lionfish, and those dramatic fins are more than decoration. Eighteen spines across its dorsal, pelvic, and anal fins can deliver a painful venomous sting. Lionfish are skilled ambush predators, spreading their fins to corner small fish before swallowing them whole. In their native Indo-Pacific range, they are part of the reef community. In the western Atlantic and Caribbean, introduced lionfish have become invasive predators with few natural enemies. A mature female can release roughly two million eggs in a year, helping the invasion spread across reefs with remarkable speed.",
+  "sea_turtle": {
+    "title": "THIS REPTILE CROSSES ENTIRE OCEANS",
+    "script": "Sea turtles can travel enormous distances between feeding grounds and nesting beaches. They breathe air, so even though they live in the ocean they must return to the surface regularly. Their front flippers act like powerful wings, while the shell is fused to the skeleton and cannot simply be removed. Female sea turtles often return to beaches in the same region where they hatched to lay eggs. Navigation appears to involve several cues, including Earth's magnetic field, giving these reptiles a natural map across the ocean.",
     "sources": [
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Common_lion_fish_Pterois_volitans.jpg",
-        "license": "CC BY 3.0",
-        "assetTitle": "Pterois volitans"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Common_lionfish_at_Shaab_El_Erg_reef.JPG",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Pterois volitans"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Pazifischer_Rotfeuerfisch_-_Red_lionfish_-_Pterois_volitans.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Pterois volitans"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Pez_le%C3%B3n_colorado_%28Pterois_volitans%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_139.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Pterois volitans"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pez_le%C3%B3n_colorado_%28Pterois_volitans%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_140.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Pterois volitans"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Pterois-volitans-aquarium-Donostia.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Pterois volitans"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Pterois_volitans_-_Wilhelma_01.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Pterois volitans"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Pterois_volitans_060417w.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Pterois volitans"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Pterois_volitans_365263233.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Pterois volitans"
-      }
+      "https://www.pexels.com/download/video/36032488/",
+      "https://www.pexels.com/download/video/34194003/",
+      "https://www.pexels.com/download/video/4323703/",
+      "https://www.pexels.com/download/video/34509578/"
     ],
-    "caption": "The lionfish's beauty hides eighteen venomous spines—and an invasive superpredator. 🐠⚠️\n\n#Lionfish #OceanFacts #InvasiveSpecies #AnimalFacts #MarineLife #WildlifeTok #WildVox"
+    "caption": "Sea turtles can navigate across huge stretches of ocean. 🐢\n\n#SeaTurtle #OceanFacts #AnimalFacts #WildVox"
   },
-  "aye_aye": {
-    "title": "THIS PRIMATE HUNTS WITH ONE SKELETAL FINGER",
-    "script": "In Madagascar's forests, a strange tapping sound can reveal one of Earth's most unusual primates. The aye-aye moves along branches at night, repeatedly striking the wood with its thin middle finger and listening with enormous ears. Changes in the echo can expose a hollow tunnel where an insect larva is hiding. Once it finds one, the aye-aye uses continuously growing incisors to tear through the bark. Then that flexible finger reaches into the tunnel, hooks the larva, and pulls it out. This method is called tap foraging, and it lets a mammal exploit food in a way that resembles a woodpecker. The same specialized finger also helps scoop soft fruit and other foods. Its oversized eyes, sensitive ears, rodent-like teeth, and skeletal finger can look almost imaginary, but every strange feature fits a precise nocturnal job. The final surprise is its identity: this bizarre tree-tapping hunter is a lemur, and the world's largest nocturnal primate.",
+  "crab": {
+    "title": "WHY CRABS WALK SIDEWAYS",
+    "script": "Many crabs are built to move sideways more efficiently than forward. Their leg joints and body shape make lateral movement fast and stable, especially on uneven ground or in shallow water. Crabs wear a hard exoskeleton on the outside of the body, so growing requires a risky process called molting. The old shell splits, the crab pulls itself free, and the new shell stays soft for a while before hardening. Some species can also regenerate lost limbs over later molts, turning a missing claw into a temporary problem instead of a permanent one.",
     "sources": [
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Aye-Aye_%28Chiromys_madagascariensis%29.png",
-        "license": "Public domain",
-        "assetTitle": "Daubentonia madagascariensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Aye-Aye_Daubentonia_madagascariensis_in_Paris.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Daubentonia madagascariensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Aye-Aye_Daubentonia_madagascariensis_in_Stockholm.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Daubentonia madagascariensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Aye-aye_%28Daubentonia_madagascariensis%29%2C_Tsimbazaza_Zoo%2C_Madagascar_%283897947810%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Daubentonia madagascariensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Aye-aye_%28Daubentonia_madagascariensis%29.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Daubentonia madagascariensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Aye-aye_%28Daubentonia_madagascariensis%29_1.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Daubentonia madagascariensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Aye-aye_%28Daubentonia_madagascariensis%29_2.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Daubentonia madagascariensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Aye-aye_%28Daubentonia_madagascariensis%29_3.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Daubentonia madagascariensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Aye-aye_%28Daubentonia_madagascariensis%29_4.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Daubentonia madagascariensis"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Aye-aye_%28Daubentonia_madagascariensis%29_5.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Daubentonia madagascariensis"
-      }
+      "https://www.pexels.com/download/video/8352638/",
+      "https://www.pexels.com/download/video/7913414/",
+      "https://www.pexels.com/download/video/5290325/",
+      "https://www.pexels.com/download/video/5540370/"
     ],
-    "caption": "The aye-aye taps wood, listens for hollow tunnels, then fishes out prey with one skeletal finger. 👆🌙\n\n#AyeAye #Lemur #AnimalFacts #WildlifeTok #Madagascar #NatureFacts #WildVox"
+    "caption": "Crabs are built for sideways speed. 🦀\n\n#Crab #AnimalFacts #OceanFacts #WildlifeTok #WildVox"
   },
-  "goblin_shark": {
-    "title": "THIS SHARK FIRES ITS JAWS FORWARD",
-    "script": "Far below the bright surface lives a shark that looks built for a science-fiction movie. The goblin shark has a long, flattened snout covered with electroreceptive organs called ampullae of Lorenzini. In deep, dim water, those pores help detect tiny electric fields produced by nearby animals. The shark itself is soft-bodied and not designed for a long, high-speed chase. Instead, it approaches quietly and uses one of the most extreme bites in the ocean. Ligaments in its jaw system store tension. When prey comes close, the jaws shoot forward in a rapid slingshot motion, while the mouth expands and pulls water inward. Long narrow teeth seize fish, squid, or crustaceans before they can escape. The pinkish color is not a painted disguise; blood vessels show through its translucent skin. And despite its nightmare appearance, this deep-water hunter is rarely encountered and is not considered a threat to people. Its final trick is pure mechanical horror: the mouth can extend nearly to the end of its own snout.",
+  "seahorse": {
+    "title": "THE FATHER GIVES BIRTH",
+    "script": "Seahorses reverse one of the most familiar roles in reproduction. The female transfers eggs into a specialized brood pouch on the male. Inside the pouch, the eggs are fertilized and protected while the embryos develop. When they are ready, the male contracts the pouch and releases fully formed young into the water. Seahorses are also unusual swimmers. A small dorsal fin provides most of the propulsion, while the tail can curl around seagrass or coral to hold position in currents.",
     "sources": [
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Bycatch_fish_species_%2810.3897-zookeys.843.32410%29_Figure_5.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Mitsukurina owstoni"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/FMIB_51670_Goblin-_hark_%28Tenguzame%29%2C_Mitsukurina_owstoni_Jordan_From_a_young_specimen_in_the_Imperial_University_of_Tokyo.jpeg",
-        "license": "Public domain",
-        "assetTitle": "Mitsukurina owstoni"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Goblin_shark%2C_Pengo.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Mitsukurina owstoni"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Goblin_shark_%28Mitsukurina_owstoni%29.jpg",
-        "license": "Public domain",
-        "assetTitle": "Mitsukurina owstoni"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Goblin_shark_NHMW.jpg",
-        "license": "CC BY 4.0",
-        "assetTitle": "Mitsukurina owstoni"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Goblin_shark_snout.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Mitsukurina owstoni snout"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hal_-_Mitsukurina_owstoni_-_1.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Mitsukurina owstoni"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Hal_-_Mitsukurina_owstoni_-_2.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Mitsukurina owstoni"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Mistukurina_owstoni_museum_victoria.jpg",
-        "license": "CC BY 3.0 AU",
-        "assetTitle": "Mitsukurina owstoni"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Mistukurina_owstoni_museum_victoria_-_head_detail.jpg",
-        "license": "CC BY 3.0 AU",
-        "assetTitle": "Mitsukurina owstoni head"
-      }
+      "https://www.pexels.com/download/video/5548081/",
+      "https://www.pexels.com/download/video/10106769/",
+      "https://www.pexels.com/download/video/27302760/",
+      "https://www.pexels.com/download/video/11334969/"
     ],
-    "caption": "The goblin shark detects prey in darkness, then launches its jaws like a slingshot. 🦈👽\n\n#GoblinShark #DeepSea #OceanFacts #AnimalFacts #MarineBiology #WildlifeTok #WildVox"
+    "caption": "In seahorses, the male carries the developing young. 🌊\n\n#Seahorse #AnimalFacts #OceanFacts #MarineLife #WildVox"
   },
-  "leaf_sheep": {
-    "title": "THIS TINY ANIMAL STEALS SOLAR PANELS",
-    "script": "This creature looks like a cartoon sheep growing in an underwater garden, but it is a sea slug called Costasiella kuroshimae. It is tiny, often compared to a grain of rice, and feeds by piercing algae and sucking out the contents. Here is where the story becomes extraordinary. Instead of digesting everything, the slug keeps some of the algae's chloroplasts, the structures that capture light. Those stolen chloroplasts remain inside the leaf-like cerata covering its back and can continue photosynthetic activity for a time. The process is called kleptoplasty, literally stolen plastids. Scientists are still investigating how much energy different sea slugs gain from this relationship and how the chloroplasts keep functioning away from their original algal cells. The two horn-like structures on the slug's head are rhinophores used to sense its environment, not ears. So the leaf sheep is not half plant and it cannot live on sunlight alone. But it truly is an animal carrying working pieces of algae inside its body—a living solar-assisted sea slug.",
+  "stingray": {
+    "title": "THIS FISH FLIES UNDERWATER",
+    "script": "A stingray looks like it is flying because its enlarged pectoral fins move like broad underwater wings. Rays are relatives of sharks, so their skeletons are made of cartilage instead of bone. Many species spend time close to the seafloor and can detect weak electrical signals from hidden prey. The eyes sit on top of the body, while the mouth and gill openings are underneath. Some stingrays carry one or more defensive spines on the tail, but the animal usually relies on camouflage and escape rather than attacking.",
     "sources": [
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Babosa_de_mar_%28Costasiella_kuroshimae%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_111.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Costasiella kuroshimae"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Babosa_de_mar_%28Costasiella_kuroshimae%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_112.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Costasiella kuroshimae"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Babosa_de_mar_%28Costasiella_kuroshimae%29%2C_Anilao%2C_Filipinas%2C_2023-08-23%2C_DD_113.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Costasiella kuroshimae"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Costasiella_Kuroshimae_%2819080120525%29_%282%29.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Costasiella kuroshimae"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Costasiella_cf_kuroshimae.png",
-        "license": "CC BY 2.0",
-        "assetTitle": "Costasiella cf. kuroshimae"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Costasiella_kuroshimae%2C_Koh_Phangan.jpg",
-        "license": "CC BY 3.0",
-        "assetTitle": "Costasiella kuroshimae"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Costasiella_kuroshimae.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Costasiella kuroshimae"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Costasiella_kuroshimae_%2835635864736%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Costasiella kuroshimae"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Costasiella_kuroshimae_%2841152417280%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Costasiella kuroshimae"
-      }
+      "https://www.pexels.com/download/video/36350305/",
+      "https://www.pexels.com/download/video/10373005/",
+      "https://www.pexels.com/download/video/10372904/",
+      "https://www.pexels.com/download/video/29998713/"
     ],
-    "caption": "The leaf sheep steals chloroplasts from algae and carries them inside its own body. 🌿🐑\n\n#LeafSheep #SeaSlug #OceanFacts #AnimalFacts #MarineBiology #DidYouKnow #WildVox"
+    "caption": "Stingrays glide through water like underwater wings. 🌊\n\n#Stingray #OceanFacts #AnimalFacts #WildVox"
   },
-  "pistol_shrimp": {
-    "title": "THIS SHRIMP FIRES A BUBBLE BULLET",
-    "script": "A pistol shrimp does not need a weapon because one of its claws is already a pressure cannon. The oversized claw is not used to punch. When it snaps shut, a plunger-like section forces out a high-speed jet of water. The sudden pressure drop creates a cavitation bubble racing away from the claw. The loud crack happens mainly when that bubble collapses, releasing a shock wave powerful enough to stun or kill tiny prey. For an instant, the collapse can also produce a faint flash of light called sonoluminescence. On a reef, colonies of snapping shrimp can create so much noise that their crackling dominates underwater recordings and can interfere with sonar. Some species share burrows with gobies: the shrimp digs and maintains the shelter while the better-sighted fish stands guard, warning its partner of danger. The animal is only a few centimeters long, yet its physics resemble a miniature underwater blast. The final surprise is that the bubble—not the claw striking a target—is the real projectile.",
+  "dolphin": {
+    "title": "DOLPHINS CAN SEE WITH SOUND",
+    "script": "Dolphins can build a picture of their surroundings using sound. They produce rapid clicks and listen for the echoes that bounce back from fish, objects, and the seafloor. The returning echo carries information about distance, shape, and movement. This system is called echolocation. Dolphins also breathe consciously through a blowhole, which means surfacing is an active behavior. They are highly social animals, often coordinating movement and hunting inside pods. Their communication can include whistles, clicks, and other sounds.",
     "sources": [
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/2017%2C_cuba%2C_jardines_aggressor%2C_fraile_II%2C_snapping_shrimp_%2837504722356%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Snapping shrimp"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Alpheus_distinguendus.jpg",
-        "license": "CC BY-SA 2.5",
-        "assetTitle": "Alpheus distinguendus"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Alpheus_djiboutensis_%28Snapping_shrimp%29_with_partner_Cryptocentrus_cinctus_%28Yellow_shrimp_goby%29.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Snapping shrimp with goby"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/CSIRO_ScienceImage_10852_A_probable_new_species_of_Alpheus_pistol_shrimp.jpg",
-        "license": "CC BY 3.0",
-        "assetTitle": "Alpheus pistol shrimp"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Cryptocentrus_strigilliceps_%28Target_shrimpgoby%29_and_Alpheus_rapacida_%28Snapping_shrimp%29.jpg",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Alpheus rapacida with goby"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Snapping_shrimp_%2813980940591%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Snapping shrimp"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Snapping_shrimp_%2813984113675%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Snapping shrimp"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Snapping_shrimp_%2813984556614%29.jpg",
-        "license": "CC BY 2.0",
-        "assetTitle": "Snapping shrimp"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Snapping_shrimp_%28Synalpheus_carinatus%29_%2824352319501%29.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Synalpheus carinatus"
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Snapping_shrimp_%28Synalpheus_sp.%29_%2823806570264%29.jpg",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Synalpheus snapping shrimp"
-      }
+      "https://www.pexels.com/download/video/6959433/",
+      "https://www.pexels.com/download/video/5743648/",
+      "https://www.pexels.com/download/video/11042822/",
+      "https://www.pexels.com/download/video/5743314/"
     ],
-    "caption": "The pistol shrimp fires a cavitation bubble whose collapse creates the real shock wave. 💥🦐\n\n#PistolShrimp #OceanFacts #AnimalFacts #PhysicsTok #MarineBiology #DidYouKnow #WildVox"
+    "caption": "Dolphins can map their surroundings with echoes. 🐬\n\n#Dolphin #AnimalFacts #OceanFacts #MarineLife #WildVox"
   }
 }
