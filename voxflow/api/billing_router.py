@@ -163,6 +163,8 @@ def billing_status(user: User = Depends(current_user), db: Session = Depends(db_
 
 @router.post("/subscribe/{plan}")
 def subscribe(plan: str, user: User = Depends(current_user), db: Session = Depends(db_session)):
+    if user.plan == "owner":
+        raise HTTPException(status_code=403, detail="Owner accounts are unlimited and do not require billing")
     if plan not in PLANS:
         raise HTTPException(status_code=404, detail="Unknown plan")
     if not configured():
@@ -218,6 +220,8 @@ def subscribe(plan: str, user: User = Depends(current_user), db: Session = Depen
 
 @router.post("/pay-month/{plan}")
 def pay_month(plan: str, user: User = Depends(current_user), db: Session = Depends(db_session)):
+    if user.plan == "owner":
+        raise HTTPException(status_code=403, detail="Owner accounts are unlimited and do not require billing")
     if plan not in PLANS:
         raise HTTPException(status_code=404, detail="Unknown plan")
     if not configured():
