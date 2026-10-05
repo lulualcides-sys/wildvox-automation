@@ -54,6 +54,7 @@ jobs:
           path: |
             output/${{ matrix.animal }}.mp4
             output/${{ matrix.animal }}_meta.json
+            output/${{ matrix.animal }}_review.jpg
           retention-days: 1
 
   publish-media:
