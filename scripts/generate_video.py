@@ -158,7 +158,7 @@ def build_visual(sources, key, duration):
             run([
                 "ffmpeg","-y","-hide_banner","-loglevel","error",
                 "-loop","1","-i",str(src),"-t",f"{shot_len:.2f}","-an",
-                "-vf","scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30",
+                "-vf","split=2[bg][fg];[bg]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=28[bg];[fg]scale=1080:1920:force_original_aspect_ratio=decrease[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1,fps=30",
                 "-c:v","libx264","-preset","veryfast","-crf","20",
                 "-pix_fmt","yuv420p",str(out)
             ])
@@ -170,7 +170,7 @@ def build_visual(sources, key, duration):
                 "ffmpeg","-y","-hide_banner","-loglevel","error",
                 "-stream_loop","-1","-ss",f"{start:.2f}","-i",str(src),
                 "-t",f"{shot_len:.2f}","-an",
-                "-vf","scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,setsar=1,fps=30",
+                "-vf","split=2[bg][fg];[bg]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,gblur=sigma=28[bg];[fg]scale=1080:1920:force_original_aspect_ratio=decrease[fg];[bg][fg]overlay=(W-w)/2:(H-h)/2,setsar=1,fps=30",
                 "-c:v","libx264","-preset","veryfast","-crf","20",
                 "-pix_fmt","yuv420p",str(out)
             ])
@@ -221,7 +221,8 @@ def main():
             "caption": cfg["caption"],
             "duration": round(duration, 2),
             "voice": "am_michael",
-            "speed": 1.08
+            "speed": 1.08,
+            "sources": cfg["sources"]
         }, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
