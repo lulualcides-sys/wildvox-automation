@@ -318,6 +318,13 @@ def privacy_page():
 def terms_page():
     return FileResponse(BASE_DIR / "terms.html")
 
+@app.get("/api/internal/owner-ready")
+def owner_ready(db: Session = Depends(db_session)):
+    if not OWNER_EMAIL:
+        return {"ready": False}
+    user = db.scalar(select(User).where(User.email == OWNER_EMAIL))
+    return {"ready": bool(user and user.plan == "owner")}
+
 @app.get("/health")
 def health():
     return {"ok": True, "service": "voxflow-api", "version": "0.8.0"}
