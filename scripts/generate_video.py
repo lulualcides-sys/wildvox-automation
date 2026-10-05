@@ -211,13 +211,33 @@ def build_visual(sources, key, duration):
         else:
             images.append(item)
 
+    # Quality gate: WildVox is video-first. A species with too little motion
+    # footage should be replaced during content planning instead of being padded
+    # with a slideshow of stills.
+    if len(videos) < 4:
+        raise RuntimeError(
+            f"{key} has only {len(videos)} unique video source(s). "
+            "WildVox requires at least 4 distinct videos; choose another species "
+            "or add more verified video footage instead of filling with images."
+        )
+
+    # Still images are supporting material only. Keep at least ~75% of the
+    # selected assets as videos whenever video footage exists.
+    max_images = max(1, len(videos) // 3)
+    if len(images) > max_images:
+        print(
+            f"Video-first rule: using {max_images} of {len(images)} unique image(s).",
+            flush=True,
+        )
+        images = images[:max_images]
+
     local = interleave_video_first(videos, images)
     if not local:
         raise RuntimeError("No unique media sources available")
 
     print(
-        f"Unique media for {key}: {len(videos)} video(s), {len(images)} image(s). "
-        "Each asset will be used at most once. No synthetic zoom.",
+        f"Unique media selected for {key}: {len(videos)} video(s), {len(images)} image(s). "
+        "Each asset will be used at most once. Synthetic zoom is disabled.",
         flush=True,
     )
 
