@@ -174,7 +174,7 @@ def interleave_video_first(videos, images):
                 ii += 1
     return ordered
 
-def build_visual(sources, key, duration):
+def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None):
     # URL-level dedupe before downloading.
     unique_sources = []
     seen_urls = set()
@@ -214,11 +214,11 @@ def build_visual(sources, key, duration):
     # Quality gate: WildVox is video-first. A species with too little motion
     # footage should be replaced during content planning instead of being padded
     # with a slideshow of stills.
-    if len(videos) < 4:
+    if len(videos) < min_unique_videos:
         raise RuntimeError(
             f"{key} has only {len(videos)} unique video source(s). "
-            "WildVox requires at least 4 distinct videos; choose another species "
-            "or add more verified video footage instead of filling with images."
+            f"This render requires at least {min_unique_videos} distinct videos; "
+            "choose another species or add more verified video footage instead of filling with images."
         )
 
     # Still images are supporting material only. Keep at least ~75% of the
@@ -234,6 +234,15 @@ def build_visual(sources, key, duration):
     local = interleave_video_first(videos, images)
     if not local:
         raise RuntimeError("No unique media sources available")
+
+    if max_shot_seconds:
+        required_assets = math.ceil(duration / max_shot_seconds)
+        if len(local) < required_assets:
+            raise RuntimeError(
+                f"{key} would need shots longer than {max_shot_seconds:.1f}s "
+                f"({len(local)} unique assets for {duration:.1f}s). "
+                f"Add at least {required_assets} unique assets to avoid repetitive pacing."
+            )
 
     print(
         f"Unique media selected for {key}: {len(videos)} video(s), {len(images)} image(s). "
@@ -287,11 +296,17 @@ def build_visual(sources, key, duration):
             # If a source clip is shorter than its assigned slot, freeze its last
             # frame rather than looping/repeating the video.
             if playable + 0.05 < shot_len:
+                freeze_for = shot_len - playable
+                if max_freeze_seconds is not None and freeze_for > max_freeze_seconds:
+                    raise RuntimeError(
+                        f"{key} source {i} is too short and would freeze for {freeze_for:.2f}s. "
+                        f"Maximum allowed freeze is {max_freeze_seconds:.2f}s."
+                    )
                 padded = WORK / f"{key}_shot_{i:02d}_padded.mp4"
                 run([
                     "ffmpeg","-y","-hide_banner","-loglevel","error",
                     "-i",str(out),
-                    "-vf",f"tpad=stop_mode=clone:stop_duration={shot_len-playable:.3f}",
+                    "-vf",f"tpad=stop_mode=clone:stop_duration={freeze_for:.3f}",
                     "-t",f"{shot_len:.3f}",
                     "-c:v","libx264","-preset","veryfast","-crf","20",
                     "-pix_fmt","yuv420p",str(padded)
@@ -335,7 +350,14 @@ def main():
 
     voice, duration = generate_voice(cfg["script"], args.key)
     ass = make_ass(cfg["script"], cfg["title"], args.key, duration)
-    visual = build_visual(cfg["sources"], args.key, duration)
+    visual = build_visual(
+        cfg["sources"],
+        args.key,
+        duration,
+        min_unique_videos=int(cfg.get("min_unique_videos", 4)),
+        max_shot_seconds=float(cfg["max_shot_seconds"]) if cfg.get("max_shot_seconds") else None,
+        max_freeze_seconds=float(cfg["max_freeze_seconds"]) if cfg.get("max_freeze_seconds") is not None else None,
+    )
     final = render_final(visual, voice, ass, args.key, duration)
 
     (OUT / f"{args.key}_meta.json").write_text(
