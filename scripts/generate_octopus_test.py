@@ -101,7 +101,6 @@ def make_ass(duration):
     weights = [weight(w) for w in words]
     total = sum(weights)
 
-    # Keep a small lead/finish margin while tracking the narration closely.
     start_margin = 0.05
     usable = max(0.1, duration - 0.10)
     starts = []
@@ -120,7 +119,7 @@ WrapStyle: 2
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: Caption,DejaVu Sans,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,90,90,390,1
+Style: Caption,DejaVu Sans,64,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,120,120,390,1
 Style: Hook,DejaVu Sans,88,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,0,0,1,6,2,8,60,60,220,1
 Style: Brand,DejaVu Sans,34,&H00FFFFFF,&H00FFFFFF,&H00000000,&H70000000,-1,0,0,0,100,100,2,0,1,3,1,7,45,45,50,1
 
@@ -128,7 +127,6 @@ Style: Brand,DejaVu Sans,34,&H00FFFFFF,&H00FFFFFF,&H00000000,&H70000000,-1,0,0,0
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
 """
     events = []
-    # Coral in ASS is BGR: #ff6f61 -> &H616FFF&
     events.append(
         f"Dialogue: 2,{ass_time(0)},{ass_time(min(2.05,duration))},Hook,,0,0,0,,"
         r"{\an8}3 HEARTS. {\c&H616FFF&}BLUE BLOOD.{\c&HFFFFFF&}\NARMS THAT THINK?"
@@ -150,7 +148,6 @@ Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
             else:
                 pieces.append(word)
         line = " ".join(pieces)
-        # During the first ~2 sec keep captions slightly lower so hook has room.
         events.append(
             f"Dialogue: 1,{ass_time(st)},{ass_time(en)},Caption,,0,0,0,,{line}"
         )
@@ -175,7 +172,6 @@ def build_visual(duration):
         src = local_sources[i % len(local_sources)]
         start = STARTS[i % len(STARTS)]
         out = WORK / f"shot_{i:02d}.mp4"
-        # Vertical crop, fast hard-cut style, no generated imagery.
         run([
             "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
             "-ss", f"{start:.2f}", "-i", str(src),
@@ -208,7 +204,6 @@ def build_visual(duration):
 
 def render_final(visual, voice, ass, duration):
     final = OUT / "wildvox_octopus_michael_test.mp4"
-    # ass= path is relative to repo root when workflow invokes script from root.
     ass_filter = f"ass={ass.as_posix()}"
     run([
         "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
