@@ -42,6 +42,9 @@ jobs:
   publish-media:
     needs: render
     runs-on: ubuntu-latest
+    concurrency:
+      group: wildvox-media-branch
+      cancel-in-progress: false
     permissions:
       contents: write
     steps:
@@ -54,8 +57,8 @@ jobs:
         run: |
           git config user.name "wildvox-bot"
           git config user.email "actions@users.noreply.github.com"
-          git fetch origin media:media
-          git checkout media
+          git fetch origin media
+          git checkout -B media origin/media
           cp public/mantis_shrimp.mp4 .
           cp public/mantis_shrimp_meta.json .
           git add mantis_shrimp.mp4 mantis_shrimp_meta.json
