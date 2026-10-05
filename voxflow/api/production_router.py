@@ -15,6 +15,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 PRESETS_PATH = BASE_DIR / "engine" / "presets.json"
 
 
+class WorkerHeartbeat(Base):
+    __tablename__ = "worker_heartbeats"
+
+    id: Mapped[str] = mapped_column(String(64), primary_key=True)
+    worker_type: Mapped[str] = mapped_column(String(32), default="render")
+    last_seen_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
+    version: Mapped[str] = mapped_column(String(32), default="wildvox-v2")
+
 class ProductionJob(Base):
     __tablename__ = "production_jobs"
 
@@ -51,6 +59,15 @@ def month_start() -> datetime:
     return datetime(now.year, now.month, 1, tzinfo=timezone.utc)
 
 
+def worker_online(db: Session) -> bool:
+    hb = db.get(WorkerHeartbeat, "primary-render")
+    if not hb:
+        return False
+    seen = hb.last_seen_at
+    if seen.tzinfo is None:
+        seen = seen.replace(tzinfo=timezone.utc)
+    return (datetime.now(timezone.utc) - seen).total_seconds() < 45
+
 def serialize(job: ProductionJob) -> dict:
     return {
         "id": job.id,
@@ -83,6 +100,7 @@ def production_status(user: User = Depends(current_user), db: Session = Depends(
             "failed": sum(1 for r in rows if r.status == "failed"),
         },
         "worker_required": True,
+        "worker_online": worker_online(db),
         "worker_note": "A dedicated render worker is required for production rendering.",
     }
 
@@ -107,6 +125,11 @@ def queue_preview(
     channel = db.get(Channel, payload.channel_id)
     if not channel or channel.user_id != user.id:
         raise HTTPException(status_code=404, detail="Channel not found")
+    if not worker_online(db):
+        raise HTTPException(
+            status_code=503,
+            detail="The render worker is prepared but not active yet. No job was queued.",
+        )
 
     limits = plan_limits(user.plan)
     used = db.scalar(
