@@ -20,7 +20,7 @@ jobs:
       - id: matrix
         shell: bash
         run: |
-          animals=$(jq -c 'keys' configs/daily.json)
+          animals=$(jq -c 'keys | map(select(. != "frog" and . != "owl"))' configs/daily.json)
           echo "animals=$animals" >> "$GITHUB_OUTPUT"
 
   render:
@@ -85,6 +85,8 @@ jobs:
           git fetch origin media
           git worktree add --force --detach /tmp/wildvox-media-branch origin/media
           cp /tmp/wildvox-public/* /tmp/wildvox-media-branch/
+          rm -f /tmp/wildvox-media-branch/frog.mp4 /tmp/wildvox-media-branch/frog_meta.json /tmp/wildvox-media-branch/frog_review.jpg
+          rm -f /tmp/wildvox-media-branch/owl.mp4 /tmp/wildvox-media-branch/owl_meta.json /tmp/wildvox-media-branch/owl_review.jpg
 
           cd /tmp/wildvox-media-branch
           git config user.name "wildvox-bot"
