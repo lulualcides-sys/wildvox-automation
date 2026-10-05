@@ -32,11 +32,21 @@ def probe_duration(path):
 
 def safe_download(url, path):
     if path.exists() and path.stat().st_size > 100_000:
-        return
-    run([
-        "curl","-L","--fail","--retry","5","--retry-delay","2",
-        "--connect-timeout","30","-A","Mozilla/5.0","-o",str(path),url
-    ])
+        return True
+    try:
+        run([
+            "curl","-L","--fail","--retry","5","--retry-delay","2",
+            "--connect-timeout","30","-A","Mozilla/5.0","-o",str(path),url
+        ])
+    except subprocess.CalledProcessError:
+        path.unlink(missing_ok=True)
+        print(f"Skipping source that failed to download: {url}", flush=True)
+        return False
+    if not path.exists() or path.stat().st_size <= 100_000:
+        path.unlink(missing_ok=True)
+        print(f"Skipping source with invalid/empty download: {url}", flush=True)
+        return False
+    return True
 
 def generate_voice(text, key):
     print(f"Generating Kokoro am_michael narration for {key}...", flush=True)
@@ -199,7 +209,23 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
         media_type = source.get("type", "video")
         ext = ".jpg" if media_type == "image" else ".mp4"
         p = WORK / f"{key}_source_{idx}{ext}"
-        safe_download(source["url"], p)
+        if not safe_download(source["url"], p):
+            continue
+
+        source["_source_index"] = idx
+        if media_type == "video":
+            try:
+                source_duration = probe_duration(p)
+            except Exception as exc:
+                print(f"Skipping invalid video source {source['url']}: {exc}", flush=True)
+                p.unlink(missing_ok=True)
+                continue
+            if source_duration < 0.5:
+                print(f"Skipping video source shorter than 0.5s: {source['url']}", flush=True)
+                p.unlink(missing_ok=True)
+                continue
+            source["_duration"] = source_duration
+
         digest = file_sha256(p)
         if digest in seen_hashes:
             print(f"Skipping duplicate media bytes: {source['url']}", flush=True)
@@ -236,26 +262,54 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
         raise RuntimeError("No unique media sources available")
 
     # Use the source list as a pool, not a command to cram every clip into the edit.
-    # Pick enough unique shots for a calmer average cadence while still meeting the
-    # video-count quality gate. Short WildVox videos should usually land near 6-8s
-    # per shot; longer videos naturally use more unique clips.
+    # Start near the requested 6-8 second cadence. If a selected source is too short
+    # to support that cadence without a long freeze, automatically add another
+    # unique source and shorten all shots slightly. This preserves the quality gate
+    # without failing an otherwise usable batch because of one short stock clip.
     if target_shot_seconds:
         target_count = max(min_unique_videos, round(duration / target_shot_seconds))
         target_count = min(len(local), max(min_unique_videos, target_count))
-        selected = []
-        selected_video_count = 0
-        # Favor video sources first so images remain optional support.
-        for item in videos:
-            if len(selected) >= target_count:
-                break
-            selected.append(item)
-            selected_video_count += 1
-        if len(selected) < target_count:
-            for item in images:
-                if len(selected) >= target_count:
-                    break
-                selected.append(item)
-        local = selected
+
+        ranked_videos = sorted(
+            videos,
+            key=lambda item: float(item[2].get("_duration", 0.0)),
+            reverse=True,
+        )
+        ranked_images = list(images)
+        selected = None
+
+        for candidate_count in range(target_count, len(local) + 1):
+            candidate = ranked_videos[:min(candidate_count, len(ranked_videos))]
+            if len(candidate) < candidate_count:
+                candidate += ranked_images[:candidate_count - len(candidate)]
+
+            shot_len = duration / candidate_count
+            if max_shot_seconds and shot_len > max_shot_seconds:
+                continue
+
+            if max_freeze_seconds is not None:
+                too_short = [
+                    item for item in candidate
+                    if item[1] == "video"
+                    and float(item[2].get("_duration", 0.0)) + max_freeze_seconds + 0.05 < shot_len
+                ]
+                if too_short:
+                    continue
+
+            selected = candidate
+            break
+
+        if selected is None:
+            durations = ", ".join(
+                f"{float(item[2].get('_duration', 0.0)):.1f}s" for item in ranked_videos
+            )
+            raise RuntimeError(
+                f"{key} cannot meet the configured pacing/freeze gates with the downloaded clips. "
+                f"Available video durations: [{durations}]. Add longer verified sources."
+            )
+
+        # Restore configured source order after choosing the strongest viable clips.
+        local = sorted(selected, key=lambda item: int(item[2].get("_source_index", 0)))
 
     if max_shot_seconds:
         required_assets = math.ceil(duration / max_shot_seconds)
@@ -279,7 +333,7 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     base_shot_len = duration / nshots
     shots = []
 
-    for i, (src, media_type, _source_meta) in enumerate(local):
+    for i, (src, media_type, source_meta) in enumerate(local):
         remaining = max(0.05, duration - (i * base_shot_len))
         shot_len = remaining if i == nshots - 1 else base_shot_len
         out = WORK / f"{key}_shot_{i:02d}.mp4"
@@ -300,7 +354,7 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
                 "-pix_fmt","yuv420p",str(out)
             ])
         else:
-            srcdur = max(0.1, probe_duration(src))
+            srcdur = max(0.1, float(source_meta.get("_duration") or probe_duration(src)))
             # Use one continuous, non-looping section from this clip.
             playable = min(shot_len, srcdur)
             maxstart = max(0.0, srcdur - playable)
