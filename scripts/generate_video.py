@@ -361,6 +361,18 @@ def render_final(visual, voice, ass, key, duration):
     ])
     return final
 
+def make_review_sheet(final, key, duration):
+    """Create a 12-frame contact sheet used by the automated visual QA stage."""
+    sheet = OUT / f"{key}_review.jpg"
+    sample_fps = max(0.05, 12.0 / max(duration, 1.0))
+    run([
+        "ffmpeg","-y","-hide_banner","-loglevel","error",
+        "-i",str(final),
+        "-vf",f"fps={sample_fps:.6f},scale=270:-2,tile=4x3:nb_frames=12:padding=4:margin=4",
+        "-frames:v","1","-q:v","2",str(sheet)
+    ])
+    return sheet
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--key", required=True)
@@ -382,6 +394,7 @@ def main():
         target_shot_seconds=float(cfg["target_shot_seconds"]) if cfg.get("target_shot_seconds") else None,
     )
     final = render_final(visual, voice, ass, args.key, duration)
+    review_sheet = make_review_sheet(final, args.key, duration)
 
     (OUT / f"{args.key}_meta.json").write_text(
         json.dumps({
@@ -391,7 +404,8 @@ def main():
             "duration": round(duration, 2),
             "voice": "am_michael",
             "speed": 1.08,
-            "sources": cfg["sources"]
+            "sources": cfg["sources"],
+            "review_sheet": review_sheet.name
         }, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
