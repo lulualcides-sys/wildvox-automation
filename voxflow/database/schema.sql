@@ -1,85 +1,35 @@
 CREATE TABLE users (
-  id UUID PRIMARY KEY,
-  email TEXT UNIQUE NOT NULL,
+  id VARCHAR(36) PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(320) UNIQUE NOT NULL,
+  password_hash VARCHAR(500) NOT NULL,
+  plan VARCHAR(32) NOT NULL DEFAULT 'free',
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
-CREATE TABLE workspaces (
-  id UUID PRIMARY KEY,
-  owner_user_id UUID NOT NULL REFERENCES users(id),
-  name TEXT NOT NULL,
+CREATE TABLE sessions (
+  id VARCHAR(36) PRIMARY KEY,
+  user_id VARCHAR(36) NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  token_hash VARCHAR(64) UNIQUE NOT NULL,
+  expires_at TIMESTAMPTZ NOT NULL,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
 CREATE TABLE channels (
-  id UUID PRIMARY KEY,
-  workspace_id UUID NOT NULL REFERENCES workspaces(id),
-  name TEXT NOT NULL,
-  niche TEXT NOT NULL,
-  language TEXT NOT NULL DEFAULT 'en-US',
-  videos_per_day INTEGER NOT NULL DEFAULT 1,
-  status TEXT NOT NULL DEFAULT 'draft',
+  id VARCHAR(36) PRIMARY KEY,
+  user_id VARCHAR(36) NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+  name VARCHAR(100) NOT NULL,
+  niche VARCHAR(100) NOT NULL,
+  language VARCHAR(16) NOT NULL DEFAULT 'en-US',
+  videos_per_day INTEGER NOT NULL DEFAULT 1 CHECK (videos_per_day BETWEEN 1 AND 10),
+  platform VARCHAR(32) NOT NULL DEFAULT 'tiktok',
+  status VARCHAR(32) NOT NULL DEFAULT 'draft',
   created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
-CREATE TABLE social_accounts (
-  id UUID PRIMARY KEY,
-  channel_id UUID NOT NULL REFERENCES channels(id),
-  provider TEXT NOT NULL,
-  external_account_id TEXT,
-  handle TEXT,
-  status TEXT NOT NULL DEFAULT 'connected',
-  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
-);
+CREATE INDEX idx_sessions_user_id ON sessions(user_id);
+CREATE INDEX idx_sessions_token_hash ON sessions(token_hash);
+CREATE INDEX idx_channels_user_id ON channels(user_id);
 
-CREATE TABLE videos (
-  id UUID PRIMARY KEY,
-  channel_id UUID NOT NULL REFERENCES channels(id),
-  topic TEXT NOT NULL,
-  title TEXT,
-  script TEXT,
-  language TEXT NOT NULL,
-  duration_target INTEGER,
-  status TEXT NOT NULL DEFAULT 'planned',
-  output_url TEXT,
-  scheduled_at TIMESTAMPTZ,
-  published_at TIMESTAMPTZ,
-  error_message TEXT,
-  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
-);
-
-CREATE TABLE video_assets (
-  id UUID PRIMARY KEY,
-  video_id UUID NOT NULL REFERENCES videos(id),
-  source_url TEXT NOT NULL,
-  source_name TEXT,
-  license TEXT,
-  media_type TEXT,
-  created_at TIMESTAMPTZ NOT NULL DEFAULT now()
-);
-
-CREATE TABLE publication_jobs (
-  id UUID PRIMARY KEY,
-  video_id UUID NOT NULL REFERENCES videos(id),
-  provider TEXT NOT NULL,
-  status TEXT NOT NULL DEFAULT 'pending',
-  external_post_id TEXT,
-  external_url TEXT,
-  attempts INTEGER NOT NULL DEFAULT 0,
-  last_error TEXT,
-  created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
-  updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
-);
-
-CREATE TABLE analytics_daily (
-  id UUID PRIMARY KEY,
-  channel_id UUID NOT NULL REFERENCES channels(id),
-  provider TEXT NOT NULL,
-  day DATE NOT NULL,
-  views BIGINT NOT NULL DEFAULT 0,
-  likes BIGINT NOT NULL DEFAULT 0,
-  comments BIGINT NOT NULL DEFAULT 0,
-  shares BIGINT NOT NULL DEFAULT 0,
-  followers_delta BIGINT NOT NULL DEFAULT 0,
-  UNIQUE(channel_id, provider, day)
-);
+-- Planned production tables for the next milestone:
+-- videos, video_assets, publication_jobs, analytics_daily, subscriptions and usage_events.
