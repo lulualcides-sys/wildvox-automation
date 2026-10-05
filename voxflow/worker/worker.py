@@ -9,7 +9,7 @@ import boto3
 from sqlalchemy import select
 
 from voxflow.api.main import SessionLocal
-from voxflow.api.production_router import ProductionJob
+from voxflow.api.production_router import ProductionJob, WorkerHeartbeat
 
 ROOT = Path(os.getenv("VOXFLOW_REPO_ROOT", "/app"))
 POLL_SECONDS = int(os.getenv("WORKER_POLL_SECONDS", "8"))
@@ -30,6 +30,26 @@ def storage_ready() -> bool:
         and STORAGE_PUBLIC_BASE_URL
     )
 
+
+def heartbeat():
+    db = SessionLocal()
+    try:
+        row = db.get(WorkerHeartbeat, "primary-render")
+        now = datetime.now(timezone.utc)
+        if not row:
+            row = WorkerHeartbeat(
+                id="primary-render",
+                worker_type="render",
+                last_seen_at=now,
+                version="wildvox-v2",
+            )
+            db.add(row)
+        else:
+            row.last_seen_at = now
+            row.version = "wildvox-v2"
+        db.commit()
+    finally:
+        db.close()
 
 def claim_job():
     db = SessionLocal()
@@ -127,6 +147,7 @@ def render(job: dict):
 def main():
     print("VoxFlow render worker started.", flush=True)
     while True:
+        heartbeat()
         job = claim_job()
         if not job:
             time.sleep(POLL_SECONDS)
