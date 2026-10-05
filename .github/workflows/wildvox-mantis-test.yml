@@ -55,12 +55,23 @@ jobs:
           path: public
       - name: Update persistent media branch
         run: |
+          set -euo pipefail
+          rm -rf /tmp/wildvox-media-branch
+
+          git fetch origin media
+          git worktree add --force --detach /tmp/wildvox-media-branch origin/media
+          cp public/mantis_shrimp.mp4 /tmp/wildvox-media-branch/
+          cp public/mantis_shrimp_meta.json /tmp/wildvox-media-branch/
+
+          cd /tmp/wildvox-media-branch
           git config user.name "wildvox-bot"
           git config user.email "actions@users.noreply.github.com"
-          git fetch origin media
-          git checkout -B media origin/media
-          cp public/mantis_shrimp.mp4 .
-          cp public/mantis_shrimp_meta.json .
           git add mantis_shrimp.mp4 mantis_shrimp_meta.json
-          git commit -m "Publish mantis shrimp test" || true
-          git push origin media
+
+          if git diff --cached --quiet; then
+            echo "No mantis shrimp media changes to publish."
+            exit 0
+          fi
+
+          git commit -m "Publish mantis shrimp test"
+          git push origin HEAD:media
