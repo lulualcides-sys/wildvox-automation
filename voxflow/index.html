@@ -367,9 +367,14 @@ async function loadUsage(){
   try{
     const data=await api('/api/account/usage');
     const used=data.channels.used;
-    const limit=data.channels.limit;
-    document.getElementById('usageLabel').textContent=(data.plan||'free').toUpperCase()+' plan · '+used+'/'+limit+' channel slots used · '+data.videos_per_month_limit+' videos/month';
-    document.getElementById('usageFill').style.width=Math.min(100,(used/Math.max(1,limit))*100)+'%';
+    if(data.unlimited){
+      document.getElementById('usageLabel').textContent='OWNER · Unlimited channels and video allowance · no billing';
+      document.getElementById('usageFill').style.width='100%';
+    }else{
+      const limit=data.channels.limit;
+      document.getElementById('usageLabel').textContent=(data.plan||'free').toUpperCase()+' plan · '+used+'/'+limit+' channel slots used · '+data.videos_per_month_limit+' videos/month';
+      document.getElementById('usageFill').style.width=Math.min(100,(used/Math.max(1,limit))*100)+'%';
+    }
   }catch(e){
     document.getElementById('usageLabel').textContent='Usage unavailable';
   }
@@ -424,6 +429,12 @@ async function loadBilling(){
     const values=await Promise.all([api('/api/billing/plans'),api('/api/billing/status')]);
     const plans=values[0];
     const status=values[1];
+    if(status.plan==='owner'){
+      document.getElementById('billingProvider').textContent='OWNER';
+      grid.innerHTML='<div class="billingcard current"><span class="tiny">INTERNAL OWNER ACCOUNT</span><strong>Unlimited</strong><div class="muted" style="font-size:13px">No subscription, no channel cap and no monthly video cap. This account is excluded from commercial billing.</div></div>';
+      document.getElementById('billingSubscription').textContent='Billing disabled for the owner account.';
+      return;
+    }
     document.getElementById('billingProvider').textContent=plans.configured?'Mercado Pago ready':'Preview · no charges';
 
     grid.innerHTML=plans.plans.map(function(p){
