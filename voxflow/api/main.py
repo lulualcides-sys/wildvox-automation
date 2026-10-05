@@ -245,6 +245,14 @@ def oauth_user(db: Session, provider: str, provider_user_id: str, email: str, na
 def web_app():
     return FileResponse(BASE_DIR / "index.html")
 
+@app.get("/privacy", include_in_schema=False)
+def privacy_page():
+    return FileResponse(BASE_DIR / "privacy.html")
+
+@app.get("/terms", include_in_schema=False)
+def terms_page():
+    return FileResponse(BASE_DIR / "terms.html")
+
 @app.get("/health")
 def health():
     return {"ok": True, "service": "voxflow-api", "version": "0.3.0"}
