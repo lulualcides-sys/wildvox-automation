@@ -319,6 +319,7 @@ def terms_page():
     return FileResponse(BASE_DIR / "terms.html")
 
 @app.get("/api/internal/owner-ready")
+@app.post("/api/internal/owner-ready")
 def owner_ready(db: Session = Depends(db_session)):
     if not OWNER_EMAIL:
         return {"ready": False}
