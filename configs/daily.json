@@ -18,7 +18,8 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "caption": "Stingrays glide through water like underwater wings. 🌊\n\n#Stingray #OceanFacts #AnimalFacts #MarineLife #WildVox"
+    "caption": "Stingrays glide through water like underwater wings. 🌊\n\n#Stingray #OceanFacts #AnimalFacts #MarineLife #WildVox",
+    "revision": "2026-10-05-1817-recovery"
   },
   "dolphin": {
     "title": "DOLPHINS CAN SEE WITH SOUND",
@@ -39,7 +40,8 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "caption": "Dolphins can map their surroundings with echoes. 🐬\n\n#Dolphin #AnimalFacts #OceanFacts #MarineLife #WildVox"
+    "caption": "Dolphins can map their surroundings with echoes. 🐬\n\n#Dolphin #AnimalFacts #OceanFacts #MarineLife #WildVox",
+    "revision": "2026-10-05-1817-recovery"
   },
   "crab": {
     "title": "WHY CRABS WALK SIDEWAYS",
@@ -59,6 +61,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "caption": "Crabs are built for sideways speed. 🦀\n\n#Crab #AnimalFacts #OceanFacts #NatureFacts #WildVox"
+    "caption": "Crabs are built for sideways speed. 🦀\n\n#Crab #AnimalFacts #OceanFacts #NatureFacts #WildVox",
+    "revision": "2026-10-05-1817-recovery"
   }
 }
