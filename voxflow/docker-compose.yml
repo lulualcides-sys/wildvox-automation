@@ -1,0 +1,26 @@
+services:
+  voxflow:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://voxflow:voxflow@db:5432/voxflow
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - db
+      - redis
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: voxflow
+      POSTGRES_USER: voxflow
+      POSTGRES_PASSWORD: voxflow
+    volumes:
+      - voxflow_pg:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+
+volumes:
+  voxflow_pg:
