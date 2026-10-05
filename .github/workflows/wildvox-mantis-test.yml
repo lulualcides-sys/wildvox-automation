@@ -1,12 +1,6 @@
 name: WildVox Mantis Shrimp Test
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/wildvox-mantis-test.yml"
-      - "scripts/generate_video.py"
-      - "configs/mantis_shrimp_test.json"
   workflow_dispatch:
 
 permissions:
