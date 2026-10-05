@@ -708,3 +708,7 @@ def delete_account(payload: DeleteAccountInput, response: Response, user: User =
     db.commit()
     response.delete_cookie(COOKIE_NAME, path="/")
     return {"ok": True}
+
+
+from .support_router import router as support_router
+app.include_router(support_router)
