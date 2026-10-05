@@ -1,0 +1,70 @@
+{
+  "key": "goblin_shark",
+  "title": "THIS SHARK FIRES ITS JAWS FORWARD",
+  "caption": "The goblin shark detects prey in darkness, then launches its jaws like a slingshot. 🦈👽\n\n#GoblinShark #DeepSea #OceanFacts #AnimalFacts #MarineBiology #WildlifeTok #WildVox",
+  "duration": 60.77,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Bycatch_fish_species_%2810.3897-zookeys.843.32410%29_Figure_5.jpg",
+      "license": "CC BY 4.0",
+      "assetTitle": "Mitsukurina owstoni"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/FMIB_51670_Goblin-_hark_%28Tenguzame%29%2C_Mitsukurina_owstoni_Jordan_From_a_young_specimen_in_the_Imperial_University_of_Tokyo.jpeg",
+      "license": "Public domain",
+      "assetTitle": "Mitsukurina owstoni"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Goblin_shark%2C_Pengo.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Mitsukurina owstoni"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Goblin_shark_%28Mitsukurina_owstoni%29.jpg",
+      "license": "Public domain",
+      "assetTitle": "Mitsukurina owstoni"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Goblin_shark_NHMW.jpg",
+      "license": "CC BY 4.0",
+      "assetTitle": "Mitsukurina owstoni"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Goblin_shark_snout.jpg",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Mitsukurina owstoni snout"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hal_-_Mitsukurina_owstoni_-_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Mitsukurina owstoni"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Hal_-_Mitsukurina_owstoni_-_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Mitsukurina owstoni"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Mistukurina_owstoni_museum_victoria.jpg",
+      "license": "CC BY 3.0 AU",
+      "assetTitle": "Mitsukurina owstoni"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Mistukurina_owstoni_museum_victoria_-_head_detail.jpg",
+      "license": "CC BY 3.0 AU",
+      "assetTitle": "Mitsukurina owstoni head"
+    }
+  ]
+}

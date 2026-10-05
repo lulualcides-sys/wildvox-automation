@@ -1,0 +1,64 @@
+{
+  "key": "geography_cone_snail",
+  "title": "THIS SNAIL HUNTS WITH A VENOMOUS HARPOON",
+  "caption": "A cone snail fires a replaceable venomous tooth like a biological harpoon. 🐚🎯\n\n#ConeSnail #OceanFacts #VenomousAnimals #AnimalFacts #MarineLife #DidYouKnow #WildVox",
+  "duration": 39.42,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cone_g%C3%A9ographique.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Conus geographus"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Conus-geographicus.jpg",
+      "license": "Public domain",
+      "assetTitle": "Conus geographus"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Conus-geographus-001.jpg",
+      "license": "Public domain",
+      "assetTitle": "Conus geographus"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Conus_geographus_%28MNHN-IM-2013-11448%29.jpeg",
+      "license": "CC BY 4.0",
+      "assetTitle": "Conus geographus"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Conus_geographus_%28MNHN-IM-2013-54879%29.jpeg",
+      "license": "CC BY 4.0",
+      "assetTitle": "Conus geographus"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Conus_geographus_%28geography_cone_snail%29_1_%2824422159755%29.jpg",
+      "license": "CC BY 2.0",
+      "assetTitle": "Conus geographus"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Conus_geographus_%28geography_cone_snail%29_2_%2824422156255%29.jpg",
+      "license": "CC BY 2.0",
+      "assetTitle": "Conus geographus"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Conus_geographus_1.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Conus geographus"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Conus_geographus_2.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Conus geographus"
+    }
+  ]
+}

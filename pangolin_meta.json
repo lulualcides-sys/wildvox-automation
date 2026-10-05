@@ -1,0 +1,58 @@
+{
+  "key": "pangolin",
+  "title": "THE ONLY MAMMAL COVERED IN SCALES",
+  "caption": "Pangolins are mammals wearing armor made from the same material as your nails. 🛡️\n\n#Pangolin #AnimalFacts #WildlifeConservation #NatureFacts #DidYouKnow #WildlifeTok #WildVox",
+  "duration": 34.02,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Indian_pangolin_%28Manis_crassicaudata%29_-_oo_246940_%28cropped_to_A%29.jpg",
+      "license": "CC BY 4.0",
+      "assetTitle": "Indian pangolin"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Manis.jpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Pangolin"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Manis_crassicaudata_-_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Indian pangolin"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Manis_javanica_101596.jpg",
+      "license": "CC BY 4.0",
+      "assetTitle": "Sunda pangolin"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Manis_javanica_14708922.jpg",
+      "license": "CC BY 4.0",
+      "assetTitle": "Sunda pangolin"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Newborn_male_Chinese_pangolin_%28Manis_pentadactyla%29.jpg",
+      "license": "CC BY 3.0",
+      "assetTitle": "Chinese pangolin"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Pangolin_%28Gir_Forest%2C_Gujarat%2C_India%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Indian pangolin"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Pangolin_behaviour_%28Manis_crassicaudata%29.png",
+      "license": "CC BY 3.0",
+      "assetTitle": "Indian pangolin behavior"
+    }
+  ]
+}

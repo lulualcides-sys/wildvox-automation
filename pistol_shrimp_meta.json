@@ -1,0 +1,70 @@
+{
+  "key": "pistol_shrimp",
+  "title": "THIS SHRIMP FIRES A BUBBLE BULLET",
+  "caption": "The pistol shrimp fires a cavitation bubble whose collapse creates the real shock wave. 💥🦐\n\n#PistolShrimp #OceanFacts #AnimalFacts #PhysicsTok #MarineBiology #DidYouKnow #WildVox",
+  "duration": 62.58,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/2017%2C_cuba%2C_jardines_aggressor%2C_fraile_II%2C_snapping_shrimp_%2837504722356%29.jpg",
+      "license": "CC BY 2.0",
+      "assetTitle": "Snapping shrimp"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Alpheus_distinguendus.jpg",
+      "license": "CC BY-SA 2.5",
+      "assetTitle": "Alpheus distinguendus"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Alpheus_djiboutensis_%28Snapping_shrimp%29_with_partner_Cryptocentrus_cinctus_%28Yellow_shrimp_goby%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Snapping shrimp with goby"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/CSIRO_ScienceImage_10852_A_probable_new_species_of_Alpheus_pistol_shrimp.jpg",
+      "license": "CC BY 3.0",
+      "assetTitle": "Alpheus pistol shrimp"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Cryptocentrus_strigilliceps_%28Target_shrimpgoby%29_and_Alpheus_rapacida_%28Snapping_shrimp%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Alpheus rapacida with goby"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Snapping_shrimp_%2813980940591%29.jpg",
+      "license": "CC BY 2.0",
+      "assetTitle": "Snapping shrimp"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Snapping_shrimp_%2813984113675%29.jpg",
+      "license": "CC BY 2.0",
+      "assetTitle": "Snapping shrimp"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Snapping_shrimp_%2813984556614%29.jpg",
+      "license": "CC BY 2.0",
+      "assetTitle": "Snapping shrimp"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Snapping_shrimp_%28Synalpheus_carinatus%29_%2824352319501%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Synalpheus carinatus"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Snapping_shrimp_%28Synalpheus_sp.%29_%2823806570264%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Synalpheus snapping shrimp"
+    }
+  ]
+}

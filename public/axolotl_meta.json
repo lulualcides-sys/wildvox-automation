@@ -1,0 +1,70 @@
+{
+  "key": "axolotl",
+  "title": "THIS ANIMAL CAN REBUILD ITS OWN LIMBS",
+  "caption": "The axolotl can rebuild complex body parts with remarkably little scarring. 🦎✨\n\n#Axolotl #AnimalFacts #WildlifeTok #ScienceTok #NatureFacts #DidYouKnow #WildVox",
+  "duration": 38.8,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/6_maja_06_r._ZOO_204.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Ambystoma mexicanum"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Ambystoma_mexicanum_%286337857516%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Ambystoma mexicanum"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Ambystoma_mexicanum_-_Teresa_Such_Ferrer_%28cropped%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Ambystoma mexicanum"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Ambystoma_mexicanum_1.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Ambystoma mexicanum"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Ambystoma_mexicanum_at_Vancouver_Aquarium.jpg",
+      "license": "CC BY 3.0",
+      "assetTitle": "Ambystoma mexicanum"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Ambystoma_mexicanum_in_Ouwehands_Dierenpark_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Ambystoma mexicanum"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ambystoma_mexicanum_in_Ouwehands_Dierenpark_02.jpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Ambystoma mexicanum"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Axolotl_%28Ambystoma_mexicanum%29.webm",
+      "license": "CC BY 2.0",
+      "assetTitle": "Axolotl video"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Axolotl_Ambystoma_mexicanum_Aquarium_Li%C3%A8ge_30012016_1.jpg",
+      "license": "CC0",
+      "assetTitle": "Ambystoma mexicanum"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Axolotl_Ambystoma_mexicanum_Aquarium_Li%C3%A8ge_30012016_2.jpg",
+      "license": "CC0",
+      "assetTitle": "Ambystoma mexicanum"
+    }
+  ]
+}

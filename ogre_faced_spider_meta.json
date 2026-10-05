@@ -1,0 +1,64 @@
+{
+  "key": "ogre_faced_spider",
+  "title": "THIS SPIDER THROWS A NET",
+  "caption": "This spider holds a web in its hands and throws it at prey. 🕷️🕸️\n\n#OgreFacedSpider #SpiderFacts #AnimalFacts #WildlifeTok #NatureFacts #DidYouKnow #WildVox",
+  "duration": 32.98,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/..._spider_--_net-casting_spider_..._Deinopis_sp._%286073678732%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Deinopis net-casting spider"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/..._spider_--_net-casting_spider_..._Deinopis_sp._%286073686644%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Deinopis net-casting spider"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/..._spider_--_net-casting_spider_..._Deinopis_sp._%286073689020%29.jpg",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Deinopis net-casting spider"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Deinopis%2C_Net_Casting_Spider%2C_Sydney.jpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Deinopis net-casting spider"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Deinopis_guianensis_67742195.jpg",
+      "license": "CC BY 4.0",
+      "assetTitle": "Deinopis guianensis"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Deinopis_madagascariensis_2399440.jpg",
+      "license": "CC0",
+      "assetTitle": "Deinopis madagascariensis"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Deinopis_sp._%2832321889190%29.jpg",
+      "license": "CC BY 2.0",
+      "assetTitle": "Deinopis spider"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Deinopis_spinosa.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Deinopis spinosa"
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Deinopis_subrufa_%281%29.jpg",
+      "license": "CC BY 2.0",
+      "assetTitle": "Deinopis subrufa"
+    }
+  ]
+}
