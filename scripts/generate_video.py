@@ -174,7 +174,7 @@ def interleave_video_first(videos, images):
                 ii += 1
     return ordered
 
-def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None):
+def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None, target_shot_seconds=None):
     # URL-level dedupe before downloading.
     unique_sources = []
     seen_urls = set()
@@ -234,6 +234,28 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     local = interleave_video_first(videos, images)
     if not local:
         raise RuntimeError("No unique media sources available")
+
+    # Use the source list as a pool, not a command to cram every clip into the edit.
+    # Pick enough unique shots for a calmer average cadence while still meeting the
+    # video-count quality gate. Short WildVox videos should usually land near 6-8s
+    # per shot; longer videos naturally use more unique clips.
+    if target_shot_seconds:
+        target_count = max(min_unique_videos, round(duration / target_shot_seconds))
+        target_count = min(len(local), max(min_unique_videos, target_count))
+        selected = []
+        selected_video_count = 0
+        # Favor video sources first so images remain optional support.
+        for item in videos:
+            if len(selected) >= target_count:
+                break
+            selected.append(item)
+            selected_video_count += 1
+        if len(selected) < target_count:
+            for item in images:
+                if len(selected) >= target_count:
+                    break
+                selected.append(item)
+        local = selected
 
     if max_shot_seconds:
         required_assets = math.ceil(duration / max_shot_seconds)
@@ -357,6 +379,7 @@ def main():
         min_unique_videos=int(cfg.get("min_unique_videos", 4)),
         max_shot_seconds=float(cfg["max_shot_seconds"]) if cfg.get("max_shot_seconds") else None,
         max_freeze_seconds=float(cfg["max_freeze_seconds"]) if cfg.get("max_freeze_seconds") is not None else None,
+        target_shot_seconds=float(cfg["target_shot_seconds"]) if cfg.get("target_shot_seconds") else None,
     )
     final = render_final(visual, voice, ass, args.key, duration)
 
