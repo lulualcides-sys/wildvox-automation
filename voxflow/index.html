@@ -195,6 +195,9 @@ async function submitAuth(){
     const data=await api('/api/auth/'+authMode,{method:'POST',body:JSON.stringify(body)});
     currentUser=data.user;
     closeAuth();
+    if(authMode==='register'){
+      try{await api('/api/account/send-verification',{method:'POST'});}catch(_){}
+    }
     await openDashboard();
   }catch(e){
     err.textContent=e.message;
@@ -475,15 +478,15 @@ async function launchChannel(){
   }catch(e){alert(e.message)}
 }
 window.addEventListener('load',async function(){
+  const qs=new URLSearchParams(window.location.search);
+  resetToken=qs.get('reset_token');
+  if(resetToken){
+    document.getElementById('resetModal').classList.add('open');
+    return;
+  }
   try{
     const d=await api('/api/auth/me');
     currentUser=d.user;
-    const qs=new URLSearchParams(window.location.search);
-    resetToken=qs.get('reset_token');
-    if(resetToken){
-      document.getElementById('resetModal').classList.add('open');
-      return;
-    }
     if(qs.get('login')==='success' || qs.get('youtube')==='connected' || qs.get('email')==='verified' || qs.get('billing')){
       history.replaceState({},'',window.location.pathname);
       await openDashboard();
@@ -491,7 +494,7 @@ window.addEventListener('load',async function(){
   }catch(_){}
 });
 </script>
-</body></html>+Number(p.amount).toFixed(2).replace('.',',')+'</strong><div class="muted" style="font-size:13px;min-height:54px">'+escapeHtml(p.summary)+'</div><button class="btn '+(p.id==='creator'?'btn-primary':'btn-secondary')+'" style="width:100%;margin-top:10px" onclick="checkoutPlan(\''+p.id+'\',\'subscribe\')">'+(current?'Current':'Subscribe')+'</button><button class="btn btn-secondary" style="width:100%;margin-top:7px" onclick="checkoutPlan(\''+p.id+'\',\'month\')">Pay 30 days</button></div>';
+</body></html>+Number(p.amount).toFixed(2).replace('.',',')+'</strong><div class="muted" style="font-size:13px;min-height:54px">'+escapeHtml(p.summary)+'</div><button class="btn '+(p.id==='creator'?'btn-primary':'btn-secondary')+'" style="width:100%;margin-top:10px" '+(current?'disabled':'onclick="checkoutPlan(\''+p.id+'\',\'subscribe\')"')+'>'+(current?'Current plan':'Subscribe')+'</button><button class="btn btn-secondary" style="width:100%;margin-top:7px" onclick="checkoutPlan(\''+p.id+'\',\'month\')">Pay 30 days</button></div>';
     }).join('');
     const s=status.subscription;
     document.getElementById('billingSubscription').textContent=s?('Subscription: '+s.plan+' · '+s.status+' · '+s.mode):'No paid subscription yet.';
