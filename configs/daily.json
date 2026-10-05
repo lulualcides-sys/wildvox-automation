@@ -1,112 +1,108 @@
 {
-  "frog": {
-    "title": "THIS ANIMAL DRINKS THROUGH ITS SKIN",
-    "script": "Frogs have one of the strangest ways to stay hydrated. Many species absorb water directly through a specialized patch of skin on the belly and thighs instead of drinking through the mouth. Their skin also helps with gas exchange, which is why moisture is so important. A frog's tongue is attached near the front of the mouth and can flip outward in a split second to catch prey. In many species, the eyes can retract downward while swallowing and help push food toward the throat. That means a frog can literally use its eyes to help eat.",
-    "sources": [
-      "https://www.pexels.com/download/video/855631/",
-      "https://www.pexels.com/download/video/854974/",
-      "https://www.pexels.com/download/video/854302/",
-      "https://www.pexels.com/download/video/29960564/"
-    ],
-    "caption": "Frogs can absorb water directly through their skin. 🐸\n\n#AnimalFacts #Frog #NatureFacts #WildlifeTok #DidYouKnow #WildVox"
-  },
-  "chameleon": {
-    "title": "ITS EYES CAN LOOK IN TWO DIRECTIONS",
-    "script": "A chameleon can watch two parts of the world at the same time. Each eye can move largely independently, scanning for predators and prey without forcing the animal to turn its head. Once it spots a target, both eyes can lock forward to judge distance. Its feet grip branches like tongs, and many species use a prehensile tail as an extra anchor. Color change is not just camouflage either. It can help with communication and temperature control. Then comes the tongue, which can launch farther than the chameleon's own body length in some species.",
-    "sources": [
-      "https://www.pexels.com/download/video/4815477/",
-      "https://www.pexels.com/download/video/17408065/",
-      "https://www.pexels.com/download/video/18976941/",
-      "https://www.pexels.com/download/video/8838067/"
-    ],
-    "caption": "A chameleon's eyes can scan in different directions. 🦎\n\n#AnimalFacts #Chameleon #Reptiles #NatureFacts #WildlifeTok #WildVox"
-  },
-  "shark": {
-    "title": "THIS PREDATOR CAN FEEL ELECTRICITY",
-    "script": "Sharks can detect signals you cannot see, hear, or smell. Around the snout are sensory organs called the ampullae of Lorenzini. They pick up tiny electrical fields produced by the muscles and nerves of other animals. That can help a shark find prey even in dark or murky water. Sharks also have skeletons made mostly of cartilage instead of bone, and their skin is covered with tiny tooth-like scales called dermal denticles. Their teeth are continuously replaced, with new rows moving forward as older teeth are lost.",
-    "sources": [
-      "https://www.pexels.com/download/video/5968033/",
-      "https://www.pexels.com/download/video/7997336/",
-      "https://www.pexels.com/download/video/5712941/",
-      "https://www.pexels.com/download/video/5548359/"
-    ],
-    "caption": "Sharks can detect electrical signals from other animals. 🦈\n\n#AnimalFacts #Shark #OceanFacts #MarineLife #WildVox"
-  },
   "jellyfish": {
     "title": "THIS ANIMAL HAS NO BRAIN",
-    "script": "A jellyfish can swim, hunt, and react to danger without having a brain like ours. Instead, many jellyfish use a diffuse network of nerves spread through the body. Their bell contracts to push water backward, creating a simple form of jet propulsion. Tentacles carry specialized stinging cells called nematocysts that can fire microscopic harpoons into prey. Jellyfish are mostly water, and their bodies have no bones, no heart, and no centralized brain. Yet some species have survived in Earth's oceans for hundreds of millions of years.",
+    "script": "A jellyfish can swim and hunt without a centralized brain. Instead, nerves are spread through the body in a simple network. The bell contracts to push water backward, while tentacles carry stinging cells that fire microscopic harpoons into prey. Jellyfish have no bones and no heart, yet their basic design has survived for hundreds of millions of years.",
     "sources": [
       "https://www.pexels.com/download/video/13998966/",
       "https://www.pexels.com/download/video/5533692/",
-      "https://www.pexels.com/download/video/12860645/",
-      "https://www.pexels.com/download/video/8572648/"
+      "https://www.pexels.com/download/video/6899910/",
+      "https://www.pexels.com/download/video/8017239/",
+      "https://www.pexels.com/download/video/10068506/",
+      "https://www.pexels.com/download/video/36543993/",
+      "https://www.pexels.com/download/video/27379232/"
     ],
+    "min_unique_videos": 6,
+    "max_shot_seconds": 5.5,
+    "max_freeze_seconds": 1,
     "caption": "Jellyfish can hunt without a centralized brain. 🪼\n\n#Jellyfish #OceanFacts #AnimalFacts #MarineBiology #WildVox"
   },
   "octopus": {
-    "title": "THREE HEARTS AND BLUE BLOOD",
-    "script": "An octopus is built very differently from us. It has three hearts, and its blood appears blue because it uses a copper-based molecule called hemocyanin to carry oxygen. Most of its neurons are not concentrated in the central brain; a huge number are distributed through the arms. That helps each arm handle complex movements and sensory information. Octopuses can squeeze through tiny gaps because they have no rigid skeleton, and many species can rapidly change color and skin texture for camouflage or communication.",
+    "title": "THREE HEARTS. BLUE BLOOD.",
+    "script": "An octopus has three hearts and blue blood. Its blood uses copper-based hemocyanin to carry oxygen, and a huge share of its neurons are distributed through the arms. With no rigid skeleton, an octopus can squeeze through surprisingly small gaps. Many species can also change color and skin texture in seconds, turning camouflage into a full-body disappearing act.",
     "sources": [
-      "https://www.pexels.com/download/video/17841948/",
       "https://www.pexels.com/download/video/1312397/",
       "https://www.pexels.com/download/video/6430081/",
-      "https://www.pexels.com/download/video/15623347/"
+      "https://www.pexels.com/download/video/15623347/",
+      "https://www.pexels.com/download/video/34007663/",
+      "https://www.pexels.com/download/video/34172255/",
+      "https://www.pexels.com/download/video/34810336/",
+      "https://www.pexels.com/download/video/34712753/",
+      "https://www.pexels.com/download/video/34293687/"
     ],
-    "caption": "Three hearts, blue blood, and arms packed with neurons. 🐙\n\n#Octopus #AnimalFacts #OceanFacts #WildVox"
+    "min_unique_videos": 6,
+    "max_shot_seconds": 5.5,
+    "max_freeze_seconds": 1,
+    "caption": "Three hearts, blue blood, and arms packed with neurons. 🐙\n\n#Octopus #AnimalFacts #OceanFacts #MarineLife #WildVox"
   },
   "sea_turtle": {
     "title": "THIS REPTILE CROSSES ENTIRE OCEANS",
-    "script": "Sea turtles can travel enormous distances between feeding grounds and nesting beaches. They breathe air, so even though they live in the ocean they must return to the surface regularly. Their front flippers act like powerful wings, while the shell is fused to the skeleton and cannot simply be removed. Female sea turtles often return to beaches in the same region where they hatched to lay eggs. Navigation appears to involve several cues, including Earth's magnetic field, giving these reptiles a natural map across the ocean.",
+    "script": "Sea turtles can travel enormous distances between feeding grounds and nesting beaches. They breathe air, so they still have to surface even after spending long periods underwater. Their powerful front flippers work like wings, and navigation appears to use several cues, including Earth's magnetic field. Some females return to the same region where they hatched to lay their own eggs.",
     "sources": [
-      "https://www.pexels.com/download/video/36032488/",
-      "https://www.pexels.com/download/video/34194003/",
-      "https://www.pexels.com/download/video/4323703/",
-      "https://www.pexels.com/download/video/34509578/"
+      "https://www.pexels.com/download/video/34509578/",
+      "https://www.pexels.com/download/video/33888726/",
+      "https://www.pexels.com/download/video/34198282/",
+      "https://www.pexels.com/download/video/33069348/",
+      "https://www.pexels.com/download/video/34385462/",
+      "https://www.pexels.com/download/video/7659517/",
+      "https://www.pexels.com/download/video/34049100/",
+      "https://www.pexels.com/download/video/33017624/"
     ],
-    "caption": "Sea turtles can navigate across huge stretches of ocean. 🐢\n\n#SeaTurtle #OceanFacts #AnimalFacts #WildVox"
-  },
-  "crab": {
-    "title": "WHY CRABS WALK SIDEWAYS",
-    "script": "Many crabs are built to move sideways more efficiently than forward. Their leg joints and body shape make lateral movement fast and stable, especially on uneven ground or in shallow water. Crabs wear a hard exoskeleton on the outside of the body, so growing requires a risky process called molting. The old shell splits, the crab pulls itself free, and the new shell stays soft for a while before hardening. Some species can also regenerate lost limbs over later molts, turning a missing claw into a temporary problem instead of a permanent one.",
-    "sources": [
-      "https://www.pexels.com/download/video/8352638/",
-      "https://www.pexels.com/download/video/7913414/",
-      "https://www.pexels.com/download/video/5290325/",
-      "https://www.pexels.com/download/video/5540370/"
-    ],
-    "caption": "Crabs are built for sideways speed. 🦀\n\n#Crab #AnimalFacts #OceanFacts #WildlifeTok #WildVox"
-  },
-  "seahorse": {
-    "title": "THE FATHER GIVES BIRTH",
-    "script": "Seahorses reverse one of the most familiar roles in reproduction. The female transfers eggs into a specialized brood pouch on the male. Inside the pouch, the eggs are fertilized and protected while the embryos develop. When they are ready, the male contracts the pouch and releases fully formed young into the water. Seahorses are also unusual swimmers. A small dorsal fin provides most of the propulsion, while the tail can curl around seagrass or coral to hold position in currents.",
-    "sources": [
-      "https://www.pexels.com/download/video/5548081/",
-      "https://www.pexels.com/download/video/10106769/",
-      "https://www.pexels.com/download/video/27302760/",
-      "https://www.pexels.com/download/video/11334969/"
-    ],
-    "caption": "In seahorses, the male carries the developing young. 🌊\n\n#Seahorse #AnimalFacts #OceanFacts #MarineLife #WildVox"
-  },
-  "stingray": {
-    "title": "THIS FISH FLIES UNDERWATER",
-    "script": "A stingray looks like it is flying because its enlarged pectoral fins move like broad underwater wings. Rays are relatives of sharks, so their skeletons are made of cartilage instead of bone. Many species spend time close to the seafloor and can detect weak electrical signals from hidden prey. The eyes sit on top of the body, while the mouth and gill openings are underneath. Some stingrays carry one or more defensive spines on the tail, but the animal usually relies on camouflage and escape rather than attacking.",
-    "sources": [
-      "https://www.pexels.com/download/video/36350305/",
-      "https://www.pexels.com/download/video/10373005/",
-      "https://www.pexels.com/download/video/10372904/",
-      "https://www.pexels.com/download/video/29998713/"
-    ],
-    "caption": "Stingrays glide through water like underwater wings. 🌊\n\n#Stingray #OceanFacts #AnimalFacts #WildVox"
+    "min_unique_videos": 6,
+    "max_shot_seconds": 5.5,
+    "max_freeze_seconds": 1,
+    "caption": "Sea turtles can navigate across huge stretches of ocean. 🐢\n\n#SeaTurtle #OceanFacts #AnimalFacts #MarineLife #WildVox"
   },
   "dolphin": {
     "title": "DOLPHINS CAN SEE WITH SOUND",
-    "script": "Dolphins can build a picture of their surroundings using sound. They produce rapid clicks and listen for the echoes that bounce back from fish, objects, and the seafloor. The returning echo carries information about distance, shape, and movement. This system is called echolocation. Dolphins also breathe consciously through a blowhole, which means surfacing is an active behavior. They are highly social animals, often coordinating movement and hunting inside pods. Their communication can include whistles, clicks, and other sounds.",
+    "script": "Dolphins can map their surroundings using sound. They produce rapid clicks and listen for the echoes that bounce back from fish, objects, and the seafloor. Those echoes reveal distance, shape, and movement. This ability is called echolocation. Dolphins also breathe consciously through a blowhole and often coordinate movement and hunting with other members of their pod.",
     "sources": [
-      "https://www.pexels.com/download/video/6959433/",
-      "https://www.pexels.com/download/video/5743648/",
-      "https://www.pexels.com/download/video/11042822/",
-      "https://www.pexels.com/download/video/5743314/"
+      "https://www.pexels.com/download/video/32726985/",
+      "https://www.pexels.com/download/video/4328537/",
+      "https://www.pexels.com/download/video/9700926/",
+      "https://www.pexels.com/download/video/5743313/",
+      "https://www.pexels.com/download/video/33926922/",
+      "https://www.pexels.com/download/video/12121501/",
+      "https://www.pexels.com/download/video/12659674/",
+      "https://www.pexels.com/download/video/4592360/"
     ],
+    "min_unique_videos": 6,
+    "max_shot_seconds": 5.5,
+    "max_freeze_seconds": 1,
     "caption": "Dolphins can map their surroundings with echoes. 🐬\n\n#Dolphin #AnimalFacts #OceanFacts #MarineLife #WildVox"
+  },
+  "stingray": {
+    "title": "THIS FISH FLIES UNDERWATER",
+    "script": "A stingray looks like it is flying because its enlarged pectoral fins move like broad underwater wings. Rays are relatives of sharks, so their skeletons are made of cartilage rather than bone. Many can detect weak electrical signals from prey hidden in sand. Their eyes sit on top of the body while the mouth and gill openings are underneath.",
+    "sources": [
+      "https://www.pexels.com/download/video/10372904/",
+      "https://www.pexels.com/download/video/33924264/",
+      "https://www.pexels.com/download/video/35384677/",
+      "https://www.pexels.com/download/video/32723336/",
+      "https://www.pexels.com/download/video/29998713/",
+      "https://www.pexels.com/download/video/35506891/",
+      "https://www.pexels.com/download/video/34660521/",
+      "https://www.pexels.com/download/video/34347517/"
+    ],
+    "min_unique_videos": 6,
+    "max_shot_seconds": 5.5,
+    "max_freeze_seconds": 1,
+    "caption": "Stingrays glide through water like underwater wings. 🌊\n\n#Stingray #OceanFacts #AnimalFacts #MarineLife #WildVox"
+  },
+  "crab": {
+    "title": "WHY CRABS WALK SIDEWAYS",
+    "script": "Many crabs move sideways because their leg joints make lateral motion faster and more stable than moving straight ahead. They wear a hard exoskeleton on the outside, so growth requires molting. The old shell splits, the crab pulls free, and the new shell stays soft for a while. Some crabs can even regrow lost limbs over later molts.",
+    "sources": [
+      "https://www.pexels.com/download/video/36852909/",
+      "https://www.pexels.com/download/video/27590151/",
+      "https://www.pexels.com/download/video/6473343/",
+      "https://www.pexels.com/download/video/6473346/",
+      "https://www.pexels.com/download/video/13908478/",
+      "https://www.pexels.com/download/video/18649123/",
+      "https://www.pexels.com/download/video/7913414/"
+    ],
+    "min_unique_videos": 6,
+    "max_shot_seconds": 5.5,
+    "max_freeze_seconds": 1,
+    "caption": "Crabs are built for sideways speed. 🦀\n\n#Crab #AnimalFacts #WildlifeTok #NatureFacts #WildVox"
   }
 }
