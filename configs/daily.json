@@ -1,7 +1,28 @@
 {
+  "stingray": {
+    "title": "THIS FISH FLIES UNDERWATER",
+    "script": "A stingray looks like it is flying because its huge pectoral fins move like broad underwater wings. Rays are close relatives of sharks, so their skeletons are made of flexible cartilage instead of bone. Many species spend much of their time near the seafloor, where they can detect faint electrical signals produced by hidden prey. Their eyes sit on top of the body, while the mouth and gill openings are underneath. Some rays can bury themselves in sand until almost the entire animal disappears. The famous tail spine is mainly defensive, not a hunting weapon. Most stingrays would rather escape than confront something larger. Their flattened shape, silent glide, and sensory system make them perfectly adapted to life just above the ocean floor.",
+    "sources": [
+      "https://www.pexels.com/download/video/10372904/",
+      "https://www.pexels.com/download/video/33924264/",
+      "https://www.pexels.com/download/video/35384677/",
+      "https://www.pexels.com/download/video/32723336/",
+      "https://www.pexels.com/download/video/29998713/",
+      "https://www.pexels.com/download/video/35506891/",
+      "https://www.pexels.com/download/video/34660521/",
+      "https://www.pexels.com/download/video/34347517/"
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
+    "caption": "Stingrays glide through water like underwater wings. 🌊\n\n#Stingray #OceanFacts #AnimalFacts #MarineLife #WildVox"
+  },
   "dolphin": {
     "title": "DOLPHINS CAN SEE WITH SOUND",
-    "script": "Dolphins can build a detailed picture of the world using sound. They produce rapid clicks and listen for the echoes bouncing back from fish, rocks, and the seafloor. Those echoes reveal distance, shape, direction, and even movement. This ability is called echolocation. Dolphins also breathe consciously through a blowhole, so surfacing is an active part of life rather than an automatic reflex. They are highly social and often coordinate movement or hunting with other members of the pod. Different whistles and clicks can carry information between individuals. The strange result is an animal that can navigate dark water by turning sound into a three-dimensional map.",
+    "script": "Dolphins can build a surprisingly detailed picture of the world using sound. They produce rapid clicks and listen for echoes bouncing back from fish, rocks, and the seafloor. Those returning echoes reveal distance, direction, shape, and movement. This biological sonar is called echolocation, and it lets dolphins hunt even when visibility is poor. Dolphins also breathe consciously through a blowhole, so surfacing is an active part of life rather than a simple automatic reflex. They are intensely social animals and often coordinate swimming, hunting, and protection inside a pod. Whistles and clicks help individuals stay in contact, and some dolphins develop distinctive signature whistles. In dark water, sound becomes a map, a hunting tool, and a way to stay connected with the group.",
     "sources": [
       "https://www.pexels.com/download/video/5358746/",
       "https://www.pexels.com/download/video/5084207/",
@@ -16,11 +37,13 @@
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
     "caption": "Dolphins can map their surroundings with echoes. 🐬\n\n#Dolphin #AnimalFacts #OceanFacts #MarineLife #WildVox"
   },
   "crab": {
     "title": "WHY CRABS WALK SIDEWAYS",
-    "script": "Many crabs are built to move sideways because the joints in their legs make lateral motion fast and stable. That helps them escape, climb over uneven ground, and move efficiently across sand or rock. Their armor is an exoskeleton worn on the outside of the body. But that shell cannot stretch, so a growing crab has to molt. The old shell splits, the crab pulls itself free, and the new shell remains soft for a short time before hardening. Some species can even regenerate a lost leg or claw over later molts. So the awkward sideways walk is actually part of a body plan that works extremely well.",
+    "script": "Many crabs move sideways because their leg joints make lateral motion faster and more stable than walking straight ahead. On sand, rocks, and shallow seafloors, that body plan helps them escape quickly without having to turn around first. Their hard outer armor is an exoskeleton, but it creates a strange problem: the shell cannot stretch as the crab grows. So the animal has to molt. The old shell splits, the crab pulls its entire body free, and a new soft shell expands before hardening. During that short vulnerable period, many crabs hide from predators. Some species can even regenerate a missing leg or claw over later molts. What looks like an awkward sideways walk is actually part of a highly successful design built for protection, movement, and survival.",
     "sources": [
       "https://www.pexels.com/download/video/34617337/",
       "https://www.pexels.com/download/video/34617584/",
@@ -34,6 +57,8 @@
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
     "caption": "Crabs are built for sideways speed. 🦀\n\n#Crab #AnimalFacts #OceanFacts #NatureFacts #WildVox"
   }
 }
