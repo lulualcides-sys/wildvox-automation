@@ -7,7 +7,7 @@
 <style>
 :root{--bg:#0b1020;--panel:#11182d;--panel2:#151e36;--text:#f6f7fb;--muted:#9aa4bf;--line:#26304d;--accent:#ff7a66;--accent2:#7dd3fc;--good:#34d399;--warn:#fbbf24}
 *{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:linear-gradient(180deg,#08101e,#0b1020 28%,#0d1325);color:var(--text)}
-a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 22px}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;background:rgba(8,16,30,.84);backdrop-filter:blur(16px);z-index:10}.brand{font-weight:900;letter-spacing:-.04em;font-size:22px}.brand b{color:var(--accent)}.navlinks{display:flex;gap:18px;color:var(--muted);font-size:14px}.btn{border:0;border-radius:12px;padding:12px 16px;font-weight:800;cursor:pointer}.btn-primary{background:var(--accent);color:#111}.btn-secondary{background:#18213a;color:#fff;border:1px solid var(--line)}.hero{padding:84px 0 56px;display:grid;grid-template-columns:1.08fr .92fr;gap:44px;align-items:center}.eyebrow{display:inline-block;border:1px solid var(--line);background:#10182c;color:#c8d2eb;padding:7px 10px;border-radius:999px;font-size:12px}.hero h1{font-size:62px;line-height:.98;letter-spacing:-.055em;margin:18px 0}.hero p{font-size:19px;line-height:1.55;color:var(--muted);max-width:620px}.actions{display:flex;gap:12px;margin-top:24px}.mini{margin-top:20px;color:#7f8aa6;font-size:13px}.mock{background:linear-gradient(180deg,#121a31,#0f1629);border:1px solid var(--line);border-radius:24px;padding:18px;box-shadow:0 30px 80px rgba(0,0,0,.35)}.mocktop{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.dot{width:9px;height:9px;border-radius:50%;background:var(--good);display:inline-block;margin-right:7px}.grid4{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.stat,.card{background:var(--panel2);border:1px solid var(--line);border-radius:16px;padding:16px}.stat small,.muted{color:var(--muted)}.stat strong{display:block;font-size:26px;margin-top:4px}.video{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.06)}.video:last-child{border-bottom:0}.status{font-size:11px;padding:5px 8px;border-radius:999px;background:#16342b;color:#7ff0c0}.section{padding:70px 0}.section h2{font-size:38px;letter-spacing:-.04em;margin:0 0 12px}.section>p,.section .lead{color:var(--muted);max-width:760px;line-height:1.6}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}.feature{background:var(--panel);border:1px solid var(--line);padding:20px;border-radius:18px}.feature h3{margin:10px 0 8px}.feature p{color:var(--muted);line-height:1.5}.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.price{background:var(--panel);border:1px solid var(--line);padding:22px;border-radius:20px;position:relative}.price.pop{border-color:var(--accent);box-shadow:0 0 0 1px rgba(255,122,102,.15)}.price strong{font-size:34px}.price ul{padding-left:18px;color:var(--muted);line-height:1.9}.founder{position:absolute;right:14px;top:14px;background:#3b2030;color:#ffb4a8;border:1px solid #6c3546;border-radius:999px;padding:5px 8px;font-size:10px;font-weight:900}.app{display:none;min-height:100vh}.app.active{display:block}.landing.hidden{display:none}.sidebar{position:fixed;left:0;top:0;bottom:0;width:235px;background:#0a1020;border-right:1px solid var(--line);padding:22px}.sidebrand{font-size:22px;font-weight:900;margin-bottom:28px}.sideitem{padding:12px 13px;border-radius:11px;color:#aab4ce;margin-bottom:5px;cursor:pointer}.sideitem.active,.sideitem:hover{background:#151e36;color:#fff}.main{margin-left:235px;padding:28px}.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}.dashgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px;margin-top:16px}.table{width:100%;border-collapse:collapse}.table th,.table td{text-align:left;padding:13px;border-bottom:1px solid rgba(255,255,255,.06);font-size:14px}.table th{color:#7f8aa6;font-weight:700}.pill{padding:5px 8px;border-radius:999px;font-size:11px;background:#1f2a45;color:#cbd5e1}.wizard{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);align-items:center;justify-content:center;z-index:30}.wizard.open{display:flex}.wizardbox{width:min(680px,92vw);background:#10182c;border:1px solid var(--line);border-radius:22px;padding:24px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}.field input,.field select{width:100%;background:#0b1224;border:1px solid var(--line);color:#fff;padding:12px;border-radius:10px}.socialstack{display:grid;gap:9px;margin:14px 0}.socialbtn{width:100%;display:flex;align-items:center;justify-content:center;gap:9px;background:#f7f8fb;color:#111;border:1px solid #dfe3eb}.socialbtn.alt{background:#111827;color:#fff;border-color:#30384c}.divider{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:12px;margin:14px 0}.divider:before,.divider:after{content:"";height:1px;background:var(--line);flex:1}.platformgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.platformcard{background:var(--panel2);border:1px solid var(--line);border-radius:15px;padding:15px}.platformcard strong{display:block;margin-bottom:5px}.securitygrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px}.securityitem{background:var(--panel2);border:1px solid var(--line);border-radius:13px;padding:13px}.footer{padding:30px 0 50px;color:#6f7a96;font-size:13px}@media(max-width:900px){.hero{grid-template-columns:1fr}.hero h1{font-size:46px}.features,.pricing,.platformgrid{grid-template-columns:1fr}.navlinks{display:none}.sidebar{display:none}.main{margin-left:0}.dashgrid{grid-template-columns:1fr 1fr}.fields,.securitygrid{grid-template-columns:1fr}}
+a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 22px}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;background:rgba(8,16,30,.84);backdrop-filter:blur(16px);z-index:10}.brand{font-weight:900;letter-spacing:-.04em;font-size:22px}.brand b{color:var(--accent)}.navlinks{display:flex;gap:18px;color:var(--muted);font-size:14px}.btn{border:0;border-radius:12px;padding:12px 16px;font-weight:800;cursor:pointer}.btn-primary{background:var(--accent);color:#111}.btn-secondary{background:#18213a;color:#fff;border:1px solid var(--line)}.hero{padding:84px 0 56px;display:grid;grid-template-columns:1.08fr .92fr;gap:44px;align-items:center}.eyebrow{display:inline-block;border:1px solid var(--line);background:#10182c;color:#c8d2eb;padding:7px 10px;border-radius:999px;font-size:12px}.hero h1{font-size:62px;line-height:.98;letter-spacing:-.055em;margin:18px 0}.hero p{font-size:19px;line-height:1.55;color:var(--muted);max-width:620px}.actions{display:flex;gap:12px;margin-top:24px}.mini{margin-top:20px;color:#7f8aa6;font-size:13px}.mock{background:linear-gradient(180deg,#121a31,#0f1629);border:1px solid var(--line);border-radius:24px;padding:18px;box-shadow:0 30px 80px rgba(0,0,0,.35)}.mocktop{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.dot{width:9px;height:9px;border-radius:50%;background:var(--good);display:inline-block;margin-right:7px}.grid4{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.stat,.card{background:var(--panel2);border:1px solid var(--line);border-radius:16px;padding:16px}.stat small,.muted{color:var(--muted)}.stat strong{display:block;font-size:26px;margin-top:4px}.video{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid rgba(255,255,255,.06)}.video:last-child{border-bottom:0}.status{font-size:11px;padding:5px 8px;border-radius:999px;background:#16342b;color:#7ff0c0}.section{padding:70px 0}.section h2{font-size:38px;letter-spacing:-.04em;margin:0 0 12px}.section>p,.section .lead{color:var(--muted);max-width:760px;line-height:1.6}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}.feature{background:var(--panel);border:1px solid var(--line);padding:20px;border-radius:18px}.feature h3{margin:10px 0 8px}.feature p{color:var(--muted);line-height:1.5}.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.price{background:var(--panel);border:1px solid var(--line);padding:22px;border-radius:20px;position:relative}.price.pop{border-color:var(--accent);box-shadow:0 0 0 1px rgba(255,122,102,.15)}.price strong{font-size:34px}.price .pitch{color:#c5cee3;line-height:1.5;min-height:76px;margin:8px 0 14px}.price .bestfor{font-size:12px;color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.06em}.price ul{padding-left:18px;color:var(--muted);line-height:1.9}.price .plancta{width:100%;margin-top:10px}.founder{position:absolute;right:14px;top:14px;background:#3b2030;color:#ffb4a8;border:1px solid #6c3546;border-radius:999px;padding:5px 8px;font-size:10px;font-weight:900}.app{display:none;min-height:100vh}.app.active{display:block}.landing.hidden{display:none}.sidebar{position:fixed;left:0;top:0;bottom:0;width:235px;background:#0a1020;border-right:1px solid var(--line);padding:22px}.sidebrand{font-size:22px;font-weight:900;margin-bottom:28px}.sideitem{padding:12px 13px;border-radius:11px;color:#aab4ce;margin-bottom:5px;cursor:pointer}.sideitem.active,.sideitem:hover{background:#151e36;color:#fff}.main{margin-left:235px;padding:28px}.topbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}.dashgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px;margin-top:16px}.table{width:100%;border-collapse:collapse}.table th,.table td{text-align:left;padding:13px;border-bottom:1px solid rgba(255,255,255,.06);font-size:14px}.table th{color:#7f8aa6;font-weight:700}.pill{padding:5px 8px;border-radius:999px;font-size:11px;background:#1f2a45;color:#cbd5e1}.wizard{display:none;position:fixed;inset:0;background:rgba(0,0,0,.7);align-items:center;justify-content:center;z-index:30}.wizard.open{display:flex}.wizardbox{width:min(680px,92vw);background:#10182c;border:1px solid var(--line);border-radius:22px;padding:24px}.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}.field input,.field select{width:100%;background:#0b1224;border:1px solid var(--line);color:#fff;padding:12px;border-radius:10px}.socialstack{display:grid;gap:9px;margin:14px 0}.socialbtn{width:100%;display:flex;align-items:center;justify-content:center;gap:9px;background:#f7f8fb;color:#111;border:1px solid #dfe3eb}.socialbtn.alt{background:#111827;color:#fff;border-color:#30384c}.divider{display:flex;align-items:center;gap:10px;color:var(--muted);font-size:12px;margin:14px 0}.divider:before,.divider:after{content:"";height:1px;background:var(--line);flex:1}.platformgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.platformcard{background:var(--panel2);border:1px solid var(--line);border-radius:15px;padding:15px}.platformcard strong{display:block;margin-bottom:5px}.securitygrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px}.quicksteps{display:grid;gap:9px;margin-top:14px}.quickstep{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--panel2);border:1px solid var(--line);border-radius:13px;padding:13px}.quickstep .left{display:flex;align-items:center;gap:10px}.check{width:25px;height:25px;border-radius:50%;display:grid;place-items:center;background:#1e2a45;color:#9aa4bf;font-size:12px;font-weight:900}.check.done{background:#16342b;color:#7ff0c0}.recommend{display:inline-block;margin-left:7px;padding:3px 6px;border-radius:999px;background:#3b2030;color:#ffb4a8;font-size:9px;font-weight:900;vertical-align:middle}.usagebar{height:9px;border-radius:999px;background:#202a44;overflow:hidden;margin-top:8px}.usagebar span{display:block;height:100%;background:var(--accent);border-radius:999px}.securityitem{background:var(--panel2);border:1px solid var(--line);border-radius:13px;padding:13px}.support-launcher{position:fixed;right:22px;bottom:22px;z-index:45;width:58px;height:58px;border-radius:50%;border:0;background:var(--accent);color:#111;font-weight:900;box-shadow:0 16px 40px rgba(0,0,0,.35);cursor:pointer}.support-chat{position:fixed;right:22px;bottom:92px;width:min(390px,calc(100vw - 28px));height:560px;max-height:72vh;background:#0f1729;border:1px solid var(--line);border-radius:20px;z-index:44;box-shadow:0 28px 70px rgba(0,0,0,.45);display:none;overflow:hidden}.support-chat.open{display:flex;flex-direction:column}.support-head{padding:15px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;background:#111a30}.support-head small{color:var(--muted)}.support-messages{flex:1;overflow:auto;padding:14px;display:flex;flex-direction:column;gap:10px}.msg{max-width:86%;padding:10px 12px;border-radius:14px;line-height:1.42;font-size:14px}.msg.user{align-self:flex-end;background:var(--accent);color:#111;border-bottom-right-radius:5px}.msg.assistant{align-self:flex-start;background:var(--panel2);border:1px solid var(--line);border-bottom-left-radius:5px}.support-chips{display:flex;gap:7px;overflow:auto;padding:0 14px 10px}.support-chip{white-space:nowrap;border:1px solid var(--line);background:#17213a;color:#d8def0;border-radius:999px;padding:7px 10px;font-size:11px;cursor:pointer}.support-form{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line);background:#0c1324}.support-form input{flex:1;min-width:0;background:#0b1224;border:1px solid var(--line);color:#fff;padding:11px 12px;border-radius:11px}.footer{padding:30px 0 50px;color:#6f7a96;font-size:13px}@media(max-width:900px){.hero{grid-template-columns:1fr}.hero h1{font-size:46px}.features,.pricing,.platformgrid{grid-template-columns:1fr}.navlinks{display:none}.sidebar{display:none}.main{margin-left:0}.dashgrid{grid-template-columns:1fr 1fr}.fields,.securitygrid{grid-template-columns:1fr}.support-chat{right:14px;bottom:84px;height:66vh}.support-launcher{right:14px;bottom:14px}}
 </style>
 </head>
 <body>
@@ -34,15 +34,43 @@ a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:
     </section>
     <section class="section" id="features"><h2>From idea to publication.</h2><p class="lead">The customer configures the channel once. VoxFlow handles the production pipeline and keeps a clear audit trail of every video.</p><div class="features"><div class="feature"><div>🧠</div><h3>Content engine</h3><p>Topic planning, hooks, scripts, fact checks and anti-duplication logic.</p></div><div class="feature"><div>🎬</div><h3>Video factory</h3><p>Voice, licensed assets, 9:16 editing, dynamic captions, QA and rendering.</p></div><div class="feature"><div>🚀</div><h3>Auto publishing</h3><p>Schedules and publishes to social platforms while monitoring failures.</p></div></div></section>
     <section class="section" id="how"><h2>One setup. Daily output.</h2><div class="features"><div class="feature"><h3>1. Pick a niche</h3><p>Animals, football, cars, history, gaming, curiosities or a custom niche.</p></div><div class="feature"><h3>2. Choose a format</h3><p>Language, voice, length, frequency, caption style and target platforms.</p></div><div class="feature"><h3>3. Launch</h3><p>VoxFlow creates the calendar and runs the workflow automatically.</p></div></div></section>
-    <section class="section" id="pricing">
-      <h2>Founding launch pricing.</h2>
-      <p class="lead">Founding pricing for the first public release. During the private preview, creating an account is free and no payment is charged.</p>
-      <div class="pricing">
-        <div class="price"><span class="founder">FOUNDING</span><h3>Starter</h3><strong>R$39,90</strong><span>/mo</span><ul><li>1 channel</li><li>30 videos/month</li><li>Automatic scheduling</li><li>TikTok publishing</li></ul></div>
-        <div class="price pop"><span class="founder">BEST START</span><h3>Creator</h3><strong>R$79,90</strong><span>/mo</span><ul><li>2 channels</li><li>90 videos/month</li><li>Automatic publishing</li><li>Analytics dashboard</li></ul></div>
-        <div class="price"><span class="founder">FOUNDING</span><h3>Pro</h3><strong>R$149,90</strong><span>/mo</span><ul><li>3 channels</li><li>150 videos/month</li><li>Priority rendering</li><li>Advanced analytics</li></ul></div>
+    <section class="section" id="recommended">
+      <span class="eyebrow">RECOMMENDED START</span>
+      <h2 style="margin-top:14px">Google in. YouTube out.</h2>
+      <p class="lead">The cleanest first setup is simple: use Google for account access, then grant YouTube publishing permission separately only when you want VoxFlow to publish. Login access and publishing access stay separated.</p>
+      <div class="features">
+        <div class="feature"><div>①</div><h3>Sign in with Google</h3><p>Fast account access without creating another password, while keeping your VoxFlow profile tied to a verified Google identity.</p></div>
+        <div class="feature"><div>②</div><h3>Connect YouTube Shorts</h3><p>Authorize uploads separately. VoxFlow never needs your YouTube password and stores platform tokens encrypted on the server.</p></div>
+        <div class="feature"><div>③</div><h3>Add TikTok & Reels next</h3><p>Start with one stable publishing path, then expand the same content operation to TikTok and Instagram as their app connections are approved.</p></div>
       </div>
-      <p class="mini">Higher-volume 10-videos/day plans will be priced only after we measure real infrastructure cost per rendered video.</p>
+    </section>
+    <section class="section" id="pricing">
+      <h2>Choose how fast you want to grow.</h2>
+      <p class="lead">Simple monthly plans with clear production limits. During the private preview no payment is charged. These are the planned founding prices for the first public customers.</p>
+      <div class="pricing">
+        <div class="price">
+          <span class="founder">FOUNDING</span><div class="bestfor">Best for testing one niche</div>
+          <h3>Starter</h3><strong>R$39,90</strong><span>/month</span>
+          <p class="pitch">Start a real automated channel without overcommitting. Ideal for validating one niche while maintaining consistent daily publishing.</p>
+          <ul><li>1 automated channel</li><li>30 videos/month — about 1 per day</li><li>AI script, narration, editing and captions</li><li>Scheduling and automatic publishing</li><li>YouTube Shorts + supported social connections</li><li>Production status and basic monitoring</li></ul>
+          <button class="btn btn-secondary plancta" onclick="openAuth('register')">Start with Starter</button>
+        </div>
+        <div class="price pop">
+          <span class="founder">MOST POPULAR</span><div class="bestfor">Best balance of volume and price</div>
+          <h3>Creator</h3><strong>R$79,90</strong><span>/month</span>
+          <p class="pitch">For creators who want daily volume, faster content testing and enough capacity to operate a second niche or brand.</p>
+          <ul><li>Up to 2 automated channels</li><li>90 videos/month — about 3 per day</li><li>Everything in Starter</li><li>Multi-platform publishing workflow</li><li>Content calendar and video library</li><li>Channel analytics dashboard</li></ul>
+          <button class="btn btn-primary plancta" onclick="openAuth('register')">Choose Creator</button>
+        </div>
+        <div class="price">
+          <span class="founder">SCALE</span><div class="bestfor">Best for multiple active channels</div>
+          <h3>Pro</h3><strong>R$149,90</strong><span>/month</span>
+          <p class="pitch">For a serious content operation that needs more channels, higher output and priority processing from one dashboard.</p>
+          <ul><li>Up to 3 automated channels</li><li>150 videos/month — about 5 per day</li><li>Everything in Creator</li><li>Priority rendering queue</li><li>Advanced performance analytics</li><li>Priority automation monitoring</li></ul>
+          <button class="btn btn-secondary plancta" onclick="openAuth('register')">Go Pro</button>
+        </div>
+      </div>
+      <p class="mini">Plans above 150 videos/month will be priced only after we validate the real infrastructure cost per render, keeping launch pricing sustainable.</p>
     </section>
     <div class="footer">VoxFlow AI — private preview · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></div>
   </main>
@@ -52,6 +80,7 @@ a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:
   <main class="main"><div class="topbar"><div><small class="muted" id="accountLine">Workspace</small><h2 style="margin:4px 0" id="hello">Welcome 👋</h2></div><div><button class="btn btn-secondary" onclick="logout()">Log out</button> <button class="btn btn-primary" onclick="openWizard()">+ Create channel</button></div></div>
     <div class="dashgrid"><div class="stat"><small>Videos today</small><strong>0</strong></div><div class="stat"><small>Published</small><strong>0</strong></div><div class="stat"><small>Total views</small><strong>0</strong></div><div class="stat"><small>Automation health</small><strong style="color:var(--good)">Ready</strong></div></div>
     <div class="panel"><div style="display:flex;justify-content:space-between;align-items:center"><div><h3 style="margin:0">My channels</h3><small class="muted">Private to your account.</small></div><span class="status" id="planBadge">FREE</span></div><div id="channelList" style="margin-top:12px"><span class="muted">No channels yet. Create your first one.</span></div></div>
+    <div class="panel"><div style="display:flex;justify-content:space-between;gap:16px;align-items:flex-start"><div><h3 style="margin:0">Quick start <span class="recommend">RECOMMENDED</span></h3><p class="muted" style="margin-bottom:0">Google + YouTube is the fastest path from account to automated publishing.</p></div><span class="pill" id="quickProgress">0/5</span></div><div id="quickSteps" class="quicksteps"><div class="quickstep"><span class="muted">Loading setup...</span></div></div><div style="margin-top:16px"><small class="muted" id="usageLabel">Checking plan usage...</small><div class="usagebar"><span id="usageFill" style="width:0%"></span></div></div></div>
     <div class="panel"><h3>Automation status</h3><p class="muted">Live health of the core VoxFlow services for your account.</p><div id="healthGrid" class="grid4" style="margin-top:14px"><div class="stat"><small>Checking</small><strong style="font-size:18px">...</strong></div></div><div class="mini" id="healthChecked">Waiting for status check.</div></div>
 <div class="panel"><h3>Connected platforms</h3><p class="muted">Connect the accounts VoxFlow will publish to. OAuth keeps platform passwords out of VoxFlow.</p><div id="platformGrid" class="platformgrid"><div class="platformcard"><strong>Loading...</strong><span class="muted">Checking connections</span></div></div></div>
 <div class="panel"><h3>Account security</h3><div class="securitygrid"><div class="securityitem"><strong>🔒 Password & session</strong><div class="muted" style="margin-top:5px">Argon2 password hashing + secure HttpOnly session.</div></div><div class="securityitem"><strong>🛡️ Login protection</strong><div class="muted" style="margin-top:5px">Rate limiting against repeated sign-in attempts.</div></div><div class="securityitem"><strong>✉️ Email verification</strong><div class="muted" style="margin-top:5px">Email provider setup is the next activation step.</div></div><div class="securityitem"><strong>🗑️ Account control</strong><div class="muted" style="margin:5px 0 10px">Delete your account and stored account data.</div><button class="btn btn-secondary" onclick="deleteAccount()">Delete account</button></div></div></div>
@@ -67,7 +96,7 @@ a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:
     </div>
     <div id="authError" style="display:none;margin:0 0 14px;padding:10px 12px;border-radius:10px;background:#3a1821;color:#ffc1c8;font-size:13px"></div>
     <div class="socialstack">
-      <button class="btn socialbtn" onclick="socialLogin('google')">G&nbsp; Continue with Google</button>
+      <button class="btn socialbtn" onclick="socialLogin('google')"><strong>G</strong>&nbsp; Continue with Google <span class="recommend">RECOMMENDED</span></button>
       <button class="btn socialbtn alt" onclick="socialLogin('microsoft')">▦&nbsp; Continue with Microsoft</button>
       <button class="btn socialbtn alt" onclick="socialLogin('apple')">●&nbsp; Continue with Apple</button>
     </div>
@@ -80,6 +109,27 @@ a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:
   </div>
 </div>
 <div class="wizard" id="wizard"><div class="wizardbox"><div style="display:flex;justify-content:space-between;align-items:center"><div><small class="muted">NEW AUTOMATION</small><h2>Create an automated channel</h2></div><button class="btn btn-secondary" onclick="closeWizard()">✕</button></div><div class="fields"><div class="field"><label>Channel name</label><input id="channelName" placeholder="e.g. TorqueFacts"/></div><div class="field"><label>Niche</label><select id="channelNiche"><option>Animals & Nature</option><option>Cars</option><option>Football</option><option>History</option><option>Gaming</option><option>Custom</option></select></div><div class="field"><label>Language</label><select id="channelLanguage"><option value="en-US">English (US)</option><option value="pt-BR">Portuguese (BR)</option><option value="es">Spanish</option></select></div><div class="field"><label>Videos per day</label><select id="channelVideos"><option>1</option><option>3</option><option>5</option><option selected>10</option></select></div><div class="field"><label>Video length</label><select><option>30–45 sec</option><option>60–75 sec</option><option>Mixed</option></select></div><div class="field"><label>Platform</label><select id="channelPlatform"><option value="tiktok">TikTok</option><option value="instagram">Instagram Reels</option><option value="youtube">YouTube Shorts</option></select></div></div><div style="display:flex;justify-content:flex-end;gap:10px;margin-top:20px"><button class="btn btn-secondary" onclick="closeWizard()">Cancel</button><button class="btn btn-primary" onclick="launchChannel()">Launch channel</button></div></div></div>
+
+<button class="support-launcher" id="supportLauncher" onclick="toggleSupport()" title="VoxFlow Support AI">AI</button>
+<div class="support-chat" id="supportChat">
+  <div class="support-head">
+    <div><strong>VoxFlow Support AI</strong><br><small>Product troubleshooting assistant</small></div>
+    <button class="btn btn-secondary" style="padding:7px 10px" onclick="toggleSupport()">✕</button>
+  </div>
+  <div class="support-messages" id="supportMessages">
+    <div class="msg assistant">Hi! I can help with Google, YouTube, TikTok, Instagram, channels, plans, automation and publishing errors.</div>
+  </div>
+  <div class="support-chips" id="supportChips">
+    <button class="support-chip" onclick="askSupport('How do I connect YouTube?')">Connect YouTube</button>
+    <button class="support-chip" onclick="askSupport('My automation has a problem')">Automation problem</button>
+    <button class="support-chip" onclick="askSupport('Explain my plan limits')">Plan limits</button>
+  </div>
+  <div class="support-form">
+    <input id="supportInput" placeholder="Describe the problem..." onkeydown="if(event.key==='Enter')sendSupport()"/>
+    <button class="btn btn-primary" onclick="sendSupport()">Send</button>
+  </div>
+</div>
+
 <script>
 let authMode='register';
 let currentUser=null;
@@ -138,8 +188,11 @@ async function openDashboard(){
     document.getElementById('accountLine').textContent=currentUser.email;
     document.getElementById('planBadge').textContent=(currentUser.plan||'free').toUpperCase();
     await loadChannels();
+    await loadOnboarding();
+    await loadUsage();
     await loadSystemStatus();
     await loadIntegrations();
+    await loadSupportHistory();
     window.scrollTo(0,0);
   }catch(e){openAuth('login')}
 }
@@ -168,6 +221,80 @@ async function socialLogin(provider){
     window.location.href='/api/auth/oauth/'+provider;
   }catch(e){err.textContent=e.message;err.style.display='block'}
 }
+async function loadOnboarding(){
+  const box=document.getElementById('quickSteps');
+  const badge=document.getElementById('quickProgress');
+  try{
+    const data=await api('/api/onboarding');
+    badge.textContent=data.completed+'/'+data.total;
+    box.innerHTML=data.steps.map(s=>{
+      let action='';
+      if(s.id==='google' && !s.done) action='<button class="btn btn-secondary" onclick="socialLogin(\'google\')">Use Google</button>';
+      if(s.id==='youtube' && !s.done) action='<button class="btn btn-primary" onclick="connectPlatform(\'youtube\')">Connect YouTube</button>';
+      if(s.id==='channel' && !s.done) action='<button class="btn btn-secondary" onclick="openWizard()">Create channel</button>';
+      return '<div class="quickstep"><div class="left"><span class="check '+(s.done?'done':'')+'">'+(s.done?'✓':'•')+'</span><div><strong>'+escapeHtml(s.label)+'</strong>'+(s.optional?'<div class="muted" style="font-size:11px">Optional during preview</div>':'')+'</div></div>'+action+'</div>';
+    }).join('');
+  }catch(e){
+    box.innerHTML='<div class="quickstep"><span class="muted">'+escapeHtml(e.message)+'</span></div>';
+  }
+}
+async function loadUsage(){
+  try{
+    const data=await api('/api/account/usage');
+    const used=data.channels.used, limit=data.channels.limit;
+    document.getElementById('usageLabel').textContent=(data.plan||'free').toUpperCase()+' plan · '+used+'/'+limit+' channel slots used · '+data.videos_per_month_limit+' video allowance';
+    document.getElementById('usageFill').style.width=Math.min(100,(used/Math.max(1,limit))*100)+'%';
+  }catch(e){
+    document.getElementById('usageLabel').textContent='Usage unavailable';
+  }
+}
+function toggleSupport(){
+  if(!currentUser){
+    openAuth('login');
+    return;
+  }
+  document.getElementById('supportChat').classList.toggle('open');
+}
+function addSupportMessage(role,content){
+  const box=document.getElementById('supportMessages');
+  const div=document.createElement('div');
+  div.className='msg '+role;
+  div.textContent=content;
+  box.appendChild(div);
+  box.scrollTop=box.scrollHeight;
+}
+function renderSupportActions(actions){
+  const chips=document.getElementById('supportChips');
+  if(!actions || !actions.length) return;
+  chips.innerHTML=actions.map(a=>'<button class="support-chip" onclick="askSupport('+JSON.stringify(a).replace(/"/g,'&quot;')+')">'+escapeHtml(a)+'</button>').join('');
+}
+async function loadSupportHistory(){
+  try{
+    const data=await api('/api/support/history');
+    if(!data.messages.length) return;
+    const box=document.getElementById('supportMessages');
+    box.innerHTML='';
+    data.messages.forEach(m=>addSupportMessage(m.role,m.content));
+  }catch(_){}
+}
+async function askSupport(text){
+  document.getElementById('supportInput').value=text;
+  await sendSupport();
+}
+async function sendSupport(){
+  const input=document.getElementById('supportInput');
+  const message=input.value.trim();
+  if(!message) return;
+  input.value='';
+  addSupportMessage('user',message);
+  try{
+    const data=await api('/api/support/chat',{method:'POST',body:JSON.stringify({message})});
+    addSupportMessage('assistant',data.reply);
+    renderSupportActions(data.actions||[]);
+  }catch(e){
+    addSupportMessage('assistant','Support could not complete the diagnostic: '+e.message);
+  }
+}
 async function loadIntegrations(){
   const grid=document.getElementById('platformGrid');
   try{
@@ -175,18 +302,30 @@ async function loadIntegrations(){
     grid.innerHTML=data.providers.map(p=>{
       const state=p.connected?'Connected':(p.configured?'Ready to connect':'Setup needed');
       const cls=p.connected?'status':'pill';
-      const button=p.connected?'':'<button class="btn btn-secondary" style="margin-top:10px;width:100%" onclick="connectPlatform(\''+p.id+'\')">'+(p.configured?'Connect':'Setup needed')+'</button>';
-      return '<div class="platformcard"><strong>'+escapeHtml(p.label)+'</strong><span class="'+cls+'">'+escapeHtml(state)+'</span>'+(p.handle?'<div class="muted" style="margin-top:8px">@'+escapeHtml(p.handle)+'</div>':'')+button+'</div>';
+      const rec=p.recommended?'<span class="recommend">RECOMMENDED</span>':'';
+      const info=p.id==='youtube'?'<div class="muted" style="font-size:12px;margin-top:8px">Best first connection for the private preview.</div>':'';
+      const action=p.connected
+        ? '<button class="btn btn-secondary" style="margin-top:10px;width:100%" onclick="disconnectPlatform(\''+p.id+'\')">Disconnect</button>'
+        : '<button class="btn '+(p.id==='youtube'?'btn-primary':'btn-secondary')+'" style="margin-top:10px;width:100%" onclick="connectPlatform(\''+p.id+'\')">'+(p.configured?'Connect':'Setup needed')+'</button>';
+      return '<div class="platformcard"><strong>'+escapeHtml(p.label)+' '+rec+'</strong><span class="'+cls+'">'+escapeHtml(state)+'</span>'+(p.handle?'<div class="muted" style="margin-top:8px">'+escapeHtml(p.handle)+'</div>':'')+info+action+'</div>';
     }).join('');
-  }catch(e){grid.innerHTML='<div class="platformcard"><strong>Connections unavailable</strong><span class="muted">'+escapeHtml(e.message)+'</span></div>'}
+  }catch(e){
+    grid.innerHTML='<div class="platformcard"><strong>Connections unavailable</strong><span class="muted">'+escapeHtml(e.message)+'</span></div>';
+  }
 }
 async function connectPlatform(provider){
   try{
-    const res=await fetch('/api/integrations/connect/'+provider,{credentials:'same-origin',redirect:'follow'});
-    let data={};try{data=await res.json()}catch(_){}
-    if(!res.ok) throw new Error(data.detail||'Connection could not start');
-    if(res.redirected) window.location.href=res.url;
-    else await loadIntegrations();
+    window.location.href='/api/integrations/connect/'+provider;
+  }catch(e){
+    alert(e.message);
+  }
+}
+async function disconnectPlatform(provider){
+  if(!confirm('Disconnect '+provider+' from VoxFlow?')) return;
+  try{
+    await api('/api/integrations/'+provider,{method:'DELETE'});
+    await loadIntegrations();
+    await loadOnboarding();
   }catch(e){alert(e.message)}
 }
 async function deleteAccount(){
@@ -243,7 +382,8 @@ window.addEventListener('load',async function(){
   try{
     const d=await api('/api/auth/me');
     currentUser=d.user;
-    if(new URLSearchParams(window.location.search).get('login')==='success'){
+    const qs=new URLSearchParams(window.location.search);
+    if(qs.get('login')==='success' || qs.get('youtube')==='connected'){
       history.replaceState({},'',window.location.pathname);
       await openDashboard();
     }
