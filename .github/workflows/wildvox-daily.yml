@@ -74,14 +74,25 @@ jobs:
           merge-multiple: true
       - name: Publish latest daily media
         run: |
-          git config user.name "wildvox-bot"
-          git config user.email "actions@users.noreply.github.com"
-          mkdir /tmp/wildvox-public
+          set -euo pipefail
+          rm -rf /tmp/wildvox-public /tmp/wildvox-media-branch
+          mkdir -p /tmp/wildvox-public
           cp public/*.mp4 /tmp/wildvox-public/
           cp public/*_meta.json /tmp/wildvox-public/
+
           git fetch origin media
-          git checkout -B media origin/media
-          cp /tmp/wildvox-public/* .
-          git add .
-          git commit -m "Publish latest WildVox daily videos" || true
-          git push origin media
+          git worktree add --force --detach /tmp/wildvox-media-branch origin/media
+          cp /tmp/wildvox-public/* /tmp/wildvox-media-branch/
+
+          cd /tmp/wildvox-media-branch
+          git config user.name "wildvox-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -- *.mp4 *_meta.json
+
+          if git diff --cached --quiet; then
+            echo "No media changes to publish."
+            exit 0
+          fi
+
+          git commit -m "Publish latest WildVox daily videos"
+          git push origin HEAD:media
