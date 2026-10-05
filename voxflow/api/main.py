@@ -115,7 +115,7 @@ class Channel(Base):
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="VoxFlow AI API", version="0.4.0")
+app = FastAPI(title="VoxFlow AI API", version="0.7.0")
 
 @app.middleware("http")
 async def security_headers(request: Request, call_next):
@@ -291,7 +291,7 @@ def terms_page():
 
 @app.get("/health")
 def health():
-    return {"ok": True, "service": "voxflow-api", "version": "0.4.0"}
+    return {"ok": True, "service": "voxflow-api", "version": "0.7.0"}
 
 @app.get("/api/auth/providers")
 def auth_providers():
@@ -711,4 +711,11 @@ def delete_account(payload: DeleteAccountInput, response: Response, user: User =
 
 
 from .support_router import router as support_router
+from .auth_extra import router as auth_extra_router
+from .billing_router import router as billing_router
+from .production_router import router as production_router
+
 app.include_router(support_router)
+app.include_router(auth_extra_router)
+app.include_router(billing_router)
+app.include_router(production_router)
