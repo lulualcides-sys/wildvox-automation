@@ -45,8 +45,7 @@ PLAN_LIMITS = {
 OWNER_USERNAME = os.getenv("VOXFLOW_OWNER_USERNAME", "").strip().lower()
 OWNER_EMAIL = os.getenv("VOXFLOW_OWNER_EMAIL", "").strip().lower()
 OWNER_BOOTSTRAP_PASSWORD = os.getenv("VOXFLOW_OWNER_PASSWORD", "")
-# One-time bootstrap verifier. Removed after the owner row is created.
-OWNER_BOOTSTRAP_HASH = "$argon2id$v=19$m=65536,t=3,p=4$UuOdJk3FZchxoNFJtRCDhQ$L8KLzg4+lO555FQfRZDXHrcQFtLDRmLmHaj/2FOpxAY"
+OWNER_BOOTSTRAP_HASH = ""
 
 LOGIN_WINDOW_SECONDS = 60
 LOGIN_MAX_ATTEMPTS = 10
@@ -317,14 +316,6 @@ def privacy_page():
 @app.get("/terms", include_in_schema=False)
 def terms_page():
     return FileResponse(BASE_DIR / "terms.html")
-
-@app.get("/api/internal/owner-ready")
-@app.post("/api/internal/owner-ready")
-def owner_ready(db: Session = Depends(db_session)):
-    if not OWNER_EMAIL:
-        return {"ready": False}
-    user = db.scalar(select(User).where(User.email == OWNER_EMAIL))
-    return {"ready": bool(user and user.plan == "owner")}
 
 @app.get("/health")
 def health():
