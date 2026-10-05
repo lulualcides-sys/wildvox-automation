@@ -15,7 +15,7 @@ a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:
   <div class="nav"><div class="wrap" style="display:flex;align-items:center;justify-content:space-between;width:100%">
     <div class="brand">VoxFlow <b>AI</b></div>
     <div class="navlinks"><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#how">How it works</a></div>
-    <button class="btn btn-primary" onclick="openDashboard()">Open demo</button>
+    <div><button class="btn btn-secondary" onclick="openAuth('login')">Sign in</button> <button class="btn btn-primary" onclick="openAuth('register')">Start free</button></div>
   </div></div>
   <main class="wrap">
     <section class="hero">
@@ -23,7 +23,7 @@ a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:
         <span class="eyebrow">AI CHANNEL AUTOMATION</span>
         <h1>Your channel.<br/>Running itself.</h1>
         <p>Turn a niche into a fully automated short-form content operation. VoxFlow plans, writes, voices, edits, schedules and publishes videos for TikTok, Reels and Shorts.</p>
-        <div class="actions"><button class="btn btn-primary" onclick="openDashboard()">Create automated channel</button><button class="btn btn-secondary" onclick="document.getElementById('how').scrollIntoView({behavior:'smooth'})">See how it works</button></div>
+        <div class="actions"><button class="btn btn-primary" onclick="openAuth('register')">Create free account</button><button class="btn btn-secondary" onclick="document.getElementById('how').scrollIntoView({behavior:'smooth'})">See how it works</button></div>
         <div class="mini">Built from a real production workflow tested on WildVox.</div>
       </div>
       <div class="mock">
@@ -49,18 +49,134 @@ a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:
 </div>
 <div class="app" id="app">
   <aside class="sidebar"><div class="sidebrand">VoxFlow <span style="color:var(--accent)">AI</span></div><div class="sideitem active">Dashboard</div><div class="sideitem">My Channels</div><div class="sideitem">Automation</div><div class="sideitem">Content Calendar</div><div class="sideitem">Video Library</div><div class="sideitem">Analytics</div><div class="sideitem">Settings & Billing</div></aside>
-  <main class="main"><div class="topbar"><div><small class="muted">Workspace</small><h2 style="margin:4px 0">Good morning 👋</h2></div><div><button class="btn btn-secondary" onclick="backHome()">Landing</button> <button class="btn btn-primary" onclick="openWizard()">+ Create channel</button></div></div>
+  <main class="main"><div class="topbar"><div><small class="muted" id="accountLine">Workspace</small><h2 style="margin:4px 0" id="hello">Welcome 👋</h2></div><div><button class="btn btn-secondary" onclick="logout()">Log out</button> <button class="btn btn-primary" onclick="openWizard()">+ Create channel</button></div></div>
     <div class="dashgrid"><div class="stat"><small>Videos today</small><strong>10</strong></div><div class="stat"><small>Published</small><strong>6</strong></div><div class="stat"><small>Total views</small><strong>128.4K</strong></div><div class="stat"><small>Automation health</small><strong style="color:var(--good)">100%</strong></div></div>
-    <div class="panel"><div style="display:flex;justify-content:space-between;align-items:center"><div><h3 style="margin:0">WildVox</h3><small class="muted">Animals & strange species • English US • TikTok</small></div><span class="status">Active</span></div></div>
+    <div class="panel"><div style="display:flex;justify-content:space-between;align-items:center"><div><h3 style="margin:0">My channels</h3><small class="muted">Private to your account.</small></div><span class="status" id="planBadge">FREE</span></div><div id="channelList" style="margin-top:12px"><span class="muted">No channels yet. Create your first one.</span></div></div>
     <div class="panel"><h3>Today's production</h3><table class="table"><thead><tr><th>Video</th><th>Status</th><th>Publish</th><th>Platform</th><th>Views</th></tr></thead><tbody><tr><td>Blue-ringed octopus</td><td><span class="status">Published</span></td><td>09:00</td><td>TikTok</td><td>27.3K</td></tr><tr><td>Blobfish</td><td><span class="pill">Rendering</span></td><td>10:00</td><td>TikTok</td><td>—</td></tr><tr><td>Goblin shark</td><td><span class="pill">Scheduled</span></td><td>11:00</td><td>TikTok</td><td>—</td></tr><tr><td>Mantis shrimp</td><td><span class="pill">Scheduled</span></td><td>12:00</td><td>TikTok</td><td>—</td></tr></tbody></table></div>
   </main>
 </div>
-<div class="wizard" id="wizard"><div class="wizardbox"><div style="display:flex;justify-content:space-between;align-items:center"><div><small class="muted">NEW AUTOMATION</small><h2>Create an automated channel</h2></div><button class="btn btn-secondary" onclick="closeWizard()">✕</button></div><div class="fields"><div class="field"><label>Channel name</label><input id="channelName" placeholder="e.g. TorqueFacts"/></div><div class="field"><label>Niche</label><select><option>Animals & Nature</option><option>Cars</option><option>Football</option><option>History</option><option>Gaming</option><option>Custom</option></select></div><div class="field"><label>Language</label><select><option>English (US)</option><option>Portuguese (BR)</option><option>Spanish</option></select></div><div class="field"><label>Videos per day</label><select><option>1</option><option>3</option><option>5</option><option selected>10</option></select></div><div class="field"><label>Video length</label><select><option>30–45 sec</option><option>60–75 sec</option><option>Mixed</option></select></div><div class="field"><label>Platform</label><select><option>TikTok</option><option>TikTok + Reels</option><option>TikTok + Reels + Shorts</option></select></div></div><div style="display:flex;justify-content:flex-end;gap:10px;margin-top:20px"><button class="btn btn-secondary" onclick="closeWizard()">Cancel</button><button class="btn btn-primary" onclick="launchChannel()">Launch channel</button></div></div></div>
+
+<div class="wizard" id="authModal">
+  <div class="wizardbox" style="max-width:460px">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div><small class="muted">VOXFLOW ACCOUNT</small><h2 id="authTitle">Create your account</h2></div>
+      <button class="btn btn-secondary" onclick="closeAuth()">✕</button>
+    </div>
+    <div id="authError" style="display:none;margin:0 0 14px;padding:10px 12px;border-radius:10px;background:#3a1821;color:#ffc1c8;font-size:13px"></div>
+    <div class="field" id="nameField"><label>Name</label><input id="authName" placeholder="Your name"/></div>
+    <div class="field" style="margin-top:12px"><label>Email</label><input id="authEmail" type="email" placeholder="you@example.com"/></div>
+    <div class="field" style="margin-top:12px"><label>Password</label><input id="authPassword" type="password" minlength="8" placeholder="At least 8 characters"/></div>
+    <button class="btn btn-primary" id="authSubmit" style="width:100%;margin-top:18px" onclick="submitAuth()">Create account</button>
+    <div class="mini" id="authSwitch" style="text-align:center;cursor:pointer" onclick="toggleAuth()">Already have an account? Sign in</div>
+  </div>
+</div>
+<div class="wizard" id="wizard"><div class="wizardbox"><div style="display:flex;justify-content:space-between;align-items:center"><div><small class="muted">NEW AUTOMATION</small><h2>Create an automated channel</h2></div><button class="btn btn-secondary" onclick="closeWizard()">✕</button></div><div class="fields"><div class="field"><label>Channel name</label><input id="channelName" placeholder="e.g. TorqueFacts"/></div><div class="field"><label>Niche</label><select id="channelNiche"><option>Animals & Nature</option><option>Cars</option><option>Football</option><option>History</option><option>Gaming</option><option>Custom</option></select></div><div class="field"><label>Language</label><select id="channelLanguage"><option value="en-US">English (US)</option><option value="pt-BR">Portuguese (BR)</option><option value="es">Spanish</option></select></div><div class="field"><label>Videos per day</label><select id="channelVideos"><option>1</option><option>3</option><option>5</option><option selected>10</option></select></div><div class="field"><label>Video length</label><select><option>30–45 sec</option><option>60–75 sec</option><option>Mixed</option></select></div><div class="field"><label>Platform</label><select id="channelPlatform"><option value="tiktok">TikTok</option><option value="instagram">Instagram Reels</option><option value="youtube">YouTube Shorts</option></select></div></div><div style="display:flex;justify-content:flex-end;gap:10px;margin-top:20px"><button class="btn btn-secondary" onclick="closeWizard()">Cancel</button><button class="btn btn-primary" onclick="launchChannel()">Launch channel</button></div></div></div>
 <script>
-function openDashboard(){document.getElementById('landing').classList.add('hidden');document.getElementById('app').classList.add('active');window.scrollTo(0,0)}
-function backHome(){document.getElementById('app').classList.remove('active');document.getElementById('landing').classList.remove('hidden');window.scrollTo(0,0)}
+let authMode='register';
+let currentUser=null;
+
+async function api(path, options={}){
+  const res=await fetch(path,{credentials:'same-origin',headers:{'Content-Type':'application/json',...(options.headers||{})},...options});
+  let data={};
+  try{data=await res.json()}catch(_){}
+  if(!res.ok) throw new Error(data.detail||'Something went wrong');
+  return data;
+}
+function escapeHtml(v){
+  const d=document.createElement('div');
+  d.textContent=String(v);
+  return d.innerHTML;
+}
+function openAuth(mode='register'){
+  authMode=mode;
+  renderAuth();
+  document.getElementById('authModal').classList.add('open');
+}
+function closeAuth(){document.getElementById('authModal').classList.remove('open')}
+function toggleAuth(){authMode=authMode==='register'?'login':'register';renderAuth()}
+function renderAuth(){
+  const register=authMode==='register';
+  document.getElementById('authTitle').textContent=register?'Create your account':'Welcome back';
+  document.getElementById('nameField').style.display=register?'block':'none';
+  document.getElementById('authSubmit').textContent=register?'Create account':'Sign in';
+  document.getElementById('authSwitch').textContent=register?'Already have an account? Sign in':'New to VoxFlow? Create account';
+  document.getElementById('authError').style.display='none';
+}
+async function submitAuth(){
+  const err=document.getElementById('authError');
+  err.style.display='none';
+  const email=document.getElementById('authEmail').value.trim();
+  const password=document.getElementById('authPassword').value;
+  const name=document.getElementById('authName').value.trim();
+  try{
+    const body=authMode==='register'?{name,email,password}:{email,password};
+    const data=await api('/api/auth/'+authMode,{method:'POST',body:JSON.stringify(body)});
+    currentUser=data.user;
+    closeAuth();
+    await openDashboard();
+  }catch(e){
+    err.textContent=e.message;
+    err.style.display='block';
+  }
+}
+async function openDashboard(){
+  try{
+    const data=await api('/api/auth/me');
+    currentUser=data.user;
+    document.getElementById('landing').classList.add('hidden');
+    document.getElementById('app').classList.add('active');
+    document.getElementById('hello').textContent='Hello, '+currentUser.name+' 👋';
+    document.getElementById('accountLine').textContent=currentUser.email;
+    document.getElementById('planBadge').textContent=(currentUser.plan||'free').toUpperCase();
+    await loadChannels();
+    window.scrollTo(0,0);
+  }catch(e){openAuth('login')}
+}
+function backHome(){
+  document.getElementById('app').classList.remove('active');
+  document.getElementById('landing').classList.remove('hidden');
+  window.scrollTo(0,0);
+}
+async function logout(){
+  try{await api('/api/auth/logout',{method:'POST'});}catch(_){}
+  currentUser=null;
+  backHome();
+}
 function openWizard(){document.getElementById('wizard').classList.add('open')}
 function closeWizard(){document.getElementById('wizard').classList.remove('open')}
-function launchChannel(){const n=document.getElementById('channelName').value||'New Channel';alert(n+' created in demo mode. The production backend will connect this action to the automation engine.');closeWizard()}
+async function loadChannels(){
+  const data=await api('/api/channels');
+  const box=document.getElementById('channelList');
+  if(!data.channels.length){
+    box.innerHTML='<span class="muted">No channels yet. Create your first one.</span>';
+    return;
+  }
+  box.innerHTML=data.channels.map(c =>
+    '<div class="video"><div><strong>'+escapeHtml(c.name)+'</strong><div class="muted" style="font-size:12px;margin-top:3px">'+escapeHtml(c.niche)+' • '+escapeHtml(c.language)+' • '+escapeHtml(c.platform)+'</div></div><span class="pill">'+escapeHtml(c.status)+'</span></div>'
+  ).join('');
+}
+async function launchChannel(){
+  const name=document.getElementById('channelName').value.trim();
+  if(!name){alert('Enter a channel name.');return}
+  const payload={
+    name:name,
+    niche:document.getElementById('channelNiche').value,
+    language:document.getElementById('channelLanguage').value,
+    videos_per_day:Number(document.getElementById('channelVideos').value),
+    platform:document.getElementById('channelPlatform').value
+  };
+  try{
+    await api('/api/channels',{method:'POST',body:JSON.stringify(payload)});
+    closeWizard();
+    document.getElementById('channelName').value='';
+    await loadChannels();
+  }catch(e){alert(e.message)}
+}
+window.addEventListener('load',async function(){
+  try{
+    const d=await api('/api/auth/me');
+    currentUser=d.user;
+  }catch(_){}
+});
 </script>
 </body></html>
