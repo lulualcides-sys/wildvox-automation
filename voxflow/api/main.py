@@ -12,6 +12,7 @@ from urllib.parse import urlencode
 import httpx
 from argon2 import PasswordHasher
 from argon2.exceptions import VerifyMismatchError
+from cryptography.fernet import Fernet
 from fastapi import Cookie, Depends, FastAPI, HTTPException, Request, Response
 from fastapi.responses import FileResponse, RedirectResponse
 from pydantic import BaseModel, EmailStr, Field
@@ -33,6 +34,13 @@ ph = PasswordHasher()
 SESSION_DAYS = 30
 COOKIE_NAME = "voxflow_session"
 OAUTH_STATE_COOKIE = "voxflow_oauth_state"
+TOKEN_ENCRYPTION_KEY = os.getenv("TOKEN_ENCRYPTION_KEY", "")
+PLAN_LIMITS = {
+    "free": {"channels": 1, "videos_per_day": 3, "videos_per_month": 3},
+    "starter": {"channels": 1, "videos_per_day": 1, "videos_per_month": 30},
+    "creator": {"channels": 2, "videos_per_day": 3, "videos_per_month": 90},
+    "pro": {"channels": 3, "videos_per_day": 5, "videos_per_month": 150},
+}
 
 LOGIN_WINDOW_SECONDS = 60
 LOGIN_MAX_ATTEMPTS = 10
@@ -80,6 +88,18 @@ class SocialConnection(Base):
     status: Mapped[str] = mapped_column(String(32), default="connected")
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
 
+class OAuthCredential(Base):
+    __tablename__ = "oauth_credentials"
+    __table_args__ = (UniqueConstraint("user_id", "provider", name="uq_oauth_credential_user_provider"),)
+    id: Mapped[str] = mapped_column(String(36), primary_key=True)
+    user_id: Mapped[str] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    provider: Mapped[str] = mapped_column(String(32), index=True)
+    access_token_enc: Mapped[str] = mapped_column(String(4096))
+    refresh_token_enc: Mapped[str | None] = mapped_column(String(4096), nullable=True)
+    scope: Mapped[str | None] = mapped_column(String(1500), nullable=True)
+    expires_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=lambda: datetime.now(timezone.utc))
+
 class Channel(Base):
     __tablename__ = "channels"
     id: Mapped[str] = mapped_column(String(36), primary_key=True)
@@ -95,7 +115,7 @@ class Channel(Base):
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="VoxFlow AI API", version="0.3.0")
+app = FastAPI(title="VoxFlow AI API", version="0.4.0")
 
 @app.middleware("http")
 async def security_headers(request: Request, call_next):
@@ -140,6 +160,22 @@ def db_session():
 
 def token_hash(token: str) -> str:
     return hashlib.sha256(token.encode()).hexdigest()
+
+def token_cipher() -> Fernet:
+    if not TOKEN_ENCRYPTION_KEY:
+        raise HTTPException(status_code=503, detail="Secure token storage is not configured")
+    try:
+        return Fernet(TOKEN_ENCRYPTION_KEY.encode())
+    except Exception as exc:
+        raise HTTPException(status_code=503, detail="Secure token storage is invalid") from exc
+
+def encrypt_secret(value: str | None) -> str | None:
+    if not value:
+        return None
+    return token_cipher().encrypt(value.encode()).decode()
+
+def plan_limits(plan: str) -> dict:
+    return PLAN_LIMITS.get(plan, PLAN_LIMITS["free"])
 
 def set_session_cookie(response: Response, db: Session, user_id: str):
     token = secrets.token_urlsafe(48)
@@ -255,7 +291,7 @@ def terms_page():
 
 @app.get("/health")
 def health():
-    return {"ok": True, "service": "voxflow-api", "version": "0.3.0"}
+    return {"ok": True, "service": "voxflow-api", "version": "0.4.0"}
 
 @app.get("/api/auth/providers")
 def auth_providers():
@@ -441,29 +477,207 @@ def system_status(user: User = Depends(current_user), db: Session = Depends(db_s
 def integrations(user: User = Depends(current_user), db: Session = Depends(db_session)):
     connected = {c.provider: c for c in db.scalars(select(SocialConnection).where(SocialConnection.user_id == user.id)).all()}
     providers = []
-    for provider, label in [("tiktok", "TikTok"), ("youtube", "YouTube"), ("instagram", "Instagram")]:
+    for provider, label in [("youtube", "YouTube"), ("tiktok", "TikTok"), ("instagram", "Instagram")]:
         row = connected.get(provider)
         providers.append({
             "id": provider,
             "label": label,
-            "configured": provider_configured(provider),
+            "configured": provider_configured(provider) and (provider != "youtube" or bool(TOKEN_ENCRYPTION_KEY)),
             "connected": bool(row and row.status == "connected"),
             "handle": row.handle if row else None,
+            "recommended": provider == "youtube",
         })
     return {"providers": providers}
 
+@app.get("/api/onboarding")
+def onboarding(user: User = Depends(current_user), db: Session = Depends(db_session)):
+    google_identity = db.scalar(
+        select(OAuthIdentity).where(OAuthIdentity.user_id == user.id, OAuthIdentity.provider == "google")
+    )
+    youtube = db.scalar(
+        select(SocialConnection).where(SocialConnection.user_id == user.id, SocialConnection.provider == "youtube")
+    )
+    channel_count = len(db.scalars(select(Channel).where(Channel.user_id == user.id)).all())
+    steps = [
+        {"id": "account", "label": "Create your VoxFlow account", "done": True},
+        {"id": "google", "label": "Sign in with Google", "done": bool(google_identity), "optional": True},
+        {"id": "youtube", "label": "Connect YouTube Shorts", "done": bool(youtube and youtube.status == "connected")},
+        {"id": "channel", "label": "Create your first automated channel", "done": channel_count > 0},
+        {"id": "plan", "label": "Choose a launch plan", "done": user.plan != "free", "optional": True},
+    ]
+    return {"steps": steps, "completed": sum(1 for s in steps if s["done"]), "total": len(steps)}
+
+@app.get("/api/account/usage")
+def account_usage(user: User = Depends(current_user), db: Session = Depends(db_session)):
+    limits = plan_limits(user.plan)
+    channel_count = len(db.scalars(select(Channel).where(Channel.user_id == user.id)).all())
+    return {
+        "plan": user.plan,
+        "channels": {"used": channel_count, "limit": limits["channels"]},
+        "videos_per_day_limit": limits["videos_per_day"],
+        "videos_per_month_limit": limits["videos_per_month"],
+    }
+
+@app.get("/api/integrations/connect/youtube")
+def connect_youtube(user: User = Depends(current_user)):
+    if not provider_configured("youtube"):
+        raise HTTPException(status_code=503, detail="Google/YouTube developer credentials are not configured yet")
+    if not TOKEN_ENCRYPTION_KEY:
+        raise HTTPException(status_code=503, detail="Secure YouTube token storage is not configured yet")
+    state = secrets.token_urlsafe(32)
+    params = {
+        "client_id": os.environ["GOOGLE_CLIENT_ID"],
+        "redirect_uri": f"{PUBLIC_BASE_URL}/api/integrations/youtube/callback",
+        "response_type": "code",
+        "scope": "https://www.googleapis.com/auth/youtube.upload https://www.googleapis.com/auth/youtube.readonly",
+        "state": state,
+        "access_type": "offline",
+        "prompt": "consent",
+        "include_granted_scopes": "true",
+    }
+    response = RedirectResponse("https://accounts.google.com/o/oauth2/v2/auth?" + urlencode(params))
+    response.set_cookie(OAUTH_STATE_COOKIE, state, max_age=600, httponly=True, secure=True, samesite="lax")
+    return response
+
+@app.get("/api/integrations/youtube/callback")
+def youtube_callback(
+    code: str,
+    state: str,
+    response: Response,
+    user: User = Depends(current_user),
+    oauth_state: str | None = Cookie(default=None, alias=OAUTH_STATE_COOKIE),
+    db: Session = Depends(db_session),
+):
+    if not oauth_state or not secrets.compare_digest(state, oauth_state):
+        raise HTTPException(status_code=400, detail="Invalid OAuth state")
+
+    with httpx.Client(timeout=25) as client:
+        token_res = client.post("https://oauth2.googleapis.com/token", data={
+            "client_id": os.environ["GOOGLE_CLIENT_ID"],
+            "client_secret": os.environ["GOOGLE_CLIENT_SECRET"],
+            "code": code,
+            "grant_type": "authorization_code",
+            "redirect_uri": f"{PUBLIC_BASE_URL}/api/integrations/youtube/callback",
+        })
+        token_res.raise_for_status()
+        token_data = token_res.json()
+        access_token = token_data["access_token"]
+
+        channel_res = client.get(
+            "https://www.googleapis.com/youtube/v3/channels",
+            params={"part": "snippet", "mine": "true"},
+            headers={"Authorization": f"Bearer {access_token}"},
+        )
+        channel_res.raise_for_status()
+        items = channel_res.json().get("items", [])
+
+    if not items:
+        raise HTTPException(status_code=400, detail="No YouTube channel was found for this Google account")
+
+    channel = items[0]
+    snippet = channel.get("snippet", {})
+    channel_id = channel.get("id")
+    handle = snippet.get("customUrl") or snippet.get("title") or channel_id
+    expires_in = int(token_data.get("expires_in", 3600))
+    expires_at = datetime.now(timezone.utc) + timedelta(seconds=expires_in)
+
+    credential = db.scalar(
+        select(OAuthCredential).where(
+            OAuthCredential.user_id == user.id,
+            OAuthCredential.provider == "youtube",
+        )
+    )
+    if not credential:
+        credential = OAuthCredential(
+            id=str(uuid.uuid4()),
+            user_id=user.id,
+            provider="youtube",
+            access_token_enc=encrypt_secret(access_token),
+            refresh_token_enc=encrypt_secret(token_data.get("refresh_token")),
+            scope=token_data.get("scope"),
+            expires_at=expires_at,
+            updated_at=datetime.now(timezone.utc),
+        )
+        db.add(credential)
+    else:
+        credential.access_token_enc = encrypt_secret(access_token)
+        if token_data.get("refresh_token"):
+            credential.refresh_token_enc = encrypt_secret(token_data["refresh_token"])
+        credential.scope = token_data.get("scope")
+        credential.expires_at = expires_at
+        credential.updated_at = datetime.now(timezone.utc)
+
+    connection = db.scalar(
+        select(SocialConnection).where(
+            SocialConnection.user_id == user.id,
+            SocialConnection.provider == "youtube",
+        )
+    )
+    if not connection:
+        connection = SocialConnection(
+            id=str(uuid.uuid4()),
+            user_id=user.id,
+            provider="youtube",
+            external_account_id=channel_id,
+            handle=handle,
+            status="connected",
+        )
+        db.add(connection)
+    else:
+        connection.external_account_id = channel_id
+        connection.handle = handle
+        connection.status = "connected"
+
+    db.commit()
+    redirect = RedirectResponse(PUBLIC_BASE_URL + "/?youtube=connected")
+    redirect.delete_cookie(OAUTH_STATE_COOKIE, path="/")
+    return redirect
+
 @app.get("/api/integrations/connect/{provider}")
-def connect_platform(provider: Literal["tiktok", "youtube", "instagram"], user: User = Depends(current_user)):
+def connect_platform_placeholder(
+    provider: Literal["tiktok", "instagram"],
+    user: User = Depends(current_user),
+):
     if not provider_configured(provider):
         raise HTTPException(status_code=503, detail=f"{provider.title()} OAuth credentials are not configured yet")
-    if provider == "youtube":
-        raise HTTPException(status_code=501, detail="YouTube OAuth is credential-ready; authorization scope activation is the next step")
     if provider == "tiktok":
-        raise HTTPException(status_code=501, detail="TikTok OAuth is credential-ready; app approval and redirect URI activation are required")
-    raise HTTPException(status_code=501, detail="Instagram OAuth is credential-ready; Meta app approval and redirect URI activation are required")
+        raise HTTPException(status_code=501, detail="TikTok is next in the connection roadmap and requires app approval")
+    raise HTTPException(status_code=501, detail="Instagram connection requires the Meta app credentials and approval")
+
+@app.delete("/api/integrations/{provider}")
+def disconnect_platform(
+    provider: Literal["youtube", "tiktok", "instagram"],
+    user: User = Depends(current_user),
+    db: Session = Depends(db_session),
+):
+    credential = db.scalar(
+        select(OAuthCredential).where(
+            OAuthCredential.user_id == user.id,
+            OAuthCredential.provider == provider,
+        )
+    )
+    if credential:
+        db.delete(credential)
+    connection = db.scalar(
+        select(SocialConnection).where(
+            SocialConnection.user_id == user.id,
+            SocialConnection.provider == provider,
+        )
+    )
+    if connection:
+        db.delete(connection)
+    db.commit()
+    return {"ok": True}
 
 @app.post("/api/channels")
 def create_channel(payload: ChannelCreate, user: User = Depends(current_user), db: Session = Depends(db_session)):
+    limits = plan_limits(user.plan)
+    existing_channels = len(db.scalars(select(Channel).where(Channel.user_id == user.id)).all())
+    if existing_channels >= limits["channels"]:
+        raise HTTPException(status_code=403, detail=f"Your {user.plan} plan allows {limits['channels']} channel(s)")
+    if payload.videos_per_day > limits["videos_per_day"]:
+        raise HTTPException(status_code=403, detail=f"Your {user.plan} plan allows up to {limits['videos_per_day']} video(s) per day")
+
     channel = Channel(
         id=str(uuid.uuid4()),
         user_id=user.id,
