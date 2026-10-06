@@ -1,16 +1,68 @@
 {
-  "stingray": {
-    "title": "THIS FISH FLIES UNDERWATER",
-    "script": "A stingray seems to fly underwater because its broad pectoral fins move like wings. Rays are close relatives of sharks, so their skeletons are made of flexible cartilage instead of bone. Many species cruise near the seafloor and can detect faint electrical signals from prey hidden in sand. Their eyes sit on top of the body while the mouth and gill openings are underneath. Some stingrays bury themselves almost completely for camouflage. The tail spine is mainly defensive, not a hunting weapon, and most rays prefer escaping to fighting.",
+  "fresh_frog": {
+    "title": "THIS FROG CAN BREATHE THROUGH ITS SKIN",
+    "script": "A frog does not rely only on its lungs. Its thin, moist skin can exchange oxygen and carbon dioxide directly with the environment, which is why frogs must avoid drying out. Many also absorb water through a specialized patch underneath the body instead of drinking through the mouth. Their eyes can help with swallowing by pressing downward as food moves toward the throat. During cold weather, some frogs rest underwater or in mud and continue taking in oxygen through the skin. This animal is not simply wet. Its entire surface is part lung, part water bottle, and part chemical shield.",
     "sources": [
-      "https://www.pexels.com/download/video/10372904/",
-      "https://www.pexels.com/download/video/33924264/",
-      "https://www.pexels.com/download/video/35384677/",
-      "https://www.pexels.com/download/video/32723336/",
-      "https://www.pexels.com/download/video/29998713/",
-      "https://www.pexels.com/download/video/35506891/",
-      "https://www.pexels.com/download/video/34660521/",
-      "https://www.pexels.com/download/video/34347517/"
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/2022-06-02_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Common frog"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/2022-06-14_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Common frog"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/2022-06-22_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Common frog"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/2022-06-22_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA_2.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Common frog"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2022-06-23_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Common frog"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/2022-06-27_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Common frog"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Baby_frog_jumping.webm",
+        "license": "CC BY-SA 3.0",
+        "assetTitle": "Young frog jumping"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cuernos_de_Negros_Nailig_frog-croaking.webm",
+        "license": "CC BY 4.0",
+        "assetTitle": "Frog calling"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Frog_01.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Frog"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Frog_croaking_after_rain.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Frog calling after rain"
+      }
     ],
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
@@ -18,21 +70,73 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "caption": "Stingrays glide through water like underwater wings. 🌊\n\n#Stingray #OceanFacts #AnimalFacts #MarineLife #WildVox",
-    "revision": "2026-10-05-1913-fixed"
+    "caption": "A frog's skin works like a lung and a drinking surface at the same time. 🐸\n\n#Frog #AnimalFacts #Amphibians #NatureFacts #WildlifeTok #DidYouKnow #WildVox",
+    "revision": "2026-10-06-video-first"
   },
-  "dolphin": {
-    "title": "DOLPHINS CAN SEE WITH SOUND",
-    "script": "Dolphins can build a picture of the world using sound. They send out rapid clicks and listen for echoes returning from fish, rocks, and the seafloor. Those echoes reveal distance, direction, shape, and movement. This biological sonar is called echolocation, and it helps dolphins hunt even when the water is dark or cloudy. Dolphins also breathe consciously through a blowhole, so surfacing is an active behavior. They are highly social, coordinate with their pod, and use whistles and clicks to stay in contact while swimming or hunting.",
+  "fresh_owl": {
+    "title": "OWLS ARE BUILT TO HEAR IN THREE DIMENSIONS",
+    "script": "An owl's face is more than a face. The ring of feathers around it works like a sound collector, guiding tiny noises toward the ears. In many species, one ear opening sits higher than the other, so the brain can compare when a sound reaches each side and locate prey in three dimensions. Large forward-facing eyes gather light, but they cannot roll inside their sockets. That is why the neck does so much work. Some owls can rotate the head about 270 degrees, while specialized blood vessels keep the brain supplied. Then soft fringed feathers reduce flight noise before the strike.",
     "sources": [
-      "https://www.pexels.com/download/video/5358746/",
-      "https://www.pexels.com/download/video/5084207/",
-      "https://www.pexels.com/download/video/5743316/",
-      "https://www.pexels.com/download/video/33926922/",
-      "https://www.pexels.com/download/video/5607990/",
-      "https://www.pexels.com/download/video/5607992/",
-      "https://www.pexels.com/download/video/12121501/",
-      "https://www.pexels.com/download/video/4592360/"
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/20241022_great_horned_owl_hockanum_river_lt_wm.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Great horned owl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/20241205_blue_jay_mobbing_barred_owl_defensive_aggression.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Barred owl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/2025-09-20-vdk-skt-owls-135358.webm",
+        "license": "CC0",
+        "assetTitle": "Owls"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Barn_owl.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Barn owl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Barred_owl_bathing.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Barred owl bathing"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Brown_Hawk-Owl_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee.mpg",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Brown hawk-owl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Brown_Hawk-Owl_in_Purbasthali_January_2026_by_Tisha_Mukherjee.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Brown hawk-owl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Little_Owl%2CSouth_Hebron.webm",
+        "license": "CC BY-SA 3.0",
+        "assetTitle": "Little owl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Little_owl_Athene_noctua_at_Nuthurst_West_Sussex_England_10.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Little owl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Long-eared_owl_in_Central_Park_%2850234%29.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Long-eared owl"
+      }
     ],
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
@@ -40,20 +144,73 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "caption": "Dolphins can map their surroundings with echoes. 🐬\n\n#Dolphin #AnimalFacts #OceanFacts #MarineLife #WildVox",
-    "revision": "2026-10-05-1913-fixed"
+    "caption": "Owls combine directional hearing, fixed eyes, flexible necks, and near-silent wings. 🦉\n\n#Owl #BirdFacts #AnimalFacts #WildlifeTok #NatureFacts #DidYouKnow #WildVox",
+    "revision": "2026-10-06-video-first"
   },
-  "crab": {
-    "title": "WHY CRABS WALK SIDEWAYS",
-    "script": "Many crabs move sideways because their leg joints make lateral motion faster and more stable than walking straight ahead. That body plan helps them cross sand, rocks, and shallow seafloors without turning first. A crab wears a hard exoskeleton on the outside, but the shell cannot stretch as the animal grows. So it has to molt. The old shell splits, the crab pulls free, and the new shell stays soft until it hardens. Some species can also regrow a missing leg or claw over later molts.",
+  "moon_jelly": {
+    "title": "THIS ANIMAL HAS NO BRAIN OR HEART",
+    "script": "A moon jelly can swim without a brain, a heart, or blood. Its body is mostly water, and a simple nerve net coordinates the pulsing bell while sensory structures track light and orientation. The four horseshoe shapes visible through the transparent body are reproductive organs. Tiny stinging cells on the tentacles capture plankton, although the sting is usually mild for humans. Food moves into a central digestive cavity with only one opening. Even without a central command center, the jelly can sense, feed, move, and react. It is a living reminder that a nervous system does not need a brain to organize behavior.",
     "sources": [
-      "https://www.pexels.com/download/video/34617337/",
-      "https://www.pexels.com/download/video/34617584/",
-      "https://www.pexels.com/download/video/9278558/",
-      "https://www.pexels.com/download/video/4029957/",
-      "https://www.pexels.com/download/video/9332715/",
-      "https://www.pexels.com/download/video/8352637/",
-      "https://www.pexels.com/download/video/8352638/"
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Aurelia_sp._swimming_-_MBA.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Aurelia moon jelly swimming"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Fortbewegung_einer_Ohrenqualle.webm",
+        "license": "CC BY 4.0",
+        "assetTitle": "Moon jelly locomotion"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Oorkwal_in_een_school_van_duizenden-4931717.webm",
+        "license": "CC BY-SA 3.0 NL",
+        "assetTitle": "Moon jelly aggregation"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/%D0%90%D1%83%D1%80%D0%B5%D0%BB%D0%B8%D1%8F_%D1%83%D1%88%D0%B0%D1%81%D1%82%D0%B0%D1%8F%2C_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B7%D0%BE%D0%BE%D0%BF%D0%B0%D1%80%D0%BA.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Aurelia aurita"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%2C_%D0%B4%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BB%D1%8F%D0%B6%2C_%D0%B0%D1%83%D1%80%D0%B5%D0%BB%D0%B8%D1%8F_%281%29.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Aurelia moon jelly"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9%D1%81%D0%BA%2C_%D0%B4%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BB%D1%8F%D0%B6%2C_%D0%B0%D1%83%D1%80%D0%B5%D0%BB%D0%B8%D1%8F_%282%29.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Aurelia moon jelly"
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/36543987/",
+        "license": "Pexels License",
+        "assetTitle": "Moon jellyfish in aquarium"
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/34748648/",
+        "license": "Pexels License",
+        "assetTitle": "Moon jellyfish gliding"
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/27303010/",
+        "license": "Pexels License",
+        "assetTitle": "Moon jellyfish"
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/11042992/",
+        "license": "Pexels License",
+        "assetTitle": "Jellyfish in blue aquarium"
+      }
     ],
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
@@ -61,7 +218,525 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "caption": "Crabs are built for sideways speed. 🦀\n\n#Crab #AnimalFacts #OceanFacts #NatureFacts #WildVox",
-    "revision": "2026-10-05-1913-fixed"
+    "caption": "A moon jelly coordinates its entire life without a brain, heart, or blood. 🌙🪼\n\n#MoonJelly #Jellyfish #OceanFacts #AnimalFacts #MarineLife #WildVox",
+    "revision": "2026-10-06-video-first"
+  },
+  "greater_flamingo": {
+    "title": "FLAMINGOS ARE PINK BECAUSE OF THEIR FOOD",
+    "script": "A flamingo is not born bright pink. Pigments called carotenoids enter its body through algae and small crustaceans, then color the feathers as they grow. Its strange bill works upside down. The bird lowers its head, pumps water with the tongue, and traps food against comb-like plates called lamellae. Long legs reach feeding areas that shorter birds cannot use, while webbed feet stir the bottom. The famous one-legged pose may also reduce heat loss by keeping one leg tucked into warm feathers. So the color, bill, legs, and posture all connect to one demanding life in shallow, salty wetlands.",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/044_Greater_flamingo_vocalizing_in_the_Camargue_during_mating_season_%28normal_speed%29_Video_by_Giles_Laurent.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Greater flamingo vocalizing"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/046_Greater_flamingos_courtship_display_in_the_Camargue_during_mating_season_%28normal_speed%29_Video_by_Giles_Laurent.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Greater flamingo courtship"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Greater flamingo"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Greater flamingo"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_5.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Greater flamingo"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_8.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Greater flamingo"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Greater flamingo"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Greater flamingo"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/2022-05-21_IZLIV_SO%C4%8CE_Phoenicopterus_roseus_PLAMENEC.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Greater flamingo"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/2022-05-21_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Greater flamingo"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
+    "caption": "Flamingos turn pink by eating pigments, then filter food with an upside-down bill. 🦩\n\n#Flamingo #BirdFacts #AnimalFacts #NatureFacts #WildlifeTok #WildVox",
+    "revision": "2026-10-06-video-first"
+  },
+  "indian_peafowl": {
+    "title": "A PEACOCK'S COLORS ARE BUILT FROM LIGHT",
+    "script": "A peacock's blue and green shine is not created by ordinary pigment alone. Microscopic structures inside the feathers reflect and interfere with light, producing colors that shift as the viewing angle changes. The enormous train is made from elongated upper tail coverts, not the true tail feathers. Each eye-like marking is called an ocellus. During courtship, the male fans the train, turns it toward a female, and vibrates the feathers so the display shimmers and rattles. Indian peafowl can fly, but they usually escape danger by running and reserve flight for short bursts or reaching a safe roost.",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Pavo_cristatus.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Indian peafowl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Pavo_cristatus_2.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Indian peafowl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/A_white_peafowl_walking.webm",
+        "license": "CC BY 4.0",
+        "assetTitle": "White Indian peafowl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Barata_pavo%2C_anasoj_kaj_kokoj_en_la_animala_rehabilitejo_%22%C4%88e_Lukomorje%22_01.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Indian peafowl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Indian_peacock_%28Pavo_cristatus%29_displaying_for_peahen.webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Peacock displaying"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Indian_peafowl_%28Pavo_cristatus%29_displaying.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Indian peafowl displaying"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Pavo_cristatus_in_World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Indian peafowl"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Peacock_Courtship_and_Mating_Ritual_in_the_Wild.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Peacock courtship"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Peacock_dance%2C_at_Botanical_Garden_Hyderabad.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Peacock display"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Peacock_walking_and_eating.webm",
+        "license": "CC0",
+        "assetTitle": "Peacock walking"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
+    "caption": "A peacock's shimmering display is a light-bending structure, not simple paint. 🦚\n\n#Peacock #Peafowl #BirdFacts #AnimalFacts #NatureFacts #WildVox",
+    "revision": "2026-10-06-video-first"
+  },
+  "giant_panda": {
+    "title": "A PANDA HAS A SIXTH FINGER THAT ISN'T A FINGER",
+    "script": "A giant panda grips bamboo with something that looks like a thumb, but it is actually an enlarged wrist bone covered by a fleshy pad. This pseudo-thumb presses stalks against the true fingers while powerful jaws crush the fibers. The panda belongs to the order Carnivora and still has a digestive system more like a meat eater's than a specialized herbivore's. Bamboo passes through inefficiently, so the animal spends much of the day eating enormous quantities and resting to conserve energy. Its famous body plan is therefore a collection of compromises: a bear-like ancestor remodeled just enough to survive on a difficult grass.",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/BaoBao_the_Panda_having_a_snack_in_the_snow.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Giant panda Bao Bao"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Chengdu_Research_Base_of_Giant_Panda_Breeding-P1680515_Date_2019-12-27.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Giant panda"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Female_panda_and_cub.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Female giant panda and cub"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Giant_panda_%28Ailuropoda_melanoleuca%29_in_a_zoo.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Giant panda"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Giant panda feeding"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014_-_%281%29.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Giant panda feeding"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Panda_Jia_Jia.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Giant panda Jia Jia"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Panda_at_Smithsonian_zoo.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Giant panda"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Panda_at_the_zoo_in_Beijing_just_chilling.webm",
+        "license": "CC BY 4.0",
+        "assetTitle": "Giant panda"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Russia%27s_first_giant_panda_cub_meets_public_in_Moscow.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Giant panda cub"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
+    "caption": "A panda's extra 'thumb' is really a remodeled wrist bone built to grip bamboo. 🐼\n\n#GiantPanda #PandaFacts #AnimalFacts #WildlifeTok #NatureFacts #WildVox",
+    "revision": "2026-10-06-video-first"
+  },
+  "meerkat_sentinels": {
+    "title": "MEERKATS RUN A LIVING SECURITY SYSTEM",
+    "script": "In the open deserts of southern Africa, a meerkat group cannot let everyone search for food at the same time. While others dig for insects and small animals, one individual often climbs to a high point and becomes a sentinel. It scans the sky and ground, then gives quiet calls that tell the group the watch is active. If danger appears, the alarm changes with urgency and can trigger an immediate dash for cover. Research shows that some individuals guard more often than others, creating so-called super sentinels. Young meerkats also learn dangerous prey handling gradually. Adults may disable a scorpion before offering it to a pup, then provide more challenging prey as the youngster improves. Dark patches around the eyes help reduce glare while watching the horizon, and long claws turn hard soil into escape tunnels. The result is not one heroic lookout but a cooperative network: food, warning, teaching, and shelter all depend on the group. A single meerkat is alert. A mob of them becomes an organized survival system.",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_5.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Meerkat"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_7.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Meerkat"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/2023-08-18_ZOO_LJUBLJANA_-_Suricata_suricatta.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Meerkat"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2023-08-18_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Meerkat"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Leipzig_-_Zoo_-_Afrika_-_Suricata_suricatta_v_01_ies.webm",
+        "license": "CC BY-SA 3.0",
+        "assetTitle": "Meerkat"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Meerkat_%28Suricata_suricatta%29_digging_for_food_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Meerkat digging"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Meerkat_%28Suricata_suricatta%29_sentinel_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Meerkat sentinel"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Meerkat_at_Los_Angeles_Zoo.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Meerkat"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Meerkats_%28Suricata_suricatta%29_gang_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Meerkat group"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Suricata_suricatta_in_Tiergarten_Sch%C3%B6nbrunn.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Meerkat"
+      }
+    ],
+    "min_unique_videos": 8,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 60,
+    "max_duration": 75,
+    "caption": "Meerkats use sentinels, graded alarms, teaching, and shared tunnels as one survival network. 🐾\n\n#Meerkat #AnimalBehavior #WildlifeFacts #NatureFacts #ScienceTok #WildVox",
+    "revision": "2026-10-06-video-first"
+  },
+  "humpback_whale": {
+    "title": "HUMPBACK WHALES BUILD NETS FROM BUBBLES",
+    "script": "A humpback whale can hunt with a net made from nothing but air. In cold feeding grounds, one whale may dive beneath a school of fish and release bubbles while swimming in a circle. The rising curtain crowds the prey into a tighter column. Sometimes several whales coordinate their positions and calls, then surge upward together with their mouths open, swallowing fish and seawater before baleen plates strain the meal. This technique is called bubble-net feeding, and different populations use different patterns, suggesting that parts of the behavior spread through social learning. Humpbacks also use their exceptionally long pectoral fins to maneuver and sometimes help corral prey. After the feeding season, many travel thousands of miles toward warmer breeding waters. Adult males produce long, structured songs that change over time and can be repeated for hours. The same animal that erupts from the surface in a breach can also communicate across dark water and cooperate around an invisible trap. The final weapon is not strength alone. It is shared timing: bubbles, sound, and multiple whales turning scattered fish into one concentrated target.",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/032_Humpback_whale_lobtailing_in_slow_motion_Video_by_Giles_Laurent.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Humpback whale lobtailing"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Aerial_view_of_a_humpback_whale_near_Gordon%27s_Bay%2C_Sydney%2C_Australia_at_24_August_2020.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Humpback whale aerial view"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Aerial_view_of_three_humpback_whales_%28Megaptera_novaeangliae%29_near_Cape_Solander%2C_New_South_Wales%2C_Australia.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Three humpback whales"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Baby_Humpback_Whale_in_Saman%C3%A1%2C_Dominican_Republic.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Humpback whale calf"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Buckelwal.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Humpback whale"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Humpback_Whale_by_Drone_Clovelly_and_Coogee_beaches%2C_Sydney%2C_Australia%2C_August_21%2C_2020.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Humpback whale drone view"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Humpback_whale_Tail_Sailing_behaviour.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Humpback whale tail sailing"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Humpback_whale_mother_and_calf_south_of_Gerringong_Boat_Harbour%2C_NSW%2C_Australia.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Humpback mother and calf"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Humpback_whales_in_Boston.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Humpback whales"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Humpback_whales_off_The_Shallows_and_Bass_Point_Quarry%2C_Shellharbour%2C_NSW%2C_Australia.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Humpback whales"
+      }
+    ],
+    "min_unique_videos": 8,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 60,
+    "max_duration": 75,
+    "caption": "Humpbacks turn bubbles, sound, and teamwork into a living fishing net. 🐋🫧\n\n#HumpbackWhale #WhaleFacts #OceanFacts #AnimalBehavior #MarineLife #WildVox",
+    "revision": "2026-10-06-video-first"
+  },
+  "cheetah_biomechanics": {
+    "title": "A CHEETAH TURNS ITS ENTIRE BODY INTO A SPRING",
+    "script": "A cheetah does not win by maintaining top speed for long. It wins through a short mechanical explosion. The spine flexes and extends like a spring, allowing the front and rear legs to spread far apart and lengthen every stride. Semi-retractable claws stay exposed enough to grip the ground like cleats, while specialized paw pads add traction. Large nasal passages, lungs, and a powerful heart move oxygen quickly during the chase. But speed without steering would be useless. The long muscular tail swings like a counterweight, helping the cat change direction while following prey that can cut sharply across the grass. High-set eyes keep the target in view, and dark facial marks may reduce glare. The body pays a cost for this design: the sprint creates enormous heat and cannot last very long. After a kill, the cheetah must recover while larger predators may steal the meal. It also cannot roar like a lion; cheetahs chirp, purr, hiss, and call to one another. The fastest land mammal is therefore not simply a powerful cat. It is a lightweight, flexible racing system built for acceleration, turning, and one brief chance to succeed.",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/2023-02-17_ZOO_LJUBLJANA_Acinonyx_jubatus_GEPARD_4.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Cheetah"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cheetah_%28Acinonyx_jubatus%29_collared_female_on_the_road_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Collared female cheetah"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cheetah_%28Acinonyx_jubatus%29_crossing_the_road.webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Cheetah crossing"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Cheetah_%28Acinonyx_jubatus%29_cub_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Cheetah cub"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Cheetah_%28Acinonyx_jubatus%29_female_calling_cubs_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Female cheetah calling"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Cheetah_%28Acinonyx_jubatus%29_juvenile_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Juvenile cheetah"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cheetah_%28Acinonyx_jubatus%29_male_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Male cheetah"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Cheetah_%28Acinonyx_jubatus%29_male_dragging_its_prey%2C_a_male_springbok_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Cheetah with prey"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cheetah_%28Acinonyx_jubatus%29_purring_and_calling_its_brother.webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Cheetah vocalizing"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cheetah_%28Acinonyx_jubatus%29_purring_and_calling_its_brother_from_a_road_marker.webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Cheetah calling"
+      }
+    ],
+    "min_unique_videos": 8,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 60,
+    "max_duration": 75,
+    "caption": "A cheetah's spine, claws, lungs, and tail become one short-burst racing machine. 🐆💨\n\n#Cheetah #AnimalFacts #Biomechanics #WildlifeTok #NatureFacts #WildVox",
+    "revision": "2026-10-06-video-first"
+  },
+  "giraffe_pressure": {
+    "title": "A GIRAFFE'S HEART FIGHTS GRAVITY EVERY SECOND",
+    "script": "A giraffe's head may rise several meters above its heart, so sending blood to the brain requires exceptional pressure. The heart has a thick muscular wall, and the circulatory system maintains blood pressure far above typical human levels. But drinking creates the opposite problem. When the giraffe spreads its front legs and lowers the head, gravity could drive too much blood toward the brain. Valves, elastic vessels, and pressure-regulating structures help control that sudden shift. Tight skin and connective tissue around the lower legs also act like natural compression garments, limiting fluid buildup. The neck itself still contains only seven cervical vertebrae, the same basic number found in most mammals, but each bone is dramatically elongated. Even the feeding equipment is specialized: a long, prehensile tongue wraps around branches and helps pull leaves from thorny trees. Then the animal has to raise its head again without fainting. A giraffe looks calm because the engineering is hidden. Every drink, every lifted head, and every step depends on a cardiovascular system continuously correcting for height and gravity.",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Giraffe"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA_2.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Giraffe"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Giraffa_camelopardalis_in_Skopje_Zoo_2015.webmhd.webm",
+        "license": "CC BY-SA 3.0",
+        "assetTitle": "Giraffe"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Giraffe_%28Giraffa_camelopardalis%29_male_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Male giraffe"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Giraffes_%28Giraffa_camelopardalis%29_in_zoo.webm",
+        "license": "CC BY-SA 3.0",
+        "assetTitle": "Giraffes"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Leipzig_-_Zoo_-_Afrika_-_Giraffa_camelopardalis_rothschildi_v_01_ies.webm",
+        "license": "CC BY-SA 3.0",
+        "assetTitle": "Rothschild giraffe"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Uganda-Giraffe_%28Giraffa_camelopardalis_rothschildi%29%2C_mit_unterschiedlicher_Fleckenzeichnung_im_Lake_Mburo_Nationalpark_in_Uganda.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Uganda giraffe"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Uganda-Giraffe_%28Giraffa_camelopardalis_rothschildi%29_im_Murchison_Falls_Nationalpark_in_Uganda.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Uganda giraffe"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Uganda-Giraffe_%28Giraffa_camelopardalis_rothschildi%29_trinkt_an_einer_Wasserstelle_im_Murchison_Falls_Nationalpark_in_Uganda.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Giraffe drinking"
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA_4.webm",
+        "license": "CC BY 3.0",
+        "assetTitle": "Giraffe"
+      }
+    ],
+    "min_unique_videos": 8,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 60,
+    "max_duration": 75,
+    "caption": "A giraffe survives its own height with high pressure, valves, elastic vessels, and natural compression. 🦒\n\n#Giraffe #AnimalFacts #Biology #WildlifeTok #NatureFacts #WildVox",
+    "revision": "2026-10-06-video-first"
   }
 }
