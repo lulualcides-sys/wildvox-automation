@@ -597,9 +597,9 @@
     "sources": [
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/2023-02-17_ZOO_LJUBLJANA_Acinonyx_jubatus_GEPARD_4.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Cheetah"
+        "url": "https://www.pexels.com/download/video/39157028/",
+        "license": "Pexels License",
+        "assetTitle": "Cheetah strolling in African savanna"
       },
       {
         "type": "video",
@@ -663,7 +663,7 @@
     "min_duration": 60,
     "max_duration": 75,
     "caption": "A cheetah's spine, claws, lungs, and tail become one short-burst racing machine. 🐆💨\n\n#Cheetah #AnimalFacts #Biomechanics #WildlifeTok #NatureFacts #WildVox",
-    "revision": "2026-10-06-video-first"
+    "revision": "2026-10-06-video-first-source-fix"
   },
   "giraffe_pressure": {
     "title": "A GIRAFFE'S HEART FIGHTS GRAVITY EVERY SECOND",
@@ -713,21 +713,21 @@
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Uganda-Giraffe_%28Giraffa_camelopardalis_rothschildi%29_im_Murchison_Falls_Nationalpark_in_Uganda.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Uganda giraffe"
+        "url": "https://www.pexels.com/download/video/5220242/",
+        "license": "Pexels License",
+        "assetTitle": "Giraffe walking in the wilderness"
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Uganda-Giraffe_%28Giraffa_camelopardalis_rothschildi%29_trinkt_an_einer_Wasserstelle_im_Murchison_Falls_Nationalpark_in_Uganda.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Giraffe drinking"
+        "url": "https://www.pexels.com/download/video/34428368/",
+        "license": "Pexels License",
+        "assetTitle": "Giraffe strolling in open savanna"
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA_4.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Giraffe"
+        "url": "https://www.pexels.com/download/video/37970976/",
+        "license": "Pexels License",
+        "assetTitle": "Giraffes grazing in open savanna"
       }
     ],
     "min_unique_videos": 8,
@@ -737,6 +737,6 @@
     "min_duration": 60,
     "max_duration": 75,
     "caption": "A giraffe survives its own height with high pressure, valves, elastic vessels, and natural compression. 🦒\n\n#Giraffe #AnimalFacts #Biology #WildlifeTok #NatureFacts #WildVox",
-    "revision": "2026-10-06-video-first"
+    "revision": "2026-10-06-video-first-source-fix"
   }
 }
