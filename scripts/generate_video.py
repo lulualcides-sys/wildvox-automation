@@ -538,12 +538,70 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     ])
     return visual
 
-def render_final(visual, voice, ass, key, duration):
+def prepare_music(cfg, key):
+    """Download optional licensed background music for a render."""
+    music = cfg.get("music")
+    if not music:
+        return None, None
+
+    if isinstance(music, str):
+        music = {"url": music}
+    url = music.get("url")
+    if not url:
+        return None, None
+
+    # Daily automation must keep provenance so we never mix unknown/protected music.
+    if not music.get("license") or not music.get("source_page"):
+        raise RuntimeError(
+            f"{key} background music must include license and source_page metadata"
+        )
+
+    suffix = Path(urlsplit(url).path).suffix.lower()
+    if suffix not in {".mp3", ".wav", ".m4a", ".aac", ".ogg"}:
+        suffix = ".mp3"
+    path = WORK / f"{key}_music{suffix}"
+    if not safe_download(url, path):
+        raise RuntimeError(f"{key} background music download failed")
+    return path, music
+
+
+def render_final(visual, voice, ass, key, duration, music_path=None, music_cfg=None):
     final = OUT / f"{key}.mp4"
+
+    if not music_path:
+        run([
+            "ffmpeg","-y","-hide_banner","-loglevel","error",
+            "-i",str(visual),"-i",str(voice),"-vf",f"ass={ass.as_posix()}",
+            "-map","0:v:0","-map","1:a:0","-t",f"{duration:.3f}",
+            "-c:v","libx264","-preset","medium","-crf","19","-pix_fmt","yuv420p",
+            "-c:a","aac","-b:a","192k","-movflags","+faststart",str(final)
+        ])
+        return final
+
+    music_cfg = music_cfg or {}
+    gain_db = float(music_cfg.get("gain_db", -24.0))
+    # Keep background music deliberately quiet. Never allow a config louder than -18 dB.
+    gain_db = min(gain_db, -18.0)
+    gain_db = max(gain_db, -36.0)
+
+    # Voice remains the foreground. The music starts low and is ducked further
+    # whenever narration is present, then both are peak-limited before encoding.
+    filter_complex = (
+        f"[2:a]volume={gain_db:.1f}dB[bg];"
+        "[bg][1:a]sidechaincompress="
+        "threshold=0.020:ratio=8:attack=20:release=300:makeup=1[ducked];"
+        "[1:a][ducked]amix=inputs=2:duration=first:dropout_transition=0,"
+        "alimiter=limit=0.95[aout]"
+    )
+
     run([
         "ffmpeg","-y","-hide_banner","-loglevel","error",
-        "-i",str(visual),"-i",str(voice),"-vf",f"ass={ass.as_posix()}",
-        "-map","0:v:0","-map","1:a:0","-t",f"{duration:.3f}",
+        "-i",str(visual),
+        "-i",str(voice),
+        "-stream_loop","-1","-i",str(music_path),
+        "-vf",f"ass={ass.as_posix()}",
+        "-filter_complex",filter_complex,
+        "-map","0:v:0","-map","[aout]","-t",f"{duration:.3f}",
         "-c:v","libx264","-preset","medium","-crf","19","-pix_fmt","yuv420p",
         "-c:a","aac","-b:a","192k","-movflags","+faststart",str(final)
     ])
@@ -600,7 +658,12 @@ def main():
         target_shot_seconds=float(cfg["target_shot_seconds"]) if cfg.get("target_shot_seconds") else None,
         visual_plan=cfg.get("visual_plan"),
     )
-    final = render_final(visual, voice, ass, args.key, duration)
+    music_path, music_cfg = prepare_music(cfg, args.key)
+    final = render_final(
+        visual, voice, ass, args.key, duration,
+        music_path=music_path,
+        music_cfg=music_cfg,
+    )
     review_sheet = make_review_sheet(final, args.key, duration)
 
     (OUT / f"{args.key}_meta.json").write_text(
@@ -612,7 +675,8 @@ def main():
             "voice": "am_michael",
             "speed": 1.08,
             "sources": cfg["sources"],
-            "review_sheet": review_sheet.name
+            "review_sheet": review_sheet.name,
+            "music": music_cfg
         }, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
