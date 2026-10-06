@@ -1,0 +1,30 @@
+{
+  "version": "2026-10-06",
+  "editorial_priority": {
+    "specific_species_or_subspecies_pct": 75,
+    "well_known_animals_with_unusual_specific_fact_pct": 10,
+    "extreme_biology_or_behavior_pct": 15
+  },
+  "rules": [
+    "Prefer a specific species, subspecies, morph, population, or named biological adaptation over a generic animal category.",
+    "Avoid generic topics such as 'frogs', 'owls', 'sharks', 'snakes', or 'birds' when a specific species with a stronger hook is available.",
+    "The title and script should name the species whenever footage and fact verification support it.",
+    "Prioritize unusual species, visually distinctive animals, rare adaptations, extreme behavior, unusual anatomy, survival mechanisms, mimicry, venom, camouflage, reproduction, feeding strategies, and sensory biology.",
+    "Do not select obscure species only for novelty; the topic still needs strong verified facts and enough high-quality video-first footage.",
+    "Rotate taxonomic groups and habitats across consecutive days: mammals, birds, reptiles, amphibians, fish, marine invertebrates, terrestrial invertebrates, and other unusual groups.",
+    "Avoid repeating the same species in nearby batches unless there is a clearly different angle and entirely fresh footage.",
+    "If the choice is between a generic animal topic and a specific species topic of comparable visual quality, always choose the specific species."
+  ],
+  "examples_preferred": [
+    "Shoebill instead of birds",
+    "Goblin shark instead of sharks",
+    "Glass frog instead of frogs",
+    "Secretary bird instead of birds of prey",
+    "Pistol shrimp instead of shrimp",
+    "Vampire squid instead of squid",
+    "Saiga antelope instead of antelope",
+    "Star-nosed mole instead of mole",
+    "Thorny devil instead of lizard",
+    "Leaf sheep sea slug instead of sea slug"
+  ]
+}
