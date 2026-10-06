@@ -154,6 +154,83 @@ def canonical_url(url):
     # Pexels/Wikimedia asset with different download parameters.
     return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path, "", ""))
 
+def validate_daily_batch(data):
+    """Enforce the non-negotiable editorial and media gates for daily.json."""
+    if len(data) != 10:
+        raise RuntimeError(f"daily.json must contain exactly 10 entries, found {len(data)}")
+
+    short_count = 0
+    long_count = 0
+    batch_urls = set()
+
+    for key, cfg in data.items():
+        min_duration = float(cfg.get("min_duration", 0) or 0)
+        max_duration = float(cfg.get("max_duration", 0) or 0)
+
+        if (min_duration, max_duration) == (30.0, 45.0):
+            short_count += 1
+            required_videos = 6
+        elif (min_duration, max_duration) == (60.0, 75.0):
+            long_count += 1
+            required_videos = 8
+        else:
+            raise RuntimeError(
+                f"{key} must use duration gates 30-45s or 60-75s, "
+                f"found {min_duration:.0f}-{max_duration:.0f}s"
+            )
+
+        sources = cfg.get("sources") or []
+        if not 8 <= len(sources) <= 12:
+            raise RuntimeError(f"{key} must provide a pool of 8-12 unique assets")
+
+        video_count = 0
+        image_count = 0
+        for source in sources:
+            if isinstance(source, str):
+                source = {"url": source, "type": "video"}
+            media_type = source.get("type", "video")
+            if media_type == "video":
+                video_count += 1
+            elif media_type == "image":
+                image_count += 1
+            else:
+                raise RuntimeError(f"{key} has unsupported media type: {media_type}")
+
+            canon = canonical_url(source["url"])
+            if canon in batch_urls:
+                raise RuntimeError(f"Duplicate media URL across daily batch: {source['url']}")
+            batch_urls.add(canon)
+
+        if video_count < required_videos:
+            raise RuntimeError(
+                f"{key} requires at least {required_videos} unique videos, found {video_count}"
+            )
+        if video_count > 10:
+            raise RuntimeError(f"{key} may use at most 10 video clips in its source pool")
+        if image_count > 2:
+            raise RuntimeError(f"{key} may use at most 2 supporting still images")
+        if int(cfg.get("min_unique_videos", 0) or 0) < required_videos:
+            raise RuntimeError(
+                f"{key} min_unique_videos must be at least {required_videos}"
+            )
+
+        target = float(cfg.get("target_shot_seconds", 0) or 0)
+        max_shot = float(cfg.get("max_shot_seconds", 0) or 0)
+        max_freeze = float(cfg.get("max_freeze_seconds", 99))
+        if not 6.0 <= target <= 8.0:
+            raise RuntimeError(f"{key} target_shot_seconds must stay between 6 and 8")
+        if not 0 < max_shot <= 8.0:
+            raise RuntimeError(f"{key} max_shot_seconds must be at most 8")
+        if not 0 <= max_freeze <= 1.0:
+            raise RuntimeError(f"{key} max_freeze_seconds must be at most 1")
+
+    if short_count != 6 or long_count != 4:
+        raise RuntimeError(
+            f"daily.json must contain exactly 6 short and 4 long videos; "
+            f"found {short_count} short and {long_count} long"
+        )
+
+
 def file_sha256(path):
     h = hashlib.sha256()
     with path.open("rb") as fh:
@@ -435,6 +512,8 @@ def main():
     args = ap.parse_args()
 
     data = json.loads((ROOT / args.config).read_text(encoding="utf-8"))
+    if Path(args.config).name == "daily.json":
+        validate_daily_batch(data)
     cfg = data[args.key]
 
     voice, duration = generate_voice(cfg["script"], args.key)
