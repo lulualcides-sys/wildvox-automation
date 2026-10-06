@@ -262,7 +262,7 @@ def interleave_video_first(videos, images):
                 ii += 1
     return ordered
 
-def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None, target_shot_seconds=None):
+def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None, target_shot_seconds=None, visual_plan=None):
     # URL-level dedupe before downloading.
     unique_sources = []
     seen_urls = set()
@@ -339,6 +339,50 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     if not local:
         raise RuntimeError("No unique media sources available")
 
+    # Narrative-to-visual alignment gate. When content planning provides a
+    # visual_plan, reserve one semantically tagged source for each narration
+    # block before filling remaining shots. This makes the picture illustrate
+    # what is being said instead of using unrelated generic footage.
+    planned = []
+    used_paths = set()
+    if visual_plan:
+        for block_index, block in enumerate(visual_plan):
+            wanted = {
+                str(tag).strip().lower()
+                for tag in (block.get("tags") or [])
+                if str(tag).strip()
+            }
+            if not wanted:
+                continue
+
+            match = None
+            for item in local:
+                src_path, _media_type, source_meta = item
+                if str(src_path) in used_paths:
+                    continue
+                source_tags = {
+                    str(tag).strip().lower()
+                    for tag in (source_meta.get("tags") or [])
+                    if str(tag).strip()
+                }
+                if wanted & source_tags:
+                    match = item
+                    break
+
+            if match is None:
+                description = block.get("scene") or block.get("text") or f"block {block_index + 1}"
+                raise RuntimeError(
+                    f"{key} visual plan has no tagged source for narration segment: {description}. "
+                    f"Expected one of tags: {sorted(wanted)}"
+                )
+
+            planned.append(match)
+            used_paths.add(str(match[0]))
+
+        if planned:
+            remaining = [item for item in local if str(item[0]) not in used_paths]
+            local = planned + remaining
+
     # Use the source list as a pool, not a command to cram every clip into the edit.
     # Start near the requested 6-8 second cadence. If a selected source is too short
     # to support that cadence without a long freeze, automatically add another
@@ -348,18 +392,21 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
         target_count = max(min_unique_videos, round(duration / target_shot_seconds))
         target_count = min(len(local), max(min_unique_videos, target_count))
 
-        ranked_videos = sorted(
-            videos,
-            key=lambda item: float(item[2].get("_duration", 0.0)),
-            reverse=True,
+        fixed = list(planned)
+        fixed_paths = {str(item[0]) for item in fixed}
+        candidates = [item for item in local if str(item[0]) not in fixed_paths]
+        ranked_candidates = sorted(
+            candidates,
+            key=lambda item: (
+                item[1] != "video",
+                -float(item[2].get("_duration", 0.0)),
+                int(item[2].get("_source_index", 0)),
+            ),
         )
-        ranked_images = list(images)
         selected = None
 
-        for candidate_count in range(target_count, len(local) + 1):
-            candidate = ranked_videos[:min(candidate_count, len(ranked_videos))]
-            if len(candidate) < candidate_count:
-                candidate += ranked_images[:candidate_count - len(candidate)]
+        for candidate_count in range(max(target_count, len(fixed)), len(local) + 1):
+            candidate = fixed + ranked_candidates[:max(0, candidate_count - len(fixed))]
 
             shot_len = duration / candidate_count
             if max_shot_seconds and shot_len > max_shot_seconds:
@@ -379,15 +426,24 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
 
         if selected is None:
             durations = ", ".join(
-                f"{float(item[2].get('_duration', 0.0)):.1f}s" for item in ranked_videos
+                f"{float(item[2].get('_duration', 0.0)):.1f}s"
+                for item in sorted(videos, key=lambda item: int(item[2].get("_source_index", 0)))
             )
             raise RuntimeError(
                 f"{key} cannot meet the configured pacing/freeze gates with the downloaded clips. "
                 f"Available video durations: [{durations}]. Add longer verified sources."
             )
 
-        # Restore configured source order after choosing the strongest viable clips.
-        local = sorted(selected, key=lambda item: int(item[2].get("_source_index", 0)))
+        # Keep semantic narration order for planned shots. Supporting footage follows
+        # in configured source order so the edit remains predictable.
+        if fixed:
+            support = sorted(
+                [item for item in selected if str(item[0]) not in fixed_paths],
+                key=lambda item: int(item[2].get("_source_index", 0)),
+            )
+            local = fixed + support
+        else:
+            local = sorted(selected, key=lambda item: int(item[2].get("_source_index", 0)))
 
     if max_shot_seconds:
         required_assets = math.ceil(duration / max_shot_seconds)
@@ -542,6 +598,7 @@ def main():
         max_shot_seconds=float(cfg["max_shot_seconds"]) if cfg.get("max_shot_seconds") else None,
         max_freeze_seconds=float(cfg["max_freeze_seconds"]) if cfg.get("max_freeze_seconds") is not None else None,
         target_shot_seconds=float(cfg["target_shot_seconds"]) if cfg.get("target_shot_seconds") else None,
+        visual_plan=cfg.get("visual_plan"),
     )
     final = render_final(visual, voice, ass, args.key, duration)
     review_sheet = make_review_sheet(final, args.key, duration)
