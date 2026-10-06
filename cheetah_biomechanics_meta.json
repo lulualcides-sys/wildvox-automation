@@ -1,0 +1,71 @@
+{
+  "key": "cheetah_biomechanics",
+  "title": "A CHEETAH TURNS ITS ENTIRE BODY INTO A SPRING",
+  "caption": "A cheetah's spine, claws, lungs, and tail become one short-burst racing machine. 🐆💨\n\n#Cheetah #AnimalFacts #Biomechanics #WildlifeTok #NatureFacts #WildVox",
+  "duration": 70.35,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/39157028/",
+      "license": "Pexels License",
+      "assetTitle": "Cheetah strolling in African savanna"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cheetah_%28Acinonyx_jubatus%29_collared_female_on_the_road_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Collared female cheetah"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cheetah_%28Acinonyx_jubatus%29_crossing_the_road.webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Cheetah crossing"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Cheetah_%28Acinonyx_jubatus%29_cub_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Cheetah cub"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Cheetah_%28Acinonyx_jubatus%29_female_calling_cubs_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Female cheetah calling"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Cheetah_%28Acinonyx_jubatus%29_juvenile_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Juvenile cheetah"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cheetah_%28Acinonyx_jubatus%29_male_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Male cheetah"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Cheetah_%28Acinonyx_jubatus%29_male_dragging_its_prey%2C_a_male_springbok_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Cheetah with prey"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cheetah_%28Acinonyx_jubatus%29_purring_and_calling_its_brother.webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Cheetah vocalizing"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cheetah_%28Acinonyx_jubatus%29_purring_and_calling_its_brother_from_a_road_marker.webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Cheetah calling"
+    }
+  ],
+  "review_sheet": "cheetah_biomechanics_review.jpg"
+}

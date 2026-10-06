@@ -1,0 +1,71 @@
+{
+  "key": "giraffe_pressure",
+  "title": "A GIRAFFE'S HEART FIGHTS GRAVITY EVERY SECOND",
+  "caption": "A giraffe survives its own height with high pressure, valves, elastic vessels, and natural compression. 🦒\n\n#Giraffe #AnimalFacts #Biology #WildlifeTok #NatureFacts #WildVox",
+  "duration": 71.05,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Giraffe"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA_2.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Giraffe"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Giraffa_camelopardalis_in_Skopje_Zoo_2015.webmhd.webm",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Giraffe"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Giraffe_%28Giraffa_camelopardalis%29_male_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Male giraffe"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Giraffes_%28Giraffa_camelopardalis%29_in_zoo.webm",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Giraffes"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Leipzig_-_Zoo_-_Afrika_-_Giraffa_camelopardalis_rothschildi_v_01_ies.webm",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Rothschild giraffe"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Uganda-Giraffe_%28Giraffa_camelopardalis_rothschildi%29%2C_mit_unterschiedlicher_Fleckenzeichnung_im_Lake_Mburo_Nationalpark_in_Uganda.webm",
+      "license": "CC BY 2.0",
+      "assetTitle": "Uganda giraffe"
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/5220242/",
+      "license": "Pexels License",
+      "assetTitle": "Giraffe walking in the wilderness"
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/34428368/",
+      "license": "Pexels License",
+      "assetTitle": "Giraffe strolling in open savanna"
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/37970976/",
+      "license": "Pexels License",
+      "assetTitle": "Giraffes grazing in open savanna"
+    }
+  ],
+  "review_sheet": "giraffe_pressure_review.jpg"
+}
