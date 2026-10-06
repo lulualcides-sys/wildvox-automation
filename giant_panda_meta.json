@@ -1,0 +1,71 @@
+{
+  "key": "giant_panda",
+  "title": "A PANDA HAS A SIXTH FINGER THAT ISN'T A FINGER",
+  "caption": "A panda's extra 'thumb' is really a remodeled wrist bone built to grip bamboo. 🐼\n\n#GiantPanda #PandaFacts #AnimalFacts #WildlifeTok #NatureFacts #WildVox",
+  "duration": 39.4,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/BaoBao_the_Panda_having_a_snack_in_the_snow.webm",
+      "license": "CC BY 2.0",
+      "assetTitle": "Giant panda Bao Bao"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Chengdu_Research_Base_of_Giant_Panda_Breeding-P1680515_Date_2019-12-27.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Giant panda"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Female_panda_and_cub.webm",
+      "license": "CC BY 2.0",
+      "assetTitle": "Female giant panda and cub"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Giant_panda_%28Ailuropoda_melanoleuca%29_in_a_zoo.webm",
+      "license": "CC BY 2.0",
+      "assetTitle": "Giant panda"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014.webm",
+      "license": "CC BY 2.0",
+      "assetTitle": "Giant panda feeding"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014_-_%281%29.webm",
+      "license": "CC BY 2.0",
+      "assetTitle": "Giant panda feeding"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Panda_Jia_Jia.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Giant panda Jia Jia"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Panda_at_Smithsonian_zoo.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Giant panda"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Panda_at_the_zoo_in_Beijing_just_chilling.webm",
+      "license": "CC BY 4.0",
+      "assetTitle": "Giant panda"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Russia%27s_first_giant_panda_cub_meets_public_in_Moscow.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Giant panda cub"
+    }
+  ],
+  "review_sheet": "giant_panda_review.jpg"
+}

@@ -1,0 +1,71 @@
+{
+  "key": "fresh_frog",
+  "title": "THIS FROG CAN BREATHE THROUGH ITS SKIN",
+  "caption": "A frog's skin works like a lung and a drinking surface at the same time. 🐸\n\n#Frog #AnimalFacts #Amphibians #NatureFacts #WildlifeTok #DidYouKnow #WildVox",
+  "duration": 37.58,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/2022-06-02_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Common frog"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/2022-06-14_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Common frog"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/2022-06-22_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Common frog"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/2022-06-22_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA_2.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Common frog"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2022-06-23_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Common frog"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/2022-06-27_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Common frog"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Baby_frog_jumping.webm",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Young frog jumping"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cuernos_de_Negros_Nailig_frog-croaking.webm",
+      "license": "CC BY 4.0",
+      "assetTitle": "Frog calling"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Frog_01.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Frog"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Frog_croaking_after_rain.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Frog calling after rain"
+    }
+  ],
+  "review_sheet": "fresh_frog_review.jpg"
+}

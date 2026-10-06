@@ -1,0 +1,71 @@
+{
+  "key": "greater_flamingo",
+  "title": "FLAMINGOS ARE PINK BECAUSE OF THEIR FOOD",
+  "caption": "Flamingos turn pink by eating pigments, then filter food with an upside-down bill. 🦩\n\n#Flamingo #BirdFacts #AnimalFacts #NatureFacts #WildlifeTok #WildVox",
+  "duration": 37.3,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/044_Greater_flamingo_vocalizing_in_the_Camargue_during_mating_season_%28normal_speed%29_Video_by_Giles_Laurent.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Greater flamingo vocalizing"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/046_Greater_flamingos_courtship_display_in_the_Camargue_during_mating_season_%28normal_speed%29_Video_by_Giles_Laurent.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Greater flamingo courtship"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Greater flamingo"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Greater flamingo"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_5.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Greater flamingo"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_8.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Greater flamingo"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Greater flamingo"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Greater flamingo"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/2022-05-21_IZLIV_SO%C4%8CE_Phoenicopterus_roseus_PLAMENEC.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Greater flamingo"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/2022-05-21_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Greater flamingo"
+    }
+  ],
+  "review_sheet": "greater_flamingo_review.jpg"
+}

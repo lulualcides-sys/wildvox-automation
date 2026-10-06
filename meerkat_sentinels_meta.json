@@ -1,0 +1,71 @@
+{
+  "key": "meerkat_sentinels",
+  "title": "MEERKATS RUN A LIVING SECURITY SYSTEM",
+  "caption": "Meerkats use sentinels, graded alarms, teaching, and shared tunnels as one survival network. 🐾\n\n#Meerkat #AnimalBehavior #WildlifeFacts #NatureFacts #ScienceTok #WildVox",
+  "duration": 67.38,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_5.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Meerkat"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_7.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Meerkat"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/2023-08-18_ZOO_LJUBLJANA_-_Suricata_suricatta.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Meerkat"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2023-08-18_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Meerkat"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Leipzig_-_Zoo_-_Afrika_-_Suricata_suricatta_v_01_ies.webm",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Meerkat"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Meerkat_%28Suricata_suricatta%29_digging_for_food_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Meerkat digging"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Meerkat_%28Suricata_suricatta%29_sentinel_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Meerkat sentinel"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Meerkat_at_Los_Angeles_Zoo.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Meerkat"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Meerkats_%28Suricata_suricatta%29_gang_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Meerkat group"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Suricata_suricatta_in_Tiergarten_Sch%C3%B6nbrunn.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Meerkat"
+    }
+  ],
+  "review_sheet": "meerkat_sentinels_review.jpg"
+}

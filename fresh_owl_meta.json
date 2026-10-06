@@ -1,0 +1,71 @@
+{
+  "key": "fresh_owl",
+  "title": "OWLS ARE BUILT TO HEAR IN THREE DIMENSIONS",
+  "caption": "Owls combine directional hearing, fixed eyes, flexible necks, and near-silent wings. 🦉\n\n#Owl #BirdFacts #AnimalFacts #WildlifeTok #NatureFacts #DidYouKnow #WildVox",
+  "duration": 37.83,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/20241022_great_horned_owl_hockanum_river_lt_wm.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Great horned owl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/20241205_blue_jay_mobbing_barred_owl_defensive_aggression.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Barred owl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/2025-09-20-vdk-skt-owls-135358.webm",
+      "license": "CC0",
+      "assetTitle": "Owls"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Barn_owl.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Barn owl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Barred_owl_bathing.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Barred owl bathing"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Brown_Hawk-Owl_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee.mpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Brown hawk-owl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Brown_Hawk-Owl_in_Purbasthali_January_2026_by_Tisha_Mukherjee.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Brown hawk-owl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Little_Owl%2CSouth_Hebron.webm",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Little owl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Little_owl_Athene_noctua_at_Nuthurst_West_Sussex_England_10.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Little owl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Long-eared_owl_in_Central_Park_%2850234%29.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Long-eared owl"
+    }
+  ],
+  "review_sheet": "fresh_owl_review.jpg"
+}

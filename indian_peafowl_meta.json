@@ -1,0 +1,71 @@
+{
+  "key": "indian_peafowl",
+  "title": "A PEACOCK'S COLORS ARE BUILT FROM LIGHT",
+  "caption": "A peacock's shimmering display is a light-bending structure, not simple paint. 🦚\n\n#Peacock #Peafowl #BirdFacts #AnimalFacts #NatureFacts #WildVox",
+  "duration": 37.95,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Pavo_cristatus.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Indian peafowl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Pavo_cristatus_2.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Indian peafowl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/A_white_peafowl_walking.webm",
+      "license": "CC BY 4.0",
+      "assetTitle": "White Indian peafowl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Barata_pavo%2C_anasoj_kaj_kokoj_en_la_animala_rehabilitejo_%22%C4%88e_Lukomorje%22_01.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Indian peafowl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Indian_peacock_%28Pavo_cristatus%29_displaying_for_peahen.webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Peacock displaying"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Indian_peafowl_%28Pavo_cristatus%29_displaying.webm",
+      "license": "CC BY 2.0",
+      "assetTitle": "Indian peafowl displaying"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Pavo_cristatus_in_World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Indian peafowl"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Peacock_Courtship_and_Mating_Ritual_in_the_Wild.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Peacock courtship"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Peacock_dance%2C_at_Botanical_Garden_Hyderabad.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Peacock display"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Peacock_walking_and_eating.webm",
+      "license": "CC0",
+      "assetTitle": "Peacock walking"
+    }
+  ],
+  "review_sheet": "indian_peafowl_review.jpg"
+}

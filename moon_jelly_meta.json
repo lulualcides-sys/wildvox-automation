@@ -1,0 +1,71 @@
+{
+  "key": "moon_jelly",
+  "title": "THIS ANIMAL HAS NO BRAIN OR HEART",
+  "caption": "A moon jelly coordinates its entire life without a brain, heart, or blood. 🌙🪼\n\n#MoonJelly #Jellyfish #OceanFacts #AnimalFacts #MarineLife #WildVox",
+  "duration": 40.33,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Aurelia_sp._swimming_-_MBA.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Aurelia moon jelly swimming"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Fortbewegung_einer_Ohrenqualle.webm",
+      "license": "CC BY 4.0",
+      "assetTitle": "Moon jelly locomotion"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Oorkwal_in_een_school_van_duizenden-4931717.webm",
+      "license": "CC BY-SA 3.0 NL",
+      "assetTitle": "Moon jelly aggregation"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/%D0%90%D1%83%D1%80%D0%B5%D0%BB%D0%B8%D1%8F_%D1%83%D1%88%D0%B0%D1%81%D1%82%D0%B0%D1%8F%2C_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B7%D0%BE%D0%BE%D0%BF%D0%B0%D1%80%D0%BA.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Aurelia aurita"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%2C_%D0%B4%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BB%D1%8F%D0%B6%2C_%D0%B0%D1%83%D1%80%D0%B5%D0%BB%D0%B8%D1%8F_%281%29.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Aurelia moon jelly"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9%D1%81%D0%BA%2C_%D0%B4%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BB%D1%8F%D0%B6%2C_%D0%B0%D1%83%D1%80%D0%B5%D0%BB%D0%B8%D1%8F_%282%29.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Aurelia moon jelly"
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/36543987/",
+      "license": "Pexels License",
+      "assetTitle": "Moon jellyfish in aquarium"
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/34748648/",
+      "license": "Pexels License",
+      "assetTitle": "Moon jellyfish gliding"
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/27303010/",
+      "license": "Pexels License",
+      "assetTitle": "Moon jellyfish"
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/11042992/",
+      "license": "Pexels License",
+      "assetTitle": "Jellyfish in blue aquarium"
+    }
+  ],
+  "review_sheet": "moon_jelly_review.jpg"
+}

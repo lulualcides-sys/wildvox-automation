@@ -1,0 +1,71 @@
+{
+  "key": "humpback_whale",
+  "title": "HUMPBACK WHALES BUILD NETS FROM BUBBLES",
+  "caption": "Humpbacks turn bubbles, sound, and teamwork into a living fishing net. 🐋🫧\n\n#HumpbackWhale #WhaleFacts #OceanFacts #AnimalBehavior #MarineLife #WildVox",
+  "duration": 72.1,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/032_Humpback_whale_lobtailing_in_slow_motion_Video_by_Giles_Laurent.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Humpback whale lobtailing"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Aerial_view_of_a_humpback_whale_near_Gordon%27s_Bay%2C_Sydney%2C_Australia_at_24_August_2020.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Humpback whale aerial view"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Aerial_view_of_three_humpback_whales_%28Megaptera_novaeangliae%29_near_Cape_Solander%2C_New_South_Wales%2C_Australia.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Three humpback whales"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Baby_Humpback_Whale_in_Saman%C3%A1%2C_Dominican_Republic.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Humpback whale calf"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Buckelwal.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Humpback whale"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Humpback_Whale_by_Drone_Clovelly_and_Coogee_beaches%2C_Sydney%2C_Australia%2C_August_21%2C_2020.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Humpback whale drone view"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Humpback_whale_Tail_Sailing_behaviour.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Humpback whale tail sailing"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Humpback_whale_mother_and_calf_south_of_Gerringong_Boat_Harbour%2C_NSW%2C_Australia.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Humpback mother and calf"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Humpback_whales_in_Boston.webm",
+      "license": "CC BY 2.0",
+      "assetTitle": "Humpback whales"
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Humpback_whales_off_The_Shallows_and_Bass_Point_Quarry%2C_Shellharbour%2C_NSW%2C_Australia.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Humpback whales"
+    }
+  ],
+  "review_sheet": "humpback_whale_review.jpg"
+}
