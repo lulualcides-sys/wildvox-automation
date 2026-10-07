@@ -981,7 +981,7 @@
     "sources": [
       {
         "type": "image",
-        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g006.png",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g006.png",
         "license": "CC BY 4.0",
         "assetTitle": "Liolaemus species comparison",
         "tags": [
@@ -991,7 +991,7 @@
       },
       {
         "type": "image",
-        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g007.png",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g007.png",
         "license": "CC BY 4.0",
         "assetTitle": "Liolaemus arequipensis morphology",
         "tags": [
@@ -1001,7 +1001,7 @@
       },
       {
         "type": "image",
-        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g008.png",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g008.png",
         "license": "CC BY 4.0",
         "assetTitle": "Liolaemus arequipensis diagnostic traits",
         "tags": [
@@ -1011,7 +1011,7 @@
       },
       {
         "type": "image",
-        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g009.png",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g009.png",
         "license": "CC BY 4.0",
         "assetTitle": "Liolaemus arequipensis color pattern",
         "tags": [
@@ -1021,7 +1021,7 @@
       },
       {
         "type": "image",
-        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g010.png",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g010.png",
         "license": "CC BY 4.0",
         "assetTitle": "Female paratypes of Liolaemus arequipensis",
         "tags": [
@@ -1031,7 +1031,7 @@
       },
       {
         "type": "image",
-        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g011.png",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g011.png",
         "license": "CC BY 4.0",
         "assetTitle": "Distribution of Liolaemus arequipensis",
         "tags": [
@@ -1041,7 +1041,7 @@
       },
       {
         "type": "image",
-        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g012.png",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g012.png",
         "license": "CC BY 4.0",
         "assetTitle": "High Andean habitat of Liolaemus arequipensis",
         "tags": [
@@ -1329,7 +1329,6 @@
         "license": "Pexels License",
         "assetTitle": "African penguin close view",
         "tags": [
-          "hook",
           "pink-patch"
         ]
       },
@@ -1359,6 +1358,7 @@
         "license": "Pexels License",
         "assetTitle": "African penguins on beach",
         "tags": [
+          "hook",
           "beach",
           "social"
         ]
@@ -1612,6 +1612,17 @@
         "tags": [
           "forest",
           "payoff"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/35101028/",
+        "license": "Pexels License",
+        "assetTitle": "Japanese macaque resting on a mountain path",
+        "tags": [
+          "forest",
+          "resting",
+          "habitat"
         ]
       }
     ],
