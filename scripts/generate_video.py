@@ -179,8 +179,20 @@ def validate_daily_batch(data):
                 f"found {min_duration:.0f}-{max_duration:.0f}s"
             )
 
+        trend_exception = cfg.get("trend_exception") or {}
+        allow_photo_only = bool(trend_exception.get("photo_only_allowed"))
+
         sources = cfg.get("sources") or []
-        if not 8 <= len(sources) <= 12:
+        if allow_photo_only:
+            if not trend_exception.get("evidence_url") or not trend_exception.get("evidence_published_date"):
+                raise RuntimeError(
+                    f"{key} photo-only trend exception requires evidence_url and evidence_published_date"
+                )
+            if not 3 <= len(sources) <= 12:
+                raise RuntimeError(
+                    f"{key} photo-only trend exception must provide 3-12 unique authentic visual assets"
+                )
+        elif not 8 <= len(sources) <= 12:
             raise RuntimeError(f"{key} must provide a pool of 8-12 unique assets")
 
         video_count = 0
@@ -201,26 +213,47 @@ def validate_daily_batch(data):
                 raise RuntimeError(f"Duplicate media URL across daily batch: {source['url']}")
             batch_urls.add(canon)
 
-        if video_count < required_videos:
-            raise RuntimeError(
-                f"{key} requires at least {required_videos} unique videos, found {video_count}"
-            )
-        if video_count > 10:
-            raise RuntimeError(f"{key} may use at most 10 video clips in its source pool")
-        if image_count > 2:
-            raise RuntimeError(f"{key} may use at most 2 supporting still images")
-        if int(cfg.get("min_unique_videos", 0) or 0) < required_videos:
-            raise RuntimeError(
-                f"{key} min_unique_videos must be at least {required_videos}"
-            )
+        if allow_photo_only:
+            # Breaking/rediscovery exception: authentic scarcity is preferable to
+            # substituting footage from another species. If genuine video exists,
+            # it may still be mixed with the verified stills.
+            if video_count == 0 and image_count < 3:
+                raise RuntimeError(
+                    f"{key} photo-only trend exception needs at least 3 unique authentic images"
+                )
+            if video_count > 10:
+                raise RuntimeError(f"{key} may use at most 10 video clips in its source pool")
+        else:
+            if video_count < required_videos:
+                raise RuntimeError(
+                    f"{key} requires at least {required_videos} unique videos, found {video_count}"
+                )
+            if video_count > 10:
+                raise RuntimeError(f"{key} may use at most 10 video clips in its source pool")
+            if image_count > 2:
+                raise RuntimeError(f"{key} may use at most 2 supporting still images")
+            if int(cfg.get("min_unique_videos", 0) or 0) < required_videos:
+                raise RuntimeError(
+                    f"{key} min_unique_videos must be at least {required_videos}"
+                )
 
         target = float(cfg.get("target_shot_seconds", 0) or 0)
         max_shot = float(cfg.get("max_shot_seconds", 0) or 0)
         max_freeze = float(cfg.get("max_freeze_seconds", 99))
-        if not 6.0 <= target <= 8.0:
-            raise RuntimeError(f"{key} target_shot_seconds must stay between 6 and 8")
-        if not 0 < max_shot <= 8.0:
-            raise RuntimeError(f"{key} max_shot_seconds must be at most 8")
+        if allow_photo_only:
+            if not 4.0 <= target <= 8.0:
+                raise RuntimeError(
+                    f"{key} photo-only target_shot_seconds must stay between 4 and 8"
+                )
+            if not 0 < max_shot <= 12.0:
+                raise RuntimeError(
+                    f"{key} photo-only max_shot_seconds must be at most 12"
+                )
+        else:
+            if not 6.0 <= target <= 8.0:
+                raise RuntimeError(f"{key} target_shot_seconds must stay between 6 and 8")
+            if not 0 < max_shot <= 8.0:
+                raise RuntimeError(f"{key} max_shot_seconds must be at most 8")
         if not 0 <= max_freeze <= 1.0:
             raise RuntimeError(f"{key} max_freeze_seconds must be at most 1")
 
@@ -262,7 +295,7 @@ def interleave_video_first(videos, images):
                 ii += 1
     return ordered
 
-def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None, target_shot_seconds=None, visual_plan=None):
+def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None, target_shot_seconds=None, visual_plan=None, allow_photo_only=False):
     # URL-level dedupe before downloading.
     unique_sources = []
     seen_urls = set()
@@ -318,22 +351,29 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     # Quality gate: WildVox is video-first. A species with too little motion
     # footage should be replaced during content planning instead of being padded
     # with a slideshow of stills.
-    if len(videos) < min_unique_videos:
+    if not allow_photo_only and len(videos) < min_unique_videos:
         raise RuntimeError(
             f"{key} has only {len(videos)} unique video source(s). "
             f"This render requires at least {min_unique_videos} distinct videos; "
             "choose another species or add more verified video footage instead of filling with images."
         )
 
-    # Still images are supporting material only. Keep at least ~75% of the
-    # selected assets as videos whenever video footage exists.
-    max_images = max(1, len(videos) // 3)
-    if len(images) > max_images:
-        print(
-            f"Video-first rule: using {max_images} of {len(images)} unique image(s).",
-            flush=True,
+    if allow_photo_only and not videos and len(images) < 3:
+        raise RuntimeError(
+            f"{key} photo-only trend exception requires at least 3 unique authentic images"
         )
-        images = images[:max_images]
+
+    # Still images are supporting material in normal videos. For verified
+    # breaking/rediscovery stories, authentic photo-only storytelling is allowed
+    # instead of substituting unrelated footage from another species.
+    if not allow_photo_only:
+        max_images = max(1, len(videos) // 3)
+        if len(images) > max_images:
+            print(
+                f"Video-first rule: using {max_images} of {len(images)} unique image(s).",
+                flush=True,
+            )
+            images = images[:max_images]
 
     local = interleave_video_first(videos, images)
     if not local:
@@ -389,8 +429,9 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     # unique source and shorten all shots slightly. This preserves the quality gate
     # without failing an otherwise usable batch because of one short stock clip.
     if target_shot_seconds:
-        target_count = max(min_unique_videos, round(duration / target_shot_seconds))
-        target_count = min(len(local), max(min_unique_videos, target_count))
+        min_assets = 3 if allow_photo_only and not videos else min_unique_videos
+        target_count = max(min_assets, round(duration / target_shot_seconds))
+        target_count = min(len(local), max(min_assets, target_count))
 
         fixed = list(planned)
         fixed_paths = {str(item[0]) for item in fixed}
@@ -657,6 +698,7 @@ def main():
         max_freeze_seconds=float(cfg["max_freeze_seconds"]) if cfg.get("max_freeze_seconds") is not None else None,
         target_shot_seconds=float(cfg["target_shot_seconds"]) if cfg.get("target_shot_seconds") else None,
         visual_plan=cfg.get("visual_plan"),
+        allow_photo_only=bool((cfg.get("trend_exception") or {}).get("photo_only_allowed")),
     )
     music_path, music_cfg = prepare_music(cfg, args.key)
     final = render_final(
@@ -676,7 +718,8 @@ def main():
             "speed": 1.08,
             "sources": cfg["sources"],
             "review_sheet": review_sheet.name,
-            "music": music_cfg
+            "music": music_cfg,
+            "trend_exception": cfg.get("trend_exception")
         }, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
