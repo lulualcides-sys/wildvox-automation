@@ -1,0 +1,99 @@
+{
+  "key": "bat_eared_fox",
+  "title": "THIS FOX HAS MORE TEETH THAN ALMOST ANY MAMMAL",
+  "caption": "The bat-eared fox turned giant ears and dozens of tiny teeth into an insect-hunting system. 🦊\n\n#BatEaredFox #OtocyonMegalotis #AnimalFacts #AfricanWildlife #NatureFacts #WildVox",
+  "duration": 41.33,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35570879/15072453_1920_1080_24fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Bat-eared fox resting",
+      "tags": [
+        "hook",
+        "ears"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35570880/15072451_1920_1080_24fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Bat-eared fox in sunlight",
+      "tags": [
+        "ears",
+        "heat"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bat-eared_Fox_%28Otocyon_megalotis%29_at_dawn_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Bat-eared fox at dawn",
+      "tags": [
+        "habitat",
+        "foraging"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Bat-eared_Fox_%28Otocyon_megalotis%29_hidden_in_the_grass_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Bat-eared fox in grass",
+      "tags": [
+        "camouflage",
+        "listening"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bat-eared_Foxes_%28Otocyon_megalotis%29_adult_and_pup_....webm",
+      "license": "CC BY-SA 2.0",
+      "assetTitle": "Bat-eared fox adult and pup",
+      "tags": [
+        "family",
+        "social"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Les_oreilles_parlantes_de_l%27otocyon_1.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Bat-eared fox ear movements",
+      "tags": [
+        "ears",
+        "listening",
+        "payoff"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/%27Bat_Eared_Fox%27.JPG",
+      "license": "CC0",
+      "assetTitle": "Bat-eared fox full body",
+      "tags": [
+        "body",
+        "teeth"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/187_Bat-eared_fox_in_Otjozondjupa_Region_Photo_by_Giles_Laurent.jpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Bat-eared fox in Namibia",
+      "tags": [
+        "range",
+        "habitat"
+      ]
+    }
+  ],
+  "review_sheet": "bat_eared_fox_review.jpg",
+  "music": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+    "license": "CC BY 4.0",
+    "gain_db": -24
+  },
+  "trend_exception": null
+}
