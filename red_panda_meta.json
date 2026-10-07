@@ -1,0 +1,120 @@
+{
+  "key": "red_panda",
+  "title": "THE RED PANDA CLIMBS DOWN HEADFIRST",
+  "caption": "Rotating ankles, a balancing tail, and a false thumb make the red panda a specialist in the trees. 🔴🐼\n\n#RedPanda #AilurusFulgens #AnimalFacts #Wildlife #NatureFacts #WildVox",
+  "duration": 38.85,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/35899021/",
+      "license": "Pexels License",
+      "assetTitle": "Red panda exploring enclosure",
+      "tags": [
+        "hook",
+        "walking"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/37187239/",
+      "license": "Pexels License",
+      "assetTitle": "Red panda resting in tree",
+      "tags": [
+        "resting",
+        "tail"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/29210993/",
+      "license": "Pexels License",
+      "assetTitle": "Red panda in Sikkim forest",
+      "tags": [
+        "habitat",
+        "forest"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/37179791/",
+      "license": "Pexels License",
+      "assetTitle": "Red panda resting on branch",
+      "tags": [
+        "branch",
+        "resting"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/32644210/",
+      "license": "Pexels License",
+      "assetTitle": "Red panda climbing and eating bamboo",
+      "tags": [
+        "climbing",
+        "bamboo",
+        "paws"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/35571095/",
+      "license": "Pexels License",
+      "assetTitle": "Red pandas relaxing on branch",
+      "tags": [
+        "social",
+        "tail"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/29429701/",
+      "license": "Pexels License",
+      "assetTitle": "Red panda in autumn leaves",
+      "tags": [
+        "camouflage",
+        "forest"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/35571097/",
+      "license": "Pexels License",
+      "assetTitle": "Red panda walking on log",
+      "tags": [
+        "walking",
+        "balance",
+        "paws"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/36883727/",
+      "license": "Pexels License",
+      "assetTitle": "Red pandas in forest habitat",
+      "tags": [
+        "habitat",
+        "social"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/8796618/",
+      "license": "Pexels License",
+      "assetTitle": "Red panda on tree branch",
+      "tags": [
+        "tree",
+        "payoff"
+      ]
+    }
+  ],
+  "review_sheet": "red_panda_review.jpg",
+  "music": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+    "license": "CC BY 4.0",
+    "gain_db": -24
+  },
+  "trend_exception": null
+}
