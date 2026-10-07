@@ -1,67 +1,311 @@
 {
-  "fresh_frog": {
-    "title": "THIS FROG CAN BREATHE THROUGH ITS SKIN",
-    "script": "A frog does not rely only on its lungs. Its thin, moist skin can exchange oxygen and carbon dioxide directly with the environment, which is why frogs must avoid drying out. Many also absorb water through a specialized patch underneath the body instead of drinking through the mouth. Their eyes can help with swallowing by pressing downward as food moves toward the throat. During cold weather, some frogs rest underwater or in mud and continue taking in oxygen through the skin. This animal is not simply wet. Its entire surface is part lung, part water bottle, and part chemical shield.",
+  "rediscovered_schokari_sand_racer": {
+    "title": "THIS SNAKE RETURNED AFTER 154 YEARS",
+    "script": "A snake absent from Kutch's confirmed records since 1872 has appeared again. During a September patrol in western India, a forest officer spotted a fast, slender reptile crossing the road and recorded it. Experts identified the animal as an Afro-Asian sand snake, Psammophis schokari. Despite its name, it is a swift daytime hunter of lizards, rodents, and small birds across dry regions of Africa and Asia. Its rear-fanged venom helps subdue prey, but it is not normally considered dangerous to people. The sighting does not mean the species returned from extinction. It proves that a rarely documented population was still hiding in Kutch's arid landscape.",
+    "sources": [
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Psammophis_schokari.jpg",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Afro-Asian sand snake portrait",
+        "tags": [
+          "hook",
+          "animal",
+          "head"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Psammophis_schokari01.jpg",
+        "license": "CC BY-SA 2.5",
+        "assetTitle": "Schokari sand racer full body",
+        "tags": [
+          "body",
+          "identification"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Psammophis_schokari02.jpg",
+        "license": "CC BY-SA 2.5",
+        "assetTitle": "Schokari sand racer in dry habitat",
+        "tags": [
+          "habitat",
+          "camouflage"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Psammophis_schokari_%281%29.JPG",
+        "license": "CC BY-SA 3.0",
+        "assetTitle": "Psammophis schokari field photograph",
+        "tags": [
+          "field",
+          "movement"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Psammophis_schokari_%282%29.JPG",
+        "license": "CC BY-SA 3.0",
+        "assetTitle": "Psammophis schokari detail",
+        "tags": [
+          "scales",
+          "identification"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Psammophis_schokari_%283%29.jpg",
+        "license": "CC BY-SA 3.0",
+        "assetTitle": "Psammophis schokari natural posture",
+        "tags": [
+          "behavior",
+          "hunter"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Psammophis_schokari_259948779.jpg",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Schokari sand racer on substrate",
+        "tags": [
+          "dryland",
+          "payoff"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Psammophis_schokari_distribution.png",
+        "license": "CC BY-SA 3.0",
+        "assetTitle": "Afro-Asian sand snake range map",
+        "tags": [
+          "range",
+          "map"
+        ]
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "A snake absent from Kutch's records since 1872 has appeared again.",
+        "scene": "Immediate full-body species reveal.",
+        "tags": [
+          "hook"
+        ]
+      },
+      {
+        "text": "A forest officer recorded it crossing a road.",
+        "scene": "Use a field photograph showing the snake extended.",
+        "tags": [
+          "field",
+          "movement"
+        ]
+      },
+      {
+        "text": "Experts identified Psammophis schokari.",
+        "scene": "Show diagnostic body and head details.",
+        "tags": [
+          "identification",
+          "head"
+        ]
+      },
+      {
+        "text": "It hunts by day across dry regions of Africa and Asia.",
+        "scene": "Show dry habitat, hunting posture, then range.",
+        "tags": [
+          "habitat",
+          "range"
+        ]
+      },
+      {
+        "text": "Its venom helps subdue small prey.",
+        "scene": "Use the alert hunting posture without sensationalism.",
+        "tags": [
+          "hunter"
+        ]
+      },
+      {
+        "text": "This was a rediscovery of a hidden regional population, not resurrection from extinction.",
+        "scene": "Finish on the clearest exact-species field image.",
+        "tags": [
+          "payoff"
+        ]
+      }
+    ],
+    "trend_priority": true,
+    "trend_reason": "A confirmed Kutch record resurfaced after the species had not been scientifically documented there since 1872.",
+    "trend_source_url": "https://indianexpress.com/article/cities/ahmedabad/kutch-afro-asian-sand-snake-sighting-gujarat-wildlife-10899757/",
+    "trend_published_date": "2026-09-30",
+    "trend_exception": {
+      "photo_only_allowed": true,
+      "evidence_url": "https://indianexpress.com/article/cities/ahmedabad/kutch-afro-asian-sand-snake-sighting-gujarat-wildlife-10899757/",
+      "evidence_published_date": "2026-09-30",
+      "reason": "Authentic footage of the current Kutch sighting is not openly licensed; use only licensed exact-species photographs and a verified range map."
+    },
+    "target_shot_seconds": 5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "A snake missing from Kutch's confirmed record for 154 years was hiding in plain sight. 🐍\n\n#SandSnake #Rediscovery #WildlifeNews #ReptileFacts #Biodiversity #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
+  },
+  "mexican_axolotl": {
+    "title": "THE AXOLOTL REBUILDS BODY PARTS WITHOUT SCARS",
+    "script": "The Mexican axolotl does something mammals cannot: it can rebuild a lost limb with bone, muscle, nerves, and skin. It can also repair parts of the spinal cord, heart, and other tissues with remarkably little scarring. This salamander usually keeps its feathery larval gills for life instead of completing the normal transformation to a land-dwelling adult. That permanent youth is called neoteny. The viral pink form is common in captivity, but wild axolotls are dark and live naturally only in the waterways around Xochimilco in Mexico City. The creature famous for regeneration is itself critically endangered in the wild.",
     "sources": [
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/2022-06-02_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
+        "url": "https://videos.pexels.com/video-files/8838030/8838030-hd_1080_1920_24fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Axolotl swimming",
+        "tags": [
+          "hook",
+          "swimming",
+          "gills"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/8838032/8838032-hd_1920_1080_24fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Axolotl among aquarium rocks",
+        "tags": [
+          "body",
+          "aquatic"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/11284501/11284501-uhd_2560_1440_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Axolotl close observation",
+        "tags": [
+          "head",
+          "gills"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/2023-08-18_ZOO_LJUBLJANA_Ambystoma_mexicanum_%28Mehi%C5%A1ki_pre%C4%8Dnozobec%29_MEHI%C5%A0KI_AKSOLOTL.webm",
         "license": "CC BY 3.0",
-        "assetTitle": "Common frog"
+        "assetTitle": "Mexican axolotl swimming",
+        "tags": [
+          "movement",
+          "whole-body"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/2022-06-14_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Common frog"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/2022-06-22_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Common frog"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/2022-06-22_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA_2.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Common frog"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/2022-06-23_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Common frog"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/2022-06-27_LJUBLJANA_Botani%C4%8Dni_vrt_SALIENTISA_Rana_temporaria_SEKULJA.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Common frog"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Baby_frog_jumping.webm",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Young frog jumping"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Cuernos_de_Negros_Nailig_frog-croaking.webm",
-        "license": "CC BY 4.0",
-        "assetTitle": "Frog calling"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Frog_01.webm",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ambystoma_mexicanum.webm",
         "license": "CC BY-SA 4.0",
-        "assetTitle": "Frog"
+        "assetTitle": "Ambystoma mexicanum",
+        "tags": [
+          "wild-type",
+          "dark-form"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Frog_croaking_after_rain.webm",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Axolote_leucisitico_juvenil_Ambystoma_Mexicanum_con_branquias_rojas_y_carnosas.webm",
         "license": "CC BY-SA 4.0",
-        "assetTitle": "Frog calling after rain"
+        "assetTitle": "Leucistic juvenile axolotl",
+        "tags": [
+          "juvenile",
+          "gills"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Axolotl_%28Ambystoma_mexicanum%29.webm",
+        "license": "CC BY 2.0",
+        "assetTitle": "Axolotl underwater",
+        "tags": [
+          "aquatic",
+          "behavior"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Axolotl_%28Tierpark_Zittau%29.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Axolotl at Tierpark Zittau",
+        "tags": [
+          "habitat",
+          "movement"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Flujo_sangu%C3%ADneo_en_branquias_de_larvas_de_axolote_ambystoma_mexicanum.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Blood flow in axolotl gills",
+        "tags": [
+          "science",
+          "gills",
+          "circulation"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Time_lapse_embryonic_development_of_axolotl_egg_Ambystoma_mexycanum.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Axolotl embryonic development",
+        "tags": [
+          "embryo",
+          "development",
+          "payoff"
+        ]
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "The axolotl rebuilds lost body parts.",
+        "scene": "Strong swimming reveal with visible limbs.",
+        "tags": [
+          "hook"
+        ]
+      },
+      {
+        "text": "It restores bone, muscle, nerves, and skin.",
+        "scene": "Whole-body side view.",
+        "tags": [
+          "whole-body"
+        ]
+      },
+      {
+        "text": "It keeps larval gills for life.",
+        "scene": "Use the clearest gill footage.",
+        "tags": [
+          "gills"
+        ]
+      },
+      {
+        "text": "This permanent youth is called neoteny.",
+        "scene": "Show juvenile and adult-like aquatic form.",
+        "tags": [
+          "juvenile"
+        ]
+      },
+      {
+        "text": "Wild animals are dark, unlike the viral pink form.",
+        "scene": "Contrast dark-form and leucistic individuals.",
+        "tags": [
+          "dark-form"
+        ]
+      },
+      {
+        "text": "Its wild population is critically endangered.",
+        "scene": "End on development footage as a life-cycle payoff.",
+        "tags": [
+          "payoff"
+        ]
       }
     ],
     "min_unique_videos": 6,
@@ -70,72 +314,649 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "caption": "A frog's skin works like a lung and a drinking surface at the same time. 🐸\n\n#Frog #AnimalFacts #Amphibians #NatureFacts #WildlifeTok #DidYouKnow #WildVox",
-    "revision": "2026-10-06-video-first"
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "The axolotl can rebuild complex tissues, yet its last wild home is under severe pressure. 🦎\n\n#Axolotl #AmbystomaMexicanum #AnimalFacts #Regeneration #Conservation #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
   },
-  "fresh_owl": {
-    "title": "OWLS ARE BUILT TO HEAR IN THREE DIMENSIONS",
-    "script": "An owl's face is more than a face. The ring of feathers around it works like a sound collector, guiding tiny noises toward the ears. In many species, one ear opening sits higher than the other, so the brain can compare when a sound reaches each side and locate prey in three dimensions. Large forward-facing eyes gather light, but they cannot roll inside their sockets. That is why the neck does so much work. Some owls can rotate the head about 270 degrees, while specialized blood vessels keep the brain supplied. Then soft fringed feathers reduce flight noise before the strike.",
+  "red_panda": {
+    "title": "THE RED PANDA CLIMBS DOWN HEADFIRST",
+    "script": "A red panda is neither a bear nor a miniature giant panda. It is the only living member of its own family, Ailuridae. Its ankles rotate so dramatically that the animal can descend a tree headfirst, gripping bark with sharp claws. A long ringed tail works like a balancing pole and can wrap around the body in cold weather. Like the giant panda, it also has a false thumb made from a modified wrist bone for holding bamboo. But bamboo is low in energy, so red pandas spend much of the day resting. Think of it as a tree-climbing specialist running on a very strict battery-saving mode.",
     "sources": [
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/20241022_great_horned_owl_hockanum_river_lt_wm.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Great horned owl"
+        "url": "https://videos.pexels.com/video-files/35899021/15300000_1080_1920_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Red panda exploring enclosure",
+        "tags": [
+          "hook",
+          "walking"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/20241205_blue_jay_mobbing_barred_owl_defensive_aggression.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Barred owl"
+        "url": "https://www.pexels.com/download/video/37187239/",
+        "license": "Pexels License",
+        "assetTitle": "Red panda resting in tree",
+        "tags": [
+          "resting",
+          "tail"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/2025-09-20-vdk-skt-owls-135358.webm",
+        "url": "https://www.pexels.com/download/video/29210993/",
+        "license": "Pexels License",
+        "assetTitle": "Red panda in Sikkim forest",
+        "tags": [
+          "habitat",
+          "forest"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/37179791/",
+        "license": "Pexels License",
+        "assetTitle": "Red panda resting on branch",
+        "tags": [
+          "branch",
+          "resting"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/32644210/",
+        "license": "Pexels License",
+        "assetTitle": "Red panda climbing and eating bamboo",
+        "tags": [
+          "climbing",
+          "bamboo",
+          "paws"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/35571095/",
+        "license": "Pexels License",
+        "assetTitle": "Red pandas relaxing on branch",
+        "tags": [
+          "social",
+          "tail"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/29429701/",
+        "license": "Pexels License",
+        "assetTitle": "Red panda in autumn leaves",
+        "tags": [
+          "camouflage",
+          "forest"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/35571097/",
+        "license": "Pexels License",
+        "assetTitle": "Red panda walking on log",
+        "tags": [
+          "walking",
+          "balance"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/36883727/",
+        "license": "Pexels License",
+        "assetTitle": "Red pandas in forest habitat",
+        "tags": [
+          "habitat",
+          "social"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/8796618/",
+        "license": "Pexels License",
+        "assetTitle": "Red panda on tree branch",
+        "tags": [
+          "tree",
+          "payoff"
+        ]
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "A red panda is not a bear.",
+        "scene": "Immediate full-body reveal.",
+        "tags": [
+          "hook"
+        ]
+      },
+      {
+        "text": "Its rotating ankles allow a headfirst descent.",
+        "scene": "Use the strongest climbing shot.",
+        "tags": [
+          "climbing"
+        ]
+      },
+      {
+        "text": "The tail balances and insulates.",
+        "scene": "Show the ringed tail on a branch.",
+        "tags": [
+          "tail"
+        ]
+      },
+      {
+        "text": "A false thumb grips bamboo.",
+        "scene": "Match bamboo feeding and paws.",
+        "tags": [
+          "bamboo",
+          "paws"
+        ]
+      },
+      {
+        "text": "Low-energy food means long rest periods.",
+        "scene": "Use a relaxed resting scene.",
+        "tags": [
+          "resting"
+        ]
+      },
+      {
+        "text": "It is a battery-saving tree specialist.",
+        "scene": "Finish with confident movement along a branch.",
+        "tags": [
+          "payoff",
+          "tree"
+        ]
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "Rotating ankles, a balancing tail, and a false thumb make the red panda a specialist in the trees. 🔴🐼\n\n#RedPanda #AilurusFulgens #AnimalFacts #Wildlife #NatureFacts #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
+  },
+  "red_lionfish": {
+    "title": "THESE BEAUTIFUL FINS HIDE 18 VENOMOUS SPINES",
+    "script": "A red lionfish looks like a floating firework, but eighteen of its spines can deliver venom. The fan-shaped fins are not just decoration. They help corner smaller fish while the lionfish opens its mouth and swallows prey whole. In the Indo-Pacific, this is a native predator. In the western Atlantic and Caribbean, introduced lionfish spread rapidly and consume native reef animals that have few defenses against them. Their striped bodies, slow approach, and sudden suction strike make them brutally efficient. The strange part is that the flesh is not venomous. The danger is concentrated in the spines, not the meal.",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/10106695/10106695-hd_1920_1080_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Lionfish underwater",
+        "tags": [
+          "hook",
+          "fins",
+          "spines"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/31824851/",
+        "license": "Pexels License",
+        "assetTitle": "Lionfish on coral reef",
+        "tags": [
+          "reef",
+          "habitat"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/27302855/",
+        "license": "Pexels License",
+        "assetTitle": "Lionfish swimming in aquarium",
+        "tags": [
+          "movement",
+          "stripes"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/10020447/",
+        "license": "Pexels License",
+        "assetTitle": "Lionfish with water plants",
+        "tags": [
+          "fins",
+          "camouflage"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/3765023/",
+        "license": "Pexels License",
+        "assetTitle": "Lionfish in aquarium habitat",
+        "tags": [
+          "body",
+          "spines"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/35819740/",
+        "license": "Pexels License",
+        "assetTitle": "Lionfish through coral reef",
+        "tags": [
+          "reef",
+          "hunting"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/10068515/",
+        "license": "Pexels License",
+        "assetTitle": "Striped lionfish swimming",
+        "tags": [
+          "stripes",
+          "movement"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/34315573/",
+        "license": "Pexels License",
+        "assetTitle": "Lionfish swimming gracefully",
+        "tags": [
+          "fins",
+          "approach"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/18900188/",
+        "license": "Pexels License",
+        "assetTitle": "Lionfish side profile",
+        "tags": [
+          "mouth",
+          "predator"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://www.pexels.com/download/video/37450444/",
+        "license": "Pexels License",
+        "assetTitle": "Lionfish in pristine reef",
+        "tags": [
+          "impact",
+          "payoff"
+        ]
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "Eighteen spines can deliver venom.",
+        "scene": "Open on the clearest spread fins.",
+        "tags": [
+          "hook",
+          "spines"
+        ]
+      },
+      {
+        "text": "The fins help corner smaller fish.",
+        "scene": "Use reef movement with fins extended.",
+        "tags": [
+          "hunting",
+          "fins"
+        ]
+      },
+      {
+        "text": "The fish swallows prey with suction.",
+        "scene": "Show the mouth and slow approach.",
+        "tags": [
+          "mouth",
+          "approach"
+        ]
+      },
+      {
+        "text": "It is native in the Indo-Pacific but invasive in the Atlantic.",
+        "scene": "Shift from reef habitat to a solitary roaming shot.",
+        "tags": [
+          "reef",
+          "habitat"
+        ]
+      },
+      {
+        "text": "Few native reef animals recognize the threat.",
+        "scene": "Show camouflage and striped approach.",
+        "tags": [
+          "camouflage",
+          "stripes"
+        ]
+      },
+      {
+        "text": "The flesh is edible; the spines are the danger.",
+        "scene": "End on a complete, recognizable profile.",
+        "tags": [
+          "payoff"
+        ]
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "The lionfish's beauty is part camouflage, part hunting tool, and part warning. 🐠\n\n#Lionfish #PteroisVolitans #OceanFacts #InvasiveSpecies #MarineLife #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
+  },
+  "capybara": {
+    "title": "CAPYBARAS USE WATER AS AN ESCAPE ROUTE",
+    "script": "The capybara is the world's largest living rodent, but its real superpower is water. Eyes, ears, and nostrils sit high on the head, letting it watch the shore while most of the body stays submerged. Webbing between the toes helps with swimming, and a capybara can use rivers to escape predators or cool down. It is also intensely social. Groups communicate with whistles, barks, purr-like sounds, and warning calls. Even their relaxed reputation has a practical reason: sharing many eyes makes danger easier to detect. A capybara group is basically a neighborhood watch that happens to spend a lot of time in the pool.",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/28224621/12333286_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Capybara by pond",
+        "tags": [
+          "hook",
+          "water"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/12340339/12340339-uhd_2560_1440_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Capybaras by river",
+        "tags": [
+          "river",
+          "group"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/32908777/14025473_1920_1080_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Capybaras feeding together",
+        "tags": [
+          "feeding",
+          "social"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/12340298/12340298-uhd_2560_1440_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Capybara group near water",
+        "tags": [
+          "group",
+          "habitat"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/38779059/16477615_1080_1920_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Capybara in pond",
+        "tags": [
+          "swimming",
+          "submerged"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/10344350/10344350-hd_1920_1080_24fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Capybara grazing",
+        "tags": [
+          "grazing",
+          "teeth"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/37121925/15726054_2560_1440_25fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Capybaras grazing in habitat",
+        "tags": [
+          "social",
+          "grazing"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/37121924/15726045_2560_1440_25fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Capybara group outdoors",
+        "tags": [
+          "group",
+          "behavior"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/35416556/15005171_1440_2560_60fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Wild capybara grazing",
+        "tags": [
+          "wild",
+          "habitat"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/33760828/14332479_2560_1440_25fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Capybara beside lake",
+        "tags": [
+          "water",
+          "payoff"
+        ]
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "The world's largest rodent uses water as a superpower.",
+        "scene": "Open with a capybara entering or standing in water.",
+        "tags": [
+          "hook",
+          "water"
+        ]
+      },
+      {
+        "text": "High eyes, ears, and nostrils watch above the surface.",
+        "scene": "Use the submerged pond shot.",
+        "tags": [
+          "submerged"
+        ]
+      },
+      {
+        "text": "Webbed toes help it swim and escape.",
+        "scene": "Show movement beside the river.",
+        "tags": [
+          "swimming",
+          "river"
+        ]
+      },
+      {
+        "text": "Capybaras are intensely social.",
+        "scene": "Cut to a clearly visible group.",
+        "tags": [
+          "group",
+          "social"
+        ]
+      },
+      {
+        "text": "They communicate with many calls.",
+        "scene": "Use interacting animals.",
+        "tags": [
+          "behavior"
+        ]
+      },
+      {
+        "text": "The group works like a neighborhood watch.",
+        "scene": "End on a calm wide group by water.",
+        "tags": [
+          "payoff"
+        ]
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "Capybaras are built for water and organized around the safety of the group. 🌊\n\n#Capybara #HydrochoerusHydrochaeris #AnimalBehavior #RodentFacts #Wildlife #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
+  },
+  "bat_eared_fox": {
+    "title": "THIS FOX HAS MORE TEETH THAN ALMOST ANY MAMMAL",
+    "script": "The bat-eared fox has up to fifty teeth, more than any other heterodont placental mammal. Most foxes use stronger jaws for larger prey. This species went the opposite direction, building many small teeth and rapid chewing muscles for insects. Harvester termites and dung beetles can dominate its diet. Those enormous ears help locate tiny movements underground and release heat in open African grasslands. Families may forage together, finding more termite patches while watching for predators. It looks like a fox wearing satellite dishes, but every exaggerated feature serves the same mission: detect small prey fast, chew it quickly, and survive where water and food can be unpredictable.",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/35570879/15072453_1920_1080_24fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Bat-eared fox resting",
+        "tags": [
+          "hook",
+          "ears"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://videos.pexels.com/video-files/35570880/15072451_1920_1080_24fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Bat-eared fox in sunlight",
+        "tags": [
+          "ears",
+          "heat"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bat-eared_Fox_%28Otocyon_megalotis%29_at_dawn_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Bat-eared fox at dawn",
+        "tags": [
+          "habitat",
+          "foraging"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Bat-eared_Fox_%28Otocyon_megalotis%29_hidden_in_the_grass_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Bat-eared fox in grass",
+        "tags": [
+          "camouflage",
+          "listening"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bat-eared_Foxes_%28Otocyon_megalotis%29_adult_and_pup_....webm",
+        "license": "CC BY-SA 2.0",
+        "assetTitle": "Bat-eared fox adult and pup",
+        "tags": [
+          "family",
+          "social"
+        ]
+      },
+      {
+        "type": "video",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Les_oreilles_parlantes_de_l%27otocyon_1.webm",
+        "license": "CC BY-SA 4.0",
+        "assetTitle": "Bat-eared fox ear movements",
+        "tags": [
+          "ears",
+          "listening",
+          "payoff"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/%27Bat_Eared_Fox%27.JPG",
         "license": "CC0",
-        "assetTitle": "Owls"
+        "assetTitle": "Bat-eared fox full body",
+        "tags": [
+          "body",
+          "teeth"
+        ]
       },
       {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Barn_owl.webm",
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/187_Bat-eared_fox_in_Otjozondjupa_Region_Photo_by_Giles_Laurent.jpg",
         "license": "CC BY-SA 4.0",
-        "assetTitle": "Barn owl"
+        "assetTitle": "Bat-eared fox in Namibia",
+        "tags": [
+          "range",
+          "habitat"
+        ]
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "This fox can carry up to fifty teeth.",
+        "scene": "Open on a recognizable face and ears.",
+        "tags": [
+          "hook"
+        ]
       },
       {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Barred_owl_bathing.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Barred owl bathing"
+        "text": "Small teeth and fast chewing target insects.",
+        "scene": "Use a full-body foraging context.",
+        "tags": [
+          "foraging",
+          "teeth"
+        ]
       },
       {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Brown_Hawk-Owl_in_Kuldiha_Wildlife_Sanctuary_March_2025_by_Tisha_Mukherjee.mpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Brown hawk-owl"
+        "text": "Termites and beetles dominate the diet.",
+        "scene": "Show listening in short grass.",
+        "tags": [
+          "listening"
+        ]
       },
       {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Brown_Hawk-Owl_in_Purbasthali_January_2026_by_Tisha_Mukherjee.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Brown hawk-owl"
+        "text": "Huge ears detect prey and release heat.",
+        "scene": "Use the strongest ear-movement footage.",
+        "tags": [
+          "ears",
+          "heat"
+        ]
       },
       {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Little_Owl%2CSouth_Hebron.webm",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Little owl"
+        "text": "Families forage together and watch for danger.",
+        "scene": "Show adult and pup.",
+        "tags": [
+          "family"
+        ]
       },
       {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Little_owl_Athene_noctua_at_Nuthurst_West_Sussex_England_10.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Little owl"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Long-eared_owl_in_Central_Park_%2850234%29.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Long-eared owl"
+        "text": "Every strange feature serves insect hunting.",
+        "scene": "Finish on active ears in natural posture.",
+        "tags": [
+          "payoff"
+        ]
       }
     ],
     "min_unique_videos": 6,
@@ -144,368 +965,342 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "caption": "Owls combine directional hearing, fixed eyes, flexible necks, and near-silent wings. 🦉\n\n#Owl #BirdFacts #AnimalFacts #WildlifeTok #NatureFacts #DidYouKnow #WildVox",
-    "revision": "2026-10-06-video-first"
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "The bat-eared fox turned giant ears and dozens of tiny teeth into an insect-hunting system. 🦊\n\n#BatEaredFox #OtocyonMegalotis #AnimalFacts #AfricanWildlife #NatureFacts #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
   },
-  "moon_jelly": {
-    "title": "THIS ANIMAL HAS NO BRAIN OR HEART",
-    "script": "A moon jelly can swim without a brain, a heart, or blood. Its body is mostly water, and a simple nerve net coordinates the pulsing bell while sensory structures track light and orientation. The four horseshoe shapes visible through the transparent body are reproductive organs. Tiny stinging cells on the tentacles capture plankton, although the sting is usually mild for humans. Food moves into a central digestive cavity with only one opening. Even without a central command center, the jelly can sense, feed, move, and react. It is a living reminder that a nervous system does not need a brain to organize behavior.",
+  "new_arequipa_lizard": {
+    "title": "SCIENTISTS JUST SEPARATED A HIDDEN ANDEAN SPECIES",
+    "script": "High in the Peruvian Andes, a small lizard spent years hiding behind the name of a different species. Researchers have now described it as Liolaemus arequipensis, a distinct lineage found in the Arequipa region between roughly 3,774 and 4,818 meters above sea level. At that altitude, cold air holds less oxygen, vegetation is sparse, and shelter can mean a tunnel beneath dense plants or a space under rock. The discovery required more than appearance because these lizards can look frustratingly similar. Scientists combined mitochondrial DNA, nuclear DNA networks, body measurements, scale patterns, and evolutionary relationships. Males and females also show different dorsal markings. The species eats both plants and small arthropods, including spiders and beetles, and it gives birth to live young rather than laying exposed eggs. That last strategy protects development from a brutal mountain climate. The researchers currently recommend Data Deficient status because its true range and population remain uncertain. The final lesson is uncomfortable: an animal can be scientifically invisible even while specimens have been sitting in collections for years.",
     "sources": [
       {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Aurelia_sp._swimming_-_MBA.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Aurelia moon jelly swimming"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Fortbewegung_einer_Ohrenqualle.webm",
+        "type": "image",
+        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g006.png",
         "license": "CC BY 4.0",
-        "assetTitle": "Moon jelly locomotion"
+        "assetTitle": "Liolaemus species comparison",
+        "tags": [
+          "hook",
+          "comparison"
+        ]
       },
       {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Oorkwal_in_een_school_van_duizenden-4931717.webm",
-        "license": "CC BY-SA 3.0 NL",
-        "assetTitle": "Moon jelly aggregation"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/%D0%90%D1%83%D1%80%D0%B5%D0%BB%D0%B8%D1%8F_%D1%83%D1%88%D0%B0%D1%81%D1%82%D0%B0%D1%8F%2C_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B7%D0%BE%D0%BE%D0%BF%D0%B0%D1%80%D0%BA.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Aurelia aurita"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%2C_%D0%B4%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BB%D1%8F%D0%B6%2C_%D0%B0%D1%83%D1%80%D0%B5%D0%BB%D0%B8%D1%8F_%281%29.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Aurelia moon jelly"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9%D1%81%D0%BA%2C_%D0%B4%D0%B8%D0%BA%D0%B8%D0%B9_%D0%BF%D0%BB%D1%8F%D0%B6%2C_%D0%B0%D1%83%D1%80%D0%B5%D0%BB%D0%B8%D1%8F_%282%29.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Aurelia moon jelly"
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/36543987/",
-        "license": "Pexels License",
-        "assetTitle": "Moon jellyfish in aquarium"
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/34748648/",
-        "license": "Pexels License",
-        "assetTitle": "Moon jellyfish gliding"
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/27303010/",
-        "license": "Pexels License",
-        "assetTitle": "Moon jellyfish"
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/11042992/",
-        "license": "Pexels License",
-        "assetTitle": "Jellyfish in blue aquarium"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 30,
-    "max_duration": 45,
-    "caption": "A moon jelly coordinates its entire life without a brain, heart, or blood. 🌙🪼\n\n#MoonJelly #Jellyfish #OceanFacts #AnimalFacts #MarineLife #WildVox",
-    "revision": "2026-10-06-video-first"
-  },
-  "greater_flamingo": {
-    "title": "FLAMINGOS ARE PINK BECAUSE OF THEIR FOOD",
-    "script": "A flamingo is not born bright pink. Pigments called carotenoids enter its body through algae and small crustaceans, then color the feathers as they grow. Its strange bill works upside down. The bird lowers its head, pumps water with the tongue, and traps food against comb-like plates called lamellae. Long legs reach feeding areas that shorter birds cannot use, while webbed feet stir the bottom. The famous one-legged pose may also reduce heat loss by keeping one leg tucked into warm feathers. So the color, bill, legs, and posture all connect to one demanding life in shallow, salty wetlands.",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/044_Greater_flamingo_vocalizing_in_the_Camargue_during_mating_season_%28normal_speed%29_Video_by_Giles_Laurent.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Greater flamingo vocalizing"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/046_Greater_flamingos_courtship_display_in_the_Camargue_during_mating_season_%28normal_speed%29_Video_by_Giles_Laurent.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Greater flamingo courtship"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Greater flamingo"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Greater flamingo"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_5.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Greater flamingo"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_8.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Greater flamingo"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Greater flamingo"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Greater flamingo"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/2022-05-21_IZLIV_SO%C4%8CE_Phoenicopterus_roseus_PLAMENEC.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Greater flamingo"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/2022-05-21_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Greater flamingo"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 30,
-    "max_duration": 45,
-    "caption": "Flamingos turn pink by eating pigments, then filter food with an upside-down bill. 🦩\n\n#Flamingo #BirdFacts #AnimalFacts #NatureFacts #WildlifeTok #WildVox",
-    "revision": "2026-10-06-video-first"
-  },
-  "indian_peafowl": {
-    "title": "A PEACOCK'S COLORS ARE BUILT FROM LIGHT",
-    "script": "A peacock's blue and green shine is not created by ordinary pigment alone. Microscopic structures inside the feathers reflect and interfere with light, producing colors that shift as the viewing angle changes. The enormous train is made from elongated upper tail coverts, not the true tail feathers. Each eye-like marking is called an ocellus. During courtship, the male fans the train, turns it toward a female, and vibrates the feathers so the display shimmers and rattles. Indian peafowl can fly, but they usually escape danger by running and reserve flight for short bursts or reaching a safe roost.",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Pavo_cristatus.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Indian peafowl"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Pavo_cristatus_2.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Indian peafowl"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/A_white_peafowl_walking.webm",
+        "type": "image",
+        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g007.png",
         "license": "CC BY 4.0",
-        "assetTitle": "White Indian peafowl"
+        "assetTitle": "Liolaemus arequipensis morphology",
+        "tags": [
+          "animal",
+          "male"
+        ]
       },
       {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Barata_pavo%2C_anasoj_kaj_kokoj_en_la_animala_rehabilitejo_%22%C4%88e_Lukomorje%22_01.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Indian peafowl"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Indian_peacock_%28Pavo_cristatus%29_displaying_for_peahen.webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Peacock displaying"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Indian_peafowl_%28Pavo_cristatus%29_displaying.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Indian peafowl displaying"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Pavo_cristatus_in_World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Indian peafowl"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Peacock_Courtship_and_Mating_Ritual_in_the_Wild.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Peacock courtship"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Peacock_dance%2C_at_Botanical_Garden_Hyderabad.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Peacock display"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Peacock_walking_and_eating.webm",
-        "license": "CC0",
-        "assetTitle": "Peacock walking"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 30,
-    "max_duration": 45,
-    "caption": "A peacock's shimmering display is a light-bending structure, not simple paint. 🦚\n\n#Peacock #Peafowl #BirdFacts #AnimalFacts #NatureFacts #WildVox",
-    "revision": "2026-10-06-video-first"
-  },
-  "giant_panda": {
-    "title": "A PANDA HAS A SIXTH FINGER THAT ISN'T A FINGER",
-    "script": "A giant panda grips bamboo with something that looks like a thumb, but it is actually an enlarged wrist bone covered by a fleshy pad. This pseudo-thumb presses stalks against the true fingers while powerful jaws crush the fibers. The panda belongs to the order Carnivora and still has a digestive system more like a meat eater's than a specialized herbivore's. Bamboo passes through inefficiently, so the animal spends much of the day eating enormous quantities and resting to conserve energy. Its famous body plan is therefore a collection of compromises: a bear-like ancestor remodeled just enough to survive on a difficult grass.",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/BaoBao_the_Panda_having_a_snack_in_the_snow.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Giant panda Bao Bao"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Chengdu_Research_Base_of_Giant_Panda_Breeding-P1680515_Date_2019-12-27.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Giant panda"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Female_panda_and_cub.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Female giant panda and cub"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Giant_panda_%28Ailuropoda_melanoleuca%29_in_a_zoo.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Giant panda"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Giant panda feeding"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014_-_%281%29.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Giant panda feeding"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Panda_Jia_Jia.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Giant panda Jia Jia"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Panda_at_Smithsonian_zoo.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Giant panda"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Panda_at_the_zoo_in_Beijing_just_chilling.webm",
+        "type": "image",
+        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g008.png",
         "license": "CC BY 4.0",
-        "assetTitle": "Giant panda"
+        "assetTitle": "Liolaemus arequipensis diagnostic traits",
+        "tags": [
+          "scales",
+          "diagnosis"
+        ]
       },
       {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Russia%27s_first_giant_panda_cub_meets_public_in_Moscow.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Giant panda cub"
+        "type": "image",
+        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g009.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "Liolaemus arequipensis color pattern",
+        "tags": [
+          "female",
+          "markings"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g010.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "Female paratypes of Liolaemus arequipensis",
+        "tags": [
+          "paratypes",
+          "specimens"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g011.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "Distribution of Liolaemus arequipensis",
+        "tags": [
+          "map",
+          "range"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://www.mdpi.com/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g012.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "High Andean habitat of Liolaemus arequipensis",
+        "tags": [
+          "habitat",
+          "payoff"
+        ]
       }
     ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 30,
-    "max_duration": 45,
-    "caption": "A panda's extra 'thumb' is really a remodeled wrist bone built to grip bamboo. 🐼\n\n#GiantPanda #PandaFacts #AnimalFacts #WildlifeTok #NatureFacts #WildVox",
-    "revision": "2026-10-06-video-first"
+    "visual_plan": [
+      {
+        "text": "A hidden Andean lizard has been separated from a look-alike.",
+        "scene": "Open on the clearest species plate.",
+        "tags": [
+          "hook"
+        ]
+      },
+      {
+        "text": "It lives between about 3,774 and 4,818 meters.",
+        "scene": "Show the distribution map and mountain context.",
+        "tags": [
+          "map",
+          "range"
+        ]
+      },
+      {
+        "text": "Cold, thin air and sparse shelter shape its life.",
+        "scene": "Use the documented high-Andean habitat.",
+        "tags": [
+          "habitat"
+        ]
+      },
+      {
+        "text": "DNA and morphology were needed to distinguish it.",
+        "scene": "Show the diagnostic comparison figure.",
+        "tags": [
+          "diagnosis",
+          "comparison"
+        ]
+      },
+      {
+        "text": "Males and females carry different dorsal markings.",
+        "scene": "Use male and female plates in sequence.",
+        "tags": [
+          "male",
+          "female"
+        ]
+      },
+      {
+        "text": "It eats plants and arthropods and gives birth to live young.",
+        "scene": "Show whole animals and paratypes.",
+        "tags": [
+          "animal",
+          "paratypes"
+        ]
+      },
+      {
+        "text": "Its population is still uncertain.",
+        "scene": "Finish on habitat to emphasize what remains unknown.",
+        "tags": [
+          "payoff"
+        ]
+      }
+    ],
+    "trend_priority": true,
+    "trend_reason": "Coverage on October 4 highlighted the formal description of Liolaemus arequipensis, a cryptic high-Andean species from southern Peru.",
+    "trend_source_url": "https://www1.folha.uol.com.br/ciencia/2026/10/nova-especie-de-lagarto-e-descoberta-nos-andes-peruanos.shtml",
+    "trend_published_date": "2026-10-04",
+    "trend_exception": {
+      "photo_only_allowed": true,
+      "evidence_url": "https://www.mdpi.com/1424-2818/18/10/588",
+      "evidence_published_date": "2026-09-23",
+      "reason": "No verified reusable video of the new species is available; use only the CC BY 4.0 figures and habitat documentation from the describing paper."
+    },
+    "target_shot_seconds": 8,
+    "max_shot_seconds": 12,
+    "max_freeze_seconds": 0,
+    "min_duration": 60,
+    "max_duration": 75,
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "Liolaemus arequipensis was hiding inside a difficult species complex at nearly 4,800 meters. 🦎🏔️\n\n#NewSpecies #LiolaemusArequipensis #ScienceNews #Biodiversity #Peru #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
   },
-  "meerkat_sentinels": {
-    "title": "MEERKATS RUN A LIVING SECURITY SYSTEM",
-    "script": "In the open deserts of southern Africa, a meerkat group cannot let everyone search for food at the same time. While others dig for insects and small animals, one individual often climbs to a high point and becomes a sentinel. It scans the sky and ground, then gives quiet calls that tell the group the watch is active. If danger appears, the alarm changes with urgency and can trigger an immediate dash for cover. Research shows that some individuals guard more often than others, creating so-called super sentinels. Young meerkats also learn dangerous prey handling gradually. Adults may disable a scorpion before offering it to a pup, then provide more challenging prey as the youngster improves. Dark patches around the eyes help reduce glare while watching the horizon, and long claws turn hard soil into escape tunnels. The result is not one heroic lookout but a cooperative network: food, warning, teaching, and shelter all depend on the group. A single meerkat is alert. A mob of them becomes an organized survival system.",
+  "snow_leopard": {
+    "title": "THE SNOW LEOPARD IS BUILT LIKE A MOUNTAIN GHOST",
+    "script": "A snow leopard survives where a single wrong step can mean a fatal fall. Its broad, fur-covered paws spread weight across snow like natural snowshoes and cushion the feet against sharp rock. Short front legs and powerful longer hind legs launch the cat across broken terrain, while an exceptionally long tail works as a counterbalance during turns and jumps. When the animal rests, that same tail can wrap around the face like a scarf. Thick gray fur and dark rosettes dissolve against stone, shadow, and snow, which is why the species is called the ghost of the mountains. Snow leopards live across high ranges in twelve Asian countries and may climb thousands of meters as prey and seasons shift. Their flexible chest and enlarged nasal passages help with steep, cold environments, but camouflage cannot protect them from disappearing habitat, declining prey, or retaliatory killing after livestock losses. Camera traps identify individuals by unique spot patterns, turning each coat into a fingerprint. The final paradox is perfect: this cat is designed to vanish from sight, so scientists must work even harder to prove where it still survives.",
     "sources": [
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_5.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Meerkat"
+        "url": "https://videos.pexels.com/video-files/35922368/15239729_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow leopard walking in winter",
+        "tags": [
+          "hook",
+          "walking"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_7.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Meerkat"
+        "url": "https://videos.pexels.com/video-files/36832132/15605237_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow leopard resting in snow",
+        "tags": [
+          "fur",
+          "camouflage"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/2023-08-18_ZOO_LJUBLJANA_-_Suricata_suricatta.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Meerkat"
+        "url": "https://videos.pexels.com/video-files/35475945/15029349_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow leopard winter habitat",
+        "tags": [
+          "habitat",
+          "resting"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2023-08-18_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Meerkat"
+        "url": "https://videos.pexels.com/video-files/35475865/15029321_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow leopard on snowy platform",
+        "tags": [
+          "tail",
+          "balance"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Leipzig_-_Zoo_-_Afrika_-_Suricata_suricatta_v_01_ies.webm",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Meerkat"
+        "url": "https://videos.pexels.com/video-files/35475822/15029301_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow leopard in winter",
+        "tags": [
+          "paws",
+          "snow"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Meerkat_%28Suricata_suricatta%29_digging_for_food_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Meerkat digging"
+        "url": "https://videos.pexels.com/video-files/35681378/15121534_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow leopard on platform",
+        "tags": [
+          "terrain",
+          "movement"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Meerkat_%28Suricata_suricatta%29_sentinel_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Meerkat sentinel"
+        "url": "https://videos.pexels.com/video-files/35427150/15010352_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow leopard jumping",
+        "tags": [
+          "jump",
+          "hindlegs"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Meerkat_at_Los_Angeles_Zoo.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Meerkat"
+        "url": "https://videos.pexels.com/video-files/36832099/15605227_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow leopard perched high",
+        "tags": [
+          "climbing",
+          "mountain"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Meerkats_%28Suricata_suricatta%29_gang_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Meerkat group"
+        "url": "https://videos.pexels.com/video-files/35919991/15238614_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow leopard resting",
+        "tags": [
+          "rosettes",
+          "identity"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Suricata_suricatta_in_Tiergarten_Sch%C3%B6nbrunn.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Meerkat"
+        "url": "https://videos.pexels.com/video-files/36481146/15469130_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow leopard rolling in snow",
+        "tags": [
+          "behavior",
+          "payoff"
+        ]
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "One wrong step can be fatal in snow leopard terrain.",
+        "scene": "Open with active movement in snow.",
+        "tags": [
+          "hook"
+        ]
+      },
+      {
+        "text": "Broad furry paws act like snowshoes.",
+        "scene": "Show full paws and body over snow.",
+        "tags": [
+          "paws"
+        ]
+      },
+      {
+        "text": "Powerful hind legs launch the cat.",
+        "scene": "Use the jumping clip.",
+        "tags": [
+          "jump",
+          "hindlegs"
+        ]
+      },
+      {
+        "text": "The long tail balances the body.",
+        "scene": "Show tail extended on a platform.",
+        "tags": [
+          "tail",
+          "balance"
+        ]
+      },
+      {
+        "text": "The tail also becomes a scarf while resting.",
+        "scene": "Cut to a curled resting posture.",
+        "tags": [
+          "resting"
+        ]
+      },
+      {
+        "text": "Rosettes dissolve against rock and snow.",
+        "scene": "Use the strongest camouflage view.",
+        "tags": [
+          "camouflage",
+          "fur"
+        ]
+      },
+      {
+        "text": "The species moves across high Asian mountains.",
+        "scene": "Show elevated terrain and climbing.",
+        "tags": [
+          "mountain",
+          "climbing"
+        ]
+      },
+      {
+        "text": "Spot patterns identify individuals.",
+        "scene": "Hold a clear side profile with rosettes.",
+        "tags": [
+          "rosettes",
+          "identity"
+        ]
+      },
+      {
+        "text": "This mountain ghost is hard to count and protect.",
+        "scene": "Finish on natural behavior in snow.",
+        "tags": [
+          "payoff"
+        ]
       }
     ],
     "min_unique_videos": 8,
@@ -514,72 +1309,189 @@
     "max_freeze_seconds": 1,
     "min_duration": 60,
     "max_duration": 75,
-    "caption": "Meerkats use sentinels, graded alarms, teaching, and shared tunnels as one survival network. 🐾\n\n#Meerkat #AnimalBehavior #WildlifeFacts #NatureFacts #ScienceTok #WildVox",
-    "revision": "2026-10-06-video-first"
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "Every part of the snow leopard is engineered for cold, cliffs, and disappearance. ❄️🐆\n\n#SnowLeopard #PantheraUncia #AnimalAdaptations #WildlifeConservation #NatureFacts #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
   },
-  "humpback_whale": {
-    "title": "HUMPBACK WHALES BUILD NETS FROM BUBBLES",
-    "script": "A humpback whale can hunt with a net made from nothing but air. In cold feeding grounds, one whale may dive beneath a school of fish and release bubbles while swimming in a circle. The rising curtain crowds the prey into a tighter column. Sometimes several whales coordinate their positions and calls, then surge upward together with their mouths open, swallowing fish and seawater before baleen plates strain the meal. This technique is called bubble-net feeding, and different populations use different patterns, suggesting that parts of the behavior spread through social learning. Humpbacks also use their exceptionally long pectoral fins to maneuver and sometimes help corral prey. After the feeding season, many travel thousands of miles toward warmer breeding waters. Adult males produce long, structured songs that change over time and can be repeated for hours. The same animal that erupts from the surface in a breach can also communicate across dark water and cooperate around an invisible trap. The final weapon is not strength alone. It is shared timing: bubbles, sound, and multiple whales turning scattered fish into one concentrated target.",
+  "african_penguin": {
+    "title": "THE AFRICAN PENGUIN HAS A BUILT-IN HEAT WINDOW",
+    "script": "An African penguin lives beside warm, sunlit coasts, not on Antarctic ice. Above each eye is a patch of bare pink skin connected to temperature control. When the bird gets hot, more blood flows through that exposed area and the patch turns a deeper pink as heat escapes. In the ocean, the body switches roles. Dense overlapping feathers trap insulation and resist water, flipper-like wings drive the penguin forward, and heavy bones reduce unwanted buoyancy during dives. Each bird also carries a unique pattern of black spots across the chest, giving researchers a natural identification card. Their braying call explains the old nickname jackass penguin. Colonies crowd beaches and rocky islands along southern Africa, where adults commute to sea for schooling fish and return to mates and chicks. But the system depends on food being close enough. Shifting fish populations, commercial fishing, habitat disturbance, and oil spills have driven steep declines. During an annual catastrophic molt, a penguin replaces all its feathers quickly and cannot feed at sea until the new waterproof coat is ready. The final surprise is that survival depends on both extremes: releasing heat on land, then sealing every feather against cold water minutes later.",
     "sources": [
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/032_Humpback_whale_lobtailing_in_slow_motion_Video_by_Giles_Laurent.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Humpback whale lobtailing"
+        "url": "https://videos.pexels.com/video-files/9140354/9140354-hd_1080_1920_25fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "African penguin close view",
+        "tags": [
+          "hook",
+          "pink-patch"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Aerial_view_of_a_humpback_whale_near_Gordon%27s_Bay%2C_Sydney%2C_Australia_at_24_August_2020.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Humpback whale aerial view"
+        "url": "https://videos.pexels.com/video-files/5592502/5592502-hd_1080_1920_24fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "African penguins walking",
+        "tags": [
+          "walking",
+          "land"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Aerial_view_of_three_humpback_whales_%28Megaptera_novaeangliae%29_near_Cape_Solander%2C_New_South_Wales%2C_Australia.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Three humpback whales"
+        "url": "https://videos.pexels.com/video-files/13458445/13458445-hd_1920_1080_25fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "African penguin colony",
+        "tags": [
+          "colony",
+          "habitat"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Baby_Humpback_Whale_in_Saman%C3%A1%2C_Dominican_Republic.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Humpback whale calf"
+        "url": "https://videos.pexels.com/video-files/9116155/9116155-uhd_2560_1440_25fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "African penguins on beach",
+        "tags": [
+          "beach",
+          "social"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Buckelwal.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Humpback whale"
+        "url": "https://videos.pexels.com/video-files/9116137/9116137-uhd_2560_1440_25fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "African penguin standing",
+        "tags": [
+          "spots",
+          "identity"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Humpback_Whale_by_Drone_Clovelly_and_Coogee_beaches%2C_Sydney%2C_Australia%2C_August_21%2C_2020.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Humpback whale drone view"
+        "url": "https://videos.pexels.com/video-files/13459518/13459518-hd_1920_1080_25fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "African penguin grooming chick",
+        "tags": [
+          "chick",
+          "parenting"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Humpback_whale_Tail_Sailing_behaviour.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Humpback whale tail sailing"
+        "url": "https://videos.pexels.com/video-files/31155260/13311398_1080_1920_60fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "African penguins at Boulders Beach",
+        "tags": [
+          "habitat",
+          "colony"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Humpback_whale_mother_and_calf_south_of_Gerringong_Boat_Harbour%2C_NSW%2C_Australia.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Humpback mother and calf"
+        "url": "https://videos.pexels.com/video-files/9140355/9140355-uhd_2560_1440_25fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "African penguins entering sea",
+        "tags": [
+          "ocean",
+          "swimming"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Humpback_whales_in_Boston.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Humpback whales"
+        "url": "https://videos.pexels.com/video-files/5403934/5403934-hd_1920_1080_24fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "African penguins on shore",
+        "tags": [
+          "shore",
+          "movement"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Humpback_whales_off_The_Shallows_and_Bass_Point_Quarry%2C_Shellharbour%2C_NSW%2C_Australia.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Humpback whales"
+        "url": "https://videos.pexels.com/video-files/29558836/12723650_1920_1080_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "African penguins on sandy beach",
+        "tags": [
+          "conservation",
+          "payoff"
+        ]
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "This penguin lives beside warm African coasts.",
+        "scene": "Open on a clear face and beach context.",
+        "tags": [
+          "hook"
+        ]
+      },
+      {
+        "text": "Pink skin above the eyes releases heat.",
+        "scene": "Use the best close view of the pink patch.",
+        "tags": [
+          "pink-patch"
+        ]
+      },
+      {
+        "text": "Dense feathers and heavy bones transform it underwater.",
+        "scene": "Show penguins entering the sea.",
+        "tags": [
+          "ocean",
+          "swimming"
+        ]
+      },
+      {
+        "text": "Unique chest spots identify individuals.",
+        "scene": "Hold a clear standing profile.",
+        "tags": [
+          "spots",
+          "identity"
+        ]
+      },
+      {
+        "text": "Colonies communicate and raise chicks.",
+        "scene": "Show colony, then parent and chick.",
+        "tags": [
+          "colony",
+          "chick"
+        ]
+      },
+      {
+        "text": "Adults commute for schooling fish.",
+        "scene": "Use walking toward shore and water.",
+        "tags": [
+          "shore",
+          "movement"
+        ]
+      },
+      {
+        "text": "Food shifts and human pressures drive decline.",
+        "scene": "Use a wide colony habitat shot.",
+        "tags": [
+          "conservation",
+          "habitat"
+        ]
+      },
+      {
+        "text": "A catastrophic molt temporarily keeps them ashore.",
+        "scene": "Show grooming or stationary birds.",
+        "tags": [
+          "parenting",
+          "land"
+        ]
+      },
+      {
+        "text": "They release heat on land and seal out cold water.",
+        "scene": "Finish with a wide beach-to-ocean scene.",
+        "tags": [
+          "payoff"
+        ]
       }
     ],
     "min_unique_videos": 8,
@@ -588,72 +1500,190 @@
     "max_freeze_seconds": 1,
     "min_duration": 60,
     "max_duration": 75,
-    "caption": "Humpbacks turn bubbles, sound, and teamwork into a living fishing net. 🐋🫧\n\n#HumpbackWhale #WhaleFacts #OceanFacts #AnimalBehavior #MarineLife #WildVox",
-    "revision": "2026-10-06-video-first"
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "The African penguin must dump heat on shore and become waterproof in cold ocean water. 🐧\n\n#AfricanPenguin #SpheniscusDemersus #BirdFacts #OceanWildlife #Conservation #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
   },
-  "cheetah_biomechanics": {
-    "title": "A CHEETAH TURNS ITS ENTIRE BODY INTO A SPRING",
-    "script": "A cheetah does not win by maintaining top speed for long. It wins through a short mechanical explosion. The spine flexes and extends like a spring, allowing the front and rear legs to spread far apart and lengthen every stride. Semi-retractable claws stay exposed enough to grip the ground like cleats, while specialized paw pads add traction. Large nasal passages, lungs, and a powerful heart move oxygen quickly during the chase. But speed without steering would be useless. The long muscular tail swings like a counterweight, helping the cat change direction while following prey that can cut sharply across the grass. High-set eyes keep the target in view, and dark facial marks may reduce glare. The body pays a cost for this design: the sprint creates enormous heat and cannot last very long. After a kill, the cheetah must recover while larger predators may steal the meal. It also cannot roar like a lion; cheetahs chirp, purr, hiss, and call to one another. The fastest land mammal is therefore not simply a powerful cat. It is a lightweight, flexible racing system built for acceleration, turning, and one brief chance to succeed.",
+  "japanese_macaque": {
+    "title": "HOT-SPRING BATHING IS A MONKEY TRADITION",
+    "script": "Japanese macaques live farther north than any other nonhuman primate, surviving forests where winter snow can pile deep. Thick fur helps, but one famous troop at Jigokudani added something behavioral: hot-spring bathing. Young monkeys began entering warm water, and the habit spread socially through animals that learned it early. It is not a universal instinct shared by every Japanese macaque. At Jigokudani, some individuals may live their entire lives without bathing, while others return during cold weather. That makes the behavior closer to a local tradition than a species-wide reflex. The troop itself is organized through matrilineal relationships and rank. Females usually remain with their birth group, and daughters inherit positions influenced by their mothers. Grooming removes debris, but it also maintains alliances and reduces tension. Their diet changes with seasons, moving among fruit, leaves, bark, seeds, insects, and whatever harsh northern forests provide. Recent research even shows that bathing can alter parts of the monkeys' microbial and parasite environment, meaning culture may influence biology. The most memorable scene is not simply a monkey relaxing like a human. It is a learned solution being preserved by one community across generations.",
     "sources": [
       {
         "type": "video",
-        "url": "https://www.pexels.com/download/video/39157028/",
+        "url": "https://videos.pexels.com/video-files/17621614/17621614-uhd_1440_2560_30fps.mp4",
         "license": "Pexels License",
-        "assetTitle": "Cheetah strolling in African savanna"
+        "assetTitle": "Japanese snow monkey",
+        "tags": [
+          "hook",
+          "snow"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cheetah_%28Acinonyx_jubatus%29_collared_female_on_the_road_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Collared female cheetah"
+        "url": "https://videos.pexels.com/video-files/35101120/14870530_2560_1440_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Japanese macaques interacting",
+        "tags": [
+          "social",
+          "troop"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cheetah_%28Acinonyx_jubatus%29_crossing_the_road.webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Cheetah crossing"
+        "url": "https://videos.pexels.com/video-files/17621619/17621619-uhd_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow monkey in winter",
+        "tags": [
+          "winter",
+          "fur"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Cheetah_%28Acinonyx_jubatus%29_cub_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Cheetah cub"
+        "url": "https://videos.pexels.com/video-files/17608461/17608461-uhd_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Japanese macaque near hot spring",
+        "tags": [
+          "hot-spring",
+          "bathing"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Cheetah_%28Acinonyx_jubatus%29_female_calling_cubs_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Female cheetah calling"
+        "url": "https://videos.pexels.com/video-files/17623715/17623715-uhd_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Japanese macaque behavior",
+        "tags": [
+          "learning",
+          "behavior"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Cheetah_%28Acinonyx_jubatus%29_juvenile_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Juvenile cheetah"
+        "url": "https://videos.pexels.com/video-files/17583806/17583806-uhd_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow monkey grooming",
+        "tags": [
+          "grooming",
+          "alliance"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Cheetah_%28Acinonyx_jubatus%29_male_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Male cheetah"
+        "url": "https://videos.pexels.com/video-files/37605967/15939186_1080_1920_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Japanese macaque in snow",
+        "tags": [
+          "cold",
+          "adaptation"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Cheetah_%28Acinonyx_jubatus%29_male_dragging_its_prey%2C_a_male_springbok_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Cheetah with prey"
+        "url": "https://videos.pexels.com/video-files/17583809/17583809-uhd_2560_1440_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Snow monkey close behavior",
+        "tags": [
+          "rank",
+          "face"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Cheetah_%28Acinonyx_jubatus%29_purring_and_calling_its_brother.webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Cheetah vocalizing"
+        "url": "https://videos.pexels.com/video-files/17621620/17621620-uhd_1440_2560_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Japanese macaque troop member",
+        "tags": [
+          "troop",
+          "culture"
+        ]
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Cheetah_%28Acinonyx_jubatus%29_purring_and_calling_its_brother_from_a_road_marker.webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Cheetah calling"
+        "url": "https://videos.pexels.com/video-files/35101163/14870536_2560_1440_30fps.mp4",
+        "license": "Pexels License",
+        "assetTitle": "Japanese macaques in autumn tree",
+        "tags": [
+          "forest",
+          "payoff"
+        ]
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "Japanese macaques survive farther north than any other nonhuman primate.",
+        "scene": "Open on a monkey surrounded by snow.",
+        "tags": [
+          "hook"
+        ]
+      },
+      {
+        "text": "A Jigokudani troop developed hot-spring bathing.",
+        "scene": "Use the clearest bathing scene.",
+        "tags": [
+          "hot-spring",
+          "bathing"
+        ]
+      },
+      {
+        "text": "Young monkeys learn the habit socially.",
+        "scene": "Show interaction and observation.",
+        "tags": [
+          "learning",
+          "social"
+        ]
+      },
+      {
+        "text": "Not every macaque or even every troop bathes.",
+        "scene": "Contrast a dry snow scene.",
+        "tags": [
+          "winter",
+          "cold"
+        ]
+      },
+      {
+        "text": "The troop follows matrilineal rank.",
+        "scene": "Show several visible troop members.",
+        "tags": [
+          "troop",
+          "rank"
+        ]
+      },
+      {
+        "text": "Grooming maintains alliances.",
+        "scene": "Use unmistakable grooming behavior.",
+        "tags": [
+          "grooming",
+          "alliance"
+        ]
+      },
+      {
+        "text": "Their diet and movement change with seasons.",
+        "scene": "Shift to a forest or autumn setting.",
+        "tags": [
+          "forest"
+        ]
+      },
+      {
+        "text": "Bathing can influence microbes and parasites.",
+        "scene": "Use calm soaking or close observation.",
+        "tags": [
+          "behavior",
+          "face"
+        ]
+      },
+      {
+        "text": "This is a community tradition preserved across generations.",
+        "scene": "Finish on the troop together.",
+        "tags": [
+          "payoff",
+          "culture"
+        ]
       }
     ],
     "min_unique_videos": 8,
@@ -662,81 +1692,13 @@
     "max_freeze_seconds": 1,
     "min_duration": 60,
     "max_duration": 75,
-    "caption": "A cheetah's spine, claws, lungs, and tail become one short-burst racing machine. 🐆💨\n\n#Cheetah #AnimalFacts #Biomechanics #WildlifeTok #NatureFacts #WildVox",
-    "revision": "2026-10-06-video-first-source-fix"
-  },
-  "giraffe_pressure": {
-    "title": "A GIRAFFE'S HEART FIGHTS GRAVITY EVERY SECOND",
-    "script": "A giraffe's head may rise several meters above its heart, so sending blood to the brain requires exceptional pressure. The heart has a thick muscular wall, and the circulatory system maintains blood pressure far above typical human levels. But drinking creates the opposite problem. When the giraffe spreads its front legs and lowers the head, gravity could drive too much blood toward the brain. Valves, elastic vessels, and pressure-regulating structures help control that sudden shift. Tight skin and connective tissue around the lower legs also act like natural compression garments, limiting fluid buildup. The neck itself still contains only seven cervical vertebrae, the same basic number found in most mammals, but each bone is dramatically elongated. Even the feeding equipment is specialized: a long, prehensile tongue wraps around branches and helps pull leaves from thorny trees. Then the animal has to raise its head again without fainting. A giraffe looks calm because the engineering is hidden. Every drink, every lifted head, and every step depends on a cardiovascular system continuously correcting for height and gravity.",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Giraffe"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA_2.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Giraffe"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Giraffa_camelopardalis_in_Skopje_Zoo_2015.webmhd.webm",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Giraffe"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Giraffe_%28Giraffa_camelopardalis%29_male_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Male giraffe"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Giraffes_%28Giraffa_camelopardalis%29_in_zoo.webm",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Giraffes"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Leipzig_-_Zoo_-_Afrika_-_Giraffa_camelopardalis_rothschildi_v_01_ies.webm",
-        "license": "CC BY-SA 3.0",
-        "assetTitle": "Rothschild giraffe"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Uganda-Giraffe_%28Giraffa_camelopardalis_rothschildi%29%2C_mit_unterschiedlicher_Fleckenzeichnung_im_Lake_Mburo_Nationalpark_in_Uganda.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Uganda giraffe"
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/5220242/",
-        "license": "Pexels License",
-        "assetTitle": "Giraffe walking in the wilderness"
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/34428368/",
-        "license": "Pexels License",
-        "assetTitle": "Giraffe strolling in open savanna"
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/37970976/",
-        "license": "Pexels License",
-        "assetTitle": "Giraffes grazing in open savanna"
-      }
-    ],
-    "min_unique_videos": 8,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 60,
-    "max_duration": 75,
-    "caption": "A giraffe survives its own height with high pressure, valves, elastic vessels, and natural compression. 🦒\n\n#Giraffe #AnimalFacts #Biology #WildlifeTok #NatureFacts #WildVox",
-    "revision": "2026-10-06-video-first-source-fix"
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "For one Japanese macaque community, hot-spring bathing is learned culture, not a universal instinct. ♨️🐒\n\n#JapaneseMacaque #SnowMonkey #AnimalCulture #PrimateFacts #Wildlife #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
   }
 }
