@@ -1,0 +1,118 @@
+{
+  "key": "african_penguin",
+  "title": "THE AFRICAN PENGUIN HAS A BUILT-IN HEAT WINDOW",
+  "caption": "The African penguin must dump heat on shore and become waterproof in cold ocean water. 🐧\n\n#AfricanPenguin #SpheniscusDemersus #BirdFacts #OceanWildlife #Conservation #WildVox",
+  "duration": 71.35,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/9140354/9140354-hd_1080_1920_25fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "African penguin close view",
+      "tags": [
+        "pink-patch"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/5592502/5592502-hd_1080_1920_24fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "African penguins walking",
+      "tags": [
+        "walking",
+        "land"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/13458445/13458445-hd_1920_1080_25fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "African penguin colony",
+      "tags": [
+        "colony",
+        "habitat"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/9116155/9116155-uhd_2560_1440_25fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "African penguins on beach",
+      "tags": [
+        "hook",
+        "beach",
+        "social"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/9116137/9116137-uhd_2560_1440_25fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "African penguin standing",
+      "tags": [
+        "spots",
+        "identity"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/13459518/13459518-hd_1920_1080_25fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "African penguin grooming chick",
+      "tags": [
+        "chick",
+        "parenting"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/31155260/13311398_1080_1920_60fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "African penguins at Boulders Beach",
+      "tags": [
+        "habitat",
+        "colony"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/9140355/9140355-uhd_2560_1440_25fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "African penguins entering sea",
+      "tags": [
+        "ocean",
+        "swimming"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/5403934/5403934-hd_1920_1080_24fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "African penguins on shore",
+      "tags": [
+        "shore",
+        "movement"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/29558836/12723650_1920_1080_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "African penguins on sandy beach",
+      "tags": [
+        "conservation",
+        "payoff"
+      ]
+    }
+  ],
+  "review_sheet": "african_penguin_review.jpg",
+  "music": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+    "license": "CC BY 4.0",
+    "gain_db": -24
+  },
+  "trend_exception": null
+}
