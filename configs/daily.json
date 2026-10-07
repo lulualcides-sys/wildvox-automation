@@ -1566,16 +1566,6 @@
       },
       {
         "type": "video",
-        "url": "https://videos.pexels.com/video-files/17583806/17583806-uhd_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow monkey grooming",
-        "tags": [
-          "grooming",
-          "alliance"
-        ]
-      },
-      {
-        "type": "video",
         "url": "https://videos.pexels.com/video-files/37605967/15939186_1080_1920_30fps.mp4",
         "license": "Pexels License",
         "assetTitle": "Japanese macaque in snow",
@@ -1623,6 +1613,18 @@
           "forest",
           "resting",
           "habitat"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://images.pexels.com/photos/35339578/pexels-photo-35339578.jpeg?auto=compress&cs=tinysrgb&w=1920",
+        "source_page": "https://www.pexels.com/photo/japanese-macaques-grooming-in-kyoto-park-35339578/",
+        "license": "Pexels License",
+        "assetTitle": "Japanese macaques grooming in Kyoto",
+        "tags": [
+          "grooming",
+          "alliance",
+          "social"
         ]
       }
     ],
