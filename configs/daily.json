@@ -1016,7 +1016,8 @@
         "assetTitle": "Liolaemus arequipensis color pattern",
         "tags": [
           "female",
-          "markings"
+          "markings",
+          "payoff"
         ]
       },
       {
@@ -1099,9 +1100,10 @@
       },
       {
         "text": "Its population is still uncertain.",
-        "scene": "Finish on habitat to emphasize what remains unknown.",
+        "scene": "Finish on a clear exact-species plate to emphasize how easily it was overlooked.",
         "tags": [
-          "payoff"
+          "payoff",
+          "female"
         ]
       }
     ],
@@ -1536,12 +1538,14 @@
       },
       {
         "type": "video",
-        "url": "https://videos.pexels.com/video-files/17621619/17621619-uhd_1440_2560_30fps.mp4",
+        "url": "https://www.pexels.com/download/video/17608456/",
+        "source_page": "https://www.pexels.com/video/snow-monkey-japan-2-17608456/",
         "license": "Pexels License",
-        "assetTitle": "Snow monkey in winter",
+        "assetTitle": "Japanese macaques sharing a winter hot spring",
         "tags": [
-          "winter",
-          "fur"
+          "learning",
+          "social",
+          "hot-spring"
         ]
       },
       {
