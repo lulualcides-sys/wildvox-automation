@@ -1,14 +1,17 @@
-name: WildVox Daily 10
+name: WildVox Daily 5
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "configs/daily.json"
+  schedule:
+    # GitHub cron is UTC. 08:30 UTC = 05:30 America/Sao_Paulo.
+    - cron: "30 8 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: wildvox-daily-5
+  cancel-in-progress: true
 
 jobs:
   prepare:
@@ -20,7 +23,23 @@ jobs:
       - id: matrix
         shell: bash
         run: |
-          animals=$(jq -c 'keys' configs/daily.json)
+          set -euo pipefail
+
+          # Publish exactly five candidates per day. Trend-priority entries come
+          # first; remaining slots preserve the order in configs/daily.json.
+          animals=$(jq -c '
+            ([to_entries[] | select(.value.trend_priority == true)] +
+             [to_entries[] | select(.value.trend_priority != true)])
+            | .[:5]
+            | map(.key)
+          ' configs/daily.json)
+
+          count=$(jq 'length' <<<"$animals")
+          if [ "$count" -ne 5 ]; then
+            echo "Expected exactly 5 WildVox candidates, found $count." >&2
+            exit 1
+          fi
+
           echo "animals=$animals" >> "$GITHUB_OUTPUT"
 
   render:
