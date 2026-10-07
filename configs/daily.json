@@ -405,7 +405,8 @@
         "assetTitle": "Red panda walking on log",
         "tags": [
           "walking",
-          "balance"
+          "balance",
+          "paws"
         ]
       },
       {
@@ -976,7 +977,7 @@
   },
   "new_arequipa_lizard": {
     "title": "SCIENTISTS JUST SEPARATED A HIDDEN ANDEAN SPECIES",
-    "script": "High in the Peruvian Andes, a small lizard spent years hiding behind the name of a different species. Researchers have now described it as Liolaemus arequipensis, a distinct lineage found in the Arequipa region between roughly 3,774 and 4,818 meters above sea level. At that altitude, cold air holds less oxygen, vegetation is sparse, and shelter can mean a tunnel beneath dense plants or a space under rock. The discovery required more than appearance because these lizards can look frustratingly similar. Scientists combined mitochondrial DNA, nuclear DNA networks, body measurements, scale patterns, and evolutionary relationships. Males and females also show different dorsal markings. The species eats both plants and small arthropods, including spiders and beetles, and it gives birth to live young rather than laying exposed eggs. That last strategy protects development from a brutal mountain climate. The researchers currently recommend Data Deficient status because its true range and population remain uncertain. The final lesson is uncomfortable: an animal can be scientifically invisible even while specimens have been sitting in collections for years.",
+    "script": "High in the Peruvian Andes, a small lizard spent years hiding under another species' name. Researchers have now described Liolaemus arequipensis, a distinct lineage found in Arequipa between roughly 3,774 and 4,818 meters above sea level. There, cold air holds less oxygen, vegetation is sparse, and shelter may be a tunnel beneath plants or a space under rock. The discovery required more than appearance because these lizards look similar. Scientists combined mitochondrial and nuclear DNA, body measurements, scale patterns, and evolutionary relationships. Males and females also show different back markings. The species eats plants and small arthropods, including spiders and beetles, and gives birth to live young instead of laying exposed eggs. That strategy protects development from the mountain climate. Researchers recommend Data Deficient status because its range and population remain uncertain. The final lesson is uncomfortable: an animal can be scientifically invisible even while specimens have sat in collections for years.",
     "sources": [
       {
         "type": "image",
