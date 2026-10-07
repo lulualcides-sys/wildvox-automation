@@ -1,0 +1,133 @@
+{
+  "key": "japanese_macaque",
+  "title": "HOT-SPRING BATHING IS A MONKEY TRADITION",
+  "caption": "For one Japanese macaque community, hot-spring bathing is learned culture, not a universal instinct. ♨️🐒\n\n#JapaneseMacaque #SnowMonkey #AnimalCulture #PrimateFacts #Wildlife #WildVox",
+  "duration": 66.88,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/17621614/17621614-uhd_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Japanese snow monkey",
+      "tags": [
+        "hook",
+        "snow"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35101120/14870530_2560_1440_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Japanese macaques interacting",
+      "tags": [
+        "social",
+        "troop"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/17608456/",
+      "source_page": "https://www.pexels.com/video/snow-monkey-japan-2-17608456/",
+      "license": "Pexels License",
+      "assetTitle": "Japanese macaques sharing a winter hot spring",
+      "tags": [
+        "learning",
+        "social",
+        "hot-spring"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/17608461/17608461-uhd_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Japanese macaque near hot spring",
+      "tags": [
+        "hot-spring",
+        "bathing"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/17623715/17623715-uhd_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Japanese macaque behavior",
+      "tags": [
+        "learning",
+        "behavior"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/37605967/15939186_1080_1920_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Japanese macaque in snow",
+      "tags": [
+        "cold",
+        "adaptation"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/17583809/17583809-uhd_2560_1440_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow monkey close behavior",
+      "tags": [
+        "rank",
+        "face"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/17621620/17621620-uhd_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Japanese macaque troop member",
+      "tags": [
+        "troop",
+        "culture"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35101163/14870536_2560_1440_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Japanese macaques in autumn tree",
+      "tags": [
+        "forest",
+        "payoff"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/35101028/",
+      "license": "Pexels License",
+      "assetTitle": "Japanese macaque resting on a mountain path",
+      "tags": [
+        "forest",
+        "resting",
+        "habitat"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://images.pexels.com/photos/35339578/pexels-photo-35339578.jpeg?auto=compress&cs=tinysrgb&w=1920",
+      "source_page": "https://www.pexels.com/photo/japanese-macaques-grooming-in-kyoto-park-35339578/",
+      "license": "Pexels License",
+      "assetTitle": "Japanese macaques grooming in Kyoto",
+      "tags": [
+        "grooming",
+        "alliance",
+        "social"
+      ]
+    }
+  ],
+  "review_sheet": "japanese_macaque_review.jpg",
+  "music": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+    "license": "CC BY 4.0",
+    "gain_db": -24
+  },
+  "trend_exception": null
+}

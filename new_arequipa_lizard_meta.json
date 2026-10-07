@@ -1,0 +1,94 @@
+{
+  "key": "new_arequipa_lizard",
+  "title": "SCIENTISTS JUST SEPARATED A HIDDEN ANDEAN SPECIES",
+  "caption": "Liolaemus arequipensis was hiding inside a difficult species complex at nearly 4,800 meters. 🦎🏔️\n\n#NewSpecies #LiolaemusArequipensis #ScienceNews #Biodiversity #Peru #WildVox",
+  "duration": 71.85,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "image",
+      "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g006.png",
+      "license": "CC BY 4.0",
+      "assetTitle": "Liolaemus species comparison",
+      "tags": [
+        "hook",
+        "comparison"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g007.png",
+      "license": "CC BY 4.0",
+      "assetTitle": "Liolaemus arequipensis morphology",
+      "tags": [
+        "animal",
+        "male"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g008.png",
+      "license": "CC BY 4.0",
+      "assetTitle": "Liolaemus arequipensis diagnostic traits",
+      "tags": [
+        "scales",
+        "diagnosis"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g009.png",
+      "license": "CC BY 4.0",
+      "assetTitle": "Liolaemus arequipensis color pattern",
+      "tags": [
+        "female",
+        "markings",
+        "payoff"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g010.png",
+      "license": "CC BY 4.0",
+      "assetTitle": "Female paratypes of Liolaemus arequipensis",
+      "tags": [
+        "paratypes",
+        "specimens"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g011.png",
+      "license": "CC BY 4.0",
+      "assetTitle": "Distribution of Liolaemus arequipensis",
+      "tags": [
+        "map",
+        "range"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g012.png",
+      "license": "CC BY 4.0",
+      "assetTitle": "High Andean habitat of Liolaemus arequipensis",
+      "tags": [
+        "habitat",
+        "payoff"
+      ]
+    }
+  ],
+  "review_sheet": "new_arequipa_lizard_review.jpg",
+  "music": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+    "license": "CC BY 4.0",
+    "gain_db": -24
+  },
+  "trend_exception": {
+    "photo_only_allowed": true,
+    "evidence_url": "https://www.mdpi.com/1424-2818/18/10/588",
+    "evidence_published_date": "2026-09-23",
+    "reason": "No verified reusable video of the new species is available; use only the CC BY 4.0 figures and habitat documentation from the describing paper."
+  }
+}
