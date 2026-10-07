@@ -1,6 +1,11 @@
-name: WildVox Daily 5
+name: WildVox Daily 10
 
 on:
+  push:
+    paths:
+      - "configs/daily.json"
+      - "scripts/generate_video.py"
+      - ".github/workflows/wildvox-daily.yml"
   schedule:
     # GitHub cron is UTC. 08:30 UTC = 05:30 America/Sao_Paulo.
     - cron: "30 8 * * *"
@@ -10,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: wildvox-daily-5
+  group: wildvox-daily-10
   cancel-in-progress: true
 
 jobs:
@@ -25,18 +30,17 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Publish exactly five candidates per day. Trend-priority entries come
-          # first; remaining slots preserve the order in configs/daily.json.
+          # Render the full daily batch. Trend-priority entries come first;
+          # remaining slots preserve the order in configs/daily.json.
           animals=$(jq -c '
             ([to_entries[] | select(.value.trend_priority == true)] +
              [to_entries[] | select(.value.trend_priority != true)])
-            | .[:5]
             | map(.key)
           ' configs/daily.json)
 
           count=$(jq 'length' <<<"$animals")
-          if [ "$count" -ne 5 ]; then
-            echo "Expected exactly 5 WildVox candidates, found $count." >&2
+          if [ "$count" -ne 10 ]; then
+            echo "Expected exactly 10 WildVox candidates, found $count." >&2
             exit 1
           fi
 
@@ -106,8 +110,7 @@ jobs:
           cp /tmp/wildvox-public/* /tmp/wildvox-media-branch/
 
           # The canonical published media location is the ROOT of the media branch.
-          # Remove obsolete legacy copies that previously lived under public/ so
-          # monitoring/publishing cannot accidentally pick them up again.
+          # Remove obsolete legacy copies so monitoring cannot reuse them.
           rm -f /tmp/wildvox-media-branch/public/frog.mp4
           rm -f /tmp/wildvox-media-branch/public/frog_meta.json
           rm -f /tmp/wildvox-media-branch/public/frog_review.jpg
