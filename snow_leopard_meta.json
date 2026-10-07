@@ -1,0 +1,118 @@
+{
+  "key": "snow_leopard",
+  "title": "THE SNOW LEOPARD IS BUILT LIKE A MOUNTAIN GHOST",
+  "caption": "Every part of the snow leopard is engineered for cold, cliffs, and disappearance. ❄️🐆\n\n#SnowLeopard #PantheraUncia #AnimalAdaptations #WildlifeConservation #NatureFacts #WildVox",
+  "duration": 73.33,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35922368/15239729_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow leopard walking in winter",
+      "tags": [
+        "hook",
+        "walking"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/36832132/15605237_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow leopard resting in snow",
+      "tags": [
+        "fur",
+        "camouflage"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35475945/15029349_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow leopard winter habitat",
+      "tags": [
+        "habitat",
+        "resting"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35475865/15029321_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow leopard on snowy platform",
+      "tags": [
+        "tail",
+        "balance"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35475822/15029301_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow leopard in winter",
+      "tags": [
+        "paws",
+        "snow"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35681378/15121534_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow leopard on platform",
+      "tags": [
+        "terrain",
+        "movement"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35427150/15010352_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow leopard jumping",
+      "tags": [
+        "jump",
+        "hindlegs"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/36832099/15605227_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow leopard perched high",
+      "tags": [
+        "climbing",
+        "mountain"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/35919991/15238614_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow leopard resting",
+      "tags": [
+        "rosettes",
+        "identity"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/36481146/15469130_1440_2560_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Snow leopard rolling in snow",
+      "tags": [
+        "behavior",
+        "payoff"
+      ]
+    }
+  ],
+  "review_sheet": "snow_leopard_review.jpg",
+  "music": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+    "license": "CC BY 4.0",
+    "gain_db": -24
+  },
+  "trend_exception": null
+}

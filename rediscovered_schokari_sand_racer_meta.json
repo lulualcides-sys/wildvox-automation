@@ -1,0 +1,104 @@
+{
+  "key": "rediscovered_schokari_sand_racer",
+  "title": "THIS SNAKE RETURNED AFTER 154 YEARS",
+  "caption": "A snake missing from Kutch's confirmed record for 154 years was hiding in plain sight. 🐍\n\n#SandSnake #Rediscovery #WildlifeNews #ReptileFacts #Biodiversity #WildVox",
+  "duration": 43.92,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Psammophis_schokari.jpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Afro-Asian sand snake portrait",
+      "tags": [
+        "hook",
+        "animal",
+        "head"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Psammophis_schokari01.jpg",
+      "license": "CC BY-SA 2.5",
+      "assetTitle": "Schokari sand racer full body",
+      "tags": [
+        "body",
+        "identification"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Psammophis_schokari02.jpg",
+      "license": "CC BY-SA 2.5",
+      "assetTitle": "Schokari sand racer in dry habitat",
+      "tags": [
+        "habitat",
+        "camouflage"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Psammophis_schokari_%281%29.JPG",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Psammophis schokari field photograph",
+      "tags": [
+        "field",
+        "movement"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Psammophis_schokari_%282%29.JPG",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Psammophis schokari detail",
+      "tags": [
+        "scales",
+        "identification"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Psammophis_schokari_%283%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Psammophis schokari natural posture",
+      "tags": [
+        "behavior",
+        "hunter"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Psammophis_schokari_259948779.jpg",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Schokari sand racer on substrate",
+      "tags": [
+        "dryland",
+        "payoff"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Psammophis_schokari_distribution.png",
+      "license": "CC BY-SA 3.0",
+      "assetTitle": "Afro-Asian sand snake range map",
+      "tags": [
+        "range",
+        "map"
+      ]
+    }
+  ],
+  "review_sheet": "rediscovered_schokari_sand_racer_review.jpg",
+  "music": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+    "license": "CC BY 4.0",
+    "gain_db": -24
+  },
+  "trend_exception": {
+    "photo_only_allowed": true,
+    "evidence_url": "https://indianexpress.com/article/cities/ahmedabad/kutch-afro-asian-sand-snake-sighting-gujarat-wildlife-10899757/",
+    "evidence_published_date": "2026-09-30",
+    "reason": "Authentic footage of the current Kutch sighting is not openly licensed; use only licensed exact-species photographs and a verified range map."
+  }
+}

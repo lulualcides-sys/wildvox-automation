@@ -1,0 +1,121 @@
+{
+  "key": "mexican_axolotl",
+  "title": "THE AXOLOTL REBUILDS BODY PARTS WITHOUT SCARS",
+  "caption": "The axolotl can rebuild complex tissues, yet its last wild home is under severe pressure. 🦎\n\n#Axolotl #AmbystomaMexicanum #AnimalFacts #Regeneration #Conservation #WildVox",
+  "duration": 41.9,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/8838030/8838030-hd_1080_1920_24fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Axolotl swimming",
+      "tags": [
+        "hook",
+        "swimming",
+        "gills"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/8838032/8838032-hd_1920_1080_24fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Axolotl among aquarium rocks",
+      "tags": [
+        "body",
+        "aquatic"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/11284501/11284501-uhd_2560_1440_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Axolotl close observation",
+      "tags": [
+        "head",
+        "gills"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/2023-08-18_ZOO_LJUBLJANA_Ambystoma_mexicanum_%28Mehi%C5%A1ki_pre%C4%8Dnozobec%29_MEHI%C5%A0KI_AKSOLOTL.webm",
+      "license": "CC BY 3.0",
+      "assetTitle": "Mexican axolotl swimming",
+      "tags": [
+        "movement",
+        "whole-body"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Ambystoma_mexicanum.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Ambystoma mexicanum",
+      "tags": [
+        "wild-type",
+        "dark-form"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Axolote_leucisitico_juvenil_Ambystoma_Mexicanum_con_branquias_rojas_y_carnosas.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Leucistic juvenile axolotl",
+      "tags": [
+        "juvenile",
+        "gills"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Axolotl_%28Ambystoma_mexicanum%29.webm",
+      "license": "CC BY 2.0",
+      "assetTitle": "Axolotl underwater",
+      "tags": [
+        "aquatic",
+        "behavior"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Axolotl_%28Tierpark_Zittau%29.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Axolotl at Tierpark Zittau",
+      "tags": [
+        "habitat",
+        "movement"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Flujo_sangu%C3%ADneo_en_branquias_de_larvas_de_axolote_ambystoma_mexicanum.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Blood flow in axolotl gills",
+      "tags": [
+        "science",
+        "gills",
+        "circulation"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Time_lapse_embryonic_development_of_axolotl_egg_Ambystoma_mexycanum.webm",
+      "license": "CC BY-SA 4.0",
+      "assetTitle": "Axolotl embryonic development",
+      "tags": [
+        "embryo",
+        "development",
+        "payoff"
+      ]
+    }
+  ],
+  "review_sheet": "mexican_axolotl_review.jpg",
+  "music": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+    "license": "CC BY 4.0",
+    "gain_db": -24
+  },
+  "trend_exception": null
+}

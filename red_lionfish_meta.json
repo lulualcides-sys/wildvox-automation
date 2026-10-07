@@ -1,64 +1,119 @@
 {
   "key": "red_lionfish",
-  "title": "BEAUTIFUL FINS HIDE EIGHTEEN VENOMOUS SPINES",
-  "caption": "The lionfish's beauty hides eighteen venomous spines—and an invasive superpredator. 🐠⚠️\n\n#Lionfish #OceanFacts #InvasiveSpecies #AnimalFacts #MarineLife #WildlifeTok #WildVox",
-  "duration": 38.45,
+  "title": "THESE BEAUTIFUL FINS HIDE 18 VENOMOUS SPINES",
+  "caption": "The lionfish's beauty is part camouflage, part hunting tool, and part warning. 🐠\n\n#Lionfish #PteroisVolitans #OceanFacts #InvasiveSpecies #MarineLife #WildVox",
+  "duration": 40.05,
   "voice": "am_michael",
   "speed": 1.08,
   "sources": [
     {
-      "type": "image",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Common_lion_fish_Pterois_volitans.jpg",
-      "license": "CC BY 3.0",
-      "assetTitle": "Pterois volitans"
+      "type": "video",
+      "url": "https://videos.pexels.com/video-files/10106695/10106695-hd_1920_1080_30fps.mp4",
+      "license": "Pexels License",
+      "assetTitle": "Lionfish underwater",
+      "tags": [
+        "hook",
+        "fins",
+        "spines"
+      ]
     },
     {
-      "type": "image",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Common_lionfish_at_Shaab_El_Erg_reef.JPG",
-      "license": "CC BY-SA 3.0",
-      "assetTitle": "Pterois volitans"
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/31824851/",
+      "license": "Pexels License",
+      "assetTitle": "Lionfish on coral reef",
+      "tags": [
+        "reef",
+        "habitat"
+      ]
     },
     {
-      "type": "image",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Pazifischer_Rotfeuerfisch_-_Red_lionfish_-_Pterois_volitans.jpg",
-      "license": "CC BY-SA 4.0",
-      "assetTitle": "Pterois volitans"
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/27302855/",
+      "license": "Pexels License",
+      "assetTitle": "Lionfish swimming in aquarium",
+      "tags": [
+        "movement",
+        "stripes"
+      ]
     },
     {
-      "type": "image",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Pez_le%C3%B3n_colorado_%28Pterois_volitans%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_139.jpg",
-      "license": "CC BY-SA 4.0",
-      "assetTitle": "Pterois volitans"
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/10020447/",
+      "license": "Pexels License",
+      "assetTitle": "Lionfish with water plants",
+      "tags": [
+        "fins",
+        "camouflage"
+      ]
     },
     {
-      "type": "image",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pez_le%C3%B3n_colorado_%28Pterois_volitans%29%2C_Anilao%2C_Filipinas%2C_2023-08-21%2C_DD_140.jpg",
-      "license": "CC BY-SA 4.0",
-      "assetTitle": "Pterois volitans"
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/3765023/",
+      "license": "Pexels License",
+      "assetTitle": "Lionfish in aquarium habitat",
+      "tags": [
+        "body",
+        "spines"
+      ]
     },
     {
-      "type": "image",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Pterois-volitans-aquarium-Donostia.jpg",
-      "license": "CC BY-SA 4.0",
-      "assetTitle": "Pterois volitans"
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/35819740/",
+      "license": "Pexels License",
+      "assetTitle": "Lionfish through coral reef",
+      "tags": [
+        "reef",
+        "hunting"
+      ]
     },
     {
-      "type": "image",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Pterois_volitans_-_Wilhelma_01.jpg",
-      "license": "CC BY-SA 3.0",
-      "assetTitle": "Pterois volitans"
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/10068515/",
+      "license": "Pexels License",
+      "assetTitle": "Striped lionfish swimming",
+      "tags": [
+        "stripes",
+        "movement"
+      ]
     },
     {
-      "type": "image",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Pterois_volitans_060417w.jpg",
-      "license": "CC BY-SA 3.0",
-      "assetTitle": "Pterois volitans"
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/34315573/",
+      "license": "Pexels License",
+      "assetTitle": "Lionfish swimming gracefully",
+      "tags": [
+        "fins",
+        "approach"
+      ]
     },
     {
-      "type": "image",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Pterois_volitans_365263233.jpg",
-      "license": "CC BY 4.0",
-      "assetTitle": "Pterois volitans"
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/18900188/",
+      "license": "Pexels License",
+      "assetTitle": "Lionfish side profile",
+      "tags": [
+        "mouth",
+        "predator"
+      ]
+    },
+    {
+      "type": "video",
+      "url": "https://www.pexels.com/download/video/37450444/",
+      "license": "Pexels License",
+      "assetTitle": "Lionfish in pristine reef",
+      "tags": [
+        "impact",
+        "payoff"
+      ]
     }
-  ]
+  ],
+  "review_sheet": "red_lionfish_review.jpg",
+  "music": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+    "license": "CC BY 4.0",
+    "gain_db": -24
+  },
+  "trend_exception": null
 }
