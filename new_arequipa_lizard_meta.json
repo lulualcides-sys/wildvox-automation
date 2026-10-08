@@ -79,12 +79,7 @@
     }
   ],
   "review_sheet": "new_arequipa_lizard_review.jpg",
-  "music": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
-    "license": "CC BY 4.0",
-    "gain_db": -24
-  },
+  "music": null,
   "trend_exception": {
     "photo_only_allowed": true,
     "evidence_url": "https://www.mdpi.com/1424-2818/18/10/588",

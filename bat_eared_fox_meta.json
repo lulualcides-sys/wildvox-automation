@@ -89,11 +89,6 @@
     }
   ],
   "review_sheet": "bat_eared_fox_review.jpg",
-  "music": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
-    "license": "CC BY 4.0",
-    "gain_db": -24
-  },
+  "music": null,
   "trend_exception": null
 }
