@@ -156,6 +156,162 @@
     "caption": "A snake missing from Kutch's confirmed record for 154 years was hiding in plain sight. 🐍\n\n#SandSnake #Rediscovery #WildlifeNews #ReptileFacts #Biodiversity #WildVox",
     "revision": "2026-10-07-script-guided-music-test"
   },
+  "new_arequipa_lizard": {
+    "title": "SCIENTISTS JUST SEPARATED A HIDDEN ANDEAN SPECIES",
+    "script": "High in the Peruvian Andes, a small lizard spent years hiding under another species' name. Researchers have now described Liolaemus arequipensis, a distinct lineage found in Arequipa between roughly 3,774 and 4,818 meters above sea level. There, cold air holds less oxygen, vegetation is sparse, and shelter may be a tunnel beneath plants or a space under rock. The discovery required more than appearance because these lizards look similar. Scientists combined mitochondrial and nuclear DNA, body measurements, scale patterns, and evolutionary relationships. Males and females also show different back markings. The species eats plants and small arthropods, including spiders and beetles, and gives birth to live young instead of laying exposed eggs. That strategy protects development from the mountain climate. Researchers recommend Data Deficient status because its range and population remain uncertain. The final lesson is uncomfortable: an animal can be scientifically invisible even while specimens have sat in collections for years.",
+    "sources": [
+      {
+        "type": "image",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g006.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "Liolaemus species comparison",
+        "tags": [
+          "hook",
+          "comparison"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g007.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "Liolaemus arequipensis morphology",
+        "tags": [
+          "animal",
+          "male"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g008.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "Liolaemus arequipensis diagnostic traits",
+        "tags": [
+          "scales",
+          "diagnosis"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g009.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "Liolaemus arequipensis color pattern",
+        "tags": [
+          "female",
+          "markings",
+          "payoff"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g010.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "Female paratypes of Liolaemus arequipensis",
+        "tags": [
+          "paratypes",
+          "specimens"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g011.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "Distribution of Liolaemus arequipensis",
+        "tags": [
+          "map",
+          "range"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g012.png",
+        "license": "CC BY 4.0",
+        "assetTitle": "High Andean habitat of Liolaemus arequipensis",
+        "tags": [
+          "habitat",
+          "payoff"
+        ]
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "A hidden Andean lizard has been separated from a look-alike.",
+        "scene": "Open on the clearest species plate.",
+        "tags": [
+          "hook"
+        ]
+      },
+      {
+        "text": "It lives between about 3,774 and 4,818 meters.",
+        "scene": "Show the distribution map and mountain context.",
+        "tags": [
+          "map",
+          "range"
+        ]
+      },
+      {
+        "text": "Cold, thin air and sparse shelter shape its life.",
+        "scene": "Use the documented high-Andean habitat.",
+        "tags": [
+          "habitat"
+        ]
+      },
+      {
+        "text": "DNA and morphology were needed to distinguish it.",
+        "scene": "Show the diagnostic comparison figure.",
+        "tags": [
+          "diagnosis",
+          "comparison"
+        ]
+      },
+      {
+        "text": "Males and females carry different dorsal markings.",
+        "scene": "Use male and female plates in sequence.",
+        "tags": [
+          "male",
+          "female"
+        ]
+      },
+      {
+        "text": "It eats plants and arthropods and gives birth to live young.",
+        "scene": "Show whole animals and paratypes.",
+        "tags": [
+          "animal",
+          "paratypes"
+        ]
+      },
+      {
+        "text": "Its population is still uncertain.",
+        "scene": "Finish on a clear exact-species plate to emphasize how easily it was overlooked.",
+        "tags": [
+          "payoff",
+          "female"
+        ]
+      }
+    ],
+    "trend_priority": true,
+    "trend_reason": "Coverage on October 4 highlighted the formal description of Liolaemus arequipensis, a cryptic high-Andean species from southern Peru.",
+    "trend_source_url": "https://www1.folha.uol.com.br/ciencia/2026/10/nova-especie-de-lagarto-e-descoberta-nos-andes-peruanos.shtml",
+    "trend_published_date": "2026-10-04",
+    "trend_exception": {
+      "photo_only_allowed": true,
+      "evidence_url": "https://www.mdpi.com/1424-2818/18/10/588",
+      "evidence_published_date": "2026-09-23",
+      "reason": "No verified reusable video of the new species is available; use only the CC BY 4.0 figures and habitat documentation from the describing paper."
+    },
+    "target_shot_seconds": 8,
+    "max_shot_seconds": 12,
+    "max_freeze_seconds": 0,
+    "min_duration": 60,
+    "max_duration": 75,
+    "music": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
+      "license": "CC BY 4.0",
+      "gain_db": -24
+    },
+    "caption": "Liolaemus arequipensis was hiding inside a difficult species complex at nearly 4,800 meters. 🦎🏔️\n\n#NewSpecies #LiolaemusArequipensis #ScienceNews #Biodiversity #Peru #WildVox",
+    "revision": "2026-10-07-script-guided-music-test"
+  },
   "mexican_axolotl": {
     "title": "THE AXOLOTL REBUILDS BODY PARTS WITHOUT SCARS",
     "script": "The Mexican axolotl does something mammals cannot: it can rebuild a lost limb with bone, muscle, nerves, and skin. It can also repair parts of the spinal cord, heart, and other tissues with remarkably little scarring. This salamander usually keeps its feathery larval gills for life instead of completing the normal transformation to a land-dwelling adult. That permanent youth is called neoteny. The viral pink form is common in captivity, but wild axolotls are dark and live naturally only in the waterways around Xochimilco in Mexico City. The creature famous for regeneration is itself critically endangered in the wild.",
@@ -491,646 +647,6 @@
     "caption": "Rotating ankles, a balancing tail, and a false thumb make the red panda a specialist in the trees. 🔴🐼\n\n#RedPanda #AilurusFulgens #AnimalFacts #Wildlife #NatureFacts #WildVox",
     "revision": "2026-10-07-script-guided-music-test"
   },
-  "red_lionfish": {
-    "title": "THESE BEAUTIFUL FINS HIDE 18 VENOMOUS SPINES",
-    "script": "A red lionfish looks like a floating firework, but eighteen of its spines can deliver venom. The fan-shaped fins are not just decoration. They help corner smaller fish while the lionfish opens its mouth and swallows prey whole. In the Indo-Pacific, this is a native predator. In the western Atlantic and Caribbean, introduced lionfish spread rapidly and consume native reef animals that have few defenses against them. Their striped bodies, slow approach, and sudden suction strike make them brutally efficient. The strange part is that the flesh is not venomous. The danger is concentrated in the spines, not the meal.",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/10106695/10106695-hd_1920_1080_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Lionfish underwater",
-        "tags": [
-          "hook",
-          "fins",
-          "spines"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/31824851/",
-        "license": "Pexels License",
-        "assetTitle": "Lionfish on coral reef",
-        "tags": [
-          "reef",
-          "habitat"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/27302855/",
-        "license": "Pexels License",
-        "assetTitle": "Lionfish swimming in aquarium",
-        "tags": [
-          "movement",
-          "stripes"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/10020447/",
-        "license": "Pexels License",
-        "assetTitle": "Lionfish with water plants",
-        "tags": [
-          "fins",
-          "camouflage"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/3765023/",
-        "license": "Pexels License",
-        "assetTitle": "Lionfish in aquarium habitat",
-        "tags": [
-          "body",
-          "spines"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/35819740/",
-        "license": "Pexels License",
-        "assetTitle": "Lionfish through coral reef",
-        "tags": [
-          "reef",
-          "hunting"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/10068515/",
-        "license": "Pexels License",
-        "assetTitle": "Striped lionfish swimming",
-        "tags": [
-          "stripes",
-          "movement"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/34315573/",
-        "license": "Pexels License",
-        "assetTitle": "Lionfish swimming gracefully",
-        "tags": [
-          "fins",
-          "approach"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/18900188/",
-        "license": "Pexels License",
-        "assetTitle": "Lionfish side profile",
-        "tags": [
-          "mouth",
-          "predator"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/37450444/",
-        "license": "Pexels License",
-        "assetTitle": "Lionfish in pristine reef",
-        "tags": [
-          "impact",
-          "payoff"
-        ]
-      }
-    ],
-    "visual_plan": [
-      {
-        "text": "Eighteen spines can deliver venom.",
-        "scene": "Open on the clearest spread fins.",
-        "tags": [
-          "hook",
-          "spines"
-        ]
-      },
-      {
-        "text": "The fins help corner smaller fish.",
-        "scene": "Use reef movement with fins extended.",
-        "tags": [
-          "hunting",
-          "fins"
-        ]
-      },
-      {
-        "text": "The fish swallows prey with suction.",
-        "scene": "Show the mouth and slow approach.",
-        "tags": [
-          "mouth",
-          "approach"
-        ]
-      },
-      {
-        "text": "It is native in the Indo-Pacific but invasive in the Atlantic.",
-        "scene": "Shift from reef habitat to a solitary roaming shot.",
-        "tags": [
-          "reef",
-          "habitat"
-        ]
-      },
-      {
-        "text": "Few native reef animals recognize the threat.",
-        "scene": "Show camouflage and striped approach.",
-        "tags": [
-          "camouflage",
-          "stripes"
-        ]
-      },
-      {
-        "text": "The flesh is edible; the spines are the danger.",
-        "scene": "End on a complete, recognizable profile.",
-        "tags": [
-          "payoff"
-        ]
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 30,
-    "max_duration": 45,
-    "music": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
-      "license": "CC BY 4.0",
-      "gain_db": -24
-    },
-    "caption": "The lionfish's beauty is part camouflage, part hunting tool, and part warning. 🐠\n\n#Lionfish #PteroisVolitans #OceanFacts #InvasiveSpecies #MarineLife #WildVox",
-    "revision": "2026-10-07-script-guided-music-test"
-  },
-  "capybara": {
-    "title": "CAPYBARAS USE WATER AS AN ESCAPE ROUTE",
-    "script": "The capybara is the world's largest living rodent, but its real superpower is water. Eyes, ears, and nostrils sit high on the head, letting it watch the shore while most of the body stays submerged. Webbing between the toes helps with swimming, and a capybara can use rivers to escape predators or cool down. It is also intensely social. Groups communicate with whistles, barks, purr-like sounds, and warning calls. Even their relaxed reputation has a practical reason: sharing many eyes makes danger easier to detect. A capybara group is basically a neighborhood watch that happens to spend a lot of time in the pool.",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/28224621/12333286_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Capybara by pond",
-        "tags": [
-          "hook",
-          "water"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/12340339/12340339-uhd_2560_1440_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Capybaras by river",
-        "tags": [
-          "river",
-          "group"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/32908777/14025473_1920_1080_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Capybaras feeding together",
-        "tags": [
-          "feeding",
-          "social"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/12340298/12340298-uhd_2560_1440_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Capybara group near water",
-        "tags": [
-          "group",
-          "habitat"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/38779059/16477615_1080_1920_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Capybara in pond",
-        "tags": [
-          "swimming",
-          "submerged"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/10344350/10344350-hd_1920_1080_24fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Capybara grazing",
-        "tags": [
-          "grazing",
-          "teeth"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/37121925/15726054_2560_1440_25fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Capybaras grazing in habitat",
-        "tags": [
-          "social",
-          "grazing"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/37121924/15726045_2560_1440_25fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Capybara group outdoors",
-        "tags": [
-          "group",
-          "behavior"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35416556/15005171_1440_2560_60fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Wild capybara grazing",
-        "tags": [
-          "wild",
-          "habitat"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/33760828/14332479_2560_1440_25fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Capybara beside lake",
-        "tags": [
-          "water",
-          "payoff"
-        ]
-      }
-    ],
-    "visual_plan": [
-      {
-        "text": "The world's largest rodent uses water as a superpower.",
-        "scene": "Open with a capybara entering or standing in water.",
-        "tags": [
-          "hook",
-          "water"
-        ]
-      },
-      {
-        "text": "High eyes, ears, and nostrils watch above the surface.",
-        "scene": "Use the submerged pond shot.",
-        "tags": [
-          "submerged"
-        ]
-      },
-      {
-        "text": "Webbed toes help it swim and escape.",
-        "scene": "Show movement beside the river.",
-        "tags": [
-          "swimming",
-          "river"
-        ]
-      },
-      {
-        "text": "Capybaras are intensely social.",
-        "scene": "Cut to a clearly visible group.",
-        "tags": [
-          "group",
-          "social"
-        ]
-      },
-      {
-        "text": "They communicate with many calls.",
-        "scene": "Use interacting animals.",
-        "tags": [
-          "behavior"
-        ]
-      },
-      {
-        "text": "The group works like a neighborhood watch.",
-        "scene": "End on a calm wide group by water.",
-        "tags": [
-          "payoff"
-        ]
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 30,
-    "max_duration": 45,
-    "music": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
-      "license": "CC BY 4.0",
-      "gain_db": -24
-    },
-    "caption": "Capybaras are built for water and organized around the safety of the group. 🌊\n\n#Capybara #HydrochoerusHydrochaeris #AnimalBehavior #RodentFacts #Wildlife #WildVox",
-    "revision": "2026-10-07-script-guided-music-test"
-  },
-  "bat_eared_fox": {
-    "title": "THIS FOX HAS MORE TEETH THAN ALMOST ANY MAMMAL",
-    "script": "The bat-eared fox can have up to fifty teeth, more than any other heterodont placental mammal. Most foxes use stronger jaws for larger prey. This species evolved many small teeth and rapid chewing muscles for insects. Harvester termites and dung beetles can dominate its diet. Huge ears locate tiny movements underground and release heat across African grasslands. Families may forage together, finding termite patches while watching for predators. It looks like a fox wearing satellite dishes, but every exaggerated feature serves one mission: detect small prey, chew fast, and survive where water and food are unpredictable.",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35570879/15072453_1920_1080_24fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Bat-eared fox resting",
-        "tags": [
-          "hook",
-          "ears"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35570880/15072451_1920_1080_24fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Bat-eared fox in sunlight",
-        "tags": [
-          "ears",
-          "heat"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bat-eared_Fox_%28Otocyon_megalotis%29_at_dawn_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Bat-eared fox at dawn",
-        "tags": [
-          "habitat",
-          "foraging"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Bat-eared_Fox_%28Otocyon_megalotis%29_hidden_in_the_grass_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Bat-eared fox in grass",
-        "tags": [
-          "camouflage",
-          "listening"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bat-eared_Foxes_%28Otocyon_megalotis%29_adult_and_pup_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Bat-eared fox adult and pup",
-        "tags": [
-          "family",
-          "social"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Les_oreilles_parlantes_de_l%27otocyon_1.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Bat-eared fox ear movements",
-        "tags": [
-          "ears",
-          "listening",
-          "payoff"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/%27Bat_Eared_Fox%27.JPG",
-        "license": "CC0",
-        "assetTitle": "Bat-eared fox full body",
-        "tags": [
-          "body",
-          "teeth"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/187_Bat-eared_fox_in_Otjozondjupa_Region_Photo_by_Giles_Laurent.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Bat-eared fox in Namibia",
-        "tags": [
-          "range",
-          "habitat"
-        ]
-      }
-    ],
-    "visual_plan": [
-      {
-        "text": "This fox can carry up to fifty teeth.",
-        "scene": "Open on a recognizable face and ears.",
-        "tags": [
-          "hook"
-        ]
-      },
-      {
-        "text": "Small teeth and fast chewing target insects.",
-        "scene": "Use a full-body foraging context.",
-        "tags": [
-          "foraging",
-          "teeth"
-        ]
-      },
-      {
-        "text": "Termites and beetles dominate the diet.",
-        "scene": "Show listening in short grass.",
-        "tags": [
-          "listening"
-        ]
-      },
-      {
-        "text": "Huge ears detect prey and release heat.",
-        "scene": "Use the strongest ear-movement footage.",
-        "tags": [
-          "ears",
-          "heat"
-        ]
-      },
-      {
-        "text": "Families forage together and watch for danger.",
-        "scene": "Show adult and pup.",
-        "tags": [
-          "family"
-        ]
-      },
-      {
-        "text": "Every strange feature serves insect hunting.",
-        "scene": "Finish on active ears in natural posture.",
-        "tags": [
-          "payoff"
-        ]
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 30,
-    "max_duration": 45,
-    "music": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
-      "license": "CC BY 4.0",
-      "gain_db": -24
-    },
-    "caption": "The bat-eared fox turned giant ears and dozens of tiny teeth into an insect-hunting system. 🦊\n\n#BatEaredFox #OtocyonMegalotis #AnimalFacts #AfricanWildlife #NatureFacts #WildVox",
-    "revision": "2026-10-07-script-guided-music-test"
-  },
-  "new_arequipa_lizard": {
-    "title": "SCIENTISTS JUST SEPARATED A HIDDEN ANDEAN SPECIES",
-    "script": "High in the Peruvian Andes, a small lizard spent years hiding under another species' name. Researchers have now described Liolaemus arequipensis, a distinct lineage found in Arequipa between roughly 3,774 and 4,818 meters above sea level. There, cold air holds less oxygen, vegetation is sparse, and shelter may be a tunnel beneath plants or a space under rock. The discovery required more than appearance because these lizards look similar. Scientists combined mitochondrial and nuclear DNA, body measurements, scale patterns, and evolutionary relationships. Males and females also show different back markings. The species eats plants and small arthropods, including spiders and beetles, and gives birth to live young instead of laying exposed eggs. That strategy protects development from the mountain climate. Researchers recommend Data Deficient status because its range and population remain uncertain. The final lesson is uncomfortable: an animal can be scientifically invisible even while specimens have sat in collections for years.",
-    "sources": [
-      {
-        "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g006.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "Liolaemus species comparison",
-        "tags": [
-          "hook",
-          "comparison"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g007.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "Liolaemus arequipensis morphology",
-        "tags": [
-          "animal",
-          "male"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g008.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "Liolaemus arequipensis diagnostic traits",
-        "tags": [
-          "scales",
-          "diagnosis"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g009.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "Liolaemus arequipensis color pattern",
-        "tags": [
-          "female",
-          "markings",
-          "payoff"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g010.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "Female paratypes of Liolaemus arequipensis",
-        "tags": [
-          "paratypes",
-          "specimens"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g011.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "Distribution of Liolaemus arequipensis",
-        "tags": [
-          "map",
-          "range"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g012.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "High Andean habitat of Liolaemus arequipensis",
-        "tags": [
-          "habitat",
-          "payoff"
-        ]
-      }
-    ],
-    "visual_plan": [
-      {
-        "text": "A hidden Andean lizard has been separated from a look-alike.",
-        "scene": "Open on the clearest species plate.",
-        "tags": [
-          "hook"
-        ]
-      },
-      {
-        "text": "It lives between about 3,774 and 4,818 meters.",
-        "scene": "Show the distribution map and mountain context.",
-        "tags": [
-          "map",
-          "range"
-        ]
-      },
-      {
-        "text": "Cold, thin air and sparse shelter shape its life.",
-        "scene": "Use the documented high-Andean habitat.",
-        "tags": [
-          "habitat"
-        ]
-      },
-      {
-        "text": "DNA and morphology were needed to distinguish it.",
-        "scene": "Show the diagnostic comparison figure.",
-        "tags": [
-          "diagnosis",
-          "comparison"
-        ]
-      },
-      {
-        "text": "Males and females carry different dorsal markings.",
-        "scene": "Use male and female plates in sequence.",
-        "tags": [
-          "male",
-          "female"
-        ]
-      },
-      {
-        "text": "It eats plants and arthropods and gives birth to live young.",
-        "scene": "Show whole animals and paratypes.",
-        "tags": [
-          "animal",
-          "paratypes"
-        ]
-      },
-      {
-        "text": "Its population is still uncertain.",
-        "scene": "Finish on a clear exact-species plate to emphasize how easily it was overlooked.",
-        "tags": [
-          "payoff",
-          "female"
-        ]
-      }
-    ],
-    "trend_priority": true,
-    "trend_reason": "Coverage on October 4 highlighted the formal description of Liolaemus arequipensis, a cryptic high-Andean species from southern Peru.",
-    "trend_source_url": "https://www1.folha.uol.com.br/ciencia/2026/10/nova-especie-de-lagarto-e-descoberta-nos-andes-peruanos.shtml",
-    "trend_published_date": "2026-10-04",
-    "trend_exception": {
-      "photo_only_allowed": true,
-      "evidence_url": "https://www.mdpi.com/1424-2818/18/10/588",
-      "evidence_published_date": "2026-09-23",
-      "reason": "No verified reusable video of the new species is available; use only the CC BY 4.0 figures and habitat documentation from the describing paper."
-    },
-    "target_shot_seconds": 8,
-    "max_shot_seconds": 12,
-    "max_freeze_seconds": 0,
-    "min_duration": 60,
-    "max_duration": 75,
-    "music": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
-      "license": "CC BY 4.0",
-      "gain_db": -24
-    },
-    "caption": "Liolaemus arequipensis was hiding inside a difficult species complex at nearly 4,800 meters. 🦎🏔️\n\n#NewSpecies #LiolaemusArequipensis #ScienceNews #Biodiversity #Peru #WildVox",
-    "revision": "2026-10-07-script-guided-music-test"
-  },
   "snow_leopard": {
     "title": "THE SNOW LEOPARD IS BUILT LIKE A MOUNTAIN GHOST",
     "script": "A snow leopard survives where a single wrong step can mean a fatal fall. Its broad, fur-covered paws spread weight across snow like natural snowshoes and cushion the feet against sharp rock. Short front legs and powerful longer hind legs launch the cat across broken terrain, while an exceptionally long tail works as a counterbalance during turns and jumps. When the animal rests, that same tail can wrap around the face like a scarf. Thick gray fur and dark rosettes dissolve against stone, shadow, and snow, which is why the species is called the ghost of the mountains. Snow leopards live across high ranges in twelve Asian countries and may climb thousands of meters as prey and seasons shift. Their flexible chest and enlarged nasal passages help with steep, cold environments, but camouflage cannot protect them from disappearing habitat, declining prey, or retaliatory killing after livestock losses. Camera traps identify individuals by unique spot patterns, turning each coat into a fingerprint. The final paradox is perfect: this cat is designed to vanish from sight, so scientists must work even harder to prove where it still survives.",
@@ -1319,404 +835,6 @@
       "gain_db": -24
     },
     "caption": "Every part of the snow leopard is engineered for cold, cliffs, and disappearance. ❄️🐆\n\n#SnowLeopard #PantheraUncia #AnimalAdaptations #WildlifeConservation #NatureFacts #WildVox",
-    "revision": "2026-10-07-script-guided-music-test"
-  },
-  "african_penguin": {
-    "title": "THE AFRICAN PENGUIN HAS A BUILT-IN HEAT WINDOW",
-    "script": "An African penguin lives beside warm, sunlit coasts, not Antarctic ice. Above each eye, bare pink skin helps control temperature. When the bird gets hot, more blood flows through it, deepening the color as heat escapes. In the ocean, dense overlapping feathers trap insulation and resist water, flipper-like wings drive it forward, and heavy bones reduce buoyancy during dives. Each bird carries a unique pattern of black chest spots, giving researchers a natural identification card. Its braying call explains the old nickname jackass penguin. Colonies crowd beaches and rocky islands along southern Africa, where adults hunt schooling fish and return to mates and chicks. But this system depends on food staying close. Shifting fish populations, commercial fishing, habitat disturbance, and oil spills have driven steep declines. During its annual catastrophic molt, a penguin replaces all feathers quickly and cannot feed at sea until the new waterproof coat is ready. The final surprise is that survival depends on both extremes: releasing heat on land, then sealing every feather against cold water minutes later.",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/9140354/9140354-hd_1080_1920_25fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "African penguin close view",
-        "tags": [
-          "pink-patch"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/5592502/5592502-hd_1080_1920_24fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "African penguins walking",
-        "tags": [
-          "walking",
-          "land"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/13458445/13458445-hd_1920_1080_25fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "African penguin colony",
-        "tags": [
-          "colony",
-          "habitat"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/9116155/9116155-uhd_2560_1440_25fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "African penguins on beach",
-        "tags": [
-          "hook",
-          "beach",
-          "social"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/9116137/9116137-uhd_2560_1440_25fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "African penguin standing",
-        "tags": [
-          "spots",
-          "identity"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/13459518/13459518-hd_1920_1080_25fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "African penguin grooming chick",
-        "tags": [
-          "chick",
-          "parenting"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/31155260/13311398_1080_1920_60fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "African penguins at Boulders Beach",
-        "tags": [
-          "habitat",
-          "colony"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/9140355/9140355-uhd_2560_1440_25fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "African penguins entering sea",
-        "tags": [
-          "ocean",
-          "swimming"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/5403934/5403934-hd_1920_1080_24fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "African penguins on shore",
-        "tags": [
-          "shore",
-          "movement"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/29558836/12723650_1920_1080_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "African penguins on sandy beach",
-        "tags": [
-          "conservation",
-          "payoff"
-        ]
-      }
-    ],
-    "visual_plan": [
-      {
-        "text": "This penguin lives beside warm African coasts.",
-        "scene": "Open on a clear face and beach context.",
-        "tags": [
-          "hook"
-        ]
-      },
-      {
-        "text": "Pink skin above the eyes releases heat.",
-        "scene": "Use the best close view of the pink patch.",
-        "tags": [
-          "pink-patch"
-        ]
-      },
-      {
-        "text": "Dense feathers and heavy bones transform it underwater.",
-        "scene": "Show penguins entering the sea.",
-        "tags": [
-          "ocean",
-          "swimming"
-        ]
-      },
-      {
-        "text": "Unique chest spots identify individuals.",
-        "scene": "Hold a clear standing profile.",
-        "tags": [
-          "spots",
-          "identity"
-        ]
-      },
-      {
-        "text": "Colonies communicate and raise chicks.",
-        "scene": "Show colony, then parent and chick.",
-        "tags": [
-          "colony",
-          "chick"
-        ]
-      },
-      {
-        "text": "Adults commute for schooling fish.",
-        "scene": "Use walking toward shore and water.",
-        "tags": [
-          "shore",
-          "movement"
-        ]
-      },
-      {
-        "text": "Food shifts and human pressures drive decline.",
-        "scene": "Use a wide colony habitat shot.",
-        "tags": [
-          "conservation",
-          "habitat"
-        ]
-      },
-      {
-        "text": "A catastrophic molt temporarily keeps them ashore.",
-        "scene": "Show grooming or stationary birds.",
-        "tags": [
-          "parenting",
-          "land"
-        ]
-      },
-      {
-        "text": "They release heat on land and seal out cold water.",
-        "scene": "Finish with a wide beach-to-ocean scene.",
-        "tags": [
-          "payoff"
-        ]
-      }
-    ],
-    "min_unique_videos": 8,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 60,
-    "max_duration": 75,
-    "music": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
-      "license": "CC BY 4.0",
-      "gain_db": -24
-    },
-    "caption": "The African penguin must dump heat on shore and become waterproof in cold ocean water. 🐧\n\n#AfricanPenguin #SpheniscusDemersus #BirdFacts #OceanWildlife #Conservation #WildVox",
-    "revision": "2026-10-07-script-guided-music-test"
-  },
-  "japanese_macaque": {
-    "title": "HOT-SPRING BATHING IS A MONKEY TRADITION",
-    "script": "Japanese macaques live farther north than any other nonhuman primate, surviving snowy forests. Thick fur helps, but one famous troop at Jigokudani added hot-spring bathing. Young monkeys entered warm water, and the habit spread socially. It is not a universal instinct. Some individuals may never bathe, while others return during cold weather, making the behavior a local tradition rather than a species-wide reflex. The troop is organized through matrilineal relationships and rank. Females usually remain with their birth group, and daughters inherit positions influenced by their mothers. Grooming removes debris, maintains alliances, and reduces tension. Their seasonal diet shifts among fruit, leaves, bark, seeds, insects, and whatever northern forests provide. Research also suggests bathing can alter parts of the monkeys' microbial and parasite environment, meaning culture may influence biology. The memorable scene is not simply a monkey relaxing like a human. It is a learned solution preserved by one community across generations.",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/17621614/17621614-uhd_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Japanese snow monkey",
-        "tags": [
-          "hook",
-          "snow"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35101120/14870530_2560_1440_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Japanese macaques interacting",
-        "tags": [
-          "social",
-          "troop"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/17608456/",
-        "source_page": "https://www.pexels.com/video/snow-monkey-japan-2-17608456/",
-        "license": "Pexels License",
-        "assetTitle": "Japanese macaques sharing a winter hot spring",
-        "tags": [
-          "learning",
-          "social",
-          "hot-spring"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/17608461/17608461-uhd_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Japanese macaque near hot spring",
-        "tags": [
-          "hot-spring",
-          "bathing"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/17623715/17623715-uhd_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Japanese macaque behavior",
-        "tags": [
-          "learning",
-          "behavior"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/37605967/15939186_1080_1920_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Japanese macaque in snow",
-        "tags": [
-          "cold",
-          "adaptation"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/17583809/17583809-uhd_2560_1440_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow monkey close behavior",
-        "tags": [
-          "rank",
-          "face"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/17621620/17621620-uhd_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Japanese macaque troop member",
-        "tags": [
-          "troop",
-          "culture"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35101163/14870536_2560_1440_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Japanese macaques in autumn tree",
-        "tags": [
-          "forest",
-          "payoff"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://www.pexels.com/download/video/35101028/",
-        "license": "Pexels License",
-        "assetTitle": "Japanese macaque resting on a mountain path",
-        "tags": [
-          "forest",
-          "resting",
-          "habitat"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://images.pexels.com/photos/35339578/pexels-photo-35339578.jpeg?auto=compress&cs=tinysrgb&w=1920",
-        "source_page": "https://www.pexels.com/photo/japanese-macaques-grooming-in-kyoto-park-35339578/",
-        "license": "Pexels License",
-        "assetTitle": "Japanese macaques grooming in Kyoto",
-        "tags": [
-          "grooming",
-          "alliance",
-          "social"
-        ]
-      }
-    ],
-    "visual_plan": [
-      {
-        "text": "Japanese macaques survive farther north than any other nonhuman primate.",
-        "scene": "Open on a monkey surrounded by snow.",
-        "tags": [
-          "hook"
-        ]
-      },
-      {
-        "text": "A Jigokudani troop developed hot-spring bathing.",
-        "scene": "Use the clearest bathing scene.",
-        "tags": [
-          "hot-spring",
-          "bathing"
-        ]
-      },
-      {
-        "text": "Young monkeys learn the habit socially.",
-        "scene": "Show interaction and observation.",
-        "tags": [
-          "learning",
-          "social"
-        ]
-      },
-      {
-        "text": "Not every macaque or even every troop bathes.",
-        "scene": "Contrast a dry snow scene.",
-        "tags": [
-          "winter",
-          "cold"
-        ]
-      },
-      {
-        "text": "The troop follows matrilineal rank.",
-        "scene": "Show several visible troop members.",
-        "tags": [
-          "troop",
-          "rank"
-        ]
-      },
-      {
-        "text": "Grooming maintains alliances.",
-        "scene": "Use unmistakable grooming behavior.",
-        "tags": [
-          "grooming",
-          "alliance"
-        ]
-      },
-      {
-        "text": "Their diet and movement change with seasons.",
-        "scene": "Shift to a forest or autumn setting.",
-        "tags": [
-          "forest"
-        ]
-      },
-      {
-        "text": "Bathing can influence microbes and parasites.",
-        "scene": "Use calm soaking or close observation.",
-        "tags": [
-          "behavior",
-          "face"
-        ]
-      },
-      {
-        "text": "This is a community tradition preserved across generations.",
-        "scene": "Finish on the troop together.",
-        "tags": [
-          "payoff",
-          "culture"
-        ]
-      }
-    ],
-    "min_unique_videos": 8,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 60,
-    "max_duration": 75,
-    "music": {
-      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uniq_-_Art_Of_Silence_V2.ogg",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Uniq_-_Art_Of_Silence_V2.ogg",
-      "license": "CC BY 4.0",
-      "gain_db": -24
-    },
-    "caption": "For one Japanese macaque community, hot-spring bathing is learned culture, not a universal instinct. ♨️🐒\n\n#JapaneseMacaque #SnowMonkey #AnimalCulture #PrimateFacts #Wildlife #WildVox",
     "revision": "2026-10-07-script-guided-music-test"
   }
 }

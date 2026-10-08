@@ -1,4 +1,4 @@
-name: WildVox Daily 10
+name: WildVox Daily 5
 
 on:
   push:
@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: wildvox-daily-10
+  group: wildvox-daily-5
   cancel-in-progress: true
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Render the full daily batch. Trend-priority entries come first;
+          # Render exactly five daily candidates. Trend-priority entries come first;
           # remaining slots preserve the order in configs/daily.json.
           animals=$(jq -c '
             ([to_entries[] | select(.value.trend_priority == true)] +
@@ -39,8 +39,8 @@ jobs:
           ' configs/daily.json)
 
           count=$(jq 'length' <<<"$animals")
-          if [ "$count" -ne 10 ]; then
-            echo "Expected exactly 10 WildVox candidates, found $count." >&2
+          if [ "$count" -ne 5 ]; then
+            echo "Expected exactly 5 WildVox candidates, found $count." >&2
             exit 1
           fi
 
