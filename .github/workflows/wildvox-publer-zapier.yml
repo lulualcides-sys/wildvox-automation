@@ -1,0 +1,73 @@
+name: WildVox Publer Bridge
+
+on:
+  workflow_run:
+    workflows: ["WildVox Daily 5"]
+    types: [completed]
+
+permissions:
+  contents: read
+
+jobs:
+  send-to-publer:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main config
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Send five approved posts to Zapier/Publer
+        env:
+          PUBLER_ZAPIER_WEBHOOK: ${{ secrets.PUBLER_ZAPIER_WEBHOOK }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -z "${PUBLER_ZAPIER_WEBHOOK:-}" ]; then
+            echo "PUBLER_ZAPIER_WEBHOOK is not configured; skipping Publer delivery."
+            exit 0
+          fi
+
+          mapfile -t keys < <(jq -r 'keys[]' configs/daily.json)
+          if [ "${#keys[@]}" -ne 5 ]; then
+            echo "Expected exactly 5 WildVox entries, found ${#keys[@]}." >&2
+            exit 1
+          fi
+
+          i=0
+          for key in "${keys[@]}"; do
+            i=$((i+1))
+            title=$(jq -r --arg k "$key" '.[$k].title // ""' configs/daily.json)
+            caption=$(jq -r --arg k "$key" '.[$k].caption // .[$k].title // ""' configs/daily.json)
+            media_url="https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/$key.mp4"
+            meta_url="https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/${key}_meta.json"
+            review_url="https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/${key}_review.jpg"
+
+            for url in "$media_url" "$meta_url" "$review_url"; do
+              code=$(curl -L -sS -o /dev/null -w '%{http_code}' "$url")
+              if [ "$code" != "200" ]; then
+                echo "Canonical asset not ready for $key: $url returned HTTP $code" >&2
+                exit 1
+              fi
+            done
+
+            payload=$(jq -n               --arg key "$key"               --arg title "$title"               --arg text "$caption"               --arg media "$media_url"               --arg meta "$meta_url"               --arg review "$review_url"               --argjson order "$i"               '{
+                source: "wildvox",
+                platform: "tiktok",
+                key: $key,
+                title: $title,
+                text: $text,
+                media_url: $media,
+                meta_url: $meta,
+                review_url: $review,
+                order: $order,
+                autoschedule: true
+              }')
+
+            curl --fail-with-body -sS               -H 'Content-Type: application/json'               -X POST               -d "$payload"               "$PUBLER_ZAPIER_WEBHOOK"
+
+            echo "Sent $key to Publer bridge."
+            sleep 2
+          done
