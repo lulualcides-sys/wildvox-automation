@@ -156,8 +156,8 @@ def canonical_url(url):
 
 def validate_daily_batch(data):
     """Enforce the non-negotiable editorial and media gates for daily.json."""
-    if len(data) != 10:
-        raise RuntimeError(f"daily.json must contain exactly 10 entries, found {len(data)}")
+    if len(data) != 5:
+        raise RuntimeError(f"daily.json must contain exactly 5 entries, found {len(data)}")
 
     short_count = 0
     long_count = 0
@@ -257,9 +257,9 @@ def validate_daily_batch(data):
         if not 0 <= max_freeze <= 1.0:
             raise RuntimeError(f"{key} max_freeze_seconds must be at most 1")
 
-    if short_count != 6 or long_count != 4:
+    if short_count != 3 or long_count != 2:
         raise RuntimeError(
-            f"daily.json must contain exactly 6 short and 4 long videos; "
+            f"daily.json must contain exactly 3 short and 2 long videos; "
             f"found {short_count} short and {long_count} long"
         )
 
