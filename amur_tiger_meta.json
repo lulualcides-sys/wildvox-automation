@@ -1,0 +1,21 @@
+{
+  "key": "amur_tiger",
+  "title": "THIS TIGER SURVIVES IN SNOWY FORESTS",
+  "caption": "Cold-weather tiger built for stealth. 🐅❄️ #AmurTiger #WildVox",
+  "duration": 33.42,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/2017-10-01_AT_Wien_13_Hietzing%2C_Tiergarten_Sch%C3%B6nbrunn%2C_Panthera_tigris_altaica.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17_ZOO_LJUBLJANA_Panthera_tigris_altaica_SIBIRSKI_TIGER.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18_ZOO_LJUBLJANA_-_Panthera_tigris_altaica_2.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18_ZOO_LJUBLJANA_-_Panthera_tigris_altaica_3.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18_ZOO_LJUBLJANA_-_Panthera_tigris_altaica.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Siberian_tiger_(Panthera_tigris_altaica).webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Releasing_a_Siberian_tiger_in_Russia.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Siberian_tiger_(Panthera_tigris_altaica)_pacing_around.webm"
+  ],
+  "review_sheet": "amur_tiger_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

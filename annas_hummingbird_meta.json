@@ -1,0 +1,21 @@
+{
+  "key": "annas_hummingbird",
+  "title": "THIS HUMMINGBIRD'S PINK HEAD IS A LIGHT TRICK",
+  "caption": "A hummingbird with a color-changing crown. 🐦✨ #AnnasHummingbird #BirdFacts #WildVox",
+  "duration": 32.42,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's_hummingbird_(Calypte_anna)_in_Arizona.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's_hummingbird_(Calypte_anna)_in_California.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's_hummingbird_(Calypte_anna)_in_the_rain.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's_hummingbird_fledged.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Annas_hummingbird_feeding.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Calypte-anna.ogv",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird_nearly_fledged.webm",
+    "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's_Hummingbird_7254.ogg"
+  ],
+  "review_sheet": "annas_hummingbird_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
