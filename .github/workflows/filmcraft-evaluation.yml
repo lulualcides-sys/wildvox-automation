@@ -1,0 +1,26 @@
+name: "WildVox — teste FilmCraft sem publicar"
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "qa/filmcraft_evaluate.sh"
+      - ".github/workflows/filmcraft-evaluation.yml"
+permissions:
+  contents: read
+jobs:
+  filmcraft:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verificar pacote oficial e FFmpeg de referencia
+        run: bash qa/filmcraft_evaluate.sh
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: filmcraft-comparison
+          path: |
+            artifacts/*.json
+            artifacts/*.txt
+          retention-days: 7
