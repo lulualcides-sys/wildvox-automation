@@ -22,7 +22,7 @@ p="artifacts/filmcraft-evaluation.json";d=json.load(open(p));d.update(status="re
 PY
   exit 0
 }
-echo "$CHECKSUM  /tmp/filmcraft-release.tar.gz" | sha256sum -c -q || exit 1
+echo "$CHECKSUM  /tmp/filmcraft-release.tar.gz" | sha256sum -c --status || exit 1
 mkdir -p /tmp/filmcraft-eval
 tar -xzf /tmp/filmcraft-release.tar.gz -C /tmp/filmcraft-eval
 find /tmp/filmcraft-eval -maxdepth 3 -type f | head -40 > artifacts/release-file-list.txt
