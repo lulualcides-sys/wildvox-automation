@@ -10,6 +10,8 @@ O workflow `WildVox — teste FilmCraft sem publicar`:
 3. Verifica se a versão distribuída inclui `filmcraft-cli` e tenta `commands`.
 4. Publica apenas JSON/metadata com resultado; não mexe em vídeo real, TikTok, workflow diário ou voz.
 
+**Resultados medidos em 09/10/2026:** GitHub Actions executou com sucesso o teste isolado. Versão v0.2.0 com SHA256 oficial verificado; o binário `filmcraft-cli` listou comandos. O FFmpeg criou um MP4 sintético válido de **2,0 s, 360×640 pixels, H.264 a 24 fps**. FilmCraft não concluiu o export do projeto demo em 45 s (`demo_export_unavailable`). A mídia real do WildVox não foi usada nem modificada. Portanto **NÃO** há evidência de que FilmCraft ofereça qualidade superior ou velocidade aceitável para nossos vídeos; FFmpeg permanece em produção.
+
 **Próximos critérios de aceite:** render completo de 30–45 s (com clipes, am_michael, música controlada e legendas menores), comparação de duração, nitidez, áudio LUFS, sincronismo, tempo de render e consumo. CLI disponível **não** equivale a render pronto.
 
 **Condição:** preservamos FFmpeg/Kokoro até FilmCraft superar o processo em vídeos reais com QA aprovada. O GitHub não possui GPUs garantidas no plano gratuito.
