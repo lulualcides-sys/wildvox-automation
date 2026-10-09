@@ -14,6 +14,10 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+      - name: Instalar FFmpeg somente neste runner de teste
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg curl
       - name: Verificar pacote oficial e FFmpeg de referencia
         run: bash qa/filmcraft_evaluate.sh
       - uses: actions/upload-artifact@v4
