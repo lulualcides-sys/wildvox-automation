@@ -32,6 +32,19 @@ if [ -n "$binary" ]; then
   chmod +x "$binary"
   if timeout 25s "$binary" commands > artifacts/filmcraft-commands.txt 2> artifacts/filmcraft-stderr.txt; then
     status="cli_commands_passed"
+    # Tentativa adicional: exportar o projeto DEMO do editor (nao videos reais).
+    # Um CLI funcional nao garante codec/render; verificar o arquivo exportado.
+    if timeout 45s "$binary" --demo export "$PWD/artifacts/filmcraft-demo.mp4" > artifacts/filmcraft-export.txt 2> artifacts/filmcraft-export-stderr.txt; then
+      if [ -s artifacts/filmcraft-demo.mp4 ] && ffprobe -v error -show_entries stream=codec_name,width,height,avg_frame_rate -show_entries format=duration -of json artifacts/filmcraft-demo.mp4 > artifacts/filmcraft-demo-probe.json; then
+        status="demo_export_passed"
+      else
+        status="demo_export_invalid"
+      fi
+    else
+      status="demo_export_unavailable"
+    fi
+    # Nao subir media do projeto demo, apenas metadados do experimento.
+    rm -f artifacts/filmcraft-demo.mp4
   else
     status="cli_commands_failed"
   fi
