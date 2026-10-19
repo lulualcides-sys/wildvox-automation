@@ -1,0 +1,56 @@
+name: WildVox Buffer TikTok (Daily 5)
+
+on:
+  schedule:
+    # UTC 11:45 = 08:45 in America/Sao_Paulo (UTC-3).
+    - cron: '45 11 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Validate batch only; never create Buffer posts'
+        required: true
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: wildvox-buffer-tiktok
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    # Do not activate until @wildvox is connected to Buffer and the GitHub secret exists.
+    if: ${{ vars.WILDVOX_BUFFER_ENABLED == 'true' || (github.event_name == 'workflow_dispatch' && inputs.dry_run == true) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Checkout code and daily config
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Checkout canonical media
+        uses: actions/checkout@v4
+        with:
+          ref: media
+          path: media-branch
+          persist-credentials: false
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate & schedule only fresh videos
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || false }}
+        run: |
+          set -euo pipefail
+          if [ "$DRY_RUN" = "true" ]; then
+            python scripts/publish_buffer.py --media-dir media-branch --dry-run
+          else
+            python scripts/publish_buffer.py --media-dir media-branch
+          fi
