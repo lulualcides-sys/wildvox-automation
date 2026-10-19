@@ -1,0 +1,46 @@
+name: WildVox Buffer publisher validation
+
+on:
+  push:
+    paths:
+      - 'scripts/publish_buffer.py'
+      - '.github/workflows/wildvox-buffer-validate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-publisher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile Buffer integration (no credentials required)
+        run: python -m py_compile scripts/publish_buffer.py
+      - name: Verify hashtag normalization and stale-batch protection
+        shell: bash
+        run: |
+          python - <<'PY'
+          import importlib.util, tempfile
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          spec = importlib.util.spec_from_file_location('buffer', 'scripts/publish_buffer.py')
+          m = importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(m)
+          c = m.normalize_caption('WildVox #A #B #C #D #E #WildVox')
+          assert len([w for w in c.split() if w.startswith('#')]) == 5, c
+          assert '#WildVox' in c, c
+          with tempfile.TemporaryDirectory() as root:
+              fake = {'test_animal': {'revision': '2026-01-01-expired'}}
+              try:
+                  m.check_fresh_render(fake, Path(root), datetime.now(ZoneInfo('America/Sao_Paulo')))
+              except RuntimeError:
+                  pass
+              else:
+                  raise AssertionError('stale batch was incorrectly accepted')
+          print('Publisher validation tests passed')
+          PY
