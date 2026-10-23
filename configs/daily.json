@@ -1,625 +1,363 @@
 {
-  "new_arequipa_lizard": {
-    "title": "SCIENTISTS JUST SEPARATED A HIDDEN ANDEAN SPECIES",
-    "script": "High in the Peruvian Andes, a small lizard spent years hiding under another species' name. Researchers have now described Liolaemus arequipensis, a distinct lineage found in Arequipa between roughly 3,774 and 4,818 meters above sea level. There, cold air holds less oxygen, vegetation is sparse, and shelter may be a tunnel beneath plants or a space under rock. The discovery required more than appearance because these lizards look similar. Scientists combined mitochondrial and nuclear DNA, body measurements, scale patterns, and evolutionary relationships. Males and females also show different back markings. The species eats plants and small arthropods, including spiders and beetles, and gives birth to live young instead of laying exposed eggs. That strategy protects development from the mountain climate. Researchers recommend Data Deficient status because its range and population remain uncertain. The final lesson is uncomfortable: an animal can be scientifically invisible even while specimens have sat in collections for years.",
+  "fiordland_crested_penguin": {
+    "title": "THE PENGUIN THAT NESTS IN A RAINFOREST",
+    "script": "Meet the Fiordland crested penguin, called tawaki in New Zealand. Unlike the penguins most people picture on open ice, tawaki raise chicks in dense coastal rainforest. Their yellow eyebrow feathers are unmistakable, but hidden burrows make them hard to count. Researchers have mapped more than a thousand nests, suggesting the population may be larger than earlier estimates. After breeding, the birds travel thousands of miles to feed before replacing their feathers. The twist is that scientists are still discovering how this secretive jungle penguin survives.",
+    "caption": "A penguin that nests in the rainforest. 🐧🌿 #FiordlandPenguin #Tawaki #WildVox",
     "sources": [
       {
         "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g006.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "Liolaemus species comparison",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiordland%20Penguin.jpg",
+        "license": "CC BY 2.0",
         "tags": [
           "hook",
-          "comparison"
+          "crest"
         ]
       },
       {
         "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g007.png",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes%20pachyrhynchus%201200189.jpg",
         "license": "CC BY 4.0",
-        "assetTitle": "Liolaemus arequipensis morphology",
         "tags": [
-          "animal",
-          "male"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g008.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "Liolaemus arequipensis diagnostic traits",
-        "tags": [
-          "scales",
-          "diagnosis"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g009.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "Liolaemus arequipensis color pattern",
-        "tags": [
-          "female",
-          "markings",
+          "crest",
           "payoff"
         ]
       },
       {
         "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g010.png",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes%20pachyrhynchus%2031079778.jpg",
         "license": "CC BY 4.0",
-        "assetTitle": "Female paratypes of Liolaemus arequipensis",
         "tags": [
-          "paratypes",
-          "specimens"
+          "animal",
+          "habitat"
         ]
       },
       {
         "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g011.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "Distribution of Liolaemus arequipensis",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes%20pachyrhynchus%204342035.jpg",
         "tags": [
-          "map",
-          "range"
+          "animal",
+          "breeding"
         ]
       },
       {
         "type": "image",
-        "url": "https://mdpi-res.com/d_attachment/diversity/diversity-18-00588/article_deploy/html/images/diversity-18-00588-g012.png",
-        "license": "CC BY 4.0",
-        "assetTitle": "High Andean habitat of Liolaemus arequipensis",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiordland%20penguin%20(Mattern).jpg",
+        "license": "CC BY-SA 3.0",
         "tags": [
-          "habitat",
+          "crest",
           "payoff"
         ]
       }
     ],
     "visual_plan": [
       {
-        "text": "A hidden Andean lizard has been separated from a look-alike.",
-        "scene": "Open on the clearest species plate.",
+        "text": "Tawaki penguins nest in rainforests.",
+        "scene": "Use exact-species photo with yellow crest.",
         "tags": [
-          "hook"
+          "hook",
+          "crest"
         ]
       },
       {
-        "text": "It lives between about 3,774 and 4,818 meters.",
-        "scene": "Show the distribution map and mountain context.",
+        "text": "Their secluded burrows make counting difficult.",
+        "scene": "Use exact-species penguin portrait, not a fabricated burrow.",
         "tags": [
-          "map",
-          "range"
+          "animal",
+          "breeding"
         ]
       },
       {
-        "text": "Cold, thin air and sparse shelter shape its life.",
-        "scene": "Use the documented high-Andean habitat.",
+        "text": "Researchers mapped more than a thousand nests.",
+        "scene": "Use verified penguin photographs.",
         "tags": [
+          "animal",
           "habitat"
         ]
       },
       {
-        "text": "DNA and morphology were needed to distinguish it.",
-        "scene": "Show the diagnostic comparison figure.",
+        "text": "The birds travel far before molting.",
+        "scene": "Show exact-species tawaki; do not substitute another penguin.",
         "tags": [
-          "diagnosis",
-          "comparison"
+          "crest"
         ]
       },
       {
-        "text": "Males and females carry different dorsal markings.",
-        "scene": "Use male and female plates in sequence.",
+        "text": "Scientists are still discovering tawaki secrets.",
+        "scene": "Finish on sharpest exact-species photo.",
         "tags": [
-          "male",
-          "female"
-        ]
-      },
-      {
-        "text": "It eats plants and arthropods and gives birth to live young.",
-        "scene": "Show whole animals and paratypes.",
-        "tags": [
-          "animal",
-          "paratypes"
-        ]
-      },
-      {
-        "text": "Its population is still uncertain.",
-        "scene": "Finish on a clear exact-species plate to emphasize how easily it was overlooked.",
-        "tags": [
-          "payoff",
-          "female"
+          "payoff"
         ]
       }
     ],
     "trend_priority": true,
-    "trend_reason": "Coverage on October 4 highlighted the formal description of Liolaemus arequipensis, a cryptic high-Andean species from southern Peru.",
-    "trend_source_url": "https://www1.folha.uol.com.br/ciencia/2026/10/nova-especie-de-lagarto-e-descoberta-nos-andes-peruanos.shtml",
-    "trend_published_date": "2026-10-04",
+    "trend_reason": "Fiordland tawaki research feature published 2026-10-16, amended 2026-10-19.",
+    "trend_source_url": "https://www.theguardian.com/world/2026/oct/17/secrets-of-new-zealand-fiordland-crested-penguin-tawaki",
+    "trend_published_date": "2026-10-16",
     "trend_exception": {
       "photo_only_allowed": true,
-      "evidence_url": "https://www.mdpi.com/1424-2818/18/10/588",
-      "evidence_published_date": "2026-09-23",
-      "reason": "No verified reusable video of the new species is available; use only the CC BY 4.0 figures and habitat documentation from the describing paper."
+      "evidence_url": "https://www.theguardian.com/world/2026/oct/17/secrets-of-new-zealand-fiordland-crested-penguin-tawaki",
+      "evidence_published_date": "2026-10-16",
+      "reason": "Insufficient pool of six verified reusable exact-species videos; use authentic exact-species CC photographs instead of footage from other penguin species."
     },
-    "target_shot_seconds": 8,
-    "max_shot_seconds": 12,
+    "target_shot_seconds": 6,
+    "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
-    "min_duration": 60,
-    "max_duration": 75,
-    "caption": "Liolaemus arequipensis was hiding inside a difficult species complex at nearly 4,800 meters. 🦎🏔️\n\n#NewSpecies #LiolaemusArequipensis #ScienceNews #Biodiversity #Peru #WildVox",
-    "revision": "2026-10-08-five-video-tiktok-batch"
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-24-restart"
   },
-  "bat_eared_fox": {
-    "title": "THIS FOX HAS MORE TEETH THAN ALMOST ANY MAMMAL",
-    "script": "The bat-eared fox can have up to fifty teeth, more than any other heterodont placental mammal. Most foxes use stronger jaws for larger prey. This species evolved many small teeth and rapid chewing muscles for insects. Harvester termites and dung beetles can dominate its diet. Huge ears locate tiny movements underground and release heat across African grasslands. Families may forage together, finding termite patches while watching for predators. It looks like a fox wearing satellite dishes, but every exaggerated feature serves one mission: detect small prey, chew fast, and survive where water and food are unpredictable.",
+  "red_fox_mousing": {
+    "title": "WHY FOXES DIVE HEADFIRST INTO THE GROUND",
+    "script": "A red fox sometimes jumps high and lands nose-first in grass or snow. It looks like a mistake, but the fox is hunting. Its ears pick up tiny movements of rodents hidden under cover. After listening and adjusting its position, the fox leaps to pin down its prey. That move is called mousing. Young foxes practice quick turns and pounces while playing. Adults may hide extra food to eat later. When a fox seems to be doing a dramatic faceplant, it is not clumsy. It is calculating dinner. It listens first, then launches the jump at just the right moment, turning ordinary grass into a hidden hunting ground.",
+    "caption": "A fox faceplant is a hunting move. 🦊 #RedFox #FoxFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://videos.pexels.com/video-files/35570879/15072453_1920_1080_24fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Bat-eared fox resting",
-        "tags": [
-          "hook",
-          "ears"
-        ]
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20hunting.webm",
+        "assetTitle": "Red fox hunting.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://videos.pexels.com/video-files/35570880/15072451_1920_1080_24fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Bat-eared fox in sunlight",
-        "tags": [
-          "ears",
-          "heat"
-        ]
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20looking%20for%20a%20mouse.webm",
+        "assetTitle": "Red fox (Vulpes vulpes) looking for a mouse.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Bat-eared_Fox_%28Otocyon_megalotis%29_at_dawn_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Bat-eared fox at dawn",
-        "tags": [
-          "habitat",
-          "foraging"
-        ]
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20catches%20a%20mouse.webm",
+        "assetTitle": "Red fox catches a mouse.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Bat-eared_Fox_%28Otocyon_megalotis%29_hidden_in_the_grass_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Bat-eared fox in grass",
-        "tags": [
-          "camouflage",
-          "listening"
-        ]
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20and%20her%20pups.webm",
+        "assetTitle": "Red fox (Vulpes vulpes) and her pups.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bat-eared_Foxes_%28Otocyon_megalotis%29_adult_and_pup_....webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Bat-eared fox adult and pup",
-        "tags": [
-          "family",
-          "social"
-        ]
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20kits%20playing.webm",
+        "assetTitle": "Red fox kits playing.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Les_oreilles_parlantes_de_l%27otocyon_1.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Bat-eared fox ear movements",
-        "tags": [
-          "ears",
-          "listening",
-          "payoff"
-        ]
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Urban%20fox%20at%20night.webm",
+        "assetTitle": "Urban fox at night.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/%27Bat_Eared_Fox%27.JPG",
-        "license": "CC0",
-        "assetTitle": "Bat-eared fox full body",
-        "tags": [
-          "body",
-          "teeth"
-        ]
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20pups%20playing%20along%20Owens%20Bay%20Nature%20Trail%20(53369021529).webm",
+        "assetTitle": "Red fox pups playing along Owens Bay Nature Trail (53369021529).webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/187_Bat-eared_fox_in_Otjozondjupa_Region_Photo_by_Giles_Laurent.jpg",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Bat-eared fox in Namibia",
-        "tags": [
-          "range",
-          "habitat"
-        ]
-      }
-    ],
-    "visual_plan": [
-      {
-        "text": "This fox can carry up to fifty teeth.",
-        "scene": "Open on a recognizable face and ears.",
-        "tags": [
-          "hook"
-        ]
-      },
-      {
-        "text": "Small teeth and fast chewing target insects.",
-        "scene": "Use a full-body foraging context.",
-        "tags": [
-          "foraging",
-          "teeth"
-        ]
-      },
-      {
-        "text": "Termites and beetles dominate the diet.",
-        "scene": "Show listening in short grass.",
-        "tags": [
-          "listening"
-        ]
-      },
-      {
-        "text": "Huge ears detect prey and release heat.",
-        "scene": "Use the strongest ear-movement footage.",
-        "tags": [
-          "ears",
-          "heat"
-        ]
-      },
-      {
-        "text": "Families forage together and watch for danger.",
-        "scene": "Show adult and pup.",
-        "tags": [
-          "family"
-        ]
-      },
-      {
-        "text": "Every strange feature serves insect hunting.",
-        "scene": "Finish on active ears in natural posture.",
-        "tags": [
-          "payoff"
-        ]
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20red%20foxes%20playing.webm",
+        "assetTitle": "Young red foxes playing.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       }
     ],
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
+    "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "caption": "The bat-eared fox turned giant ears and dozens of tiny teeth into an insect-hunting system. 🦊\n\n#BatEaredFox #OtocyonMegalotis #AnimalFacts #AfricanWildlife #NatureFacts #WildVox",
-    "revision": "2026-10-08-five-video-tiktok-batch"
+    "revision": "2026-10-24-restart"
   },
-  "indian_peafowl": {
-    "title": "A PEACOCK'S COLORS ARE BUILT FROM LIGHT",
-    "script": "A peacock's blue and green shine is not created by ordinary pigment alone. Microscopic structures inside the feathers reflect and interfere with light, producing colors that shift as the viewing angle changes. The enormous train is made from elongated upper tail coverts, not the true tail feathers. Each eye-like marking is called an ocellus. During courtship, the male fans the train, turns it toward a female, and vibrates the feathers so the display shimmers and rattles. Indian peafowl can fly, but they usually escape danger by running and reserve flight for short bursts or reaching a safe roost.",
+  "bald_eagle_aerial_survival": {
+    "title": "WHY A BALD EAGLE GETS CHASED BY SMALLER BIRDS",
+    "script": "A bald eagle is a powerful predator, but smaller birds can chase it away. Ravens sometimes mob eagles near nesting or feeding areas. The eagle's broad wings are built for efficient soaring, not for winning every aerial argument. It scans water for fish, grabs food with curved talons, and sometimes scavenges. Young bald eagles lack the famous white head and tail. They gain adult plumage over several years. Even a top predator must choose its battles, and sometimes the smallest bird wins the airspace.",
+    "caption": "Even bald eagles get chased by smaller birds. 🦅 #BaldEagle #BirdFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Pavo_cristatus.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Indian peafowl"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20240221%20juvenile%20bald%20eagles%20keeney%20cove.webm",
+        "assetTitle": "20240221 juvenile bald eagles keeney cove.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Pavo_cristatus_2.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Indian peafowl"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20being%20chased%20by%20a%20smaller%20bird.webm",
+        "assetTitle": "Bald eagle (Haliaeetus leucocephalus) being chased by a smaller bird.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/A_white_peafowl_walking.webm",
-        "license": "CC BY 4.0",
-        "assetTitle": "White Indian peafowl"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20in%20California.webm",
+        "assetTitle": "Bald eagle (Haliaeetus leucocephalus) in California.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Barata_pavo%2C_anasoj_kaj_kokoj_en_la_animala_rehabilitejo_%22%C4%88e_Lukomorje%22_01.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Indian peafowl"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagle%20(Haliaeetus%20leucocephalus)%20in%20USA.webm",
+        "assetTitle": "Bald Eagle (Haliaeetus leucocephalus) in USA.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/Indian_peacock_%28Pavo_cristatus%29_displaying_for_peahen.webm",
-        "license": "CC BY-SA 2.0",
-        "assetTitle": "Peacock displaying"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20in%20wilidlife%20refuge.ogv",
+        "assetTitle": "Bald eagle (Haliaeetus leucocephalus) in wilidlife refuge.ogv",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Indian_peafowl_%28Pavo_cristatus%29_displaying.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Indian peafowl displaying"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagle%207261.ogg",
+        "assetTitle": "Bald Eagle 7261.ogg",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Pavo_cristatus_in_World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Indian peafowl"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagles%20Mating%20in%20Greater%20Toronto%20Area.webm",
+        "assetTitle": "Bald Eagles Mating in Greater Toronto Area.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Peacock_Courtship_and_Mating_Ritual_in_the_Wild.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Peacock courtship"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Peacock_dance%2C_at_Botanical_Garden_Hyderabad.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Peacock display"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Peacock_walking_and_eating.webm",
-        "license": "CC0",
-        "assetTitle": "Peacock walking"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20feeding%20eaglets%20on%20Seedskadee%20National%20Wildlife%20Refuge%20(27715193638).webm",
+        "assetTitle": "Bald eagle feeding eaglets on Seedskadee National Wildlife Refuge (27715193638).webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       }
     ],
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
+    "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "caption": "A peacock's shimmering display is a light-bending structure, not simple paint. 🦚\n\n#Peacock #Peafowl #BirdFacts #AnimalFacts #NatureFacts #WildVox",
-    "revision": "2026-10-08-five-video-tiktok-batch"
+    "revision": "2026-10-24-restart"
   },
-  "giant_panda": {
-    "title": "A PANDA HAS A SIXTH FINGER THAT ISN'T A FINGER",
-    "script": "A giant panda grips bamboo with something that looks like a thumb, but it is actually an enlarged wrist bone covered by a fleshy pad. This pseudo-thumb presses stalks against the true fingers while powerful jaws crush the fibers. The panda belongs to the order Carnivora and still has a digestive system more like a meat eater's than a specialized herbivore's. Bamboo passes through inefficiently, so the animal spends much of the day eating enormous quantities and resting to conserve energy. Its famous body plan is therefore a collection of compromises: a bear-like ancestor remodeled just enough to survive on a difficult grass.",
+  "sea_otter_kelp_guardian": {
+    "title": "THE FURRY PREDATOR THAT PROTECTS KELP FORESTS",
+    "script": "A sea otter looks like a floating teddy bear, but it can change the health of an entire coastline. Sea otters eat sea urchins, crabs and other shellfish. When urchins become too abundant, they can chew through kelp and leave underwater barrens. By eating urchins, otters can help kelp forests recover and shelter many other species. Some sea otters use stones to crack hard shells. They have extremely dense fur rather than the thick blubber of many other marine mammals. Grooming traps air in the fur, keeping cold water away from the skin. Mothers may leave pups floating at the surface while they dive for food. A pup's fluffy coat helps it stay buoyant. Otters spend a great deal of energy searching for meals in chilly water. Every dive matters. Protecting a playful-looking predator can also protect a whole underwater forest. Sometimes the ocean's best gardener never plants anything. Without enough otters, urchins can spread and strip kelp from the seafloor. With otters present, these underwater habitats have a better chance to recover.",
+    "caption": "Sea otters protect kelp forests. 🦦🌊 #SeaOtter #KelpForest #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/BaoBao_the_Panda_having_a_snack_in_the_snow.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Giant panda Bao Bao"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter%20(Enhydra%20lutris).webm",
+        "assetTitle": "Sea otter (Enhydra lutris).webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Chengdu_Research_Base_of_Giant_Panda_Breeding-P1680515_Date_2019-12-27.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Giant panda"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter.%20Enhydra%20lutris%20video.webm",
+        "assetTitle": "Sea otter. Enhydra lutris video.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Female_panda_and_cub.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Female giant panda and cub"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20(Enhydra%20lutris)%20in%20a%20zoo.webm",
+        "assetTitle": "Sea otters (Enhydra lutris) in a zoo.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Giant_panda_%28Ailuropoda_melanoleuca%29_in_a_zoo.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Giant panda"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2011.webm",
+        "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 11.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Giant panda feeding"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
+        "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 12.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014_-_%281%29.webm",
-        "license": "CC BY 2.0",
-        "assetTitle": "Giant panda feeding"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tips%20to%20help%20keep%20sea%20otters%20wild%20(29897472208).webm",
+        "assetTitle": "Tips to help keep sea otters wild (29897472208).webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Panda_Jia_Jia.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Giant panda Jia Jia"
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serenity%20in%20the%20slough%20video%20(43572305502).webm",
+        "assetTitle": "Serenity in the slough video (43572305502).webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       },
       {
         "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Panda_at_Smithsonian_zoo.webm",
-        "license": "CC BY-SA 4.0",
-        "assetTitle": "Giant panda"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Panda_at_the_zoo_in_Beijing_just_chilling.webm",
-        "license": "CC BY 4.0",
-        "assetTitle": "Giant panda"
-      },
-      {
-        "type": "video",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Russia%27s_first_giant_panda_cub_meets_public_in_Moscow.webm",
-        "license": "CC BY 3.0",
-        "assetTitle": "Giant panda cub"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 30,
-    "max_duration": 45,
-    "caption": "A panda's extra 'thumb' is really a remodeled wrist bone built to grip bamboo. 🐼\n\n#GiantPanda #PandaFacts #AnimalFacts #WildlifeTok #NatureFacts #WildVox",
-    "revision": "2026-10-08-five-video-tiktok-batch"
-  },
-  "snow_leopard": {
-    "title": "THE SNOW LEOPARD IS BUILT LIKE A MOUNTAIN GHOST",
-    "script": "A snow leopard survives where a single wrong step can mean a fatal fall. Its broad, fur-covered paws spread weight across snow like natural snowshoes and cushion the feet against sharp rock. Short front legs and powerful longer hind legs launch the cat across broken terrain, while an exceptionally long tail works as a counterbalance during turns and jumps. When the animal rests, that same tail can wrap around the face like a scarf. Thick gray fur and dark rosettes dissolve against stone, shadow, and snow, which is why the species is called the ghost of the mountains. Snow leopards live across high ranges in twelve Asian countries and may climb thousands of meters as prey and seasons shift. Their flexible chest and enlarged nasal passages help with steep, cold environments, but camouflage cannot protect them from disappearing habitat, declining prey, or retaliatory killing after livestock losses. Camera traps identify individuals by unique spot patterns, turning each coat into a fingerprint. The final paradox is perfect: this cat is designed to vanish from sight, so scientists must work even harder to prove where it still survives.",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35922368/15239729_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow leopard walking in winter",
-        "tags": [
-          "hook",
-          "walking"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/36832132/15605237_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow leopard resting in snow",
-        "tags": [
-          "fur",
-          "camouflage"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35475945/15029349_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow leopard winter habitat",
-        "tags": [
-          "habitat",
-          "resting"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35475865/15029321_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow leopard on snowy platform",
-        "tags": [
-          "tail",
-          "balance"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35475822/15029301_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow leopard in winter",
-        "tags": [
-          "paws",
-          "snow"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35681378/15121534_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow leopard on platform",
-        "tags": [
-          "terrain",
-          "movement"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35427150/15010352_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow leopard jumping",
-        "tags": [
-          "jump",
-          "hindlegs"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/36832099/15605227_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow leopard perched high",
-        "tags": [
-          "climbing",
-          "mountain"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/35919991/15238614_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow leopard resting",
-        "tags": [
-          "rosettes",
-          "identity"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://videos.pexels.com/video-files/36481146/15469130_1440_2560_30fps.mp4",
-        "license": "Pexels License",
-        "assetTitle": "Snow leopard rolling in snow",
-        "tags": [
-          "behavior",
-          "payoff"
-        ]
-      }
-    ],
-    "visual_plan": [
-      {
-        "text": "One wrong step can be fatal in snow leopard terrain.",
-        "scene": "Open with active movement in snow.",
-        "tags": [
-          "hook"
-        ]
-      },
-      {
-        "text": "Broad furry paws act like snowshoes.",
-        "scene": "Show full paws and body over snow.",
-        "tags": [
-          "paws"
-        ]
-      },
-      {
-        "text": "Powerful hind legs launch the cat.",
-        "scene": "Use the jumping clip.",
-        "tags": [
-          "jump",
-          "hindlegs"
-        ]
-      },
-      {
-        "text": "The long tail balances the body.",
-        "scene": "Show tail extended on a platform.",
-        "tags": [
-          "tail",
-          "balance"
-        ]
-      },
-      {
-        "text": "The tail also becomes a scarf while resting.",
-        "scene": "Cut to a curled resting posture.",
-        "tags": [
-          "resting"
-        ]
-      },
-      {
-        "text": "Rosettes dissolve against rock and snow.",
-        "scene": "Use the strongest camouflage view.",
-        "tags": [
-          "camouflage",
-          "fur"
-        ]
-      },
-      {
-        "text": "The species moves across high Asian mountains.",
-        "scene": "Show elevated terrain and climbing.",
-        "tags": [
-          "mountain",
-          "climbing"
-        ]
-      },
-      {
-        "text": "Spot patterns identify individuals.",
-        "scene": "Hold a clear side profile with rosettes.",
-        "tags": [
-          "rosettes",
-          "identity"
-        ]
-      },
-      {
-        "text": "This mountain ghost is hard to count and protect.",
-        "scene": "Finish on natural behavior in snow.",
-        "tags": [
-          "payoff"
-        ]
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Broll%20-%20Southern%20sea%20otters%20at%20Elkhorn%20Slough%20in%20Moss%20Landing%2C%20California%20Video%20by%20USFWS%20(28833083527).webm",
+        "assetTitle": "Broll - Southern sea otters at Elkhorn Slough in Moss Landing, California Video by USFWS (28833083527).webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       }
     ],
     "min_unique_videos": 8,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
+    "max_freeze_seconds": 0,
     "min_duration": 60,
     "max_duration": 75,
-    "caption": "Every part of the snow leopard is engineered for cold, cliffs, and disappearance. ❄️🐆\n\n#SnowLeopard #PantheraUncia #AnimalAdaptations #WildlifeConservation #NatureFacts #WildVox",
-    "revision": "2026-10-08-five-video-tiktok-batch"
+    "revision": "2026-10-24-restart"
+  },
+  "african_bush_elephant_bee_alarm": {
+    "title": "WHY ELEPHANTS WARN EACH OTHER ABOUT BEES",
+    "script": "An African bush elephant is the largest living land animal, yet angry bees can make it move away. Researchers have observed elephants responding to buzzing and producing alarm calls that warn others. Bees can sting sensitive skin around the eyes and inside the trunk. That trunk is a remarkable tool for smelling, drinking, grasping food and gentle contact. Elephant families communicate with deep rumbles and touch. Older females help guide calves away from danger. Young elephants learn which sounds matter by watching adults. Herds cooperate when finding water and protecting vulnerable members. They also splash, feed and explore together. A trunk contains thousands of muscles but no bones, allowing precise movement even in a giant animal. The surprising lesson is that being enormous does not make an elephant fearless. Sometimes survival depends on noticing a tiny threat early and sharing the warning with family. Researchers have studied beehive fences to help discourage elephants from entering farms, potentially reducing conflict while protecting both crops and wildlife.",
+    "caption": "Even elephants respect angry bees. 🐘🐝 #AfricanElephant #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20young%20African%20elephant%20resting.webm",
+        "assetTitle": "A young African elephant resting.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20bush%20elephants%20(Loxodonta%20africana).webm",
+        "assetTitle": "African bush elephants (Loxodonta africana).webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20elephant%20(Loxodonta%20africana)%20rumbling.webm",
+        "assetTitle": "African elephant (Loxodonta africana) rumbling.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20Elephant%20Feeding%20in%20a%20Game%20Park.webm",
+        "assetTitle": "African Elephant Feeding in a Game Park.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20elephants%20(Loxodonta%20africana)%20splashing.webm",
+        "assetTitle": "African elephants (Loxodonta africana) splashing.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bee-Threat-Elicits-Alarm-Call-in-African-Elephants-pone.0010346.s004.ogv",
+        "assetTitle": "Bee-Threat-Elicits-Alarm-Call-in-African-Elephants-pone.0010346.s004.ogv",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20bathing-001.ogv",
+        "assetTitle": "Elephant bathing-001.ogv",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20drinking%20water%20-%20KNP%20-%20001.ogv",
+        "assetTitle": "Elephant drinking water - KNP - 001.ogv",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%2C%20Mana%20Pools%20National%20Park.webm",
+        "assetTitle": "Elephants, Mana Pools National Park.webm",
+        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      }
+    ],
+    "min_unique_videos": 8,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 60,
+    "max_duration": 75,
+    "revision": "2026-10-24-restart"
   }
 }
