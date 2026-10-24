@@ -32,9 +32,10 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tips%20to%20help%20keep%20sea%20otters%20wild%20(29897472208).webm",
-      "assetTitle": "Tips to help keep sea otters wild (29897472208).webm",
-      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20Monterey%20Bay%20Aquarium%201.ogv",
+      "assetTitle": "Sea otters Monterey Bay Aquarium 1.ogv",
+      "license": "CC BY-SA 3.0",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_otters_Monterey_Bay_Aquarium_1.ogv"
     },
     {
       "type": "video",

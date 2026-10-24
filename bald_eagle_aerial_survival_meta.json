@@ -8,9 +8,10 @@
   "sources": [
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20240221%20juvenile%20bald%20eagles%20keeney%20cove.webm",
-      "assetTitle": "20240221 juvenile bald eagles keeney cove.webm",
-      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagles%20(18731656064).webm",
+      "assetTitle": "Bald Eagles (18731656064).webm",
+      "license": "Public domain (U.S. Fish and Wildlife Service)",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_Eagles_(18731656064).webm"
     },
     {
       "type": "video",
