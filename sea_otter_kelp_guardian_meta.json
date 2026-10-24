@@ -51,9 +51,11 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2011.webm",
-      "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 11.webm",
-      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication. Short 6-second reserve source; selection should prefer longer verified clips."
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otter%20playing%20-%202015%2011%2008.ogv",
+      "assetTitle": "Otter playing - 2015 11 08.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Otter_playing_-_2015_11_08.ogv",
+      "license": "CC BY 4.0",
+      "license_note": "Own work by Nesnad; Wikimedia Commons lists in Enhydra lutris (captive); 49-second video; use only shots visibly showing sea otters, never imply captive shots are wild kelp habitat."
     }
   ],
   "review_sheet": "sea_otter_kelp_guardian_review.jpg",
