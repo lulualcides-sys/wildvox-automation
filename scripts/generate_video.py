@@ -137,10 +137,21 @@ Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
         f"Dialogue: 3,{ass_time(0)},{ass_time(duration)},Brand,,0,0,0,,{{\\an7}}WILD{{\\c&H616FFF&}}VOX"
     ]
 
-    group_size = 4
+    # Caption lines must fit the safe portrait width; four long words
+    # previously overflowed the frame on phrases like "EYEBROW FEATHERS".
+    word_groups = []
+    group_start = 0
+    while group_start < len(words):
+        group_end = group_start + 1
+        while (group_end < len(words)
+               and group_end - group_start < 4
+               and len(" ".join(words[group_start:group_end + 1])) <= 22):
+            group_end += 1
+        word_groups.extend([(group_start, group_end)] * (group_end - group_start))
+        group_start = group_end
+
     for i, (st, en) in enumerate(zip(starts, ends)):
-        gs = (i // group_size) * group_size
-        ge = min(len(words), gs + group_size)
+        gs, ge = word_groups[i]
         pieces = []
         for j in range(gs, ge):
             word = ass_escape(words[j].upper())
