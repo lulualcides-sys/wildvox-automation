@@ -117,15 +117,23 @@ Style: Brand,DejaVu Sans,34,&H00FFFFFF,&H00FFFFFF,&H00000000,&H70000000,-1,0,0,0
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
 """
-    title_words = title.split()
-    if len(title_words) > 4:
-        mid = max(2, len(title_words)//2)
-        hook = " ".join(title_words[:mid]) + r"\N" + " ".join(title_words[mid:])
-    else:
-        hook = title
+    # Keep the hook readable inside 1080px even for long animal titles.
+    # Escape each line separately so ASS hard line breaks remain functional.
+    hook_lines = []
+    current_line = ""
+    for word in title.split():
+        proposed = (current_line + " " + word).strip()
+        if current_line and len(proposed) > 18:
+            hook_lines.append(current_line)
+            current_line = word
+        else:
+            current_line = proposed
+    if current_line:
+        hook_lines.append(current_line)
+    hook = r"\N".join(ass_escape(line) for line in hook_lines)
 
     events = [
-        f"Dialogue: 2,{ass_time(0)},{ass_time(min(2.05,duration))},Hook,,0,0,0,,{{\\an8}}{ass_escape(hook)}",
+        f"Dialogue: 2,{ass_time(0)},{ass_time(min(2.05,duration))},Hook,,0,0,0,,{{\\an8}}{hook}",
         f"Dialogue: 3,{ass_time(0)},{ass_time(duration)},Brand,,0,0,0,,{{\\an7}}WILD{{\\c&H616FFF&}}VOX"
     ]
 
@@ -515,11 +523,19 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
         shot_len = remaining if i == nshots - 1 else base_shot_len
         out = WORK / f"{key}_shot_{i:02d}.mp4"
 
-        # No zoompan, no animated scaling and no crop on the foreground.
-        # Media is fitted once to the 9:16 canvas and padded.
+        # Preserve the complete uncropped original shot and fill portrait
+        # sidebands with a dimmed, blurred copy instead of giant black bars.
+        # The background is cropped only as decoration; the foreground is not.
+        # No synthetic motion, zoompan, or repeated footage is introduced.
         vf = (
-            "scale=1080:1920:force_original_aspect_ratio=decrease,"
-            "pad=1080:1920:(ow-iw)/2:(oh-ih)/2:black,setsar=1,fps=30"
+            "split=2[bg][fg];"
+            "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
+            "crop=1080:1920,boxblur=16:1,"
+            "eq=brightness=-0.12:saturation=0.7[back];"
+            "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,"
+            "setsar=1[front];"
+            "[back][front]overlay=(W-w)/2:(H-h)/2:shortest=1,"
+            "setsar=1,fps=30"
         )
 
         if media_type == "image":
