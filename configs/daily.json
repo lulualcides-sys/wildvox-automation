@@ -273,7 +273,7 @@
   },
   "african_bush_elephant_bee_alarm": {
     "title": "WHY ELEPHANTS WARN EACH OTHER ABOUT BEES",
-    "script": "An African bush elephant is the largest living land animal, yet angry bees can make it move away. Researchers have observed elephants responding to buzzing and producing alarm calls that warn others. Bees can sting sensitive skin around the eyes and inside the trunk. That trunk is a remarkable tool for smelling, drinking, grasping food and gentle contact. Elephant families communicate with deep rumbles and touch. Older females help guide calves away from danger. Young elephants learn which sounds matter by watching adults. Herds cooperate when finding water and protecting vulnerable members. They also splash, feed and explore together. A trunk contains thousands of muscles but no bones, allowing precise movement even in a giant animal. The surprising lesson is that being enormous does not make an elephant fearless. Sometimes survival depends on noticing a tiny threat early and sharing the warning with family. Researchers have studied beehive fences to help discourage elephants from entering farms, potentially reducing conflict while protecting both crops and wildlife.",
+    "script": "Even the world's largest land animal can be scared away by something tiny: bees. African bush elephants have sensitive skin around their eyes and trunks, so stings are a real threat. Researchers found that elephants react to buzzing and make special alarm calls that warn the herd. Families can then move away together. Elephants use deep rumbles and touch to communicate, and experienced adults help protect calves. Scientists have even tested beehive fences to discourage elephants from entering farms. Imagine being a giant, and your biggest warning sound comes from a buzzing bee.",
     "caption": "Even elephants respect angry bees. 🐘🐝 #AfricanElephant #WildVox",
     "sources": [
       {
@@ -335,8 +335,8 @@
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
-    "min_duration": 60,
-    "max_duration": 75,
-    "revision": "2026-10-24-restart"
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-24-elephant-45s"
   }
 }
