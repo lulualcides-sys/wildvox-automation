@@ -82,7 +82,7 @@ jobs:
 
   publish-media:
     needs: render
-    if: ${{ always() && (needs.render.result == 'success' || needs.render.result == 'failure') }}
+    if: ${{ needs.render.result == 'success' }}
     runs-on: ubuntu-latest
     concurrency:
       group: wildvox-media-branch
@@ -101,7 +101,15 @@ jobs:
           set -euo pipefail
           rm -rf /tmp/wildvox-public /tmp/wildvox-media-branch
           mkdir -p /tmp/wildvox-public
-          cp public/*.mp4 /tmp/wildvox-public/
+          shopt -s nullglob
+          videos=(public/*.mp4)
+          metas=(public/*_meta.json)
+          reviews=(public/*_review.jpg)
+          if [ "${#videos[@]}" -ne 5 ] || [ "${#metas[@]}" -ne 5 ] || [ "${#reviews[@]}" -ne 5 ]; then
+            echo "Expected exactly 5 complete rendered videos, metadata and review images" >&2
+            exit 1
+          fi
+          cp "${videos[@]}" /tmp/wildvox-public/
           cp public/*_meta.json /tmp/wildvox-public/
           cp public/*_review.jpg /tmp/wildvox-public/
 
