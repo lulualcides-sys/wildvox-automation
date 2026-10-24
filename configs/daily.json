@@ -38,6 +38,16 @@
           "animal",
           "breeding"
         ]
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiordland%20Crested%20Penguin.jpg",
+        "license": "CC BY-SA 2.0",
+        "license_note": "Author travelwayoflife; Wikimedia Commons File:Fiordland Crested Penguin.jpg; attribution and share-alike requirements apply.",
+        "tags": [
+          "travel",
+          "crest"
+        ]
       }
     ],
     "visual_plan": [
@@ -66,6 +76,13 @@
         ]
       },
       {
+        "text": "After breeding, tawaki travel far to find food.",
+        "scene": "Use the distinct verified Fiordland crested penguin photograph from Munro Beach.",
+        "tags": [
+          "travel"
+        ]
+      },
+      {
         "text": "Tawaki travel far after breeding, and scientists are still discovering their secrets.",
         "scene": "Finish on verified exact-species Fiordland crested penguin portrait.",
         "tags": [
@@ -89,7 +106,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-24-penguin-4-photo-plan"
+    "revision": "2026-10-24-penguin-5-verified-photos"
   },
   "red_fox_mousing": {
     "title": "WHY FOXES DIVE HEADFIRST INTO THE GROUND",
