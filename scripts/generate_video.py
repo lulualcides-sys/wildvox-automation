@@ -257,9 +257,11 @@ def validate_daily_batch(data):
         if not 0 <= max_freeze <= 1.0:
             raise RuntimeError(f"{key} max_freeze_seconds must be at most 1")
 
-    if short_count != 3 or long_count != 2:
+    # WildVox TikTok-only policy: exactly five 30-45s videos per day.
+    # Never let a legacy 60-75s quota block the five approved short videos.
+    if short_count != 5 or long_count != 0:
         raise RuntimeError(
-            f"daily.json must contain exactly 3 short and 2 long videos; "
+            f"daily.json must contain exactly 5 short (30-45s) videos and no long videos; "
             f"found {short_count} short and {long_count} long"
         )
 
