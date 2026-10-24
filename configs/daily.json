@@ -66,15 +66,8 @@
         ]
       },
       {
-        "text": "The birds travel far before molting.",
-        "scene": "Show exact-species tawaki; do not substitute another penguin.",
-        "tags": [
-          "crest"
-        ]
-      },
-      {
-        "text": "Scientists are still discovering tawaki secrets.",
-        "scene": "Finish on sharpest exact-species photo.",
+        "text": "Tawaki travel far after breeding, and scientists are still discovering their secrets.",
+        "scene": "Finish on verified exact-species Fiordland crested penguin portrait.",
         "tags": [
           "crest",
           "payoff"
@@ -96,7 +89,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-24-restart"
+    "revision": "2026-10-24-penguin-4-photo-plan"
   },
   "red_fox_mousing": {
     "title": "WHY FOXES DIVE HEADFIRST INTO THE GROUND",
@@ -224,7 +217,7 @@
   },
   "sea_otter_kelp_guardian": {
     "title": "THE FURRY PREDATOR THAT PROTECTS KELP FORESTS",
-    "script": "A sea otter looks like a floating teddy bear, but it can change the health of an entire coastline. Sea otters eat sea urchins, crabs and other shellfish. When urchins become too abundant, they can chew through kelp and leave underwater barrens. By eating urchins, otters can help kelp forests recover and shelter many other species. Some sea otters use stones to crack hard shells. They have extremely dense fur rather than the thick blubber of many other marine mammals. Grooming traps air in the fur, keeping cold water away from the skin. Mothers may leave pups floating at the surface while they dive for food. A pup's fluffy coat helps it stay buoyant. Otters spend a great deal of energy searching for meals in chilly water. Every dive matters. Protecting a playful-looking predator can also protect a whole underwater forest. Sometimes the ocean's best gardener never plants anything. Without enough otters, urchins can spread and strip kelp from the seafloor. With otters present, these underwater habitats have a better chance to recover.",
+    "script": "A sea otter looks like a floating teddy bear, but this little predator helps protect an entire underwater forest. Sea otters eat sea urchins. Without enough otters, urchins can multiply and chew through kelp forests, leaving barren seafloors. With otters around, kelp has a better chance to recover, sheltering fish and other ocean life. Some otters even use rocks to crack open shellfish. And unlike seals, they rely on incredibly dense fur to stay warm. The surprise? One fluffy sea otter can help an entire kelp forest thrive.",
     "caption": "Sea otters protect kelp forests. 🦦🌊 #SeaOtter #KelpForest #WildVox",
     "sources": [
       {
@@ -270,13 +263,13 @@
         "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
       }
     ],
-    "min_unique_videos": 8,
-    "target_shot_seconds": 7,
+    "min_unique_videos": 7,
+    "target_shot_seconds": 6,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
-    "min_duration": 60,
-    "max_duration": 75,
-    "revision": "2026-10-24-restart"
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-24-otter-45s-verified-sources"
   },
   "african_bush_elephant_bee_alarm": {
     "title": "WHY ELEPHANTS WARN EACH OTHER ABOUT BEES",
