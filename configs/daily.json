@@ -177,6 +177,13 @@
     "sources": [
       {
         "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagles%20(18731656064).webm",
+        "assetTitle": "Bald Eagles (18731656064).webm",
+        "license": "Public domain (U.S. Fish and Wildlife Service)",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_Eagles_(18731656064).webm"
+      },
+      {
+        "type": "video",
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20being%20chased%20by%20a%20smaller%20bird.webm",
         "assetTitle": "Bald eagle (Haliaeetus leucocephalus) being chased by a smaller bird.webm",
         "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
@@ -224,7 +231,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-24-remove-unrelated-dog-footage"
+    "revision": "2026-10-24-eagle-8-verified-replace-dog"
   },
   "sea_otter_kelp_guardian": {
     "title": "THE FURRY PREDATOR THAT PROTECTS KELP FORESTS",
@@ -257,6 +264,13 @@
       },
       {
         "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20Monterey%20Bay%20Aquarium%201.ogv",
+        "assetTitle": "Sea otters Monterey Bay Aquarium 1.ogv",
+        "license": "CC BY-SA 3.0",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_otters_Monterey_Bay_Aquarium_1.ogv"
+      },
+      {
+        "type": "video",
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serenity%20in%20the%20slough%20video%20(43572305502).webm",
         "assetTitle": "Serenity in the slough video (43572305502).webm",
         "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
@@ -280,7 +294,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-24-remove-unrelated-human-presenter"
+    "revision": "2026-10-24-otter-8-verified-replace-presenter"
   },
   "african_bush_elephant_bee_alarm": {
     "title": "WHY ELEPHANTS WARN EACH OTHER ABOUT BEES",
