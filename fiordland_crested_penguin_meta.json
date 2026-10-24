@@ -1,0 +1,63 @@
+{
+  "key": "fiordland_crested_penguin",
+  "title": "THE PENGUIN THAT NESTS IN A RAINFOREST",
+  "caption": "A penguin that nests in the rainforest. 🐧🌿 #FiordlandPenguin #Tawaki #WildVox",
+  "duration": 35.5,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiordland%20Penguin.jpg",
+      "license": "CC BY 2.0",
+      "tags": [
+        "hook",
+        "crest"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes%20pachyrhynchus%201200189.jpg",
+      "license": "CC BY 4.0",
+      "tags": [
+        "crest",
+        "payoff"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes%20pachyrhynchus%2031079778.jpg",
+      "license": "CC BY 4.0",
+      "tags": [
+        "animal",
+        "habitat"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes%20pachyrhynchus%204342035.jpg",
+      "tags": [
+        "animal",
+        "breeding"
+      ]
+    },
+    {
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiordland%20Crested%20Penguin.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_note": "Author travelwayoflife; Wikimedia Commons File:Fiordland Crested Penguin.jpg; attribution and share-alike requirements apply.",
+      "tags": [
+        "travel",
+        "crest"
+      ]
+    }
+  ],
+  "review_sheet": "fiordland_crested_penguin_review.jpg",
+  "music": null,
+  "trend_exception": {
+    "photo_only_allowed": true,
+    "evidence_url": "https://www.theguardian.com/world/2026/oct/17/secrets-of-new-zealand-fiordland-crested-penguin-tawaki",
+    "evidence_published_date": "2026-10-16",
+    "reason": "Insufficient pool of six verified reusable exact-species videos; use authentic exact-species CC photographs instead of footage from other penguin species."
+  }
+}

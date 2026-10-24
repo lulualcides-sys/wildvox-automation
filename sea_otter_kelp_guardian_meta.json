@@ -1,0 +1,61 @@
+{
+  "key": "sea_otter_kelp_guardian",
+  "title": "THE FURRY PREDATOR THAT PROTECTS KELP FORESTS",
+  "caption": "Sea otters protect kelp forests. 🦦🌊 #SeaOtter #KelpForest #WildVox",
+  "duration": 33.5,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter%20(Enhydra%20lutris).webm",
+      "assetTitle": "Sea otter (Enhydra lutris).webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter.%20Enhydra%20lutris%20video.webm",
+      "assetTitle": "Sea otter. Enhydra lutris video.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20(Enhydra%20lutris)%20in%20a%20zoo.webm",
+      "assetTitle": "Sea otters (Enhydra lutris) in a zoo.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
+      "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 12.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tips%20to%20help%20keep%20sea%20otters%20wild%20(29897472208).webm",
+      "assetTitle": "Tips to help keep sea otters wild (29897472208).webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serenity%20in%20the%20slough%20video%20(43572305502).webm",
+      "assetTitle": "Serenity in the slough video (43572305502).webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Broll%20-%20Southern%20sea%20otters%20at%20Elkhorn%20Slough%20in%20Moss%20Landing%2C%20California%20Video%20by%20USFWS%20(28833083527).webm",
+      "assetTitle": "Broll - Southern sea otters at Elkhorn Slough in Moss Landing, California Video by USFWS (28833083527).webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2011.webm",
+      "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 11.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication. Short 6-second reserve source; selection should prefer longer verified clips."
+    }
+  ],
+  "review_sheet": "sea_otter_kelp_guardian_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
