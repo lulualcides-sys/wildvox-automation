@@ -280,6 +280,14 @@
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Broll%20-%20Southern%20sea%20otters%20at%20Elkhorn%20Slough%20in%20Moss%20Landing%2C%20California%20Video%20by%20USFWS%20(28833083527).webm",
         "assetTitle": "Broll - Southern sea otters at Elkhorn Slough in Moss Landing, California Video by USFWS (28833083527).webm",
         "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otter%20playing%20-%202015%2011%2008.ogv",
+        "assetTitle": "Otter playing - 2015 11 08.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Otter_playing_-_2015_11_08.ogv",
+        "license": "CC BY 4.0",
+        "license_note": "Own work by Nesnad; Wikimedia Commons lists in Enhydra lutris (captive); 49-second video; use only shots visibly showing sea otters, never imply captive shots are wild kelp habitat."
       }
     ],
     "min_unique_videos": 7,
@@ -288,7 +296,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-24-otter-remove-6s-source-pacing-fix"
+    "revision": "2026-10-24-otter-8-verified-unique-assets-repair"
   },
   "african_bush_elephant_bee_alarm": {
     "title": "WHY ELEPHANTS WARN EACH OTHER ABOUT BEES",
