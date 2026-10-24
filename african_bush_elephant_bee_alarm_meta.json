@@ -1,0 +1,67 @@
+{
+  "key": "african_bush_elephant_bee_alarm",
+  "title": "WHY ELEPHANTS WARN EACH OTHER ABOUT BEES",
+  "caption": "Even elephants respect angry bees. 🐘🐝 #AfricanElephant #WildVox",
+  "duration": 69.5,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20young%20African%20elephant%20resting.webm",
+      "assetTitle": "A young African elephant resting.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20bush%20elephants%20(Loxodonta%20africana).webm",
+      "assetTitle": "African bush elephants (Loxodonta africana).webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20elephant%20(Loxodonta%20africana)%20rumbling.webm",
+      "assetTitle": "African elephant (Loxodonta africana) rumbling.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20Elephant%20Feeding%20in%20a%20Game%20Park.webm",
+      "assetTitle": "African Elephant Feeding in a Game Park.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20elephants%20(Loxodonta%20africana)%20splashing.webm",
+      "assetTitle": "African elephants (Loxodonta africana) splashing.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bee-Threat-Elicits-Alarm-Call-in-African-Elephants-pone.0010346.s004.ogv",
+      "assetTitle": "Bee-Threat-Elicits-Alarm-Call-in-African-Elephants-pone.0010346.s004.ogv",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20bathing-001.ogv",
+      "assetTitle": "Elephant bathing-001.ogv",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20drinking%20water%20-%20KNP%20-%20001.ogv",
+      "assetTitle": "Elephant drinking water - KNP - 001.ogv",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%2C%20Mana%20Pools%20National%20Park.webm",
+      "assetTitle": "Elephants, Mana Pools National Park.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    }
+  ],
+  "review_sheet": "african_bush_elephant_bee_alarm_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

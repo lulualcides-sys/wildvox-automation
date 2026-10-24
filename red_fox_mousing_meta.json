@@ -1,0 +1,61 @@
+{
+  "key": "red_fox_mousing",
+  "title": "WHY FOXES DIVE HEADFIRST INTO THE GROUND",
+  "caption": "A fox faceplant is a hunting move. 🦊 #RedFox #FoxFacts #WildVox",
+  "duration": 37.45,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20hunting.webm",
+      "assetTitle": "Red fox hunting.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20looking%20for%20a%20mouse.webm",
+      "assetTitle": "Red fox (Vulpes vulpes) looking for a mouse.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20catches%20a%20mouse.webm",
+      "assetTitle": "Red fox catches a mouse.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20and%20her%20pups.webm",
+      "assetTitle": "Red fox (Vulpes vulpes) and her pups.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20kits%20playing.webm",
+      "assetTitle": "Red fox kits playing.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Urban%20fox%20at%20night.webm",
+      "assetTitle": "Urban fox at night.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20pups%20playing%20along%20Owens%20Bay%20Nature%20Trail%20(53369021529).webm",
+      "assetTitle": "Red fox pups playing along Owens Bay Nature Trail (53369021529).webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20red%20foxes%20playing.webm",
+      "assetTitle": "Young red foxes playing.webm",
+      "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+    }
+  ],
+  "review_sheet": "red_fox_mousing_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
