@@ -11,6 +11,8 @@ on:
     - cron: "30 8 * * *"
   workflow_dispatch:
 
+# Recovery trigger: 2026-10-24. Keep scheduled daily runs and QA gates intact.
+
 permissions:
   contents: write
 
