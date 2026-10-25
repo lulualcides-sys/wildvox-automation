@@ -1,350 +1,441 @@
 {
-  "fiordland_crested_penguin": {
-    "title": "THE PENGUIN THAT NESTS IN A RAINFOREST",
-    "script": "Meet the Fiordland crested penguin, called tawaki in New Zealand. Unlike the penguins most people picture on open ice, tawaki raise chicks in dense coastal rainforest. Their yellow eyebrow feathers are unmistakable, but hidden burrows make them hard to count. Researchers have mapped more than a thousand nests, suggesting the population may be larger than earlier estimates. After breeding, the birds travel thousands of miles to feed before replacing their feathers. The twist is that scientists are still discovering how this secretive jungle penguin survives.",
-    "caption": "A penguin that nests in the rainforest. 🐧🌿 #FiordlandPenguin #Tawaki #WildVox",
+  "hummingbird_reverse_flight": {
+    "title": "THE BIRD THAT CAN FLY BACKWARDS",
+    "script": "Imagine a bird that can stop in midair, reverse, and fly sideways. Hummingbirds do it by sweeping their wings in a figure-eight pattern, generating lift on both strokes. That lets them hover beside flowers while sipping nectar with a long tongue. Some species beat their wings dozens of times every second, burning energy fast. But life is not just hovering. They build tiny nests, feed their chicks, and young birds practice before taking flight. So the next time a hummingbird seems frozen in the air, remember: its wings are doing extraordinary work.",
+    "caption": "Hummingbirds can fly backwards! 🐦✨ #Hummingbird #BirdFacts #WildVox",
     "sources": [
       {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiordland%20Penguin.jpg",
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20hovering%20in%20mid-air.ogv",
+        "assetTitle": "Hummingbird hovering in mid-air.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_hovering_in_mid-air.ogv",
         "license": "CC BY 2.0",
-        "tags": [
-          "hook",
-          "crest"
-        ]
+        "author": "Daniel Johnson",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes%20pachyrhynchus%201200189.jpg",
-        "license": "CC BY 4.0",
-        "tags": [
-          "crest",
-          "payoff"
-        ]
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HummingbirdRaw%20(edited).webm",
+        "assetTitle": "HummingbirdRaw (edited).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:HummingbirdRaw_(edited).webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Wobulatorwill",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes%20pachyrhynchus%2031079778.jpg",
-        "license": "CC BY 4.0",
-        "tags": [
-          "animal",
-          "habitat"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eudyptes%20pachyrhynchus%204342035.jpg",
-        "tags": [
-          "animal",
-          "breeding"
-        ]
-      },
-      {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiordland%20Crested%20Penguin.jpg",
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruby-throated%20hummingbird%20(Archilochus%20colubris)%20feeding.webm",
+        "assetTitle": "Ruby-throated hummingbird (Archilochus colubris) feeding.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruby-throated_hummingbird_(Archilochus_colubris)_feeding.webm",
         "license": "CC BY-SA 2.0",
-        "license_note": "Author travelwayoflife; Wikimedia Commons File:Fiordland Crested Penguin.jpg; attribution and share-alike requirements apply.",
-        "tags": [
-          "travel",
-          "crest"
-        ]
+        "author": "Eric Kilby",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Humming%20birds%20feeding%20at%201500fps.webm",
+        "assetTitle": "Humming birds feeding at 1500fps.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Humming_birds_feeding_at_1500fps.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "HopefullyUsefulContribution",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rufous%20hummingbird%20feeding%20in%20slow%20motion.webm",
+        "assetTitle": "Rufous hummingbird feeding in slow motion.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rufous_hummingbird_feeding_in_slow_motion.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "HopefullyUsefulContribution",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird.ogv",
+        "assetTitle": "Hummingbird.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird.ogv",
+        "license": "CC BY-SA 3.0",
+        "author": "Rishiraj Sahoo",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20nearly%20fledged.webm",
+        "assetTitle": "Hummingbird nearly fledged.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_nearly_fledged.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Dennis.insect.filmer",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20fledged.webm",
+        "assetTitle": "Anna's hummingbird fledged.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_fledged.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Dennis.insect.filmer",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       }
     ],
-    "visual_plan": [
-      {
-        "text": "Tawaki penguins nest in rainforests.",
-        "scene": "Use exact-species photo with yellow crest.",
-        "tags": [
-          "hook",
-          "crest"
-        ]
-      },
-      {
-        "text": "Their secluded burrows make counting difficult.",
-        "scene": "Use exact-species penguin portrait, not a fabricated burrow.",
-        "tags": [
-          "animal",
-          "breeding"
-        ]
-      },
-      {
-        "text": "Researchers mapped more than a thousand nests.",
-        "scene": "Use verified penguin photographs.",
-        "tags": [
-          "animal",
-          "habitat"
-        ]
-      },
-      {
-        "text": "After breeding, tawaki travel far to find food.",
-        "scene": "Use the distinct verified Fiordland crested penguin photograph from Munro Beach.",
-        "tags": [
-          "travel"
-        ]
-      },
-      {
-        "text": "Tawaki travel far after breeding, and scientists are still discovering their secrets.",
-        "scene": "Finish on verified exact-species Fiordland crested penguin portrait.",
-        "tags": [
-          "crest",
-          "payoff"
-        ]
-      }
-    ],
-    "trend_priority": true,
-    "trend_reason": "Fiordland tawaki research feature published 2026-10-16, amended 2026-10-19.",
-    "trend_source_url": "https://www.theguardian.com/world/2026/oct/17/secrets-of-new-zealand-fiordland-crested-penguin-tawaki",
-    "trend_published_date": "2026-10-16",
-    "trend_exception": {
-      "photo_only_allowed": true,
-      "evidence_url": "https://www.theguardian.com/world/2026/oct/17/secrets-of-new-zealand-fiordland-crested-penguin-tawaki",
-      "evidence_published_date": "2026-10-16",
-      "reason": "Insufficient pool of six verified reusable exact-species videos; use authentic exact-species CC photographs instead of footage from other penguin species."
-    },
+    "min_unique_videos": 6,
     "target_shot_seconds": 6,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-24-penguin-5-verified-photos"
+    "revision": "2026-10-25-original-hummingbird_reverse_flight"
   },
-  "red_fox_mousing": {
-    "title": "WHY FOXES DIVE HEADFIRST INTO THE GROUND",
-    "script": "A red fox sometimes jumps high and lands nose-first in grass or snow. It looks like a mistake, but the fox is hunting. Its ears pick up tiny movements of rodents hidden under cover. After listening and adjusting its position, the fox leaps to pin down its prey. That move is called mousing. Young foxes practice quick turns and pounces while playing. Adults may hide extra food to eat later. When a fox seems to be doing a dramatic faceplant, it is not clumsy. It is calculating dinner. It listens first, then launches the jump at just the right moment, turning ordinary grass into a hidden hunting ground.",
-    "caption": "A fox faceplant is a hunting move. 🦊 #RedFox #FoxFacts #WildVox",
+  "squirrel_tree_acrobats": {
+    "title": "WHY SQUIRRELS ARE TINY TREE ACROBATS",
+    "script": "A squirrel racing up a tree looks almost impossible to catch. Its sharp claws grip bark, its flexible ankles help it turn, and its fluffy tail acts like a balancing pole. Watch one leap between branches and you can see why these animals are built for the treetops. Many squirrels spend hours searching for nuts, seeds, and other food. Some bury food in separate hiding places and recover it later. Others are just busy eating right now. Their secret is not superpowers. It is a body designed for climbing, balancing, and surviving one branch at a time.",
+    "caption": "Squirrels have incredible balance. 🐿️🌳 #Squirrel #AnimalFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20hunting.webm",
-        "assetTitle": "Red fox hunting.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morton%20Arboretum%20Winter%20Squirrel%202005.webm",
+        "assetTitle": "Morton Arboretum Winter Squirrel 2005.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Morton_Arboretum_Winter_Squirrel_2005.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Patrick Pelletier",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20looking%20for%20a%20mouse.webm",
-        "assetTitle": "Red fox (Vulpes vulpes) looking for a mouse.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrels%20running%20up%20the%20wall.webm",
+        "assetTitle": "Squirrels running up the wall.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrels_running_up_the_wall.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "WizzSilent",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20catches%20a%20mouse.webm",
-        "assetTitle": "Red fox catches a mouse.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wikimania%20squirrel.webm",
+        "assetTitle": "Wikimania squirrel.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Wikimania_squirrel.webm",
+        "license": "CC BY-SA 3.0",
+        "author": "Prolineserver",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20and%20her%20pups.webm",
-        "assetTitle": "Red fox (Vulpes vulpes) and her pups.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrel%20in%20tree%20eating%20an%20apple.webm",
+        "assetTitle": "Squirrel in tree eating an apple.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrel_in_tree_eating_an_apple.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Joe Mabel",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20kits%20playing.webm",
-        "assetTitle": "Red fox kits playing.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Urban%20fox%20at%20night.webm",
-        "assetTitle": "Urban fox at night.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20pups%20playing%20along%20Owens%20Bay%20Nature%20Trail%20(53369021529).webm",
-        "assetTitle": "Red fox pups playing along Owens Bay Nature Trail (53369021529).webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20red%20foxes%20playing.webm",
-        "assetTitle": "Young red foxes playing.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-24-restart"
-  },
-  "bald_eagle_aerial_survival": {
-    "title": "WHY A BALD EAGLE GETS CHASED BY SMALLER BIRDS",
-    "script": "A bald eagle is a powerful predator, but smaller birds can chase it away. Ravens sometimes mob eagles near nesting or feeding areas. The eagle's broad wings are built for efficient soaring, not for winning every aerial argument. It scans water for fish, grabs food with curved talons, and sometimes scavenges. Young bald eagles lack the famous white head and tail. They gain adult plumage over several years. Even a top predator must choose its battles, and sometimes the smallest bird wins the airspace.",
-    "caption": "Even bald eagles get chased by smaller birds. 🦅 #BaldEagle #BirdFacts #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagles%20(18731656064).webm",
-        "assetTitle": "Bald Eagles (18731656064).webm",
-        "license": "Public domain (U.S. Fish and Wildlife Service)",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_Eagles_(18731656064).webm"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20being%20chased%20by%20a%20smaller%20bird.webm",
-        "assetTitle": "Bald eagle (Haliaeetus leucocephalus) being chased by a smaller bird.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20in%20California.webm",
-        "assetTitle": "Bald eagle (Haliaeetus leucocephalus) in California.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagle%20(Haliaeetus%20leucocephalus)%20in%20USA.webm",
-        "assetTitle": "Bald Eagle (Haliaeetus leucocephalus) in USA.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20in%20wilidlife%20refuge.ogv",
-        "assetTitle": "Bald eagle (Haliaeetus leucocephalus) in wilidlife refuge.ogv",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagle%207261.ogg",
-        "assetTitle": "Bald Eagle 7261.ogg",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagles%20Mating%20in%20Greater%20Toronto%20Area.webm",
-        "assetTitle": "Bald Eagles Mating in Greater Toronto Area.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20feeding%20eaglets%20on%20Seedskadee%20National%20Wildlife%20Refuge%20(27715193638).webm",
-        "assetTitle": "Bald eagle feeding eaglets on Seedskadee National Wildlife Refuge (27715193638).webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-24-eagle-8-verified-replace-dog"
-  },
-  "sea_otter_kelp_guardian": {
-    "title": "THE FURRY PREDATOR THAT PROTECTS KELP FORESTS",
-    "script": "A sea otter looks like a floating teddy bear, but this little predator helps protect an entire underwater forest. Sea otters eat sea urchins. Without enough otters, urchins can multiply and chew through kelp forests, leaving barren seafloors. With otters around, kelp has a better chance to recover, sheltering fish and other ocean life. Some otters even use rocks to crack open shellfish. And unlike seals, they rely on incredibly dense fur to stay warm. The surprise? One fluffy sea otter can help an entire kelp forest thrive.",
-    "caption": "Sea otters protect kelp forests. 🦦🌊 #SeaOtter #KelpForest #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter.%20Enhydra%20lutris%20video.webm",
-        "assetTitle": "Sea otter. Enhydra lutris video.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
-        "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 12.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serenity%20in%20the%20slough%20video%20(43572305502).webm",
-        "assetTitle": "Serenity in the slough video (43572305502).webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Broll%20-%20Southern%20sea%20otters%20at%20Elkhorn%20Slough%20in%20Moss%20Landing%2C%20California%20Video%20by%20USFWS%20(28833083527).webm",
-        "assetTitle": "Broll - Southern sea otters at Elkhorn Slough in Moss Landing, California Video by USFWS (28833083527).webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2011.webm",
-        "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 11.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Enhydra_lutris_-_September_2023_-_Sarah_Stierch_11.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrel%20eating%20nut.webmhd.webm",
+        "assetTitle": "Squirrel eating nut.webmhd.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrel_eating_nut.webmhd.webm",
         "license": "CC BY 4.0",
-        "license_note": "Wild sea otter filmed in Morro Bay, CA on 9 Sep 2023; Sarah Stierch; 5.96 s original clip; verified Commons source."
+        "author": "Anton Porsche",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrel%20eating%20pumpkin%20seeds.webm",
+        "assetTitle": "Squirrel eating pumpkin seeds.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrel_eating_pumpkin_seeds.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Dennis.insect.filmer",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20squirrel%20eating.webm",
+        "assetTitle": "A squirrel eating.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_squirrel_eating.webm",
+        "license": "CC BY-SA 3.0",
+        "author": "Jnanaranjan sahu",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Video%20of%20squirrel.webm",
+        "assetTitle": "Video of squirrel.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Video_of_squirrel.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Victor abiose",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       }
     ],
-    "min_unique_videos": 5,
+    "min_unique_videos": 6,
     "target_shot_seconds": 6,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-24-otter-replace-captive-source-with-verified-wild-clip"
+    "revision": "2026-10-25-original-squirrel_tree_acrobats"
   },
-  "african_bush_elephant_bee_alarm": {
-    "title": "WHY ELEPHANTS WARN EACH OTHER ABOUT BEES",
-    "script": "Even the world's largest land animal can be scared away by something tiny: bees. African bush elephants have sensitive skin around their eyes and trunks, so stings are a real threat. Researchers found that elephants react to buzzing and make special alarm calls that warn the herd. Families can then move away together. Elephants use deep rumbles and touch to communicate, and experienced adults help protect calves. Scientists have even tested beehive fences to discourage elephants from entering farms. Imagine being a giant, and your biggest warning sound comes from a buzzing bee.",
-    "caption": "Even elephants respect angry bees. 🐘🐝 #AfricanElephant #WildVox",
+  "honeybee_air_conditioning": {
+    "title": "THE BEES THAT AIR-CONDITION THEIR HIVE",
+    "script": "A honeybee hive has no electric fan, but its workers can still control the temperature. On hot days, some bees stand at the entrance and beat their wings to move air. Others collect water, which can help cool the colony as it evaporates. Meanwhile, foragers visit flowers and return with nectar and pollen. When a colony becomes crowded, a swarm may leave to find a new home. Every bee has a role, from collecting food to helping protect developing young. The surprising part? Thousands of tiny wings can work together like one living air-conditioning system.",
+    "caption": "Bees have their own air conditioning! 🐝🌼 #HoneyBee #NatureFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20young%20African%20elephant%20resting.webm",
-        "assetTitle": "A young African elephant resting.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bees%20fanning%20(1).webm",
+        "assetTitle": "Honey bees fanning (1).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_fanning_(1).webm",
+        "license": "CC BY-SA 4.0",
+        "author": "BorekT",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20bush%20elephants%20(Loxodonta%20africana).webm",
-        "assetTitle": "African bush elephants (Loxodonta africana).webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees%20actively%20swarming.webm",
+        "assetTitle": "Honeybees actively swarming.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees_actively_swarming.webm",
+        "license": "CC0 1.0",
+        "author": "Dsgridgerunner",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20elephant%20(Loxodonta%20africana)%20rumbling.webm",
-        "assetTitle": "African elephant (Loxodonta africana) rumbling.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HoneyBeeFlying.webm",
+        "assetTitle": "HoneyBeeFlying.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:HoneyBeeFlying.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Dennis.insect.filmer",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20Elephant%20Feeding%20in%20a%20Game%20Park.webm",
-        "assetTitle": "African Elephant Feeding in a Game Park.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apis%20mellifera%20flying%20x40%20SlowMotion02.webm",
+        "assetTitle": "Apis mellifera flying x40 SlowMotion02.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_flying_x40_SlowMotion02.webm",
+        "license": "CC BY 4.0",
+        "author": "Phonon.b",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20elephants%20(Loxodonta%20africana)%20splashing.webm",
-        "assetTitle": "African elephants (Loxodonta africana) splashing.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20honey%20bee%20(Apis%20mellifera).webm",
+        "assetTitle": "Western honey bee (Apis mellifera).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_(Apis_mellifera).webm",
+        "license": "CC BY-SA 3.0",
+        "author": "The Nature Box",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bee-Threat-Elicits-Alarm-Call-in-African-Elephants-pone.0010346.s004.ogv",
-        "assetTitle": "Bee-Threat-Elicits-Alarm-Call-in-African-Elephants-pone.0010346.s004.ogv",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20honey%20bees%20(Apis%20mellifera).webm",
+        "assetTitle": "Western honey bees (Apis mellifera).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_honey_bees_(Apis_mellifera).webm",
+        "license": "CC BY 2.0",
+        "author": "Katja Schulz",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20bathing-001.ogv",
-        "assetTitle": "Elephant bathing-001.ogv",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bees%20drinking%20water.webm",
+        "assetTitle": "Honey bees drinking water.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_drinking_water.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Goovaeh8fot6yugh",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20drinking%20water%20-%20KNP%20-%20001.ogv",
-        "assetTitle": "Elephant drinking water - KNP - 001.ogv",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%2C%20Mana%20Pools%20National%20Park.webm",
-        "assetTitle": "Elephants, Mana Pools National Park.webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees.webm",
+        "assetTitle": "Honeybees.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Dennis.insect.filmer",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
       }
     ],
-    "min_unique_videos": 8,
-    "target_shot_seconds": 7,
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-24-elephant-45s"
+    "revision": "2026-10-25-original-honeybee_air_conditioning"
+  },
+  "pigeon_city_survival": {
+    "title": "THE CITY BIRD WITH A SECRET DANCE",
+    "script": "Pigeons look ordinary until you really watch them. As they walk, their heads seem to bob, but part of that motion helps keep the world steady in their vision. Their powerful wings can launch them away from danger in a split second. They also spend time preening feathers, feeding together, and performing elaborate courtship dances. In busy cities, pigeons share space with other birds and watch for predators. They are descendants of rock doves, animals that adapted remarkably well to life beside humans. That familiar bird on the sidewalk is a surprisingly capable survivor.",
+    "caption": "Pigeons have a secret head-bob trick. 🕊️ #Pigeon #BirdFacts #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon.ogv",
+        "assetTitle": "Pigeon.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon.ogv",
+        "license": "Public domain",
+        "author": "ジダネ",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon%20take%20off.webm",
+        "assetTitle": "Pigeon take off.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon_take_off.webm",
+        "license": "CC BY-SA 3.0",
+        "author": "Karthik Easvur",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock%20doves%20(Columba%20livia)%20on%20a%20fence.webm",
+        "assetTitle": "Rock doves (Columba livia) on a fence.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rock_doves_(Columba_livia)_on_a_fence.webm",
+        "license": "CC BY-SA 3.0",
+        "author": "The Nature Box",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Columba%20livia%20(Madrid%2C%20Spain)%20007.webm",
+        "assetTitle": "Columba livia (Madrid, Spain) 007.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Columba_livia_(Madrid%2C_Spain)_007.webm",
+        "license": "CC BY-SA 3.0 ES",
+        "author": "Luis García",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Columba%20livia%20forma%20domestica%20-%20courtship%20dance2.ogv",
+        "assetTitle": "Columba livia forma domestica - courtship dance2.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Columba_livia_forma_domestica_-_courtship_dance2.ogv",
+        "license": "Public domain",
+        "author": "Bisco",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeons%20and%20Crows%20on%20Shankha%20Park%20on%20the%20Bank%20of%20Bagmati%20River.webm",
+        "assetTitle": "Pigeons and Crows on Shankha Park on the Bank of Bagmati River.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeons_and_Crows_on_Shankha_Park_on_the_Bank_of_Bagmati_River.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Ashma Silwal",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20chasing%20a%20pigeon.webm",
+        "assetTitle": "Cat chasing a pigeon.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm",
+        "license": "CC0 1.0",
+        "author": "Jeromi Mikhael",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D1%96%D1%80%D1%81%D1%96.webm",
+        "assetTitle": "Голуби на пірсі.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B8_%D0%BD%D0%B0_%D0%BF%D1%96%D1%80%D1%81%D1%96.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Own work Wikimedia Commons uploader",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-25-original-pigeon_city_survival"
+  },
+  "cat_play_hunting_instinct": {
+    "title": "WHY YOUR CAT PLAYS LIKE A TINY TIGER",
+    "script": "When a cat crouches, wiggles, and pounces on a toy, it is practicing a very old skill. Cats are natural hunters, and play helps young cats rehearse stalking, chasing, and grabbing. Even indoor cats may spring after moving objects as if they were prey. Then the same fierce little hunter can spend ages grooming its fur or resting on a sofa. Those different behaviors are all part of being a cat. The funny twist? That dramatic attack on a toy mouse is not random chaos. It is a miniature hunting lesson, performed right in your living room.",
+    "caption": "Your cat is training like a tiny tiger. 🐱🐯 #CatFacts #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Plays.webm",
+        "assetTitle": "Cat Plays.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Plays.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "Riverarvi",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Play.webm",
+        "assetTitle": "Cat Play.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Play.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "NairobiPapel",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Play%2003.webm",
+        "assetTitle": "Cat Play 03.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Play_03.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "NairobiPapel",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Play%2002.webm",
+        "assetTitle": "Cat Play 02.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Play_02.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "NairobiPapel",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20licking%20tail.ogv",
+        "assetTitle": "Cat licking tail.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_licking_tail.ogv",
+        "license": "CC BY-SA",
+        "author": "Ammoniumnitrate",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
+        "assetTitle": "Cat behaviour - self-grooming.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
+        "license": "CC BY 4.0",
+        "author": "Learnerktm",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20with%20a%20round%20track%20toy.webm",
+        "assetTitle": "Cat playing with a round track toy.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_with_a_round_track_toy.webm",
+        "license": "CC BY-SA 3.0",
+        "author": "Clément Bucco-Lechat",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20with%20a%20laser%20pointer.webm",
+        "assetTitle": "Cat playing with a laser pointer.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_with_a_laser_pointer.webm",
+        "license": "CC BY-SA 3.0",
+        "author": "Clément Bucco-Lechat",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Calico%20kitten%20playing.webm",
+        "assetTitle": "Calico kitten playing.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Calico_kitten_playing.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "باسم",
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-25-original-cat_play_hunting_instinct"
   }
 }
