@@ -426,6 +426,15 @@
         "license": "CC BY 4.0",
         "author": "Nesnad",
         "license_note": "Verified Wikimedia Commons file page 2026-10-25; original 8-second video of kitten playing; retain attribution and license link."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Play%2002.webm",
+        "assetTitle": "Cat Play 02.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Play_02.webm",
+        "license": "CC BY-SA 4.0",
+        "author": "NairobiPapel(Kamaa)",
+        "license_note": "Wikimedia Commons source page checked 2026-10-25: own work, cat playing, 19s, 1920x1080; retain attribution and license terms."
       }
     ],
     "min_unique_videos": 6,
@@ -434,7 +443,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-25-cat-qa-replace-unrelated-grooming-with-play-clips",
+    "revision": "2026-10-25-cat-qa-eight-licensed-distinct-play-clips",
     "visual_plan": [
       {
         "scene": "Opening: show domestic cat actively playing with a toy as narrated",
