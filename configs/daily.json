@@ -371,15 +371,6 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Play%2002.webm",
-        "assetTitle": "Cat Play 02.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Play_02.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "NairobiPapel",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20licking%20tail.ogv",
         "assetTitle": "Cat licking tail.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_licking_tail.ogv",
@@ -443,7 +434,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-25-cat-qa-remove-watermark-add-verified-kitten-toy-first",
+    "revision": "2026-10-25-cat-qa-remove-visible-kawa-watermark",
     "visual_plan": [
       {
         "scene": "Opening: show domestic cat actively playing with a toy as narrated",
