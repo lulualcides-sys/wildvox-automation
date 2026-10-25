@@ -242,6 +242,15 @@
         "license": "CC BY-SA 4.0",
         "author": "Dennis.insect.filmer",
         "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bee%20gathering%20pollen.webm",
+        "assetTitle": "Honey bee gathering pollen.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bee_gathering_pollen.webm",
+        "license": "CC BY-SA 3.0",
+        "author": "Alexanderboyes",
+        "license_note": "Verified Wikimedia Commons file page 2026-10-25; source shows Apis mellifera collecting pollen; retain attribution, license link, and modification notice."
       }
     ],
     "min_unique_videos": 6,
@@ -250,7 +259,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-25-bee-qa-foreground-real-hive-fanning",
+    "revision": "2026-10-25-bee-qa-fanning-first-plus-verified-pollen",
     "visual_plan": [
       {
         "scene": "Show real bees fanning at hive entrance while explaining natural air conditioning",
@@ -394,7 +403,11 @@
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_with_a_round_track_toy.webm",
         "license": "CC BY-SA 3.0",
         "author": "Clément Bucco-Lechat",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits.",
+        "tags": [
+          "cat_toy_play",
+          "cat_hunting_practice"
+        ]
       },
       {
         "type": "video",
@@ -413,6 +426,15 @@
         "license": "CC BY-SA 4.0",
         "author": "باسم",
         "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
+        "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
+        "license": "CC BY 4.0",
+        "author": "Nesnad",
+        "license_note": "Verified Wikimedia Commons file page 2026-10-25; original 8-second video of kitten playing; retain attribution and license link."
       }
     ],
     "min_unique_videos": 6,
@@ -421,6 +443,14 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-25-cat-qa-remove-watermarked-openers"
+    "revision": "2026-10-25-cat-qa-remove-watermark-add-verified-kitten-toy-first",
+    "visual_plan": [
+      {
+        "scene": "Opening: show domestic cat actively playing with a toy as narrated",
+        "tags": [
+          "cat_toy_play"
+        ]
+      }
+    ]
   }
 }
