@@ -13,16 +13,11 @@
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_fanning_(1).webm",
       "license": "CC BY-SA 4.0",
       "author": "BorekT",
-      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-    },
-    {
-      "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees%20actively%20swarming.webm",
-      "assetTitle": "Honeybees actively swarming.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees_actively_swarming.webm",
-      "license": "CC0 1.0",
-      "author": "Dsgridgerunner",
-      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits.",
+      "tags": [
+        "hive_fanning",
+        "hive_ventilation"
+      ]
     },
     {
       "type": "video",
@@ -77,6 +72,15 @@
       "license": "CC BY-SA 4.0",
       "author": "Dennis.insect.filmer",
       "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bee%20gathering%20pollen.webm",
+      "assetTitle": "Honey bee gathering pollen.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bee_gathering_pollen.webm",
+      "license": "CC BY-SA 3.0",
+      "author": "Alexanderboyes",
+      "license_note": "Verified Wikimedia Commons file page 2026-10-25; source shows Apis mellifera collecting pollen; retain attribution, license link, and modification notice."
     }
   ],
   "review_sheet": "honeybee_air_conditioning_review.jpg",
