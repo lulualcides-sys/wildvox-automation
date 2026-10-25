@@ -17,33 +17,6 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Play%2002.webm",
-      "assetTitle": "Cat Play 02.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Play_02.webm",
-      "license": "CC BY-SA 4.0",
-      "author": "NairobiPapel",
-      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-    },
-    {
-      "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20licking%20tail.ogv",
-      "assetTitle": "Cat licking tail.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_licking_tail.ogv",
-      "license": "CC BY-SA",
-      "author": "Ammoniumnitrate",
-      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-    },
-    {
-      "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
-      "assetTitle": "Cat behaviour - self-grooming.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
-      "license": "CC BY 4.0",
-      "author": "Learnerktm",
-      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-    },
-    {
-      "type": "video",
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20with%20a%20round%20track%20toy.webm",
       "assetTitle": "Cat playing with a round track toy.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_with_a_round_track_toy.webm",
@@ -54,6 +27,24 @@
         "cat_toy_play",
         "cat_hunting_practice"
       ]
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Plays.webm",
+      "assetTitle": "Cat Plays.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Plays.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Riverarvi",
+      "license_note": "Wikimedia Commons source and license verified 2026-10-25; authentic cat playing; retain attribution, license link and modification notice."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spitting%20Cat%20Chases%20Shadow.webm",
+      "assetTitle": "Spitting Cat Chases Shadow.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Spitting_Cat_Chases_Shadow.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "MLinington",
+      "license_note": "Wikimedia Commons source and license verified 2026-10-25; cat chasing moving shadow; retain attribution, license link and modification notice."
     },
     {
       "type": "video",
@@ -81,6 +72,15 @@
       "license": "CC BY 4.0",
       "author": "Nesnad",
       "license_note": "Verified Wikimedia Commons file page 2026-10-25; original 8-second video of kitten playing; retain attribution and license link."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Play%2002.webm",
+      "assetTitle": "Cat Play 02.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Play_02.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "NairobiPapel(Kamaa)",
+      "license_note": "Wikimedia Commons source page checked 2026-10-25: own work, cat playing, 19s, 1920x1080; retain attribution and license terms."
     }
   ],
   "review_sheet": "cat_play_hunting_instinct_review.jpg",
