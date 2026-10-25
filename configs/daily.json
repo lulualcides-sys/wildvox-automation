@@ -240,12 +240,6 @@
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter%20(Enhydra%20lutris).webm",
-        "assetTitle": "Sea otter (Enhydra lutris).webm",
-        "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
-      },
-      {
-        "type": "video",
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter.%20Enhydra%20lutris%20video.webm",
         "assetTitle": "Sea otter. Enhydra lutris video.webm",
         "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
@@ -267,6 +261,14 @@
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Broll%20-%20Southern%20sea%20otters%20at%20Elkhorn%20Slough%20in%20Moss%20Landing%2C%20California%20Video%20by%20USFWS%20(28833083527).webm",
         "assetTitle": "Broll - Southern sea otters at Elkhorn Slough in Moss Landing, California Video by USFWS (28833083527).webm",
         "license_note": "Wikimedia Commons source file page: verify exact attribution/license before final publication."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2011.webm",
+        "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 11.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Enhydra_lutris_-_September_2023_-_Sarah_Stierch_11.webm",
+        "license": "CC BY 4.0",
+        "license_note": "Wild sea otter filmed in Morro Bay, CA on 9 Sep 2023; Sarah Stierch; 5.96 s original clip; verified Commons source."
       }
     ],
     "min_unique_videos": 5,
@@ -275,7 +277,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-24-otter-remove-captive-footage"
+    "revision": "2026-10-24-otter-replace-captive-source-with-verified-wild-clip"
   },
   "african_bush_elephant_bee_alarm": {
     "title": "WHY ELEPHANTS WARN EACH OTHER ABOUT BEES",
