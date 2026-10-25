@@ -46,6 +46,25 @@ jobs:
             exit 1
           fi
 
+          # Reject an invalid batch before installing multi-gigabyte rendering dependencies.
+          # The render script enforces these same minimums; catch them once here.
+          jq -er '
+            to_entries[]
+            | select((.value.trend_exception.photo_only_allowed // false) == false)
+            | select(
+                ((.value.sources | length) < 8)
+                or ((.value.sources | length) > 12)
+                or ([.value.sources[] | select((.type // "video") == "video")] | length < 6)
+                or ((.value.min_unique_videos // 0) < 6)
+              )
+            | .key
+          ' configs/daily.json > /tmp/wildvox-invalid-pool.txt || true
+          if [ -s /tmp/wildvox-invalid-pool.txt ]; then
+            echo "Invalid daily source pools (8-12 assets, at least 6 distinct videos):" >&2
+            cat /tmp/wildvox-invalid-pool.txt >&2
+            exit 1
+          fi
+
           echo "animals=$animals" >> "$GITHUB_OUTPUT"
 
   render:
