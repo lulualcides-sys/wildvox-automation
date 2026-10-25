@@ -46,6 +46,20 @@ jobs:
             exit 1
           fi
 
+          # Do not render or republish yesterday's content on today's scheduled run.
+          # Revisions must identify the local editorial day for every candidate.
+          editorial_day=$(TZ=America/Sao_Paulo date +%F)
+          stale_keys=$(jq -r --arg day "$editorial_day" '
+            to_entries[]
+            | select((.value.revision // "" | startswith($day)) | not)
+            | .key
+          ' configs/daily.json)
+          if [ -n "$stale_keys" ]; then
+            echo "Fresh-content preparation required for $editorial_day; refusing stale daily.json:" >&2
+            echo "$stale_keys" >&2
+            exit 1
+          fi
+
           # Reject an invalid batch before installing multi-gigabyte rendering dependencies.
           # The render script enforces these same minimums; catch them once here.
           jq -er '
