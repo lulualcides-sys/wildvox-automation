@@ -183,16 +183,11 @@
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_fanning_(1).webm",
         "license": "CC BY-SA 4.0",
         "author": "BorekT",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees%20actively%20swarming.webm",
-        "assetTitle": "Honeybees actively swarming.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees_actively_swarming.webm",
-        "license": "CC0 1.0",
-        "author": "Dsgridgerunner",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits.",
+        "tags": [
+          "hive_fanning",
+          "hive_ventilation"
+        ]
       },
       {
         "type": "video",
@@ -255,7 +250,15 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-25-original-honeybee_air_conditioning"
+    "revision": "2026-10-25-bee-qa-foreground-real-hive-fanning",
+    "visual_plan": [
+      {
+        "scene": "Show real bees fanning at hive entrance while explaining natural air conditioning",
+        "tags": [
+          "hive_fanning"
+        ]
+      }
+    ]
   },
   "pigeon_city_survival": {
     "title": "THE CITY BIRD WITH A SECRET DANCE",
@@ -350,24 +353,6 @@
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Plays.webm",
-        "assetTitle": "Cat Plays.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Plays.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "Riverarvi",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Play.webm",
-        "assetTitle": "Cat Play.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Play.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "NairobiPapel",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Play%2003.webm",
         "assetTitle": "Cat Play 03.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Play_03.webm",
@@ -436,6 +421,6 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-25-original-cat_play_hunting_instinct"
+    "revision": "2026-10-25-cat-qa-remove-watermarked-openers"
   }
 }
