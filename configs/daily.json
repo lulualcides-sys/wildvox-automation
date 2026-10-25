@@ -362,12 +362,12 @@
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Play%2003.webm",
-        "assetTitle": "Cat Play 03.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Play_03.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20and%20tuxedo%20kittens.webm",
+        "assetTitle": "Black and tuxedo kittens.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_and_tuxedo_kittens.webm",
         "license": "CC BY-SA 4.0",
-        "author": "NairobiPapel",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "author": "Eteil",
+        "license_note": "Verified on Wikimedia Commons 2026-10-25: authentic footage of five-week-old kittens playing with mother; attribution, license link and changes notice required."
       },
       {
         "type": "video",
@@ -443,7 +443,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-25-cat-qa-replace-reintroduced-watermarked-source-with-cc0-moomin",
+    "revision": "2026-10-25-cat-qa-replace-last-kamaa-watermark",
     "visual_plan": [
       {
         "scene": "Opening: show domestic cat actively playing with a toy as narrated",
