@@ -1,0 +1,85 @@
+{
+  "key": "squirrel_tree_acrobats",
+  "title": "WHY SQUIRRELS ARE TINY TREE ACROBATS",
+  "caption": "Squirrels have incredible balance. 🐿️🌳 #Squirrel #AnimalFacts #WildVox",
+  "duration": 34.38,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morton%20Arboretum%20Winter%20Squirrel%202005.webm",
+      "assetTitle": "Morton Arboretum Winter Squirrel 2005.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Morton_Arboretum_Winter_Squirrel_2005.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Patrick Pelletier",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrels%20running%20up%20the%20wall.webm",
+      "assetTitle": "Squirrels running up the wall.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrels_running_up_the_wall.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "WizzSilent",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wikimania%20squirrel.webm",
+      "assetTitle": "Wikimania squirrel.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wikimania_squirrel.webm",
+      "license": "CC BY-SA 3.0",
+      "author": "Prolineserver",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrel%20in%20tree%20eating%20an%20apple.webm",
+      "assetTitle": "Squirrel in tree eating an apple.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrel_in_tree_eating_an_apple.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Joe Mabel",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrel%20eating%20nut.webmhd.webm",
+      "assetTitle": "Squirrel eating nut.webmhd.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrel_eating_nut.webmhd.webm",
+      "license": "CC BY 4.0",
+      "author": "Anton Porsche",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrel%20eating%20pumpkin%20seeds.webm",
+      "assetTitle": "Squirrel eating pumpkin seeds.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrel_eating_pumpkin_seeds.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Dennis.insect.filmer",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20squirrel%20eating.webm",
+      "assetTitle": "A squirrel eating.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_squirrel_eating.webm",
+      "license": "CC BY-SA 3.0",
+      "author": "Jnanaranjan sahu",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Video%20of%20squirrel.webm",
+      "assetTitle": "Video of squirrel.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Video_of_squirrel.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Victor abiose",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    }
+  ],
+  "review_sheet": "squirrel_tree_acrobats_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

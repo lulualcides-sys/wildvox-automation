@@ -1,0 +1,85 @@
+{
+  "key": "honeybee_air_conditioning",
+  "title": "THE BEES THAT AIR-CONDITION THEIR HIVE",
+  "caption": "Bees have their own air conditioning! 🐝🌼 #HoneyBee #NatureFacts #WildVox",
+  "duration": 34.48,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bees%20fanning%20(1).webm",
+      "assetTitle": "Honey bees fanning (1).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_fanning_(1).webm",
+      "license": "CC BY-SA 4.0",
+      "author": "BorekT",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees%20actively%20swarming.webm",
+      "assetTitle": "Honeybees actively swarming.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees_actively_swarming.webm",
+      "license": "CC0 1.0",
+      "author": "Dsgridgerunner",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HoneyBeeFlying.webm",
+      "assetTitle": "HoneyBeeFlying.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:HoneyBeeFlying.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Dennis.insect.filmer",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apis%20mellifera%20flying%20x40%20SlowMotion02.webm",
+      "assetTitle": "Apis mellifera flying x40 SlowMotion02.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_flying_x40_SlowMotion02.webm",
+      "license": "CC BY 4.0",
+      "author": "Phonon.b",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20honey%20bee%20(Apis%20mellifera).webm",
+      "assetTitle": "Western honey bee (Apis mellifera).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_(Apis_mellifera).webm",
+      "license": "CC BY-SA 3.0",
+      "author": "The Nature Box",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20honey%20bees%20(Apis%20mellifera).webm",
+      "assetTitle": "Western honey bees (Apis mellifera).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_honey_bees_(Apis_mellifera).webm",
+      "license": "CC BY 2.0",
+      "author": "Katja Schulz",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bees%20drinking%20water.webm",
+      "assetTitle": "Honey bees drinking water.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_drinking_water.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Goovaeh8fot6yugh",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees.webm",
+      "assetTitle": "Honeybees.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Dennis.insect.filmer",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    }
+  ],
+  "review_sheet": "honeybee_air_conditioning_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

@@ -1,0 +1,85 @@
+{
+  "key": "hummingbird_reverse_flight",
+  "title": "THE BIRD THAT CAN FLY BACKWARDS",
+  "caption": "Hummingbirds can fly backwards! 🐦✨ #Hummingbird #BirdFacts #WildVox",
+  "duration": 34.45,
+  "voice": "am_michael",
+  "speed": 1.08,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20hovering%20in%20mid-air.ogv",
+      "assetTitle": "Hummingbird hovering in mid-air.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_hovering_in_mid-air.ogv",
+      "license": "CC BY 2.0",
+      "author": "Daniel Johnson",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HummingbirdRaw%20(edited).webm",
+      "assetTitle": "HummingbirdRaw (edited).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:HummingbirdRaw_(edited).webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Wobulatorwill",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruby-throated%20hummingbird%20(Archilochus%20colubris)%20feeding.webm",
+      "assetTitle": "Ruby-throated hummingbird (Archilochus colubris) feeding.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruby-throated_hummingbird_(Archilochus_colubris)_feeding.webm",
+      "license": "CC BY-SA 2.0",
+      "author": "Eric Kilby",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Humming%20birds%20feeding%20at%201500fps.webm",
+      "assetTitle": "Humming birds feeding at 1500fps.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Humming_birds_feeding_at_1500fps.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "HopefullyUsefulContribution",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rufous%20hummingbird%20feeding%20in%20slow%20motion.webm",
+      "assetTitle": "Rufous hummingbird feeding in slow motion.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rufous_hummingbird_feeding_in_slow_motion.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "HopefullyUsefulContribution",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird.ogv",
+      "assetTitle": "Hummingbird.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird.ogv",
+      "license": "CC BY-SA 3.0",
+      "author": "Rishiraj Sahoo",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20nearly%20fledged.webm",
+      "assetTitle": "Hummingbird nearly fledged.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_nearly_fledged.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Dennis.insect.filmer",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20fledged.webm",
+      "assetTitle": "Anna's hummingbird fledged.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_fledged.webm",
+      "license": "CC BY-SA 4.0",
+      "author": "Dennis.insect.filmer",
+      "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+    }
+  ],
+  "review_sheet": "hummingbird_reverse_flight_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
