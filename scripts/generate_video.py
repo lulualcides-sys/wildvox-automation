@@ -465,8 +465,15 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     # unique source and shorten all shots slightly. This preserves the quality gate
     # without failing an otherwise usable batch because of one short stock clip.
     if target_shot_seconds:
-        min_assets = 3 if allow_photo_only and not videos else min_unique_videos
+        # The minimum unique VIDEO SOURCE pool is validated above. It is not a
+        # minimum shot count: e.g. a 34-second edit can fit only five 6-8s shots,
+        # even when six or more distinct source videos are available.
+        min_assets = 3 if allow_photo_only and not videos else max(
+            1, math.ceil(duration / (max_shot_seconds or 8.0))
+        )
         target_count = max(min_assets, round(duration / target_shot_seconds))
+        if not allow_photo_only:
+            target_count = min(target_count, math.floor((duration + 1e-6) / 6.0))
         target_count = min(len(local), max(min_assets, target_count))
 
         fixed = list(planned)
