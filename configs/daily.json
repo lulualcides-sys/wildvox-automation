@@ -61,7 +61,8 @@
         ],
         "license": "CC BY 4.0",
         "author": "Bouke ten Cate",
-        "license_note": "Commons source page verified 2026-10-26: authentic common kingfisher visiting excavated nest bank; creator credit, license link and modification notice required. Replaces dark/poorly framed bank shot."
+        "license_note": "Commons source page verified 2026-10-26: authentic common kingfisher visiting excavated nest bank; creator credit, license link and modification notice required. Replaces dark/poorly framed bank shot.",
+        "start_seconds": 0
       },
       {
         "type": "video",
@@ -106,7 +107,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-speech-sync-v1-bank-source-fix-v2-qa-perch-replace-v3 -remove-frozen-bank-shot-v4-visual-qa-authentic-replacement-v5",
+    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-qa-nest-action-start-v6",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -218,7 +219,8 @@
         ],
         "license": "CC BY-SA 4.0",
         "author": "PsamatheM",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits.",
+        "start_seconds": 30
       },
       {
         "type": "video",
@@ -263,7 +265,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_hedgehog_self_anointing-speech-sync-v1-self-anoint-photo-support-v2 -replace-frozen-photo-cctv-v3-visual-qa-authentic-replacement-v5",
+    "revision": "2026-10-26-daily-european_hedgehog_self_anointing-qa-anoint-action-cue-v6",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -668,7 +670,8 @@
         ],
         "license": "CC BY-SA 4.0",
         "author": "MurphyG",
-        "license_note": "Commons verified 2026-10-26: real European badger foraging before sunset; author MurphyG, CC BY-SA 4.0; credit and ShareAlike required. Replaces dark camera-trap family clip in the sett-longevity section."
+        "license_note": "Commons verified 2026-10-26: real European badger foraging before sunset; author MurphyG, CC BY-SA 4.0; credit and ShareAlike required. Replaces dark camera-trap family clip in the sett-longevity section.",
+        "start_seconds": 1
       },
       {
         "type": "video",
@@ -716,7 +719,8 @@
         ],
         "license": "CC0 1.0",
         "author": "NutzerAusBerlin",
-        "license_note": "Commons verified 2026-10-26: authentic European badger at late dawn in Berlin, CC0; daylight payoff instead of dark camera trap."
+        "license_note": "Commons verified 2026-10-26: authentic European badger at late dawn in Berlin, CC0; daylight payoff instead of dark camera trap.",
+        "start_seconds": 5
       },
       {
         "type": "video",
@@ -728,7 +732,8 @@
         ],
         "license": "CC BY-SA 3.0 nl",
         "author": "Enting Films / Netherlands Institute for Sound and Vision",
-        "license_note": "Commons verified 2026-10-26: European badger with cub near sett in daylight, CC BY-SA 3.0 NL; attribution and ShareAlike required. Final family payoff."
+        "license_note": "Commons verified 2026-10-26: European badger with cub near sett in daylight, CC BY-SA 3.0 NL; attribution and ShareAlike required. Final family payoff.",
+        "start_seconds": 90
       },
       {
         "type": "video",
@@ -749,7 +754,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_badger_sett_society-qa-daylight-sett-and-family-v6",
+    "revision": "2026-10-26-daily-european_badger_sett_society-qa-daylight-sett-family-cues-v7",
     "publication_hold": true,
     "visual_plan": [
       {
