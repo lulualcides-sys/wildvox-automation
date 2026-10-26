@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+"""Fail closed on missing or noncommercial Wikimedia Commons video licenses.
+
+The actual video bytes are downloaded/validated by the renderer after this
+preflight. This script checks Commons' current API record for each source,
+rather than trusting editorial license labels or a category listing.
+"""
+import argparse
+import json
+import sys
+import time
+from urllib.parse import quote, unquote, urlsplit, urlencode
+from urllib.request import Request, urlopen
+
+API = "https://commons.wikimedia.org/w/api.php"
+USER_AGENT = "WildVoxEditorialAudit/1.0 (public GitHub project; source verification)"
+
+def get_info(titles):
+    query = urlencode({
+        "action": "query", "format": "json", "formatversion": "2",
+        "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata",
+        "titles": "|".join(titles), "redirects": "1"
+    })
+    request = Request(API + "?" + query, headers={
+        "User-Agent": USER_AGENT, "Accept": "application/json"
+    })
+    for attempt in range(3):
+        try:
+            with urlopen(request, timeout=35) as response:
+                payload = json.load(response)
+            if payload.get("error"):
+                raise RuntimeError("Commons API error: " + str(payload["error"])[:180])
+            return payload.get("query", {}).get("pages", [])
+        except Exception:
+            if attempt == 2:
+                raise
+            time.sleep(3 * (attempt + 1))
+
+def is_free_license(value):
+    text = value.strip().lower().replace("_", " ")
+    if "noncommercial" in text or "non-commercial" in text or "cc by-nc" in text or "no derivatives" in text:
+        return False
+    return text.startswith(("cc by ", "cc by-sa ", "cc0", "public domain", "pd-", "pd ", "cc zero"))
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", default="configs/daily.json")
+    args = parser.parse_args()
+    with open(args.config, encoding="utf-8") as handle:
+        batch = json.load(handle)
+    requests = []
+    for key, entry in batch.items():
+        for source in entry.get("sources", []):
+            if source.get("type", "video") != "video":
+                continue
+            url = source["url"]
+            parsed = urlsplit(url)
+            prefix = "/wiki/Special:FilePath/"
+            if parsed.netloc != "commons.wikimedia.org" or not parsed.path.startswith(prefix):
+                raise RuntimeError(f"{key}: unsupported source URL: {url}")
+            filename = unquote(parsed.path[len(prefix):]).replace("_", " ")
+            requests.append((key, source, "File:" + filename))
+    if len(requests) < 38:
+        raise RuntimeError("Expected at least 38 authentic video assets")
+    checked = 0
+    for offset in range(0, len(requests), 12):
+        group = requests[offset:offset + 12]
+        pages = get_info([title for _, _, title in group])
+        by_title = {page.get("title", "").casefold(): page for page in pages}
+        for key, source, title in group:
+            page = by_title.get(title.casefold())
+            if not page or page.get("missing") or not page.get("imageinfo"):
+                raise RuntimeError(f"{key}: Commons asset missing: {title}")
+            info = page["imageinfo"][0]
+            metadata = info.get("extmetadata") or {}
+            license_name = str((metadata.get("LicenseShortName") or {}).get("value") or "")
+            license_url = str((metadata.get("LicenseUrl") or {}).get("value") or "")
+            if not is_free_license(license_name):
+                raise RuntimeError(f"{key}: license not confirmed for commercial reuse: {title}: {license_name!r}")
+            mime = str(info.get("mime") or "").lower()
+            if mime not in ("video/webm", "video/ogg", "application/ogg", "video/mp4"):
+                raise RuntimeError(f"{key}: not a video asset: {title} ({mime})")
+            if int(info.get("size") or 0) <= 100000 or not info.get("url"):
+                raise RuntimeError(f"{key}: no downloadable media bytes: {title}")
+            declared = str(source.get("license") or "")
+            if declared and not is_free_license(declared):
+                raise RuntimeError(f"{key}: nonfree license declared in config: {title}")
+            print(f"OK {key}: {title} [{license_name}; {int(info['size'])} bytes; {license_url}]")
+            checked += 1
+    print(f"Commons API preflight passed: {checked} videos, all have commercial-reuse licenses and downloadable originals.")
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as exc:
+        print("SOURCE AUDIT FAILED: " + str(exc), file=sys.stderr)
+        sys.exit(1)

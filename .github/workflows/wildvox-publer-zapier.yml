@@ -30,6 +30,12 @@ jobs:
             exit 0
           fi
 
+          # Preparation-only batches must never be sent to Zapier/Publer.
+          if jq -e 'any(.[]; .publication_hold == true)' configs/daily.json >/dev/null; then
+            echo "Editorial preparation hold: no social posts will be scheduled."
+            exit 0
+          fi
+
           mapfile -t keys < <(jq -r 'keys[]' configs/daily.json)
           if [ "${#keys[@]}" -ne 5 ]; then
             echo "Expected exactly 5 WildVox entries, found ${#keys[@]}." >&2

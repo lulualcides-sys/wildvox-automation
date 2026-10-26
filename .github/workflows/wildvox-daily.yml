@@ -80,6 +80,8 @@ jobs:
           fi
 
           echo "animals=$animals" >> "$GITHUB_OUTPUT"
+      - name: Audit Commons source existence and commercial-reuse licenses
+        run: python scripts/audit_commons_sources.py --config configs/daily.json
 
   render:
     needs: prepare

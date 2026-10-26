@@ -1,432 +1,624 @@
 {
-  "woodpecker_tree_drumming": {
-    "title": "THE BIRD THAT USES ITS HEAD LIKE A DRUM",
-    "script": "A woodpecker can hammer on a tree again and again, yet keep searching for its next meal. That tapping is not just noise. Many woodpeckers peck into bark to reach insects, and some drum on resonant surfaces to communicate. Their stiff tail feathers help brace them against trunks, while strong feet grip the wood. Different species have different patterns, colors, and feeding habits. Some even make nesting holes that other animals later use. So that rapid knocking in the forest might be a bird hunting lunch, or sending a message to its neighbors.",
-    "caption": "A woodpecker's drum is more than noise! 🪵🐦 #Woodpecker #BirdFacts #WildVox",
+  "common_kingfisher_bank_tunnel": {
+    "title": "THIS BLUE BIRD DIGS A SECRET RIVER TUNNEL",
+    "script": "A flash of electric blue crosses the river, then vanishes underwater. That's the common kingfisher, a tiny bird that hunts fish from a perch. It spots prey, dives headfirst, and often returns holding a slippery catch. Before swallowing, it may strike the fish against a branch. Its nest isn't built in a tree. Kingfishers dig a tunnel into a steep riverbank and raise their chicks inside. So the next time you see blue streak past a stream, look for a nearby bank: that tiny bird may have a hidden tunnel home.",
+    "caption": "A tiny blue fishing bird builds its nest inside a riverbank. 🐟💙 #Kingfisher #BirdFacts #Wildlife #NatureFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "assetTitle": "Pileated Woodpecker.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pileated_Woodpecker.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pileated%20Woodpecker.webm",
-        "author": "E1754",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20eating%20a%20fish.webm",
+        "assetTitle": "Common Kingfisher eating a fish.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm",
+        "tags": [
+          "kingfisher_fish"
+        ],
+        "license": "CC BY 3.0",
+        "author": "Lennart Hessel",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis).webm",
+        "assetTitle": "Common kingfisher (Alcedo atthis).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis).webm",
+        "tags": [
+          "kingfisher_perch"
+        ],
+        "license": "CC BY-SA 2.0",
+        "author": "The Nature Box",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
+        "assetTitle": "Common kingfisher (Alcedo atthis) in Slovakia.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm",
+        "tags": [
+          "kingfisher_perch"
+        ],
+        "license": "CC BY 3.0",
+        "author": "The Nature Box",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20bij%20nestwand%20-%20common%20kingfisher%20at%20nest%20bank%20-%20Alcedo%20atthis.webm",
+        "assetTitle": "IJsvogel bij nestwand - common kingfisher at nest bank - Alcedo atthis.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_bij_nestwand_-_common_kingfisher_at_nest_bank_-_Alcedo_atthis.webm",
+        "tags": [
+          "kingfisher_bank"
+        ],
+        "license": "CC BY 4.0",
+        "author": "Bouke ten Cate",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20Gravend%20-%20common%20kingfisher%20digging%20-%20Alcedo%20atthis.webm",
+        "assetTitle": "IJsvogel Gravend - common kingfisher digging - Alcedo atthis.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_Gravend_-_common_kingfisher_digging_-_Alcedo_atthis.webm",
+        "tags": [
+          "kingfisher_bank"
+        ],
+        "license": "CC BY 4.0",
+        "author": "Bouke ten Cate",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20return%20foothold.webm",
+        "assetTitle": "Alcedo atthis return foothold.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_return_foothold.webm",
+        "tags": [
+          "kingfisher_fish"
+        ],
+        "license": "CC BY-SA 4.0",
+        "author": "Phonon.b",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20eet%20vis.ogv",
+        "assetTitle": "IJsvogel eet vis.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_eet_vis.ogv",
+        "tags": [
+          "kingfisher_fish"
+        ],
+        "license": "CC BY-SA 3.0",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20-England-8.ogv",
+        "assetTitle": "Alcedo atthis -England-8.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_-England-8.ogv",
+        "tags": [
+          "kingfisher_fish"
+        ],
+        "license": "CC BY 2.0",
+        "author": "Tony Wood",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "scene": "Open on a real kingfisher with a fish, matching the hook",
+        "tags": [
+          "kingfisher_fish"
+        ]
+      },
+      {
+        "scene": "Show the real kingfisher near its riverbank nesting tunnel",
+        "tags": [
+          "kingfisher_bank"
+        ]
+      }
+    ]
+  },
+  "european_hedgehog_self_anointing": {
+    "title": "WHY THIS HEDGEHOG COVERS ITS SPINES IN FOAM",
+    "script": "That walking pincushion is not looking for a fight. The European hedgehog uses thousands of stiff spines as armor, but it spends most nights hunting invertebrates with its nose close to the ground. When frightened, it curls into a tight ball, hiding its soft belly. And sometimes it performs a bizarre ritual called self-anointing: it licks a new smell, makes frothy saliva, then spreads it over its spines. Scientists still debate exactly why. The punchline? A tiny garden visitor has one of nature's strangest grooming routines.",
+    "caption": "Hedgehogs sometimes spread frothy saliva on their spines. Scientists are still studying why. 🦔 #Hedgehog #AnimalFacts #Wildlife #NatureFacts #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog%20Self-Anointing.webm",
+        "assetTitle": "European Hedgehog Self-Anointing.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog_Self-Anointing.webm",
+        "tags": [
+          "hedgehog_self_anoint"
+        ],
+        "license": "CC BY-SA 4.0",
+        "author": "PsamatheM",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(1).webm",
+        "assetTitle": "Erinaceus europaeus - dkrb(1).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(1).webm",
+        "tags": [
+          "hedgehog_night"
+        ],
+        "license": "CC BY-SA 4.0",
+        "author": "Drahkrub",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(2).webm",
+        "assetTitle": "Erinaceus europaeus - dkrb(2).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(2).webm",
+        "tags": [
+          "hedgehog_night"
+        ],
+        "license": "CC BY-SA 4.0",
+        "author": "Drahkrub",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(3).webm",
+        "assetTitle": "Erinaceus europaeus - dkrb(3).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(3).webm",
+        "tags": [
+          "hedgehog_night"
+        ],
+        "license": "CC BY-SA 4.0",
+        "author": "Drahkrub",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20Riccio%20europeo.webm",
+        "assetTitle": "Erinaceus europaeus - Riccio europeo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_Riccio_europeo.webm",
+        "tags": [
+          "hedgehog_ball"
+        ],
+        "license": "CC BY-SA 3.0",
+        "author": "Accurimbono",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog.webm",
+        "assetTitle": "European Hedgehog.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog.webm",
+        "tags": [
+          "hedgehog_walk"
+        ],
+        "license": "CC BY-SA 3.0",
+        "author": "Fiver, der Hellseher",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hedgehog%20in%20the%20back%20yard%20-%202014-12-27.webm",
+        "assetTitle": "Hedgehog in the back yard - 2014-12-27.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hedgehog_in_the_back_yard_-_2014-12-27.webm",
+        "tags": [
+          "hedgehog_drink"
+        ],
+        "license": "CC BY 3.0",
+        "author": "PierreSelim",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20Erinaceus%20europaeus%20calling.ogv",
+        "assetTitle": "Young Erinaceus europaeus calling.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_Erinaceus_europaeus_calling.ogv",
+        "tags": [
+          "hedgehog_juvenile"
+        ],
+        "license": "CC BY-SA 3.0",
+        "author": "Calle Eklund / V-wolf",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-26-daily-european_hedgehog_self_anointing",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "scene": "Open with authentic hedgehog self-anointing behavior, not generic spines",
+        "tags": [
+          "hedgehog_self_anoint"
+        ]
+      },
+      {
+        "scene": "Show a hedgehog curled into a ball",
+        "tags": [
+          "hedgehog_ball"
+        ]
+      }
+    ]
+  },
+  "common_raven_voice_mimicry": {
+    "title": "THIS RAVEN CAN SOUND LIKE A BARKING DOG",
+    "script": "Did that raven just sound like a dog? Common ravens have a rich range of calls, and some can imitate noises they hear, including barking. They also solve problems, investigate unfamiliar objects, and interact in surprisingly complex ways. A pair may exchange calls while another raven searches for food nearby. Their intelligence isn't magic; it's a flexible brain built for changing environments. But remember: not every raven will mimic human sounds, and wild birds don't need to perform tricks to be remarkable. The payoff? That deep croak can belong to a bird capable of much more than one voice.",
+    "caption": "Some ravens can imitate barking and other sounds. 🐦‍⬛ #Raven #BirdIntelligence #AnimalFacts #Wildlife #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ugat%C3%A1st%20ut%C3%A1nz%C3%B3%20holl%C3%B3.ogv",
+        "assetTitle": "Ugatást utánzó holló.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ugat%C3%A1st_ut%C3%A1nz%C3%B3_holl%C3%B3.ogv",
+        "tags": [
+          "raven_mimicry"
+        ],
         "license": "CC0 1.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "author": "Balogh Nóra",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "20240313 pileated woodpecker earle park.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:20240313_pileated_woodpecker_earle_park.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20240313%20pileated%20woodpecker%20earle%20park.webm",
-        "author": "Paul Danese",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20raven%20calling%20(44456).webm",
+        "assetTitle": "Common raven calling (44456).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_raven_calling_(44456).webm",
+        "tags": [
+          "raven_call"
+        ],
         "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "author": "Rhododendrites",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Pileated Woodpecker (198 8940).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pileated_Woodpecker_(198_8940).webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pileated%20Woodpecker%20(198%208940).webm",
-        "author": "Crispins C. Crispian",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Ravens%20at%20a%20feeding%20site.webm",
+        "assetTitle": "Common Ravens at a feeding site.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Ravens_at_a_feeding_site.webm",
+        "tags": [
+          "raven_feeding"
+        ],
+        "license": "CC BY 3.0",
+        "author": "Lennart Hessel",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Pileated woodpecker (Dryocopus pileatus) in Florida.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pileated_woodpecker_(Dryocopus_pileatus)_in_Florida.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pileated%20woodpecker%20(Dryocopus%20pileatus)%20in%20Florida.webm",
-        "author": "Kid Cowboy",
-        "license": "CC BY-SA 2.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two%20Ravens%20Talking%20Mar%2010%202012.ogv",
+        "assetTitle": "Two Ravens Talking Mar 10 2012.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Two_Ravens_Talking_Mar_10_2012.ogv",
+        "tags": [
+          "raven_call"
+        ],
+        "license": "CC BY 3.0",
+        "author": "Robomaeyhem",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Chick pileated woodpecker calling.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chick_pileated_woodpecker_calling.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chick%20pileated%20woodpecker%20calling.webm",
-        "author": "Chris Waits",
-        "license": "CC BY 2.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolkrabe.ogv",
+        "assetTitle": "Kolkrabe.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kolkrabe.ogv",
+        "tags": [
+          "raven_call"
+        ],
+        "author": "Nightflyer",
+        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
       },
       {
         "type": "video",
-        "assetTitle": "Great spotted woodpecker (Dendrocopos major) in 2022 (video).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_in_2022_(video).webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20spotted%20woodpecker%20(Dendrocopos%20major)%20in%202022%20(video).webm",
-        "author": "Frankie Fouganthin",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MVI%201452.ogv",
+        "assetTitle": "MVI 1452.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:MVI_1452.ogv",
+        "tags": [
+          "raven_feeding"
+        ],
+        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
       },
       {
         "type": "video",
-        "assetTitle": "Crimson-crested Woodpecker. Campephilus melanoleucos video.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Crimson-crested_Woodpecker._Campephilus_melanoleucos_video.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crimson-crested%20Woodpecker.%20Campephilus%20melanoleucos%20video.webm",
-        "author": "Gail's pictures",
-        "license": "CC BY 2.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raaf%20in%20de%20sneeuw-4961948.webm",
+        "assetTitle": "Raaf in de sneeuw-4961948.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Raaf_in_de_sneeuw-4961948.webm",
+        "tags": [
+          "raven_snow"
+        ],
+        "author": "Marc Plomp / Stichting Natuurbeelden",
+        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
       },
       {
         "type": "video",
-        "assetTitle": "Black-rumped flameback TVM Video 1.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Black-rumped_flameback_TVM_Video_1.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black-rumped%20flameback%20TVM%20Video%201.webm",
-        "author": "Shishirdasika",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Verified on Wikimedia Commons 2026-10-26; attribution, license link, source and edits must be credited."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabe%20bei%20der%20Federpflege.webm",
+        "assetTitle": "Rabe bei der Federpflege.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rabe_bei_der_Federpflege.webm",
+        "tags": [
+          "raven_grooming"
+        ],
+        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 6,
+    "target_shot_seconds": 6.5,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-woodpecker-8-verified"
+    "revision": "2026-10-26-daily-common_raven_voice_mimicry",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "scene": "Open on the authentic raven imitating barking",
+        "tags": [
+          "raven_mimicry"
+        ]
+      },
+      {
+        "scene": "Then show a raven making ordinary calls",
+        "tags": [
+          "raven_call"
+        ]
+      }
+    ]
   },
-  "chameleon_independent_eyes": {
-    "title": "THE LIZARD THAT CAN LOOK TWO WAYS AT ONCE",
-    "script": "Imagine watching for danger in one direction while checking for dinner in another. A chameleon can move its eyes largely independently, giving it an extraordinary view of its surroundings. When it spots a possible meal, both eyes can focus toward the target. Its long sticky tongue can then shoot forward to grab an insect. Chameleons also use color changes for communication and temperature control, not just hiding. Their gripping feet and curling tails help many species move carefully along branches. The wild part? A chameleon can scan the world without turning its whole head.",
-    "caption": "Chameleons can scan two directions at once! 🦎👀 #Chameleon #ReptileFacts #WildVox",
+  "koala_vaccine_research": {
+    "title": "THE HIDDEN DISEASE THREATENING AUSTRALIA'S KOALAS",
+    "script": "Koalas spend much of their lives eating eucalyptus leaves, and specialized gut microbes help them process that tough diet. But a common infection, chlamydia, can cause painful eye disease, infertility, and sometimes death. Treating it with antibiotics can also disrupt those helpful microbes, creating another problem. That is why Australian researchers are investigating vaccines. A single-dose vaccine received regulatory approval in 2025 for potentially reducing clinical signs, but scientists still debate how strongly it prevents severe outcomes. Another research team is studying a two-dose vaccine and an implant designed to deliver a booster later. More rigorous trials are needed, and vaccines cannot replace habitat protection or treatment of sick animals. So when you see a koala resting in a tree, remember the hidden struggle: scientists are trying to stop an infection without damaging the tiny gut ecosystem that helps keep the animal alive. The solution is promising, but the evidence is still developing.",
+    "caption": "Koala vaccine research is promising, but scientists are still testing how well it protects wild populations. 🐨 #Koala #WildlifeScience #Conservation #AnimalFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "assetTitle": "Chameleons' Eye Coordination 01.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chameleons'_Eye_Coordination_01.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chameleons'%20Eye%20Coordination%2001.webm",
-        "author": "Suyash Dwivedi",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20Feeding.webm",
+        "assetTitle": "Koala Feeding.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_Feeding.webm",
+        "tags": [
+          "koala_eating"
+        ],
+        "license": "CC0 1.0",
+        "author": "Classy Melissa",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Chameleon 02.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chameleon_02.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chameleon%2002.webm",
-        "author": "NairobiPapel",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20climbing%20tree%20off%20Montacute%20Road%20near%20Adelaide.ogv",
+        "assetTitle": "Koala climbing tree off Montacute Road near Adelaide.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree_off_Montacute_Road_near_Adelaide.ogv",
+        "tags": [
+          "koala_climbing"
+        ],
         "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "author": "Orderinchaos",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "My Chameleon is funny.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:My_Chameleon_is_funny.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/My%20Chameleon%20is%20funny.webm",
-        "author": "Esquardo",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Two-Horned Chameleon.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Two-Horned_Chameleon.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two-Horned%20Chameleon.webm",
-        "author": "Raoul Kopacka",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20in%20motion.webm",
+        "assetTitle": "Koala in motion.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_in_motion.webm",
+        "tags": [
+          "koala_climbing"
+        ],
         "license": "CC BY 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "author": "CharlieBarbarossa",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Green chameleon.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Green_chameleon.ogv",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20chameleon.ogv",
-        "author": "ElHeineken",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20visiting%20a%20house%20in%20Forrest%20township.ogv",
+        "assetTitle": "Koala visiting a house in Forrest township.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_visiting_a_house_in_Forrest_township.ogv",
+        "tags": [
+          "koala_moving"
+        ],
+        "license": "CC BY-SA 4.0",
+        "author": "RiffRaffMama",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20grooming.ogv",
+        "assetTitle": "Koala grooming.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_grooming.ogv",
+        "tags": [
+          "koala_grooming"
+        ],
         "license": "CC BY-SA 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "author": "Chamaeleon",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Veiled chameleons (Chamaeleo calyptratus).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Veiled_chameleons_(Chamaeleo_calyptratus).webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Veiled%20chameleons%20(Chamaeleo%20calyptratus).webm",
-        "author": "Brenna",
-        "license": "CC BY 2.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20with%20young.ogv",
+        "assetTitle": "Koala with young.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_with_young.ogv",
+        "tags": [
+          "koala_joey"
+        ],
+        "license": "Public domain",
+        "author": "Brian Dell / Bdell555",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Veiled chameleon (Chamaeleo calyptratus) in a zoo.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Veiled_chameleon_(Chamaeleo_calyptratus)_in_a_zoo.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Veiled%20chameleon%20(Chamaeleo%20calyptratus)%20in%20a%20zoo.webm",
-        "author": "Helmut Rec",
-        "license": "CC BY 2.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "An aggressive Common chameleon does not let to open the water tap in the garden.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:An_aggressive_Common_chameleon_does_not_let_to_open_the_water_tap_in_the_garden.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/An%20aggressive%20Common%20chameleon%20does%20not%20let%20to%20open%20the%20water%20tap%20in%20the%20garden.webm",
-        "author": "Hana Yariv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/See%20a%20Koala%20scratch%2C%20yawn%20and%20sleep.webm",
+        "assetTitle": "See a Koala scratch, yawn and sleep.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:See_a_Koala_scratch%2C_yawn_and_sleep.webm",
+        "tags": [
+          "koala_sleep"
+        ],
         "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "author": "Gato Preto",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala.ogv",
+        "assetTitle": "Koala.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala.ogv",
+        "tags": [
+          "koala_climbing"
+        ],
+        "license": "CC BY-SA 2.0 de",
+        "author": "Benedikt89",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       }
     ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6,
+    "min_unique_videos": 8,
+    "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-26-chameleon-attribution-verified"
+    "min_duration": 60,
+    "max_duration": 75,
+    "revision": "2026-10-26-daily-koala_vaccine_research",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "scene": "Show a real koala eating eucalyptus, not an invented vaccination scene",
+        "tags": [
+          "koala_eating"
+        ]
+      },
+      {
+        "scene": "Show a real koala climbing a tree while discussing habitat and survival",
+        "tags": [
+          "koala_climbing"
+        ]
+      }
+    ],
+    "trend_priority": true,
+    "trend_evidence": {
+      "evidence_url": "https://www.theguardian.com/environment/2026/oct/26/koalas-australia-chlamydia-vaccine",
+      "evidence_published_date": "2026-10-26",
+      "note": "Current reporting on mixed vaccine effectiveness evidence; no photo-only exception claimed."
+    }
   },
-  "flamingo_filter_feeding": {
-    "title": "WHY FLAMINGOS EAT UPSIDE DOWN",
-    "script": "A flamingo's beak looks almost backwards, and that is exactly what makes feeding so strange. These pink birds often lower their heads into shallow water and use specialized structures in their bills to filter tiny food from mud and water. Their long legs let them wade where many other birds cannot. Pink feathers come from pigments in their diet, not from being born bright pink. And flamingos are social birds, gathering in groups and making plenty of noise. So when you see one with its head upside down, it is not confused. It is eating dinner.",
-    "caption": "Flamingos eat with their heads upside down! 🦩 #Flamingo #AnimalFacts #WildVox",
+  "european_badger_sett_society": {
+    "title": "THE SECRET UNDERGROUND CITY OF EUROPEAN BADGERS",
+    "script": "Under a quiet forest floor, European badgers may be sharing a home older than the newest trees around it. Their underground burrows, called setts, can contain multiple entrances and chambers. Families use them for resting, raising cubs, and staying safe during daylight. At dusk, badgers emerge and sniff through soil for earthworms, insects, fruit, and other food. Their powerful forelegs and claws make digging look effortless. They also groom one another, and young cubs learn the paths around the den through play. Not every badger family lives the same way: group size and territory change with habitat and food. A single sett may be enlarged or reused for years, but the residents still have to maintain it. The surprise is that an animal rarely seen in daylight can quietly reshape its own neighborhood underground, night after night. What looks like an ordinary patch of woodland may hide an entire badger neighborhood below.",
+    "caption": "European badgers build and maintain underground homes called setts. 🦡 #EuropeanBadger #AnimalBehavior #Wildlife #NatureFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "assetTitle": "Flamingo at St. Marks National Wildlife Refuge.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Flamingo_at_St._Marks_National_Wildlife_Refuge.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingo%20at%20St.%20Marks%20National%20Wildlife%20Refuge.webm",
-        "author": "James Leon Young",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20cubs.webm",
+        "assetTitle": "Badger cubs.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_cubs.webm",
+        "tags": [
+          "badger_cubs"
+        ],
+        "license": "CC BY 4.0",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Flamingos at Chester Zoo.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Flamingos_at_Chester_Zoo.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos%20at%20Chester%20Zoo.webm",
-        "author": "Mike Peel",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria.webm",
+        "assetTitle": "Badger family with 3 cubs in Bulgaria.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria.webm",
+        "tags": [
+          "badger_cubs"
+        ],
+        "license": "CC BY 4.0",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Greater flamingos.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Greater_flamingos.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Greater%20flamingos.webm",
-        "author": "Altes",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Flamingos in Poznan Zoo Part 1.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Flamingos_in_Poznan_Zoo_Part_1.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos%20in%20Poznan%20Zoo%20Part%201.webm",
-        "author": "Strange Animals",
-        "license": "CC BY 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Flamingos in Poznan Zoo Part 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Flamingos_in_Poznan_Zoo_Part_2.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos%20in%20Poznan%20Zoo%20Part%202.webm",
-        "author": "Strange Animals",
-        "license": "CC BY 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Caribbean Flamingo vocalization.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Caribbean_Flamingo_vocalization.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caribbean%20Flamingo%20vocalization.webm",
-        "author": "Whoisjohngalt",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Flamingos at Disney's Animal Kingdom Lodge (36556953892).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Flamingos_at_Disney's_Animal_Kingdom_Lodge_(36556953892).webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos%20at%20Disney's%20Animal%20Kingdom%20Lodge%20(36556953892).webm",
-        "author": "Elisfkc",
-        "license": "CC BY-SA 2.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "043 Greater flamingo vocalizing in the Camargue during mating season (slow motion) Video by Giles Laurent.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:043_Greater_flamingo_vocalizing_in_the_Camargue_during_mating_season_(slow_motion)_Video_by_Giles_Laurent.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/043%20Greater%20flamingo%20vocalizing%20in%20the%20Camargue%20during%20mating%20season%20(slow%20motion)%20Video%20by%20Giles%20Laurent.webm",
-        "author": "Giles Laurent",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-26-original-flamingo_filter_feeding"
-  },
-  "crab_sideways_walk": {
-    "title": "WHY CRABS WALK SIDEWAYS",
-    "script": "Ever watched a crab hurry across a beach like it forgot which way is forward? Many crabs move sideways because their jointed legs bend in a way that makes side-stepping efficient. Their hard outer shells help protect them, but growing means shedding that armor and forming a new one. Some crabs dig into sand, others hunt or scavenge, and hermit crabs protect soft abdomens inside borrowed shells. Not every crab moves the same way, and some can even swim. That sideways sprint is not a mistake. It is a clever design for getting around.",
-    "caption": "Crabs have a surprising way of moving! 🦀 #Crab #OceanFacts #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "assetTitle": "Crabs (Pachygrapsus marmoratus).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Crabs_(Pachygrapsus_marmoratus).webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crabs%20(Pachygrapsus%20marmoratus).webm",
-        "author": "Petar Milošević",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Hermit crab.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hermit_crab.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermit%20crab.webm",
-        "author": "Bramfab",
-        "license": "CC BY-SA 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Video of a crab eating.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Video_of_a_crab_eating.ogv",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Video%20of%20a%20crab%20eating.ogv",
-        "author": "Amada44",
-        "license": "CC BY-SA 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Crab making bubbles and digging into sand @ Abaiang Atoll, Kiribati.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Crab_making_bubbles_and_digging_into_sand_%40_Abaiang_Atoll%2C_Kiribati.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crab%20making%20bubbles%20and%20digging%20into%20sand%20%40%20Abaiang%20Atoll%2C%20Kiribati.webm",
-        "author": "flexmaen",
-        "license": "CC BY 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Hairy crab video.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hairy_crab_video.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hairy%20crab%20video.webm",
-        "author": "François Nguyen",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badgers%20at%20Play.webm",
+        "assetTitle": "Badgers at Play.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badgers_at_Play.webm",
+        "tags": [
+          "badger_play"
+        ],
         "license": "CC BY 2.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "author": "caroline legg",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Crab on St. John, US Virgin Islands.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Crab_on_St._John%2C_US_Virgin_Islands.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crab%20on%20St.%20John%2C%20US%20Virgin%20Islands.webm",
-        "author": "TheRockyintertidal",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20badgers%20(Meles%20meles)%20in%20Slovakia.webm",
+        "assetTitle": "European badgers (Meles meles) in Slovakia.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_badgers_(Meles_meles)_in_Slovakia.webm",
+        "tags": [
+          "badger_wild"
+        ],
         "license": "CC BY 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "author": "Lubo Ondrasko",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Giant Spider Crab, Leptomithrax gaimardii.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_Spider_Crab%2C_Leptomithrax_gaimardii.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20Spider%20Crab%2C%20Leptomithrax%20gaimardii.webm",
-        "author": "Museums Victoria",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20badgers%20(Meles%20meles)%20in%20the%20wild.webm",
+        "assetTitle": "European badgers (Meles meles) in the wild.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_badgers_(Meles_meles)_in_the_wild.webm",
+        "tags": [
+          "badger_wild"
+        ],
         "license": "CC BY 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "author": "Lubo Ondrasko",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "assetTitle": "Video of bread crab.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Video_of_bread_crab.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Video%20of%20bread%20crab.webm",
-        "author": "驭龙飞车手",
-        "license": "CC BY 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria%2002.webm",
+        "assetTitle": "Badger family with 3 cubs in Bulgaria 02.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria_02.webm",
+        "tags": [
+          "badger_cubs"
+        ],
+        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria%2003.webm",
+        "assetTitle": "Badger family with 3 cubs in Bulgaria 03.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria_03.webm",
+        "tags": [
+          "badger_cubs"
+        ],
+        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mutual%20grooming%20of%20badgers%20in%20Bulgaria.webm",
+        "assetTitle": "Mutual grooming of badgers in Bulgaria.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mutual_grooming_of_badgers_in_Bulgaria.webm",
+        "tags": [
+          "badger_grooming"
+        ],
+        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
       }
     ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6,
+    "min_unique_videos": 8,
+    "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-26-original-crab_sideways_walk"
-  },
-  "octopus_eight_arms": {
-    "title": "THE ANIMAL WITH EIGHT ARMS AND A SECRET ESCAPE PLAN",
-    "script": "An octopus has eight flexible arms lined with suckers, and each arm can explore its surroundings in remarkable detail. These animals squeeze through narrow gaps, hide among rocks, and change their skin's appearance to blend with the scene. Many are curious problem solvers, using their arms to investigate unfamiliar objects. They can also release a cloud of ink when threatened, though they do not use it every time. Different octopus species live in very different habitats, from reefs to deeper water. Their superpower is not magic. It is a flexible body and a highly adaptable brain.",
-    "caption": "Eight arms, camouflage, and incredible escapes! 🐙 #Octopus #OceanFacts #WildVox",
-    "sources": [
+    "min_duration": 60,
+    "max_duration": 75,
+    "revision": "2026-10-26-daily-european_badger_sett_society",
+    "publication_hold": true,
+    "visual_plan": [
       {
-        "type": "video",
-        "assetTitle": "Octopus.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Octopus.ogv",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Octopus.ogv",
-        "author": "Silke Baron (prilfish)",
-        "license": "CC BY 2.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "scene": "Start with a real European badger family and cubs near the den",
+        "tags": [
+          "badger_cubs"
+        ]
       },
       {
-        "type": "video",
-        "assetTitle": "Giant Pacific Octopus in Washington.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_Pacific_Octopus_in_Washington.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20Pacific%20Octopus%20in%20Washington.webm",
-        "author": "John",
-        "license": "CC BY 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+        "scene": "Show wild badgers moving and foraging, not a CGI underground tunnel",
+        "tags": [
+          "badger_wild"
+        ]
       },
       {
-        "type": "video",
-        "assetTitle": "Saltwater State Park Octopus.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Saltwater_State_Park_Octopus.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saltwater%20State%20Park%20Octopus.webm",
-        "author": "dalangalma",
-        "license": "CC BY 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Hairy octopus.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hairy_octopus.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hairy%20octopus.webm",
-        "author": "Roser Gari Perez",
-        "license": "CC BY 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Moving Octopus Vulgaris 2005-01-14.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Moving_Octopus_Vulgaris_2005-01-14.ogv",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moving%20Octopus%20Vulgaris%202005-01-14.ogv",
-        "author": "MilesTeg",
-        "license": "CC BY-SA 3.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Octopus in aquarium.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Octopus_in_aquarium.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Octopus%20in%20aquarium.webm",
-        "author": "Polygoon-Profilti / Nederlands Instituut voor Beeld en Geluid",
-        "license": "CC BY-SA 3.0 NL",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s002.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s002.ogv",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s002.ogv",
-        "author": "Caldwell R, Ross R, Rodaniche A, Huffard C",
-        "license": "CC BY 4.0",
-        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
-      },
-      {
-        "type": "video",
-        "assetTitle": "Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s003.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s003.ogv",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s003.ogv",
-        "author": "Caldwell R, Ross R, Rodaniche A, Huffard C",
-        "license": "CC BY 4.0",
-        "license_note": "Verified on Wikimedia Commons 2026-10-26; attribution, license link, source and edits must be credited."
+        "scene": "Show social play among badgers",
+        "tags": [
+          "badger_play"
+        ]
       }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-26-octopus-8-verified"
+    ]
   }
 }

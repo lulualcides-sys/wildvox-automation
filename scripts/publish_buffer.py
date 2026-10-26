@@ -108,6 +108,8 @@ def check_fresh_render(config, media_root, now):
     today = now.strftime("%Y-%m-%d")
     if len(config) != 5:
         raise RuntimeError("Daily config must contain exactly five video entries")
+    if any(entry.get("publication_hold") for entry in config.values()):
+        raise RuntimeError("Editorial preparation hold: TikTok scheduling is not authorized for this batch")
     expected = {}
     for key, entry in config.items():
         if not re.fullmatch(r"[a-z][a-z0-9_]*", key):
