@@ -487,7 +487,19 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
             srcdur = max(0.1, float(source_meta.get("_duration") or probe_duration(src)))
             playable = min(shot_len, srcdur)
             maxstart = max(0.0, srcdur - playable)
-            start = 0.0 if maxstart <= 0 else ((i + 1) * 1.73) % maxstart
+            # Editorially verified action cues may require a specific portion of
+            # the authentic clip (e.g. an animal actually performing a behavior).
+            requested_start = source_meta.get("start_seconds")
+            if requested_start is not None:
+                start = float(requested_start)
+                if start < 0 or start > maxstart + 0.05:
+                    raise RuntimeError(
+                        f"{key} source start_seconds={start:.2f} is outside "
+                        f"the available 0..{maxstart:.2f}s range for {source_meta.get('url')}"
+                    )
+                start = min(start, maxstart)
+            else:
+                start = 0.0 if maxstart <= 0 else ((i + 1) * 1.73) % maxstart
             run([
                 "ffmpeg","-y","-hide_banner","-loglevel","error",
                 "-ss",f"{start:.3f}","-i",str(src),
