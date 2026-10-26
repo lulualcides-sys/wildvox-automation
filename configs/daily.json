@@ -650,15 +650,15 @@
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Das%20met%20jong-Stichting%20Natuurbeelden-170887.webm",
-        "assetTitle": "Das met jong-Stichting Natuurbeelden-170887.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Das_met_jong-Stichting_Natuurbeelden-170887.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20cubs.webm",
+        "assetTitle": "Badger cubs.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_cubs.webm",
         "tags": [
           "badger_cubs"
         ],
-        "license": "CC BY-SA 3.0 nl",
-        "author": "Enting Films / Netherlands Institute for Sound and Vision",
-        "license_note": "Commons page verified 2026-10-26: authentic European badger walking with young at sett, daylight; attribution, ShareAlike, license link and modification notice required. Replaces low-visibility night camera-trap cub shot."
+        "license": "CC BY 4.0",
+        "author": "Balkani Wildlife Society",
+        "license_note": "Wikimedia Commons verified 2026-10-26: authentic European badger cubs filmed by wildlife camera, CC BY 4.0; author attribution required."
       },
       {
         "type": "video",
@@ -754,7 +754,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_badger_sett_society-qa-daylight-sett-family-cues-v7",
+    "revision": "2026-10-26-daily-european_badger_sett_society-qa-distinct-cub-and-daylight-family-v8",
     "publication_hold": true,
     "visual_plan": [
       {
