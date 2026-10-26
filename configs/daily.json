@@ -106,17 +106,49 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel",
+    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-speech-sync-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "scene": "Open on a real kingfisher with a fish, matching the hook",
+        "text": "A flash of electric blue crosses the river, then vanishes underwater. That's the common kingfisher, a tiny bird that hunts fish from a perch.",
+        "scene": "Reveal the kingfisher and its fish-hunting perch as the hook is spoken",
+        "tags": [
+          "kingfisher_fish",
+          "kingfisher_perch"
+        ]
+      },
+      {
+        "text": "It spots prey, dives headfirst, and often returns holding a slippery catch.",
+        "scene": "Show fishing/diving behavior while the narration describes the catch",
         "tags": [
           "kingfisher_fish"
         ]
       },
       {
-        "scene": "Show the real kingfisher near its riverbank nesting tunnel",
+        "text": "Before swallowing, it may strike the fish against a branch.",
+        "scene": "Keep the visual on a kingfisher handling a fish",
+        "tags": [
+          "kingfisher_fish"
+        ]
+      },
+      {
+        "text": "Its nest isn't built in a tree. Kingfishers dig a tunnel into a steep riverbank and raise their chicks inside.",
+        "scene": "Switch to riverbank/nesting visuals exactly when the narration changes to the nest",
+        "tags": [
+          "kingfisher_bank"
+        ]
+      },
+      {
+        "text": "So the next time you see blue streak past a stream,",
+        "scene": "Return to an active kingfisher by the stream",
+        "tags": [
+          "kingfisher_perch",
+          "kingfisher_fish"
+        ]
+      },
+      {
+        "text": "look for a nearby bank: that tiny bird may have a hidden tunnel home.",
+        "scene": "End on the riverbank/tunnel payoff",
         "tags": [
           "kingfisher_bank"
         ]
@@ -231,19 +263,54 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_hedgehog_self_anointing",
+    "revision": "2026-10-26-daily-european_hedgehog_self_anointing-speech-sync-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "scene": "Open with authentic hedgehog self-anointing behavior, not generic spines",
+        "text": "That walking pincushion is not looking for a fight.",
+        "scene": "Open on a real European hedgehog moving naturally",
+        "tags": [
+          "hedgehog_walk",
+          "hedgehog_night"
+        ]
+      },
+      {
+        "text": "The European hedgehog uses thousands of stiff spines as armor, but it spends most nights hunting invertebrates with its nose close to the ground.",
+        "scene": "Show nighttime foraging while the narration discusses spines and hunting",
+        "tags": [
+          "hedgehog_night",
+          "hedgehog_walk"
+        ]
+      },
+      {
+        "text": "When frightened, it curls into a tight ball, hiding its soft belly.",
+        "scene": "Switch to the curled-ball behavior at the exact spoken cue",
+        "tags": [
+          "hedgehog_ball"
+        ]
+      },
+      {
+        "text": "And sometimes it performs a bizarre ritual called self-anointing: it licks a new smell, makes frothy saliva, then spreads it over its spines.",
+        "scene": "Show authentic self-anointing during the self-anointing explanation",
         "tags": [
           "hedgehog_self_anoint"
         ]
       },
       {
-        "scene": "Show a hedgehog curled into a ball",
+        "text": "Scientists still debate exactly why.",
+        "scene": "Use a calm authentic hedgehog shot while uncertainty is explained",
         "tags": [
-          "hedgehog_ball"
+          "hedgehog_night",
+          "hedgehog_juvenile"
+        ]
+      },
+      {
+        "text": "The punchline? A tiny garden visitor has one of nature's strangest grooming routines.",
+        "scene": "Finish with a strong hedgehog payoff shot",
+        "tags": [
+          "hedgehog_walk",
+          "hedgehog_drink",
+          "hedgehog_juvenile"
         ]
       }
     ]
@@ -350,17 +417,52 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-common_raven_voice_mimicry",
+    "revision": "2026-10-26-daily-common_raven_voice_mimicry-speech-sync-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "scene": "Open on the authentic raven imitating barking",
+        "text": "Did that raven just sound like a dog?",
+        "scene": "Open on the authentic raven mimicry clip",
         "tags": [
           "raven_mimicry"
         ]
       },
       {
-        "scene": "Then show a raven making ordinary calls",
+        "text": "Common ravens have a rich range of calls, and some can imitate noises they hear, including barking.",
+        "scene": "Keep mimicry/calling visuals synchronized with the explanation",
+        "tags": [
+          "raven_mimicry",
+          "raven_call"
+        ]
+      },
+      {
+        "text": "They also solve problems, investigate unfamiliar objects, and interact in surprisingly complex ways.",
+        "scene": "Switch to active raven behavior as intelligence is discussed",
+        "tags": [
+          "raven_feeding",
+          "raven_grooming"
+        ]
+      },
+      {
+        "text": "A pair may exchange calls while another raven searches for food nearby.",
+        "scene": "Show calling/feeding raven behavior",
+        "tags": [
+          "raven_call",
+          "raven_feeding"
+        ]
+      },
+      {
+        "text": "Their intelligence isn't magic; it's a flexible brain built for changing environments. But remember: not every raven will mimic human sounds, and wild birds don't need to perform tricks to be remarkable.",
+        "scene": "Use varied natural raven behavior rather than staged mimicry",
+        "tags": [
+          "raven_snow",
+          "raven_grooming",
+          "raven_call"
+        ]
+      },
+      {
+        "text": "The payoff? That deep croak can belong to a bird capable of much more than one voice.",
+        "scene": "End on a strong raven call payoff",
         "tags": [
           "raven_call"
         ]
@@ -475,19 +577,55 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-koala_vaccine_research-shortform-pacing-repair-qa-source-fix",
+    "revision": "2026-10-26-daily-koala_vaccine_research-shortform-pacing-repair-qa-source-fix-speech-sync-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "scene": "Show a real koala eating eucalyptus, not an invented vaccination scene",
+        "text": "Koalas look peaceful, but a hidden infection threatens many of them.",
+        "scene": "Open on a healthy real koala before the health threat is introduced",
+        "tags": [
+          "koala_moving",
+          "koala_climbing"
+        ]
+      },
+      {
+        "text": "Chlamydia can damage their eyes and reproductive systems.",
+        "scene": "Stay on authentic koala footage; do not invent medical imagery",
+        "tags": [
+          "koala_grooming",
+          "koala_sleep"
+        ]
+      },
+      {
+        "text": "Antibiotics help sick koalas, yet treatment can disrupt the gut microbes they need to digest eucalyptus leaves.",
+        "scene": "Switch to eucalyptus feeding exactly as digestion is mentioned",
         "tags": [
           "koala_eating"
         ]
       },
       {
-        "scene": "Show a real koala climbing a tree while discussing habitat and survival",
+        "text": "Australian researchers are developing vaccines to protect them. One vaccine received regulatory approval in 2025, although scientists are still studying how well it prevents serious disease in wild populations.",
+        "scene": "Use varied real koala footage during the research explanation, without fake vaccination scenes",
         "tags": [
-          "koala_climbing"
+          "koala_climbing",
+          "koala_moving",
+          "koala_joey"
+        ]
+      },
+      {
+        "text": "Vaccination is promising, not a miracle cure.",
+        "scene": "Use a calm koala shot during the caution statement",
+        "tags": [
+          "koala_sleep",
+          "koala_grooming"
+        ]
+      },
+      {
+        "text": "Koalas still need healthy habitat, veterinary care, and protection from the threats around them.",
+        "scene": "Finish on a koala climbing/living in habitat for the conservation payoff",
+        "tags": [
+          "koala_climbing",
+          "koala_joey"
         ]
       }
     ],
@@ -598,25 +736,54 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_badger_sett_society-shortform-pacing-repair",
+    "revision": "2026-10-26-daily-european_badger_sett_society-shortform-pacing-repair-speech-sync-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "scene": "Start with a real European badger family and cubs near the den",
+        "text": "That quiet forest floor may hide an entire badger neighborhood.",
+        "scene": "Open on wild badgers near their den",
+        "tags": [
+          "badger_wild",
+          "badger_cubs"
+        ]
+      },
+      {
+        "text": "European badgers dig underground homes called setts, with several entrances and chambers.",
+        "scene": "Show badgers at/near a sett rather than CGI tunnels",
+        "tags": [
+          "badger_cubs",
+          "badger_wild"
+        ]
+      },
+      {
+        "text": "Families rest there during daylight and raise their cubs safely below ground.",
+        "scene": "Switch to family/cub footage as family life is discussed",
         "tags": [
           "badger_cubs"
         ]
       },
       {
-        "scene": "Show wild badgers moving and foraging, not a CGI underground tunnel",
+        "text": "At dusk, they emerge to search for earthworms, insects, and fruit. Badgers also groom one another, while young cubs learn through play.",
+        "scene": "Show wild movement, grooming and play as those behaviors are spoken",
         "tags": [
+          "badger_wild",
+          "badger_grooming",
+          "badger_play"
+        ]
+      },
+      {
+        "text": "Some setts are enlarged and reused for years, although family sizes vary with food and habitat.",
+        "scene": "Return to den/family visuals during the sett longevity explanation",
+        "tags": [
+          "badger_cubs",
           "badger_wild"
         ]
       },
       {
-        "scene": "Show social play among badgers",
+        "text": "The surprise? Beneath an ordinary patch of woodland, generations of badgers may be maintaining a secret underground home.",
+        "scene": "End on a strong family/den payoff",
         "tags": [
-          "badger_play"
+          "badger_cubs"
         ]
       }
     ]
