@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-27-narrative-style",
+  "version": "2026-10-27-cinematic-fx",
   "editorial_priority": {
     "specific_species_or_subspecies_pct": 75,
     "well_known_animals_with_unusual_specific_fact_pct": 10,
@@ -69,8 +69,28 @@
       "The payoff must resolve the hook using a genuinely representative final shot.",
       "Use exact script coverage in 5-7 visual_plan speech blocks and tag each with story_role.",
       "Use uncertainty language for developing science; never show footage of another species as proof.",
-      "Arrows, animated labels and zooms are future optional effects, not currently guaranteed by the generator.",
+      "Animated labels, subtle hook/payoff zoom and manually reviewed arrows, rings and boxes are implemented in scripts/cinematic_fx.py; do not place unverified pointers.",
       "Do not modify old batches or auto-schedule any platform posts."
-    ]
+    ],
+    "cinematic_fx": {
+      "engine": "scripts/cinematic_fx.py (FFmpeg/libass)",
+      "available_from": "2026-10-27",
+      "zoom": "4.5% continuous camera push on hook and payoff speech clips",
+      "automatic_labels": [
+        "LOOK CLOSER hook",
+        "THE REVEAL payoff"
+      ],
+      "reviewed_effect_types": [
+        "arrow",
+        "ring",
+        "box",
+        "label"
+      ],
+      "coordinate_space": "normalized [x,y] on 1080x1920 frame",
+      "max_effects_per_speech_block": 2,
+      "placement_policy": "Only place arrows/rings/boxes when source framing and subject location are verified; never invent feature detection or point arbitrarily",
+      "shot_timing": "exact narration_timeline.start/end, maximum 3 seconds per annotation",
+      "test": "qa/test_cinematic_fx.py"
+    }
   }
 }
