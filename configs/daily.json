@@ -369,7 +369,7 @@
   },
   "koala_vaccine_research": {
     "title": "THE HIDDEN DISEASE THREATENING AUSTRALIA'S KOALAS",
-    "script": "Koalas spend much of their lives eating eucalyptus leaves, and specialized gut microbes help them process that tough diet. But a common infection, chlamydia, can cause painful eye disease, infertility, and sometimes death. Treating it with antibiotics can also disrupt those helpful microbes, creating another problem. That is why Australian researchers are investigating vaccines. A single-dose vaccine received regulatory approval in 2025 for potentially reducing clinical signs, but scientists still debate how strongly it prevents severe outcomes. Another research team is studying a two-dose vaccine and an implant designed to deliver a booster later. More rigorous trials are needed, and vaccines cannot replace habitat protection or treatment of sick animals. So when you see a koala resting in a tree, remember the hidden struggle: scientists are trying to stop an infection without damaging the tiny gut ecosystem that helps keep the animal alive. The solution is promising, but the evidence is still developing.",
+    "script": "Koalas look peaceful, but a hidden infection threatens many of them. Chlamydia can damage their eyes and reproductive systems. Antibiotics help sick koalas, yet treatment can disrupt the gut microbes they need to digest eucalyptus leaves. Australian researchers are developing vaccines to protect them. One vaccine received regulatory approval in 2025, although scientists are still studying how well it prevents serious disease in wild populations. Vaccination is promising, not a miracle cure. Koalas still need healthy habitat, veterinary care, and protection from the threats around them.",
     "caption": "Koala vaccine research is promising, but scientists are still testing how well it protects wild populations. 🐨 #Koala #WildlifeScience #Conservation #AnimalFacts #WildVox",
     "sources": [
       {
@@ -469,13 +469,13 @@
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       }
     ],
-    "min_unique_videos": 8,
+    "min_unique_videos": 6,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
-    "min_duration": 60,
-    "max_duration": 75,
-    "revision": "2026-10-26-daily-koala_vaccine_research",
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-26-daily-koala_vaccine_research-shortform-pacing-repair",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -500,7 +500,7 @@
   },
   "european_badger_sett_society": {
     "title": "THE SECRET UNDERGROUND CITY OF EUROPEAN BADGERS",
-    "script": "Under a quiet forest floor, European badgers may be sharing a home older than the newest trees around it. Their underground burrows, called setts, can contain multiple entrances and chambers. Families use them for resting, raising cubs, and staying safe during daylight. At dusk, badgers emerge and sniff through soil for earthworms, insects, fruit, and other food. Their powerful forelegs and claws make digging look effortless. They also groom one another, and young cubs learn the paths around the den through play. Not every badger family lives the same way: group size and territory change with habitat and food. A single sett may be enlarged or reused for years, but the residents still have to maintain it. The surprise is that an animal rarely seen in daylight can quietly reshape its own neighborhood underground, night after night. What looks like an ordinary patch of woodland may hide an entire badger neighborhood below.",
+    "script": "That quiet forest floor may hide an entire badger neighborhood. European badgers dig underground homes called setts, with several entrances and chambers. Families rest there during daylight and raise their cubs safely below ground. At dusk, they emerge to search for earthworms, insects, and fruit. Badgers also groom one another, while young cubs learn through play. Some setts are enlarged and reused for years, although family sizes vary with food and habitat. The surprise? Beneath an ordinary patch of woodland, generations of badgers may be maintaining a secret underground home.",
     "caption": "European badgers build and maintain underground homes called setts. 🦡 #EuropeanBadger #AnimalBehavior #Wildlife #NatureFacts #WildVox",
     "sources": [
       {
@@ -592,13 +592,13 @@
         "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
       }
     ],
-    "min_unique_videos": 8,
+    "min_unique_videos": 6,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
-    "min_duration": 60,
-    "max_duration": 75,
-    "revision": "2026-10-26-daily-european_badger_sett_society",
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-26-daily-european_badger_sett_society-shortform-pacing-repair",
     "publication_hold": true,
     "visual_plan": [
       {
