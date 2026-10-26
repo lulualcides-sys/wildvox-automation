@@ -10,6 +10,8 @@ on:
   push:
     branches: [main]
     paths:
+      - "scripts/**"
+      - "configs/**"
       - "qa/**"
       - ".github/workflows/wildvox-quality.yml"
 permissions:
