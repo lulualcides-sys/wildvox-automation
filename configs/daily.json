@@ -122,7 +122,7 @@
         "assetTitle": "Two-Horned Chameleon.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Two-Horned_Chameleon.webm",
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two-Horned%20Chameleon.webm",
-        "author": "Hannolans / original creator",
+        "author": "Raoul Kopacka",
         "license": "CC BY 3.0",
         "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
@@ -169,7 +169,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-original-chameleon_independent_eyes"
+    "revision": "2026-10-26-chameleon-attribution-verified"
   },
   "flamingo_filter_feeding": {
     "title": "WHY FLAMINGOS EAT UPSIDE DOWN",
