@@ -2,9 +2,80 @@
   "key": "european_badger_sett_society",
   "title": "THE SECRET UNDERGROUND CITY OF EUROPEAN BADGERS",
   "caption": "European badgers build and maintain underground homes called setts. 🦡 #EuropeanBadger #AnimalBehavior #Wildlife #NatureFacts #WildVox",
-  "duration": 38.52,
+  "duration": 42.3,
   "voice": "am_michael",
   "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.65,
+      "duration": 4.65,
+      "text": "That quiet forest floor may hide an entire badger neighborhood.",
+      "scene": "Open on wild badgers near their den",
+      "tags": [
+        "badger_wild"
+      ]
+    },
+    {
+      "index": 1,
+      "start": 4.65,
+      "end": 11.2,
+      "duration": 6.55,
+      "text": "European badgers dig underground homes called setts, with several entrances and chambers.",
+      "scene": "Show badgers at/near a sett rather than CGI tunnels",
+      "tags": [
+        "badger_wild"
+      ]
+    },
+    {
+      "index": 2,
+      "start": 11.2,
+      "end": 16.7,
+      "duration": 5.5,
+      "text": "Families rest there during daylight and raise their cubs safely below ground.",
+      "scene": "Switch to family/cub footage as family life is discussed",
+      "tags": [
+        "badger_cubs"
+      ]
+    },
+    {
+      "index": 3,
+      "start": 16.7,
+      "end": 26.075,
+      "duration": 9.375,
+      "text": "At dusk, they emerge to search for earthworms, insects, and fruit. Badgers also groom one another, while young cubs learn through play.",
+      "scene": "Show wild movement, grooming and play as those behaviors are spoken",
+      "tags": [
+        "badger_wild",
+        "badger_grooming",
+        "badger_play"
+      ]
+    },
+    {
+      "index": 4,
+      "start": 26.075,
+      "end": 33.225,
+      "duration": 7.15,
+      "text": "Some setts are enlarged and reused for years, although family sizes vary with food and habitat.",
+      "scene": "Return to den/family visuals during the sett longevity explanation",
+      "tags": [
+        "badger_cubs",
+        "badger_wild"
+      ]
+    },
+    {
+      "index": 5,
+      "start": 33.225,
+      "end": 42.3,
+      "duration": 9.075,
+      "text": "The surprise? Beneath an ordinary patch of woodland, generations of badgers may be maintaining a secret underground home.",
+      "scene": "End on a strong family/den payoff",
+      "tags": [
+        "badger_cubs"
+      ]
+    }
+  ],
   "sources": [
     {
       "type": "video",

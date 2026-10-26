@@ -2,9 +2,81 @@
   "key": "common_raven_voice_mimicry",
   "title": "THIS RAVEN CAN SOUND LIKE A BARKING DOG",
   "caption": "Some ravens can imitate barking and other sounds. 🐦‍⬛ #Raven #BirdIntelligence #AnimalFacts #Wildlife #WildVox",
-  "duration": 41.95,
+  "duration": 38.23,
   "voice": "am_michael",
   "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 2.95,
+      "duration": 2.95,
+      "text": "Did that raven just sound like a dog?",
+      "scene": "Open on the authentic raven mimicry clip",
+      "tags": [
+        "raven_mimicry"
+      ]
+    },
+    {
+      "index": 1,
+      "start": 2.95,
+      "end": 10.5,
+      "duration": 7.55,
+      "text": "Common ravens have a rich range of calls, and some can imitate noises they hear, including barking.",
+      "scene": "Keep mimicry/calling visuals synchronized with the explanation",
+      "tags": [
+        "raven_mimicry",
+        "raven_call"
+      ]
+    },
+    {
+      "index": 2,
+      "start": 10.5,
+      "end": 16.35,
+      "duration": 5.85,
+      "text": "They solve problems, investigate objects, and interact in complex ways.",
+      "scene": "Switch to active raven behavior as intelligence is discussed",
+      "tags": [
+        "raven_feeding",
+        "raven_grooming"
+      ]
+    },
+    {
+      "index": 3,
+      "start": 16.35,
+      "end": 21.825000000000003,
+      "duration": 5.475,
+      "text": "A pair may exchange calls while another raven searches for food nearby.",
+      "scene": "Show calling/feeding raven behavior",
+      "tags": [
+        "raven_call",
+        "raven_feeding"
+      ]
+    },
+    {
+      "index": 4,
+      "start": 21.825000000000003,
+      "end": 31.900000000000002,
+      "duration": 10.075,
+      "text": "Their intelligence helps them adapt to changing environments. Not every raven mimics sounds, and wild birds don't need tricks to be remarkable.",
+      "scene": "Use varied natural raven behavior rather than staged mimicry",
+      "tags": [
+        "raven_snow",
+        "raven_grooming"
+      ]
+    },
+    {
+      "index": 5,
+      "start": 31.900000000000002,
+      "end": 38.225,
+      "duration": 6.325,
+      "text": "The payoff? That deep croak can belong to a bird capable of much more than one voice.",
+      "scene": "End on a strong raven call payoff",
+      "tags": [
+        "raven_call"
+      ]
+    }
+  ],
   "sources": [
     {
       "type": "video",

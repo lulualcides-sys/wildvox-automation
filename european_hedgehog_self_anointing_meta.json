@@ -2,9 +2,82 @@
   "key": "european_hedgehog_self_anointing",
   "title": "WHY THIS HEDGEHOG COVERS ITS SPINES IN FOAM",
   "caption": "Hedgehogs sometimes spread frothy saliva on their spines. Scientists are still studying why. 🦔 #Hedgehog #AnimalFacts #Wildlife #NatureFacts #WildVox",
-  "duration": 34.12,
+  "duration": 38.52,
   "voice": "am_michael",
   "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 3.975,
+      "duration": 3.975,
+      "text": "That walking pincushion is not looking for a fight.",
+      "scene": "Open on a real European hedgehog moving naturally",
+      "tags": [
+        "hedgehog_walk",
+        "hedgehog_night"
+      ]
+    },
+    {
+      "index": 1,
+      "start": 3.975,
+      "end": 13.924999999999999,
+      "duration": 9.95,
+      "text": "The European hedgehog uses thousands of stiff spines as armor, but it spends most nights hunting invertebrates with its nose close to the ground.",
+      "scene": "Show nighttime foraging while the narration discusses spines and hunting",
+      "tags": [
+        "hedgehog_night",
+        "hedgehog_walk"
+      ]
+    },
+    {
+      "index": 2,
+      "start": 13.924999999999999,
+      "end": 18.825,
+      "duration": 4.9,
+      "text": "When frightened, it curls into a tight ball, hiding its soft belly.",
+      "scene": "Switch to the curled-ball behavior at the exact spoken cue",
+      "tags": [
+        "hedgehog_ball"
+      ]
+    },
+    {
+      "index": 3,
+      "start": 18.825,
+      "end": 29.075,
+      "duration": 10.25,
+      "text": "And sometimes it performs a bizarre ritual called self-anointing: it licks a new smell, makes frothy saliva, then spreads it over its spines.",
+      "scene": "Show authentic self-anointing during the self-anointing explanation",
+      "tags": [
+        "hedgehog_self_anoint"
+      ]
+    },
+    {
+      "index": 4,
+      "start": 29.075,
+      "end": 32.15,
+      "duration": 3.075,
+      "text": "Scientists still debate exactly why.",
+      "scene": "Use a calm authentic hedgehog shot while uncertainty is explained",
+      "tags": [
+        "hedgehog_night",
+        "hedgehog_juvenile"
+      ]
+    },
+    {
+      "index": 5,
+      "start": 32.15,
+      "end": 38.525,
+      "duration": 6.375,
+      "text": "The punchline? A tiny garden visitor has one of nature's strangest grooming routines.",
+      "scene": "Finish with a strong hedgehog payoff shot",
+      "tags": [
+        "hedgehog_walk",
+        "hedgehog_drink",
+        "hedgehog_juvenile"
+      ]
+    }
+  ],
   "sources": [
     {
       "type": "video",
@@ -101,6 +174,18 @@
       "license": "CC BY-SA 3.0",
       "author": "Calle Eklund / V-wolf",
       "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "image",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hedgehog%20self-anointing.jpg",
+      "assetTitle": "Hedgehog self-anointing.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hedgehog_self-anointing.jpg",
+      "tags": [
+        "hedgehog_self_anoint"
+      ],
+      "license": "CC BY-SA 3.0",
+      "author": "Gisrenist",
+      "license_note": "Commons file page verified 2026-10-26; authentic European hedgehog applying frothy saliva to spines; one still supports longer self-anointing narration; credit/ShareAlike required."
     }
   ],
   "review_sheet": "european_hedgehog_self_anointing_review.jpg",
