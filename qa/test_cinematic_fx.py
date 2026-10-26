@@ -64,6 +64,17 @@ class CinematicFXContract(unittest.TestCase):
         self.assertIn("fps=30", camera)
 
     @unittest.skipUnless(shutil.which("ffmpeg"), "FFmpeg unavailable")
+    def test_real_camera_push_ffmpeg(self):
+        filt = fx.camera_filter("fps=30", .2, "hook")
+        p = subprocess.run([
+            "ffmpeg", "-nostdin", "-y", "-hide_banner", "-loglevel",
+            "error", "-f", "lavfi", "-i",
+            "color=c=0x253647:s=1080x1920:r=30:d=0.2",
+            "-vf", filt, "-frames:v", "5", "-f", "null", "-"
+        ], capture_output=True, text=True, timeout=45)
+        self.assertEqual(p.returncode, 0, p.stderr[-1500:])
+
+    @unittest.skipUnless(shutil.which("ffmpeg"), "FFmpeg unavailable")
     def test_real_libass_render_overlay(self):
         # Uses a cheap synthetic frame; no external video, model or network.
         with tempfile.TemporaryDirectory() as work:
