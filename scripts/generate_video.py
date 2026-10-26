@@ -52,22 +52,74 @@ def safe_download(url, path):
         return False
     return True
 
-def generate_voice(text, key):
+def _normalize_plan_text(text):
+    return re.sub(r"\\s+", " ", re.sub(r"[^A-Za-z0-9']+", " ", text or "")).strip().lower()
+
+def generate_voice(text, key, visual_plan=None):
+    """Generate Kokoro narration and an exact semantic timing map.
+
+    When every visual_plan block includes exact narration text, synthesize each
+    block separately and measure its real audio duration. That gives the visual
+    editor exact boundaries for B-roll changes without running ASR over speech
+    that WildVox generated itself.
+    """
     print(f"Generating Kokoro am_michael narration for {key}...", flush=True)
     pipeline = KPipeline(lang_code="a")
-    generator = pipeline(text, voice="am_michael", speed=NARRATION_SPEED, split_pattern=r"\n+")
+
+    timed_plan = []
+    if visual_plan and all((block.get("text") or "").strip() for block in visual_plan):
+        combined = " ".join((block.get("text") or "").strip() for block in visual_plan)
+        if _normalize_plan_text(combined) != _normalize_plan_text(text):
+            raise RuntimeError(
+                f"{key} visual_plan text must cover the narration exactly; "
+                "update the plan instead of allowing off-script B-roll timing."
+            )
+        plan_blocks = visual_plan
+    else:
+        plan_blocks = [{"text": text, "tags": [], "scene": "full narration"}]
+
     chunks = []
-    for item in generator:
-        audio = getattr(item, "audio", None)
-        if audio is None:
-            audio = item[2]
-        if hasattr(audio, "detach"):
-            audio = audio.detach().cpu().numpy()
-        audio = np.asarray(audio, dtype=np.float32).reshape(-1)
-        if len(audio):
-            chunks.append(audio)
+    cursor = 0.0
+    for block_index, block in enumerate(plan_blocks):
+        block_text = (block.get("text") or "").strip()
+        generator = pipeline(
+            block_text,
+            voice="am_michael",
+            speed=NARRATION_SPEED,
+            split_pattern=r"\n+",
+        )
+        block_chunks = []
+        for item in generator:
+            audio = getattr(item, "audio", None)
+            if audio is None:
+                audio = item[2]
+            if hasattr(audio, "detach"):
+                audio = audio.detach().cpu().numpy()
+            audio = np.asarray(audio, dtype=np.float32).reshape(-1)
+            if len(audio):
+                block_chunks.append(audio)
+
+        if not block_chunks:
+            raise RuntimeError(f"Kokoro returned no audio for narration block {block_index + 1}")
+
+        block_audio = np.concatenate(block_chunks)
+        block_duration = len(block_audio) / 24000.0
+        start = cursor
+        cursor += block_duration
+        timed_plan.append({
+            "index": block_index,
+            "start": start,
+            "end": cursor,
+            "duration": block_duration,
+            "text": block_text,
+            "scene": block.get("scene") or block_text,
+            "tags": list(block.get("tags") or []),
+        })
+        chunks.append(block_audio)
+
     if not chunks:
         raise RuntimeError("Kokoro returned no audio")
+
     full = np.concatenate(chunks)
     wav = OUT / f"{key}_michael.wav"
     sf.write(wav, full, 24000)
@@ -75,7 +127,7 @@ def generate_voice(text, key):
         "ffmpeg","-y","-hide_banner","-loglevel","error","-i",str(wav),
         "-codec:a","libmp3lame","-b:a","192k",str(OUT/f"{key}_michael.mp3")
     ])
-    return wav, len(full) / 24000.0
+    return wav, len(full) / 24000.0, timed_plan
 
 def ass_escape(s):
     return s.replace("\\", r"\\").replace("{", r"\{").replace("}", r"\}")
@@ -325,7 +377,150 @@ def validate_shot_cadence(duration, nshots, allow_photo_only=False):
         )
 
 
-def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None, target_shot_seconds=None, visual_plan=None, allow_photo_only=False):
+def render_speech_aligned_visual(local, key, duration, narration_timeline, max_shot_seconds=None, max_freeze_seconds=None):
+    """Cut B-roll at the real boundaries of spoken semantic blocks."""
+    max_shot = float(max_shot_seconds or 8.0)
+    unused = list(local)
+    scheduled = []
+
+    for block in narration_timeline:
+        block_duration = float(block.get("duration") or 0.0)
+        if block_duration <= 0:
+            continue
+        wanted = {
+            str(tag).strip().lower()
+            for tag in (block.get("tags") or [])
+            if str(tag).strip()
+        }
+        if not wanted:
+            raise RuntimeError(
+                f"{key} speech-aligned block has no visual tags: {block.get('scene') or block.get('text')}"
+            )
+
+        parts = max(1, math.ceil(block_duration / max_shot))
+        part_duration = block_duration / parts
+        if part_duration < 3.0:
+            raise RuntimeError(
+                f"{key} narration block is too short for clean visual pacing "
+                f"({part_duration:.2f}s per shot): {block.get('text')}"
+            )
+
+        for _part in range(parts):
+            candidates = []
+            for item in unused:
+                _path, media_type, source_meta = item
+                source_tags = {
+                    str(tag).strip().lower()
+                    for tag in (source_meta.get("tags") or [])
+                    if str(tag).strip()
+                }
+                if not (wanted & source_tags):
+                    continue
+                src_duration = float(source_meta.get("_duration", 9999.0))
+                if media_type == "video":
+                    freeze_need = max(0.0, part_duration - src_duration)
+                    if max_freeze_seconds is not None and freeze_need > max_freeze_seconds + 0.05:
+                        continue
+                candidates.append(item)
+
+            if not candidates:
+                raise RuntimeError(
+                    f"{key} has no unused source matching speech block tags {sorted(wanted)} "
+                    f"for: {block.get('scene') or block.get('text')}. "
+                    "Add/re-tag relevant footage instead of substituting generic B-roll."
+                )
+
+            candidates.sort(key=lambda item: (
+                item[1] != "video",
+                int(item[2].get("_source_index", 0)),
+            ))
+            chosen = candidates[0]
+            unused.remove(chosen)
+            scheduled.append((chosen, part_duration, block))
+
+    if not scheduled:
+        raise RuntimeError(f"{key} speech-aligned visual schedule is empty")
+
+    total = sum(shot_len for _item, shot_len, _block in scheduled)
+    if abs(total - duration) > 0.08:
+        raise RuntimeError(
+            f"{key} speech-aligned visual schedule is {total:.2f}s but narration is {duration:.2f}s"
+        )
+
+    shots = []
+    vf = (
+        "split=2[bg][fg];"
+        "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
+        "crop=1080:1920,boxblur=16:1,"
+        "eq=brightness=-0.12:saturation=0.7[back];"
+        "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,"
+        "setsar=1[front];"
+        "[back][front]overlay=(W-w)/2:(H-h)/2:shortest=1,"
+        "setsar=1,fps=30"
+    )
+
+    for i, ((src, media_type, source_meta), shot_len, block) in enumerate(scheduled):
+        out = WORK / f"{key}_speech_shot_{i:02d}.mp4"
+        if media_type == "image":
+            run([
+                "ffmpeg","-y","-hide_banner","-loglevel","error",
+                "-loop","1","-i",str(src),"-t",f"{shot_len:.3f}","-an",
+                "-vf",vf,
+                "-c:v","libx264","-preset","veryfast","-crf","20",
+                "-pix_fmt","yuv420p",str(out)
+            ])
+        else:
+            srcdur = max(0.1, float(source_meta.get("_duration") or probe_duration(src)))
+            playable = min(shot_len, srcdur)
+            maxstart = max(0.0, srcdur - playable)
+            start = 0.0 if maxstart <= 0 else ((i + 1) * 1.73) % maxstart
+            run([
+                "ffmpeg","-y","-hide_banner","-loglevel","error",
+                "-ss",f"{start:.3f}","-i",str(src),
+                "-t",f"{playable:.3f}","-an",
+                "-vf",vf,
+                "-c:v","libx264","-preset","veryfast","-crf","20",
+                "-pix_fmt","yuv420p",str(out)
+            ])
+            if playable + 0.05 < shot_len:
+                freeze_for = shot_len - playable
+                if max_freeze_seconds is not None and freeze_for > max_freeze_seconds:
+                    raise RuntimeError(
+                        f"{key} speech-aligned source would freeze for {freeze_for:.2f}s"
+                    )
+                padded = WORK / f"{key}_speech_shot_{i:02d}_padded.mp4"
+                run([
+                    "ffmpeg","-y","-hide_banner","-loglevel","error",
+                    "-i",str(out),
+                    "-vf",f"tpad=stop_mode=clone:stop_duration={freeze_for:.3f}",
+                    "-t",f"{shot_len:.3f}",
+                    "-c:v","libx264","-preset","veryfast","-crf","20",
+                    "-pix_fmt","yuv420p",str(padded)
+                ])
+                padded.replace(out)
+
+        print(
+            f"Speech visual {i + 1}: {shot_len:.2f}s | "
+            f"{block.get('scene') or block.get('text')} | {source_meta.get('url')}",
+            flush=True,
+        )
+        shots.append(out)
+
+    concat = WORK / f"{key}_speech_concat.txt"
+    concat.write_text(
+        "\n".join(f"file '{p.as_posix()}'" for p in shots) + "\n",
+        encoding="utf-8"
+    )
+    visual = WORK / f"{key}_visual.mp4"
+    run([
+        "ffmpeg","-y","-hide_banner","-loglevel","error",
+        "-f","concat","-safe","0","-i",str(concat),
+        "-t",f"{duration:.3f}","-c","copy",str(visual)
+    ])
+    return visual
+
+
+def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None, target_shot_seconds=None, visual_plan=None, narration_timeline=None, allow_photo_only=False):
     # URL-level dedupe before downloading.
     unique_sources = []
     seen_urls = set()
@@ -408,6 +603,18 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     local = interleave_video_first(videos, images)
     if not local:
         raise RuntimeError("No unique media sources available")
+
+    # New narration-driven editor: when exact speech blocks exist, cut visuals
+    # at their real TTS boundaries and require matching tagged footage.
+    if narration_timeline and len(narration_timeline) > 1:
+        return render_speech_aligned_visual(
+            local,
+            key,
+            duration,
+            narration_timeline,
+            max_shot_seconds=max_shot_seconds,
+            max_freeze_seconds=max_freeze_seconds,
+        )
 
     # Narrative-to-visual alignment gate. When content planning provides a
     # visual_plan, reserve one semantically tagged source for each narration
@@ -722,7 +929,9 @@ def main():
         validate_daily_batch(data)
     cfg = data[args.key]
 
-    voice, duration = generate_voice(cfg["script"], args.key)
+    voice, duration, narration_timeline = generate_voice(
+        cfg["script"], args.key, visual_plan=cfg.get("visual_plan")
+    )
 
     min_duration = float(cfg.get("min_duration", 0) or 0)
     max_duration = float(cfg.get("max_duration", 0) or 0)
@@ -749,6 +958,7 @@ def main():
         max_freeze_seconds=float(cfg["max_freeze_seconds"]) if cfg.get("max_freeze_seconds") is not None else None,
         target_shot_seconds=float(cfg["target_shot_seconds"]) if cfg.get("target_shot_seconds") else None,
         visual_plan=cfg.get("visual_plan"),
+        narration_timeline=narration_timeline,
         allow_photo_only=bool((cfg.get("trend_exception") or {}).get("photo_only_allowed")),
     )
     music_path, music_cfg = prepare_music(cfg, args.key)
@@ -767,6 +977,7 @@ def main():
             "duration": round(duration, 2),
             "voice": "am_michael",
             "speed": NARRATION_SPEED,
+            "narration_timeline": narration_timeline,
             "sources": cfg["sources"],
             "review_sheet": review_sheet.name,
             "music": music_cfg,
