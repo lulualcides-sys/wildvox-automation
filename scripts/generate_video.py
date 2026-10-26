@@ -18,6 +18,9 @@ WORK = ROOT / "work"
 OUT.mkdir(exist_ok=True)
 WORK.mkdir(exist_ok=True)
 
+# Keep six distinct video shots within the required 6-8s cadence.
+NARRATION_SPEED = 1.0
+
 
 def run(cmd):
     print("+", " ".join(map(str, cmd)), flush=True)
@@ -52,7 +55,7 @@ def safe_download(url, path):
 def generate_voice(text, key):
     print(f"Generating Kokoro am_michael narration for {key}...", flush=True)
     pipeline = KPipeline(lang_code="a")
-    generator = pipeline(text, voice="am_michael", speed=1.08, split_pattern=r"\n+")
+    generator = pipeline(text, voice="am_michael", speed=NARRATION_SPEED, split_pattern=r"\n+")
     chunks = []
     for item in generator:
         audio = getattr(item, "audio", None)
@@ -316,6 +319,18 @@ def interleave_video_first(videos, images):
                 ii += 1
     return ordered
 
+def validate_shot_cadence(duration, nshots, allow_photo_only=False):
+    """Fail closed rather than silently publishing rushed or overlong video shots."""
+    if allow_photo_only:
+        return
+    if nshots <= 0 or not 6.0 <= duration / nshots <= 8.0:
+        pace = duration / nshots if nshots > 0 else 0.0
+        raise RuntimeError(
+            f"Video shot cadence must be 6-8 seconds; got {pace:.2f}s "
+            f"across {nshots} shots in {duration:.2f}s."
+        )
+
+
 def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None, target_shot_seconds=None, visual_plan=None, allow_photo_only=False):
     # URL-level dedupe before downloading.
     unique_sources = []
@@ -471,6 +486,8 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
             candidate = fixed + ranked_candidates[:max(0, candidate_count - len(fixed))]
 
             shot_len = duration / candidate_count
+            if not allow_photo_only and shot_len < 6.0:
+                continue
             if max_shot_seconds and shot_len > max_shot_seconds:
                 continue
 
@@ -526,6 +543,7 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     # spread across the available unique assets, so the same clip/image is not
     # repeated to fill the narration.
     nshots = len(local)
+    validate_shot_cadence(duration, nshots, allow_photo_only=allow_photo_only)
     base_shot_len = duration / nshots
     shots = []
 
@@ -744,7 +762,7 @@ def main():
             "caption": cfg["caption"],
             "duration": round(duration, 2),
             "voice": "am_michael",
-            "speed": 1.08,
+            "speed": NARRATION_SPEED,
             "sources": cfg["sources"],
             "review_sheet": review_sheet.name,
             "music": music_cfg,
