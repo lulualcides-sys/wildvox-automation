@@ -1,256 +1,71 @@
 {
-  "hummingbird_reverse_flight": {
-    "title": "THE BIRD THAT CAN FLY BACKWARDS",
-    "script": "Imagine a bird that can stop in midair, reverse, and fly sideways. Hummingbirds do it by sweeping their wings in a figure-eight pattern, generating lift on both strokes. That lets them hover beside flowers while sipping nectar with a long tongue. Some species beat their wings dozens of times every second, burning energy fast. But life is not just hovering. They build tiny nests, feed their chicks, and young birds practice before taking flight. So the next time a hummingbird seems frozen in the air, remember: its wings are doing extraordinary work.",
-    "caption": "Hummingbirds can fly backwards! 🐦✨ #Hummingbird #BirdFacts #WildVox",
+  "woodpecker_tree_drumming": {
+    "title": "THE BIRD THAT USES ITS HEAD LIKE A DRUM",
+    "script": "A woodpecker can hammer on a tree again and again, yet keep searching for its next meal. That tapping is not just noise. Many woodpeckers peck into bark to reach insects, and some drum on resonant surfaces to communicate. Their stiff tail feathers help brace them against trunks, while strong feet grip the wood. Different species have different patterns, colors, and feeding habits. Some even make nesting holes that other animals later use. So that rapid knocking in the forest might be a bird hunting lunch, or sending a message to its neighbors.",
+    "caption": "A woodpecker's drum is more than noise! 🪵🐦 #Woodpecker #BirdFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20hovering%20in%20mid-air.ogv",
-        "assetTitle": "Hummingbird hovering in mid-air.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_hovering_in_mid-air.ogv",
-        "license": "CC BY 2.0",
-        "author": "Daniel Johnson",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "assetTitle": "Pileated Woodpecker.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pileated_Woodpecker.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pileated%20Woodpecker.webm",
+        "author": "E1754",
+        "license": "CC0 1.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HummingbirdRaw%20(edited).webm",
-        "assetTitle": "HummingbirdRaw (edited).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:HummingbirdRaw_(edited).webm",
+        "assetTitle": "20240313 pileated woodpecker earle park.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:20240313_pileated_woodpecker_earle_park.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20240313%20pileated%20woodpecker%20earle%20park.webm",
+        "author": "Paul Danese",
         "license": "CC BY-SA 4.0",
-        "author": "Wobulatorwill",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruby-throated%20hummingbird%20(Archilochus%20colubris)%20feeding.webm",
-        "assetTitle": "Ruby-throated hummingbird (Archilochus colubris) feeding.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ruby-throated_hummingbird_(Archilochus_colubris)_feeding.webm",
+        "assetTitle": "Pileated Woodpecker (198 8940).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pileated_Woodpecker_(198_8940).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pileated%20Woodpecker%20(198%208940).webm",
+        "author": "Crispins C. Crispian",
+        "license": "CC BY-SA 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Pileated woodpecker (Dryocopus pileatus) in Florida.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pileated_woodpecker_(Dryocopus_pileatus)_in_Florida.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pileated%20woodpecker%20(Dryocopus%20pileatus)%20in%20Florida.webm",
+        "author": "Kid Cowboy",
         "license": "CC BY-SA 2.0",
-        "author": "Eric Kilby",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Humming%20birds%20feeding%20at%201500fps.webm",
-        "assetTitle": "Humming birds feeding at 1500fps.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Humming_birds_feeding_at_1500fps.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "HopefullyUsefulContribution",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rufous%20hummingbird%20feeding%20in%20slow%20motion.webm",
-        "assetTitle": "Rufous hummingbird feeding in slow motion.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rufous_hummingbird_feeding_in_slow_motion.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "HopefullyUsefulContribution",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird.ogv",
-        "assetTitle": "Hummingbird.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird.ogv",
-        "license": "CC BY-SA 3.0",
-        "author": "Rishiraj Sahoo",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20nearly%20fledged.webm",
-        "assetTitle": "Hummingbird nearly fledged.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_nearly_fledged.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "Dennis.insect.filmer",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20fledged.webm",
-        "assetTitle": "Anna's hummingbird fledged.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_fledged.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "Dennis.insect.filmer",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-25-original-hummingbird_reverse_flight"
-  },
-  "squirrel_tree_acrobats": {
-    "title": "WHY SQUIRRELS ARE TINY TREE ACROBATS",
-    "script": "A squirrel racing up a tree looks almost impossible to catch. Its sharp claws grip bark, its flexible ankles help it turn, and its fluffy tail acts like a balancing pole. Watch one leap between branches and you can see why these animals are built for the treetops. Many squirrels spend hours searching for nuts, seeds, and other food. Some bury food in separate hiding places and recover it later. Others are just busy eating right now. Their secret is not superpowers. It is a body designed for climbing, balancing, and surviving one branch at a time.",
-    "caption": "Squirrels have incredible balance. 🐿️🌳 #Squirrel #AnimalFacts #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Morton%20Arboretum%20Winter%20Squirrel%202005.webm",
-        "assetTitle": "Morton Arboretum Winter Squirrel 2005.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Morton_Arboretum_Winter_Squirrel_2005.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "Patrick Pelletier",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrels%20running%20up%20the%20wall.webm",
-        "assetTitle": "Squirrels running up the wall.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrels_running_up_the_wall.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "WizzSilent",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wikimania%20squirrel.webm",
-        "assetTitle": "Wikimania squirrel.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Wikimania_squirrel.webm",
-        "license": "CC BY-SA 3.0",
-        "author": "Prolineserver",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrel%20in%20tree%20eating%20an%20apple.webm",
-        "assetTitle": "Squirrel in tree eating an apple.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrel_in_tree_eating_an_apple.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "Joe Mabel",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrel%20eating%20nut.webmhd.webm",
-        "assetTitle": "Squirrel eating nut.webmhd.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrel_eating_nut.webmhd.webm",
-        "license": "CC BY 4.0",
-        "author": "Anton Porsche",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Squirrel%20eating%20pumpkin%20seeds.webm",
-        "assetTitle": "Squirrel eating pumpkin seeds.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Squirrel_eating_pumpkin_seeds.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "Dennis.insect.filmer",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20squirrel%20eating.webm",
-        "assetTitle": "A squirrel eating.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_squirrel_eating.webm",
-        "license": "CC BY-SA 3.0",
-        "author": "Jnanaranjan sahu",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Video%20of%20squirrel.webm",
-        "assetTitle": "Video of squirrel.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Video_of_squirrel.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "Victor abiose",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-25-original-squirrel_tree_acrobats"
-  },
-  "honeybee_air_conditioning": {
-    "title": "THE BEES THAT AIR-CONDITION THEIR HIVE",
-    "script": "A honeybee hive has no electric fan, but its workers can still control the temperature. On hot days, some bees stand at the entrance and beat their wings to move air. Others collect water, which can help cool the colony as it evaporates. Meanwhile, foragers visit flowers and return with nectar and pollen. When a colony becomes crowded, a swarm may leave to find a new home. Every bee has a role, from collecting food to helping protect developing young. The surprising part? Thousands of tiny wings can work together like one living air-conditioning system.",
-    "caption": "Bees have their own air conditioning! 🐝🌼 #HoneyBee #NatureFacts #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bees%20fanning%20(1).webm",
-        "assetTitle": "Honey bees fanning (1).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_fanning_(1).webm",
-        "license": "CC BY-SA 4.0",
-        "author": "BorekT",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits.",
-        "tags": [
-          "hive_fanning",
-          "hive_ventilation"
-        ]
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/HoneyBeeFlying.webm",
-        "assetTitle": "HoneyBeeFlying.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:HoneyBeeFlying.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "Dennis.insect.filmer",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Apis%20mellifera%20flying%20x40%20SlowMotion02.webm",
-        "assetTitle": "Apis mellifera flying x40 SlowMotion02.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_flying_x40_SlowMotion02.webm",
-        "license": "CC BY 4.0",
-        "author": "Phonon.b",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20honey%20bee%20(Apis%20mellifera).webm",
-        "assetTitle": "Western honey bee (Apis mellifera).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_(Apis_mellifera).webm",
-        "license": "CC BY-SA 3.0",
-        "author": "The Nature Box",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20honey%20bees%20(Apis%20mellifera).webm",
-        "assetTitle": "Western honey bees (Apis mellifera).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_honey_bees_(Apis_mellifera).webm",
+        "assetTitle": "Chick pileated woodpecker calling.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chick_pileated_woodpecker_calling.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chick%20pileated%20woodpecker%20calling.webm",
+        "author": "Chris Waits",
         "license": "CC BY 2.0",
-        "author": "Katja Schulz",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bees%20drinking%20water.webm",
-        "assetTitle": "Honey bees drinking water.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_drinking_water.webm",
+        "assetTitle": "Great spotted woodpecker (Dendrocopos major) in 2022 (video).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_spotted_woodpecker_(Dendrocopos_major)_in_2022_(video).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20spotted%20woodpecker%20(Dendrocopos%20major)%20in%202022%20(video).webm",
+        "author": "Frankie Fouganthin",
         "license": "CC BY-SA 4.0",
-        "author": "Goovaeh8fot6yugh",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees.webm",
-        "assetTitle": "Honeybees.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "Dennis.insect.filmer",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bee%20gathering%20pollen.webm",
-        "assetTitle": "Honey bee gathering pollen.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bee_gathering_pollen.webm",
-        "license": "CC BY-SA 3.0",
-        "author": "Alexanderboyes",
-        "license_note": "Verified Wikimedia Commons file page 2026-10-25; source shows Apis mellifera collecting pollen; retain attribution, license link, and modification notice."
+        "assetTitle": "Crimson-crested Woodpecker. Campephilus melanoleucos video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Crimson-crested_Woodpecker._Campephilus_melanoleucos_video.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crimson-crested%20Woodpecker.%20Campephilus%20melanoleucos%20video.webm",
+        "author": "Gail's pictures",
+        "license": "CC BY 2.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       }
     ],
     "min_unique_videos": 6,
@@ -259,92 +74,84 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-25-bee-qa-fanning-first-plus-verified-pollen",
-    "visual_plan": [
-      {
-        "scene": "Show real bees fanning at hive entrance while explaining natural air conditioning",
-        "tags": [
-          "hive_fanning"
-        ]
-      }
-    ]
+    "revision": "2026-10-26-original-woodpecker_tree_drumming"
   },
-  "pigeon_city_survival": {
-    "title": "THE CITY BIRD WITH A SECRET DANCE",
-    "script": "Pigeons look ordinary until you really watch them. As they walk, their heads seem to bob, but part of that motion helps keep the world steady in their vision. Their powerful wings can launch them away from danger in a split second. They also spend time preening feathers, feeding together, and performing elaborate courtship dances. In busy cities, pigeons share space with other birds and watch for predators. They are descendants of rock doves, animals that adapted remarkably well to life beside humans. That familiar bird on the sidewalk is a surprisingly capable survivor.",
-    "caption": "Pigeons have a secret head-bob trick. 🕊️ #Pigeon #BirdFacts #WildVox",
+  "chameleon_independent_eyes": {
+    "title": "THE LIZARD THAT CAN LOOK TWO WAYS AT ONCE",
+    "script": "Imagine watching for danger in one direction while checking for dinner in another. A chameleon can move its eyes largely independently, giving it an extraordinary view of its surroundings. When it spots a possible meal, both eyes can focus toward the target. Its long sticky tongue can then shoot forward to grab an insect. Chameleons also use color changes for communication and temperature control, not just hiding. Their gripping feet and curling tails help many species move carefully along branches. The wild part? A chameleon can scan the world without turning its whole head.",
+    "caption": "Chameleons can scan two directions at once! 🦎👀 #Chameleon #ReptileFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon.ogv",
-        "assetTitle": "Pigeon.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon.ogv",
-        "license": "Public domain",
-        "author": "ジダネ",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon%20take%20off.webm",
-        "assetTitle": "Pigeon take off.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon_take_off.webm",
-        "license": "CC BY-SA 3.0",
-        "author": "Karthik Easvur",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock%20doves%20(Columba%20livia)%20on%20a%20fence.webm",
-        "assetTitle": "Rock doves (Columba livia) on a fence.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rock_doves_(Columba_livia)_on_a_fence.webm",
-        "license": "CC BY-SA 3.0",
-        "author": "The Nature Box",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Columba%20livia%20(Madrid%2C%20Spain)%20007.webm",
-        "assetTitle": "Columba livia (Madrid, Spain) 007.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Columba_livia_(Madrid%2C_Spain)_007.webm",
-        "license": "CC BY-SA 3.0 ES",
-        "author": "Luis García",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Columba%20livia%20forma%20domestica%20-%20courtship%20dance2.ogv",
-        "assetTitle": "Columba livia forma domestica - courtship dance2.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Columba_livia_forma_domestica_-_courtship_dance2.ogv",
-        "license": "Public domain",
-        "author": "Bisco",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeons%20and%20Crows%20on%20Shankha%20Park%20on%20the%20Bank%20of%20Bagmati%20River.webm",
-        "assetTitle": "Pigeons and Crows on Shankha Park on the Bank of Bagmati River.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeons_and_Crows_on_Shankha_Park_on_the_Bank_of_Bagmati_River.webm",
+        "assetTitle": "Chameleons' Eye Coordination 01.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chameleons'_Eye_Coordination_01.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chameleons'%20Eye%20Coordination%2001.webm",
+        "author": "Suyash Dwivedi",
         "license": "CC BY-SA 4.0",
-        "author": "Ashma Silwal",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20chasing%20a%20pigeon.webm",
-        "assetTitle": "Cat chasing a pigeon.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm",
-        "license": "CC0 1.0",
-        "author": "Jeromi Mikhael",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D1%96%D1%80%D1%81%D1%96.webm",
-        "assetTitle": "Голуби на пірсі.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B8_%D0%BD%D0%B0_%D0%BF%D1%96%D1%80%D1%81%D1%96.webm",
+        "assetTitle": "Chameleon 02.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Chameleon_02.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chameleon%2002.webm",
+        "author": "NairobiPapel",
         "license": "CC BY-SA 4.0",
-        "author": "Own work Wikimedia Commons uploader",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "My Chameleon is funny.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:My_Chameleon_is_funny.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/My%20Chameleon%20is%20funny.webm",
+        "author": "Esquardo",
+        "license": "CC BY-SA 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Two-Horned Chameleon.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Two-Horned_Chameleon.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two-Horned%20Chameleon.webm",
+        "author": "Hannolans / original creator",
+        "license": "CC BY 3.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Green chameleon.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Green_chameleon.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20chameleon.ogv",
+        "author": "ElHeineken",
+        "license": "CC BY-SA 3.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Veiled chameleons (Chamaeleo calyptratus).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Veiled_chameleons_(Chamaeleo_calyptratus).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Veiled%20chameleons%20(Chamaeleo%20calyptratus).webm",
+        "author": "Brenna",
+        "license": "CC BY 2.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Veiled chameleon (Chamaeleo calyptratus) in a zoo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Veiled_chameleon_(Chamaeleo_calyptratus)_in_a_zoo.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Veiled%20chameleon%20(Chamaeleo%20calyptratus)%20in%20a%20zoo.webm",
+        "author": "Helmut Rec",
+        "license": "CC BY 2.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "An aggressive Common chameleon does not let to open the water tap in the garden.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:An_aggressive_Common_chameleon_does_not_let_to_open_the_water_tap_in_the_garden.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/An%20aggressive%20Common%20chameleon%20does%20not%20let%20to%20open%20the%20water%20tap%20in%20the%20garden.webm",
+        "author": "Hana Yariv",
+        "license": "CC BY-SA 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       }
     ],
     "min_unique_videos": 6,
@@ -353,88 +160,170 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-25-original-pigeon_city_survival"
+    "revision": "2026-10-26-original-chameleon_independent_eyes"
   },
-  "cat_play_hunting_instinct": {
-    "title": "WHY YOUR CAT PLAYS LIKE A TINY TIGER",
-    "script": "When a cat crouches, wiggles, and pounces on a toy, it is practicing a very old skill. Cats are natural hunters, and play helps young cats rehearse stalking, chasing, and grabbing. Even indoor cats may spring after moving objects as if they were prey. Then the same fierce little hunter can spend ages grooming its fur or resting on a sofa. Those different behaviors are all part of being a cat. The funny twist? That dramatic attack on a toy mouse is not random chaos. It is a miniature hunting lesson, performed right in your living room.",
-    "caption": "Your cat is training like a tiny tiger. 🐱🐯 #CatFacts #WildVox",
+  "flamingo_filter_feeding": {
+    "title": "WHY FLAMINGOS EAT UPSIDE DOWN",
+    "script": "A flamingo's beak looks almost backwards, and that is exactly what makes feeding so strange. These pink birds often lower their heads into shallow water and use specialized structures in their bills to filter tiny food from mud and water. Their long legs let them wade where many other birds cannot. Pink feathers come from pigments in their diet, not from being born bright pink. And flamingos are social birds, gathering in groups and making plenty of noise. So when you see one with its head upside down, it is not confused. It is eating dinner.",
+    "caption": "Flamingos eat with their heads upside down! 🦩 #Flamingo #AnimalFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20and%20tuxedo%20kittens.webm",
-        "assetTitle": "Black and tuxedo kittens.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_and_tuxedo_kittens.webm",
+        "assetTitle": "Flamingo at St. Marks National Wildlife Refuge.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Flamingo_at_St._Marks_National_Wildlife_Refuge.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingo%20at%20St.%20Marks%20National%20Wildlife%20Refuge.webm",
+        "author": "James Leon Young",
         "license": "CC BY-SA 4.0",
-        "author": "Eteil",
-        "license_note": "Verified on Wikimedia Commons 2026-10-25: authentic footage of five-week-old kittens playing with mother; attribution, license link and changes notice required."
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20with%20a%20round%20track%20toy.webm",
-        "assetTitle": "Cat playing with a round track toy.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_with_a_round_track_toy.webm",
+        "assetTitle": "Flamingos at Chester Zoo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Flamingos_at_Chester_Zoo.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos%20at%20Chester%20Zoo.webm",
+        "author": "Mike Peel",
+        "license": "CC BY-SA 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Greater flamingos.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Greater_flamingos.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Greater%20flamingos.webm",
+        "author": "Altes",
+        "license": "CC BY-SA 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Flamingos in Poznan Zoo Part 1.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Flamingos_in_Poznan_Zoo_Part_1.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos%20in%20Poznan%20Zoo%20Part%201.webm",
+        "author": "Strange Animals",
+        "license": "CC BY 3.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Flamingos in Poznan Zoo Part 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Flamingos_in_Poznan_Zoo_Part_2.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos%20in%20Poznan%20Zoo%20Part%202.webm",
+        "author": "Strange Animals",
+        "license": "CC BY 3.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Caribbean Flamingo vocalization.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Caribbean_Flamingo_vocalization.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caribbean%20Flamingo%20vocalization.webm",
+        "author": "Whoisjohngalt",
+        "license": "CC BY-SA 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Flamingos at Disney's Animal Kingdom Lodge (36556953892).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Flamingos_at_Disney's_Animal_Kingdom_Lodge_(36556953892).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamingos%20at%20Disney's%20Animal%20Kingdom%20Lodge%20(36556953892).webm",
+        "author": "Elisfkc",
+        "license": "CC BY-SA 2.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "043 Greater flamingo vocalizing in the Camargue during mating season (slow motion) Video by Giles Laurent.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:043_Greater_flamingo_vocalizing_in_the_Camargue_during_mating_season_(slow_motion)_Video_by_Giles_Laurent.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/043%20Greater%20flamingo%20vocalizing%20in%20the%20Camargue%20during%20mating%20season%20(slow%20motion)%20Video%20by%20Giles%20Laurent.webm",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-26-original-flamingo_filter_feeding"
+  },
+  "crab_sideways_walk": {
+    "title": "WHY CRABS WALK SIDEWAYS",
+    "script": "Ever watched a crab hurry across a beach like it forgot which way is forward? Many crabs move sideways because their jointed legs bend in a way that makes side-stepping efficient. Their hard outer shells help protect them, but growing means shedding that armor and forming a new one. Some crabs dig into sand, others hunt or scavenge, and hermit crabs protect soft abdomens inside borrowed shells. Not every crab moves the same way, and some can even swim. That sideways sprint is not a mistake. It is a clever design for getting around.",
+    "caption": "Crabs have a surprising way of moving! 🦀 #Crab #OceanFacts #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "assetTitle": "Crabs (Pachygrapsus marmoratus).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Crabs_(Pachygrapsus_marmoratus).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crabs%20(Pachygrapsus%20marmoratus).webm",
+        "author": "Petar Milošević",
+        "license": "CC BY-SA 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Hermit crab.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hermit_crab.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hermit%20crab.webm",
+        "author": "Bramfab",
+        "license": "CC BY-SA 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Video of a crab eating.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Video_of_a_crab_eating.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Video%20of%20a%20crab%20eating.ogv",
+        "author": "Amada44",
         "license": "CC BY-SA 3.0",
-        "author": "Clément Bucco-Lechat",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits.",
-        "tags": [
-          "cat_toy_play",
-          "cat_hunting_practice"
-        ]
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Plays.webm",
-        "assetTitle": "Cat Plays.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Plays.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "Riverarvi",
-        "license_note": "Wikimedia Commons source and license verified 2026-10-25; authentic cat playing; retain attribution, license link and modification notice."
+        "assetTitle": "Crab making bubbles and digging into sand @ Abaiang Atoll, Kiribati.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Crab_making_bubbles_and_digging_into_sand_%40_Abaiang_Atoll%2C_Kiribati.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crab%20making%20bubbles%20and%20digging%20into%20sand%20%40%20Abaiang%20Atoll%2C%20Kiribati.webm",
+        "author": "flexmaen",
+        "license": "CC BY 3.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spitting%20Cat%20Chases%20Shadow.webm",
-        "assetTitle": "Spitting Cat Chases Shadow.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Spitting_Cat_Chases_Shadow.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "MLinington",
-        "license_note": "Wikimedia Commons source and license verified 2026-10-25; cat chasing moving shadow; retain attribution, license link and modification notice."
+        "assetTitle": "Hairy crab video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hairy_crab_video.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hairy%20crab%20video.webm",
+        "author": "François Nguyen",
+        "license": "CC BY 2.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20with%20a%20laser%20pointer.webm",
-        "assetTitle": "Cat playing with a laser pointer.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_with_a_laser_pointer.webm",
-        "license": "CC BY-SA 3.0",
-        "author": "Clément Bucco-Lechat",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "assetTitle": "Crab on St. John, US Virgin Islands.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Crab_on_St._John%2C_US_Virgin_Islands.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crab%20on%20St.%20John%2C%20US%20Virgin%20Islands.webm",
+        "author": "TheRockyintertidal",
+        "license": "CC BY 3.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Calico%20kitten%20playing.webm",
-        "assetTitle": "Calico kitten playing.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Calico_kitten_playing.webm",
-        "license": "CC BY-SA 4.0",
-        "author": "باسم",
-        "license_note": "Wikimedia Commons file page consulted 2026-10-25; attribution and ShareAlike terms must be retained in publication credits."
+        "assetTitle": "Giant Spider Crab, Leptomithrax gaimardii.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_Spider_Crab%2C_Leptomithrax_gaimardii.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20Spider%20Crab%2C%20Leptomithrax%20gaimardii.webm",
+        "author": "Museums Victoria",
+        "license": "CC BY 3.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
-        "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
+        "assetTitle": "Video of bread crab.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Video_of_bread_crab.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Video%20of%20bread%20crab.webm",
+        "author": "驭龙飞车手",
         "license": "CC BY 4.0",
-        "author": "Nesnad",
-        "license_note": "Verified Wikimedia Commons file page 2026-10-25; original 8-second video of kitten playing; retain attribution and license link."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
-        "assetTitle": "Moomin1.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
-        "license": "CC0 1.0",
-        "author": "Tet",
-        "license_note": "Verified Wikimedia Commons file page 2026-10-25: own-work 19-second vertical video of female domestic cat playing with cotton swab; CC0; use only when visual review confirms no unrelated overlays."
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       }
     ],
     "min_unique_videos": 6,
@@ -443,14 +332,83 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-25-cat-qa-replace-last-kamaa-watermark",
-    "visual_plan": [
+    "revision": "2026-10-26-original-crab_sideways_walk"
+  },
+  "octopus_eight_arms": {
+    "title": "THE ANIMAL WITH EIGHT ARMS AND A SECRET ESCAPE PLAN",
+    "script": "An octopus has eight flexible arms lined with suckers, and each arm can explore its surroundings in remarkable detail. These animals squeeze through narrow gaps, hide among rocks, and change their skin's appearance to blend with the scene. Many are curious problem solvers, using their arms to investigate unfamiliar objects. They can also release a cloud of ink when threatened, though they do not use it every time. Different octopus species live in very different habitats, from reefs to deeper water. Their superpower is not magic. It is a flexible body and a highly adaptable brain.",
+    "caption": "Eight arms, camouflage, and incredible escapes! 🐙 #Octopus #OceanFacts #WildVox",
+    "sources": [
       {
-        "scene": "Opening: show domestic cat actively playing with a toy as narrated",
-        "tags": [
-          "cat_toy_play"
-        ]
+        "type": "video",
+        "assetTitle": "Octopus.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Octopus.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Octopus.ogv",
+        "author": "Silke Baron (prilfish)",
+        "license": "CC BY 2.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Giant Pacific Octopus in Washington.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_Pacific_Octopus_in_Washington.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20Pacific%20Octopus%20in%20Washington.webm",
+        "author": "John",
+        "license": "CC BY 3.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Saltwater State Park Octopus.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Saltwater_State_Park_Octopus.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saltwater%20State%20Park%20Octopus.webm",
+        "author": "dalangalma",
+        "license": "CC BY 3.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Hairy octopus.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hairy_octopus.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hairy%20octopus.webm",
+        "author": "Roser Gari Perez",
+        "license": "CC BY 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Moving Octopus Vulgaris 2005-01-14.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Moving_Octopus_Vulgaris_2005-01-14.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moving%20Octopus%20Vulgaris%202005-01-14.ogv",
+        "author": "MilesTeg",
+        "license": "CC BY-SA 3.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Octopus in aquarium.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Octopus_in_aquarium.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Octopus%20in%20aquarium.webm",
+        "author": "Polygoon-Profilti / Nederlands Instituut voor Beeld en Geluid",
+        "license": "CC BY-SA 3.0 NL",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s002.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s002.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s002.ogv",
+        "author": "Caldwell R, Ross R, Rodaniche A, Huffard C",
+        "license": "CC BY 4.0",
+        "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
       }
-    ]
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-26-original-octopus_eight_arms"
   }
 }
