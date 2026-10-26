@@ -72,8 +72,8 @@
       "text": "Some setts are enlarged and reused for years, although family sizes vary with food and habitat.",
       "scene": "Return to den/family visuals during the sett longevity explanation",
       "tags": [
-        "badger_cubs",
-        "badger_wild"
+        "badger_wild",
+        "badger_cubs"
       ],
       "story_role": null,
       "overlay_label": null,
@@ -87,7 +87,8 @@
       "text": "The surprise? Beneath an ordinary patch of woodland, generations of badgers may be maintaining a secret underground home.",
       "scene": "End on a strong family/den payoff",
       "tags": [
-        "badger_cubs"
+        "badger_cubs",
+        "badger_sett"
       ],
       "story_role": null,
       "overlay_label": null,
@@ -104,18 +105,21 @@
         "badger_cubs"
       ],
       "license": "CC BY 4.0",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      "author": "Balkani Wildlife Society",
+      "license_note": "Wikimedia Commons verified 2026-10-26: authentic European badger cubs filmed by wildlife camera, CC BY 4.0; author attribution required."
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria.webm",
-      "assetTitle": "Badger family with 3 cubs in Bulgaria.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dachs%20auf%20Futtersuche.webm",
+      "assetTitle": "Dachs auf Futtersuche.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dachs_auf_Futtersuche.webm",
       "tags": [
-        "badger_cubs"
+        "badger_wild"
       ],
-      "license": "CC BY 4.0",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      "license": "CC BY-SA 4.0",
+      "author": "MurphyG",
+      "license_note": "Commons verified 2026-10-26: real European badger foraging before sunset; author MurphyG, CC BY-SA 4.0; credit and ShareAlike required. Replaces dark camera-trap family clip in the sett-longevity section.",
+      "start_seconds": 1
     },
     {
       "type": "video",
@@ -155,27 +159,28 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria%2002.webm",
-      "assetTitle": "Badger family with 3 cubs in Bulgaria 02.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria_02.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dachs%20auf%20dem%20Drachenberg%20Berlin.webm",
+      "assetTitle": "Dachs auf dem Drachenberg Berlin.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dachs_auf_dem_Drachenberg_Berlin.webm",
       "tags": [
-        "badger_cubs"
+        "badger_wild"
       ],
-      "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
-      "license": "CC BY 4.0",
-      "author": "Balkani Wildlife Society"
+      "license": "CC0 1.0",
+      "author": "NutzerAusBerlin",
+      "license_note": "Commons verified 2026-10-26: authentic European badger at late dawn in Berlin, CC0; daylight payoff instead of dark camera trap.",
+      "start_seconds": 5
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Familienausflug%20der%20Dachse.webm",
-      "assetTitle": "Familienausflug der Dachse.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Familienausflug_der_Dachse.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria.webm",
+      "assetTitle": "Badger family with 3 cubs in Bulgaria.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria.webm",
       "tags": [
         "badger_cubs"
       ],
-      "license": "CC BY-SA 4.0",
-      "author": "Andreas75",
-      "license_note": "Commons page verified 2026-10-26; two adult and two juvenile European badgers foraging together; natural family payoff, attribution and ShareAlike required."
+      "license": "CC BY 4.0",
+      "author": "Balkani Wildlife Society",
+      "license_note": "Commons file page verified 2026-10-26: authentic European badger family with three cubs, camera trap 30s, CC BY 4.0. Replaces distant empty grass in closing payoff; credit Balkani Wildlife Society."
     },
     {
       "type": "video",
@@ -188,6 +193,18 @@
       "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
       "license": "CC BY 4.0",
       "author": "Balkani Wildlife Society"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20collecting%20bedding%20material.webm",
+      "assetTitle": "Badger collecting bedding material.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_collecting_bedding_material.webm",
+      "tags": [
+        "badger_sett"
+      ],
+      "license": "CC BY 4.0",
+      "author": "Balkani Wildlife Society",
+      "license_note": "Commons file page verified 2026-10-26: authentic European badger collecting bedding and carrying it into its den; 5.1s, CC BY 4.0. Direct sett-maintenance closing payoff, attribution required."
     }
   ],
   "review_sheet": "european_badger_sett_society_review.jpg",

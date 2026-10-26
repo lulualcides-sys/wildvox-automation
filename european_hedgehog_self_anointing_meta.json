@@ -123,15 +123,15 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(3).webm",
-      "assetTitle": "Erinaceus europaeus - dkrb(3).webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(3).webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20Europan%20Hedgehog.webm",
+      "assetTitle": "Young Europan Hedgehog.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_Europan_Hedgehog.webm",
       "tags": [
-        "hedgehog_night"
+        "hedgehog_walk"
       ],
       "license": "CC BY-SA 4.0",
-      "author": "Drahkrub",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      "author": "Fiver, der Hellseher",
+      "license_note": "Commons file page verified 2026-10-26: genuine European hedgehog on meadow, 7.1-second distinct clip; credit, license link, ShareAlike and modification notice required. Replaces visually weak infrared B-roll."
     },
     {
       "type": "video",
@@ -155,7 +155,8 @@
       ],
       "license": "CC BY-SA 4.0",
       "author": "PsamatheM",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits.",
+      "start_seconds": 30
     },
     {
       "type": "video",

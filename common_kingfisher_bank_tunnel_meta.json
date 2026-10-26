@@ -108,15 +108,16 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eisvogel%20%28Alcedo%20Atthis%29%20Weibchen.webm",
-      "assetTitle": "Eisvogel (Alcedo Atthis) Weibchen.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Eisvogel_(Alcedo_Atthis)_Weibchen.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingfisher%20catching%20fish%2C%20eating%2C%20defecating%20and%20flying%20in%20K%C3%B5rvemaa%2C%20Estonia%20%28October%202022%29.webm",
+      "assetTitle": "Kingfisher catching fish, eating, defecating and flying in Kõrvemaa, Estonia (October 2022).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kingfisher_catching_fish,_eating,_defecating_and_flying_in_K%C3%B5rvemaa,_Estonia_(October_2022).webm",
       "tags": [
-        "kingfisher_perch"
+        "kingfisher_perch",
+        "kingfisher_fish"
       ],
       "license": "CC BY-SA 4.0",
-      "author": "Scarabinol",
-      "license_note": "Wikimedia Commons file page verified 2026-10-26; authentic female common kingfisher perched on branch scanning for prey; attribution and ShareAlike required."
+      "author": "Sillerkiil",
+      "license_note": "Wikimedia Commons file page verified 2026-10-26: original footage of kingfisher catching fish and flying, 56s, CC BY-SA 4.0. Replaces near-static perched footage flagged by 1.4s freeze detection; credit creator, license and modifications."
     },
     {
       "type": "video",
@@ -139,19 +140,21 @@
         "kingfisher_fish"
       ],
       "license": "CC BY-SA 3.0",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      "license_note": "Commons file page verified 2026-10-26: Dieder Plu, CC BY-SA 3.0, real common kingfisher eating fish; attribution, license link and modification notice required.",
+      "author": "Dieder Plu"
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20Gravend%20-%20common%20kingfisher%20digging%20-%20Alcedo%20atthis.webm",
-      "assetTitle": "IJsvogel Gravend - common kingfisher digging - Alcedo atthis.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_Gravend_-_common_kingfisher_digging_-_Alcedo_atthis.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20bij%20nestwand%20-%20common%20kingfisher%20at%20nest%20bank%20-%20Alcedo%20atthis.webm",
+      "assetTitle": "IJsvogel bij nestwand - common kingfisher at nest bank - Alcedo atthis.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_bij_nestwand_-_common_kingfisher_at_nest_bank_-_Alcedo_atthis.webm",
       "tags": [
         "kingfisher_bank"
       ],
       "license": "CC BY 4.0",
       "author": "Bouke ten Cate",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      "license_note": "Commons source page verified 2026-10-26: authentic common kingfisher visiting excavated nest bank; creator credit, license link and modification notice required. Replaces dark/poorly framed bank shot.",
+      "start_seconds": 0
     },
     {
       "type": "video",
@@ -167,15 +170,15 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20bij%20nest-4961665.webm",
-      "assetTitle": "IJsvogel bij nest-4961665.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_bij_nest-4961665.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20Gravend%20-%20common%20kingfisher%20digging%20-%20Alcedo%20atthis.webm",
+      "assetTitle": "IJsvogel Gravend - common kingfisher digging - Alcedo atthis.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_Gravend_-_common_kingfisher_digging_-_Alcedo_atthis.webm",
       "tags": [
         "kingfisher_bank"
       ],
-      "license": "CC BY-SA 3.0 nl",
-      "author": "Marc Plomp / Stichting Natuurbeelden",
-      "license_note": "Commons file page verified 2026-10-26; authentic common kingfisher at nest hole; attribution and ShareAlike required."
+      "license": "CC BY 4.0",
+      "author": "Bouke ten Cate",
+      "license_note": "Commons file page verified 2026-10-26: common kingfisher actively excavating a nesting tunnel; 37s, CC BY 4.0. Direct behavior-match for the closing tunnel payoff; attribution and modification notice required."
     },
     {
       "type": "video",
