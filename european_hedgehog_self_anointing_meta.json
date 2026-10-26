@@ -16,7 +16,10 @@
       "tags": [
         "hedgehog_walk",
         "hedgehog_night"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 1,
@@ -28,7 +31,10 @@
       "tags": [
         "hedgehog_night",
         "hedgehog_walk"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 2,
@@ -39,7 +45,10 @@
       "scene": "Switch to the curled-ball behavior at the exact spoken cue",
       "tags": [
         "hedgehog_ball"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 3,
@@ -50,7 +59,10 @@
       "scene": "Show authentic self-anointing during the self-anointing explanation",
       "tags": [
         "hedgehog_self_anoint"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 4,
@@ -62,7 +74,10 @@
       "tags": [
         "hedgehog_night",
         "hedgehog_juvenile"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 5,
@@ -75,7 +90,10 @@
         "hedgehog_walk",
         "hedgehog_drink",
         "hedgehog_juvenile"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     }
   ],
   "sources": [

@@ -15,7 +15,10 @@
       "scene": "Open on wild badgers near their den",
       "tags": [
         "badger_wild"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 1,
@@ -26,7 +29,10 @@
       "scene": "Show badgers at/near a sett rather than CGI tunnels",
       "tags": [
         "badger_wild"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 2,
@@ -37,7 +43,10 @@
       "scene": "Switch to family/cub footage as family life is discussed",
       "tags": [
         "badger_cubs"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 3,
@@ -50,7 +59,10 @@
         "badger_wild",
         "badger_grooming",
         "badger_play"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 4,
@@ -62,7 +74,10 @@
       "tags": [
         "badger_cubs",
         "badger_wild"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 5,
@@ -73,7 +88,10 @@
       "scene": "End on a strong family/den payoff",
       "tags": [
         "badger_cubs"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     }
   ],
   "sources": [

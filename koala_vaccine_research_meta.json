@@ -16,7 +16,10 @@
       "tags": [
         "koala_moving",
         "koala_climbing"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 1,
@@ -28,7 +31,10 @@
       "tags": [
         "koala_grooming",
         "koala_sleep"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 2,
@@ -39,7 +45,10 @@
       "scene": "Switch to eucalyptus feeding exactly as digestion is mentioned",
       "tags": [
         "koala_eating"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 3,
@@ -52,7 +61,10 @@
         "koala_climbing",
         "koala_moving",
         "koala_joey"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 4,
@@ -64,7 +76,10 @@
       "tags": [
         "koala_sleep",
         "koala_grooming"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 5,
@@ -76,7 +91,10 @@
       "tags": [
         "koala_climbing",
         "koala_joey"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     }
   ],
   "sources": [

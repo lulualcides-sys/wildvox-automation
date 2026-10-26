@@ -15,7 +15,10 @@
       "scene": "Open on the authentic raven mimicry clip",
       "tags": [
         "raven_mimicry"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 1,
@@ -27,7 +30,10 @@
       "tags": [
         "raven_mimicry",
         "raven_call"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 2,
@@ -39,7 +45,10 @@
       "tags": [
         "raven_feeding",
         "raven_grooming"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 3,
@@ -51,7 +60,10 @@
       "tags": [
         "raven_call",
         "raven_feeding"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 4,
@@ -63,7 +75,10 @@
       "tags": [
         "raven_snow",
         "raven_grooming"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 5,
@@ -74,7 +89,10 @@
       "scene": "End on a strong raven call payoff",
       "tags": [
         "raven_call"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     }
   ],
   "sources": [

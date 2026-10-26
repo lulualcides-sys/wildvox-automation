@@ -16,7 +16,10 @@
       "tags": [
         "kingfisher_fish",
         "kingfisher_perch"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 1,
@@ -27,7 +30,10 @@
       "scene": "Show fishing/diving behavior while the narration describes the catch",
       "tags": [
         "kingfisher_fish"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 2,
@@ -38,7 +44,10 @@
       "scene": "Keep the visual on a kingfisher handling a fish",
       "tags": [
         "kingfisher_fish"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 3,
@@ -49,7 +58,10 @@
       "scene": "Switch to riverbank/nesting visuals exactly when the narration changes to the nest",
       "tags": [
         "kingfisher_bank"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 4,
@@ -61,7 +73,10 @@
       "tags": [
         "kingfisher_perch",
         "kingfisher_fish"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     },
     {
       "index": 5,
@@ -72,7 +87,10 @@
       "scene": "End on the riverbank/tunnel payoff",
       "tags": [
         "kingfisher_bank"
-      ]
+      ],
+      "story_role": null,
+      "overlay_label": null,
+      "fx": []
     }
   ],
   "sources": [
