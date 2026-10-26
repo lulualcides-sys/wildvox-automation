@@ -2,10 +2,10 @@ name: WildVox Daily 5
 
 on:
   push:
+    # Editorial content alone triggers a fresh render; editor code is QA'd
+    # separately. Avoid a costly unintended rerender of an old daily batch.
     paths:
       - "configs/daily.json"
-      - "scripts/generate_video.py"
-      - ".github/workflows/wildvox-daily.yml"
   schedule:
     # GitHub cron is UTC. 08:30 UTC = 05:30 America/Sao_Paulo.
     - cron: "30 8 * * *"
