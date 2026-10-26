@@ -11,6 +11,7 @@ from pathlib import Path
 import numpy as np
 import soundfile as sf
 from kokoro import KPipeline
+from cinematic_fx import camera_filter, enrich_subtitles
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output"
@@ -114,6 +115,9 @@ def generate_voice(text, key, visual_plan=None):
             "text": block_text,
             "scene": block.get("scene") or block_text,
             "tags": list(block.get("tags") or []),
+            "story_role": block.get("story_role"),
+            "overlay_label": block.get("overlay_label"),
+            "fx": block.get("fx") or [],
         })
         chunks.append(block_audio)
 
@@ -469,12 +473,13 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
     )
 
     for i, ((src, media_type, source_meta), shot_len, block) in enumerate(scheduled):
+        shot_filter = camera_filter(vf, shot_len, block.get("story_role"))
         out = WORK / f"{key}_speech_shot_{i:02d}.mp4"
         if media_type == "image":
             run([
                 "ffmpeg","-y","-hide_banner","-loglevel","error",
                 "-loop","1","-i",str(src),"-t",f"{shot_len:.3f}","-an",
-                "-vf",vf,
+                "-vf",shot_filter,
                 "-c:v","libx264","-preset","veryfast","-crf","20",
                 "-pix_fmt","yuv420p",str(out)
             ])
@@ -487,7 +492,7 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
                 "ffmpeg","-y","-hide_banner","-loglevel","error",
                 "-ss",f"{start:.3f}","-i",str(src),
                 "-t",f"{playable:.3f}","-an",
-                "-vf",vf,
+                "-vf",shot_filter,
                 "-c:v","libx264","-preset","veryfast","-crf","20",
                 "-pix_fmt","yuv420p",str(out)
             ])
@@ -958,6 +963,7 @@ def main():
         )
 
     ass = make_ass(cfg["script"], cfg["title"], args.key, duration)
+    enrich_subtitles(ass, narration_timeline)
     visual = build_visual(
         cfg["sources"],
         args.key,
