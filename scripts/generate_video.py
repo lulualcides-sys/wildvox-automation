@@ -182,24 +182,19 @@ def validate_daily_batch(data):
         raise RuntimeError(f"daily.json must contain exactly 5 entries, found {len(data)}")
 
     short_count = 0
-    long_count = 0
     batch_urls = set()
 
     for key, cfg in data.items():
         min_duration = float(cfg.get("min_duration", 0) or 0)
         max_duration = float(cfg.get("max_duration", 0) or 0)
 
-        if (min_duration, max_duration) == (30.0, 45.0):
-            short_count += 1
-            required_videos = 6
-        elif (min_duration, max_duration) == (60.0, 75.0):
-            long_count += 1
-            required_videos = 8
-        else:
+        if (min_duration, max_duration) != (30.0, 45.0):
             raise RuntimeError(
-                f"{key} must use duration gates 30-45s or 60-75s, "
+                f"{key} must use duration gates 30-45s, "
                 f"found {min_duration:.0f}-{max_duration:.0f}s"
             )
+        short_count += 1
+        required_videos = 6
 
         trend_exception = cfg.get("trend_exception") or {}
         allow_photo_only = bool(trend_exception.get("photo_only_allowed"))
@@ -279,12 +274,11 @@ def validate_daily_batch(data):
         if not 0 <= max_freeze <= 1.0:
             raise RuntimeError(f"{key} max_freeze_seconds must be at most 1")
 
-    # Editorial contract: three 30-45s shorts and two 60-75s long videos.
-    # TikTok is the only publishing target; both lengths are supported.
-    if short_count != 3 or long_count != 2:
+    # Editorial contract: exactly five 30-45s TikTok videos per day.
+    if short_count != 5:
         raise RuntimeError(
-            f"daily.json must contain exactly 3 short (30-45s) and 2 long (60-75s) videos; "
-            f"found {short_count} short and {long_count} long"
+            f"daily.json must contain exactly 5 short (30-45s) videos; "
+            f"found {short_count} short"
         )
 
 
