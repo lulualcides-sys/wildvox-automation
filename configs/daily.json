@@ -98,6 +98,18 @@
         "license": "CC BY 2.0",
         "author": "Tony Wood",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20bij%20nest-4961665.webm",
+        "assetTitle": "IJsvogel bij nest-4961665.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_bij_nest-4961665.webm",
+        "tags": [
+          "kingfisher_bank"
+        ],
+        "license": "CC BY-SA 3.0 nl",
+        "author": "Marc Plomp / Stichting Natuurbeelden",
+        "license_note": "Commons file page verified 2026-10-26; authentic common kingfisher at nest hole; attribution and ShareAlike required."
       }
     ],
     "min_unique_videos": 6,
@@ -106,7 +118,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-speech-sync-v1",
+    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-speech-sync-v1 -bank-source-fix-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -255,6 +267,18 @@
         "license": "CC BY-SA 3.0",
         "author": "Calle Eklund / V-wolf",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hedgehog%20self-anointing.jpg",
+        "assetTitle": "Hedgehog self-anointing.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hedgehog_self-anointing.jpg",
+        "tags": [
+          "hedgehog_self_anoint"
+        ],
+        "license": "CC BY-SA 3.0",
+        "author": "Gisrenist",
+        "license_note": "Commons file page verified 2026-10-26; authentic European hedgehog applying frothy saliva to spines; one still supports longer self-anointing narration; credit/ShareAlike required."
       }
     ],
     "min_unique_videos": 6,
@@ -263,7 +287,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_hedgehog_self_anointing-speech-sync-v1",
+    "revision": "2026-10-26-daily-european_hedgehog_self_anointing-speech-sync-v1-self-anoint-photo-support-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -417,7 +441,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-common_raven_voice_mimicry-speech-sync-v1",
+    "revision": "2026-10-26-daily-common_raven_voice_mimicry-speech-sync-v1-reserve-calling-footage-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -456,8 +480,7 @@
         "scene": "Use varied natural raven behavior rather than staged mimicry",
         "tags": [
           "raven_snow",
-          "raven_grooming",
-          "raven_call"
+          "raven_grooming"
         ]
       },
       {
