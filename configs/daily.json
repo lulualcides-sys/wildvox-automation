@@ -66,6 +66,15 @@
         "author": "Gail's pictures",
         "license": "CC BY 2.0",
         "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Black-rumped flameback TVM Video 1.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Black-rumped_flameback_TVM_Video_1.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black-rumped%20flameback%20TVM%20Video%201.webm",
+        "author": "Shishirdasika",
+        "license": "CC BY-SA 4.0",
+        "license_note": "Verified on Wikimedia Commons 2026-10-26; attribution, license link, source and edits must be credited."
       }
     ],
     "min_unique_videos": 6,
@@ -74,7 +83,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-original-woodpecker_tree_drumming"
+    "revision": "2026-10-26-woodpecker-8-verified"
   },
   "chameleon_independent_eyes": {
     "title": "THE LIZARD THAT CAN LOOK TWO WAYS AT ONCE",
@@ -401,6 +410,15 @@
         "author": "Caldwell R, Ross R, Rodaniche A, Huffard C",
         "license": "CC BY 4.0",
         "license_note": "Source description and license checked on Wikimedia Commons on 2026-10-26. Attribution, source link, license link and modifications must be retained; do not imply zoo footage is wild."
+      },
+      {
+        "type": "video",
+        "assetTitle": "Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s003.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s003.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Behavior-and-Body-Patterns-of-the-Larger-Pacific-Striped-Octopus-pone.0134152.s003.ogv",
+        "author": "Caldwell R, Ross R, Rodaniche A, Huffard C",
+        "license": "CC BY 4.0",
+        "license_note": "Verified on Wikimedia Commons 2026-10-26; attribution, license link, source and edits must be credited."
       }
     ],
     "min_unique_videos": 6,
@@ -409,6 +427,6 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-original-octopus_eight_arms"
+    "revision": "2026-10-26-octopus-8-verified"
   }
 }
