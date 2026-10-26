@@ -1,0 +1,109 @@
+{
+  "key": "koala_vaccine_research",
+  "title": "THE HIDDEN DISEASE THREATENING AUSTRALIA'S KOALAS",
+  "caption": "Koala vaccine research is promising, but scientists are still testing how well it protects wild populations. 🐨 #Koala #WildlifeScience #Conservation #AnimalFacts #WildVox",
+  "duration": 40.6,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20Feeding.webm",
+      "assetTitle": "Koala Feeding.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_Feeding.webm",
+      "tags": [
+        "koala_eating"
+      ],
+      "license": "CC0 1.0",
+      "author": "Classy Melissa",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20climbing%20tree%20off%20Montacute%20Road%20near%20Adelaide.ogv",
+      "assetTitle": "Koala climbing tree off Montacute Road near Adelaide.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree_off_Montacute_Road_near_Adelaide.ogv",
+      "tags": [
+        "koala_climbing"
+      ],
+      "license": "CC BY-SA 4.0",
+      "author": "Orderinchaos",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20in%20motion.webm",
+      "assetTitle": "Koala in motion.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_in_motion.webm",
+      "tags": [
+        "koala_climbing"
+      ],
+      "license": "CC BY 3.0",
+      "author": "CharlieBarbarossa",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20visiting%20a%20house%20in%20Forrest%20township.ogv",
+      "assetTitle": "Koala visiting a house in Forrest township.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_visiting_a_house_in_Forrest_township.ogv",
+      "tags": [
+        "koala_moving"
+      ],
+      "license": "CC BY-SA 4.0",
+      "author": "RiffRaffMama",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20grooming.ogv",
+      "assetTitle": "Koala grooming.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_grooming.ogv",
+      "tags": [
+        "koala_grooming"
+      ],
+      "license": "CC BY-SA 3.0",
+      "author": "Chamaeleon",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20with%20young.ogv",
+      "assetTitle": "Koala with young.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_with_young.ogv",
+      "tags": [
+        "koala_joey"
+      ],
+      "license": "Public domain",
+      "author": "Brian Dell / Bdell555",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/See%20a%20Koala%20scratch%2C%20yawn%20and%20sleep.webm",
+      "assetTitle": "See a Koala scratch, yawn and sleep.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:See_a_Koala_scratch%2C_yawn_and_sleep.webm",
+      "tags": [
+        "koala_sleep"
+      ],
+      "license": "CC BY-SA 4.0",
+      "author": "Gato Preto",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala.ogv",
+      "assetTitle": "Koala.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala.ogv",
+      "tags": [
+        "koala_climbing"
+      ],
+      "license": "CC BY-SA 2.0 de",
+      "author": "Benedikt89",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    }
+  ],
+  "review_sheet": "koala_vaccine_research_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

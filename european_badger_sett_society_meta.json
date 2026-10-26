@@ -1,0 +1,101 @@
+{
+  "key": "european_badger_sett_society",
+  "title": "THE SECRET UNDERGROUND CITY OF EUROPEAN BADGERS",
+  "caption": "European badgers build and maintain underground homes called setts. 🦡 #EuropeanBadger #AnimalBehavior #Wildlife #NatureFacts #WildVox",
+  "duration": 38.52,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20cubs.webm",
+      "assetTitle": "Badger cubs.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_cubs.webm",
+      "tags": [
+        "badger_cubs"
+      ],
+      "license": "CC BY 4.0",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria.webm",
+      "assetTitle": "Badger family with 3 cubs in Bulgaria.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria.webm",
+      "tags": [
+        "badger_cubs"
+      ],
+      "license": "CC BY 4.0",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badgers%20at%20Play.webm",
+      "assetTitle": "Badgers at Play.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badgers_at_Play.webm",
+      "tags": [
+        "badger_play"
+      ],
+      "license": "CC BY 2.0",
+      "author": "caroline legg",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20badgers%20(Meles%20meles)%20in%20Slovakia.webm",
+      "assetTitle": "European badgers (Meles meles) in Slovakia.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:European_badgers_(Meles_meles)_in_Slovakia.webm",
+      "tags": [
+        "badger_wild"
+      ],
+      "license": "CC BY 3.0",
+      "author": "Lubo Ondrasko",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20badgers%20(Meles%20meles)%20in%20the%20wild.webm",
+      "assetTitle": "European badgers (Meles meles) in the wild.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:European_badgers_(Meles_meles)_in_the_wild.webm",
+      "tags": [
+        "badger_wild"
+      ],
+      "license": "CC BY 3.0",
+      "author": "Lubo Ondrasko",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria%2002.webm",
+      "assetTitle": "Badger family with 3 cubs in Bulgaria 02.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria_02.webm",
+      "tags": [
+        "badger_cubs"
+      ],
+      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria%2003.webm",
+      "assetTitle": "Badger family with 3 cubs in Bulgaria 03.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria_03.webm",
+      "tags": [
+        "badger_cubs"
+      ],
+      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mutual%20grooming%20of%20badgers%20in%20Bulgaria.webm",
+      "assetTitle": "Mutual grooming of badgers in Bulgaria.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mutual_grooming_of_badgers_in_Bulgaria.webm",
+      "tags": [
+        "badger_grooming"
+      ],
+      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+    }
+  ],
+  "review_sheet": "european_badger_sett_society_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

@@ -1,0 +1,103 @@
+{
+  "key": "common_raven_voice_mimicry",
+  "title": "THIS RAVEN CAN SOUND LIKE A BARKING DOG",
+  "caption": "Some ravens can imitate barking and other sounds. 🐦‍⬛ #Raven #BirdIntelligence #AnimalFacts #Wildlife #WildVox",
+  "duration": 41.95,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ugat%C3%A1st%20ut%C3%A1nz%C3%B3%20holl%C3%B3.ogv",
+      "assetTitle": "Ugatást utánzó holló.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ugat%C3%A1st_ut%C3%A1nz%C3%B3_holl%C3%B3.ogv",
+      "tags": [
+        "raven_mimicry"
+      ],
+      "license": "CC0 1.0",
+      "author": "Balogh Nóra",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20raven%20calling%20(44456).webm",
+      "assetTitle": "Common raven calling (44456).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_raven_calling_(44456).webm",
+      "tags": [
+        "raven_call"
+      ],
+      "license": "CC BY-SA 4.0",
+      "author": "Rhododendrites",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Ravens%20at%20a%20feeding%20site.webm",
+      "assetTitle": "Common Ravens at a feeding site.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Ravens_at_a_feeding_site.webm",
+      "tags": [
+        "raven_feeding"
+      ],
+      "license": "CC BY 3.0",
+      "author": "Lennart Hessel",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two%20Ravens%20Talking%20Mar%2010%202012.ogv",
+      "assetTitle": "Two Ravens Talking Mar 10 2012.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Two_Ravens_Talking_Mar_10_2012.ogv",
+      "tags": [
+        "raven_call"
+      ],
+      "license": "CC BY 3.0",
+      "author": "Robomaeyhem",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolkrabe.ogv",
+      "assetTitle": "Kolkrabe.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kolkrabe.ogv",
+      "tags": [
+        "raven_call"
+      ],
+      "author": "Nightflyer",
+      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MVI%201452.ogv",
+      "assetTitle": "MVI 1452.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:MVI_1452.ogv",
+      "tags": [
+        "raven_feeding"
+      ],
+      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raaf%20in%20de%20sneeuw-4961948.webm",
+      "assetTitle": "Raaf in de sneeuw-4961948.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Raaf_in_de_sneeuw-4961948.webm",
+      "tags": [
+        "raven_snow"
+      ],
+      "author": "Marc Plomp / Stichting Natuurbeelden",
+      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabe%20bei%20der%20Federpflege.webm",
+      "assetTitle": "Rabe bei der Federpflege.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rabe_bei_der_Federpflege.webm",
+      "tags": [
+        "raven_grooming"
+      ],
+      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+    }
+  ],
+  "review_sheet": "common_raven_voice_mimicry_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
