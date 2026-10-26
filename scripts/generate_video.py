@@ -473,12 +473,15 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
         fixed = list(planned)
         fixed_paths = {str(item[0]) for item in fixed}
         candidates = [item for item in local if str(item[0]) not in fixed_paths]
+        # Content planning orders the strongest/relevant sources first.
+        # Preserve that editorial priority instead of letting a long but weak
+        # clip jump ahead merely because it has more seconds available.
         ranked_candidates = sorted(
             candidates,
             key=lambda item: (
                 item[1] != "video",
-                -float(item[2].get("_duration", 0.0)),
                 int(item[2].get("_source_index", 0)),
+                -float(item[2].get("_duration", 0.0)),
             ),
         )
         selected = None
