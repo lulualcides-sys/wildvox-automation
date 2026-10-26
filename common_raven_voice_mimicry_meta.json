@@ -135,7 +135,8 @@
         "raven_call"
       ],
       "author": "Nightflyer",
-      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+      "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+      "license": "CC BY-SA 3.0"
     },
     {
       "type": "video",
@@ -145,7 +146,9 @@
       "tags": [
         "raven_feeding"
       ],
-      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+      "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+      "license": "CC BY-SA 3.0",
+      "author": "StMH"
     },
     {
       "type": "video",
@@ -156,7 +159,8 @@
         "raven_snow"
       ],
       "author": "Marc Plomp / Stichting Natuurbeelden",
-      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+      "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+      "license": "CC BY-SA 3.0 nl"
     },
     {
       "type": "video",
@@ -166,7 +170,9 @@
       "tags": [
         "raven_grooming"
       ],
-      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+      "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+      "license": "CC BY-SA 4.0",
+      "author": "Xulescu g"
     }
   ],
   "review_sheet": "common_raven_voice_mimicry_review.jpg",

@@ -78,6 +78,30 @@
   "sources": [
     {
       "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20return%20foothold.webm",
+      "assetTitle": "Alcedo atthis return foothold.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_return_foothold.webm",
+      "tags": [
+        "kingfisher_fish"
+      ],
+      "license": "CC BY-SA 4.0",
+      "author": "Phonon.b",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eisvogel%20%28Alcedo%20Atthis%29%20Weibchen.webm",
+      "assetTitle": "Eisvogel (Alcedo Atthis) Weibchen.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Eisvogel_(Alcedo_Atthis)_Weibchen.webm",
+      "tags": [
+        "kingfisher_perch"
+      ],
+      "license": "CC BY-SA 4.0",
+      "author": "Scarabinol",
+      "license_note": "Wikimedia Commons file page verified 2026-10-26; authentic female common kingfisher perched on branch scanning for prey; attribution and ShareAlike required."
+    },
+    {
+      "type": "video",
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20eating%20a%20fish.webm",
       "assetTitle": "Common Kingfisher eating a fish.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm",
@@ -90,38 +114,13 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis).webm",
-      "assetTitle": "Common kingfisher (Alcedo atthis).webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis).webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20eet%20vis.ogv",
+      "assetTitle": "IJsvogel eet vis.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_eet_vis.ogv",
       "tags": [
-        "kingfisher_perch"
+        "kingfisher_fish"
       ],
-      "license": "CC BY-SA 2.0",
-      "author": "The Nature Box",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-    },
-    {
-      "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
-      "assetTitle": "Common kingfisher (Alcedo atthis) in Slovakia.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm",
-      "tags": [
-        "kingfisher_perch"
-      ],
-      "license": "CC BY 3.0",
-      "author": "The Nature Box",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-    },
-    {
-      "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20bij%20nestwand%20-%20common%20kingfisher%20at%20nest%20bank%20-%20Alcedo%20atthis.webm",
-      "assetTitle": "IJsvogel bij nestwand - common kingfisher at nest bank - Alcedo atthis.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_bij_nestwand_-_common_kingfisher_at_nest_bank_-_Alcedo_atthis.webm",
-      "tags": [
-        "kingfisher_bank"
-      ],
-      "license": "CC BY 4.0",
-      "author": "Bouke ten Cate",
+      "license": "CC BY-SA 3.0",
       "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
     },
     {
@@ -138,37 +137,14 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20return%20foothold.webm",
-      "assetTitle": "Alcedo atthis return foothold.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_return_foothold.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
+      "assetTitle": "Common kingfisher (Alcedo atthis) in Slovakia.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm",
       "tags": [
-        "kingfisher_fish"
+        "kingfisher_perch"
       ],
-      "license": "CC BY-SA 4.0",
-      "author": "Phonon.b",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-    },
-    {
-      "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20eet%20vis.ogv",
-      "assetTitle": "IJsvogel eet vis.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_eet_vis.ogv",
-      "tags": [
-        "kingfisher_fish"
-      ],
-      "license": "CC BY-SA 3.0",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-    },
-    {
-      "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20-England-8.ogv",
-      "assetTitle": "Alcedo atthis -England-8.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_-England-8.ogv",
-      "tags": [
-        "kingfisher_fish"
-      ],
-      "license": "CC BY 2.0",
-      "author": "Tony Wood",
+      "license": "CC BY 3.0",
+      "author": "The Nature Box",
       "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
     },
     {
@@ -182,6 +158,18 @@
       "license": "CC BY-SA 3.0 nl",
       "author": "Marc Plomp / Stichting Natuurbeelden",
       "license_note": "Commons file page verified 2026-10-26; authentic common kingfisher at nest hole; attribution and ShareAlike required."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20-England-8.ogv",
+      "assetTitle": "Alcedo atthis -England-8.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_-England-8.ogv",
+      "tags": [
+        "kingfisher_fish"
+      ],
+      "license": "CC BY 2.0",
+      "author": "Tony Wood",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
     }
   ],
   "review_sheet": "common_kingfisher_bank_tunnel_review.jpg",

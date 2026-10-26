@@ -143,17 +143,21 @@
       "tags": [
         "badger_cubs"
       ],
-      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+      "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+      "license": "CC BY 4.0",
+      "author": "Balkani Wildlife Society"
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria%2003.webm",
-      "assetTitle": "Badger family with 3 cubs in Bulgaria 03.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria_03.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Familienausflug%20der%20Dachse.webm",
+      "assetTitle": "Familienausflug der Dachse.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Familienausflug_der_Dachse.webm",
       "tags": [
         "badger_cubs"
       ],
-      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+      "license": "CC BY-SA 4.0",
+      "author": "Andreas75",
+      "license_note": "Commons page verified 2026-10-26; two adult and two juvenile European badgers foraging together; natural family payoff, attribution and ShareAlike required."
     },
     {
       "type": "video",
@@ -163,7 +167,9 @@
       "tags": [
         "badger_grooming"
       ],
-      "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+      "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+      "license": "CC BY 4.0",
+      "author": "Balkani Wildlife Society"
     }
   ],
   "review_sheet": "european_badger_sett_society_review.jpg",

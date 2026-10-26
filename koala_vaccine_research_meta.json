@@ -2,7 +2,7 @@
   "key": "koala_vaccine_research",
   "title": "THE HIDDEN DISEASE THREATENING AUSTRALIA'S KOALAS",
   "caption": "Koala vaccine research is promising, but scientists are still testing how well it protects wild populations. 🐨 #Koala #WildlifeScience #Conservation #AnimalFacts #WildVox",
-  "duration": 44.7,
+  "duration": 42.73,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -33,9 +33,9 @@
     {
       "index": 2,
       "start": 9.375,
-      "end": 17.825,
-      "duration": 8.45,
-      "text": "Antibiotics help sick koalas, yet treatment can disrupt the gut microbes they need to digest eucalyptus leaves.",
+      "end": 15.85,
+      "duration": 6.475,
+      "text": "Antibiotics help, but can disrupt microbes koalas need to digest eucalyptus.",
       "scene": "Switch to eucalyptus feeding exactly as digestion is mentioned",
       "tags": [
         "koala_eating"
@@ -43,8 +43,8 @@
     },
     {
       "index": 3,
-      "start": 17.825,
-      "end": 33.6,
+      "start": 15.85,
+      "end": 31.625,
       "duration": 15.775,
       "text": "Australian researchers are developing vaccines to protect them. One vaccine received regulatory approval in 2025, although scientists are still studying how well it prevents serious disease in wild populations.",
       "scene": "Use varied real koala footage during the research explanation, without fake vaccination scenes",
@@ -56,8 +56,8 @@
     },
     {
       "index": 4,
-      "start": 33.6,
-      "end": 37.75,
+      "start": 31.625,
+      "end": 35.775,
       "duration": 4.15,
       "text": "Vaccination is promising, not a miracle cure.",
       "scene": "Use a calm koala shot during the caution statement",
@@ -68,8 +68,8 @@
     },
     {
       "index": 5,
-      "start": 37.75,
-      "end": 44.7,
+      "start": 35.775,
+      "end": 42.725,
       "duration": 6.95,
       "text": "Koalas still need healthy habitat, veterinary care, and protection from the threats around them.",
       "scene": "Finish on a koala climbing/living in habitat for the conservation payoff",
@@ -175,18 +175,6 @@
       "license": "CC BY-SA 2.0 de",
       "author": "Benedikt89",
       "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-    },
-    {
-      "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Feeding%20Koala.jpg",
-      "assetTitle": "Feeding Koala.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Feeding_Koala.jpg",
-      "tags": [
-        "koala_eating"
-      ],
-      "license": "CC BY 4.0",
-      "author": "Vanadium Erbium",
-      "license_note": "Wikimedia Commons page verified 2026-10-26; authentic koala feeding on eucalyptus leaves; licensed CC BY 4.0, attribution required. Supporting still used only if narration segment needs a second feeding visual."
     }
   ],
   "review_sheet": "koala_vaccine_research_review.jpg",

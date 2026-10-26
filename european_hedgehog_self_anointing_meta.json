@@ -2,7 +2,7 @@
   "key": "european_hedgehog_self_anointing",
   "title": "WHY THIS HEDGEHOG COVERS ITS SPINES IN FOAM",
   "caption": "Hedgehogs sometimes spread frothy saliva on their spines. Scientists are still studying why. 🦔 #Hedgehog #AnimalFacts #Wildlife #NatureFacts #WildVox",
-  "duration": 38.52,
+  "duration": 35.4,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -44,9 +44,9 @@
     {
       "index": 3,
       "start": 18.825,
-      "end": 29.075,
-      "duration": 10.25,
-      "text": "And sometimes it performs a bizarre ritual called self-anointing: it licks a new smell, makes frothy saliva, then spreads it over its spines.",
+      "end": 25.95,
+      "duration": 7.125,
+      "text": "Sometimes it self-anoints: after tasting a new smell, it spreads frothy saliva over its spines.",
       "scene": "Show authentic self-anointing during the self-anointing explanation",
       "tags": [
         "hedgehog_self_anoint"
@@ -54,8 +54,8 @@
     },
     {
       "index": 4,
-      "start": 29.075,
-      "end": 32.15,
+      "start": 25.95,
+      "end": 29.025,
       "duration": 3.075,
       "text": "Scientists still debate exactly why.",
       "scene": "Use a calm authentic hedgehog shot while uncertainty is explained",
@@ -66,8 +66,8 @@
     },
     {
       "index": 5,
-      "start": 32.15,
-      "end": 38.525,
+      "start": 29.025,
+      "end": 35.4,
       "duration": 6.375,
       "text": "The punchline? A tiny garden visitor has one of nature's strangest grooming routines.",
       "scene": "Finish with a strong hedgehog payoff shot",
@@ -81,14 +81,14 @@
   "sources": [
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog%20Self-Anointing.webm",
-      "assetTitle": "European Hedgehog Self-Anointing.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog_Self-Anointing.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog.webm",
+      "assetTitle": "European Hedgehog.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog.webm",
       "tags": [
-        "hedgehog_self_anoint"
+        "hedgehog_walk"
       ],
-      "license": "CC BY-SA 4.0",
-      "author": "PsamatheM",
+      "license": "CC BY-SA 3.0",
+      "author": "Fiver, der Hellseher",
       "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
     },
     {
@@ -96,18 +96,6 @@
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(1).webm",
       "assetTitle": "Erinaceus europaeus - dkrb(1).webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(1).webm",
-      "tags": [
-        "hedgehog_night"
-      ],
-      "license": "CC BY-SA 4.0",
-      "author": "Drahkrub",
-      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-    },
-    {
-      "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(2).webm",
-      "assetTitle": "Erinaceus europaeus - dkrb(2).webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(2).webm",
       "tags": [
         "hedgehog_night"
       ],
@@ -141,14 +129,26 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog.webm",
-      "assetTitle": "European Hedgehog.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog%20Self-Anointing.webm",
+      "assetTitle": "European Hedgehog Self-Anointing.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog_Self-Anointing.webm",
       "tags": [
-        "hedgehog_walk"
+        "hedgehog_self_anoint"
+      ],
+      "license": "CC BY-SA 4.0",
+      "author": "PsamatheM",
+      "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20Erinaceus%20europaeus%20calling.ogv",
+      "assetTitle": "Young Erinaceus europaeus calling.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_Erinaceus_europaeus_calling.ogv",
+      "tags": [
+        "hedgehog_juvenile"
       ],
       "license": "CC BY-SA 3.0",
-      "author": "Fiver, der Hellseher",
+      "author": "Calle Eklund / V-wolf",
       "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
     },
     {
@@ -165,27 +165,15 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20Erinaceus%20europaeus%20calling.ogv",
-      "assetTitle": "Young Erinaceus europaeus calling.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_Erinaceus_europaeus_calling.ogv",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(2).webm",
+      "assetTitle": "Erinaceus europaeus - dkrb(2).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(2).webm",
       "tags": [
-        "hedgehog_juvenile"
+        "hedgehog_night"
       ],
-      "license": "CC BY-SA 3.0",
-      "author": "Calle Eklund / V-wolf",
+      "license": "CC BY-SA 4.0",
+      "author": "Drahkrub",
       "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-    },
-    {
-      "type": "image",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hedgehog%20self-anointing.jpg",
-      "assetTitle": "Hedgehog self-anointing.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hedgehog_self-anointing.jpg",
-      "tags": [
-        "hedgehog_self_anoint"
-      ],
-      "license": "CC BY-SA 3.0",
-      "author": "Gisrenist",
-      "license_note": "Commons file page verified 2026-10-26; authentic European hedgehog applying frothy saliva to spines; one still supports longer self-anointing narration; credit/ShareAlike required."
     }
   ],
   "review_sheet": "european_hedgehog_self_anointing_review.jpg",
