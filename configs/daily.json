@@ -410,15 +410,15 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20visiting%20a%20house%20in%20Forrest%20township.ogv",
-        "assetTitle": "Koala visiting a house in Forrest township.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_visiting_a_house_in_Forrest_township.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20Conservation%20Centre%20%287%20January%202020%29%20-%20moving.ogv",
+        "assetTitle": "Koala Conservation Centre (7 January 2020) - moving.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_Conservation_Centre_(7_January_2020)_-_moving.ogv",
         "tags": [
           "koala_moving"
         ],
-        "license": "CC BY-SA 4.0",
-        "author": "RiffRaffMama",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "license": "CC0 1.0",
+        "author": "Evad37",
+        "license_note": "Wikimedia Commons file page verified 2026-10-26; CC0 1.0; real koala footage at Koala Conservation Centre, Phillip Island."
       },
       {
         "type": "video",
@@ -475,7 +475,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-koala_vaccine_research-shortform-pacing-repair",
+    "revision": "2026-10-26-daily-koala_vaccine_research-shortform-pacing-repair-qa-source-fix",
     "publication_hold": true,
     "visual_plan": [
       {
