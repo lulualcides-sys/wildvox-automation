@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-06",
+  "version": "2026-10-27-narrative-style",
   "editorial_priority": {
     "specific_species_or_subspecies_pct": 75,
     "well_known_animals_with_unusual_specific_fact_pct": 10,
@@ -26,5 +26,51 @@
     "Star-nosed mole instead of mole",
     "Thorny devil instead of lizard",
     "Leaf sheep sea slug instead of sea slug"
-  ]
+  ],
+  "narrative_storytelling": {
+    "effective_from": "2026-10-27",
+    "guide": "docs/NARRATIVE_STYLE.md",
+    "format": "narration_led_mini_documentary",
+    "narrative_arc": [
+      "hook",
+      "setup",
+      "action",
+      "explanation_or_twist",
+      "payoff"
+    ],
+    "visual_plan_roles": [
+      "hook",
+      "setup",
+      "action",
+      "explanation",
+      "twist",
+      "payoff"
+    ],
+    "first_story_role": "hook",
+    "last_story_role": "payoff",
+    "required_middle_roles": [
+      "action",
+      "explanation_or_twist"
+    ],
+    "preserve": [
+      "am_michael",
+      "en-US",
+      "vertical_9_16",
+      "speech_aligned_visual_plan",
+      "6_to_8_second_shots",
+      "licensed_authentic_footage",
+      "small_high_contrast_captions",
+      "publication_hold_until_QA"
+    ],
+    "rules": [
+      "Tell one causal story per species rather than an unrelated list of facts.",
+      "Hook must be factual and supported by opening footage; no sensational exaggeration.",
+      "Narration explains visible behavior as it happens; tag every spoken block to authentic relevant footage.",
+      "The payoff must resolve the hook using a genuinely representative final shot.",
+      "Use exact script coverage in 5-7 visual_plan speech blocks and tag each with story_role.",
+      "Use uncertainty language for developing science; never show footage of another species as proof.",
+      "Arrows, animated labels and zooms are future optional effects, not currently guaranteed by the generator.",
+      "Do not modify old batches or auto-schedule any platform posts."
+    ]
+  }
 }
