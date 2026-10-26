@@ -32,7 +32,7 @@ def validate_narrative_arc(entry):
 
 
 def is_active_revision(value):
-    match = re.match(r"^(\\d{4}-\\d{2}-\\d{2})(?:-|$)", str(value or ""))
+    match = re.match(r"^([0-9]{4}-[0-9]{2}-[0-9]{2})(?:-|$)", str(value or ""))
     return bool(match and date.fromisoformat(match.group(1)) >= ACTIVATION)
 
 
