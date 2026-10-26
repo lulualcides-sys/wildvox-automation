@@ -6,6 +6,7 @@ do codigo de producao. Nunca gera, publica ou agenda video.
 import ast
 import copy
 import json
+import re
 from pathlib import Path
 import unittest
 from urllib.parse import urlsplit,urlunsplit
@@ -17,9 +18,9 @@ DAILY=ROOT/"configs"/"daily.json"
 def load_validation():
     tree=ast.parse(GENERATOR.read_text(encoding="utf-8"))
     functions=[n for n in tree.body if isinstance(n,ast.FunctionDef)
-               and n.name in ("canonical_url","validate_daily_batch")]
-    if len(functions)!=2:raise RuntimeError("Regras reais do WildVox não encontradas")
-    out={"urlsplit":urlsplit,"urlunsplit":urlunsplit}
+               and n.name in ("canonical_url","validate_daily_batch","_normalize_plan_text")]
+    if len(functions)!=3:raise RuntimeError("Regras reais do WildVox não encontradas")
+    out={"urlsplit":urlsplit,"urlunsplit":urlunsplit,"re":re}
     exec(compile(ast.Module(body=functions,type_ignores=[]),str(GENERATOR),"exec"),out)
     return out["validate_daily_batch"]
 
