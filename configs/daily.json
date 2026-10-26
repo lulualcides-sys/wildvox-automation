@@ -18,15 +18,15 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis).webm",
-        "assetTitle": "Common kingfisher (Alcedo atthis).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eisvogel%20%28Alcedo%20Atthis%29%20Weibchen.webm",
+        "assetTitle": "Eisvogel (Alcedo Atthis) Weibchen.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Eisvogel_(Alcedo_Atthis)_Weibchen.webm",
         "tags": [
           "kingfisher_perch"
         ],
-        "license": "CC BY-SA 2.0",
-        "author": "The Nature Box",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "license": "CC BY-SA 4.0",
+        "author": "Scarabinol",
+        "license_note": "Wikimedia Commons file page verified 2026-10-26; authentic female common kingfisher perched on branch scanning for prey; attribution and ShareAlike required."
       },
       {
         "type": "video",
@@ -118,7 +118,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-speech-sync-v1 -bank-source-fix-v2",
+    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-speech-sync-v1-bank-source-fix-v2-qa-perch-replace-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -401,7 +401,8 @@
           "raven_call"
         ],
         "author": "Nightflyer",
-        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+        "license": "CC BY-SA 3.0"
       },
       {
         "type": "video",
@@ -411,7 +412,9 @@
         "tags": [
           "raven_feeding"
         ],
-        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+        "license": "CC BY-SA 3.0",
+        "author": "StMH"
       },
       {
         "type": "video",
@@ -422,7 +425,8 @@
           "raven_snow"
         ],
         "author": "Marc Plomp / Stichting Natuurbeelden",
-        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+        "license": "CC BY-SA 3.0 nl"
       },
       {
         "type": "video",
@@ -432,7 +436,9 @@
         "tags": [
           "raven_grooming"
         ],
-        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+        "license": "CC BY-SA 4.0",
+        "author": "Xulescu g"
       }
     ],
     "min_unique_videos": 6,
@@ -441,7 +447,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-common_raven_voice_mimicry-speech-sync-v2-kokoro-duration-repair",
+    "revision": "2026-10-26-daily-common_raven_voice_mimicry-speech-sync-v2-kokoro-duration-repair-license-verified-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -742,7 +748,9 @@
         "tags": [
           "badger_cubs"
         ],
-        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+        "license": "CC BY 4.0",
+        "author": "Balkani Wildlife Society"
       },
       {
         "type": "video",
@@ -752,7 +760,9 @@
         "tags": [
           "badger_cubs"
         ],
-        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+        "license": "CC BY 4.0",
+        "author": "Balkani Wildlife Society"
       },
       {
         "type": "video",
@@ -762,7 +772,9 @@
         "tags": [
           "badger_grooming"
         ],
-        "license_note": "Listed in Commons species video category, but individual license not independently verified in this run; CI must confirm a free commercial-reuse license before rendering."
+        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
+        "license": "CC BY 4.0",
+        "author": "Balkani Wildlife Society"
       }
     ],
     "min_unique_videos": 6,
@@ -771,7 +783,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_badger_sett_society-speech-sync-v2-reserve-cub-footage-for-payoff",
+    "revision": "2026-10-26-daily-european_badger_sett_society-speech-sync-v2-reserve-cub-footage-for-payoff-license-verified-v3",
     "publication_hold": true,
     "visual_plan": [
       {
