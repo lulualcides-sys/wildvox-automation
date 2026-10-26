@@ -746,6 +746,18 @@
         "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
         "license": "CC BY 4.0",
         "author": "Balkani Wildlife Society"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Familienausflug%20der%20Dachse.webm",
+        "assetTitle": "Familienausflug der Dachse.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Familienausflug_der_Dachse.webm",
+        "tags": [
+          "badger_cubs"
+        ],
+        "license": "CC BY-SA 4.0",
+        "author": "Andreas75",
+        "license_note": "Wikimedia Commons source previously verified 2026-10-26; authentic European badger family (two adults and two juveniles) moving together. Credit Andreas75, link CC BY-SA 4.0 and document modifications. Added to supply a distinct family-payoff shot without reusing earlier clips."
       }
     ],
     "min_unique_videos": 6,
@@ -754,7 +766,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_badger_sett_society-qa-distinct-cub-and-daylight-family-v8",
+    "revision": "2026-10-26-daily-european_badger_sett_society-qa-distinct-cub-and-daylight-family-v9-fix-exhausted-family-payoff",
     "publication_hold": true,
     "visual_plan": [
       {
