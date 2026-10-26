@@ -592,6 +592,18 @@
         "license": "CC BY-SA 2.0 de",
         "author": "Benedikt89",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Feeding%20Koala.jpg",
+        "assetTitle": "Feeding Koala.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Feeding_Koala.jpg",
+        "tags": [
+          "koala_eating"
+        ],
+        "license": "CC BY 4.0",
+        "author": "Vanadium Erbium",
+        "license_note": "Wikimedia Commons page verified 2026-10-26; authentic koala feeding on eucalyptus leaves; licensed CC BY 4.0, attribution required. Supporting still used only if narration segment needs a second feeding visual."
       }
     ],
     "min_unique_videos": 6,
@@ -600,7 +612,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-koala_vaccine_research-shortform-pacing-repair-qa-source-fix-speech-sync-v1",
+    "revision": "2026-10-26-daily-koala_vaccine_research-shortform-pacing-repair-qa-source-fix-speech-sync-v1-verified-feeding-still-support-v2",
     "publication_hold": true,
     "visual_plan": [
       {
