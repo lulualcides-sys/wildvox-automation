@@ -6,14 +6,14 @@
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20eating%20a%20fish.webm",
-        "assetTitle": "Common Kingfisher eating a fish.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20return%20foothold.webm",
+        "assetTitle": "Alcedo atthis return foothold.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_return_foothold.webm",
         "tags": [
           "kingfisher_fish"
         ],
-        "license": "CC BY 3.0",
-        "author": "Lennart Hessel",
+        "license": "CC BY-SA 4.0",
+        "author": "Phonon.b",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
@@ -30,26 +30,25 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
-        "assetTitle": "Common kingfisher (Alcedo atthis) in Slovakia.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20eating%20a%20fish.webm",
+        "assetTitle": "Common Kingfisher eating a fish.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm",
         "tags": [
-          "kingfisher_perch"
+          "kingfisher_fish"
         ],
         "license": "CC BY 3.0",
-        "author": "The Nature Box",
+        "author": "Lennart Hessel",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20bij%20nestwand%20-%20common%20kingfisher%20at%20nest%20bank%20-%20Alcedo%20atthis.webm",
-        "assetTitle": "IJsvogel bij nestwand - common kingfisher at nest bank - Alcedo atthis.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_bij_nestwand_-_common_kingfisher_at_nest_bank_-_Alcedo_atthis.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20eet%20vis.ogv",
+        "assetTitle": "IJsvogel eet vis.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_eet_vis.ogv",
         "tags": [
-          "kingfisher_bank"
+          "kingfisher_fish"
         ],
-        "license": "CC BY 4.0",
-        "author": "Bouke ten Cate",
+        "license": "CC BY-SA 3.0",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
@@ -66,37 +65,14 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20return%20foothold.webm",
-        "assetTitle": "Alcedo atthis return foothold.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_return_foothold.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
+        "assetTitle": "Common kingfisher (Alcedo atthis) in Slovakia.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm",
         "tags": [
-          "kingfisher_fish"
+          "kingfisher_perch"
         ],
-        "license": "CC BY-SA 4.0",
-        "author": "Phonon.b",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20eet%20vis.ogv",
-        "assetTitle": "IJsvogel eet vis.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_eet_vis.ogv",
-        "tags": [
-          "kingfisher_fish"
-        ],
-        "license": "CC BY-SA 3.0",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20-England-8.ogv",
-        "assetTitle": "Alcedo atthis -England-8.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_-England-8.ogv",
-        "tags": [
-          "kingfisher_fish"
-        ],
-        "license": "CC BY 2.0",
-        "author": "Tony Wood",
+        "license": "CC BY 3.0",
+        "author": "The Nature Box",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
@@ -110,6 +86,18 @@
         "license": "CC BY-SA 3.0 nl",
         "author": "Marc Plomp / Stichting Natuurbeelden",
         "license_note": "Commons file page verified 2026-10-26; authentic common kingfisher at nest hole; attribution and ShareAlike required."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20-England-8.ogv",
+        "assetTitle": "Alcedo atthis -England-8.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_-England-8.ogv",
+        "tags": [
+          "kingfisher_fish"
+        ],
+        "license": "CC BY 2.0",
+        "author": "Tony Wood",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       }
     ],
     "min_unique_videos": 6,
@@ -118,7 +106,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-speech-sync-v1-bank-source-fix-v2-qa-perch-replace-v3",
+    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-speech-sync-v1-bank-source-fix-v2-qa-perch-replace-v3 -remove-frozen-bank-shot-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -169,19 +157,19 @@
   },
   "european_hedgehog_self_anointing": {
     "title": "WHY THIS HEDGEHOG COVERS ITS SPINES IN FOAM",
-    "script": "That walking pincushion is not looking for a fight. The European hedgehog uses thousands of stiff spines as armor, but it spends most nights hunting invertebrates with its nose close to the ground. When frightened, it curls into a tight ball, hiding its soft belly. And sometimes it performs a bizarre ritual called self-anointing: it licks a new smell, makes frothy saliva, then spreads it over its spines. Scientists still debate exactly why. The punchline? A tiny garden visitor has one of nature's strangest grooming routines.",
+    "script": "That walking pincushion is not looking for a fight. The European hedgehog uses thousands of stiff spines as armor, but it spends most nights hunting invertebrates with its nose close to the ground. When frightened, it curls into a tight ball, hiding its soft belly. Sometimes it self-anoints: after tasting a new smell, it spreads frothy saliva over its spines. Scientists still debate exactly why. The punchline? A tiny garden visitor has one of nature's strangest grooming routines.",
     "caption": "Hedgehogs sometimes spread frothy saliva on their spines. Scientists are still studying why. 🦔 #Hedgehog #AnimalFacts #Wildlife #NatureFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog%20Self-Anointing.webm",
-        "assetTitle": "European Hedgehog Self-Anointing.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog_Self-Anointing.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog.webm",
+        "assetTitle": "European Hedgehog.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog.webm",
         "tags": [
-          "hedgehog_self_anoint"
+          "hedgehog_walk"
         ],
-        "license": "CC BY-SA 4.0",
-        "author": "PsamatheM",
+        "license": "CC BY-SA 3.0",
+        "author": "Fiver, der Hellseher",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
@@ -189,18 +177,6 @@
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(1).webm",
         "assetTitle": "Erinaceus europaeus - dkrb(1).webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(1).webm",
-        "tags": [
-          "hedgehog_night"
-        ],
-        "license": "CC BY-SA 4.0",
-        "author": "Drahkrub",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(2).webm",
-        "assetTitle": "Erinaceus europaeus - dkrb(2).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(2).webm",
         "tags": [
           "hedgehog_night"
         ],
@@ -234,14 +210,26 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog.webm",
-        "assetTitle": "European Hedgehog.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog%20Self-Anointing.webm",
+        "assetTitle": "European Hedgehog Self-Anointing.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog_Self-Anointing.webm",
         "tags": [
-          "hedgehog_walk"
+          "hedgehog_self_anoint"
+        ],
+        "license": "CC BY-SA 4.0",
+        "author": "PsamatheM",
+        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20Erinaceus%20europaeus%20calling.ogv",
+        "assetTitle": "Young Erinaceus europaeus calling.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_Erinaceus_europaeus_calling.ogv",
+        "tags": [
+          "hedgehog_juvenile"
         ],
         "license": "CC BY-SA 3.0",
-        "author": "Fiver, der Hellseher",
+        "author": "Calle Eklund / V-wolf",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
       },
       {
@@ -258,27 +246,15 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20Erinaceus%20europaeus%20calling.ogv",
-        "assetTitle": "Young Erinaceus europaeus calling.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_Erinaceus_europaeus_calling.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(2).webm",
+        "assetTitle": "Erinaceus europaeus - dkrb(2).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(2).webm",
         "tags": [
-          "hedgehog_juvenile"
+          "hedgehog_night"
         ],
-        "license": "CC BY-SA 3.0",
-        "author": "Calle Eklund / V-wolf",
+        "license": "CC BY-SA 4.0",
+        "author": "Drahkrub",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hedgehog%20self-anointing.jpg",
-        "assetTitle": "Hedgehog self-anointing.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hedgehog_self-anointing.jpg",
-        "tags": [
-          "hedgehog_self_anoint"
-        ],
-        "license": "CC BY-SA 3.0",
-        "author": "Gisrenist",
-        "license_note": "Commons file page verified 2026-10-26; authentic European hedgehog applying frothy saliva to spines; one still supports longer self-anointing narration; credit/ShareAlike required."
       }
     ],
     "min_unique_videos": 6,
@@ -287,7 +263,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_hedgehog_self_anointing-speech-sync-v1-self-anoint-photo-support-v2",
+    "revision": "2026-10-26-daily-european_hedgehog_self_anointing-speech-sync-v1-self-anoint-photo-support-v2 -replace-frozen-photo-cctv-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -314,7 +290,7 @@
         ]
       },
       {
-        "text": "And sometimes it performs a bizarre ritual called self-anointing: it licks a new smell, makes frothy saliva, then spreads it over its spines.",
+        "text": "Sometimes it self-anoints: after tasting a new smell, it spreads frothy saliva over its spines.",
         "scene": "Show authentic self-anointing during the self-anointing explanation",
         "tags": [
           "hedgehog_self_anoint"
@@ -500,7 +476,7 @@
   },
   "koala_vaccine_research": {
     "title": "THE HIDDEN DISEASE THREATENING AUSTRALIA'S KOALAS",
-    "script": "Koalas look peaceful, but a hidden infection threatens many of them. Chlamydia can damage their eyes and reproductive systems. Antibiotics help sick koalas, yet treatment can disrupt the gut microbes they need to digest eucalyptus leaves. Australian researchers are developing vaccines to protect them. One vaccine received regulatory approval in 2025, although scientists are still studying how well it prevents serious disease in wild populations. Vaccination is promising, not a miracle cure. Koalas still need healthy habitat, veterinary care, and protection from the threats around them.",
+    "script": "Koalas look peaceful, but a hidden infection threatens many of them. Chlamydia can damage their eyes and reproductive systems. Antibiotics help, but can disrupt microbes koalas need to digest eucalyptus. Australian researchers are developing vaccines to protect them. One vaccine received regulatory approval in 2025, although scientists are still studying how well it prevents serious disease in wild populations. Vaccination is promising, not a miracle cure. Koalas still need healthy habitat, veterinary care, and protection from the threats around them.",
     "caption": "Koala vaccine research is promising, but scientists are still testing how well it protects wild populations. 🐨 #Koala #WildlifeScience #Conservation #AnimalFacts #WildVox",
     "sources": [
       {
@@ -598,18 +574,6 @@
         "license": "CC BY-SA 2.0 de",
         "author": "Benedikt89",
         "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Feeding%20Koala.jpg",
-        "assetTitle": "Feeding Koala.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Feeding_Koala.jpg",
-        "tags": [
-          "koala_eating"
-        ],
-        "license": "CC BY 4.0",
-        "author": "Vanadium Erbium",
-        "license_note": "Wikimedia Commons page verified 2026-10-26; authentic koala feeding on eucalyptus leaves; licensed CC BY 4.0, attribution required. Supporting still used only if narration segment needs a second feeding visual."
       }
     ],
     "min_unique_videos": 6,
@@ -618,7 +582,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-koala_vaccine_research-shortform-pacing-repair-qa-source-fix-speech-sync-v1-verified-feeding-still-support-v2",
+    "revision": "2026-10-26-daily-koala_vaccine_research-shortform-pacing-repair-qa-source-fix-speech-sync-v1-verified-feeding-still-support-v2 -remove-frozen-still-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -638,7 +602,7 @@
         ]
       },
       {
-        "text": "Antibiotics help sick koalas, yet treatment can disrupt the gut microbes they need to digest eucalyptus leaves.",
+        "text": "Antibiotics help, but can disrupt microbes koalas need to digest eucalyptus.",
         "scene": "Switch to eucalyptus feeding exactly as digestion is mentioned",
         "tags": [
           "koala_eating"
