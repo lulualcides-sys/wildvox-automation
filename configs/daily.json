@@ -53,15 +53,15 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20Gravend%20-%20common%20kingfisher%20digging%20-%20Alcedo%20atthis.webm",
-        "assetTitle": "IJsvogel Gravend - common kingfisher digging - Alcedo atthis.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_Gravend_-_common_kingfisher_digging_-_Alcedo_atthis.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20bij%20nestwand%20-%20common%20kingfisher%20at%20nest%20bank%20-%20Alcedo%20atthis.webm",
+        "assetTitle": "IJsvogel bij nestwand - common kingfisher at nest bank - Alcedo atthis.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_bij_nestwand_-_common_kingfisher_at_nest_bank_-_Alcedo_atthis.webm",
         "tags": [
           "kingfisher_bank"
         ],
         "license": "CC BY 4.0",
         "author": "Bouke ten Cate",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "license_note": "Commons source page verified 2026-10-26: authentic common kingfisher visiting excavated nest bank; creator credit, license link and modification notice required. Replaces dark/poorly framed bank shot."
       },
       {
         "type": "video",
@@ -106,7 +106,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-speech-sync-v1-bank-source-fix-v2-qa-perch-replace-v3 -remove-frozen-bank-shot-v4",
+    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-speech-sync-v1-bank-source-fix-v2-qa-perch-replace-v3 -remove-frozen-bank-shot-v4-visual-qa-authentic-replacement-v5",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -186,15 +186,15 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(3).webm",
-        "assetTitle": "Erinaceus europaeus - dkrb(3).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(3).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20Europan%20Hedgehog.webm",
+        "assetTitle": "Young Europan Hedgehog.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_Europan_Hedgehog.webm",
         "tags": [
-          "hedgehog_night"
+          "hedgehog_walk"
         ],
         "license": "CC BY-SA 4.0",
-        "author": "Drahkrub",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "author": "Fiver, der Hellseher",
+        "license_note": "Commons file page verified 2026-10-26: genuine European hedgehog on meadow, 7.1-second distinct clip; credit, license link, ShareAlike and modification notice required. Replaces visually weak infrared B-roll."
       },
       {
         "type": "video",
@@ -263,7 +263,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_hedgehog_self_anointing-speech-sync-v1-self-anoint-photo-support-v2 -replace-frozen-photo-cctv-v3",
+    "revision": "2026-10-26-daily-european_hedgehog_self_anointing-speech-sync-v1-self-anoint-photo-support-v2 -replace-frozen-photo-cctv-v3-visual-qa-authentic-replacement-v5",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -648,14 +648,15 @@
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20cubs.webm",
-        "assetTitle": "Badger cubs.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_cubs.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Das%20met%20jong-Stichting%20Natuurbeelden-170887.webm",
+        "assetTitle": "Das met jong-Stichting Natuurbeelden-170887.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Das_met_jong-Stichting_Natuurbeelden-170887.webm",
         "tags": [
           "badger_cubs"
         ],
-        "license": "CC BY 4.0",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "license": "CC BY-SA 3.0 nl",
+        "author": "Enting Films / Netherlands Institute for Sound and Vision",
+        "license_note": "Commons page verified 2026-10-26: authentic European badger walking with young at sett, daylight; attribution, ShareAlike, license link and modification notice required. Replaces low-visibility night camera-trap cub shot."
       },
       {
         "type": "video",
@@ -747,7 +748,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_badger_sett_society-speech-sync-v2-reserve-cub-footage-for-payoff-license-verified-v3 -daylight-family-payoff-v4",
+    "revision": "2026-10-26-daily-european_badger_sett_society-speech-sync-v2-reserve-cub-footage-for-payoff-license-verified-v3 -daylight-family-payoff-v4-visual-qa-authentic-replacement-v5",
     "publication_hold": true,
     "visual_plan": [
       {
