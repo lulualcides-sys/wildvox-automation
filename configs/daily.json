@@ -660,14 +660,15 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria.webm",
-        "assetTitle": "Badger family with 3 cubs in Bulgaria.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dachs%20auf%20Futtersuche.webm",
+        "assetTitle": "Dachs auf Futtersuche.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dachs_auf_Futtersuche.webm",
         "tags": [
-          "badger_cubs"
+          "badger_wild"
         ],
-        "license": "CC BY 4.0",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "license": "CC BY-SA 4.0",
+        "author": "MurphyG",
+        "license_note": "Commons verified 2026-10-26: real European badger foraging before sunset; author MurphyG, CC BY-SA 4.0; credit and ShareAlike required. Replaces dark camera-trap family clip in the sett-longevity section."
       },
       {
         "type": "video",
@@ -707,27 +708,27 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria%2002.webm",
-        "assetTitle": "Badger family with 3 cubs in Bulgaria 02.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria_02.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dachs%20auf%20dem%20Drachenberg%20Berlin.webm",
+        "assetTitle": "Dachs auf dem Drachenberg Berlin.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dachs_auf_dem_Drachenberg_Berlin.webm",
         "tags": [
-          "badger_cubs"
+          "badger_wild"
         ],
-        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
-        "license": "CC BY 4.0",
-        "author": "Balkani Wildlife Society"
+        "license": "CC0 1.0",
+        "author": "NutzerAusBerlin",
+        "license_note": "Commons verified 2026-10-26: authentic European badger at late dawn in Berlin, CC0; daylight payoff instead of dark camera trap."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Familienausflug%20der%20Dachse.webm",
-        "assetTitle": "Familienausflug der Dachse.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Familienausflug_der_Dachse.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Das%20met%20jong-Stichting%20Natuurbeelden-170887.webm",
+        "assetTitle": "Das met jong-Stichting Natuurbeelden-170887.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Das_met_jong-Stichting_Natuurbeelden-170887.webm",
         "tags": [
           "badger_cubs"
         ],
-        "license": "CC BY-SA 4.0",
-        "author": "Andreas75",
-        "license_note": "Commons page verified 2026-10-26; two adult and two juvenile European badgers foraging together; natural family payoff, attribution and ShareAlike required."
+        "license": "CC BY-SA 3.0 nl",
+        "author": "Enting Films / Netherlands Institute for Sound and Vision",
+        "license_note": "Commons verified 2026-10-26: European badger with cub near sett in daylight, CC BY-SA 3.0 NL; attribution and ShareAlike required. Final family payoff."
       },
       {
         "type": "video",
@@ -748,7 +749,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_badger_sett_society-speech-sync-v2-reserve-cub-footage-for-payoff-license-verified-v3 -daylight-family-payoff-v4-visual-qa-authentic-replacement-v5",
+    "revision": "2026-10-26-daily-european_badger_sett_society-qa-daylight-sett-and-family-v6",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -785,14 +786,15 @@
         "text": "Some setts are enlarged and reused for years, although family sizes vary with food and habitat.",
         "scene": "Return to den/family visuals during the sett longevity explanation",
         "tags": [
-          "badger_cubs",
-          "badger_wild"
+          "badger_wild",
+          "badger_cubs"
         ]
       },
       {
         "text": "The surprise? Beneath an ordinary patch of woodland, generations of badgers may be maintaining a secret underground home.",
         "scene": "End on a strong family/den payoff",
         "tags": [
+          "badger_wild",
           "badger_cubs"
         ]
       }
