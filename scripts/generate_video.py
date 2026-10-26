@@ -53,7 +53,7 @@ def safe_download(url, path):
     return True
 
 def _normalize_plan_text(text):
-    return re.sub(r"\\s+", " ", re.sub(r"[^A-Za-z0-9']+", " ", text or "")).strip().lower()
+    return re.sub(r"\s+", " ", re.sub(r"[^A-Za-z0-9']+", " ", text or "")).strip().lower()
 
 def generate_voice(text, key, visual_plan=None):
     """Generate Kokoro narration and an exact semantic timing map.
@@ -245,6 +245,15 @@ def validate_daily_batch(data):
                 f"{key} must use duration gates 30-45s, "
                 f"found {min_duration:.0f}-{max_duration:.0f}s"
             )
+        plan = cfg.get("visual_plan")
+        if not isinstance(plan, list) or not 5 <= len(plan) <= 7:
+            raise RuntimeError(f"{key} requires 5-7 ordered narration visual_plan blocks")
+        combined = " ".join(str(block.get("text") or "").strip() for block in plan)
+        if _normalize_plan_text(combined) != _normalize_plan_text(cfg.get("script") or ""):
+            raise RuntimeError(f"{key} visual_plan does not exactly cover the full script")
+        for index, block in enumerate(plan, 1):
+            if not str(block.get("scene") or "").strip() or not block.get("tags"):
+                raise RuntimeError(f"{key} visual_plan block {index} lacks scene or semantic tags")
         short_count += 1
         required_videos = 6
 
@@ -399,9 +408,9 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
 
         parts = max(1, math.ceil(block_duration / max_shot))
         part_duration = block_duration / parts
-        if part_duration < 3.0:
+        if part_duration < 0.75:
             raise RuntimeError(
-                f"{key} narration block is too short for clean visual pacing "
+                f"{key} narration block is too short for a readable semantic cut "
                 f"({part_duration:.2f}s per shot): {block.get('text')}"
             )
 
