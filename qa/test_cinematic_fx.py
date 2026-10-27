@@ -56,15 +56,14 @@ class CinematicFXContract(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "too short"):
             fx.build_events(a)
 
-    def test_camera_push_is_subtle_and_scoped(self):
-        self.assertEqual(fx.camera_filter("fps=30", 2, "action"), "fps=30")
-        camera = fx.camera_filter("fps=30", 2, "hook")
-        self.assertIn("1.045", camera)
-        self.assertIn("zoompan", camera)
-        self.assertIn("fps=30", camera)
+    def test_camera_filter_never_adds_synthetic_motion(self):
+        for role in (None, "hook", "setup", "action", "payoff"):
+            camera = fx.camera_filter("fps=30", 2, role)
+            self.assertEqual(camera, "fps=30")
+            self.assertNotIn("zoompan", camera)
 
     @unittest.skipUnless(shutil.which("ffmpeg"), "FFmpeg unavailable")
-    def test_real_camera_push_ffmpeg(self):
+    def test_real_unmodified_camera_filter_ffmpeg(self):
         filt = fx.camera_filter("fps=30", .2, "hook")
         p = subprocess.run([
             "ffmpeg", "-nostdin", "-y", "-hide_banner", "-loglevel",
