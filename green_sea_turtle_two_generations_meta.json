@@ -133,16 +133,18 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20swimming%20in%20the%20reef%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
-      "assetTitle": "Aerial view of a green sea turtle (Chelonia mydas) swimming in the reef at Lady Musgrave Island, Queensland, Australia.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20swimming%20in%20the%20reef%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20Turtle.ogv",
+      "assetTitle": "Sea Turtle.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_Turtle.ogv",
       "tags": [
-        "t_explain"
+        "t_explain",
+        "t_action"
       ],
-      "license_note": "Real green turtle swimming, not evidence of eggs underground. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-      "license": "CC BY 3.0",
-      "author": "Adam Fish",
-      "license_url": "https://creativecommons.org/licenses/by/3.0"
+      "license_note": "Original Commons page and reuse terms reviewed on 2026-10-27. Adapted excerpt; credit Roger Balestra and CC BY-SA 3.0. Actual species/behavior/framing requires new rendered-frame QA.",
+      "license": "CC BY-SA 3.0",
+      "author": "Roger Balestra",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sea_Turtle.ogv"
     },
     {
       "type": "video",
@@ -168,7 +170,8 @@
       "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
       "license": "CC BY-SA 4.0",
       "author": "Eleonore123",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "start_seconds": 40
     },
     {
       "type": "video",
