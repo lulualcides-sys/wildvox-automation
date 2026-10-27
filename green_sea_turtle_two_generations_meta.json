@@ -167,11 +167,11 @@
       "tags": [
         "t_payoff"
       ],
-      "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable. Editorial retry 2026-10-27: prior 40s excerpt displayed mostly empty sand; seek to original opening for hatchlings, visual QA still mandatory.",
+      "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable. Editorial review 2026-10-27: the first seconds showed empty sand; seek near the midpoint, where hatchlings appear in the original source preview. Recheck the rendered segment before approval.",
       "license": "CC BY-SA 4.0",
       "author": "Eleonore123",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "start_seconds": 0
+      "start_seconds": 48
     },
     {
       "type": "video",
