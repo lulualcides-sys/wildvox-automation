@@ -394,62 +394,76 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
     """Cut B-roll at the real boundaries of spoken semantic blocks."""
     max_shot = float(max_shot_seconds or 8.0)
     unused = list(local)
-    scheduled = []
+    blocks = [b for b in narration_timeline if float(b.get("duration") or 0) > 0]
+    assigned = [[] for _ in blocks]
+    photo_only = all(item[1] == "image" for item in local)
 
-    for block in narration_timeline:
-        block_duration = float(block.get("duration") or 0.0)
-        if block_duration <= 0:
-            continue
-        wanted = {
-            str(tag).strip().lower()
-            for tag in (block.get("tags") or [])
-            if str(tag).strip()
-        }
-        if not wanted:
+    def matches(item, block):
+        wanted = {str(t).strip().lower() for t in (block.get("tags") or []) if str(t).strip()}
+        tags = {str(t).strip().lower() for t in (item[2].get("tags") or []) if str(t).strip()}
+        return bool(wanted & tags)
+
+    def can_play(item, seconds):
+        if item[1] != "video":
+            return True
+        source_seconds = float(item[2].get("_duration", 9999.0))
+        return source_seconds + float(max_freeze_seconds or 0) + 0.05 >= seconds
+
+    # First reserve a different, semantically tagged asset for EVERY spoken block.
+    # This preserves exact Kokoro block boundaries and never reuses source bytes.
+    for i, block in enumerate(blocks):
+        if not block.get("tags"):
+            raise RuntimeError(f"{key} speech-aligned block lacks semantic tags")
+        duration_i = float(block["duration"])
+        candidates = [item for item in unused if matches(item, block) and can_play(item, duration_i)]
+        if not candidates:
             raise RuntimeError(
-                f"{key} speech-aligned block has no visual tags: {block.get('scene') or block.get('text')}"
+                f"{key} has no unused, long-enough source for block {i + 1}: "
+                f"{block.get('scene') or block.get('text')}. Add verified relevant footage."
             )
+        candidates.sort(key=lambda item: (item[1] != "video", int(item[2].get("_source_index", 0))))
+        chosen = candidates[0]
+        unused.remove(chosen)
+        assigned[i].append(chosen)
 
-        parts = max(1, math.ceil(block_duration / max_shot))
-        part_duration = block_duration / parts
-        if part_duration < 0.75:
-            raise RuntimeError(
-                f"{key} narration block is too short for a readable semantic cut "
-                f"({part_duration:.2f}s per shot): {block.get('text')}"
-            )
-
-        for _part in range(parts):
-            candidates = []
-            for item in unused:
-                _path, media_type, source_meta = item
-                source_tags = {
-                    str(tag).strip().lower()
-                    for tag in (source_meta.get("tags") or [])
-                    if str(tag).strip()
-                }
-                if not (wanted & source_tags):
-                    continue
-                src_duration = float(source_meta.get("_duration", 9999.0))
-                if media_type == "video":
-                    freeze_need = max(0.0, part_duration - src_duration)
-                    if max_freeze_seconds is not None and freeze_need > max_freeze_seconds + 0.05:
-                        continue
-                candidates.append(item)
-
+    # A six-block story must NOT silently render only six of its eight authentic
+    # assets. Distribute additional distinct tagged clips inside spoken blocks;
+    # changes remain aligned to the measured Kokoro start/end boundaries.
+    target_shots = min(12, len(local)) if not photo_only else len(assigned)
+    if not photo_only and target_shots < 8:
+        raise RuntimeError(f"{key} requires at least eight distinct video-first assets")
+    while sum(len(group) for group in assigned) < target_shots:
+        choices = []
+        for i, block in enumerate(blocks):
+            next_count = len(assigned[i]) + 1
+            shot_seconds = float(block["duration"]) / next_count
+            if shot_seconds < 1.8:
+                continue
+            candidates = [item for item in unused if matches(item, block) and can_play(item, shot_seconds)]
             if not candidates:
-                raise RuntimeError(
-                    f"{key} has no unused source matching speech block tags {sorted(wanted)} "
-                    f"for: {block.get('scene') or block.get('text')}. "
-                    "Add/re-tag relevant footage instead of substituting generic B-roll."
-                )
+                continue
+            candidates.sort(key=lambda item: (item[1] != "video", int(item[2].get("_source_index", 0))))
+            choices.append((shot_seconds, -i, i, candidates[0]))
+        if not choices:
+            break
+        _length, _order, index, chosen = max(choices, key=lambda c: (c[0], c[1]))
+        assigned[index].append(chosen)
+        unused.remove(chosen)
 
-            candidates.sort(key=lambda item: (
-                item[1] != "video",
-                int(item[2].get("_source_index", 0)),
-            ))
-            chosen = candidates[0]
-            unused.remove(chosen)
-            scheduled.append((chosen, part_duration, block))
+    shot_count = sum(len(group) for group in assigned)
+    if not photo_only and shot_count < 8:
+        raise RuntimeError(
+            f"{key} could align only {shot_count} distinct tagged shots; "
+            "add/re-tag verified media instead of inserting unrelated B-roll."
+        )
+
+    scheduled = []
+    for block, group in zip(blocks, assigned):
+        shot_seconds = float(block["duration"]) / len(group)
+        if shot_seconds > max_shot + 0.05:
+            raise RuntimeError(f"{key} shot exceeds the {max_shot:.1f}s maximum")
+        for item in group:
+            scheduled.append((item, shot_seconds, block))
 
     if not scheduled:
         raise RuntimeError(f"{key} speech-aligned visual schedule is empty")
