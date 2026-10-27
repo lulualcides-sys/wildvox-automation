@@ -1,820 +1,813 @@
 {
-  "common_kingfisher_bank_tunnel": {
-    "title": "THIS BLUE BIRD DIGS A SECRET RIVER TUNNEL",
-    "script": "A flash of electric blue crosses the river, then vanishes underwater. That's the common kingfisher, a tiny bird that hunts fish from a perch. It spots prey, dives headfirst, and often returns holding a slippery catch. Before swallowing, it may strike the fish against a branch. Its nest isn't built in a tree. Kingfishers dig a tunnel into a steep riverbank and raise their chicks inside. So the next time you see blue streak past a stream, look for a nearby bank: that tiny bird may have a hidden tunnel home.",
-    "caption": "A tiny blue fishing bird builds its nest inside a riverbank. 🐟💙 #Kingfisher #BirdFacts #Wildlife #NatureFacts #WildVox",
+  "indian_peafowl_tail_rattle": {
+    "title": "WHY THIS PEACOCK SHAKES ITS GIANT FEATHER FAN",
+    "script": "Why does this Indian peacock shake a giant fan of feathers at another bird? He spreads his long train when a peahen is nearby, exposing its eye-like spots. Then he rattles the feathers rapidly, turning the display into a vibrating performance. Those moving feathers can rustle and shimmer as their tiny structures catch the light. This is courtship, not a threat. A peahen may inspect the display before choosing a mate. So the shaking isn't random. It's part of the peacock's extraordinary courtship invitation.",
+    "caption": "Why do peacocks shake those incredible feathers? 🦚 #Peacock #Peafowl #AnimalBehavior #Wildlife #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20return%20foothold.webm",
-        "assetTitle": "Alcedo atthis return foothold.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_return_foothold.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
+        "assetTitle": "Indian peacock (Pavo cristatus) displaying for peahen.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
         "tags": [
-          "kingfisher_fish"
+          "p_hook"
         ],
-        "license": "CC BY-SA 4.0",
-        "author": "Phonon.b",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "license_note": "Title explicitly documents male displaying for peahen. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingfisher%20catching%20fish%2C%20eating%2C%20defecating%20and%20flying%20in%20K%C3%B5rvemaa%2C%20Estonia%20%28October%202022%29.webm",
-        "assetTitle": "Kingfisher catching fish, eating, defecating and flying in Kõrvemaa, Estonia (October 2022).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kingfisher_catching_fish,_eating,_defecating_and_flying_in_K%C3%B5rvemaa,_Estonia_(October_2022).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20displaying%20in%20Sri%20Lanka.webm",
+        "assetTitle": "Peacock displaying in Sri Lanka.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock%20displaying%20in%20Sri%20Lanka.webm",
         "tags": [
-          "kingfisher_perch",
-          "kingfisher_fish"
+          "p_setup"
         ],
-        "license": "CC BY-SA 4.0",
-        "author": "Sillerkiil",
-        "license_note": "Wikimedia Commons file page verified 2026-10-26: original footage of kingfisher catching fish and flying, 56s, CC BY-SA 4.0. Replaces near-static perched footage flagged by 1.4s freeze detection; credit creator, license and modifications."
+        "license_note": "Title explicitly documents peacock displaying. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20eating%20a%20fish.webm",
-        "assetTitle": "Common Kingfisher eating a fish.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20mating%20dance%2001.ogv",
+        "assetTitle": "Peacock mating dance 01.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock%20mating%20dance%2001.ogv",
         "tags": [
-          "kingfisher_fish"
+          "p_action"
         ],
+        "license_note": "Title explicitly documents courtship display. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20tail.ogv",
+        "assetTitle": "Peacock tail.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock%20tail.ogv",
+        "tags": [
+          "p_explain"
+        ],
+        "license_note": "Title identifies train/tail detail; verify close-up framing. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peafowl%20%28Pavo%20cristatus%29%20displaying.webm",
+        "assetTitle": "Indian peafowl (Pavo cristatus) displaying.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian%20peafowl%20%28Pavo%20cristatus%29%20displaying.webm",
+        "tags": [
+          "p_twist"
+        ],
+        "license_note": "Title explicitly identifies displaying Pavo cristatus. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Male%20peacock%20tail%20display%20at%20Sofia%20Zoo%2020130420%20HQ.ogv",
+        "assetTitle": "Male peacock tail display at Sofia Zoo 20130420 HQ.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Male%20peacock%20tail%20display%20at%20Sofia%20Zoo%2020130420%20HQ.ogv",
+        "tags": [
+          "p_payoff"
+        ],
+        "license_note": "Title documents peacock tail display at Sofia Zoo. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
+        "assetTitle": "Pavo cristatus in World of Birds Wildlife Sanctuary and Monkey Park.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
+        "tags": [
+          "p_action",
+          "p_twist"
+        ],
+        "license_note": "Species explicitly identified; actual movement requires visual QA. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "author": "Spasimir Pilev"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Running%20Indian%20peafowl%20%28Pavo%20cristatus%29.webm",
+        "assetTitle": "Running Indian peafowl (Pavo cristatus).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Running%20Indian%20peafowl%20%28Pavo%20cristatus%29.webm",
+        "tags": [
+          "p_setup"
+        ],
+        "license_note": "Species-specific movement support only, not claimed as courtship. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Why does this Indian peacock shake a giant fan of feathers at another bird?",
+        "scene": "Start on a confirmed male peacock displaying directly toward a peahen.",
+        "tags": [
+          "p_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "FEATHER DISPLAY"
+      },
+      {
+        "text": "He spreads his long train when a peahen is nearby, exposing its eye-like spots.",
+        "scene": "Show the expanded train and peahen without implying every bird in frame is courting.",
+        "tags": [
+          "p_setup"
+        ],
+        "story_role": "setup"
+      },
+      {
+        "text": "Then he rattles the feathers rapidly, turning the display into a vibrating performance.",
+        "scene": "Show actual peacock courtship movement and train shaking.",
+        "tags": [
+          "p_action"
+        ],
+        "story_role": "action",
+        "overlay_label": "THE RATTLE"
+      },
+      {
+        "text": "Those moving feathers can rustle and shimmer as their tiny structures catch the light.",
+        "scene": "Show a close train view while explaining shimmer, without fabricated microscopic imagery.",
+        "tags": [
+          "p_explain"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "SHIMMER"
+      },
+      {
+        "text": "This is courtship, not a threat. A peahen may inspect the display before choosing a mate.",
+        "scene": "Return to an authentic male display for a female; do not invent mating.",
+        "tags": [
+          "p_twist"
+        ],
+        "story_role": "twist"
+      },
+      {
+        "text": "So the shaking isn't random. It's part of the peacock's extraordinary courtship invitation.",
+        "scene": "End on a full fan display resolving the opening question.",
+        "tags": [
+          "p_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "THE REVEAL"
+      }
+    ]
+  },
+  "red_panda_bamboo_false_thumb": {
+    "title": "THE RED PANDA HAS A SECRET GRIP FOR BAMBOO",
+    "script": "Watch this red panda hold bamboo with a paw that almost looks like a hand. High in the trees, bamboo makes up a major part of this animal's diet. As it chews, its front paw keeps the stem close to its mouth. A modified wrist bone works like an extra thumb, helping it hold the stalk. It isn't a real finger, but the trick makes feeding much easier. That small grip helps this tree climber turn tough bamboo into dinner.",
+    "caption": "Red pandas have a built-in bamboo grip. 🐾🎋 #RedPanda #AnimalAnatomy #Wildlife #NatureFacts #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20panda%20eating%20bamboo%20at%20Symbio%20Wildlife%20Park.webm",
+        "assetTitle": "Red panda eating bamboo at Symbio Wildlife Park.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red%20panda%20eating%20bamboo%20at%20Symbio%20Wildlife%20Park.webm",
+        "tags": [
+          "r_hook"
+        ],
+        "license_note": "Author and feeding behavior identified in original Commons description; captive footage. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "author": "Grendelkhan"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%209.webm",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Ailurus fulgens 9.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%209.webm",
+        "tags": [
+          "r_setup"
+        ],
+        "license_note": "Zoo footage; verify branches/pose before using in setup. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "Lennart Hessel",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "author": "NaIzletuSi ™"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20eet%20vis.ogv",
-        "assetTitle": "IJsvogel eet vis.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_eet_vis.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Ailurus%20fugens%20MA%C4%8CJI%20PANDA%205.webm",
+        "assetTitle": "2023-02-17 ZOO LJUBLJANA Ailurus fugens MAČJI PANDA 5.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17%20ZOO%20LJUBLJANA%20Ailurus%20fugens%20MA%C4%8CJI%20PANDA%205.webm",
         "tags": [
-          "kingfisher_fish"
+          "r_action"
         ],
-        "license": "CC BY-SA 3.0",
-        "license_note": "Commons file page verified 2026-10-26: Dieder Plu, CC BY-SA 3.0, real common kingfisher eating fish; attribution, license link and modification notice required.",
-        "author": "Dieder Plu"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20bij%20nestwand%20-%20common%20kingfisher%20at%20nest%20bank%20-%20Alcedo%20atthis.webm",
-        "assetTitle": "IJsvogel bij nestwand - common kingfisher at nest bank - Alcedo atthis.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_bij_nestwand_-_common_kingfisher_at_nest_bank_-_Alcedo_atthis.webm",
-        "tags": [
-          "kingfisher_bank"
-        ],
-        "license": "CC BY 4.0",
-        "author": "Bouke ten Cate",
-        "license_note": "Commons source page verified 2026-10-26: authentic common kingfisher visiting excavated nest bank; creator credit, license link and modification notice required. Replaces dark/poorly framed bank shot.",
-        "start_seconds": 0
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
-        "assetTitle": "Common kingfisher (Alcedo atthis) in Slovakia.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm",
-        "tags": [
-          "kingfisher_perch"
-        ],
+        "license_note": "Zoo footage of red panda; source title contains original spelling 'fugens'. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "The Nature Box",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "author": "NaIzletuSi ™"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20Gravend%20-%20common%20kingfisher%20digging%20-%20Alcedo%20atthis.webm",
-        "assetTitle": "IJsvogel Gravend - common kingfisher digging - Alcedo atthis.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_Gravend_-_common_kingfisher_digging_-_Alcedo_atthis.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%206.webm",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Ailurus fulgens 6.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%206.webm",
         "tags": [
-          "kingfisher_bank"
+          "r_explain"
         ],
-        "license": "CC BY 4.0",
-        "author": "Bouke ten Cate",
-        "license_note": "Commons file page verified 2026-10-26: common kingfisher actively excavating a nesting tunnel; 37s, CC BY 4.0. Direct behavior-match for the closing tunnel payoff; attribution and modification notice required."
+        "license_note": "Species footage only; no unsupported close-up of wrist anatomy claimed. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "NaIzletuSi ™"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alcedo%20atthis%20-England-8.ogv",
-        "assetTitle": "Alcedo atthis -England-8.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_-England-8.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%207.webm",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Ailurus fulgens 7.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%207.webm",
         "tags": [
-          "kingfisher_fish"
+          "r_twist"
         ],
+        "license_note": "Zoo footage; feeding detail subject to visual QA. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "NaIzletuSi ™"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%2011.webm",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Ailurus fulgens 11.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%2011.webm",
+        "tags": [
+          "r_payoff"
+        ],
+        "license_note": "Species-specific zoo footage; verify feeding in final shot. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "NaIzletuSi ™"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%204.webm",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Ailurus fulgens 4.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%204.webm",
+        "tags": [
+          "r_action"
+        ],
+        "license_note": "Additional real red panda action shot. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "NaIzletuSi ™"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Ailurus%20fugens%20MA%C4%8CJI%20PANDA%202.webm",
+        "assetTitle": "2023-02-17 ZOO LJUBLJANA Ailurus fugens MAČJI PANDA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17%20ZOO%20LJUBLJANA%20Ailurus%20fugens%20MA%C4%8CJI%20PANDA%202.webm",
+        "tags": [
+          "r_setup",
+          "r_payoff"
+        ],
+        "license_note": "Additional red panda zoo shot, behavior to be visually confirmed. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "NaIzletuSi ™"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-27-daily-red_panda_bamboo_false_thumb-narrative-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Watch this red panda hold bamboo with a paw that almost looks like a hand.",
+        "scene": "Open on the real red panda eating bamboo and gripping a stem.",
+        "tags": [
+          "r_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "SECRET GRIP"
+      },
+      {
+        "text": "High in the trees, bamboo makes up a major part of this animal's diet.",
+        "scene": "Establish a red panda on branches in a documented captive habitat.",
+        "tags": [
+          "r_setup"
+        ],
+        "story_role": "setup"
+      },
+      {
+        "text": "As it chews, its front paw keeps the stem close to its mouth.",
+        "scene": "Show the species handling bamboo; do not claim an unseen grip is visible.",
+        "tags": [
+          "r_action"
+        ],
+        "story_role": "action",
+        "overlay_label": "BAMBOO"
+      },
+      {
+        "text": "A modified wrist bone works like an extra thumb, helping it hold the stalk.",
+        "scene": "Show a real red panda feeding while explaining the hidden wrist structure.",
+        "tags": [
+          "r_explain"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "FALSE THUMB"
+      },
+      {
+        "text": "It isn't a real finger, but the trick makes feeding much easier.",
+        "scene": "Continue with authentic paw/feeding behavior, not a fake anatomical diagram.",
+        "tags": [
+          "r_twist"
+        ],
+        "story_role": "twist"
+      },
+      {
+        "text": "That small grip helps this tree climber turn tough bamboo into dinner.",
+        "scene": "Close on a red panda handling food; resolve the opening hand-like grip.",
+        "tags": [
+          "r_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "THE GRIP"
+      }
+    ]
+  },
+  "sea_otter_fur_insulation": {
+    "title": "WHY SEA OTTERS NEVER STOP GROOMING",
+    "script": "Why does a sea otter spend so much time floating and fussing with its fur? Unlike seals, sea otters have very little blubber to help them stay warm. Instead, their incredibly dense coats trap insulating air right next to the skin. But dirty or matted fur loses that protection, so grooming really matters. They rub, roll, and comb through their coats while resting on the surface. That constant care helps a sea otter survive in cold coastal water.",
+    "caption": "Sea otters stay warm with a remarkable fur-care routine. 🦦 #SeaOtter #OceanLife #AnimalBehavior #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter.%20Enhydra%20lutris%20video.webm",
+        "assetTitle": "Sea otter. Enhydra lutris video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otter.%20Enhydra%20lutris%20video.webm",
+        "tags": [
+          "o_hook"
+        ],
+        "license_note": "Real sea otter in Alaska; inspect for grooming before final approval. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 2.0",
-        "author": "Tony Wood",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-26-daily-common_kingfisher_bank_tunnel-qa-motion-digging-credits-v7-review-sheet-sample-fps-repair-v1",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "A flash of electric blue crosses the river, then vanishes underwater. That's the common kingfisher, a tiny bird that hunts fish from a perch.",
-        "scene": "Reveal the kingfisher and its fish-hunting perch as the hook is spoken",
-        "tags": [
-          "kingfisher_fish",
-          "kingfisher_perch"
-        ]
+        "author": "Gailhampshire"
       },
-      {
-        "text": "It spots prey, dives headfirst, and often returns holding a slippery catch.",
-        "scene": "Show fishing/diving behavior while the narration describes the catch",
-        "tags": [
-          "kingfisher_fish"
-        ]
-      },
-      {
-        "text": "Before swallowing, it may strike the fish against a branch.",
-        "scene": "Keep the visual on a kingfisher handling a fish",
-        "tags": [
-          "kingfisher_fish"
-        ]
-      },
-      {
-        "text": "Its nest isn't built in a tree. Kingfishers dig a tunnel into a steep riverbank and raise their chicks inside.",
-        "scene": "Switch to riverbank/nesting visuals exactly when the narration changes to the nest",
-        "tags": [
-          "kingfisher_bank"
-        ]
-      },
-      {
-        "text": "So the next time you see blue streak past a stream,",
-        "scene": "Return to an active kingfisher by the stream",
-        "tags": [
-          "kingfisher_perch",
-          "kingfisher_fish"
-        ]
-      },
-      {
-        "text": "look for a nearby bank: that tiny bird may have a hidden tunnel home.",
-        "scene": "End on the riverbank/tunnel payoff",
-        "tags": [
-          "kingfisher_bank"
-        ]
-      }
-    ]
-  },
-  "european_hedgehog_self_anointing": {
-    "title": "WHY THIS HEDGEHOG COVERS ITS SPINES IN FOAM",
-    "script": "That walking pincushion is not looking for a fight. The European hedgehog uses thousands of stiff spines as armor, but it spends most nights hunting invertebrates with its nose close to the ground. When frightened, it curls into a tight ball, hiding its soft belly. Sometimes it self-anoints: after tasting a new smell, it spreads frothy saliva over its spines. Scientists still debate exactly why. The punchline? A tiny garden visitor has one of nature's strangest grooming routines.",
-    "caption": "Hedgehogs sometimes spread frothy saliva on their spines. Scientists are still studying why. 🦔 #Hedgehog #AnimalFacts #Wildlife #NatureFacts #WildVox",
-    "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog.webm",
-        "assetTitle": "European Hedgehog.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter%20%28Enhydra%20lutris%29.webm",
+        "assetTitle": "Sea otter (Enhydra lutris).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otter%20%28Enhydra%20lutris%29.webm",
         "tags": [
-          "hedgehog_walk"
+          "o_setup"
         ],
+        "license_note": "Captive sea otter filmed at Kamogawa SeaWorld; no wild provenance implied. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 3.0",
-        "author": "Fiver, der Hellseher",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "author": "The Nature Box"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(1).webm",
-        "assetTitle": "Erinaceus europaeus - dkrb(1).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(1).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20Monterey%20Bay%20Aquarium%201.ogv",
+        "assetTitle": "Sea otters Monterey Bay Aquarium 1.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otters%20Monterey%20Bay%20Aquarium%201.ogv",
         "tags": [
-          "hedgehog_night"
+          "o_action"
         ],
-        "license": "CC BY-SA 4.0",
-        "author": "Drahkrub",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20Europan%20Hedgehog.webm",
-        "assetTitle": "Young Europan Hedgehog.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_Europan_Hedgehog.webm",
-        "tags": [
-          "hedgehog_walk"
-        ],
-        "license": "CC BY-SA 4.0",
-        "author": "Fiver, der Hellseher",
-        "license_note": "Commons file page verified 2026-10-26: genuine European hedgehog on meadow, 7.1-second distinct clip; credit, license link, ShareAlike and modification notice required. Replaces visually weak infrared B-roll."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20Riccio%20europeo.webm",
-        "assetTitle": "Erinaceus europaeus - Riccio europeo.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_Riccio_europeo.webm",
-        "tags": [
-          "hedgehog_ball"
-        ],
+        "license_note": "Real captive sea otters at Monterey Bay Aquarium. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 3.0",
-        "author": "Accurimbono",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "author": "Toniher"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20Hedgehog%20Self-Anointing.webm",
-        "assetTitle": "European Hedgehog Self-Anointing.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_Hedgehog_Self-Anointing.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loutre%20de%20mer%20%28Enhydra%20lutris%29.ogv",
+        "assetTitle": "Loutre de mer (Enhydra lutris).ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Loutre%20de%20mer%20%28Enhydra%20lutris%29.ogv",
         "tags": [
-          "hedgehog_self_anoint"
+          "o_explain"
         ],
+        "license_note": "Real captive sea otter at Océanopolis. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "author": "PsamatheM",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits.",
-        "start_seconds": 30
+        "author": "Gzen92"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20Erinaceus%20europaeus%20calling.ogv",
-        "assetTitle": "Young Erinaceus europaeus calling.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_Erinaceus_europaeus_calling.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otter%20playing%20-%202015%2011%2008.ogv",
+        "assetTitle": "Otter playing - 2015 11 08.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Otter%20playing%20-%202015%2011%2008.ogv",
         "tags": [
-          "hedgehog_juvenile"
+          "o_twist"
         ],
-        "license": "CC BY-SA 3.0",
-        "author": "Calle Eklund / V-wolf",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hedgehog%20in%20the%20back%20yard%20-%202014-12-27.webm",
-        "assetTitle": "Hedgehog in the back yard - 2014-12-27.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hedgehog_in_the_back_yard_-_2014-12-27.webm",
-        "tags": [
-          "hedgehog_drink"
-        ],
-        "license": "CC BY 3.0",
-        "author": "PierreSelim",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus%20europaeus%20-%20dkrb(2).webm",
-        "assetTitle": "Erinaceus europaeus - dkrb(2).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_-_dkrb(2).webm",
-        "tags": [
-          "hedgehog_night"
-        ],
-        "license": "CC BY-SA 4.0",
-        "author": "Drahkrub",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-26-daily-european_hedgehog_self_anointing-qa-anoint-action-cue-v6-review-sheet-sample-fps-repair-v1",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "That walking pincushion is not looking for a fight.",
-        "scene": "Open on a real European hedgehog moving naturally",
-        "tags": [
-          "hedgehog_walk",
-          "hedgehog_night"
-        ]
-      },
-      {
-        "text": "The European hedgehog uses thousands of stiff spines as armor, but it spends most nights hunting invertebrates with its nose close to the ground.",
-        "scene": "Show nighttime foraging while the narration discusses spines and hunting",
-        "tags": [
-          "hedgehog_night",
-          "hedgehog_walk"
-        ]
-      },
-      {
-        "text": "When frightened, it curls into a tight ball, hiding its soft belly.",
-        "scene": "Switch to the curled-ball behavior at the exact spoken cue",
-        "tags": [
-          "hedgehog_ball"
-        ]
-      },
-      {
-        "text": "Sometimes it self-anoints: after tasting a new smell, it spreads frothy saliva over its spines.",
-        "scene": "Show authentic self-anointing during the self-anointing explanation",
-        "tags": [
-          "hedgehog_self_anoint"
-        ]
-      },
-      {
-        "text": "Scientists still debate exactly why.",
-        "scene": "Use a calm authentic hedgehog shot while uncertainty is explained",
-        "tags": [
-          "hedgehog_night",
-          "hedgehog_juvenile"
-        ]
-      },
-      {
-        "text": "The punchline? A tiny garden visitor has one of nature's strangest grooming routines.",
-        "scene": "Finish with a strong hedgehog payoff shot",
-        "tags": [
-          "hedgehog_walk",
-          "hedgehog_drink",
-          "hedgehog_juvenile"
-        ]
-      }
-    ]
-  },
-  "common_raven_voice_mimicry": {
-    "title": "THIS RAVEN CAN SOUND LIKE A BARKING DOG",
-    "script": "Did that raven just sound like a dog? Common ravens have a rich range of calls, and some can imitate noises they hear, including barking. They solve problems, investigate objects, and interact in complex ways. A pair may exchange calls while another raven searches for food nearby. Their intelligence helps them adapt to changing environments. Not every raven mimics sounds, and wild birds don't need tricks to be remarkable. The payoff? That deep croak can belong to a bird capable of much more than one voice.",
-    "caption": "Some ravens can imitate barking and other sounds. 🐦‍⬛ #Raven #BirdIntelligence #AnimalFacts #Wildlife #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ugat%C3%A1st%20ut%C3%A1nz%C3%B3%20holl%C3%B3.ogv",
-        "assetTitle": "Ugatást utánzó holló.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ugat%C3%A1st_ut%C3%A1nz%C3%B3_holl%C3%B3.ogv",
-        "tags": [
-          "raven_mimicry"
-        ],
-        "license": "CC0 1.0",
-        "author": "Balogh Nóra",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20raven%20calling%20(44456).webm",
-        "assetTitle": "Common raven calling (44456).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_raven_calling_(44456).webm",
-        "tags": [
-          "raven_call"
-        ],
-        "license": "CC BY-SA 4.0",
-        "author": "Rhododendrites",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Ravens%20at%20a%20feeding%20site.webm",
-        "assetTitle": "Common Ravens at a feeding site.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Ravens_at_a_feeding_site.webm",
-        "tags": [
-          "raven_feeding"
-        ],
-        "license": "CC BY 3.0",
-        "author": "Lennart Hessel",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Two%20Ravens%20Talking%20Mar%2010%202012.ogv",
-        "assetTitle": "Two Ravens Talking Mar 10 2012.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Two_Ravens_Talking_Mar_10_2012.ogv",
-        "tags": [
-          "raven_call"
-        ],
-        "license": "CC BY 3.0",
-        "author": "Robomaeyhem",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kolkrabe.ogv",
-        "assetTitle": "Kolkrabe.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kolkrabe.ogv",
-        "tags": [
-          "raven_call"
-        ],
-        "author": "Nightflyer",
-        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
-        "license": "CC BY-SA 3.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MVI%201452.ogv",
-        "assetTitle": "MVI 1452.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:MVI_1452.ogv",
-        "tags": [
-          "raven_feeding"
-        ],
-        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
-        "license": "CC BY-SA 3.0",
-        "author": "StMH"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raaf%20in%20de%20sneeuw-4961948.webm",
-        "assetTitle": "Raaf in de sneeuw-4961948.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Raaf_in_de_sneeuw-4961948.webm",
-        "tags": [
-          "raven_snow"
-        ],
-        "author": "Marc Plomp / Stichting Natuurbeelden",
-        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
-        "license": "CC BY-SA 3.0 nl"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rabe%20bei%20der%20Federpflege.webm",
-        "assetTitle": "Rabe bei der Federpflege.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rabe_bei_der_Federpflege.webm",
-        "tags": [
-          "raven_grooming"
-        ],
-        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
-        "license": "CC BY-SA 4.0",
-        "author": "Xulescu g"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-26-daily-common_raven_voice_mimicry-speech-sync-v2-kokoro-duration-repair-license-verified-v3-review-sheet-sample-fps-repair-v1",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Did that raven just sound like a dog?",
-        "scene": "Open on the authentic raven mimicry clip",
-        "tags": [
-          "raven_mimicry"
-        ]
-      },
-      {
-        "text": "Common ravens have a rich range of calls, and some can imitate noises they hear, including barking.",
-        "scene": "Keep mimicry/calling visuals synchronized with the explanation",
-        "tags": [
-          "raven_mimicry",
-          "raven_call"
-        ]
-      },
-      {
-        "text": "They solve problems, investigate objects, and interact in complex ways.",
-        "scene": "Switch to active raven behavior as intelligence is discussed",
-        "tags": [
-          "raven_feeding",
-          "raven_grooming"
-        ]
-      },
-      {
-        "text": "A pair may exchange calls while another raven searches for food nearby.",
-        "scene": "Show calling/feeding raven behavior",
-        "tags": [
-          "raven_call",
-          "raven_feeding"
-        ]
-      },
-      {
-        "text": "Their intelligence helps them adapt to changing environments. Not every raven mimics sounds, and wild birds don't need tricks to be remarkable.",
-        "scene": "Use varied natural raven behavior rather than staged mimicry",
-        "tags": [
-          "raven_snow",
-          "raven_grooming"
-        ]
-      },
-      {
-        "text": "The payoff? That deep croak can belong to a bird capable of much more than one voice.",
-        "scene": "End on a strong raven call payoff",
-        "tags": [
-          "raven_call"
-        ]
-      }
-    ]
-  },
-  "koala_vaccine_research": {
-    "title": "THE HIDDEN DISEASE THREATENING AUSTRALIA'S KOALAS",
-    "script": "Koalas look peaceful, but a hidden infection threatens many of them. Chlamydia can damage their eyes and reproductive systems. Antibiotics help, but can disrupt microbes koalas need to digest eucalyptus. Australian researchers are developing vaccines to protect them. One vaccine received regulatory approval in 2025, although scientists are still studying how well it prevents serious disease in wild populations. Vaccination is promising, not a miracle cure. Koalas still need healthy habitat, veterinary care, and protection from the threats around them.",
-    "caption": "Koala vaccine research is promising, but scientists are still testing how well it protects wild populations. 🐨 #Koala #WildlifeScience #Conservation #AnimalFacts #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20Feeding.webm",
-        "assetTitle": "Koala Feeding.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_Feeding.webm",
-        "tags": [
-          "koala_eating"
-        ],
-        "license": "CC0 1.0",
-        "author": "Classy Melissa",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20climbing%20tree%20off%20Montacute%20Road%20near%20Adelaide.ogv",
-        "assetTitle": "Koala climbing tree off Montacute Road near Adelaide.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_climbing_tree_off_Montacute_Road_near_Adelaide.ogv",
-        "tags": [
-          "koala_climbing"
-        ],
-        "license": "CC BY-SA 4.0",
-        "author": "Orderinchaos",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20in%20motion.webm",
-        "assetTitle": "Koala in motion.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_in_motion.webm",
-        "tags": [
-          "koala_climbing"
-        ],
-        "license": "CC BY 3.0",
-        "author": "CharlieBarbarossa",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20Conservation%20Centre%20%287%20January%202020%29%20-%20moving.ogv",
-        "assetTitle": "Koala Conservation Centre (7 January 2020) - moving.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_Conservation_Centre_(7_January_2020)_-_moving.ogv",
-        "tags": [
-          "koala_moving"
-        ],
-        "license": "CC0 1.0",
-        "author": "Evad37",
-        "license_note": "Wikimedia Commons file page verified 2026-10-26; CC0 1.0; real koala footage at Koala Conservation Centre, Phillip Island."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20grooming.ogv",
-        "assetTitle": "Koala grooming.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_grooming.ogv",
-        "tags": [
-          "koala_grooming"
-        ],
-        "license": "CC BY-SA 3.0",
-        "author": "Chamaeleon",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala%20with%20young.ogv",
-        "assetTitle": "Koala with young.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala_with_young.ogv",
-        "tags": [
-          "koala_joey"
-        ],
-        "license": "Public domain",
-        "author": "Brian Dell / Bdell555",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/See%20a%20Koala%20scratch%2C%20yawn%20and%20sleep.webm",
-        "assetTitle": "See a Koala scratch, yawn and sleep.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:See_a_Koala_scratch%2C_yawn_and_sleep.webm",
-        "tags": [
-          "koala_sleep"
-        ],
-        "license": "CC BY-SA 4.0",
-        "author": "Gato Preto",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala.ogv",
-        "assetTitle": "Koala.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koala.ogv",
-        "tags": [
-          "koala_climbing"
-        ],
-        "license": "CC BY-SA 2.0 de",
-        "author": "Benedikt89",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-26-daily-koala_vaccine_research-shortform-pacing-repair-qa-source-fix-speech-sync-v1-verified-feeding-still-support-v2 -remove-frozen-still-v3-review-sheet-sample-fps-repair-v1",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Koalas look peaceful, but a hidden infection threatens many of them.",
-        "scene": "Open on a healthy real koala before the health threat is introduced",
-        "tags": [
-          "koala_moving",
-          "koala_climbing"
-        ]
-      },
-      {
-        "text": "Chlamydia can damage their eyes and reproductive systems.",
-        "scene": "Stay on authentic koala footage; do not invent medical imagery",
-        "tags": [
-          "koala_grooming",
-          "koala_sleep"
-        ]
-      },
-      {
-        "text": "Antibiotics help, but can disrupt microbes koalas need to digest eucalyptus.",
-        "scene": "Switch to eucalyptus feeding exactly as digestion is mentioned",
-        "tags": [
-          "koala_eating"
-        ]
-      },
-      {
-        "text": "Australian researchers are developing vaccines to protect them. One vaccine received regulatory approval in 2025, although scientists are still studying how well it prevents serious disease in wild populations.",
-        "scene": "Use varied real koala footage during the research explanation, without fake vaccination scenes",
-        "tags": [
-          "koala_climbing",
-          "koala_moving",
-          "koala_joey"
-        ]
-      },
-      {
-        "text": "Vaccination is promising, not a miracle cure.",
-        "scene": "Use a calm koala shot during the caution statement",
-        "tags": [
-          "koala_sleep",
-          "koala_grooming"
-        ]
-      },
-      {
-        "text": "Koalas still need healthy habitat, veterinary care, and protection from the threats around them.",
-        "scene": "Finish on a koala climbing/living in habitat for the conservation payoff",
-        "tags": [
-          "koala_climbing",
-          "koala_joey"
-        ]
-      }
-    ],
-    "trend_priority": true,
-    "trend_evidence": {
-      "evidence_url": "https://www.theguardian.com/environment/2026/oct/26/koalas-australia-chlamydia-vaccine",
-      "evidence_published_date": "2026-10-26",
-      "note": "Current reporting on mixed vaccine effectiveness evidence; no photo-only exception claimed."
-    }
-  },
-  "european_badger_sett_society": {
-    "title": "THE SECRET UNDERGROUND CITY OF EUROPEAN BADGERS",
-    "script": "That quiet forest floor may hide an entire badger neighborhood. European badgers dig underground homes called setts, with several entrances and chambers. Families rest there during daylight and raise their cubs safely below ground. At dusk, they emerge to search for earthworms, insects, and fruit. Badgers also groom one another, while young cubs learn through play. Some setts are enlarged and reused for years, although family sizes vary with food and habitat. The surprise? Beneath an ordinary patch of woodland, generations of badgers may be maintaining a secret underground home.",
-    "caption": "European badgers build and maintain underground homes called setts. 🦡 #EuropeanBadger #AnimalBehavior #Wildlife #NatureFacts #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20cubs.webm",
-        "assetTitle": "Badger cubs.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_cubs.webm",
-        "tags": [
-          "badger_cubs"
-        ],
+        "license_note": "Real captive sea otter playing; grooming action must be verified. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 4.0",
-        "author": "Balkani Wildlife Society",
-        "license_note": "Wikimedia Commons verified 2026-10-26: authentic European badger cubs filmed by wildlife camera, CC BY 4.0; author attribution required."
+        "author": "Nesnad"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dachs%20auf%20Futtersuche.webm",
-        "assetTitle": "Dachs auf Futtersuche.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Dachs_auf_Futtersuche.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
+        "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 12.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
         "tags": [
-          "badger_wild"
+          "o_payoff"
         ],
-        "license": "CC BY-SA 4.0",
-        "author": "MurphyG",
-        "license_note": "Commons verified 2026-10-26: real European badger foraging before sunset; author MurphyG, CC BY-SA 4.0; credit and ShareAlike required. Replaces dark camera-trap family clip in the sett-longevity section.",
-        "start_seconds": 1
+        "license_note": "Real wild sea otter in Morro Bay. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 4.0",
+        "author": "Sarah Stierch"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badgers%20at%20Play.webm",
-        "assetTitle": "Badgers at Play.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badgers_at_Play.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20%28Enhydra%20lutris%29%20in%20a%20zoo.webm",
+        "assetTitle": "Sea otters (Enhydra lutris) in a zoo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otters%20%28Enhydra%20lutris%29%20in%20a%20zoo.webm",
         "tags": [
-          "badger_play"
+          "o_action",
+          "o_explain"
         ],
+        "license_note": "Captive sea otters at Point Defiance Zoo and Aquarium. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 2.0",
-        "author": "caroline legg",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
+        "author": "Parker Knight"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20badgers%20(Meles%20meles)%20in%20Slovakia.webm",
-        "assetTitle": "European badgers (Meles meles) in Slovakia.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_badgers_(Meles_meles)_in_Slovakia.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loutre%20de%20mer%20%28Enhydra%20lutris%29%20%282%29.ogv",
+        "assetTitle": "Loutre de mer (Enhydra lutris) (2).ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Loutre%20de%20mer%20%28Enhydra%20lutris%29%20%282%29.ogv",
         "tags": [
-          "badger_wild"
+          "o_payoff"
         ],
-        "license": "CC BY 3.0",
-        "author": "Lubo Ondrasko",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20badgers%20(Meles%20meles)%20in%20the%20wild.webm",
-        "assetTitle": "European badgers (Meles meles) in the wild.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_badgers_(Meles_meles)_in_the_wild.webm",
-        "tags": [
-          "badger_wild"
-        ],
-        "license": "CC BY 3.0",
-        "author": "Lubo Ondrasko",
-        "license_note": "Commons file page license inspected 2026-10-26; include creator, license URL, modification notice and ShareAlike terms in final credits."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Familienausflug%20der%20Dachse.webm",
-        "assetTitle": "Familienausflug der Dachse.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Familienausflug_der_Dachse.webm",
-        "tags": [
-          "badger_wild"
-        ],
+        "license_note": "Short additional captive sea otter clip; do not use if longer than its 9.2s footage. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "author": "Andreas75",
-        "license_note": "Wikimedia Commons file page verified 2026-10-26: authentic family of two adult and two young European badgers foraging together in an orchard, 30s, CC BY-SA 4.0. Replaces visually empty heather footage; include creator attribution, license link, modification notice and ShareAlike terms.",
-        "start_seconds": 0
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20family%20with%203%20cubs%20in%20Bulgaria.webm",
-        "assetTitle": "Badger family with 3 cubs in Bulgaria.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_family_with_3_cubs_in_Bulgaria.webm",
-        "tags": [
-          "badger_cubs"
-        ],
-        "license": "CC BY 4.0",
-        "author": "Balkani Wildlife Society",
-        "license_note": "Commons file page verified 2026-10-26: authentic European badger family with three cubs, camera trap 30s, CC BY 4.0. Replaces distant empty grass in closing payoff; credit Balkani Wildlife Society."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mutual%20grooming%20of%20badgers%20in%20Bulgaria.webm",
-        "assetTitle": "Mutual grooming of badgers in Bulgaria.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mutual_grooming_of_badgers_in_Bulgaria.webm",
-        "tags": [
-          "badger_grooming"
-        ],
-        "license_note": "Wikimedia Commons individual file page verified 2026-10-26; commercial reuse allowed with required attribution and applicable ShareAlike terms.",
-        "license": "CC BY 4.0",
-        "author": "Balkani Wildlife Society"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Badger%20collecting%20bedding%20material.webm",
-        "assetTitle": "Badger collecting bedding material.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Badger_collecting_bedding_material.webm",
-        "tags": [
-          "badger_sett"
-        ],
-        "license": "CC BY 4.0",
-        "author": "Balkani Wildlife Society",
-        "license_note": "Commons file page verified 2026-10-26: authentic European badger collecting bedding and carrying it into its den; 5.1s, CC BY 4.0. Direct sett-maintenance closing payoff, attribution required."
+        "author": "Gzen92"
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 7,
+    "target_shot_seconds": 6.5,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-26-daily-european_badger_sett_society-qa-family-orchard-visible-v11-review-sheet-sample-fps-repair-v1",
+    "revision": "2026-10-27-daily-sea_otter_fur_insulation-narrative-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "That quiet forest floor may hide an entire badger neighborhood.",
-        "scene": "Open on wild badgers near their den",
+        "text": "Why does a sea otter spend so much time floating and fussing with its fur?",
+        "scene": "Open on real sea otter at water surface, preferably rubbing or grooming.",
         "tags": [
-          "badger_wild"
-        ]
+          "o_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "FUR FIRST"
       },
       {
-        "text": "European badgers dig underground homes called setts, with several entrances and chambers.",
-        "scene": "Show badgers at/near a sett rather than CGI tunnels",
+        "text": "Unlike seals, sea otters have very little blubber to help them stay warm.",
+        "scene": "Establish real sea otter in water, no unrelated seal footage.",
         "tags": [
-          "badger_wild"
-        ]
+          "o_setup"
+        ],
+        "story_role": "setup"
       },
       {
-        "text": "Families rest there during daylight and raise their cubs safely below ground.",
-        "scene": "Switch to family/cub footage as family life is discussed",
+        "text": "Instead, their incredibly dense coats trap insulating air right next to the skin.",
+        "scene": "Show genuine sea otter body and fur, with no invented microscopic closeup.",
         "tags": [
-          "badger_cubs"
-        ]
+          "o_action"
+        ],
+        "story_role": "action",
+        "overlay_label": "AIR TRAP"
       },
       {
-        "text": "At dusk, they emerge to search for earthworms, insects, and fruit. Badgers also groom one another, while young cubs learn through play.",
-        "scene": "Show wild movement, grooming and play as those behaviors are spoken",
+        "text": "But dirty or matted fur loses that protection, so grooming really matters.",
+        "scene": "Use real close sea otter movement while explaining the insulation mechanism.",
         "tags": [
-          "badger_wild",
-          "badger_grooming",
-          "badger_play"
-        ]
+          "o_explain"
+        ],
+        "story_role": "explanation"
       },
       {
-        "text": "Some setts are enlarged and reused for years, although family sizes vary with food and habitat.",
-        "scene": "Return to den/family visuals during the sett longevity explanation",
+        "text": "They rub, roll, and comb through their coats while resting on the surface.",
+        "scene": "Show documented sea otter rolling or grooming if present in selected clip.",
         "tags": [
-          "badger_wild",
-          "badger_cubs"
-        ]
+          "o_twist"
+        ],
+        "story_role": "twist",
+        "overlay_label": "GROOMING"
       },
       {
-        "text": "The surprise? Beneath an ordinary patch of woodland, generations of badgers may be maintaining a secret underground home.",
-        "scene": "End on a strong family/den payoff",
+        "text": "That constant care helps a sea otter survive in cold coastal water.",
+        "scene": "Finish on a wild sea otter afloat, resolving why the fur care matters.",
         "tags": [
-          "badger_cubs",
-          "badger_sett"
-        ]
+          "o_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "STAY WARM"
+      }
+    ]
+  },
+  "greater_flamingo_courtship_parade": {
+    "title": "THE FLAMINGO PARADE IS A MATING DISPLAY",
+    "script": "Why do these greater flamingos march together and swing their heads like dancers? During breeding season, birds gather and start moving in coordinated groups. They stretch their necks, turn their heads, and step through shallow water. These group displays help flamingos assess possible mates before forming pairs. It looks like choreography, but these movements are part of a real courtship ritual. That strange parade helps these long-legged birds find partners for breeding.",
+    "caption": "Why do greater flamingos dance in groups? 🦩 #Flamingo #Courtship #BirdBehavior #NatureFacts #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/045%20Greater%20flamingos%20courtship%20display%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
+        "assetTitle": "045 Greater flamingos courtship display in the Camargue during mating season (slow motion) Video by Giles Laurent.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:045%20Greater%20flamingos%20courtship%20display%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
+        "tags": [
+          "f_hook"
+        ],
+        "license_note": "Verified 2024 authentic courtship slow-motion; attribution requested by creator. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 4.0",
+        "author": "Giles Laurent"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%204.webm",
+        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 4.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%204.webm",
+        "tags": [
+          "f_setup"
+        ],
+        "license_note": "Species-specific lagoon footage; group movement to be checked. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "NaIzletuSi ™"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%205.webm",
+        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%205.webm",
+        "tags": [
+          "f_action"
+        ],
+        "license_note": "Species-specific lagoon footage; head-flagging not independently confirmed. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "NaIzletuSi ™"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/043%20Greater%20flamingo%20vocalizing%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
+        "assetTitle": "043 Greater flamingo vocalizing in the Camargue during mating season (slow motion) Video by Giles Laurent.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:043%20Greater%20flamingo%20vocalizing%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
+        "tags": [
+          "f_explain"
+        ],
+        "license_note": "Real greater flamingo vocalization during mating season, slowed 4x. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 4.0",
+        "author": "Giles Laurent"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+        "assetTitle": "2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+        "tags": [
+          "f_twist"
+        ],
+        "license_note": "Lagoon footage of species; courtship-specific action requires visual QA. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "NaIzletuSi ™"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+        "assetTitle": "2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+        "tags": [
+          "f_payoff"
+        ],
+        "license_note": "Lagoon flock footage; inspect whether closing movement matches story. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "NaIzletuSi ™"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%206.webm",
+        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 6.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%206.webm",
+        "tags": [
+          "f_setup",
+          "f_action"
+        ],
+        "license_note": "Additional greater flamingo lagoon footage, reviewed CC BY 3.0 on Commons. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "NaIzletuSi ™"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Camargue.webm",
+        "assetTitle": "Camargue.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Camargue.webm",
+        "tags": [
+          "f_setup"
+        ],
+        "license_note": "Real Phoenicopterus roseus flock in Camargue, not a confirmed close courtship scene. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 4.0"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-27-daily-greater_flamingo_courtship_parade-narrative-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Why do these greater flamingos march together and swing their heads like dancers?",
+        "scene": "Open on authentic greater flamingo courtship filmed in Camargue.",
+        "tags": [
+          "f_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "THE PARADE"
+      },
+      {
+        "text": "During breeding season, birds gather and start moving in coordinated groups.",
+        "scene": "Show real Phoenicopterus roseus flock at lagoon; do not assert every shot depicts breeding.",
+        "tags": [
+          "f_setup"
+        ],
+        "story_role": "setup"
+      },
+      {
+        "text": "They stretch their necks, turn their heads, and step through shallow water.",
+        "scene": "Use flock movement or genuine display, never another flamingo species.",
+        "tags": [
+          "f_action"
+        ],
+        "story_role": "action",
+        "overlay_label": "HEAD FLAGGING"
+      },
+      {
+        "text": "These group displays help flamingos assess possible mates before forming pairs.",
+        "scene": "Show actual greater flamingo vocalizing/displaying; do not imply pair formation on camera.",
+        "tags": [
+          "f_explain"
+        ],
+        "story_role": "explanation"
+      },
+      {
+        "text": "It looks like choreography, but these movements are part of a real courtship ritual.",
+        "scene": "Show a real group of greater flamingos in the water.",
+        "tags": [
+          "f_twist"
+        ],
+        "story_role": "twist"
+      },
+      {
+        "text": "That strange parade helps these long-legged birds find partners for breeding.",
+        "scene": "Close on greater flamingo flock, resolving the opening parade question.",
+        "tags": [
+          "f_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "COURTSHIP"
+      }
+    ]
+  },
+  "green_sea_turtle_two_generations": {
+    "title": "THE TURTLE RETURNS TO SEA BUT LEAVES A SECRET",
+    "script": "A green sea turtle heads back into the waves. What brought her onto land? She had just buried her eggs in a sandy nest above the tide. Then she returned to the ocean, leaving those eggs to develop without her. The mother doesn't stay to protect them. The sand becomes their incubator. Weeks later, tiny hatchlings emerge and must cross the beach alone. Her journey ends at sea, while the next generation's journey begins on shore.",
+    "caption": "One turtle's journey ends where the next begins. 🐢🌊 #GreenSeaTurtle #Wildlife #OceanLife #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20sea%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+        "assetTitle": "Green sea turtle (Chelonia mydas) returning to the sea after laying eggs at Lady Musgrave Island, Queensland, Australia.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20sea%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+        "tags": [
+          "t_hook"
+        ],
+        "license_note": "Actual adult returning from nesting, source YouTube license-review status requires independent check. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "Adam Fish"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20ocean%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+        "assetTitle": "Aerial view of a green sea turtle (Chelonia mydas) returning to the ocean after laying eggs at Lady Musgrave Island, Queensland, Australia.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20ocean%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+        "tags": [
+          "t_setup"
+        ],
+        "license_note": "Actual nesting beach and returning adult, source license-review status requires independent check. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "Adam Fish"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF1118.webm",
+        "assetTitle": "Grüne Schildkröte. Chelónia mýdas. Зелёная черепаха. DSCF1118.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF1118.webm",
+        "tags": [
+          "t_action"
+        ],
+        "license_note": "Underwater video categorized as Chelonia mydas and other sea life; verify correct individual. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 4.0",
+        "author": "Kora27"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20swimming%20in%20the%20reef%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+        "assetTitle": "Aerial view of a green sea turtle (Chelonia mydas) swimming in the reef at Lady Musgrave Island, Queensland, Australia.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20swimming%20in%20the%20reef%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+        "tags": [
+          "t_explain"
+        ],
+        "license_note": "Real green turtle swimming, not evidence of eggs underground. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "Adam Fish"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kosgoda%20Sea%20Turtle%20Conservation%20Project%20video%20.ogv",
+        "assetTitle": "Kosgoda Sea Turtle Conservation Project video .ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kosgoda%20Sea%20Turtle%20Conservation%20Project%20video%20.ogv",
+        "tags": [
+          "t_twist"
+        ],
+        "license_note": "Authentic conservation project; do not imply wild hatching if shown in captivity. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 4.0",
+        "author": "Pierre André Leclercq"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Race%20for%20survival.webm",
+        "assetTitle": "Race for survival.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Race%20for%20survival.webm",
+        "tags": [
+          "t_payoff"
+        ],
+        "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 4.0",
+        "author": "Eleonore123"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF0060.webm",
+        "assetTitle": "Grüne Schildkröte. Chelónia mýdas. Зелёная черепаха. DSCF0060.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF0060.webm",
+        "tags": [
+          "t_action",
+          "t_explain"
+        ],
+        "license_note": "Additional Chelonia mydas underwater footage. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 4.0",
+        "author": "Kora27"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20sea%20turtles%20%28Chelonia%20mydas%29%20mating.webm",
+        "assetTitle": "Green sea turtles (Chelonia mydas) mating.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Green%20sea%20turtles%20%28Chelonia%20mydas%29%20mating.webm",
+        "tags": [
+          "t_explain"
+        ],
+        "license_note": "Real mating Chelonia mydas; reserve only for adult underwater context, not nesting behavior. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 3.0",
+        "author": "EMMA TOLMIE"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-27-daily-green_sea_turtle_two_generations-narrative-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "A green sea turtle heads back into the waves. What brought her onto land?",
+        "scene": "Open on verified adult green turtle returning to sea after nesting.",
+        "tags": [
+          "t_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "BACK TO SEA"
+      },
+      {
+        "text": "She had just buried her eggs in a sandy nest above the tide.",
+        "scene": "Show real nesting beach and returning adult, no false egg-laying reenactment.",
+        "tags": [
+          "t_setup"
+        ],
+        "story_role": "setup"
+      },
+      {
+        "text": "Then she returned to the ocean, leaving those eggs to develop without her.",
+        "scene": "Show a real green sea turtle swimming away from the beach.",
+        "tags": [
+          "t_action"
+        ],
+        "story_role": "action",
+        "overlay_label": "SHE LEAVES"
+      },
+      {
+        "text": "The mother doesn't stay to protect them. The sand becomes their incubator.",
+        "scene": "Keep footage on real species while explaining eggs underground, not visually depicted.",
+        "tags": [
+          "t_explain"
+        ],
+        "story_role": "explanation"
+      },
+      {
+        "text": "Weeks later, tiny hatchlings emerge and must cross the beach alone.",
+        "scene": "Show authentic hatchling release/young turtle context if supported by source.",
+        "tags": [
+          "t_twist"
+        ],
+        "story_role": "twist",
+        "overlay_label": "NEW LIFE"
+      },
+      {
+        "text": "Her journey ends at sea, while the next generation's journey begins on shore.",
+        "scene": "End on documented wild green sea turtle hatchlings heading toward surf.",
+        "tags": [
+          "t_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "THE NEXT GENERATION"
       }
     ]
   }
