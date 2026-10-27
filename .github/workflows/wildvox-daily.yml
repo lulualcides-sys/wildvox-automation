@@ -184,3 +184,29 @@ jobs:
           # Publishing media artifacts is not editorial approval or TikTok delivery.
           git commit -m "Store rendered WildVox daily QA candidates"
           git push origin HEAD:media
+
+  technical-qa:
+    needs: render
+    if: ${{ needs.render.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: daily-*
+          path: public
+          merge-multiple: true
+      - name: Validate all five rendered MP4s (not editorial approval)
+        run: |
+          python scripts/qa_rendered_batch.py \
+            --config configs/daily.json \
+            --media-dir public \
+            --report technical_qa_report.json
+      - name: Preserve technical QA report even when rejected
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-technical-qa
+          path: technical_qa_report.json
+          if-no-files-found: warn
+          retention-days: 7
