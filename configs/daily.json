@@ -85,30 +85,30 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park%202018-07-29%2004.webm",
-        "assetTitle": "World of Birds Wildlife Sanctuary and Monkey Park 2018-07-29 04.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park_2018-07-29_04.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peacock%20(Pavo%20cristatus)%20displaying%20for%20peahen.webm",
+        "assetTitle": "Indian peacock (Pavo cristatus) displaying for peahen.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_peacock_(Pavo_cristatus)_displaying_for_peahen.webm",
         "tags": [
           "p_payoff"
         ],
-        "author": "Spasimir Pilev",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "license_note": "Original author-uploaded Pavo cristatus sanctuary footage, 21s, verified species category and CC BY-SA 4.0 on Commons 2026-10-27. Candidate must pass new visual QA; replaces source with embedded scientific labels."
+        "author": "Kurt Bauschardt",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "license_note": "Authentic male display toward peahen in Mexico; Flickr CC BY-SA 2.0 independently reviewed by Commons reviewer INeverCry 2015-06-25; confirmed source and licensing 2026-10-27; replace non-displaying perched peacock."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
-        "assetTitle": "Pavo cristatus in World of Birds Wildlife Sanctuary and Monkey Park.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pavo_cristatus_in_World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peafowl%20(Pavo%20cristatus)%20displaying.webm",
+        "assetTitle": "Indian peafowl (Pavo cristatus) displaying.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_peafowl_(Pavo_cristatus)_displaying.webm",
         "tags": [
           "p_setup",
           "p_twist"
         ],
-        "author": "Spasimir Pilev",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "license_note": "Original author-uploaded Pavo cristatus footage, 30s, verified species and CC BY-SA 4.0 on Commons 2026-10-27. Candidate must pass new visual QA; replaces footage obstructed by fencing."
+        "author": "Nacho",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_note": "Authentic Indian peafowl display, 61s; Flickr CC BY 2.0 independently reviewed by Commons reviewer INeverCry 2015-06-25; confirmed 2026-10-27; replaces non-displaying perched footage."
       }
     ],
     "min_unique_videos": 6,
@@ -117,7 +117,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v3-fence-overlay-source-repair",
+    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v4-real-display-source-repair",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -238,7 +238,7 @@
         "assetTitle": "Ailurus fulgens 02.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_02.ogv",
         "tags": [
-          "r_twist"
+          "r_explain"
         ],
         "license_note": "Original Commons page and reuse terms reviewed on 2026-10-27. Adapted excerpt; credit MatthiasKabel and CC BY-SA 3.0. Actual species/behavior/framing requires new rendered-frame QA.",
         "license": "CC BY-SA 3.0",
@@ -292,7 +292,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-red_panda_treetop_life-narrative-v3-visual-evidence-aligned",
+    "revision": "2026-10-27-daily-red_panda_treetop_life-narrative-v4-resting-shot-matched",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -362,7 +362,7 @@
         "assetTitle": "Sea otter. Enhydra lutris video.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otter.%20Enhydra%20lutris%20video.webm",
         "tags": [
-          "o_hook"
+          "o_setup"
         ],
         "license_note": "Real sea otter in Alaska; inspect for grooming before final approval. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 2.0",
@@ -375,7 +375,7 @@
         "assetTitle": "Sea otter (Enhydra lutris).webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otter%20%28Enhydra%20lutris%29.webm",
         "tags": [
-          "o_setup"
+          "o_hook"
         ],
         "license_note": "Captive sea otter filmed at Kamogawa SeaWorld; no wild provenance implied. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 3.0",
@@ -401,7 +401,7 @@
         "assetTitle": "Loutre de mer (Enhydra lutris).ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Loutre%20de%20mer%20%28Enhydra%20lutris%29.ogv",
         "tags": [
-          "o_explain"
+          "o_setup"
         ],
         "license_note": "Real captive sea otter at Océanopolis. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
@@ -427,7 +427,7 @@
         "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 12.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
         "tags": [
-          "o_payoff"
+          "o_action"
         ],
         "license_note": "Real wild sea otter in Morro Bay. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 4.0",
@@ -440,8 +440,7 @@
         "assetTitle": "Sea otters (Enhydra lutris) in a zoo.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otters%20%28Enhydra%20lutris%29%20in%20a%20zoo.webm",
         "tags": [
-          "o_action",
-          "o_explain"
+          "o_payoff"
         ],
         "license_note": "Captive sea otters at Point Defiance Zoo and Aquarium. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 2.0",
@@ -454,7 +453,7 @@
         "assetTitle": "Loutre de mer (Enhydra lutris) (2).ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Loutre%20de%20mer%20%28Enhydra%20lutris%29%20%282%29.ogv",
         "tags": [
-          "o_payoff"
+          "o_explain"
         ],
         "license_note": "Short additional captive sea otter clip; do not use if longer than its 9.2s footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
@@ -468,7 +467,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-sea_otter_fur_insulation-narrative-v2-commons-audited-qa4-wild-closeup",
+    "revision": "2026-10-27-daily-sea_otter_fur_insulation-narrative-v3-close-fur-grooming-shot-order",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -601,7 +600,7 @@
         "assetTitle": "2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
         "tags": [
-          "f_payoff"
+          "f_twist"
         ],
         "license_note": "Lagoon flock footage; inspect whether closing movement matches story. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
@@ -641,7 +640,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-greater_flamingo_filter_feeding-narrative-v3-visual-evidence-aligned",
+    "revision": "2026-10-27-daily-greater_flamingo_filter_feeding-narrative-v4-payoff-feeding-realigned",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -701,35 +700,35 @@
     ]
   },
   "green_sea_turtle_two_generations": {
-    "title": "THE TURTLE RETURNS TO SEA BUT LEAVES A SECRET",
-    "script": "A green sea turtle heads back into the waves. What brought her onto land? She had just buried her eggs in a sandy nest above the tide. Then she returned to the ocean, leaving those eggs to develop without her. The mother doesn't stay to protect them. The sand becomes their incubator. Weeks later, tiny hatchlings emerge and must cross the beach alone. Her journey ends at sea, while the next generation's journey begins on shore.",
-    "caption": "One turtle's journey ends where the next begins. 🐢🌊 #GreenSeaTurtle #Wildlife #OceanLife #WildVox",
+    "title": "FROM TINY HATCHLINGS TO OCEAN GIANTS",
+    "script": "A green sea turtle can spend years in the ocean. But where does that journey begin? It begins on sandy shores, where tiny hatchlings must make their way toward the waves. Those that survive grow into powerful swimmers, moving through reefs and open water. As they grow, green turtles can graze on algae and seagrass beneath the surface. Protecting sea turtles also matters. Conservation centers help people understand the threats they face. From tiny hatchlings on the beach to graceful swimmers at sea, every survivor has crossed two worlds.",
+    "caption": "From the beach to the reef: the remarkable life of a green sea turtle. 🐢🌊 #GreenSeaTurtle #Wildlife #OceanLife #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20sea%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
-        "assetTitle": "Green sea turtle (Chelonia mydas) returning to the sea after laying eggs at Lady Musgrave Island, Queensland, Australia.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20sea%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The-Role-of-Turtles-as-Coral-Reef-Macroherbivores-pone.0039979.s001.ogv",
+        "assetTitle": "The-Role-of-Turtles-as-Coral-Reef-Macroherbivores-pone.0039979.s001.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The-Role-of-Turtles-as-Coral-Reef-Macroherbivores-pone.0039979.s001.ogv",
         "tags": [
-          "t_hook"
+          "t_explain"
         ],
-        "license_note": "Actual adult returning from nesting, source YouTube license-review status requires independent check. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "Adam Fish",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
+        "author": "Goatley C, Hoey A, Bellwood D",
+        "license": "CC BY 2.5",
+        "license_url": "https://creativecommons.org/licenses/by/2.5/",
+        "license_note": "PLOS ONE 2012 original research footage: green turtle Chelonia mydas grazing algal turf; verified Commons CC BY 2.5 and species 2026-10-27. Replaces unreviewed YouTube-imported nesting clip. Scientific video 480x272; final visual QA mandatory."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20ocean%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
-        "assetTitle": "Aerial view of a green sea turtle (Chelonia mydas) returning to the ocean after laying eggs at Lady Musgrave Island, Queensland, Australia.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20ocean%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethogram-of-Immature-Green-Turtles-Behavioral-Strategies-for-Somatic-Growth-in-Large-Marine-pone.0065783.s003.ogv",
+        "assetTitle": "Ethogram-of-Immature-Green-Turtles-Behavioral-Strategies-for-Somatic-Growth-in-Large-Marine-pone.0065783.s003.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ethogram-of-Immature-Green-Turtles-Behavioral-Strategies-for-Somatic-Growth-in-Large-Marine-pone.0065783.s003.ogv",
         "tags": [
-          "t_setup"
+          "t_explain"
         ],
-        "license_note": "Actual nesting beach and returning adult, source license-review status requires independent check. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "Adam Fish",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
+        "author": "Okuyama J, Nakajima K, Noda T, Kimura S, Kamihata H, Kobayashi M, Arai N, Kagawa S, Kawabata Y, Yamada H",
+        "license": "CC BY 2.5",
+        "license_url": "https://creativecommons.org/licenses/by/2.5/",
+        "license_note": "PLOS ONE 2013 original research footage: immature green turtle Chelonia mydas feeding on seagrass; verified Commons CC BY 2.5 and species 2026-10-27. Replaces unreviewed YouTube-imported distant drone. Scientific video 320x240; final visual QA mandatory."
       },
       {
         "type": "video",
@@ -737,7 +736,7 @@
         "assetTitle": "Grüne Schildkröte. Chelónia mýdas. Зелёная черепаха. DSCF1118.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF1118.webm",
         "tags": [
-          "t_action"
+          "t_hook"
         ],
         "license_note": "Underwater video categorized as Chelonia mydas and other sea life; verify correct individual. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
@@ -750,8 +749,7 @@
         "assetTitle": "Sea Turtle.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_Turtle.ogv",
         "tags": [
-          "t_explain",
-          "t_action"
+          "t_payoff"
         ],
         "license_note": "Original Commons page and reuse terms reviewed on 2026-10-27. Adapted excerpt; credit Roger Balestra and CC BY-SA 3.0. Actual species/behavior/framing requires new rendered-frame QA.",
         "license": "CC BY-SA 3.0",
@@ -778,7 +776,7 @@
         "assetTitle": "Race for survival.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Race%20for%20survival.webm",
         "tags": [
-          "t_payoff"
+          "t_setup"
         ],
         "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable. Editorial review 2026-10-27: the first seconds showed empty sand; seek near the midpoint, where hatchlings appear in the original source preview. Recheck the rendered segment before approval.",
         "license": "CC BY-SA 4.0",
@@ -792,8 +790,7 @@
         "assetTitle": "Grüne Schildkröte. Chelónia mýdas. Зелёная черепаха. DSCF0060.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF0060.webm",
         "tags": [
-          "t_action",
-          "t_explain"
+          "t_action"
         ],
         "license_note": "Additional Chelonia mydas underwater footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
@@ -806,7 +803,8 @@
         "assetTitle": "Green sea turtles (Chelonia mydas) mating.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Green%20sea%20turtles%20%28Chelonia%20mydas%29%20mating.webm",
         "tags": [
-          "t_explain"
+          "t_action",
+          "t_payoff"
         ],
         "license_note": "Real mating Chelonia mydas; reserve only for adult underwater context, not nesting behavior. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
@@ -820,60 +818,62 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-green_sea_turtle_two_generations-narrative-v2-commons-audited-qa5-hatchling-cue",
+    "revision": "2026-10-27-daily-green_sea_turtle_life-narrative-v3-licensed-research-video-repair",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "A green sea turtle heads back into the waves. What brought her onto land?",
-        "scene": "Open on verified adult green turtle returning to sea after nesting.",
+        "text": "A green sea turtle can spend years in the ocean. But where does that journey begin?",
+        "scene": "Open on an identifiable green sea turtle swimming underwater; no invented beach nesting.",
         "tags": [
           "t_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "BACK TO SEA"
+        "overlay_label": "OCEAN JOURNEY"
       },
       {
-        "text": "She had just buried her eggs in a sandy nest above the tide.",
-        "scene": "Show real nesting beach and returning adult, no false egg-laying reenactment.",
+        "text": "It begins on sandy shores, where tiny hatchlings must make their way toward the waves.",
+        "scene": "Authentic green sea turtle hatchlings visibly crossing sand toward the sea; do not imply captive turtle is wild.",
         "tags": [
           "t_setup"
         ],
-        "story_role": "setup"
+        "story_role": "setup",
+        "overlay_label": "FIRST STEPS"
       },
       {
-        "text": "Then she returned to the ocean, leaving those eggs to develop without her.",
-        "scene": "Show a real green sea turtle swimming away from the beach.",
+        "text": "Those that survive grow into powerful swimmers, moving through reefs and open water.",
+        "scene": "Actual adult green sea turtle swimming past reef or open water, without unrelated species.",
         "tags": [
           "t_action"
         ],
         "story_role": "action",
-        "overlay_label": "SHE LEAVES"
+        "overlay_label": "STRONG SWIMMER"
       },
       {
-        "text": "The mother doesn't stay to protect them. The sand becomes their incubator.",
-        "scene": "Keep footage on real species while explaining eggs underground, not visually depicted.",
+        "text": "As they grow, green turtles can graze on algae and seagrass beneath the surface.",
+        "scene": "Actual scientific green turtle feeding on algal turf or seagrass; acknowledge scientific footage in credits.",
         "tags": [
           "t_explain"
         ],
-        "story_role": "explanation"
+        "story_role": "explanation",
+        "overlay_label": "UNDERWATER GRAZER"
       },
       {
-        "text": "Weeks later, tiny hatchlings emerge and must cross the beach alone.",
-        "scene": "Show authentic hatchling release/young turtle context if supported by source.",
+        "text": "Protecting sea turtles also matters. Conservation centers help people understand the threats they face.",
+        "scene": "Documented turtle conservation center context; do not claim a specific rescue that is not shown.",
         "tags": [
           "t_twist"
         ],
         "story_role": "twist",
-        "overlay_label": "NEW LIFE"
+        "overlay_label": "CONSERVATION"
       },
       {
-        "text": "Her journey ends at sea, while the next generation's journey begins on shore.",
-        "scene": "End on documented wild green sea turtle hatchlings heading toward surf.",
+        "text": "From tiny hatchlings on the beach to graceful swimmers at sea, every survivor has crossed two worlds.",
+        "scene": "End on close green sea turtle in open water, resolving the contrast with hatchling journey.",
         "tags": [
           "t_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "THE NEXT GENERATION"
+        "overlay_label": "TWO WORLDS"
       }
     ]
   }
