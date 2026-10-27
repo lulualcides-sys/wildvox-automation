@@ -112,6 +112,8 @@ jobs:
           # Fail early on TTS initialization instead of after source rendering.
           python -c "from kokoro import KPipeline; KPipeline(lang_code='a')"
       - name: Render video
+        env:
+          WILDVOX_SOURCE_PREVIEWS: "1"
         run: python scripts/generate_video.py --key "${{ matrix.animal }}" --config configs/daily.json
       - uses: actions/upload-artifact@v4
         with:
@@ -120,6 +122,7 @@ jobs:
             output/${{ matrix.animal }}.mp4
             output/${{ matrix.animal }}_meta.json
             output/${{ matrix.animal }}_review.jpg
+            output/${{ matrix.animal }}_source_*_preview.jpg
           retention-days: 1
 
   publish-media:
