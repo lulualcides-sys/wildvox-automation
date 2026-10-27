@@ -1,0 +1,93 @@
+{
+  "editorial_day": "2026-10-27",
+  "timezone": "America/Sao_Paulo",
+  "inspection_local": "2026-10-27T19:40:00-03:00",
+  "run_id": 40579108192,
+  "render_commit": "ebde219f3dc1316f91285d926fe01bc49689097f",
+  "daily_config_blob": "c8fb2007cccb4588fd66b1884bcbf4106a756892",
+  "reviewed_current_batch": true,
+  "editorial_approval": "REJECTED",
+  "publication_hold": true,
+  "method": "Downloaded all five run-specific GitHub ZIP artifacts, inspected all five *_review.jpg contact sheets, all 40 original-source three-frame preview strips, and extracted and visually reviewed 30 MP4 frames at the midpoints of six real Kokoro narration blocks per video. Independently ran ffprobe and ffmpeg freezedetect scale=180:-2,n=-45dB,d=1.0 on all five MP4s.",
+  "technical": {
+    "all_audio": true,
+    "all_portrait_1080x1920": true,
+    "durations_seconds": {
+      "indian_peafowl_tail_rattle": 36.5,
+      "red_panda_bamboo_false_thumb": 32.1,
+      "sea_otter_fur_insulation": 32.7,
+      "greater_flamingo_courtship_parade": 37.567,
+      "green_sea_turtle_two_generations": 38.8
+    },
+    "freeze_over_1s": [
+      {
+        "key": "green_sea_turtle_two_generations",
+        "duration_seconds": 1.033333
+      }
+    ],
+    "technical_pass": false
+  },
+  "videos": [
+    {
+      "key": "indian_peafowl_tail_rattle",
+      "approval": "REJECTED",
+      "observations": [
+        "Block 5 includes source-embedded 'train-rattling' labels rather than clean footage.",
+        "Blocks 1-2 use very distant male displays; female inspection is not visually established."
+      ]
+    },
+    {
+      "key": "red_panda_bamboo_false_thumb",
+      "approval": "REJECTED",
+      "observations": [
+        "Blocks 3-4 do not clearly show the narrated paws/claw grip.",
+        "Final block shows obstructed face and leaves rather than clearly establishing pantry/path/rest payoff."
+      ]
+    },
+    {
+      "key": "sea_otter_fur_insulation",
+      "approval": "REJECTED",
+      "observations": [
+        "Opening is ambiguous rock/animal, not clearly sea-otter grooming.",
+        "Blocks 2-3 use distant water or an almost invisible animal.",
+        "Payoff features small animals in an enclosure rather than clear coat care."
+      ]
+    },
+    {
+      "key": "greater_flamingo_courtship_parade",
+      "approval": "REJECTED",
+      "observations": [
+        "Action block uses distant birds and does not demonstrate inverted bill filtering.",
+        "Payoff shows upright heads, contradicting head-down feeding narration."
+      ]
+    },
+    {
+      "key": "green_sea_turtle_two_generations",
+      "approval": "REJECTED",
+      "observations": [
+        "Hatchling block shows mostly empty sand.",
+        "Reef explanation block shows nearly empty water.",
+        "Freeze of 1.033333s persists, beyond max 1s."
+      ]
+    }
+  ],
+  "licensing": "40 Commons sources have author, sourcePage, and license URLs in config; this inspection does not independently re-certify external licensing.",
+  "publication": {
+    "provider": "Metricool",
+    "brand_id": 7242311,
+    "account": "@wildvox",
+    "network": "tiktok",
+    "scheduled_posts": 0,
+    "published_rows": 0,
+    "confirmed_post_ids": [],
+    "youtube_publications_authorized": false
+  },
+  "code_repairs": {
+    "caption_timing_commit": "ba8f659eaee5cba9077a2ce7e5596ea3cf6a16d5",
+    "regression_tests_commit": "bae2011aa7e01827fd0d3b032b6d89ae7e724fdd",
+    "quality_workflow_run": 40596318334,
+    "quality_workflow_result": "success",
+    "note": "Future renders now allocate word-caption timing within real Kokoro block durations; previous MP4s remain unapproved and have not been rerendered."
+  },
+  "next_action": "Replace or re-time weak original clips with independently verified footage, rerender all five, and repeat full current-batch visual QA. No rerender was triggered from unchanged, known-rejected sources."
+}
