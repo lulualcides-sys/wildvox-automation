@@ -18,7 +18,8 @@ USER_AGENT = "WildVoxEditorialAudit/1.0 (public GitHub project; source verificat
 def get_info(titles):
     query = urlencode({
         "action": "query", "format": "json", "formatversion": "2",
-        "prop": "imageinfo", "iiprop": "url|size|mime|extmetadata",
+        "prop": "imageinfo|categories", "iiprop": "url|size|mime|extmetadata",
+        "cllimit": "max", "clshow": "hidden",
         "titles": "|".join(titles), "redirects": "1"
     })
     request = Request(API + "?" + query, headers={
@@ -71,6 +72,9 @@ def main():
             page = by_title.get(title.casefold())
             if not page or page.get("missing") or not page.get("imageinfo"):
                 raise RuntimeError(f"{key}: Commons asset missing: {title}")
+            categories = {str(c.get("title") or "").casefold() for c in page.get("categories", [])}
+            if any("license review needed" in c or "copyright violations" in c for c in categories):
+                raise RuntimeError(f"{key}: Commons source is awaiting license review or flagged for copyright: {title}")
             info = page["imageinfo"][0]
             metadata = info.get("extmetadata") or {}
             license_name = str((metadata.get("LicenseShortName") or {}).get("value") or "")
