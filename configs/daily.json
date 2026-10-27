@@ -801,17 +801,16 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20sea%20turtles%20%28Chelonia%20mydas%29%20mating.webm",
-        "assetTitle": "Green sea turtles (Chelonia mydas) mating.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Green%20sea%20turtles%20%28Chelonia%20mydas%29%20mating.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20snakes%20and%20marine%20turtles%20observed%20at%20the%20Chesterfield-Bellona%20reef%20complex%20in%20the%20Coral%20Sea%20Marine%20Park%20(Southwest%20Pacific)%20(Ifremer%2000669-78070%20-%2031417).webm",
+        "assetTitle": "Sea snakes and marine turtles observed at the Chesterfield-Bellona reef complex in the Coral Sea Marine Park (Southwest Pacific) (Ifremer 00669-78070 - 31417).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_snakes_and_marine_turtles_observed_at_the_Chesterfield-Bellona_reef_complex_in_the_Coral_Sea_Marine_Park_(Southwest_Pacific)_(Ifremer_00669-78070_-_31417).webm",
         "tags": [
-          "t_action",
           "t_payoff"
         ],
-        "license_note": "Real mating Chelonia mydas; reserve only for adult underwater context, not nesting behavior. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "EMMA TOLMIE",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "author": "Dominique Pelletier, Abigail Powell, William Roman, Liliane Carpentier (IFREMER)",
+        "license_note": "IFREMER Océanothèque source 31417, explicitly labeled Chelonia mydas, 5.36s 1920x1080, Commons CC BY 4.0 checked 2026-10-27. Replaces the distant static mating footage responsible for a 1.27s freeze at 36-37s in previous render. Must be paired as a 3-4s distinct payoff shot and visually inspected before release."
       }
     ],
     "min_unique_videos": 6,
@@ -820,7 +819,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-green_sea_turtle_life-narrative-v4-ifremer-no-watermark-repair",
+    "revision": "2026-10-27-daily-green_sea_turtle_life-narrative-v5-ifremer-frozen-payoff-repair",
     "publication_hold": true,
     "visual_plan": [
       {
