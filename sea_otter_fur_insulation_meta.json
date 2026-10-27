@@ -120,16 +120,16 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20Monterey%20Bay%20Aquarium%201.ogv",
-      "assetTitle": "Sea otters Monterey Bay Aquarium 1.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otters%20Monterey%20Bay%20Aquarium%201.ogv",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2011.webm",
+      "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 11.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Enhydra_lutris_-_September_2023_-_Sarah_Stierch_11.webm",
       "tags": [
         "o_action"
       ],
-      "license_note": "Real captive sea otters at Monterey Bay Aquarium. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-      "license": "CC BY-SA 3.0",
-      "author": "Toniher",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Sarah Stierch",
+      "license_note": "Authentic wild Enhydra lutris in Morro Bay, 6.0s, Commons original and commercial license checked 2026-10-27. Replaces distant aquarium wide shot; inspect framing and fur visibility in new QA."
     },
     {
       "type": "video",

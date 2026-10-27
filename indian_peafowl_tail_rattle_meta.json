@@ -146,16 +146,16 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peafowl%20%28Pavo%20cristatus%29%20displaying.webm",
-      "assetTitle": "Indian peafowl (Pavo cristatus) displaying.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian%20peafowl%20%28Pavo%20cristatus%29%20displaying.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s002.ogv",
+      "assetTitle": "Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s002.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s002.ogv",
       "tags": [
         "p_twist"
       ],
-      "license_note": "Title explicitly identifies displaying Pavo cristatus. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0",
-      "author": "Nacho"
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Dakin R, McCrossan O, Hare J, Montgomerie R, Amador Kane S",
+      "license_note": "PLOS ONE scientific footage of real peacock train-rattling and peahen courtship; do not confuse slow motion with natural speed. Wikimedia Commons source and PLOS ONE open-access license independently checked 2026-10-27; edited excerpt with attribution."
     },
     {
       "type": "video",
@@ -172,17 +172,16 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
-      "assetTitle": "Pavo cristatus in World of Birds Wildlife Sanctuary and Monkey Park.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s003.ogv",
+      "assetTitle": "Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s003.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s003.ogv",
       "tags": [
-        "p_action",
         "p_twist"
       ],
-      "license_note": "Species explicitly identified; actual movement requires visual QA. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-      "author": "Spasimir Pilev",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "author": "Dakin R, McCrossan O, Hare J, Montgomerie R, Amador Kane S",
+      "license_note": "PLOS ONE original footage of subadult peacock train-rattling and peahen covert-rattling; verified distinct video, not generic peafowl movement. Wikimedia Commons source and PLOS ONE open-access license independently checked 2026-10-27; edited excerpt with attribution."
     },
     {
       "type": "video",
