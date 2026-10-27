@@ -178,5 +178,6 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Publish latest approved WildVox daily videos"
+          # Publishing media artifacts is not editorial approval or TikTok delivery.
+          git commit -m "Store rendered WildVox daily QA candidates"
           git push origin HEAD:media
