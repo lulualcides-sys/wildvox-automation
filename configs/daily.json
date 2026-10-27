@@ -12,7 +12,9 @@
         "tags": [
           "p_hook"
         ],
-        "license_note": "Title explicitly documents male displaying for peahen. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+        "license_note": "Title explicitly documents male displaying for peahen. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
       },
       {
         "type": "video",
@@ -22,7 +24,9 @@
         "tags": [
           "p_setup"
         ],
-        "license_note": "Title explicitly documents peacock displaying. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+        "license_note": "Title explicitly documents peacock displaying. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0"
       },
       {
         "type": "video",
@@ -32,7 +36,9 @@
         "tags": [
           "p_action"
         ],
-        "license_note": "Title explicitly documents courtship display. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+        "license_note": "Title explicitly documents courtship display. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
       },
       {
         "type": "video",
@@ -42,7 +48,9 @@
         "tags": [
           "p_explain"
         ],
-        "license_note": "Title identifies train/tail detail; verify close-up framing. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+        "license_note": "Title identifies train/tail detail; verify close-up framing. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
         "type": "video",
@@ -52,7 +60,9 @@
         "tags": [
           "p_twist"
         ],
-        "license_note": "Title explicitly identifies displaying Pavo cristatus. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+        "license_note": "Title explicitly identifies displaying Pavo cristatus. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0"
       },
       {
         "type": "video",
@@ -62,7 +72,9 @@
         "tags": [
           "p_payoff"
         ],
-        "license_note": "Title documents peacock tail display at Sofia Zoo. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+        "license_note": "Title documents peacock tail display at Sofia Zoo. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
       },
       {
         "type": "video",
@@ -73,8 +85,10 @@
           "p_action",
           "p_twist"
         ],
-        "license_note": "Species explicitly identified; actual movement requires visual QA. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "author": "Spasimir Pilev"
+        "license_note": "Species explicitly identified; actual movement requires visual QA. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "author": "Spasimir Pilev",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
         "type": "video",
@@ -84,7 +98,9 @@
         "tags": [
           "p_setup"
         ],
-        "license_note": "Species-specific movement support only, not claimed as courtship. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable."
+        "license_note": "Species-specific movement support only, not claimed as courtship. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0"
       }
     ],
     "min_unique_videos": 6,
@@ -93,7 +109,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v1",
+    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v2-commons-audited",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -163,8 +179,10 @@
         "tags": [
           "r_hook"
         ],
-        "license_note": "Author and feeding behavior identified in original Commons description; captive footage. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "author": "Grendelkhan"
+        "license_note": "Author and feeding behavior identified in original Commons description; captive footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "author": "Grendelkhan",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
         "type": "video",
@@ -174,9 +192,10 @@
         "tags": [
           "r_setup"
         ],
-        "license_note": "Zoo footage; verify branches/pose before using in setup. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Zoo footage; verify branches/pose before using in setup. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -186,9 +205,10 @@
         "tags": [
           "r_action"
         ],
-        "license_note": "Zoo footage of red panda; source title contains original spelling 'fugens'. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Zoo footage of red panda; source title contains original spelling 'fugens'. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -198,9 +218,10 @@
         "tags": [
           "r_explain"
         ],
-        "license_note": "Species footage only; no unsupported close-up of wrist anatomy claimed. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Species footage only; no unsupported close-up of wrist anatomy claimed. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -210,9 +231,10 @@
         "tags": [
           "r_twist"
         ],
-        "license_note": "Zoo footage; feeding detail subject to visual QA. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Zoo footage; feeding detail subject to visual QA. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -222,9 +244,10 @@
         "tags": [
           "r_payoff"
         ],
-        "license_note": "Species-specific zoo footage; verify feeding in final shot. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Species-specific zoo footage; verify feeding in final shot. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -234,9 +257,10 @@
         "tags": [
           "r_action"
         ],
-        "license_note": "Additional real red panda action shot. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Additional real red panda action shot. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -247,9 +271,10 @@
           "r_setup",
           "r_payoff"
         ],
-        "license_note": "Additional red panda zoo shot, behavior to be visually confirmed. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Additional red panda zoo shot, behavior to be visually confirmed. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       }
     ],
     "min_unique_videos": 6,
@@ -258,7 +283,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-red_panda_bamboo_false_thumb-narrative-v1",
+    "revision": "2026-10-27-daily-red_panda_bamboo_false_thumb-narrative-v2-commons-audited",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -328,9 +353,10 @@
         "tags": [
           "o_hook"
         ],
-        "license_note": "Real sea otter in Alaska; inspect for grooming before final approval. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Real sea otter in Alaska; inspect for grooming before final approval. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 2.0",
-        "author": "Gailhampshire"
+        "author": "Gailhampshire",
+        "license_url": "https://creativecommons.org/licenses/by/2.0"
       },
       {
         "type": "video",
@@ -340,9 +366,10 @@
         "tags": [
           "o_setup"
         ],
-        "license_note": "Captive sea otter filmed at Kamogawa SeaWorld; no wild provenance implied. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Captive sea otter filmed at Kamogawa SeaWorld; no wild provenance implied. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 3.0",
-        "author": "The Nature Box"
+        "author": "The Nature Box",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
       },
       {
         "type": "video",
@@ -352,9 +379,10 @@
         "tags": [
           "o_action"
         ],
-        "license_note": "Real captive sea otters at Monterey Bay Aquarium. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Real captive sea otters at Monterey Bay Aquarium. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 3.0",
-        "author": "Toniher"
+        "author": "Toniher",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
       },
       {
         "type": "video",
@@ -364,9 +392,10 @@
         "tags": [
           "o_explain"
         ],
-        "license_note": "Real captive sea otter at Océanopolis. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Real captive sea otter at Océanopolis. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "author": "Gzen92"
+        "author": "Gzen92",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
         "type": "video",
@@ -376,9 +405,10 @@
         "tags": [
           "o_twist"
         ],
-        "license_note": "Real captive sea otter playing; grooming action must be verified. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Real captive sea otter playing; grooming action must be verified. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 4.0",
-        "author": "Nesnad"
+        "author": "Nesnad",
+        "license_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
         "type": "video",
@@ -388,9 +418,10 @@
         "tags": [
           "o_payoff"
         ],
-        "license_note": "Real wild sea otter in Morro Bay. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Real wild sea otter in Morro Bay. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 4.0",
-        "author": "Sarah Stierch"
+        "author": "Sarah Stierch",
+        "license_url": "https://creativecommons.org/licenses/by/4.0"
       },
       {
         "type": "video",
@@ -401,9 +432,10 @@
           "o_action",
           "o_explain"
         ],
-        "license_note": "Captive sea otters at Point Defiance Zoo and Aquarium. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Captive sea otters at Point Defiance Zoo and Aquarium. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 2.0",
-        "author": "Parker Knight"
+        "author": "Parker Knight",
+        "license_url": "https://creativecommons.org/licenses/by/2.0"
       },
       {
         "type": "video",
@@ -413,9 +445,10 @@
         "tags": [
           "o_payoff"
         ],
-        "license_note": "Short additional captive sea otter clip; do not use if longer than its 9.2s footage. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Short additional captive sea otter clip; do not use if longer than its 9.2s footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "author": "Gzen92"
+        "author": "Gzen92",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
     "min_unique_videos": 6,
@@ -424,7 +457,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-sea_otter_fur_insulation-narrative-v1",
+    "revision": "2026-10-27-daily-sea_otter_fur_insulation-narrative-v2-commons-audited",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -494,9 +527,10 @@
         "tags": [
           "f_hook"
         ],
-        "license_note": "Verified 2024 authentic courtship slow-motion; attribution requested by creator. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Verified 2024 authentic courtship slow-motion; attribution requested by creator. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "author": "Giles Laurent"
+        "author": "Giles Laurent",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
         "type": "video",
@@ -506,9 +540,10 @@
         "tags": [
           "f_setup"
         ],
-        "license_note": "Species-specific lagoon footage; group movement to be checked. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Species-specific lagoon footage; group movement to be checked. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -518,9 +553,10 @@
         "tags": [
           "f_action"
         ],
-        "license_note": "Species-specific lagoon footage; head-flagging not independently confirmed. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Species-specific lagoon footage; head-flagging not independently confirmed. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -530,9 +566,10 @@
         "tags": [
           "f_explain"
         ],
-        "license_note": "Real greater flamingo vocalization during mating season, slowed 4x. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Real greater flamingo vocalization during mating season, slowed 4x. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "author": "Giles Laurent"
+        "author": "Giles Laurent",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
         "type": "video",
@@ -542,9 +579,10 @@
         "tags": [
           "f_twist"
         ],
-        "license_note": "Lagoon footage of species; courtship-specific action requires visual QA. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Lagoon footage of species; courtship-specific action requires visual QA. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -554,9 +592,10 @@
         "tags": [
           "f_payoff"
         ],
-        "license_note": "Lagoon flock footage; inspect whether closing movement matches story. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Lagoon flock footage; inspect whether closing movement matches story. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -567,9 +606,10 @@
           "f_setup",
           "f_action"
         ],
-        "license_note": "Additional greater flamingo lagoon footage, reviewed CC BY 3.0 on Commons. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Additional greater flamingo lagoon footage, reviewed CC BY 3.0 on Commons. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™"
+        "author": "NaIzletuSi ™",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -579,8 +619,9 @@
         "tags": [
           "f_setup"
         ],
-        "license_note": "Real Phoenicopterus roseus flock in Camargue, not a confirmed close courtship scene. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY-SA 4.0"
+        "license_note": "Real Phoenicopterus roseus flock in Camargue, not a confirmed close courtship scene. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       }
     ],
     "min_unique_videos": 6,
@@ -589,7 +630,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-greater_flamingo_courtship_parade-narrative-v1",
+    "revision": "2026-10-27-daily-greater_flamingo_courtship_parade-narrative-v2-commons-audited",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -658,9 +699,10 @@
         "tags": [
           "t_hook"
         ],
-        "license_note": "Actual adult returning from nesting, source YouTube license-review status requires independent check. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Actual adult returning from nesting, source YouTube license-review status requires independent check. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "Adam Fish"
+        "author": "Adam Fish",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -670,9 +712,10 @@
         "tags": [
           "t_setup"
         ],
-        "license_note": "Actual nesting beach and returning adult, source license-review status requires independent check. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Actual nesting beach and returning adult, source license-review status requires independent check. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "Adam Fish"
+        "author": "Adam Fish",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -682,9 +725,10 @@
         "tags": [
           "t_action"
         ],
-        "license_note": "Underwater video categorized as Chelonia mydas and other sea life; verify correct individual. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Underwater video categorized as Chelonia mydas and other sea life; verify correct individual. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "author": "Kora27"
+        "author": "Kora27",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
         "type": "video",
@@ -694,9 +738,10 @@
         "tags": [
           "t_explain"
         ],
-        "license_note": "Real green turtle swimming, not evidence of eggs underground. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Real green turtle swimming, not evidence of eggs underground. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "Adam Fish"
+        "author": "Adam Fish",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       },
       {
         "type": "video",
@@ -706,9 +751,10 @@
         "tags": [
           "t_twist"
         ],
-        "license_note": "Authentic conservation project; do not imply wild hatching if shown in captivity. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Authentic conservation project; do not imply wild hatching if shown in captivity. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "author": "Pierre André Leclercq"
+        "author": "Pierre André Leclercq",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
         "type": "video",
@@ -718,9 +764,10 @@
         "tags": [
           "t_payoff"
         ],
-        "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "author": "Eleonore123"
+        "author": "Eleonore123",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
         "type": "video",
@@ -731,9 +778,10 @@
           "t_action",
           "t_explain"
         ],
-        "license_note": "Additional Chelonia mydas underwater footage. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Additional Chelonia mydas underwater footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "author": "Kora27"
+        "author": "Kora27",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
       },
       {
         "type": "video",
@@ -743,9 +791,10 @@
         "tags": [
           "t_explain"
         ],
-        "license_note": "Real mating Chelonia mydas; reserve only for adult underwater context, not nesting behavior. Commons file licensing must be independently confirmed by the daily API preflight. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Real mating Chelonia mydas; reserve only for adult underwater context, not nesting behavior. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
-        "author": "EMMA TOLMIE"
+        "author": "EMMA TOLMIE",
+        "license_url": "https://creativecommons.org/licenses/by/3.0"
       }
     ],
     "min_unique_videos": 6,
@@ -754,7 +803,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-green_sea_turtle_two_generations-narrative-v1",
+    "revision": "2026-10-27-daily-green_sea_turtle_two_generations-narrative-v2-commons-audited",
     "publication_hold": true,
     "visual_plan": [
       {
