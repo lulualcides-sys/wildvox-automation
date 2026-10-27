@@ -1,0 +1,203 @@
+{
+  "key": "greater_flamingo_courtship_parade",
+  "title": "THE FLAMINGO PARADE IS A MATING DISPLAY",
+  "caption": "Why do greater flamingos dance in groups? 🦩 #Flamingo #Courtship #BirdBehavior #NatureFacts #WildVox",
+  "duration": 34.08,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.825,
+      "duration": 5.825,
+      "text": "Why do these greater flamingos march together and swing their heads like dancers?",
+      "scene": "Open on authentic greater flamingo courtship filmed in Camargue.",
+      "tags": [
+        "f_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "THE PARADE",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.825,
+      "end": 11.475000000000001,
+      "duration": 5.65,
+      "text": "During breeding season, birds gather and start moving in coordinated groups.",
+      "scene": "Show real Phoenicopterus roseus flock at lagoon; do not assert every shot depicts breeding.",
+      "tags": [
+        "f_setup"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.475000000000001,
+      "end": 16.150000000000002,
+      "duration": 4.675,
+      "text": "They stretch their necks, turn their heads, and step through shallow water.",
+      "scene": "Use flock movement or genuine display, never another flamingo species.",
+      "tags": [
+        "f_action"
+      ],
+      "story_role": "action",
+      "overlay_label": "HEAD FLAGGING",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 16.150000000000002,
+      "end": 22.225,
+      "duration": 6.075,
+      "text": "These group displays help flamingos assess possible mates before forming pairs.",
+      "scene": "Show actual greater flamingo vocalizing/displaying; do not imply pair formation on camera.",
+      "tags": [
+        "f_explain"
+      ],
+      "story_role": "explanation",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 22.225,
+      "end": 28.200000000000003,
+      "duration": 5.975,
+      "text": "It looks like choreography, but these movements are part of a real courtship ritual.",
+      "scene": "Show a real group of greater flamingos in the water.",
+      "tags": [
+        "f_twist"
+      ],
+      "story_role": "twist",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 28.200000000000003,
+      "end": 34.075,
+      "duration": 5.875,
+      "text": "That strange parade helps these long-legged birds find partners for breeding.",
+      "scene": "Close on greater flamingo flock, resolving the opening parade question.",
+      "tags": [
+        "f_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "COURTSHIP",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/045%20Greater%20flamingos%20courtship%20display%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
+      "assetTitle": "045 Greater flamingos courtship display in the Camargue during mating season (slow motion) Video by Giles Laurent.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:045%20Greater%20flamingos%20courtship%20display%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
+      "tags": [
+        "f_hook"
+      ],
+      "license_note": "Verified 2024 authentic courtship slow-motion; attribution requested by creator. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 4.0",
+      "author": "Giles Laurent",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%204.webm",
+      "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 4.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%204.webm",
+      "tags": [
+        "f_setup"
+      ],
+      "license_note": "Species-specific lagoon footage; group movement to be checked. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%205.webm",
+      "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%205.webm",
+      "tags": [
+        "f_action"
+      ],
+      "license_note": "Species-specific lagoon footage; head-flagging not independently confirmed. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/043%20Greater%20flamingo%20vocalizing%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
+      "assetTitle": "043 Greater flamingo vocalizing in the Camargue during mating season (slow motion) Video by Giles Laurent.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:043%20Greater%20flamingo%20vocalizing%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
+      "tags": [
+        "f_explain"
+      ],
+      "license_note": "Real greater flamingo vocalization during mating season, slowed 4x. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 4.0",
+      "author": "Giles Laurent",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+      "assetTitle": "2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+      "tags": [
+        "f_twist"
+      ],
+      "license_note": "Lagoon footage of species; courtship-specific action requires visual QA. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+      "assetTitle": "2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+      "tags": [
+        "f_payoff"
+      ],
+      "license_note": "Lagoon flock footage; inspect whether closing movement matches story. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%206.webm",
+      "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 6.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%206.webm",
+      "tags": [
+        "f_setup",
+        "f_action"
+      ],
+      "license_note": "Additional greater flamingo lagoon footage, reviewed CC BY 3.0 on Commons. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Camargue.webm",
+      "assetTitle": "Camargue.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Camargue.webm",
+      "tags": [
+        "f_setup"
+      ],
+      "license_note": "Real Phoenicopterus roseus flock in Camargue, not a confirmed close courtship scene. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "review_sheet": "greater_flamingo_courtship_parade_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

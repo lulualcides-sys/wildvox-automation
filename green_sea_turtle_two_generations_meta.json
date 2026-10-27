@@ -1,0 +1,204 @@
+{
+  "key": "green_sea_turtle_two_generations",
+  "title": "THE TURTLE RETURNS TO SEA BUT LEAVES A SECRET",
+  "caption": "One turtle's journey ends where the next begins. 🐢🌊 #GreenSeaTurtle #Wildlife #OceanLife #WildVox",
+  "duration": 30.7,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.425,
+      "duration": 5.425,
+      "text": "A green sea turtle heads back into the waves. What brought her onto land?",
+      "scene": "Open on verified adult green turtle returning to sea after nesting.",
+      "tags": [
+        "t_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "BACK TO SEA",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.425,
+      "end": 9.774999999999999,
+      "duration": 4.35,
+      "text": "She had just buried her eggs in a sandy nest above the tide.",
+      "scene": "Show real nesting beach and returning adult, no false egg-laying reenactment.",
+      "tags": [
+        "t_setup"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 9.774999999999999,
+      "end": 15.099999999999998,
+      "duration": 5.325,
+      "text": "Then she returned to the ocean, leaving those eggs to develop without her.",
+      "scene": "Show a real green sea turtle swimming away from the beach.",
+      "tags": [
+        "t_action"
+      ],
+      "story_role": "action",
+      "overlay_label": "SHE LEAVES",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 15.099999999999998,
+      "end": 20.324999999999996,
+      "duration": 5.225,
+      "text": "The mother doesn't stay to protect them. The sand becomes their incubator.",
+      "scene": "Keep footage on real species while explaining eggs underground, not visually depicted.",
+      "tags": [
+        "t_explain"
+      ],
+      "story_role": "explanation",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 20.324999999999996,
+      "end": 25.149999999999995,
+      "duration": 4.825,
+      "text": "Weeks later, tiny hatchlings emerge and must cross the beach alone.",
+      "scene": "Show authentic hatchling release/young turtle context if supported by source.",
+      "tags": [
+        "t_twist"
+      ],
+      "story_role": "twist",
+      "overlay_label": "NEW LIFE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 25.149999999999995,
+      "end": 30.699999999999996,
+      "duration": 5.55,
+      "text": "Her journey ends at sea, while the next generation's journey begins on shore.",
+      "scene": "End on documented wild green sea turtle hatchlings heading toward surf.",
+      "tags": [
+        "t_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE NEXT GENERATION",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20sea%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+      "assetTitle": "Green sea turtle (Chelonia mydas) returning to the sea after laying eggs at Lady Musgrave Island, Queensland, Australia.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20sea%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+      "tags": [
+        "t_hook"
+      ],
+      "license_note": "Actual adult returning from nesting, source YouTube license-review status requires independent check. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 3.0",
+      "author": "Adam Fish",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20ocean%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+      "assetTitle": "Aerial view of a green sea turtle (Chelonia mydas) returning to the ocean after laying eggs at Lady Musgrave Island, Queensland, Australia.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20returning%20to%20the%20ocean%20after%20laying%20eggs%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+      "tags": [
+        "t_setup"
+      ],
+      "license_note": "Actual nesting beach and returning adult, source license-review status requires independent check. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 3.0",
+      "author": "Adam Fish",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF1118.webm",
+      "assetTitle": "Grüne Schildkröte. Chelónia mýdas. Зелёная черепаха. DSCF1118.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF1118.webm",
+      "tags": [
+        "t_action"
+      ],
+      "license_note": "Underwater video categorized as Chelonia mydas and other sea life; verify correct individual. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 4.0",
+      "author": "Kora27",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20swimming%20in%20the%20reef%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+      "assetTitle": "Aerial view of a green sea turtle (Chelonia mydas) swimming in the reef at Lady Musgrave Island, Queensland, Australia.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aerial%20view%20of%20a%20green%20sea%20turtle%20%28Chelonia%20mydas%29%20swimming%20in%20the%20reef%20at%20Lady%20Musgrave%20Island%2C%20Queensland%2C%20Australia.webm",
+      "tags": [
+        "t_explain"
+      ],
+      "license_note": "Real green turtle swimming, not evidence of eggs underground. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 3.0",
+      "author": "Adam Fish",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kosgoda%20Sea%20Turtle%20Conservation%20Project%20video%20.ogv",
+      "assetTitle": "Kosgoda Sea Turtle Conservation Project video .ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kosgoda%20Sea%20Turtle%20Conservation%20Project%20video%20.ogv",
+      "tags": [
+        "t_twist"
+      ],
+      "license_note": "Authentic conservation project; do not imply wild hatching if shown in captivity. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 4.0",
+      "author": "Pierre André Leclercq",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Race%20for%20survival.webm",
+      "assetTitle": "Race for survival.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Race%20for%20survival.webm",
+      "tags": [
+        "t_payoff"
+      ],
+      "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 4.0",
+      "author": "Eleonore123",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF0060.webm",
+      "assetTitle": "Grüne Schildkröte. Chelónia mýdas. Зелёная черепаха. DSCF0060.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF0060.webm",
+      "tags": [
+        "t_action",
+        "t_explain"
+      ],
+      "license_note": "Additional Chelonia mydas underwater footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 4.0",
+      "author": "Kora27",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Green%20sea%20turtles%20%28Chelonia%20mydas%29%20mating.webm",
+      "assetTitle": "Green sea turtles (Chelonia mydas) mating.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Green%20sea%20turtles%20%28Chelonia%20mydas%29%20mating.webm",
+      "tags": [
+        "t_explain"
+      ],
+      "license_note": "Real mating Chelonia mydas; reserve only for adult underwater context, not nesting behavior. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 3.0",
+      "author": "EMMA TOLMIE",
+      "license_url": "https://creativecommons.org/licenses/by/3.0"
+    }
+  ],
+  "review_sheet": "green_sea_turtle_two_generations_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

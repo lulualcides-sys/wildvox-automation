@@ -1,0 +1,204 @@
+{
+  "key": "sea_otter_fur_insulation",
+  "title": "WHY SEA OTTERS NEVER STOP GROOMING",
+  "caption": "Sea otters stay warm with a remarkable fur-care routine. 🦦 #SeaOtter #OceanLife #AnimalBehavior #WildVox",
+  "duration": 32.7,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.95,
+      "duration": 4.95,
+      "text": "Why does a sea otter spend so much time floating and fussing with its fur?",
+      "scene": "Open on real sea otter at water surface, preferably rubbing or grooming.",
+      "tags": [
+        "o_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "FUR FIRST",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.95,
+      "end": 10.475000000000001,
+      "duration": 5.525,
+      "text": "Unlike seals, sea otters have very little blubber to help them stay warm.",
+      "scene": "Establish real sea otter in water, no unrelated seal footage.",
+      "tags": [
+        "o_setup"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 10.475000000000001,
+      "end": 16.425,
+      "duration": 5.95,
+      "text": "Instead, their incredibly dense coats trap insulating air right next to the skin.",
+      "scene": "Show genuine sea otter body and fur, with no invented microscopic closeup.",
+      "tags": [
+        "o_action"
+      ],
+      "story_role": "action",
+      "overlay_label": "AIR TRAP",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 16.425,
+      "end": 22.25,
+      "duration": 5.825,
+      "text": "But dirty or matted fur loses that protection, so grooming really matters.",
+      "scene": "Use real close sea otter movement while explaining the insulation mechanism.",
+      "tags": [
+        "o_explain"
+      ],
+      "story_role": "explanation",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 22.25,
+      "end": 27.275,
+      "duration": 5.025,
+      "text": "They rub, roll, and comb through their coats while resting on the surface.",
+      "scene": "Show documented sea otter rolling or grooming if present in selected clip.",
+      "tags": [
+        "o_twist"
+      ],
+      "story_role": "twist",
+      "overlay_label": "GROOMING",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 27.275,
+      "end": 32.699999999999996,
+      "duration": 5.425,
+      "text": "That constant care helps a sea otter survive in cold coastal water.",
+      "scene": "Finish on a wild sea otter afloat, resolving why the fur care matters.",
+      "tags": [
+        "o_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "STAY WARM",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter.%20Enhydra%20lutris%20video.webm",
+      "assetTitle": "Sea otter. Enhydra lutris video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otter.%20Enhydra%20lutris%20video.webm",
+      "tags": [
+        "o_hook"
+      ],
+      "license_note": "Real sea otter in Alaska; inspect for grooming before final approval. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 2.0",
+      "author": "Gailhampshire",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter%20%28Enhydra%20lutris%29.webm",
+      "assetTitle": "Sea otter (Enhydra lutris).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otter%20%28Enhydra%20lutris%29.webm",
+      "tags": [
+        "o_setup"
+      ],
+      "license_note": "Captive sea otter filmed at Kamogawa SeaWorld; no wild provenance implied. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 3.0",
+      "author": "The Nature Box",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20Monterey%20Bay%20Aquarium%201.ogv",
+      "assetTitle": "Sea otters Monterey Bay Aquarium 1.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otters%20Monterey%20Bay%20Aquarium%201.ogv",
+      "tags": [
+        "o_action"
+      ],
+      "license_note": "Real captive sea otters at Monterey Bay Aquarium. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 3.0",
+      "author": "Toniher",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loutre%20de%20mer%20%28Enhydra%20lutris%29.ogv",
+      "assetTitle": "Loutre de mer (Enhydra lutris).ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Loutre%20de%20mer%20%28Enhydra%20lutris%29.ogv",
+      "tags": [
+        "o_explain"
+      ],
+      "license_note": "Real captive sea otter at Océanopolis. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 4.0",
+      "author": "Gzen92",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otter%20playing%20-%202015%2011%2008.ogv",
+      "assetTitle": "Otter playing - 2015 11 08.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Otter%20playing%20-%202015%2011%2008.ogv",
+      "tags": [
+        "o_twist"
+      ],
+      "license_note": "Real captive sea otter playing; grooming action must be verified. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 4.0",
+      "author": "Nesnad",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
+      "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 12.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
+      "tags": [
+        "o_payoff"
+      ],
+      "license_note": "Real wild sea otter in Morro Bay. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 4.0",
+      "author": "Sarah Stierch",
+      "license_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20%28Enhydra%20lutris%29%20in%20a%20zoo.webm",
+      "assetTitle": "Sea otters (Enhydra lutris) in a zoo.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otters%20%28Enhydra%20lutris%29%20in%20a%20zoo.webm",
+      "tags": [
+        "o_action",
+        "o_explain"
+      ],
+      "license_note": "Captive sea otters at Point Defiance Zoo and Aquarium. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 2.0",
+      "author": "Parker Knight",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loutre%20de%20mer%20%28Enhydra%20lutris%29%20%282%29.ogv",
+      "assetTitle": "Loutre de mer (Enhydra lutris) (2).ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Loutre%20de%20mer%20%28Enhydra%20lutris%29%20%282%29.ogv",
+      "tags": [
+        "o_payoff"
+      ],
+      "license_note": "Short additional captive sea otter clip; do not use if longer than its 9.2s footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 4.0",
+      "author": "Gzen92",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  ],
+  "review_sheet": "sea_otter_fur_insulation_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

@@ -1,0 +1,197 @@
+{
+  "key": "indian_peafowl_tail_rattle",
+  "title": "WHY THIS PEACOCK SHAKES ITS GIANT FEATHER FAN",
+  "caption": "Why do peacocks shake those incredible feathers? 🦚 #Peacock #Peafowl #AnimalBehavior #Wildlife #WildVox",
+  "duration": 36.48,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.475,
+      "duration": 5.475,
+      "text": "Why does this Indian peacock shake a giant fan of feathers at another bird?",
+      "scene": "Start on a confirmed male peacock displaying directly toward a peahen.",
+      "tags": [
+        "p_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "FEATHER DISPLAY",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.475,
+      "end": 11.5,
+      "duration": 6.025,
+      "text": "He spreads his long train when a peahen is nearby, exposing its eye-like spots.",
+      "scene": "Show the expanded train and peahen without implying every bird in frame is courting.",
+      "tags": [
+        "p_setup"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.5,
+      "end": 17.725,
+      "duration": 6.225,
+      "text": "Then he rattles the feathers rapidly, turning the display into a vibrating performance.",
+      "scene": "Show actual peacock courtship movement and train shaking.",
+      "tags": [
+        "p_action"
+      ],
+      "story_role": "action",
+      "overlay_label": "THE RATTLE",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 17.725,
+      "end": 23.575000000000003,
+      "duration": 5.85,
+      "text": "Those moving feathers can rustle and shimmer as their tiny structures catch the light.",
+      "scene": "Show a close train view while explaining shimmer, without fabricated microscopic imagery.",
+      "tags": [
+        "p_explain"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "SHIMMER",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 23.575000000000003,
+      "end": 29.950000000000003,
+      "duration": 6.375,
+      "text": "This is courtship, not a threat. A peahen may inspect the display before choosing a mate.",
+      "scene": "Return to an authentic male display for a female; do not invent mating.",
+      "tags": [
+        "p_twist"
+      ],
+      "story_role": "twist",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 29.950000000000003,
+      "end": 36.475,
+      "duration": 6.525,
+      "text": "So the shaking isn't random. It's part of the peacock's extraordinary courtship invitation.",
+      "scene": "End on a full fan display resolving the opening question.",
+      "tags": [
+        "p_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE REVEAL",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
+      "assetTitle": "Indian peacock (Pavo cristatus) displaying for peahen.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
+      "tags": [
+        "p_hook"
+      ],
+      "license_note": "Title explicitly documents male displaying for peahen. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20displaying%20in%20Sri%20Lanka.webm",
+      "assetTitle": "Peacock displaying in Sri Lanka.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock%20displaying%20in%20Sri%20Lanka.webm",
+      "tags": [
+        "p_setup"
+      ],
+      "license_note": "Title explicitly documents peacock displaying. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20mating%20dance%2001.ogv",
+      "assetTitle": "Peacock mating dance 01.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock%20mating%20dance%2001.ogv",
+      "tags": [
+        "p_action"
+      ],
+      "license_note": "Title explicitly documents courtship display. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20tail.ogv",
+      "assetTitle": "Peacock tail.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock%20tail.ogv",
+      "tags": [
+        "p_explain"
+      ],
+      "license_note": "Title identifies train/tail detail; verify close-up framing. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peafowl%20%28Pavo%20cristatus%29%20displaying.webm",
+      "assetTitle": "Indian peafowl (Pavo cristatus) displaying.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian%20peafowl%20%28Pavo%20cristatus%29%20displaying.webm",
+      "tags": [
+        "p_twist"
+      ],
+      "license_note": "Title explicitly identifies displaying Pavo cristatus. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Male%20peacock%20tail%20display%20at%20Sofia%20Zoo%2020130420%20HQ.ogv",
+      "assetTitle": "Male peacock tail display at Sofia Zoo 20130420 HQ.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Male%20peacock%20tail%20display%20at%20Sofia%20Zoo%2020130420%20HQ.ogv",
+      "tags": [
+        "p_payoff"
+      ],
+      "license_note": "Title documents peacock tail display at Sofia Zoo. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
+      "assetTitle": "Pavo cristatus in World of Birds Wildlife Sanctuary and Monkey Park.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
+      "tags": [
+        "p_action",
+        "p_twist"
+      ],
+      "license_note": "Species explicitly identified; actual movement requires visual QA. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "author": "Spasimir Pilev",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Running%20Indian%20peafowl%20%28Pavo%20cristatus%29.webm",
+      "assetTitle": "Running Indian peafowl (Pavo cristatus).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Running%20Indian%20peafowl%20%28Pavo%20cristatus%29.webm",
+      "tags": [
+        "p_setup"
+      ],
+      "license_note": "Species-specific movement support only, not claimed as courtship. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0"
+    }
+  ],
+  "review_sheet": "indian_peafowl_tail_rattle_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
