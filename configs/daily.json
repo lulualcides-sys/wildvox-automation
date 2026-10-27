@@ -85,30 +85,30 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s003.ogv",
-        "assetTitle": "Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s003.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s003.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park%202018-07-29%2004.webm",
+        "assetTitle": "World of Birds Wildlife Sanctuary and Monkey Park 2018-07-29 04.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park_2018-07-29_04.webm",
         "tags": [
-          "p_twist"
+          "p_payoff"
         ],
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "author": "Dakin R, McCrossan O, Hare J, Montgomerie R, Amador Kane S",
-        "license_note": "PLOS ONE original footage of subadult peacock train-rattling and peahen covert-rattling; verified distinct video, not generic peafowl movement. Wikimedia Commons source and PLOS ONE open-access license independently checked 2026-10-27; edited excerpt with attribution."
+        "author": "Spasimir Pilev",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_note": "Original author-uploaded Pavo cristatus sanctuary footage, 21s, verified species category and CC BY-SA 4.0 on Commons 2026-10-27. Candidate must pass new visual QA; replaces source with embedded scientific labels."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
-        "assetTitle": "Indian peacock (Pavo cristatus) displaying for peahen.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
+        "assetTitle": "Pavo cristatus in World of Birds Wildlife Sanctuary and Monkey Park.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pavo_cristatus_in_World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park.webm",
         "tags": [
           "p_setup",
           "p_twist"
         ],
-        "license_note": "Title explicitly documents male displaying for peahen. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable. Scene is verified male display toward peahen; tags now align to narration setup/courtship rather than unused generic p_support.",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-        "author": "Kurt Bauschardt"
+        "author": "Spasimir Pilev",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_note": "Original author-uploaded Pavo cristatus footage, 30s, verified species and CC BY-SA 4.0 on Commons 2026-10-27. Candidate must pass new visual QA; replaces footage obstructed by fencing."
       }
     ],
     "min_unique_videos": 6,
@@ -117,7 +117,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v2-commons-audited-qa6-tag-repair",
+    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v3-fence-overlay-source-repair",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -175,9 +175,9 @@
     ]
   },
   "red_panda_bamboo_false_thumb": {
-    "title": "THE RED PANDA HAS A SECRET GRIP FOR BAMBOO",
-    "script": "Watch this red panda hold bamboo with a paw that almost looks like a hand. High in the trees, bamboo makes up a major part of this animal's diet. As it chews, its front paw keeps the stem close to its mouth. A modified wrist bone works like an extra thumb, helping it hold the stalk. It isn't a real finger, but the trick makes feeding much easier. That small grip helps this tree climber turn tough bamboo into dinner.",
-    "caption": "Red pandas have a built-in bamboo grip. 🐾🎋 #RedPanda #AnimalAnatomy #Wildlife #NatureFacts #WildVox",
+    "title": "WHY RED PANDAS LIVE HIGH IN THE TREES",
+    "script": "Why does this red panda spend so much time balancing high in the branches? Up here, it can reach the bamboo that makes up much of its diet. Watch its paws grip the bark as it moves along the branches. Sharp claws help it cling to the wood, even when the path looks narrow. Between meals, a thick branch also makes a surprisingly comfortable resting spot. So these trees are more than a climbing frame. They're a pantry, a pathway, and a place to rest.",
+    "caption": "Why do red pandas love the treetops? 🐾🌿 #RedPanda #Wildlife #AnimalBehavior #NatureFacts #WildVox",
     "sources": [
       {
         "type": "video",
@@ -224,8 +224,7 @@
         "assetTitle": "Ailurus fulgens 01.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_01.ogv",
         "tags": [
-          "r_explain",
-          "r_action"
+          "r_explain"
         ],
         "license_note": "Original Commons page and reuse terms reviewed on 2026-10-27. Adapted excerpt; credit MatthiasKabel and CC BY-SA 3.0. Actual species/behavior/framing requires new rendered-frame QA.",
         "license": "CC BY-SA 3.0",
@@ -266,7 +265,7 @@
         "assetTitle": "2023-08-18 ZOO LJUBLJANA - Ailurus fulgens 4.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%204.webm",
         "tags": [
-          "r_action"
+          "r_twist"
         ],
         "license_note": "Additional real red panda action shot. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
@@ -279,8 +278,7 @@
         "assetTitle": "2023-02-17 ZOO LJUBLJANA Ailurus fugens MAČJI PANDA 2.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17%20ZOO%20LJUBLJANA%20Ailurus%20fugens%20MA%C4%8CJI%20PANDA%202.webm",
         "tags": [
-          "r_setup",
-          "r_payoff"
+          "r_action"
         ],
         "license_note": "Additional red panda zoo shot, behavior to be visually confirmed. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
@@ -294,60 +292,62 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-red_panda_bamboo_false_thumb-narrative-v2-commons-audited-qa2-8shots",
+    "revision": "2026-10-27-daily-red_panda_treetop_life-narrative-v3-visual-evidence-aligned",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Watch this red panda hold bamboo with a paw that almost looks like a hand.",
-        "scene": "Open on the real red panda eating bamboo and gripping a stem.",
+        "text": "Why does this red panda spend so much time balancing high in the branches?",
+        "scene": "Red panda moving on a high branch, not a fake hand-like paw close-up.",
         "tags": [
           "r_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "SECRET GRIP"
+        "overlay_label": "TREE LIFE"
       },
       {
-        "text": "High in the trees, bamboo makes up a major part of this animal's diet.",
-        "scene": "Establish a red panda on branches in a documented captive habitat.",
+        "text": "Up here, it can reach the bamboo that makes up much of its diet.",
+        "scene": "Red panda clearly eating bamboo among branches.",
         "tags": [
           "r_setup"
         ],
-        "story_role": "setup"
+        "story_role": "setup",
+        "overlay_label": null
       },
       {
-        "text": "As it chews, its front paw keeps the stem close to its mouth.",
-        "scene": "Show the species handling bamboo; do not claim an unseen grip is visible.",
+        "text": "Watch its paws grip the bark as it moves along the branches.",
+        "scene": "Red panda showing paws on branch, walking or repositioning on bark.",
         "tags": [
           "r_action"
         ],
         "story_role": "action",
-        "overlay_label": "BAMBOO"
+        "overlay_label": "THE GRIP"
       },
       {
-        "text": "A modified wrist bone works like an extra thumb, helping it hold the stalk.",
-        "scene": "Show a real red panda feeding while explaining the hidden wrist structure.",
+        "text": "Sharp claws help it cling to the wood, even when the path looks narrow.",
+        "scene": "Real red panda gripping or moving across branches, no anatomical claims not visible.",
         "tags": [
           "r_explain"
         ],
         "story_role": "explanation",
-        "overlay_label": "FALSE THUMB"
+        "overlay_label": null
       },
       {
-        "text": "It isn't a real finger, but the trick makes feeding much easier.",
-        "scene": "Continue with authentic paw/feeding behavior, not a fake anatomical diagram.",
+        "text": "Between meals, a thick branch also makes a surprisingly comfortable resting spot.",
+        "scene": "Red panda perched or resting in tree between feeding sessions.",
         "tags": [
           "r_twist"
         ],
-        "story_role": "twist"
+        "story_role": "twist",
+        "overlay_label": "REST STOP"
       },
       {
-        "text": "That small grip helps this tree climber turn tough bamboo into dinner.",
-        "scene": "Close on a red panda handling food; resolve the opening hand-like grip.",
+        "text": "So these trees are more than a climbing frame. They're a pantry, a pathway, and a place to rest.",
+        "scene": "Close red panda feeding shot resolves tree-as-pantry narrative.",
         "tags": [
           "r_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "THE GRIP"
+        "overlay_label": "HOME IN THE TREES"
       }
     ]
   },
@@ -526,9 +526,9 @@
     ]
   },
   "greater_flamingo_courtship_parade": {
-    "title": "THE FLAMINGO PARADE IS A MATING DISPLAY",
-    "script": "Why do these greater flamingos march together and swing their heads like dancers? During breeding season, birds gather and start moving in coordinated groups. They stretch their necks, turn their heads, and step through shallow water. These group displays help flamingos assess possible mates before forming pairs. It looks like choreography, but these movements are part of a real courtship ritual. That strange parade helps these long-legged birds find partners for breeding.",
-    "caption": "Why do greater flamingos dance in groups? 🦩 #Flamingo #Courtship #BirdBehavior #NatureFacts #WildVox",
+    "title": "WHY FLAMINGOS FEED UPSIDE DOWN",
+    "script": "Why do these greater flamingos gather in crowds, then dip their faces into the water? Watch one bird in the shallows. It's searching for tiny food, not just taking a drink. It turns its bill upside down and sweeps through the water as it feeds. Inside that unusual bill, comb-like edges help filter small organisms from the water. While one bird feeds, others keep dipping, stepping, and searching around it. So that strange head-down pose is a feeding tool. The flamingo's beak works like a living strainer.",
+    "caption": "That upside-down beak is a feeding tool! 🦩 #Flamingo #AnimalBehavior #NatureFacts #Wildlife #WildVox",
     "sources": [
       {
         "type": "video",
@@ -614,8 +614,7 @@
         "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 6.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%206.webm",
         "tags": [
-          "f_setup",
-          "f_action"
+          "f_twist"
         ],
         "license_note": "Additional greater flamingo lagoon footage, reviewed CC BY 3.0 on Commons. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 3.0",
@@ -628,7 +627,7 @@
         "assetTitle": "Camargue.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Camargue.webm",
         "tags": [
-          "f_setup"
+          "f_payoff"
         ],
         "license_note": "Real Phoenicopterus roseus flock in Camargue, not a confirmed close courtship scene. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
@@ -642,59 +641,62 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-greater_flamingo_courtship_parade-narrative-v2-commons-audited-qa3-credits",
+    "revision": "2026-10-27-daily-greater_flamingo_filter_feeding-narrative-v3-visual-evidence-aligned",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why do these greater flamingos march together and swing their heads like dancers?",
-        "scene": "Open on authentic greater flamingo courtship filmed in Camargue.",
+        "text": "Why do these greater flamingos gather in crowds, then dip their faces into the water?",
+        "scene": "Authentic flock of greater flamingos, establishing the group before cutting to feeding.",
         "tags": [
           "f_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "THE PARADE"
+        "overlay_label": "UPSIDE DOWN?"
       },
       {
-        "text": "During breeding season, birds gather and start moving in coordinated groups.",
-        "scene": "Show real Phoenicopterus roseus flock at lagoon; do not assert every shot depicts breeding.",
+        "text": "Watch one bird in the shallows. It's searching for tiny food, not just taking a drink.",
+        "scene": "Greater flamingo lowering its bill into shallow water, feeding.",
         "tags": [
           "f_setup"
         ],
-        "story_role": "setup"
+        "story_role": "setup",
+        "overlay_label": null
       },
       {
-        "text": "They stretch their necks, turn their heads, and step through shallow water.",
-        "scene": "Use flock movement or genuine display, never another flamingo species.",
+        "text": "It turns its bill upside down and sweeps through the water as it feeds.",
+        "scene": "Greater flamingos actually dipping bills and moving in shallow water.",
         "tags": [
           "f_action"
         ],
         "story_role": "action",
-        "overlay_label": "HEAD FLAGGING"
+        "overlay_label": "FILTER FEEDER"
       },
       {
-        "text": "These group displays help flamingos assess possible mates before forming pairs.",
-        "scene": "Show actual greater flamingo vocalizing/displaying; do not imply pair formation on camera.",
+        "text": "Inside that unusual bill, comb-like edges help filter small organisms from the water.",
+        "scene": "Close real greater flamingo beak/head; anatomical filter is explained, not fabricated.",
         "tags": [
           "f_explain"
         ],
-        "story_role": "explanation"
+        "story_role": "explanation",
+        "overlay_label": "THE BILL"
       },
       {
-        "text": "It looks like choreography, but these movements are part of a real courtship ritual.",
-        "scene": "Show a real group of greater flamingos in the water.",
+        "text": "While one bird feeds, others keep dipping, stepping, and searching around it.",
+        "scene": "Greater flamingos feeding or walking while searching in shallow water.",
         "tags": [
           "f_twist"
         ],
-        "story_role": "twist"
+        "story_role": "twist",
+        "overlay_label": null
       },
       {
-        "text": "That strange parade helps these long-legged birds find partners for breeding.",
-        "scene": "Close on greater flamingo flock, resolving the opening parade question.",
+        "text": "So that strange head-down pose is a feeding tool. The flamingo's beak works like a living strainer.",
+        "scene": "Finish on a flock visibly dipping beaks to feed, resolving the upside-down-bill hook.",
         "tags": [
           "f_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "COURTSHIP"
+        "overlay_label": "LIVING STRAINER"
       }
     ]
   },
