@@ -1,0 +1,99 @@
+{
+  "editorial_day": "2026-10-27",
+  "timezone": "America/Sao_Paulo",
+  "workflow": "WildVox Daily 5",
+  "run_id": 40571453790,
+  "render_commit": "6030ddb2221cd31e84732dee1f35cb3d5163be58",
+  "reviewed_at_local": "2026-10-27T17:28:32-03:00",
+  "consolidated_complete": true,
+  "approval": "REJECTED",
+  "publication_hold": true,
+  "review_method": "Downloaded five run-specific GitHub Actions artifacts. Visually inspected all five *_review.jpg contact sheets and source previews, extracted independent midpoint frames from each of the five MP4s, independently checked MP4 audio/video streams, and reproduced turtle freeze with ffmpeg scale=180:-2,freezedetect=n=-45dB:d=1.0. Green workflow status is not approval.",
+  "technical": {
+    "durations_seconds": {
+      "indian_peafowl_tail_rattle": 36.5,
+      "red_panda_bamboo_false_thumb": 32.1,
+      "sea_otter_fur_insulation": 32.7,
+      "greater_flamingo_courtship_parade": 37.567,
+      "green_sea_turtle_two_generations": 39
+    },
+    "all_have_audio": true,
+    "all_1080x1920": true,
+    "freeze_violations": [
+      {
+        "key": "green_sea_turtle_two_generations",
+        "start_seconds": 36,
+        "end_seconds": 37.266667,
+        "duration_seconds": 1.266667
+      }
+    ],
+    "technical_qa_artifact_id": 12767196692,
+    "technical_qa_pass": false
+  },
+  "videos": [
+    {
+      "key": "indian_peafowl_tail_rattle",
+      "approval": "REJECTED",
+      "issues": [
+        "Courtship twist block visibly contains source-embedded English labels 'train-rattling'/'wing-shaking'.",
+        "End shot lacks clearly visible female inspection; some shots distant or obstructed."
+      ]
+    },
+    {
+      "key": "red_panda_bamboo_false_thumb",
+      "approval": "REJECTED",
+      "issues": [
+        "Claw/bark grip described but not clearly demonstrated in the action block.",
+        "Several close-ups show head/resting rather than the named behavior."
+      ]
+    },
+    {
+      "key": "sea_otter_fur_insulation",
+      "approval": "REJECTED",
+      "issues": [
+        "Opening otter not visibly grooming; several shots are distant, show rocks, or show water rather than fur care.",
+        "Ending in zoo enclosure lacks a strong grooming payoff."
+      ]
+    },
+    {
+      "key": "greater_flamingo_courtship_parade",
+      "approval": "REJECTED",
+      "issues": [
+        "New full render now available, but feeding-bill behavior not consistently visible.",
+        "Most birds distant; payoff shows raised heads rather than upside-down bill feeding."
+      ]
+    },
+    {
+      "key": "green_sea_turtle_two_generations",
+      "approval": "REJECTED",
+      "issues": [
+        "Hatchlings too small to recognize on beach.",
+        "Research footage includes 'Copyright NHK' embedded text and black bands; source Commons page explicitly records reuse agreement, but embedded watermark remains editorially unacceptable.",
+        "Turtle not clearly visible in both seagrass research shots.",
+        "Freeze 1.266667s near 36-37.27s in final payoff."
+      ]
+    }
+  ],
+  "remediation_commits": [
+    {
+      "sha": "d7c6a59d74baba658dd89eafe8ce46386633311c",
+      "description": "Replace two weak/overlay turtle research sources with CC BY 4.0 IFREMER Chelonia mydas sources; align narration to habitat footage."
+    },
+    {
+      "sha": "ebde219f3dc1316f91285d926fe01bc49689097f",
+      "description": "Replace static turtle payoff source causing >1s freeze with distinct IFREMER Chelonia mydas footage."
+    }
+  ],
+  "next_run_id": 40579108192,
+  "notes": "Remediated turtle sources are NOT yet visually approved. Other four videos still fail editorial criteria. Do not publish or schedule until fresh five-video QA of newest completed run passes.",
+  "publication": {
+    "provider": "Metricool",
+    "brand_id": 7242311,
+    "network": "tiktok",
+    "account": "wildvox",
+    "scheduled_posts_found": 0,
+    "published_rows_found": 0,
+    "confirmed_post_ids": [],
+    "youtube_authorized": false
+  }
+}
