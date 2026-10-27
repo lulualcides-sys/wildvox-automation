@@ -1,0 +1,77 @@
+{
+  "day": "2026-10-27",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "9459b0f0794d3b4d25639a8b8bfadf1813f8dc15",
+  "current_config_blob_sha": "c8fb2007cccb4588fd66b1884bcbf4106a756892",
+  "latest_full_render_run_id": 40579108192,
+  "current_media_branch_sha": "c746c37f01459f6021c9252f38efea7965d0e943",
+  "editorial_status": "REJECTED — five current-day review JPGs independently inspected; do not schedule",
+  "note": "Research candidates only, NOT approved replacements. Visually verify actual source timestamps, original species, crop/subject scale, watermarks and license, then edit daily.json, render all five, and re-review. No production config changes made here.",
+  "candidates": [
+    {
+      "for_key": "green_sea_turtle_two_generations",
+      "target_block": "t_explain",
+      "title": "The-Role-of-Turtles-as-Coral-Reef-Macroherbivores-pone.0039979.s001.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The-Role-of-Turtles-as-Coral-Reef-Macroherbivores-pone.0039979.s001.ogv",
+      "author": "Goatley C, Hoey A, Bellwood D",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "species": "Chelonia mydas",
+      "source_description": "Green turtle feeding on algal turfs",
+      "dimensions": "480x272",
+      "duration_seconds": 75,
+      "concerns": "Low resolution; requires verified visible feeding and no embedded scientific labels. Do not replace current source blindly.",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "indian_peafowl_tail_rattle",
+      "target_block": "p_twist",
+      "title": "Peacock dance, at Botanical Garden Hyderabad.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock_dance,_at_Botanical_Garden_Hyderabad.webm",
+      "author": "Krishna Chaitanya Velaga; Rihaan B H",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "species": "Pavo cristatus",
+      "source_description": "Peacock train opening",
+      "dimensions": "3840x2160",
+      "duration_seconds": 31.069,
+      "concerns": "Original 248.75MB; prefer Commons lower-res transcode after confirming actual behavior, no embedded captions and peahen visibility.",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "greater_flamingo_courtship_parade",
+      "target_block": "f_action or f_payoff",
+      "title": "Greater flamingos.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Greater_flamingos.webm",
+      "author": "Altes",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "species": "Phoenicopterus roseus",
+      "source_description": "Greater flamingos in Rostov-on-Don zoo",
+      "dimensions": "1920x1080",
+      "duration_seconds": 15.763,
+      "concerns": "Feeding behavior not confirmed. Do not tag as upside-down feeding without seeing actual bill-submerged frames.",
+      "status": "CANDIDATE_UNREVIEWED"
+    }
+  ],
+  "rejected_options": [
+    {
+      "title": "Otter (Lutra lutra) grooming.webm",
+      "reason": "Wrong species: Eurasian otter, not Enhydra lutris. Do not use in sea otter video."
+    },
+    {
+      "title": "Aerial view of a green sea turtle (Chelonia mydas) swimming in the reef at Lady Musgrave Island, Queensland, Australia.webm",
+      "reason": "Commons page explicitly marks license review needed; do not use."
+    },
+    {
+      "title": "Ethogram-of-Immature-Green-Turtles-Behavioral-Strategies-for-Somatic-Growth-in-Large-Marine-pone.0065783.s003.ogv",
+      "reason": "Green turtle feeding documented but 320x240 with NHK-related embedded-label risk; earlier scientific overlay caused rejection. Not preferred."
+    }
+  ],
+  "next_actions": [
+    "Prioritize verified, close, correctly tagged action footage rather than additional rerenders with unchanged sources.",
+    "For turtle hatchlings, Race for survival.webm is already in config but current selected shots show mostly sand: inspect full original and set start_seconds only after identifying a visible hatchling time range.",
+    "Replace IFREMER 31415/31416/31417 only with visibly verified turtle footage; do not confuse documented species in metadata with visible animal in selected seconds.",
+    "Preserve publication_hold=true and TikTok-only Metricool scheduling after full consolidated approval."
+  ]
+}
