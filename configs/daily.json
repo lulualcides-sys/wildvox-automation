@@ -102,9 +102,10 @@
         "assetTitle": "Indian peacock (Pavo cristatus) displaying for peahen.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
         "tags": [
-          "p_support"
+          "p_setup",
+          "p_twist"
         ],
-        "license_note": "Title explicitly documents male displaying for peahen. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Title explicitly documents male displaying for peahen. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable. Scene is verified male display toward peahen; tags now align to narration setup/courtship rather than unused generic p_support.",
         "license": "CC BY-SA 2.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
         "author": "Kurt Bauschardt"
@@ -116,7 +117,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v2-commons-audited-qa5-clear-hook",
+    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v2-commons-audited-qa6-tag-repair",
     "publication_hold": true,
     "visual_plan": [
       {
