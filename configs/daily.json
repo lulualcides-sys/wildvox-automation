@@ -58,16 +58,16 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peafowl%20%28Pavo%20cristatus%29%20displaying.webm",
-        "assetTitle": "Indian peafowl (Pavo cristatus) displaying.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian%20peafowl%20%28Pavo%20cristatus%29%20displaying.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s002.ogv",
+        "assetTitle": "Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s002.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s002.ogv",
         "tags": [
           "p_twist"
         ],
-        "license_note": "Title explicitly identifies displaying Pavo cristatus. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "author": "Nacho"
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "author": "Dakin R, McCrossan O, Hare J, Montgomerie R, Amador Kane S",
+        "license_note": "PLOS ONE scientific footage of real peacock train-rattling and peahen courtship; do not confuse slow motion with natural speed. Wikimedia Commons source and PLOS ONE open-access license independently checked 2026-10-27; edited excerpt with attribution."
       },
       {
         "type": "video",
@@ -84,17 +84,16 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
-        "assetTitle": "Pavo cristatus in World of Birds Wildlife Sanctuary and Monkey Park.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s003.ogv",
+        "assetTitle": "Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s003.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s003.ogv",
         "tags": [
-          "p_action",
           "p_twist"
         ],
-        "license_note": "Species explicitly identified; actual movement requires visual QA. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "author": "Spasimir Pilev",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "author": "Dakin R, McCrossan O, Hare J, Montgomerie R, Amador Kane S",
+        "license_note": "PLOS ONE original footage of subadult peacock train-rattling and peahen covert-rattling; verified distinct video, not generic peafowl movement. Wikimedia Commons source and PLOS ONE open-access license independently checked 2026-10-27; edited excerpt with attribution."
       },
       {
         "type": "video",
@@ -117,7 +116,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v2-commons-audited-qa3-display-credits",
+    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v2-commons-audited-qa4-verified-rattle",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -384,16 +383,16 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20Monterey%20Bay%20Aquarium%201.ogv",
-        "assetTitle": "Sea otters Monterey Bay Aquarium 1.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otters%20Monterey%20Bay%20Aquarium%201.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2011.webm",
+        "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 11.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Enhydra_lutris_-_September_2023_-_Sarah_Stierch_11.webm",
         "tags": [
           "o_action"
         ],
-        "license_note": "Real captive sea otters at Monterey Bay Aquarium. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY-SA 3.0",
-        "author": "Toniher",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "author": "Sarah Stierch",
+        "license_note": "Authentic wild Enhydra lutris in Morro Bay, 6.0s, Commons original and commercial license checked 2026-10-27. Replaces distant aquarium wide shot; inspect framing and fur visibility in new QA."
       },
       {
         "type": "video",
@@ -468,7 +467,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-sea_otter_fur_insulation-narrative-v2-commons-audited-qa2-8shots",
+    "revision": "2026-10-27-daily-sea_otter_fur_insulation-narrative-v2-commons-audited-qa4-wild-closeup",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -778,11 +777,11 @@
         "tags": [
           "t_payoff"
         ],
-        "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable. Editorial retry 2026-10-27: prior 40s excerpt displayed mostly empty sand; seek to original opening for hatchlings, visual QA still mandatory.",
         "license": "CC BY-SA 4.0",
         "author": "Eleonore123",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "start_seconds": 40
+        "start_seconds": 0
       },
       {
         "type": "video",
@@ -818,7 +817,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-green_sea_turtle_two_generations-narrative-v2-commons-audited-qa2-8shots",
+    "revision": "2026-10-27-daily-green_sea_turtle_two_generations-narrative-v2-commons-audited-qa4-hatchling-opening",
     "publication_hold": true,
     "visual_plan": [
       {
