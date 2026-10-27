@@ -1,0 +1,73 @@
+{
+  "editorial_day": "2026-10-27",
+  "workflow_run_id": 40519881153,
+  "workflow_head_sha": "ea33b59485d0758a0f4e2ccb488de3459c653b7e",
+  "config_blob_sha": "246b0c15ec9f2922aa803e5710fc4bfe7ebbc0da",
+  "media_branch_head_sha": "ee61ffcf090d94176fa8dfaf5b3cb1ac689e79f7",
+  "visual_qa_completed": true,
+  "technical_qa_method": "ffprobe and ffmpeg freezedetect scale=180:-2,n=-45dB,d=1.0; inspected five *_review.jpg and eight original-source preview strips per video",
+  "editorial_approved": false,
+  "publication_hold": true,
+  "video_results": [
+    {
+      "key": "indian_peafowl_tail_rattle",
+      "duration_seconds": 36.5,
+      "technical_freeze_over_1s": false,
+      "approved": false,
+      "issues": [
+        "Obstructed male-peacock display and subject distant in multiple shots",
+        "Source-embedded scientific labels and weak shimmer close-up",
+        "Visuals do not consistently demonstrate courtship at each spoken block"
+      ]
+    },
+    {
+      "key": "red_panda_bamboo_false_thumb",
+      "duration_seconds": 30.7,
+      "technical_freeze_over_1s": false,
+      "approved": false,
+      "issues": [
+        "Several blocks show climbing/resting rather than bamboo grip",
+        "Modified wrist bone / false-thumb claim not clearly illustrated in explanation",
+        "Close-up of gripping paw insufficient"
+      ]
+    },
+    {
+      "key": "sea_otter_fur_insulation",
+      "duration_seconds": 32.7,
+      "technical_freeze_over_1s": false,
+      "approved": false,
+      "issues": [
+        "Multiple distant or partially submerged subjects",
+        "Grooming action not consistently illustrated during corresponding narration"
+      ]
+    },
+    {
+      "key": "greater_flamingo_courtship_parade",
+      "duration_seconds": 34.075,
+      "technical_freeze_over_1s": false,
+      "approved": false,
+      "issues": [
+        "Only opening clip clearly depicts a group courtship parade",
+        "Several blocks show solitary or distant feeding/resting birds instead of synchronized behavior"
+      ]
+    },
+    {
+      "key": "green_sea_turtle_two_generations",
+      "duration_seconds": 30.7,
+      "technical_freeze_over_1s": true,
+      "freeze_intervals_seconds": [
+        1.533333,
+        1.433333
+      ],
+      "approved": false,
+      "issues": [
+        "Aerial turtle is too small to recognize during setup",
+        "Hatchlings not clearly visible during payoff; footage largely shows tracks/sand",
+        "Two near-static stretches exceed maximum 1 second",
+        "Two Commons imported turtle clips show license-review-needed notices on their source pages; verify provenance or replace before release"
+      ]
+    }
+  ],
+  "scheduled_tiktok_post_ids": [],
+  "notes": "A successful GitHub render and media-branch push do not constitute approval. Do not reuse this report as an editorial verdict for a later commit/run. Source edits must be verified and rerendered before release; YouTube is not authorized."
+}
