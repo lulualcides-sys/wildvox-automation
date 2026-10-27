@@ -1,9 +1,8 @@
 name: WildVox Buffer TikTok (Daily 5)
 
+# Historical Buffer integration retained for manual dry-run diagnostics only.
+# WildVox production scheduling is exclusively via Metricool brand 7242311.
 on:
-  schedule:
-    # UTC 11:45 = 08:45 in America/Sao_Paulo (UTC-3).
-    - cron: '45 11 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -22,8 +21,8 @@ concurrency:
 
 jobs:
   publish:
-    # Do not activate until @wildvox is connected to Buffer and the GitHub secret exists.
-    if: ${{ vars.WILDVOX_BUFFER_ENABLED == 'true' || (github.event_name == 'workflow_dispatch' && inputs.dry_run == true) }}
+    # Never send to Buffer; production delivery must use Metricool only.
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == true }}
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
