@@ -6,16 +6,17 @@
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
-        "assetTitle": "Indian peacock (Pavo cristatus) displaying for peahen.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20Courtship%20and%20Mating%20Ritual%20in%20the%20Wild.webm",
+        "assetTitle": "Peacock Courtship and Mating Ritual in the Wild.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock_Courtship_and_Mating_Ritual_in_the_Wild.webm",
         "tags": [
-          "p_hook"
+          "p_hook",
+          "p_twist"
         ],
-        "license_note": "Title explicitly documents male displaying for peahen. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-        "author": "Kurt Bauschardt"
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rohit Sharma",
+        "license_note": "Verified Wikimedia Commons featured authentic Pavo cristatus courtship, Pench National Park India, 2024; independently checked 2026-10-27; 70.8s original, distinct from other footage; adapt with attribution, license link and ShareAlike."
       },
       {
         "type": "video",
@@ -97,17 +98,16 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20Courtship%20and%20Mating%20Ritual%20in%20the%20Wild.webm",
-        "assetTitle": "Peacock Courtship and Mating Ritual in the Wild.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock_Courtship_and_Mating_Ritual_in_the_Wild.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
+        "assetTitle": "Indian peacock (Pavo cristatus) displaying for peahen.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian%20peacock%20%28Pavo%20cristatus%29%20displaying%20for%20peahen.webm",
         "tags": [
-          "p_setup",
-          "p_twist"
+          "p_support"
         ],
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "author": "Rohit Sharma",
-        "license_note": "Verified Wikimedia Commons featured authentic Pavo cristatus courtship, Pench National Park India, 2024; independently checked 2026-10-27; 70.8s original, distinct from other footage; adapt with attribution, license link and ShareAlike."
+        "license_note": "Title explicitly documents male displaying for peahen. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Kurt Bauschardt"
       }
     ],
     "min_unique_videos": 6,
@@ -777,11 +777,11 @@
         "tags": [
           "t_payoff"
         ],
-        "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable. Editorial retry 2026-10-27: prior 40s excerpt displayed mostly empty sand; seek to original opening for hatchlings, visual QA still mandatory.",
+        "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable. Editorial review 2026-10-27: the first seconds showed empty sand; seek near the midpoint, where hatchlings appear in the original source preview. Recheck the rendered segment before approval.",
         "license": "CC BY-SA 4.0",
         "author": "Eleonore123",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "start_seconds": 0
+        "start_seconds": 48
       },
       {
         "type": "video",
