@@ -3,6 +3,7 @@ import argparse
 import hashlib
 import json
 import math
+import os
 import re
 import subprocess
 from urllib.parse import urlsplit, urlunsplit
@@ -560,6 +561,47 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
     return visual
 
 
+def make_source_previews(key, local):
+    """Generate source-only QA strips to locate real behavior before editorial approval.
+
+    These are private workflow artifacts, never final TikTok frames or media-branch
+    approval. Sample original footage at three positions without altering it.
+    """
+    for path, media_type, source in local:
+        if media_type != "video":
+            continue
+        idx = int(source.get("_source_index", 0))
+        duration = float(source.get("_duration", 0) or 0)
+        if duration <= 0:
+            continue
+        stills = []
+        try:
+            for pos, fraction in enumerate((0.05, 0.40, 0.75)):
+                at = max(0.0, min(duration * fraction, duration - 0.15))
+                still = WORK / f"{key}_source_{idx:02d}_preview_{pos}.jpg"
+                run([
+                    "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+                    "-ss", f"{at:.3f}", "-i", str(path),
+                    "-frames:v", "1",
+                    "-vf", "scale=320:180:force_original_aspect_ratio=decrease,"
+                           "pad=320:180:(ow-iw)/2:(oh-ih)/2",
+                    "-q:v", "5", str(still)
+                ])
+                stills.append(still)
+            dest = OUT / f"{key}_source_{idx:02d}_preview.jpg"
+            run([
+                "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+                "-i", str(stills[0]), "-i", str(stills[1]), "-i", str(stills[2]),
+                "-filter_complex", "[0:v][1:v][2:v]hstack=inputs=3[v]",
+                "-map", "[v]", "-frames:v", "1", "-q:v", "5", str(dest)
+            ])
+        except (subprocess.CalledProcessError, OSError) as exc:
+            print(f"Source preview failed for {key} asset {idx}: {exc}", flush=True)
+        finally:
+            for still in stills:
+                still.unlink(missing_ok=True)
+
+
 def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=None, max_freeze_seconds=None, target_shot_seconds=None, visual_plan=None, narration_timeline=None, allow_photo_only=False):
     # URL-level dedupe before downloading.
     unique_sources = []
@@ -643,6 +685,9 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     local = interleave_video_first(videos, images)
     if not local:
         raise RuntimeError("No unique media sources available")
+
+    if os.environ.get("WILDVOX_SOURCE_PREVIEWS") == "1":
+        make_source_previews(key, local)
 
     # New narration-driven editor: when exact speech blocks exist, cut visuals
     # at their real TTS boundaries and require matching tagged footage.
