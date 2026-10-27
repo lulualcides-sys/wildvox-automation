@@ -1,16 +1,16 @@
 name: WildVox Publer Bridge
 
+# Retained only for historical diagnostics. Production posting is Metricool-only.
 on:
-  workflow_run:
-    workflows: ["WildVox Daily 5"]
-    types: [completed]
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
   send-to-publer:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    # Never deliver via Publer/Zapier: TikTok @wildvox uses Metricool exclusively.
+    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main config
