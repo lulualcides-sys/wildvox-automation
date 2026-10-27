@@ -159,16 +159,16 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dachs%20auf%20dem%20Drachenberg%20Berlin.webm",
-      "assetTitle": "Dachs auf dem Drachenberg Berlin.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dachs_auf_dem_Drachenberg_Berlin.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Familienausflug%20der%20Dachse.webm",
+      "assetTitle": "Familienausflug der Dachse.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Familienausflug_der_Dachse.webm",
       "tags": [
         "badger_wild"
       ],
-      "license": "CC0 1.0",
-      "author": "NutzerAusBerlin",
-      "license_note": "Commons verified 2026-10-26: authentic European badger at late dawn in Berlin, CC0; daylight payoff instead of dark camera trap.",
-      "start_seconds": 5
+      "license": "CC BY-SA 4.0",
+      "author": "Andreas75",
+      "license_note": "Wikimedia Commons file page verified 2026-10-26: authentic family of two adult and two young European badgers foraging together in an orchard, 30s, CC BY-SA 4.0. Replaces visually empty heather footage; include creator attribution, license link, modification notice and ShareAlike terms.",
+      "start_seconds": 0
     },
     {
       "type": "video",
