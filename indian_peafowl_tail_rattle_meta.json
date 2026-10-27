@@ -173,30 +173,30 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park%202018-07-29%2004.webm",
-      "assetTitle": "World of Birds Wildlife Sanctuary and Monkey Park 2018-07-29 04.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park_2018-07-29_04.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peacock%20(Pavo%20cristatus)%20displaying%20for%20peahen.webm",
+      "assetTitle": "Indian peacock (Pavo cristatus) displaying for peahen.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_peacock_(Pavo_cristatus)_displaying_for_peahen.webm",
       "tags": [
         "p_payoff"
       ],
-      "author": "Spasimir Pilev",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "license_note": "Original author-uploaded Pavo cristatus sanctuary footage, 21s, verified species category and CC BY-SA 4.0 on Commons 2026-10-27. Candidate must pass new visual QA; replaces source with embedded scientific labels."
+      "author": "Kurt Bauschardt",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "license_note": "Authentic male display toward peahen in Mexico; Flickr CC BY-SA 2.0 independently reviewed by Commons reviewer INeverCry 2015-06-25; confirmed source and licensing 2026-10-27; replace non-displaying perched peacock."
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavo%20cristatus%20in%20World%20of%20Birds%20Wildlife%20Sanctuary%20and%20Monkey%20Park.webm",
-      "assetTitle": "Pavo cristatus in World of Birds Wildlife Sanctuary and Monkey Park.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pavo_cristatus_in_World_of_Birds_Wildlife_Sanctuary_and_Monkey_Park.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peafowl%20(Pavo%20cristatus)%20displaying.webm",
+      "assetTitle": "Indian peafowl (Pavo cristatus) displaying.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_peafowl_(Pavo_cristatus)_displaying.webm",
       "tags": [
         "p_setup",
         "p_twist"
       ],
-      "author": "Spasimir Pilev",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "license_note": "Original author-uploaded Pavo cristatus footage, 30s, verified species and CC BY-SA 4.0 on Commons 2026-10-27. Candidate must pass new visual QA; replaces footage obstructed by fencing."
+      "author": "Nacho",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_note": "Authentic Indian peafowl display, 61s; Flickr CC BY 2.0 independently reviewed by Commons reviewer INeverCry 2015-06-25; confirmed 2026-10-27; replaces non-displaying perched footage."
     }
   ],
   "review_sheet": "indian_peafowl_tail_rattle_review.jpg",

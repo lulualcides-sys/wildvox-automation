@@ -98,7 +98,7 @@
       "assetTitle": "Sea otter. Enhydra lutris video.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otter.%20Enhydra%20lutris%20video.webm",
       "tags": [
-        "o_hook"
+        "o_setup"
       ],
       "license_note": "Real sea otter in Alaska; inspect for grooming before final approval. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
       "license": "CC BY 2.0",
@@ -111,7 +111,7 @@
       "assetTitle": "Sea otter (Enhydra lutris).webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otter%20%28Enhydra%20lutris%29.webm",
       "tags": [
-        "o_setup"
+        "o_hook"
       ],
       "license_note": "Captive sea otter filmed at Kamogawa SeaWorld; no wild provenance implied. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
       "license": "CC BY-SA 3.0",
@@ -137,7 +137,7 @@
       "assetTitle": "Loutre de mer (Enhydra lutris).ogv",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Loutre%20de%20mer%20%28Enhydra%20lutris%29.ogv",
       "tags": [
-        "o_explain"
+        "o_setup"
       ],
       "license_note": "Real captive sea otter at Océanopolis. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
       "license": "CC BY-SA 4.0",
@@ -163,7 +163,7 @@
       "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 12.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
       "tags": [
-        "o_payoff"
+        "o_action"
       ],
       "license_note": "Real wild sea otter in Morro Bay. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
       "license": "CC BY 4.0",
@@ -176,8 +176,7 @@
       "assetTitle": "Sea otters (Enhydra lutris) in a zoo.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otters%20%28Enhydra%20lutris%29%20in%20a%20zoo.webm",
       "tags": [
-        "o_action",
-        "o_explain"
+        "o_payoff"
       ],
       "license_note": "Captive sea otters at Point Defiance Zoo and Aquarium. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
       "license": "CC BY 2.0",
@@ -190,7 +189,7 @@
       "assetTitle": "Loutre de mer (Enhydra lutris) (2).ogv",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Loutre%20de%20mer%20%28Enhydra%20lutris%29%20%282%29.ogv",
       "tags": [
-        "o_payoff"
+        "o_explain"
       ],
       "license_note": "Short additional captive sea otter clip; do not use if longer than its 9.2s footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
       "license": "CC BY-SA 4.0",
