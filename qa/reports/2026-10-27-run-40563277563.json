@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-27",
+  "timezone": "America/Sao_Paulo",
+  "workflow": "WildVox Daily 5",
+  "run_id": 40563277563,
+  "render_commit": "b579bfe678365e23f92e50380faea04598048054",
+  "evaluated_at_local": "2026-10-27T16:39:27-03:00",
+  "approval": "REJECTED",
+  "publication_hold": true,
+  "consolidated_complete": false,
+  "reason": "Flamingo render failed before MP4 artifact; four available candidate videos inspected and rejected visually.",
+  "technical_checks": {
+    "method": "ffprobe stream and duration inspection; sampled MP4 block-midpoint frames; visual review JPEG; FFmpeg scaled freezedetect n=-50dB d=1",
+    "max_freeze_seconds": 1
+  },
+  "videos": [
+    {
+      "key": "indian_peafowl_tail_rattle",
+      "duration_seconds": 36.5,
+      "audio": true,
+      "freeze_events_over_1s": 0,
+      "review_jpg_inspected": true,
+      "mp4_frames_inspected": true,
+      "approval": "REJECTED",
+      "issues": [
+        "Courtship footage includes a visible source text overlay ('train-rattling'/'wing-shaking') in spoken twist block",
+        "Final scene partially obstructed and does not clearly show peahen inspection",
+        "Several peacock shots distant or poor framing"
+      ]
+    },
+    {
+      "key": "red_panda_bamboo_false_thumb",
+      "duration_seconds": 32.1,
+      "audio": true,
+      "freeze_events_over_1s": 0,
+      "review_jpg_inspected": true,
+      "mp4_frames_inspected": true,
+      "approval": "REJECTED",
+      "issues": [
+        "Paws/claw grip not clearly demonstrated at the spoken action/explanation boundaries",
+        "Several shots emphasize head or resting animal rather than gripping bark"
+      ]
+    },
+    {
+      "key": "sea_otter_fur_insulation",
+      "duration_seconds": 32.7,
+      "audio": true,
+      "freeze_events_over_1s": 0,
+      "review_jpg_inspected": true,
+      "mp4_frames_inspected": true,
+      "approval": "REJECTED",
+      "issues": [
+        "Opening grooming behavior visually ambiguous",
+        "Several shots show distant animals or rocks/water instead of fur-care behavior",
+        "Ending is distant and weakly related to grooming payoff"
+      ]
+    },
+    {
+      "key": "green_sea_turtle_two_generations",
+      "duration_seconds": 39,
+      "audio": true,
+      "freeze_events_over_1s": 0,
+      "review_jpg_inspected": true,
+      "mp4_frames_inspected": true,
+      "approval": "REJECTED",
+      "issues": [
+        "Hatchling block shows mostly empty beach; hatchlings too small to identify",
+        "Seagrass segment contains visible 'Copyright NHK' source overlay requiring rights provenance review",
+        "Conservation segment and payoff insufficiently demonstrate narrative behaviors",
+        "Some source video low resolution and black bands"
+      ]
+    },
+    {
+      "key": "greater_flamingo_courtship_parade",
+      "duration_seconds": null,
+      "audio": null,
+      "review_jpg_inspected": false,
+      "mp4_frames_inspected": false,
+      "approval": "REJECTED",
+      "issues": [
+        "GitHub render job 122397772969 failed: only 7 distinct tagged shots; minimum 8",
+        "Previous-run original source preview images examined; one lagoon shot shows wading and others show birds feeding, but full new render requires review"
+      ],
+      "repair_commit": "6030ddb2221cd31e84732dee1f35cb3d5163be58"
+    }
+  ],
+  "publication": {
+    "provider": "Metricool",
+    "brand_id": 7242311,
+    "network": "tiktok",
+    "account": "wildvox",
+    "scheduled_posts_found": 0,
+    "published_rows_found": 0,
+    "confirmed_post_ids": [],
+    "youtube_uploads_authorized": false
+  },
+  "next_steps": [
+    "Inspect the new push-triggered workflow on commit 6030ddb after it completes",
+    "Replace/retime weak or unrelated footage and remove suspect watermark source",
+    "Repeat full five-video visual and technical QA before TikTok scheduling"
+  ]
+}
