@@ -159,11 +159,9 @@ def enrich_subtitles(path, timeline):
 
 
 def camera_filter(base_filter, duration, role):
-    """Gentle 4.5% progressive documentary push, only for hook and payoff."""
-    if role not in {"hook", "payoff"}:
-        return base_filter
-    frames = max(1, round(float(duration) * 30))
-    return (base_filter +
-            ",zoompan=z='min(1.045,1+0.045*on/" + str(frames) + ")'"
-            ":x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2'"
-            ":d=1:s=1080x1920:fps=30")
+    """Keep original footage framing: no synthetic zoom, crop, or pan.
+
+    Speech-synchronized labels and manually reviewed overlays remain enabled.
+    Duration and story role do not authorize modifying the camera framing.
+    """
+    return base_filter
