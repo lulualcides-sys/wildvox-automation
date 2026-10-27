@@ -14,7 +14,8 @@
         ],
         "license_note": "Title explicitly documents male displaying for peahen. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "author": "Kurt Bauschardt"
       },
       {
         "type": "video",
@@ -26,7 +27,8 @@
         ],
         "license_note": "Title explicitly documents peacock displaying. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0"
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Ankur P"
       },
       {
         "type": "video",
@@ -38,7 +40,8 @@
         ],
         "license_note": "Title explicitly documents courtship display. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "MatthiasKabel"
       },
       {
         "type": "video",
@@ -50,7 +53,8 @@
         ],
         "license_note": "Title identifies train/tail detail; verify close-up framing. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "WaderClub"
       },
       {
         "type": "video",
@@ -62,7 +66,8 @@
         ],
         "license_note": "Title explicitly identifies displaying Pavo cristatus. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0"
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "author": "Nacho"
       },
       {
         "type": "video",
@@ -74,7 +79,8 @@
         ],
         "license_note": "Title documents peacock tail display at Sofia Zoo. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Vassia Atanassova - Spiritia"
       },
       {
         "type": "video",
@@ -92,15 +98,17 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Running%20Indian%20peafowl%20%28Pavo%20cristatus%29.webm",
-        "assetTitle": "Running Indian peafowl (Pavo cristatus).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Running%20Indian%20peafowl%20%28Pavo%20cristatus%29.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20Courtship%20and%20Mating%20Ritual%20in%20the%20Wild.webm",
+        "assetTitle": "Peacock Courtship and Mating Ritual in the Wild.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock_Courtship_and_Mating_Ritual_in_the_Wild.webm",
         "tags": [
-          "p_setup"
+          "p_setup",
+          "p_twist"
         ],
-        "license_note": "Species-specific movement support only, not claimed as courtship. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0"
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Rohit Sharma",
+        "license_note": "Verified Wikimedia Commons featured authentic Pavo cristatus courtship, Pench National Park India, 2024; independently checked 2026-10-27; 70.8s original, distinct from other footage; adapt with attribution, license link and ShareAlike."
       }
     ],
     "min_unique_videos": 6,
@@ -109,7 +117,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v2-commons-audited-qa2-8shots",
+    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v2-commons-audited-qa3-display-credits",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -624,7 +632,8 @@
         ],
         "license_note": "Real Phoenicopterus roseus flock in Camargue, not a confirmed close courtship scene. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Dominique Armange"
       }
     ],
     "min_unique_videos": 6,
@@ -633,7 +642,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-greater_flamingo_courtship_parade-narrative-v2-commons-audited-qa2-8shots",
+    "revision": "2026-10-27-daily-greater_flamingo_courtship_parade-narrative-v2-commons-audited-qa3-credits",
     "publication_hold": true,
     "visual_plan": [
       {
