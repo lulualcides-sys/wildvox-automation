@@ -703,34 +703,34 @@
   },
   "green_sea_turtle_two_generations": {
     "title": "FROM TINY HATCHLINGS TO OCEAN GIANTS",
-    "script": "A green sea turtle can spend years in the ocean. But where does that journey begin? It begins on sandy shores, where tiny hatchlings must make their way toward the waves. Those that survive grow into powerful swimmers, moving through reefs and open water. As they grow, green turtles can graze on algae and seagrass beneath the surface. Protecting sea turtles also matters. Conservation centers help people understand the threats they face. From tiny hatchlings on the beach to graceful swimmers at sea, every survivor has crossed two worlds.",
+    "script": "A green sea turtle can spend years in the ocean. But where does that journey begin? It begins on sandy shores, where tiny hatchlings must make their way toward the waves. Those that survive grow into powerful swimmers, moving through reefs and open water. As they grow, green turtles explore reefs and seagrass meadows in search of food. Protecting sea turtles also matters. Conservation centers help people understand the threats they face. From tiny hatchlings on the beach to graceful swimmers at sea, every survivor has crossed two worlds.",
     "caption": "From the beach to the reef: the remarkable life of a green sea turtle. 🐢🌊 #GreenSeaTurtle #Wildlife #OceanLife #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The-Role-of-Turtles-as-Coral-Reef-Macroherbivores-pone.0039979.s001.ogv",
-        "assetTitle": "The-Role-of-Turtles-as-Coral-Reef-Macroherbivores-pone.0039979.s001.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:The-Role-of-Turtles-as-Coral-Reef-Macroherbivores-pone.0039979.s001.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20snakes%20and%20marine%20turtles%20observed%20at%20the%20Chesterfield-Bellona%20reef%20complex%20in%20the%20Coral%20Sea%20Marine%20Park%20(Southwest%20Pacific)%20(Ifremer%2000669-78070%20-%2031415).webm",
+        "assetTitle": "Sea snakes and marine turtles observed at the Chesterfield-Bellona reef complex in the Coral Sea Marine Park (Southwest Pacific) (Ifremer 00669-78070 - 31415).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_snakes_and_marine_turtles_observed_at_the_Chesterfield-Bellona_reef_complex_in_the_Coral_Sea_Marine_Park_(Southwest_Pacific)_(Ifremer_00669-78070_-_31415).webm",
         "tags": [
           "t_explain"
         ],
-        "author": "Goatley C, Hoey A, Bellwood D",
-        "license": "CC BY 2.5",
-        "license_url": "https://creativecommons.org/licenses/by/2.5/",
-        "license_note": "PLOS ONE 2012 original research footage: green turtle Chelonia mydas grazing algal turf; verified Commons CC BY 2.5 and species 2026-10-27. Replaces unreviewed YouTube-imported nesting clip. Scientific video 480x272; final visual QA mandatory."
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "author": "Dominique Pelletier, Abigail Powell, William Roman, Liliane Carpentier (IFREMER)",
+        "license_note": "IFREMER Océanothèque original marine survey footage, explicitly labeled Chelonia mydas, 31415, 1920x1080, independent file with CC BY 4.0 shown on Commons on 2026-10-27. Replaces a near-empty algal shot and the 320x240 NHK-overlay scientific excerpt. Behavior beyond species/habitat not visually pre-approved; verify rendered frames before release."
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethogram-of-Immature-Green-Turtles-Behavioral-Strategies-for-Somatic-Growth-in-Large-Marine-pone.0065783.s003.ogv",
-        "assetTitle": "Ethogram-of-Immature-Green-Turtles-Behavioral-Strategies-for-Somatic-Growth-in-Large-Marine-pone.0065783.s003.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ethogram-of-Immature-Green-Turtles-Behavioral-Strategies-for-Somatic-Growth-in-Large-Marine-pone.0065783.s003.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20snakes%20and%20marine%20turtles%20observed%20at%20the%20Chesterfield-Bellona%20reef%20complex%20in%20the%20Coral%20Sea%20Marine%20Park%20(Southwest%20Pacific)%20(Ifremer%2000669-78070%20-%2031416).webm",
+        "assetTitle": "Sea snakes and marine turtles observed at the Chesterfield-Bellona reef complex in the Coral Sea Marine Park (Southwest Pacific) (Ifremer 00669-78070 - 31416).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_snakes_and_marine_turtles_observed_at_the_Chesterfield-Bellona_reef_complex_in_the_Coral_Sea_Marine_Park_(Southwest_Pacific)_(Ifremer_00669-78070_-_31416).webm",
         "tags": [
           "t_explain"
         ],
-        "author": "Okuyama J, Nakajima K, Noda T, Kimura S, Kamihata H, Kobayashi M, Arai N, Kagawa S, Kawabata Y, Yamada H",
-        "license": "CC BY 2.5",
-        "license_url": "https://creativecommons.org/licenses/by/2.5/",
-        "license_note": "PLOS ONE 2013 original research footage: immature green turtle Chelonia mydas feeding on seagrass; verified Commons CC BY 2.5 and species 2026-10-27. Replaces unreviewed YouTube-imported distant drone. Scientific video 320x240; final visual QA mandatory."
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "author": "Dominique Pelletier, Abigail Powell, William Roman, Liliane Carpentier (IFREMER)",
+        "license_note": "IFREMER Océanothèque original marine survey footage, explicitly labeled Chelonia mydas, 31416, 1920x1080, independent file with CC BY 4.0 shown on Commons on 2026-10-27. Replaces a near-empty algal shot and the 320x240 NHK-overlay scientific excerpt. Behavior beyond species/habitat not visually pre-approved; verify rendered frames before release."
       },
       {
         "type": "video",
@@ -820,7 +820,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-green_sea_turtle_life-narrative-v3-licensed-research-video-repair",
+    "revision": "2026-10-27-daily-green_sea_turtle_life-narrative-v4-ifremer-no-watermark-repair",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -851,8 +851,8 @@
         "overlay_label": "STRONG SWIMMER"
       },
       {
-        "text": "As they grow, green turtles can graze on algae and seagrass beneath the surface.",
-        "scene": "Actual scientific green turtle feeding on algal turf or seagrass; acknowledge scientific footage in credits.",
+        "text": "As they grow, green turtles explore reefs and seagrass meadows in search of food.",
+        "scene": "Show genuine green sea turtles in reef or seagrass habitats. Do not imply active grazing unless clearly visible.",
         "tags": [
           "t_explain"
         ],
