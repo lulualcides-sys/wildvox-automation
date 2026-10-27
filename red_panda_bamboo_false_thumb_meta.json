@@ -1,32 +1,32 @@
 {
   "key": "red_panda_bamboo_false_thumb",
-  "title": "THE RED PANDA HAS A SECRET GRIP FOR BAMBOO",
-  "caption": "Red pandas have a built-in bamboo grip. 🐾🎋 #RedPanda #AnimalAnatomy #Wildlife #NatureFacts #WildVox",
-  "duration": 30.68,
+  "title": "WHY RED PANDAS LIVE HIGH IN THE TREES",
+  "caption": "Why do red pandas love the treetops? 🐾🌿 #RedPanda #Wildlife #AnimalBehavior #NatureFacts #WildVox",
+  "duration": 32.08,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
     {
       "index": 0,
       "start": 0.0,
-      "end": 5.625,
-      "duration": 5.625,
-      "text": "Watch this red panda hold bamboo with a paw that almost looks like a hand.",
-      "scene": "Open on the real red panda eating bamboo and gripping a stem.",
+      "end": 5.15,
+      "duration": 5.15,
+      "text": "Why does this red panda spend so much time balancing high in the branches?",
+      "scene": "Red panda moving on a high branch, not a fake hand-like paw close-up.",
       "tags": [
         "r_hook"
       ],
       "story_role": "hook",
-      "overlay_label": "SECRET GRIP",
+      "overlay_label": "TREE LIFE",
       "fx": []
     },
     {
       "index": 1,
-      "start": 5.625,
-      "end": 10.925,
-      "duration": 5.3,
-      "text": "High in the trees, bamboo makes up a major part of this animal's diet.",
-      "scene": "Establish a red panda on branches in a documented captive habitat.",
+      "start": 5.15,
+      "end": 9.775,
+      "duration": 4.625,
+      "text": "Up here, it can reach the bamboo that makes up much of its diet.",
+      "scene": "Red panda clearly eating bamboo among branches.",
       "tags": [
         "r_setup"
       ],
@@ -36,58 +36,58 @@
     },
     {
       "index": 2,
-      "start": 10.925,
-      "end": 15.350000000000001,
-      "duration": 4.425,
-      "text": "As it chews, its front paw keeps the stem close to its mouth.",
-      "scene": "Show the species handling bamboo; do not claim an unseen grip is visible.",
+      "start": 9.775,
+      "end": 14.25,
+      "duration": 4.475,
+      "text": "Watch its paws grip the bark as it moves along the branches.",
+      "scene": "Red panda showing paws on branch, walking or repositioning on bark.",
       "tags": [
         "r_action"
       ],
       "story_role": "action",
-      "overlay_label": "BAMBOO",
+      "overlay_label": "THE GRIP",
       "fx": []
     },
     {
       "index": 3,
-      "start": 15.350000000000001,
-      "end": 20.85,
-      "duration": 5.5,
-      "text": "A modified wrist bone works like an extra thumb, helping it hold the stalk.",
-      "scene": "Show a real red panda feeding while explaining the hidden wrist structure.",
+      "start": 14.25,
+      "end": 19.275,
+      "duration": 5.025,
+      "text": "Sharp claws help it cling to the wood, even when the path looks narrow.",
+      "scene": "Real red panda gripping or moving across branches, no anatomical claims not visible.",
       "tags": [
         "r_explain"
       ],
       "story_role": "explanation",
-      "overlay_label": "FALSE THUMB",
-      "fx": []
-    },
-    {
-      "index": 4,
-      "start": 20.85,
-      "end": 25.55,
-      "duration": 4.7,
-      "text": "It isn't a real finger, but the trick makes feeding much easier.",
-      "scene": "Continue with authentic paw/feeding behavior, not a fake anatomical diagram.",
-      "tags": [
-        "r_twist"
-      ],
-      "story_role": "twist",
       "overlay_label": null,
       "fx": []
     },
     {
+      "index": 4,
+      "start": 19.275,
+      "end": 25.45,
+      "duration": 6.175,
+      "text": "Between meals, a thick branch also makes a surprisingly comfortable resting spot.",
+      "scene": "Red panda perched or resting in tree between feeding sessions.",
+      "tags": [
+        "r_twist"
+      ],
+      "story_role": "twist",
+      "overlay_label": "REST STOP",
+      "fx": []
+    },
+    {
       "index": 5,
-      "start": 25.55,
-      "end": 30.675,
-      "duration": 5.125,
-      "text": "That small grip helps this tree climber turn tough bamboo into dinner.",
-      "scene": "Close on a red panda handling food; resolve the opening hand-like grip.",
+      "start": 25.45,
+      "end": 32.075,
+      "duration": 6.625,
+      "text": "So these trees are more than a climbing frame. They're a pantry, a pathway, and a place to rest.",
+      "scene": "Close red panda feeding shot resolves tree-as-pantry narrative.",
       "tags": [
         "r_payoff"
       ],
       "story_role": "payoff",
-      "overlay_label": "THE GRIP",
+      "overlay_label": "HOME IN THE TREES",
       "fx": []
     }
   ],
@@ -137,8 +137,7 @@
       "assetTitle": "Ailurus fulgens 01.ogv",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_01.ogv",
       "tags": [
-        "r_explain",
-        "r_action"
+        "r_explain"
       ],
       "license_note": "Original Commons page and reuse terms reviewed on 2026-10-27. Adapted excerpt; credit MatthiasKabel and CC BY-SA 3.0. Actual species/behavior/framing requires new rendered-frame QA.",
       "license": "CC BY-SA 3.0",
@@ -179,7 +178,7 @@
       "assetTitle": "2023-08-18 ZOO LJUBLJANA - Ailurus fulgens 4.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%204.webm",
       "tags": [
-        "r_action"
+        "r_twist"
       ],
       "license_note": "Additional real red panda action shot. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
       "license": "CC BY 3.0",
@@ -192,8 +191,7 @@
       "assetTitle": "2023-02-17 ZOO LJUBLJANA Ailurus fugens MAČJI PANDA 2.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17%20ZOO%20LJUBLJANA%20Ailurus%20fugens%20MA%C4%8CJI%20PANDA%202.webm",
       "tags": [
-        "r_setup",
-        "r_payoff"
+        "r_action"
       ],
       "license_note": "Additional red panda zoo shot, behavior to be visually confirmed. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
       "license": "CC BY 3.0",
