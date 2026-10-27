@@ -1,0 +1,99 @@
+{
+  "editorial_day": "2026-10-27",
+  "timezone": "America/Sao_Paulo",
+  "workflow": "WildVox Daily 5",
+  "run_id": 40579108192,
+  "render_commit": "ebde219f3dc1316f91285d926fe01bc49689097f",
+  "main_sha_before_report": "b8ca4b00988609c6e83f7190567d6c0a65a2ffec",
+  "config_blob_sha": "c8fb2007cccb4588fd66b1884bcbf4106a756892",
+  "reviewed_at_local": "2026-10-27T18:32:24-03:00",
+  "consolidated_complete": true,
+  "approval": "REJECTED",
+  "publication_hold": true,
+  "review_method": "Downloaded the five latest run-specific ZIP artifacts and technical QA artifact. Visually inspected all five *_review.jpg, all eight source-preview strips per video, and extracted a midpoint MP4 frame for each of the six real Kokoro narration blocks (30 frames). Independently probed MP4 durations, video dimensions and audio streams. Reproduced the turtle freeze using ffmpeg scale=180:-2,freezedetect=n=-45dB:d=1.0. This is editorial QA, not merely GitHub workflow status.",
+  "technical": {
+    "durations_seconds": {
+      "indian_peafowl_tail_rattle": 36.5,
+      "red_panda_bamboo_false_thumb": 32.1,
+      "sea_otter_fur_insulation": 32.7,
+      "greater_flamingo_courtship_parade": 37.567,
+      "green_sea_turtle_two_generations": 38.8
+    },
+    "all_have_audio": true,
+    "all_1080x1920": true,
+    "technical_qa_pass": false,
+    "technical_qa_artifact_id": 12770321010,
+    "freeze_violations": [
+      {
+        "key": "green_sea_turtle_two_generations",
+        "start_seconds": 18.866667,
+        "end_seconds": 19.9,
+        "duration_seconds": 1.033333,
+        "block_index": 3,
+        "scene": "near-empty reef water from IFREMER survey footage"
+      }
+    ]
+  },
+  "videos": [
+    {
+      "key": "indian_peafowl_tail_rattle",
+      "approval": "REJECTED",
+      "issues": [
+        "Scientific courtship shot includes large source-embedded English words 'train-rattling'/'wing-shaking' in the twist block.",
+        "Several display shots are distant or obscured; final payoff does not clearly show peahen inspection."
+      ],
+      "repair": "Replace the embedded-label source with separately licensed unmarked courtship footage; verify both peahen and tail display in new frames."
+    },
+    {
+      "key": "red_panda_bamboo_false_thumb",
+      "approval": "REJECTED",
+      "issues": [
+        "Action and claw-grip blocks mostly show head or body, not clearly visible claws gripping bark.",
+        "Several close-ups are dominated by bamboo/face and fail to illustrate the exact narrated behavior."
+      ],
+      "repair": "Find close, unobstructed paw-on-branch footage or rewrite action/explanation to precisely match verifiable scenes."
+    },
+    {
+      "key": "sea_otter_fur_insulation",
+      "approval": "REJECTED",
+      "issues": [
+        "Opening shows an indistinct wet animal/rock rather than unmistakable grooming.",
+        "Insulation block is dominated by distant water; other blocks show a land animal and distant subjects, not clear grooming.",
+        "Final payoff shows small captive otters in an enclosure instead of a clear coat-care action."
+      ],
+      "repair": "Replace distant, enclosure and ambiguous shots with close sea-otter grooming video; verify species."
+    },
+    {
+      "key": "greater_flamingo_courtship_parade",
+      "approval": "REJECTED",
+      "issues": [
+        "Action and feeding blocks use distant flamingos, with bills too small to demonstrate upside-down filter feeding.",
+        "Payoff displays flamingos with raised heads, contradicting the head-down feeding narration."
+      ],
+      "repair": "Replace action and payoff with clear bill-submerged feeding footage; preserve semantic order."
+    },
+    {
+      "key": "green_sea_turtle_two_generations",
+      "approval": "REJECTED",
+      "issues": [
+        "Hatchling setup displays largely empty sand; hatchlings cannot be recognized.",
+        "IFREMER reef and seagrass shots are nearly empty and do not visibly establish green sea turtles.",
+        "Payoff alternates an identifiable turtle with empty underwater scenes.",
+        "Technical QA detects 1.033333s freeze between 18.866667s and 19.9s."
+      ],
+      "repair": "Replace IFREMER 31415/31416/31417 with verified footage containing visible Chelonia mydas, replace the hatchling segment with a close visible hatchling clip, and rerender; do not merely shift timestamps without verified frames."
+    }
+  ],
+  "source_licenses": "40 configured Commons URLs have recorded authors/license URLs and latest prepare job passed source preflight; license preflight is not visual approval.",
+  "publication": {
+    "provider": "Metricool",
+    "brand_id": 7242311,
+    "network": "tiktok",
+    "account": "wildvox",
+    "scheduled_posts_found": 0,
+    "published_rows_found": 0,
+    "confirmed_post_ids": [],
+    "youtube_authorized": false
+  },
+  "notes": "The run's five render jobs completed but technical-qa failed; publish-media job success only confirms media-branch upload. All five videos are editorially rejected. Keep publication_hold=true; do not schedule. No new render triggered because the underlying weak sources have not yet been replaced with visually verified relevant footage; rerendering unchanged sources would waste resources."
+}
