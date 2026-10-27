@@ -935,7 +935,8 @@ def render_final(visual, voice, ass, key, duration, music_path=None, music_cfg=N
 def make_review_sheet(final, key, duration):
     """Create a 12-frame contact sheet used by the automated visual QA stage."""
     sheet = OUT / f"{key}_review.jpg"
-    # Slight oversampling avoids an unfilled black tile when the last frame timestamp rounds down.\n    sample_fps = max(0.05, 12.2 / max(duration, 1.0))
+    # Slight oversampling avoids an unfilled black tile when the last frame timestamp rounds down.
+    sample_fps = max(0.05, 12.2 / max(duration, 1.0))
     run([
         "ffmpeg","-y","-hide_banner","-loglevel","error",
         "-i",str(final),
