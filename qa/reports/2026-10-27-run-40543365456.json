@@ -1,0 +1,133 @@
+{
+  "editorial_day": "2026-10-27",
+  "render_run_id": 40543365456,
+  "render_commit": "4796cd3da65a03626730af092f06c763c752b3bb",
+  "reviewed_at": "2026-10-27T14:44:08-03:00",
+  "review_scope": "All five *_review.jpg contact sheets, source preview images, MP4 ffprobe duration/audio/portrait and ffmpeg freezedetect n=-45dB d=1; Kokoro metadata timing reviewed.",
+  "workflow_technical_qa": {
+    "status": "failure",
+    "cause": "technical-qa job lacks ffprobe and ffmpeg in runner; not proof that all videos fail",
+    "fix_commit": "5d2dedab3833f97a611e0bc2794dd7d268e66530"
+  },
+  "technical_pass": false,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "metricool_brand_id": "7242311",
+  "tiktok_scheduled_posts_found_today": 0,
+  "confirmed_published_posts": "not checked with a dedicated publication endpoint",
+  "youtube_publication_authorized": false,
+  "videos": [
+    {
+      "key": "indian_peafowl_tail_rattle",
+      "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v3-fence-overlay-source-repair",
+      "technical": {
+        "duration_seconds": 36.5,
+        "video_size": "1080x1920",
+        "audio_present": true,
+        "freeze_intervals": [],
+        "narration_blocks": 6,
+        "exact_script_coverage": true,
+        "source_count": 8,
+        "unique_source_urls": 8,
+        "credits_complete": true
+      },
+      "editorial_approved": false,
+      "findings": [
+        "Hook fan is visible, but later shots show obstructed birds and embedded source text 'wing-shaking'.",
+        "Final payoff shot shows a peacock with closed train rather than a full courtship fan."
+      ]
+    },
+    {
+      "key": "red_panda_bamboo_false_thumb",
+      "revision": "2026-10-27-daily-red_panda_treetop_life-narrative-v3-visual-evidence-aligned",
+      "technical": {
+        "duration_seconds": 32.1,
+        "video_size": "1080x1920",
+        "audio_present": true,
+        "freeze_intervals": [],
+        "narration_blocks": 6,
+        "exact_script_coverage": true,
+        "source_count": 8,
+        "unique_source_urls": 8,
+        "credits_complete": true
+      },
+      "editorial_approved": false,
+      "findings": [
+        "Opening tree-climbing shot is relevant; later footage intermittently obscures the animal with branches.",
+        "Closing footage returns to bamboo close-ups instead of clearly resolving tree-as-pantry/pathway/rest."
+      ]
+    },
+    {
+      "key": "sea_otter_fur_insulation",
+      "revision": "2026-10-27-daily-sea_otter_fur_insulation-narrative-v2-commons-audited-qa4-wild-closeup",
+      "technical": {
+        "duration_seconds": 32.7,
+        "video_size": "1080x1920",
+        "audio_present": true,
+        "freeze_intervals": [],
+        "narration_blocks": 6,
+        "exact_script_coverage": true,
+        "source_count": 8,
+        "unique_source_urls": 8,
+        "credits_complete": true
+      },
+      "editorial_approved": false,
+      "findings": [
+        "Several sea otters are too small or distant to show the grooming behavior described.",
+        "Some captive rock-side footage does not demonstrate sea-surface grooming; reselect close authentic footage."
+      ]
+    },
+    {
+      "key": "greater_flamingo_courtship_parade",
+      "revision": "2026-10-27-daily-greater_flamingo_filter_feeding-narrative-v3-visual-evidence-aligned",
+      "technical": {
+        "duration_seconds": 37.567,
+        "video_size": "1080x1920",
+        "audio_present": true,
+        "freeze_intervals": [],
+        "narration_blocks": 6,
+        "exact_script_coverage": true,
+        "source_count": 8,
+        "unique_source_urls": 8,
+        "credits_complete": true
+      },
+      "editorial_approved": false,
+      "findings": [
+        "Opening uses courtship display footage for a feeding-focused hook.",
+        "Multiple wide shots fail to show upside-down bill filtering, especially at the payoff."
+      ]
+    },
+    {
+      "key": "green_sea_turtle_two_generations",
+      "revision": "2026-10-27-daily-green_sea_turtle_two_generations-narrative-v2-commons-audited-qa5-hatchling-cue",
+      "technical": {
+        "duration_seconds": 30.7,
+        "video_size": "1080x1920",
+        "audio_present": true,
+        "freeze_intervals": [
+          {
+            "start": 5.433,
+            "end": 6.967,
+            "duration": 1.533
+          },
+          {
+            "start": 7.8,
+            "end": 9.233,
+            "duration": 1.433
+          }
+        ],
+        "narration_blocks": 6,
+        "exact_script_coverage": true,
+        "source_count": 8,
+        "unique_source_urls": 8,
+        "credits_complete": true
+      },
+      "editorial_approved": false,
+      "findings": [
+        "Aerial beach shot renders turtle as a tiny dot and contains two freezes exceeding 1 second.",
+        "Hatchlings are distant and the beach-to-sea payoff is not convincingly shown.",
+        "First two Commons YouTube-import sources remain marked 'License review needed (video)' and require replacement or independent licensing verification."
+      ]
+    }
+  ]
+}
