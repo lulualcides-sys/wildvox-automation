@@ -149,17 +149,60 @@ def weight(word):
     vowels = re.findall(r"[aeiouy]+",clean)
     return max(0.75, len(vowels)*1.05 + len(clean)*0.055)
 
-def make_ass(text, title, key, duration):
+def caption_word_intervals(text, duration, narration_timeline=None):
+    """Place captions inside measured Kokoro speech blocks, not a whole-script guess.
+
+    A single global syllable-weighted clock drifts whenever a speaker pauses or
+    speeds up between sentences.  Use the real per-block audio start/end times
+    and distribute only that block's words within its measured audio window.
+    """
     words = text.split()
-    weights = [weight(w) for w in words]
+    if narration_timeline:
+        groups = [str(block.get("text") or "").split() for block in narration_timeline]
+        flattened = [word for group in groups for word in group]
+        if (len(flattened) != len(words) or any(
+                _normalize_plan_text(a) != _normalize_plan_text(b)
+                for a, b in zip(flattened, words))):
+            raise RuntimeError("Kokoro caption words do not match the full script")
+        starts, ends = [], []
+        previous_end = 0.0
+        for block, group in zip(narration_timeline, groups):
+            begin, finish = float(block["start"]), float(block["end"])
+            if not group or begin < previous_end - 0.02 or finish <= begin:
+                raise RuntimeError("Invalid Kokoro caption block boundaries")
+            previous_end = finish
+            weights = [weight(word) for word in group]
+            total = sum(weights)
+            cursor = begin + min(0.04, (finish - begin) / 20)
+            available = finish - cursor
+            for index, unit in enumerate(weights):
+                starts.append(cursor)
+                next_end = (finish if index == len(weights) - 1
+                            else cursor + available * unit / total)
+                ends.append(next_end)
+                cursor = next_end
+                available = finish - cursor
+                total -= unit
+        if abs(previous_end - duration) > 0.2:
+            raise RuntimeError("Kokoro caption blocks differ from final video duration")
+        return words, starts, ends
+
+    # Legacy non-narrative renders retain the original global timing fallback.
+    weights = [weight(word) for word in words]
     total = sum(weights)
     usable = max(0.1, duration - 0.10)
     starts = []
     t = 0.05
-    for w in weights:
+    for unit in weights:
         starts.append(t)
-        t += usable * (w / total)
-    ends = starts[1:] + [duration]
+        t += usable * (unit / total)
+    return words, starts, starts[1:] + [duration]
+
+
+def make_ass(text, title, key, duration, narration_timeline=None):
+    words, starts, ends = caption_word_intervals(
+        text, duration, narration_timeline=narration_timeline
+    )
 
     header = """[Script Info]
 ScriptType: v4.00+
@@ -1034,7 +1077,7 @@ def main():
             "Tighten the script before publishing."
         )
 
-    ass = make_ass(cfg["script"], cfg["title"], args.key, duration)
+    ass = make_ass(cfg["script"], cfg["title"], args.key, duration, narration_timeline)
     enrich_subtitles(ass, narration_timeline)
     visual = build_visual(
         cfg["sources"],
