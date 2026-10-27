@@ -69,13 +69,13 @@
       "The payoff must resolve the hook using a genuinely representative final shot.",
       "Use exact script coverage in 5-7 visual_plan speech blocks and tag each with story_role.",
       "Use uncertainty language for developing science; never show footage of another species as proof.",
-      "Animated labels, subtle hook/payoff zoom and manually reviewed arrows, rings and boxes are implemented in scripts/cinematic_fx.py; do not place unverified pointers.",
+      "Animated labels and manually reviewed arrows, rings and boxes are implemented in scripts/cinematic_fx.py; do not place unverified pointers or introduce synthetic zoom.",
       "Do not modify old batches or auto-schedule any platform posts."
     ],
     "cinematic_fx": {
       "engine": "scripts/cinematic_fx.py (FFmpeg/libass)",
       "available_from": "2026-10-27",
-      "zoom": "4.5% continuous camera push on hook and payoff speech clips",
+      "zoom": "disabled; preserve authentic original foreground framing, no synthetic zoom or camera pan",
       "automatic_labels": [
         "LOOK CLOSER hook",
         "THE REVEAL payoff"
