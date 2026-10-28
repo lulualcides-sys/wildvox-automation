@@ -1,0 +1,102 @@
+{
+  "editorial_day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "audited_workflow_run": 40751860941,
+  "render_config_commit": "eb05926c1b34f9900c085b7887559743c2838270",
+  "workflow_status": "completed",
+  "workflow_conclusion": "success",
+  "media_branch_commit": "a975ec708e307e0134e04dfcf49db7c6cb2034ea",
+  "review_method": "Downloaded five current-run GitHub Actions artifacts; independently opened all five *_review.jpg; inspected six representative actual MP4 block-midpoint frames for each (30 frames), all 40 original-source preview strips; independently ffprobed all five MP4s; FFmpeg freezedetect on full videos at 320px width, threshold -50dB and duration 1s found no >=1s freezes. Compared five Git blob hashes of downloaded MP4s to root media branch. These findings apply ONLY to run 40751860941 and cannot approve newer runs.",
+  "technical_status": "PASS",
+  "editorial_approval": false,
+  "publication_hold": true,
+  "video_findings": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_seconds": 39.675,
+      "mp4_git_blob_sha": "a17c84a8334f26751a1f3f4c5dcaa7e7a17a69d1",
+      "dimensions": "1080x1920",
+      "blocks": 6,
+      "sources": 8,
+      "review_inspected": true,
+      "mp4_frames_inspected": true,
+      "freeze_ge_1s": false,
+      "status": "HOLD",
+      "finding": "Correct monarch/chrysalis/nectar/2025 Mexican sanctuary story visible. Hook alternates wide flower compositions and small subjects; first-second impact and final butterfly payoff remain editorially marginal. 2025 archive disclosure visible. Complete platform attribution/ShareAlike delivery unverified."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_seconds": 32.725,
+      "mp4_git_blob_sha": "cba7056f9e7cdbf66c8ebb6028ae7ca5933d9d28",
+      "dimensions": "1080x1920",
+      "blocks": 6,
+      "sources": 8,
+      "review_inspected": true,
+      "mp4_frames_inspected": true,
+      "freeze_ge_1s": false,
+      "status": "HOLD",
+      "finding": "First-second combing hook too distant against rocks; action block has close authentic grooming and can serve as stronger hook. Coast and payoff remain wide. Source tag swap committed in cd9ba7ad; this audited render predates the swap and is not approved."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_seconds": 31.125,
+      "mp4_git_blob_sha": "3253f604afcfa8be1fbaa9ff171d44a3ac6fb3a4",
+      "dimensions": "1080x1920",
+      "blocks": 6,
+      "sources": 8,
+      "review_inspected": true,
+      "mp4_frames_inspected": true,
+      "freeze_ge_1s": false,
+      "status": "HOLD",
+      "finding": "Correct species and some strong upright closeups. Group scanning/danger explanation uses distant zoo scenes; group alert behavior not independently evidenced in frames. Stronger behavior-matched shots needed."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_seconds": 36.4,
+      "mp4_git_blob_sha": "5ec42390db67a4ae4fc0beab00e1f4a806c68885",
+      "dimensions": "1080x1920",
+      "blocks": 6,
+      "sources": 8,
+      "review_inspected": true,
+      "mp4_frames_inspected": true,
+      "freeze_ge_1s": false,
+      "status": "HOLD",
+      "finding": "Correct African elephant species, clear close bull and closing water elephant. Hook shows distant herd on dry riverbed; water/dust behavior mainly wide, with splash action insufficiently legible. Improve hook/action scale without claiming mud where only water appears."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_seconds": 34.9,
+      "mp4_git_blob_sha": "89a82b88132a34e46c7c05ed5f7bb182676bbd5e",
+      "dimensions": "1080x1920",
+      "blocks": 6,
+      "sources": 8,
+      "review_inspected": true,
+      "mp4_frames_inspected": true,
+      "freeze_ge_1s": false,
+      "status": "HOLD",
+      "finding": "Correct species and newly verified approaching Komodo in final payoff; repetition persists in blocks 3–5 from same 2008 recording family despite distinct URLs, and tongue-flick/scent mechanism is not visually explicit in sampled frames. Need better independent behavior-specific footage and license-safe final delivery."
+    }
+  ],
+  "validation": {
+    "source_metadata": "All 40 config sources include author, sourcePage, license, license_url and 2026-10-28 verification dates; eight distinct source URLs per entry. File-byte identity of all ORIGINAL Wikimedia downloads was not independently rehashed in this run; rendered MP4 hashes match media branch.",
+    "narration": "Six timed blocks each, ordered full script equality checked against current config. Kokoro block timing inferred from output narration_timeline and video boundaries; no independent raw Kokoro waveform audit.",
+    "caption_safe_area": "Reviewed review sheets and MP4 midpoint frames; no obvious text clipped at sampled positions, but this is not a complete subtitle-frame audit.",
+    "copyright_release": "Source credit register exists at qa/credits/2026-10-28.md; TikTok caption delivery of full source links and CC BY-SA adaptation obligations remains unverified; no release."
+  },
+  "tiktok": {
+    "brandId": 7242311,
+    "account": "@wildvox",
+    "scheduled_rows_today": 0,
+    "published_analytics_rows_today": 0,
+    "provider_post_id": null,
+    "publication_attempted": false,
+    "youtube_publication_attempted": false
+  },
+  "next_render": {
+    "trigger_commit": "cd9ba7ad97973a246f860e189f8fd57be5307fb3",
+    "workflow_run": 40756069435,
+    "status_at_check": "in_progress",
+    "change": "Swap verified close grooming source to African penguin first-second hook; preserve eight distinct videos and all publication holds.",
+    "release_gate": "Fresh independent five-video QA of new run required; this report must not be reused as approval."
+  }
+}
