@@ -21,19 +21,40 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+      - name: Check latest candidate manifest
+        id: pending
+        shell: bash
+        run: |
+          set -euo pipefail
+          file=$(find qa -maxdepth 1 -name 'source-candidates-*.json' | sort | tail -n 1)
+          if [ -z "$file" ]; then
+            echo "has_candidates=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          count=$(jq '[.candidates[] | select(.status == "CANDIDATE_UNREVIEWED")] | length' "$file")
+          echo "file=$file" >> "$GITHUB_OUTPUT"
+          if [ "$count" -gt 0 ]; then
+            echo "has_candidates=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_candidates=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Install lightweight preview tools
+        if: steps.pending.outputs.has_candidates == 'true'
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg curl
           python -m pip install --quiet Pillow
       - name: Download candidate footage and sample real frames
+        if: steps.pending.outputs.has_candidates == 'true'
+        env:
+          CANDIDATE_FILE: ${{ steps.pending.outputs.file }}
         run: |
           python scripts/preview_source_candidates.py \
-            --candidates qa/source-candidates-2026-10-27.json \
+            --candidates "$CANDIDATE_FILE" \
             --out candidate-previews \
             --max-megabytes 90
       - name: Preserve contact sheets and source manifest
-        if: always()
+        if: steps.pending.outputs.has_candidates == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: wildvox-source-candidate-previews
