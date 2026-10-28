@@ -54,7 +54,7 @@
       "end": 20.875,
       "duration": 4.375,
       "text": "That feather layer helps keep cold seawater away from the skin.",
-      "scene": "African penguin coastal group; explain feather insulation without false microscopic overlay.",
+      "scene": "Close portrait video of a real African penguin grooming its feathers at Boulders Beach; narration explains feather insulation without fabricated microscopic details.",
       "tags": [
         "a_fur"
       ],
@@ -154,18 +154,17 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2003.webm",
-      "assetTitle": "African penguins, Betty's Bay 03.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_03.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grooming%20penguin%20at%20Boulders%20Beach.webm",
+      "assetTitle": "Grooming penguin at Boulders Beach.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grooming_penguin_at_Boulders_Beach.webm",
       "tags": [
         "a_fur"
       ],
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal species footage, no claimed close-up anatomy.",
+      "license_note": "SourcePage checked 2026-10-28: 9.5s authentic portrait 608x1080 video of African penguin grooming at Boulders Beach, by Islahaddow, CC BY-SA 4.0; commercial adaptation requires full author attribution, license link, changes notice and ShareAlike. This is a candidate source, not yet frame-reviewed in the rendered video; preserve publication_hold until visual QA.",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "license_verified_at": "2026-10-28",
-      "verified_size_bytes": 161842590,
-      "author": "Spasimir Pilev"
+      "author": "Islahaddow"
     },
     {
       "type": "video",
