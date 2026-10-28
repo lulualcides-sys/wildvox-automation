@@ -1,0 +1,90 @@
+{
+  "editorial_day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "audited_workflow_run": 40756069435,
+  "render_config_commit": "cd9ba7ad97973a246f860e189f8fd57be5307fb3",
+  "verified_main_sha_before_report": "0ffef55b0b4457700b091d604d2f86e3b045f2b3",
+  "verified_media_branch_sha": "139f2958eed2779228b6a30c161cd981e71862e1",
+  "workflow_status": "completed",
+  "workflow_conclusion": "success",
+  "workflow_jobs": "prepare, five render jobs, technical-qa and publish-media all completed successfully",
+  "review_method": "Independently opened the five latest media-branch *_review.jpg images and inspected each 4x4 storyboard (16 sampled frames per video, 80 total); fetched all five latest *_meta.json files; verified 5 current config entries, 6 exact text blocks each, 8 distinct URLs each, date revisions, full author/license/sourcePage metadata, and rendered source URL equality. Checked Metricool scheduled posts and TikTok published analytics for 2026-10-28. This run did NOT independently decode full MP4 bytes, measure actual freezes, inspect every subtitle frame, or rehash original source downloads; technical QA pass is reported by GitHub job only.",
+  "technical_workflow_pass": true,
+  "independent_mp4_technical_qa": false,
+  "editorial_approval": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_seconds": 39.67,
+      "blocks": 6,
+      "sources": 8,
+      "review_inspected": true,
+      "status": "HOLD",
+      "finding": "Authentic monarch/chrysalis/nectar and 2025 Mexico visitor sequence are visible; hook butterfly is small in several frames, middle blocks repeat similar flower footage, and visitor dominates the final payoff. 2025 archive label is visible. License delivery not verified."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_seconds": 32.73,
+      "blocks": 6,
+      "sources": 8,
+      "review_inspected": true,
+      "status": "HOLD",
+      "finding": "New first-second African penguin preening footage is present and species is correct, but opening is strongly overexposed and angle makes grooming less legible than narration promises. Coast/action/payoff still include distant or weakly legible birds; zoo label is visible."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_seconds": 31.12,
+      "blocks": 6,
+      "sources": 8,
+      "review_inspected": true,
+      "status": "HOLD",
+      "finding": "Species correct, hook and sentry closeups clear. Middle group and danger/alert blocks rely on distant or captive shots and do not visibly substantiate an alarm or coordinated vigilance; avoid suggesting captured wild behavior."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_seconds": 36.4,
+      "blocks": 6,
+      "sources": 8,
+      "review_inspected": true,
+      "status": "HOLD",
+      "finding": "Species correct. First-second hook is a small distant herd; bathing/splashing at waterhole is wide and barely legible; title promises dust and water but sampled action lacks clear dust/mud behavior. Final close water elephant is strong."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_seconds": 34.9,
+      "blocks": 6,
+      "sources": 8,
+      "review_inspected": true,
+      "status": "HOLD",
+      "finding": "Correct Komodo species; hook shows mostly tail/body, not a compelling face/behavior. Setup zoo portrait clear. Three middle narration blocks use visually repetitive footage from the same Brocken Inaglory 2008 recording family despite distinct file URLs, and tongue flick/scent mechanism is not visible. Independent close approach appears near payoff."
+    }
+  ],
+  "validation": {
+    "config_revisions_all_start_with": "2026-10-28",
+    "publication_holds_all_true": true,
+    "source_urls_match_current_render_metadata_all_five": true,
+    "scripts_match_all_six_rendered_narration_blocks": true,
+    "all_forty_sources_have_author_license_license_url_sourcePage": true,
+    "durations_all_30_to_45": true,
+    "framing": "Portrait blurred-background fill visible; some small subjects remain. No obvious sampled subtitle safe-area clipping.",
+    "source_licensing": "All 40 source records contain metadata and 2026-10-28 verification dates. Attribution register qa/credits/2026-10-28.md exists, but TikTok-visible full attribution, adaptation disclosures and CC BY-SA compatibility/delivery are not confirmed.",
+    "repetition": "Unique URLs do not imply unique original footage: Komodo 2008 derivatives visibly reuse the same recording family.",
+    "mp4_independent_review": "NOT COMPLETED in this run; do not infer freeze absence or full-frame approval from successful CI or storyboards."
+  },
+  "tiktok": {
+    "brandId": 7242311,
+    "account": "@wildvox",
+    "scheduled_posts_today": 0,
+    "published_analytics_rows_today": 0,
+    "provider_post_id": null,
+    "scheduling_attempted": false,
+    "youtube_attempted": false
+  },
+  "next_actions": [
+    "Source and visually verify genuinely independent Komodo scent/tongue footage; replace repeated 2008 derivatives rather than re-tagging the same footage.",
+    "Replace distant/overexposed first-second and behavior shots for elephant, penguin, meerkat and monarch where necessary; preserve all approved framing and story alignment.",
+    "Rerender only after substantive source/config changes, then independently review new five MP4s, freeze tests and captions.",
+    "Resolve TikTok-visible source attribution/ShareAlike licensing obligations before lifting publication holds; schedule only at remaining future safe slots with provider post IDs."
+  ]
+}
