@@ -1,0 +1,70 @@
+{
+  "editorial_day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "checked_at": "2026-10-28T14:59:51-03:00",
+  "run_id": 40736360093,
+  "workflow_head_sha": "552db878b015eb55bf1e63c3ea16b05f97f09865",
+  "config_blob_sha": "88a05e13ffbcbfca7c4006a36e0393422e37739a",
+  "main_sha_at_review": "086221c0a93356a328b782d3d081d9684470fc65",
+  "media_branch_sha_at_review": "f679e575813667f0c36bd8490bee9cc2ec04a30f",
+  "method": "Downloaded all five daily-* artifacts from current-day run 40736360093; independently inspected five 4x4 review sheets, all 30 block-midpoint decoded MP4 frames, ffprobe 1080x1920 H.264 30fps durations, FFmpeg scaled-frame freezedetect >=1s. Cross-checked current main daily.json six ordered exact narration blocks, semantic tag coverage, eight distinct video URLs, source authors/licenses and revision dates. No editorial approvals inferred from technical CI.",
+  "technical_pass": true,
+  "independent_freeze_events_ge_1s": 0,
+  "all_five_30_45s": true,
+  "all_five_exact_narration_blocks": true,
+  "all_five_8_distinct_video_urls": true,
+  "source_byte_uniqueness_independently_verified": false,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "media_publish_status": "FIRST_ATTEMPT_FAILED_HTTP_408; RERUN_ATTEMPT_2_IN_PROGRESS",
+  "media_publish_error": "publish-media git push 408 timeout after approximately four minutes; source files and technical QA artifacts intact.",
+  "media_publish_fix_commit": "086221c0a93356a328b782d3d081d9684470fc65",
+  "media_publish_fix_note": "Future runs push each MP4/meta/review bundle separately with HTTP/1.1, retry and ambiguous-push remote check. Existing attempt 2 uses its original workflow commit; new workflow fix not yet proven in a new run.",
+  "metricool_brand_id": 7242311,
+  "metricool_scheduled_posts_today": 0,
+  "metricool_published_posts_today": 0,
+  "confirmed_tiktok_post_ids": [],
+  "youtube_attempted": false,
+  "credits_file": "qa/credits/2026-10-28.md",
+  "credits_metadata_complete": true,
+  "sharealike_adaptation_delivery_signed_off": false,
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration": 39.675,
+      "review_sha256": "0229caf2ff9e53b424269f2fe32d8494ef70b0130071f5060fa41d26fe867a8e",
+      "approved": false,
+      "issue": "Correct monarch and chrysalis emergence; archive label visible, but Mexico sanctuary payoff dominated by visitor and monarch too small. Cannot imply 2025 footage is 2026 observation."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration": 32.5,
+      "review_sha256": "67dfa6ad689dc423ff1c436504f5df571c061b270139da8cf6b8b4024435003a",
+      "approved": false,
+      "issue": "Correct African penguins and genuine grooming; coast block improved, but feather-protection block has a tiny penguin in rocky landscape, and some other frames are distant."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration": 32.85,
+      "review_sha256": "dd239ab7b5fd64400f5165779df34e15cc8e6e5b8d791c94208855ec1217abfb",
+      "approved": false,
+      "issue": "Opening subject close, but several blocks show captive zoo environments; final wild group is distant and small. No actual alternating sentry event depicted."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration": 36,
+      "review_sha256": "5855e414107b9cea6fc039e0ed31425ded4c7d172976b9f9734f82a9f1a987b8",
+      "approved": false,
+      "issue": "Unobstructed elephant heat scene improved; hook claims visible clouds of dust but opening shows distant herd without visible dust; waterhole animals tiny in multiple frames."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration": 34.9,
+      "review_sha256": "89aa0dd4a585813e4eed525d63e508cbe72ad8b07085b217382b09fb56a3c0e7",
+      "approved": false,
+      "issue": "Correct species; repeated near-identical 2008 Komodo footage dominates 3 blocks. No visible tongue in scent block at inspected midpoint. Zoo footage must not imply wild Indonesia."
+    }
+  ],
+  "release_rule": "Keep publication_hold=true until current final render has five independently approved editorial MP4s, verified source/attribution/ShareAlike delivery, then schedule TikTok-only future slots and require Metricool real post IDs/status.",
+  "next": "Check current retry of publish-media; if it fails again, use the workflow patch in a new run, without overwriting Daily Prep. Replace only independently verified scene-matching footage, rerender, and inspect all five fresh artifacts. No TikTok scheduling before full approval."
+}
