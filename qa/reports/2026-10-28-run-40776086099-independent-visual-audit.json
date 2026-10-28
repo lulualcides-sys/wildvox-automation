@@ -1,0 +1,112 @@
+{
+  "editorial_day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "run_id": 40776086099,
+  "render_head_sha": "9d7c1993ddc242dfdc0031a5551d67c50b92f118",
+  "workflow": "WildVox Daily 5",
+  "run_completed_successfully": true,
+  "technical_qa_artifact": 12854204749,
+  "technical_qa_pass": true,
+  "technical_qa_editorial_approved": false,
+  "source": "independent downloaded GitHub Actions artifacts; five *_review.jpg, five MP4 ffprobe inspections and selected original-source preview strips",
+  "visual_qa_pass": false,
+  "publication_hold": true,
+  "metricool_brand": "7242311",
+  "tiktok_account": "@wildvox",
+  "scheduled_posts_2026_10_28": 0,
+  "published_analytics_rows_2026_10_28": 0,
+  "media_branch_head_at_review": "e44b34647cfa0bed3d7545024200f28ea917e1aa",
+  "global_checks": {
+    "video_count": 5,
+    "all_video_resolution": "1080x1920",
+    "duration_range_seconds": [
+      31.125,
+      39.675
+    ],
+    "all_six_narration_blocks": true,
+    "all_eight_distinct_source_urls": true,
+    "all_sources_type_video": true,
+    "all_source_author_license_metadata_present": true,
+    "full_creator_credit_delivery_verified": false,
+    "sharealike_distribution_verified": false,
+    "original_source_byte_dedup_verified": false,
+    "freeze_over_one_second": "technical_qa_report.json reports none; full independent FFmpeg freezedetect recheck did not finish within runtime",
+    "latest_render_not_same_as_latest_config": true
+  },
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration": 39.675,
+      "artifact_id": 12854508037,
+      "review": "FAIL",
+      "findings": [
+        "Nectar sequence now shows visible monarch in multiple shots, but early flower-only/soft-focus portions remain; confirm every claimed nectar action in exact speech timing.",
+        "The monarch in Mexico archival footage must remain clearly labeled as archival, not 2026 field footage.",
+        "Hook and payoff species are correct; credits and sharealike publication still unverified."
+      ]
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration": 32.725,
+      "artifact_id": 12853784998,
+      "review": "FAIL",
+      "findings": [
+        "Opening uses heavily overexposed captive African penguins; beak-to-feather behavior is not reliably legible.",
+        "Some coastline and payoff shots are distant; nesting scenes are illustrative, not proof of a single event.",
+        "Independent vertical Boulders Beach grooming candidate was reviewed from run 40787420586 and rejected: subject too small, despite correct species and native portrait format. Wuppertal Zoo 05/06 source preview requested."
+      ]
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration": 31.125,
+      "artifact_id": 12855551759,
+      "review": "FAIL",
+      "findings": [
+        "Real meerkat species and upright posture visible in hook and action.",
+        "Some group/switch shots are too distant, subjects small in vertical layout.",
+        "No direct observed alarm call or sentinel switch is shown; language is general possibility, not a claim of recorded event."
+      ]
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration": 36.4,
+      "artifact_id": 12854659304,
+      "review": "FAIL",
+      "findings": [
+        "Elephant herd in dry riverbed and separate water footage are genuine but do not prove same waterhole or a single continuous event.",
+        "Prior narration 'same waterhole' and overlay 'SHARED WATERHOLE' were unsupported by shown walking-herd shot.",
+        "Narration and visual_plan corrected in config commit d7d6a38cd8cefeb8b33e298d5bd0ae11da8610bd; new render 40787627937 queued at time of report."
+      ]
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration": 34.9,
+      "artifact_id": 12855277674,
+      "review": "FAIL",
+      "findings": [
+        "Correct Komodo dragon species, but repeated original filming family across several distinct Commons derivatives; distinct URLs do not guarantee distinct footage.",
+        "Tongue/forked tongue not clearly shown while narrator describes scent sampling.",
+        "Hook subject partly small and shot selection includes distant or near-static framing; new independent source required."
+      ]
+    }
+  ],
+  "new_actions": [
+    {
+      "commit": "ab0d8dff48c2d26a1924fda1e982219540ea1a77",
+      "action": "Create portrait penguin source preview manifest; original Commons page species/license/creator verified."
+    },
+    {
+      "run": 40787420586,
+      "action": "Preview complete; reject tiny Boulders penguin."
+    },
+    {
+      "commit": "a45216622279b15c94facbd817c162d9a0316530",
+      "action": "Request two Wuppertal Zoo preening source previews; no source promoted without frames."
+    },
+    {
+      "commit": "d7d6a38cd8cefeb8b33e298d5bd0ae11da8610bd",
+      "action": "Correct elephant narration, scene and overlay, preserving exact block concatenation and five publication holds."
+    }
+  ],
+  "next": "Inspect 40787608554 source preview, assess two candidate clips, inspect full 40787627937 render after completion, correct source problems and credit/ShareAlike delivery, do not schedule TikTok until independently approved."
+}
