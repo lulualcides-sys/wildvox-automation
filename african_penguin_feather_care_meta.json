@@ -2,7 +2,7 @@
   "key": "african_penguin_feather_care",
   "title": "WHY AFRICAN PENGUINS KEEP COMBING THEIR FEATHERS",
   "caption": "African penguins have a reason for all that grooming. 🐧 #AfricanPenguin #OceanLife #Wildlife #WildVox",
-  "duration": 32.5,
+  "duration": 32.73,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -26,7 +26,7 @@
       "end": 11.025,
       "duration": 6.25,
       "text": "Along southern Africa's coast, these birds move between ocean feeding trips and land.",
-      "scene": "African penguins in their authentic coastal colony, plus walking footage.",
+      "scene": "Authentic South African coastal colony: independent Angelarene88 source starts near 20s showing visibly close African penguins at Betty's Bay, then distinct real penguins walking. No claim that ocean feeding is visible.",
       "tags": [
         "a_coast"
       ],
@@ -51,21 +51,21 @@
     {
       "index": 3,
       "start": 16.5,
-      "end": 20.875,
-      "duration": 4.375,
-      "text": "That feather layer helps keep cold seawater away from the skin.",
-      "scene": "Close portrait video of a real African penguin grooming its feathers at Boulders Beach; narration explains feather insulation without fabricated microscopic details.",
+      "end": 21.1,
+      "duration": 4.6,
+      "text": "Their tightly packed feathers help keep cold water away from the skin.",
+      "scene": "Close African penguin plumage at the edge of a zoo pool in authentic Guido Konrad slow-motion footage; illustrative captive scene, not South African sea footage or proof of seawater waterproofing.",
       "tags": [
         "a_fur"
       ],
       "story_role": "explanation",
-      "overlay_label": null,
+      "overlay_label": "ZOO FOOTAGE",
       "fx": []
     },
     {
       "index": 4,
-      "start": 20.875,
-      "end": 25.85,
+      "start": 21.1,
+      "end": 26.075000000000003,
       "duration": 4.975,
       "text": "But they also need safe places on land where they can shelter and breed.",
       "scene": "African penguins near an actual den at Stony Point.",
@@ -78,8 +78,8 @@
     },
     {
       "index": 5,
-      "start": 25.85,
-      "end": 32.5,
+      "start": 26.075000000000003,
+      "end": 32.725,
       "duration": 6.65,
       "text": "So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
       "scene": "Authentic portrait African penguin walking from shore toward the sea, first seconds of Boulders Beach source, followed by distinct colony footage.",
@@ -109,18 +109,19 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2002.webm",
-      "assetTitle": "African penguins, Betty's Bay 02.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_02.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguin%20Colony%20Betty%27s%20Bay.ogv",
+      "assetTitle": "Penguin Colony Betty's Bay.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguin_Colony_Betty%27s_Bay.ogv",
       "tags": [
         "a_coast"
       ],
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony, no invented feeding action.",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Angelarene88",
+      "license_note": "Original Commons page reviewed 2026-10-28; authentic independent African penguin coastal colony, 44.64s 960x540, CC BY-SA 3.0. Original preview frames checked at 5.4, 22.3 and 37.9 seconds in candidate workflow 40735618744; use verified closer penguins at ~20s, no synthetic zoom. Preserve author/source/license links, mark cuts/reframing, and apply ShareAlike compatible adaptation terms; do not claim this is an ocean feeding scene.",
       "license_verified_at": "2026-10-28",
-      "verified_size_bytes": 36608973,
-      "author": "Spasimir Pilev"
+      "verified_size_bytes": 33559279,
+      "start_seconds": 20
     },
     {
       "type": "video",
@@ -154,17 +155,19 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grooming%20penguin%20at%20Boulders%20Beach.webm",
-      "assetTitle": "Grooming penguin at Boulders Beach.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grooming_penguin_at_Boulders_Beach.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguins%20slow%20motion%20video.webm",
+      "assetTitle": "Penguins slow motion video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguins_slow_motion_video.webm",
       "tags": [
         "a_fur"
       ],
-      "license_note": "SourcePage checked 2026-10-28: 9.5s authentic portrait 608x1080 video of African penguin grooming at Boulders Beach, by Islahaddow, CC BY-SA 4.0; commercial adaptation requires full author attribution, license link, changes notice and ShareAlike. This is a candidate source, not yet frame-reviewed in the rendered video; preserve publication_hold until visual QA.",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "start_seconds": 44.5,
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "author": "Guido Konrad",
       "license_verified_at": "2026-10-28",
-      "author": "Islahaddow"
+      "verified_size_bytes": 15333484,
+      "license_note": "Original Wikimedia Commons page and source-frame preview checked 2026-10-28. 2019 authentic African penguins in Duisburg Zoo, 55.207s, 1920x1080; Guido Konrad CC BY 2.0. Independent original frames at 6.6, 27.6, 46.9s confirm species and close feather detail. Use 44.5s start for a_fur, disclose captive footage. No actual seawater or wild coastline is shown. Original SHA256 cf9c77996c1bff23cfb07104ab1eb093826f0034d595ef19d5fa12b7cd0a127c. Full rendered MP4 and credit review still required."
     },
     {
       "type": "video",
