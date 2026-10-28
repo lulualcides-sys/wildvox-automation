@@ -1,0 +1,109 @@
+"""Allocate unique, semantically tagged footage to measured Kokoro speech blocks.
+
+A long spoken block may need several short, relevant clips. Do not demand that
+one source cover the entire block before allocating its other clips. All media
+must be used once, with no untagged filler or synthetic looping.
+"""
+from math import ceil
+
+
+def plan_semantic_shots(local, blocks, max_shot, max_freeze, key):
+    n = len(local)
+    if not blocks or n < len(blocks):
+        raise RuntimeError(f"{key}: too few unique assets for spoken blocks")
+    if n > 12:
+        raise RuntimeError(f"{key}: more than 12 unique visual assets")
+    photo_only = all(item[1] == "image" for item in local)
+    if not photo_only and n < 8:
+        raise RuntimeError(f"{key}: fewer than eight unique video-first assets")
+    if any(not block.get("tags") for block in blocks):
+        raise RuntimeError(f"{key}: spoken block lacks semantic tags")
+
+    durations = [float(block["duration"]) for block in blocks]
+    if any(d <= 0 for d in durations):
+        raise RuntimeError(f"{key}: invalid Kokoro block duration")
+    minimum = [max(1, ceil((d - 0.000001) / max_shot)) for d in durations]
+    maximum = [min(n, max(1, int(d / 1.8))) for d in durations]
+    if any(lo > hi for lo, hi in zip(minimum, maximum)) or sum(minimum) > n:
+        raise RuntimeError(f"{key}: insufficient footage to keep every shot <= {max_shot}s")
+
+    compositions = []
+
+    def counts_for_blocks(index, remaining, counts):
+        if index == len(blocks):
+            if remaining == 0:
+                compositions.append(tuple(counts))
+            return
+        low = minimum[index]
+        high = min(maximum[index], remaining)
+        rest_min = sum(minimum[index + 1:])
+        rest_max = sum(maximum[index + 1:])
+        for count in range(low, high + 1):
+            if rest_min <= remaining - count <= rest_max:
+                counts_for_blocks(index + 1, remaining - count, counts + [count])
+
+    counts_for_blocks(0, n, [])
+    # Prefer readable 3-6 second shots, but never trade semantic correctness
+    # for cadence. The matching algorithm below is the actual approval gate.
+    compositions.sort(key=lambda counts: sum(
+        (dur / count - 4.5) ** 2 for dur, count in zip(durations, counts)
+    ))
+
+    def compatible(item, block, seconds):
+        wanted = {str(t).strip().lower() for t in block.get("tags", [])}
+        actual = {str(t).strip().lower() for t in item[2].get("tags", [])}
+        if not (wanted & actual):
+            return False
+        if item[1] == "image":
+            return True
+        available = float(item[2].get("_duration", 0))
+        return available + max_freeze + 0.000001 >= seconds
+
+    for counts in compositions:
+        slots = [(i, durations[i] / count) for i, count in enumerate(counts)
+                 for _ in range(count)]
+        adjacency = []
+        for block_index, seconds in slots:
+            possible = [j for j, item in enumerate(local)
+                        if compatible(item, blocks[block_index], seconds)]
+            if not possible:
+                break
+            possible.sort(key=lambda j: (
+                local[j][1] != "video",
+                int(local[j][2].get("_source_index", j))
+            ))
+            adjacency.append(possible)
+        if len(adjacency) != n:
+            continue
+
+        owner = [-1] * n
+
+        def augment(slot_index, seen):
+            for asset_index in adjacency[slot_index]:
+                if asset_index in seen:
+                    continue
+                seen.add(asset_index)
+                previous = owner[asset_index]
+                if previous < 0 or augment(previous, seen):
+                    owner[asset_index] = slot_index
+                    return True
+            return False
+
+        order = sorted(range(n), key=lambda i: len(adjacency[i]))
+        if not all(augment(i, set()) for i in order):
+            continue
+
+        assigned = [None] * n
+        for asset_index, slot_index in enumerate(owner):
+            if slot_index >= 0:
+                assigned[slot_index] = local[asset_index]
+        if any(item is None for item in assigned):
+            continue
+        return [(item, seconds, blocks[block_index])
+                for item, (block_index, seconds) in zip(assigned, slots)]
+
+    raise RuntimeError(
+        f"{key}: cannot match all {n} unique assets to Kokoro blocks "
+        "within shot-length and source-duration limits. Replace or re-tag "
+        "verified footage; never use unrelated filler or freeze a clip."
+    )
