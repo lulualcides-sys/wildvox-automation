@@ -73,7 +73,7 @@
         "m_2026"
       ],
       "story_role": "twist",
-      "overlay_label": "2026 MIGRATION",
+      "overlay_label": "ARCHIVAL FOOTAGE",
       "fx": []
     },
     {
@@ -133,9 +133,11 @@
       "license": "CC BY 3.0",
       "license_url": "https://creativecommons.org/licenses/by/3.0",
       "author": "Danmation",
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016.",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016. Editorial time-lapse correction 2026-10-28: use a real 36-second source window (26s onward) played at 6x to show emergence, with no generated frames or looping; final visual and freeze QA still required.",
       "license_verified_at": "2026-10-28",
-      "verified_size_bytes": 4323084
+      "verified_size_bytes": 4323084,
+      "start_seconds": 26,
+      "time_lapse_speed": 6
     },
     {
       "type": "video",
