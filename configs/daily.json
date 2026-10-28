@@ -1,114 +1,127 @@
 {
-  "indian_peafowl_tail_rattle": {
-    "title": "WHY THIS PEACOCK SHAKES ITS GIANT FEATHER FAN",
-    "script": "Why does this Indian peacock shake a giant fan of feathers at another bird? He spreads his long train when a peahen is nearby, exposing its eye-like spots. Then he rattles the feathers rapidly, turning the display into a vibrating performance. Those moving feathers can rustle and shimmer as their tiny structures catch the light. This is courtship, not a threat. A peahen may inspect the display before choosing a mate. So the shaking isn't random. It's part of the peacock's extraordinary courtship invitation.",
-    "caption": "Why do peacocks shake those incredible feathers? 🦚 #Peacock #Peafowl #AnimalBehavior #Wildlife #WildVox",
+  "monarch_autumn_migration_2026": {
+    "title": "HOW MONARCH BUTTERFLIES FIND THEIR WAY TO MEXICO",
+    "script": "How can a monarch butterfly this fragile travel thousands of miles toward Mexico? Its journey begins when an adult emerges from a chrysalis, ready to feed and fly. That adult feeds on nectar, building the energy needed for a long southbound flight. Sunlight and an internal clock help monarchs hold a heading as the seasons change. This October, observers reported monarchs reaching northern Mexico during the ongoing fall migration. So those tiny wings aren't wandering at random. They're part of one of nature's great migrations.",
+    "caption": "Monarchs are moving toward Mexico this October. 🦋 #MonarchButterfly #Migration #Wildlife #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20Courtship%20and%20Mating%20Ritual%20in%20the%20Wild.webm",
-        "assetTitle": "Peacock Courtship and Mating Ritual in the Wild.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock_Courtship_and_Mating_Ritual_in_the_Wild.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20butterfly%201.webm",
+        "assetTitle": "Monarch butterfly 1.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_1.webm",
         "tags": [
-          "p_hook",
-          "p_twist"
+          "m_hook"
+        ],
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Truem",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild Ontario monarch, 2013.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 11275271
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20%28Danaus%20plexippus%29.webm",
+        "assetTitle": "Monarch (Danaus plexippus).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_%28Danaus_plexippus%29.webm",
+        "tags": [
+          "m_hook"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license Public domain; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons monarch footage; live license/category audit required before reuse; 4.5s original, optional supporting hook cut.",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 1503252
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Butterfly%20Emerging%20from%20Chrysalis.webm",
+        "assetTitle": "Monarch Butterfly Emerging from Chrysalis.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Emerging_from_Chrysalis.webm",
+        "tags": [
+          "m_origin"
+        ],
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Danmation",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 4323084
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarchs%20flying%20and%20sipping.webm",
+        "assetTitle": "Monarchs flying and sipping.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarchs_flying_and_sipping.webm",
+        "tags": [
+          "m_fuel"
         ],
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "author": "Rohit Sharma",
-        "license_note": "Verified Wikimedia Commons featured authentic Pavo cristatus courtship, Pench National Park India, 2024; independently checked 2026-10-27; 70.8s original, distinct from other footage; adapt with attribution, license link and ShareAlike."
+        "author": "Dennis.insect.filmer",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult nectar feeding, Ohio.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 11019737
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20displaying%20in%20Sri%20Lanka.webm",
-        "assetTitle": "Peacock displaying in Sri Lanka.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock%20displaying%20in%20Sri%20Lanka.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20butterfly%202.webm",
+        "assetTitle": "Monarch butterfly 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_2.webm",
         "tags": [
-          "p_setup"
+          "m_fuel"
         ],
-        "license_note": "Title explicitly documents peacock displaying. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "author": "Ankur P"
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Truem",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult Ontario support shot.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 8838332
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20mating%20dance%2001.ogv",
-        "assetTitle": "Peacock mating dance 01.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock%20mating%20dance%2001.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20butterfly%203.webm",
+        "assetTitle": "Monarch butterfly 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_3.webm",
         "tags": [
-          "p_action"
+          "m_navigation"
         ],
-        "license_note": "Title explicitly documents courtship display. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Truem",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult Ontario; no claim of tagged specimen.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 7567466
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Butterfly.ogv",
+        "assetTitle": "Monarch Butterfly.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly.ogv",
+        "tags": [
+          "m_2026"
+        ],
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "author": "MatthiasKabel"
+        "author": "Anthony92931",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Archival wildflower footage; not footage of 2026 sightings.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 7378629
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Peacock%20tail.ogv",
-        "assetTitle": "Peacock tail.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock%20tail.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Butterfly%20Migration.ogv",
+        "assetTitle": "Monarch Butterfly Migration.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Migration.ogv",
         "tags": [
-          "p_explain"
+          "m_payoff"
         ],
-        "license_note": "Title identifies train/tail detail; verify close-up framing. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "author": "WaderClub"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s002.ogv",
-        "assetTitle": "Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s002.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Biomechanics-of-the-Peacocks-Display-How-Feather-Structure-and-Resonance-Influence-Multimodal-pone.0152759.s002.ogv",
-        "tags": [
-          "p_twist"
-        ],
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "author": "Dakin R, McCrossan O, Hare J, Montgomerie R, Amador Kane S",
-        "license_note": "PLOS ONE scientific footage of real peacock train-rattling and peahen courtship; do not confuse slow motion with natural speed. Wikimedia Commons source and PLOS ONE open-access license independently checked 2026-10-27; edited excerpt with attribution."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Male%20peacock%20tail%20display%20at%20Sofia%20Zoo%2020130420%20HQ.ogv",
-        "assetTitle": "Male peacock tail display at Sofia Zoo 20130420 HQ.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Male%20peacock%20tail%20display%20at%20Sofia%20Zoo%2020130420%20HQ.ogv",
-        "tags": [
-          "p_payoff"
-        ],
-        "license_note": "Title documents peacock tail display at Sofia Zoo. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "author": "Vassia Atanassova - Spiritia"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peacock%20(Pavo%20cristatus)%20displaying%20for%20peahen.webm",
-        "assetTitle": "Indian peacock (Pavo cristatus) displaying for peahen.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_peacock_(Pavo_cristatus)_displaying_for_peahen.webm",
-        "tags": [
-          "p_payoff"
-        ],
-        "author": "Kurt Bauschardt",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
-        "license_note": "Authentic male display toward peahen in Mexico; Flickr CC BY-SA 2.0 independently reviewed by Commons reviewer INeverCry 2015-06-25; confirmed source and licensing 2026-10-27; replace non-displaying perched peacock."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20peafowl%20(Pavo%20cristatus)%20displaying.webm",
-        "assetTitle": "Indian peafowl (Pavo cristatus) displaying.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Indian_peafowl_(Pavo_cristatus)_displaying.webm",
-        "tags": [
-          "p_setup",
-          "p_twist"
-        ],
-        "author": "Nacho",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_note": "Authentic Indian peafowl display, 61s; Flickr CC BY 2.0 independently reviewed by Commons reviewer INeverCry 2015-06-25; confirmed 2026-10-27; replaces non-displaying perched footage."
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "author": "U.S. Fish and Wildlife Service",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license Public domain; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. USFWS archival Virginia migration, not Mexico.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 7094976
       }
     ],
     "min_unique_videos": 6,
@@ -117,348 +130,189 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-indian_peafowl_tail_rattle-narrative-v4-real-display-source-repair",
+    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v2-no-unreviewed-source",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does this Indian peacock shake a giant fan of feathers at another bird?",
-        "scene": "Start on a confirmed male peacock displaying directly toward a peahen.",
+        "text": "How can a monarch butterfly this fragile travel thousands of miles toward Mexico?",
+        "scene": "Close, authentic wild monarch, introducing a single fragile traveler.",
         "tags": [
-          "p_hook"
+          "m_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "FEATHER DISPLAY"
+        "overlay_label": "THE JOURNEY"
       },
       {
-        "text": "He spreads his long train when a peahen is nearby, exposing its eye-like spots.",
-        "scene": "Show the expanded train and peahen without implying every bird in frame is courting.",
+        "text": "Its journey begins when an adult emerges from a chrysalis, ready to feed and fly.",
+        "scene": "Authentic monarch butterfly emergence, not a fabricated time-lapse of a different species.",
         "tags": [
-          "p_setup"
-        ],
-        "story_role": "setup"
-      },
-      {
-        "text": "Then he rattles the feathers rapidly, turning the display into a vibrating performance.",
-        "scene": "Show actual peacock courtship movement and train shaking.",
-        "tags": [
-          "p_action"
-        ],
-        "story_role": "action",
-        "overlay_label": "THE RATTLE"
-      },
-      {
-        "text": "Those moving feathers can rustle and shimmer as their tiny structures catch the light.",
-        "scene": "Show a close train view while explaining shimmer, without fabricated microscopic imagery.",
-        "tags": [
-          "p_explain"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "SHIMMER"
-      },
-      {
-        "text": "This is courtship, not a threat. A peahen may inspect the display before choosing a mate.",
-        "scene": "Return to an authentic male display for a female; do not invent mating.",
-        "tags": [
-          "p_twist"
-        ],
-        "story_role": "twist"
-      },
-      {
-        "text": "So the shaking isn't random. It's part of the peacock's extraordinary courtship invitation.",
-        "scene": "End on a full fan display resolving the opening question.",
-        "tags": [
-          "p_payoff"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "THE REVEAL"
-      }
-    ]
-  },
-  "red_panda_bamboo_false_thumb": {
-    "title": "WHY RED PANDAS LIVE HIGH IN THE TREES",
-    "script": "Why does this red panda spend so much time balancing high in the branches? Up here, it can reach the bamboo that makes up much of its diet. Watch its paws grip the bark as it moves along the branches. Sharp claws help it cling to the wood, even when the path looks narrow. Between meals, a thick branch also makes a surprisingly comfortable resting spot. So these trees are more than a climbing frame. They're a pantry, a pathway, and a place to rest.",
-    "caption": "Why do red pandas love the treetops? 🐾🌿 #RedPanda #Wildlife #AnimalBehavior #NatureFacts #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20panda%20eating%20bamboo%20at%20Symbio%20Wildlife%20Park.webm",
-        "assetTitle": "Red panda eating bamboo at Symbio Wildlife Park.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red%20panda%20eating%20bamboo%20at%20Symbio%20Wildlife%20Park.webm",
-        "tags": [
-          "r_hook"
-        ],
-        "license_note": "Author and feeding behavior identified in original Commons description; captive footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "author": "Grendelkhan",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%209.webm",
-        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Ailurus fulgens 9.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%209.webm",
-        "tags": [
-          "r_setup"
-        ],
-        "license_note": "Zoo footage; verify branches/pose before using in setup. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Ailurus%20fugens%20MA%C4%8CJI%20PANDA%205.webm",
-        "assetTitle": "2023-02-17 ZOO LJUBLJANA Ailurus fugens MAČJI PANDA 5.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17%20ZOO%20LJUBLJANA%20Ailurus%20fugens%20MA%C4%8CJI%20PANDA%205.webm",
-        "tags": [
-          "r_action"
-        ],
-        "license_note": "Zoo footage of red panda; source title contains original spelling 'fugens'. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ailurus%20fulgens%2001.ogv",
-        "assetTitle": "Ailurus fulgens 01.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_01.ogv",
-        "tags": [
-          "r_explain"
-        ],
-        "license_note": "Original Commons page and reuse terms reviewed on 2026-10-27. Adapted excerpt; credit MatthiasKabel and CC BY-SA 3.0. Actual species/behavior/framing requires new rendered-frame QA.",
-        "license": "CC BY-SA 3.0",
-        "author": "MatthiasKabel",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "source_page": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_01.ogv"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ailurus%20fulgens%2002.ogv",
-        "assetTitle": "Ailurus fulgens 02.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_02.ogv",
-        "tags": [
-          "r_explain"
-        ],
-        "license_note": "Original Commons page and reuse terms reviewed on 2026-10-27. Adapted excerpt; credit MatthiasKabel and CC BY-SA 3.0. Actual species/behavior/framing requires new rendered-frame QA.",
-        "license": "CC BY-SA 3.0",
-        "author": "MatthiasKabel",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "source_page": "https://commons.wikimedia.org/wiki/File:Ailurus_fulgens_02.ogv"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%2011.webm",
-        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Ailurus fulgens 11.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%2011.webm",
-        "tags": [
-          "r_payoff"
-        ],
-        "license_note": "Species-specific zoo footage; verify feeding in final shot. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%204.webm",
-        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Ailurus fulgens 4.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18%20ZOO%20LJUBLJANA%20-%20Ailurus%20fulgens%204.webm",
-        "tags": [
-          "r_twist"
-        ],
-        "license_note": "Additional real red panda action shot. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Ailurus%20fugens%20MA%C4%8CJI%20PANDA%202.webm",
-        "assetTitle": "2023-02-17 ZOO LJUBLJANA Ailurus fugens MAČJI PANDA 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17%20ZOO%20LJUBLJANA%20Ailurus%20fugens%20MA%C4%8CJI%20PANDA%202.webm",
-        "tags": [
-          "r_action"
-        ],
-        "license_note": "Additional red panda zoo shot, behavior to be visually confirmed. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-27-daily-red_panda_treetop_life-narrative-v4-resting-shot-matched",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Why does this red panda spend so much time balancing high in the branches?",
-        "scene": "Red panda moving on a high branch, not a fake hand-like paw close-up.",
-        "tags": [
-          "r_hook"
-        ],
-        "story_role": "hook",
-        "overlay_label": "TREE LIFE"
-      },
-      {
-        "text": "Up here, it can reach the bamboo that makes up much of its diet.",
-        "scene": "Red panda clearly eating bamboo among branches.",
-        "tags": [
-          "r_setup"
+          "m_origin"
         ],
         "story_role": "setup",
-        "overlay_label": null
+        "overlay_label": "A NEW ADULT"
       },
       {
-        "text": "Watch its paws grip the bark as it moves along the branches.",
-        "scene": "Red panda showing paws on branch, walking or repositioning on bark.",
+        "text": "That adult feeds on nectar, building the energy needed for a long southbound flight.",
+        "scene": "Wild adult monarch sipping nectar; second wild adult as support.",
         "tags": [
-          "r_action"
+          "m_fuel"
         ],
         "story_role": "action",
-        "overlay_label": "THE GRIP"
+        "overlay_label": "FUEL FOR FLIGHT"
       },
       {
-        "text": "Sharp claws help it cling to the wood, even when the path looks narrow.",
-        "scene": "Real red panda gripping or moving across branches, no anatomical claims not visible.",
+        "text": "Sunlight and an internal clock help monarchs hold a heading as the seasons change.",
+        "scene": "Wild monarch flight; orientation explained in narration, no fabricated navigation graphic.",
         "tags": [
-          "r_explain"
+          "m_navigation"
         ],
         "story_role": "explanation",
-        "overlay_label": null
+        "overlay_label": "SUN COMPASS"
       },
       {
-        "text": "Between meals, a thick branch also makes a surprisingly comfortable resting spot.",
-        "scene": "Red panda perched or resting in tree between feeding sessions.",
+        "text": "This October, observers reported monarchs reaching northern Mexico during the ongoing fall migration.",
+        "scene": "Archival monarch on wildflowers, explicitly not represented as 2026 Mexico footage.",
         "tags": [
-          "r_twist"
+          "m_2026"
         ],
         "story_role": "twist",
-        "overlay_label": "REST STOP"
+        "overlay_label": "2026 MIGRATION"
       },
       {
-        "text": "So these trees are more than a climbing frame. They're a pantry, a pathway, and a place to rest.",
-        "scene": "Close red panda feeding shot resolves tree-as-pantry narrative.",
+        "text": "So those tiny wings aren't wandering at random. They're part of one of nature's great migrations.",
+        "scene": "Actual archival monarch migration aggregation in Virginia; no false claim of filming in Mexico.",
         "tags": [
-          "r_payoff"
+          "m_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "HOME IN THE TREES"
+        "overlay_label": "A REAL MIGRATION"
       }
-    ]
+    ],
+    "trend_priority": true,
+    "trend_evidence_url": "https://journeynorth.org/news/monarchs-cross-into-mexico-and-a-western-migration-update",
+    "trend_evidence_published_date": "2026-10-11",
+    "trend_evidence_secondary_url": "https://vanguardia.com.mx/coahuila/llegan-mas-de-3-mil-500-mariposas-monarca-a-saltillo-en-su-ruta-migratoria-MD24368422",
+    "trend_evidence_secondary_published_date": "2026-10-25"
   },
-  "sea_otter_fur_insulation": {
-    "title": "WHY SEA OTTERS NEVER STOP GROOMING",
-    "script": "Why does a sea otter spend so much time floating and fussing with its fur? Unlike seals, sea otters have very little blubber to help them stay warm. Instead, their incredibly dense coats trap insulating air right next to the skin. But dirty or matted fur loses that protection, so grooming really matters. They rub, roll, and comb through their coats while resting on the surface. That constant care helps a sea otter survive in cold coastal water.",
-    "caption": "Sea otters stay warm with a remarkable fur-care routine. 🦦 #SeaOtter #OceanLife #AnimalBehavior #WildVox",
+  "african_penguin_feather_care": {
+    "title": "WHY AFRICAN PENGUINS KEEP COMBING THEIR FEATHERS",
+    "script": "Why does this African penguin keep combing its feathers with its bill? Along southern Africa's coast, these birds move between ocean feeding trips and land. Back ashore, they preen, cleaning and lining up their tightly packed feathers. That feather layer helps keep cold seawater away from the skin. But they also need safe places on land where they can shelter and breed. So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
+    "caption": "African penguins have a reason for all that grooming. 🐧 #AfricanPenguin #OceanLife #Wildlife #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter.%20Enhydra%20lutris%20video.webm",
-        "assetTitle": "Sea otter. Enhydra lutris video.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otter.%20Enhydra%20lutris%20video.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20130924%20African%20penguins%20combing.webm",
+        "assetTitle": "20130924 African penguins combing.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:20130924_African_penguins_combing.webm",
         "tags": [
-          "o_setup"
+          "a_hook"
         ],
-        "license_note": "Real sea otter in Alaska; inspect for grooming before final approval. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 2.0",
-        "author": "Gailhampshire",
-        "license_url": "https://creativecommons.org/licenses/by/2.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otter%20%28Enhydra%20lutris%29.webm",
-        "assetTitle": "Sea otter (Enhydra lutris).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otter%20%28Enhydra%20lutris%29.webm",
-        "tags": [
-          "o_hook"
-        ],
-        "license_note": "Captive sea otter filmed at Kamogawa SeaWorld; no wild provenance implied. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
         "license": "CC BY-SA 3.0",
-        "author": "The Nature Box",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Vassia Atanassova - Spiritia",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild Stony Point combing.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 7799577
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2011.webm",
-        "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 11.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Enhydra_lutris_-_September_2023_-_Sarah_Stierch_11.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2002.webm",
+        "assetTitle": "African penguins, Betty's Bay 02.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_02.webm",
         "tags": [
-          "o_action"
+          "a_coast"
         ],
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "author": "Sarah Stierch",
-        "license_note": "Authentic wild Enhydra lutris in Morro Bay, 6.0s, Commons original and commercial license checked 2026-10-27. Replaces distant aquarium wide shot; inspect framing and fur visibility in new QA."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loutre%20de%20mer%20%28Enhydra%20lutris%29.ogv",
-        "assetTitle": "Loutre de mer (Enhydra lutris).ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Loutre%20de%20mer%20%28Enhydra%20lutris%29.ogv",
-        "tags": [
-          "o_setup"
-        ],
-        "license_note": "Real captive sea otter at Océanopolis. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony, no invented feeding action.",
         "license": "CC BY-SA 4.0",
-        "author": "Gzen92",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 36608973
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Otter%20playing%20-%202015%2011%2008.ogv",
-        "assetTitle": "Otter playing - 2015 11 08.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Otter%20playing%20-%202015%2011%2008.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20130924%20African%20penguins%20walking.webm",
+        "assetTitle": "20130924 African penguins walking.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:20130924_African_penguins_walking.webm",
         "tags": [
-          "o_twist"
+          "a_coast"
         ],
-        "license_note": "Real captive sea otter playing; grooming action must be verified. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 4.0",
-        "author": "Nesnad",
-        "license_url": "https://creativecommons.org/licenses/by/4.0"
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Vassia Atanassova - Spiritia",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Stony Point walking.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 7466789
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
-        "assetTitle": "Enhydra lutris - September 2023 - Sarah Stierch 12.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Enhydra%20lutris%20-%20September%202023%20-%20Sarah%20Stierch%2012.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%20grooming.ogv",
+        "assetTitle": "African penguins grooming.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins_grooming.ogv",
         "tags": [
-          "o_action"
+          "a_groom"
         ],
-        "license_note": "Real wild sea otter in Morro Bay. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 4.0",
-        "author": "Sarah Stierch",
-        "license_url": "https://creativecommons.org/licenses/by/4.0"
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage.",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 9818376
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20otters%20%28Enhydra%20lutris%29%20in%20a%20zoo.webm",
-        "assetTitle": "Sea otters (Enhydra lutris) in a zoo.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea%20otters%20%28Enhydra%20lutris%29%20in%20a%20zoo.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2003.webm",
+        "assetTitle": "African penguins, Betty's Bay 03.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_03.webm",
         "tags": [
-          "o_payoff"
+          "a_fur"
         ],
-        "license_note": "Captive sea otters at Point Defiance Zoo and Aquarium. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 2.0",
-        "author": "Parker Knight",
-        "license_url": "https://creativecommons.org/licenses/by/2.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Loutre%20de%20mer%20%28Enhydra%20lutris%29%20%282%29.ogv",
-        "assetTitle": "Loutre de mer (Enhydra lutris) (2).ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Loutre%20de%20mer%20%28Enhydra%20lutris%29%20%282%29.ogv",
-        "tags": [
-          "o_explain"
-        ],
-        "license_note": "Short additional captive sea otter clip; do not use if longer than its 9.2s footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal species footage, no claimed close-up anatomy.",
         "license": "CC BY-SA 4.0",
-        "author": "Gzen92",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 161842590
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20130924%20African%20penguins%20near%20their%20den.webm",
+        "assetTitle": "20130924 African penguins near their den.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:20130924_African_penguins_near_their_den.webm",
+        "tags": [
+          "a_den"
+        ],
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Vassia Atanassova - Spiritia",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual den scene.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 11974313
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2004.webm",
+        "assetTitle": "African penguins, Betty's Bay 04.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_04.webm",
+        "tags": [
+          "a_payoff"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony payoff.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 34414879
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2005.webm",
+        "assetTitle": "African penguins, Betty's Bay 05.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_05.webm",
+        "tags": [
+          "a_payoff"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Second distinct payoff shot.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 72351622
       }
     ],
     "min_unique_videos": 6,
@@ -467,350 +321,180 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-sea_otter_fur_insulation-narrative-v3-close-fur-grooming-shot-order",
+    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does a sea otter spend so much time floating and fussing with its fur?",
-        "scene": "Open on real sea otter at water surface, preferably rubbing or grooming.",
+        "text": "Why does this African penguin keep combing its feathers with its bill?",
+        "scene": "African penguins actively combing plumage at Betty's Bay.",
         "tags": [
-          "o_hook"
+          "a_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "FUR FIRST"
+        "overlay_label": "FEATHER CARE"
       },
       {
-        "text": "Unlike seals, sea otters have very little blubber to help them stay warm.",
-        "scene": "Establish real sea otter in water, no unrelated seal footage.",
+        "text": "Along southern Africa's coast, these birds move between ocean feeding trips and land.",
+        "scene": "African penguins in their authentic coastal colony, plus walking footage.",
         "tags": [
-          "o_setup"
+          "a_coast"
         ],
         "story_role": "setup"
       },
       {
-        "text": "Instead, their incredibly dense coats trap insulating air right next to the skin.",
-        "scene": "Show genuine sea otter body and fur, with no invented microscopic closeup.",
+        "text": "Back ashore, they preen, cleaning and lining up their tightly packed feathers.",
+        "scene": "African penguins visibly grooming with their bills.",
         "tags": [
-          "o_action"
+          "a_groom"
         ],
         "story_role": "action",
-        "overlay_label": "AIR TRAP"
+        "overlay_label": "THE PREEN"
       },
       {
-        "text": "But dirty or matted fur loses that protection, so grooming really matters.",
-        "scene": "Use real close sea otter movement while explaining the insulation mechanism.",
+        "text": "That feather layer helps keep cold seawater away from the skin.",
+        "scene": "African penguin coastal group; explain feather insulation without false microscopic overlay.",
         "tags": [
-          "o_explain"
+          "a_fur"
         ],
         "story_role": "explanation"
       },
       {
-        "text": "They rub, roll, and comb through their coats while resting on the surface.",
-        "scene": "Show documented sea otter rolling or grooming if present in selected clip.",
+        "text": "But they also need safe places on land where they can shelter and breed.",
+        "scene": "African penguins near an actual den at Stony Point.",
         "tags": [
-          "o_twist"
+          "a_den"
         ],
         "story_role": "twist",
-        "overlay_label": "GROOMING"
+        "overlay_label": "NESTING SPACE"
       },
       {
-        "text": "That constant care helps a sea otter survive in cold coastal water.",
-        "scene": "Finish on a wild sea otter afloat, resolving why the fur care matters.",
+        "text": "So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
+        "scene": "Authentic African penguins at Betty's Bay on shore; two different shots available for the longer payoff.",
         "tags": [
-          "o_payoff"
+          "a_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "STAY WARM"
+        "overlay_label": "OCEAN READY"
       }
     ]
   },
-  "greater_flamingo_courtship_parade": {
-    "title": "WHY FLAMINGOS FEED UPSIDE DOWN",
-    "script": "Why do these greater flamingos gather in crowds, then dip their faces into the water? Watch one bird in the shallows. It's searching for tiny food, not just taking a drink. It turns its bill upside down and sweeps through the water as it feeds. Inside that unusual bill, comb-like edges help filter small organisms from the water. While one bird feeds, others keep dipping, stepping, and searching around it. So that strange head-down pose is a feeding tool. The flamingo's beak works like a living strainer.",
-    "caption": "That upside-down beak is a feeding tool! 🦩 #Flamingo #AnimalBehavior #NatureFacts #Wildlife #WildVox",
+  "meerkat_lookout_teamwork": {
+    "title": "WHY MEERKATS TAKE TURNS WATCHING FOR DANGER",
+    "script": "Why do meerkats stay together when they move across open ground? In the wild, they live in social groups that share space and burrows. One meerkat may stand upright and scan while its neighbors search for food. A lookout can notice approaching danger and give the group time to react. As the group moves, different individuals can take turns watching their surroundings. So that famous upright pose is part of teamwork, not just a cute photo.",
+    "caption": "A meerkat lookout is part of a team strategy. 🐾 #Meerkat #AnimalBehavior #Wildlife #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/045%20Greater%20flamingos%20courtship%20display%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
-        "assetTitle": "045 Greater flamingos courtship display in the Camargue during mating season (slow motion) Video by Giles Laurent.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:045%20Greater%20flamingos%20courtship%20display%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meerkats%20%28Suricata%20suricatta%29%20gang%20....webm",
+        "assetTitle": "Meerkats (Suricata suricatta) gang ....webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkats_(Suricata_suricatta)_gang_....webm",
         "tags": [
-          "f_hook"
+          "s_hook"
         ],
-        "license_note": "Verified 2024 authentic courtship slow-motion; attribution requested by creator. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY-SA 4.0",
-        "author": "Giles Laurent",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic species group, location per source page.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 21799069
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%204.webm",
-        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 4.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%204.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meerkat%20Family.ogv",
+        "assetTitle": "Meerkat Family.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkat_Family.ogv",
         "tags": [
-          "f_setup"
+          "s_group"
         ],
-        "license_note": "Species-specific lagoon footage; group movement to be checked. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%205.webm",
-        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%205.webm",
-        "tags": [
-          "f_action"
-        ],
-        "license_note": "Species-specific lagoon footage; head-flagging not independently confirmed. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/043%20Greater%20flamingo%20vocalizing%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
-        "assetTitle": "043 Greater flamingo vocalizing in the Camargue during mating season (slow motion) Video by Giles Laurent.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:043%20Greater%20flamingo%20vocalizing%20in%20the%20Camargue%20during%20mating%20season%20%28slow%20motion%29%20Video%20by%20Giles%20Laurent.webm",
-        "tags": [
-          "f_explain"
-        ],
-        "license_note": "Real greater flamingo vocalization during mating season, slowed 4x. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY-SA 4.0",
-        "author": "Giles Laurent",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
-        "assetTitle": "2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
-        "tags": [
-          "f_twist"
-        ],
-        "license_note": "Lagoon footage of species; courtship-specific action requires visual QA. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
-        "assetTitle": "2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
-        "tags": [
-          "f_twist",
-          "f_setup"
-        ],
-        "license_note": "Lagoon flock footage; inspect whether closing movement matches story. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%206.webm",
-        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 6.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%206.webm",
-        "tags": [
-          "f_twist",
-          "f_action"
-        ],
-        "license_note": "Additional greater flamingo lagoon footage, reviewed CC BY 3.0 on Commons. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY 3.0",
-        "author": "NaIzletuSi ™",
-        "license_url": "https://creativecommons.org/licenses/by/3.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Camargue.webm",
-        "assetTitle": "Camargue.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Camargue.webm",
-        "tags": [
-          "f_payoff"
-        ],
-        "license_note": "Real Phoenicopterus roseus flock in Camargue, not a confirmed close courtship scene. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Meerkat family scene.",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "author": "Dominique Armange"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-27-daily-greater_flamingo_filter_feeding-narrative-v5-semantic-shot-capacity-repair",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Why do these greater flamingos gather in crowds, then dip their faces into the water?",
-        "scene": "Authentic flock of greater flamingos, establishing the group before cutting to feeding.",
-        "tags": [
-          "f_hook"
-        ],
-        "story_role": "hook",
-        "overlay_label": "UPSIDE DOWN?"
-      },
-      {
-        "text": "Watch one bird in the shallows. It's searching for tiny food, not just taking a drink.",
-        "scene": "Greater flamingo lowering its bill into shallow water, feeding.",
-        "tags": [
-          "f_setup"
-        ],
-        "story_role": "setup",
-        "overlay_label": null
-      },
-      {
-        "text": "It turns its bill upside down and sweeps through the water as it feeds.",
-        "scene": "Greater flamingos actually dipping bills and moving in shallow water.",
-        "tags": [
-          "f_action"
-        ],
-        "story_role": "action",
-        "overlay_label": "FILTER FEEDER"
-      },
-      {
-        "text": "Inside that unusual bill, comb-like edges help filter small organisms from the water.",
-        "scene": "Close real greater flamingo beak/head; anatomical filter is explained, not fabricated.",
-        "tags": [
-          "f_explain"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "THE BILL"
-      },
-      {
-        "text": "While one bird feeds, others keep dipping, stepping, and searching around it.",
-        "scene": "Greater flamingos feeding or walking while searching in shallow water.",
-        "tags": [
-          "f_twist"
-        ],
-        "story_role": "twist",
-        "overlay_label": null
-      },
-      {
-        "text": "So that strange head-down pose is a feeding tool. The flamingo's beak works like a living strainer.",
-        "scene": "Finish on a flock visibly dipping beaks to feed, resolving the upside-down-bill hook.",
-        "tags": [
-          "f_payoff"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "LIVING STRAINER"
-      }
-    ]
-  },
-  "green_sea_turtle_two_generations": {
-    "title": "FROM TINY HATCHLINGS TO OCEAN GIANTS",
-    "script": "A green sea turtle can spend years in the ocean. But where does that journey begin? It begins on sandy shores, where tiny hatchlings must make their way toward the waves. Those that survive grow into powerful swimmers, moving through reefs and open water. As they grow, green turtles explore reefs and seagrass meadows in search of food. Protecting sea turtles also matters. Conservation centers help people understand the threats they face. From tiny hatchlings on the beach to graceful swimmers at sea, every survivor has crossed two worlds.",
-    "caption": "From the beach to the reef: the remarkable life of a green sea turtle. 🐢🌊 #GreenSeaTurtle #Wildlife #OceanLife #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20snakes%20and%20marine%20turtles%20observed%20at%20the%20Chesterfield-Bellona%20reef%20complex%20in%20the%20Coral%20Sea%20Marine%20Park%20(Southwest%20Pacific)%20(Ifremer%2000669-78070%20-%2031415).webm",
-        "assetTitle": "Sea snakes and marine turtles observed at the Chesterfield-Bellona reef complex in the Coral Sea Marine Park (Southwest Pacific) (Ifremer 00669-78070 - 31415).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_snakes_and_marine_turtles_observed_at_the_Chesterfield-Bellona_reef_complex_in_the_Coral_Sea_Marine_Park_(Southwest_Pacific)_(Ifremer_00669-78070_-_31415).webm",
-        "tags": [
-          "t_explain"
-        ],
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "author": "Dominique Pelletier, Abigail Powell, William Roman, Liliane Carpentier (IFREMER)",
-        "license_note": "IFREMER Océanothèque original marine survey footage, explicitly labeled Chelonia mydas, 31415, 1920x1080, independent file with CC BY 4.0 shown on Commons on 2026-10-27. Replaces a near-empty algal shot and the 320x240 NHK-overlay scientific excerpt. Behavior beyond species/habitat not visually pre-approved; verify rendered frames before release."
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 3710174
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20snakes%20and%20marine%20turtles%20observed%20at%20the%20Chesterfield-Bellona%20reef%20complex%20in%20the%20Coral%20Sea%20Marine%20Park%20(Southwest%20Pacific)%20(Ifremer%2000669-78070%20-%2031416).webm",
-        "assetTitle": "Sea snakes and marine turtles observed at the Chesterfield-Bellona reef complex in the Coral Sea Marine Park (Southwest Pacific) (Ifremer 00669-78070 - 31416).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_snakes_and_marine_turtles_observed_at_the_Chesterfield-Bellona_reef_complex_in_the_Coral_Sea_Marine_Park_(Southwest_Pacific)_(Ifremer_00669-78070_-_31416).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meerkat-uenozoo2008.ogv",
+        "assetTitle": "Meerkat-uenozoo2008.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkat-uenozoo2008.ogv",
         "tags": [
-          "t_explain"
+          "s_sentry"
         ],
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "author": "Dominique Pelletier, Abigail Powell, William Roman, Liliane Carpentier (IFREMER)",
-        "license_note": "IFREMER Océanothèque original marine survey footage, explicitly labeled Chelonia mydas, 31416, 1920x1080, independent file with CC BY 4.0 shown on Commons on 2026-10-27. Replaces a near-empty algal shot and the 320x240 NHK-overlay scientific excerpt. Behavior beyond species/habitat not visually pre-approved; verify rendered frames before release."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF1118.webm",
-        "assetTitle": "Grüne Schildkröte. Chelónia mýdas. Зелёная черепаха. DSCF1118.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF1118.webm",
-        "tags": [
-          "t_hook"
-        ],
-        "license_note": "Underwater video categorized as Chelonia mydas and other sea life; verify correct individual. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY-SA 4.0",
-        "author": "Kora27",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20Turtle.ogv",
-        "assetTitle": "Sea Turtle.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_Turtle.ogv",
-        "tags": [
-          "t_payoff"
-        ],
-        "license_note": "Original Commons page and reuse terms reviewed on 2026-10-27. Adapted excerpt; credit Roger Balestra and CC BY-SA 3.0. Actual species/behavior/framing requires new rendered-frame QA.",
         "license": "CC BY-SA 3.0",
-        "author": "Roger Balestra",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "source_page": "https://commons.wikimedia.org/wiki/File:Sea_Turtle.ogv"
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Nesnad",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Author describes meerkat upright scanning at Ueno Zoo.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 3195388
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kosgoda%20Sea%20Turtle%20Conservation%20Project%20video%20.ogv",
-        "assetTitle": "Kosgoda Sea Turtle Conservation Project video .ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kosgoda%20Sea%20Turtle%20Conservation%20Project%20video%20.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leipzig%20-%20Zoo%20-%20Afrika%20-%20Suricata%20suricatta%20v%2001%20ies.webm",
+        "assetTitle": "Leipzig - Zoo - Afrika - Suricata suricatta v 01 ies.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Leipzig_-_Zoo_-_Afrika_-_Suricata_suricatta_v_01_ies.webm",
         "tags": [
-          "t_twist"
+          "s_explain"
         ],
-        "license_note": "Authentic conservation project; do not imply wild hatching if shown in captivity. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY-SA 4.0",
-        "author": "Pierre André Leclercq",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Captive species, no staged alarm event.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 43773142
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Race%20for%20survival.webm",
-        "assetTitle": "Race for survival.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Race%20for%20survival.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%202.webm",
+        "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_2.webm",
         "tags": [
-          "t_setup"
+          "s_switch"
         ],
-        "license_note": "Documented baby Chelonia mydas heading to sea in Suriname. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable. Editorial review 2026-10-27: the first seconds showed empty sand; seek near the midpoint, where hatchlings appear in the original source preview. Recheck the rendered segment before approval.",
-        "license": "CC BY-SA 4.0",
-        "author": "Eleonore123",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "start_seconds": 48
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Captive group footage.",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 33167231
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF0060.webm",
-        "assetTitle": "Grüne Schildkröte. Chelónia mýdas. Зелёная черепаха. DSCF0060.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCne%20Schildkr%C3%B6te.%20Chel%C3%B3nia%20m%C3%BDdas.%20%D0%97%D0%B5%D0%BB%D1%91%D0%BD%D0%B0%D1%8F%20%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0.%20DSCF0060.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%203.webm",
+        "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_3.webm",
         "tags": [
-          "t_action"
+          "s_switch"
         ],
-        "license_note": "Additional Chelonia mydas underwater footage. Commons API checked 2026-10-27: original video exists and commercial-reuse license confirmed. Credit original author, license URL, edits and ShareAlike terms where applicable.",
-        "license": "CC BY-SA 4.0",
-        "author": "Kora27",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different captive group footage.",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 18793984
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sea%20snakes%20and%20marine%20turtles%20observed%20at%20the%20Chesterfield-Bellona%20reef%20complex%20in%20the%20Coral%20Sea%20Marine%20Park%20(Southwest%20Pacific)%20(Ifremer%2000669-78070%20-%2031417).webm",
-        "assetTitle": "Sea snakes and marine turtles observed at the Chesterfield-Bellona reef complex in the Coral Sea Marine Park (Southwest Pacific) (Ifremer 00669-78070 - 31417).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sea_snakes_and_marine_turtles_observed_at_the_Chesterfield-Bellona_reef_complex_in_the_Coral_Sea_Marine_Park_(Southwest_Pacific)_(Ifremer_00669-78070_-_31417).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%204.webm",
+        "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 4.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_4.webm",
         "tags": [
-          "t_payoff"
+          "s_payoff"
         ],
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "author": "Dominique Pelletier, Abigail Powell, William Roman, Liliane Carpentier (IFREMER)",
-        "license_note": "IFREMER Océanothèque source 31417, explicitly labeled Chelonia mydas, 5.36s 1920x1080, Commons CC BY 4.0 checked 2026-10-27. Replaces the distant static mating footage responsible for a 1.27s freeze at 36-37s in previous render. Must be paired as a 3-4s distinct payoff shot and visually inspected before release."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Group context, behavior to confirm on frame QA.",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 16198193
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%205.webm",
+        "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 5.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_5.webm",
+        "tags": [
+          "s_payoff"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate group context, frame QA required.",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 39424621
       }
     ],
     "min_unique_videos": 6,
@@ -819,62 +503,423 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-27-daily-green_sea_turtle_life-narrative-v5-ifremer-frozen-payoff-repair",
+    "revision": "2026-10-28-daily-meerkat_lookout_teamwork-narrative-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "A green sea turtle can spend years in the ocean. But where does that journey begin?",
-        "scene": "Open on an identifiable green sea turtle swimming underwater; no invented beach nesting.",
+        "text": "Why do meerkats stay together when they move across open ground?",
+        "scene": "Real meerkat group walking or gathered; no invented predator.",
         "tags": [
-          "t_hook"
+          "s_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "OCEAN JOURNEY"
+        "overlay_label": "TEAMWORK"
       },
       {
-        "text": "It begins on sandy shores, where tiny hatchlings must make their way toward the waves.",
-        "scene": "Authentic green sea turtle hatchlings visibly crossing sand toward the sea; do not imply captive turtle is wild.",
+        "text": "In the wild, they live in social groups that share space and burrows.",
+        "scene": "Captive meerkat family illustrates group structure; do not claim zoo footage is wild.",
         "tags": [
-          "t_setup"
+          "s_group"
         ],
-        "story_role": "setup",
-        "overlay_label": "FIRST STEPS"
+        "story_role": "setup"
       },
       {
-        "text": "Those that survive grow into powerful swimmers, moving through reefs and open water.",
-        "scene": "Actual adult green sea turtle swimming past reef or open water, without unrelated species.",
+        "text": "One meerkat may stand upright and scan while its neighbors search for food.",
+        "scene": "Documented upright, scanning meerkat at Ueno Zoo, without claiming visible foraging neighbors.",
         "tags": [
-          "t_action"
+          "s_sentry"
         ],
         "story_role": "action",
-        "overlay_label": "STRONG SWIMMER"
+        "overlay_label": "ON LOOKOUT"
       },
       {
-        "text": "As they grow, green turtles explore reefs and seagrass meadows in search of food.",
-        "scene": "Show genuine green sea turtles in reef or seagrass habitats. Do not imply active grazing unless clearly visible.",
+        "text": "A lookout can notice approaching danger and give the group time to react.",
+        "scene": "Meerkat group footage; no invented alarm call or predator event.",
         "tags": [
-          "t_explain"
+          "s_explain"
         ],
-        "story_role": "explanation",
-        "overlay_label": "UNDERWATER GRAZER"
+        "story_role": "explanation"
       },
       {
-        "text": "Protecting sea turtles also matters. Conservation centers help people understand the threats they face.",
-        "scene": "Documented turtle conservation center context; do not claim a specific rescue that is not shown.",
+        "text": "As the group moves, different individuals can take turns watching their surroundings.",
+        "scene": "Two distinct real meerkat group clips, no implication of same continuous event.",
         "tags": [
-          "t_twist"
+          "s_switch"
         ],
         "story_role": "twist",
-        "overlay_label": "CONSERVATION"
+        "overlay_label": "TAKING TURNS"
       },
       {
-        "text": "From tiny hatchlings on the beach to graceful swimmers at sea, every survivor has crossed two worlds.",
-        "scene": "End on close green sea turtle in open water, resolving the contrast with hatchling journey.",
+        "text": "So that famous upright pose is part of teamwork, not just a cute photo.",
+        "scene": "Meerkat family and sentry-context group activity; two distinct authentic clips.",
         "tags": [
-          "t_payoff"
+          "s_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "TWO WORLDS"
+        "overlay_label": "GROUP SURVIVAL"
+      }
+    ]
+  },
+  "african_elephant_mud_bath": {
+    "title": "WHY AFRICAN ELEPHANTS COVER THEMSELVES IN MUD",
+    "script": "Why would an African bush elephant deliberately coat its body in mud? On a hot day, a giant body needs ways to shed heat. At a waterhole, elephants use their trunks to spray water and splash. Water cools the skin, and a muddy coating can offer relief from biting insects. Other elephants may join the same waterhole, turning the bath into a shared routine. So this muddy giant isn't neglecting its skin. It's taking care of it.",
+    "caption": "Mud baths are survival gear for African elephants. 🐘 #AfricanElephant #Wildlife #AnimalBehavior #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20Mud%20Bath.ogv",
+        "assetTitle": "Elephant Mud Bath.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_Mud_Bath.ogv",
+        "tags": [
+          "e_hook"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. African elephant mud bathing, archival footage.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 6278466
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20bush%20elephants%20%28Loxodonta%20africana%29.webm",
+        "assetTitle": "African bush elephants (Loxodonta africana).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_bush_elephants_(Loxodonta_africana).webm",
+        "tags": [
+          "e_heat"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Actual Loxodonta africana.",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 37714719
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20elephants%20%28Loxodonta%20africana%29%20splashing.webm",
+        "assetTitle": "African elephants (Loxodonta africana) splashing.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_elephants_(Loxodonta_africana)_splashing.webm",
+        "tags": [
+          "e_water"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit splashing behavior.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 32782166
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20drinking%20water%20-%20KNP%20-%20001.ogv",
+        "assetTitle": "Elephant drinking water - KNP - 001.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_drinking_water_-_KNP_-_001.ogv",
+        "tags": [
+          "e_water"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic drinking at waterhole, not necessarily spraying.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 6308186
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20bathing-001.ogv",
+        "assetTitle": "Elephant bathing-001.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_bathing-001.ogv",
+        "tags": [
+          "e_explain"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Bathing footage.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 3528861
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20Elephants%20%28Loxodonta%20africana%29%20at%20Mphafa%20waterhole%20....webm",
+        "assetTitle": "Savanna Elephants (Loxodonta africana) at Mphafa waterhole ....webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savanna_Elephants_(Loxodonta_africana)_at_Mphafa_waterhole_....webm",
+        "tags": [
+          "e_group"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic waterhole scene.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 38951671
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20Elephants%20%28Loxodonta%20africana%29%20bathing%20....webm",
+        "assetTitle": "Savanna Elephants (Loxodonta africana) bathing ....webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savanna_Elephants_(Loxodonta_africana)_bathing_....webm",
+        "tags": [
+          "e_payoff"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic bathing footage.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 25799745
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20at%20Naibosho%20Conservancy%2C%20Kenya.webm",
+        "assetTitle": "Elephants at Naibosho Conservancy, Kenya.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephants_at_Naibosho_Conservancy%2C_Kenya.webm",
+        "tags": [
+          "e_payoff"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Distinct elephant group, no invented behavior.",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 135572887
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Why would an African bush elephant deliberately coat its body in mud?",
+        "scene": "Real African elephant mud-bathing clip, no artificial footage.",
+        "tags": [
+          "e_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "MUD BATH"
+      },
+      {
+        "text": "On a hot day, a giant body needs ways to shed heat.",
+        "scene": "Authentic African bush elephants in natural setting.",
+        "tags": [
+          "e_heat"
+        ],
+        "story_role": "setup"
+      },
+      {
+        "text": "At a waterhole, elephants use their trunks to spray water and splash.",
+        "scene": "Elephants splashing and separately drinking water, without asserting both show spraying.",
+        "tags": [
+          "e_water"
+        ],
+        "story_role": "action",
+        "overlay_label": "COOLING DOWN"
+      },
+      {
+        "text": "Water cools the skin, and a muddy coating can offer relief from biting insects.",
+        "scene": "Actual elephant bathing, explanation supported by natural behavior.",
+        "tags": [
+          "e_explain"
+        ],
+        "story_role": "explanation"
+      },
+      {
+        "text": "Other elephants may join the same waterhole, turning the bath into a shared routine.",
+        "scene": "Multiple African elephants at real waterhole; not represented as one continuous incident.",
+        "tags": [
+          "e_group"
+        ],
+        "story_role": "twist",
+        "overlay_label": "SHARED WATERHOLE"
+      },
+      {
+        "text": "So this muddy giant isn't neglecting its skin. It's taking care of it.",
+        "scene": "Authentic elephant bathing footage followed by distinct elephant group.",
+        "tags": [
+          "e_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "NATURAL SKIN CARE"
+      }
+    ]
+  },
+  "komodo_dragon_tracking_scent": {
+    "title": "THE SECRET BEHIND A KOMODO DRAGON'S SLOW WALK",
+    "script": "Why does a Komodo dragon move with such deliberate steps? This enormous monitor lizard lives naturally on a small group of Indonesian islands. Watch the heavy body advance as strong legs and a long tail help it balance. Its forked tongue gathers scent particles, giving it clues about nearby animals. That calm-looking pace can be deceptive: Komodo dragons are powerful hunters and scavengers. So those measured steps belong to a predator constantly exploring its world.",
+    "caption": "Komodo dragons are much more than giant lizards. 🦎 #KomodoDragon #Reptiles #Wildlife #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20Dragon.webm",
+        "assetTitle": "Komodo Dragon.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_Dragon.webm",
+        "tags": [
+          "k_hook"
+        ],
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "author": "Joseolgon",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Lisbon Zoo, 6.28s original; hook must fit without freezing.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 25347062
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Varanidae%20-%20Varanus%20komodoensis%20-%20Komodo%20Dragon.webm",
+        "assetTitle": "Varanidae - Varanus komodoensis - Komodo Dragon.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanidae_-_Varanus_komodoensis_-_Komodo_Dragon.webm",
+        "tags": [
+          "k_islands"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. San Diego Zoo species portrait.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 13099722
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%202%20Part%201.ogv",
+        "assetTitle": "Komodo dragons video 2 Part 1.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_2_Part_1.ogv",
+        "tags": [
+          "k_walk"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo species footage, movement to confirm.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 4670252
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%202%20Part%202.ogv",
+        "assetTitle": "Komodo dragons video 2 Part 2.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_2_Part_2.ogv",
+        "tags": [
+          "k_walk"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate short Komodo footage, 10s.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 656879
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%203%20Part%201.ogv",
+        "assetTitle": "Komodo dragons video 3 Part 1.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_3_Part_1.ogv",
+        "tags": [
+          "k_sense"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Species footage, no unverified tongue claim.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 2815311
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%20with%20no%20audio.wmv.ogv",
+        "assetTitle": "Komodo dragons video with no audio.wmv.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_with_no_audio.wmv.ogv",
+        "tags": [
+          "k_power"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo footage, no invented predation.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 4110204
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video.ogv",
+        "assetTitle": "Komodo dragons video.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video.ogv",
+        "tags": [
+          "k_payoff"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo movement.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 10621771
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Varanus%20komodoensis3.ogv",
+        "assetTitle": "Varanus komodoensis3.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis3.ogv",
+        "tags": [
+          "k_payoff"
+        ],
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different Komodo footage, 15s.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 3428644
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-28-daily-komodo_dragon_tracking_scent-narrative-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Why does a Komodo dragon move with such deliberate steps?",
+        "scene": "Real Komodo dragon on the move in Lisbon Zoo; captive context retained.",
+        "tags": [
+          "k_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "GIANT LIZARD"
+      },
+      {
+        "text": "This enormous monitor lizard lives naturally on a small group of Indonesian islands.",
+        "scene": "Authentic Komodo dragon species in zoo; no claim that this footage is Indonesian wilderness.",
+        "tags": [
+          "k_islands"
+        ],
+        "story_role": "setup"
+      },
+      {
+        "text": "Watch the heavy body advance as strong legs and a long tail help it balance.",
+        "scene": "Authentic Komodo dragon walking; no fabricated attack or prey.",
+        "tags": [
+          "k_walk"
+        ],
+        "story_role": "action",
+        "overlay_label": "HEAVY STEPS"
+      },
+      {
+        "text": "Its forked tongue gathers scent particles, giving it clues about nearby animals.",
+        "scene": "Real Komodo portrait/movement while narrating sensory biology; no claim a tongue flick is visible.",
+        "tags": [
+          "k_sense"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "SCENT TRACKING"
+      },
+      {
+        "text": "That calm-looking pace can be deceptive: Komodo dragons are powerful hunters and scavengers.",
+        "scene": "Real Komodo species footage; no staged predation, no fake bite.",
+        "tags": [
+          "k_power"
+        ],
+        "story_role": "twist"
+      },
+      {
+        "text": "So those measured steps belong to a predator constantly exploring its world.",
+        "scene": "Authentic Komodo dragon movement; closes walking hook without implying active hunt.",
+        "tags": [
+          "k_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "ALWAYS EXPLORING"
       }
     ]
   }
