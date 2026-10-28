@@ -477,8 +477,15 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
             ])
         else:
             srcdur = max(0.1, float(source_meta.get("_duration") or probe_duration(src)))
-            playable = min(shot_len, srcdur)
-            maxstart = max(0.0, srcdur - playable)
+            # A verified real time-lapse may be accelerated to show actual
+            # movement instead of holding near-static frames for a full block.
+            # This changes playback timing only: no synthetic zoom or looping.
+            speed = float(source_meta.get("time_lapse_speed") or 1.0)
+            if not 1.0 <= speed <= 8.0:
+                raise RuntimeError(f"{key}: invalid source time_lapse_speed={speed}")
+            source_seconds = min(shot_len * speed, srcdur)
+            playable = source_seconds / speed
+            maxstart = max(0.0, srcdur - source_seconds)
             # Editorially verified action cues may require a specific portion of
             # the authentic clip (e.g. an animal actually performing a behavior).
             requested_start = source_meta.get("start_seconds")
@@ -494,9 +501,10 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
                 start = 0.0 if maxstart <= 0 else ((i + 1) * 1.73) % maxstart
             run([
                 "ffmpeg","-y","-hide_banner","-loglevel","error",
-                "-ss",f"{start:.3f}","-i",str(src),
-                "-t",f"{playable:.3f}","-an",
-                "-vf",shot_filter,
+                "-ss",f"{start:.3f}","-t",f"{source_seconds:.3f}",
+                "-i",str(src),"-an",
+                "-vf",f"setpts=PTS/{speed:.6f},{shot_filter}",
+                "-t",f"{playable:.3f}",
                 "-c:v","libx264","-preset","veryfast","-crf","20",
                 "-pix_fmt","yuv420p",str(out)
             ])
