@@ -1,0 +1,47 @@
+{
+  "day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "9f9fb4f75e21ff55cd722a521df089998786ec34",
+  "current_config_blob_sha": "f1e5c7427cb889abc3f10df2f01427c2031f2c4f",
+  "latest_full_render_run_id": 40640522873,
+  "latest_rerender_run_id": 40646315324,
+  "editorial_status": "CANDIDATE_PREVIEW_ONLY; NO TIKTOK APPROVAL",
+  "note": "Research identified portrait genuine monarch sanctuary footage and portrait African penguin beach footage. Inspect real frames and license before replacing; never imply 2026 capture.",
+  "candidates": [
+    {
+      "for_key": "monarch_autumn_migration_2026",
+      "target_block": "m_payoff",
+      "title": "Santuario de la Mariposa Monarca \"El Rosario\" (Michoacán, México).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Santuario_de_la_Mariposa_Monarca_%22El_Rosario%22_%28Michoac%C3%A1n%2C_M%C3%A9xico%29.webm",
+      "author": "AlexJA77",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "species": "Danaus plexippus",
+      "source_description": "Authentic 2025 portrait video from El Rosario monarch sanctuary in Michoacán, Mexico, butterflies landing on visitor.",
+      "duration_seconds": 36,
+      "dimensions": "1080x1920",
+      "concerns": "Visitor may dominate; verify butterflies large and visible. Archive dated 2025, never present as 2026 sighting. 72.29MB original.",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "african_penguin_feather_care",
+      "target_block": "a_payoff",
+      "title": "Penguin at Boulders 01.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguin_at_Boulders_01.webm",
+      "author": "Islahaddow",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "species": "Spheniscus demersus",
+      "source_description": "Authentic portrait African penguin heading to sea at Boulders Beach.",
+      "duration_seconds": 24.566,
+      "dimensions": "608x1080",
+      "concerns": "Confirm bird remains prominent and no inappropriate black borders. 36.61MB original.",
+      "status": "CANDIDATE_UNREVIEWED"
+    }
+  ],
+  "next_actions": [
+    "Wait for candidate preview artifacts and inspect all three authentic source frames for each.",
+    "Do not interrupt currently running Daily5 render.",
+    "Only replace if candidate is visibly superior and semantics fit block; then update source credits and rerender."
+  ]
+}
