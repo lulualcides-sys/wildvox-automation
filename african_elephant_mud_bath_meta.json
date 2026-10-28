@@ -2,17 +2,17 @@
   "key": "african_elephant_mud_bath",
   "title": "WHY ELEPHANTS NEED DUST AND WATER BATHS",
   "caption": "Why African elephants use dust and water to care for their skin. 🐘 #AfricanElephant #Wildlife #AnimalBehavior #WildVox",
-  "duration": 36.0,
+  "duration": 36.4,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
     {
       "index": 0,
       "start": 0.0,
-      "end": 5.6,
-      "duration": 5.6,
-      "text": "Why do African elephants kick up clouds of dust before cooling off in water?",
-      "scene": "Actual African elephants moving through visible dust; do not imply mud if none is visible.",
+      "end": 6.0,
+      "duration": 6.0,
+      "text": "Why do African elephants need both dusty ground and water to stay comfortable?",
+      "scene": "Authentic African elephant herd walking on a dry riverbed. Do not claim a visible dust cloud, mud bath or same continuous herd event.",
       "tags": [
         "e_hook"
       ],
@@ -22,8 +22,8 @@
     },
     {
       "index": 1,
-      "start": 5.6,
-      "end": 11.125,
+      "start": 6.0,
+      "end": 11.525,
       "duration": 5.525,
       "text": "Under the hot African sun, their enormous bodies need ways to shed heat.",
       "scene": "Authentic elephant crossing a hot African landscape.",
@@ -36,8 +36,8 @@
     },
     {
       "index": 2,
-      "start": 11.125,
-      "end": 16.75,
+      "start": 11.525,
+      "end": 17.15,
       "duration": 5.625,
       "text": "At a waterhole, elephants wade in, splash, and let water cool their skin.",
       "scene": "Authentic elephants in water, wading and splashing; no invented trunk spraying.",
@@ -50,8 +50,8 @@
     },
     {
       "index": 3,
-      "start": 16.75,
-      "end": 22.925,
+      "start": 17.15,
+      "end": 23.325,
       "duration": 6.175,
       "text": "That water helps remove heat, while dust and mud can also protect sensitive skin.",
       "scene": "Elephants visibly bathing; dust and mud protective roles are explained, not fabricated visually.",
@@ -64,8 +64,8 @@
     },
     {
       "index": 4,
-      "start": 22.925,
-      "end": 29.075000000000003,
+      "start": 23.325,
+      "end": 29.475,
       "duration": 6.15,
       "text": "And when a herd gathers at the same waterhole, cooling down becomes a shared routine.",
       "scene": "Actual elephant herd at a waterhole, not represented as a single continuous event.",
@@ -78,8 +78,8 @@
     },
     {
       "index": 5,
-      "start": 29.075000000000003,
-      "end": 36.0,
+      "start": 29.475,
+      "end": 36.4,
       "duration": 6.925,
       "text": "So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
       "scene": "Distinct real elephants bathing and moving in natural surroundings.",
