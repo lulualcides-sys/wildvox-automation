@@ -819,18 +819,18 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%202%20Part%202.ogv",
-        "assetTitle": "Komodo dragons video 2 Part 2.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_2_Part_2.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Varanus%20komodoensis2.ogv",
+        "assetTitle": "Varanus komodoensis2.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis2.ogv",
         "tags": [
           "k_walk"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate short Komodo footage, 10s.",
         "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Raul654",
+        "license_note": "Original 2006 Disney's Animal Kingdom captive Komodo footage by Raul654, CC BY-SA 3.0. Previewed original at 1.3s, 5.3s, 9.0s on 2026-10-28: distinct vertical climbing movement; original source 10.53s and only <=8s shots allowed. Same filming location as Varanus komodoensis3.ogv; do not claim independently filmed location or wild footage. Preserve author attribution, license link, adaptation disclosure and ShareAlike obligations.",
         "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 656879,
-        "author": "Brocken Inaglory (original); Dhatfield (derivative)"
+        "verified_size_bytes": 2026538
       },
       {
         "type": "video",
@@ -899,7 +899,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-komodo_dragon_tracking_scent-narrative-v1",
+    "revision": "2026-10-28-daily-komodo_dragon_tracking_scent-narrative-v2-verified-vertical-climbing",
     "publication_hold": true,
     "visual_plan": [
       {
