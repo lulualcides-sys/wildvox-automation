@@ -1,0 +1,71 @@
+{
+  "editorial_day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "audited_workflow_run": 40741591676,
+  "render_config_commit": "559482ee5d4c3004795ad800493308cd34edcd0e",
+  "media_commit": "d0e1feb32d573a15854d5767a0fe66ae847999f9",
+  "qa_scope": "All five fresh run artifacts downloaded; visually inspected five review.jpg, six block-midpoint MP4 frames each, 8 source-preview strips each; monarch payoff additionally inspected at 32.5,34.5,36.5,38.5,39.4 seconds. Independently probed all five MP4s and sampled 4 frames/sec for near-static motion.",
+  "technical_qa": {
+    "status": "PASS",
+    "report_artifact": 12840217833,
+    "dimensions": "1080x1920",
+    "all_narration_blocks": 6,
+    "all_source_urls_distinct": true,
+    "all_sources_with_author_license_sourcePage": true,
+    "near_static_max_lt_1_gray_diff_seconds": 0.25
+  },
+  "editorial_approval": false,
+  "publication_hold": true,
+  "video_findings": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration": 39.675,
+      "mp4_git_blob_sha": "0f7c88e93b27b642391f63349cf056ae4c9deb05",
+      "status": "HOLD",
+      "reason": "Hook is visually small in wide flowers; payoff monarch perched on visitor's face verified at 32.5,34.5,38.5s, and 2025 archival label present. Need stronger first-second subject scale and complete attribution delivery verification."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration": 32.725,
+      "mp4_git_blob_sha": "ffff750341fb2b4e18fac881676899cbea7b5d8",
+      "status": "HOLD",
+      "reason": "Authentic grooming/feather close-ups but opening is distant on rocky background, coast and final shore shots include small penguins. Hook must visibly demonstrate combing and payoff needs stronger subject scale."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration": 31.125,
+      "mp4_git_blob_sha": "28689b73fc40a2e52f2ef5bc40c2118741cca120",
+      "status": "HOLD",
+      "reason": "Upright meerkat close-ups work, but danger explanation and final wild group are distant and cannot show the claimed group reaction; needs clearer evidence-matched close visual."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration": 36.4,
+      "mp4_git_blob_sha": "efac0839ebb23c549b46a3974a05cd8334fde38a",
+      "status": "HOLD",
+      "reason": "Opening dry-riverbed herd and waterhole shots remain distant; water narration says splash while sampled frame shows mostly wading; improve action match and subject scale."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration": 34.9,
+      "mp4_git_blob_sha": "369f42b978c5190b2ecb9c4e0623f22ae4720822",
+      "status": "HOLD",
+      "reason": "Blocks 3-6 reuse near-identical 2008 brown Komodo footage, despite different URLs/bytes; excessive visual repetition. Independent 2008 Part 2 close-approach source verified at 1.2/5.1/8.7s and substituted in config commit eb05926c; must re-render and inspect new batch."
+    }
+  ],
+  "licensing": "40 source records contain author, sourcePage and license metadata; publication requires accessible full creator credits and license links plus CC BY-SA adaptation compatibility and TikTok platform-terms check. Metadata alone is not approval.",
+  "tiktok": {
+    "brandId": 7242311,
+    "account": "@wildvox",
+    "scheduled_posts_today": 0,
+    "published_rows_today": 0,
+    "provider_post_id": null,
+    "action": "No scheduling or publication attempted while QA failed."
+  },
+  "follow_up": {
+    "config_fix_commit": "eb05926c1b34f9900c085b7887559743c2838270",
+    "new_render_run": 40751860941,
+    "status_at_check": "queued",
+    "policy": "Do not reuse this QA verdict for the new render; inspect all five reviews and MP4 frames again, keep hold."
+  }
+}
