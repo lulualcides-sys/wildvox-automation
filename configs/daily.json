@@ -1,7 +1,7 @@
 {
   "monarch_autumn_migration_2026": {
     "title": "HOW MONARCH BUTTERFLIES FIND THEIR WAY TO MEXICO",
-    "script": "How can a monarch butterfly this fragile travel thousands of miles toward Mexico? Its journey begins when an adult emerges from a chrysalis, ready to feed and fly. That adult feeds on nectar, building the energy needed for a long southbound flight. Sunlight and an internal clock help monarchs hold a heading as the seasons change. This October, observers reported monarchs reaching northern Mexico during the ongoing fall migration. So those tiny wings aren't wandering at random. They're part of one of nature's great migrations.",
+    "script": "How can a monarch butterfly this fragile travel thousands of miles toward Mexico? Its journey begins when an adult emerges from a chrysalis, ready to feed and fly. That adult feeds on nectar, building the energy needed for a long southbound flight. Sunlight and an internal clock help monarchs hold a heading as the seasons change. This October, observers reported monarchs reaching northern Mexico during the ongoing fall migration. So those tiny wings can lead to Mexico's winter forests, where monarchs sometimes land right on visitors.",
     "caption": "Monarchs are moving toward Mexico this October. 🦋 #MonarchButterfly #Migration #Wildlife #WildVox",
     "sources": [
       {
@@ -45,11 +45,12 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "author": "Danmation",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016. Editorial time-lapse correction 2026-10-28: use a real 36-second source window (26s onward) played at 6x to show emergence, with no generated frames or looping; final visual and freeze QA still required.",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016. Editorial time-lapse correction 2026-10-28: use a real 36-second source window (26s onward) played at 6x to show emergence, with no generated frames or looping; final visual and freeze QA still required. Independent render 40646315324 still showed 1.267s static at 6x; corrected to 8x 22–70s and opt-in crop of encoded black padding, pending new full MP4 QA.",
         "license_verified_at": "2026-10-28",
         "verified_size_bytes": 4323084,
-        "start_seconds": 26,
-        "time_lapse_speed": 6
+        "start_seconds": 22,
+        "time_lapse_speed": 8,
+        "crop_black_bars": true
       },
       {
         "type": "video",
@@ -107,24 +108,26 @@
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
         "author": "Anthony92931",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Archival wildflower footage; not footage of 2026 sightings.",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Archival wildflower footage; not footage of 2026 sightings. Encoded black borders cropped from source before blurred-background portrait fill; no synthetic zoom.",
         "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 7378629
+        "verified_size_bytes": 7378629,
+        "crop_black_bars": true
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Butterfly%20Migration.ogv",
-        "assetTitle": "Monarch Butterfly Migration.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Migration.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Santuario%20de%20la%20Mariposa%20Monarca%20%22El%20Rosario%22%20%28Michoac%C3%A1n%2C%20M%C3%A9xico%29.webm",
+        "assetTitle": "Santuario de la Mariposa Monarca \"El Rosario\" (Michoacán, México).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Santuario_de_la_Mariposa_Monarca_%22El_Rosario%22_%28Michoac%C3%A1n%2C_M%C3%A9xico%29.webm",
         "tags": [
           "m_payoff"
         ],
-        "license": "Public domain",
-        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-        "author": "U.S. Fish and Wildlife Service",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license Public domain; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. USFWS archival Virginia migration, not Mexico.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "AlexJA77",
         "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 7094976
+        "verified_size_bytes": 75803101,
+        "start_seconds": 16,
+        "license_note": "Commons source page and authentic original frames independently checked 2026-10-28; filmed at El Rosario sanctuary in Mexico on 2025-01-26. 16–22s shows monarch on visitor. Do NOT label as 2026 field footage. CC BY-SA 4.0 with creator credits and adaptation disclosure; new rendered frames must pass editorial QA."
       }
     ],
     "min_unique_videos": 6,
@@ -133,7 +136,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v3-emergence-motion-fix",
+    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v4-mexico-payoff-crop-freeze",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -182,13 +185,13 @@
         "overlay_label": "ARCHIVAL FOOTAGE"
       },
       {
-        "text": "So those tiny wings aren't wandering at random. They're part of one of nature's great migrations.",
-        "scene": "Actual archival monarch migration aggregation in Virginia; no false claim of filming in Mexico.",
+        "text": "So those tiny wings can lead to Mexico's winter forests, where monarchs sometimes land right on visitors.",
+        "scene": "Actual 2025 archival portrait video from El Rosario, Mexico, showing a monarch landing on a visitor. Never present as a 2026 sighting.",
         "tags": [
           "m_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "A REAL MIGRATION"
+        "overlay_label": "MEXICO • 2025 ARCHIVE"
       }
     ],
     "trend_priority": true,
@@ -294,18 +297,19 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2004.webm",
-        "assetTitle": "African penguins, Betty's Bay 04.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_04.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguin%20at%20Boulders%2001.webm",
+        "assetTitle": "Penguin at Boulders 01.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguin_at_Boulders_01.webm",
         "tags": [
           "a_payoff"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony payoff.",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "author": "Islahaddow",
         "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 34414879,
-        "author": "Spasimir Pilev"
+        "verified_size_bytes": 38392268,
+        "start_seconds": 0,
+        "license_note": "Authentic African penguin heading toward sea at Boulders Beach, 2018. Real portrait frames checked 2026-10-28; use first 0–5s where penguin is large, not distant end. Creator Islahaddow; CC BY-SA 4.0, modified footage requires attribution and ShareAlike. Recheck final MP4."
       },
       {
         "type": "video",
@@ -329,7 +333,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v1",
+    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v2-portrait-payoff",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -377,7 +381,7 @@
       },
       {
         "text": "So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
-        "scene": "Authentic African penguins at Betty's Bay on shore; two different shots available for the longer payoff.",
+        "scene": "Authentic portrait African penguin walking from shore toward the sea, first seconds of Boulders Beach source, followed by distinct colony footage.",
         "tags": [
           "a_payoff"
         ],
