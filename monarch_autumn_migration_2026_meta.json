@@ -2,7 +2,7 @@
   "key": "monarch_autumn_migration_2026",
   "title": "HOW MONARCH BUTTERFLIES FIND THEIR WAY TO MEXICO",
   "caption": "Monarchs are moving toward Mexico this October. 🦋 #MonarchButterfly #Migration #Wildlife #WildVox",
-  "duration": 38.83,
+  "duration": 39.67,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -79,15 +79,15 @@
     {
       "index": 5,
       "start": 31.75,
-      "end": 38.825,
-      "duration": 7.075,
-      "text": "So those tiny wings aren't wandering at random. They're part of one of nature's great migrations.",
-      "scene": "Actual archival monarch migration aggregation in Virginia; no false claim of filming in Mexico.",
+      "end": 39.675,
+      "duration": 7.925,
+      "text": "So those tiny wings can lead to Mexico's winter forests, where monarchs sometimes land right on visitors.",
+      "scene": "Actual 2025 archival portrait video from El Rosario, Mexico, showing a monarch landing on a visitor. Never present as a 2026 sighting.",
       "tags": [
         "m_payoff"
       ],
       "story_role": "payoff",
-      "overlay_label": "A REAL MIGRATION",
+      "overlay_label": "MEXICO • 2025 ARCHIVE",
       "fx": []
     }
   ],
@@ -133,11 +133,12 @@
       "license": "CC BY 3.0",
       "license_url": "https://creativecommons.org/licenses/by/3.0",
       "author": "Danmation",
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016. Editorial time-lapse correction 2026-10-28: use a real 36-second source window (26s onward) played at 6x to show emergence, with no generated frames or looping; final visual and freeze QA still required.",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016. Editorial time-lapse correction 2026-10-28: use a real 36-second source window (26s onward) played at 6x to show emergence, with no generated frames or looping; final visual and freeze QA still required. Independent render 40646315324 still showed 1.267s static at 6x; corrected to 8x 22–70s and opt-in crop of encoded black padding, pending new full MP4 QA.",
       "license_verified_at": "2026-10-28",
       "verified_size_bytes": 4323084,
-      "start_seconds": 26,
-      "time_lapse_speed": 6
+      "start_seconds": 22,
+      "time_lapse_speed": 8,
+      "crop_black_bars": true
     },
     {
       "type": "video",
@@ -195,24 +196,26 @@
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "author": "Anthony92931",
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Archival wildflower footage; not footage of 2026 sightings.",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Archival wildflower footage; not footage of 2026 sightings. Encoded black borders cropped from source before blurred-background portrait fill; no synthetic zoom.",
       "license_verified_at": "2026-10-28",
-      "verified_size_bytes": 7378629
+      "verified_size_bytes": 7378629,
+      "crop_black_bars": true
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Butterfly%20Migration.ogv",
-      "assetTitle": "Monarch Butterfly Migration.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Migration.ogv",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Santuario%20de%20la%20Mariposa%20Monarca%20%22El%20Rosario%22%20%28Michoac%C3%A1n%2C%20M%C3%A9xico%29.webm",
+      "assetTitle": "Santuario de la Mariposa Monarca \"El Rosario\" (Michoacán, México).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Santuario_de_la_Mariposa_Monarca_%22El_Rosario%22_%28Michoac%C3%A1n%2C_M%C3%A9xico%29.webm",
       "tags": [
         "m_payoff"
       ],
-      "license": "Public domain",
-      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-      "author": "U.S. Fish and Wildlife Service",
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license Public domain; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. USFWS archival Virginia migration, not Mexico.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "AlexJA77",
       "license_verified_at": "2026-10-28",
-      "verified_size_bytes": 7094976
+      "verified_size_bytes": 75803101,
+      "start_seconds": 16,
+      "license_note": "Commons source page and authentic original frames independently checked 2026-10-28; filmed at El Rosario sanctuary in Mexico on 2025-01-26. 16–22s shows monarch on visitor. Do NOT label as 2026 field footage. CC BY-SA 4.0 with creator credits and adaptation disclosure; new rendered frames must pass editorial QA."
     }
   ],
   "review_sheet": "monarch_autumn_migration_2026_review.jpg",

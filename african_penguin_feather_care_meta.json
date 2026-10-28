@@ -82,7 +82,7 @@
       "end": 32.5,
       "duration": 6.65,
       "text": "So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
-      "scene": "Authentic African penguins at Betty's Bay on shore; two different shots available for the longer payoff.",
+      "scene": "Authentic portrait African penguin walking from shore toward the sea, first seconds of Boulders Beach source, followed by distinct colony footage.",
       "tags": [
         "a_payoff"
       ],
@@ -184,18 +184,19 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2004.webm",
-      "assetTitle": "African penguins, Betty's Bay 04.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_04.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguin%20at%20Boulders%2001.webm",
+      "assetTitle": "Penguin at Boulders 01.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguin_at_Boulders_01.webm",
       "tags": [
         "a_payoff"
       ],
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony payoff.",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Islahaddow",
       "license_verified_at": "2026-10-28",
-      "verified_size_bytes": 34414879,
-      "author": "Spasimir Pilev"
+      "verified_size_bytes": 38392268,
+      "start_seconds": 0,
+      "license_note": "Authentic African penguin heading toward sea at Boulders Beach, 2018. Real portrait frames checked 2026-10-28; use first 0–5s where penguin is large, not distant end. Creator Islahaddow; CC BY-SA 4.0, modified footage requires attribution and ShareAlike. Recheck final MP4."
     },
     {
       "type": "video",
