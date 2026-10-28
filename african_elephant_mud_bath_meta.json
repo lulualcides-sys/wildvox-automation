@@ -2,7 +2,7 @@
   "key": "african_elephant_mud_bath",
   "title": "WHY ELEPHANTS NEED DUST AND WATER BATHS",
   "caption": "Why African elephants use dust and water to care for their skin. 🐘 #AfricanElephant #Wildlife #AnimalBehavior #WildVox",
-  "duration": 36.4,
+  "duration": 36.77,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -65,21 +65,21 @@
     {
       "index": 4,
       "start": 23.325,
-      "end": 29.475,
-      "duration": 6.15,
-      "text": "And when a herd gathers at the same waterhole, cooling down becomes a shared routine.",
-      "scene": "Actual elephant herd at a waterhole, not represented as a single continuous event.",
+      "end": 29.85,
+      "duration": 6.525,
+      "text": "And even as a herd moves across dry ground, each elephant still needs ways to cool down.",
+      "scene": "Authentic elephant herd visibly walking together over dry ground. Do not imply that this group footage proves the same waterhole or shows cooling behavior.",
       "tags": [
         "e_group"
       ],
       "story_role": "twist",
-      "overlay_label": "SHARED WATERHOLE",
+      "overlay_label": "HERD ON THE MOVE",
       "fx": []
     },
     {
       "index": 5,
-      "start": 29.475,
-      "end": 36.4,
+      "start": 29.85,
+      "end": 36.775,
       "duration": 6.925,
       "text": "So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
       "scene": "Distinct real elephants bathing and moving in natural surroundings.",
