@@ -72,7 +72,9 @@
       "duration_seconds": 67.523,
       "dimensions": "960x720",
       "concerns": "Archival zoo setting, verify actual animal motion and absence of obstructing bars; do not imply filmed wild on Indonesian islands.",
-      "status": "CANDIDATE_UNREVIEWED"
+      "status": "ALREADY_PRESENT_IN_CURRENT_POOL",
+      "visual_review": "Real original frames at 8.1s, 33.8s, 57.4s confirm genuine captive Komodo, but this is exactly the existing source index 1 in configs/daily.json; replacing another clip would duplicate the same URL/bytes and violate the no-duplicate rule. Reject as new candidate.",
+      "verified_sha256": "497bc0bdbed191a15e174439f66d500339e8935d899f672281b7544810c6be4d"
     }
   ],
   "next_actions": [
@@ -81,8 +83,8 @@
     "Only replace if candidate is visibly superior and semantics fit block; then update source credits and rerender."
   ],
   "preview_workflow": {
-    "run_id": 40647885918,
-    "artifact_id": 12797769416,
+    "run_id": 40648036095,
+    "artifact_id": 12797633703,
     "run_status": "success",
     "editorial_approval": false
   }
