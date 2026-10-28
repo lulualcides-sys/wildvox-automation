@@ -3,8 +3,8 @@
   "timezone": "America/Sao_Paulo",
   "checked_main_sha": "7510bab1190a32d42606ddc1455cda210b94bebd",
   "current_config_blob_sha": "754f779986bc78e3f7c3a7f7c3530641949f4e8a",
-  "editorial_status": "SOURCE_PREVIEW_ONLY_NOT_APPROVED",
-  "note": "Independent 3-frame source preview to replace visually repeated Komodo footage in run 40741591676; preserve publication_hold, verify original author and license, no claim of wild Indonesia.",
+  "editorial_status": "SOURCE_ACCEPTED_PENDING_RENDER_AND_FULL_QA",
+  "note": "Candidate preview completed. Varanus1 rejected near-static; Part2 accepted source-only and used in eb05926c. No CANDIDATE_UNREVIEWED entries remain; prevent repeat previews. Keep hold.",
   "candidates": [
     {
       "for_key": "komodo_dragon_tracking_scent",
@@ -30,8 +30,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "species": "Varanus komodoensis",
       "source_description": "Authentic Komodo dragon, Komodo island, 2008; separate 10-second Part 2 of same original filming, 400x304. Original Wikimedia Commons page checked 2026-10-28.",
-      "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Could repeat the existing 2008 original. Reject if matching framing/sequence, insufficient action, tiny subject or frozen shots; original and derivative authors must both be credited."
+      "status": "VISUALLY_ACCEPTED_SOURCE_ONLY",
+      "concerns": "Could repeat the existing 2008 original. Reject if matching framing/sequence, insufficient action, tiny subject or frozen shots; original and derivative authors must both be credited.",
+      "visual_review": "Independent original frames at 1.2,5.1,8.7s in run 40751565146 show a Komodo dragon actively approaching camera, with closer head and forelimbs; distinct 10.2s Part 2 sequence from existing 2008 wide clips. Source-only accepted for k_payoff, no approval of final MP4.",
+      "verified_sha256": "a0789ca684ddf84ed41af85ce08dc7e0e7d148f8e246c4a773bdf5cca0b03ac4"
     }
   ]
 }
