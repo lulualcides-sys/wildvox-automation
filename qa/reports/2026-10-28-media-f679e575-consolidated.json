@@ -1,0 +1,64 @@
+{
+  "editorial_day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "checked_at": "2026-10-28T12:46:26-03:00",
+  "latest_main_at_review": "c5447d1710204face99ae6bf74454b1d600deab3",
+  "latest_config_blob_sha": "651cdf535f1ca69a0b0599fc1e7c89c098a9426d",
+  "latest_config_change_commit": "46ae368f9cc82d3761ccf6b7705b120f8bdefa98",
+  "latest_media_commit": "f679e575813667f0c36bd8490bee9cc2ec04a30f",
+  "workflow_run_id": null,
+  "workflow_run_status": "NOT_INDEPENDENTLY_RESOLVED_FROM_CONNECTOR",
+  "media_after_config_commit": true,
+  "method": "Fetched current main daily.json, latest media branch commit and all five root *_meta.json and *_review.jpg; independently viewed five 4x4 contact sheets. Checked exact six-block script concatenation, semantic tag coverage, eight unique URLs, author/sourcePage/license metadata, current-day revisions, source parity between config and media meta, and durations. Could not independently decode complete MP4 frames or confirm current run's technical-qa job ID. Green workflows or media publication are NOT editorial approval.",
+  "technical_metadata_valid": true,
+  "mp4_full_frame_review_completed": false,
+  "independent_freeze_test_completed": false,
+  "all_five_editorial_approved": false,
+  "publication_hold": true,
+  "metricool_brand_id": 7242311,
+  "metricool_scheduled_today": 0,
+  "metricool_published_today": 0,
+  "confirmed_post_ids": [],
+  "youtube_attempted": false,
+  "credits": "qa/credits/2026-10-28.md",
+  "credits_adaptation_compliance": "PENDING_FINAL_SHAREALIKE_DELIVERY_VERIFICATION",
+  "pending_source_preview_manifest": "qa/source-candidates-2026-10-28_zz-penguin-coast.json",
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration": 39.67,
+      "review_sha": "ae279585a1466d0a606ef8a82f8a161f3c4abc3f",
+      "approved": false,
+      "findings": "Correct monarch species and authentic emergence; weak Mexico archival payoff: visitor dominates last shots, butterfly small; not acceptable as strong butterfly payoff. Archive label present. Need closer verified footage or narratively honest alternate payoff."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration": 32.5,
+      "review_sha": "bbed694558b7d0074e8c14bc5bdb78fce5a0a9eb",
+      "approved": false,
+      "findings": "Correct African penguin species and visible grooming, but several coast, feather-layer and payoff frames contain tiny penguins or wide rocky background. Two independently licensed potential replacements queued for original frame preview; do not use zoo video as wild coast."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration": 32.85,
+      "review_sha": "b1d2e023347cf1b06dc94b71d6c24fe27a384176",
+      "approved": false,
+      "findings": "Close-up opening improved; middle has zoo-enclosure footage and distant small meerkats; wild group payoff far away. Narration no longer claims an observed sentry switch, but visual evidence remains weak."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration": 36,
+      "review_sha": "93022e7285d982557824aa0f13c3c315991a7393",
+      "approved": false,
+      "findings": "Obstructing safari roof removed, close elephant setup improved. Waterhole and mud-skin protection sequences remain distant, and opening shows a dry herd rather than visible dust clouds. Needs verified visible mud/dust/water close action or narration adjusted to actual footage."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration": 34.9,
+      "review_sha": "5cb16acea2940f99fa723561671e94af422b86f7",
+      "approved": false,
+      "findings": "Current media metadata confirms replacement with Varanus komodoensis2.ogv and frame strip shows distinct climbing shot; however other blocks repeat near-identical archival footage of the same dragon and narration about scent is not visually demonstrated. Captive footage must not imply wild Indonesia."
+    }
+  ],
+  "next": "Inspect new penguin original-frame preview artifact when available; reject weak or duplicate candidates. Find verified visual replacements for remaining weak blocks; update configs only after current main SHA check, preserve holds and credits, rerender, inspect all five latest current-run MP4s and review sheets, complete ShareAlike attribution, then schedule TikTok only if editorial approval passes and Metricool returns real post IDs."
+}
