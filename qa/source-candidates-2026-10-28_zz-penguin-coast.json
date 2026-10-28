@@ -5,7 +5,7 @@
   "current_config_blob_sha": "651cdf535f1ca69a0b0599fc1e7c89c098a9426d",
   "latest_media_branch_commit": "f679e575813667f0c36bd8490bee9cc2ec04a30f",
   "editorial_status": "SOURCE_PREVIEW_ONLY_NOT_APPROVED",
-  "note": "Editorial review of 40719822981 candidate preview: Betty's Bay 04 rejected (tiny birds, dominant landscape, weak vertical framing); Wuppertal Zoo 07 rejected (stationary portrait with no visible preening, captive scene cannot stand for coast). Request independent original-frame previews of three further authentic coastal colony clips. Do not modify daily.json until visual suitability, source license and author verified; publication_hold remains true.",
+  "note": "Editorial review of 40719822981 candidate preview: Betty's Bay 04 rejected (tiny birds, dominant landscape, weak vertical framing); Wuppertal Zoo 07 rejected (stationary portrait with no visible preening, captive scene cannot stand for coast). Request independent original-frame previews of three further authentic coastal colony clips. Do not modify daily.json until visual suitability, source license and author verified; publication_hold remains true. Round-two preview run 40735618744: independently filmed Angelarene88 colony footage accepted only for verified close coast segment ~20s, other two rejected. Full final MP4 QA required.",
   "candidates": [
     {
       "for_key": "african_penguin_feather_care",
@@ -43,8 +43,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "species": "Spheniscus demersus",
       "source_description": "Real African penguins Betty's Bay South Africa; original 15.518s 1920x1080, 43154652 bytes, Commons file page and CC BY-SA 4.0 verified 2026-10-28.",
-      "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Check original frames for penguin prominence and coastal movement; same creator as existing Betty's Bay clips but separate original file; no synthetic zoom."
+      "status": "REJECTED_VISUAL_TINY_SUBJECT",
+      "concerns": "Original frames 1.9s, 7.8s, 13.2s: authentic colony but small penguins amid dominant rocks, weak vertical visual."
     },
     {
       "for_key": "african_penguin_feather_care",
@@ -56,8 +56,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "species": "Spheniscus demersus",
       "source_description": "Independent filmmaker; actual African penguin colony Betty's Bay South Africa; original 44.64s 960x540 33559279 bytes; Commons source page verified 2026-10-28.",
-      "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Verify close subjects, relevant behavior, not repetitive. CC BY-SA credit/adaptation required."
+      "status": "VISUALLY_ACCEPTED_SOURCE_ONLY",
+      "concerns": "Original frames 5.4s, 22.3s, 37.9s: at ~22.3s penguins visible close in independent authentic coastal colony. Use start_seconds=20.0 for a_coast, source-only approval, NOT video editorial approval; preserve Angelarene88 CC BY-SA 3.0 credit and adaptation obligations."
     },
     {
       "for_key": "african_penguin_feather_care",
@@ -69,8 +69,8 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "species": "Spheniscus demersus",
       "source_description": "Real African penguins and rock hyrax in Betty's Bay; original 6.943s 1920x1080 20350130 bytes; Commons source page verified 2026-10-28.",
-      "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Reject if hyrax dominates, penguins tiny, or shot too short for selected spoken block; no freeze >1s."
+      "status": "REJECTED_VISUAL_WRONG_PRIMARY_SUBJECT",
+      "concerns": "Original frames 0.8s, 3.5s, 5.9s: rock hyrax dominates foreground and penguins small in background, unsuitable for penguin-led narrative."
     }
   ]
 }
