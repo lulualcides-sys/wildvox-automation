@@ -6,7 +6,7 @@
   "latest_full_render_run_id": 40579108192,
   "current_media_branch_sha": "c746c37f01459f6021c9252f38efea7965d0e943",
   "editorial_status": "REJECTED — five current-day review JPGs independently inspected; do not schedule",
-  "note": "Research candidates only, NOT approved replacements. Visually verify actual source timestamps, original species, crop/subject scale, watermarks and license, then edit daily.json, render all five, and re-review. No production config changes made here.",
+  "note": "2026-10-27 replacement preview run 40610353312 inspected real source frames. Two candidates rejected for tiny subject/poor behavior visibility; large peacock candidate needs a smaller authentic transcode before inspection. None approved. Do not change daily.json or rerender with these candidates.",
   "candidates": [
     {
       "for_key": "green_sea_turtle_two_generations",
@@ -21,7 +21,9 @@
       "dimensions": "480x272",
       "duration_seconds": 75,
       "concerns": "Low resolution; requires verified visible feeding and no embedded scientific labels. Do not replace current source blindly.",
-      "status": "CANDIDATE_UNREVIEWED"
+      "status": "REJECTED_VISUAL",
+      "visual_review": "Frames at 9.0s, 37.5s, 63.7s show green turtle distant near the seabed, occupying a small part of the image. Too weak for a close-up explanation or 1080x1920 crop; do not use for t_explain.",
+      "verified_sha256": "5923d2cb2c91fecf1c588f4616215bdf7dcfa553683f25a522bb36f4e539d4d3"
     },
     {
       "for_key": "indian_peafowl_tail_rattle",
@@ -36,7 +38,8 @@
       "dimensions": "3840x2160",
       "duration_seconds": 31.069,
       "concerns": "Original 248.75MB; prefer Commons lower-res transcode after confirming actual behavior, no embedded captions and peahen visibility.",
-      "status": "CANDIDATE_UNREVIEWED"
+      "status": "NEEDS_SMALLER_TRANSCODE",
+      "visual_review": "Original 248.75MB exceeds 90MB preview cap (curl exit 63). No frames reviewed; do not treat as visually approved."
     },
     {
       "for_key": "greater_flamingo_courtship_parade",
@@ -51,7 +54,9 @@
       "dimensions": "1920x1080",
       "duration_seconds": 15.763,
       "concerns": "Feeding behavior not confirmed. Do not tag as upside-down feeding without seeing actual bill-submerged frames.",
-      "status": "CANDIDATE_UNREVIEWED"
+      "status": "REJECTED_VISUAL",
+      "visual_review": "Frames at 1.9s, 7.9s, 13.4s show real greater flamingos, some feeding, but overhead wide zoo enclosure; beaks are too small to demonstrate the upside-down filtration mechanism in portrait. Do not use for f_action/f_payoff.",
+      "verified_sha256": "94b38ea20b99e2d72585416150a4d2d6234263396bd78c6da7b4c68e94ec9eb6"
     }
   ],
   "rejected_options": [
@@ -69,9 +74,16 @@
     }
   ],
   "next_actions": [
-    "Prioritize verified, close, correctly tagged action footage rather than additional rerenders with unchanged sources.",
-    "For turtle hatchlings, Race for survival.webm is already in config but current selected shots show mostly sand: inspect full original and set start_seconds only after identifying a visible hatchling time range.",
-    "Replace IFREMER 31415/31416/31417 only with visibly verified turtle footage; do not confuse documented species in metadata with visible animal in selected seconds.",
-    "Preserve publication_hold=true and TikTok-only Metricool scheduling after full consolidated approval."
-  ]
+    "Find close, authentic green sea turtle footage showing the animal clearly in the actual selected shot; avoid near-empty IFREMER clips.",
+    "Find tight, clear flamingo bill-submerged feeding footage rather than overhead enclosure wide shots.",
+    "For the 248.75MB peacock source, preview a Commons VP9 lower-resolution transcode, then verify the peahen and train-rattle behavior before replacing labeled footage.",
+    "Preserve publication_hold=true and only schedule after fresh consolidated visual approval."
+  ],
+  "preview_workflow": {
+    "run_id": 40610353312,
+    "artifact_id": 12782866015,
+    "run_status": "success",
+    "editorial_approval": false,
+    "day": "2026-10-27"
+  }
 }
