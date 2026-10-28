@@ -71,6 +71,19 @@
       "source_description": "Real African penguins and rock hyrax in Betty's Bay; original 6.943s 1920x1080 20350130 bytes; Commons source page verified 2026-10-28.",
       "status": "REJECTED_VISUAL_WRONG_PRIMARY_SUBJECT",
       "concerns": "Original frames 0.8s, 3.5s, 5.9s: rock hyrax dominates foreground and penguins small in background, unsuitable for penguin-led narrative."
+    },
+    {
+      "for_key": "african_penguin_feather_care",
+      "target_block": "a_fur ONLY if real penguin feather detail/preening visible; captive zoo setting cannot represent wild coast",
+      "title": "Penguins slow motion video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguins_slow_motion_video.webm",
+      "author": "Guido Konrad",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "species": "Spheniscus demersus",
+      "source_description": "Authentic 2019 slow-motion African penguins in Duisburg Zoo, Germany; independently filmed by Guido Konrad, 55.207s, 1920x1080, 15.33MB. Source and license checked on Wikimedia Commons 2026-10-28.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Must inspect original video frames for clear feather/preening behavior, subject size and 9:16 usability. Zoo context is not a South African coastal colony. If static or no preening, reject; do not add to daily.json without independent visual review."
     }
   ]
 }
