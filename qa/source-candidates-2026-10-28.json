@@ -58,6 +58,21 @@
       "status": "REJECTED_VISUAL_ANIMATED_MAP",
       "visual_review": "Original source preview run 40647885918, artifact 12797769416, actual frames at 5.2s, 21.5s, 36.5s show entirely drawn map/cartoon lizard and geographic graphics with broadcaster watermark. Not authentic animal footage; unsuitable for a video-first wildlife behavioral story. Do not substitute.",
       "verified_sha256": "654677e1832e38c64f57c7e7946b818eb682c267d32ef20700169051f18a6cf4"
+    },
+    {
+      "for_key": "komodo_dragon_tracking_scent",
+      "target_block": "k_power or k_payoff; must show real tongue or walking",
+      "title": "Varanidae - Varanus komodoensis - Komodo Dragon.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanidae_-_Varanus_komodoensis_-_Komodo_Dragon.webm",
+      "author": "Hectonichus",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "species": "Varanus komodoensis",
+      "source_description": "Real Komodo dragon in San Diego Zoo, filmed 1995, 68s 960x720 video.",
+      "duration_seconds": 67.523,
+      "dimensions": "960x720",
+      "concerns": "Archival zoo setting, verify actual animal motion and absence of obstructing bars; do not imply filmed wild on Indonesian islands.",
+      "status": "CANDIDATE_UNREVIEWED"
     }
   ],
   "next_actions": [
