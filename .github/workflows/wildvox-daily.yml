@@ -174,16 +174,47 @@ jobs:
           cd /tmp/wildvox-media-branch
           git config user.name "wildvox-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A
+          # A single >100 MB Git push can time out with HTTP 408.
+          # Publish one candidate (MP4 + meta + review) at a time, without
+          # altering editorial holds or attempting TikTok delivery.
+          git config http.version HTTP/1.1
+          push_candidate() {
+            local attempt
+            for attempt in 1 2 3; do
+              if git push origin HEAD:media; then
+                return 0
+              fi
+              # A 408 can occur after the server accepted the push.
+              git fetch origin media
+              if git merge-base --is-ancestor HEAD FETCH_HEAD; then
+                echo "Push accepted remotely despite an ambiguous HTTP response."
+                return 0
+              fi
+              if [ "$attempt" -eq 3 ]; then
+                echo "Unable to push media after three attempts." >&2
+                return 1
+              fi
+              sleep $((attempt * 15))
+            done
+          }
+          for rendered in /tmp/wildvox-public/*.mp4; do
+            key="${rendered##*/}"
+            key="${key%.mp4}"
+            git add -- "${key}.mp4" "${key}_meta.json" "${key}_review.jpg"
+            if git diff --cached --quiet; then
+              continue
+            fi
+            git commit -m "Store rendered WildVox QA candidate: ${key}"
+            push_candidate
+          done
 
-          if git diff --cached --quiet; then
-            echo "No media changes to publish."
-            exit 0
+          # Stage only tracked removals, such as obsolete legacy copies.
+          git add -u
+          if ! git diff --cached --quiet; then
+            git commit -m "Remove obsolete WildVox media copies"
+            push_candidate
           fi
-
-          # Publishing media artifacts is not editorial approval or TikTok delivery.
-          git commit -m "Store rendered WildVox daily QA candidates"
-          git push origin HEAD:media
+          echo "Current-run QA candidates transferred to media branch (not editorial approval)."
 
   technical-qa:
     needs: render
