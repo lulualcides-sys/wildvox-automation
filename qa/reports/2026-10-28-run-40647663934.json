@@ -1,0 +1,88 @@
+{
+  "editorial_day": "2026-10-28",
+  "checked_at": "2026-10-28T04:50:15-03:00",
+  "workflow_run_id": 40647663934,
+  "workflow_head_sha": "5f551d72cf6345b5ebc744308457530f5171a679",
+  "latest_main_sha_at_review": "58e7bea723ea85be3e5d9808a1fce71157b8f2ad",
+  "config_blob_sha": "367243719083b62364771a1cee82ff70ce07727b",
+  "media_commit": "b709494",
+  "qa_method": "Independently inspected all five current-run *_review.jpg 4x4 frame contact sheets fetched from media branch and all five *_meta.json narration timelines. Independently read completed technical-qa job 122684497497 logs, verified source credits and revision against current configs/daily.json, and queried Metricool scheduled posts plus TikTok published analytics for brand 7242311. Did not independently decode full MP4 streams; technical freeze/duration results are GitHub CI checks, not editorial approval.",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "metricool_brand_id": 7242311,
+  "scheduled_post_ids": [],
+  "confirmed_tiktok_posts": [],
+  "no_youtube": true,
+  "credits_file": "qa/credits/2026-10-28.md",
+  "credits_status": "All 40 sources list author and sourcePage and license; final per-adaptation ShareAlike licensing/credit delivery not yet signed off.",
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_seconds": 39.675,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "review_sha": "ae279585a1466d0a606ef8a82f8a161f3c4abc3f",
+      "findings": [
+        "Correct monarch species and authentic chrysalis emergence in 4x4 current-run review sheet; CI no >=1s freeze.",
+        "Payoff at 2025 El Rosario sanctuary is contextually accurate, but human visitor occupies much of frame and butterfly is small in some frames.",
+        "Opening title obscures upper butterfly and payoff is not visually strong enough to approve; archival footage must never be implied to show 2026 sightings."
+      ],
+      "repair": "Select a stronger verified close-up Mexico sanctuary shot or revise payoff composition without zooming/cropping out the butterfly; keep archival label and rerender, inspect MP4."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_seconds": 32.5,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "review_sha": "0f62a31b4b2597cc7c08d14ed55503a448bbb621",
+      "findings": [
+        "Correct African penguins and real preening behavior; 32.5s technical pass.",
+        "Second and fourth scenes contain distant, tiny penguins and wide rocky B-roll; weaken narrated action and viewer comprehension.",
+        "Portrait payoff improves prominence but middle story remains weak."
+      ],
+      "repair": "Replace distant coastal/foraging-support clips with verified close genuine African penguin preening/walking, preserve semantic tags and 8 unique sources."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_seconds": 31.45,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "review_sha": "f44fc119c6ff9647371b8e9bf29266cdf84b0c22",
+      "findings": [
+        "Species and sentry poses match narration, six chronological blocks and safe captions.",
+        "Opening wide shot shows tiny animals; several clips visibly filmed in zoo enclosures while narration describes wild group behavior.",
+        "Narration says groups take turns but review sheet does not demonstrate an actual switch, only different individuals."
+      ],
+      "repair": "Improve hook with verified closer authentic meerkat group video; do not imply zoo footage is wild; make turn-taking narration evidence-compatible or source actual alternating lookouts."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_seconds": 36,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "review_sha": "833b551575602ba17b69db3b09c78f0e259240de",
+      "findings": [
+        "Correct African elephants and waterhole/bathing scenes, 36s technical pass.",
+        "Second block contains a dominant safari-vehicle roof across top of source frame and tiny distant elephant.",
+        "Some bathing shots have elephants too small for effective vertical storytelling."
+      ],
+      "repair": "Replace vehicle-obstructed heat block with close verified elephant footage and review waterhole framing; no synthetic zoom."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_seconds": 34.9,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "review_sha": "178466840d40af3808c665053f341aae40c53458",
+      "findings": [
+        "Correct Komodo species; no fabricated hunting, 34.9s technical pass.",
+        "Multiple different Commons URLs are derivatives of same 2008 footage and look nearly identical across blocks; insufficient true visual variety.",
+        "Captive/zoo footage is presented while explaining Indonesian natural range; no explicit wild-field claim, but contextual distinction needs care.",
+        "Short low-resolution and repeated angles weaken hook, scent explanation and payoff."
+      ],
+      "repair": "Find independently filmed, licensed Komodo movement/tongue clips not already in current 8 URLs; verify original frames and source bytes before swapping; reject animated map candidate and existing duplicate."
+    }
+  ],
+  "approval_rule": "Do not clear publication_hold or schedule TikTok until five current-run videos pass editorial review and adaptation license/credits compliance. CI green is technical only. Never reuse this report for a newer run."
+}
