@@ -89,8 +89,9 @@
       "duration_seconds": 24.323,
       "dimensions": "1920x1080",
       "concerns": "Original Commons file page reports 14.57 MB and commercial reuse; real source frames not yet inspected. Must verify elephant size, absence of obstruction, and no black bars, and run live Commons API source/credit audit before use.",
-      "status": "CANDIDATE_UNREVIEWED",
-      "visual_review": "NOT YET PERFORMED — never use without original-frame preview."
+      "status": "CONDITIONALLY_VERIFIED_FIRST_4_SECONDS_ONLY",
+      "visual_review": "Independently inspected original video preview artifact 12800426766 candidate_04_preview.jpg: authentic African elephant prominently visible at 2.9s, becomes smaller at 12.2s and mostly disappears behind vegetation at 20.7s. Do not select as primary e_heat; use only first seconds if needed.",
+      "verified_sha256": "4017f4ae51787fbdc09f99dfabfc22117141df57021dad3164966b8d3575f69f"
     },
     {
       "for_key": "african_elephant_mud_bath",
@@ -105,21 +106,19 @@
       "duration_seconds": 24.367,
       "dimensions": "1920x1080",
       "concerns": "Commons file page reports 29.2 MB and commercial reuse; animal scale, obstruction and exact behavior not verified from original frames. Do not use before visual inspection and Commons API audit.",
-      "status": "CANDIDATE_UNREVIEWED",
-      "visual_review": "NOT YET PERFORMED — never use without original-frame preview."
+      "status": "VERIFIED_VISUALLY_ACCEPT_FOR_E_HEAT",
+      "visual_review": "Independently inspected original video preview artifact 12800426766, candidate_05_preview.jpg: real African elephant fills frame at 2.9s, 12.2s, 20.7s, unobstructed by safari vehicle, visibly walking in natural savanna. Better than prior e_heat roof obstruction. Keep original framing and blur-fill; no claim of heat behavior directly observable.",
+      "verified_sha256": "dc7a9c0d1f8c710ec9f49c8587f262d68096213a921d2e94c8f7aa1eceadef30"
     }
   ],
   "next_actions": [
-    "Wait for candidate preview artifacts and inspect all three authentic source frames for each.",
-    "Do not interrupt currently running Daily5 render.",
-    "Only replace if candidate is visibly superior and semantics fit block; then update source credits and rerender.",
-    "For elephant e_heat, inspect real frames of two new distinct 2022/2021 licensed candidate sources before swapping vehicle-roof shot; keep hold until rerender and full current-run QA.",
-    "Inspect both new e_heat elephant source contact sheets from the next preview artifact; do not substitute before visual verification."
+    "Replace only elephant e_heat with independently inspected Bernard DUPONT bull footage; preserve other seven URLs and credits, rerender then inspect all five current-run review sheets and technical metrics.",
+    "Keep publication_hold=true until all five videos pass fresh editorial QA and licensing/credit delivery checks."
   ],
   "preview_workflow": {
-    "run_id": 40648036095,
-    "artifact_id": 12797633703,
-    "run_status": "RECHECK_REQUESTED_FOR_TWO_NEW_ELEPHANT_CANDIDATES",
+    "run_id": 40652904766,
+    "artifact_id": 12800426766,
+    "run_status": "SUCCESS_ORIGINAL_FRAMES_VISUALLY_REVIEWED",
     "editorial_approval": false,
     "previous_run_id": 40648036095,
     "previous_artifact_id": 12797633703
