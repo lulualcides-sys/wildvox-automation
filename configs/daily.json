@@ -203,7 +203,7 @@
   },
   "african_penguin_feather_care": {
     "title": "WHY AFRICAN PENGUINS KEEP COMBING THEIR FEATHERS",
-    "script": "Why does this African penguin keep combing its feathers with its bill? Along southern Africa's coast, these birds move between ocean feeding trips and land. Back ashore, they preen, cleaning and lining up their tightly packed feathers. Their tightly packed feathers help keep cold water away from the skin. But they also need safe places on land where they can shelter and breed. So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
+    "script": "Why do African penguins spend so much time grooming with their bills? Along southern Africa's coast, these birds move between ocean feeding trips and land. Back ashore, they preen, cleaning and lining up their tightly packed feathers. Their tightly packed feathers help keep cold water away from the skin. But they also need safe places on land where they can shelter and breed. So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
     "caption": "African penguins have a reason for all that grooming. 🐧 #AfricanPenguin #OceanLife #Wildlife #WildVox",
     "sources": [
       {
@@ -254,19 +254,19 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%20grooming.ogv",
-        "assetTitle": "African penguins grooming.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins_grooming.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wuppertal%20-%20Zoo%20-%20Spheniscus%20demersus%2006%20%281%29%20ies.webm",
+        "assetTitle": "Wuppertal - Zoo - Spheniscus demersus 06 (1) ies.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuppertal_-_Zoo_-_Spheniscus_demersus_06_(1)_ies.webm",
         "tags": [
           "a_hook"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage. Candidate editorial seek to 18s based on original preview showing two African penguins actively grooming; still verify exposure and subject scale in rerender.",
-        "license": "CC0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Frank Vincentz",
+        "license_note": "Wikimedia Commons original page independently verified 2026-10-28: real African penguins (Spheniscus demersus), Wuppertal Zoo, 2013, 16.118s 1920x1080, 12044282 original bytes, author Frank Vincentz, CC BY-SA 3.0 dual license with GFDL alternative. Source-preview workflow 40787608554 original frames at 1.9/8.1/13.7s visually checked: visible beak-to-feather interaction early; source-only acceptance. Use as captive zoo illustration, never claim wild South African coastal setting. Adapted footage requires full creator, source, license and edited-work credit plus ShareAlike compliance before publication. Recheck final MP4 frames, captions, framing and licensing.",
         "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 9818376,
-        "author": "Uusijani",
-        "start_seconds": 18
+        "verified_size_bytes": 12044282,
+        "start_seconds": 0
       },
       {
         "type": "video",
@@ -337,17 +337,17 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v7-later-preen-hook",
+    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v8-zoo-preen-source",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does this African penguin keep combing its feathers with its bill?",
-        "scene": "Authentic two African penguins actively grooming, candidate source start at 18s to avoid the washed-out first seconds. Verify exposure and visible beak-to-feather contact in actual rendered hook; reject if still overexposed.",
+        "text": "Why do African penguins spend so much time grooming with their bills?",
+        "scene": "Real two African penguins visibly grooming in Wuppertal Zoo, Germany. Source 06 original 0–4.8s selected after 2026-10-28 independent 1.9/8.1/13.7s preview; confirm visible bill-to-feather contact in final rendered opening, with captive setting disclosed.",
         "tags": [
           "a_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "FEATHER CARE"
+        "overlay_label": "ZOO FOOTAGE"
       },
       {
         "text": "Along southern Africa's coast, these birds move between ocean feeding trips and land.",
