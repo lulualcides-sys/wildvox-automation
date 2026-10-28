@@ -1,0 +1,23 @@
+{
+  "day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "7e733cd9f296fb74a328943b3f1d3e31e2084458",
+  "current_config_blob_sha": "754f779986bc78e3f7c3a7f7c3530641949f4e8a",
+  "editorial_status": "SOURCE_PREVIEW_ONLY_NOT_APPROVED",
+  "note": "Independent 3-frame source preview to replace visually repeated Komodo footage in run 40741591676; preserve publication_hold, verify original author and license, no claim of wild Indonesia.",
+  "candidates": [
+    {
+      "for_key": "komodo_dragon_tracking_scent",
+      "target_block": "k_sense or k_power",
+      "title": "Varanus komodoensis1.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis1.ogv",
+      "author": "Raul654",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "species": "Varanus komodoensis",
+      "source_description": "January 2006 real Komodo dragon filmed at Disney's Animal Kingdom, 8s, 320x240. Independently sample real source frames to determine if distinct enough from 2008 footage.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Low resolution, zoo footage, short duration. Reject if repeated, blurred, static, too small or unrelated; verify sourcePage attribution."
+    }
+  ]
+}
