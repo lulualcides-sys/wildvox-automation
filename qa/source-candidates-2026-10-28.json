@@ -75,12 +75,45 @@
       "status": "ALREADY_PRESENT_IN_CURRENT_POOL",
       "visual_review": "Real original frames at 8.1s, 33.8s, 57.4s confirm genuine captive Komodo, but this is exactly the existing source index 1 in configs/daily.json; replacing another clip would duplicate the same URL/bytes and violate the no-duplicate rule. Reject as new candidate.",
       "verified_sha256": "497bc0bdbed191a15e174439f66d500339e8935d899f672281b7544810c6be4d"
+    },
+    {
+      "for_key": "african_elephant_mud_bath",
+      "target_block": "e_heat",
+      "title": "African Elephant Feeding in a Game Park.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_Elephant_Feeding_in_a_Game_Park.webm",
+      "author": "Chapelle musa",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "species": "Loxodonta africana",
+      "source_description": "2022 authentic African elephant heading toward forest to feed in Murchison Falls National Park, Uganda; candidate to replace safari-roof-obstructed e_heat scene.",
+      "duration_seconds": 24.323,
+      "dimensions": "1920x1080",
+      "concerns": "Original Commons file page reports 14.57 MB and commercial reuse; real source frames not yet inspected. Must verify elephant size, absence of obstruction, and no black bars, and run live Commons API source/credit audit before use.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "visual_review": "NOT YET PERFORMED — never use without original-frame preview."
+    },
+    {
+      "for_key": "african_elephant_mud_bath",
+      "target_block": "e_heat",
+      "title": "Savanna Elephant (Loxodonta africana) bull ....webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Savanna_Elephant_(Loxodonta_africana)_bull_....webm",
+      "author": "Bernard DUPONT",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "species": "Loxodonta africana",
+      "source_description": "Distinct licensed 24.37-second authentic African savanna bull footage; possible close-up alternative to safari-vehicle roof obstruction.",
+      "duration_seconds": 24.367,
+      "dimensions": "1920x1080",
+      "concerns": "Commons file page reports 29.2 MB and commercial reuse; animal scale, obstruction and exact behavior not verified from original frames. Do not use before visual inspection and Commons API audit.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "visual_review": "NOT YET PERFORMED — never use without original-frame preview."
     }
   ],
   "next_actions": [
     "Wait for candidate preview artifacts and inspect all three authentic source frames for each.",
     "Do not interrupt currently running Daily5 render.",
-    "Only replace if candidate is visibly superior and semantics fit block; then update source credits and rerender."
+    "Only replace if candidate is visibly superior and semantics fit block; then update source credits and rerender.",
+    "For elephant e_heat, inspect real frames of two new distinct 2022/2021 licensed candidate sources before swapping vehicle-roof shot; keep hold until rerender and full current-run QA."
   ],
   "preview_workflow": {
     "run_id": 40648036095,
