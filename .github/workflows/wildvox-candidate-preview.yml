@@ -1,0 +1,42 @@
+name: WildVox — preview replacement footage
+
+on:
+  push:
+    paths:
+      - 'qa/source-candidates-*.json'
+      - 'scripts/preview_source_candidates.py'
+      - '.github/workflows/wildvox-candidate-preview.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wildvox-candidate-preview
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install lightweight preview tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg curl
+          python -m pip install --quiet Pillow
+      - name: Download candidate footage and sample real frames
+        run: |
+          python scripts/preview_source_candidates.py \
+            --candidates qa/source-candidates-2026-10-27.json \
+            --out candidate-previews \
+            --max-megabytes 90
+      - name: Preserve contact sheets and source manifest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wildvox-source-candidate-previews
+          path: candidate-previews/
+          if-no-files-found: warn
+          retention-days: 3
