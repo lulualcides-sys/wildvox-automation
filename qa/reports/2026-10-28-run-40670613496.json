@@ -1,0 +1,75 @@
+{
+  "editorial_day": "2026-10-28",
+  "workflow_run_id": 40670613496,
+  "workflow_head_sha": "21738d998d04d9c959f4758d1df6824a76e29bf8",
+  "latest_main_sha_at_review": "d6dbf9ffffa12d8c11fff816e1b02565771ce019",
+  "config_revision_note": "The later penguin portrait candidate was committed as c597526a and credits updated as d6dbf9; it is NOT included in this completed render and must be rerendered and independently reviewed.",
+  "qa_method": "Independently inspected all five current-run media-branch *_review.jpg 4x4 contact sheets, fetched each corresponding *_meta.json for narration duration, checked all 8 completed GitHub Actions jobs including technical-qa and publish-media, reviewed original Commons licensing for a newly selected penguin portrait, and queried Metricool scheduled posts and TikTok published analytics. Did not decode complete MP4 streams; CI technical pass is not editorial approval.",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "metricool_brand_id": 7242311,
+  "scheduled_post_ids": [],
+  "confirmed_tiktok_posts": [],
+  "youtube_published": false,
+  "credits_file": "qa/credits/2026-10-28.md",
+  "source_license_status": "40-source register exists. Finished-work adaptation ShareAlike/attribution delivery still needs final verification before scheduling.",
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_seconds": 39.67,
+      "review_sha": "ae279585a1466d0a606ef8a82f8a161f3c4abc3f",
+      "editorial_approved": false,
+      "findings": [
+        "Correct monarch and emergence footage; some frames show small butterflies.",
+        "Archival Mexico visitor payoff remains visually weak; avoid presenting footage as recorded in 2026."
+      ],
+      "next_fix": "Find verified stronger archival Mexico sanctuary close-up and rerender."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_seconds": 32.5,
+      "review_sha": "bf840e92913d8a64036b86e87712e341e7b077fe",
+      "editorial_approved": false,
+      "findings": [
+        "Distant coastal and feather-explanation scenes weaken visual clarity.",
+        "New licensed 9.5s portrait grooming candidate was committed after this render and is not yet QA-reviewed."
+      ],
+      "next_fix": "Render new portrait grooming source, inspect current-run review sheet and MP4 frames."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_seconds": 31.45,
+      "review_sha": "f44fc119c6ff9647371b8e9bf29266cdf84b0c22",
+      "editorial_approved": false,
+      "findings": [
+        "Opening group too distant.",
+        "Zoo enclosures visible in several blocks; source visuals do not demonstrate a continuous real turn-taking event."
+      ],
+      "next_fix": "Replace weak wide hook with verified closer group footage, avoid claiming captive footage is wild."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_seconds": 36,
+      "review_sha": "93022e7285d982557824aa0f13c3c315991a7393",
+      "editorial_approved": false,
+      "findings": [
+        "New elephant close-up replaces previously obstructed vehicle-roof scene successfully.",
+        "Waterhole shots remain wide/distant and payoff includes a weak distant shot."
+      ],
+      "next_fix": "Improve distant bathing/waterhole visuals using distinct verified authentic footage; rerender."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_seconds": 34.9,
+      "review_sha": "178466840d40af3808c665053f341aae40c53458",
+      "editorial_approved": false,
+      "findings": [
+        "Several footage sources are derivatives of same old Komodo sequence and appear repetitive.",
+        "Captive footage is used for a narration about natural Indonesian habitat; distinguish context."
+      ],
+      "next_fix": "Source independently filmed licensed Komodo movement footage; verify source frames and metadata before replacement."
+    }
+  ],
+  "approval_rule": "Keep hold until each newer current-day render has its own visual and technical QA and finished-work licensing verified; do not schedule or publish based on this report."
+}
