@@ -1,0 +1,22 @@
+{
+  "day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "9d7c1993ddc242dfdc0031a5551d67c50b92f118",
+  "editorial_status": "SOURCE_PREVIEW_ONLY_NOT_APPROVED",
+  "note": "Current 40776086099 independent review: African penguin opening remains severely overexposed. New original native 608x1080 vertical real African penguin grooming clip at Boulders Beach; Commons page confirms species, creator, date, license, 9.5s length. Must inspect original actual frames and reject if no visible bill-to-feather behavior, static/frozen, or weak framing. Do not replace source in daily.json until preview verified; all five publication_hold remain true.",
+  "candidates": [
+    {
+      "for_key": "african_penguin_feather_care",
+      "target_block": "a_hook (replace overexposed African penguins grooming.ogv only if authentic visible preening and good framing)",
+      "title": "Grooming penguin at Boulders Beach.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grooming_penguin_at_Boulders_Beach.webm",
+      "author": "Islahaddow",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "species": "Spheniscus demersus",
+      "source_description": "Native portrait 608x1080 genuine African penguin grooming at Boulders Beach, Simon's Town, Cape Town; 9.5 seconds, Wikimedia Commons original page independently checked 2026-10-28. Authored 24 March 2018 by Islahaddow. Separate original file from Penguin at Boulders 01.webm; confirm visual uniqueness by frame comparison.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Source metadata and license verified on original Commons page, but original video frames not yet inspected; do not assume grooming visible from metadata. Requires CC BY-SA 4.0 creator/source/license link and edited-work notice and compatible sharealike distribution; no TikTok posting until legal and editorial QA."
+    }
+  ]
+}
