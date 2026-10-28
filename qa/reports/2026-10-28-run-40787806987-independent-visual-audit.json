@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "run_id": 40787806987,
+  "render_head_sha": "b24b498102a9af138c5887d688564ee4d32ff8f2",
+  "evaluated_at": "2026-10-28T20:55:34-03:00",
+  "source": "Five GitHub Actions ZIP artifacts independently downloaded; five review JPGs, five MP4 block-midpoint samples, original source previews and ffprobe; full scaled FFmpeg freezedetect returned exit code 0 and zero >=1s freeze events for each of five.",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_s": 39.675,
+      "dimensions": "1080x1920",
+      "blocks": 6,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Nectar sequence shows monarchs but also foliage-only supporting frames; human visitor in migration payoff requires care not to imply current-day field recording."
+      ]
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_s": 32.8,
+      "dimensions": "1080x1920",
+      "blocks": 6,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "New Wuppertal zoo hook visibly shows two African penguins preening; improved versus overexposed previous hook.",
+        "Coastal and payoff scenes show distant small subjects; full source credit delivery not verified."
+      ]
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_s": 31.125,
+      "dimensions": "1080x1920",
+      "blocks": 6,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Several group/switch scenes are too distant; captive group images do not demonstrate a real guard shift."
+      ]
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_s": 36.775,
+      "dimensions": "1080x1920",
+      "blocks": 6,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Opening herd and some waterhole scenes are distant; footage does not visibly establish splashing or a mud/dust bath.",
+        "Script correction removes unsupported splashing claim for next render, commit 1180cbc."
+      ]
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_s": 34.9,
+      "dimensions": "1080x1920",
+      "blocks": 6,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Opening mostly shows back and tail; 1.5s source seek queued for next render.",
+        "No visible tongue flick; corrected narration for next render, commit 1180cbc.",
+        "Repeated filming families across different file URLs persist."
+      ]
+    }
+  ],
+  "structural_validation": "All five daily.json entries had six exact ordered visual_plan blocks, matching concatenated script, eight distinct URLs and video sources, source tag coverage, author and license fields, current-day revisions, and publication_hold=true as of config b24b498.",
+  "licensing": "Source author and license metadata present; actual TikTok creator-credit delivery and ShareAlike treatment not verified. Do not release holds.",
+  "publication": "Metricool brand 7242311 @wildvox: 2026-10-28 scheduled posts [] and TikTok published analytics rows [] at this run. No confirmed post ID. YouTube excluded.",
+  "next": "Wait for render after commit 1180cbc; independently inspect all five NEW review JPGs and MP4s; source improvements needed for distant meerkat, elephant and penguin footage and Komodo repeated filming families; verify full credit delivery and license compliance before any scheduling."
+}
