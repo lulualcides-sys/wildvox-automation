@@ -5,7 +5,7 @@
   "current_config_blob_sha": "651cdf535f1ca69a0b0599fc1e7c89c098a9426d",
   "latest_media_branch_commit": "f679e575813667f0c36bd8490bee9cc2ec04a30f",
   "editorial_status": "SOURCE_PREVIEW_ONLY_NOT_APPROVED",
-  "note": "Editorial review of 40719822981 candidate preview: Betty's Bay 04 rejected (tiny birds, dominant landscape, weak vertical framing); Wuppertal Zoo 07 rejected (stationary portrait with no visible preening, captive scene cannot stand for coast). Request independent original-frame previews of three further authentic coastal colony clips. Do not modify daily.json until visual suitability, source license and author verified; publication_hold remains true. Round-two preview run 40735618744: independently filmed Angelarene88 colony footage accepted only for verified close coast segment ~20s, other two rejected. Full final MP4 QA required.",
+  "note": "Editorial review of 40719822981 candidate preview: Betty's Bay 04 rejected (tiny birds, dominant landscape, weak vertical framing); Wuppertal Zoo 07 rejected (stationary portrait with no visible preening, captive scene cannot stand for coast). Request independent original-frame previews of three further authentic coastal colony clips. Do not modify daily.json until visual suitability, source license and author verified; publication_hold remains true. Round-two preview run 40735618744: independently filmed Angelarene88 colony footage accepted only for verified close coast segment ~20s, other two rejected. Full final MP4 QA required. Latest 40741297411 preview accepted Guido Konrad footage for illustrative feather layer block only, not full video approval; new config 559482ee rerender pending.",
   "candidates": [
     {
       "for_key": "african_penguin_feather_care",
@@ -82,8 +82,10 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0/",
       "species": "Spheniscus demersus",
       "source_description": "Authentic 2019 slow-motion African penguins in Duisburg Zoo, Germany; independently filmed by Guido Konrad, 55.207s, 1920x1080, 15.33MB. Source and license checked on Wikimedia Commons 2026-10-28.",
-      "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Must inspect original video frames for clear feather/preening behavior, subject size and 9:16 usability. Zoo context is not a South African coastal colony. If static or no preening, reject; do not add to daily.json without independent visual review."
+      "status": "VISUALLY_ACCEPTED_SOURCE_ONLY",
+      "concerns": "Must inspect original video frames for clear feather/preening behavior, subject size and 9:16 usability. Zoo context is not a South African coastal colony. If static or no preening, reject; do not add to daily.json without independent visual review.",
+      "visual_review": "Independently viewed original video preview artifact 12839417677 (run 40741297411), frames 6.6, 27.6, 46.9s: genuine African penguins, several large and clear, single close penguin near water at 46.9s. Captive Duisburg Zoo scene; not proof of wild coastal feeding or observed seawater waterproofing. Selected only for a_fur with start_seconds 44.5, explicit ZOO FOOTAGE overlay and modified narration; final render and editorial QA still required.",
+      "verified_sha256": "cf9c77996c1bff23cfb07104ab1eb093826f0034d595ef19d5fa12b7cd0a127c"
     }
   ]
 }
