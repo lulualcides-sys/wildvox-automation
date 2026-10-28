@@ -63,9 +63,10 @@
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
         "author": "Dennis.insect.filmer",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult nectar feeding, Ohio.",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult nectar feeding, Ohio. Candidate editorial seek to 224s based on 3-frame original preview (late frame has clear monarch nectar feeding); do not assume successful until fresh render review.",
         "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 11019737
+        "verified_size_bytes": 11019737,
+        "start_seconds": 224
       },
       {
         "type": "video",
@@ -136,7 +137,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v5-verified-face-butterfly-payoff",
+    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v6-late-nectar-seek",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -159,7 +160,7 @@
       },
       {
         "text": "That adult feeds on nectar, building the energy needed for a long southbound flight.",
-        "scene": "Wild adult monarch sipping nectar; second wild adult as support.",
+        "scene": "Show a visibly nectar-feeding monarch, using later verified original-source preview as a candidate; seek 224s and reject if rendered scene is empty flowers. Distinct second wild adult as support.",
         "tags": [
           "m_fuel"
         ],
@@ -259,12 +260,13 @@
         "tags": [
           "a_hook"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage.",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage. Candidate editorial seek to 18s based on original preview showing two African penguins actively grooming; still verify exposure and subject scale in rerender.",
         "license": "CC0",
         "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "license_verified_at": "2026-10-28",
         "verified_size_bytes": 9818376,
-        "author": "Uusijani"
+        "author": "Uusijani",
+        "start_seconds": 18
       },
       {
         "type": "video",
@@ -335,12 +337,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v6-close-grooming-hook",
+    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v7-later-preen-hook",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "Why does this African penguin keep combing its feathers with its bill?",
-        "scene": "Authentic close-up of African penguins actively grooming their plumage with their bills; source African penguins grooming.ogv, verified original preview frames at beginning/middle/end. Avoid distant colony shot for first-second hook.",
+        "scene": "Authentic two African penguins actively grooming, candidate source start at 18s to avoid the washed-out first seconds. Verify exposure and visible beak-to-feather contact in actual rendered hook; reject if still overexposed.",
         "tags": [
           "a_hook"
         ],
@@ -859,12 +861,13 @@
         "tags": [
           "k_power"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo footage, no invented predation.",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo footage, no invented predation. Candidate editorial seek to 29s where source preview indicates a closer head/face, pending actual rendered-frame QA; same archival recording family, not independent filming.",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
         "license_verified_at": "2026-10-28",
         "verified_size_bytes": 4110204,
-        "author": "Brocken Inaglory"
+        "author": "Brocken Inaglory",
+        "start_seconds": 29
       },
       {
         "type": "video",
@@ -903,7 +906,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-komodo_dragon_tracking_scent-narrative-v3-verified-approach-payoff",
+    "revision": "2026-10-28-daily-komodo_dragon_tracking_scent-narrative-v4-closer-power-seek",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -943,7 +946,7 @@
       },
       {
         "text": "That calm-looking pace can be deceptive: Komodo dragons are powerful hunters and scavengers.",
-        "scene": "Real Komodo species footage; no staged predation, no fake bite.",
+        "scene": "Authentic Komodo species portrait at closer source segment around 29s, showing power through animal size/face rather than fabricated predation. Recheck final frame and same-recording repetition.",
         "tags": [
           "k_power"
         ],
