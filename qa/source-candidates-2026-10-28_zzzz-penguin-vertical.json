@@ -2,8 +2,8 @@
   "day": "2026-10-28",
   "timezone": "America/Sao_Paulo",
   "checked_main_sha": "9d7c1993ddc242dfdc0031a5551d67c50b92f118",
-  "editorial_status": "SOURCE_PREVIEW_ROUND_TWO_PENDING",
-  "note": "Run 40787420586 original preview confirms native vertical Boulders clip has small penguin occupying ~10% frame, no strong close-up; rejected. Preview Wuppertal Zoo 05/06 genuine African penguin preening footage before any daily.json change; zoo context must remain explicit. publication_hold=true.",
+  "editorial_status": "SOURCE_06_ACCEPTED_PENDING_RENDER_QA",
+  "note": "Source preview run 40787608554 independently inspected. 05 rejected (branches across subject, uncertain clear preening); 06 accepted for hook source-only (close genuine African penguins, beak-to-feather movement visible near 1.9s), sourcePage verified CC BY-SA 3.0, Frank Vincentz. Zoo setting must not be passed off as coastal footage. Final render MP4 QA and credit delivery mandatory.",
   "candidates": [
     {
       "for_key": "african_penguin_feather_care",
@@ -29,8 +29,9 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "species": "Spheniscus demersus",
       "source_description": "Wuppertal Zoo authentic African penguins, original 47.141s 1920x1080, 33716308 bytes, source page and creator/license independently verified 2026-10-28; listed under Videos of birds preening. Separate original video from rejected 07 clip.",
-      "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Source metadata does not prove visible grooming or good 9:16 subject size. Inspect actual sampled frames, reject if static or no bill-to-feather action; zoo context, credit Frank Vincentz and ShareAlike 3.0 obligations."
+      "status": "REJECTED_VISUAL_OBSCURED",
+      "concerns": "Source metadata does not prove visible grooming or good 9:16 subject size. Inspect actual sampled frames, reject if static or no bill-to-feather action; zoo context, credit Frank Vincentz and ShareAlike 3.0 obligations.",
+      "visual_review": "Run 40787608554, original frames 5.7/23.6/40.1s: two real African penguins, but foreground branches obscure heads and visible bill-to-feather behavior is inconsistent. Inferior to 06 for opening; reject."
     },
     {
       "for_key": "african_penguin_feather_care",
@@ -42,8 +43,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "species": "Spheniscus demersus",
       "source_description": "Wuppertal Zoo authentic African penguins, original 16.118s 1920x1080, 12044282 bytes, source page and creator/license independently verified 2026-10-28; listed under Videos of birds preening. Separate original video from rejected 07 clip.",
-      "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Source metadata does not prove visible grooming or good 9:16 subject size. Inspect actual sampled frames, reject if static or no bill-to-feather action; zoo context, credit Frank Vincentz and ShareAlike 3.0 obligations."
+      "status": "VISUALLY_ACCEPTED_SOURCE_ONLY",
+      "concerns": "Source metadata does not prove visible grooming or good 9:16 subject size. Inspect actual sampled frames, reject if static or no bill-to-feather action; zoo context, credit Frank Vincentz and ShareAlike 3.0 obligations.",
+      "visual_review": "Run 40787608554, original frames 1.9/8.1/13.7s: authentic two African penguins in zoo; at 1.9s visible head-to-feather interaction, subjects fill center despite foreground branches. Better exposure and closer than existing overexposed CC0 hook. Use original start_seconds=0.0 for 4.8s hook; final rendered frame-by-frame check still required. Zoo footage, no false wild coast implication.",
+      "verified_sha256": "4657ee27e59c39e5645eddae419737c2ffe80b9faab40c1cf863f85510ff8eba"
     }
   ]
 }
