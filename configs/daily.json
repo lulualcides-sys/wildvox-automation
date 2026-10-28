@@ -586,7 +586,7 @@
   },
   "african_elephant_mud_bath": {
     "title": "WHY ELEPHANTS NEED DUST AND WATER BATHS",
-    "script": "Why do African elephants need both dusty ground and water to stay comfortable? Under the hot African sun, their enormous bodies need ways to shed heat. At a waterhole, elephants wade in, splash, and let water cool their skin. That water helps remove heat, while dust and mud can also protect sensitive skin. And when a herd gathers at the same waterhole, cooling down becomes a shared routine. So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
+    "script": "Why do African elephants need both dusty ground and water to stay comfortable? Under the hot African sun, their enormous bodies need ways to shed heat. At a waterhole, elephants wade in, splash, and let water cool their skin. That water helps remove heat, while dust and mud can also protect sensitive skin. And even as a herd moves across dry ground, each elephant still needs ways to cool down. So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
     "caption": "Why African elephants use dust and water to care for their skin. 🐘 #AfricanElephant #Wildlife #AnimalBehavior #WildVox",
     "sources": [
       {
@@ -716,7 +716,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v4-accurate-dry-riverbed-hook",
+    "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v5-grounded-herd-semantics",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -754,13 +754,13 @@
         "story_role": "explanation"
       },
       {
-        "text": "And when a herd gathers at the same waterhole, cooling down becomes a shared routine.",
-        "scene": "Actual elephant herd at a waterhole, not represented as a single continuous event.",
+        "text": "And even as a herd moves across dry ground, each elephant still needs ways to cool down.",
+        "scene": "Authentic elephant herd visibly walking together over dry ground. Do not imply that this group footage proves the same waterhole or shows cooling behavior.",
         "tags": [
           "e_group"
         ],
         "story_role": "twist",
-        "overlay_label": "SHARED WATERHOLE"
+        "overlay_label": "HERD ON THE MOVE"
       },
       {
         "text": "So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
