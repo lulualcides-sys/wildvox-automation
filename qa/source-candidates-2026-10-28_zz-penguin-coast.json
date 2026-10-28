@@ -1,0 +1,37 @@
+{
+  "day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "c27fede69e4549cfe7d8609691cbf5dc5449a95d",
+  "current_config_blob_sha": "651cdf535f1ca69a0b0599fc1e7c89c098a9426d",
+  "latest_media_branch_commit": "f679e575813667f0c36bd8490bee9cc2ec04a30f",
+  "editorial_status": "SOURCE_PREVIEW_ONLY_NOT_APPROVED",
+  "note": "Latest current-day review sheets show tiny penguins in wide coastal and payoff frames. Preview independently licensed real African-penguin video before any swap. Do not treat Commons description as visual QA. Never swap zoo footage into a scene implying wild coast. No publication hold release.",
+  "candidates": [
+    {
+      "for_key": "african_penguin_feather_care",
+      "target_block": "a_coast or a_payoff",
+      "title": "African penguins, Betty's Bay 04.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins,_Betty%27s_Bay_04.webm",
+      "author": "Spasimir Pilev",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "species": "Spheniscus demersus",
+      "source_description": "Real African penguins filmed at Betty's Bay, South Africa, 14.45s, 1920x1080, Commons original page reviewed 2026-10-28; original size 34414879 bytes, source SHA1 3b5bfca6bc7d19f429832275e859cb14a139c48e.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check three or more original frames for subject size, coastal behavior, no misleading shore/water claim, distinct footage from Betty's Bay 02 and 05, and licensing/ShareAlike."
+    },
+    {
+      "for_key": "african_penguin_feather_care",
+      "target_block": "a_groom or a_fur ONLY; never a_coast or a_payoff",
+      "title": "Wuppertal - Zoo - Spheniscus demersus 07 (1) ies.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuppertal_-_Zoo_-_Spheniscus_demersus_07_(1)_ies.webm",
+      "author": "Frank Vincentz",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "species": "Spheniscus demersus",
+      "source_description": "African penguin in Wuppertal Zoo, Germany; listed under birds preening; 48s 1920x1080, original 32.75 MB. Commons original page reviewed 2026-10-28.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Verify visible preening and framing; captive zoo only, cannot illustrate wild coast or land/sea transition. Reject if repeated/too distant; ShareAlike/credit required."
+    }
+  ]
+}
