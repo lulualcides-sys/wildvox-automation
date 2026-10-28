@@ -55,7 +55,9 @@
       "duration_seconds": 43,
       "dimensions": "1920x1080",
       "concerns": "May contain German text, animated maps, presenter or stock B-roll. Only authentic Komodo animal footage with no misleading labels is acceptable; check three frames and reject if unsuitable.",
-      "status": "CANDIDATE_UNREVIEWED"
+      "status": "REJECTED_VISUAL_ANIMATED_MAP",
+      "visual_review": "Original source preview run 40647885918, artifact 12797769416, actual frames at 5.2s, 21.5s, 36.5s show entirely drawn map/cartoon lizard and geographic graphics with broadcaster watermark. Not authentic animal footage; unsuitable for a video-first wildlife behavioral story. Do not substitute.",
+      "verified_sha256": "654677e1832e38c64f57c7e7946b818eb682c267d32ef20700169051f18a6cf4"
     }
   ],
   "next_actions": [
@@ -64,8 +66,8 @@
     "Only replace if candidate is visibly superior and semantics fit block; then update source credits and rerender."
   ],
   "preview_workflow": {
-    "run_id": 40646729814,
-    "artifact_id": 12797806560,
+    "run_id": 40647885918,
+    "artifact_id": 12797769416,
     "run_status": "success",
     "editorial_approval": false
   }
