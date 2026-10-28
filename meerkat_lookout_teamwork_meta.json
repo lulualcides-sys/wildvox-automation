@@ -1,18 +1,18 @@
 {
   "key": "meerkat_lookout_teamwork",
-  "title": "WHY MEERKATS TAKE TURNS WATCHING FOR DANGER",
-  "caption": "A meerkat lookout is part of a team strategy. 🐾 #Meerkat #AnimalBehavior #Wildlife #WildVox",
-  "duration": 31.45,
+  "title": "Why meerkats stand guard for each other",
+  "caption": "Meerkat lookouts help their groups stay alert. 🐾 #Meerkat #AnimalBehavior #Wildlife #WildVox",
+  "duration": 32.85,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
     {
       "index": 0,
       "start": 0.0,
-      "end": 4.65,
-      "duration": 4.65,
-      "text": "Why do meerkats stay together when they move across open ground?",
-      "scene": "Real meerkat group walking or gathered; no invented predator.",
+      "end": 5.4,
+      "duration": 5.4,
+      "text": "Why does a meerkat stand upright while the rest of its group watches for danger?",
+      "scene": "Authentic close-up of upright meerkat on lookout; zoo footage illustrates a natural behavior without claiming a documented wild alarm event.",
       "tags": [
         "s_hook"
       ],
@@ -22,8 +22,8 @@
     },
     {
       "index": 1,
-      "start": 4.65,
-      "end": 9.375,
+      "start": 5.4,
+      "end": 10.125,
       "duration": 4.725,
       "text": "In the wild, they live in social groups that share space and burrows.",
       "scene": "Captive meerkat family illustrates group structure; do not claim zoo footage is wild.",
@@ -36,8 +36,8 @@
     },
     {
       "index": 2,
-      "start": 9.375,
-      "end": 14.85,
+      "start": 10.125,
+      "end": 15.6,
       "duration": 5.475,
       "text": "One meerkat may stand upright and scan while its neighbors search for food.",
       "scene": "Documented upright, scanning meerkat at Ueno Zoo, without claiming visible foraging neighbors.",
@@ -50,8 +50,8 @@
     },
     {
       "index": 3,
-      "start": 14.85,
-      "end": 20.0,
+      "start": 15.6,
+      "end": 20.75,
       "duration": 5.15,
       "text": "A lookout can notice approaching danger and give the group time to react.",
       "scene": "Meerkat group footage; no invented alarm call or predator event.",
@@ -64,25 +64,25 @@
     },
     {
       "index": 4,
-      "start": 20.0,
-      "end": 25.825,
-      "duration": 5.825,
-      "text": "As the group moves, different individuals can take turns watching their surroundings.",
-      "scene": "Two distinct real meerkat group clips, no implication of same continuous event.",
+      "start": 20.75,
+      "end": 27.225,
+      "duration": 6.475,
+      "text": "Different individuals can watch their surroundings, helping the group stay alert as it moves.",
+      "scene": "Distinct genuine meerkat group footage illustrating shared vigilance; do not imply a captured sentry handoff or predator event.",
       "tags": [
         "s_switch"
       ],
       "story_role": "twist",
-      "overlay_label": "TAKING TURNS",
+      "overlay_label": "SHARED WATCH",
       "fx": []
     },
     {
       "index": 5,
-      "start": 25.825,
-      "end": 31.45,
+      "start": 27.225,
+      "end": 32.85,
       "duration": 5.625,
       "text": "So that famous upright pose is part of teamwork, not just a cute photo.",
-      "scene": "Meerkat family and sentry-context group activity; two distinct authentic clips.",
+      "scene": "Authentic wild meerkat group in open ground, ending on collective vigilance rather than an isolated captive portrait.",
       "tags": [
         "s_payoff"
       ],
@@ -98,7 +98,7 @@
       "assetTitle": "Meerkats (Suricata suricatta) gang ....webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkats_(Suricata_suricatta)_gang_....webm",
       "tags": [
-        "s_hook"
+        "s_payoff"
       ],
       "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic species group, location per source page.",
       "license": "CC BY-SA 2.0",
@@ -203,7 +203,7 @@
       "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 5.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_5.webm",
       "tags": [
-        "s_payoff"
+        "s_hook"
       ],
       "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate group context, frame QA required.",
       "license": "CC BY 3.0",
