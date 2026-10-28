@@ -1,0 +1,95 @@
+{
+  "day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "qa_kind": "CONSOLIDATED_CURRENT_MEDIA_MP4_FRAME_AUDIT_WITH_PENDING_RERENDER",
+  "source_workflow_run": 40709660100,
+  "source_workflow_head_sha": "46ae368f9cc82d3761ccf6b7705b120f8bdefa98",
+  "media_branch_sha": "f679e575813667f0c36bd8490bee9cc2ec04a30f",
+  "new_config_commit": "552db878b015eb55bf1e63c3ea16b05f97f09865",
+  "new_config_blob_sha": "88a05e13ffbcbfca7c4006a36e0393422e37739a",
+  "new_workflow_run": 40736360093,
+  "new_workflow_status_at_audit": "queued",
+  "editorial_approved": false,
+  "publication_hold": true,
+  "publication_confirmation": false,
+  "metricool_brand_id": 7242311,
+  "metricool_scheduled_posts": 0,
+  "metricool_published_posts": 0,
+  "tiktok_only": true,
+  "youtube_publication": false,
+  "method": "Downloaded all five actual GitHub Actions daily-* MP4 artifacts from completed run 40709660100. Independently decoded each MP4 with ffprobe and FFmpeg freezedetect (1s threshold), sampled a frame at the midpoint of every real Kokoro narration block (30 frames total), and visually inspected all five current media branch *_review.jpg sheets. Inspected all eight original penguin source preview strips. Independently visually reviewed original Commons candidate footage at three timestamps each in preview runs 40719822981 and 40735618744. Verified five config entries, 6 exact script-matching blocks per entry, 8 unique source URLs per entry, author/license fields and semantic tag coverage. The current media branch does NOT yet include new penguin config commit; new run must be inspected separately.",
+  "technical": {
+    "all_five_mp4_duration_30_to_45": true,
+    "all_five_mp4_1080x1920_h264": true,
+    "all_five_ffmpeg_freeze_ge_1s": 0,
+    "all_five_narration_blocks": 6,
+    "all_five_source_urls_unique": 8,
+    "all_five_script_blocks_exact": true,
+    "all_five_credits_present": true
+  },
+  "videos": [
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_seconds": 36,
+      "freeze_events_ge_1s": 0,
+      "editorial_approved": false,
+      "findings": "Correct African elephants; heat/water/wading blocks semantically plausible. Opening group is distant and waterhole block has very small elephants in wide frame. Not approved."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_seconds": 32.5,
+      "freeze_events_ge_1s": 0,
+      "editorial_approved": false,
+      "findings": "Correct African penguins and authentic preening; a_coast wide rock colony has tiny subjects. Current media still old Betty's Bay 02; new Angelarene88 source near 20s selected in config commit 552db878 but needs fresh render and review."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_seconds": 34.9,
+      "freeze_events_ge_1s": 0,
+      "editorial_approved": false,
+      "findings": "Correct Komodo dragon; one genuine portrait climbing source adds variation, but same grey old footage dominates action, explanation and twist. No observed forked tongue in sampled frame. Repetition too high."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_seconds": 32.85,
+      "freeze_events_ge_1s": 0,
+      "editorial_approved": false,
+      "findings": "Correct meerkats; hook close but captive, many zoo/enclosure scenes and payoff wild group extremely distant. Narration does not falsely claim footage shows alarm or actual lookout handoff."
+    },
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_seconds": 39.675,
+      "freeze_events_ge_1s": 0,
+      "editorial_approved": false,
+      "findings": "Correct monarch and real chrysalis emergence, archival label visible; payoff image dominated by visitor and monarch tiny/partially outside central visual. 2025 footage not presented as 2026 field footage."
+    }
+  ],
+  "candidate_audit": [
+    {
+      "title": "African penguins, Betty's Bay 04.webm",
+      "result": "REJECT",
+      "reason": "Tiny birds in wide frame"
+    },
+    {
+      "title": "Wuppertal - Zoo - Spheniscus demersus 07 (1) ies.webm",
+      "result": "REJECT",
+      "reason": "Stationary captive bird, no visible grooming"
+    },
+    {
+      "title": "African penguins, Betty's Bay 08.webm",
+      "result": "REJECT",
+      "reason": "Tiny birds in wide rocky scene"
+    },
+    {
+      "title": "African penguins, Betty's Bay 01.webm",
+      "result": "REJECT",
+      "reason": "Rock hyrax dominates foreground"
+    },
+    {
+      "title": "Penguin Colony Betty's Bay.ogv",
+      "result": "SOURCE_ONLY_ACCEPT",
+      "reason": "Independent Angelarene88 CC BY-SA 3.0 original at 22.3s shows visible African penguins in real coastal colony; selected start_seconds=20.0 for a_coast; not final video approval"
+    }
+  ],
+  "release_rule": "Never clear hold or schedule TikTok until fresh run 40736360093 (or later run after latest config commit) finishes, its five current review sheets and MP4 frames are independently inspected, all editorial problems fixed, license/ShareAlike attribution delivery confirmed, and Metricool returns real post IDs."
+}
