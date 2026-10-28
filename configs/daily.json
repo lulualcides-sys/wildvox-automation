@@ -390,9 +390,9 @@
     ]
   },
   "meerkat_lookout_teamwork": {
-    "title": "WHY MEERKATS TAKE TURNS WATCHING FOR DANGER",
-    "script": "Why do meerkats stay together when they move across open ground? In the wild, they live in social groups that share space and burrows. One meerkat may stand upright and scan while its neighbors search for food. A lookout can notice approaching danger and give the group time to react. As the group moves, different individuals can take turns watching their surroundings. So that famous upright pose is part of teamwork, not just a cute photo.",
-    "caption": "A meerkat lookout is part of a team strategy. 🐾 #Meerkat #AnimalBehavior #Wildlife #WildVox",
+    "title": "Why meerkats stand guard for each other",
+    "script": "Why does a meerkat stand upright while the rest of its group watches for danger? In the wild, they live in social groups that share space and burrows. One meerkat may stand upright and scan while its neighbors search for food. A lookout can notice approaching danger and give the group time to react. Different individuals can watch their surroundings, helping the group stay alert as it moves. So that famous upright pose is part of teamwork, not just a cute photo.",
+    "caption": "Meerkat lookouts help their groups stay alert. 🐾 #Meerkat #AnimalBehavior #Wildlife #WildVox",
     "sources": [
       {
         "type": "video",
@@ -400,7 +400,7 @@
         "assetTitle": "Meerkats (Suricata suricatta) gang ....webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkats_(Suricata_suricatta)_gang_....webm",
         "tags": [
-          "s_hook"
+          "s_payoff"
         ],
         "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic species group, location per source page.",
         "license": "CC BY-SA 2.0",
@@ -505,7 +505,7 @@
         "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 5.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_5.webm",
         "tags": [
-          "s_payoff"
+          "s_hook"
         ],
         "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate group context, frame QA required.",
         "license": "CC BY 3.0",
@@ -521,12 +521,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-meerkat_lookout_teamwork-narrative-v1",
+    "revision": "2026-10-28-daily-meerkat_lookout_teamwork-narrative-v2-closeup-hook-verified-group-payoff",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why do meerkats stay together when they move across open ground?",
-        "scene": "Real meerkat group walking or gathered; no invented predator.",
+        "text": "Why does a meerkat stand upright while the rest of its group watches for danger?",
+        "scene": "Authentic close-up of upright meerkat on lookout; zoo footage illustrates a natural behavior without claiming a documented wild alarm event.",
         "tags": [
           "s_hook"
         ],
@@ -559,17 +559,17 @@
         "story_role": "explanation"
       },
       {
-        "text": "As the group moves, different individuals can take turns watching their surroundings.",
-        "scene": "Two distinct real meerkat group clips, no implication of same continuous event.",
+        "text": "Different individuals can watch their surroundings, helping the group stay alert as it moves.",
+        "scene": "Distinct genuine meerkat group footage illustrating shared vigilance; do not imply a captured sentry handoff or predator event.",
         "tags": [
           "s_switch"
         ],
         "story_role": "twist",
-        "overlay_label": "TAKING TURNS"
+        "overlay_label": "SHARED WATCH"
       },
       {
         "text": "So that famous upright pose is part of teamwork, not just a cute photo.",
-        "scene": "Meerkat family and sentry-context group activity; two distinct authentic clips.",
+        "scene": "Authentic wild meerkat group in open ground, ending on collective vigilance rather than an isolated captive portrait.",
         "tags": [
           "s_payoff"
         ],
