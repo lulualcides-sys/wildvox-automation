@@ -45,9 +45,11 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "author": "Danmation",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016.",
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016. Editorial time-lapse correction 2026-10-28: use a real 36-second source window (26s onward) played at 6x to show emergence, with no generated frames or looping; final visual and freeze QA still required.",
         "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 4323084
+        "verified_size_bytes": 4323084,
+        "start_seconds": 26,
+        "time_lapse_speed": 6
       },
       {
         "type": "video",
@@ -131,7 +133,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v2-no-unreviewed-source",
+    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v3-emergence-motion-fix",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -177,7 +179,7 @@
           "m_2026"
         ],
         "story_role": "twist",
-        "overlay_label": "2026 MIGRATION"
+        "overlay_label": "ARCHIVAL FOOTAGE"
       },
       {
         "text": "So those tiny wings aren't wandering at random. They're part of one of nature's great migrations.",
@@ -574,9 +576,9 @@
     ]
   },
   "african_elephant_mud_bath": {
-    "title": "WHY AFRICAN ELEPHANTS COVER THEMSELVES IN MUD",
-    "script": "Why would an African bush elephant deliberately coat its body in mud? On a hot day, a giant body needs ways to shed heat. At a waterhole, elephants use their trunks to spray water and splash. Water cools the skin, and a muddy coating can offer relief from biting insects. Other elephants may join the same waterhole, turning the bath into a shared routine. So this muddy giant isn't neglecting its skin. It's taking care of it.",
-    "caption": "Mud baths are survival gear for African elephants. 🐘 #AfricanElephant #Wildlife #AnimalBehavior #WildVox",
+    "title": "WHY ELEPHANTS NEED DUST AND WATER BATHS",
+    "script": "Why do African elephants kick up clouds of dust before cooling off in water? Under the hot African sun, their enormous bodies need ways to shed heat. At a waterhole, elephants wade in, splash, and let water cool their skin. That water helps remove heat, while dust and mud can also protect sensitive skin. And when a herd gathers at the same waterhole, cooling down becomes a shared routine. So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
+    "caption": "Why African elephants use dust and water to care for their skin. 🐘 #AfricanElephant #Wildlife #AnimalBehavior #WildVox",
     "sources": [
       {
         "type": "video",
@@ -705,29 +707,29 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v1",
+    "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v2-visual-accuracy",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why would an African bush elephant deliberately coat its body in mud?",
-        "scene": "Real African elephant mud-bathing clip, no artificial footage.",
+        "text": "Why do African elephants kick up clouds of dust before cooling off in water?",
+        "scene": "Actual African elephants moving through visible dust; do not imply mud if none is visible.",
         "tags": [
           "e_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "MUD BATH"
+        "overlay_label": "DUST AND WATER"
       },
       {
-        "text": "On a hot day, a giant body needs ways to shed heat.",
-        "scene": "Authentic African bush elephants in natural setting.",
+        "text": "Under the hot African sun, their enormous bodies need ways to shed heat.",
+        "scene": "Authentic elephant crossing a hot African landscape.",
         "tags": [
           "e_heat"
         ],
         "story_role": "setup"
       },
       {
-        "text": "At a waterhole, elephants use their trunks to spray water and splash.",
-        "scene": "Elephants splashing and separately drinking water, without asserting both show spraying.",
+        "text": "At a waterhole, elephants wade in, splash, and let water cool their skin.",
+        "scene": "Authentic elephants in water, wading and splashing; no invented trunk spraying.",
         "tags": [
           "e_water"
         ],
@@ -735,16 +737,16 @@
         "overlay_label": "COOLING DOWN"
       },
       {
-        "text": "Water cools the skin, and a muddy coating can offer relief from biting insects.",
-        "scene": "Actual elephant bathing, explanation supported by natural behavior.",
+        "text": "That water helps remove heat, while dust and mud can also protect sensitive skin.",
+        "scene": "Elephants visibly bathing; dust and mud protective roles are explained, not fabricated visually.",
         "tags": [
           "e_explain"
         ],
         "story_role": "explanation"
       },
       {
-        "text": "Other elephants may join the same waterhole, turning the bath into a shared routine.",
-        "scene": "Multiple African elephants at real waterhole; not represented as one continuous incident.",
+        "text": "And when a herd gathers at the same waterhole, cooling down becomes a shared routine.",
+        "scene": "Actual elephant herd at a waterhole, not represented as a single continuous event.",
         "tags": [
           "e_group"
         ],
@@ -752,8 +754,8 @@
         "overlay_label": "SHARED WATERHOLE"
       },
       {
-        "text": "So this muddy giant isn't neglecting its skin. It's taking care of it.",
-        "scene": "Authentic elephant bathing footage followed by distinct elephant group.",
+        "text": "So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
+        "scene": "Distinct real elephants bathing and moving in natural surroundings.",
         "tags": [
           "e_payoff"
         ],
