@@ -126,8 +126,8 @@
         "author": "AlexJA77",
         "license_verified_at": "2026-10-28",
         "verified_size_bytes": 75803101,
-        "start_seconds": 16,
-        "license_note": "Commons source page and authentic original frames independently checked 2026-10-28; filmed at El Rosario sanctuary in Mexico on 2025-01-26. 16–22s shows monarch on visitor. Do NOT label as 2026 field footage. CC BY-SA 4.0 with creator credits and adaptation disclosure; new rendered frames must pass editorial QA."
+        "start_seconds": 27,
+        "license_note": "Authentic original source frames independently checked 2026-10-28 at 4.4, 18.2 and 30.9s. The 30.9s frame shows a monarch visibly perched on a visitor's face in the 2025 El Rosario Mexico sanctuary video; start at 27s to seek a more legible butterfly payoff. Archival 2025 footage is NOT 2026 sightings. CC BY-SA 4.0, AlexJA77, full credits and adaptation disclosure required. Reinspect all rendered frames before approval."
       }
     ],
     "min_unique_videos": 6,
@@ -136,7 +136,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v4-mexico-payoff-crop-freeze",
+    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v5-verified-face-butterfly-payoff",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -186,7 +186,7 @@
       },
       {
         "text": "So those tiny wings can lead to Mexico's winter forests, where monarchs sometimes land right on visitors.",
-        "scene": "Actual 2025 archival portrait video from El Rosario, Mexico, showing a monarch landing on a visitor. Never present as a 2026 sighting.",
+        "scene": "Authentic 2025 El Rosario sanctuary close visitor/butterfly moment around 31s; monarch visibly on visitor's face; label archival and do not imply 2026 field footage. Review final framing for prominent butterfly.",
         "tags": [
           "m_payoff"
         ],
@@ -202,7 +202,7 @@
   },
   "african_penguin_feather_care": {
     "title": "WHY AFRICAN PENGUINS KEEP COMBING THEIR FEATHERS",
-    "script": "Why does this African penguin keep combing its feathers with its bill? Along southern Africa's coast, these birds move between ocean feeding trips and land. Back ashore, they preen, cleaning and lining up their tightly packed feathers. That feather layer helps keep cold seawater away from the skin. But they also need safe places on land where they can shelter and breed. So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
+    "script": "Why does this African penguin keep combing its feathers with its bill? Along southern Africa's coast, these birds move between ocean feeding trips and land. Back ashore, they preen, cleaning and lining up their tightly packed feathers. Their tightly packed feathers help keep cold water away from the skin. But they also need safe places on land where they can shelter and breed. So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
     "caption": "African penguins have a reason for all that grooming. 🐧 #AfricanPenguin #OceanLife #Wildlife #WildVox",
     "sources": [
       {
@@ -268,17 +268,19 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grooming%20penguin%20at%20Boulders%20Beach.webm",
-        "assetTitle": "Grooming penguin at Boulders Beach.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grooming_penguin_at_Boulders_Beach.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguins%20slow%20motion%20video.webm",
+        "assetTitle": "Penguins slow motion video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguins_slow_motion_video.webm",
         "tags": [
           "a_fur"
         ],
-        "license_note": "SourcePage checked 2026-10-28: 9.5s authentic portrait 608x1080 video of African penguin grooming at Boulders Beach, by Islahaddow, CC BY-SA 4.0; commercial adaptation requires full author attribution, license link, changes notice and ShareAlike. This is a candidate source, not yet frame-reviewed in the rendered video; preserve publication_hold until visual QA.",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "start_seconds": 44.5,
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "author": "Guido Konrad",
         "license_verified_at": "2026-10-28",
-        "author": "Islahaddow"
+        "verified_size_bytes": 15333484,
+        "license_note": "Original Wikimedia Commons page and source-frame preview checked 2026-10-28. 2019 authentic African penguins in Duisburg Zoo, 55.207s, 1920x1080; Guido Konrad CC BY 2.0. Independent original frames at 6.6, 27.6, 46.9s confirm species and close feather detail. Use 44.5s start for a_fur, disclose captive footage. No actual seawater or wild coastline is shown. Original SHA256 cf9c77996c1bff23cfb07104ab1eb093826f0034d595ef19d5fa12b7cd0a127c. Full rendered MP4 and credit review still required."
       },
       {
         "type": "video",
@@ -333,7 +335,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v4-colony-closeup",
+    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v5-verified-zoo-feather-closeup",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -363,12 +365,13 @@
         "overlay_label": "THE PREEN"
       },
       {
-        "text": "That feather layer helps keep cold seawater away from the skin.",
-        "scene": "Close portrait video of a real African penguin grooming its feathers at Boulders Beach; narration explains feather insulation without fabricated microscopic details.",
+        "text": "Their tightly packed feathers help keep cold water away from the skin.",
+        "scene": "Close African penguin plumage at the edge of a zoo pool in authentic Guido Konrad slow-motion footage; illustrative captive scene, not South African sea footage or proof of seawater waterproofing.",
         "tags": [
           "a_fur"
         ],
-        "story_role": "explanation"
+        "story_role": "explanation",
+        "overlay_label": "ZOO FOOTAGE"
       },
       {
         "text": "But they also need safe places on land where they can shelter and breed.",
@@ -392,7 +395,7 @@
   },
   "meerkat_lookout_teamwork": {
     "title": "Why meerkats stand guard for each other",
-    "script": "Why does a meerkat stand upright while the rest of its group watches for danger? In the wild, they live in social groups that share space and burrows. One meerkat may stand upright and scan while its neighbors search for food. A lookout can notice approaching danger and give the group time to react. Different individuals can watch their surroundings, helping the group stay alert as it moves. So that famous upright pose is part of teamwork, not just a cute photo.",
+    "script": "Why does this meerkat stand upright like a lookout? In the wild, they live in social groups that share space and burrows. One meerkat may stand upright and scan while its neighbors search for food. A lookout can notice approaching danger and give the group time to react. Different individuals can watch their surroundings, helping the group stay alert as it moves. So that famous upright pose is part of teamwork, not just a cute photo.",
     "caption": "Meerkat lookouts help their groups stay alert. 🐾 #Meerkat #AnimalBehavior #Wildlife #WildVox",
     "sources": [
       {
@@ -522,12 +525,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-meerkat_lookout_teamwork-narrative-v2-closeup-hook-verified-group-payoff",
+    "revision": "2026-10-28-daily-meerkat_lookout_teamwork-narrative-v3-evidence-matched-hook",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does a meerkat stand upright while the rest of its group watches for danger?",
-        "scene": "Authentic close-up of upright meerkat on lookout; zoo footage illustrates a natural behavior without claiming a documented wild alarm event.",
+        "text": "Why does this meerkat stand upright like a lookout?",
+        "scene": "Close real captive meerkat standing upright and scanning; no false implication of a visible wild alarm, other animals in frame, or a documented lookout switch.",
         "tags": [
           "s_hook"
         ],
@@ -581,7 +584,7 @@
   },
   "african_elephant_mud_bath": {
     "title": "WHY ELEPHANTS NEED DUST AND WATER BATHS",
-    "script": "Why do African elephants kick up clouds of dust before cooling off in water? Under the hot African sun, their enormous bodies need ways to shed heat. At a waterhole, elephants wade in, splash, and let water cool their skin. That water helps remove heat, while dust and mud can also protect sensitive skin. And when a herd gathers at the same waterhole, cooling down becomes a shared routine. So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
+    "script": "Why do African elephants need both dusty ground and water to stay comfortable? Under the hot African sun, their enormous bodies need ways to shed heat. At a waterhole, elephants wade in, splash, and let water cool their skin. That water helps remove heat, while dust and mud can also protect sensitive skin. And when a herd gathers at the same waterhole, cooling down becomes a shared routine. So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
     "caption": "Why African elephants use dust and water to care for their skin. 🐘 #AfricanElephant #Wildlife #AnimalBehavior #WildVox",
     "sources": [
       {
@@ -711,12 +714,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v3-unobstructed-elephant-verified",
+    "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v4-accurate-dry-riverbed-hook",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why do African elephants kick up clouds of dust before cooling off in water?",
-        "scene": "Actual African elephants moving through visible dust; do not imply mud if none is visible.",
+        "text": "Why do African elephants need both dusty ground and water to stay comfortable?",
+        "scene": "Authentic African elephant herd walking on a dry riverbed. Do not claim a visible dust cloud, mud bath or same continuous herd event.",
         "tags": [
           "e_hook"
         ],
