@@ -435,6 +435,29 @@ def validate_shot_cadence(duration, nshots, allow_photo_only=False):
         )
 
 
+def detect_embedded_black_bars(path, start, available_seconds):
+    """Crop only original encoded black padding, preserving the real animal frame.
+
+    Explicit source opt-in avoids cropping naturally dark wildlife footage.
+    This is NOT a synthetic zoom; the extracted active picture is scaled with
+    blurred-background fill by the unchanged portrait renderer.
+    """
+    from collections import Counter
+    sample = min(2.0, max(0.6, float(available_seconds)))
+    probe = subprocess.run([
+        "ffmpeg", "-hide_banner", "-nostdin", "-loglevel", "info",
+        "-ss", f"{start:.3f}", "-i", str(path), "-t", f"{sample:.3f}",
+        "-vf", "cropdetect=24:2:0", "-an", "-f", "null", "-"
+    ], capture_output=True, text=True)
+    if probe.returncode:
+        raise RuntimeError(f"Could not inspect original letterboxing: {path}")
+    candidates = re.findall(r"crop=(\\d+):(\\d+):(\\d+):(\\d+)", probe.stderr)
+    if not candidates:
+        raise RuntimeError(f"No safe black-padding crop detected: {path}")
+    crop = Counter(candidates[-45:]).most_common(1)[0][0]
+    return "crop=" + ":".join(crop)
+
+
 def render_speech_aligned_visual(local, key, duration, narration_timeline, max_shot_seconds=None, max_freeze_seconds=None):
     """Cut B-roll at the real boundaries of spoken semantic blocks."""
     max_shot = float(max_shot_seconds or 8.0)
@@ -499,11 +522,15 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
                 start = min(start, maxstart)
             else:
                 start = 0.0 if maxstart <= 0 else ((i + 1) * 1.73) % maxstart
+            active_crop = (
+                detect_embedded_black_bars(src, start, source_seconds) + ","
+                if source_meta.get("crop_black_bars") else ""
+            )
             run([
                 "ffmpeg","-y","-hide_banner","-loglevel","error",
                 "-ss",f"{start:.3f}","-t",f"{source_seconds:.3f}",
                 "-i",str(src),"-an",
-                "-vf",f"setpts=PTS/{speed:.6f},{shot_filter}",
+                "-vf",f"{active_crop}setpts=PTS/{speed:.6f},{shot_filter}",
                 "-t",f"{playable:.3f}",
                 "-c:v","libx264","-preset","veryfast","-crf","20",
                 "-pix_fmt","yuv420p",str(out)
