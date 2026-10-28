@@ -2,28 +2,28 @@
   "key": "african_penguin_feather_care",
   "title": "WHY AFRICAN PENGUINS KEEP COMBING THEIR FEATHERS",
   "caption": "African penguins have a reason for all that grooming. 🐧 #AfricanPenguin #OceanLife #Wildlife #WildVox",
-  "duration": 32.73,
+  "duration": 32.8,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
     {
       "index": 0,
       "start": 0.0,
-      "end": 4.775,
-      "duration": 4.775,
-      "text": "Why does this African penguin keep combing its feathers with its bill?",
-      "scene": "Authentic two African penguins actively grooming, candidate source start at 18s to avoid the washed-out first seconds. Verify exposure and visible beak-to-feather contact in actual rendered hook; reject if still overexposed.",
+      "end": 4.85,
+      "duration": 4.85,
+      "text": "Why do African penguins spend so much time grooming with their bills?",
+      "scene": "Real two African penguins visibly grooming in Wuppertal Zoo, Germany. Source 06 original 0–4.8s selected after 2026-10-28 independent 1.9/8.1/13.7s preview; confirm visible bill-to-feather contact in final rendered opening, with captive setting disclosed.",
       "tags": [
         "a_hook"
       ],
       "story_role": "hook",
-      "overlay_label": "FEATHER CARE",
+      "overlay_label": "ZOO FOOTAGE",
       "fx": []
     },
     {
       "index": 1,
-      "start": 4.775,
-      "end": 11.025,
+      "start": 4.85,
+      "end": 11.1,
       "duration": 6.25,
       "text": "Along southern Africa's coast, these birds move between ocean feeding trips and land.",
       "scene": "Authentic South African coastal colony: independent Angelarene88 source starts near 20s showing visibly close African penguins at Betty's Bay, then distinct real penguins walking. No claim that ocean feeding is visible.",
@@ -36,8 +36,8 @@
     },
     {
       "index": 2,
-      "start": 11.025,
-      "end": 16.5,
+      "start": 11.1,
+      "end": 16.575,
       "duration": 5.475,
       "text": "Back ashore, they preen, cleaning and lining up their tightly packed feathers.",
       "scene": "Authentic African penguins combing feathers on rocky shore at Stony Point, illustrating cleaning and feather alignment; the original combing footage moves to the action block rather than the hook.",
@@ -50,8 +50,8 @@
     },
     {
       "index": 3,
-      "start": 16.5,
-      "end": 21.1,
+      "start": 16.575,
+      "end": 21.174999999999997,
       "duration": 4.6,
       "text": "Their tightly packed feathers help keep cold water away from the skin.",
       "scene": "Close African penguin plumage at the edge of a zoo pool in authentic Guido Konrad slow-motion footage; illustrative captive scene, not South African sea footage or proof of seawater waterproofing.",
@@ -64,8 +64,8 @@
     },
     {
       "index": 4,
-      "start": 21.1,
-      "end": 26.075000000000003,
+      "start": 21.174999999999997,
+      "end": 26.15,
       "duration": 4.975,
       "text": "But they also need safe places on land where they can shelter and breed.",
       "scene": "African penguins near an actual den at Stony Point.",
@@ -78,8 +78,8 @@
     },
     {
       "index": 5,
-      "start": 26.075000000000003,
-      "end": 32.725,
+      "start": 26.15,
+      "end": 32.8,
       "duration": 6.65,
       "text": "So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
       "scene": "Authentic portrait African penguin walking from shore toward the sea, first seconds of Boulders Beach source, followed by distinct colony footage.",
@@ -140,19 +140,19 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%20grooming.ogv",
-      "assetTitle": "African penguins grooming.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins_grooming.ogv",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wuppertal%20-%20Zoo%20-%20Spheniscus%20demersus%2006%20%281%29%20ies.webm",
+      "assetTitle": "Wuppertal - Zoo - Spheniscus demersus 06 (1) ies.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuppertal_-_Zoo_-_Spheniscus_demersus_06_(1)_ies.webm",
       "tags": [
         "a_hook"
       ],
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage. Candidate editorial seek to 18s based on original preview showing two African penguins actively grooming; still verify exposure and subject scale in rerender.",
-      "license": "CC0",
-      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "author": "Frank Vincentz",
+      "license_note": "Wikimedia Commons original page independently verified 2026-10-28: real African penguins (Spheniscus demersus), Wuppertal Zoo, 2013, 16.118s 1920x1080, 12044282 original bytes, author Frank Vincentz, CC BY-SA 3.0 dual license with GFDL alternative. Source-preview workflow 40787608554 original frames at 1.9/8.1/13.7s visually checked: visible beak-to-feather interaction early; source-only acceptance. Use as captive zoo illustration, never claim wild South African coastal setting. Adapted footage requires full creator, source, license and edited-work credit plus ShareAlike compliance before publication. Recheck final MP4 frames, captions, framing and licensing.",
       "license_verified_at": "2026-10-28",
-      "verified_size_bytes": 9818376,
-      "author": "Uusijani",
-      "start_seconds": 18
+      "verified_size_bytes": 12044282,
+      "start_seconds": 0
     },
     {
       "type": "video",
