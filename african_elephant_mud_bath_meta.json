@@ -1,0 +1,219 @@
+{
+  "key": "african_elephant_mud_bath",
+  "title": "WHY AFRICAN ELEPHANTS COVER THEMSELVES IN MUD",
+  "caption": "Mud baths are survival gear for African elephants. 🐘 #AfricanElephant #Wildlife #AnimalBehavior #WildVox",
+  "duration": 31.85,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.15,
+      "duration": 5.15,
+      "text": "Why would an African bush elephant deliberately coat its body in mud?",
+      "scene": "Real African elephant mud-bathing clip, no artificial footage.",
+      "tags": [
+        "e_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "MUD BATH",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.15,
+      "end": 9.425,
+      "duration": 4.275,
+      "text": "On a hot day, a giant body needs ways to shed heat.",
+      "scene": "Authentic African bush elephants in natural setting.",
+      "tags": [
+        "e_heat"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 9.425,
+      "end": 14.5,
+      "duration": 5.075,
+      "text": "At a waterhole, elephants use their trunks to spray water and splash.",
+      "scene": "Elephants splashing and separately drinking water, without asserting both show spraying.",
+      "tags": [
+        "e_water"
+      ],
+      "story_role": "action",
+      "overlay_label": "COOLING DOWN",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 14.5,
+      "end": 20.45,
+      "duration": 5.95,
+      "text": "Water cools the skin, and a muddy coating can offer relief from biting insects.",
+      "scene": "Actual elephant bathing, explanation supported by natural behavior.",
+      "tags": [
+        "e_explain"
+      ],
+      "story_role": "explanation",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 20.45,
+      "end": 26.5,
+      "duration": 6.05,
+      "text": "Other elephants may join the same waterhole, turning the bath into a shared routine.",
+      "scene": "Multiple African elephants at real waterhole; not represented as one continuous incident.",
+      "tags": [
+        "e_group"
+      ],
+      "story_role": "twist",
+      "overlay_label": "SHARED WATERHOLE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 26.5,
+      "end": 31.85,
+      "duration": 5.35,
+      "text": "So this muddy giant isn't neglecting its skin. It's taking care of it.",
+      "scene": "Authentic elephant bathing footage followed by distinct elephant group.",
+      "tags": [
+        "e_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "NATURAL SKIN CARE",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20Mud%20Bath.ogv",
+      "assetTitle": "Elephant Mud Bath.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_Mud_Bath.ogv",
+      "tags": [
+        "e_hook"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. African elephant mud bathing, archival footage.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 6278466,
+      "author": "Isewell"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20bush%20elephants%20%28Loxodonta%20africana%29.webm",
+      "assetTitle": "African bush elephants (Loxodonta africana).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_bush_elephants_(Loxodonta_africana).webm",
+      "tags": [
+        "e_heat"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Actual Loxodonta africana.",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 37714719,
+      "author": "Paul Keller"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20elephants%20%28Loxodonta%20africana%29%20splashing.webm",
+      "assetTitle": "African elephants (Loxodonta africana) splashing.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_elephants_(Loxodonta_africana)_splashing.webm",
+      "tags": [
+        "e_water"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit splashing behavior.",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 32782166,
+      "author": "Kent Wang"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20drinking%20water%20-%20KNP%20-%20001.ogv",
+      "assetTitle": "Elephant drinking water - KNP - 001.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_drinking_water_-_KNP_-_001.ogv",
+      "tags": [
+        "e_water"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic drinking at waterhole, not necessarily spraying.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 6308186,
+      "author": "NJR ZA"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20bathing-001.ogv",
+      "assetTitle": "Elephant bathing-001.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_bathing-001.ogv",
+      "tags": [
+        "e_explain"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Bathing footage.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 3528861,
+      "author": "NJR ZA"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20Elephants%20%28Loxodonta%20africana%29%20at%20Mphafa%20waterhole%20....webm",
+      "assetTitle": "Savanna Elephants (Loxodonta africana) at Mphafa waterhole ....webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Savanna_Elephants_(Loxodonta_africana)_at_Mphafa_waterhole_....webm",
+      "tags": [
+        "e_group"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic waterhole scene.",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 38951671,
+      "author": "Bernard DUPONT"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20Elephants%20%28Loxodonta%20africana%29%20bathing%20....webm",
+      "assetTitle": "Savanna Elephants (Loxodonta africana) bathing ....webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Savanna_Elephants_(Loxodonta_africana)_bathing_....webm",
+      "tags": [
+        "e_payoff"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic bathing footage.",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 25799745,
+      "author": "Bernard DUPONT"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20at%20Naibosho%20Conservancy%2C%20Kenya.webm",
+      "assetTitle": "Elephants at Naibosho Conservancy, Kenya.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephants_at_Naibosho_Conservancy%2C_Kenya.webm",
+      "tags": [
+        "e_payoff"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Distinct elephant group, no invented behavior.",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 135572887,
+      "author": "Regina Hart"
+    }
+  ],
+  "review_sheet": "african_elephant_mud_bath_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

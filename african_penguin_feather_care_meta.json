@@ -1,0 +1,219 @@
+{
+  "key": "african_penguin_feather_care",
+  "title": "WHY AFRICAN PENGUINS KEEP COMBING THEIR FEATHERS",
+  "caption": "African penguins have a reason for all that grooming. 🐧 #AfricanPenguin #OceanLife #Wildlife #WildVox",
+  "duration": 32.5,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.775,
+      "duration": 4.775,
+      "text": "Why does this African penguin keep combing its feathers with its bill?",
+      "scene": "African penguins actively combing plumage at Betty's Bay.",
+      "tags": [
+        "a_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "FEATHER CARE",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.775,
+      "end": 11.025,
+      "duration": 6.25,
+      "text": "Along southern Africa's coast, these birds move between ocean feeding trips and land.",
+      "scene": "African penguins in their authentic coastal colony, plus walking footage.",
+      "tags": [
+        "a_coast"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.025,
+      "end": 16.5,
+      "duration": 5.475,
+      "text": "Back ashore, they preen, cleaning and lining up their tightly packed feathers.",
+      "scene": "African penguins visibly grooming with their bills.",
+      "tags": [
+        "a_groom"
+      ],
+      "story_role": "action",
+      "overlay_label": "THE PREEN",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 16.5,
+      "end": 20.875,
+      "duration": 4.375,
+      "text": "That feather layer helps keep cold seawater away from the skin.",
+      "scene": "African penguin coastal group; explain feather insulation without false microscopic overlay.",
+      "tags": [
+        "a_fur"
+      ],
+      "story_role": "explanation",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 20.875,
+      "end": 25.85,
+      "duration": 4.975,
+      "text": "But they also need safe places on land where they can shelter and breed.",
+      "scene": "African penguins near an actual den at Stony Point.",
+      "tags": [
+        "a_den"
+      ],
+      "story_role": "twist",
+      "overlay_label": "NESTING SPACE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 25.85,
+      "end": 32.5,
+      "duration": 6.65,
+      "text": "So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
+      "scene": "Authentic African penguins at Betty's Bay on shore; two different shots available for the longer payoff.",
+      "tags": [
+        "a_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "OCEAN READY",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20130924%20African%20penguins%20combing.webm",
+      "assetTitle": "20130924 African penguins combing.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20130924_African_penguins_combing.webm",
+      "tags": [
+        "a_hook"
+      ],
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Vassia Atanassova - Spiritia",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild Stony Point combing.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 7799577
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2002.webm",
+      "assetTitle": "African penguins, Betty's Bay 02.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_02.webm",
+      "tags": [
+        "a_coast"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony, no invented feeding action.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 36608973,
+      "author": "Spasimir Pilev"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20130924%20African%20penguins%20walking.webm",
+      "assetTitle": "20130924 African penguins walking.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20130924_African_penguins_walking.webm",
+      "tags": [
+        "a_coast"
+      ],
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Vassia Atanassova - Spiritia",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Stony Point walking.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 7466789
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%20grooming.ogv",
+      "assetTitle": "African penguins grooming.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins_grooming.ogv",
+      "tags": [
+        "a_groom"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage.",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 9818376,
+      "author": "Uusijani"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2003.webm",
+      "assetTitle": "African penguins, Betty's Bay 03.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_03.webm",
+      "tags": [
+        "a_fur"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal species footage, no claimed close-up anatomy.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 161842590,
+      "author": "Spasimir Pilev"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20130924%20African%20penguins%20near%20their%20den.webm",
+      "assetTitle": "20130924 African penguins near their den.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20130924_African_penguins_near_their_den.webm",
+      "tags": [
+        "a_den"
+      ],
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Vassia Atanassova - Spiritia",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual den scene.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 11974313
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2004.webm",
+      "assetTitle": "African penguins, Betty's Bay 04.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_04.webm",
+      "tags": [
+        "a_payoff"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony payoff.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 34414879,
+      "author": "Spasimir Pilev"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2005.webm",
+      "assetTitle": "African penguins, Betty's Bay 05.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_05.webm",
+      "tags": [
+        "a_payoff"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Second distinct payoff shot.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 72351622,
+      "author": "Spasimir Pilev"
+    }
+  ],
+  "review_sheet": "african_penguin_feather_care_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

@@ -1,0 +1,219 @@
+{
+  "key": "monarch_autumn_migration_2026",
+  "title": "HOW MONARCH BUTTERFLIES FIND THEIR WAY TO MEXICO",
+  "caption": "Monarchs are moving toward Mexico this October. 🦋 #MonarchButterfly #Migration #Wildlife #WildVox",
+  "duration": 38.83,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.925,
+      "duration": 5.925,
+      "text": "How can a monarch butterfly this fragile travel thousands of miles toward Mexico?",
+      "scene": "Close, authentic wild monarch, introducing a single fragile traveler.",
+      "tags": [
+        "m_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "THE JOURNEY",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.925,
+      "end": 11.925,
+      "duration": 6.0,
+      "text": "Its journey begins when an adult emerges from a chrysalis, ready to feed and fly.",
+      "scene": "Authentic monarch butterfly emergence, not a fabricated time-lapse of a different species.",
+      "tags": [
+        "m_origin"
+      ],
+      "story_role": "setup",
+      "overlay_label": "A NEW ADULT",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.925,
+      "end": 17.9,
+      "duration": 5.975,
+      "text": "That adult feeds on nectar, building the energy needed for a long southbound flight.",
+      "scene": "Wild adult monarch sipping nectar; second wild adult as support.",
+      "tags": [
+        "m_fuel"
+      ],
+      "story_role": "action",
+      "overlay_label": "FUEL FOR FLIGHT",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 17.9,
+      "end": 23.9,
+      "duration": 6.0,
+      "text": "Sunlight and an internal clock help monarchs hold a heading as the seasons change.",
+      "scene": "Wild monarch flight; orientation explained in narration, no fabricated navigation graphic.",
+      "tags": [
+        "m_navigation"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "SUN COMPASS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 23.9,
+      "end": 31.75,
+      "duration": 7.85,
+      "text": "This October, observers reported monarchs reaching northern Mexico during the ongoing fall migration.",
+      "scene": "Archival monarch on wildflowers, explicitly not represented as 2026 Mexico footage.",
+      "tags": [
+        "m_2026"
+      ],
+      "story_role": "twist",
+      "overlay_label": "2026 MIGRATION",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 31.75,
+      "end": 38.825,
+      "duration": 7.075,
+      "text": "So those tiny wings aren't wandering at random. They're part of one of nature's great migrations.",
+      "scene": "Actual archival monarch migration aggregation in Virginia; no false claim of filming in Mexico.",
+      "tags": [
+        "m_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "A REAL MIGRATION",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20butterfly%201.webm",
+      "assetTitle": "Monarch butterfly 1.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_1.webm",
+      "tags": [
+        "m_hook"
+      ],
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Truem",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild Ontario monarch, 2013.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 11275271
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20%28Danaus%20plexippus%29.webm",
+      "assetTitle": "Monarch (Danaus plexippus).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_%28Danaus_plexippus%29.webm",
+      "tags": [
+        "m_hook"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license Public domain; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons monarch footage; live license/category audit required before reuse; 4.5s original, optional supporting hook cut.",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 1503252,
+      "author": "U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC)"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Butterfly%20Emerging%20from%20Chrysalis.webm",
+      "assetTitle": "Monarch Butterfly Emerging from Chrysalis.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Emerging_from_Chrysalis.webm",
+      "tags": [
+        "m_origin"
+      ],
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "Danmation",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 4323084
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarchs%20flying%20and%20sipping.webm",
+      "assetTitle": "Monarchs flying and sipping.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarchs_flying_and_sipping.webm",
+      "tags": [
+        "m_fuel"
+      ],
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "author": "Dennis.insect.filmer",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult nectar feeding, Ohio.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 11019737
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20butterfly%202.webm",
+      "assetTitle": "Monarch butterfly 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_2.webm",
+      "tags": [
+        "m_fuel"
+      ],
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Truem",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult Ontario support shot.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 8838332
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20butterfly%203.webm",
+      "assetTitle": "Monarch butterfly 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_3.webm",
+      "tags": [
+        "m_navigation"
+      ],
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Truem",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult Ontario; no claim of tagged specimen.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 7567466
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Butterfly.ogv",
+      "assetTitle": "Monarch Butterfly.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly.ogv",
+      "tags": [
+        "m_2026"
+      ],
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Anthony92931",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Archival wildflower footage; not footage of 2026 sightings.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 7378629
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Butterfly%20Migration.ogv",
+      "assetTitle": "Monarch Butterfly Migration.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Migration.ogv",
+      "tags": [
+        "m_payoff"
+      ],
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "author": "U.S. Fish and Wildlife Service",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license Public domain; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. USFWS archival Virginia migration, not Mexico.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 7094976
+    }
+  ],
+  "review_sheet": "monarch_autumn_migration_2026_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

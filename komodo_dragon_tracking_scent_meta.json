@@ -1,0 +1,219 @@
+{
+  "key": "komodo_dragon_tracking_scent",
+  "title": "THE SECRET BEHIND A KOMODO DRAGON'S SLOW WALK",
+  "caption": "Komodo dragons are much more than giant lizards. 🦎 #KomodoDragon #Reptiles #Wildlife #WildVox",
+  "duration": 34.9,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.3,
+      "duration": 4.3,
+      "text": "Why does a Komodo dragon move with such deliberate steps?",
+      "scene": "Real Komodo dragon on the move in Lisbon Zoo; captive context retained.",
+      "tags": [
+        "k_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "GIANT LIZARD",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.3,
+      "end": 10.7,
+      "duration": 6.4,
+      "text": "This enormous monitor lizard lives naturally on a small group of Indonesian islands.",
+      "scene": "Authentic Komodo dragon species in zoo; no claim that this footage is Indonesian wilderness.",
+      "tags": [
+        "k_islands"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 10.7,
+      "end": 16.5,
+      "duration": 5.8,
+      "text": "Watch the heavy body advance as strong legs and a long tail help it balance.",
+      "scene": "Authentic Komodo dragon walking; no fabricated attack or prey.",
+      "tags": [
+        "k_walk"
+      ],
+      "story_role": "action",
+      "overlay_label": "HEAVY STEPS",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 16.5,
+      "end": 22.3,
+      "duration": 5.8,
+      "text": "Its forked tongue gathers scent particles, giving it clues about nearby animals.",
+      "scene": "Real Komodo portrait/movement while narrating sensory biology; no claim a tongue flick is visible.",
+      "tags": [
+        "k_sense"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "SCENT TRACKING",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 22.3,
+      "end": 29.275,
+      "duration": 6.975,
+      "text": "That calm-looking pace can be deceptive: Komodo dragons are powerful hunters and scavengers.",
+      "scene": "Real Komodo species footage; no staged predation, no fake bite.",
+      "tags": [
+        "k_power"
+      ],
+      "story_role": "twist",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 29.275,
+      "end": 34.9,
+      "duration": 5.625,
+      "text": "So those measured steps belong to a predator constantly exploring its world.",
+      "scene": "Authentic Komodo dragon movement; closes walking hook without implying active hunt.",
+      "tags": [
+        "k_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "ALWAYS EXPLORING",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20Dragon.webm",
+      "assetTitle": "Komodo Dragon.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_Dragon.webm",
+      "tags": [
+        "k_hook"
+      ],
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Joseolgon",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Lisbon Zoo, 6.28s original; hook must fit without freezing.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 25347062
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Varanidae%20-%20Varanus%20komodoensis%20-%20Komodo%20Dragon.webm",
+      "assetTitle": "Varanidae - Varanus komodoensis - Komodo Dragon.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanidae_-_Varanus_komodoensis_-_Komodo_Dragon.webm",
+      "tags": [
+        "k_islands"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. San Diego Zoo species portrait.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 13099722,
+      "author": "Hectonichus"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%202%20Part%201.ogv",
+      "assetTitle": "Komodo dragons video 2 Part 1.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_2_Part_1.ogv",
+      "tags": [
+        "k_walk"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo species footage, movement to confirm.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 4670252,
+      "author": "Brocken Inaglory (original); Dhatfield (derivative)"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%202%20Part%202.ogv",
+      "assetTitle": "Komodo dragons video 2 Part 2.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_2_Part_2.ogv",
+      "tags": [
+        "k_walk"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate short Komodo footage, 10s.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 656879,
+      "author": "Brocken Inaglory (original); Dhatfield (derivative)"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%203%20Part%201.ogv",
+      "assetTitle": "Komodo dragons video 3 Part 1.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_3_Part_1.ogv",
+      "tags": [
+        "k_sense"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Species footage, no unverified tongue claim.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 2815311,
+      "author": "Brocken Inaglory (original); Dhatfield (derivative)"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%20with%20no%20audio.wmv.ogv",
+      "assetTitle": "Komodo dragons video with no audio.wmv.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_with_no_audio.wmv.ogv",
+      "tags": [
+        "k_power"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo footage, no invented predation.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 4110204,
+      "author": "Brocken Inaglory"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video.ogv",
+      "assetTitle": "Komodo dragons video.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video.ogv",
+      "tags": [
+        "k_payoff"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo movement.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 10621771,
+      "author": "Brocken Inaglory"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Varanus%20komodoensis3.ogv",
+      "assetTitle": "Varanus komodoensis3.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis3.ogv",
+      "tags": [
+        "k_payoff"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different Komodo footage, 15s.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 3428644,
+      "author": "Raul654"
+    }
+  ],
+  "review_sheet": "komodo_dragon_tracking_scent_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

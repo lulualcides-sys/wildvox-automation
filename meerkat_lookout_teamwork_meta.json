@@ -1,0 +1,219 @@
+{
+  "key": "meerkat_lookout_teamwork",
+  "title": "WHY MEERKATS TAKE TURNS WATCHING FOR DANGER",
+  "caption": "A meerkat lookout is part of a team strategy. 🐾 #Meerkat #AnimalBehavior #Wildlife #WildVox",
+  "duration": 31.45,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.65,
+      "duration": 4.65,
+      "text": "Why do meerkats stay together when they move across open ground?",
+      "scene": "Real meerkat group walking or gathered; no invented predator.",
+      "tags": [
+        "s_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "TEAMWORK",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.65,
+      "end": 9.375,
+      "duration": 4.725,
+      "text": "In the wild, they live in social groups that share space and burrows.",
+      "scene": "Captive meerkat family illustrates group structure; do not claim zoo footage is wild.",
+      "tags": [
+        "s_group"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 9.375,
+      "end": 14.85,
+      "duration": 5.475,
+      "text": "One meerkat may stand upright and scan while its neighbors search for food.",
+      "scene": "Documented upright, scanning meerkat at Ueno Zoo, without claiming visible foraging neighbors.",
+      "tags": [
+        "s_sentry"
+      ],
+      "story_role": "action",
+      "overlay_label": "ON LOOKOUT",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 14.85,
+      "end": 20.0,
+      "duration": 5.15,
+      "text": "A lookout can notice approaching danger and give the group time to react.",
+      "scene": "Meerkat group footage; no invented alarm call or predator event.",
+      "tags": [
+        "s_explain"
+      ],
+      "story_role": "explanation",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 20.0,
+      "end": 25.825,
+      "duration": 5.825,
+      "text": "As the group moves, different individuals can take turns watching their surroundings.",
+      "scene": "Two distinct real meerkat group clips, no implication of same continuous event.",
+      "tags": [
+        "s_switch"
+      ],
+      "story_role": "twist",
+      "overlay_label": "TAKING TURNS",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 25.825,
+      "end": 31.45,
+      "duration": 5.625,
+      "text": "So that famous upright pose is part of teamwork, not just a cute photo.",
+      "scene": "Meerkat family and sentry-context group activity; two distinct authentic clips.",
+      "tags": [
+        "s_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "GROUP SURVIVAL",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meerkats%20%28Suricata%20suricatta%29%20gang%20....webm",
+      "assetTitle": "Meerkats (Suricata suricatta) gang ....webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkats_(Suricata_suricatta)_gang_....webm",
+      "tags": [
+        "s_hook"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic species group, location per source page.",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 21799069,
+      "author": "Bernard DUPONT"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meerkat%20Family.ogv",
+      "assetTitle": "Meerkat Family.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkat_Family.ogv",
+      "tags": [
+        "s_group"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Meerkat family scene.",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 3710174,
+      "author": "Boksi"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meerkat-uenozoo2008.ogv",
+      "assetTitle": "Meerkat-uenozoo2008.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkat-uenozoo2008.ogv",
+      "tags": [
+        "s_sentry"
+      ],
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Nesnad",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Author describes meerkat upright scanning at Ueno Zoo.",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 3195388
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leipzig%20-%20Zoo%20-%20Afrika%20-%20Suricata%20suricatta%20v%2001%20ies.webm",
+      "assetTitle": "Leipzig - Zoo - Afrika - Suricata suricatta v 01 ies.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Leipzig_-_Zoo_-_Afrika_-_Suricata_suricatta_v_01_ies.webm",
+      "tags": [
+        "s_explain"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Captive species, no staged alarm event.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 43773142,
+      "author": "Frank Vincentz"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%202.webm",
+      "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_2.webm",
+      "tags": [
+        "s_switch"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Captive group footage.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 33167231,
+      "author": "NaIzletuSi ™"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%203.webm",
+      "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_3.webm",
+      "tags": [
+        "s_switch"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different captive group footage.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 18793984,
+      "author": "NaIzletuSi ™"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%204.webm",
+      "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 4.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_4.webm",
+      "tags": [
+        "s_payoff"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Group context, behavior to confirm on frame QA.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 16198193,
+      "author": "NaIzletuSi ™"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%205.webm",
+      "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 5.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_5.webm",
+      "tags": [
+        "s_payoff"
+      ],
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate group context, frame QA required.",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-28",
+      "verified_size_bytes": 39424621,
+      "author": "NaIzletuSi ™"
+    }
+  ],
+  "review_sheet": "meerkat_lookout_teamwork_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
