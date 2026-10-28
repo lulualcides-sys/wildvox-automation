@@ -41,6 +41,21 @@
       "status": "CONDITIONALLY_VERIFIED_0_TO_5_SECOND_WALK_ONLY",
       "visual_review": "Inspected real original portrait frames at 2.9, 12.3, 20.9s: correct African penguin is large in frame at 2.9s, then increasingly distant as it enters sea. Suitable for first ~0–5s only; do not use the distant middle/end for close-up payoff.",
       "verified_sha256": "308054cb13a61b4ca83fd342e39687e8b7f69e711f286de3d89aa27969391af7"
+    },
+    {
+      "for_key": "komodo_dragon_tracking_scent",
+      "target_block": "k_power or k_payoff only if authentic uncaptioned lizard footage is visible",
+      "title": "Ausbreitung der Komodowarane.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ausbreitung_der_Komodowarane.webm",
+      "author": "ZDF/Terra X/R. Rauert/Marc Trompetter/Maximilian Heß",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "species": "Varanus komodoensis",
+      "source_description": "ZDF Terra X 2023 43-second educational video about Komodo dragon distribution.",
+      "duration_seconds": 43,
+      "dimensions": "1920x1080",
+      "concerns": "May contain German text, animated maps, presenter or stock B-roll. Only authentic Komodo animal footage with no misleading labels is acceptable; check three frames and reject if unsuitable.",
+      "status": "CANDIDATE_UNREVIEWED"
     }
   ],
   "next_actions": [
