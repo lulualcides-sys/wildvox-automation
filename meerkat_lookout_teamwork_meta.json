@@ -2,17 +2,17 @@
   "key": "meerkat_lookout_teamwork",
   "title": "Why meerkats stand guard for each other",
   "caption": "Meerkat lookouts help their groups stay alert. 🐾 #Meerkat #AnimalBehavior #Wildlife #WildVox",
-  "duration": 32.85,
+  "duration": 31.12,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
     {
       "index": 0,
       "start": 0.0,
-      "end": 5.4,
-      "duration": 5.4,
-      "text": "Why does a meerkat stand upright while the rest of its group watches for danger?",
-      "scene": "Authentic close-up of upright meerkat on lookout; zoo footage illustrates a natural behavior without claiming a documented wild alarm event.",
+      "end": 3.675,
+      "duration": 3.675,
+      "text": "Why does this meerkat stand upright like a lookout?",
+      "scene": "Close real captive meerkat standing upright and scanning; no false implication of a visible wild alarm, other animals in frame, or a documented lookout switch.",
       "tags": [
         "s_hook"
       ],
@@ -22,8 +22,8 @@
     },
     {
       "index": 1,
-      "start": 5.4,
-      "end": 10.125,
+      "start": 3.675,
+      "end": 8.399999999999999,
       "duration": 4.725,
       "text": "In the wild, they live in social groups that share space and burrows.",
       "scene": "Captive meerkat family illustrates group structure; do not claim zoo footage is wild.",
@@ -36,8 +36,8 @@
     },
     {
       "index": 2,
-      "start": 10.125,
-      "end": 15.6,
+      "start": 8.399999999999999,
+      "end": 13.874999999999998,
       "duration": 5.475,
       "text": "One meerkat may stand upright and scan while its neighbors search for food.",
       "scene": "Documented upright, scanning meerkat at Ueno Zoo, without claiming visible foraging neighbors.",
@@ -50,8 +50,8 @@
     },
     {
       "index": 3,
-      "start": 15.6,
-      "end": 20.75,
+      "start": 13.874999999999998,
+      "end": 19.025,
       "duration": 5.15,
       "text": "A lookout can notice approaching danger and give the group time to react.",
       "scene": "Meerkat group footage; no invented alarm call or predator event.",
@@ -64,8 +64,8 @@
     },
     {
       "index": 4,
-      "start": 20.75,
-      "end": 27.225,
+      "start": 19.025,
+      "end": 25.5,
       "duration": 6.475,
       "text": "Different individuals can watch their surroundings, helping the group stay alert as it moves.",
       "scene": "Distinct genuine meerkat group footage illustrating shared vigilance; do not imply a captured sentry handoff or predator event.",
@@ -78,8 +78,8 @@
     },
     {
       "index": 5,
-      "start": 27.225,
-      "end": 32.85,
+      "start": 25.5,
+      "end": 31.125,
       "duration": 5.625,
       "text": "So that famous upright pose is part of teamwork, not just a cute photo.",
       "scene": "Authentic wild meerkat group in open ground, ending on collective vigilance rather than an isolated captive portrait.",
