@@ -451,7 +451,7 @@ def detect_embedded_black_bars(path, start, available_seconds):
     ], capture_output=True, text=True)
     if probe.returncode:
         raise RuntimeError(f"Could not inspect original letterboxing: {path}")
-    candidates = re.findall(r"crop=(\\d+):(\\d+):(\\d+):(\\d+)", probe.stderr)
+    candidates = re.findall(r"crop=(\d+):(\d+):(\d+):(\d+)", probe.stderr)
     if not candidates:
         raise RuntimeError(f"No safe black-padding crop detected: {path}")
     crop = Counter(candidates[-45:]).most_common(1)[0][0]
