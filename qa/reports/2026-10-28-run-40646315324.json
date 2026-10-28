@@ -1,0 +1,84 @@
+{
+  "editorial_day": "2026-10-28",
+  "workflow_run_id": 40646315324,
+  "workflow_head_sha": "05deb2fc912c0f11fdabf778f7c2874cdf8a1108",
+  "media_commit": "284f832b882d0bfe30a950b3bf531866262b1446",
+  "qa_method": "Inspected five current-run *_review.jpg, 40 authentic three-frame source previews, five MP4s and ffprobe audio/duration/frame geometry, plus independent FFmpeg freezedetect -45dB >=1s on ALL five MP4s. No old QA verdict reused.",
+  "technical_pass": false,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "tiktok_scheduled": false,
+  "metricool_brand_id": 7242311,
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_seconds": 38.825,
+      "technical_pass": false,
+      "editorial_approved": false,
+      "freezes_seconds": [
+        {
+          "start": 10.4,
+          "end": 11.666667,
+          "duration": 1.266667
+        }
+      ],
+      "findings": [
+        "8 real clips; emergence time-lapse 6x reduced earlier 2.83s freeze but 1.27s freeze remains.",
+        "Original encoded black padding visible around emergence and later archival footage.",
+        "Payoff footage from Virginia has tiny butterfly aggregation and weak narrative resolution."
+      ],
+      "repair": "Commit 5f551d72 switches to 8x 22–70s, opts into black-padding crop, uses verified 2025 Mexico sanctuary visitor scene with rewritten accurate payoff; new run 40647663934 requires independent full QA."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_seconds": 32.5,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "freezes_seconds": [],
+      "findings": [
+        "Correct African penguin preening, walking, den footage; caption safe area visually acceptable.",
+        "Distant coast and payoff clips show tiny birds."
+      ],
+      "repair": "Commit 5f551d72 replaces one distant payoff with verified first seconds of authentic portrait Boulders Beach penguin video."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_seconds": 31.45,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "freezes_seconds": [],
+      "findings": [
+        "Species, sentry behavior, group movement, safe captions and timing are visually coherent.",
+        "Some zoo/captive clips need explicit context and careful editorial review; no misleading wild-field label permitted."
+      ],
+      "repair": "Do not release hold until current complete batch and source license obligations are verified."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_seconds": 36,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "freezes_seconds": [],
+      "findings": [
+        "Revised dust/water narration now matches actual elephant dust and waterhole scenes; 36s valid.",
+        "One safari-vehicle roof occupies upper source frame; preserve real framing, do not invent a crop.",
+        "Final QA remains pending while batch contains a technical failure."
+      ],
+      "repair": "No additional change until latest rerender; assess visible source framing again."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_seconds": 34.9,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "freezes_seconds": [],
+      "findings": [
+        "Correct species, movement, scent biology explained, no fabricated attack.",
+        "Several 2008 footage derivatives repeat near-identical animal angles; low-resolution scenes weaken visual variety."
+      ],
+      "repair": "Independent 2023 Komodo video candidate sent for source-only preview; do not substitute without real frame verification."
+    }
+  ],
+  "next_run": "40647663934",
+  "approval_rule": "This report applies only to 40646315324; never reuse for newer batch. No Metricool scheduling without all current MP4 visual QA and source credits."
+}
