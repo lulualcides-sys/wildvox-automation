@@ -6,7 +6,7 @@
   "latest_full_render_run_id": 40579108192,
   "current_media_branch_sha": "c746c37f01459f6021c9252f38efea7965d0e943",
   "editorial_status": "REJECTED — five current-day review JPGs independently inspected; do not schedule",
-  "note": "2026-10-27 replacement preview run 40610353312 inspected real source frames. Two candidates rejected for tiny subject/poor behavior visibility; large peacock candidate needs a smaller authentic transcode before inspection. None approved. Do not change daily.json or rerender with these candidates.",
+  "note": "2026-10-27: two replacements remain visually rejected; peacock source preview queued using verified Wikimedia video transcode selection. No content approved or scheduled.",
   "candidates": [
     {
       "for_key": "green_sea_turtle_two_generations",
@@ -38,8 +38,8 @@
       "dimensions": "3840x2160",
       "duration_seconds": 31.069,
       "concerns": "Original 248.75MB; prefer Commons lower-res transcode after confirming actual behavior, no embedded captions and peahen visibility.",
-      "status": "NEEDS_SMALLER_TRANSCODE",
-      "visual_review": "Original 248.75MB exceeds 90MB preview cap (curl exit 63). No frames reviewed; do not treat as visually approved."
+      "status": "CANDIDATE_UNREVIEWED",
+      "visual_review": "Awaiting authentic lower-resolution Wikimedia transcode preview. Never approve until sampled frames verify peahen, train rattle, subject scale, and absence of embedded text."
     },
     {
       "for_key": "greater_flamingo_courtship_parade",
@@ -76,7 +76,7 @@
   "next_actions": [
     "Find close, authentic green sea turtle footage showing the animal clearly in the actual selected shot; avoid near-empty IFREMER clips.",
     "Find tight, clear flamingo bill-submerged feeding footage rather than overhead enclosure wide shots.",
-    "For the 248.75MB peacock source, preview a Commons VP9 lower-resolution transcode, then verify the peahen and train-rattle behavior before replacing labeled footage.",
+    "Review actual frame contact sheet from Wikimedia authentic video transcode for peacock, then accept/reject; do not publish based on workflow success.",
     "Preserve publication_hold=true and only schedule after fresh consolidated visual approval."
   ],
   "preview_workflow": {
