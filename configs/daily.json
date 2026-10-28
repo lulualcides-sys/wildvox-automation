@@ -13,9 +13,11 @@
           "m_hook"
         ],
         "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "author": "Truem",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild Ontario monarch, 2013."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild Ontario monarch, 2013.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 11275271
       },
       {
         "type": "video",
@@ -25,7 +27,11 @@
         "tags": [
           "m_hook"
         ],
-        "license_note": "Wikimedia Commons monarch footage; live license/category audit required before reuse; 4.5s original, optional supporting hook cut."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license Public domain; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons monarch footage; live license/category audit required before reuse; 4.5s original, optional supporting hook cut.",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 1503252
       },
       {
         "type": "video",
@@ -36,9 +42,11 @@
           "m_origin"
         ],
         "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
         "author": "Danmation",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 4323084
       },
       {
         "type": "video",
@@ -49,9 +57,11 @@
           "m_fuel"
         ],
         "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
         "author": "Dennis.insect.filmer",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult nectar feeding, Ohio."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult nectar feeding, Ohio.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 11019737
       },
       {
         "type": "video",
@@ -62,9 +72,11 @@
           "m_fuel"
         ],
         "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "author": "Truem",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult Ontario support shot."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult Ontario support shot.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 8838332
       },
       {
         "type": "video",
@@ -75,9 +87,11 @@
           "m_navigation"
         ],
         "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "author": "Truem",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult Ontario; no claim of tagged specimen."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult Ontario; no claim of tagged specimen.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 7567466
       },
       {
         "type": "video",
@@ -88,9 +102,11 @@
           "m_2026"
         ],
         "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
         "author": "Anthony92931",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Archival wildflower footage; not footage of 2026 sightings."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Archival wildflower footage; not footage of 2026 sightings.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 7378629
       },
       {
         "type": "video",
@@ -103,7 +119,9 @@
         "license": "Public domain",
         "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
         "author": "U.S. Fish and Wildlife Service",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. USFWS archival Virginia migration, not Mexico."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license Public domain; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. USFWS archival Virginia migration, not Mexico.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 7094976
       }
     ],
     "min_unique_videos": 6,
@@ -190,9 +208,11 @@
           "a_hook"
         ],
         "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
         "author": "Vassia Atanassova - Spiritia",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild Stony Point combing."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild Stony Point combing.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 7799577
       },
       {
         "type": "video",
@@ -202,7 +222,11 @@
         "tags": [
           "a_coast"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony, no invented feeding action."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony, no invented feeding action.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 36608973
       },
       {
         "type": "video",
@@ -213,9 +237,11 @@
           "a_coast"
         ],
         "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
         "author": "Vassia Atanassova - Spiritia",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Stony Point walking."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Stony Point walking.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 7466789
       },
       {
         "type": "video",
@@ -225,7 +251,11 @@
         "tags": [
           "a_groom"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage.",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 9818376
       },
       {
         "type": "video",
@@ -235,7 +265,11 @@
         "tags": [
           "a_fur"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal species footage, no claimed close-up anatomy."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal species footage, no claimed close-up anatomy.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 161842590
       },
       {
         "type": "video",
@@ -246,9 +280,11 @@
           "a_den"
         ],
         "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
         "author": "Vassia Atanassova - Spiritia",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual den scene."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual den scene.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 11974313
       },
       {
         "type": "video",
@@ -258,7 +294,11 @@
         "tags": [
           "a_payoff"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony payoff."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony payoff.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 34414879
       },
       {
         "type": "video",
@@ -268,7 +308,11 @@
         "tags": [
           "a_payoff"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Second distinct payoff shot."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Second distinct payoff shot.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 72351622
       }
     ],
     "min_unique_videos": 6,
@@ -347,7 +391,11 @@
         "tags": [
           "s_hook"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic species group, location per source page."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic species group, location per source page.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 21799069
       },
       {
         "type": "video",
@@ -357,7 +405,11 @@
         "tags": [
           "s_group"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Meerkat family scene."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Meerkat family scene.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 3710174
       },
       {
         "type": "video",
@@ -368,9 +420,11 @@
           "s_sentry"
         ],
         "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
         "author": "Nesnad",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Author describes meerkat upright scanning at Ueno Zoo."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Author describes meerkat upright scanning at Ueno Zoo.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 3195388
       },
       {
         "type": "video",
@@ -380,7 +434,11 @@
         "tags": [
           "s_explain"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Captive species, no staged alarm event."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Captive species, no staged alarm event.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 43773142
       },
       {
         "type": "video",
@@ -390,7 +448,11 @@
         "tags": [
           "s_switch"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Captive group footage."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Captive group footage.",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 33167231
       },
       {
         "type": "video",
@@ -400,7 +462,11 @@
         "tags": [
           "s_switch"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different captive group footage."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different captive group footage.",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 18793984
       },
       {
         "type": "video",
@@ -410,7 +476,11 @@
         "tags": [
           "s_payoff"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Group context, behavior to confirm on frame QA."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Group context, behavior to confirm on frame QA.",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 16198193
       },
       {
         "type": "video",
@@ -420,7 +490,11 @@
         "tags": [
           "s_payoff"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate group context, frame QA required."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate group context, frame QA required.",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 39424621
       }
     ],
     "min_unique_videos": 6,
@@ -499,7 +573,11 @@
         "tags": [
           "e_hook"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. African elephant mud bathing, archival footage."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. African elephant mud bathing, archival footage.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 6278466
       },
       {
         "type": "video",
@@ -509,7 +587,11 @@
         "tags": [
           "e_heat"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Actual Loxodonta africana."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Actual Loxodonta africana.",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 37714719
       },
       {
         "type": "video",
@@ -519,7 +601,11 @@
         "tags": [
           "e_water"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit splashing behavior."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit splashing behavior.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 32782166
       },
       {
         "type": "video",
@@ -529,7 +615,11 @@
         "tags": [
           "e_water"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic drinking at waterhole, not necessarily spraying."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic drinking at waterhole, not necessarily spraying.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 6308186
       },
       {
         "type": "video",
@@ -539,7 +629,11 @@
         "tags": [
           "e_explain"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Bathing footage."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Bathing footage.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 3528861
       },
       {
         "type": "video",
@@ -549,7 +643,11 @@
         "tags": [
           "e_group"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic waterhole scene."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic waterhole scene.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 38951671
       },
       {
         "type": "video",
@@ -559,7 +657,11 @@
         "tags": [
           "e_payoff"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic bathing footage."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic bathing footage.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 25799745
       },
       {
         "type": "video",
@@ -569,7 +671,11 @@
         "tags": [
           "e_payoff"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Distinct elephant group, no invented behavior."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Distinct elephant group, no invented behavior.",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 135572887
       }
     ],
     "min_unique_videos": 6,
@@ -649,9 +755,11 @@
           "k_hook"
         ],
         "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
         "author": "Joseolgon",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Lisbon Zoo, 6.28s original; hook must fit without freezing."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Lisbon Zoo, 6.28s original; hook must fit without freezing.",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 25347062
       },
       {
         "type": "video",
@@ -661,7 +769,11 @@
         "tags": [
           "k_islands"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. San Diego Zoo species portrait."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. San Diego Zoo species portrait.",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 13099722
       },
       {
         "type": "video",
@@ -671,7 +783,11 @@
         "tags": [
           "k_walk"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo species footage, movement to confirm."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo species footage, movement to confirm.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 4670252
       },
       {
         "type": "video",
@@ -681,7 +797,11 @@
         "tags": [
           "k_walk"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate short Komodo footage, 10s."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate short Komodo footage, 10s.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 656879
       },
       {
         "type": "video",
@@ -691,7 +811,11 @@
         "tags": [
           "k_sense"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Species footage, no unverified tongue claim."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Species footage, no unverified tongue claim.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 2815311
       },
       {
         "type": "video",
@@ -701,7 +825,11 @@
         "tags": [
           "k_power"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo footage, no invented predation."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo footage, no invented predation.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 4110204
       },
       {
         "type": "video",
@@ -711,7 +839,11 @@
         "tags": [
           "k_payoff"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo movement."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo movement.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 10621771
       },
       {
         "type": "video",
@@ -721,7 +853,11 @@
         "tags": [
           "k_payoff"
         ],
-        "license_note": "Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different Komodo footage, 15s."
+        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different Komodo footage, 15s.",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-28",
+        "verified_size_bytes": 3428644
       }
     ],
     "min_unique_videos": 6,
