@@ -6,7 +6,7 @@
   "latest_full_render_run_id": 40579108192,
   "current_media_branch_sha": "c746c37f01459f6021c9252f38efea7965d0e943",
   "editorial_status": "REJECTED — five current-day review JPGs independently inspected; do not schedule",
-  "note": "2026-10-27: two replacements remain visually rejected; peacock source preview queued using verified Wikimedia video transcode selection. No content approved or scheduled.",
+  "note": "Previewed peacock source via real Commons 480p transcode; source shows clear fan display but not verified peahen or rattling. Other two candidates remain rejected. No five-video batch approved; no TikTok scheduling.",
   "candidates": [
     {
       "for_key": "green_sea_turtle_two_generations",
@@ -27,7 +27,7 @@
     },
     {
       "for_key": "indian_peafowl_tail_rattle",
-      "target_block": "p_twist",
+      "target_block": "p_action or p_payoff (not p_twist without visible peahen)",
       "title": "Peacock dance, at Botanical Garden Hyderabad.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Peacock_dance,_at_Botanical_Garden_Hyderabad.webm",
       "author": "Krishna Chaitanya Velaga; Rihaan B H",
@@ -38,8 +38,12 @@
       "dimensions": "3840x2160",
       "duration_seconds": 31.069,
       "concerns": "Original 248.75MB; prefer Commons lower-res transcode after confirming actual behavior, no embedded captions and peahen visibility.",
-      "status": "CANDIDATE_UNREVIEWED",
-      "visual_review": "Awaiting authentic lower-resolution Wikimedia transcode preview. Never approve until sampled frames verify peahen, train rattle, subject scale, and absence of embedded text."
+      "status": "PARTIALLY_VERIFIED_DISPLAY_ONLY",
+      "visual_review": "2026-10-27 22:43 America/Sao_Paulo: independently inspected real frames at 3.7s, 15.5s, 26.4s from authentic Wikimedia 480p VP9 transcode. Clear male Indian peafowl full-fan display, unobstructed, no embedded text; peahen inspection or actual rattling NOT demonstrated in these frames. Suitable as a display-only candidate, not sufficient for p_twist narration or full-video approval.",
+      "verified_sha256": "5f9c636c32ec2a2f45495db728cc775d920e06c194e86068b419945ff042bc40",
+      "preview_media_url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4a/Peacock_dance%2C_at_Botanical_Garden_Hyderabad.webm/Peacock_dance%2C_at_Botanical_Garden_Hyderabad.webm.480p.vp9.webm",
+      "preview_run_id": 40616685908,
+      "preview_artifact_id": 12785965297
     },
     {
       "for_key": "greater_flamingo_courtship_parade",
@@ -76,12 +80,12 @@
   "next_actions": [
     "Find close, authentic green sea turtle footage showing the animal clearly in the actual selected shot; avoid near-empty IFREMER clips.",
     "Find tight, clear flamingo bill-submerged feeding footage rather than overhead enclosure wide shots.",
-    "Review actual frame contact sheet from Wikimedia authentic video transcode for peacock, then accept/reject; do not publish based on workflow success.",
+    "Peacock source may replace a display-only shot; never use as peahen-inspection evidence. Seek a peahen-visible source for p_twist or rewrite that spoken block to match actual footage.",
     "Preserve publication_hold=true and only schedule after fresh consolidated visual approval."
   ],
   "preview_workflow": {
-    "run_id": 40610353312,
-    "artifact_id": 12782866015,
+    "run_id": 40616685908,
+    "artifact_id": 12785965297,
     "run_status": "success",
     "editorial_approval": false,
     "day": "2026-10-27"
