@@ -113,12 +113,15 @@
     "Wait for candidate preview artifacts and inspect all three authentic source frames for each.",
     "Do not interrupt currently running Daily5 render.",
     "Only replace if candidate is visibly superior and semantics fit block; then update source credits and rerender.",
-    "For elephant e_heat, inspect real frames of two new distinct 2022/2021 licensed candidate sources before swapping vehicle-roof shot; keep hold until rerender and full current-run QA."
+    "For elephant e_heat, inspect real frames of two new distinct 2022/2021 licensed candidate sources before swapping vehicle-roof shot; keep hold until rerender and full current-run QA.",
+    "Inspect both new e_heat elephant source contact sheets from the next preview artifact; do not substitute before visual verification."
   ],
   "preview_workflow": {
     "run_id": 40648036095,
     "artifact_id": 12797633703,
-    "run_status": "success",
-    "editorial_approval": false
+    "run_status": "RECHECK_REQUESTED_FOR_TWO_NEW_ELEPHANT_CANDIDATES",
+    "editorial_approval": false,
+    "previous_run_id": 40648036095,
+    "previous_artifact_id": 12797633703
   }
 }
