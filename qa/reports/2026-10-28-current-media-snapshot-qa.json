@@ -1,0 +1,74 @@
+{
+  "editorial_day": "2026-10-28",
+  "main_sha_at_check": "10e5440cc120ea9c7d576a30e00fa5faa7207542",
+  "config_blob_sha": "d65b8dddf994d29968ec899162053985940dac83",
+  "media_ref": "media",
+  "workflow_run_id": null,
+  "workflow_identification": "Not verified: available connector has no list-runs endpoint. Media meta source lists match current config but workflow completion after latest config commit not independently confirmed.",
+  "qa_method": "Personally inspected all five current media-branch 4x4 review JPGs in this run; compared each media meta source list to current daily.json; checked real Kokoro narration meta duration, script/block normalized equality, and distinct URLs. Did not decode full MP4 streams, so technical freeze and frame-accurate audiovisual alignment remain unverified.",
+  "technical_metadata_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "metricool_brand_id": 7242311,
+  "metricool_scheduled_posts_for_day": 0,
+  "publication_confirmed": false,
+  "license_delivery_final_approval": false,
+  "findings": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "meta_sha": "8a6f55a568bdd9786e9eead2bdc8364aec7e7e83",
+      "review_sha": "c61a45dec5b36d7d3cd4f995e0fc6a45bf391aa2",
+      "duration": 39.67,
+      "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v4-mexico-payoff-crop-freeze",
+      "source_count": 8,
+      "unique_source_urls": 8,
+      "editorial_approved": false,
+      "finding": "Real monarch and chrysalis; opening text overlaps blurred upper subject area; last Mexico sanctuary footage emphasizes visitor and not butterflies. Weak visual payoff; archival label preserved."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "meta_sha": "d0e0a47cc9e1cbad86bba73a3add87167eee6cd6",
+      "review_sha": "bf7fa0de6a6c6d2bdd7e43280c364e2e980cc18a",
+      "duration": 32.5,
+      "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v3-portrait-feather-closeup",
+      "source_count": 8,
+      "unique_source_urls": 8,
+      "editorial_approved": false,
+      "finding": "Correct African penguins and new portrait grooming shot visible; coastal and middle shots still feature small birds or rocky background, weakening narration-to-scene clarity."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "meta_sha": "683d7b5d239548d1958fc46ab36a64463e9a3052",
+      "review_sha": "300ec79be832e525cb3c282744832c887745223f",
+      "duration": 32.85,
+      "revision": "2026-10-28-daily-meerkat_lookout_teamwork-narrative-v2-closeup-hook-verified-group-payoff",
+      "source_count": 8,
+      "unique_source_urls": 8,
+      "editorial_approved": false,
+      "finding": "New opening close-up and script corrected to avoid unshown sentry switch; zoo enclosures visible, some distant group scenes; no proof of a single continuous wild behavior event."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "meta_sha": "6f225ba34c6105369019cf5cabdf049df25de79e",
+      "review_sha": "93022e7285d982557824aa0f13c3c315991a7393",
+      "duration": 36,
+      "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v3-unobstructed-elephant-verified",
+      "source_count": 8,
+      "unique_source_urls": 8,
+      "editorial_approved": false,
+      "finding": "Obstructed vehicle shot replaced by clear elephant close-up; middle bathing shots are still distant; last shot closer and authentic."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "meta_sha": "dfb7af507dbb9bb84dcf05a92be803e50ab106f4",
+      "review_sha": "178466840d40af3808c665053f341aae40c53458",
+      "duration": 34.9,
+      "revision": "2026-10-28-daily-komodo_dragon_tracking_scent-narrative-v1",
+      "source_count": 8,
+      "unique_source_urls": 8,
+      "editorial_approved": false,
+      "finding": "Correct species; multiple 2008 source derivatives reuse the same underlying filming, causing visible repetition; zoo footage is not wild Indonesia. No independent replacement visually approved."
+    }
+  ],
+  "next_action": "Find and visually validate independent high-quality relevant source footage, update credits and config, rerender and recheck each five-review-sheet set and MP4; no TikTok scheduling until approval."
+}
