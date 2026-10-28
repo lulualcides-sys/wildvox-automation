@@ -68,7 +68,7 @@
       "end": 29.275,
       "duration": 6.975,
       "text": "That calm-looking pace can be deceptive: Komodo dragons are powerful hunters and scavengers.",
-      "scene": "Real Komodo species footage; no staged predation, no fake bite.",
+      "scene": "Authentic Komodo species portrait at closer source segment around 29s, showing power through animal size/face rather than fabricated predation. Recheck final frame and same-recording repetition.",
       "tags": [
         "k_power"
       ],
@@ -175,12 +175,13 @@
       "tags": [
         "k_power"
       ],
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo footage, no invented predation.",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo footage, no invented predation. Candidate editorial seek to 29s where source preview indicates a closer head/face, pending actual rendered-frame QA; same archival recording family, not independent filming.",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "license_verified_at": "2026-10-28",
       "verified_size_bytes": 4110204,
-      "author": "Brocken Inaglory"
+      "author": "Brocken Inaglory",
+      "start_seconds": 29
     },
     {
       "type": "video",
