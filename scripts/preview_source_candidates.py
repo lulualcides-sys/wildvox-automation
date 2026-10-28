@@ -30,9 +30,30 @@ def resolve_media(name, maxbytes):
         raise ValueError("Commons API did not return an original file URL")
     if int(info.get("size", maxbytes + 1)) <= maxbytes:
         return original, False
+    # TimedMediaHandler exposes video encodings through videoinfo, not always
+    # through imageinfo. Try both before declaring a large file unpreviewable.
+    options = list(info.get("derivatives") or [])
+    if not options:
+        video_api = "https://commons.wikimedia.org/w/api.php?" + urlencode({
+            "action": "query", "format": "json", "formatversion": 2,
+            "prop": "videoinfo", "viprop": "derivatives",
+            "titles": "File:" + name,
+        })
+        try:
+            with urlopen(Request(video_api, headers={
+                "User-Agent": "WildVox-QA/1.0 (Wikimedia Commons editorial source preview)"
+            }), timeout=35) as response:
+                video_payload = json.load(response)
+            video_pages = video_payload.get("query", {}).get("pages", [])
+            if video_pages:
+                options = (video_pages[0].get("videoinfo") or [{}])[0].get("derivatives") or []
+        except (OSError, ValueError):
+            options = []
     derivatives = []
-    for d in info.get("derivatives") or []:
+    for d in options:
         src = d.get("src", "")
+        if src.startswith("//upload.wikimedia.org/"):
+            src = "https:" + src
         width = int(d.get("width") or 0)
         height = int(d.get("height") or 0)
         if (src.startswith("https://upload.wikimedia.org/") and
@@ -40,7 +61,7 @@ def resolve_media(name, maxbytes):
                 width >= 360 and height >= 200 and width <= 1280):
             derivatives.append((abs(width - 960), -width, src))
     if not derivatives:
-        raise ValueError("Original exceeds preview cap; no Commons video transcode available")
+        raise ValueError("Original exceeds preview cap; Commons imageinfo/videoinfo returned no usable video transcode")
     derivatives.sort()
     return derivatives[0][2], True
 
