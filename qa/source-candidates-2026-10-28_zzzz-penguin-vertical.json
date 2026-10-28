@@ -2,8 +2,8 @@
   "day": "2026-10-28",
   "timezone": "America/Sao_Paulo",
   "checked_main_sha": "9d7c1993ddc242dfdc0031a5551d67c50b92f118",
-  "editorial_status": "SOURCE_PREVIEW_ONLY_NOT_APPROVED",
-  "note": "Current 40776086099 independent review: African penguin opening remains severely overexposed. New original native 608x1080 vertical real African penguin grooming clip at Boulders Beach; Commons page confirms species, creator, date, license, 9.5s length. Must inspect original actual frames and reject if no visible bill-to-feather behavior, static/frozen, or weak framing. Do not replace source in daily.json until preview verified; all five publication_hold remain true.",
+  "editorial_status": "SOURCE_PREVIEW_ROUND_TWO_PENDING",
+  "note": "Run 40787420586 original preview confirms native vertical Boulders clip has small penguin occupying ~10% frame, no strong close-up; rejected. Preview Wuppertal Zoo 05/06 genuine African penguin preening footage before any daily.json change; zoo context must remain explicit. publication_hold=true.",
   "candidates": [
     {
       "for_key": "african_penguin_feather_care",
@@ -15,8 +15,35 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "species": "Spheniscus demersus",
       "source_description": "Native portrait 608x1080 genuine African penguin grooming at Boulders Beach, Simon's Town, Cape Town; 9.5 seconds, Wikimedia Commons original page independently checked 2026-10-28. Authored 24 March 2018 by Islahaddow. Separate original file from Penguin at Boulders 01.webm; confirm visual uniqueness by frame comparison.",
+      "status": "REJECTED_VISUAL_TINY_SUBJECT",
+      "concerns": "Source metadata and license verified on original Commons page, but original video frames not yet inspected; do not assume grooming visible from metadata. Requires CC BY-SA 4.0 creator/source/license link and edited-work notice and compatible sharealike distribution; no TikTok posting until legal and editorial QA.",
+      "visual_review": "Run 40787420586, actual source frames at 1.1s,4.7s,8.0s: solitary black African penguin very small low in wide rocky landscape, largely same framing across time. Poor hook, despite genuine grooming and portrait dimensions. Reject."
+    },
+    {
+      "for_key": "african_penguin_feather_care",
+      "target_block": "a_hook or a_groom ONLY if beak-to-feather contact is clear in original frames",
+      "title": "Wuppertal - Zoo - Spheniscus demersus 05 (1) ies.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuppertal_-_Zoo_-_Spheniscus_demersus_05_(1)_ies.webm",
+      "author": "Frank Vincentz",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "species": "Spheniscus demersus",
+      "source_description": "Wuppertal Zoo authentic African penguins, original 47.141s 1920x1080, 33716308 bytes, source page and creator/license independently verified 2026-10-28; listed under Videos of birds preening. Separate original video from rejected 07 clip.",
       "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Source metadata and license verified on original Commons page, but original video frames not yet inspected; do not assume grooming visible from metadata. Requires CC BY-SA 4.0 creator/source/license link and edited-work notice and compatible sharealike distribution; no TikTok posting until legal and editorial QA."
+      "concerns": "Source metadata does not prove visible grooming or good 9:16 subject size. Inspect actual sampled frames, reject if static or no bill-to-feather action; zoo context, credit Frank Vincentz and ShareAlike 3.0 obligations."
+    },
+    {
+      "for_key": "african_penguin_feather_care",
+      "target_block": "a_hook or a_groom ONLY if beak-to-feather contact is clear in original frames",
+      "title": "Wuppertal - Zoo - Spheniscus demersus 06 (1) ies.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuppertal_-_Zoo_-_Spheniscus_demersus_06_(1)_ies.webm",
+      "author": "Frank Vincentz",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "species": "Spheniscus demersus",
+      "source_description": "Wuppertal Zoo authentic African penguins, original 16.118s 1920x1080, 12044282 bytes, source page and creator/license independently verified 2026-10-28; listed under Videos of birds preening. Separate original video from rejected 07 clip.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Source metadata does not prove visible grooming or good 9:16 subject size. Inspect actual sampled frames, reject if static or no bill-to-feather action; zoo context, credit Frank Vincentz and ShareAlike 3.0 obligations."
     }
   ]
 }
