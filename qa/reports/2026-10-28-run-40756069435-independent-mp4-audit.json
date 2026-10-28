@@ -1,0 +1,47 @@
+{
+  "editorial_day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "audited_workflow_run": 40756069435,
+  "render_config_commit": "cd9ba7ad97973a246f860e189f8fd57be5307fb3",
+  "media_meta_hashes_match_downloaded_artifacts": true,
+  "method": "Downloaded all five current-run GitHub Actions ZIP artifacts, extracted original MP4/review/source previews, independently ffprobed all MP4s, FFmpeg freezedetect with 320px downscale -50dB >=1s, inspected all five 4x4 review storyboards, 8 actual MP4 samples per video (six narration block midpoints plus hook/payoff), 40 source preview strips and metadata. Media-branch meta Git blob hashes matched the downloaded artifact files. No new batch approved from this audit.",
+  "independent_mp4_technical_qa": true,
+  "editorial_approval": false,
+  "publication_hold": true,
+  "metricool_scheduled_posts_today": 0,
+  "metricool_post_ids_confirmed": [],
+  "technical_findings": "Five MP4s 1080x1920 with audio, durations 31.125-39.675s, six real Kokoro narration blocks, eight distinct Commons video URLs each, no >=1s freeze detected. The check does not certify full subtitle safety or legal ShareAlike compliance.",
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration": 39.675,
+      "sha256": "ab2fd71b9fa97bc8f29b0ed097b01b11f3fd167d3dc8c0e66d1ae3c8395792fe",
+      "finding": "Nectar narration at ~14.9s displays flowers without a visible butterfly; first-second hook butterfly small, and visitor dominates Mexico payoff. Source 03 end preview contains a clearly visible close nectar-feeding monarch; seek a verified later source offset before rerender."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration": 32.725,
+      "sha256": "077e507d0d9d1285cb96cad820b15db09d6b98808f983029ce39ad369fd5b33c",
+      "finding": "Hook species and grooming verified but overexposed; original hook source middle preview shows a more legible two-penguin grooming moment. Coast and payoff contain small penguins. Zoo label present for captive footage."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration": 31.125,
+      "sha256": "ddab877b391e7e9bb5678b18bddb17516350edcfa0a3f03cbd58e8e32003e8ca",
+      "finding": "Correct meerkat species and upright lookout, but multiple distant group shots; captive/wild distinction should remain clear. No visible real alarm/predator event, and script does not falsely claim one was recorded."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration": 36.4,
+      "sha256": "c56c68fcc6613fdafa9cb0b0a272b6934444ac023ce0cf90d9bf253e40f8928a",
+      "finding": "Hook and waterhole are distant, no clear splash in action midpoint; dry herd shown while narration discusses the same waterhole, weak behavioral evidence. Elephant species correct."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration": 34.9,
+      "sha256": "8aa0179c721f5a14ecac634fd9d55db7e16126d3351e9d5cf5501069fab3946c",
+      "finding": "Correct species; first hook overhead/partial body, island setup uses captive footage, repeated 2008 filming family in multiple blocks. Sense block shows face but no forked tongue. Power source middle preview contains a closer face than current initial clip; test later start offset."
+    }
+  ],
+  "next_step": "Adjust verified source offsets only, rerender all five, re-audit every review/MP4; keep hold until visual and licensing delivery both approved."
+}
