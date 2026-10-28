@@ -12,7 +12,7 @@
       "end": 4.775,
       "duration": 4.775,
       "text": "Why does this African penguin keep combing its feathers with its bill?",
-      "scene": "Authentic close-up of African penguins actively grooming their plumage with their bills; source African penguins grooming.ogv, verified original preview frames at beginning/middle/end. Avoid distant colony shot for first-second hook.",
+      "scene": "Authentic two African penguins actively grooming, candidate source start at 18s to avoid the washed-out first seconds. Verify exposure and visible beak-to-feather contact in actual rendered hook; reject if still overexposed.",
       "tags": [
         "a_hook"
       ],
@@ -146,12 +146,13 @@
       "tags": [
         "a_hook"
       ],
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage.",
+      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage. Candidate editorial seek to 18s based on original preview showing two African penguins actively grooming; still verify exposure and subject scale in rerender.",
       "license": "CC0",
       "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "license_verified_at": "2026-10-28",
       "verified_size_bytes": 9818376,
-      "author": "Uusijani"
+      "author": "Uusijani",
+      "start_seconds": 18
     },
     {
       "type": "video",
