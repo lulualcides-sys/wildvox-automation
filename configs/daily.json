@@ -211,7 +211,7 @@
         "assetTitle": "20130924 African penguins combing.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:20130924_African_penguins_combing.webm",
         "tags": [
-          "a_hook"
+          "a_groom"
         ],
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -257,7 +257,7 @@
         "assetTitle": "African penguins grooming.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins_grooming.ogv",
         "tags": [
-          "a_groom"
+          "a_hook"
         ],
         "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit grooming footage.",
         "license": "CC0",
@@ -335,12 +335,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v5-verified-zoo-feather-closeup",
+    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v6-close-grooming-hook",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "Why does this African penguin keep combing its feathers with its bill?",
-        "scene": "African penguins actively combing plumage at Betty's Bay.",
+        "scene": "Authentic close-up of African penguins actively grooming their plumage with their bills; source African penguins grooming.ogv, verified original preview frames at beginning/middle/end. Avoid distant colony shot for first-second hook.",
         "tags": [
           "a_hook"
         ],
@@ -357,7 +357,7 @@
       },
       {
         "text": "Back ashore, they preen, cleaning and lining up their tightly packed feathers.",
-        "scene": "African penguins visibly grooming with their bills.",
+        "scene": "Authentic African penguins combing feathers on rocky shore at Stony Point, illustrating cleaning and feather alignment; the original combing footage moves to the action block rather than the hook.",
         "tags": [
           "a_groom"
         ],
