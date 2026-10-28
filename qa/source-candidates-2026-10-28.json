@@ -6,7 +6,7 @@
   "latest_full_render_run_id": 40640522873,
   "latest_rerender_run_id": 40646315324,
   "editorial_status": "CANDIDATE_PREVIEW_ONLY; NO TIKTOK APPROVAL",
-  "note": "Research identified portrait genuine monarch sanctuary footage and portrait African penguin beach footage. Inspect real frames and license before replacing; never imply 2026 capture.",
+  "note": "Preview workflow 40646729814 passed source sampling. Both candidates are scene-limited and do NOT approve any TikTok video. New daily render 40646315324 is separate and technical QA must be rechecked.",
   "candidates": [
     {
       "for_key": "monarch_autumn_migration_2026",
@@ -21,7 +21,9 @@
       "duration_seconds": 36,
       "dimensions": "1080x1920",
       "concerns": "Visitor may dominate; verify butterflies large and visible. Archive dated 2025, never present as 2026 sighting. 72.29MB original.",
-      "status": "CANDIDATE_UNREVIEWED"
+      "status": "CONDITIONALLY_VERIFIED_MEXICO_VISITOR_SCENE_ONLY",
+      "visual_review": "Inspected real original portrait frames at 4.4, 18.2, 30.9s: authentic El Rosario forest and monarch on visitor's face/head; butterfly is visible but person dominates. Suitable only for a rewritten Mexico-sanctuary visitor payoff, not proof of 2026 migration or a mass roost. Use approximately 16–22s if selected and recheck rendered frames.",
+      "verified_sha256": "f76f2d7fde73d149a597a25257ef50480801fe5bc5f1c3a7b0395b859082a4d3"
     },
     {
       "for_key": "african_penguin_feather_care",
@@ -36,12 +38,20 @@
       "duration_seconds": 24.566,
       "dimensions": "608x1080",
       "concerns": "Confirm bird remains prominent and no inappropriate black borders. 36.61MB original.",
-      "status": "CANDIDATE_UNREVIEWED"
+      "status": "CONDITIONALLY_VERIFIED_0_TO_5_SECOND_WALK_ONLY",
+      "visual_review": "Inspected real original portrait frames at 2.9, 12.3, 20.9s: correct African penguin is large in frame at 2.9s, then increasingly distant as it enters sea. Suitable for first ~0–5s only; do not use the distant middle/end for close-up payoff.",
+      "verified_sha256": "308054cb13a61b4ca83fd342e39687e8b7f69e711f286de3d89aa27969391af7"
     }
   ],
   "next_actions": [
     "Wait for candidate preview artifacts and inspect all three authentic source frames for each.",
     "Do not interrupt currently running Daily5 render.",
     "Only replace if candidate is visibly superior and semantics fit block; then update source credits and rerender."
-  ]
+  ],
+  "preview_workflow": {
+    "run_id": 40646729814,
+    "artifact_id": 12797806560,
+    "run_status": "success",
+    "editorial_approval": false
+  }
 }
