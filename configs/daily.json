@@ -1,7 +1,7 @@
 {
   "monarch_autumn_migration_2026": {
     "title": "HOW MONARCH BUTTERFLIES FIND THEIR WAY TO MEXICO",
-    "script": "How can a monarch butterfly this fragile travel thousands of miles toward Mexico? Its journey begins after a caterpillar forms a chrysalis and emerges as a winged adult. That adult feeds on nectar, building the energy needed for a long southbound flight. Sunlight and an internal clock help monarchs hold a heading as the seasons change. This October, observers reported monarchs reaching northern Mexico during the ongoing fall migration. So those tiny wings aren't wandering at random. They're part of one of nature's great migrations.",
+    "script": "How can a monarch butterfly this fragile travel thousands of miles toward Mexico? Its journey begins when an adult emerges from a chrysalis, ready to feed and fly. That adult feeds on nectar, building the energy needed for a long southbound flight. Sunlight and an internal clock help monarchs hold a heading as the seasons change. This October, observers reported monarchs reaching northern Mexico during the ongoing fall migration. So those tiny wings aren't wandering at random. They're part of one of nature's great migrations.",
     "caption": "Monarchs are moving toward Mexico this October. 🦋 #MonarchButterfly #Migration #Wildlife #WildVox",
     "sources": [
       {
@@ -19,16 +19,13 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Caterpillar%20Changing%20to%20Chrysalis.webm",
-        "assetTitle": "Monarch Caterpillar Changing to Chrysalis.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Caterpillar_Changing_to_Chrysalis.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20%28Danaus%20plexippus%29.webm",
+        "assetTitle": "Monarch (Danaus plexippus).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_%28Danaus_plexippus%29.webm",
         "tags": [
-          "m_origin"
+          "m_hook"
         ],
-        "license": "Public domain",
-        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-        "author": "U.S. Fish and Wildlife Service",
-        "license_note": "Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. USFWS time-lapse, clearly labeled archive."
+        "license_note": "Wikimedia Commons monarch footage; live license/category audit required before reuse; 4.5s original, optional supporting hook cut."
       },
       {
         "type": "video",
@@ -115,7 +112,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v1",
+    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v2-no-unreviewed-source",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -128,8 +125,8 @@
         "overlay_label": "THE JOURNEY"
       },
       {
-        "text": "Its journey begins after a caterpillar forms a chrysalis and emerges as a winged adult.",
-        "scene": "Authentic caterpillar pupation followed by a separate emergence shot, not implied to be the same individual.",
+        "text": "Its journey begins when an adult emerges from a chrysalis, ready to feed and fly.",
+        "scene": "Authentic monarch butterfly emergence, not a fabricated time-lapse of a different species.",
         "tags": [
           "m_origin"
         ],
