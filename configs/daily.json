@@ -222,18 +222,19 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2002.webm",
-        "assetTitle": "African penguins, Betty's Bay 02.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_02.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguin%20Colony%20Betty%27s%20Bay.ogv",
+        "assetTitle": "Penguin Colony Betty's Bay.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguin_Colony_Betty%27s_Bay.ogv",
         "tags": [
           "a_coast"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Coastal colony, no invented feeding action.",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "author": "Angelarene88",
+        "license_note": "Original Commons page reviewed 2026-10-28; authentic independent African penguin coastal colony, 44.64s 960x540, CC BY-SA 3.0. Original preview frames checked at 5.4, 22.3 and 37.9 seconds in candidate workflow 40735618744; use verified closer penguins at ~20s, no synthetic zoom. Preserve author/source/license links, mark cuts/reframing, and apply ShareAlike compatible adaptation terms; do not claim this is an ocean feeding scene.",
         "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 36608973,
-        "author": "Spasimir Pilev"
+        "verified_size_bytes": 33559279,
+        "start_seconds": 20
       },
       {
         "type": "video",
@@ -332,7 +333,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v3-portrait-feather-closeup",
+    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v4-colony-closeup",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -346,7 +347,7 @@
       },
       {
         "text": "Along southern Africa's coast, these birds move between ocean feeding trips and land.",
-        "scene": "African penguins in their authentic coastal colony, plus walking footage.",
+        "scene": "Authentic South African coastal colony: independent Angelarene88 source starts near 20s showing visibly close African penguins at Betty's Bay, then distinct real penguins walking. No claim that ocean feeding is visible.",
         "tags": [
           "a_coast"
         ],
