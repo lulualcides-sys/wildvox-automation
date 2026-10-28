@@ -601,18 +601,18 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20bush%20elephants%20%28Loxodonta%20africana%29.webm",
-        "assetTitle": "African bush elephants (Loxodonta africana).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_bush_elephants_(Loxodonta_africana).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20Elephant%20(Loxodonta%20africana)%20bull%20....webm",
+        "assetTitle": "Savanna Elephant (Loxodonta africana) bull ....webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savanna_Elephant_(Loxodonta_africana)_bull_....webm",
         "tags": [
           "e_heat"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Actual Loxodonta africana.",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_note": "Wikimedia Commons source page verified 2026-10-28: original 24.367s 1920x1080 VP9 video, African savanna elephant (Loxodonta africana), original creator Bernard DUPONT, commercial reuse under CC BY-SA 2.0. Original frames independently inspected at 2.9s, 12.2s and 20.7s in preview artifact 12800426766: elephant large, unobstructed, natural savanna. Attribution, indication of edits, and appropriate ShareAlike distribution required; final output still subject to visual and license QA.",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
         "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 37714719,
-        "author": "Paul Keller"
+        "verified_size_bytes": 29206134,
+        "author": "Bernard DUPONT"
       },
       {
         "type": "video",
@@ -711,7 +711,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v2-visual-accuracy",
+    "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v3-unobstructed-elephant-verified",
     "publication_hold": true,
     "visual_plan": [
       {
