@@ -22,13 +22,29 @@ def probe(path):
     return json.loads(p.stdout)
 
 
-def freeze_durations(path):
+def freeze_durations(path, duration):
+    """Count both closed freezes and freezes still active at the final frame.
+
+    FFmpeg can omit freeze_end/freeze_duration when a frozen segment reaches EOF.
+    Ignoring that trailing interval would approve visibly frozen payoffs.
+    """
     p = subprocess.run(
         ["ffmpeg", "-hide_banner", "-nostdin", "-i", str(path), "-vf",
          "scale=180:-2,freezedetect=n=-45dB:d=1.0", "-an", "-f", "null", "-"],
         capture_output=True, text=True, check=True)
-    return [float(s) for s in re.findall(
+    closed = [float(value) for value in re.findall(
         r"lavfi\.freezedetect\.freeze_duration:\s*([0-9.]+)", p.stderr)]
+    starts = re.findall(r"lavfi\.freezedetect\.freeze_start:\s*([0-9.]+)", p.stderr)
+    ends = re.findall(r"lavfi\.freezedetect\.freeze_end:\s*([0-9.]+)", p.stderr)
+    if len(starts) > len(ends):
+        closed.append(max(0.0, float(duration) - float(starts[-1])))
+    return closed
+
+
+def sources_match(config_sources, rendered_sources):
+    """Fail closed when an MP4 metadata file belongs to an older source pool."""
+    return ([source.get("url") for source in config_sources]
+            == [source.get("url") for source in rendered_sources])
 
 
 def inspect(config, directory, day):
@@ -76,7 +92,7 @@ def inspect(config, directory, day):
                     bad.append("Missing narration audio")
                 if not images or (images[0].get("width"), images[0].get("height")) != (1080, 1920):
                     bad.append("Incorrect 1080x1920 portrait format")
-                item["freeze_durations"] = freeze_durations(video)
+                item["freeze_durations"] = freeze_durations(video, duration)
                 if any(d > 1.0 for d in item["freeze_durations"]):
                     bad.append(f"Freeze >1.0s: {item['freeze_durations']}")
             except (ValueError, OSError, KeyError, subprocess.CalledProcessError) as exc:
@@ -84,6 +100,13 @@ def inspect(config, directory, day):
         if meta_path.is_file():
             try:
                 meta = json.loads(meta_path.read_text(encoding="utf-8"))
+                if meta.get("key") != key or meta.get("title") != cfg.get("title"):
+                    bad.append("Rendered metadata identity differs from current daily config")
+                if not sources_match(sources, meta.get("sources") or []):
+                    bad.append("Rendered MP4 source pool differs from current daily config")
+                if "duration" in item and abs(
+                        float(meta.get("duration", -1)) - item["duration"]) > 0.2:
+                    bad.append("Rendered metadata duration differs from MP4")
                 timeline = meta.get("narration_timeline") or []
                 if len(timeline) != len(blocks):
                     bad.append("Rendered Kokoro block count mismatch")
