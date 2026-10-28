@@ -82,7 +82,7 @@
       "end": 34.9,
       "duration": 5.625,
       "text": "So those measured steps belong to a predator constantly exploring its world.",
-      "scene": "Authentic Komodo dragon movement; closes walking hook without implying active hunt.",
+      "scene": "Authentic archival Komodo island close approach in 2008 (Part 2), then separate Disney zoo movement as supporting payoff. Do not imply the two shots are one event or filmed in 2026; visually verify that the face/legs are prominent.",
       "tags": [
         "k_payoff"
       ],
@@ -184,18 +184,18 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video.ogv",
-      "assetTitle": "Komodo dragons video.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video.ogv",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%202%20Part%202.ogv",
+      "assetTitle": "Komodo dragons video 2 Part 2.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_2_Part_2.ogv",
       "tags": [
         "k_payoff"
       ],
-      "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo movement.",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "author": "Brocken Inaglory (original); Dhatfield (derivative)",
       "license_verified_at": "2026-10-28",
-      "verified_size_bytes": 10621771,
-      "author": "Brocken Inaglory"
+      "verified_size_bytes": 656879,
+      "license_note": "Original Wikimedia Commons page verified 2026-10-28. Authentic Komodo island footage, 2008, 10.2s 400x304. Independent 3-frame preview run 40751565146 at 1.2, 5.1, 8.7s shows an actual dragon approaching the camera, close face and forelimbs. CC BY-SA 3.0 original by Brocken Inaglory, derivative by Dhatfield; credit both. This is a separate part of the same 2008 recording family; do not claim independently filmed events or 2026 footage. Source-only approval; final rendered frames and visual repetition must be reinspected."
     },
     {
       "type": "video",
