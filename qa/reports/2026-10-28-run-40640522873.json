@@ -1,0 +1,91 @@
+{
+  "editorial_day": "2026-10-28",
+  "workflow_run_id": 40640522873,
+  "workflow_head_sha": "90a7f7679fc04610920d9e0057ce112338b73317",
+  "media_commit": "e4e51715558280209cdcc20bb3ef8422a07f418d",
+  "qa_method": "Independently inspected all five *_review.jpg and 40 three-frame source preview strips, five MP4 metadata files, and full FFmpeg freeze-detection log for monarch; GitHub technical-qa job 122661322990; this verdict applies ONLY to run 40640522873.",
+  "technical_pass": false,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "publication_status": "not scheduled",
+  "metricool_brand_id": 7242311,
+  "metricool_tiktok": "wildvox",
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_seconds": 38.825,
+      "technical_pass": false,
+      "editorial_approved": false,
+      "freeze_intervals_seconds": [
+        [
+          5.933,
+          7.3
+        ],
+        [
+          7.3,
+          9.1
+        ],
+        [
+          9.1,
+          11.933
+        ]
+      ],
+      "findings": [
+        "Emergence source near-static throughout its 6s spoken block; three freezes >1s.",
+        "Payoff uses wide, low-resolution archival shrub footage with tiny butterflies; editorial payoff not yet strong.",
+        "2026 sighting narration overlays archival footage: on-screen archival disclosure required."
+      ],
+      "repair": "Time-lapse source 26–62s at 6x and archival overlay disclosure configured in commit 05deb2fc; re-render and inspect actual output."
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_seconds": 32.5,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "findings": [
+        "Correct species and genuine preening, walking and den footage in review.",
+        "Some very wide coastal/payoff shots make penguins small; inspect final motion and safe-area before approval."
+      ],
+      "repair": "Replace or tighten distant footage using verified original framing, without synthetic zoom."
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_seconds": 31.467,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "findings": [
+        "Correct species and sentry/group behavior visible.",
+        "Several captive-zoo sequences and repetitive group/sentry visuals weaken wild-setting narrative; source context must not be misrepresented."
+      ],
+      "repair": "Editorial review of actual frames and contextual labels; replace repetitive scenes if needed."
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_seconds": 31.867,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "findings": [
+        "Correct African elephants, dust clouds and real waterhole footage.",
+        "Original narration repeatedly claims mud coating although visible sequences mostly show dust and water; action mismatch."
+      ],
+      "repair": "Script, hook and payoff revised to dust/water facts in commit 05deb2fc; re-render and verify actual output."
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_seconds": 34.9,
+      "technical_pass": true,
+      "editorial_approved": false,
+      "findings": [
+        "Correct Komodo species; movement visible.",
+        "Four sources originate from closely related 2008 recordings, yielding repetitive angles and low-resolution segments; verify genuine distinct shots.",
+        "Some captive footage must not be implied to show the wild Indonesian habitat."
+      ],
+      "repair": "Check source-level motion and replace repetitive segments with verified distinct footage before final approval."
+    }
+  ],
+  "notes": [
+    "Technical pass is not editorial approval.",
+    "No newer workflow QA verdict may inherit these decisions.",
+    "Do not release publication_hold or schedule to TikTok without current-run QA and license compliance."
+  ]
+}
