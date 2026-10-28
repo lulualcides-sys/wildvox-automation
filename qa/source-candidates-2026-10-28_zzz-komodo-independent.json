@@ -1,7 +1,7 @@
 {
   "day": "2026-10-28",
   "timezone": "America/Sao_Paulo",
-  "checked_main_sha": "7e733cd9f296fb74a328943b3f1d3e31e2084458",
+  "checked_main_sha": "7510bab1190a32d42606ddc1455cda210b94bebd",
   "current_config_blob_sha": "754f779986bc78e3f7c3a7f7c3530641949f4e8a",
   "editorial_status": "SOURCE_PREVIEW_ONLY_NOT_APPROVED",
   "note": "Independent 3-frame source preview to replace visually repeated Komodo footage in run 40741591676; preserve publication_hold, verify original author and license, no claim of wild Indonesia.",
@@ -16,8 +16,22 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "species": "Varanus komodoensis",
       "source_description": "January 2006 real Komodo dragon filmed at Disney's Animal Kingdom, 8s, 320x240. Independently sample real source frames to determine if distinct enough from 2008 footage.",
+      "status": "REJECTED_VISUAL_NEAR_STATIC",
+      "concerns": "Low resolution, zoo footage, short duration. Reject if repeated, blurred, static, too small or unrelated; verify sourcePage attribution.",
+      "visual_review": "Independent 3-frame original preview 40751218987: Komodo nearly motionless on the same rock at 1.0,4.0,6.8s. Reject: weak movement and close resemblance to 2006 footage already used."
+    },
+    {
+      "for_key": "komodo_dragon_tracking_scent",
+      "target_block": "k_power or k_payoff only if visually distinct from other Brocken Inaglory derivatives",
+      "title": "Komodo dragons video 2 Part 2.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_2_Part_2.ogv",
+      "author": "Brocken Inaglory (original); Dhatfield (derivative)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "species": "Varanus komodoensis",
+      "source_description": "Authentic Komodo dragon, Komodo island, 2008; separate 10-second Part 2 of same original filming, 400x304. Original Wikimedia Commons page checked 2026-10-28.",
       "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Low resolution, zoo footage, short duration. Reject if repeated, blurred, static, too small or unrelated; verify sourcePage attribution."
+      "concerns": "Could repeat the existing 2008 original. Reject if matching framing/sequence, insufficient action, tiny subject or frozen shots; original and derivative authors must both be credited."
     }
   ]
 }
