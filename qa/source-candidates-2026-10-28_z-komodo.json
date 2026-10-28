@@ -1,0 +1,37 @@
+{
+  "day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "09e3a9708387a26e3333b170661ac6bbff48b186",
+  "current_config_blob_sha": "d65b8dddf994d29968ec899162053985940dac83",
+  "latest_full_render_run_id": 40681025754,
+  "editorial_status": "SOURCE_PREVIEW_ONLY_NOT_APPROVED",
+  "note": "Replace repetitive 2008 Komodo footage only after independent source-frame and license audit. Do not release publication_hold. Source videos are 2006 zoo footage; do not represent as wild Indonesia.",
+  "candidates": [
+    {
+      "for_key": "komodo_dragon_tracking_scent",
+      "target_block": "k_walk or k_power",
+      "title": "Varanus komodoensis1.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis1.ogv",
+      "author": "Raul654",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "species": "Varanus komodoensis",
+      "source_description": "Independent January 2006 footage of Komodo dragon at Disney's Animal Kingdom, 8 seconds 320x240.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Low resolution and zoo setting; verify 3 source frames, subject scale and action; no misrepresentation as wild."
+    },
+    {
+      "for_key": "komodo_dragon_tracking_scent",
+      "target_block": "k_walk or k_sense",
+      "title": "Varanus komodoensis2.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis2.ogv",
+      "author": "Raul654",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "species": "Varanus komodoensis",
+      "source_description": "January 2006 independently shot portrait Komodo footage at Disney's Animal Kingdom, 11 seconds 240x320.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Verify actual original file, Commons license and frames before selection; may be a distinct scene from already-used Raul654 clip."
+    }
+  ]
+}
