@@ -1,0 +1,77 @@
+{
+  "editorial_day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "workflow_run_id": 40681025754,
+  "workflow_head_sha": "10e5440cc120ea9c7d576a30e00fa5faa7207542",
+  "latest_config_blob_sha": "d65b8dddf994d29968ec899162053985940dac83",
+  "media_branch_commit": "b508cfd28566ebf2d50f41ff1d3b6cbc75a1774a",
+  "technical_qa": "PASS_ALL_FIVE_GITHUB_CI",
+  "qa_method": "Fetched and visually inspected five latest media branch 4x4 review contact sheets; independently checked all current config revisions, ordered narration blocks, 8 URLs per video, Commons license metadata, latest workflow jobs and technical QA logs, Metricool scheduled posts and published TikTok analytics. Did not decode complete MP4 files independently; freeze results are from CI.",
+  "editorial_approved": false,
+  "publication_hold": true,
+  "metricool_brand_id": 7242311,
+  "scheduled_post_ids": [],
+  "confirmed_tiktok_posts": [],
+  "youtube_scheduling_attempted": false,
+  "credits_file": "qa/credits/2026-10-28.md",
+  "credits_adaptation_compliance": "PENDING_FINAL_SHAREALIKE_DELIVERY_VERIFICATION",
+  "candidate_preview_run_id": 40699255110,
+  "candidate_preview_status": "IN_PROGRESS_AT_CHECK",
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_seconds": 39.675,
+      "editorial_approved": false,
+      "findings": [
+        "Correct monarch and chrysalis emergence; small butterfly in several frames.",
+        "Final El Rosario 2025 archival scene focuses on human visitor rather than close butterfly; archival label present.",
+        "Payoff remains visually weak and not approved."
+      ]
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_seconds": 32.5,
+      "editorial_approved": false,
+      "findings": [
+        "Correct African penguin grooming in hook and close grooming block.",
+        "Middle coast and insulation shots show small animals in wide frames.",
+        "Payoff still wide and weak; do not approve."
+      ]
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_seconds": 32.85,
+      "editorial_approved": false,
+      "findings": [
+        "Closer meerkat hook now present, species correct.",
+        "Captive zoo scenes remain in body; narration refers to wild behavior without falsely claiming filmed wild.",
+        "Several small animals in middle; payoff shows authentic wild group but distant."
+      ]
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_seconds": 36,
+      "editorial_approved": false,
+      "findings": [
+        "Obstructed roof clip removed; close African elephant heat scene visible.",
+        "Several waterhole and payoff shots are distant; no clearly visible close mud application.",
+        "Not yet strong enough for publication."
+      ]
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_seconds": 34.9,
+      "editorial_approved": false,
+      "findings": [
+        "Correct species but multiple 2008 clips are derivative segments of same footage; repetitive visuals.",
+        "Some source clips show captive animals while natural range is discussed; no explicit wild-footage label.",
+        "Two independently filmed 2006 zoo footage candidates are queued for original frame previews, not approved."
+      ]
+    }
+  ],
+  "next_actions": [
+    "Inspect Komodo candidate previews and reject weak/duplicate shots; update config only for independently verified suitable replacements, credits and ShareAlike compliance.",
+    "Rerender changed configs and inspect all five current-run review images and MP4 frames; preserve no zoom and duration/freeze gates.",
+    "Keep publication_hold until full five-video editorial approval and confirmed Metricool TikTok scheduling."
+  ]
+}
