@@ -10,6 +10,7 @@ from urllib.parse import urlsplit
 TARGETS = (
     ("annas_hummingbird_first_flight", 1),
     ("annas_hummingbird_first_flight", 3),
+    ("annas_hummingbird_first_flight", 4),
     ("annas_hummingbird_first_flight", 7),
     ("caribou_reindeer_one_species", 1),
     ("red_fox_hunt_to_play", 5),
@@ -64,7 +65,7 @@ def candidate_starts(base, length, extended=False):
     if base >= 100:
         starts = [base + shift for shift in (-30, -20, -10, -5, 0, 5, 10, 20, 30)]
     else:
-        starts = [0, 2, 5, 8, 12, 16, 20, 24, 30, 40, base]
+        starts = [0, 2, 3.5, 4.5, 5, 5.5, 6.5, 7.5, 8, 8.5, 9.5, 10, 12, 16, 20, 24, 30, 40, base]
     if extended:
         starts.extend([45, 55, 65, 75, 85, 95, 105, 115, 125])
     return sorted({round(float(s), 2) for s in starts if 0 <= s <= length - WINDOW - 0.1})
