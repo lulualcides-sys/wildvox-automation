@@ -1,0 +1,631 @@
+{
+  "date": "2026-10-29",
+  "timezone": "America/Sao_Paulo",
+  "editorial_config_commit": "454e6148c9c4430470c81519504681dde6631794",
+  "editorial_config_blob": "1f2c835954147da7125f01e55205b3c3b99aed23",
+  "audit_workflow_run_id": 40832955957,
+  "audit_job_id": 123311104479,
+  "preflight": "PASSED",
+  "video_count": 38,
+  "image_count": 3,
+  "source_count": 41,
+  "scope": "Live Commons API commercial-reuse, original availability, MIME and copyright review flags; not visual suitability, author completeness or final publication clearance",
+  "credits_required": "Credit creator, original source URL, license URL, and adaptations; verify ShareAlike platform compatibility before publication.",
+  "sources": [
+    {
+      "key": "snow_leopard_jaw_skills",
+      "title": "Uncia uncia gnaws at bone 01.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_gnaws_at_bone_01.ogv",
+      "author": "MatthiasKabel",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 21393331,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "sl_hook"
+      ]
+    },
+    {
+      "key": "snow_leopard_jaw_skills",
+      "title": "Snow Leopard At Sikkim Zoo.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Leopard_At_Sikkim_Zoo.webm",
+      "author": "Ankur Panchbudhe",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "verified_size_bytes": 25901884,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "sl_setup"
+      ]
+    },
+    {
+      "key": "snow_leopard_jaw_skills",
+      "title": "Schneeleopard (Zoo Leipzig).webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Schneeleopard_(Zoo_Leipzig).webm",
+      "author": "Fiver, der Hellseher",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 11854943,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "sl_setup"
+      ]
+    },
+    {
+      "key": "snow_leopard_jaw_skills",
+      "title": "Uncia uncia gnaws at bone 02.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_gnaws_at_bone_02.ogv",
+      "author": "MatthiasKabel",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 63177993,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "sl_action"
+      ]
+    },
+    {
+      "key": "snow_leopard_jaw_skills",
+      "title": "Snow Leopard eating.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Leopard_eating.ogv",
+      "author": "Squirrel83",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 1186008,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "sl_explain"
+      ]
+    },
+    {
+      "key": "snow_leopard_jaw_skills",
+      "title": "Schneeleopard (Zoo Dresden) (7).webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Schneeleopard_(Zoo_Dresden)_(7).webm",
+      "author": "Fiver, der Hellseher",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 10261412,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "sl_explain"
+      ]
+    },
+    {
+      "key": "snow_leopard_jaw_skills",
+      "title": "Snow leopard in rock cavity.jpg",
+      "type": "image",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_leopard_in_rock_cavity.jpg",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 10971988,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "sl_rock"
+      ]
+    },
+    {
+      "key": "snow_leopard_jaw_skills",
+      "title": "Uncia uncia cubs 01.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_cubs_01.ogv",
+      "author": "MatthiasKabel",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 69699024,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "sl_cubs"
+      ]
+    },
+    {
+      "key": "grey_seal_autumn_pup_nursery",
+      "title": "Monitoring grey seals in Pembrokeshire, Wales.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Monitoring_grey_seals_in_Pembrokeshire%2C_Wales.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 11129688,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "gs_hook"
+      ]
+    },
+    {
+      "key": "grey_seal_autumn_pup_nursery",
+      "title": "Grey seal (Halichoerus grypus) near Lundy.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_seal_(Halichoerus_grypus)_near_Lundy.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "verified_size_bytes": 7520401,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "gs_setup"
+      ]
+    },
+    {
+      "key": "grey_seal_autumn_pup_nursery",
+      "title": "Grey seal pups.jpg",
+      "type": "image",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_seal_pups.jpg",
+      "author": "Jaan Minakov",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "verified_size_bytes": 11495321,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "gs_pup"
+      ]
+    },
+    {
+      "key": "grey_seal_autumn_pup_nursery",
+      "title": "Grey Seal pup, Estonia.jpg",
+      "type": "image",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_Seal_pup%2C_Estonia.jpg",
+      "author": "Jaan Minakov",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "verified_size_bytes": 14824978,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "gs_fur"
+      ]
+    },
+    {
+      "key": "grey_seal_autumn_pup_nursery",
+      "title": "Fokarium na Helu, 2016-07-28.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fokarium_na_Helu%2C_2016-07-28.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 20902137,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "gs_swim"
+      ]
+    },
+    {
+      "key": "grey_seal_autumn_pup_nursery",
+      "title": "Halichoerus grypus.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus.ogv",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "verified_size_bytes": 4791319,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "gs_swim"
+      ]
+    },
+    {
+      "key": "grey_seal_autumn_pup_nursery",
+      "title": "Halichoerus grypus in the Seaquarium of Saint Petersburg.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus_in_the_Seaquarium_of_Saint_Petersburg.ogv",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 93299186,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "gs_payoff"
+      ]
+    },
+    {
+      "key": "grey_seal_autumn_pup_nursery",
+      "title": "Seal playing with NRW diver near Skomer - Morlo yn chwarae gyda deifar CNC yn Sgomer.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Seal_playing_with_NRW_diver_near_Skomer_-_Morlo_yn_chwarae_gyda_deifar_CNC_yn_Sgomer.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "verified_size_bytes": 6558435,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "gs_payoff"
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "title": "Hummingbird nearly fledged.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_nearly_fledged.webm",
+      "author": "Dennis.insect.filmer",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 14064943,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "ah_hook"
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "title": "Anna's hummingbird fledged.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_fledged.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 28421493,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "ah_setup"
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "title": "Anna's hummingbird (Calypte anna) in Arizona.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_Arizona.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "verified_size_bytes": 1037337,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "ah_setup"
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "title": "Anna's hummingbird (Calypte anna) in California.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_California.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "verified_size_bytes": 34128225,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "ah_action"
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "title": "Annas hummingbird feeding.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Annas_hummingbird_feeding.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 4245144,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "ah_feed"
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "title": "Calypte-anna.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Calypte-anna.ogv",
+      "author": "Flipzagging",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 5165220,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "ah_feed"
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "title": "Anna's hummingbird (Calypte anna) in the rain.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_the_rain.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "verified_size_bytes": 6674163,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "ah_rain"
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "title": "Anna's Hummingbird 7254.ogg",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_Hummingbird_7254.ogg",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 21375756,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "ah_payoff"
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "title": "Porcupine caribou (Rangifer tarandus granti) in Alaska.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Porcupine_caribou_(Rangifer_tarandus_granti)_in_Alaska.ogv",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "Public domain",
+      "license_url": null,
+      "verified_size_bytes": 15384613,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "cr_hook"
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "title": "Caribou (Rangifer tarandus).webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Caribou_(Rangifer_tarandus).webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "Public domain",
+      "license_url": null,
+      "verified_size_bytes": 5597356,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "cr_hook"
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "title": "MountRobsonPark-Rangifer tarandus-KanadischesKaribu.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:MountRobsonPark-Rangifer_tarandus-KanadischesKaribu.ogv",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 9696458,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "cr_north"
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "title": "Rangifer tarandus - Inari 2013.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rangifer_tarandus_-_Inari_2013.ogv",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 97567189,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "cr_europe"
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "title": "Reindeer Svalbard.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Reindeer_Svalbard.ogv",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 31921589,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "cr_europe"
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "title": "Reindeers Svalbard 1.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Reindeers_Svalbard_1.ogv",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 38292658,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "cr_adapt"
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "title": "2023-08-18 ZOO LJUBLJANA - Rangifer tarandus 2.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Rangifer_tarandus_2.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "verified_size_bytes": 36369986,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "cr_zoo"
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "title": "2024-06-01 LJUBLJANA ZOO LJUBLJANA - Rangifer tarandus.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Rangifer_tarandus.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "verified_size_bytes": 41782031,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "cr_payoff"
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "title": "Abelles sortint i entrant del rusc.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Abelles_sortint_i_entrant_del_rusc.ogv",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 941100,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "hb_hook"
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "title": "Western honey bee (Apis mellifera).webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_(Apis_mellifera).webm",
+      "author": "The Nature Box",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 15636449,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "hb_setup"
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "title": "Honey bee gathering pollen.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bee_gathering_pollen.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 13079541,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "hb_setup"
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "title": "Honey Bee Pollinating.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_Bee_Pollinating.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "verified_size_bytes": 12369990,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "hb_foragers"
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "title": "Honeybees.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees.webm",
+      "author": "Dennis.insect.filmer",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 9054175,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "hb_foragers"
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "title": "Honeybees 01(js).webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees_01(js).webm",
+      "author": "Jerzystrzelecki",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 24315528,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "hb_foragers"
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "title": "Honeybee.webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybee.webm",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 1645201,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "hb_inside"
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "title": "20120918Bienenstock Hockenheim.ogv",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20120918Bienenstock_Hockenheim.ogv",
+      "author": null,
+      "author_review_status": "original_file_author_not_yet_transcribed",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "verified_size_bytes": 36105743,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "hb_entrance"
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "title": "Honey bees fanning (1).webm",
+      "type": "video",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_fanning_(1).webm",
+      "author": "BorekT",
+      "author_review_status": "recorded_in_config; original_page_credit_still_requires_review",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "verified_size_bytes": 11183757,
+      "license_verified_at": "2026-10-29",
+      "tags": [
+        "hb_fanning"
+      ]
+    }
+  ]
+}
