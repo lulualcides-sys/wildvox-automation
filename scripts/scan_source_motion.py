@@ -61,19 +61,19 @@ def duration(path):
     return float(x.stdout.decode().strip())
 
 
-def candidate_starts(base, length, extended=False):
+def candidate_starts(base, length, extended=False, window=WINDOW):
     if base >= 100:
         starts = [base + shift for shift in (-30, -20, -10, -5, 0, 5, 10, 20, 30)]
     else:
         starts = [0, 2, 3.5, 4.5, 5, 5.5, 6.5, 7.5, 8, 8.5, 9.5, 10, 12, 16, 20, 24, 30, 40, base]
     if extended:
         starts.extend([45, 55, 65, 75, 85, 95, 105, 115, 125])
-    return sorted({round(float(s), 2) for s in starts if 0 <= s <= length - WINDOW - 0.1})
+    return sorted({round(float(s), 2) for s in starts if 0 <= s <= length - window - 0.1})
 
 
-def scan(path, start):
+def scan(path, start, window=WINDOW):
     cmd = ["ffmpeg", "-hide_banner", "-nostdin", "-loglevel", "info",
-           "-ss", str(start), "-i", str(path), "-t", str(WINDOW),
+           "-ss", str(start), "-i", str(path), "-t", str(window),
            "-an", "-vf", f"fps={FPS},scale=320:180,freezedetect=n=-40dB:d=1,format=gray",
            "-pix_fmt", "gray", "-f", "rawvideo", "pipe:1"]
     p = call(cmd, timeout=65)
@@ -89,10 +89,10 @@ def scan(path, start):
     freeze_ends = [float(x) for x in re.findall(r"freeze_end:\s*([0-9.]+)", log)]
     intervals = []
     for i, st in enumerate(freeze_starts):
-        end = freeze_ends[i] if i < len(freeze_ends) else WINDOW
+        end = freeze_ends[i] if i < len(freeze_ends) else window
         if end - st >= 0.95:
             intervals.append([round(st, 3), round(end, 3)])
-    return {"start_seconds": start, "window_seconds": WINDOW,
+    return {"start_seconds": start, "window_seconds": window,
             "frames": n, "mean_pixel_change": round(sum(diffs)/len(diffs), 4),
             "moving_frame_fraction": round(sum(d>1.0 for d in diffs)/len(diffs), 4),
             "freeze_intervals": intervals, "technical_candidate": not intervals}
@@ -133,10 +133,12 @@ def main():
                       "-o", str(local), src["url"]], timeout=270)
             length = duration(local)
             row["source_duration"] = round(length, 3)
+            window = 3.0 if (key, index) == ("caribou_reindeer_one_species", 1) else WINDOW
             for st in candidate_starts(float(src.get("start_seconds", 0)), length,
-                                       extended=(key == "red_fox_hunt_to_play" and index == 10)):
+                                       extended=(key == "red_fox_hunt_to_play" and index == 10),
+                                       window=window):
                 try:
-                    row["windows"].append(scan(local, st))
+                    row["windows"].append(scan(local, st, window=window))
                 except Exception as e:
                     row.setdefault("window_errors", []).append(f"{st}: {e}")
             best = sorted(row["windows"], key=lambda x: (
