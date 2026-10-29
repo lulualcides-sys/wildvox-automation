@@ -2,7 +2,7 @@
   "key": "red_fox_hunt_to_play",
   "title": "HOW RED FOXES HUNT, SCAVENGE, AND LEARN",
   "caption": "Red foxes hunt, sometimes investigate human leftovers, and practice through play. Separate archival clips; none claimed as 2026 field footage. #RedFox #FoxKits #Wildlife #WildVox",
-  "config_sha256": "29767a623d316dadc11e6051b31e9f0017d2e8a37d4d32eb2a1529e118ac264c",
+  "config_sha256": "c53a431acfc3c841a447a8068bfdfc97282e60d0a03b06d0c45f201b1b764970",
   "duration": 35.35,
   "voice": "am_michael",
   "speed": 1.0,
@@ -46,7 +46,7 @@
         "rf_action"
       ],
       "story_role": "action",
-      "overlay_label": "MOUSE HUNTER",
+      "overlay_label": "HUNTING SKILLS",
       "fx": []
     },
     {
