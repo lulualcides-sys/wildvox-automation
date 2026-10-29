@@ -1,0 +1,213 @@
+{
+  "key": "snow_leopard_jaw_skills",
+  "title": "WHY SNOW LEOPARDS KEEP CHEWING",
+  "caption": "From a hard bone to a pumpkin: watch snow leopard jaws at work. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox",
+  "config_sha256": "d1ccdeb52a233f6562e60f492f99fad587f5bbe05da2627ff104b2371c1e3e65",
+  "duration": 33.95,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.275,
+      "duration": 4.275,
+      "text": "Why is this snow leopard working so hard on a single bone?",
+      "scene": "Real snow leopard gnawing a bone in captivity, no wild hunting claim.",
+      "tags": [
+        "sl_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "BONE TEST",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.275,
+      "end": 10.5,
+      "duration": 6.225,
+      "text": "These big cats are built for gripping food, and their jaws do more than simply bite once.",
+      "scene": "Distinct captive snow leopard portraits in Sikkim and Leipzig; no invented mountain hunting.",
+      "tags": [
+        "sl_setup"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 10.5,
+      "end": 15.225,
+      "duration": 4.725,
+      "text": "Watch how it clamps down, releases, then finds another angle.",
+      "scene": "Separate authentic snow leopard gnawing a bone.",
+      "tags": [
+        "sl_action"
+      ],
+      "story_role": "action",
+      "overlay_label": "GRIP AND RELEASE",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 15.225,
+      "end": 21.075,
+      "duration": 5.85,
+      "text": "Strong jaw muscles and sharp teeth help tear food into pieces it can swallow.",
+      "scene": "Real snow leopard chewing and another adult portrait; verify low-resolution legacy source species visually before approval.",
+      "tags": [
+        "sl_explain"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "POWERFUL JAWS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 21.075,
+      "end": 26.9,
+      "duration": 5.825,
+      "text": "In the wild, snow leopards also need careful movement through steep, rocky terrain.",
+      "scene": "Actual archival wild snow leopard walking on rocky Ladakh terrain at source seconds 20-25, not a 2026 sighting.",
+      "tags": [
+        "sl_rock"
+      ],
+      "story_role": "twist",
+      "overlay_label": "ROCKY TERRAIN",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 26.9,
+      "end": 33.949999999999996,
+      "duration": 7.05,
+      "text": "Young cubs begin practicing the biting, gripping, and coordination that adulthood will demand.",
+      "scene": "Real snow leopard cubs at Salzburg Zoo playing; closes the story with early-life practice, not wild footage.",
+      "tags": [
+        "sl_cubs"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "SKILLS START YOUNG",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia%20gnaws%20at%20bone%2001.ogv",
+      "assetTitle": "Uncia uncia gnaws at bone 01.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_gnaws_at_bone_01.ogv",
+      "tags": [
+        "sl_hook"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "MatthiasKabel",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20Leopard%20At%20Sikkim%20Zoo.webm",
+      "assetTitle": "Snow Leopard At Sikkim Zoo.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Leopard_At_Sikkim_Zoo.webm",
+      "tags": [
+        "sl_setup"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Ankur Panchbudhe",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schneeleopard%20(Zoo%20Leipzig).webm",
+      "assetTitle": "Schneeleopard (Zoo Leipzig).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Schneeleopard_(Zoo_Leipzig).webm",
+      "tags": [
+        "sl_setup"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Fiver, der Hellseher",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia%20gnaws%20at%20bone%2002.ogv",
+      "assetTitle": "Uncia uncia gnaws at bone 02.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_gnaws_at_bone_02.ogv",
+      "tags": [
+        "sl_action"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "MatthiasKabel",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20Leopard%20eating.ogv",
+      "assetTitle": "Snow Leopard eating.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Leopard_eating.ogv",
+      "tags": [
+        "sl_explain"
+      ],
+      "license_note": "Wikimedia Commons page identifies snow leopard chewing and offers CC BY-SA 4.0, but its old upload log says Cheetah chewing: species identity ambiguous. Mandatory downstream frame inspection before approval; replace if a cheetah or uncertain.",
+      "author": "Squirrel83",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schneeleopard%20(Zoo%20Dresden)%20(7).webm",
+      "assetTitle": "Schneeleopard (Zoo Dresden) (7).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Schneeleopard_(Zoo_Dresden)_(7).webm",
+      "tags": [
+        "sl_explain"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Fiver, der Hellseher",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20leopard%20in%20Ladakh.webm",
+      "assetTitle": "Snow leopard in Ladakh.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_leopard_in_Ladakh.webm",
+      "tags": [
+        "sl_rock"
+      ],
+      "author": "Sanjay Khurana (video); Kevin MacLeod (original soundtrack removed)",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 20,
+      "license_note": "Independently previewed original 2012 wild snow leopard walking among Ladakh rocks at seconds 20/22/24. Original soundtrack removed. Archival footage; creator/changes credit delivery required."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia%20cubs%2001.ogv",
+      "assetTitle": "Uncia uncia cubs 01.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_cubs_01.ogv",
+      "tags": [
+        "sl_cubs"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "MatthiasKabel",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "license_verified_at": "2026-10-29"
+    }
+  ],
+  "review_sheet": "snow_leopard_jaw_skills_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
