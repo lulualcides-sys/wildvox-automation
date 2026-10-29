@@ -402,7 +402,7 @@
         "assetTitle": "Caribou (Rangifer tarandus).webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Caribou_(Rangifer_tarandus).webm",
         "tags": [
-          "cr_hook"
+          "cr_north"
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
         "author": "U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC)",
@@ -418,12 +418,12 @@
         "tags": [
           "cr_north"
         ],
-        "license_note": "Original 57.5s USFWS public-domain Alaska caribou source independently previewed at 15/30/45s. At 30s a close visible adult walks across tundra, avoiding initial tiny distant herd; start seek 29s, rerender and visually confirm.",
+        "license_note": "Original 57.5s USFWS public-domain Alaska caribou source independently previewed at 15/30/45s. At 30s a close visible adult walks across tundra, avoiding initial tiny distant herd; start seek 29s, rerender and visually confirm. Independently inspected original source preview strip: full caribou visible at 40% of 57.49s file (~23s), whereas opening 0s shot shows only antlers; select 22s and verify rerender before editorial approval.",
         "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
         "license": "Public domain",
         "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
         "license_verified_at": "2026-10-29",
-        "start_seconds": 0
+        "start_seconds": 22
       },
       {
         "type": "video",
@@ -505,12 +505,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-caribou-closer-hook-source-reorder-v6",
+    "revision": "2026-10-29-caribou-closer-hook-and-alaska-seek-v7",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species.",
-        "scene": "Authentic close caribou grazing in Mount Robson Park, Canada, followed by a distinct Alaska herd clip; no continuous migration implied.",
+        "scene": "Close authentic Canadian caribou grazing in Mount Robson Park; do not cut to distant herd before the animal is established.",
         "tags": [
           "cr_hook"
         ],
@@ -520,7 +520,7 @@
       },
       {
         "text": "Across North America, these northern deer are usually called caribou.",
-        "scene": "Authentic Alaska caribou at a riverbank; this is a separate source from the hook.",
+        "scene": "Separate real USFWS Alaska caribou herd and Becharof riverbank caribou from source 22s; no invented continuous migration.",
         "tags": [
           "cr_north"
         ],
