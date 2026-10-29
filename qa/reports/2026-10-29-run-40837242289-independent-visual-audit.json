@@ -1,0 +1,118 @@
+{
+  "editorial_date": "2026-10-29",
+  "timezone": "America/Sao_Paulo",
+  "audited_at_utc": "2026-10-29T08:05:00Z",
+  "run_id": 40837242289,
+  "render_head_sha": "f379f47cf9206aacccc849e3e9836b48a8432b8d",
+  "checked_main_sha": "a2dbebfdd3cea21deed3cb46083de30ba71b7767",
+  "checked_config_blob": "a33bbd234b7f92de4d88a26622dda3c2c0b8bddf",
+  "workflow_status": "completed",
+  "workflow_conclusion": "failure",
+  "independent_review_scope": "Downloaded five current-run ZIPs; visually inspected all five *_review.jpg and relevant source preview strips; ffprobe verified MP4 streams/durations; independent full-length FFmpeg scale=180:-2,freezedetect=n=-45dB:d=1.0 on all five; compared actual visuals with exact ordered narration blocks. No publication authorized.",
+  "technical_result": "FAIL",
+  "editorial_result": "FAIL",
+  "publication_hold": true,
+  "tiktok_post_ids": [],
+  "youtube_publish": false,
+  "credits": {
+    "commons_api_creator_records": 41,
+    "creator_missing": 0,
+    "config_author_mismatches": 0,
+    "source_license_audit": "qa/commons-license-audit-2026-10-29.json",
+    "full_credits": "qa/credits/2026-10-29.md",
+    "tiktok_attribution_delivery": "UNVERIFIED",
+    "sharealike_tiktok_platform_compatibility": "UNVERIFIED",
+    "note": "Official CC BY-SA license requires attribution, changes notice, sharealike, no additional restrictions; platform's broad sublicense terms require further compatibility review. Prepared credit file is not delivery."
+  },
+  "videos": [
+    {
+      "key": "snow_leopard_jaw_skills",
+      "duration_seconds": 33.95,
+      "dimensions": "1080x1920",
+      "audio": true,
+      "review_jpg_inspected": true,
+      "ffmpeg_freezes_ge_1s": [],
+      "technical": "PASS",
+      "editorial": "FAIL",
+      "issues": [
+        "Caption incorrectly mentions pumpkin not present in the video/script; replace with bone/rock/cub description.",
+        "Source 'Snow Leopard eating.ogv' low-resolution 384x216 and old Cheetah.ogg move history; original Commons description and frames depict snow leopard, but archival resolution limits image quality.",
+        "Source families MatthiasKabel and Dresden Zoo reused across separate originals; verify distinct footage."
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "duration_seconds": 36.4,
+      "dimensions": "1080x1920",
+      "audio": true,
+      "review_jpg_inspected": true,
+      "ffmpeg_freezes_ge_1s": [
+        {
+          "start": 2.8,
+          "end": 3.866667,
+          "duration": 1.066667
+        },
+        {
+          "start": 16.5,
+          "end": 17.633333,
+          "duration": 1.133333
+        }
+      ],
+      "technical": "FAIL",
+      "editorial": "FAIL",
+      "issues": [
+        "Two actual >1s static intervals in nestling hook and branch-perch action.",
+        "Narration says hovering while drinking, rendered feeder shot shows bird perched.",
+        "Payoff has tiny distant bird against bare sky; source-only replacement previews in progress."
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "duration_seconds": 36.55,
+      "dimensions": "1080x1920",
+      "audio": true,
+      "review_jpg_inspected": true,
+      "ffmpeg_freezes_ge_1s": [],
+      "technical": "PASS",
+      "editorial": "FAIL",
+      "issues": [
+        "Hook and northern herd wide shots leave subjects tiny in portrait frame; improve authentic close framing without synthetic zoom.",
+        "Two Svalbard originals and two Ljubljana Zoo originals share authors/locations; verify distinct original recordings and avoid repetition."
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "duration_seconds": 30.425,
+      "dimensions": "1080x1920",
+      "audio": true,
+      "review_jpg_inspected": true,
+      "ffmpeg_freezes_ge_1s": [],
+      "technical": "PASS",
+      "editorial": "FAIL",
+      "issues": [
+        "Hook overlay HIVE AIRFLOW makes an airflow claim while footage/script only show bee traffic; change to HIVE TRAFFIC.",
+        "Some flowers/bees small, but main flower-foraging and landing-board scenes are relevant."
+      ]
+    },
+    {
+      "key": "red_fox_hunt_to_play",
+      "duration_seconds": 35.35,
+      "dimensions": "1080x1920",
+      "audio": true,
+      "review_jpg_inspected": true,
+      "ffmpeg_freezes_ge_1s": [],
+      "technical": "PASS",
+      "editorial": "FAIL",
+      "issues": [
+        "Snow scene does not visibly show a mouse capture despite MOUSE HUNTER overlay; use neutral hunting label.",
+        "Hook and second distant grass fox are small but species identifiable; KFC takeout scene matches script and has separate genuine source."
+      ]
+    }
+  ],
+  "next_actions": [
+    "Wait for source-only hummingbird preview (run 40839241775) and choose independently verified moving hook/action segments.",
+    "Fix caption/scene/overlay issues in one coordinated configs/daily.json commit only after re-reading main SHA and config blob; trigger Daily 5 rerender.",
+    "Inspect all five newly rendered review sheets/MP4s; do not reuse this verdict.",
+    "Keep all holds and no Metricool scheduling until technical, editorial and ShareAlike/attribution delivery compliance pass."
+  ]
+}
