@@ -2,7 +2,7 @@
   "key": "african_elephant_mud_bath",
   "title": "WHY ELEPHANTS NEED DUST AND WATER BATHS",
   "caption": "Why African elephants use dust and water to care for their skin. 🐘 #AfricanElephant #Wildlife #AnimalBehavior #WildVox",
-  "duration": 36.77,
+  "duration": 36.0,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -37,10 +37,10 @@
     {
       "index": 2,
       "start": 11.525,
-      "end": 17.15,
-      "duration": 5.625,
-      "text": "At a waterhole, elephants wade in, splash, and let water cool their skin.",
-      "scene": "Authentic elephants in water, wading and splashing; no invented trunk spraying.",
+      "end": 16.375,
+      "duration": 4.85,
+      "text": "At a waterhole, elephants wade in and let water cool their skin.",
+      "scene": "Authentic elephants wading and resting in water; do not claim a visible splash or trunk spray that the footage does not show.",
       "tags": [
         "e_water"
       ],
@@ -50,8 +50,8 @@
     },
     {
       "index": 3,
-      "start": 17.15,
-      "end": 23.325,
+      "start": 16.375,
+      "end": 22.55,
       "duration": 6.175,
       "text": "That water helps remove heat, while dust and mud can also protect sensitive skin.",
       "scene": "Elephants visibly bathing; dust and mud protective roles are explained, not fabricated visually.",
@@ -64,8 +64,8 @@
     },
     {
       "index": 4,
-      "start": 23.325,
-      "end": 29.85,
+      "start": 22.55,
+      "end": 29.075000000000003,
       "duration": 6.525,
       "text": "And even as a herd moves across dry ground, each elephant still needs ways to cool down.",
       "scene": "Authentic elephant herd visibly walking together over dry ground. Do not imply that this group footage proves the same waterhole or shows cooling behavior.",
@@ -78,8 +78,8 @@
     },
     {
       "index": 5,
-      "start": 29.85,
-      "end": 36.775,
+      "start": 29.075000000000003,
+      "end": 36.0,
       "duration": 6.925,
       "text": "So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
       "scene": "Distinct real elephants bathing and moving in natural surroundings.",
