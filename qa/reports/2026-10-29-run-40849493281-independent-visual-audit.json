@@ -1,0 +1,113 @@
+{
+  "editorial_day": "2026-10-29",
+  "workflow_run_id": 40849493281,
+  "render_head_sha": "d00174379e6d66d8c0eb5fd0d1fe27f16f0238fa",
+  "main_sha_at_audit": "9d3d3138c09fe7bb8de334624c74eea23f4a93bd",
+  "daily_json_blob": "08e2f3992dbc774d6a021368b5488ecfaa663cb7",
+  "audit_type": "independent_downloaded_current_run",
+  "inspected": {
+    "current_run_zip_artifacts": 5,
+    "review_sheets": 5,
+    "source_preview_strips": 40,
+    "actual_mp4_midpoint_frames": 30,
+    "full_mp4_freezedetect": 5,
+    "ffmpeg_filter": "fps=8,scale=240:-2,freezedetect=n=-48dB:d=1.0",
+    "ffmpeg_exit_codes": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "freeze_starts_at_least_1s": 0
+  },
+  "technical_qa": "PASS; all 5 1080x1920, audio, 30-45s; official technical QA report also PASS; does not constitute editorial approval",
+  "editorial_approved": false,
+  "licensing_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "snow_leopard_jaw_skills",
+      "duration": 33.95,
+      "sha256": "08133a97e00025ff659cd7ca808ee0a2b37401bf0cda108a7bbd51ef4e82ab91",
+      "editorial": "FAIL",
+      "issues": [
+        "Payoff cubs are small/dark, with biting/gripping not clearly visible; source 07 original preview contains clearer cub moments but current edit does not prioritize them.",
+        "Source 04 low-resolution historical clip depicts a spotted big cat consistent with a snow leopard on inspected frames, but original upload-log species discrepancy needs independent origin verification.",
+        "Same MatthiasKabel bone-filming family appears at sources 00 and 03; both are distinct URLs, but family diversity is limited."
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "duration": 36.6,
+      "sha256": "3cbb72593b25e18528a30d46c19c9865badfc6c46b6307e480ce0cfecca7a108",
+      "editorial": "FAIL",
+      "issues": [
+        "Title promises Anna's hummingbird growth from nest, but opening nestling source is generic species-unverified; script correctly avoids claiming nestling is Anna's, title does not.",
+        "Some adult branch/flower shots are distant, although nest feeding source 04 does show feeding and hook source 00 shows wing practice.",
+        "Original source family Dennis.insect.filmer occurs 3 times; different assets but filming-family independence not established."
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "duration": 36.325,
+      "sha256": "a62041e75bc9e5423ad631e0c9ac56c89f1629e3ed95732ec260b7763e8f55b8",
+      "editorial": "FAIL",
+      "issues": [
+        "Opening source 00 shows mostly antlers/head at river edge rather than a strong close-up; source 01 herd is distant.",
+        "Cold-adaptation block shows very small reindeer and does not clearly illustrate hooves.",
+        "visual_plan scene intent still says original source seconds 29–36 while current source 00 start_seconds=0; stale intent metadata must be aligned."
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "duration": 30.425,
+      "sha256": "f6569aac6a4f62a06edb5275fe2907140ffcd3794b3e24a68db7d988d6eddafd",
+      "editorial": "CONDITIONAL_PASS",
+      "issues": [
+        "A bee on pink thistle is very small in block 2, and distant exterior hive shot in block 5 is weaker than close hive traffic payoff.",
+        "No logo-tainted source in current render; genuine bee footage matches narrative. Internal key says airflow but published title/script accurately focus on hive traffic."
+      ]
+    },
+    {
+      "key": "red_fox_hunt_to_play",
+      "duration": 35.35,
+      "sha256": "b6843c7f7f7099b1f0c5f93db8a3053305e3879c6e95e298d5e9c29b267e7072",
+      "editorial": "CONDITIONAL_PASS",
+      "issues": [
+        "Foxes are relatively small in hunting wide shots, but actual animals and behavior are visible.",
+        "Mouse capture is not visibly proven at sampled frames; script says mice can be prey rather than asserting current shot depicts a capture.",
+        "Human leftovers and kit play are visibly supported."
+      ]
+    }
+  ],
+  "source_rights": {
+    "verified_manifest": "qa/commons-license-audit-2026-10-29.json",
+    "source_count": 40,
+    "all_source_urls_distinct": true,
+    "source_bytes_duplicate_check": "NOT independently verified; source URLs and original previews were checked, not full 40 originals byte hashes",
+    "author_identity": "26 author records in earlier manifest marked original_page_credit_still_requires_review; full source-by-source reconciliation incomplete",
+    "attribution": "Creator names, license families, modifications and manifest URL appear in planned TikTok captions; actual delivery not verified because no TikTok post",
+    "sharealike": "CC BY-SA adaptations declared CC BY-SA 4.0 in planned captions; mixed versions/platform terms require final clearance",
+    "legal_context": "Creative Commons official FAQ explains sharing third-party CC on social networks does not grant the platform a sublicense in underlying third-party material; TikTok US Terms (2026-07-15) require necessary posting rights and contain sublicensable grant for Your Content. This is a nuanced compliance question, not automatically a prohibition, and not independently legally cleared.",
+    "official_references": [
+      "https://creativecommons.org/faq/#do-i-need-to-worry-about-website-terms-of-service-when-i-share-cc-licensed-content-on-social-media-platforms",
+      "https://in.tiktok.com/legal/page/us/terms-of-service/en"
+    ]
+  },
+  "publication": {
+    "metricool_brand_id": "7242311",
+    "network": "tiktok",
+    "handle": "@wildvox",
+    "scheduled_rows_checked": 0,
+    "published_analytics_rows_checked": 0,
+    "post_ids": [],
+    "youtube_actions": 0
+  },
+  "next_actions": [
+    "Do not publish until editorial defects are corrected and creator/ShareAlike checks cleared.",
+    "For next revision, prioritize species-accurate hummingbird title, stronger caribou opening and snow leopard cub payoff; update stale caribou scene intent.",
+    "If configs/daily.json is edited, check latest main SHA and blob, trigger new render and audit ALL five new MP4/reviews; do not reuse this verdict.",
+    "Only future Sao Paulo slots, verify Metricool scheduled and TikTok published rows before each post."
+  ]
+}
