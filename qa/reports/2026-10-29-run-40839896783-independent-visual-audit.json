@@ -1,0 +1,101 @@
+{
+  "day": "2026-10-29",
+  "timezone": "America/Sao_Paulo",
+  "render_run_id": 40839896783,
+  "render_head": "00d56868879fc5ba508e13470398916d1032fa24",
+  "latest_config_at_audit_blob": "6d1f85ff9069d65770e5f94c0866d5de8ffb35d3",
+  "main_checked_before_write": "4bf28e06900fe40fba4c3222da97558cb4df968d",
+  "artifact_evidence": "Five original run ZIP artifacts downloaded; five review JPGs, 5x6 narration-block MP4 midpoint frames and 41 original source previews reviewed; independent ffprobe and full-video FFmpeg scaled freezedetect run on all five MP4s.",
+  "technical_run_qa": {
+    "reported_pass": true,
+    "independent_pass": false,
+    "reason": "At 16.6–17.6s Anna's hummingbird MP4 contains an exactly 1.000s freeze. Old technical QA recorded freeze_durations:[1.0] but incorrectly emitted technical_pass:true. Regression threshold >=1.0s fixed on main after this render."
+  },
+  "videos": [
+    {
+      "key": "snow_leopard_jaw_skills",
+      "duration_s": 33.95,
+      "freeze_events": [],
+      "editorial_approved": false,
+      "issues": [
+        "Snow Leopard eating.ogv historically described as cheetah in upload history; sampled frames show a spotted big cat but source-species identity needs independent provenance confirmation.",
+        "Some close-ups show teeth but dark footage and distant later scenes weaken visual proof."
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "duration_s": 36.4,
+      "freeze_events": [
+        {
+          "start_s": 16.6,
+          "end_s": 17.6,
+          "duration_s": 1
+        }
+      ],
+      "editorial_approved": false,
+      "issues": [
+        "Hard technical failure: exactly 1s freeze in perched hummingbird block.",
+        "Block 3 narration originally said perch then hover but actual MP4 shows hover then perch.",
+        "Generic Hummingbird.ogv source cannot independently establish Anna's species."
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "duration_s": 36.55,
+      "freeze_events": [],
+      "editorial_approved": false,
+      "issues": [
+        "Opening herd and cold-terrain shots show animals too small to be compelling.",
+        "Captive/fenced footage must not be represented as wild."
+      ]
+    },
+    {
+      "key": "red_fox_hunt_to_play",
+      "duration_s": 35.35,
+      "freeze_events": [],
+      "editorial_approved": false,
+      "issues": [
+        "Opening fox is very small in field; hook needs stronger close subject.",
+        "Scavenging discarded human food is visible and acknowledged, but weakens hunt-to-play narrative; avoid claiming actual capture of prey."
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "duration_s": 30.425,
+      "freeze_events": [],
+      "editorial_approved": false,
+      "issues": [
+        "Opening hive and some floral cutaways show very small bees or no bee in frame.",
+        "No clear proof of fanning/ventilation behavior; current narration limited to hive traffic, which must remain factual."
+      ]
+    }
+  ],
+  "rights": {
+    "original_creator_credits_manifest": "qa/credits/2026-10-29.md",
+    "all_source_credit_delivery_on_tiktok_verified": false,
+    "sharealike_platform_compatibility_verified": false,
+    "license_clearance": false
+  },
+  "publication": {
+    "publication_hold": true,
+    "metricool_brand": "7242311",
+    "tiktok_account": "@wildvox",
+    "scheduled_posts_checked": "2026-10-29 05:22 America/Sao_Paulo",
+    "scheduled_count": 0,
+    "published_analytics_count": 0,
+    "post_id": null,
+    "youtube": false
+  },
+  "repair": {
+    "commit": "448da0e0c8063ab5699d3430fd7e948404ebd345",
+    "changes": [
+      "Hummingbird source3 original seek changed to 300s after independently previewing original frames at 296/300/304s.",
+      "Block3 narration/scene/overlay aligned to actual hover-then-perch sequence, no unverified Anna's species assertion for generic flower footage.",
+      "publication_hold retained true."
+    ],
+    "credits_commit": "4bf28e06900fe40fba4c3222da97558cb4df968d",
+    "new_render_run": 40842328654,
+    "new_render_status_at_handoff": "queued",
+    "next_action": "Inspect ALL FIVE new review JPGs and MP4 frames and full freeze scans after new run completes. Do not reuse this verdict; no publication until rights and editorial checks pass."
+  }
+}
