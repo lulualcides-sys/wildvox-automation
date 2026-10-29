@@ -2,7 +2,7 @@
   "snow_leopard_jaw_skills": {
     "title": "WHY SNOW LEOPARDS KEEP CHEWING",
     "script": "Why is this snow leopard working so hard on a single bone? These big cats are built for gripping food, and their jaws do more than simply bite once. Watch how it clamps down, releases, then finds another angle. Strong jaw muscles and sharp teeth help tear food into pieces it can swallow. In the wild, snow leopards also need careful movement through steep, rocky terrain. Young cubs begin practicing the biting, gripping, and coordination that adulthood will demand.",
-    "caption": "From a hard bone to a pumpkin: watch snow leopard jaws at work. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox",
+    "caption": "From chewing bones to moving across rocky terrain: how snow leopards develop survival skills. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox",
     "sources": [
       {
         "type": "video",
@@ -68,7 +68,7 @@
         "tags": [
           "sl_explain"
         ],
-        "license_note": "Wikimedia Commons page identifies snow leopard chewing and offers CC BY-SA 4.0, but its old upload log says Cheetah chewing: species identity ambiguous. Mandatory downstream frame inspection before approval; replace if a cheetah or uncertain.",
+        "license_note": "Commons original title and current description identify snow leopard chewing; original legacy file was moved from Cheetah.ogg, but independent source preview shows rosetted snow leopard, not cheetah. Low-resolution 384x216 archival captive footage; never claim 2026.",
         "author": "Squirrel83",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -124,7 +124,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-snow-leopard-moving-rock-video-v3",
+    "revision": "2026-10-29-snow-leopard-caption-factual-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -188,8 +188,8 @@
   },
   "annas_hummingbird_first_flight": {
     "title": "HOW ANNA'S HUMMINGBIRDS GROW FROM NEST TO PERCH",
-    "script": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest. While it is still small, an adult returns to the nest with food as the chick grows stronger. Adult Anna's hummingbirds often pause on thin branches between fast trips through their territory. At flowers and feeders, rapid wingbeats let them hover while taking a drink. Even in wet weather, they may sit and wait between feeding trips. From a tiny nestling to an adult perched high above, the same species changes quickly as it grows.",
-    "caption": "From nest care to adult perches and feeders: Anna's hummingbirds change fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox",
+    "script": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest. While it is still small, an adult returns to the nest with food as the chick grows stronger. Adult Anna's hummingbirds pause on branches, then hover at flowers as they move through their territory. At feeders, rapid wingbeats bring them in, and they may perch to take a drink. Even in wet weather, they may sit and wait between feeding trips. From a tiny nestling to a young hummingbird hovering at a flower, wing skills grow fast.",
+    "caption": "From first wingbeats in the nest to hovering at flowers: Anna's hummingbirds grow fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox",
     "sources": [
       {
         "type": "video",
@@ -199,11 +199,12 @@
         "tags": [
           "ah_hook"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "license_note": "Verified Commons original nestling Anna's hummingbirds practicing wingbeats; source-only contact sheet at original 10/13/16s shows active wingbeat around 16s. New seek 16s to avoid earlier 2.8–3.87s freeze; rerender and run full freeze QA before approval.",
         "author": "Dennis.insect.filmer",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 16
       },
       {
         "type": "video",
@@ -264,17 +265,18 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Calypte-anna.ogv",
-        "assetTitle": "Calypte-anna.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Calypte-anna.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird.ogv",
+        "assetTitle": "Hummingbird.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird.ogv",
         "tags": [
           "ah_action"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Flipzagging",
+        "author": "Rishiraj Sahoo",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 1.5,
+        "license_note": "Original Commons identifies juvenile Anna's hummingbird (Calypte anna), self-filmed by Rishiraj Sahoo; independent preview 2.5/10.4/17.6s confirms close hovering by red flowers. Separate archival individual; creator and CC BY-SA obligations require credit."
       },
       {
         "type": "video",
@@ -292,17 +294,18 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20Hummingbird%207254.ogg",
-        "assetTitle": "Anna's Hummingbird 7254.ogg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_Hummingbird_7254.ogg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20at%20Flower%20in%20California.webm",
+        "assetTitle": "Hummingbird at Flower in California.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_at_Flower_in_California.webm",
         "tags": [
           "ah_payoff"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Chris Light",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29"
+        "author": "Mike's Birds",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 0.5,
+        "license_note": "Original 2013 juvenile Anna's hummingbird at flower in Riverside, California, from Mike's Birds Flickr, Commons license reviewed 2015. Independently previewed real hovering at 1.2/5.1/8.7s. Archival, separate bird; credit original author and adaptations."
       }
     ],
     "min_unique_videos": 6,
@@ -311,7 +314,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-hummingbird-nest-and-feeder-semantic-fix-v3",
+    "revision": "2026-10-29-hummingbird-freeze-and-hover-semantic-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -333,22 +336,22 @@
         "overlay_label": "NEST CARE"
       },
       {
-        "text": "Adult Anna's hummingbirds often pause on thin branches between fast trips through their territory.",
-        "scene": "Two actual Anna's hummingbirds perched among branches, no unshown hovering claim.",
+        "text": "Adult Anna's hummingbirds pause on branches, then hover at flowers as they move through their territory.",
+        "scene": "Separate authentic Anna's hummingbirds perched in a lemon tree and juvenile hovering at flowers; not the same bird.",
         "tags": [
           "ah_action"
         ],
         "story_role": "action",
-        "overlay_label": "BRANCH PERCH"
+        "overlay_label": "PERCH THEN HOVER"
       },
       {
-        "text": "At flowers and feeders, rapid wingbeats let them hover while taking a drink.",
-        "scene": "Real Anna's hummingbird drinking at a feeder; crop only embedded side padding.",
+        "text": "At feeders, rapid wingbeats bring them in, and they may perch to take a drink.",
+        "scene": "Authentic Anna's hummingbird at feeder, perched to drink; do not claim this shot shows hovering.",
         "tags": [
           "ah_feed"
         ],
         "story_role": "explanation",
-        "overlay_label": "HOVER TO DRINK"
+        "overlay_label": "FEEDER STOP"
       },
       {
         "text": "Even in wet weather, they may sit and wait between feeding trips.",
@@ -359,13 +362,13 @@
         "story_role": "twist"
       },
       {
-        "text": "From a tiny nestling to an adult perched high above, the same species changes quickly as it grows.",
-        "scene": "Archival adult Anna's hummingbird perched on bare branches; not the earlier nestling.",
+        "text": "From a tiny nestling to a young hummingbird hovering at a flower, wing skills grow fast.",
+        "scene": "Independent archival juvenile Anna's hummingbird hovering at red flowers, not the same nestling.",
         "tags": [
           "ah_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "GROWING UP"
+        "overlay_label": "WINGS IN ACTION"
       }
     ]
   },
@@ -382,11 +385,12 @@
         "tags": [
           "cr_hook"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "license_note": "Original 57.5s USFWS public-domain Alaska caribou source independently previewed at 15/30/45s. At 30s a close visible adult walks across tundra, avoiding initial tiny distant herd; start seek 29s, rerender and visually confirm.",
         "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
         "license": "Public domain",
         "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 29
       },
       {
         "type": "video",
@@ -496,12 +500,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-caribou-black-padding-and-seek-fix-v3",
+    "revision": "2026-10-29-caribou-closer-alaska-hook-v4",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species.",
-        "scene": "Real North American caribou in Alaska and another caribou scene; not the same individual.",
+        "scene": "Real North American caribou from Alaska original seconds 29–36, visibly closer animal, followed by distinct second caribou source; no zoo claim.",
         "tags": [
           "cr_hook"
         ],
@@ -691,7 +695,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-honeybee-true-traffic-story-v3",
+    "revision": "2026-10-29-honeybee-accurate-hive-traffic-overlay-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -701,7 +705,7 @@
           "hb_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "HIVE AIRFLOW"
+        "overlay_label": "HIVE TRAFFIC"
       },
       {
         "text": "Some workers visit flowers to collect food, while others remain closer to home.",
@@ -881,7 +885,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-red-fox-replaces-unrenderable-grey-seal-v1",
+    "revision": "2026-10-29-red-fox-hunting-label-factual-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -909,7 +913,7 @@
           "rf_action"
         ],
         "story_role": "action",
-        "overlay_label": "MOUSE HUNTER"
+        "overlay_label": "HUNTING SKILLS"
       },
       {
         "text": "In towns, a hungry fox may even investigate discarded takeout. Yes, really.",
