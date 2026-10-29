@@ -123,6 +123,8 @@ def main():
         finally:
             (out / "report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(f"Diagnostic finished: {len(report['targets'])} targets", flush=True)
+    if any("error" in row or not row["windows"] for row in report["targets"]):
+        raise SystemExit("Source motion scan incomplete; inspect report.json before changing seeks")
 
 
 if __name__ == "__main__":
