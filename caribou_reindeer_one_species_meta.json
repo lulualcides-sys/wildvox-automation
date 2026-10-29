@@ -2,7 +2,7 @@
   "key": "caribou_reindeer_one_species",
   "title": "REINDEER AND CARIBOU ARE THE SAME ANIMAL",
   "caption": "Caribou or reindeer? Two names, one species. 🦌 #Reindeer #Caribou #Wildlife #WildVox Footage creators: U.S. Fish and Wildlife Service National Conservation Training Center; U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC); Hedwig Storch; Manfred Werner - Tsui; Superchilum; NaIzletuSi ™. Original licenses: Public domain, CC BY-SA 3.0, CC BY 3.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
-  "config_sha256": "1933ff70d825a873b28bce03e66327e4a46f2937044c1564264e546c1b5881f0",
+  "config_sha256": "9b53449dbf3b222c4a61de05e80db9e8981417af7c75e4ff28fe024b9c3b6ee0",
   "duration": 36.33,
   "voice": "am_michael",
   "speed": 1.0,
@@ -27,7 +27,7 @@
       "end": 12.075,
       "duration": 5.225,
       "text": "Across North America, these northern deer are usually called caribou.",
-      "scene": "Separate real USFWS Alaska caribou herd and Becharof riverbank caribou from source 22s; no invented continuous migration.",
+      "scene": "Real Alaska caribou on riverbank followed by closer USFWS caribou at source 8.5s; no long stationary herd shot or false single-event continuity.",
       "tags": [
         "cr_north"
       ],
@@ -116,11 +116,12 @@
       "tags": [
         "cr_north"
       ],
-      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "license_note": "USFWS meadow caribou at original seconds 6-8 shows one closer walking animal rather than distant herd; 2026-10-29 320px source-motion diagnostic 40885497107 confirms 5-10s free of >=1s near-static intervals.",
       "author": "U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC)",
       "license": "Public domain",
       "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-      "license_verified_at": "2026-10-29"
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 8.5
     },
     {
       "type": "video",
