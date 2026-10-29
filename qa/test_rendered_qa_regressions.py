@@ -34,6 +34,11 @@ class FreezeTailRegression(unittest.TestCase):
     def test_no_freezes(self):
         self.assertEqual(self.read_freezes("", 35.0), [])
 
+    def test_exact_one_second_freeze_is_prohibited(self):
+        self.assertTrue(qa.has_prohibited_freeze([1.0]))
+        self.assertTrue(qa.has_prohibited_freeze([0.2, 1.1]))
+        self.assertFalse(qa.has_prohibited_freeze([0.999, 0.4]))
+
     def test_ended_freeze_and_trailing_freeze(self):
         result = self.read_freezes(
             "lavfi.freezedetect.freeze_start: 4.0\n"
