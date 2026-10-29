@@ -1,0 +1,21 @@
+name: WildVox — research Commons hummingbird video sources
+on:
+  push:
+    paths:
+      - 'scripts/discover_commons_videos.py'
+      - '.github/workflows/wildvox-source-discovery.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/discover_commons_videos.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: commons-hummingbird-video-discovery
+          path: commons-discovery.json
+          retention-days: 2
