@@ -1,0 +1,84 @@
+{
+  "editorial_day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "run_id": 40791081754,
+  "render_head_sha": "1180cbc238f3745c8eab8363e37c9bb2ed8a2609",
+  "status": "EDITORIAL_REJECTED",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "independently_checked": [
+    "5 ZIP artifacts downloaded from exact workflow run",
+    "5 *_review.jpg visually inspected",
+    "30 MP4 block-midpoint frames independently decoded with OpenCV",
+    "40 authentic source preview strips visually inspected",
+    "ffprobe five 1080x1920 MP4s with audio, 30-45s",
+    "full-length FFmpeg scaled freezedetect exit 0 for each MP4; zero >=1s freeze starts",
+    "five media-branch root MP4 Git blob hashes matched downloaded run artifacts",
+    "five current-day revisions, six exact ordered spoken blocks and eight distinct source URLs each"
+  ],
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_s": 39.675,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Monarch nectar block contains genuine butterfly but intermittent flower/foliage-only frames; scene alignment remains uneven.",
+        "Final payoff includes a visitor from archival 2025 Mexico sanctuary footage, requiring clear archival context when discussing October 2026."
+      ]
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_s": 32.8,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "New zoo hook visibly includes African penguins preening but branches obscure parts of the interaction.",
+        "Coastal setup and final payoff show small/distant penguins; source 2 walking group may be a closer payoff candidate than source 6, pending rerender and visual check."
+      ]
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_s": 31.125,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Captive/wild group footage in blocks 1,3,4 is distant or too small for strong narrative impact.",
+        "No footage establishes an actual shift change or alarm event; narration remains general and must not imply recorded proof."
+      ]
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_s": 36,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Opening shows a distant herd; original source preview shows stronger dust cloud later than opening, but seek timing needs independent test.",
+        "Waterhole and herd footage includes distant animals; edited script no longer asserts an unseen splash or the same continuous herd event."
+      ]
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_s": 34.75,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "1.5-second seek did not fix the tail/body-only opening at block midpoint.",
+        "Four sources originate from Brocken Inaglory Komodo video family, so scene-family repetition persists despite distinct URLs.",
+        "Sense block shows a Komodo head, but no tongue flick; current narration avoids claiming a visible tongue.",
+        "Source 7 Raul654 preview clearly shows head and walking legs; retagged as hook in commit 7af4757b, source 0 moved to species setup; requires NEW run QA."
+      ]
+    }
+  ],
+  "media_branch_git_blobs": {
+    "monarch_autumn_migration_2026.mp4": "3260ecfe2913d8a84a06575214cad0aa6597fcca",
+    "african_penguin_feather_care.mp4": "2cbb4a45002443dfffe494f8c42301d67d5258f8",
+    "meerkat_lookout_teamwork.mp4": "86e205c9b99e7eebeac358b10f2ba598ce634ed4",
+    "african_elephant_mud_bath.mp4": "444b8df0d57397f78d0f91e48ac40716a56b3090",
+    "komodo_dragon_tracking_scent.mp4": "d2c8183d4a8667cce38c797285f4695bd62546d5"
+  },
+  "licensing": "All 40 source entries include author/sourcePage/license metadata and source credits file exists; TikTok caption attribution delivery, complete ShareAlike adaptation licensing and TikTok platform compatibility have NOT been established. Hold all five.",
+  "metricool": "Scheduled posts [] for 2026-10-28, TikTok analytics TKPO01 rows []; no confirmed post ID, no confirmed publication. Never YouTube.",
+  "next": "Inspect newly queued WildVox Daily 5 run 40797871961 after commit 7af4757b, all five review sheets and MP4 frames; reject unless source and editorial issues are actually fixed. Do not reuse this QA verdict. Resolve full attribution and CC BY-SA licensing before scheduling."
+}
