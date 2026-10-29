@@ -1,8 +1,8 @@
 {
   "key": "western_honeybee_hive_airflow",
   "title": "THE BUSY TRAFFIC OUTSIDE A HONEYBEE HIVE",
-  "caption": "Follow honeybees from flowers back to the busy hive entrance. Separate authentic archival clips, not one continuous journey. #Honeybee #Pollinators #Bees #WildVox",
-  "config_sha256": "0b31692a80f276a8aa1f8aabf55b4e7607699c503a1509aad930d2a657c2ea0c",
+  "caption": "Follow honeybees from flowers back to the busy hive entrance. Separate authentic archival clips, not one continuous journey. #Honeybee #Pollinators #Bees #WildVox Footage creators: Chixoy; The Nature Box; Alexanderboyes; Dennis.insect.filmer; Jerzystrzelecki; AnRo0002; BorekT. Original licenses: CC BY-SA 3.0, CC BY-SA 4.0, CC0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
+  "config_sha256": "f534286709f06394d6058e51c24174b495a8b45c35a362df44102653f157e2f5",
   "duration": 30.43,
   "voice": "am_michael",
   "speed": 1.0,
@@ -131,20 +131,6 @@
       ],
       "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
       "author": "Alexanderboyes",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "license_verified_at": "2026-10-29"
-    },
-    {
-      "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20Bee%20Pollinating.webm",
-      "assetTitle": "Honey Bee Pollinating.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_Bee_Pollinating.webm",
-      "tags": [
-        "hb_foragers"
-      ],
-      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-      "author": "Aphagstrom",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "license_verified_at": "2026-10-29"
