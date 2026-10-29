@@ -188,7 +188,7 @@
   },
   "annas_hummingbird_first_flight": {
     "title": "HOW ANNA'S HUMMINGBIRDS GROW FROM NEST TO PERCH",
-    "script": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest. While it is still small, an adult returns to the nest with food as the chick grows stronger. Adult Anna's hummingbirds pause on branches, then hover at flowers as they move through their territory. At feeders, rapid wingbeats bring them in, and they may perch to take a drink. Even in wet weather, they may sit and wait between feeding trips. From a tiny nestling to a young hummingbird hovering at a flower, wing skills grow fast.",
+    "script": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest. While it is still small, an adult returns to the nest with food as the chick grows stronger. Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory. At feeders, rapid wingbeats bring them in, and they may perch to take a drink. Even in wet weather, they may sit and wait between feeding trips. From a tiny nestling to a young hummingbird hovering at a flower, wing skills grow fast.",
     "caption": "From first wingbeats in the nest to hovering at flowers: Anna's hummingbirds grow fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox",
     "sources": [
       {
@@ -247,7 +247,8 @@
         "author": "Danmation",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 300
       },
       {
         "type": "video",
@@ -314,7 +315,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-hummingbird-freeze-and-hover-semantic-v4",
+    "revision": "2026-10-29-hummingbird-dynamic-source-300s-v5",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -336,13 +337,13 @@
         "overlay_label": "NEST CARE"
       },
       {
-        "text": "Adult Anna's hummingbirds pause on branches, then hover at flowers as they move through their territory.",
-        "scene": "Separate authentic Anna's hummingbirds perched in a lemon tree and juvenile hovering at flowers; not the same bird.",
+        "text": "Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory.",
+        "scene": "First authentic hummingbird hovering at red flowers, then a separate verified Anna's hummingbird moving on a lemon-tree branch; do not claim the generic flower bird is Anna's.",
         "tags": [
           "ah_action"
         ],
         "story_role": "action",
-        "overlay_label": "PERCH THEN HOVER"
+        "overlay_label": "HOVER THEN PERCH"
       },
       {
         "text": "At feeders, rapid wingbeats bring them in, and they may perch to take a drink.",
