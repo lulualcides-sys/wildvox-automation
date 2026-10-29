@@ -92,15 +92,24 @@ def preview(item, out, index, maxbytes):
         raise ValueError("Video too short")
     sheet = Image.new("RGB",(1980,410),"white")
     draw = ImageDraw.Draw(sheet)
-    for i,frac in enumerate((.12,.5,.85)):
+    sample_seconds = item.get("sample_seconds")
+    if sample_seconds is None:
+        times = [duration * frac for frac in (.12, .5, .85)]
+    else:
+        if not isinstance(sample_seconds, list) or len(sample_seconds) != 3:
+            raise ValueError("sample_seconds must contain exactly three timestamps")
+        times = [float(t) for t in sample_seconds]
+        if any(t < 0 or t >= duration for t in times):
+            raise ValueError("sample_seconds timestamps must be within video duration")
+    for i,second in enumerate(times):
         frame = out / f"{key}_{i}.jpg"
         run(["ffmpeg","-y","-hide_banner","-loglevel","error","-ss",
-             f"{duration*frac:.3f}","-i",str(media),"-frames:v","1",
+             f"{second:.3f}","-i",str(media),"-frames:v","1",
              "-vf","scale=640:360:force_original_aspect_ratio=decrease",str(frame)])
         with Image.open(frame) as im:
             thumb = ImageOps.contain(im.convert("RGB"),(640,360))
             sheet.paste(thumb,(i*660+(660-thumb.width)//2,28+(360-thumb.height)//2))
-        draw.text((i*660+10,6),f"{key} | {duration*frac:.1f}s",fill="black")
+        draw.text((i*660+10,6),f"{key} | {second:.1f}s",fill="black")
         frame.unlink(missing_ok=True)
     output = out / f"{key}_preview.jpg"
     sheet.save(output,quality=90)

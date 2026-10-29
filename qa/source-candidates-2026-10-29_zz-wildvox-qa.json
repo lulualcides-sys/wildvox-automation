@@ -4,7 +4,7 @@
   "checked_main_sha": "9f0fc169ec9f7a651378014839b936c5e5510f09",
   "checked_daily_blob": "4133d776cc60818730bd602b7c90840a15f88b94",
   "editorial_status": "CANDIDATE_SOURCE_PREVIEW_ONLY",
-  "note": "Independently sampled current-day rendered artifacts. Snow leopard sl_rock still causes >=1s freezes; caribou original Svalbard sources contain embedded black letterbox bars and Inari footage starts with road/title. Preview replacements before modifying daily.json; never treat source preview as editorial approval.",
+  "note": "Independently sampled current-day rendered artifacts. Snow leopard sl_rock still causes >=1s freezes; caribou original Svalbard sources contain embedded black letterbox bars and Inari footage starts with road/title. Preview replacements before modifying daily.json; never treat source preview as editorial approval. Added precise 3-frame sample timestamps to validate the intended 5–6s editorial shot window, not unrelated whole-video fractions.",
   "candidates": [
     {
       "for_key": "snow_leopard_jaw_skills",
@@ -17,7 +17,12 @@
       "species": "Panthera uncia",
       "source_description": "Authentic archived footage of two wild snow leopards in Spiti Valley, India; 82s 1920x1080 original; verify subject visible and moving in sampled frames before use.",
       "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Must show snow leopard on rocky terrain and motion, not still montage or tiny subject; credit author and modifications."
+      "concerns": "Must show snow leopard on rocky terrain and motion, not still montage or tiny subject; credit author and modifications.",
+      "sample_seconds": [
+        40,
+        42,
+        44
+      ]
     },
     {
       "for_key": "caribou_reindeer_one_species",
@@ -30,7 +35,12 @@
       "species": "Rangifer tarandus",
       "source_description": "2018 authentic reindeer at Avon Valley Adventure & Wildlife Park, 41s 1920x1080; captive context must be disclosed, not wild Europe.",
       "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Verify clear animal and no embedded bars; author credit/ShareAlike; avoid implying wild herd."
+      "concerns": "Verify clear animal and no embedded bars; author credit/ShareAlike; avoid implying wild herd.",
+      "sample_seconds": [
+        30,
+        32,
+        34
+      ]
     },
     {
       "for_key": "caribou_reindeer_one_species",
@@ -40,7 +50,12 @@
       "species": "Rangifer tarandus",
       "source_description": "Listed by Commons Rangifer video category: 37s 1920x1080 original; captive zoo, author/license need original page verification.",
       "status": "CANDIDATE_UNREVIEWED",
-      "concerns": "Check actual original author and license, no embedded black bars, visually clear hoof/antler behavior; do not present captive as wild."
+      "concerns": "Check actual original author and license, no embedded black bars, visually clear hoof/antler behavior; do not present captive as wild.",
+      "sample_seconds": [
+        1.5,
+        3.5,
+        5.5
+      ]
     }
   ]
 }
