@@ -23,7 +23,7 @@ def main():
             j=query({"generator":"categorymembers","gcmtitle":cat,"gcmtype":"file","gcmlimit":100,"prop":"imageinfo","iiprop":"size",**cont})
             for p in j.get("query",{}).get("pages",[]):
                 title=p.get("title","")
-                if re.search(r"\\.(?:webm|ogv|ogg)$",title,re.I):
+                if re.search(r"\.(?:webm|ogv|ogg)$",title,re.I):
                     info=(p.get("imageinfo") or [{}])[0]
                     found[title]={"title":title,"size":info.get("size"),"category":cat}
             cont=j.get("continue") or {}
@@ -33,7 +33,7 @@ def main():
         j=query({"list":"search","srsearch":phrase,"srnamespace":6,"srlimit":100})
         for p in j.get("query",{}).get("search",[]):
             title=p.get("title","")
-            if re.search(r"\\.(?:webm|ogv|ogg)$",title,re.I):
+            if re.search(r"\.(?:webm|ogv|ogg)$",title,re.I):
                 found.setdefault(title,{"title":title,"category":"search:"+phrase})
     rows=sorted(found.values(),key=lambda x:x["title"].lower())
     Path("commons-discovery.json").write_text(json.dumps({"subject":"Calypte anna","source_count":len(rows),"files":rows,"publication_hold":True},indent=2)+"\n",encoding="utf-8")
