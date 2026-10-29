@@ -1,7 +1,7 @@
 {
   "snow_leopard_jaw_skills": {
     "title": "WHY SNOW LEOPARDS KEEP CHEWING",
-    "script": "Why is this snow leopard working so hard on a single bone? These big cats are built for gripping food, and their jaws do more than simply bite once. Watch how it clamps down, releases, then finds another angle. Strong jaw muscles and sharp teeth help tear food into pieces it can swallow. Young snow leopards start learning body control through play long before adulthood. And in a zoo, that same urge to bite and explore can turn a pumpkin into enrichment.",
+    "script": "Why is this snow leopard working so hard on a single bone? These big cats are built for gripping food, and their jaws do more than simply bite once. Watch how it clamps down, releases, then finds another angle. Strong jaw muscles and sharp teeth help tear food into pieces it can swallow. In the wild, snow leopards also need careful movement through steep, rocky terrain. Young cubs begin practicing the biting, gripping, and coordination that adulthood will demand.",
     "caption": "From a hard bone to a pumpkin: watch snow leopard jaws at work. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox",
     "sources": [
       {
@@ -89,6 +89,16 @@
         "license_verified_at": "2026-10-29"
       },
       {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20leopard%20in%20rock%20cavity.jpg",
+        "assetTitle": "Snow leopard in rock cavity.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_leopard_in_rock_cavity.jpg",
+        "tags": [
+          "sl_rock"
+        ],
+        "license_note": "Species photograph listed in Commons Panthera uncia category. Original-file commercial license and MIME MUST pass new live Commons API image audit before render; no unverified author/license claim."
+      },
+      {
         "type": "video",
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia%20cubs%2001.ogv",
         "assetTitle": "Uncia uncia cubs 01.ogv",
@@ -101,20 +111,6 @@
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
         "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20Leopard%20eating%20a%20pumpkin%20at%20Los%20Angeles%20Zoo.webm",
-        "assetTitle": "Snow Leopard eating a pumpkin at Los Angeles Zoo.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Leopard_eating_a_pumpkin_at_Los_Angeles_Zoo.webm",
-        "tags": [
-          "sl_payoff"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "LA Zoo",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-10-29"
       }
     ],
     "min_unique_videos": 6,
@@ -123,7 +119,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-daily-snow_leopard_jaw_skills-narrative-v1",
+    "revision": "2026-10-29-daily-snow_leopard_jaw_skills-narrative-v2-source-license-fix",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -162,21 +158,22 @@
         "overlay_label": "POWERFUL JAWS"
       },
       {
-        "text": "Young snow leopards start learning body control through play long before adulthood.",
-        "scene": "Authentic Salzburg Zoo snow leopard cubs, not wild cubs.",
+        "text": "In the wild, snow leopards also need careful movement through steep, rocky terrain.",
+        "scene": "Authentic still photograph of snow leopard among rocks; not a film of hunting or feeding.",
+        "tags": [
+          "sl_rock"
+        ],
+        "story_role": "twist",
+        "overlay_label": "ROCKY TERRAIN"
+      },
+      {
+        "text": "Young cubs begin practicing the biting, gripping, and coordination that adulthood will demand.",
+        "scene": "Real snow leopard cubs at Salzburg Zoo playing; closes the story with early-life practice, not wild footage.",
         "tags": [
           "sl_cubs"
         ],
-        "story_role": "twist"
-      },
-      {
-        "text": "And in a zoo, that same urge to bite and explore can turn a pumpkin into enrichment.",
-        "scene": "Los Angeles Zoo's real snow leopard chewing a pumpkin, not natural prey.",
-        "tags": [
-          "sl_payoff"
-        ],
         "story_role": "payoff",
-        "overlay_label": "PUMPKIN CHALLENGE"
+        "overlay_label": "SKILLS START YOUNG"
       }
     ],
     "trend_priority": true,
@@ -186,7 +183,7 @@
   },
   "grey_seal_autumn_pup_nursery": {
     "title": "WHY GREY SEAL PUPS START LIFE ON LAND",
-    "script": "Why are grey seals gathering along Britain's shores as October ends? Every autumn, females come ashore to give birth and nurse their young. A newborn pup arrives wrapped in thick, pale fur. That fluffy coat helps protect it on land while it grows. Before long, the pup sheds that coat and becomes ready for more time in the sea. So this crowded shoreline is only the beginning: a nursery for future swimmers.",
+    "script": "Why are grey seals gathering along Britain's shores as October ends? Every autumn, females come ashore to give birth and nurse their young. A newborn pup arrives wrapped in thick, pale fur. The adults are strong swimmers, but newborns need time before they can follow. After a few weeks, pups shed their fluffy coat and begin spending more time in the sea. So this crowded shoreline is only the beginning: a nursery for future swimmers.",
     "caption": "Grey seal pupping season is underway in Britain. These are archival images, not the 2026 birth. 🦭 #GreySeal #SealPups #Wildlife #WildVox",
     "sources": [
       {
@@ -234,18 +231,14 @@
         "license_verified_at": "2026-10-29"
       },
       {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Seal%20pup%2C%20Estonia.jpg",
-        "assetTitle": "Grey Seal pup, Estonia.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_Seal_pup%2C_Estonia.jpg",
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Halichoerus%20grypus%20in%20the%20Seaquarium%20of%20Saint%20Petersburg.ogv",
+        "assetTitle": "Halichoerus grypus in the Seaquarium of Saint Petersburg.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus_in_the_Seaquarium_of_Saint_Petersburg.ogv",
         "tags": [
-          "gs_fur"
+          "gs_swim"
         ],
-        "license_note": "Original Commons file page and CC BY 4.0 commercial reuse license checked 2026-10-29; archival photograph, not current 2026 footage.",
-        "author": "Jaan Minakov",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-10-29"
+        "license_note": "Authentic Halichoerus grypus aquarium footage in Wikimedia Commons species-video category; live commercial-license audit required before render. Do not claim wild setting."
       },
       {
         "type": "video",
@@ -253,7 +246,7 @@
         "assetTitle": "Fokarium na Helu, 2016-07-28.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Fokarium_na_Helu%2C_2016-07-28.webm",
         "tags": [
-          "gs_swim"
+          "gs_adults"
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
       },
@@ -263,7 +256,7 @@
         "assetTitle": "Halichoerus grypus.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus.ogv",
         "tags": [
-          "gs_swim"
+          "gs_adults"
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
       },
@@ -284,7 +277,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-daily-grey_seal_autumn_pup_nursery-narrative-v1",
+    "revision": "2026-10-29-daily-grey_seal_autumn_pup_nursery-narrative-v2-license-fix",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -314,16 +307,17 @@
         "overlay_label": "WHITE COAT"
       },
       {
-        "text": "That fluffy coat helps protect it on land while it grows.",
-        "scene": "Separate verified grey seal pup photograph from Estonia; still photo, no simulated motion.",
+        "text": "The adults are strong swimmers, but newborns need time before they can follow.",
+        "scene": "Real adult grey seal swimming and resting footage from two archival sources; do not portray these as the pictured pups.",
         "tags": [
-          "gs_fur"
+          "gs_adults"
         ],
-        "story_role": "explanation"
+        "story_role": "explanation",
+        "overlay_label": "GROWING UP"
       },
       {
-        "text": "Before long, the pup sheds that coat and becomes ready for more time in the sea.",
-        "scene": "Archival grey seal footage, adult movement illustrating the later swimming stage, not a recorded molt.",
+        "text": "After a few weeks, pups shed their fluffy coat and begin spending more time in the sea.",
+        "scene": "Adult grey seal swimming in a documented aquarium, illustrative of mature aquatic life, not a time-lapse of pup molting.",
         "tags": [
           "gs_swim"
         ],
