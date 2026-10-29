@@ -1,0 +1,215 @@
+{
+  "key": "caribou_reindeer_one_species",
+  "title": "REINDEER AND CARIBOU ARE THE SAME ANIMAL",
+  "caption": "Caribou or reindeer? Two names, one species. 🦌 #Reindeer #Caribou #Wildlife #WildVox",
+  "config_sha256": "641c7f2802a9f6599b6e5198cd8c5837636e8a2ad5522a277b817b3d39147647",
+  "duration": 36.55,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.85,
+      "duration": 6.85,
+      "text": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species.",
+      "scene": "Real North American caribou in Alaska and another caribou scene; not the same individual.",
+      "tags": [
+        "cr_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "TWO NAMES",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.85,
+      "end": 12.3,
+      "duration": 5.45,
+      "text": "Across North America, wild northern herds are usually called caribou.",
+      "scene": "Authentic caribou in Mount Robson Park, Canada.",
+      "tags": [
+        "cr_north"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 12.3,
+      "end": 19.075000000000003,
+      "duration": 6.775,
+      "text": "In Europe and Asia, the name reindeer is more common, even when animals roam freely.",
+      "scene": "Authentic reindeer from Finland and Svalbard; separate regions, no fake continuous migration.",
+      "tags": [
+        "cr_europe"
+      ],
+      "story_role": "action",
+      "overlay_label": "NORTHERN HERDS",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 19.075000000000003,
+      "end": 24.150000000000002,
+      "duration": 5.075,
+      "text": "Both have broad hooves and coats suited to cold northern conditions.",
+      "scene": "Svalbard reindeer walking; no false close-up hoof demonstration.",
+      "tags": [
+        "cr_adapt"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "BUILT FOR COLD",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 24.150000000000002,
+      "end": 30.525000000000002,
+      "duration": 6.375,
+      "text": "Some reindeer also live under human care, but they still belong to that same species.",
+      "scene": "Clearly captive reindeer at Ljubljana Zoo, Slovenia.",
+      "tags": [
+        "cr_zoo"
+      ],
+      "story_role": "twist",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 30.525000000000002,
+      "end": 36.550000000000004,
+      "duration": 6.025,
+      "text": "Different names and settings, one remarkable northern deer: Rangifer tarandus.",
+      "scene": "Second separate real reindeer zoo video; avoid implying same herd as North American caribou.",
+      "tags": [
+        "cr_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "ONE SPECIES",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porcupine%20caribou%20(Rangifer%20tarandus%20granti)%20in%20Alaska.ogv",
+      "assetTitle": "Porcupine caribou (Rangifer tarandus granti) in Alaska.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Porcupine_caribou_(Rangifer_tarandus_granti)_in_Alaska.ogv",
+      "tags": [
+        "cr_hook"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caribou%20(Rangifer%20tarandus).webm",
+      "assetTitle": "Caribou (Rangifer tarandus).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Caribou_(Rangifer_tarandus).webm",
+      "tags": [
+        "cr_hook"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC)",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MountRobsonPark-Rangifer%20tarandus-KanadischesKaribu.ogv",
+      "assetTitle": "MountRobsonPark-Rangifer tarandus-KanadischesKaribu.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:MountRobsonPark-Rangifer_tarandus-KanadischesKaribu.ogv",
+      "tags": [
+        "cr_north"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Hedwig Storch",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rangifer%20tarandus%20-%20Inari%202013.ogv",
+      "assetTitle": "Rangifer tarandus - Inari 2013.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rangifer_tarandus_-_Inari_2013.ogv",
+      "tags": [
+        "cr_europe"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation. Seek to actual reindeer after archival 2013 road/title intro.",
+      "author": "Manfred Werner - Tsui",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 60
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reindeer%20Svalbard.ogv",
+      "assetTitle": "Reindeer Svalbard.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Reindeer_Svalbard.ogv",
+      "tags": [
+        "cr_europe"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation. Crop encoded black bars only; preserve full original animal framing.",
+      "author": "Superchilum",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_at": "2026-10-29",
+      "crop_black_bars": true
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reindeers%20Svalbard%201.ogv",
+      "assetTitle": "Reindeers Svalbard 1.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Reindeers_Svalbard_1.ogv",
+      "tags": [
+        "cr_adapt"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation. Crop encoded black bars only; preserve full original animal framing.",
+      "author": "Superchilum",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_at": "2026-10-29",
+      "crop_black_bars": true
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Rangifer%20tarandus%202.webm",
+      "assetTitle": "2023-08-18 ZOO LJUBLJANA - Rangifer tarandus 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Rangifer_tarandus_2.webm",
+      "tags": [
+        "cr_zoo"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-06-01%20LJUBLJANA%20ZOO%20LJUBLJANA%20-%20Rangifer%20tarandus.webm",
+      "assetTitle": "2024-06-01 LJUBLJANA ZOO LJUBLJANA - Rangifer tarandus.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Rangifer_tarandus.webm",
+      "tags": [
+        "cr_payoff"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-29"
+    }
+  ],
+  "review_sheet": "caribou_reindeer_one_species_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
