@@ -190,7 +190,7 @@
   "annas_hummingbird_first_flight": {
     "title": "HUMMINGBIRDS: FROM NEST TO FLIGHT",
     "script": "This tiny hummingbird is beating its wings before it can even leave the nest. While it is still small, an adult returns to the nest with food as the chick grows stronger. Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory. At feeders, rapid wingbeats bring them in, and they may perch to take a drink. Even in wet weather, they may sit and wait between feeding trips. From a tiny nestling to hummingbirds hovering at flowers, wing skills grow fast.",
-    "caption": "From a hummingbird nestling practicing wingbeats to adult Anna's hummingbirds at flowers: separate archival birds, not a verified same-species life story. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox Footage creators: Dennis.insect.filmer; Larry & Teddy Page; Danmation; Rishiraj Sahoo; Love Star Production; Mike's Birds. Original licenses: CC BY-SA 4.0, CC BY 2.0, CC BY 3.0, CC BY-SA 3.0, CC0, CC BY-SA 2.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
+    "caption": "From a hummingbird nestling practicing wingbeats to adult Anna's hummingbirds at flowers: separate archival birds; the opening nestling's species is unverified. #AnnasHummingbird #Birds #Wildlife #WildVox Footage creators: Dennis.insect.filmer; Larry & Teddy Page; Danmation; Rishiraj Sahoo; Love Star Production; Mike's Birds. Original licenses: CC BY-SA 4.0, CC BY 2.0, CC BY 3.0, CC BY-SA 3.0, CC0, CC BY-SA 2.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
     "sources": [
       {
         "type": "video",
@@ -316,7 +316,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-hummingbird-generic-nestling-title-v7",
+    "revision": "2026-10-29-hummingbird-caption-clarity-v8",
     "publication_hold": true,
     "visual_plan": [
       {
