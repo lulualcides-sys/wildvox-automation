@@ -1,9 +1,9 @@
 {
   "key": "red_fox_hunt_to_play",
   "title": "HOW RED FOXES HUNT, SCAVENGE, AND LEARN",
-  "caption": "Red foxes hunt, sometimes investigate human leftovers, and practice through play. Separate archival clips; none claimed as 2026 field footage. #RedFox #FoxKits #Wildlife #WildVox Footage creators: Lubo Ondrasko; Scarabinol; J Tee; Peter.shaman; U.S. Fish and Wildlife Service National Conservation Training Center; Alexis Markwick; Pink Bee. Original licenses: CC BY 3.0, CC BY-SA 4.0, Public domain, CC0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
-  "config_sha256": "092538afc7dddf0e95f38bf9cd2b5fdfe29e3b73576c09454f5b481086015ac9",
-  "duration": 35.35,
+  "caption": "Red foxes hunt, sometimes investigate human leftovers, and practice through play. Separate archival clips; not one continuous event. #RedFox #FoxKits #Wildlife #WildVox Footage creators: Lubo Ondrasko; Scarabinol; J Tee; Peter.shaman; U.S. Fish and Wildlife Service National Conservation Training Center; Alexis Markwick; Pink Bee; Rhododendrites. Original licenses: CC BY 3.0, CC BY-SA 4.0, Public domain, CC0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
+  "config_sha256": "db965a0f4e42d317cfed5a56032ddda7c20a03d914a313ddb3827ec7689d7c8d",
+  "duration": 34.98,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -66,10 +66,10 @@
     {
       "index": 4,
       "start": 23.575,
-      "end": 29.15,
-      "duration": 5.575,
-      "text": "Young foxes start learning by watching and exploring the world around their den.",
-      "scene": "USFWS archival red fox cub in grass and a separate young kit perched in woodland.",
+      "end": 28.775,
+      "duration": 5.2,
+      "text": "Young foxes start learning by watching and exploring the world around them.",
+      "scene": "Archival USFWS fox cubs and separate genuine young foxes exploring along a roadside in Delaware in May 2026; not the same litter or a shown den.",
       "tags": [
         "rf_twist"
       ],
@@ -79,8 +79,8 @@
     },
     {
       "index": 5,
-      "start": 29.15,
-      "end": 35.35,
+      "start": 28.775,
+      "end": 34.975,
       "duration": 6.2,
       "text": "Then play turns into practice: every chase and tumble helps prepare a future hunter.",
       "scene": "Two different authentic recordings of young red foxes playing in gardens.",
@@ -170,18 +170,18 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20kit.webm",
-      "assetTitle": "Red fox (Vulpes vulpes) kit.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_(Vulpes_vulpes)_kit.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20kits%20playing.webm",
+      "assetTitle": "Red fox kits playing.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_kits_playing.webm",
       "tags": [
         "rf_twist"
       ],
-      "author": "Lubo Ondrasko",
-      "license": "CC BY 3.0",
-      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "license_verified_at": "2026-10-29",
-      "start_seconds": 3,
-      "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+      "start_seconds": 45,
+      "license_note": "Authentic separate 2026-05 Bombay Hook NWR red fox kits; Commons featured original, self-filmed by Rhododendrites. 2026-10-29 320px source-motion scan run 40885497107: 45-50s freeze-free; paired frames at 46/48s show two moving young foxes near roadside. Do not claim filmed on editorial day."
     },
     {
       "type": "video",
