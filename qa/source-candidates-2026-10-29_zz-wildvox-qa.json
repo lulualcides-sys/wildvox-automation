@@ -16,13 +16,14 @@
       "license_url": "https://creativecommons.org/licenses/by/3.0",
       "species": "Panthera uncia",
       "source_description": "Authentic archived footage of two wild snow leopards in Spiti Valley, India; 82s 1920x1080 original; verify subject visible and moving in sampled frames before use.",
-      "status": "CANDIDATE_UNREVIEWED",
+      "status": "REJECTED_LOW_MOTION",
       "concerns": "Must show snow leopard on rocky terrain and motion, not still montage or tiny subject; credit author and modifications.",
       "sample_seconds": [
         40,
         42,
         44
-      ]
+      ],
+      "visual_review": "Exact source frames 40/42/44s nearly identical resting cats, unsuitable for 5.8s movement block; avoid freezing."
     },
     {
       "for_key": "caribou_reindeer_one_species",
@@ -34,13 +35,14 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "species": "Rangifer tarandus",
       "source_description": "2018 authentic reindeer at Avon Valley Adventure & Wildlife Park, 41s 1920x1080; captive context must be disclosed, not wild Europe.",
-      "status": "CANDIDATE_UNREVIEWED",
+      "status": "VISUALLY_ACCEPTED_SOURCE_ONLY_CAPTIVE",
       "concerns": "Verify clear animal and no embedded bars; author credit/ShareAlike; avoid implying wild herd.",
       "sample_seconds": [
         30,
         32,
         34
-      ]
+      ],
+      "visual_review": "Exact frames 30/32/34s show authentic reindeer in fenced Avon Valley enclosure; only use for explicitly captive/under-human-care narration, not wild northern herd."
     },
     {
       "for_key": "caribou_reindeer_one_species",
@@ -49,13 +51,65 @@
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuppertal_-_Zoo_-_Rangifer_tarandus_04_(1)_ies.webm",
       "species": "Rangifer tarandus",
       "source_description": "Listed by Commons Rangifer video category: 37s 1920x1080 original; captive zoo, author/license need original page verification.",
-      "status": "CANDIDATE_UNREVIEWED",
+      "status": "REJECTED_BLACK_FRAMES",
       "concerns": "Check actual original author and license, no embedded black bars, visually clear hoof/antler behavior; do not present captive as wild.",
       "sample_seconds": [
         1.5,
         3.5,
         5.5
-      ]
+      ],
+      "visual_review": "Original frames 18.3s and 31.1s black; first 4.4s visible reindeer, but no robust full 6s clean segment established."
+    },
+    {
+      "for_key": "snow_leopard_jaw_skills",
+      "target_block": "sl_rock moving wild snow leopard on rocks, replace static photo",
+      "title": "Snow leopard in Ladakh.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_leopard_in_Ladakh.webm",
+      "author": "Sanjay Khurana (video); music Kevin MacLeod; exact reuse rights need review",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "species": "Panthera uncia",
+      "source_description": "2012 wild snow leopard in Ladakh, 62s 854x480 archival Commons footage, license reviewed by YouTubeReviewBot; sample 20/22/24s.",
+      "sample_seconds": [
+        20,
+        22,
+        24
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Need visible animal moving in intended segment, no tiny subject or music licensing problems; credit original video and music."
+    },
+    {
+      "for_key": "snow_leopard_jaw_skills",
+      "target_block": "sl_rock moving wild snow leopard on rocks, replace static photo",
+      "title": "Snow leopard family, Spiti, Himachal Pradesh, India.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_leopard_family%2C_Spiti%2C_Himachal_Pradesh%2C_India.webm",
+      "author": "Rishi Sharma / Nature Conservation Foundation India",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "species": "Panthera uncia",
+      "source_description": "2013 wild mother and cubs on rock via camera trap, 83s 1280x720; sample 15/17/19s for motion.",
+      "sample_seconds": [
+        15,
+        17,
+        19
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Camera trap may be a sequence of stills, reject if freezing; credit Rishi Sharma."
+    },
+    {
+      "for_key": "caribou_reindeer_one_species",
+      "target_block": "cr_europe wild reindeer without embedded black bars",
+      "title": "Reindeers Svalbard 2.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Reindeers_Svalbard_2.ogv",
+      "species": "Rangifer tarandus",
+      "source_description": "5.1s 640x480 authentic wild Svalbard reindeer candidate; need check if original has black letterboxing.",
+      "sample_seconds": [
+        0.5,
+        2.5,
+        4.5
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Original author/license must be checked; footage might have black bars or be too short to fill narration; preview only."
     }
   ]
 }
