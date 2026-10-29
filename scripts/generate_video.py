@@ -1073,6 +1073,11 @@ def main():
             "key": args.key,
             "title": cfg["title"],
             "caption": cfg["caption"],
+            # Exact editorial config fingerprint prevents accepting stale MP4s after
+            # changes to narration, scene tags, source seeks, license or render settings.
+            "config_sha256": hashlib.sha256(json.dumps(
+                cfg, sort_keys=True, ensure_ascii=False,
+                separators=(",", ":")).encode("utf-8")).hexdigest(),
             "duration": round(duration, 2),
             "voice": "am_michael",
             "speed": NARRATION_SPEED,
