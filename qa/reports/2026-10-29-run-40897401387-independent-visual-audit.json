@@ -1,0 +1,131 @@
+{
+  "editorial_day": "2026-10-29",
+  "run_id": 40897401387,
+  "render_head_sha": "0d1d8c45d20eeb4fbc5a572b60b9f797661ddc84",
+  "run_status_at_audit": "in_progress",
+  "run_conclusion_at_audit": null,
+  "main_sha_verified_before_write": "e504dd21bed3e0218326f88f3093943075dbc0ad",
+  "config_blob_verified_before_write": "c62ff7aceefc168a42445093e133edb9cde00b0f",
+  "scope": "All five NEW current-day render ZIPs downloaded; all five *_review.jpg inspected visually; all forty original source preview strips inspected; actual five MP4 files opened and representative full-size frames inspected; complete MP4s independently scanned with FFmpeg.",
+  "independent_full_video_method": "ffmpeg -vf fps=8,scale=320:-2,freezedetect=n=-40dB:d=1 -an -f null - ; blackdetect=d=0.5:pix_th=0.07; ffprobe streams/duration; SHA256 over full MP4 bytes.",
+  "technical_findings": "Five MP4s each 1080x1920 with audio, 30.425–36.600 seconds; ffmpeg exit 0; zero >=1s near-static freeze events and zero >=0.5s blackdetect intervals on all five. These tests cannot prove narrative correctness or platform legal compatibility.",
+  "source_and_script_checks": "Each of five current configs has 6 ordered exact normalized spoken blocks, 8 distinct authentic video URLs, max_shot_seconds=8, max_freeze_seconds=0, publication_hold=true; rendered metadata has 6 Kokoro narration blocks and 8 source records; all 40 source URLs unique across this batch.",
+  "videos": [
+    {
+      "key": "snow_leopard_jaw_skills",
+      "duration": 33.95,
+      "mp4_sha256": "5ad1daf6a8768fc4c580c61f6fe1ecf5ac8de331f3d94fc231390c9c49d9fc6e",
+      "video_1080x1920": true,
+      "has_audio": true,
+      "ffmpeg_exit": 0,
+      "freeze_intervals_ge_1s": [],
+      "black_intervals_ge_0_5s": [],
+      "review_jpg_inspected": true,
+      "source_preview_strips_inspected": 8,
+      "actual_mp4_inspected": true,
+      "editorial": "CONDITIONAL_FAIL",
+      "observation": "Snow leopard visible but dark/low-resolution bone-gnaw and cub footage; original identity of Snow Leopard eating.ogv and repeated filming families need human review. Distinguish zoo footage from wild claims.",
+      "repeat_author_families": [
+        {
+          "author": "MatthiasKabel",
+          "count": 3
+        },
+        {
+          "author": "Fiver, der Hellseher",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "duration": 36.6,
+      "mp4_sha256": "b5016100d3fdfcb6fafabdfd3849c919fa0b4e5c6a0a9d3b05adf537ff1f42fb",
+      "video_1080x1920": true,
+      "has_audio": true,
+      "ffmpeg_exit": 0,
+      "freeze_intervals_ge_1s": [],
+      "black_intervals_ge_0_5s": [],
+      "review_jpg_inspected": true,
+      "source_preview_strips_inspected": 8,
+      "actual_mp4_inspected": true,
+      "editorial": "CONDITIONAL_FAIL",
+      "observation": "Opening nestling wingbeats visible and adult hummingbird at nest; opening nestling species not established as Anna's. Title is species-neutral; separate archival animals. Some tiny/distant bird shots and discontinuous developmental sequence.",
+      "repeat_author_families": [
+        {
+          "author": "Dennis.insect.filmer",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "duration": 36.325,
+      "mp4_sha256": "b2121373c66f80bf962e17d7315d5ac408a684a5ecbedeedad1f8900e4e8dfcb",
+      "video_1080x1920": true,
+      "has_audio": true,
+      "ffmpeg_exit": 0,
+      "freeze_intervals_ge_1s": [],
+      "black_intervals_ge_0_5s": [],
+      "review_jpg_inspected": true,
+      "source_preview_strips_inspected": 8,
+      "actual_mp4_inspected": true,
+      "editorial": "CONDITIONAL_PASS",
+      "observation": "Updated close caribou hook and Alaska riverbank animals are visible; meadow footage shows a nearer walking animal. Some later reindeer are small/distant and some are zoo footage; no false continuous-event claims.",
+      "repeat_author_families": [
+        {
+          "author": "Superchilum",
+          "count": 2
+        },
+        {
+          "author": "NaIzletuSi ™",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "duration": 30.425,
+      "mp4_sha256": "46aa48ddc7cf7d4e577518ddfaede68407d286a60af48aeb93c85b8d1e453392",
+      "video_1080x1920": true,
+      "has_audio": true,
+      "ffmpeg_exit": 0,
+      "freeze_intervals_ge_1s": [],
+      "black_intervals_ge_0_5s": [],
+      "review_jpg_inspected": true,
+      "source_preview_strips_inspected": 8,
+      "actual_mp4_inspected": true,
+      "editorial": "CONDITIONAL_PASS",
+      "observation": "Hive entrance, foraging bees and fanning visible, with some small/soft-focus subjects. No freeze; separate archive clips rather than one continuous journey.",
+      "repeat_author_families": [
+        {
+          "author": "Dennis.insect.filmer",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "red_fox_hunt_to_play",
+      "duration": 34.975,
+      "mp4_sha256": "148785e80c87c7b2283f080b54843990649a8453f0594015457430aeb5d35786",
+      "video_1080x1920": true,
+      "has_audio": true,
+      "ffmpeg_exit": 0,
+      "freeze_intervals_ge_1s": [],
+      "black_intervals_ge_0_5s": [],
+      "review_jpg_inspected": true,
+      "source_preview_strips_inspected": 8,
+      "actual_mp4_inspected": true,
+      "editorial": "CONDITIONAL_PASS",
+      "observation": "Actual foxes and active young kits visible, some wide/distant shots; discarded-food shot includes litter and is less visually appealing. Species and narration generally align; separate original filming sources.",
+      "repeat_author_families": []
+    }
+  ],
+  "licensing": "Creator and declared license metadata present for all 40 sources, but original-page author reconciliation, derivative ShareAlike obligations, actual TikTok caption/credits delivery and platform rights compatibility are NOT independently legally cleared. Some creators have multiple different URLs and possible same filming family. This report does not grant legal approval.",
+  "editorial_approved": false,
+  "licensing_approved": false,
+  "publication_hold": true,
+  "metricool_scheduled_posts": [],
+  "tiktok_published_analytics_rows": [],
+  "publication": "NO SCHEDULING OR PUBLICATION APPROVED; TikTok @wildvox only; NEVER YouTube. No retroactive slots.",
+  "next": "Complete source-family/original-page attribution and CC BY-SA TikTok delivery/legal compatibility review; improve weak/distant/low-resolution visuals only with verified replacements and rerender/re-audit if changing config. Do not treat green CI as editorial approval."
+}
