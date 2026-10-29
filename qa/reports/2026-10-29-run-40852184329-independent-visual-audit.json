@@ -1,0 +1,120 @@
+{
+  "editorial_day": "2026-10-29",
+  "run_id": 40852184329,
+  "run_head_sha": "5b86beab260f2d8b85f977f9da9a4cb8441ce6fa",
+  "main_before_audit": "51d3018d41125ab5c424d32cbbcd64bcfe077d00",
+  "config_blob": "ec00d112c6f9239cefa6c88da141621202aaf76a",
+  "independent_visual_review": "Inspected all 5 latest-run review JPGs, 30 actual MP4 narration-block midpoint frames and all 40 original source preview strips.",
+  "technical_check": "ffprobe each MP4: 1080x1920 video+audio, 30-45 seconds. Independent full MP4 ffmpeg fps=8, scale=320:-2, freezedetect=n=-50dB:d=1.0: exit 0, zero >=1s freezes in all 5.",
+  "narration_check": [
+    {
+      "key": "snow_leopard_jaw_skills",
+      "revision": "2026-10-29-snow-leopard-cubs-visible-start-v5",
+      "held": true,
+      "blocks": 6,
+      "exact_script": true,
+      "assets": 8,
+      "videos": 8,
+      "unique_urls": 8
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "revision": "2026-10-29-hummingbird-caption-clarity-v8",
+      "held": true,
+      "blocks": 6,
+      "exact_script": true,
+      "assets": 8,
+      "videos": 8,
+      "unique_urls": 8
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "revision": "2026-10-29-caribou-closer-hook-source-reorder-v6",
+      "held": true,
+      "blocks": 6,
+      "exact_script": true,
+      "assets": 8,
+      "videos": 8,
+      "unique_urls": 8
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "revision": "2026-10-29-honeybee-remove-flower-only-logo-v5",
+      "held": true,
+      "blocks": 6,
+      "exact_script": true,
+      "assets": 8,
+      "videos": 8,
+      "unique_urls": 8
+    },
+    {
+      "key": "red_fox_hunt_to_play",
+      "revision": "2026-10-29-red-fox-hunting-label-factual-v2",
+      "held": true,
+      "blocks": 6,
+      "exact_script": true,
+      "assets": 8,
+      "videos": 8,
+      "unique_urls": 8
+    }
+  ],
+  "editorial_approved": false,
+  "licensing_approved": false,
+  "publication_hold": true,
+  "license_note": "Source author/license metadata and creator names appear in captions and daily credits manifest, but 40 source original-author reconciliation, actual TikTok delivery and CC BY-SA adaptation/platform compatibility are not independently established. No legal clearance is inferred from green CI.",
+  "videos": {
+    "snow_leopard_jaw_skills": {
+      "duration": 33.95,
+      "sha256": "ae9f63b4aac47cce9c3fb134371d4b14adf836d8ef10012544ca6c52a2f52388",
+      "status": "editorial_conditional_fail",
+      "findings": [
+        "Bone gnawing and cub payoff now visually identifiable in current render.",
+        "Dark low-resolution archival chewing footage remains weak; attribution and ShareAlike clearance pending."
+      ]
+    },
+    "annas_hummingbird_first_flight": {
+      "duration": 36.6,
+      "sha256": "6927b38106c5c108acf227ac680ac6e757a66fafa9f5e40de07ed148bf0d660f",
+      "status": "editorial_conditional_fail",
+      "findings": [
+        "Nestling wingbeats are visible and headline is species-neutral.",
+        "Distant branch shots and flower-dominant payoff weaken clarity; license/creator reconciliation pending."
+      ]
+    },
+    "caribou_reindeer_one_species": {
+      "duration": 36.325,
+      "sha256": "3ddd7fe8cce0bff6fa9a4256da8e7a52d39e999695763566e0b9008a72a2bbfc",
+      "status": "editorial_fail",
+      "findings": [
+        "Hook still opens with distant herd before close Mount Robson caribou.",
+        "North America block starts with antlers-only footage despite original source preview showing whole caribou at 40% of its 57s duration.",
+        "Fix source tagging and seek, then rerender and inspect new MP4."
+      ]
+    },
+    "western_honeybee_hive_airflow": {
+      "duration": 30.425,
+      "sha256": "24fedce751dbb2af22f7dae304efad386a36bab153aa75672f74e687c8d9a0ac",
+      "status": "visual_conditional_pass_licensing_hold",
+      "findings": [
+        "Hive/flower/bee traffic semantics match narration; no logo in current review.",
+        "Some distant hive frames; creator reconciliation and platform license obligations not independently cleared."
+      ]
+    },
+    "red_fox_hunt_to_play": {
+      "duration": 35.35,
+      "sha256": "247c6f907ca2342a4c67b593a2ce5750ea94478ce3b69694bf4616553fef35e5",
+      "status": "visual_conditional_pass_licensing_hold",
+      "findings": [
+        "Hunting, takeout scavenging and cub-play footage correspond to script.",
+        "Distant meadow fox and license/creator clearance still require improvement."
+      ]
+    }
+  },
+  "metricool": {
+    "scheduled_posts": 0,
+    "published_analytics_rows": 0,
+    "checked_day": "2026-10-29",
+    "post_ids": []
+  },
+  "youtube_used": false
+}
