@@ -1,0 +1,94 @@
+{
+  "editorial_day": "2026-10-29",
+  "audited_at_local": "2026-10-29T04:30:00-03:00",
+  "run_id": 40832955957,
+  "render_head": "454e6148c9c4430470c81519504681dde6631794",
+  "current_config_sha_at_report": "4133d776cc60818730bd602b7c90840a15f88b94",
+  "run_status": "failure",
+  "run_failure": "grey_seal_autumn_pup_nursery Kokoro narration 29.68s <30s; corrected with expanded exact spoken block and revision v4 at commit 9f0fc169ec9f7a651378014839b936c5e5510f09",
+  "next_run_id": 40835386397,
+  "next_run_status_at_report": "queued",
+  "independent_visual_qa": "FAIL; no publication authorized",
+  "scope": "Downloaded and inspected 4 available MP4 artifacts, four review JPGs and 32 source preview sheets; grey seal artifact absent because render failed. Four MP4s independently probed and FFmpeg scaled full-video freeze detection executed; original file author/licensing delivery not cleared.",
+  "technical": {
+    "snow_leopard_jaw_skills": {
+      "duration_seconds": 33.95,
+      "dimensions": "1080x1920",
+      "audio": true,
+      "freeze_events_over_1s": [
+        {
+          "start": 21.933,
+          "end": 22.933,
+          "duration": 1
+        },
+        {
+          "start": 23.333,
+          "end": 25.2,
+          "duration": 1.867
+        },
+        {
+          "start": 25.2,
+          "end": 26.667,
+          "duration": 1.467
+        }
+      ],
+      "status": "FAIL"
+    },
+    "caribou_reindeer_one_species": {
+      "duration_seconds": 36.55,
+      "dimensions": "1080x1920",
+      "audio": true,
+      "freeze_events_over_1s": [],
+      "status": "FAIL_VISUAL_EMBEDDED_BLACK_BARS"
+    },
+    "annas_hummingbird_first_flight": {
+      "duration_seconds": 34.25,
+      "dimensions": "1080x1920",
+      "audio": true,
+      "freeze_events_over_1s": [],
+      "status": "EDITORIAL_FAIL"
+    },
+    "western_honeybee_hive_airflow": {
+      "duration_seconds": 33.575,
+      "dimensions": "1080x1920",
+      "audio": true,
+      "freeze_events_over_1s": [],
+      "status": "EDITORIAL_FAIL"
+    }
+  },
+  "editorial_findings": {
+    "snow_leopard_jaw_skills": [
+      "5.825s rocky-terrain block uses static still; independently observed >=1s freeze intervals; source replacement needed",
+      "Source Snow Leopard eating.ogv historically described ambiguously; species appears snow leopard in sampled frames but original page history needs independent confirmation",
+      "Some distant or dim shots reduce subject clarity"
+    ],
+    "caribou_reindeer_one_species": [
+      "Svalbard source indices 4/5 have black bars embedded in original footage, visible in final portrait output",
+      "Inari 2013 source index 3 includes a long road/title segment instead of visible reindeer",
+      "Several distant caribou/reindeer shots and repeated same static views"
+    ],
+    "annas_hummingbird_first_flight": [
+      "Early hatchling/nest shots and later adults may be different individuals; avoid implying one bird continuous development",
+      "Some distant birds and repeated foliage/perch views; no clear first flight shown"
+    ],
+    "western_honeybee_hive_airflow": [
+      "Flower B-roll continues during narration about hive airflow/temperature; semantic mismatch",
+      "Opening hive wide and distant; fanning wing movement needs independent clear verification"
+    ]
+  },
+  "licensing": {
+    "live_commons_license_manifest": "qa/commons-license-audit-2026-10-29.json",
+    "source_count": 41,
+    "source_licenses_preflight_pass": true,
+    "missing_creator_names_in_config": 26,
+    "creator_credit_delivery_verified": false,
+    "sharealike_platform_compatibility_verified": false
+  },
+  "next_steps": [
+    "Preview replacement footage for snow leopard sl_rock and caribou black-bar segments in source candidate workflow; inspect original frames before modifying config",
+    "Wait for new run 40835386397 after grey-seal duration repair and independently audit ALL five new review sheets/MP4s",
+    "Do not schedule TikTok until editorial QA and credit/ShareAlike delivery pass",
+    "Never publish YouTube"
+  ],
+  "publication_hold": true
+}
