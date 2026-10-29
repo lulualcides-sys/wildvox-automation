@@ -1,0 +1,28 @@
+name: WildVox — Commons creator credits audit
+
+on:
+  push:
+    paths:
+      - 'scripts/export_commons_credits.py'
+      - '.github/workflows/wildvox-credits-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  creator-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch live original creator and license metadata
+        run: python scripts/export_commons_credits.py --config configs/daily.json --output commons-credits-report.json
+      - name: Save audit without publishing
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: commons-creator-credits-audit
+          path: commons-credits-report.json
+          if-no-files-found: warn
+          retention-days: 3
