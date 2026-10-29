@@ -53,6 +53,8 @@ def main():
     for key, entry in batch.items():
         for source in entry.get("sources", []):
             media_type = source.get("type", "video")
+            if not all(str(source.get(field) or "").strip() for field in ("author", "license", "license_url", "sourcePage")):
+                raise RuntimeError(f"{key}: original creator, license, license URL and sourcePage must be documented before render: {source.get('url')}")
             if media_type not in ("video", "image"):
                 raise RuntimeError(f"{key}: unsupported media type: {media_type}")
             url = source["url"]
@@ -86,6 +88,11 @@ def main():
             license_url = str((metadata.get("LicenseUrl") or {}).get("value") or "")
             if not is_free_license(license_name):
                 failures.append(f"{key}: license not confirmed for commercial reuse: {title}: {license_name!r}")
+                continue
+            claimed_license = str(source.get("license") or "").casefold().replace(" ", "")
+            verified_license = license_name.casefold().replace(" ", "")
+            if claimed_license != verified_license:
+                failures.append(f"{key}: config license does not match live Commons: {title}: {source.get('license')!r} vs {license_name!r}")
                 continue
             mime = str(info.get("mime") or "").lower()
             expected = source.get("type", "video")
