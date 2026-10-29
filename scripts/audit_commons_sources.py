@@ -52,8 +52,9 @@ def main():
     requests = []
     for key, entry in batch.items():
         for source in entry.get("sources", []):
-            if source.get("type", "video") != "video":
-                continue
+            media_type = source.get("type", "video")
+            if media_type not in ("video", "image"):
+                raise RuntimeError(f"{key}: unsupported media type: {media_type}")
             url = source["url"]
             parsed = urlsplit(url)
             prefix = "/wiki/Special:FilePath/"
@@ -61,7 +62,8 @@ def main():
                 raise RuntimeError(f"{key}: unsupported source URL: {url}")
             filename = unquote(parsed.path[len(prefix):]).replace("_", " ")
             requests.append((key, source, "File:" + filename))
-    if len(requests) < 38:
+    video_total = sum(1 for _, source, _ in requests if source.get("type", "video") == "video")
+    if video_total < 38:
         raise RuntimeError("Expected at least 38 authentic video assets")
     checked = 0
     for offset in range(0, len(requests), 12):
@@ -82,8 +84,11 @@ def main():
             if not is_free_license(license_name):
                 raise RuntimeError(f"{key}: license not confirmed for commercial reuse: {title}: {license_name!r}")
             mime = str(info.get("mime") or "").lower()
-            if mime not in ("video/webm", "video/ogg", "application/ogg", "video/mp4"):
-                raise RuntimeError(f"{key}: not a video asset: {title} ({mime})")
+            expected = source.get("type", "video")
+            video_mimes = ("video/webm", "video/ogg", "application/ogg", "video/mp4")
+            image_mimes = ("image/jpeg", "image/png", "image/webp")
+            if mime not in (video_mimes if expected == "video" else image_mimes):
+                raise RuntimeError(f"{key}: not a {expected} asset: {title} ({mime})")
             if int(info.get("size") or 0) <= 100000 or not info.get("url"):
                 raise RuntimeError(f"{key}: no downloadable media bytes: {title}")
             declared = str(source.get("license") or "")
@@ -91,7 +96,7 @@ def main():
                 raise RuntimeError(f"{key}: nonfree license declared in config: {title}")
             print(f"OK {key}: {title} [{license_name}; {int(info['size'])} bytes; {license_url}]")
             checked += 1
-    print(f"Commons API preflight passed: {checked} videos, all have commercial-reuse licenses and downloadable originals.")
+    print(f"Commons API preflight passed: {checked} authentic assets ({video_total} videos, {checked - video_total} images), all with commercial-reuse licenses and downloadable originals.")
 
 if __name__ == "__main__":
     try:
