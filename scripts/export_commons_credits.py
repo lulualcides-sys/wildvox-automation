@@ -23,7 +23,7 @@ class TextOnly(HTMLParser):
 def plain(value):
     p = TextOnly()
     p.feed(str(value or ""))
-    return re.sub(r"\\s+", " ", html.unescape(" ".join(p.parts))).strip()
+    return re.sub(r"\s+", " ", html.unescape(" ".join(p.parts))).strip()
 
 def main():
     parser = argparse.ArgumentParser()
@@ -75,7 +75,7 @@ def main():
               "missing_creator_count": sum(x["status"] == "MISSING_CREATOR" for x in records),
               "unverified_config_author_count": sum(not x["config_author"] for x in records),
               "records": records, "publication_hold": True}
-    Path(args.output).write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\\n", encoding="utf-8")
+    Path(args.output).write_text(json.dumps(result, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     print(json.dumps({k: result[k] for k in ("source_count", "missing_creator_count", "unverified_config_author_count")}))
     if len(records) != len(items):
         raise RuntimeError("Incomplete creator audit")
