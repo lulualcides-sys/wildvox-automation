@@ -1,18 +1,18 @@
 {
   "key": "annas_hummingbird_first_flight",
   "title": "HOW ANNA'S HUMMINGBIRDS GROW FROM NEST TO PERCH",
-  "caption": "From first wingbeats in the nest to hovering at flowers: Anna's hummingbirds grow fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox",
-  "config_sha256": "65c1959fac758d5cbda874687ade4d9f0cdabad212158221ede5238155c14df3",
-  "duration": 37.62,
+  "caption": "From first wingbeats in the nest to hovering at flowers: Anna's hummingbirds grow fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox Footage creators: Dennis.insect.filmer; Larry & Teddy Page; Danmation; Rishiraj Sahoo; Love Star Production; Mike's Birds. Original licenses: CC BY-SA 4.0, CC BY 2.0, CC BY 3.0, CC BY-SA 3.0, CC0, CC BY-SA 2.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
+  "config_sha256": "6b7244a34b044d0978cde64bc8a34dbcadc67e433e726a73633f52243901e672",
+  "duration": 36.6,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
     {
       "index": 0,
       "start": 0.0,
-      "end": 6.0,
-      "duration": 6.0,
-      "text": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest.",
+      "end": 5.525,
+      "duration": 5.525,
+      "text": "This tiny hummingbird is beating its wings before it can even leave the nest.",
       "scene": "Real nestling practicing wingbeats in the nest, no invented first flight.",
       "tags": [
         "ah_hook"
@@ -23,8 +23,8 @@
     },
     {
       "index": 1,
-      "start": 6.0,
-      "end": 12.325,
+      "start": 5.525,
+      "end": 11.850000000000001,
       "duration": 6.325,
       "text": "While it is still small, an adult returns to the nest with food as the chick grows stronger.",
       "scene": "Separate fledgling perched and adult feeding a nestling, not one continuous individual.",
@@ -37,8 +37,8 @@
     },
     {
       "index": 2,
-      "start": 12.325,
-      "end": 21.0,
+      "start": 11.850000000000001,
+      "end": 20.525000000000002,
       "duration": 8.675,
       "text": "Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory.",
       "scene": "First authentic hummingbird hovering at red flowers, then a separate verified Anna's hummingbird moving on a lemon-tree branch; do not claim the generic flower bird is Anna's.",
@@ -51,8 +51,8 @@
     },
     {
       "index": 3,
-      "start": 21.0,
-      "end": 26.5,
+      "start": 20.525000000000002,
+      "end": 26.025000000000002,
       "duration": 5.5,
       "text": "At feeders, rapid wingbeats bring them in, and they may perch to take a drink.",
       "scene": "Authentic Anna's hummingbird at feeder, perched to drink; do not claim this shot shows hovering.",
@@ -65,8 +65,8 @@
     },
     {
       "index": 4,
-      "start": 26.5,
-      "end": 31.075,
+      "start": 26.025000000000002,
+      "end": 30.6,
       "duration": 4.575,
       "text": "Even in wet weather, they may sit and wait between feeding trips.",
       "scene": "Authentic Anna's hummingbird perched during wet weather; no synthetic rain.",
@@ -79,10 +79,10 @@
     },
     {
       "index": 5,
-      "start": 31.075,
-      "end": 37.625,
-      "duration": 6.55,
-      "text": "From a tiny nestling to a young hummingbird hovering at a flower, wing skills grow fast.",
+      "start": 30.6,
+      "end": 36.6,
+      "duration": 6.0,
+      "text": "From a tiny nestling to hummingbirds hovering at flowers, wing skills grow fast.",
       "scene": "Independent archival juvenile Anna's hummingbird hovering at red flowers, not the same nestling.",
       "tags": [
         "ah_payoff"
