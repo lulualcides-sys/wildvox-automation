@@ -1,0 +1,28 @@
+{
+  "day": "2026-10-29",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "a39b4f873ea49babc2cc636488508c7b0a1c71d2",
+  "checked_daily_blob": "a33bbd234b7f92de4d88a26622dda3c2c0b8bddf",
+  "editorial_status": "HUMMINGBIRD_PAYOFF_SOURCE_RESEARCH_ONLY",
+  "note": "Current hummingbird MP4 from run 40837242289 has distant tiny bird in final payoff and feeder bird perched while narration claims hovering. Candidate source discovery found two more videos in Calypte anna category. Preview before source/config change; no publication authorization.",
+  "candidates": [
+    {
+      "for_key": "annas_hummingbird_first_flight",
+      "target_block": "ah_payoff replace tiny distant source7 with authentic close Anna's adult",
+      "title": "Hummingbird at Flower in California.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_at_Flower_in_California.webm",
+      "species": "Calypte anna (must independently verify)",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check species, clear bird at flower, motion, licensing and original author; avoid claiming hover unless visibly hovering."
+    },
+    {
+      "for_key": "annas_hummingbird_first_flight",
+      "target_block": "ah_payoff or ah_action",
+      "title": "Hummingbird.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird.ogv",
+      "species": "Calypte anna (category claim unverified)",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Species identification essential; reject if another hummingbird species, tiny, or source/license unclear."
+    }
+  ]
+}
