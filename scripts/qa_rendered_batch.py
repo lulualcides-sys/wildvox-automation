@@ -42,6 +42,11 @@ def freeze_durations(path, duration):
     return closed
 
 
+def has_prohibited_freeze(durations):
+    """Reject every >=1.0s freeze, including exactly 1.000s intervals."""
+    return any(float(value) >= 1.0 for value in durations)
+
+
 def config_fingerprint(cfg):
     """Hash the complete editorial/render config, not just source URLs."""
     encoded = json.dumps(cfg, sort_keys=True, ensure_ascii=False,
@@ -102,8 +107,8 @@ def inspect(config, directory, day):
                 if not images or (images[0].get("width"), images[0].get("height")) != (1080, 1920):
                     bad.append("Incorrect 1080x1920 portrait format")
                 item["freeze_durations"] = freeze_durations(video, duration)
-                if any(d > 1.0 for d in item["freeze_durations"]):
-                    bad.append(f"Freeze >1.0s: {item['freeze_durations']}")
+                if has_prohibited_freeze(item["freeze_durations"]):
+                    bad.append(f"Freeze >=1.0s: {item['freeze_durations']}")
             except (ValueError, OSError, KeyError, subprocess.CalledProcessError) as exc:
                 bad.append(f"ffprobe/freezedetect failure: {exc}")
         if meta_path.is_file():
