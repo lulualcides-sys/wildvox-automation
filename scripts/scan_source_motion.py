@@ -1,0 +1,129 @@
+#!/usr/bin/env python3
+"""Find authentic moving source windows without rendering or claiming editorial approval."""
+import argparse
+import json
+import re
+import subprocess
+from pathlib import Path
+from urllib.parse import urlsplit
+
+TARGETS = (
+    ("annas_hummingbird_first_flight", 1),
+    ("annas_hummingbird_first_flight", 3),
+    ("annas_hummingbird_first_flight", 7),
+    ("caribou_reindeer_one_species", 1),
+    ("red_fox_hunt_to_play", 5),
+    ("western_honeybee_hive_airflow", 3),
+    ("western_honeybee_hive_airflow", 5),
+)
+WINDOW = 5.0
+FPS = 8
+
+
+def call(cmd, timeout=150):
+    return subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
+                          timeout=timeout, check=True)
+
+
+def duration(path):
+    x = call(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+              "-of", "default=nw=1:nk=1", str(path)])
+    return float(x.stdout.decode().strip())
+
+
+def candidate_starts(base, length):
+    if base >= 100:
+        starts = [base + shift for shift in (-30, -20, -10, -5, 0, 5, 10, 20, 30)]
+    else:
+        starts = [0, 2, 5, 8, 12, 16, 20, 24, 30, 40, base]
+    return sorted({round(float(s), 2) for s in starts if 0 <= s <= length - WINDOW - 0.1})
+
+
+def scan(path, start):
+    cmd = ["ffmpeg", "-hide_banner", "-nostdin", "-loglevel", "info",
+           "-ss", str(start), "-i", str(path), "-t", str(WINDOW),
+           "-an", "-vf", f"fps={FPS},scale=160:90,freezedetect=n=-40dB:d=1,format=gray",
+           "-pix_fmt", "gray", "-f", "rawvideo", "pipe:1"]
+    p = call(cmd, timeout=65)
+    frame_size = 160 * 90
+    n = len(p.stdout) // frame_size
+    if n < FPS * 3:
+        raise RuntimeError(f"too few frames: {n}")
+    frames = [memoryview(p.stdout)[i*frame_size:(i+1)*frame_size] for i in range(n)]
+    diffs = [sum(abs(a-b) for a,b in zip(frames[i-1], frames[i])) / frame_size
+             for i in range(1,n)]
+    log = p.stderr.decode(errors="replace")
+    freeze_starts = [float(x) for x in re.findall(r"freeze_start:\s*([0-9.]+)", log)]
+    freeze_ends = [float(x) for x in re.findall(r"freeze_end:\s*([0-9.]+)", log)]
+    intervals = []
+    for i, st in enumerate(freeze_starts):
+        end = freeze_ends[i] if i < len(freeze_ends) else WINDOW
+        if end - st >= 0.95:
+            intervals.append([round(st, 3), round(end, 3)])
+    return {"start_seconds": start, "window_seconds": WINDOW,
+            "frames": n, "mean_pixel_change": round(sum(diffs)/len(diffs), 4),
+            "moving_frame_fraction": round(sum(d>1.0 for d in diffs)/len(diffs), 4),
+            "freeze_intervals": intervals, "technical_candidate": not intervals}
+
+
+def frame(path, t, dest):
+    call(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-ss", str(t),
+          "-i", str(path), "-frames:v", "1", "-vf", "scale=480:-2",
+          str(dest)], timeout=45)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--config", default="configs/daily.json")
+    ap.add_argument("--output", default="qa/source-motion-candidates")
+    args = ap.parse_args()
+    data = json.loads(Path(args.config).read_text(encoding="utf-8"))
+    out = Path(args.output)
+    out.mkdir(parents=True, exist_ok=True)
+    cache = out / "cache"
+    cache.mkdir(exist_ok=True)
+    report = {"purpose": "source seek candidates only; NOT render/editorial/license approval",
+              "targets": [], "config": args.config}
+    for key, index in TARGETS:
+        src = data[key]["sources"][index]
+        ext = Path(urlsplit(src["url"]).path).suffix or ".webm"
+        local = cache / f"{key}-{index:02d}{ext}"
+        row = {"key": key, "source_index": index, "title": src.get("assetTitle"),
+               "url": src["url"], "configured_seek": src.get("start_seconds", 0),
+               "windows": [], "review_required": True}
+        report["targets"].append(row)
+        try:
+            if not local.exists() or local.stat().st_size < 100_000:
+                call(["curl", "-fL", "--retry", "3", "--retry-delay", "3",
+                      "--connect-timeout", "25", "--max-time", "240",
+                      "-A", "WildVox QA (nonpublishing source audit)",
+                      "-o", str(local), src["url"]], timeout=270)
+            length = duration(local)
+            row["source_duration"] = round(length, 3)
+            for st in candidate_starts(float(src.get("start_seconds", 0)), length):
+                try:
+                    row["windows"].append(scan(local, st))
+                except Exception as e:
+                    row.setdefault("window_errors", []).append(f"{st}: {e}")
+            best = sorted(row["windows"], key=lambda x: (
+                not x["technical_candidate"], -x["moving_frame_fraction"],
+                -x["mean_pixel_change"]))[:3]
+            row["top_motion_candidates"] = best
+            for item in best:
+                for offset in (1.0, 3.0):
+                    name = f"{key}-{index:02d}-start{item['start_seconds']}-plus{offset}.jpg"
+                    frame(local, item["start_seconds"] + offset, out / name)
+                    item.setdefault("review_frames", []).append(name)
+            print(f"{key}[{index}]: {len(row['windows'])} windows, "
+                  f"{sum(x['technical_candidate'] for x in row['windows'])} freeze-free",
+                  flush=True)
+        except Exception as e:
+            row["error"] = str(e)
+            print(f"{key}[{index}]: ERROR {e}", flush=True)
+        finally:
+            (out / "report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+    print(f"Diagnostic finished: {len(report['targets'])} targets", flush=True)
+
+
+if __name__ == "__main__":
+    main()
