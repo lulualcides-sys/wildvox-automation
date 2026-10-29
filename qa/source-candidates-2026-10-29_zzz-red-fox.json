@@ -1,0 +1,146 @@
+{
+  "day": "2026-10-29",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "94805ce409af1d8b0614721028d7b67ff9c6f848",
+  "checked_daily_blob": "4133d776cc60818730bd602b7c90840a15f88b94",
+  "editorial_status": "PROPOSED_REPLACEMENT_FOR_GREY_SEAL_ONLY",
+  "note": "Grey seal failed two renders (first narration 29.68s; next original Seaquarium OGV failed ffprobe leaving 5/6 videos). Pup story requires static stills >1s, contrary to motion-first QA. Preview eight independent red fox videos before replacing grey seal with a 6-block, 8-video authentic narrative; original authors/licensing verified on Commons pages, final rendering/credit delivery remain pending.",
+  "candidates": [
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_hook",
+      "title": "Red fox (Vulpes vulpes) looking for a mouse.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_(Vulpes_vulpes)_looking_for_a_mouse.webm",
+      "author": "Lubo Ondrasko",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "species": "Vulpes vulpes",
+      "sample_seconds": [
+        5,
+        8,
+        11
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check exact original frames for clear red fox, relevant behavior, framing, watermarks and motion; not publication approval."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_setup",
+      "title": "Red fox hunting.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_hunting.webm",
+      "author": "Scarabinol",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "species": "Vulpes vulpes",
+      "sample_seconds": [
+        3,
+        8,
+        13
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check exact original frames for clear red fox, relevant behavior, framing, watermarks and motion; not publication approval."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_action",
+      "title": "Red fox catches a mouse.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_catches_a_mouse.webm",
+      "author": "J Tee",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "species": "Vulpes vulpes",
+      "sample_seconds": [
+        5,
+        20,
+        35
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check exact original frames for clear red fox, relevant behavior, framing, watermarks and motion; not publication approval."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_explain",
+      "title": "Red fox playing with prey in yard, Charlton MA 2025-12-26.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_playing_with_prey_in_yard,_Charlton_MA_2025-12-26.webm",
+      "author": "Peter Cooper Jr.",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "species": "Vulpes vulpes",
+      "sample_seconds": [
+        5,
+        12,
+        20
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check exact original frames for clear red fox, relevant behavior, framing, watermarks and motion; not publication approval."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_twist",
+      "title": "Red fox (Vulpes vulpes) and her pups.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_(Vulpes_vulpes)_and_her_pups.webm",
+      "author": "Timo Newton-Syms",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "species": "Vulpes vulpes",
+      "sample_seconds": [
+        3,
+        8,
+        13
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check exact original frames for clear red fox, relevant behavior, framing, watermarks and motion; not publication approval."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_twist",
+      "title": "Red fox (Vulpes vulpes) kit.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_(Vulpes_vulpes)_kit.webm",
+      "author": "Lubo Ondrasko",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "species": "Vulpes vulpes",
+      "sample_seconds": [
+        3,
+        10,
+        20
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check exact original frames for clear red fox, relevant behavior, framing, watermarks and motion; not publication approval."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_payoff",
+      "title": "Red fox pups playing along Owens Bay Nature Trail (53369021529).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_pups_playing_along_Owens_Bay_Nature_Trail_(53369021529).webm",
+      "author": "USFWS Mountain Prairie",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "species": "Vulpes vulpes",
+      "sample_seconds": [
+        3,
+        10,
+        20
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check exact original frames for clear red fox, relevant behavior, framing, watermarks and motion; not publication approval."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_payoff",
+      "title": "Young red foxes playing.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_red_foxes_playing.webm",
+      "author": "Pink Bee",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "species": "Vulpes vulpes",
+      "sample_seconds": [
+        2,
+        6,
+        10
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check exact original frames for clear red fox, relevant behavior, framing, watermarks and motion; not publication approval."
+    }
+  ]
+}
