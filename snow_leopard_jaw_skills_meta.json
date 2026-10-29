@@ -1,8 +1,8 @@
 {
   "key": "snow_leopard_jaw_skills",
   "title": "WHY SNOW LEOPARDS KEEP CHEWING",
-  "caption": "From a hard bone to a pumpkin: watch snow leopard jaws at work. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox",
-  "config_sha256": "d1ccdeb52a233f6562e60f492f99fad587f5bbe05da2627ff104b2371c1e3e65",
+  "caption": "From chewing bones to moving across rocky terrain: how snow leopards develop survival skills. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox",
+  "config_sha256": "570db5cdcfd60696c681ed741cbe6e65513da75916948b4e1218e2040cd612ea",
   "duration": 33.95,
   "voice": "am_michael",
   "speed": 1.0,
@@ -157,7 +157,7 @@
       "tags": [
         "sl_explain"
       ],
-      "license_note": "Wikimedia Commons page identifies snow leopard chewing and offers CC BY-SA 4.0, but its old upload log says Cheetah chewing: species identity ambiguous. Mandatory downstream frame inspection before approval; replace if a cheetah or uncertain.",
+      "license_note": "Commons original title and current description identify snow leopard chewing; original legacy file was moved from Cheetah.ogg, but independent source preview shows rosetted snow leopard, not cheetah. Low-resolution 384x216 archival captive footage; never claim 2026.",
       "author": "Squirrel83",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
