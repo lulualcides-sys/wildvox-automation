@@ -2,7 +2,7 @@
   "key": "caribou_reindeer_one_species",
   "title": "REINDEER AND CARIBOU ARE THE SAME ANIMAL",
   "caption": "Caribou or reindeer? Two names, one species. 🦌 #Reindeer #Caribou #Wildlife #WildVox Footage creators: U.S. Fish and Wildlife Service National Conservation Training Center; U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC); Hedwig Storch; Manfred Werner - Tsui; Superchilum; NaIzletuSi ™. Original licenses: Public domain, CC BY-SA 3.0, CC BY 3.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
-  "config_sha256": "3cfc2229724aebcb0ea80426f94f58b889c6778ea6b650667aa422dbd85599f5",
+  "config_sha256": "5370df247bbd04bbb09ef568f808bfcad62df7c4418eb07be7a9847a53fe1a8f",
   "duration": 36.33,
   "voice": "am_michael",
   "speed": 1.0,
@@ -13,7 +13,7 @@
       "end": 6.85,
       "duration": 6.85,
       "text": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species.",
-      "scene": "Real North American caribou from Alaska original seconds 29–36, visibly closer animal, followed by distinct second caribou source; no zoo claim.",
+      "scene": "Authentic close caribou grazing in Mount Robson Park, Canada, followed by a distinct Alaska herd clip; no continuous migration implied.",
       "tags": [
         "cr_hook"
       ],
@@ -27,7 +27,7 @@
       "end": 12.075,
       "duration": 5.225,
       "text": "Across North America, these northern deer are usually called caribou.",
-      "scene": "Authentic caribou in Mount Robson Park, Canada.",
+      "scene": "Authentic Alaska caribou at a riverbank; this is a separate source from the hook.",
       "tags": [
         "cr_north"
       ],
@@ -95,18 +95,18 @@
   "sources": [
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porcupine%20caribou%20(Rangifer%20tarandus%20granti)%20in%20Alaska.ogv",
-      "assetTitle": "Porcupine caribou (Rangifer tarandus granti) in Alaska.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Porcupine_caribou_(Rangifer_tarandus_granti)_in_Alaska.ogv",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MountRobsonPark-Rangifer%20tarandus-KanadischesKaribu.ogv",
+      "assetTitle": "MountRobsonPark-Rangifer tarandus-KanadischesKaribu.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:MountRobsonPark-Rangifer_tarandus-KanadischesKaribu.ogv",
       "tags": [
         "cr_hook"
       ],
-      "license_note": "Original 57.5s USFWS public-domain Alaska caribou source independently previewed at 15/30/45s. At 30s a close visible adult walks across tundra, avoiding initial tiny distant herd; start seek 29s, rerender and visually confirm.",
-      "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
-      "license": "Public domain",
-      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Hedwig Storch",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
       "license_verified_at": "2026-10-29",
-      "start_seconds": 0
+      "start_seconds": 5.2
     },
     {
       "type": "video",
@@ -124,17 +124,18 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MountRobsonPark-Rangifer%20tarandus-KanadischesKaribu.ogv",
-      "assetTitle": "MountRobsonPark-Rangifer tarandus-KanadischesKaribu.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:MountRobsonPark-Rangifer_tarandus-KanadischesKaribu.ogv",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porcupine%20caribou%20(Rangifer%20tarandus%20granti)%20in%20Alaska.ogv",
+      "assetTitle": "Porcupine caribou (Rangifer tarandus granti) in Alaska.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Porcupine_caribou_(Rangifer_tarandus_granti)_in_Alaska.ogv",
       "tags": [
         "cr_north"
       ],
-      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-      "author": "Hedwig Storch",
-      "license": "CC BY-SA 3.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "license_verified_at": "2026-10-29"
+      "license_note": "Original 57.5s USFWS public-domain Alaska caribou source independently previewed at 15/30/45s. At 30s a close visible adult walks across tundra, avoiding initial tiny distant herd; start seek 29s, rerender and visually confirm.",
+      "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 0
     },
     {
       "type": "video",
