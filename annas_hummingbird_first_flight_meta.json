@@ -2,8 +2,8 @@
   "key": "annas_hummingbird_first_flight",
   "title": "HOW ANNA'S HUMMINGBIRDS GROW FROM NEST TO PERCH",
   "caption": "From first wingbeats in the nest to hovering at flowers: Anna's hummingbirds grow fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox",
-  "config_sha256": "bb8ff02a1e1442b9baebcc0360b1130f20cf4010e4d328d272fa5a005403018e",
-  "duration": 36.4,
+  "config_sha256": "65c1959fac758d5cbda874687ade4d9f0cdabad212158221ede5238155c14df3",
+  "duration": 37.62,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -38,21 +38,21 @@
     {
       "index": 2,
       "start": 12.325,
-      "end": 19.775,
-      "duration": 7.45,
-      "text": "Adult Anna's hummingbirds pause on branches, then hover at flowers as they move through their territory.",
-      "scene": "Separate authentic Anna's hummingbirds perched in a lemon tree and juvenile hovering at flowers; not the same bird.",
+      "end": 21.0,
+      "duration": 8.675,
+      "text": "Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory.",
+      "scene": "First authentic hummingbird hovering at red flowers, then a separate verified Anna's hummingbird moving on a lemon-tree branch; do not claim the generic flower bird is Anna's.",
       "tags": [
         "ah_action"
       ],
       "story_role": "action",
-      "overlay_label": "PERCH THEN HOVER",
+      "overlay_label": "HOVER THEN PERCH",
       "fx": []
     },
     {
       "index": 3,
-      "start": 19.775,
-      "end": 25.275,
+      "start": 21.0,
+      "end": 26.5,
       "duration": 5.5,
       "text": "At feeders, rapid wingbeats bring them in, and they may perch to take a drink.",
       "scene": "Authentic Anna's hummingbird at feeder, perched to drink; do not claim this shot shows hovering.",
@@ -65,8 +65,8 @@
     },
     {
       "index": 4,
-      "start": 25.275,
-      "end": 29.849999999999998,
+      "start": 26.5,
+      "end": 31.075,
       "duration": 4.575,
       "text": "Even in wet weather, they may sit and wait between feeding trips.",
       "scene": "Authentic Anna's hummingbird perched during wet weather; no synthetic rain.",
@@ -79,8 +79,8 @@
     },
     {
       "index": 5,
-      "start": 29.849999999999998,
-      "end": 36.4,
+      "start": 31.075,
+      "end": 37.625,
       "duration": 6.55,
       "text": "From a tiny nestling to a young hummingbird hovering at a flower, wing skills grow fast.",
       "scene": "Independent archival juvenile Anna's hummingbird hovering at red flowers, not the same nestling.",
@@ -149,7 +149,8 @@
       "author": "Danmation",
       "license": "CC BY 3.0",
       "license_url": "https://creativecommons.org/licenses/by/3.0/",
-      "license_verified_at": "2026-10-29"
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 300
     },
     {
       "type": "video",
