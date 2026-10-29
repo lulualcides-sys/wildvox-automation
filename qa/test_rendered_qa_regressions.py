@@ -54,6 +54,22 @@ class RenderProvenanceRegression(unittest.TestCase):
                    {"url": "https://example.org/two.mp4"}]
         self.assertTrue(qa.sources_match(sources, sources))
 
+    def test_reject_same_url_with_changed_seek(self):
+        config = [{"url": "https://example.org/clip.mp4", "start_seconds": 24}]
+        rendered = [{"url": "https://example.org/clip.mp4", "start_seconds": 3}]
+        self.assertFalse(qa.sources_match(config, rendered))
+
+    def test_reject_same_url_with_changed_tags(self):
+        config = [{"url": "https://example.org/clip.mp4", "tags": ["actual_behavior"]}]
+        rendered = [{"url": "https://example.org/clip.mp4", "tags": ["generic_hook"]}]
+        self.assertFalse(qa.sources_match(config, rendered))
+
+    def test_accept_independent_identical_source_metadata(self):
+        config = [{"url": "https://example.org/clip.mp4", "start_seconds": 24,
+                   "tags": ["action"], "license": "CC BY 4.0"}]
+        rendered = [dict(config[0])]
+        self.assertTrue(qa.sources_match(config, rendered))
+
 
 if __name__ == "__main__":
     unittest.main()
