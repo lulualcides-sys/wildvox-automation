@@ -16,6 +16,10 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+      - name: Install FFmpeg for source-only diagnostics
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
       - name: Scan Commons originals without Kokoro or video rendering
         run: python3 scripts/scan_source_motion.py --config configs/daily.json --output qa/source-motion-candidates
       - name: Preserve diagnostic report and paired review frames
