@@ -14,10 +14,28 @@ TARGETS = (
     ("caribou_reindeer_one_species", 1),
     ("red_fox_hunt_to_play", 5),
     ("red_fox_hunt_to_play", 8),
+    ("red_fox_hunt_to_play", 9),
+    ("red_fox_hunt_to_play", 10),
     ("western_honeybee_hive_airflow", 3),
     ("western_honeybee_hive_airflow", 5),
 )
 ALTERNATES = {
+    ("red_fox_hunt_to_play", 9): {
+        "assetTitle": "Red fox (Vulpes vulpes) and her pups.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20and%20her%20pups.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_(Vulpes_vulpes)_and_her_pups.webm",
+        "author": "Timo Newton-Syms",
+        "license": "CC BY-SA 2.0; Flickr license reviewed 2015",
+        "start_seconds": 0,
+    },
+    ("red_fox_hunt_to_play", 10): {
+        "assetTitle": "Red fox kits playing.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20kits%20playing.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_kits_playing.webm",
+        "author": "Rhododendrites",
+        "license": "CC BY-SA 4.0; self-published featured Commons media",
+        "start_seconds": 0,
+    },
     ("red_fox_hunt_to_play", 8): {
         "assetTitle": "Red fox pups playing along Owens Bay Nature Trail (53369021529).webm",
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20pups%20playing%20along%20Owens%20Bay%20Nature%20Trail%20(53369021529).webm",
