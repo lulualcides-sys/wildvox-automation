@@ -43,8 +43,9 @@ def freeze_durations(path, duration):
 
 def sources_match(config_sources, rendered_sources):
     """Fail closed when an MP4 metadata file belongs to an older source pool."""
-    return ([source.get("url") for source in config_sources]
-            == [source.get("url") for source in rendered_sources])
+    # URLs alone are insufficient: a new seek, tag, crop or license correction
+    # must invalidate metadata from an older MP4 even when URLs are unchanged.
+    return config_sources == rendered_sources
 
 
 def inspect(config, directory, day):
@@ -102,6 +103,8 @@ def inspect(config, directory, day):
                 meta = json.loads(meta_path.read_text(encoding="utf-8"))
                 if meta.get("key") != key or meta.get("title") != cfg.get("title"):
                     bad.append("Rendered metadata identity differs from current daily config")
+                if meta.get("caption") != cfg.get("caption"):
+                    bad.append("Rendered caption differs from current daily config")
                 if not sources_match(sources, meta.get("sources") or []):
                     bad.append("Rendered MP4 source pool differs from current daily config")
                 if "duration" in item and abs(
