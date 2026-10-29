@@ -148,8 +148,8 @@ jobs:
           retention-days: 1
 
   publish-media:
-    needs: render
-    if: ${{ needs.render.result == 'success' }}
+    needs: [render, technical-qa]
+    if: ${{ needs.render.result == 'success' && needs.technical-qa.result == 'success' }}
     runs-on: ubuntu-latest
     concurrency:
       group: wildvox-media-branch
