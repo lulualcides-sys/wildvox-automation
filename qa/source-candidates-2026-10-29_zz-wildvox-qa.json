@@ -1,0 +1,46 @@
+{
+  "day": "2026-10-29",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "9f0fc169ec9f7a651378014839b936c5e5510f09",
+  "checked_daily_blob": "4133d776cc60818730bd602b7c90840a15f88b94",
+  "editorial_status": "CANDIDATE_SOURCE_PREVIEW_ONLY",
+  "note": "Independently sampled current-day rendered artifacts. Snow leopard sl_rock still causes >=1s freezes; caribou original Svalbard sources contain embedded black letterbox bars and Inari footage starts with road/title. Preview replacements before modifying daily.json; never treat source preview as editorial approval.",
+  "candidates": [
+    {
+      "for_key": "snow_leopard_jaw_skills",
+      "target_block": "sl_rock replace 5.825s still with actual moving wild snow leopard among rocky terrain",
+      "title": "A New Year's Snow Leopard Encounter in India.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_New_Year%27s_Snow_Leopard_Encounter_in_India.webm",
+      "author": "Tanzin Thinley / NCF India / Snow Leopard Trust",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "species": "Panthera uncia",
+      "source_description": "Authentic archived footage of two wild snow leopards in Spiti Valley, India; 82s 1920x1080 original; verify subject visible and moving in sampled frames before use.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Must show snow leopard on rocky terrain and motion, not still montage or tiny subject; credit author and modifications."
+    },
+    {
+      "for_key": "caribou_reindeer_one_species",
+      "target_block": "cr_europe replace letterboxed Reindeer Svalbard.ogv",
+      "title": "Reindeer (Rangifer tarandus) in Avon Valley.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Reindeer_(Rangifer_tarandus)_in_Avon_Valley.webm",
+      "author": "The Nature Box",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "species": "Rangifer tarandus",
+      "source_description": "2018 authentic reindeer at Avon Valley Adventure & Wildlife Park, 41s 1920x1080; captive context must be disclosed, not wild Europe.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Verify clear animal and no embedded bars; author credit/ShareAlike; avoid implying wild herd."
+    },
+    {
+      "for_key": "caribou_reindeer_one_species",
+      "target_block": "cr_adapt replace letterboxed Reindeers Svalbard 1.ogv",
+      "title": "Wuppertal - Zoo - Rangifer tarandus 04 (1) ies.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuppertal_-_Zoo_-_Rangifer_tarandus_04_(1)_ies.webm",
+      "species": "Rangifer tarandus",
+      "source_description": "Listed by Commons Rangifer video category: 37s 1920x1080 original; captive zoo, author/license need original page verification.",
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Check actual original author and license, no embedded black bars, visually clear hoof/antler behavior; do not present captive as wild."
+    }
+  ]
+}
