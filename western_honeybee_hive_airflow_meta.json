@@ -1,0 +1,226 @@
+{
+  "key": "western_honeybee_hive_airflow",
+  "title": "THE BUSY TRAFFIC OUTSIDE A HONEYBEE HIVE",
+  "caption": "Follow honeybees from flowers back to the busy hive entrance. Separate authentic archival clips, not one continuous journey. #Honeybee #Pollinators #Bees #WildVox",
+  "config_sha256": "9a4a03c663af4ff828bea8f0eabd59fc8121c73891cb3b02fc50cec0a659777c",
+  "duration": 30.43,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 3.9,
+      "duration": 3.9,
+      "text": "Why does a honeybee hive look so busy from the outside?",
+      "scene": "Real exterior beehive entrance with bees.",
+      "tags": [
+        "hb_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "HIVE AIRFLOW",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 3.9,
+      "end": 9.9,
+      "duration": 6.0,
+      "text": "Some workers visit flowers to collect food, while others remain closer to home.",
+      "scene": "Authentic honeybees foraging on flowers.",
+      "tags": [
+        "hb_setup"
+      ],
+      "story_role": "setup",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 9.9,
+      "end": 15.375,
+      "duration": 5.475,
+      "text": "Foragers land on blossoms and gather nectar and pollen to carry back.",
+      "scene": "Three separate genuine bee videos on blossoms.",
+      "tags": [
+        "hb_foragers"
+      ],
+      "story_role": "action",
+      "overlay_label": "FORAGING",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 15.375,
+      "end": 19.75,
+      "duration": 4.375,
+      "text": "They may visit many flowers before making the return trip.",
+      "scene": "Another real honeybee visiting flowers, not footage of hive interior.",
+      "tags": [
+        "hb_moreflowers"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "MORE FLOWERS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 19.75,
+      "end": 24.75,
+      "duration": 5.0,
+      "text": "Back at the hive, bees move through a narrow entrance in a steady stream.",
+      "scene": "Exterior hive boxes and entrances with bee movement, not an unshown wing-fanning claim.",
+      "tags": [
+        "hb_entrance"
+      ],
+      "story_role": "twist",
+      "overlay_label": "BACK TO THE HIVE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 24.75,
+      "end": 30.425,
+      "duration": 5.675,
+      "text": "That busy traffic connects the flowers outside to the colony waiting within.",
+      "scene": "Close genuine bee traffic at the hive landing board; no claim that visible wings are fanning.",
+      "tags": [
+        "hb_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "FLOWER TO HIVE",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abelles%20sortint%20i%20entrant%20del%20rusc.ogv",
+      "assetTitle": "Abelles sortint i entrant del rusc.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Abelles_sortint_i_entrant_del_rusc.ogv",
+      "tags": [
+        "hb_hook"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Chixoy",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20honey%20bee%20(Apis%20mellifera).webm",
+      "assetTitle": "Western honey bee (Apis mellifera).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_(Apis_mellifera).webm",
+      "tags": [
+        "hb_setup"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "The Nature Box",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bee%20gathering%20pollen.webm",
+      "assetTitle": "Honey bee gathering pollen.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bee_gathering_pollen.webm",
+      "tags": [
+        "hb_setup"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Alexanderboyes",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20Bee%20Pollinating.webm",
+      "assetTitle": "Honey Bee Pollinating.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_Bee_Pollinating.webm",
+      "tags": [
+        "hb_foragers"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Aphagstrom",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees.webm",
+      "assetTitle": "Honeybees.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees.webm",
+      "tags": [
+        "hb_foragers"
+      ],
+      "author": "Dennis.insect.filmer",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_verified_at": "2026-10-29",
+      "license_note": "Commons file page shows Apis mellifera on flowers; CC BY-SA 4.0 and author recorded. Species/visual content still subject to frame review."
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees%2001(js).webm",
+      "assetTitle": "Honeybees 01(js).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees_01(js).webm",
+      "tags": [
+        "hb_foragers"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Jerzystrzelecki",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybee.webm",
+      "assetTitle": "Honeybee.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybee.webm",
+      "tags": [
+        "hb_moreflowers"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Dennis.insect.filmer",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20120918Bienenstock%20Hockenheim.ogv",
+      "assetTitle": "20120918Bienenstock Hockenheim.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20120918Bienenstock_Hockenheim.ogv",
+      "tags": [
+        "hb_entrance"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "AnRo0002",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bees%20fanning%20(1).webm",
+      "assetTitle": "Honey bees fanning (1).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_fanning_(1).webm",
+      "tags": [
+        "hb_payoff"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "BorekT",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_verified_at": "2026-10-29"
+    }
+  ],
+  "review_sheet": "western_honeybee_hive_airflow_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
