@@ -264,7 +264,8 @@
         "author": "Dennis.insect.filmer",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 5.5
       },
       {
         "type": "video",
@@ -317,7 +318,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-hummingbird-source-motion-payoff-v9",
+    "revision": "2026-10-29-hummingbird-feeding-visible-verified-seek-v10",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -332,7 +333,7 @@
       },
       {
         "text": "While it is still small, an adult returns to the nest with food as the chick grows stronger.",
-        "scene": "Separate fledgling perched and adult feeding a nestling, not one continuous individual.",
+        "scene": "Adult Anna's hummingbird already visible feeding nestlings at source 5.5s; separate fledgling footage follows, not one continuous bird.",
         "tags": [
           "ah_setup"
         ],
@@ -410,7 +411,7 @@
         "license": "Public domain",
         "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
         "license_verified_at": "2026-10-29",
-        "start_seconds": 5
+        "start_seconds": 8.5
       },
       {
         "type": "video",
@@ -507,7 +508,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-caribou-meadow-moving-close-v8",
+    "revision": "2026-10-29-caribou-moving-close-verified-seek-v9",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -522,7 +523,7 @@
       },
       {
         "text": "Across North America, these northern deer are usually called caribou.",
-        "scene": "Closer USFWS meadow caribou at source seconds 5-10 and separate real Alaska riverbank caribou from source 22s; no invented continuous migration.",
+        "scene": "Real Alaska caribou on riverbank followed by closer USFWS caribou at source 8.5s; no long stationary herd shot or false single-event continuity.",
         "tags": [
           "cr_north"
         ],
