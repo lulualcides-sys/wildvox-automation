@@ -1,8 +1,8 @@
 {
   "key": "annas_hummingbird_first_flight",
   "title": "HOW ANNA'S HUMMINGBIRDS GROW FROM NEST TO PERCH",
-  "caption": "From nest care to adult perches and feeders: Anna's hummingbirds change fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox",
-  "config_sha256": "1137d007bd517b19033f0ac7b3e041fcc2b49aa603828874813786b4de865ec7",
+  "caption": "From first wingbeats in the nest to hovering at flowers: Anna's hummingbirds grow fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox",
+  "config_sha256": "bb8ff02a1e1442b9baebcc0360b1130f20cf4010e4d328d272fa5a005403018e",
   "duration": 36.4,
   "voice": "am_michael",
   "speed": 1.0,
@@ -38,35 +38,35 @@
     {
       "index": 2,
       "start": 12.325,
-      "end": 19.325,
-      "duration": 7.0,
-      "text": "Adult Anna's hummingbirds often pause on thin branches between fast trips through their territory.",
-      "scene": "Two actual Anna's hummingbirds perched among branches, no unshown hovering claim.",
+      "end": 19.775,
+      "duration": 7.45,
+      "text": "Adult Anna's hummingbirds pause on branches, then hover at flowers as they move through their territory.",
+      "scene": "Separate authentic Anna's hummingbirds perched in a lemon tree and juvenile hovering at flowers; not the same bird.",
       "tags": [
         "ah_action"
       ],
       "story_role": "action",
-      "overlay_label": "BRANCH PERCH",
+      "overlay_label": "PERCH THEN HOVER",
       "fx": []
     },
     {
       "index": 3,
-      "start": 19.325,
-      "end": 24.9,
-      "duration": 5.575,
-      "text": "At flowers and feeders, rapid wingbeats let them hover while taking a drink.",
-      "scene": "Real Anna's hummingbird drinking at a feeder; crop only embedded side padding.",
+      "start": 19.775,
+      "end": 25.275,
+      "duration": 5.5,
+      "text": "At feeders, rapid wingbeats bring them in, and they may perch to take a drink.",
+      "scene": "Authentic Anna's hummingbird at feeder, perched to drink; do not claim this shot shows hovering.",
       "tags": [
         "ah_feed"
       ],
       "story_role": "explanation",
-      "overlay_label": "HOVER TO DRINK",
+      "overlay_label": "FEEDER STOP",
       "fx": []
     },
     {
       "index": 4,
-      "start": 24.9,
-      "end": 29.474999999999998,
+      "start": 25.275,
+      "end": 29.849999999999998,
       "duration": 4.575,
       "text": "Even in wet weather, they may sit and wait between feeding trips.",
       "scene": "Authentic Anna's hummingbird perched during wet weather; no synthetic rain.",
@@ -79,16 +79,16 @@
     },
     {
       "index": 5,
-      "start": 29.474999999999998,
+      "start": 29.849999999999998,
       "end": 36.4,
-      "duration": 6.925,
-      "text": "From a tiny nestling to an adult perched high above, the same species changes quickly as it grows.",
-      "scene": "Archival adult Anna's hummingbird perched on bare branches; not the earlier nestling.",
+      "duration": 6.55,
+      "text": "From a tiny nestling to a young hummingbird hovering at a flower, wing skills grow fast.",
+      "scene": "Independent archival juvenile Anna's hummingbird hovering at red flowers, not the same nestling.",
       "tags": [
         "ah_payoff"
       ],
       "story_role": "payoff",
-      "overlay_label": "GROWING UP",
+      "overlay_label": "WINGS IN ACTION",
       "fx": []
     }
   ],
@@ -101,11 +101,12 @@
       "tags": [
         "ah_hook"
       ],
-      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "license_note": "Verified Commons original nestling Anna's hummingbirds practicing wingbeats; source-only contact sheet at original 10/13/16s shows active wingbeat around 16s. New seek 16s to avoid earlier 2.8–3.87s freeze; rerender and run full freeze QA before approval.",
       "author": "Dennis.insect.filmer",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "license_verified_at": "2026-10-29"
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 16
     },
     {
       "type": "video",
@@ -166,17 +167,18 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Calypte-anna.ogv",
-      "assetTitle": "Calypte-anna.ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Calypte-anna.ogv",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird.ogv",
+      "assetTitle": "Hummingbird.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird.ogv",
       "tags": [
         "ah_action"
       ],
-      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-      "author": "Flipzagging",
+      "author": "Rishiraj Sahoo",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "license_verified_at": "2026-10-29"
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 1.5,
+      "license_note": "Original Commons identifies juvenile Anna's hummingbird (Calypte anna), self-filmed by Rishiraj Sahoo; independent preview 2.5/10.4/17.6s confirms close hovering by red flowers. Separate archival individual; creator and CC BY-SA obligations require credit."
     },
     {
       "type": "video",
@@ -194,17 +196,18 @@
     },
     {
       "type": "video",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20Hummingbird%207254.ogg",
-      "assetTitle": "Anna's Hummingbird 7254.ogg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_Hummingbird_7254.ogg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20at%20Flower%20in%20California.webm",
+      "assetTitle": "Hummingbird at Flower in California.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_at_Flower_in_California.webm",
       "tags": [
         "ah_payoff"
       ],
-      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-      "author": "Chris Light",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "license_verified_at": "2026-10-29"
+      "author": "Mike's Birds",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 0.5,
+      "license_note": "Original 2013 juvenile Anna's hummingbird at flower in Riverside, California, from Mike's Birds Flickr, Commons license reviewed 2015. Independently previewed real hovering at 1.2/5.1/8.7s. Archival, separate bird; credit original author and adaptations."
     }
   ],
   "review_sheet": "annas_hummingbird_first_flight_review.jpg",
