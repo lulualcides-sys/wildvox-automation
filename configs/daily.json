@@ -183,7 +183,7 @@
   },
   "grey_seal_autumn_pup_nursery": {
     "title": "WHY GREY SEAL PUPS START LIFE ON LAND",
-    "script": "Why are grey seals gathering along Britain's shores as October ends? Every autumn, females come ashore to give birth and nurse their young. A newborn pup arrives wrapped in thick, pale fur. That fluffy coat helps protect it on land while it grows. Before long, the pup sheds that coat and becomes ready for more time in the sea. So this crowded shoreline is only the beginning: a nursery for future swimmers.",
+    "script": "Why are grey seals gathering along Britain's shores as October ends? Every autumn, females come ashore on beaches and rocky shores around the coast to give birth and nurse their young. A newborn pup arrives wrapped in thick, pale fur. That fluffy coat helps protect it on land while it grows. Before long, the pup sheds that coat and becomes ready for more time in the sea. So this crowded shoreline is only the beginning: a nursery for future swimmers.",
     "caption": "Grey seal pupping season is underway in Britain. These are archival images, not the 2026 birth. 🦭 #GreySeal #SealPups #Wildlife #WildVox",
     "sources": [
       {
@@ -281,7 +281,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-daily-grey_seal_autumn_pup_nursery-narrative-v3-license-audit",
+    "revision": "2026-10-29-grey-seal-narration-duration-repair-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -294,8 +294,8 @@
         "overlay_label": "PUP SEASON"
       },
       {
-        "text": "Every autumn, females come ashore to give birth and nurse their young.",
-        "scene": "Real grey seals from Pembrokeshire and Lundy, archival coast footage.",
+        "text": "Every autumn, females come ashore on beaches and rocky shores around the coast to give birth and nurse their young.",
+        "scene": "Authentic archival grey seals in coastal waters and on shore; illustrative footage, not a filmed 2026 birth.",
         "tags": [
           "gs_setup"
         ],
