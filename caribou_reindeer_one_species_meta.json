@@ -2,7 +2,7 @@
   "key": "caribou_reindeer_one_species",
   "title": "REINDEER AND CARIBOU ARE THE SAME ANIMAL",
   "caption": "Caribou or reindeer? Two names, one species. 🦌 #Reindeer #Caribou #Wildlife #WildVox",
-  "config_sha256": "641c7f2802a9f6599b6e5198cd8c5837636e8a2ad5522a277b817b3d39147647",
+  "config_sha256": "d2c318af8cf7e7ae4fef2419cd7b18084782e76093454a4fccb0ad628da70d0e",
   "duration": 36.55,
   "voice": "am_michael",
   "speed": 1.0,
@@ -13,7 +13,7 @@
       "end": 6.85,
       "duration": 6.85,
       "text": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species.",
-      "scene": "Real North American caribou in Alaska and another caribou scene; not the same individual.",
+      "scene": "Real North American caribou from Alaska original seconds 29–36, visibly closer animal, followed by distinct second caribou source; no zoo claim.",
       "tags": [
         "cr_hook"
       ],
@@ -101,11 +101,12 @@
       "tags": [
         "cr_hook"
       ],
-      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "license_note": "Original 57.5s USFWS public-domain Alaska caribou source independently previewed at 15/30/45s. At 30s a close visible adult walks across tundra, avoiding initial tiny distant herd; start seek 29s, rerender and visually confirm.",
       "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
       "license": "Public domain",
       "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-      "license_verified_at": "2026-10-29"
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 29
     },
     {
       "type": "video",
