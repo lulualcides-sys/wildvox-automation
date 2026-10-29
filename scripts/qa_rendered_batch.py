@@ -27,11 +27,11 @@ def freeze_durations(path, duration):
     """Count both closed freezes and freezes still active at the final frame.
 
     FFmpeg can omit freeze_end/freeze_duration when a frozen segment reaches EOF.
-    Ignoring that trailing interval would approve visibly frozen payoffs.
+    Ignoring that trailing interval would approve visibly frozen payoffs.\n    Sampling at 8 fps and 320px also catches near-static 1s holds that\n    full-rate 180px QA previously missed in independent review.
     """
     p = subprocess.run(
         ["ffmpeg", "-hide_banner", "-nostdin", "-i", str(path), "-vf",
-         "scale=180:-2,freezedetect=n=-45dB:d=1.0", "-an", "-f", "null", "-"],
+         "fps=8,scale=320:-2,freezedetect=n=-40dB:d=1.0", "-an", "-f", "null", "-"],
         capture_output=True, text=True, check=True)
     closed = [float(value) for value in re.findall(
         r"lavfi\.freezedetect\.freeze_duration:\s*([0-9.]+)", p.stderr)]
