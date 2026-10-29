@@ -13,9 +13,20 @@ TARGETS = (
     ("annas_hummingbird_first_flight", 7),
     ("caribou_reindeer_one_species", 1),
     ("red_fox_hunt_to_play", 5),
+    ("red_fox_hunt_to_play", 8),
     ("western_honeybee_hive_airflow", 3),
     ("western_honeybee_hive_airflow", 5),
 )
+ALTERNATES = {
+    ("red_fox_hunt_to_play", 8): {
+        "assetTitle": "Red fox pups playing along Owens Bay Nature Trail (53369021529).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20pups%20playing%20along%20Owens%20Bay%20Nature%20Trail%20(53369021529).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_pups_playing_along_Owens_Bay_Nature_Trail_(53369021529).webm",
+        "author": "USFWS Mountain Prairie",
+        "license": "Public domain (US federal government, USFWS); verify before use",
+        "start_seconds": 0,
+    },
+}
 WINDOW = 5.0
 FPS = 8
 
@@ -42,10 +53,10 @@ def candidate_starts(base, length):
 def scan(path, start):
     cmd = ["ffmpeg", "-hide_banner", "-nostdin", "-loglevel", "info",
            "-ss", str(start), "-i", str(path), "-t", str(WINDOW),
-           "-an", "-vf", f"fps={FPS},scale=160:90,freezedetect=n=-40dB:d=1,format=gray",
+           "-an", "-vf", f"fps={FPS},scale=320:180,freezedetect=n=-40dB:d=1,format=gray",
            "-pix_fmt", "gray", "-f", "rawvideo", "pipe:1"]
     p = call(cmd, timeout=65)
-    frame_size = 160 * 90
+    frame_size = 320 * 180
     n = len(p.stdout) // frame_size
     if n < FPS * 3:
         raise RuntimeError(f"too few frames: {n}")
@@ -85,7 +96,8 @@ def main():
     report = {"purpose": "source seek candidates only; NOT render/editorial/license approval",
               "targets": [], "config": args.config}
     for key, index in TARGETS:
-        src = data[key]["sources"][index]
+        src = (data[key]["sources"][index] if index < len(data[key]["sources"])
+               else ALTERNATES[(key, index)])
         ext = Path(urlsplit(src["url"]).path).suffix or ".webm"
         local = cache / f"{key}-{index:02d}{ext}"
         row = {"key": key, "source_index": index, "title": src.get("assetTitle"),
