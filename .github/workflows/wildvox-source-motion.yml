@@ -1,0 +1,29 @@
+name: WildVox — source motion diagnostics (no render)
+
+on:
+  push:
+    paths:
+      - scripts/scan_source_motion.py
+      - .github/workflows/wildvox-source-motion.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan Commons originals without Kokoro or video rendering
+        run: python3 scripts/scan_source_motion.py --config configs/daily.json --output qa/source-motion-candidates
+      - name: Preserve diagnostic report and paired review frames
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-motion-diagnostics
+          path: |
+            qa/source-motion-candidates/report.json
+            qa/source-motion-candidates/*.jpg
+          retention-days: 2
