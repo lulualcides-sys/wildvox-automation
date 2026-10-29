@@ -2,7 +2,7 @@
   "key": "komodo_dragon_tracking_scent",
   "title": "THE SECRET BEHIND A KOMODO DRAGON'S SLOW WALK",
   "caption": "Komodo dragons are much more than giant lizards. 🦎 #KomodoDragon #Reptiles #Wildlife #WildVox",
-  "duration": 34.9,
+  "duration": 34.75,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -12,7 +12,7 @@
       "end": 4.3,
       "duration": 4.3,
       "text": "Why does a Komodo dragon move with such deliberate steps?",
-      "scene": "Real Komodo dragon on the move in Lisbon Zoo; captive context retained.",
+      "scene": "Real Komodo dragon moving in Lisbon Zoo; seek 1.5s into the 6.28s original to reduce tail-only opening and include later head motion. Recheck actual 4.3s hook and do not freeze.",
       "tags": [
         "k_hook"
       ],
@@ -51,10 +51,10 @@
     {
       "index": 3,
       "start": 16.5,
-      "end": 22.3,
-      "duration": 5.8,
-      "text": "Its forked tongue gathers scent particles, giving it clues about nearby animals.",
-      "scene": "Real Komodo portrait/movement while narrating sensory biology; no claim a tongue flick is visible.",
+      "end": 22.15,
+      "duration": 5.65,
+      "text": "Its powerful sense of smell helps it detect clues about nearby animals.",
+      "scene": "Authentic Komodo head close-up while explaining sensory biology; do not claim a visible forked tongue or actual scent-tracking event.",
       "tags": [
         "k_sense"
       ],
@@ -64,8 +64,8 @@
     },
     {
       "index": 4,
-      "start": 22.3,
-      "end": 29.275,
+      "start": 22.15,
+      "end": 29.125,
       "duration": 6.975,
       "text": "That calm-looking pace can be deceptive: Komodo dragons are powerful hunters and scavengers.",
       "scene": "Authentic Komodo species portrait at closer source segment around 29s, showing power through animal size/face rather than fabricated predation. Recheck final frame and same-recording repetition.",
@@ -78,8 +78,8 @@
     },
     {
       "index": 5,
-      "start": 29.275,
-      "end": 34.9,
+      "start": 29.125,
+      "end": 34.75,
       "duration": 5.625,
       "text": "So those measured steps belong to a predator constantly exploring its world.",
       "scene": "Authentic archival Komodo island close approach in 2008 (Part 2), then separate Disney zoo movement as supporting payoff. Do not imply the two shots are one event or filmed in 2026; visually verify that the face/legs are prominent.",
@@ -105,7 +105,8 @@
       "author": "Joseolgon",
       "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Lisbon Zoo, 6.28s original; hook must fit without freezing.",
       "license_verified_at": "2026-10-28",
-      "verified_size_bytes": 25347062
+      "verified_size_bytes": 25347062,
+      "start_seconds": 1.5
     },
     {
       "type": "video",
