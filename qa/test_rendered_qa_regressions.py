@@ -44,6 +44,25 @@ class FreezeTailRegression(unittest.TestCase):
 
 
 class RenderProvenanceRegression(unittest.TestCase):
+    def test_config_fingerprint_is_stable_across_json_key_order(self):
+        first = {"script": "A", "sources": [{"url": "x", "start_seconds": 2}],
+                 "visual_plan": [{"text": "A", "tags": ["a"]}]}
+        second = {"visual_plan": [{"tags": ["a"], "text": "A"}],
+                  "sources": [{"start_seconds": 2, "url": "x"}], "script": "A"}
+        self.assertEqual(qa.config_fingerprint(first), qa.config_fingerprint(second))
+
+    def test_config_fingerprint_rejects_visual_and_render_changes(self):
+        base = {"script": "A", "visual_plan": [{"text": "A", "scene": "Closeup",
+                "tags": ["beak"], "overlay_label": "FEED"}], "max_shot_seconds": 8}
+        for field, value in (("scene", "Wide"), ("tags", ["generic"]),
+                             ("overlay_label", "OTHER")):
+            changed = {"script": "A", "visual_plan": [dict(base["visual_plan"][0])],
+                       "max_shot_seconds": 8}
+            changed["visual_plan"][0][field] = value
+            self.assertNotEqual(qa.config_fingerprint(base), qa.config_fingerprint(changed))
+        changed = dict(base, max_shot_seconds=12)
+        self.assertNotEqual(qa.config_fingerprint(base), qa.config_fingerprint(changed))
+
     def test_reject_stale_source_pool(self):
         config = [{"url": "https://example.org/new.mp4"}]
         rendered = [{"url": "https://example.org/old.mp4"}]
