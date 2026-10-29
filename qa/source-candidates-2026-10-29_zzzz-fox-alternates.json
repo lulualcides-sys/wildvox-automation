@@ -1,0 +1,75 @@
+{
+  "day": "2026-10-29",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "f9329b73302035629980fc9df8cf97a77996a556",
+  "checked_daily_blob": "4133d776cc60818730bd602b7c90840a15f88b94",
+  "editorial_status": "SOURCE_ONLY_ALTERNATIVES_FOR_REDFOX",
+  "note": "First 8-clip red fox preview run 40836681200 found sources 4 (mother/pups) too dark, source6 (Owens Bay) too distant, and source3 prey in yard tiny. Preview alternatives before replacing grey seal. Never publish source preview as final.",
+  "candidates": [
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_twist or rf_payoff",
+      "title": "2023.06.23 Rotfüchse.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023.06.23_Rotfüchse.webm",
+      "sample_seconds": [
+        2,
+        8,
+        16
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Original Commons creator/license and source review flags must be verified before use; inspect 3 real frames, no tiny subject or false narrative."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_twist or rf_payoff",
+      "title": "Fox Family Cam.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fox_Family_Cam.webm",
+      "sample_seconds": [
+        5,
+        25,
+        50
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Original Commons creator/license and source review flags must be verified before use; inspect 3 real frames, no tiny subject or false narrative."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_twist 2-3s shot only",
+      "title": "Red fox cubs (Vulpes vulpes).ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_cubs_(Vulpes_vulpes).ogv",
+      "sample_seconds": [
+        0.5,
+        2,
+        3.5
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Original Commons creator/license and source review flags must be verified before use; inspect 3 real frames, no tiny subject or false narrative."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_explain scavenging",
+      "title": "Red Fox eating KFC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Fox_eating_KFC.webm",
+      "sample_seconds": [
+        1,
+        4,
+        7
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Original Commons creator/license and source review flags must be verified before use; inspect 3 real frames, no tiny subject or false narrative."
+    },
+    {
+      "for_key": "red_fox_hunt_to_play",
+      "target_block": "rf_twist or rf_payoff",
+      "title": "Fox cubs playing in an English garden.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fox_cubs_playing_in_an_English_garden.webm",
+      "sample_seconds": [
+        4,
+        18,
+        32
+      ],
+      "status": "CANDIDATE_UNREVIEWED",
+      "concerns": "Original Commons creator/license and source review flags must be verified before use; inspect 3 real frames, no tiny subject or false narrative."
+    }
+  ]
+}
