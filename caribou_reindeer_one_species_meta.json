@@ -1,9 +1,9 @@
 {
   "key": "caribou_reindeer_one_species",
   "title": "REINDEER AND CARIBOU ARE THE SAME ANIMAL",
-  "caption": "Caribou or reindeer? Two names, one species. 🦌 #Reindeer #Caribou #Wildlife #WildVox",
-  "config_sha256": "d2c318af8cf7e7ae4fef2419cd7b18084782e76093454a4fccb0ad628da70d0e",
-  "duration": 36.55,
+  "caption": "Caribou or reindeer? Two names, one species. 🦌 #Reindeer #Caribou #Wildlife #WildVox Footage creators: U.S. Fish and Wildlife Service National Conservation Training Center; U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC); Hedwig Storch; Manfred Werner - Tsui; Superchilum; NaIzletuSi ™. Original licenses: Public domain, CC BY-SA 3.0, CC BY 3.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
+  "config_sha256": "3cfc2229724aebcb0ea80426f94f58b889c6778ea6b650667aa422dbd85599f5",
+  "duration": 36.33,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -24,9 +24,9 @@
     {
       "index": 1,
       "start": 6.85,
-      "end": 12.3,
-      "duration": 5.45,
-      "text": "Across North America, wild northern herds are usually called caribou.",
+      "end": 12.075,
+      "duration": 5.225,
+      "text": "Across North America, these northern deer are usually called caribou.",
       "scene": "Authentic caribou in Mount Robson Park, Canada.",
       "tags": [
         "cr_north"
@@ -37,8 +37,8 @@
     },
     {
       "index": 2,
-      "start": 12.3,
-      "end": 19.075000000000003,
+      "start": 12.075,
+      "end": 18.85,
       "duration": 6.775,
       "text": "In Europe and Asia, the name reindeer is more common, even when animals roam freely.",
       "scene": "Authentic reindeer from Finland and Svalbard; separate regions, no fake continuous migration.",
@@ -51,8 +51,8 @@
     },
     {
       "index": 3,
-      "start": 19.075000000000003,
-      "end": 24.150000000000002,
+      "start": 18.85,
+      "end": 23.925,
       "duration": 5.075,
       "text": "Both have broad hooves and coats suited to cold northern conditions.",
       "scene": "Svalbard reindeer walking; no false close-up hoof demonstration.",
@@ -65,8 +65,8 @@
     },
     {
       "index": 4,
-      "start": 24.150000000000002,
-      "end": 30.525000000000002,
+      "start": 23.925,
+      "end": 30.3,
       "duration": 6.375,
       "text": "Some reindeer also live under human care, but they still belong to that same species.",
       "scene": "Clearly captive reindeer at Ljubljana Zoo, Slovenia.",
@@ -79,8 +79,8 @@
     },
     {
       "index": 5,
-      "start": 30.525000000000002,
-      "end": 36.550000000000004,
+      "start": 30.3,
+      "end": 36.325,
       "duration": 6.025,
       "text": "Different names and settings, one remarkable northern deer: Rangifer tarandus.",
       "scene": "Second separate real reindeer zoo video; avoid implying same herd as North American caribou.",
@@ -106,7 +106,7 @@
       "license": "Public domain",
       "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
       "license_verified_at": "2026-10-29",
-      "start_seconds": 29
+      "start_seconds": 0
     },
     {
       "type": "video",
