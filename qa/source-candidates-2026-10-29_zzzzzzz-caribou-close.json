@@ -1,0 +1,49 @@
+{
+  "day": "2026-10-29",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "dca935e3ccdf865f3fc640f56c0e42abfaffe7fe",
+  "current_config_blob_sha": "a33bbd234b7f92de4d88a26622dda3c2c0b8bddf",
+  "editorial_status": "SOURCE_ONLY_CARIBOU_CLOSE_FRAMING_PREVIEW",
+  "note": "Run 40837242289 editorial QA: caribou/reindeer tiny in wide hook; preview verified alternative real source frames before swapping. Zoo shots must be explicitly described as captive, not Alaska wild. No publication authorization.",
+  "candidates": [
+    {
+      "for_key": "caribou_reindeer_one_species",
+      "target_block": "cr_hook original wild Alaska source alternate close moments",
+      "title": "Porcupine caribou (Rangifer tarandus granti) in Alaska.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Porcupine_caribou_(Rangifer_tarandus_granti)_in_Alaska.ogv",
+      "species": "Rangifer tarandus",
+      "status": "CANDIDATE_UNREVIEWED",
+      "sample_seconds": [
+        15,
+        30,
+        45
+      ]
+    },
+    {
+      "for_key": "caribou_reindeer_one_species",
+      "target_block": "cr_hook close reindeer zoo alternative, disclose captivity",
+      "title": "Wuppertal - Zoo - Rangifer tarandus 01 (1).ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuppertal_-_Zoo_-_Rangifer_tarandus_01_(1).ogv",
+      "species": "Rangifer tarandus",
+      "status": "CANDIDATE_UNREVIEWED",
+      "sample_seconds": [
+        3,
+        15,
+        27
+      ]
+    },
+    {
+      "for_key": "caribou_reindeer_one_species",
+      "target_block": "cr_hook close reindeer zoo alternative, disclose captivity",
+      "title": "Wuppertal - Zoo - Rangifer tarandus 04 (1) ies.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuppertal_-_Zoo_-_Rangifer_tarandus_04_(1)_ies.webm",
+      "species": "Rangifer tarandus",
+      "status": "CANDIDATE_UNREVIEWED",
+      "sample_seconds": [
+        3,
+        17,
+        30
+      ]
+    }
+  ]
+}
