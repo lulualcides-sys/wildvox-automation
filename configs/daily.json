@@ -1,904 +1,120 @@
 {
-  "monarch_autumn_migration_2026": {
-    "title": "HOW MONARCH BUTTERFLIES FIND THEIR WAY TO MEXICO",
-    "script": "How can a monarch butterfly this fragile travel thousands of miles toward Mexico? Its journey begins when an adult emerges from a chrysalis, ready to feed and fly. That adult feeds on nectar, building the energy needed for a long southbound flight. Sunlight and an internal clock help monarchs hold a heading as the seasons change. This October, observers reported monarchs reaching northern Mexico during the ongoing fall migration. So those tiny wings can lead to Mexico's winter forests, where monarchs sometimes land right on visitors.",
-    "caption": "Monarchs are moving toward Mexico this October. 🦋 #MonarchButterfly #Migration #Wildlife #WildVox",
+  "snow_leopard_jaw_skills": {
+    "title": "WHY SNOW LEOPARDS KEEP CHEWING",
+    "script": "Why is this snow leopard working so hard on a single bone? These big cats are built for gripping food, and their jaws do more than simply bite once. Watch how it clamps down, releases, then finds another angle. Strong jaw muscles and sharp teeth help tear food into pieces it can swallow. Young snow leopards start learning body control through play long before adulthood. And in a zoo, that same urge to bite and explore can turn a pumpkin into enrichment.",
+    "caption": "From a hard bone to a pumpkin: watch snow leopard jaws at work. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox",
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20butterfly%201.webm",
-        "assetTitle": "Monarch butterfly 1.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_1.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia%20gnaws%20at%20bone%2001.ogv",
+        "assetTitle": "Uncia uncia gnaws at bone 01.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_gnaws_at_bone_01.ogv",
         "tags": [
-          "m_hook"
+          "sl_hook"
         ],
-        "license": "CC0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "author": "Truem",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild Ontario monarch, 2013.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 11275271
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20%28Danaus%20plexippus%29.webm",
-        "assetTitle": "Monarch (Danaus plexippus).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_%28Danaus_plexippus%29.webm",
-        "tags": [
-          "m_hook"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license Public domain; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons monarch footage; live license/category audit required before reuse; 4.5s original, optional supporting hook cut.",
-        "license": "Public domain",
-        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 1503252,
-        "author": "U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC)"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Butterfly%20Emerging%20from%20Chrysalis.webm",
-        "assetTitle": "Monarch Butterfly Emerging from Chrysalis.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly_Emerging_from_Chrysalis.webm",
-        "tags": [
-          "m_origin"
-        ],
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "author": "Danmation",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual emergence, 2016. Editorial time-lapse correction 2026-10-28: use a real 36-second source window (26s onward) played at 6x to show emergence, with no generated frames or looping; final visual and freeze QA still required. Independent render 40646315324 still showed 1.267s static at 6x; corrected to 8x 22–70s and opt-in crop of encoded black padding, pending new full MP4 QA.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 4323084,
-        "start_seconds": 22,
-        "time_lapse_speed": 8,
-        "crop_black_bars": true
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarchs%20flying%20and%20sipping.webm",
-        "assetTitle": "Monarchs flying and sipping.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarchs_flying_and_sipping.webm",
-        "tags": [
-          "m_fuel"
-        ],
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "author": "Dennis.insect.filmer",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult nectar feeding, Ohio. Candidate editorial seek to 224s based on 3-frame original preview (late frame has clear monarch nectar feeding); do not assume successful until fresh render review.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 11019737,
-        "start_seconds": 224
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20butterfly%202.webm",
-        "assetTitle": "Monarch butterfly 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_2.webm",
-        "tags": [
-          "m_fuel"
-        ],
-        "license": "CC0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "author": "Truem",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult Ontario support shot.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 8838332
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20butterfly%203.webm",
-        "assetTitle": "Monarch butterfly 3.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_butterfly_3.webm",
-        "tags": [
-          "m_navigation"
-        ],
-        "license": "CC0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "author": "Truem",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild adult Ontario; no claim of tagged specimen.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 7567466
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monarch%20Butterfly.ogv",
-        "assetTitle": "Monarch Butterfly.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monarch_Butterfly.ogv",
-        "tags": [
-          "m_2026"
-        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "MatthiasKabel",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "author": "Anthony92931",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Archival wildflower footage; not footage of 2026 sightings. Encoded black borders cropped from source before blurred-background portrait fill; no synthetic zoom.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 7378629,
-        "crop_black_bars": true
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Santuario%20de%20la%20Mariposa%20Monarca%20%22El%20Rosario%22%20%28Michoac%C3%A1n%2C%20M%C3%A9xico%29.webm",
-        "assetTitle": "Santuario de la Mariposa Monarca \"El Rosario\" (Michoacán, México).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Santuario_de_la_Mariposa_Monarca_%22El_Rosario%22_%28Michoac%C3%A1n%2C_M%C3%A9xico%29.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20Leopard%20At%20Sikkim%20Zoo.webm",
+        "assetTitle": "Snow Leopard At Sikkim Zoo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Leopard_At_Sikkim_Zoo.webm",
         "tags": [
-          "m_payoff"
+          "sl_setup"
         ],
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "author": "AlexJA77",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 75803101,
-        "start_seconds": 27,
-        "license_note": "Authentic original source frames independently checked 2026-10-28 at 4.4, 18.2 and 30.9s. The 30.9s frame shows a monarch visibly perched on a visitor's face in the 2025 El Rosario Mexico sanctuary video; start at 27s to seek a more legible butterfly payoff. Archival 2025 footage is NOT 2026 sightings. CC BY-SA 4.0, AlexJA77, full credits and adaptation disclosure required. Reinspect all rendered frames before approval."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-28-daily-monarch_autumn_migration_2026-narrative-v6-late-nectar-seek",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "How can a monarch butterfly this fragile travel thousands of miles toward Mexico?",
-        "scene": "Close, authentic wild monarch, introducing a single fragile traveler.",
-        "tags": [
-          "m_hook"
-        ],
-        "story_role": "hook",
-        "overlay_label": "THE JOURNEY"
-      },
-      {
-        "text": "Its journey begins when an adult emerges from a chrysalis, ready to feed and fly.",
-        "scene": "Authentic monarch butterfly emergence, not a fabricated time-lapse of a different species.",
-        "tags": [
-          "m_origin"
-        ],
-        "story_role": "setup",
-        "overlay_label": "A NEW ADULT"
-      },
-      {
-        "text": "That adult feeds on nectar, building the energy needed for a long southbound flight.",
-        "scene": "Show a visibly nectar-feeding monarch, using later verified original-source preview as a candidate; seek 224s and reject if rendered scene is empty flowers. Distinct second wild adult as support.",
-        "tags": [
-          "m_fuel"
-        ],
-        "story_role": "action",
-        "overlay_label": "FUEL FOR FLIGHT"
-      },
-      {
-        "text": "Sunlight and an internal clock help monarchs hold a heading as the seasons change.",
-        "scene": "Wild monarch flight; orientation explained in narration, no fabricated navigation graphic.",
-        "tags": [
-          "m_navigation"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "SUN COMPASS"
-      },
-      {
-        "text": "This October, observers reported monarchs reaching northern Mexico during the ongoing fall migration.",
-        "scene": "Archival monarch on wildflowers, explicitly not represented as 2026 Mexico footage.",
-        "tags": [
-          "m_2026"
-        ],
-        "story_role": "twist",
-        "overlay_label": "ARCHIVAL FOOTAGE"
-      },
-      {
-        "text": "So those tiny wings can lead to Mexico's winter forests, where monarchs sometimes land right on visitors.",
-        "scene": "Authentic 2025 El Rosario sanctuary close visitor/butterfly moment around 31s; monarch visibly on visitor's face; label archival and do not imply 2026 field footage. Review final framing for prominent butterfly.",
-        "tags": [
-          "m_payoff"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "MEXICO • 2025 ARCHIVE"
-      }
-    ],
-    "trend_priority": true,
-    "trend_evidence_url": "https://journeynorth.org/news/monarchs-cross-into-mexico-and-a-western-migration-update",
-    "trend_evidence_published_date": "2026-10-11",
-    "trend_evidence_secondary_url": "https://vanguardia.com.mx/coahuila/llegan-mas-de-3-mil-500-mariposas-monarca-a-saltillo-en-su-ruta-migratoria-MD24368422",
-    "trend_evidence_secondary_published_date": "2026-10-25"
-  },
-  "african_penguin_feather_care": {
-    "title": "WHY AFRICAN PENGUINS KEEP COMBING THEIR FEATHERS",
-    "script": "Why do African penguins spend so much time grooming with their bills? Along southern Africa's coast, these birds move between ocean feeding trips and land. Back ashore, they preen, cleaning and lining up their tightly packed feathers. Their tightly packed feathers help keep cold water away from the skin. But they also need safe places on land where they can shelter and breed. So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
-    "caption": "African penguins have a reason for all that grooming. 🐧 #AfricanPenguin #OceanLife #Wildlife #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20130924%20African%20penguins%20combing.webm",
-        "assetTitle": "20130924 African penguins combing.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:20130924_African_penguins_combing.webm",
-        "tags": [
-          "a_groom"
-        ],
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "author": "Vassia Atanassova - Spiritia",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Wild Stony Point combing.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 7799577
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguin%20Colony%20Betty%27s%20Bay.ogv",
-        "assetTitle": "Penguin Colony Betty's Bay.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguin_Colony_Betty%27s_Bay.ogv",
-        "tags": [
-          "a_coast"
-        ],
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "author": "Angelarene88",
-        "license_note": "Original Commons page reviewed 2026-10-28; authentic independent African penguin coastal colony, 44.64s 960x540, CC BY-SA 3.0. Original preview frames checked at 5.4, 22.3 and 37.9 seconds in candidate workflow 40735618744; use verified closer penguins at ~20s, no synthetic zoom. Preserve author/source/license links, mark cuts/reframing, and apply ShareAlike compatible adaptation terms; do not claim this is an ocean feeding scene.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 33559279,
-        "start_seconds": 20
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20130924%20African%20penguins%20walking.webm",
-        "assetTitle": "20130924 African penguins walking.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:20130924_African_penguins_walking.webm",
-        "tags": [
-          "a_coast"
-        ],
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "author": "Vassia Atanassova - Spiritia",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Stony Point walking.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 7466789
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Wuppertal%20-%20Zoo%20-%20Spheniscus%20demersus%2006%20%281%29%20ies.webm",
-        "assetTitle": "Wuppertal - Zoo - Spheniscus demersus 06 (1) ies.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Wuppertal_-_Zoo_-_Spheniscus_demersus_06_(1)_ies.webm",
-        "tags": [
-          "a_hook"
-        ],
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "author": "Frank Vincentz",
-        "license_note": "Wikimedia Commons original page independently verified 2026-10-28: real African penguins (Spheniscus demersus), Wuppertal Zoo, 2013, 16.118s 1920x1080, 12044282 original bytes, author Frank Vincentz, CC BY-SA 3.0 dual license with GFDL alternative. Source-preview workflow 40787608554 original frames at 1.9/8.1/13.7s visually checked: visible beak-to-feather interaction early; source-only acceptance. Use as captive zoo illustration, never claim wild South African coastal setting. Adapted footage requires full creator, source, license and edited-work credit plus ShareAlike compliance before publication. Recheck final MP4 frames, captions, framing and licensing.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 12044282,
-        "start_seconds": 0
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguins%20slow%20motion%20video.webm",
-        "assetTitle": "Penguins slow motion video.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguins_slow_motion_video.webm",
-        "tags": [
-          "a_fur"
-        ],
-        "start_seconds": 44.5,
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "author": "Guido Konrad",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 15333484,
-        "license_note": "Original Wikimedia Commons page and source-frame preview checked 2026-10-28. 2019 authentic African penguins in Duisburg Zoo, 55.207s, 1920x1080; Guido Konrad CC BY 2.0. Independent original frames at 6.6, 27.6, 46.9s confirm species and close feather detail. Use 44.5s start for a_fur, disclose captive footage. No actual seawater or wild coastline is shown. Original SHA256 cf9c77996c1bff23cfb07104ab1eb093826f0034d595ef19d5fa12b7cd0a127c. Full rendered MP4 and credit review still required."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20130924%20African%20penguins%20near%20their%20den.webm",
-        "assetTitle": "20130924 African penguins near their den.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:20130924_African_penguins_near_their_den.webm",
-        "tags": [
-          "a_den"
-        ],
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "author": "Vassia Atanassova - Spiritia",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Actual den scene.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 11974313
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguin%20at%20Boulders%2001.webm",
-        "assetTitle": "Penguin at Boulders 01.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Penguin_at_Boulders_01.webm",
-        "tags": [
-          "a_payoff"
-        ],
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "author": "Islahaddow",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 38392268,
-        "start_seconds": 0,
-        "license_note": "Authentic African penguin heading toward sea at Boulders Beach, 2018. Real portrait frames checked 2026-10-28; use first 0–5s where penguin is large, not distant end. Creator Islahaddow; CC BY-SA 4.0, modified footage requires attribution and ShareAlike. Recheck final MP4."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20penguins%2C%20Betty%27s%20Bay%2005.webm",
-        "assetTitle": "African penguins, Betty's Bay 05.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_penguins%2C_Betty%27s_Bay_05.webm",
-        "tags": [
-          "a_payoff"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Second distinct payoff shot.",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 72351622,
-        "author": "Spasimir Pilev"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-28-daily-african_penguin_feather_care-narrative-v8-zoo-preen-source",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Why do African penguins spend so much time grooming with their bills?",
-        "scene": "Real two African penguins visibly grooming in Wuppertal Zoo, Germany. Source 06 original 0–4.8s selected after 2026-10-28 independent 1.9/8.1/13.7s preview; confirm visible bill-to-feather contact in final rendered opening, with captive setting disclosed.",
-        "tags": [
-          "a_hook"
-        ],
-        "story_role": "hook",
-        "overlay_label": "ZOO FOOTAGE"
-      },
-      {
-        "text": "Along southern Africa's coast, these birds move between ocean feeding trips and land.",
-        "scene": "Authentic South African coastal colony: independent Angelarene88 source starts near 20s showing visibly close African penguins at Betty's Bay, then distinct real penguins walking. No claim that ocean feeding is visible.",
-        "tags": [
-          "a_coast"
-        ],
-        "story_role": "setup"
-      },
-      {
-        "text": "Back ashore, they preen, cleaning and lining up their tightly packed feathers.",
-        "scene": "Authentic African penguins combing feathers on rocky shore at Stony Point, illustrating cleaning and feather alignment; the original combing footage moves to the action block rather than the hook.",
-        "tags": [
-          "a_groom"
-        ],
-        "story_role": "action",
-        "overlay_label": "THE PREEN"
-      },
-      {
-        "text": "Their tightly packed feathers help keep cold water away from the skin.",
-        "scene": "Close African penguin plumage at the edge of a zoo pool in authentic Guido Konrad slow-motion footage; illustrative captive scene, not South African sea footage or proof of seawater waterproofing.",
-        "tags": [
-          "a_fur"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "ZOO FOOTAGE"
-      },
-      {
-        "text": "But they also need safe places on land where they can shelter and breed.",
-        "scene": "African penguins near an actual den at Stony Point.",
-        "tags": [
-          "a_den"
-        ],
-        "story_role": "twist",
-        "overlay_label": "NESTING SPACE"
-      },
-      {
-        "text": "So the constant grooming is more than fussing. It's upkeep for a life split between sea and shore.",
-        "scene": "Authentic portrait African penguin walking from shore toward the sea, first seconds of Boulders Beach source, followed by distinct colony footage.",
-        "tags": [
-          "a_payoff"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "OCEAN READY"
-      }
-    ]
-  },
-  "meerkat_lookout_teamwork": {
-    "title": "Why meerkats stand guard for each other",
-    "script": "Why does this meerkat stand upright like a lookout? In the wild, they live in social groups that share space and burrows. One meerkat may stand upright and scan while its neighbors search for food. A lookout can notice approaching danger and give the group time to react. Different individuals can watch their surroundings, helping the group stay alert as it moves. So that famous upright pose is part of teamwork, not just a cute photo.",
-    "caption": "Meerkat lookouts help their groups stay alert. 🐾 #Meerkat #AnimalBehavior #Wildlife #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meerkats%20%28Suricata%20suricatta%29%20gang%20....webm",
-        "assetTitle": "Meerkats (Suricata suricatta) gang ....webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkats_(Suricata_suricatta)_gang_....webm",
-        "tags": [
-          "s_payoff"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic species group, location per source page.",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 21799069,
-        "author": "Bernard DUPONT"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meerkat%20Family.ogv",
-        "assetTitle": "Meerkat Family.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkat_Family.ogv",
-        "tags": [
-          "s_group"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Meerkat family scene.",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 3710174,
-        "author": "Boksi"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Meerkat-uenozoo2008.ogv",
-        "assetTitle": "Meerkat-uenozoo2008.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Meerkat-uenozoo2008.ogv",
-        "tags": [
-          "s_sentry"
-        ],
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "author": "Nesnad",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Author describes meerkat upright scanning at Ueno Zoo.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 3195388
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leipzig%20-%20Zoo%20-%20Afrika%20-%20Suricata%20suricatta%20v%2001%20ies.webm",
-        "assetTitle": "Leipzig - Zoo - Afrika - Suricata suricatta v 01 ies.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Leipzig_-_Zoo_-_Afrika_-_Suricata_suricatta_v_01_ies.webm",
-        "tags": [
-          "s_explain"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Captive species, no staged alarm event.",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 43773142,
-        "author": "Frank Vincentz"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%202.webm",
-        "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_2.webm",
-        "tags": [
-          "s_switch"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Captive group footage.",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 33167231,
-        "author": "NaIzletuSi ™"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%203.webm",
-        "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 3.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_3.webm",
-        "tags": [
-          "s_switch"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different captive group footage.",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 18793984,
-        "author": "NaIzletuSi ™"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%204.webm",
-        "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 4.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_4.webm",
-        "tags": [
-          "s_payoff"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Group context, behavior to confirm on frame QA.",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 16198193,
-        "author": "NaIzletuSi ™"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Suricata%20suricata%20SURIKATI%205.webm",
-        "assetTitle": "2023-02-17 ZOO LJUBLJANA Suricata suricata SURIKATI 5.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Suricata_suricata_SURIKATI_5.webm",
-        "tags": [
-          "s_hook"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Separate group context, frame QA required.",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 39424621,
-        "author": "NaIzletuSi ™"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-28-daily-meerkat_lookout_teamwork-narrative-v3-evidence-matched-hook",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Why does this meerkat stand upright like a lookout?",
-        "scene": "Close real captive meerkat standing upright and scanning; no false implication of a visible wild alarm, other animals in frame, or a documented lookout switch.",
-        "tags": [
-          "s_hook"
-        ],
-        "story_role": "hook",
-        "overlay_label": "TEAMWORK"
-      },
-      {
-        "text": "In the wild, they live in social groups that share space and burrows.",
-        "scene": "Captive meerkat family illustrates group structure; do not claim zoo footage is wild.",
-        "tags": [
-          "s_group"
-        ],
-        "story_role": "setup"
-      },
-      {
-        "text": "One meerkat may stand upright and scan while its neighbors search for food.",
-        "scene": "Documented upright, scanning meerkat at Ueno Zoo, without claiming visible foraging neighbors.",
-        "tags": [
-          "s_sentry"
-        ],
-        "story_role": "action",
-        "overlay_label": "ON LOOKOUT"
-      },
-      {
-        "text": "A lookout can notice approaching danger and give the group time to react.",
-        "scene": "Meerkat group footage; no invented alarm call or predator event.",
-        "tags": [
-          "s_explain"
-        ],
-        "story_role": "explanation"
-      },
-      {
-        "text": "Different individuals can watch their surroundings, helping the group stay alert as it moves.",
-        "scene": "Distinct genuine meerkat group footage illustrating shared vigilance; do not imply a captured sentry handoff or predator event.",
-        "tags": [
-          "s_switch"
-        ],
-        "story_role": "twist",
-        "overlay_label": "SHARED WATCH"
-      },
-      {
-        "text": "So that famous upright pose is part of teamwork, not just a cute photo.",
-        "scene": "Authentic wild meerkat group in open ground, ending on collective vigilance rather than an isolated captive portrait.",
-        "tags": [
-          "s_payoff"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "GROUP SURVIVAL"
-      }
-    ]
-  },
-  "african_elephant_mud_bath": {
-    "title": "WHY ELEPHANTS NEED DUST AND WATER BATHS",
-    "script": "Why do African elephants need both dusty ground and water to stay comfortable? Under the hot African sun, their enormous bodies need ways to shed heat. At a waterhole, elephants wade in and let water cool their skin. That water helps remove heat, while dust and mud can also protect sensitive skin. And even as a herd moves across dry ground, each elephant still needs ways to cool down. So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
-    "caption": "Why African elephants use dust and water to care for their skin. 🐘 #AfricanElephant #Wildlife #AnimalBehavior #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20Mud%20Bath.ogv",
-        "assetTitle": "Elephant Mud Bath.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_Mud_Bath.ogv",
-        "tags": [
-          "e_hook"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. African elephant mud bathing, archival footage.",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 6278466,
-        "author": "Isewell"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20Elephant%20(Loxodonta%20africana)%20bull%20....webm",
-        "assetTitle": "Savanna Elephant (Loxodonta africana) bull ....webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savanna_Elephant_(Loxodonta_africana)_bull_....webm",
-        "tags": [
-          "e_heat"
-        ],
-        "license_note": "Wikimedia Commons source page verified 2026-10-28: original 24.367s 1920x1080 VP9 video, African savanna elephant (Loxodonta africana), original creator Bernard DUPONT, commercial reuse under CC BY-SA 2.0. Original frames independently inspected at 2.9s, 12.2s and 20.7s in preview artifact 12800426766: elephant large, unobstructed, natural savanna. Attribution, indication of edits, and appropriate ShareAlike distribution required; final output still subject to visual and license QA.",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 29206134,
-        "author": "Bernard DUPONT"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/African%20elephants%20%28Loxodonta%20africana%29%20splashing.webm",
-        "assetTitle": "African elephants (Loxodonta africana) splashing.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:African_elephants_(Loxodonta_africana)_splashing.webm",
-        "tags": [
-          "e_water"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Explicit splashing behavior.",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 32782166,
-        "author": "Kent Wang"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20drinking%20water%20-%20KNP%20-%20001.ogv",
-        "assetTitle": "Elephant drinking water - KNP - 001.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_drinking_water_-_KNP_-_001.ogv",
-        "tags": [
-          "e_water"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic drinking at waterhole, not necessarily spraying.",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 6308186,
-        "author": "NJR ZA"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephant%20bathing-001.ogv",
-        "assetTitle": "Elephant bathing-001.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephant_bathing-001.ogv",
-        "tags": [
-          "e_explain"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Bathing footage.",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 3528861,
-        "author": "NJR ZA"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20Elephants%20%28Loxodonta%20africana%29%20at%20Mphafa%20waterhole%20....webm",
-        "assetTitle": "Savanna Elephants (Loxodonta africana) at Mphafa waterhole ....webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savanna_Elephants_(Loxodonta_africana)_at_Mphafa_waterhole_....webm",
-        "tags": [
-          "e_group"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic waterhole scene.",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 38951671,
-        "author": "Bernard DUPONT"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Savanna%20Elephants%20%28Loxodonta%20africana%29%20bathing%20....webm",
-        "assetTitle": "Savanna Elephants (Loxodonta africana) bathing ....webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Savanna_Elephants_(Loxodonta_africana)_bathing_....webm",
-        "tags": [
-          "e_payoff"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic bathing footage.",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 25799745,
-        "author": "Bernard DUPONT"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Elephants%20at%20Naibosho%20Conservancy%2C%20Kenya.webm",
-        "assetTitle": "Elephants at Naibosho Conservancy, Kenya.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Elephants_at_Naibosho_Conservancy%2C_Kenya.webm",
-        "tags": [
-          "e_payoff"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY 2.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Distinct elephant group, no invented behavior.",
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Ankur Panchbudhe",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 135572887,
-        "author": "Regina Hart"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-28-daily-african_elephant_mud_bath-narrative-v6-no-invented-splash",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Why do African elephants need both dusty ground and water to stay comfortable?",
-        "scene": "Authentic African elephant herd walking on a dry riverbed. Do not claim a visible dust cloud, mud bath or same continuous herd event.",
-        "tags": [
-          "e_hook"
-        ],
-        "story_role": "hook",
-        "overlay_label": "DUST AND WATER"
-      },
-      {
-        "text": "Under the hot African sun, their enormous bodies need ways to shed heat.",
-        "scene": "Authentic elephant crossing a hot African landscape.",
-        "tags": [
-          "e_heat"
-        ],
-        "story_role": "setup"
-      },
-      {
-        "text": "At a waterhole, elephants wade in and let water cool their skin.",
-        "scene": "Authentic elephants wading and resting in water; do not claim a visible splash or trunk spray that the footage does not show.",
-        "tags": [
-          "e_water"
-        ],
-        "story_role": "action",
-        "overlay_label": "COOLING DOWN"
-      },
-      {
-        "text": "That water helps remove heat, while dust and mud can also protect sensitive skin.",
-        "scene": "Elephants visibly bathing; dust and mud protective roles are explained, not fabricated visually.",
-        "tags": [
-          "e_explain"
-        ],
-        "story_role": "explanation"
-      },
-      {
-        "text": "And even as a herd moves across dry ground, each elephant still needs ways to cool down.",
-        "scene": "Authentic elephant herd visibly walking together over dry ground. Do not imply that this group footage proves the same waterhole or shows cooling behavior.",
-        "tags": [
-          "e_group"
-        ],
-        "story_role": "twist",
-        "overlay_label": "HERD ON THE MOVE"
-      },
-      {
-        "text": "So this isn't just a messy bath. For elephants, it's a way to care for their skin and stay comfortable.",
-        "scene": "Distinct real elephants bathing and moving in natural surroundings.",
-        "tags": [
-          "e_payoff"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "NATURAL SKIN CARE"
-      }
-    ]
-  },
-  "komodo_dragon_tracking_scent": {
-    "title": "THE SECRET BEHIND A KOMODO DRAGON'S SLOW WALK",
-    "script": "Why does a Komodo dragon move with such deliberate steps? This enormous monitor lizard lives naturally on a small group of Indonesian islands. Watch the heavy body advance as strong legs and a long tail help it balance. Its powerful sense of smell helps it detect clues about nearby animals. That calm-looking pace can be deceptive: Komodo dragons are powerful hunters and scavengers. So those measured steps belong to a predator constantly exploring its world.",
-    "caption": "Komodo dragons are much more than giant lizards. 🦎 #KomodoDragon #Reptiles #Wildlife #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20Dragon.webm",
-        "assetTitle": "Komodo Dragon.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_Dragon.webm",
-        "tags": [
-          "k_islands"
-        ],
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "author": "Joseolgon",
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Lisbon Zoo, 6.28s original; hook must fit without freezing.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 25347062,
-        "start_seconds": 0
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Varanidae%20-%20Varanus%20komodoensis%20-%20Komodo%20Dragon.webm",
-        "assetTitle": "Varanidae - Varanus komodoensis - Komodo Dragon.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanidae_-_Varanus_komodoensis_-_Komodo_Dragon.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schneeleopard%20(Zoo%20Leipzig).webm",
+        "assetTitle": "Schneeleopard (Zoo Leipzig).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Schneeleopard_(Zoo_Leipzig).webm",
         "tags": [
-          "k_islands"
+          "sl_setup"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 4.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. San Diego Zoo species portrait.",
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Fiver, der Hellseher",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 13099722,
-        "author": "Hectonichus"
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%202%20Part%201.ogv",
-        "assetTitle": "Komodo dragons video 2 Part 1.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_2_Part_1.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia%20gnaws%20at%20bone%2002.ogv",
+        "assetTitle": "Uncia uncia gnaws at bone 02.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_gnaws_at_bone_02.ogv",
         "tags": [
-          "k_walk"
+          "sl_action"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo species footage, movement to confirm.",
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "MatthiasKabel",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 4670252,
-        "author": "Brocken Inaglory (original); Dhatfield (derivative)"
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Varanus%20komodoensis2.ogv",
-        "assetTitle": "Varanus komodoensis2.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis2.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20Leopard%20eating.ogv",
+        "assetTitle": "Snow Leopard eating.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Leopard_eating.ogv",
         "tags": [
-          "k_walk"
+          "sl_explain"
         ],
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "author": "Raul654",
-        "license_note": "Original 2006 Disney's Animal Kingdom captive Komodo footage by Raul654, CC BY-SA 3.0. Previewed original at 1.3s, 5.3s, 9.0s on 2026-10-28: distinct vertical climbing movement; original source 10.53s and only <=8s shots allowed. Same filming location as Varanus komodoensis3.ogv; do not claim independently filmed location or wild footage. Preserve author attribution, license link, adaptation disclosure and ShareAlike obligations.",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 2026538
+        "license_note": "Wikimedia Commons page identifies snow leopard chewing and offers CC BY-SA 4.0, but its old upload log says Cheetah chewing: species identity ambiguous. Mandatory downstream frame inspection before approval; replace if a cheetah or uncertain.",
+        "author": "Squirrel83",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%203%20Part%201.ogv",
-        "assetTitle": "Komodo dragons video 3 Part 1.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_3_Part_1.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schneeleopard%20(Zoo%20Dresden)%20(7).webm",
+        "assetTitle": "Schneeleopard (Zoo Dresden) (7).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Schneeleopard_(Zoo_Dresden)_(7).webm",
         "tags": [
-          "k_sense"
+          "sl_explain"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Species footage, no unverified tongue claim.",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 2815311,
-        "author": "Brocken Inaglory (original); Dhatfield (derivative)"
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Fiver, der Hellseher",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%20with%20no%20audio.wmv.ogv",
-        "assetTitle": "Komodo dragons video with no audio.wmv.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_with_no_audio.wmv.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia%20cubs%2001.ogv",
+        "assetTitle": "Uncia uncia cubs 01.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_cubs_01.ogv",
         "tags": [
-          "k_power"
+          "sl_cubs"
         ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Authentic Komodo footage, no invented predation. Candidate editorial seek to 29s where source preview indicates a closer head/face, pending actual rendered-frame QA; same archival recording family, not independent filming.",
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "MatthiasKabel",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 4110204,
-        "author": "Brocken Inaglory",
-        "start_seconds": 29
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Komodo%20dragons%20video%202%20Part%202.ogv",
-        "assetTitle": "Komodo dragons video 2 Part 2.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_dragons_video_2_Part_2.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20Leopard%20eating%20a%20pumpkin%20at%20Los%20Angeles%20Zoo.webm",
+        "assetTitle": "Snow Leopard eating a pumpkin at Los Angeles Zoo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Leopard_eating_a_pumpkin_at_Los_Angeles_Zoo.webm",
         "tags": [
-          "k_payoff"
+          "sl_payoff"
         ],
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "author": "Brocken Inaglory (original); Dhatfield (derivative)",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 656879,
-        "license_note": "Original Wikimedia Commons page verified 2026-10-28. Authentic Komodo island footage, 2008, 10.2s 400x304. Independent 3-frame preview run 40751565146 at 1.2, 5.1, 8.7s shows an actual dragon approaching the camera, close face and forelimbs. CC BY-SA 3.0 original by Brocken Inaglory, derivative by Dhatfield; credit both. This is a separate part of the same 2008 recording family; do not claim independently filmed events or 2026 footage. Source-only approval; final rendered frames and visual repetition must be reinspected."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Varanus%20komodoensis3.ogv",
-        "assetTitle": "Varanus komodoensis3.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis3.ogv",
-        "tags": [
-          "k_hook"
-        ],
-        "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different Komodo footage, 15s.",
-        "license": "CC BY-SA 3.0",
-        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-28",
-        "verified_size_bytes": 3428644,
-        "author": "Raul654"
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "LA Zoo",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-29"
       }
     ],
     "min_unique_videos": 6,
@@ -907,60 +123,682 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-komodo_dragon_tracking_scent-narrative-v6-front-facing-hook",
+    "revision": "2026-10-29-daily-snow_leopard_jaw_skills-narrative-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does a Komodo dragon move with such deliberate steps?",
-        "scene": "Begin with the verified close, front-visible Komodo dragon walking across logs from independent Raul654 footage; show head and forelimbs rather than the tail-only Lisbon Zoo opening. Do not label it wild Indonesia.",
+        "text": "Why is this snow leopard working so hard on a single bone?",
+        "scene": "Real snow leopard gnawing a bone in captivity, no wild hunting claim.",
         "tags": [
-          "k_hook"
+          "sl_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "GIANT LIZARD"
+        "overlay_label": "BONE TEST"
       },
       {
-        "text": "This enormous monitor lizard lives naturally on a small group of Indonesian islands.",
-        "scene": "Show real Komodo dragons in distinct captive settings, including the former Lisbon Zoo full-body shot and Hectonichus head/shoulders. These are species illustrations, not filmed on Indonesian islands.",
+        "text": "These big cats are built for gripping food, and their jaws do more than simply bite once.",
+        "scene": "Distinct captive snow leopard portraits in Sikkim and Leipzig; no invented mountain hunting.",
         "tags": [
-          "k_islands"
+          "sl_setup"
         ],
         "story_role": "setup"
       },
       {
-        "text": "Watch the heavy body advance as strong legs and a long tail help it balance.",
-        "scene": "Authentic Komodo dragon walking; no fabricated attack or prey.",
+        "text": "Watch how it clamps down, releases, then finds another angle.",
+        "scene": "Separate authentic snow leopard gnawing a bone.",
         "tags": [
-          "k_walk"
+          "sl_action"
         ],
         "story_role": "action",
-        "overlay_label": "HEAVY STEPS"
+        "overlay_label": "GRIP AND RELEASE"
       },
       {
-        "text": "Its powerful sense of smell helps it detect clues about nearby animals.",
-        "scene": "Authentic Komodo head close-up while explaining sensory biology; do not claim a visible forked tongue or actual scent-tracking event.",
+        "text": "Strong jaw muscles and sharp teeth help tear food into pieces it can swallow.",
+        "scene": "Real snow leopard chewing and another adult portrait; verify low-resolution legacy source species visually before approval.",
         "tags": [
-          "k_sense"
+          "sl_explain"
         ],
         "story_role": "explanation",
-        "overlay_label": "SCENT TRACKING"
+        "overlay_label": "POWERFUL JAWS"
       },
       {
-        "text": "That calm-looking pace can be deceptive: Komodo dragons are powerful hunters and scavengers.",
-        "scene": "Authentic Komodo species portrait at closer source segment around 29s, showing power through animal size/face rather than fabricated predation. Recheck final frame and same-recording repetition.",
+        "text": "Young snow leopards start learning body control through play long before adulthood.",
+        "scene": "Authentic Salzburg Zoo snow leopard cubs, not wild cubs.",
         "tags": [
-          "k_power"
+          "sl_cubs"
         ],
         "story_role": "twist"
       },
       {
-        "text": "So those measured steps belong to a predator constantly exploring its world.",
-        "scene": "End with the independently previewed front-facing Komodo approaching the camera; no fabricated prey, attack or Indonesian field-location claim.",
+        "text": "And in a zoo, that same urge to bite and explore can turn a pumpkin into enrichment.",
+        "scene": "Los Angeles Zoo's real snow leopard chewing a pumpkin, not natural prey.",
         "tags": [
-          "k_payoff"
+          "sl_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "ALWAYS EXPLORING"
+        "overlay_label": "PUMPKIN CHALLENGE"
+      }
+    ],
+    "trend_priority": true,
+    "trend_evidence_url": "https://www.beauvalnature.org/en/our-news/world-snow-leopard-day",
+    "trend_evidence_published_date": "2026-10-23",
+    "trend_evidence_note": "Snow Leopard Day on 2026-10-23; all footage is archival/captive and does not depict the 2026 event."
+  },
+  "grey_seal_autumn_pup_nursery": {
+    "title": "WHY GREY SEAL PUPS START LIFE ON LAND",
+    "script": "Why are grey seals gathering along Britain's shores as October ends? Every autumn, females come ashore to give birth and nurse their young. A newborn pup arrives wrapped in thick, pale fur. That fluffy coat helps protect it on land while it grows. Before long, the pup sheds that coat and becomes ready for more time in the sea. So this crowded shoreline is only the beginning: a nursery for future swimmers.",
+    "caption": "Grey seal pupping season is underway in Britain. These are archival images, not the 2026 birth. 🦭 #GreySeal #SealPups #Wildlife #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Skomer%20Seals.webm",
+        "assetTitle": "Skomer Seals.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Skomer_Seals.webm",
+        "tags": [
+          "gs_hook"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monitoring%20grey%20seals%20in%20Pembrokeshire%2C%20Wales.webm",
+        "assetTitle": "Monitoring grey seals in Pembrokeshire, Wales.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monitoring_grey_seals_in_Pembrokeshire%2C_Wales.webm",
+        "tags": [
+          "gs_setup"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20seal%20(Halichoerus%20grypus)%20near%20Lundy.webm",
+        "assetTitle": "Grey seal (Halichoerus grypus) near Lundy.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_seal_(Halichoerus_grypus)_near_Lundy.webm",
+        "tags": [
+          "gs_setup"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20seal%20pups.jpg",
+        "assetTitle": "Grey seal pups.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_seal_pups.jpg",
+        "tags": [
+          "gs_pup"
+        ],
+        "license_note": "Original Commons file page and CC BY 4.0 commercial reuse license checked 2026-10-29; archival photograph, not current 2026 footage.",
+        "author": "Jaan Minakov",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "license_verified_at": "2026-10-29"
+      },
+      {
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Seal%20pup%2C%20Estonia.jpg",
+        "assetTitle": "Grey Seal pup, Estonia.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_Seal_pup%2C_Estonia.jpg",
+        "tags": [
+          "gs_fur"
+        ],
+        "license_note": "Original Commons file page and CC BY 4.0 commercial reuse license checked 2026-10-29; archival photograph, not current 2026 footage.",
+        "author": "Jaan Minakov",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "license_verified_at": "2026-10-29"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fokarium%20na%20Helu%2C%202016-07-28.webm",
+        "assetTitle": "Fokarium na Helu, 2016-07-28.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fokarium_na_Helu%2C_2016-07-28.webm",
+        "tags": [
+          "gs_swim"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Halichoerus%20grypus.ogv",
+        "assetTitle": "Halichoerus grypus.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus.ogv",
+        "tags": [
+          "gs_swim"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seal%20playing%20with%20NRW%20diver%20near%20Skomer%20-%20Morlo%20yn%20chwarae%20gyda%20deifar%20CNC%20yn%20Sgomer.webm",
+        "assetTitle": "Seal playing with NRW diver near Skomer - Morlo yn chwarae gyda deifar CNC yn Sgomer.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Seal_playing_with_NRW_diver_near_Skomer_-_Morlo_yn_chwarae_gyda_deifar_CNC_yn_Sgomer.webm",
+        "tags": [
+          "gs_payoff"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-29-daily-grey_seal_autumn_pup_nursery-narrative-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Why are grey seals gathering along Britain's shores as October ends?",
+        "scene": "Archival grey seals on the shore near Skomer; do not imply 2026 footage.",
+        "tags": [
+          "gs_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "PUP SEASON"
+      },
+      {
+        "text": "Every autumn, females come ashore to give birth and nurse their young.",
+        "scene": "Real grey seals from Pembrokeshire and Lundy, archival coast footage.",
+        "tags": [
+          "gs_setup"
+        ],
+        "story_role": "setup"
+      },
+      {
+        "text": "A newborn pup arrives wrapped in thick, pale fur.",
+        "scene": "Verified 2018 grey seal pup photograph from Estonia; not footage of a 2026 birth.",
+        "tags": [
+          "gs_pup"
+        ],
+        "story_role": "action",
+        "overlay_label": "WHITE COAT"
+      },
+      {
+        "text": "That fluffy coat helps protect it on land while it grows.",
+        "scene": "Separate verified grey seal pup photograph from Estonia; still photo, no simulated motion.",
+        "tags": [
+          "gs_fur"
+        ],
+        "story_role": "explanation"
+      },
+      {
+        "text": "Before long, the pup sheds that coat and becomes ready for more time in the sea.",
+        "scene": "Archival grey seal footage, adult movement illustrating the later swimming stage, not a recorded molt.",
+        "tags": [
+          "gs_swim"
+        ],
+        "story_role": "twist"
+      },
+      {
+        "text": "So this crowded shoreline is only the beginning: a nursery for future swimmers.",
+        "scene": "Real adult grey seal underwater near Skomer; do not claim this is the pictured pup.",
+        "tags": [
+          "gs_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "FUTURE SWIMMER"
+      }
+    ],
+    "trend_priority": true,
+    "trend_evidence_url": "https://gi-grimsby.co.uk/2026/10/27/first-seal-pup-of-2026-born-at-donna-nook-as-pupping-season-begins/",
+    "trend_evidence_published_date": "2026-10-27",
+    "trend_evidence_secondary_url": "https://www.nationaltrust.org.uk/visit/norfolk/blakeney-national-nature-reserve/grey-seals-on-blakeney-point",
+    "trend_evidence_note": "First 2026 Donna Nook pup reportedly born 2026-10-24, published 2026-10-27. Script avoids claiming archival clips are from Donna Nook or 2026."
+  },
+  "annas_hummingbird_first_flight": {
+    "title": "HOW ANNA'S HUMMINGBIRDS LEARN TO FLY",
+    "script": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest. Those early practice sessions build coordination for a life spent moving between perches and flowers. Once grown, it darts between branches and can hover almost in place. Rapid wingbeats let adults pause in the air while reaching nectar. Rain adds another challenge, but the birds still need to find food. The nestling's first wingbeats are a step toward the precision of an adult hummingbird.",
+    "caption": "From a nestling's wing exercises to an adult's aerial precision. 🐦 #AnnasHummingbird #Birds #Nature #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20nearly%20fledged.webm",
+        "assetTitle": "Hummingbird nearly fledged.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_nearly_fledged.webm",
+        "tags": [
+          "ah_hook"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Dennis.insect.filmer",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-29"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20fledged.webm",
+        "assetTitle": "Anna's hummingbird fledged.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_fledged.webm",
+        "tags": [
+          "ah_setup"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20Arizona.webm",
+        "assetTitle": "Anna's hummingbird (Calypte anna) in Arizona.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_Arizona.webm",
+        "tags": [
+          "ah_setup"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20California.webm",
+        "assetTitle": "Anna's hummingbird (Calypte anna) in California.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_California.webm",
+        "tags": [
+          "ah_action"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Annas%20hummingbird%20feeding.webm",
+        "assetTitle": "Annas hummingbird feeding.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Annas_hummingbird_feeding.webm",
+        "tags": [
+          "ah_feed"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Calypte-anna.ogv",
+        "assetTitle": "Calypte-anna.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Calypte-anna.ogv",
+        "tags": [
+          "ah_feed"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Flipzagging"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20the%20rain.webm",
+        "assetTitle": "Anna's hummingbird (Calypte anna) in the rain.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_the_rain.webm",
+        "tags": [
+          "ah_rain"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20Hummingbird%207254.ogg",
+        "assetTitle": "Anna's Hummingbird 7254.ogg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_Hummingbird_7254.ogg",
+        "tags": [
+          "ah_payoff"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-29-daily-annas_hummingbird_first_flight-narrative-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest.",
+        "scene": "Real nestlings practicing wingbeats in verified 2025 footage.",
+        "tags": [
+          "ah_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "FIRST WINGBEATS"
+      },
+      {
+        "text": "Those early practice sessions build coordination for a life spent moving between perches and flowers.",
+        "scene": "Anna's fledgling video plus distinct adult portrait, not a staged wild nest.",
+        "tags": [
+          "ah_setup"
+        ],
+        "story_role": "setup"
+      },
+      {
+        "text": "Once grown, it darts between branches and can hover almost in place.",
+        "scene": "Actual adult Anna's hummingbird moving and preening in California; avoid claiming this exact shot proves hovering.",
+        "tags": [
+          "ah_action"
+        ],
+        "story_role": "action",
+        "overlay_label": "TINY ACROBAT"
+      },
+      {
+        "text": "Rapid wingbeats let adults pause in the air while reaching nectar.",
+        "scene": "Species-confirmed Anna's feeding footage and male iridescent head portrait.",
+        "tags": [
+          "ah_feed"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "HOVER TO FEED"
+      },
+      {
+        "text": "Rain adds another challenge, but the birds still need to find food.",
+        "scene": "Authentic Anna's hummingbird filmed in rain; no fabricated rain effects.",
+        "tags": [
+          "ah_rain"
+        ],
+        "story_role": "twist"
+      },
+      {
+        "text": "The nestling's first wingbeats are a step toward the precision of an adult hummingbird.",
+        "scene": "Independent adult Anna's hummingbird clip; closes growth-to-adult story.",
+        "tags": [
+          "ah_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "FLIGHT READY"
+      }
+    ]
+  },
+  "caribou_reindeer_one_species": {
+    "title": "REINDEER AND CARIBOU ARE THE SAME ANIMAL",
+    "script": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species. Across North America, wild northern herds are usually called caribou. In Europe and Asia, the name reindeer is more common, even when animals roam freely. Both have broad hooves and coats suited to cold northern conditions. Some reindeer also live under human care, but they still belong to that same species. Different names and settings, one remarkable northern deer: Rangifer tarandus.",
+    "caption": "Caribou or reindeer? Two names, one species. 🦌 #Reindeer #Caribou #Wildlife #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porcupine%20caribou%20(Rangifer%20tarandus%20granti)%20in%20Alaska.ogv",
+        "assetTitle": "Porcupine caribou (Rangifer tarandus granti) in Alaska.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Porcupine_caribou_(Rangifer_tarandus_granti)_in_Alaska.ogv",
+        "tags": [
+          "cr_hook"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caribou%20(Rangifer%20tarandus).webm",
+        "assetTitle": "Caribou (Rangifer tarandus).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Caribou_(Rangifer_tarandus).webm",
+        "tags": [
+          "cr_hook"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MountRobsonPark-Rangifer%20tarandus-KanadischesKaribu.ogv",
+        "assetTitle": "MountRobsonPark-Rangifer tarandus-KanadischesKaribu.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:MountRobsonPark-Rangifer_tarandus-KanadischesKaribu.ogv",
+        "tags": [
+          "cr_north"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rangifer%20tarandus%20-%20Inari%202013.ogv",
+        "assetTitle": "Rangifer tarandus - Inari 2013.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rangifer_tarandus_-_Inari_2013.ogv",
+        "tags": [
+          "cr_europe"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reindeer%20Svalbard.ogv",
+        "assetTitle": "Reindeer Svalbard.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Reindeer_Svalbard.ogv",
+        "tags": [
+          "cr_europe"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reindeers%20Svalbard%201.ogv",
+        "assetTitle": "Reindeers Svalbard 1.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Reindeers_Svalbard_1.ogv",
+        "tags": [
+          "cr_adapt"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Rangifer%20tarandus%202.webm",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Rangifer tarandus 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Rangifer_tarandus_2.webm",
+        "tags": [
+          "cr_zoo"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-06-01%20LJUBLJANA%20ZOO%20LJUBLJANA%20-%20Rangifer%20tarandus.webm",
+        "assetTitle": "2024-06-01 LJUBLJANA ZOO LJUBLJANA - Rangifer tarandus.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Rangifer_tarandus.webm",
+        "tags": [
+          "cr_payoff"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-29-daily-caribou_reindeer_one_species-narrative-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species.",
+        "scene": "Real North American caribou in Alaska and another caribou scene; not the same individual.",
+        "tags": [
+          "cr_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "TWO NAMES"
+      },
+      {
+        "text": "Across North America, wild northern herds are usually called caribou.",
+        "scene": "Authentic caribou in Mount Robson Park, Canada.",
+        "tags": [
+          "cr_north"
+        ],
+        "story_role": "setup"
+      },
+      {
+        "text": "In Europe and Asia, the name reindeer is more common, even when animals roam freely.",
+        "scene": "Authentic reindeer from Finland and Svalbard; separate regions, no fake continuous migration.",
+        "tags": [
+          "cr_europe"
+        ],
+        "story_role": "action",
+        "overlay_label": "NORTHERN HERDS"
+      },
+      {
+        "text": "Both have broad hooves and coats suited to cold northern conditions.",
+        "scene": "Svalbard reindeer walking; no false close-up hoof demonstration.",
+        "tags": [
+          "cr_adapt"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "BUILT FOR COLD"
+      },
+      {
+        "text": "Some reindeer also live under human care, but they still belong to that same species.",
+        "scene": "Clearly captive reindeer at Ljubljana Zoo, Slovenia.",
+        "tags": [
+          "cr_zoo"
+        ],
+        "story_role": "twist"
+      },
+      {
+        "text": "Different names and settings, one remarkable northern deer: Rangifer tarandus.",
+        "scene": "Second separate real reindeer zoo video; avoid implying same herd as North American caribou.",
+        "tags": [
+          "cr_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "ONE SPECIES"
+      }
+    ]
+  },
+  "western_honeybee_hive_airflow": {
+    "title": "WHY HONEY BEES FAN THEIR HIVES",
+    "script": "Why does a honeybee hive need its own ventilation crew? While some western honey bees visit flowers, others stay behind in the crowded nest. Foragers collect pollen and nectar, then return with supplies for the colony. Inside the hive, developing bees and stored nectar need suitable heat and humidity. So certain workers stand near the entrance and beat their wings without taking off. That airflow helps cool the nest and remove moisture as nectar becomes honey.",
+    "caption": "Honeybees have a built-in ventilation crew. 🐝 #Honeybee #Bees #NatureScience #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abelles%20sortint%20i%20entrant%20del%20rusc.ogv",
+        "assetTitle": "Abelles sortint i entrant del rusc.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Abelles_sortint_i_entrant_del_rusc.ogv",
+        "tags": [
+          "hb_hook"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20honey%20bee%20(Apis%20mellifera).webm",
+        "assetTitle": "Western honey bee (Apis mellifera).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_(Apis_mellifera).webm",
+        "tags": [
+          "hb_setup"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "The Nature Box"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bee%20gathering%20pollen.webm",
+        "assetTitle": "Honey bee gathering pollen.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bee_gathering_pollen.webm",
+        "tags": [
+          "hb_setup"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20Bee%20Pollinating.webm",
+        "assetTitle": "Honey Bee Pollinating.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_Bee_Pollinating.webm",
+        "tags": [
+          "hb_foragers"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees%2001(js).webm",
+        "assetTitle": "Honeybees 01(js).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees_01(js).webm",
+        "tags": [
+          "hb_foragers"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Jerzystrzelecki"
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybee.webm",
+        "assetTitle": "Honeybee.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybee.webm",
+        "tags": [
+          "hb_inside"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20120918Bienenstock%20Hockenheim.ogv",
+        "assetTitle": "20120918Bienenstock Hockenheim.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:20120918Bienenstock_Hockenheim.ogv",
+        "tags": [
+          "hb_entrance"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bees%20fanning%20(1).webm",
+        "assetTitle": "Honey bees fanning (1).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_fanning_(1).webm",
+        "tags": [
+          "hb_fanning"
+        ],
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "BorekT",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-29"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-29-daily-western_honeybee_hive_airflow-narrative-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Why does a honeybee hive need its own ventilation crew?",
+        "scene": "Real western honey bees entering and leaving a hive, not an invented mechanical fan.",
+        "tags": [
+          "hb_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "HIVE AIRFLOW"
+      },
+      {
+        "text": "While some western honey bees visit flowers, others stay behind in the crowded nest.",
+        "scene": "Western honey bee species footage and pollen gathering on real flowers.",
+        "tags": [
+          "hb_setup"
+        ],
+        "story_role": "setup"
+      },
+      {
+        "text": "Foragers collect pollen and nectar, then return with supplies for the colony.",
+        "scene": "Authentic bee pollination and real honeybee activity; no staged delivery claim.",
+        "tags": [
+          "hb_foragers"
+        ],
+        "story_role": "action",
+        "overlay_label": "FORAGING"
+      },
+      {
+        "text": "Inside the hive, developing bees and stored nectar need suitable heat and humidity.",
+        "scene": "Authentic western honey bee close-up, illustrative of colony workers.",
+        "tags": [
+          "hb_inside"
+        ],
+        "story_role": "explanation"
+      },
+      {
+        "text": "So certain workers stand near the entrance and beat their wings without taking off.",
+        "scene": "Hive entrance footage; do not claim every visible bee is fanning until final source QA.",
+        "tags": [
+          "hb_entrance"
+        ],
+        "story_role": "twist"
+      },
+      {
+        "text": "That airflow helps cool the nest and remove moisture as nectar becomes honey.",
+        "scene": "Verified authentic footage of Apis mellifera workers fanning at hive entrance.",
+        "tags": [
+          "hb_fanning"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "LIVING FANS"
       }
     ]
   }
