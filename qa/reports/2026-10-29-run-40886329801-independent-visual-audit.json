@@ -1,0 +1,73 @@
+{
+  "editorial_day": "2026-10-29",
+  "render_run_id": 40886329801,
+  "render_head_sha": "b3180ec223ed4e6b82a044966918c640f16002a3",
+  "reviewed_at": "2026-10-29T11:43-03:00 to 11:50-03:00",
+  "reviewed_main_sha": "e9223d1fa6be64e7d20fd237f0ab6fc7a29dbd87",
+  "reviewed_config_blob": "f117d144223fa08b53f776e5143f3087c3fbb926",
+  "all_five_review_jpg_inspected": true,
+  "all_40_source_preview_strips_inspected": true,
+  "all_five_actual_mp4_inspected": true,
+  "video_probe": "ffprobe: each MP4 1080x1920 H.264 video and audio; duration 30.425–36.600s",
+  "independent_motion_method": "ffmpeg -vf fps=8,scale=320:-2,freezedetect=n=-40dB:d=1 -an -f null -",
+  "technical_qa_artifact_id": 12903547465,
+  "technical_qa_result": "FAIL",
+  "publish_media_job": "SKIPPED",
+  "publication_hold": true,
+  "editorial_approved": false,
+  "licensing_approved": false,
+  "videos": [
+    {
+      "key": "snow_leopard_jaw_skills",
+      "duration": 33.95,
+      "sha256": "30072a04424a5a521c092438209fc64f8ce6cdada16d5a48fe4c2ad49144d961",
+      "freeze_intervals": [],
+      "editorial": "CONDITIONAL_FAIL: low-light / low-resolution snow leopard clips; repeated bone-gnaw filming family; source identification needs original-page review."
+    },
+    {
+      "key": "annas_hummingbird_first_flight",
+      "duration": 36.6,
+      "sha256": "1654dbda17fc0d784231d7bef5e5e1f2376c42c683f1842d6d5f4e67c07de5d4",
+      "freeze_intervals": [
+        [
+          5.5,
+          6.5
+        ]
+      ],
+      "editorial": "FAIL: empty nest at 5.5–6.5s while narration says adult returns with food. Source 4 seek requires source-only motion and content validation; nestling species unverified."
+    },
+    {
+      "key": "caribou_reindeer_one_species",
+      "duration": 36.325,
+      "sha256": "0c6d202050c2c6bf35dd49ff8f1db2afd618821cd85073f1f215ccfe0bd5ea48",
+      "freeze_intervals": [
+        [
+          9.375,
+          10.375
+        ],
+        [
+          10.375,
+          11.375
+        ]
+      ],
+      "editorial": "FAIL: near-static, distant meadow herd source 1 in North America block. Source-only diagnostics suggest seek 8s+ may show closer animal; confirm exact shot before config edit."
+    },
+    {
+      "key": "western_honeybee_hive_airflow",
+      "duration": 30.425,
+      "sha256": "ca53b713239182f366e0e0f5562e08bbfa419e735977347c365d19312a432c13",
+      "freeze_intervals": [],
+      "editorial": "CONDITIONAL: technically moving but several wide/small bees; final narrative, author and platform attribution approval pending."
+    },
+    {
+      "key": "red_fox_hunt_to_play",
+      "duration": 34.975,
+      "sha256": "b212c75fc688c6a9e73952aef5a20d3f3be9748de54a4401f0c060f405049dc5",
+      "freeze_intervals": [],
+      "editorial": "CONDITIONAL: technically moving but some distant fox shots; author and platform attribution approval pending."
+    }
+  ],
+  "license_and_platform": "40 original source author/license records previously matched to Commons API, but original authorship/ShareAlike adaptation and actual TikTok caption credit delivery not independently legally cleared. No video may be scheduled.",
+  "duplicate_check": "Metricool brand 7242311 scheduled posts [] and TKPO01 published rows [] for 2026-10-29 at check ~11:43 Sao Paulo.",
+  "follow_up": "Source-only scan 40894964937 triggered by e9223d1f; inspect new candidate frames, change only concrete source seeks, rerender all five, and independently audit fresh artifacts. Never approve this failed run."
+}
