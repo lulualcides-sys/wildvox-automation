@@ -1,0 +1,103 @@
+{
+  "editorial_day": "2026-10-29",
+  "render_run_id": 40861264600,
+  "render_head": "cac7c81a67e68b455d4b4dcbca5e630899e5a0c8",
+  "current_main_checked_before_write": "2f5f5f80074f5ac848c73099a4977a6189bd3d1c",
+  "config_blob_checked_before_write": "2f217869a32b7181599ed57926cdb9733cb5eac6",
+  "evidence": "Fresh retrieval of all five original GitHub Actions ZIP artifacts, independent inspection of all five review JPGs and 40 source contact strips, MP4 frames bracketing each of seven independently flagged low-motion intervals, and narration timelines in each rendered *_meta.json. This supplements, but does not supersede, the prior independent full-video freeze audit.",
+  "failure_type": "FFmpeg near-static motion threshold >=1s; does not prove byte-identical frozen video frames.",
+  "mapped_intervals": [
+    {
+      "video": "annas_hummingbird_first_flight",
+      "seconds": [
+        5.5,
+        6.5
+      ],
+      "block": "ah_setup",
+      "source_index": 1,
+      "asset": "Anna's hummingbird fledged.webm",
+      "observation": "Nestling/adult near nest barely moves as setup block begins; close crop at 6.0s."
+    },
+    {
+      "video": "annas_hummingbird_first_flight",
+      "seconds": [
+        16.75,
+        18.25
+      ],
+      "block": "ah_action",
+      "source_index": 3,
+      "asset": "Anna's hummingbird (Calypte anna) in California.webm",
+      "configured_seek_seconds": 300,
+      "observation": "Lemon tree foliage dominates; tiny bird perched near center, little visible movement."
+    },
+    {
+      "video": "annas_hummingbird_first_flight",
+      "seconds": [
+        18.25,
+        19.25
+      ],
+      "block": "ah_action",
+      "source_index": 3,
+      "asset": "Anna's hummingbird (Calypte anna) in California.webm",
+      "configured_seek_seconds": 300,
+      "observation": "Same source continues almost motionless; no distinct hovering action."
+    },
+    {
+      "video": "caribou_reindeer_one_species",
+      "seconds": [
+        9.375,
+        10.5
+      ],
+      "block": "cr_north",
+      "source_index": 1,
+      "asset": "Caribou (Rangifer tarandus).webm",
+      "observation": "Distant meadow herd occupies small part of frame, nearly static. Original source strip shows closer single caribou in later portion, but exact safe seek not yet measured."
+    },
+    {
+      "video": "red_fox_hunt_to_play",
+      "seconds": [
+        24,
+        25.375
+      ],
+      "block": "rf_twist",
+      "source_index": 5,
+      "asset": "Red fox (Vulpes vulpes) kit.webm",
+      "configured_seek_seconds": 3,
+      "observation": "Fox kit perched in wooded scene, head nearly stationary; no exploration action visible."
+    },
+    {
+      "video": "western_honeybee_hive_airflow",
+      "seconds": [
+        13.125,
+        14.125
+      ],
+      "block": "hb_foragers",
+      "source_index": 3,
+      "asset": "Honeybees.webm",
+      "observation": "Yellow flower with bee almost static. Original Commons source explicitly contains later one-tenth-speed segment; avoid that section and verify a moving window before reuse."
+    },
+    {
+      "video": "western_honeybee_hive_airflow",
+      "seconds": [
+        17.875,
+        18.875
+      ],
+      "block": "hb_moreflowers",
+      "source_index": 5,
+      "asset": "Honeybee.webm",
+      "observation": "Bee on tiny white flowers remains almost stationary in macro frame."
+    }
+  ],
+  "additional_editorial_observations": [
+    "Hummingbird source07 payoff review at 33-36s shows red flower with little or no visible bird; current source strip has bird earlier. Verify actual source seek before changing.",
+    "Snow leopard source04 Snow Leopard eating.ogv remains dark, 384x216 legacy footage; no technical freeze but low-resolution and species provenance review still needed.",
+    "Wikimedia Commons description of Hummingbird nearly fledged.webm explicitly identifies nestling Anna's hummingbirds; current caption conservatively says species unverified. Do not change without full source/credit revalidation."
+  ],
+  "safe_next_actions": [
+    "Find and preview source motion windows or authentic replacement clips; verify actual animal activity in the entire selected duration before editing config.",
+    "For any replacement update source metadata, tags, exact narration scene intent, creator credits, and config revision together.",
+    "Push configs/daily.json only after concrete verified fixes; GitHub Actions will rerender five videos. Require fresh 8fps/320px/-40dB full-video technical QA and independent review of all new artifacts.",
+    "No TikTok scheduling or publication while any publication_hold remains true or attribution/ShareAlike platform delivery is unresolved."
+  ],
+  "result": "NOT APPROVED; no new render triggered; no config changed"
+}
