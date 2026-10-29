@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'scripts/export_commons_credits.py'
+      - 'configs/daily.json'
       - '.github/workflows/wildvox-credits-audit.yml'
   workflow_dispatch:
 
