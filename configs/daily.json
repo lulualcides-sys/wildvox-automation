@@ -784,7 +784,7 @@
         "assetTitle": "Komodo Dragon.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Komodo_Dragon.webm",
         "tags": [
-          "k_hook"
+          "k_islands"
         ],
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -792,7 +792,7 @@
         "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons original file page manually reviewed 2026-10-28; original license/attribution applies; edited clips require credit and ShareAlike when relevant. Lisbon Zoo, 6.28s original; hook must fit without freezing.",
         "license_verified_at": "2026-10-28",
         "verified_size_bytes": 25347062,
-        "start_seconds": 1.5
+        "start_seconds": 0
       },
       {
         "type": "video",
@@ -891,7 +891,7 @@
         "assetTitle": "Varanus komodoensis3.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Varanus_komodoensis3.ogv",
         "tags": [
-          "k_payoff"
+          "k_hook"
         ],
         "license_note": "Wikimedia Commons live API audit passed 2026-10-28: authentic video MIME, original file available, commercial reuse license CC BY-SA 3.0; creator attribution, edits and ShareAlike (where required) must follow sourcePage. Frame-by-frame editorial suitability remains subject to downstream QA. Wikimedia Commons file and species video-category listing reviewed 2026-10-28; commercial-use license and author MUST pass live Commons API audit and original file-page attribution before reuse. Different Komodo footage, 15s.",
         "license": "CC BY-SA 3.0",
@@ -907,12 +907,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-28-daily-komodo_dragon_tracking_scent-narrative-v5-head-seek-sensory-evidence",
+    "revision": "2026-10-28-daily-komodo_dragon_tracking_scent-narrative-v6-front-facing-hook",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "Why does a Komodo dragon move with such deliberate steps?",
-        "scene": "Real Komodo dragon moving in Lisbon Zoo; seek 1.5s into the 6.28s original to reduce tail-only opening and include later head motion. Recheck actual 4.3s hook and do not freeze.",
+        "scene": "Begin with the verified close, front-visible Komodo dragon walking across logs from independent Raul654 footage; show head and forelimbs rather than the tail-only Lisbon Zoo opening. Do not label it wild Indonesia.",
         "tags": [
           "k_hook"
         ],
@@ -921,7 +921,7 @@
       },
       {
         "text": "This enormous monitor lizard lives naturally on a small group of Indonesian islands.",
-        "scene": "Authentic Komodo dragon species in zoo; no claim that this footage is Indonesian wilderness.",
+        "scene": "Show real Komodo dragons in distinct captive settings, including the former Lisbon Zoo full-body shot and Hectonichus head/shoulders. These are species illustrations, not filmed on Indonesian islands.",
         "tags": [
           "k_islands"
         ],
@@ -955,7 +955,7 @@
       },
       {
         "text": "So those measured steps belong to a predator constantly exploring its world.",
-        "scene": "Authentic archival Komodo island close approach in 2008 (Part 2), then separate Disney zoo movement as supporting payoff. Do not imply the two shots are one event or filmed in 2026; visually verify that the face/legs are prominent.",
+        "scene": "End with the independently previewed front-facing Komodo approaching the camera; no fabricated prey, attack or Indonesian field-location claim.",
         "tags": [
           "k_payoff"
         ],
