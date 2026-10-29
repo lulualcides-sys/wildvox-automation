@@ -66,6 +66,7 @@ def main():
     if video_total < 38:
         raise RuntimeError("Expected at least 38 authentic video assets")
     checked = 0
+    failures = []
     for offset in range(0, len(requests), 12):
         group = requests[offset:offset + 12]
         pages = get_info([title for _, _, title in group])
@@ -73,29 +74,37 @@ def main():
         for key, source, title in group:
             page = by_title.get(title.casefold())
             if not page or page.get("missing") or not page.get("imageinfo"):
-                raise RuntimeError(f"{key}: Commons asset missing: {title}")
+                failures.append(f"{key}: Commons asset missing: {title}")
+                continue
             categories = {str(c.get("title") or "").casefold() for c in page.get("categories", [])}
             if any("license review needed" in c or "copyright violations" in c for c in categories):
-                raise RuntimeError(f"{key}: Commons source is awaiting license review or flagged for copyright: {title}")
+                failures.append(f"{key}: Commons source is awaiting license review or flagged for copyright: {title}")
+                continue
             info = page["imageinfo"][0]
             metadata = info.get("extmetadata") or {}
             license_name = str((metadata.get("LicenseShortName") or {}).get("value") or "")
             license_url = str((metadata.get("LicenseUrl") or {}).get("value") or "")
             if not is_free_license(license_name):
-                raise RuntimeError(f"{key}: license not confirmed for commercial reuse: {title}: {license_name!r}")
+                failures.append(f"{key}: license not confirmed for commercial reuse: {title}: {license_name!r}")
+                continue
             mime = str(info.get("mime") or "").lower()
             expected = source.get("type", "video")
             video_mimes = ("video/webm", "video/ogg", "application/ogg", "video/mp4")
             image_mimes = ("image/jpeg", "image/png", "image/webp")
             if mime not in (video_mimes if expected == "video" else image_mimes):
-                raise RuntimeError(f"{key}: not a {expected} asset: {title} ({mime})")
+                failures.append(f"{key}: not a {expected} asset: {title} ({mime})")
+                continue
             if int(info.get("size") or 0) <= 100000 or not info.get("url"):
-                raise RuntimeError(f"{key}: no downloadable media bytes: {title}")
+                failures.append(f"{key}: no downloadable media bytes: {title}")
+                continue
             declared = str(source.get("license") or "")
             if declared and not is_free_license(declared):
-                raise RuntimeError(f"{key}: nonfree license declared in config: {title}")
+                failures.append(f"{key}: nonfree license declared in config: {title}")
+                continue
             print(f"OK {key}: {title} [{license_name}; {int(info['size'])} bytes; {license_url}]")
             checked += 1
+    if failures:
+        raise RuntimeError(f"{len(failures)} source(s) failed Commons audit:\\n" + "\\n".join(failures))
     print(f"Commons API preflight passed: {checked} authentic assets ({video_total} videos, {checked - video_total} images), all with commercial-reuse licenses and downloadable originals.")
 
 if __name__ == "__main__":
