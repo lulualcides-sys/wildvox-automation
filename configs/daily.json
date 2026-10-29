@@ -2,7 +2,7 @@
   "snow_leopard_jaw_skills": {
     "title": "WHY SNOW LEOPARDS KEEP CHEWING",
     "script": "Why is this snow leopard working so hard on a single bone? These big cats are built for gripping food, and their jaws do more than simply bite once. Watch how it clamps down, releases, then finds another angle. Strong jaw muscles and sharp teeth help tear food into pieces it can swallow. In the wild, snow leopards also need careful movement through steep, rocky terrain. Young cubs begin practicing the biting, gripping, and coordination that adulthood will demand.",
-    "caption": "From chewing bones to moving across rocky terrain: how snow leopards develop survival skills. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox",
+    "caption": "From chewing bones to moving across rocky terrain: how snow leopards develop survival skills. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox Footage creators: MatthiasKabel; Ankur Panchbudhe; Fiver, der Hellseher; Squirrel83; Sanjay Khurana (video); Kevin MacLeod (original soundtrack removed). Original licenses: CC BY-SA 3.0, CC BY 2.0, CC BY-SA 4.0, CC BY 3.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
     "sources": [
       {
         "type": "video",
@@ -188,8 +188,8 @@
   },
   "annas_hummingbird_first_flight": {
     "title": "HOW ANNA'S HUMMINGBIRDS GROW FROM NEST TO PERCH",
-    "script": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest. While it is still small, an adult returns to the nest with food as the chick grows stronger. Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory. At feeders, rapid wingbeats bring them in, and they may perch to take a drink. Even in wet weather, they may sit and wait between feeding trips. From a tiny nestling to a young hummingbird hovering at a flower, wing skills grow fast.",
-    "caption": "From first wingbeats in the nest to hovering at flowers: Anna's hummingbirds grow fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox",
+    "script": "This tiny hummingbird is beating its wings before it can even leave the nest. While it is still small, an adult returns to the nest with food as the chick grows stronger. Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory. At feeders, rapid wingbeats bring them in, and they may perch to take a drink. Even in wet weather, they may sit and wait between feeding trips. From a tiny nestling to hummingbirds hovering at flowers, wing skills grow fast.",
+    "caption": "From first wingbeats in the nest to hovering at flowers: Anna's hummingbirds grow fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox Footage creators: Dennis.insect.filmer; Larry & Teddy Page; Danmation; Rishiraj Sahoo; Love Star Production; Mike's Birds. Original licenses: CC BY-SA 4.0, CC BY 2.0, CC BY 3.0, CC BY-SA 3.0, CC0, CC BY-SA 2.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
     "sources": [
       {
         "type": "video",
@@ -315,17 +315,18 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-hummingbird-dynamic-source-300s-v5",
+    "revision": "2026-10-29-hummingbird-species-age-accuracy-v6",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest.",
+        "text": "This tiny hummingbird is beating its wings before it can even leave the nest.",
         "scene": "Real nestling practicing wingbeats in the nest, no invented first flight.",
         "tags": [
           "ah_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "FIRST WINGBEATS"
+        "overlay_label": "FIRST WINGBEATS",
+        "scene_intent": "Real hummingbird nestling practicing wingbeats; species unverified in this generic source, no false Anna's identification."
       },
       {
         "text": "While it is still small, an adult returns to the nest with food as the chick grows stronger.",
@@ -363,20 +364,21 @@
         "story_role": "twist"
       },
       {
-        "text": "From a tiny nestling to a young hummingbird hovering at a flower, wing skills grow fast.",
+        "text": "From a tiny nestling to hummingbirds hovering at flowers, wing skills grow fast.",
         "scene": "Independent archival juvenile Anna's hummingbird hovering at red flowers, not the same nestling.",
         "tags": [
           "ah_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "WINGS IN ACTION"
+        "overlay_label": "WINGS IN ACTION",
+        "scene_intent": "Separate archival hummingbird hovering at a flower; age and species not independently proven, not the same nestling."
       }
     ]
   },
   "caribou_reindeer_one_species": {
     "title": "REINDEER AND CARIBOU ARE THE SAME ANIMAL",
-    "script": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species. Across North America, wild northern herds are usually called caribou. In Europe and Asia, the name reindeer is more common, even when animals roam freely. Both have broad hooves and coats suited to cold northern conditions. Some reindeer also live under human care, but they still belong to that same species. Different names and settings, one remarkable northern deer: Rangifer tarandus.",
-    "caption": "Caribou or reindeer? Two names, one species. 🦌 #Reindeer #Caribou #Wildlife #WildVox",
+    "script": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species. Across North America, these northern deer are usually called caribou. In Europe and Asia, the name reindeer is more common, even when animals roam freely. Both have broad hooves and coats suited to cold northern conditions. Some reindeer also live under human care, but they still belong to that same species. Different names and settings, one remarkable northern deer: Rangifer tarandus.",
+    "caption": "Caribou or reindeer? Two names, one species. 🦌 #Reindeer #Caribou #Wildlife #WildVox Footage creators: U.S. Fish and Wildlife Service National Conservation Training Center; U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC); Hedwig Storch; Manfred Werner - Tsui; Superchilum; NaIzletuSi ™. Original licenses: Public domain, CC BY-SA 3.0, CC BY 3.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
     "sources": [
       {
         "type": "video",
@@ -391,7 +393,7 @@
         "license": "Public domain",
         "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
         "license_verified_at": "2026-10-29",
-        "start_seconds": 29
+        "start_seconds": 0
       },
       {
         "type": "video",
@@ -501,7 +503,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-caribou-closer-alaska-hook-v4",
+    "revision": "2026-10-29-caribou-close-river-source-v5",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -511,15 +513,17 @@
           "cr_hook"
         ],
         "story_role": "hook",
-        "overlay_label": "TWO NAMES"
+        "overlay_label": "TWO NAMES",
+        "scene_intent": "Actual Alaska caribou by river at early original source seconds, then a separate authentic herd video; no captive claim."
       },
       {
-        "text": "Across North America, wild northern herds are usually called caribou.",
+        "text": "Across North America, these northern deer are usually called caribou.",
         "scene": "Authentic caribou in Mount Robson Park, Canada.",
         "tags": [
           "cr_north"
         ],
-        "story_role": "setup"
+        "story_role": "setup",
+        "scene_intent": "Single real caribou at Mount Robson Park, Canada; no false herd claim."
       },
       {
         "text": "In Europe and Asia, the name reindeer is more common, even when animals roam freely.",
@@ -561,7 +565,7 @@
   "western_honeybee_hive_airflow": {
     "title": "THE BUSY TRAFFIC OUTSIDE A HONEYBEE HIVE",
     "script": "Why does a honeybee hive look so busy from the outside? Some workers visit flowers to collect food, while others remain closer to home. Foragers land on blossoms and gather nectar and pollen to carry back. They may visit many flowers before making the return trip. Back at the hive, bees move through a narrow entrance in a steady stream. That busy traffic connects the flowers outside to the colony waiting within.",
-    "caption": "Follow honeybees from flowers back to the busy hive entrance. Separate authentic archival clips, not one continuous journey. #Honeybee #Pollinators #Bees #WildVox",
+    "caption": "Follow honeybees from flowers back to the busy hive entrance. Separate authentic archival clips, not one continuous journey. #Honeybee #Pollinators #Bees #WildVox Footage creators: Chixoy; The Nature Box; Alexanderboyes; Dennis.insect.filmer; Jerzystrzelecki; AnRo0002; BorekT. Original licenses: CC BY-SA 3.0, CC BY-SA 4.0, CC0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
     "sources": [
       {
         "type": "video",
@@ -601,20 +605,6 @@
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
         "author": "Alexanderboyes",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20Bee%20Pollinating.webm",
-        "assetTitle": "Honey Bee Pollinating.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_Bee_Pollinating.webm",
-        "tags": [
-          "hb_foragers"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Aphagstrom",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
         "license_verified_at": "2026-10-29"
@@ -696,7 +686,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-honeybee-accurate-hive-traffic-overlay-v4",
+    "revision": "2026-10-29-honeybee-remove-flower-only-logo-v5",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -723,7 +713,8 @@
           "hb_foragers"
         ],
         "story_role": "action",
-        "overlay_label": "FORAGING"
+        "overlay_label": "FORAGING",
+        "scene_intent": "Two independent authentic videos of honeybees foraging on flowers; exclude flower-only/logo-tainted clip."
       },
       {
         "text": "They may visit many flowers before making the return trip.",
@@ -757,7 +748,7 @@
   "red_fox_hunt_to_play": {
     "title": "HOW RED FOXES HUNT, SCAVENGE, AND LEARN",
     "script": "A red fox can turn an ordinary patch of grass into a hunting ground. It slows down, listens for movement, and watches for the right moment to approach. Sometimes a mouse is the prize, but a fox does not depend on one kind of meal. In towns, a hungry fox may even investigate discarded takeout. Yes, really. Young foxes start learning by watching and exploring the world around their den. Then play turns into practice: every chase and tumble helps prepare a future hunter.",
-    "caption": "Red foxes hunt, sometimes investigate human leftovers, and practice through play. Separate archival clips; none claimed as 2026 field footage. #RedFox #FoxKits #Wildlife #WildVox",
+    "caption": "Red foxes hunt, sometimes investigate human leftovers, and practice through play. Separate archival clips; none claimed as 2026 field footage. #RedFox #FoxKits #Wildlife #WildVox Footage creators: Lubo Ondrasko; Scarabinol; J Tee; Peter.shaman; U.S. Fish and Wildlife Service National Conservation Training Center; Alexis Markwick; Pink Bee. Original licenses: CC BY 3.0, CC BY-SA 4.0, Public domain, CC0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
     "sources": [
       {
         "type": "video",
