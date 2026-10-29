@@ -2,7 +2,7 @@
   "key": "snow_leopard_jaw_skills",
   "title": "WHY SNOW LEOPARDS KEEP CHEWING",
   "caption": "From chewing bones to moving across rocky terrain: how snow leopards develop survival skills. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox Footage creators: MatthiasKabel; Ankur Panchbudhe; Fiver, der Hellseher; Squirrel83; Sanjay Khurana (video); Kevin MacLeod (original soundtrack removed). Original licenses: CC BY-SA 3.0, CC BY 2.0, CC BY-SA 4.0, CC BY 3.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
-  "config_sha256": "ec4d89c74839f4bde2c5c6efc0d09361d13dfda7a58047037976a25158af52c2",
+  "config_sha256": "569efc3cc86ac963c09b4b56e3a2067769afafc7386fee9845a4955b8fbaac12",
   "duration": 33.95,
   "voice": "am_michael",
   "speed": 1.0,
@@ -83,7 +83,7 @@
       "end": 33.949999999999996,
       "duration": 7.05,
       "text": "Young cubs begin practicing the biting, gripping, and coordination that adulthood will demand.",
-      "scene": "Real snow leopard cubs at Salzburg Zoo playing; closes the story with early-life practice, not wild footage.",
+      "scene": "Real cubs visible near the Salzburg Zoo rocky enclosure at the beginning of the authentic clip; no unsupported claim of a specific bite being shown.",
       "tags": [
         "sl_cubs"
       ],
@@ -204,7 +204,8 @@
       "author": "MatthiasKabel",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-      "license_verified_at": "2026-10-29"
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 0
     }
   ],
   "review_sheet": "snow_leopard_jaw_skills_review.jpg",
