@@ -1,0 +1,36 @@
+{
+  "day": "2026-10-29",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "5e55157a77da3de5090f1b070123aef5e8e13b31",
+  "current_config_blob_sha": "a33bbd234b7f92de4d88a26622dda3c2c0b8bddf",
+  "editorial_status": "SOURCE_ONLY_FREEZE_REPAIR_PREVIEW",
+  "note": "Independent run 40837242289 technical QA flagged Anna's hummingbird frozen intervals 2.8–3.8667s and 16.5–17.6333s; preview alternative real source intervals before changing seeks. No publication authorization.",
+  "candidates": [
+    {
+      "for_key": "annas_hummingbird_first_flight",
+      "target_block": "ah_hook: alternate original nestling footage segment to avoid >1s static moment",
+      "title": "Hummingbird nearly fledged.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_nearly_fledged.webm",
+      "species": "Calypte anna",
+      "status": "CANDIDATE_UNREVIEWED",
+      "sample_seconds": [
+        10,
+        13,
+        16
+      ]
+    },
+    {
+      "for_key": "annas_hummingbird_first_flight",
+      "target_block": "ah_action: alternate real male Anna's hummingbird motion, avoid >1s freeze",
+      "title": "Calypte-anna.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Calypte-anna.ogv",
+      "species": "Calypte anna",
+      "status": "CANDIDATE_UNREVIEWED",
+      "sample_seconds": [
+        3,
+        9,
+        15
+      ]
+    }
+  ]
+}
