@@ -2,7 +2,7 @@
   "key": "western_honeybee_hive_airflow",
   "title": "THE BUSY TRAFFIC OUTSIDE A HONEYBEE HIVE",
   "caption": "Follow honeybees from flowers back to the busy hive entrance. Separate authentic archival clips, not one continuous journey. #Honeybee #Pollinators #Bees #WildVox",
-  "config_sha256": "9a4a03c663af4ff828bea8f0eabd59fc8121c73891cb3b02fc50cec0a659777c",
+  "config_sha256": "0b31692a80f276a8aa1f8aabf55b4e7607699c503a1509aad930d2a657c2ea0c",
   "duration": 30.43,
   "voice": "am_michael",
   "speed": 1.0,
@@ -18,7 +18,7 @@
         "hb_hook"
       ],
       "story_role": "hook",
-      "overlay_label": "HIVE AIRFLOW",
+      "overlay_label": "HIVE TRAFFIC",
       "fx": []
     },
     {
