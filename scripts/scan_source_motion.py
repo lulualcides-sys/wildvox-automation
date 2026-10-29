@@ -60,11 +60,13 @@ def duration(path):
     return float(x.stdout.decode().strip())
 
 
-def candidate_starts(base, length):
+def candidate_starts(base, length, extended=False):
     if base >= 100:
         starts = [base + shift for shift in (-30, -20, -10, -5, 0, 5, 10, 20, 30)]
     else:
         starts = [0, 2, 5, 8, 12, 16, 20, 24, 30, 40, base]
+    if extended:
+        starts.extend([45, 55, 65, 75, 85, 95, 105, 115, 125])
     return sorted({round(float(s), 2) for s in starts if 0 <= s <= length - WINDOW - 0.1})
 
 
@@ -130,7 +132,8 @@ def main():
                       "-o", str(local), src["url"]], timeout=270)
             length = duration(local)
             row["source_duration"] = round(length, 3)
-            for st in candidate_starts(float(src.get("start_seconds", 0)), length):
+            for st in candidate_starts(float(src.get("start_seconds", 0)), length,
+                                       extended=(key == "red_fox_hunt_to_play" and index == 10)):
                 try:
                     row["windows"].append(scan(local, st))
                 except Exception as e:
