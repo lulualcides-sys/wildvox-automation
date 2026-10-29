@@ -1,0 +1,213 @@
+{
+  "key": "annas_hummingbird_first_flight",
+  "title": "HOW ANNA'S HUMMINGBIRDS GROW FROM NEST TO PERCH",
+  "caption": "From nest care to adult perches and feeders: Anna's hummingbirds change fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox",
+  "config_sha256": "1137d007bd517b19033f0ac7b3e041fcc2b49aa603828874813786b4de865ec7",
+  "duration": 36.4,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.0,
+      "duration": 6.0,
+      "text": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest.",
+      "scene": "Real nestling practicing wingbeats in the nest, no invented first flight.",
+      "tags": [
+        "ah_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "FIRST WINGBEATS",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.0,
+      "end": 12.325,
+      "duration": 6.325,
+      "text": "While it is still small, an adult returns to the nest with food as the chick grows stronger.",
+      "scene": "Separate fledgling perched and adult feeding a nestling, not one continuous individual.",
+      "tags": [
+        "ah_setup"
+      ],
+      "story_role": "setup",
+      "overlay_label": "NEST CARE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 12.325,
+      "end": 19.325,
+      "duration": 7.0,
+      "text": "Adult Anna's hummingbirds often pause on thin branches between fast trips through their territory.",
+      "scene": "Two actual Anna's hummingbirds perched among branches, no unshown hovering claim.",
+      "tags": [
+        "ah_action"
+      ],
+      "story_role": "action",
+      "overlay_label": "BRANCH PERCH",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 19.325,
+      "end": 24.9,
+      "duration": 5.575,
+      "text": "At flowers and feeders, rapid wingbeats let them hover while taking a drink.",
+      "scene": "Real Anna's hummingbird drinking at a feeder; crop only embedded side padding.",
+      "tags": [
+        "ah_feed"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "HOVER TO DRINK",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 24.9,
+      "end": 29.474999999999998,
+      "duration": 4.575,
+      "text": "Even in wet weather, they may sit and wait between feeding trips.",
+      "scene": "Authentic Anna's hummingbird perched during wet weather; no synthetic rain.",
+      "tags": [
+        "ah_rain"
+      ],
+      "story_role": "twist",
+      "overlay_label": null,
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 29.474999999999998,
+      "end": 36.4,
+      "duration": 6.925,
+      "text": "From a tiny nestling to an adult perched high above, the same species changes quickly as it grows.",
+      "scene": "Archival adult Anna's hummingbird perched on bare branches; not the earlier nestling.",
+      "tags": [
+        "ah_payoff"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "GROWING UP",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20nearly%20fledged.webm",
+      "assetTitle": "Hummingbird nearly fledged.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_nearly_fledged.webm",
+      "tags": [
+        "ah_hook"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Dennis.insect.filmer",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20fledged.webm",
+      "assetTitle": "Anna's hummingbird fledged.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_fledged.webm",
+      "tags": [
+        "ah_setup"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Dennis.insect.filmer",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20Arizona.webm",
+      "assetTitle": "Anna's hummingbird (Calypte anna) in Arizona.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_Arizona.webm",
+      "tags": [
+        "ah_feed"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Larry & Teddy Page",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-29",
+      "crop_black_bars": true
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20California.webm",
+      "assetTitle": "Anna's hummingbird (Calypte anna) in California.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_California.webm",
+      "tags": [
+        "ah_action"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Danmation",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Annas%20hummingbird%20feeding.webm",
+      "assetTitle": "Annas hummingbird feeding.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Annas_hummingbird_feeding.webm",
+      "tags": [
+        "ah_setup"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Dennis.insect.filmer",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Calypte-anna.ogv",
+      "assetTitle": "Calypte-anna.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Calypte-anna.ogv",
+      "tags": [
+        "ah_action"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Flipzagging",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20the%20rain.webm",
+      "assetTitle": "Anna's hummingbird (Calypte anna) in the rain.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_the_rain.webm",
+      "tags": [
+        "ah_rain"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Love Star Production",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-10-29"
+    },
+    {
+      "type": "video",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20Hummingbird%207254.ogg",
+      "assetTitle": "Anna's Hummingbird 7254.ogg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_Hummingbird_7254.ogg",
+      "tags": [
+        "ah_payoff"
+      ],
+      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "author": "Chris Light",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_verified_at": "2026-10-29"
+    }
+  ],
+  "review_sheet": "annas_hummingbird_first_flight_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
