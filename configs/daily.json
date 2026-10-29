@@ -183,26 +183,16 @@
   },
   "grey_seal_autumn_pup_nursery": {
     "title": "WHY GREY SEAL PUPS START LIFE ON LAND",
-    "script": "Why are grey seals gathering along Britain's shores as October ends? Every autumn, females come ashore to give birth and nurse their young. A newborn pup arrives wrapped in thick, pale fur. The adults are strong swimmers, but newborns need time before they can follow. After a few weeks, pups shed their fluffy coat and begin spending more time in the sea. So this crowded shoreline is only the beginning: a nursery for future swimmers.",
+    "script": "Why are grey seals gathering along Britain's shores as October ends? Every autumn, females come ashore to give birth and nurse their young. A newborn pup arrives wrapped in thick, pale fur. That fluffy coat helps protect it on land while it grows. Before long, the pup sheds that coat and becomes ready for more time in the sea. So this crowded shoreline is only the beginning: a nursery for future swimmers.",
     "caption": "Grey seal pupping season is underway in Britain. These are archival images, not the 2026 birth. 🦭 #GreySeal #SealPups #Wildlife #WildVox",
     "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Skomer%20Seals.webm",
-        "assetTitle": "Skomer Seals.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Skomer_Seals.webm",
-        "tags": [
-          "gs_hook"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
-      },
       {
         "type": "video",
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monitoring%20grey%20seals%20in%20Pembrokeshire%2C%20Wales.webm",
         "assetTitle": "Monitoring grey seals in Pembrokeshire, Wales.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Monitoring_grey_seals_in_Pembrokeshire%2C_Wales.webm",
         "tags": [
-          "gs_setup"
+          "gs_hook"
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
       },
@@ -231,14 +221,18 @@
         "license_verified_at": "2026-10-29"
       },
       {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Halichoerus%20grypus%20in%20the%20Seaquarium%20of%20Saint%20Petersburg.ogv",
-        "assetTitle": "Halichoerus grypus in the Seaquarium of Saint Petersburg.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus_in_the_Seaquarium_of_Saint_Petersburg.ogv",
+        "type": "image",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Seal%20pup%2C%20Estonia.jpg",
+        "assetTitle": "Grey Seal pup, Estonia.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_Seal_pup%2C_Estonia.jpg",
         "tags": [
-          "gs_swim"
+          "gs_fur"
         ],
-        "license_note": "Authentic Halichoerus grypus aquarium footage in Wikimedia Commons species-video category; live commercial-license audit required before render. Do not claim wild setting."
+        "author": "Jaan Minakov",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "license_verified_at": "2026-10-29",
+        "license_note": "Original Commons page verified 2026-10-29; authentic 2018 grey seal pup in Estonia; archival still not current 2026 footage."
       },
       {
         "type": "video",
@@ -246,7 +240,7 @@
         "assetTitle": "Fokarium na Helu, 2016-07-28.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Fokarium_na_Helu%2C_2016-07-28.webm",
         "tags": [
-          "gs_adults"
+          "gs_swim"
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
       },
@@ -256,9 +250,19 @@
         "assetTitle": "Halichoerus grypus.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus.ogv",
         "tags": [
-          "gs_adults"
+          "gs_swim"
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Halichoerus%20grypus%20in%20the%20Seaquarium%20of%20Saint%20Petersburg.ogv",
+        "assetTitle": "Halichoerus grypus in the Seaquarium of Saint Petersburg.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus_in_the_Seaquarium_of_Saint_Petersburg.ogv",
+        "tags": [
+          "gs_payoff"
+        ],
+        "license_note": "Authentic Halichoerus grypus aquarium footage in Wikimedia Commons species-video category; live commercial-license audit required before render. Do not claim wild setting."
       },
       {
         "type": "video",
@@ -277,7 +281,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-daily-grey_seal_autumn_pup_nursery-narrative-v2-license-fix",
+    "revision": "2026-10-29-daily-grey_seal_autumn_pup_nursery-narrative-v3-license-audit",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -307,17 +311,17 @@
         "overlay_label": "WHITE COAT"
       },
       {
-        "text": "The adults are strong swimmers, but newborns need time before they can follow.",
-        "scene": "Real adult grey seal swimming and resting footage from two archival sources; do not portray these as the pictured pups.",
+        "text": "That fluffy coat helps protect it on land while it grows.",
+        "scene": "Separate verified 2018 grey seal pup photograph from Estonia; not 2026 footage.",
         "tags": [
-          "gs_adults"
+          "gs_fur"
         ],
         "story_role": "explanation",
-        "overlay_label": "GROWING UP"
+        "overlay_label": "WHITE FUR"
       },
       {
-        "text": "After a few weeks, pups shed their fluffy coat and begin spending more time in the sea.",
-        "scene": "Adult grey seal swimming in a documented aquarium, illustrative of mature aquatic life, not a time-lapse of pup molting.",
+        "text": "Before long, the pup sheds that coat and becomes ready for more time in the sea.",
+        "scene": "Real archival adult grey seal movements illustrate later aquatic life, not a filmed pup molt.",
         "tags": [
           "gs_swim"
         ],
@@ -325,7 +329,7 @@
       },
       {
         "text": "So this crowded shoreline is only the beginning: a nursery for future swimmers.",
-        "scene": "Real adult grey seal underwater near Skomer; do not claim this is the pictured pup.",
+        "scene": "Two separate archival adult grey seal swimming clips; never claim these are the photographed pup.",
         "tags": [
           "gs_payoff"
         ],
@@ -690,6 +694,20 @@
       },
       {
         "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees.webm",
+        "assetTitle": "Honeybees.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees.webm",
+        "tags": [
+          "hb_foragers"
+        ],
+        "author": "Dennis.insect.filmer",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_verified_at": "2026-10-29",
+        "license_note": "Commons file page shows Apis mellifera on flowers; CC BY-SA 4.0 and author recorded. Species/visual content still subject to frame review."
+      },
+      {
+        "type": "video",
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees%2001(js).webm",
         "assetTitle": "Honeybees 01(js).webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees_01(js).webm",
@@ -740,7 +758,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-daily-western_honeybee_hive_airflow-narrative-v1",
+    "revision": "2026-10-29-daily-western_honeybee_hive_airflow-narrative-v2-38-videos",
     "publication_hold": true,
     "visual_plan": [
       {
