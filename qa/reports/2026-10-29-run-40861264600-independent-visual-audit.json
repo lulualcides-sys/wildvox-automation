@@ -1,0 +1,96 @@
+{
+  "editorial_day": "2026-10-29",
+  "render_run_id": 40861264600,
+  "render_head": "cac7c81a67e68b455d4b4dcbca5e630899e5a0c8",
+  "config_blob": "2f217869a32b7181599ed57926cdb9733cb5eac6",
+  "main_sha_checked_before_write": "3d41bf8fa1132aea6f8871d6835167c309c3b4c0",
+  "inspection": "Independent download of all 5 latest-run ZIPs; all 5 *_review.jpg; all 40 *_source_XX_preview.jpg; 30 true MP4 narration-block midpoint frames; 7 additional near-static interval triplets; ffprobe; full-video FFmpeg fps=8,scale=320:-2,freezedetect=n=-40dB:d=1",
+  "technical_ci_result": "success under previous -45dB/180px filter, NOT editorial approval",
+  "independent_quality_pass": false,
+  "editorial_approved": false,
+  "licensing_approved": false,
+  "publication_hold": true,
+  "source_count_per_video": 8,
+  "narration_blocks_per_video": 6,
+  "source_url_uniqueness": "8/8 unique within each video; no original-byte audit of all 40 sources performed in this run",
+  "findings": {
+    "annas_hummingbird_first_flight": {
+      "duration": 36.6,
+      "sha256": "3b52f5279b6e7eee90eccbb7476efa9821b35f3708495a2ec5f1dc4662c19143",
+      "freeze_intervals_seconds": [
+        [
+          5.5,
+          6.5
+        ],
+        [
+          16.75,
+          18.25
+        ],
+        [
+          18.25,
+          19.25
+        ]
+      ],
+      "editorial": "Nestling opening visible; setup shot nearly motionless; action block shows mostly foliage and a tiny hummingbird; do not approve."
+    },
+    "caribou_reindeer_one_species": {
+      "duration": 36.325,
+      "sha256": "2796970cec641496431a9825b289bcc4046dd391f41802d927d85c7ee3096904",
+      "freeze_intervals_seconds": [
+        [
+          9.375,
+          10.5
+        ]
+      ],
+      "editorial": "Closer Canadian caribou hook corrected; North America block still shows small distant herd with near-static section; not approved."
+    },
+    "red_fox_hunt_to_play": {
+      "duration": 35.35,
+      "sha256": "68cfc1ea1e69f8d1eb2def737bf4f9af91f930d170639025ac7de7f02931735f",
+      "freeze_intervals_seconds": [
+        [
+          24,
+          25.375
+        ]
+      ],
+      "editorial": "Hunting and discarded-food shots narratively aligned, but first young-fox twist shot is a largely static perched fox and hook is distant."
+    },
+    "snow_leopard_jaw_skills": {
+      "duration": 33.95,
+      "sha256": "8a8b15712254961cfea8ab3ca8b766c3fcd2eb8ee48a870873db508d108e904d",
+      "freeze_intervals_seconds": [],
+      "editorial": "Cub payoff is now visible but small; dark, low-resolution chewing segment and legacy Snow Leopard eating.ogv species provenance still require clearance."
+    },
+    "western_honeybee_hive_airflow": {
+      "duration": 30.425,
+      "sha256": "3626a9789ae0fce9c75cbc81ab9a24de819b9678b878625fa00cb3934db0368e",
+      "freeze_intervals_seconds": [
+        [
+          13.125,
+          14.125
+        ],
+        [
+          17.875,
+          18.875
+        ]
+      ],
+      "editorial": "Hive and pollen footage present; two near-static flower/bee sections and a distant hive entrance remain."
+    }
+  },
+  "common": {
+    "resolution": "1080x1920",
+    "audio_present_all": true,
+    "ffmpeg_exit_code_all": 0,
+    "creator_and_license_metadata": "40/40 fields present in prior Commons audit; TikTok attribution delivery and CC BY-SA adaptation/platform compatibility not independently cleared",
+    "metricool_scheduled_posts": 0,
+    "metricool_tiktok_published_rows": 0,
+    "confirmed_metricool_post_ids": [],
+    "youtube_activity": "none initiated"
+  },
+  "next_actions": [
+    "Replace or re-seek near-static clips using preview-verified authentic motion; do not apply synthetic zoom or fabricated time-lapse.",
+    "Run new technical QA with 8fps/320px/-40dB detector and rerender only after concrete source corrections.",
+    "Reinspect all five new run JPGs, MP4s and credits; preserve all publication_hold=true until editorial and licensing approval.",
+    "Do not schedule TikTok or claim publication without real Metricool post IDs/status."
+  ]
+}
