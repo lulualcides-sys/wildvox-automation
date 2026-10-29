@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """WildVox rendered-MP4 technical QA; never grants editorial approval."""
 import argparse
+import hashlib
 import json
 import re
 import subprocess
@@ -39,6 +40,13 @@ def freeze_durations(path, duration):
     if len(starts) > len(ends):
         closed.append(max(0.0, float(duration) - float(starts[-1])))
     return closed
+
+
+def config_fingerprint(cfg):
+    """Hash the complete editorial/render config, not just source URLs."""
+    encoded = json.dumps(cfg, sort_keys=True, ensure_ascii=False,
+                         separators=(",", ":")).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()
 
 
 def sources_match(config_sources, rendered_sources):
@@ -103,6 +111,8 @@ def inspect(config, directory, day):
                 meta = json.loads(meta_path.read_text(encoding="utf-8"))
                 if meta.get("key") != key or meta.get("title") != cfg.get("title"):
                     bad.append("Rendered metadata identity differs from current daily config")
+                if meta.get("config_sha256") != config_fingerprint(cfg):
+                    bad.append("Rendered config fingerprint differs from current daily config")
                 if meta.get("caption") != cfg.get("caption"):
                     bad.append("Rendered caption differs from current daily config")
                 if not sources_match(sources, meta.get("sources") or []):
