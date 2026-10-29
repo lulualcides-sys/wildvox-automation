@@ -2,7 +2,7 @@
   "key": "western_honeybee_hive_airflow",
   "title": "THE BUSY TRAFFIC OUTSIDE A HONEYBEE HIVE",
   "caption": "Follow honeybees from flowers back to the busy hive entrance. Separate authentic archival clips, not one continuous journey. #Honeybee #Pollinators #Bees #WildVox Footage creators: Chixoy; The Nature Box; Alexanderboyes; Dennis.insect.filmer; Jerzystrzelecki; AnRo0002; BorekT. Original licenses: CC BY-SA 3.0, CC BY-SA 4.0, CC0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
-  "config_sha256": "f534286709f06394d6058e51c24174b495a8b45c35a362df44102653f157e2f5",
+  "config_sha256": "356248b1c1db99983c1f26be4a0d9212bb8d16394ddb3345e45f7b1ec01bb613",
   "duration": 30.43,
   "voice": "am_michael",
   "speed": 1.0,
@@ -41,7 +41,7 @@
       "end": 15.375,
       "duration": 5.475,
       "text": "Foragers land on blossoms and gather nectar and pollen to carry back.",
-      "scene": "Three separate genuine bee videos on blossoms.",
+      "scene": "Three distinct authentic bees at flowers, including active close yellow-flower footage, without simulated flight.",
       "tags": [
         "hb_foragers"
       ],
@@ -55,7 +55,7 @@
       "end": 19.75,
       "duration": 4.375,
       "text": "They may visit many flowers before making the return trip.",
-      "scene": "Another real honeybee visiting flowers, not footage of hive interior.",
+      "scene": "Separate authentic bee moving among small white flowers, not a hive-interior claim.",
       "tags": [
         "hb_moreflowers"
       ],
@@ -147,7 +147,8 @@
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "license_verified_at": "2026-10-29",
-      "license_note": "Commons file page shows Apis mellifera on flowers; CC BY-SA 4.0 and author recorded. Species/visual content still subject to frame review."
+      "license_note": "Original Honeybees.webm 30-35s shows active bees at yellow flowers; 2026-10-29 source-motion diagnostic 40885497107 320px freeze-free, paired authentic source frames reviewed.",
+      "start_seconds": 30
     },
     {
       "type": "video",
@@ -171,11 +172,12 @@
       "tags": [
         "hb_moreflowers"
       ],
-      "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+      "license_note": "Original Honeybee.webm 2-7s shows genuine bee flying to white blossoms; 2026-10-29 source-motion diagnostic 40885497107 320px freeze-free, paired frames reviewed.",
       "author": "Dennis.insect.filmer",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "license_verified_at": "2026-10-29"
+      "license_verified_at": "2026-10-29",
+      "start_seconds": 2
     },
     {
       "type": "video",
