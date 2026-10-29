@@ -89,14 +89,19 @@
         "license_verified_at": "2026-10-29"
       },
       {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20leopard%20in%20rock%20cavity.jpg",
-        "assetTitle": "Snow leopard in rock cavity.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_leopard_in_rock_cavity.jpg",
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20leopard%20in%20Ladakh.webm",
+        "assetTitle": "Snow leopard in Ladakh.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_leopard_in_Ladakh.webm",
         "tags": [
           "sl_rock"
         ],
-        "license_note": "Species photograph listed in Commons Panthera uncia category. Original-file commercial license and MIME MUST pass new live Commons API image audit before render; no unverified author/license claim."
+        "author": "Sanjay Khurana (video); Kevin MacLeod (original soundtrack removed)",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 20,
+        "license_note": "Independently previewed original 2012 wild snow leopard walking among Ladakh rocks at seconds 20/22/24. Original soundtrack removed. Archival footage; creator/changes credit delivery required."
       },
       {
         "type": "video",
@@ -119,7 +124,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-daily-snow_leopard_jaw_skills-narrative-v2-source-license-fix",
+    "revision": "2026-10-29-snow-leopard-moving-rock-video-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -159,7 +164,7 @@
       },
       {
         "text": "In the wild, snow leopards also need careful movement through steep, rocky terrain.",
-        "scene": "Authentic still photograph of snow leopard among rocks; not a film of hunting or feeding.",
+        "scene": "Actual archival wild snow leopard walking on rocky Ladakh terrain at source seconds 20-25, not a 2026 sighting.",
         "tags": [
           "sl_rock"
         ],
@@ -181,172 +186,10 @@
     "trend_evidence_published_date": "2026-10-23",
     "trend_evidence_note": "Snow Leopard Day on 2026-10-23; all footage is archival/captive and does not depict the 2026 event."
   },
-  "grey_seal_autumn_pup_nursery": {
-    "title": "WHY GREY SEAL PUPS START LIFE ON LAND",
-    "script": "Why are grey seals gathering along Britain's shores as October ends? Every autumn, females come ashore on beaches and rocky shores around the coast to give birth and nurse their young. A newborn pup arrives wrapped in thick, pale fur. That fluffy coat helps protect it on land while it grows. Before long, the pup sheds that coat and becomes ready for more time in the sea. So this crowded shoreline is only the beginning: a nursery for future swimmers.",
-    "caption": "Grey seal pupping season is underway in Britain. These are archival images, not the 2026 birth. 🦭 #GreySeal #SealPups #Wildlife #WildVox",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Monitoring%20grey%20seals%20in%20Pembrokeshire%2C%20Wales.webm",
-        "assetTitle": "Monitoring grey seals in Pembrokeshire, Wales.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Monitoring_grey_seals_in_Pembrokeshire%2C_Wales.webm",
-        "tags": [
-          "gs_hook"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20seal%20(Halichoerus%20grypus)%20near%20Lundy.webm",
-        "assetTitle": "Grey seal (Halichoerus grypus) near Lundy.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_seal_(Halichoerus_grypus)_near_Lundy.webm",
-        "tags": [
-          "gs_setup"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
-      },
-      {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20seal%20pups.jpg",
-        "assetTitle": "Grey seal pups.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_seal_pups.jpg",
-        "tags": [
-          "gs_pup"
-        ],
-        "license_note": "Original Commons file page and CC BY 4.0 commercial reuse license checked 2026-10-29; archival photograph, not current 2026 footage.",
-        "author": "Jaan Minakov",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "image",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20Seal%20pup%2C%20Estonia.jpg",
-        "assetTitle": "Grey Seal pup, Estonia.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_Seal_pup%2C_Estonia.jpg",
-        "tags": [
-          "gs_fur"
-        ],
-        "author": "Jaan Minakov",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-10-29",
-        "license_note": "Original Commons page verified 2026-10-29; authentic 2018 grey seal pup in Estonia; archival still not current 2026 footage."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fokarium%20na%20Helu%2C%202016-07-28.webm",
-        "assetTitle": "Fokarium na Helu, 2016-07-28.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fokarium_na_Helu%2C_2016-07-28.webm",
-        "tags": [
-          "gs_swim"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Halichoerus%20grypus.ogv",
-        "assetTitle": "Halichoerus grypus.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus.ogv",
-        "tags": [
-          "gs_swim"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Halichoerus%20grypus%20in%20the%20Seaquarium%20of%20Saint%20Petersburg.ogv",
-        "assetTitle": "Halichoerus grypus in the Seaquarium of Saint Petersburg.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus_in_the_Seaquarium_of_Saint_Petersburg.ogv",
-        "tags": [
-          "gs_payoff"
-        ],
-        "license_note": "Authentic Halichoerus grypus aquarium footage in Wikimedia Commons species-video category; live commercial-license audit required before render. Do not claim wild setting."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seal%20playing%20with%20NRW%20diver%20near%20Skomer%20-%20Morlo%20yn%20chwarae%20gyda%20deifar%20CNC%20yn%20Sgomer.webm",
-        "assetTitle": "Seal playing with NRW diver near Skomer - Morlo yn chwarae gyda deifar CNC yn Sgomer.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Seal_playing_with_NRW_diver_near_Skomer_-_Morlo_yn_chwarae_gyda_deifar_CNC_yn_Sgomer.webm",
-        "tags": [
-          "gs_payoff"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-29-grey-seal-narration-duration-repair-v4",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Why are grey seals gathering along Britain's shores as October ends?",
-        "scene": "Archival grey seals on the shore near Skomer; do not imply 2026 footage.",
-        "tags": [
-          "gs_hook"
-        ],
-        "story_role": "hook",
-        "overlay_label": "PUP SEASON"
-      },
-      {
-        "text": "Every autumn, females come ashore on beaches and rocky shores around the coast to give birth and nurse their young.",
-        "scene": "Authentic archival grey seals in coastal waters and on shore; illustrative footage, not a filmed 2026 birth.",
-        "tags": [
-          "gs_setup"
-        ],
-        "story_role": "setup"
-      },
-      {
-        "text": "A newborn pup arrives wrapped in thick, pale fur.",
-        "scene": "Verified 2018 grey seal pup photograph from Estonia; not footage of a 2026 birth.",
-        "tags": [
-          "gs_pup"
-        ],
-        "story_role": "action",
-        "overlay_label": "WHITE COAT"
-      },
-      {
-        "text": "That fluffy coat helps protect it on land while it grows.",
-        "scene": "Separate verified 2018 grey seal pup photograph from Estonia; not 2026 footage.",
-        "tags": [
-          "gs_fur"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "WHITE FUR"
-      },
-      {
-        "text": "Before long, the pup sheds that coat and becomes ready for more time in the sea.",
-        "scene": "Real archival adult grey seal movements illustrate later aquatic life, not a filmed pup molt.",
-        "tags": [
-          "gs_swim"
-        ],
-        "story_role": "twist"
-      },
-      {
-        "text": "So this crowded shoreline is only the beginning: a nursery for future swimmers.",
-        "scene": "Two separate archival adult grey seal swimming clips; never claim these are the photographed pup.",
-        "tags": [
-          "gs_payoff"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "FUTURE SWIMMER"
-      }
-    ],
-    "trend_priority": true,
-    "trend_evidence_url": "https://gi-grimsby.co.uk/2026/10/27/first-seal-pup-of-2026-born-at-donna-nook-as-pupping-season-begins/",
-    "trend_evidence_published_date": "2026-10-27",
-    "trend_evidence_secondary_url": "https://www.nationaltrust.org.uk/visit/norfolk/blakeney-national-nature-reserve/grey-seals-on-blakeney-point",
-    "trend_evidence_note": "First 2026 Donna Nook pup reportedly born 2026-10-24, published 2026-10-27. Script avoids claiming archival clips are from Donna Nook or 2026."
-  },
   "annas_hummingbird_first_flight": {
-    "title": "HOW ANNA'S HUMMINGBIRDS LEARN TO FLY",
-    "script": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest. Those early practice sessions build coordination for a life spent moving between perches and flowers. Once grown, it darts between branches and can hover almost in place. Rapid wingbeats let adults pause in the air while reaching nectar. Rain adds another challenge, but the birds still need to find food. The nestling's first wingbeats are a step toward the precision of an adult hummingbird.",
-    "caption": "From a nestling's wing exercises to an adult's aerial precision. 🐦 #AnnasHummingbird #Birds #Nature #WildVox",
+    "title": "HOW ANNA'S HUMMINGBIRDS GROW FROM NEST TO PERCH",
+    "script": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest. While it is still small, an adult returns to the nest with food as the chick grows stronger. Adult Anna's hummingbirds often pause on thin branches between fast trips through their territory. At flowers and feeders, rapid wingbeats let them hover while taking a drink. Even in wet weather, they may sit and wait between feeding trips. From a tiny nestling to an adult perched high above, the same species changes quickly as it grows.",
+    "caption": "From nest care to adult perches and feeders: Anna's hummingbirds change fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox",
     "sources": [
       {
         "type": "video",
@@ -359,7 +202,7 @@
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
         "author": "Dennis.insect.filmer",
         "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "license_verified_at": "2026-10-29"
       },
       {
@@ -370,7 +213,11 @@
         "tags": [
           "ah_setup"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Dennis.insect.filmer",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -378,9 +225,14 @@
         "assetTitle": "Anna's hummingbird (Calypte anna) in Arizona.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_Arizona.webm",
         "tags": [
-          "ah_setup"
+          "ah_feed"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Larry & Teddy Page",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-29",
+        "crop_black_bars": true
       },
       {
         "type": "video",
@@ -390,7 +242,11 @@
         "tags": [
           "ah_action"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Danmation",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -398,9 +254,13 @@
         "assetTitle": "Annas hummingbird feeding.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Annas_hummingbird_feeding.webm",
         "tags": [
-          "ah_feed"
+          "ah_setup"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Dennis.insect.filmer",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -408,10 +268,13 @@
         "assetTitle": "Calypte-anna.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Calypte-anna.ogv",
         "tags": [
-          "ah_feed"
+          "ah_action"
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Flipzagging"
+        "author": "Flipzagging",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -421,7 +284,11 @@
         "tags": [
           "ah_rain"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Love Star Production",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -431,7 +298,11 @@
         "tags": [
           "ah_payoff"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Chris Light",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_verified_at": "2026-10-29"
       }
     ],
     "min_unique_videos": 6,
@@ -440,12 +311,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-daily-annas_hummingbird_first_flight-narrative-v1",
+    "revision": "2026-10-29-hummingbird-nest-and-feeder-semantic-fix-v3",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "This tiny Anna's hummingbird is beating its wings before it can even leave the nest.",
-        "scene": "Real nestlings practicing wingbeats in verified 2025 footage.",
+        "scene": "Real nestling practicing wingbeats in the nest, no invented first flight.",
         "tags": [
           "ah_hook"
         ],
@@ -453,47 +324,48 @@
         "overlay_label": "FIRST WINGBEATS"
       },
       {
-        "text": "Those early practice sessions build coordination for a life spent moving between perches and flowers.",
-        "scene": "Anna's fledgling video plus distinct adult portrait, not a staged wild nest.",
+        "text": "While it is still small, an adult returns to the nest with food as the chick grows stronger.",
+        "scene": "Separate fledgling perched and adult feeding a nestling, not one continuous individual.",
         "tags": [
           "ah_setup"
         ],
-        "story_role": "setup"
+        "story_role": "setup",
+        "overlay_label": "NEST CARE"
       },
       {
-        "text": "Once grown, it darts between branches and can hover almost in place.",
-        "scene": "Actual adult Anna's hummingbird moving and preening in California; avoid claiming this exact shot proves hovering.",
+        "text": "Adult Anna's hummingbirds often pause on thin branches between fast trips through their territory.",
+        "scene": "Two actual Anna's hummingbirds perched among branches, no unshown hovering claim.",
         "tags": [
           "ah_action"
         ],
         "story_role": "action",
-        "overlay_label": "TINY ACROBAT"
+        "overlay_label": "BRANCH PERCH"
       },
       {
-        "text": "Rapid wingbeats let adults pause in the air while reaching nectar.",
-        "scene": "Species-confirmed Anna's feeding footage and male iridescent head portrait.",
+        "text": "At flowers and feeders, rapid wingbeats let them hover while taking a drink.",
+        "scene": "Real Anna's hummingbird drinking at a feeder; crop only embedded side padding.",
         "tags": [
           "ah_feed"
         ],
         "story_role": "explanation",
-        "overlay_label": "HOVER TO FEED"
+        "overlay_label": "HOVER TO DRINK"
       },
       {
-        "text": "Rain adds another challenge, but the birds still need to find food.",
-        "scene": "Authentic Anna's hummingbird filmed in rain; no fabricated rain effects.",
+        "text": "Even in wet weather, they may sit and wait between feeding trips.",
+        "scene": "Authentic Anna's hummingbird perched during wet weather; no synthetic rain.",
         "tags": [
           "ah_rain"
         ],
         "story_role": "twist"
       },
       {
-        "text": "The nestling's first wingbeats are a step toward the precision of an adult hummingbird.",
-        "scene": "Independent adult Anna's hummingbird clip; closes growth-to-adult story.",
+        "text": "From a tiny nestling to an adult perched high above, the same species changes quickly as it grows.",
+        "scene": "Archival adult Anna's hummingbird perched on bare branches; not the earlier nestling.",
         "tags": [
           "ah_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "FLIGHT READY"
+        "overlay_label": "GROWING UP"
       }
     ]
   },
@@ -510,7 +382,11 @@
         "tags": [
           "cr_hook"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -520,7 +396,11 @@
         "tags": [
           "cr_hook"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC)",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -530,7 +410,11 @@
         "tags": [
           "cr_north"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Hedwig Storch",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -540,7 +424,12 @@
         "tags": [
           "cr_europe"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation. Seek to actual reindeer after archival 2013 road/title intro.",
+        "author": "Manfred Werner - Tsui",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 60
       },
       {
         "type": "video",
@@ -550,7 +439,12 @@
         "tags": [
           "cr_europe"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation. Crop encoded black bars only; preserve full original animal framing.",
+        "author": "Superchilum",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-29",
+        "crop_black_bars": true
       },
       {
         "type": "video",
@@ -560,7 +454,12 @@
         "tags": [
           "cr_adapt"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation. Crop encoded black bars only; preserve full original animal framing.",
+        "author": "Superchilum",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-29",
+        "crop_black_bars": true
       },
       {
         "type": "video",
@@ -570,7 +469,11 @@
         "tags": [
           "cr_zoo"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -580,7 +483,11 @@
         "tags": [
           "cr_payoff"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-29"
       }
     ],
     "min_unique_videos": 6,
@@ -589,7 +496,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-daily-caribou_reindeer_one_species-narrative-v1",
+    "revision": "2026-10-29-caribou-black-padding-and-seek-fix-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -647,9 +554,9 @@
     ]
   },
   "western_honeybee_hive_airflow": {
-    "title": "WHY HONEY BEES FAN THEIR HIVES",
-    "script": "Why does a honeybee hive need its own ventilation crew? While some western honey bees visit flowers, others stay behind in the crowded nest. Foragers collect pollen and nectar, then return with supplies for the colony. Inside the hive, developing bees and stored nectar need suitable heat and humidity. So certain workers stand near the entrance and beat their wings without taking off. That airflow helps cool the nest and remove moisture as nectar becomes honey.",
-    "caption": "Honeybees have a built-in ventilation crew. 🐝 #Honeybee #Bees #NatureScience #WildVox",
+    "title": "THE BUSY TRAFFIC OUTSIDE A HONEYBEE HIVE",
+    "script": "Why does a honeybee hive look so busy from the outside? Some workers visit flowers to collect food, while others remain closer to home. Foragers land on blossoms and gather nectar and pollen to carry back. They may visit many flowers before making the return trip. Back at the hive, bees move through a narrow entrance in a steady stream. That busy traffic connects the flowers outside to the colony waiting within.",
+    "caption": "Follow honeybees from flowers back to the busy hive entrance. Separate authentic archival clips, not one continuous journey. #Honeybee #Pollinators #Bees #WildVox",
     "sources": [
       {
         "type": "video",
@@ -659,7 +566,11 @@
         "tags": [
           "hb_hook"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Chixoy",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -670,7 +581,10 @@
           "hb_setup"
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "The Nature Box"
+        "author": "The Nature Box",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -680,7 +594,11 @@
         "tags": [
           "hb_setup"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Alexanderboyes",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -690,7 +608,11 @@
         "tags": [
           "hb_foragers"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Aphagstrom",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -702,7 +624,7 @@
         ],
         "author": "Dennis.insect.filmer",
         "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "license_verified_at": "2026-10-29",
         "license_note": "Commons file page shows Apis mellifera on flowers; CC BY-SA 4.0 and author recorded. Species/visual content still subject to frame review."
       },
@@ -715,7 +637,10 @@
           "hb_foragers"
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Jerzystrzelecki"
+        "author": "Jerzystrzelecki",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -723,9 +648,13 @@
         "assetTitle": "Honeybee.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybee.webm",
         "tags": [
-          "hb_inside"
+          "hb_moreflowers"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Dennis.insect.filmer",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -735,7 +664,11 @@
         "tags": [
           "hb_entrance"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation."
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "AnRo0002",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_verified_at": "2026-10-29"
       },
       {
         "type": "video",
@@ -743,12 +676,12 @@
         "assetTitle": "Honey bees fanning (1).webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_fanning_(1).webm",
         "tags": [
-          "hb_fanning"
+          "hb_payoff"
         ],
         "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
         "author": "BorekT",
         "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "license_verified_at": "2026-10-29"
       }
     ],
@@ -758,12 +691,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-daily-western_honeybee_hive_airflow-narrative-v2-38-videos",
+    "revision": "2026-10-29-honeybee-true-traffic-story-v3",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does a honeybee hive need its own ventilation crew?",
-        "scene": "Real western honey bees entering and leaving a hive, not an invented mechanical fan.",
+        "text": "Why does a honeybee hive look so busy from the outside?",
+        "scene": "Real exterior beehive entrance with bees.",
         "tags": [
           "hb_hook"
         ],
@@ -771,16 +704,16 @@
         "overlay_label": "HIVE AIRFLOW"
       },
       {
-        "text": "While some western honey bees visit flowers, others stay behind in the crowded nest.",
-        "scene": "Western honey bee species footage and pollen gathering on real flowers.",
+        "text": "Some workers visit flowers to collect food, while others remain closer to home.",
+        "scene": "Authentic honeybees foraging on flowers.",
         "tags": [
           "hb_setup"
         ],
         "story_role": "setup"
       },
       {
-        "text": "Foragers collect pollen and nectar, then return with supplies for the colony.",
-        "scene": "Authentic bee pollination and real honeybee activity; no staged delivery claim.",
+        "text": "Foragers land on blossoms and gather nectar and pollen to carry back.",
+        "scene": "Three separate genuine bee videos on blossoms.",
         "tags": [
           "hb_foragers"
         ],
@@ -788,30 +721,224 @@
         "overlay_label": "FORAGING"
       },
       {
-        "text": "Inside the hive, developing bees and stored nectar need suitable heat and humidity.",
-        "scene": "Authentic western honey bee close-up, illustrative of colony workers.",
+        "text": "They may visit many flowers before making the return trip.",
+        "scene": "Another real honeybee visiting flowers, not footage of hive interior.",
         "tags": [
-          "hb_inside"
+          "hb_moreflowers"
         ],
-        "story_role": "explanation"
+        "story_role": "explanation",
+        "overlay_label": "MORE FLOWERS"
       },
       {
-        "text": "So certain workers stand near the entrance and beat their wings without taking off.",
-        "scene": "Hive entrance footage; do not claim every visible bee is fanning until final source QA.",
+        "text": "Back at the hive, bees move through a narrow entrance in a steady stream.",
+        "scene": "Exterior hive boxes and entrances with bee movement, not an unshown wing-fanning claim.",
         "tags": [
           "hb_entrance"
         ],
-        "story_role": "twist"
+        "story_role": "twist",
+        "overlay_label": "BACK TO THE HIVE"
       },
       {
-        "text": "That airflow helps cool the nest and remove moisture as nectar becomes honey.",
-        "scene": "Verified authentic footage of Apis mellifera workers fanning at hive entrance.",
+        "text": "That busy traffic connects the flowers outside to the colony waiting within.",
+        "scene": "Close genuine bee traffic at the hive landing board; no claim that visible wings are fanning.",
         "tags": [
-          "hb_fanning"
+          "hb_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "LIVING FANS"
+        "overlay_label": "FLOWER TO HIVE"
       }
     ]
+  },
+  "red_fox_hunt_to_play": {
+    "title": "HOW RED FOXES HUNT, SCAVENGE, AND LEARN",
+    "script": "A red fox can turn an ordinary patch of grass into a hunting ground. It slows down, listens for movement, and watches for the right moment to approach. Sometimes a mouse is the prize, but a fox does not depend on one kind of meal. In towns, a hungry fox may even investigate discarded takeout. Yes, really. Young foxes start learning by watching and exploring the world around their den. Then play turns into practice: every chase and tumble helps prepare a future hunter.",
+    "caption": "Red foxes hunt, sometimes investigate human leftovers, and practice through play. Separate archival clips; none claimed as 2026 field footage. #RedFox #FoxKits #Wildlife #WildVox",
+    "sources": [
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20looking%20for%20a%20mouse.webm",
+        "assetTitle": "Red fox (Vulpes vulpes) looking for a mouse.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_(Vulpes_vulpes)_looking_for_a_mouse.webm",
+        "tags": [
+          "rf_hook"
+        ],
+        "author": "Lubo Ondrasko",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 5,
+        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20hunting.webm",
+        "assetTitle": "Red fox hunting.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_hunting.webm",
+        "tags": [
+          "rf_setup"
+        ],
+        "author": "Scarabinol",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 3,
+        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20catches%20a%20mouse.webm",
+        "assetTitle": "Red fox catches a mouse.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_catches_a_mouse.webm",
+        "tags": [
+          "rf_action"
+        ],
+        "author": "J Tee",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 5,
+        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Fox%20eating%20KFC.webm",
+        "assetTitle": "Red Fox eating KFC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Fox_eating_KFC.webm",
+        "tags": [
+          "rf_explain"
+        ],
+        "author": "Peter.shaman",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 1,
+        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20cubs%20(Vulpes%20vulpes).ogv",
+        "assetTitle": "Red fox cubs (Vulpes vulpes).ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_cubs_(Vulpes_vulpes).ogv",
+        "tags": [
+          "rf_twist"
+        ],
+        "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 0,
+        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20kit.webm",
+        "assetTitle": "Red fox (Vulpes vulpes) kit.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_(Vulpes_vulpes)_kit.webm",
+        "tags": [
+          "rf_twist"
+        ],
+        "author": "Lubo Ondrasko",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 3,
+        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fox%20cubs%20playing%20in%20an%20English%20garden.webm",
+        "assetTitle": "Fox cubs playing in an English garden.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fox_cubs_playing_in_an_English_garden.webm",
+        "tags": [
+          "rf_payoff"
+        ],
+        "author": "Alexis Markwick",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 4,
+        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+      },
+      {
+        "type": "video",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20red%20foxes%20playing.webm",
+        "assetTitle": "Young red foxes playing.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_red_foxes_playing.webm",
+        "tags": [
+          "rf_payoff"
+        ],
+        "author": "Pink Bee",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 2,
+        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+      }
+    ],
+    "min_unique_videos": 8,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-29-red-fox-replaces-unrenderable-grey-seal-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "A red fox can turn an ordinary patch of grass into a hunting ground.",
+        "scene": "Actual red fox searching grassy ground; no fabricated pounce.",
+        "tags": [
+          "rf_hook"
+        ],
+        "story_role": "hook",
+        "overlay_label": "HUNTING GROUND"
+      },
+      {
+        "text": "It slows down, listens for movement, and watches for the right moment to approach.",
+        "scene": "Separate real red fox scanning meadow for prey; subject may be distant.",
+        "tags": [
+          "rf_setup"
+        ],
+        "story_role": "setup",
+        "overlay_label": "LISTEN FIRST"
+      },
+      {
+        "text": "Sometimes a mouse is the prize, but a fox does not depend on one kind of meal.",
+        "scene": "Real red fox hunting on snow; mouse catch not asserted as visibly captured in every shot.",
+        "tags": [
+          "rf_action"
+        ],
+        "story_role": "action",
+        "overlay_label": "MOUSE HUNTER"
+      },
+      {
+        "text": "In towns, a hungry fox may even investigate discarded takeout. Yes, really.",
+        "scene": "Authentic fox investigating discarded takeout packaging, no endorsement of feeding wildlife.",
+        "tags": [
+          "rf_explain"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "YES, TAKEOUT"
+      },
+      {
+        "text": "Young foxes start learning by watching and exploring the world around their den.",
+        "scene": "USFWS archival red fox cub in grass and a separate young kit perched in woodland.",
+        "tags": [
+          "rf_twist"
+        ],
+        "story_role": "twist",
+        "overlay_label": "YOUNG EXPLORERS"
+      },
+      {
+        "text": "Then play turns into practice: every chase and tumble helps prepare a future hunter.",
+        "scene": "Two different authentic recordings of young red foxes playing in gardens.",
+        "tags": [
+          "rf_payoff"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "PLAY = PRACTICE"
+      }
+    ],
+    "trend_priority": false
   }
 }
