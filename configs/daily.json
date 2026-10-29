@@ -115,7 +115,8 @@
         "author": "MatthiasKabel",
         "license": "CC BY-SA 3.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 0
       }
     ],
     "min_unique_videos": 6,
@@ -124,7 +125,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-snow-leopard-caption-factual-v4",
+    "revision": "2026-10-29-snow-leopard-cubs-visible-start-v5",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -173,7 +174,7 @@
       },
       {
         "text": "Young cubs begin practicing the biting, gripping, and coordination that adulthood will demand.",
-        "scene": "Real snow leopard cubs at Salzburg Zoo playing; closes the story with early-life practice, not wild footage.",
+        "scene": "Real cubs visible near the Salzburg Zoo rocky enclosure at the beginning of the authentic clip; no unsupported claim of a specific bite being shown.",
         "tags": [
           "sl_cubs"
         ],
@@ -187,9 +188,9 @@
     "trend_evidence_note": "Snow Leopard Day on 2026-10-23; all footage is archival/captive and does not depict the 2026 event."
   },
   "annas_hummingbird_first_flight": {
-    "title": "HOW ANNA'S HUMMINGBIRDS GROW FROM NEST TO PERCH",
+    "title": "HUMMINGBIRDS: FROM NEST TO FLIGHT",
     "script": "This tiny hummingbird is beating its wings before it can even leave the nest. While it is still small, an adult returns to the nest with food as the chick grows stronger. Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory. At feeders, rapid wingbeats bring them in, and they may perch to take a drink. Even in wet weather, they may sit and wait between feeding trips. From a tiny nestling to hummingbirds hovering at flowers, wing skills grow fast.",
-    "caption": "From first wingbeats in the nest to hovering at flowers: Anna's hummingbirds grow fast. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox Footage creators: Dennis.insect.filmer; Larry & Teddy Page; Danmation; Rishiraj Sahoo; Love Star Production; Mike's Birds. Original licenses: CC BY-SA 4.0, CC BY 2.0, CC BY 3.0, CC BY-SA 3.0, CC0, CC BY-SA 2.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
+    "caption": "From a hummingbird nestling practicing wingbeats to adult Anna's hummingbirds at flowers: separate archival birds, not a verified same-species life story. Separate archival birds, not one continuous life story. #AnnasHummingbird #Birds #Wildlife #WildVox Footage creators: Dennis.insect.filmer; Larry & Teddy Page; Danmation; Rishiraj Sahoo; Love Star Production; Mike's Birds. Original licenses: CC BY-SA 4.0, CC BY 2.0, CC BY 3.0, CC BY-SA 3.0, CC0, CC BY-SA 2.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
     "sources": [
       {
         "type": "video",
@@ -315,7 +316,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-hummingbird-species-age-accuracy-v6",
+    "revision": "2026-10-29-hummingbird-generic-nestling-title-v7",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -382,18 +383,18 @@
     "sources": [
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porcupine%20caribou%20(Rangifer%20tarandus%20granti)%20in%20Alaska.ogv",
-        "assetTitle": "Porcupine caribou (Rangifer tarandus granti) in Alaska.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Porcupine_caribou_(Rangifer_tarandus_granti)_in_Alaska.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MountRobsonPark-Rangifer%20tarandus-KanadischesKaribu.ogv",
+        "assetTitle": "MountRobsonPark-Rangifer tarandus-KanadischesKaribu.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:MountRobsonPark-Rangifer_tarandus-KanadischesKaribu.ogv",
         "tags": [
           "cr_hook"
         ],
-        "license_note": "Original 57.5s USFWS public-domain Alaska caribou source independently previewed at 15/30/45s. At 30s a close visible adult walks across tundra, avoiding initial tiny distant herd; start seek 29s, rerender and visually confirm.",
-        "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
-        "license": "Public domain",
-        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "author": "Hedwig Storch",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
         "license_verified_at": "2026-10-29",
-        "start_seconds": 0
+        "start_seconds": 5.2
       },
       {
         "type": "video",
@@ -411,17 +412,18 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MountRobsonPark-Rangifer%20tarandus-KanadischesKaribu.ogv",
-        "assetTitle": "MountRobsonPark-Rangifer tarandus-KanadischesKaribu.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:MountRobsonPark-Rangifer_tarandus-KanadischesKaribu.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porcupine%20caribou%20(Rangifer%20tarandus%20granti)%20in%20Alaska.ogv",
+        "assetTitle": "Porcupine caribou (Rangifer tarandus granti) in Alaska.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Porcupine_caribou_(Rangifer_tarandus_granti)_in_Alaska.ogv",
         "tags": [
           "cr_north"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Hedwig Storch",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29"
+        "license_note": "Original 57.5s USFWS public-domain Alaska caribou source independently previewed at 15/30/45s. At 30s a close visible adult walks across tundra, avoiding initial tiny distant herd; start seek 29s, rerender and visually confirm.",
+        "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 0
       },
       {
         "type": "video",
@@ -503,27 +505,27 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-caribou-close-river-source-v5",
+    "revision": "2026-10-29-caribou-closer-hook-source-reorder-v6",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species.",
-        "scene": "Real North American caribou from Alaska original seconds 29–36, visibly closer animal, followed by distinct second caribou source; no zoo claim.",
+        "scene": "Authentic close caribou grazing in Mount Robson Park, Canada, followed by a distinct Alaska herd clip; no continuous migration implied.",
         "tags": [
           "cr_hook"
         ],
         "story_role": "hook",
         "overlay_label": "TWO NAMES",
-        "scene_intent": "Actual Alaska caribou by river at early original source seconds, then a separate authentic herd video; no captive claim."
+        "scene_intent": "Begin with a clearly visible caribou in Mount Robson Park at original source ~5.2s, then a separate Alaska herd shot."
       },
       {
         "text": "Across North America, these northern deer are usually called caribou.",
-        "scene": "Authentic caribou in Mount Robson Park, Canada.",
+        "scene": "Authentic Alaska caribou at a riverbank; this is a separate source from the hook.",
         "tags": [
           "cr_north"
         ],
         "story_role": "setup",
-        "scene_intent": "Single real caribou at Mount Robson Park, Canada; no false herd claim."
+        "scene_intent": "North American caribou at the Alaska riverbank, no false single Mount Robson claim."
       },
       {
         "text": "In Europe and Asia, the name reindeer is more common, even when animals roam freely.",
