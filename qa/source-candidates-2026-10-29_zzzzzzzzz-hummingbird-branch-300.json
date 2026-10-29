@@ -1,0 +1,23 @@
+{
+  "day": "2026-10-29",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "93e9f81872e60109ae5526404710427ec350350a",
+  "current_config_blob_sha": "0ca99204661fe468615b738bdd0e59fc356b9e75",
+  "editorial_status": "SOURCE_ONLY_ANNA_300S_MOTION_CHECK",
+  "note": "At original 300s Anna's hummingbird visibly moving, whereas original 0–4s produced a 1.0s static freeze in new render 40839896783. Inspect 296/300/304 before changing source seek; no publication.",
+  "candidates": [
+    {
+      "for_key": "annas_hummingbird_first_flight",
+      "target_block": "ah_action source3 close perched bird movement 296–304s",
+      "title": "Anna's hummingbird (Calypte anna) in California.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna%27s_hummingbird_(Calypte_anna)_in_California.webm",
+      "species": "Calypte anna",
+      "status": "CANDIDATE_UNREVIEWED",
+      "sample_seconds": [
+        296,
+        300,
+        304
+      ]
+    }
+  ]
+}
