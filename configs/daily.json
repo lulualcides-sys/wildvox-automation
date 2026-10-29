@@ -215,11 +215,12 @@
         "tags": [
           "ah_setup"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "license_note": "Original Anna's hummingbird fledged.webm preview at 17/19/21s shows active fledgling movement and adult arrival; 2026-10-29 source-motion diagnostic 40885497107 confirms 16-21s free of >=1s near-static intervals. Separate archival individuals.",
         "author": "Dennis.insect.filmer",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 16
       },
       {
         "type": "video",
@@ -238,18 +239,18 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20California.webm",
-        "assetTitle": "Anna's hummingbird (Calypte anna) in California.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_California.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20at%20Flower%20in%20California.webm",
+        "assetTitle": "Hummingbird at Flower in California.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_at_Flower_in_California.webm",
         "tags": [
           "ah_action"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Danmation",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "author": "Mike's Birds",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
         "license_verified_at": "2026-10-29",
-        "start_seconds": 300
+        "start_seconds": 0.5,
+        "license_note": "Original 2013 juvenile Anna's hummingbird at flower in Riverside, California, from Mike's Birds Flickr, Commons license reviewed 2015. Independently previewed real hovering at 1.2/5.1/8.7s. Archival, separate bird; credit original author and adaptations."
       },
       {
         "type": "video",
@@ -271,7 +272,7 @@
         "assetTitle": "Hummingbird.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird.ogv",
         "tags": [
-          "ah_action"
+          "ah_payoff"
         ],
         "author": "Rishiraj Sahoo",
         "license": "CC BY-SA 3.0",
@@ -296,18 +297,18 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20at%20Flower%20in%20California.webm",
-        "assetTitle": "Hummingbird at Flower in California.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_at_Flower_in_California.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20California.webm",
+        "assetTitle": "Anna's hummingbird (Calypte anna) in California.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_California.webm",
         "tags": [
-          "ah_payoff"
+          "ah_action"
         ],
-        "author": "Mike's Birds",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "license_note": "Original California Anna's hummingbird in lemon tree; source-motion diagnostic 40885497107 verifies 310-315s free of >=1s near-static intervals; subject remains small and perched, not hovering. Editorial inspection still required.",
+        "author": "Danmation",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "license_verified_at": "2026-10-29",
-        "start_seconds": 0.5,
-        "license_note": "Original 2013 juvenile Anna's hummingbird at flower in Riverside, California, from Mike's Birds Flickr, Commons license reviewed 2015. Independently previewed real hovering at 1.2/5.1/8.7s. Archival, separate bird; credit original author and adaptations."
+        "start_seconds": 310
       }
     ],
     "min_unique_videos": 6,
@@ -316,7 +317,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-hummingbird-caption-clarity-v8",
+    "revision": "2026-10-29-hummingbird-source-motion-payoff-v9",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -340,7 +341,7 @@
       },
       {
         "text": "Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory.",
-        "scene": "First authentic hummingbird hovering at red flowers, then a separate verified Anna's hummingbird moving on a lemon-tree branch; do not claim the generic flower bird is Anna's.",
+        "scene": "Authentic hummingbird hovering at red flower, followed by a separate Anna's hummingbird moving/perching in lemon tree; no same-individual claim.",
         "tags": [
           "ah_action"
         ],
@@ -366,7 +367,7 @@
       },
       {
         "text": "From a tiny nestling to hummingbirds hovering at flowers, wing skills grow fast.",
-        "scene": "Independent archival juvenile Anna's hummingbird hovering at red flowers, not the same nestling.",
+        "scene": "Separate archival juvenile Anna's hummingbird hovering at red flowers from Hummingbird.ogv; not the opening nestling.",
         "tags": [
           "ah_payoff"
         ],
@@ -404,11 +405,12 @@
         "tags": [
           "cr_north"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "license_note": "USFWS meadow caribou at original seconds 6-8 shows one closer walking animal rather than distant herd; 2026-10-29 320px source-motion diagnostic 40885497107 confirms 5-10s free of >=1s near-static intervals.",
         "author": "U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC)",
         "license": "Public domain",
         "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 5
       },
       {
         "type": "video",
@@ -505,7 +507,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-caribou-closer-hook-and-alaska-seek-v7",
+    "revision": "2026-10-29-caribou-meadow-moving-close-v8",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -520,7 +522,7 @@
       },
       {
         "text": "Across North America, these northern deer are usually called caribou.",
-        "scene": "Separate real USFWS Alaska caribou herd and Becharof riverbank caribou from source 22s; no invented continuous migration.",
+        "scene": "Closer USFWS meadow caribou at source seconds 5-10 and separate real Alaska riverbank caribou from source 22s; no invented continuous migration.",
         "tags": [
           "cr_north"
         ],
@@ -623,7 +625,8 @@
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "license_verified_at": "2026-10-29",
-        "license_note": "Commons file page shows Apis mellifera on flowers; CC BY-SA 4.0 and author recorded. Species/visual content still subject to frame review."
+        "license_note": "Original Honeybees.webm 30-35s shows active bees at yellow flowers; 2026-10-29 source-motion diagnostic 40885497107 320px freeze-free, paired authentic source frames reviewed.",
+        "start_seconds": 30
       },
       {
         "type": "video",
@@ -647,11 +650,12 @@
         "tags": [
           "hb_moreflowers"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
+        "license_note": "Original Honeybee.webm 2-7s shows genuine bee flying to white blossoms; 2026-10-29 source-motion diagnostic 40885497107 320px freeze-free, paired frames reviewed.",
         "author": "Dennis.insect.filmer",
         "license": "CC BY-SA 4.0",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-29",
+        "start_seconds": 2
       },
       {
         "type": "video",
@@ -688,7 +692,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-honeybee-remove-flower-only-logo-v5",
+    "revision": "2026-10-29-honeybee-active-flower-seeks-v6",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -710,7 +714,7 @@
       },
       {
         "text": "Foragers land on blossoms and gather nectar and pollen to carry back.",
-        "scene": "Three separate genuine bee videos on blossoms.",
+        "scene": "Three distinct authentic bees at flowers, including active close yellow-flower footage, without simulated flight.",
         "tags": [
           "hb_foragers"
         ],
@@ -720,7 +724,7 @@
       },
       {
         "text": "They may visit many flowers before making the return trip.",
-        "scene": "Another real honeybee visiting flowers, not footage of hive interior.",
+        "scene": "Separate authentic bee moving among small white flowers, not a hive-interior claim.",
         "tags": [
           "hb_moreflowers"
         ],
@@ -749,8 +753,8 @@
   },
   "red_fox_hunt_to_play": {
     "title": "HOW RED FOXES HUNT, SCAVENGE, AND LEARN",
-    "script": "A red fox can turn an ordinary patch of grass into a hunting ground. It slows down, listens for movement, and watches for the right moment to approach. Sometimes a mouse is the prize, but a fox does not depend on one kind of meal. In towns, a hungry fox may even investigate discarded takeout. Yes, really. Young foxes start learning by watching and exploring the world around their den. Then play turns into practice: every chase and tumble helps prepare a future hunter.",
-    "caption": "Red foxes hunt, sometimes investigate human leftovers, and practice through play. Separate archival clips; none claimed as 2026 field footage. #RedFox #FoxKits #Wildlife #WildVox Footage creators: Lubo Ondrasko; Scarabinol; J Tee; Peter.shaman; U.S. Fish and Wildlife Service National Conservation Training Center; Alexis Markwick; Pink Bee. Original licenses: CC BY 3.0, CC BY-SA 4.0, Public domain, CC0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
+    "script": "A red fox can turn an ordinary patch of grass into a hunting ground. It slows down, listens for movement, and watches for the right moment to approach. Sometimes a mouse is the prize, but a fox does not depend on one kind of meal. In towns, a hungry fox may even investigate discarded takeout. Yes, really. Young foxes start learning by watching and exploring the world around them. Then play turns into practice: every chase and tumble helps prepare a future hunter.",
+    "caption": "Red foxes hunt, sometimes investigate human leftovers, and practice through play. Separate archival clips; not one continuous event. #RedFox #FoxKits #Wildlife #WildVox Footage creators: Lubo Ondrasko; Scarabinol; J Tee; Peter.shaman; U.S. Fish and Wildlife Service National Conservation Training Center; Alexis Markwick; Pink Bee; Rhododendrites. Original licenses: CC BY 3.0, CC BY-SA 4.0, Public domain, CC0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
     "sources": [
       {
         "type": "video",
@@ -829,18 +833,18 @@
       },
       {
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20kit.webm",
-        "assetTitle": "Red fox (Vulpes vulpes) kit.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_(Vulpes_vulpes)_kit.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20kits%20playing.webm",
+        "assetTitle": "Red fox kits playing.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_kits_playing.webm",
         "tags": [
           "rf_twist"
         ],
-        "author": "Lubo Ondrasko",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "author": "Rhododendrites",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "license_verified_at": "2026-10-29",
-        "start_seconds": 3,
-        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+        "start_seconds": 45,
+        "license_note": "Authentic separate 2026-05 Bombay Hook NWR red fox kits; Commons featured original, self-filmed by Rhododendrites. 2026-10-29 320px source-motion scan run 40885497107: 45-50s freeze-free; paired frames at 46/48s show two moving young foxes near roadside. Do not claim filmed on editorial day."
       },
       {
         "type": "video",
@@ -879,7 +883,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-red-fox-hunting-label-factual-v2",
+    "revision": "2026-10-29-red-fox-active-kits-roadside-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -919,8 +923,8 @@
         "overlay_label": "YES, TAKEOUT"
       },
       {
-        "text": "Young foxes start learning by watching and exploring the world around their den.",
-        "scene": "USFWS archival red fox cub in grass and a separate young kit perched in woodland.",
+        "text": "Young foxes start learning by watching and exploring the world around them.",
+        "scene": "Archival USFWS fox cubs and separate genuine young foxes exploring along a roadside in Delaware in May 2026; not the same litter or a shown den.",
         "tags": [
           "rf_twist"
         ],
