@@ -1,0 +1,84 @@
+{
+  "editorial_day": "2026-10-28",
+  "timezone": "America/Sao_Paulo",
+  "run_id": 40797871961,
+  "render_head_sha": "7af4757b3399cc9d1259199abee2084a83698bcc",
+  "audited_main_sha": "28bcf8d92373cbd949b387cc74f208713bcfe00d",
+  "config_blob_sha": "15e927c137ab59db66cc1e8c5712ab34d76528d4",
+  "status": "EDITORIAL_REJECTED",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "independently_checked": [
+    "downloaded all five current-run GitHub artifact ZIPs and technical QA ZIP",
+    "visually inspected all five *_review.jpg and 30 actual MP4 block-midpoint frames",
+    "visually inspected 40 original source preview strips",
+    "five MP4 ffprobe durations 30-45s, 1080x1920, audio",
+    "FFmpeg scaled full-video freezedetect completed with exit code 0 and zero >=1s freeze starts on all five MP4s",
+    "Git blob SHA1 of all five downloaded MP4s matches root media branch",
+    "current daily.json has five 2026-10-28 revisions, six exact ordered script-matching blocks and eight distinct authentic video URLs per entry; 40 author/sourcePage/license fields present"
+  ],
+  "videos": [
+    {
+      "key": "monarch_autumn_migration_2026",
+      "duration_s": 39.675,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Nectar/action block contains some butterfly-on-flower footage but intermittent foliage-only shots; weak semantic coverage.",
+        "2025 archival visitor footage in Mexico sanctuary payoff could imply October 2026 capture; archive context must be explicit."
+      ]
+    },
+    {
+      "key": "african_penguin_feather_care",
+      "duration_s": 32.8,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Wuppertal Zoo preening hook is real but branches obscure beak-feather interaction.",
+        "Coast and final payoff feature small/distant penguins, with source 6 especially weak; source 7 has closer nest-side birds but does not clearly show grooming."
+      ]
+    },
+    {
+      "key": "meerkat_lookout_teamwork",
+      "duration_s": 31.125,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Group, danger and payoff footage show small or distant subjects; no clear filmed alarm, lookout change or handoff.",
+        "Captive zoo footage under 'In the wild' narration risks location implication; use factual generic narration or explicitly contextualize captivity."
+      ]
+    },
+    {
+      "key": "african_elephant_mud_bath",
+      "duration_s": 36,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "Hook shows herd from far away; original source preview contains closer dust event later but start point unverified.",
+        "Waterhole footage distant and multiple herd clips do not demonstrate same event; script now avoids false continuity and splash claim."
+      ]
+    },
+    {
+      "key": "komodo_dragon_tracking_scent",
+      "duration_s": 34.75,
+      "freeze_ge_1s": false,
+      "editorial_pass": false,
+      "issues": [
+        "New Raul654 opening visibly shows Komodo head, legs and tongue, correcting prior tail-only hook.",
+        "Source 2 and 4 are derivatives from same Brocken Inaglory original, as are 5 and 6; independent source-family variety is inadequate despite eight unique URLs.",
+        "Middle blocks still rely on distant/low-resolution Komodo footage; visual evidence for sense of smell is illustrative, not direct."
+      ]
+    }
+  ],
+  "media_branch_git_blobs": {
+    "monarch_autumn_migration_2026.mp4": "e8c4bfe187e6a848973565963fef5e3929b01bb0",
+    "african_penguin_feather_care.mp4": "fc8489c6b97a6e8561b8ba966cfa033a4f73ee9e",
+    "meerkat_lookout_teamwork.mp4": "7adc52367dfa9595776f093c09a2923027b6d557",
+    "african_elephant_mud_bath.mp4": "c35ad242c764bac92358e433c392e06fda67c454",
+    "komodo_dragon_tracking_scent.mp4": "5d55ff433cc80d75061b88a4280224df4418a9bd"
+  },
+  "licensing": "All 40 sources include declared author/sourcePage/license metadata and credits document exists, but delivery of complete TikTok credits, license links, changes notices, CC BY-SA derivative licensing and platform terms compatibility is not independently verified. No release.",
+  "metricool": "Brand 7242311 scheduled posts [] and TikTok analytics TKPO01 rows [] for 2026-10-28 at 22:29 America/Sao_Paulo. No confirmed TikTok post ID. All five fixed slots for 2026-10-28 have passed; never schedule retroactively.",
+  "next": "Do not rerender 2026-10-28 solely to chase expired slots. Daily Prep should prepare 2026-10-29 fresh topics; carry forward QA lessons: close visible animal, behavior-matched clips, source-family deduplication, source credits/ShareAlike before publishing. Preserve hold until independent new-day QA and Metricool confirmation."
+}
