@@ -101,6 +101,9 @@ jobs:
           fi
 
           echo "animals=$animals" >> "$GITHUB_OUTPUT"
+      - name: Reject placeholder scene tags before source download or rendering
+        if: steps.matrix.outputs.animals != '[]'
+        run: python scripts/semantic_shots.py --check-config configs/daily.json
       - name: Audit Commons source existence and commercial-reuse licenses
         if: steps.matrix.outputs.animals != '[]'
         run: python scripts/audit_commons_sources.py --config configs/daily.json
