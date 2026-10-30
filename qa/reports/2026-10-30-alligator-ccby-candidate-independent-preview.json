@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "source_config_blob": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "preview_run": 41135631812,
+  "artifact_id": 13017305831,
+  "source": "https://commons.wikimedia.org/wiki/File:Alligator_in_Florida.webm",
+  "source_author": "Malcolm Manners",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "source_duration_seconds": 8.077,
+  "original_sha256": "6d6073f5a5dab9fe07167bb33fd944a44443fa5e6c371724d2aee35918803d74",
+  "frames_checked_seconds": [
+    0.8,
+    4,
+    7
+  ],
+  "result": "REJECTED_EDITORIAL_VISIBILITY",
+  "findings": [
+    "Original video source and CC BY 2.0 creator attribution confirmed on Commons, but copyright clearance is not the same as editorial fitness.",
+    "Three independently reviewed frames show an alligator in swamp vegetation; animal is small, partly occluded by reeds/branches and increasingly difficult to identify in the later frames.",
+    "Not suitable for the albino-alligator narrative: source depicts a normal-colored American alligator, so using it without rewriting the narration would be misleading.",
+    "Source motion across three samples is not a complete freeze analysis. No assertion of compliant 1-second motion or portrait safe-area framing.",
+    "Do not substitute this candidate into configs/daily.json or trigger rerender. Find brighter, clearly visible species-correct footage with compatible rights."
+  ],
+  "approval": false,
+  "publication_hold": true,
+  "metricool_post_id": null,
+  "publication_status": "NOT_SCHEDULED",
+  "youtube_used": false
+}
