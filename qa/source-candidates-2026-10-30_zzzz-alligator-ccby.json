@@ -1,0 +1,26 @@
+{
+  "day": "2026-10-30",
+  "timezone": "America/Sao_Paulo",
+  "checked_main_sha": "83bd8061ba9e4a9690ade8b25cb3e06b42b9f6cf",
+  "current_config_blob_sha": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "editorial_status": "RESEARCH_ONLY_NOT_APPROVED",
+  "note": "Replace CC BY-SA albino-alligator source with authentic species-confirmed CC BY video only after visual preview. New footage is NOT albino; rewrite narration/scene and verify motion, framing and credits before any config push. All five videos remain held.",
+  "candidates": [
+    {
+      "for_key": "american_alligator_hidden_breath",
+      "target_block": "block 5 albino alligator replacement; rewrite to real Florida alligator, no albinism claim",
+      "title": "Alligator in Florida.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Alligator_in_Florida.webm",
+      "species": "Alligator mississippiensis",
+      "author": "Malcolm Manners",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "status": "CANDIDATE_UNREVIEWED",
+      "sample_seconds": [
+        0.8,
+        4,
+        7
+      ]
+    }
+  ]
+}
