@@ -7,19 +7,15 @@ import subprocess
 from pathlib import Path
 from urllib.parse import urlsplit
 
+# 2026-10-30: inspect genuine source windows before changing the editorial
+# batch. This research-only workflow does not render or authorize posting.
 TARGETS = (
-    ("annas_hummingbird_first_flight", 1),
-    ("annas_hummingbird_first_flight", 3),
-    ("annas_hummingbird_first_flight", 4),
-    ("annas_hummingbird_first_flight", 7),
-    ("caribou_reindeer_one_species", 1),
-    ("red_fox_hunt_to_play", 5),
-    ("red_fox_hunt_to_play", 8),
-    ("red_fox_hunt_to_play", 9),
-    ("red_fox_hunt_to_play", 10),
-    ("western_honeybee_hive_airflow", 3),
-    ("western_honeybee_hive_airflow", 5),
+    ("common_kingfisher_nest_tunnel", 0),
+    ("common_kingfisher_nest_tunnel", 3),
+    ("bald_eagle_feeding_eaglets", 5),
+    ("european_mantis_two_jobs", 4),
 )
+
 ALTERNATES = {
     ("red_fox_hunt_to_play", 9): {
         "assetTitle": "Red fox (Vulpes vulpes) and her pups.webm",
