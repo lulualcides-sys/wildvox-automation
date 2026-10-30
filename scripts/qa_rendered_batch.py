@@ -10,6 +10,8 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from tiktok_credits import attributed_tiktok_caption
+
 
 def normalize(text):
     return re.sub(r"\s+", " ", re.sub(r"[^A-Za-z0-9']+", " ", str(text))).strip().lower()
@@ -54,6 +56,27 @@ def config_fingerprint(cfg):
     encoded = json.dumps(cfg, sort_keys=True, ensure_ascii=False,
                          separators=(",", ":")).encode("utf-8")
     return hashlib.sha256(encoded).hexdigest()
+
+
+def caption_credit_errors(cfg, meta):
+    """Validate exactly the full TikTok caption the renderer creates.
+
+    The base caption in daily.json deliberately omits the footage credits.
+    Comparing the rendered caption to that base string rejects valid credited
+    renders; comparing only the prefix would allow missing legal credits.
+    """
+    try:
+        expected = attributed_tiktok_caption(cfg)
+    except ValueError as exc:
+        return [f"Cannot validate TikTok attribution: {exc}"]
+    errors = []
+    if meta.get("caption") != expected:
+        errors.append("Rendered TikTok caption differs from complete source attribution")
+    if meta.get("attribution_review_required") is not True:
+        errors.append("Rendered metadata must require independent attribution review")
+    if meta.get("publication_hold") is not True:
+        errors.append("Rendered metadata must preserve publication hold")
+    return errors
 
 
 def sources_match(config_sources, rendered_sources):
@@ -120,8 +143,7 @@ def inspect(config, directory, day):
                     bad.append("Rendered metadata identity differs from current daily config")
                 if meta.get("config_sha256") != config_fingerprint(cfg):
                     bad.append("Rendered config fingerprint differs from current daily config")
-                if meta.get("caption") != cfg.get("caption"):
-                    bad.append("Rendered caption differs from current daily config")
+                bad.extend(caption_credit_errors(cfg, meta))
                 if not sources_match(sources, meta.get("sources") or []):
                     bad.append("Rendered MP4 source pool differs from current daily config")
                 if "duration" in item and abs(
