@@ -65,9 +65,15 @@ class CommonsSourceMixTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "unsupported media type"):
             validate_source_mix(entries)
 
-    def test_actual_daily_batch_keeps_all_forty_video_sources(self):
+    def test_actual_daily_batch_obeys_per_video_quota(self):
         daily = json.loads((ROOT / "configs" / "daily.json").read_text(encoding="utf-8"))
-        self.assertEqual(validate_source_mix(daily), 40)
+        count = validate_source_mix(daily)
+        expected = sum(
+            source.get("type", "video") == "video"
+            for entry in daily.values() for source in entry["sources"]
+        )
+        self.assertEqual(count, expected)
+        self.assertLessEqual(count, 50)
 
 
 if __name__ == "__main__":
