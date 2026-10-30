@@ -39,3 +39,45 @@ print("TARGETED_TESTS_PASS",flush=True)
 subprocess.run([sys.executable,"scripts/audit_commons_sources.py","--config",
                 str(path.relative_to(ROOT))],check=True,cwd=ROOT)
 print("COMMONS_RIGHTS_AUDIT_PASS",flush=True)
+
+# Verify original file checksums, not only unique filenames/URLs. Artist metadata
+# is independently read from Commons for each title; unresolved credit formats
+# remain a human QA blocker, not a fabricated identity.
+import html
+import re
+from urllib.parse import urlencode, quote
+from urllib.request import Request, urlopen
+from time import sleep
+seen_sha = {}
+for index in range(0, 40, 10):
+    pairs = [(key, item) for key, cfg in batch.items()
+             for item in cfg["sources"]][index:index + 10]
+    titles = ["File:" + item["assetTitle"] for key, item in pairs]
+    params = urlencode({"action":"query","format":"json","formatversion":2,
+                        "prop":"imageinfo","iiprop":"sha1|extmetadata|size",
+                        "titles":"|".join(titles)})
+    req = Request("https://commons.wikimedia.org/w/api.php?" + params,
+                  headers={"User-Agent":"WildVoxEditorialAudit/1.0 (public GitHub project)"})
+    with urlopen(req,timeout=35) as response:
+        payload = json.load(response)
+    pages = {p["title"].casefold():p for p in payload.get("query",{}).get("pages",[])}
+    for key, source in pairs:
+        title = ("File:" + source["assetTitle"]).casefold()
+        page = pages.get(title)
+        assert page and page.get("imageinfo"),"Missing original file: "+title
+        info = page["imageinfo"][0]
+        sha1 = info.get("sha1")
+        assert sha1 and sha1 not in seen_sha, "Identical media bytes: "+title+" and "+str(seen_sha.get(sha1))
+        seen_sha[sha1] = title
+        artist_html = (info.get("extmetadata",{}).get("Artist",{}) or {}).get("value","")
+        artist = html.unescape(re.sub(r"<[^>]*>"," ",artist_html)).strip()
+        if not artist:
+            print("CREATOR_REVIEW",source["assetTitle"],"original Commons artist field blank",flush=True)
+        else:
+            expected = str(source["author"])
+            print("CREATOR",source["assetTitle"],"claimed",expected[:65],
+                  "Commons",artist[:95],flush=True)
+    sleep(.2)
+assert len(seen_sha) == 40
+print("UNIQUE_BYTES_AND_CREATOR_RECORDS_CHECKED",len(seen_sha),flush=True)
+
