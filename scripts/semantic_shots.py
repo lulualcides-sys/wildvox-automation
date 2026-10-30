@@ -107,3 +107,55 @@ def plan_semantic_shots(local, blocks, max_shot, max_freeze, key):
         "within shot-length and source-duration limits. Replace or re-tag "
         "verified footage; never use unrelated filler or freeze a clip."
     )
+
+def validate_editorial_tags(batch):
+    """Reject index-only source/scene labels before expensive source downloads.
+
+    This is a structural guard, NOT visual proof that a clip depicts its tag.
+    Tags must still be checked against actual footage by an independent editor.
+    """
+    import re
+
+    failures = []
+    for key, entry in batch.items():
+        blocks = entry.get("visual_plan") or []
+        sources = entry.get("sources") or []
+        wanted = []
+        available = []
+
+        for kind, records, destination in (
+            ("block", blocks, wanted), ("source", sources, available)
+        ):
+            for index, record in enumerate(records):
+                tags = {str(t).strip().lower() for t in record.get("tags", []) if str(t).strip()}
+                if not tags:
+                    failures.append(f"{key}: {kind} {index} lacks semantic tags")
+                for tag in tags:
+                    # e.g. 'european_mant_3' or 'bald_eagle_fe_4':
+                    # the tag is only a truncated prefix of the candidate key.
+                    match = re.fullmatch(r"(.+)_([0-9]+)", tag)
+                    if match and key.startswith(match.group(1)):
+                        failures.append(f"{key}: {kind} {index} has numbered placeholder tag {tag}")
+                destination.append(tags)
+
+        for index, tags in enumerate(wanted):
+            if not any(tags & source_tags for source_tags in available):
+                failures.append(f"{key}: block {index} has no tagged source")
+        for index, tags in enumerate(available):
+            if not any(tags & block_tags for block_tags in wanted):
+                failures.append(f"{key}: source {index} is not relevant to any spoken block")
+    if failures:
+        raise ValueError("Semantic tag preflight failed (not visual approval):\n" + "\n".join(failures))
+    return True
+
+
+if __name__ == "__main__":
+    import argparse
+    import json
+    from pathlib import Path
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--check-config", required=True)
+    args = parser.parse_args()
+    validate_editorial_tags(json.loads(Path(args.check_config).read_text(encoding="utf-8")))
+    print("Semantic tag preflight passed (not independent visual approval).")
