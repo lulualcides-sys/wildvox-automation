@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-30",
+  "scope": "Static preflight of configs/daily.json; no new rendering, no editorial or legal approval",
+  "base_main_sha": "5f3fc8079532bb955e5a4d10e0e9ea6636d83a1f",
+  "daily_blob": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "candidate_count": 5,
+  "all_hold": true,
+  "all_revision_current_day": true,
+  "all_six_spoken_blocks_exact": true,
+  "all_eight_unique_video_urls_per_entry": true,
+  "attributed_caption_lengths": {
+    "european_mantis_two_jobs": 1539,
+    "common_kingfisher_nest_tunnel": 1538,
+    "bald_eagle_feeding_eaglets": 1809,
+    "north_american_beaver_water_design": 1532,
+    "american_alligator_hidden_breath": 1813
+  },
+  "new_internal_finding": {
+    "severity": "editorial_gate",
+    "description": "All 30 visual_plan tags and their source counterparts are numbered key-prefix placeholders (e.g. european_mant_1, common_kingfi_3, bald_eagle_fe_4). Matching placeholder tags only verifies index compatibility, not whether actual source frames show the narrated event. Existing motion/semantic failures prove why the current tag match is insufficient.",
+    "examples": [
+      "european_mant_3 does not prove mantis feeding",
+      "common_kingfi_1 does not prove nest excavation",
+      "bald_eagle_fe_4 does not prove an eagle chase; prior audit found a dog"
+    ],
+    "required_fix": "For each of five candidates, after reviewing original footage, replace placeholder tags with specific observable action/subject/setting tags on both ordered spoken blocks and corresponding source clips; do not label unverified action. Preserve eight unique actually used assets and six exact spoken blocks. Do not push configs/daily.json until footage and licensing issues are fixed to avoid wasteful render."
+  },
+  "existing_blockers": [
+    "Independent 2026-10-30 rendered audit failed all five for low motion and visual relevance",
+    "American alligator includes CC BY-SA 4.0 source without independently cleared TikTok ShareAlike compatibility",
+    "All five need new independent MP4 visual and licensing review before scheduling"
+  ],
+  "action": "Audit record only; no config push, rerender, media promotion, publication_hold release, Metricool scheduling, or YouTube operations.",
+  "publication_approval": false
+}
