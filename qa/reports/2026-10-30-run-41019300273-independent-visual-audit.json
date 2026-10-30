@@ -175,5 +175,46 @@
     "Remove CC BY-SA source unless platform-compatible ShareAlike compliance independently documented.",
     "Build legally sufficient creator/source/license/modification credits into actual TikTok post text, then verify.",
     "Push configs/daily.json only after concrete edits and rerender all five; independently re-audit NEW artifacts and confirm Metricool IDs before scheduling future slots."
-  ]
+  ],
+  "source_motion_followup": {
+    "run_id": 41023067938,
+    "status": "completed_success",
+    "scope": "Four selected original sources scanned for multiple 5-second windows, with paired actual source frames; research only, not editorial approval.",
+    "findings": [
+      {
+        "key": "common_kingfisher_nest_tunnel",
+        "source_index": 0,
+        "windows_checked": 17,
+        "freeze_free_windows": 0,
+        "visual": "All top-ranked frames show riverbank and nest hole, no identifiable kingfisher excavating; no acceptable 5-second motion window. Replace this source for hook."
+      },
+      {
+        "key": "common_kingfisher_nest_tunnel",
+        "source_index": 3,
+        "windows_checked": 15,
+        "freeze_free_windows": 0,
+        "visual": "Top-ranked frames show empty bank/entrance, no kingfisher; no acceptable 5-second motion window. Replace this source for entrance/action."
+      },
+      {
+        "key": "bald_eagle_feeding_eaglets",
+        "source_index": 5,
+        "windows_checked": 13,
+        "freeze_free_windows": 13,
+        "visual": "Motion is mostly dog and distant birds; no identifiable eagle chase. High motion score does NOT mean semantic relevance. Replace this source."
+      },
+      {
+        "key": "european_mantis_two_jobs",
+        "source_index": 4,
+        "windows_checked": 7,
+        "freeze_free_windows": 3,
+        "technical_start_candidates": [
+          5.5,
+          6.5,
+          5
+        ],
+        "visual": "Mantis raising front legs clearly; can reseek to 5.5s for action, but not evidence of feeding. Retag/rewrite narration or use a verified feeding source; do not falsely label as feeding."
+      }
+    ],
+    "decision": "No speculative configs/daily.json change or rerender: three sources need genuine replacements, and one needs semantic alignment. All publication holds remain true."
+  }
 }
