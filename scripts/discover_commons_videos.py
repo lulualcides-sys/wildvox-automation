@@ -17,10 +17,8 @@ SUBJECTS = {
     "axolotl": ["Ambystoma mexicanum", "axolotl", "Mexican salamander"],
     "common_kingfisher": ["Alcedo atthis", "common kingfisher", "kingfisher diving"],
     "archerfish": ["Toxotes jaculatrix", "archerfish", "archer fish"],
-    "mudskipper": ["Periophthalmus", "mudskipper", "mud skipper"],
-    "giant_pacific_octopus": ["Enteroctopus dofleini", "giant Pacific octopus"],
     "leafcutter_ant": ["Atta cephalotes", "leafcutter ant", "leaf cutting ants"],
-    "basilisk_lizard": ["Basiliscus basiliscus", "basilisk lizard", "Jesus Christ lizard"]
+    "basilisk_lizard": ["Basiliscus basiliscus", "basilisk lizard"]
 }
 VIDEO = re.compile(r"\.(?:webm|ogv|ogg|mp4)$", re.I)
 def query(params):
@@ -45,8 +43,8 @@ def main():
     result = {}
     for subject, phrases in SUBJECTS.items():
         titles = set()
-        for phrase in phrases:
-            for q in (phrase, 'filetype:video ' + phrase):
+        for phrase in phrases[:2]:
+            for q in ('filetype:video ' + phrase,):
                 try:
                     response = query({"list": "search", "srsearch": q, "srnamespace": 6, "srlimit": 100})
                     titles.update(row["title"] for row in response.get("query", {}).get("search", [])
