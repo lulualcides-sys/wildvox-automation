@@ -79,8 +79,8 @@ class TikTokCreditsTests(unittest.TestCase):
                             for e in caption_credit_errors(entry, meta)))
 
     def test_rendered_caption_gate_rejects_sharealike(self):
-        entry = next(e for e in self.daily.values() if any(
-            "by-sa" in str(s.get("license", "")).lower() for s in e["sources"]))
+        entry = copy.deepcopy(next(iter(self.daily.values())))
+        entry["sources"][0]["license"] = "CC BY-SA 4.0"
         errors = caption_credit_errors(entry, {
             "caption": entry["caption"],
             "publication_hold": True,
