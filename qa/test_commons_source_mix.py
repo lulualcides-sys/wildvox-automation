@@ -56,7 +56,7 @@ class CommonsSourceMixTests(unittest.TestCase):
         entries["animal_0"] = candidate(
             videos=0, images=2, photo_exception=True, evidence=True
         )
-        with self.assertRaisesRegex(RuntimeError, "3 photos"):
+        with self.assertRaisesRegex(RuntimeError, "3-12 assets"):
             validate_source_mix(entries)
 
     def test_unsupported_media_type_is_rejected(self):
