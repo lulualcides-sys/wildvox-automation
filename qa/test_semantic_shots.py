@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
-from semantic_shots import plan_semantic_shots
+from semantic_shots import plan_semantic_shots, validate_editorial_tags
 
 
 def asset(index, tags, seconds=6.0):
@@ -62,6 +62,38 @@ class SemanticShotTests(unittest.TestCase):
         ]
         result = plan_semantic_shots(local, blocks, 8, 0, "twenty")
         self.assertTrue(all(shot[1] <= 8 for shot in result))
+
+
+    def test_numbered_key_prefix_tags_are_rejected_before_render(self):
+        key = "european_mantis_two_jobs"
+        batch = {key: {
+            "visual_plan": [{"tags": ["european_mant_1"]}],
+            "sources": [{"tags": ["european_mant_1"]}],
+        }}
+        with self.assertRaisesRegex(ValueError, "numbered placeholder"):
+            validate_editorial_tags(batch)
+
+    def test_descriptive_tags_match_sources_and_blocks(self):
+        key = "european_mantis_two_jobs"
+        batch = {key: {
+            "visual_plan": [
+                {"tags": ["mantis_raising_raptorial_forelegs"]},
+                {"tags": ["mantis_gripping_prey"]},
+            ],
+            "sources": [
+                {"tags": ["mantis_raising_raptorial_forelegs"]},
+                {"tags": ["mantis_gripping_prey"]},
+            ],
+        }}
+        self.assertTrue(validate_editorial_tags(batch))
+
+    def test_reject_unassigned_source_tags(self):
+        batch = {"kingfisher_nest": {
+            "visual_plan": [{"tags": ["kingfisher_excavating_bank"]}],
+            "sources": [{"tags": ["kingfisher_eating_fish"]}],
+        }}
+        with self.assertRaisesRegex(ValueError, "no tagged source"):
+            validate_editorial_tags(batch)
 
 
 if __name__ == "__main__":
