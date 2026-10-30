@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from tiktok_credits import attributed_tiktok_caption
+from qa_rendered_batch import caption_credit_errors
 
 
 class TikTokCreditsTests(unittest.TestCase):
@@ -46,6 +47,48 @@ class TikTokCreditsTests(unittest.TestCase):
         entry["sources"][1]["url"] = entry["sources"][0]["url"]
         with self.assertRaisesRegex(ValueError, "duplicate footage"):
             attributed_tiktok_caption(entry)
+
+    def test_rendered_caption_gate_accepts_exact_full_credits(self):
+        entry = next(e for e in self.daily.values() if not any(
+            "by-sa" in str(s.get("license", "")).lower() for s in e["sources"]))
+        meta = {
+            "caption": attributed_tiktok_caption(entry),
+            "publication_hold": True,
+            "attribution_review_required": True,
+        }
+        self.assertEqual(caption_credit_errors(entry, meta), [])
+
+    def test_rendered_caption_gate_rejects_base_caption_and_missing_holds(self):
+        entry = next(e for e in self.daily.values() if not any(
+            "by-sa" in str(s.get("license", "")).lower() for s in e["sources"]))
+        meta = {"caption": entry["caption"]}
+        errors = caption_credit_errors(entry, meta)
+        self.assertTrue(any("complete source attribution" in e for e in errors))
+        self.assertTrue(any("publication hold" in e for e in errors))
+        self.assertTrue(any("attribution review" in e for e in errors))
+
+    def test_rendered_caption_gate_rejects_truncated_credits(self):
+        entry = next(e for e in self.daily.values() if not any(
+            "by-sa" in str(s.get("license", "")).lower() for s in e["sources"]))
+        meta = {
+            "caption": attributed_tiktok_caption(entry)[:-12],
+            "publication_hold": True,
+            "attribution_review_required": True,
+        }
+        self.assertTrue(any("complete source attribution" in e
+                            for e in caption_credit_errors(entry, meta)))
+
+    def test_rendered_caption_gate_rejects_sharealike(self):
+        entry = next(e for e in self.daily.values() if any(
+            "by-sa" in str(s.get("license", "")).lower() for s in e["sources"]))
+        errors = caption_credit_errors(entry, {
+            "caption": entry["caption"],
+            "publication_hold": True,
+            "attribution_review_required": True,
+        })
+        self.assertTrue(any("ShareAlike" in e for e in errors))
+
+
 
 
 if __name__ == "__main__":
