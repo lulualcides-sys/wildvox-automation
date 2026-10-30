@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-30",
+  "run_id": 41019300273,
+  "render_head": "9716c21f96a5d457b6e4d9876f49841f89658fe7",
+  "daily_blob": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "review_method": "Independently downloaded all five current-run GitHub Actions ZIPs; inspected five review sheets, 40 original-source 3-frame strips, and all five actual MP4s via every-second full-frame sheets. Independently ran FFmpeg fps=8,scale=320:-2,freezedetect=n=-40dB:d=1, ffprobe and SHA256.",
+  "technical_qa": "FAIL; five render jobs success, technical-qa failed, publish-media skipped",
+  "editorial_approved": false,
+  "license_approved": false,
+  "publication_hold": true,
+  "common_findings": [
+    "All five MP4s have 1080x1920 video, audio, 30-45s durations and six contiguous Kokoro speech blocks.",
+    "All 40 source previews exist (eight per video). Current captions contain no original filming creator attributions.",
+    "Near-static intervals are detector observations, not proof of byte-identical frozen frames.",
+    "No current-day candidate is fit for TikTok scheduling; do not promote media branch or remove holds."
+  ],
+  "videos": [
+    {
+      "key": "european_mantis_two_jobs",
+      "duration": 34.275,
+      "sha256": "dbde5ee665a027098a06860b2d8a3ca3fe6b18687147648cf42974ba8122bc44",
+      "freeze": [
+        [
+          0,
+          1.125
+        ],
+        [
+          2.125,
+          3.25
+        ],
+        [
+          7.625,
+          8.625
+        ],
+        [
+          9.375,
+          10.5
+        ],
+        [
+          26.625,
+          27.75
+        ]
+      ],
+      "editorial_findings": [
+        "Hook has small distant mantis and low motion.",
+        "The feeding narration around 17-23s shows a perched mantis, not a visible feeding action.",
+        "Final payoff includes small brown insect on white wall; species and narrative match not independently confirmed.",
+        "Source 2 and 3 are same Flickr filming family; do not imply different encounters."
+      ]
+    },
+    {
+      "key": "common_kingfisher_nest_tunnel",
+      "duration": 34.1,
+      "sha256": "a3176793a0c18cda990bb50ac1eb728c1a5775fe1752e9f4d18bc40e83e245dd",
+      "freeze": [
+        [
+          2.125,
+          3.875
+        ],
+        [
+          4,
+          5.875
+        ],
+        [
+          9.625,
+          10.625
+        ],
+        [
+          11.5,
+          17.25
+        ],
+        [
+          22.75,
+          28.25
+        ],
+        [
+          30.375,
+          31.625
+        ],
+        [
+          32.375,
+          33.5
+        ]
+      ],
+      "editorial_findings": [
+        "0-6s hook shows dark riverbank hole with no identifiable kingfisher digging.",
+        "12-17s nest-entrance segment shows a near-static hole and no visible kingfisher visit.",
+        "23-28s fish-handling segment shows a distant stationary bird, no visible fish.",
+        "Payoff is nearly static perched kingfisher; action/promise unfulfilled."
+      ]
+    },
+    {
+      "key": "bald_eagle_feeding_eaglets",
+      "duration": 36.475,
+      "sha256": "609dd72adaa40b59746bed253f838e827bfa202d04bdd2c49d70ee5dd6bb6320",
+      "freeze": [
+        [
+          4.25,
+          5.625
+        ],
+        [
+          33.25,
+          36.475
+        ]
+      ],
+      "editorial_findings": [
+        "Feeding eaglets are tiny and distant in opening and action shots; parent-to-chick feeding cannot be independently seen clearly.",
+        "23-30s supposed smaller-bird chase instead shows a prominent dog on a beach with tiny distant birds: unrelated filler.",
+        "33-36s payoff shows a tiny dark bird on a rock, almost static.",
+        "Source clips depict unrelated eagle locations/families; never imply continuity."
+      ]
+    },
+    {
+      "key": "north_american_beaver_water_design",
+      "duration": 36.575,
+      "sha256": "586a355d910271d4c8cb5b3e4741e26d723a0f13b9090b8fa24cdd2ff0d112ca",
+      "freeze": [
+        [
+          0.625,
+          1.875
+        ],
+        [
+          4.25,
+          6
+        ],
+        [
+          18.375,
+          19.375
+        ]
+      ],
+      "editorial_findings": [
+        "0-12s and 18-23s are almost-black red zoo recordings with poor subject visibility; fail cinematic readability.",
+        "All eight assets belong to one NaIzletuSi filming family at Ljubljana Zoo across three dates, not wild footage.",
+        "12-18s actual beaver swimming is visible; 23-30s swimming is visible; grooming at 18-23s not visually demonstrated.",
+        "Need diverse brighter genuine footage and clear captive context."
+      ]
+    },
+    {
+      "key": "american_alligator_hidden_breath",
+      "duration": 37.875,
+      "sha256": "23f6bbf8dfc4cf13dbfc38ffeacb2a52b0c1de791c7fa5045a35d3b8b66375b3",
+      "freeze": [
+        [
+          0.375,
+          1.875
+        ],
+        [
+          3.25,
+          4.375
+        ],
+        [
+          4.375,
+          5.625
+        ],
+        [
+          19.375,
+          20.75
+        ],
+        [
+          20.75,
+          24.375
+        ]
+      ],
+      "editorial_findings": [
+        "Hook alligator is tiny in murky water, not legible at phone size.",
+        "12-14s tail-action block contains a man talking rather than alligator movement.",
+        "17-24s X-ray source is near-static for several seconds.",
+        "24-31s albino alligator remains nearly static; asset Claude (albino alligator) 1 2019-02-26.webm is CC BY-SA 4.0 and TikTok ShareAlike compatibility has not been cleared.",
+        "31-37s egret-and-alligator scene has alligator visible, but egrets dominate framing."
+      ]
+    }
+  ],
+  "required_next": [
+    "Replace/reseek sources only after reviewing genuine action windows; do not rerender same rejected source pool.",
+    "Remove CC BY-SA source unless platform-compatible ShareAlike compliance independently documented.",
+    "Build legally sufficient creator/source/license/modification credits into actual TikTok post text, then verify.",
+    "Push configs/daily.json only after concrete edits and rerender all five; independently re-audit NEW artifacts and confirm Metricool IDs before scheduling future slots."
+  ]
+}
