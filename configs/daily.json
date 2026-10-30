@@ -1,690 +1,120 @@
 {
-  "snow_leopard_jaw_skills": {
-    "title": "WHY SNOW LEOPARDS KEEP CHEWING",
-    "script": "Why is this snow leopard working so hard on a single bone? These big cats are built for gripping food, and their jaws do more than simply bite once. Watch how it clamps down, releases, then finds another angle. Strong jaw muscles and sharp teeth help tear food into pieces it can swallow. In the wild, snow leopards also need careful movement through steep, rocky terrain. Young cubs begin practicing the biting, gripping, and coordination that adulthood will demand.",
-    "caption": "From chewing bones to moving across rocky terrain: how snow leopards develop survival skills. 🐆 #SnowLeopard #Wildlife #AnimalFacts #WildVox Footage creators: MatthiasKabel; Ankur Panchbudhe; Fiver, der Hellseher; Squirrel83; Sanjay Khurana (video); Kevin MacLeod (original soundtrack removed). Original licenses: CC BY-SA 3.0, CC BY 2.0, CC BY-SA 4.0, CC BY 3.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
+  "european_mantis_two_jobs": {
+    "title": "THE MANTIS THAT USES ITS ARMS TWICE",
+    "script": "Why is this European mantis holding its spiky front legs so high? Those folded legs are built to grip, with rows of sharp spines along the inside. When another insect gets close, the mantis snaps forward and traps it between those spines. The grip keeps struggling prey from escaping while the mantis begins to feed. But raised arms can also be a warning display when the mantis feels threatened. The same pair of legs can catch a meal or make a much larger enemy think twice.",
+    "caption": "THE MANTIS THAT USES ITS ARMS TWICE. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praying%20mantis%20threat%20display.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia%20gnaws%20at%20bone%2001.ogv",
-        "assetTitle": "Uncia uncia gnaws at bone 01.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_gnaws_at_bone_01.ogv",
+        "assetTitle": "Praying mantis threat display.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Praying_mantis_threat_display.webm",
         "tags": [
-          "sl_hook"
+          "european_mant_1"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "MatthiasKabel",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-29"
+        "author": "Quentin Scouflaire",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kudlanka%20n%C3%A1bo%C5%BEn%C3%A1%20-%20video%2001.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20Leopard%20At%20Sikkim%20Zoo.webm",
-        "assetTitle": "Snow Leopard At Sikkim Zoo.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Leopard_At_Sikkim_Zoo.webm",
+        "assetTitle": "Kudlanka nábožná - video 01.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_01.webm",
         "tags": [
-          "sl_setup"
+          "european_mant_2"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Ankur Panchbudhe",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-10-29"
+        "author": "Pohled 111",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mantis%20eating%20small%20bee%20caught%20video.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schneeleopard%20(Zoo%20Leipzig).webm",
-        "assetTitle": "Schneeleopard (Zoo Leipzig).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Schneeleopard_(Zoo_Leipzig).webm",
+        "assetTitle": "Mantis eating small bee caught video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mantis_eating_small_bee_caught_video.webm",
         "tags": [
-          "sl_setup"
+          "european_mant_3"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Fiver, der Hellseher",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia%20gnaws%20at%20bone%2002.ogv",
-        "assetTitle": "Uncia uncia gnaws at bone 02.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_gnaws_at_bone_02.ogv",
-        "tags": [
-          "sl_action"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "MatthiasKabel",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20Leopard%20eating.ogv",
-        "assetTitle": "Snow Leopard eating.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_Leopard_eating.ogv",
-        "tags": [
-          "sl_explain"
-        ],
-        "license_note": "Commons original title and current description identify snow leopard chewing; original legacy file was moved from Cheetah.ogg, but independent source preview shows rosetted snow leopard, not cheetah. Low-resolution 384x216 archival captive footage; never claim 2026.",
-        "author": "Squirrel83",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Schneeleopard%20(Zoo%20Dresden)%20(7).webm",
-        "assetTitle": "Schneeleopard (Zoo Dresden) (7).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Schneeleopard_(Zoo_Dresden)_(7).webm",
-        "tags": [
-          "sl_explain"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Fiver, der Hellseher",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Snow%20leopard%20in%20Ladakh.webm",
-        "assetTitle": "Snow leopard in Ladakh.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Snow_leopard_in_Ladakh.webm",
-        "tags": [
-          "sl_rock"
-        ],
-        "author": "Sanjay Khurana (video); Kevin MacLeod (original soundtrack removed)",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 20,
-        "license_note": "Independently previewed original 2012 wild snow leopard walking among Ladakh rocks at seconds 20/22/24. Original soundtrack removed. Archival footage; creator/changes credit delivery required."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Uncia%20uncia%20cubs%2001.ogv",
-        "assetTitle": "Uncia uncia cubs 01.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Uncia_uncia_cubs_01.ogv",
-        "tags": [
-          "sl_cubs"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "MatthiasKabel",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 0
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-29-snow-leopard-cubs-visible-start-v5",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Why is this snow leopard working so hard on a single bone?",
-        "scene": "Real snow leopard gnawing a bone in captivity, no wild hunting claim.",
-        "tags": [
-          "sl_hook"
-        ],
-        "story_role": "hook",
-        "overlay_label": "BONE TEST"
-      },
-      {
-        "text": "These big cats are built for gripping food, and their jaws do more than simply bite once.",
-        "scene": "Distinct captive snow leopard portraits in Sikkim and Leipzig; no invented mountain hunting.",
-        "tags": [
-          "sl_setup"
-        ],
-        "story_role": "setup"
-      },
-      {
-        "text": "Watch how it clamps down, releases, then finds another angle.",
-        "scene": "Separate authentic snow leopard gnawing a bone.",
-        "tags": [
-          "sl_action"
-        ],
-        "story_role": "action",
-        "overlay_label": "GRIP AND RELEASE"
-      },
-      {
-        "text": "Strong jaw muscles and sharp teeth help tear food into pieces it can swallow.",
-        "scene": "Real snow leopard chewing and another adult portrait; verify low-resolution legacy source species visually before approval.",
-        "tags": [
-          "sl_explain"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "POWERFUL JAWS"
-      },
-      {
-        "text": "In the wild, snow leopards also need careful movement through steep, rocky terrain.",
-        "scene": "Actual archival wild snow leopard walking on rocky Ladakh terrain at source seconds 20-25, not a 2026 sighting.",
-        "tags": [
-          "sl_rock"
-        ],
-        "story_role": "twist",
-        "overlay_label": "ROCKY TERRAIN"
-      },
-      {
-        "text": "Young cubs begin practicing the biting, gripping, and coordination that adulthood will demand.",
-        "scene": "Real cubs visible near the Salzburg Zoo rocky enclosure at the beginning of the authentic clip; no unsupported claim of a specific bite being shown.",
-        "tags": [
-          "sl_cubs"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "SKILLS START YOUNG"
-      }
-    ],
-    "trend_priority": true,
-    "trend_evidence_url": "https://www.beauvalnature.org/en/our-news/world-snow-leopard-day",
-    "trend_evidence_published_date": "2026-10-23",
-    "trend_evidence_note": "Snow Leopard Day on 2026-10-23; all footage is archival/captive and does not depict the 2026 event."
-  },
-  "annas_hummingbird_first_flight": {
-    "title": "HUMMINGBIRDS: FROM NEST TO FLIGHT",
-    "script": "This tiny hummingbird is beating its wings before it can even leave the nest. While it is still small, an adult returns to the nest with food as the chick grows stronger. Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory. At feeders, rapid wingbeats bring them in, and they may perch to take a drink. Even in wet weather, they may sit and wait between feeding trips. From a tiny nestling to hummingbirds hovering at flowers, wing skills grow fast.",
-    "caption": "From a hummingbird nestling practicing wingbeats to adult Anna's hummingbirds at flowers: separate archival birds; the opening nestling's species is unverified. #AnnasHummingbird #Birds #Wildlife #WildVox Footage creators: Dennis.insect.filmer; Larry & Teddy Page; Danmation; Rishiraj Sahoo; Love Star Production; Mike's Birds. Original licenses: CC BY-SA 4.0, CC BY 2.0, CC BY 3.0, CC BY-SA 3.0, CC0, CC BY-SA 2.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20nearly%20fledged.webm",
-        "assetTitle": "Hummingbird nearly fledged.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_nearly_fledged.webm",
-        "tags": [
-          "ah_hook"
-        ],
-        "license_note": "Verified Commons original nestling Anna's hummingbirds practicing wingbeats; source-only contact sheet at original 10/13/16s shows active wingbeat around 16s. New seek 16s to avoid earlier 2.8–3.87s freeze; rerender and run full freeze QA before approval.",
-        "author": "Dennis.insect.filmer",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 16
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20fledged.webm",
-        "assetTitle": "Anna's hummingbird fledged.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_fledged.webm",
-        "tags": [
-          "ah_setup"
-        ],
-        "license_note": "Original Anna's hummingbird fledged.webm preview at 17/19/21s shows active fledgling movement and adult arrival; 2026-10-29 source-motion diagnostic 40885497107 confirms 16-21s free of >=1s near-static intervals. Separate archival individuals.",
-        "author": "Dennis.insect.filmer",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 16
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20Arizona.webm",
-        "assetTitle": "Anna's hummingbird (Calypte anna) in Arizona.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_Arizona.webm",
-        "tags": [
-          "ah_feed"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Larry & Teddy Page",
+        "author": "https://www.flickr.com/photos/gails_pictures/",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_verified_at": "2026-10-29",
-        "crop_black_bars": true
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mantis%20versus%20Hornet%20(%20Vespa%20crabro)%20video.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird%20at%20Flower%20in%20California.webm",
-        "assetTitle": "Hummingbird at Flower in California.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird_at_Flower_in_California.webm",
+        "assetTitle": "Mantis versus Hornet ( Vespa crabro) video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mantis_versus_Hornet_(_Vespa_crabro)_video.webm",
         "tags": [
-          "ah_action"
+          "european_mant_3"
         ],
-        "author": "Mike's Birds",
-        "license": "CC BY-SA 2.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 0.5,
-        "license_note": "Original 2013 juvenile Anna's hummingbird at flower in Riverside, California, from Mike's Birds Flickr, Commons license reviewed 2015. Independently previewed real hovering at 1.2/5.1/8.7s. Archival, separate bird; credit original author and adaptations."
+        "author": "https://www.flickr.com/photos/gails_pictures/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kudlanka%20n%C3%A1bo%C5%BEn%C3%A1%20-%20video%2002.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Annas%20hummingbird%20feeding.webm",
-        "assetTitle": "Annas hummingbird feeding.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Annas_hummingbird_feeding.webm",
+        "assetTitle": "Kudlanka nábožná - video 02.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_02.webm",
         "tags": [
-          "ah_setup"
+          "european_mant_4"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Dennis.insect.filmer",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 5.5
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird.ogv",
-        "assetTitle": "Hummingbird.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Hummingbird.ogv",
-        "tags": [
-          "ah_payoff"
-        ],
-        "author": "Rishiraj Sahoo",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 1.5,
-        "license_note": "Original Commons identifies juvenile Anna's hummingbird (Calypte anna), self-filmed by Rishiraj Sahoo; independent preview 2.5/10.4/17.6s confirms close hovering by red flowers. Separate archival individual; creator and CC BY-SA obligations require credit."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20the%20rain.webm",
-        "assetTitle": "Anna's hummingbird (Calypte anna) in the rain.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_the_rain.webm",
-        "tags": [
-          "ah_rain"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Love Star Production",
+        "author": "Pohled 111",
         "license": "CC0",
         "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praying%20mantis%20in%20New%20York.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna's%20hummingbird%20(Calypte%20anna)%20in%20California.webm",
-        "assetTitle": "Anna's hummingbird (Calypte anna) in California.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anna's_hummingbird_(Calypte_anna)_in_California.webm",
+        "assetTitle": "Praying mantis in New York.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Praying_mantis_in_New_York.webm",
         "tags": [
-          "ah_action"
+          "european_mant_5"
         ],
-        "license_note": "Original California Anna's hummingbird in lemon tree; source-motion diagnostic 40885497107 verifies 310-315s free of >=1s near-static intervals; subject remains small and perched, not hovering. Editorial inspection still required.",
-        "author": "Danmation",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 310
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-29-hummingbird-feeding-visible-verified-seek-v10",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "This tiny hummingbird is beating its wings before it can even leave the nest.",
-        "scene": "Real nestling practicing wingbeats in the nest, no invented first flight.",
-        "tags": [
-          "ah_hook"
-        ],
-        "story_role": "hook",
-        "overlay_label": "FIRST WINGBEATS",
-        "scene_intent": "Real hummingbird nestling practicing wingbeats; species unverified in this generic source, no false Anna's identification."
+        "author": "Jason Eppink",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
-        "text": "While it is still small, an adult returns to the nest with food as the chick grows stronger.",
-        "scene": "Adult Anna's hummingbird already visible feeding nestlings at source 5.5s; separate fledgling footage follows, not one continuous bird.",
-        "tags": [
-          "ah_setup"
-        ],
-        "story_role": "setup",
-        "overlay_label": "NEST CARE"
-      },
-      {
-        "text": "Adult hummingbirds hover at flowers, while Anna's hummingbirds also pause on branches as they move through their territory.",
-        "scene": "Authentic hummingbird hovering at red flower, followed by a separate Anna's hummingbird moving/perching in lemon tree; no same-individual claim.",
-        "tags": [
-          "ah_action"
-        ],
-        "story_role": "action",
-        "overlay_label": "HOVER THEN PERCH"
-      },
-      {
-        "text": "At feeders, rapid wingbeats bring them in, and they may perch to take a drink.",
-        "scene": "Authentic Anna's hummingbird at feeder, perched to drink; do not claim this shot shows hovering.",
-        "tags": [
-          "ah_feed"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "FEEDER STOP"
-      },
-      {
-        "text": "Even in wet weather, they may sit and wait between feeding trips.",
-        "scene": "Authentic Anna's hummingbird perched during wet weather; no synthetic rain.",
-        "tags": [
-          "ah_rain"
-        ],
-        "story_role": "twist"
-      },
-      {
-        "text": "From a tiny nestling to hummingbirds hovering at flowers, wing skills grow fast.",
-        "scene": "Separate archival juvenile Anna's hummingbird hovering at red flowers from Hummingbird.ogv; not the opening nestling.",
-        "tags": [
-          "ah_payoff"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "WINGS IN ACTION",
-        "scene_intent": "Separate archival hummingbird hovering at a flower; age and species not independently proven, not the same nestling."
-      }
-    ]
-  },
-  "caribou_reindeer_one_species": {
-    "title": "REINDEER AND CARIBOU ARE THE SAME ANIMAL",
-    "script": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species. Across North America, these northern deer are usually called caribou. In Europe and Asia, the name reindeer is more common, even when animals roam freely. Both have broad hooves and coats suited to cold northern conditions. Some reindeer also live under human care, but they still belong to that same species. Different names and settings, one remarkable northern deer: Rangifer tarandus.",
-    "caption": "Caribou or reindeer? Two names, one species. 🦌 #Reindeer #Caribou #Wildlife #WildVox Footage creators: U.S. Fish and Wildlife Service National Conservation Training Center; U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC); Hedwig Storch; Manfred Werner - Tsui; Superchilum; NaIzletuSi ™. Original licenses: Public domain, CC BY-SA 3.0, CC BY 3.0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
-    "sources": [
-      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB%20%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%B9.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/MountRobsonPark-Rangifer%20tarandus-KanadischesKaribu.ogv",
-        "assetTitle": "MountRobsonPark-Rangifer tarandus-KanadischesKaribu.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:MountRobsonPark-Rangifer_tarandus-KanadischesKaribu.ogv",
+        "assetTitle": "Богомол звичайний.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB_%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%B9.webm",
         "tags": [
-          "cr_hook"
+          "european_mant_6"
         ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Hedwig Storch",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 5.2
+        "author": "Сарапулов",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kudlanka%20n%C3%A1bo%C5%BEn%C3%A1%20-%20video%2004.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Caribou%20(Rangifer%20tarandus).webm",
-        "assetTitle": "Caribou (Rangifer tarandus).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Caribou_(Rangifer_tarandus).webm",
+        "assetTitle": "Kudlanka nábožná - video 04.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_04.webm",
         "tags": [
-          "cr_north"
+          "european_mant_6"
         ],
-        "license_note": "USFWS meadow caribou at original seconds 6-8 shows one closer walking animal rather than distant herd; 2026-10-29 320px source-motion diagnostic 40885497107 confirms 5-10s free of >=1s near-static intervals.",
-        "author": "U.S. Fish and Wildlife Service, National Conservation Training Center (USFWS/NCTC)",
-        "license": "Public domain",
-        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 8.5
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Porcupine%20caribou%20(Rangifer%20tarandus%20granti)%20in%20Alaska.ogv",
-        "assetTitle": "Porcupine caribou (Rangifer tarandus granti) in Alaska.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Porcupine_caribou_(Rangifer_tarandus_granti)_in_Alaska.ogv",
-        "tags": [
-          "cr_north"
-        ],
-        "license_note": "Original 57.5s USFWS public-domain Alaska caribou source independently previewed at 15/30/45s. At 30s a close visible adult walks across tundra, avoiding initial tiny distant herd; start seek 29s, rerender and visually confirm. Independently inspected original source preview strip: full caribou visible at 40% of 57.49s file (~23s), whereas opening 0s shot shows only antlers; select 22s and verify rerender before editorial approval.",
-        "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
-        "license": "Public domain",
-        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 22
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rangifer%20tarandus%20-%20Inari%202013.ogv",
-        "assetTitle": "Rangifer tarandus - Inari 2013.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rangifer_tarandus_-_Inari_2013.ogv",
-        "tags": [
-          "cr_europe"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation. Seek to actual reindeer after archival 2013 road/title intro.",
-        "author": "Manfred Werner - Tsui",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 60
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reindeer%20Svalbard.ogv",
-        "assetTitle": "Reindeer Svalbard.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Reindeer_Svalbard.ogv",
-        "tags": [
-          "cr_europe"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation. Crop encoded black bars only; preserve full original animal framing.",
-        "author": "Superchilum",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29",
-        "crop_black_bars": true
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reindeers%20Svalbard%201.ogv",
-        "assetTitle": "Reindeers Svalbard 1.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Reindeers_Svalbard_1.ogv",
-        "tags": [
-          "cr_adapt"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation. Crop encoded black bars only; preserve full original animal framing.",
-        "author": "Superchilum",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29",
-        "crop_black_bars": true
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Rangifer%20tarandus%202.webm",
-        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Rangifer tarandus 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Rangifer_tarandus_2.webm",
-        "tags": [
-          "cr_zoo"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-06-01%20LJUBLJANA%20ZOO%20LJUBLJANA%20-%20Rangifer%20tarandus.webm",
-        "assetTitle": "2024-06-01 LJUBLJANA ZOO LJUBLJANA - Rangifer tarandus.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Rangifer_tarandus.webm",
-        "tags": [
-          "cr_payoff"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-29"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-10-29-caribou-moving-close-verified-seek-v9",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Is this a caribou or a reindeer? Surprisingly, both names describe the same species.",
-        "scene": "Close authentic Canadian caribou grazing in Mount Robson Park; do not cut to distant herd before the animal is established.",
-        "tags": [
-          "cr_hook"
-        ],
-        "story_role": "hook",
-        "overlay_label": "TWO NAMES",
-        "scene_intent": "Begin with a clearly visible caribou in Mount Robson Park at original source ~5.2s, then a separate Alaska herd shot."
-      },
-      {
-        "text": "Across North America, these northern deer are usually called caribou.",
-        "scene": "Real Alaska caribou on riverbank followed by closer USFWS caribou at source 8.5s; no long stationary herd shot or false single-event continuity.",
-        "tags": [
-          "cr_north"
-        ],
-        "story_role": "setup",
-        "scene_intent": "North American caribou at the Alaska riverbank, no false single Mount Robson claim."
-      },
-      {
-        "text": "In Europe and Asia, the name reindeer is more common, even when animals roam freely.",
-        "scene": "Authentic reindeer from Finland and Svalbard; separate regions, no fake continuous migration.",
-        "tags": [
-          "cr_europe"
-        ],
-        "story_role": "action",
-        "overlay_label": "NORTHERN HERDS"
-      },
-      {
-        "text": "Both have broad hooves and coats suited to cold northern conditions.",
-        "scene": "Svalbard reindeer walking; no false close-up hoof demonstration.",
-        "tags": [
-          "cr_adapt"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "BUILT FOR COLD"
-      },
-      {
-        "text": "Some reindeer also live under human care, but they still belong to that same species.",
-        "scene": "Clearly captive reindeer at Ljubljana Zoo, Slovenia.",
-        "tags": [
-          "cr_zoo"
-        ],
-        "story_role": "twist"
-      },
-      {
-        "text": "Different names and settings, one remarkable northern deer: Rangifer tarandus.",
-        "scene": "Second separate real reindeer zoo video; avoid implying same herd as North American caribou.",
-        "tags": [
-          "cr_payoff"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "ONE SPECIES"
-      }
-    ]
-  },
-  "western_honeybee_hive_airflow": {
-    "title": "THE BUSY TRAFFIC OUTSIDE A HONEYBEE HIVE",
-    "script": "Why does a honeybee hive look so busy from the outside? Some workers visit flowers to collect food, while others remain closer to home. Foragers land on blossoms and gather nectar and pollen to carry back. They may visit many flowers before making the return trip. Back at the hive, bees move through a narrow entrance in a steady stream. That busy traffic connects the flowers outside to the colony waiting within.",
-    "caption": "Follow honeybees from flowers back to the busy hive entrance. Separate authentic archival clips, not one continuous journey. #Honeybee #Pollinators #Bees #WildVox Footage creators: Chixoy; The Nature Box; Alexanderboyes; Dennis.insect.filmer; Jerzystrzelecki; AnRo0002; BorekT. Original licenses: CC BY-SA 3.0, CC BY-SA 4.0, CC0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
-    "sources": [
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abelles%20sortint%20i%20entrant%20del%20rusc.ogv",
-        "assetTitle": "Abelles sortint i entrant del rusc.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Abelles_sortint_i_entrant_del_rusc.ogv",
-        "tags": [
-          "hb_hook"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Chixoy",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Western%20honey%20bee%20(Apis%20mellifera).webm",
-        "assetTitle": "Western honey bee (Apis mellifera).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Western_honey_bee_(Apis_mellifera).webm",
-        "tags": [
-          "hb_setup"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "The Nature Box",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bee%20gathering%20pollen.webm",
-        "assetTitle": "Honey bee gathering pollen.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bee_gathering_pollen.webm",
-        "tags": [
-          "hb_setup"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Alexanderboyes",
-        "license": "CC BY-SA 3.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees.webm",
-        "assetTitle": "Honeybees.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees.webm",
-        "tags": [
-          "hb_foragers"
-        ],
-        "author": "Dennis.insect.filmer",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29",
-        "license_note": "Original Honeybees.webm 30-35s shows active bees at yellow flowers; 2026-10-29 source-motion diagnostic 40885497107 320px freeze-free, paired authentic source frames reviewed.",
-        "start_seconds": 30
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybees%2001(js).webm",
-        "assetTitle": "Honeybees 01(js).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybees_01(js).webm",
-        "tags": [
-          "hb_foragers"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "Jerzystrzelecki",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honeybee.webm",
-        "assetTitle": "Honeybee.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honeybee.webm",
-        "tags": [
-          "hb_moreflowers"
-        ],
-        "license_note": "Original Honeybee.webm 2-7s shows genuine bee flying to white blossoms; 2026-10-29 source-motion diagnostic 40885497107 320px freeze-free, paired frames reviewed.",
-        "author": "Dennis.insect.filmer",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 2
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20120918Bienenstock%20Hockenheim.ogv",
-        "assetTitle": "20120918Bienenstock Hockenheim.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:20120918Bienenstock_Hockenheim.ogv",
-        "tags": [
-          "hb_entrance"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "AnRo0002",
+        "author": "Pohled 111",
         "license": "CC0",
         "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "license_verified_at": "2026-10-29"
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Honey%20bees%20fanning%20(1).webm",
-        "assetTitle": "Honey bees fanning (1).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Honey_bees_fanning_(1).webm",
-        "tags": [
-          "hb_payoff"
-        ],
-        "license_note": "Species and file listing checked on Wikimedia Commons 2026-10-29; exact license and downloadable original must pass live Commons API audit before render. Archival footage; do not present as 2026 field observation.",
-        "author": "BorekT",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29"
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       }
     ],
     "min_unique_videos": 6,
@@ -693,253 +123,798 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-honeybee-active-flower-seeks-v6",
+    "revision": "2026-10-30-european_mantis_two_jobs-prep-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does a honeybee hive look so busy from the outside?",
-        "scene": "Real exterior beehive entrance with bees.",
+        "text": "Why is this European mantis holding its spiky front legs so high?",
+        "scene": "Real European mantis raising raptorial legs.",
         "tags": [
-          "hb_hook"
+          "european_mant_1"
         ],
         "story_role": "hook",
-        "overlay_label": "HIVE TRAFFIC"
+        "overlay_label": "RAISED ARMS"
       },
       {
-        "text": "Some workers visit flowers to collect food, while others remain closer to home.",
-        "scene": "Authentic honeybees foraging on flowers.",
+        "text": "Those folded legs are built to grip, with rows of sharp spines along the inside.",
+        "scene": "Close real European mantis folded forelegs.",
         "tags": [
-          "hb_setup"
+          "european_mant_2"
         ],
-        "story_role": "setup"
+        "story_role": "setup",
+        "overlay_label": "GRIPPING SPINES"
       },
       {
-        "text": "Foragers land on blossoms and gather nectar and pollen to carry back.",
-        "scene": "Three distinct authentic bees at flowers, including active close yellow-flower footage, without simulated flight.",
+        "text": "When another insect gets close, the mantis snaps forward and traps it between those spines.",
+        "scene": "European mantis with real insect prey.",
         "tags": [
-          "hb_foragers"
+          "european_mant_3"
         ],
         "story_role": "action",
-        "overlay_label": "FORAGING",
-        "scene_intent": "Two independent authentic videos of honeybees foraging on flowers; exclude flower-only/logo-tainted clip."
+        "overlay_label": "PREY GRIP"
       },
       {
-        "text": "They may visit many flowers before making the return trip.",
-        "scene": "Separate authentic bee moving among small white flowers, not a hive-interior claim.",
+        "text": "The grip keeps struggling prey from escaping while the mantis begins to feed.",
+        "scene": "Actual European mantis feeding.",
         "tags": [
-          "hb_moreflowers"
+          "european_mant_4"
         ],
         "story_role": "explanation",
-        "overlay_label": "MORE FLOWERS"
+        "overlay_label": "LOCKED IN"
       },
       {
-        "text": "Back at the hive, bees move through a narrow entrance in a steady stream.",
-        "scene": "Exterior hive boxes and entrances with bee movement, not an unshown wing-fanning claim.",
+        "text": "But raised arms can also be a warning display when the mantis feels threatened.",
+        "scene": "Real mantis defensive posture, not prey.",
         "tags": [
-          "hb_entrance"
+          "european_mant_5"
         ],
         "story_role": "twist",
-        "overlay_label": "BACK TO THE HIVE"
+        "overlay_label": "DEFENSE MODE"
       },
       {
-        "text": "That busy traffic connects the flowers outside to the colony waiting within.",
-        "scene": "Close genuine bee traffic at the hive landing board; no claim that visible wings are fanning.",
+        "text": "The same pair of legs can catch a meal or make a much larger enemy think twice.",
+        "scene": "Verified European mantis close-up.",
         "tags": [
-          "hb_payoff"
+          "european_mant_6"
         ],
         "story_role": "payoff",
-        "overlay_label": "FLOWER TO HIVE"
+        "overlay_label": "TWO JOBS"
       }
-    ]
+    ],
+    "trend_priority": false
   },
-  "red_fox_hunt_to_play": {
-    "title": "HOW RED FOXES HUNT, SCAVENGE, AND LEARN",
-    "script": "A red fox can turn an ordinary patch of grass into a hunting ground. It slows down, listens for movement, and watches for the right moment to approach. Sometimes a mouse is the prize, but a fox does not depend on one kind of meal. In towns, a hungry fox may even investigate discarded takeout. Yes, really. Young foxes start learning by watching and exploring the world around them. Then play turns into practice: every chase and tumble helps prepare a future hunter.",
-    "caption": "Red foxes hunt, sometimes investigate human leftovers, and practice through play. Separate archival clips; not one continuous event. #RedFox #FoxKits #Wildlife #WildVox Footage creators: Lubo Ondrasko; Scarabinol; J Tee; Peter.shaman; U.S. Fish and Wildlife Service National Conservation Training Center; Alexis Markwick; Pink Bee; Rhododendrites. Original licenses: CC BY 3.0, CC BY-SA 4.0, Public domain, CC0. Edits: excerpts, narration, subtitles, portrait framing. Adapted footage CC BY-SA 4.0 where required; source/credit/license details: github.com/lulualcides-sys/wildvox-automation/blob/main/qa/credits/2026-10-29.md",
+  "common_kingfisher_nest_tunnel": {
+    "title": "WHY A KINGFISHER DIGS INTO A RIVERBANK",
+    "script": "This common kingfisher is digging into a riverbank instead of diving for fish. Near the water, a safe nesting place matters as much as finding the next meal. It visits the narrow opening again and again, working toward a sheltered chamber. The tunnel puts eggs and young chicks away from the exposed surface of the bank. That pointed bill is also a fishing tool, used to handle slippery prey. One little bird uses the same bill to prepare a home and to bring food back.",
+    "caption": "WHY A KINGFISHER DIGS INTO A RIVERBANK. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20Gravend%20-%20common%20kingfisher%20digging%20-%20Alcedo%20atthis.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20(Vulpes%20vulpes)%20looking%20for%20a%20mouse.webm",
-        "assetTitle": "Red fox (Vulpes vulpes) looking for a mouse.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_(Vulpes_vulpes)_looking_for_a_mouse.webm",
+        "assetTitle": "IJsvogel Gravend - common kingfisher digging - Alcedo atthis.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_Gravend_-_common_kingfisher_digging_-_Alcedo_atthis.webm",
         "tags": [
-          "rf_hook"
+          "common_kingfi_1"
+        ],
+        "author": "Bouke ten Cate",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
+        "type": "video",
+        "assetTitle": "Common kingfisher (Alcedo atthis) in Slovakia.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm",
+        "tags": [
+          "common_kingfi_2"
         ],
         "author": "Lubo Ondrasko",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 5,
-        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20preening.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20hunting.webm",
-        "assetTitle": "Red fox hunting.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_hunting.webm",
+        "assetTitle": "Common Kingfisher preening.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_preening.webm",
         "tags": [
-          "rf_setup"
+          "common_kingfi_2"
         ],
-        "author": "Scarabinol",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 3,
-        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
-      },
-      {
-        "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20catches%20a%20mouse.webm",
-        "assetTitle": "Red fox catches a mouse.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_catches_a_mouse.webm",
-        "tags": [
-          "rf_action"
-        ],
-        "author": "J Tee",
+        "author": "Lennart Hessel",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 5,
-        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20bij%20nestwand%20-%20common%20kingfisher%20at%20nest%20bank%20-%20Alcedo%20atthis.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Fox%20eating%20KFC.webm",
-        "assetTitle": "Red Fox eating KFC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Fox_eating_KFC.webm",
+        "assetTitle": "IJsvogel bij nestwand - common kingfisher at nest bank - Alcedo atthis.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_bij_nestwand_-_common_kingfisher_at_nest_bank_-_Alcedo_atthis.webm",
         "tags": [
-          "rf_explain"
+          "common_kingfi_3"
         ],
-        "author": "Peter.shaman",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 1,
-        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+        "author": "Bouke ten Cate",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-23%20RIBNIKI%20V%20DOLINI%20DRAGE%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20cubs%20(Vulpes%20vulpes).ogv",
-        "assetTitle": "Red fox cubs (Vulpes vulpes).ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_cubs_(Vulpes_vulpes).ogv",
+        "assetTitle": "2022-07-23 RIBNIKI V DOLINI DRAGE CORACIIFORMES Alcedo atthis VODOMEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-23_RIBNIKI_V_DOLINI_DRAGE_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
         "tags": [
-          "rf_twist"
+          "common_kingfi_4"
         ],
-        "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
-        "license": "Public domain",
-        "license_url": "https://commons.wikimedia.org/wiki/Commons:Licensing",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 0,
-        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-25%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20fox%20kits%20playing.webm",
-        "assetTitle": "Red fox kits playing.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_fox_kits_playing.webm",
+        "assetTitle": "2022-07-25 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-25_VRHNIKA_Ribniki_pri_stari_opekarni_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
         "tags": [
-          "rf_twist"
+          "common_kingfi_4"
         ],
-        "author": "Rhododendrites",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 45,
-        "license_note": "Authentic separate 2026-05 Bombay Hook NWR red fox kits; Commons featured original, self-filmed by Rhododendrites. 2026-10-29 320px source-motion scan run 40885497107: 45-50s freeze-free; paired frames at 46/48s show two moving young foxes near roadside. Do not claim filmed on editorial day."
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20eating%20a%20fish.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fox%20cubs%20playing%20in%20an%20English%20garden.webm",
-        "assetTitle": "Fox cubs playing in an English garden.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fox_cubs_playing_in_an_English_garden.webm",
+        "assetTitle": "Common Kingfisher eating a fish.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm",
         "tags": [
-          "rf_payoff"
+          "common_kingfi_5"
         ],
-        "author": "Alexis Markwick",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 4,
-        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+        "author": "Lennart Hessel",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingfisher%202025%2009%2028%2001.webm",
         "type": "video",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20red%20foxes%20playing.webm",
-        "assetTitle": "Young red foxes playing.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Young_red_foxes_playing.webm",
+        "assetTitle": "Kingfisher 2025 09 28 01.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kingfisher_2025_09_28_01.webm",
         "tags": [
-          "rf_payoff"
+          "common_kingfi_6"
         ],
-        "author": "Pink Bee",
-        "license": "CC BY-SA 4.0",
-        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "license_verified_at": "2026-10-29",
-        "start_seconds": 2,
-        "license_note": "Original Commons page and real preview frames checked 2026-10-29. Authentic archival red fox, separate individuals and years; vertical edit, captions and narration added, original audio removed. Creator/ShareAlike delivery must be checked before posting."
+        "author": "Alexis Lours",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       }
     ],
-    "min_unique_videos": 8,
+    "min_unique_videos": 6,
     "target_shot_seconds": 6.5,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-29-red-fox-active-kits-roadside-v3",
+    "revision": "2026-10-30-common_kingfisher_nest_tunnel-prep-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "A red fox can turn an ordinary patch of grass into a hunting ground.",
-        "scene": "Actual red fox searching grassy ground; no fabricated pounce.",
+        "text": "This common kingfisher is digging into a riverbank instead of diving for fish.",
+        "scene": "Actual kingfisher excavating nest tunnel.",
         "tags": [
-          "rf_hook"
+          "common_kingfi_1"
         ],
         "story_role": "hook",
-        "overlay_label": "HUNTING GROUND"
+        "overlay_label": "RIVERBANK TUNNEL"
       },
       {
-        "text": "It slows down, listens for movement, and watches for the right moment to approach.",
-        "scene": "Separate real red fox scanning meadow for prey; subject may be distant.",
+        "text": "Near the water, a safe nesting place matters as much as finding the next meal.",
+        "scene": "Authentic common kingfisher perching and preening.",
         "tags": [
-          "rf_setup"
+          "common_kingfi_2"
         ],
         "story_role": "setup",
-        "overlay_label": "LISTEN FIRST"
+        "overlay_label": "RIVER HOME"
       },
       {
-        "text": "Sometimes a mouse is the prize, but a fox does not depend on one kind of meal.",
-        "scene": "Real red fox hunting on snow; mouse catch not asserted as visibly captured in every shot.",
+        "text": "It visits the narrow opening again and again, working toward a sheltered chamber.",
+        "scene": "Actual kingfisher visiting nest-bank opening.",
         "tags": [
-          "rf_action"
+          "common_kingfi_3"
         ],
         "story_role": "action",
-        "overlay_label": "HUNTING SKILLS"
+        "overlay_label": "NEST ENTRANCE"
       },
       {
-        "text": "In towns, a hungry fox may even investigate discarded takeout. Yes, really.",
-        "scene": "Authentic fox investigating discarded takeout packaging, no endorsement of feeding wildlife.",
+        "text": "The tunnel puts eggs and young chicks away from the exposed surface of the bank.",
+        "scene": "Kingfisher by riverside habitat; no invented chicks.",
         "tags": [
-          "rf_explain"
+          "common_kingfi_4"
         ],
         "story_role": "explanation",
-        "overlay_label": "YES, TAKEOUT"
+        "overlay_label": "HIDDEN NEST"
       },
       {
-        "text": "Young foxes start learning by watching and exploring the world around them.",
-        "scene": "Archival USFWS fox cubs and separate genuine young foxes exploring along a roadside in Delaware in May 2026; not the same litter or a shown den.",
+        "text": "That pointed bill is also a fishing tool, used to handle slippery prey.",
+        "scene": "Real common kingfisher handling a caught fish.",
         "tags": [
-          "rf_twist"
+          "common_kingfi_5"
         ],
         "story_role": "twist",
-        "overlay_label": "YOUNG EXPLORERS"
+        "overlay_label": "FISHING BILL"
       },
       {
-        "text": "Then play turns into practice: every chase and tumble helps prepare a future hunter.",
-        "scene": "Two different authentic recordings of young red foxes playing in gardens.",
+        "text": "One little bird uses the same bill to prepare a home and to bring food back.",
+        "scene": "Authentic common kingfisher perched by water.",
         "tags": [
-          "rf_payoff"
+          "common_kingfi_6"
         ],
         "story_role": "payoff",
-        "overlay_label": "PLAY = PRACTICE"
+        "overlay_label": "ONE TOOL"
+      }
+    ],
+    "trend_priority": false
+  },
+  "bald_eagle_feeding_eaglets": {
+    "title": "THE PATIENT SIDE OF A BALD EAGLE",
+    "script": "A bald eagle is feeding tiny chicks, even though its own beak can tear apart a large fish. Young eaglets cannot hunt yet, so the adults must bring food back to the nest. Watch how a parent offers small bites instead of leaving the whole catch to the chicks. The chicks grow for weeks before they can fly or find food on their own. Even powerful adults face trouble: smaller birds sometimes chase them away from nesting areas. Behind the fierce predator is a long period of care before a young eagle can hunt.",
+    "caption": "THE PATIENT SIDE OF A BALD EAGLE. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20feeding%20eaglets%20on%20Seedskadee%20National%20Wildlife%20Refuge%20(27715193638).webm",
+        "type": "video",
+        "assetTitle": "Bald eagle feeding eaglets on Seedskadee National Wildlife Refuge (27715193638).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_feeding_eaglets_on_Seedskadee_National_Wildlife_Refuge_(27715193638).webm",
+        "tags": [
+          "bald_eagle_fe_1"
+        ],
+        "author": "USFWS Mountain Prairie",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagles%20Mating%20in%20Greater%20Toronto%20Area.webm",
+        "type": "video",
+        "assetTitle": "Bald Eagles Mating in Greater Toronto Area.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_Eagles_Mating_in_Greater_Toronto_Area.webm",
+        "tags": [
+          "bald_eagle_fe_2"
+        ],
+        "author": "Lucastphotography",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20feeding%20eaglets%20at%20Seedskadee%20National%20Wildlife%20Refuge%20(39930814005).webm",
+        "type": "video",
+        "assetTitle": "Bald eagle feeding eaglets at Seedskadee National Wildlife Refuge (39930814005).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_feeding_eaglets_at_Seedskadee_National_Wildlife_Refuge_(39930814005).webm",
+        "tags": [
+          "bald_eagle_fe_3"
+        ],
+        "author": "USFWS Mountain Prairie",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20in%20California.webm",
+        "type": "video",
+        "assetTitle": "Bald eagle (Haliaeetus leucocephalus) in California.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_in_California.webm",
+        "tags": [
+          "bald_eagle_fe_4"
+        ],
+        "author": "devra",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagle%20(Haliaeetus%20leucocephalus)%20in%20USA.webm",
+        "type": "video",
+        "assetTitle": "Bald Eagle (Haliaeetus leucocephalus) in USA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_(Haliaeetus_leucocephalus)_in_USA.webm",
+        "tags": [
+          "bald_eagle_fe_4"
+        ],
+        "author": "Video courtesy of U.S. Fish and Wildlife Service National Conservation Training Center",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20being%20chased%20by%20a%20smaller%20bird.webm",
+        "type": "video",
+        "assetTitle": "Bald eagle (Haliaeetus leucocephalus) being chased by a smaller bird.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_being_chased_by_a_smaller_bird.webm",
+        "tags": [
+          "bald_eagle_fe_5"
+        ],
+        "author": "Wonderlane",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagle%20(Haliaeetus%20leucocephalus)%2C%20immature%2C%20in%20California.webm",
+        "type": "video",
+        "assetTitle": "Bald Eagle (Haliaeetus leucocephalus), immature, in California.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_(Haliaeetus_leucocephalus)%2C_immature%2C_in_California.webm",
+        "tags": [
+          "bald_eagle_fe_6"
+        ],
+        "author": "Bill Ward",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20in%20wilidlife%20refuge.ogv",
+        "type": "video",
+        "assetTitle": "Bald eagle (Haliaeetus leucocephalus) in wilidlife refuge.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_in_wilidlife_refuge.ogv",
+        "tags": [
+          "bald_eagle_fe_6"
+        ],
+        "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-30-bald_eagle_feeding_eaglets-prep-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "A bald eagle is feeding tiny chicks, even though its own beak can tear apart a large fish.",
+        "scene": "USFWS bald eagle feeding eaglets.",
+        "tags": [
+          "bald_eagle_fe_1"
+        ],
+        "story_role": "hook",
+        "overlay_label": "EAGLE NURSERY"
+      },
+      {
+        "text": "Young eaglets cannot hunt yet, so the adults must bring food back to the nest.",
+        "scene": "Adult eagle pair near nesting territory.",
+        "tags": [
+          "bald_eagle_fe_2"
+        ],
+        "story_role": "setup",
+        "overlay_label": "PARENT DUTY"
+      },
+      {
+        "text": "Watch how a parent offers small bites instead of leaving the whole catch to the chicks.",
+        "scene": "Another authentic eagle feeding eaglets.",
+        "tags": [
+          "bald_eagle_fe_3"
+        ],
+        "story_role": "action",
+        "overlay_label": "SMALL BITES"
+      },
+      {
+        "text": "The chicks grow for weeks before they can fly or find food on their own.",
+        "scene": "Adult eagles in other locations, not same family.",
+        "tags": [
+          "bald_eagle_fe_4"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "GROWING UP"
+      },
+      {
+        "text": "Even powerful adults face trouble: smaller birds sometimes chase them away from nesting areas.",
+        "scene": "Bald eagle genuinely chased by a smaller bird.",
+        "tags": [
+          "bald_eagle_fe_5"
+        ],
+        "story_role": "twist",
+        "overlay_label": "NOT INVINCIBLE"
+      },
+      {
+        "text": "Behind the fierce predator is a long period of care before a young eagle can hunt.",
+        "scene": "Immature bald eagle compared with another adult.",
+        "tags": [
+          "bald_eagle_fe_6"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "PATIENT PARENTS"
+      }
+    ],
+    "trend_priority": false
+  },
+  "north_american_beaver_water_design": {
+    "title": "WHY BEAVERS MOVE BETTER IN WATER",
+    "script": "A North American beaver looks heavy on land, but its body is made for a life near water. Broad hind feet and a flat tail help this rodent maneuver through ponds. When it swims, the hind feet do most of the paddling and the tail helps it steer. Its thick fur helps trap warmth, while regular grooming keeps that coat working. That same bulky animal can turn smoothly once its body is supported by water. For a beaver, the boundary between land and water is where its special body design pays off.",
+    "caption": "WHY BEAVERS MOVE BETTER IN WATER. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Castor%20canadensis%20KANADSKI%20BOBER%202.webm",
+        "type": "video",
+        "assetTitle": "2023-02-17 ZOO LJUBLJANA Castor canadensis KANADSKI BOBER 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Castor_canadensis_KANADSKI_BOBER_2.webm",
+        "tags": [
+          "north_america_1"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Castor%20canadensis%20KANADSKI%20BOBER%203.webm",
+        "type": "video",
+        "assetTitle": "2023-02-17 ZOO LJUBLJANA Castor canadensis KANADSKI BOBER 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Castor_canadensis_KANADSKI_BOBER_3.webm",
+        "tags": [
+          "north_america_2"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Castor%20canadensis%204.webm",
+        "type": "video",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Castor canadensis 4.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis_4.webm",
+        "tags": [
+          "north_america_3"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Castor%20canadensis%205.webm",
+        "type": "video",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Castor canadensis 5.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis_5.webm",
+        "tags": [
+          "north_america_3"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Castor%20canadensis%20KANADSKI%20BOBER%204.webm",
+        "type": "video",
+        "assetTitle": "2023-02-17 ZOO LJUBLJANA Castor canadensis KANADSKI BOBER 4.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Castor_canadensis_KANADSKI_BOBER_4.webm",
+        "tags": [
+          "north_america_4"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Castor%20canadensis.webm",
+        "type": "video",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Castor canadensis.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis.webm",
+        "tags": [
+          "north_america_5"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Castor%20canadensis%203.webm",
+        "type": "video",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Castor canadensis 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis_3.webm",
+        "tags": [
+          "north_america_6"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-06-01%20LJUBLJANA%20ZOO%20LJUBLJANA%20-%20Castor%20canadensis%202.webm",
+        "type": "video",
+        "assetTitle": "2024-06-01 LJUBLJANA ZOO LJUBLJANA - Castor canadensis 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Castor_canadensis_2.webm",
+        "tags": [
+          "north_america_6"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-30-north_american_beaver_water_design-prep-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "A North American beaver looks heavy on land, but its body is made for a life near water.",
+        "scene": "Captive beaver body shape, explicitly zoo context.",
+        "tags": [
+          "north_america_1"
+        ],
+        "story_role": "hook",
+        "overlay_label": "BUILT FOR WATER"
+      },
+      {
+        "text": "Broad hind feet and a flat tail help this rodent maneuver through ponds.",
+        "scene": "Beaver movement in a zoo enclosure.",
+        "tags": [
+          "north_america_2"
+        ],
+        "story_role": "setup",
+        "overlay_label": "POWERFUL FEET"
+      },
+      {
+        "text": "When it swims, the hind feet do most of the paddling and the tail helps it steer.",
+        "scene": "Authentic beaver swimming; QA must confirm.",
+        "tags": [
+          "north_america_3"
+        ],
+        "story_role": "action",
+        "overlay_label": "SWIMMING"
+      },
+      {
+        "text": "Its thick fur helps trap warmth, while regular grooming keeps that coat working.",
+        "scene": "Beaver grooming or moving; QA must confirm.",
+        "tags": [
+          "north_america_4"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "DENSE FUR"
+      },
+      {
+        "text": "That same bulky animal can turn smoothly once its body is supported by water.",
+        "scene": "Beaver in water from another filming day.",
+        "tags": [
+          "north_america_5"
+        ],
+        "story_role": "twist",
+        "overlay_label": "SMOOTH TURNS"
+      },
+      {
+        "text": "For a beaver, the boundary between land and water is where its special body design pays off.",
+        "scene": "Beaver near water in separate genuine shots.",
+        "tags": [
+          "north_america_6"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "WATER SPECIALIST"
+      }
+    ],
+    "trend_priority": false
+  },
+  "american_alligator_hidden_breath": {
+    "title": "THE ALLIGATOR YOU CAN BARELY SEE",
+    "script": "An American alligator can seem to vanish with only its eyes showing above the water. Its eyes and nostrils sit high on the head, while the heavy body stays low. A slow sweep of the tail can move the animal through water with little splash. Inside, strong muscles move air through its lungs, something scientists can study with X-ray video. An albino alligator stands out, but its eyes and nostrils keep the same basic arrangement. Dark or pale, the same body plan helps an alligator watch the world from the waterline.",
+    "caption": "THE ALLIGATOR YOU CAN BARELY SEE. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/American%20alligator%20(Alligator%20mississippiensis).ogv",
+        "type": "video",
+        "assetTitle": "American alligator (Alligator mississippiensis).ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:American_alligator_(Alligator_mississippiensis).ogv",
+        "tags": [
+          "american_alli_1"
+        ],
+        "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/American%20alligator%20in%20the%20Hillsborough%20River%2C%20Florida.webm",
+        "type": "video",
+        "assetTitle": "American alligator in the Hillsborough River, Florida.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:American_alligator_in_the_Hillsborough_River%2C_Florida.webm",
+        "tags": [
+          "american_alli_2"
+        ],
+        "author": "Walter",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/American%20alligator%20(Alligator%20mississippiensis)%20Swimming.webm",
+        "type": "video",
+        "assetTitle": "American alligator (Alligator mississippiensis) Swimming.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:American_alligator_(Alligator_mississippiensis)_Swimming.webm",
+        "tags": [
+          "american_alli_3"
+        ],
+        "author": "Cody Meshes/USFWS (U.S. Fish and Wildlife Service Southeast Region)",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/KSC-05-S-00040%20(ksc%20020405%20alligators).webm",
+        "type": "video",
+        "assetTitle": "KSC-05-S-00040 (ksc 020405 alligators).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:KSC-05-S-00040_(ksc_020405_alligators).webm",
+        "tags": [
+          "american_alli_3"
+        ],
+        "author": "NASA Kennedy Space Center",
+        "license": "Public domain",
+        "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/X-ray%20video%20of%20a%20female%20American%20alligator%20(Alligator%20mississippiensis)%20while%20breathing%20-%20pone.0004497.s009.ogv",
+        "type": "video",
+        "assetTitle": "X-ray video of a female American alligator (Alligator mississippiensis) while breathing - pone.0004497.s009.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:X-ray_video_of_a_female_American_alligator_(Alligator_mississippiensis)_while_breathing_-_pone.0004497.s009.ogv",
+        "tags": [
+          "american_alli_4"
+        ],
+        "author": "Claessens L, O'Connor P, Unwin D",
+        "license": "CC BY 2.5",
+        "license_url": "https://creativecommons.org/licenses/by/2.5/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.5. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/X-ray%20video%20of%20a%20female%20American%20alligator%20(Alligator%20mississippiensis)%20while%20breathing%20(dorsoventral%20view)%20-%20pone.0004497.s010.ogv",
+        "type": "video",
+        "assetTitle": "X-ray video of a female American alligator (Alligator mississippiensis) while breathing (dorsoventral view) - pone.0004497.s010.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:X-ray_video_of_a_female_American_alligator_(Alligator_mississippiensis)_while_breathing_(dorsoventral_view)_-_pone.0004497.s010.ogv",
+        "tags": [
+          "american_alli_4"
+        ],
+        "author": "Claessens L, O'Connor P, Unwin D",
+        "license": "CC BY 2.5",
+        "license_url": "https://creativecommons.org/licenses/by/2.5/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.5. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude%20(albino%20alligator)%201%202019-02-26.webm",
+        "type": "video",
+        "assetTitle": "Claude (albino alligator) 1 2019-02-26.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Claude_(albino_alligator)_1_2019-02-26.webm",
+        "tags": [
+          "american_alli_5"
+        ],
+        "author": "FASTILY",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY-SA 4.0. Independent creator and scene QA pending. ShareAlike TikTok reuse unresolved: HOLD REQUIRED."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20egrets%20(Ardea%20alba)%20riding%20on%20alligators.webm",
+        "type": "video",
+        "assetTitle": "Great egrets (Ardea alba) riding on alligators.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_egrets_(Ardea_alba)_riding_on_alligators.webm",
+        "tags": [
+          "american_alli_6"
+        ],
+        "author": "Walter",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-30-american_alligator_hidden_breath-prep-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "An American alligator can seem to vanish with only its eyes showing above the water.",
+        "scene": "Alligator in refuge, low in water.",
+        "tags": [
+          "american_alli_1"
+        ],
+        "story_role": "hook",
+        "overlay_label": "HIDDEN IN WATER"
+      },
+      {
+        "text": "Its eyes and nostrils sit high on the head, while the heavy body stays low.",
+        "scene": "Genuine alligator near surface of Florida river.",
+        "tags": [
+          "american_alli_2"
+        ],
+        "story_role": "setup",
+        "overlay_label": "EYES AND NOSE"
+      },
+      {
+        "text": "A slow sweep of the tail can move the animal through water with little splash.",
+        "scene": "Real juvenile alligator and NASA wildlife footage.",
+        "tags": [
+          "american_alli_3"
+        ],
+        "story_role": "action",
+        "overlay_label": "TAIL POWER"
+      },
+      {
+        "text": "Inside, strong muscles move air through its lungs, something scientists can study with X-ray video.",
+        "scene": "Actual X-ray studies of alligator breathing.",
+        "tags": [
+          "american_alli_4"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "X-RAY BREATHING"
+      },
+      {
+        "text": "An albino alligator stands out, but its eyes and nostrils keep the same basic arrangement.",
+        "scene": "Authentic captive albino alligator, not wild.",
+        "tags": [
+          "american_alli_5"
+        ],
+        "story_role": "twist",
+        "overlay_label": "ALBINO EXCEPTION"
+      },
+      {
+        "text": "Dark or pale, the same body plan helps an alligator watch the world from the waterline.",
+        "scene": "Real alligator and egret footage, verify alligator visible.",
+        "tags": [
+          "american_alli_6"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "WATCH THE WATER"
       }
     ],
     "trend_priority": false
