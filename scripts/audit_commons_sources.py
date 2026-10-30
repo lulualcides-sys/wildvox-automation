@@ -43,12 +43,51 @@ def is_free_license(value):
         return False
     return text.startswith(("cc by ", "cc by-sa ", "cc0", "public domain", "pd-", "pd ", "cc zero"))
 
+def validate_source_mix(batch):
+    """Apply per-video quotas, not an arbitrary whole-batch video threshold.
+
+    Five valid 6-video/2-photo candidates contain 30 videos, not 38.
+    Photo-only exceptions require documentary evidence and >=3 real photos.
+    The generator independently enforces the same source-count rules.
+    """
+    if len(batch) != 5:
+        raise RuntimeError(f"Expected exactly 5 daily candidates, found {len(batch)}")
+    video_total = 0
+    for key, entry in batch.items():
+        sources = entry.get("sources") or []
+        exception = entry.get("trend_exception") or {}
+        photo_exception = bool(exception.get("photo_only_allowed"))
+        if photo_exception:
+            if not exception.get("evidence_url") or not exception.get("evidence_published_date"):
+                raise RuntimeError(f"{key}: photo-only exception lacks published evidence")
+            if not 3 <= len(sources) <= 12:
+                raise RuntimeError(f"{key}: photo-only exception needs 3-12 assets")
+        elif not 8 <= len(sources) <= 12:
+            raise RuntimeError(f"{key}: video-first candidate needs 8-12 assets")
+
+        videos = sum(s.get("type", "video") == "video" for s in sources)
+        images = sum(s.get("type", "video") == "image" for s in sources)
+        if videos + images != len(sources):
+            raise RuntimeError(f"{key}: unsupported media type in source pool")
+        if photo_exception:
+            if videos == 0 and images < 3:
+                raise RuntimeError(f"{key}: photo-only exception requires >=3 photos")
+        elif videos < 6 or videos > 10 or images > 2:
+            raise RuntimeError(
+                f"{key}: video-first pool requires 6-10 videos and <=2 photos "
+                f"(found {videos} videos, {images} photos)"
+            )
+        video_total += videos
+    return video_total
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default="configs/daily.json")
     args = parser.parse_args()
     with open(args.config, encoding="utf-8") as handle:
         batch = json.load(handle)
+    video_total = validate_source_mix(batch)
     requests = []
     for key, entry in batch.items():
         for source in entry.get("sources", []):
@@ -64,9 +103,6 @@ def main():
                 raise RuntimeError(f"{key}: unsupported source URL: {url}")
             filename = unquote(parsed.path[len(prefix):]).replace("_", " ")
             requests.append((key, source, "File:" + filename))
-    video_total = sum(1 for _, source, _ in requests if source.get("type", "video") == "video")
-    if video_total < 38:
-        raise RuntimeError("Expected at least 38 authentic video assets")
     checked = 0
     failures = []
     for offset in range(0, len(requests), 12):
