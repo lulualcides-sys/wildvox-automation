@@ -86,6 +86,17 @@ def main():
             metadata = info.get("extmetadata") or {}
             license_name = str((metadata.get("LicenseShortName") or {}).get("value") or "")
             license_url = str((metadata.get("LicenseUrl") or {}).get("value") or "")
+            # Commercial reuse alone does not prove that TikTok's delivery
+            # terms can satisfy Creative Commons ShareAlike. Fail closed before
+            # downloading/rendering an expensive batch. An independently
+            # documented platform-compatible rights workflow is required before
+            # any CC BY-SA source may be admitted.
+            if "by-sa" in license_name.casefold():
+                failures.append(
+                    f"{key}: CC BY-SA/TikTok ShareAlike delivery compatibility "
+                    f"not independently cleared; replace source: {title}"
+                )
+                continue
             if not is_free_license(license_name):
                 failures.append(f"{key}: license not confirmed for commercial reuse: {title}: {license_name!r}")
                 continue
