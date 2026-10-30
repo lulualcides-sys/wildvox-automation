@@ -14,6 +14,7 @@ import soundfile as sf
 from kokoro import KPipeline
 from cinematic_fx import camera_filter, enrich_subtitles
 from semantic_shots import plan_semantic_shots
+from tiktok_credits import attributed_tiktok_caption
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output"
@@ -1026,6 +1027,8 @@ def main():
     if Path(args.config).name == "daily.json":
         validate_daily_batch(data)
     cfg = data[args.key]
+    # Prepare complete source attribution before expensive TTS or rendering.
+    attributed_caption = attributed_tiktok_caption(cfg)
 
     voice, duration, narration_timeline = generate_voice(
         cfg["script"], args.key, visual_plan=cfg.get("visual_plan")
@@ -1072,7 +1075,9 @@ def main():
         json.dumps({
             "key": args.key,
             "title": cfg["title"],
-            "caption": cfg["caption"],
+            "caption": attributed_caption,
+            "publication_hold": bool(cfg.get("publication_hold", True)),
+            "attribution_review_required": True,
             # Exact editorial config fingerprint prevents accepting stale MP4s after
             # changes to narration, scene tags, source seeks, license or render settings.
             "config_sha256": hashlib.sha256(json.dumps(
