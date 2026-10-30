@@ -11,14 +11,26 @@ from urllib.request import Request, urlopen
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "WildVoxSourceResearch/1.0 (source verification; GitHub project)"
 SUBJECTS = {
-    "octopus_vulgaris": ["Octopus vulgaris", "common octopus", "octopus feeding"],
-    "sepia_officinalis": ["Sepia officinalis", "common cuttlefish", "cuttlefish camouflage"],
-    "mantis_religiosa": ["Mantis religiosa", "praying mantis", "mantis hunting"],
-    "axolotl": ["Ambystoma mexicanum", "axolotl", "Mexican salamander"],
-    "common_kingfisher": ["Alcedo atthis", "common kingfisher", "kingfisher diving"],
-    "archerfish": ["Toxotes jaculatrix", "archerfish", "archer fish"],
-    "leafcutter_ant": ["Atta cephalotes", "leafcutter ant", "leaf cutting ants"],
-    "basilisk_lizard": ["Basiliscus basiliscus", "basilisk lizard"]
+    "kingfisher": ["Alcedo atthis", "kingfisher"],
+    "mantis_religiosa": ["Mantis religiosa", "praying mantis"],
+    "bald_eagle": ["Haliaeetus leucocephalus", "bald eagle"],
+    "great_blue_heron": ["Ardea herodias", "great blue heron"],
+    "humpback_whale": ["Megaptera novaeangliae", "humpback whale"],
+    "american_alligator": ["Alligator mississippiensis", "American alligator"],
+    "american_beaver": ["Castor canadensis", "American beaver"],
+    "california_sea_lion": ["Zalophus californianus", "California sea lion"],
+    "common_octopus": ["Octopus vulgaris", "common octopus"]
+}
+CATEGORIES = {
+    "kingfisher": ["Videos of Alcedo atthis", "Alcedo atthis videos"],
+    "mantis_religiosa": ["Mantis religiosa videos"],
+    "bald_eagle": ["Videos of Haliaeetus leucocephalus", "Haliaeetus leucocephalus videos"],
+    "great_blue_heron": ["Videos of Ardea herodias", "Ardea herodias videos"],
+    "humpback_whale": ["Videos of Megaptera novaeangliae", "Megaptera novaeangliae videos"],
+    "american_alligator": ["Videos of Alligator mississippiensis", "Alligator mississippiensis videos"],
+    "american_beaver": ["Videos of Castor canadensis", "Castor canadensis videos"],
+    "california_sea_lion": ["Videos of Zalophus californianus", "Zalophus californianus videos"],
+    "common_octopus": ["Videos of Octopus vulgaris", "Octopus vulgaris videos"]
 }
 VIDEO = re.compile(r"\.(?:webm|ogv|ogg|mp4)$", re.I)
 def query(params):
@@ -52,6 +64,14 @@ def main():
                 except Exception as e:
                     print("SEARCH_WARNING", subject, phrase, str(e)[:120])
                 time.sleep(.08)
+        for category in CATEGORIES.get(subject, []):
+            try:
+                response = query({"generator":"categorymembers","gcmtitle":"Category:"+category,
+                                  "gcmtype":"file","gcmlimit":150,"prop":"imageinfo","iiprop":"size"})
+                titles.update(p["title"] for p in response.get("query",{}).get("pages",[])
+                              if VIDEO.search(p.get("title","")))
+            except Exception as e:
+                print("CATEGORY_WARNING",subject,category,str(e)[:80])
         rows = []
         names = sorted(titles)
         for offset in range(0, len(names), 35):
