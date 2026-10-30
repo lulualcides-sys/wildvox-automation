@@ -25,12 +25,27 @@ def plain(value):
     p.feed(str(value or ""))
     return re.sub(r"\s+", " ", html.unescape(" ".join(p.parts))).strip()
 
+def editorial_day_from_batch(batch):
+    """Use the actual five-candidate editorial date, never a hardcoded audit date."""
+    if len(batch) != 5:
+        raise ValueError(f"Expected five candidates for credits audit, got {len(batch)}")
+    days = set()
+    for key, entry in batch.items():
+        revision = str(entry.get("revision") or "")
+        if not re.match(r"^\d{4}-\d{2}-\d{2}(?:-|$)", revision):
+            raise ValueError(f"Missing dated revision for {key}")
+        days.add(revision[:10])
+    if len(days) != 1:
+        raise ValueError(f"Mixed editorial dates in credits audit: {sorted(days)}")
+    return days.pop()
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default="configs/daily.json")
     parser.add_argument("--output", default="commons-credits-report.json")
     args = parser.parse_args()
     batch = json.loads(Path(args.config).read_text(encoding="utf-8"))
+    editorial_day = editorial_day_from_batch(batch)
     items = []
     for key, entry in batch.items():
         for i, source in enumerate(entry["sources"]):
@@ -69,7 +84,7 @@ def main():
                                 license_match=(not source.get("license") or
                                                source["license"].lower().replace(" ", "") ==
                                                license_name.lower().replace(" ", ""))))
-    result = {"editorial_day": "2026-10-29", "config": args.config,
+    result = {"editorial_day": editorial_day, "config": args.config,
               "scope": "Original Commons API Artist/Credit/Attribution/License fields; HTML normalized for human review; not final legal clearance",
               "source_count": len(records),
               "missing_creator_count": sum(x["status"] == "MISSING_CREATOR" for x in records),
