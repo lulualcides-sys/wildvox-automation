@@ -16,7 +16,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh run download 41195891914 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-heron-recovery --dir .
+          gh run download 41197246849 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-heron-recovery --dir .
       - name: Use merged per-candidate technical QA from main
         run: |
           sudo apt-get update -qq
@@ -33,7 +33,9 @@ jobs:
           import json
           q=json.load(open('heron_technical_qa_2026-10-31.json'))
           assert q['technical_pass'] and not q['editorial_approved'] and q['publication_hold']
-          assert q['videos'][0]['revision']=='2026-10-31-grey_heron_patient_fishing-editorial-v2'
+          cfg=json.load(open('qa/daily-prep-candidate-2026-10-31.json'))['grey_heron_patient_fishing']
+          assert q['videos'][0]['revision']==cfg['revision'], 'QA revision must match exact current config'
+          assert cfg['publication_hold'] is True, 'Hold must remain active'
           print('Technically sound heron, independent visual review still required.')
           PY
           git fetch origin media
@@ -62,3 +64,5 @@ jobs:
           path: heron_technical_qa_2026-10-31.json
           retention-days: 3
           if-no-files-found: warn
+
+# 2026-10-31: current editorial-v3 heron MP4 from run 41197246849; no rerender.
