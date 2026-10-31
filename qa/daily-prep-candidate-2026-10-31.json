@@ -745,7 +745,7 @@
   },
   "lion_cubs_learning_through_play": {
     "title": "WHAT LIONS DO BETWEEN THE HUNTS",
-    "script": "What happens when a lion is not chasing prey? Even young cubs have a busy day. In the wild, cubs travel together, while adult lions can share long quiet moments. The youngest lions explore their surroundings and stay close to larger members of the pride. Adults also spend time resting, grooming, and watching what happens around them. When it is time to drink, even a powerful hunter lowers its head to the water. Lions can even walk calmly past safari vehicles, still fully wild.",
+    "script": "What happens when a lion is not chasing prey? Even young cubs have a busy day. Cubs stay close to adults, while older lions can share long quiet moments. The youngest lions explore their surroundings and stay close to larger members of the pride. Adults also spend time resting, grooming, and watching what happens around them. When it is time to drink, even a powerful hunter lowers its head to the water. A wild lion can even stand calmly beside safari vehicles without moving away.",
     "caption": "WHAT LIONS DO BETWEEN THE HUNTS. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -856,7 +856,7 @@
         "license_url": "https://creativecommons.org/licenses/by/2.0/",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "lion_walking_past_safari_vehicles"
+          "lion_standing_near_safari_vehicles"
         ],
         "license_note": "Wikimedia Commons page checked; authentic lion footage described walking near safari vehicles. Verify exact visible windows before publication."
       }
@@ -872,8 +872,8 @@
         "overlay_label": "LIFE BETWEEN HUNTS"
       },
       {
-        "text": "In the wild, cubs travel together, while adult lions can share long quiet moments.",
-        "scene": "Wild cubs walking in a group, then two adult male lions resting at a zoo.",
+        "text": "Cubs stay close to adults, while older lions can share long quiet moments.",
+        "scene": "Adult male lion at a zoo and resting lions in a wild rocky shelter; no claim of wild cub movement in zoo footage.",
         "tags": [
           "lion_cubs_serengeti_wild",
           "lion_group_zoo"
@@ -910,10 +910,10 @@
         "overlay_label": "WATER BREAK"
       },
       {
-        "text": "Lions can even walk calmly past safari vehicles, still fully wild.",
-        "scene": "Lions walking beside safari vehicles in real footage.",
+        "text": "A wild lion can even stand calmly beside safari vehicles without moving away.",
+        "scene": "Wild male lion standing beside safari vehicles, not visibly walking.",
         "tags": [
-          "lion_walking_past_safari_vehicles"
+          "lion_standing_near_safari_vehicles"
         ],
         "story_role": "payoff",
         "overlay_label": "STAY WILD"
@@ -925,7 +925,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-lion_cubs_learning_through_play-editorial-v3",
+    "revision": "2026-10-31-lion_cubs_learning_through_play-editorial-v4",
     "publication_hold": true,
     "trend_priority": false
   }
