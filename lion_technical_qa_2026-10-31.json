@@ -1,0 +1,17 @@
+{
+  "editorial_day": "2026-10-31",
+  "scope": "lion_cubs_learning_through_play",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "lion_cubs_learning_through_play",
+      "revision": "2026-10-31-lion_cubs_learning_through_play-editorial-v3",
+      "errors": [],
+      "duration": 35.55,
+      "freeze_durations": []
+    }
+  ],
+  "errors": []
+}

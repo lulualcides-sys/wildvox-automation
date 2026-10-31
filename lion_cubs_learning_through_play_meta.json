@@ -1,0 +1,216 @@
+{
+  "key": "lion_cubs_learning_through_play",
+  "title": "WHAT LIONS DO BETWEEN THE HUNTS",
+  "caption": "WHAT LIONS DO BETWEEN THE HUNTS. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Rob Bixby | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Lion_cubs_at_Jacksonville_Zoo.webm | https://creativecommons.org/licenses/by/2.0/\n2. Bettina May | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Lion_cubs_(Panthera_leo).webm | https://creativecommons.org/licenses/by/3.0/\n3. GalliasM | CC0 | https://commons.wikimedia.org/wiki/File:Lion_Cubs_Phinda_2011.ogv | https://creativecommons.org/publicdomain/zero/1.0/\n4. Rob Bixby | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Male_lion_and_cubs.webm | https://creativecommons.org/licenses/by/2.0/\n5. brando | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Lions_of_Botlierskop_video.webm | https://creativecommons.org/licenses/by/2.0/\n6. Brian Gratwicke | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Lions_(Panthera_leo)_in_zoo_in_Washington_DC.webm | https://creativecommons.org/licenses/by/2.0/\n7. Brian Gratwicke | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Lioness_drinking_at_the_National_Zoo.webm | https://creativecommons.org/licenses/by/2.0/\n8. Don Heffernan | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Lions_walking_among_a_pack_of_wild_Land_Crusiers.webm | https://creativecommons.org/licenses/by/2.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "fd4a6c7ca7f9aef847b07e487effe322d72d2252092be54823c2521b86907974",
+  "duration": 35.55,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.9,
+      "duration": 5.9,
+      "text": "What happens when a lion is not chasing prey? Even young cubs have a busy day.",
+      "scene": "Lion cubs playing and investigating a branch at Jacksonville Zoo.",
+      "tags": [
+        "lion_cubs_playing_jacksonville"
+      ],
+      "story_role": "hook",
+      "overlay_label": "LIFE BETWEEN HUNTS",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.9,
+      "end": 12.2,
+      "duration": 6.3,
+      "text": "In the wild, cubs travel together, while adult lions can share long quiet moments.",
+      "scene": "Wild cubs walking in a group, then two adult male lions resting at a zoo.",
+      "tags": [
+        "lion_cubs_serengeti_wild",
+        "lion_group_zoo"
+      ],
+      "story_role": "setup",
+      "overlay_label": "STAY TOGETHER",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 12.2,
+      "end": 18.625,
+      "duration": 6.425,
+      "text": "The youngest lions explore their surroundings and stay close to larger members of the pride.",
+      "scene": "Wild cubs and adult male with cubs; verify actual movements.",
+      "tags": [
+        "lion_cubs_phinda_play",
+        "lion_male_with_cubs"
+      ],
+      "story_role": "action",
+      "overlay_label": "LEARNING TO MOVE",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 18.625,
+      "end": 24.475,
+      "duration": 5.85,
+      "text": "Adults also spend time resting, grooming, and watching what happens around them.",
+      "scene": "Lioness visibly grooming/resting on grass at Botlierskop.",
+      "tags": [
+        "lion_group_botlierskop"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "QUIET MOMENTS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 24.475,
+      "end": 30.1,
+      "duration": 5.625,
+      "text": "When it is time to drink, even a powerful hunter lowers its head to the water.",
+      "scene": "Lioness drinking at a zoo.",
+      "tags": [
+        "lioness_drinking_zoo"
+      ],
+      "story_role": "twist",
+      "overlay_label": "WATER BREAK",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 30.1,
+      "end": 35.550000000000004,
+      "duration": 5.45,
+      "text": "Lions can even walk calmly past safari vehicles, still fully wild.",
+      "scene": "Lions walking beside safari vehicles in real footage.",
+      "tags": [
+        "lion_walking_past_safari_vehicles"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "STAY WILD",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion%20cubs%20at%20Jacksonville%20Zoo.webm",
+      "type": "video",
+      "assetTitle": "Lion cubs at Jacksonville Zoo.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lion_cubs_at_Jacksonville_Zoo.webm",
+      "tags": [
+        "lion_cubs_playing_jacksonville"
+      ],
+      "author": "Rob Bixby",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion%20cubs%20(Panthera%20leo).webm",
+      "type": "video",
+      "assetTitle": "Lion cubs (Panthera leo).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lion_cubs_(Panthera_leo).webm",
+      "tags": [
+        "lion_cubs_serengeti_wild"
+      ],
+      "author": "Bettina May",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion%20Cubs%20Phinda%202011.ogv",
+      "type": "video",
+      "assetTitle": "Lion Cubs Phinda 2011.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lion_Cubs_Phinda_2011.ogv",
+      "tags": [
+        "lion_cubs_phinda_play"
+      ],
+      "author": "GalliasM",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Male%20lion%20and%20cubs.webm",
+      "type": "video",
+      "assetTitle": "Male lion and cubs.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Male_lion_and_cubs.webm",
+      "tags": [
+        "lion_male_with_cubs"
+      ],
+      "author": "Rob Bixby",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lions%20of%20Botlierskop%20video.webm",
+      "type": "video",
+      "assetTitle": "Lions of Botlierskop video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lions_of_Botlierskop_video.webm",
+      "tags": [
+        "lion_group_botlierskop"
+      ],
+      "author": "brando",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lions%20(Panthera%20leo)%20in%20zoo%20in%20Washington%20DC.webm",
+      "type": "video",
+      "assetTitle": "Lions (Panthera leo) in zoo in Washington DC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lions_(Panthera_leo)_in_zoo_in_Washington_DC.webm",
+      "tags": [
+        "lion_group_zoo"
+      ],
+      "author": "Brian Gratwicke",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lioness%20drinking%20at%20the%20National%20Zoo.webm",
+      "type": "video",
+      "assetTitle": "Lioness drinking at the National Zoo.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lioness_drinking_at_the_National_Zoo.webm",
+      "tags": [
+        "lioness_drinking_zoo"
+      ],
+      "author": "Brian Gratwicke",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Lions walking among a pack of wild Land Crusiers.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lions_walking_among_a_pack_of_wild_Land_Crusiers.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lions%20walking%20among%20a%20pack%20of%20wild%20Land%20Crusiers.webm",
+      "type": "video",
+      "author": "Don Heffernan",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "lion_walking_past_safari_vehicles"
+      ],
+      "license_note": "Wikimedia Commons page checked; authentic lion footage described walking near safari vehicles. Verify exact visible windows before publication."
+    }
+  ],
+  "review_sheet": "lion_cubs_learning_through_play_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
