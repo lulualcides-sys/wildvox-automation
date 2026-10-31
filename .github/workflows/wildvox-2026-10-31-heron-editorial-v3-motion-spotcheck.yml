@@ -1,0 +1,34 @@
+name: WildVox — heron v3 independent decoded motion review
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-heron-editorial-v3-motion-spotcheck.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  motion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retrieve exact v3 render without rerender
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 41197246849 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-heron-recovery --dir .
+      - name: Extract 1fps decoded real MP4 frames
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          mkdir -p qa/reviews
+          ffmpeg -y -hide_banner -loglevel error -i output/grey_heron_patient_fishing.mp4 -vf "fps=1,scale=180:-2,tile=6x6:nb_frames=36:padding=3:margin=3" -frames:v 1 -q:v 3 qa/reviews/heron-2026-10-31-v3-motion-1fps.jpg
+          test -s qa/reviews/heron-2026-10-31-v3-motion-1fps.jpg
+      - name: Archive current decoded review sheet only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qa/reviews/heron-2026-10-31-v3-motion-1fps.jpg
+          git commit -m 'qa: heron v3 decoded motion review before approval'
+          git pull --rebase origin recovery/wildvox-heron-20261031
+          git push origin HEAD:recovery/wildvox-heron-20261031
