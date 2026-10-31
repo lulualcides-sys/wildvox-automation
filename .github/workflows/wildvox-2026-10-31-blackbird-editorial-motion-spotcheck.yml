@@ -1,0 +1,37 @@
+name: WildVox — blackbird editorial motion spotcheck (no publishing)
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-blackbird-editorial-motion-spotcheck.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  motion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download current exact archived render artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 41196124395 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-blackbird-recovery --dir .
+      - name: Extract real decoded MP4 frames at 1fps plus final six seconds at 2fps
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          mkdir -p qa/reviews
+          ffmpeg -y -hide_banner -loglevel error -i output/common_blackbird_park_search.mp4 -vf "fps=1,scale=180:-2,tile=6x6:nb_frames=36:padding=3:margin=3" -frames:v 1 -q:v 3 qa/reviews/blackbird-2026-10-31-motion-1fps.jpg
+          duration=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 output/common_blackbird_park_search.mp4)
+          start=$(python -c "print(max(0,float('$duration')-6))")
+          ffmpeg -y -hide_banner -loglevel error -ss "$start" -i output/common_blackbird_park_search.mp4 -t 6 -vf "fps=2,scale=240:-2,tile=4x3:nb_frames=12:padding=3:margin=3" -frames:v 1 -q:v 3 qa/reviews/blackbird-2026-10-31-last6s-2fps.jpg
+          test -s qa/reviews/blackbird-2026-10-31-motion-1fps.jpg
+          test -s qa/reviews/blackbird-2026-10-31-last6s-2fps.jpg
+      - name: Persist only contact sheets for independent editorial review
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qa/reviews/blackbird-2026-10-31-motion-1fps.jpg qa/reviews/blackbird-2026-10-31-last6s-2fps.jpg
+          git commit -m 'qa: blackbird decoded motion review sheets from existing MP4'
+          git push origin HEAD:recovery/wildvox-blackbird-20261031
