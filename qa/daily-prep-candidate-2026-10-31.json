@@ -745,7 +745,7 @@
   },
   "common_blackbird_park_search": {
     "title": "A BLACKBIRD'S BUSY DAY IN THE PARK",
-    "script": "Why does a common blackbird keep returning to the same park paths? It explores short grass and the edges of paths, pausing to inspect the ground. In a botanical garden, even small patches of soil and leaves can attract a searching bird. A few quick steps take it from open ground toward bushes, where it can disappear from view. A blackbird's rounded body and alert head turns make its movements easy to follow. Then it is off again, checking another patch of the park for its next bite.",
+    "script": "What does a common blackbird do when the park is quiet? It explores short grass and the edges of paths, pausing to inspect the ground. In a botanical garden, even small patches of soil and leaves can attract a searching bird. A few steps take it from open ground toward the grass, where it can pause and watch. In dense branches, its rounded body and dark feathers can be harder to spot. Here it pauses again, looking over another patch of the park for its next bite.",
     "caption": "A BLACKBIRD'S BUSY DAY IN THE PARK. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -855,8 +855,8 @@
     ],
     "visual_plan": [
       {
-        "text": "Why does a common blackbird keep returning to the same park paths?",
-        "scene": "Blackbird visible in city park habitat.",
+        "text": "What does a common blackbird do when the park is quiet?",
+        "scene": "Blackbird perched on a snowy branch in a city park.",
         "tags": [
           "blackbird_city_park_hook"
         ],
@@ -883,8 +883,8 @@
         "overlay_label": "LOOK CLOSELY"
       },
       {
-        "text": "A few quick steps take it from open ground toward bushes, where it can disappear from view.",
-        "scene": "Two blackbird scenes in park vegetation.",
+        "text": "A few steps take it from open ground toward the grass, where it can pause and watch.",
+        "scene": "Blackbirds walking and pausing in open ground and grassy park vegetation; no disappearing claim.",
         "tags": [
           "blackbird_park_vegetation_a",
           "blackbird_park_vegetation_b"
@@ -893,8 +893,8 @@
         "overlay_label": "QUICK STEPS"
       },
       {
-        "text": "A blackbird's rounded body and alert head turns make its movements easy to follow.",
-        "scene": "Blackbird visibly turning or pausing in a park.",
+        "text": "In dense branches, its rounded body and dark feathers can be harder to spot.",
+        "scene": "Blackbird partly hidden among berry-laden branches.",
         "tags": [
           "blackbird_alert_pause"
         ],
@@ -902,8 +902,8 @@
         "overlay_label": "ALERT BIRD"
       },
       {
-        "text": "Then it is off again, checking another patch of the park for its next bite.",
-        "scene": "Blackbird moving through another park patch.",
+        "text": "Here it pauses again, looking over another patch of the park for its next bite.",
+        "scene": "Blackbird turning and pausing in a different grassy patch.",
         "tags": [
           "blackbird_park_final_search"
         ],
@@ -917,7 +917,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-common_blackbird_park_search-research-v1",
+    "revision": "2026-10-31-common_blackbird_park_search-editorial-v2",
     "publication_hold": true,
     "trend_priority": false
   }
