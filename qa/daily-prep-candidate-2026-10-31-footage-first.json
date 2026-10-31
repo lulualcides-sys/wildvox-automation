@@ -187,7 +187,7 @@
   },
   "eurasian_red_squirrel_stop_and_go": {
     "title": "WHY RED SQUIRRELS STOP MID-DASH",
-    "script": "Why does this Eurasian red squirrel suddenly stop while moving around a tree? In a park, trunks and paths create routes between cover and exposed ground. It can climb, pause, turn, and cross open patches before finding the next safe spot, with one tree offering several different routes. Those brief pauses may help it assess the surroundings before making another move. Its bushy tail shifts position as the animal balances and changes direction. The stop-and-go path makes sense when every branch offers another possible route instead of one long, straight sprint.",
+    "script": "Why does this Eurasian red squirrel suddenly stop while moving around a tree? In a park, trunks and paths create routes between cover and exposed ground. It climbs, pauses, and crosses open patches, choosing between trees and nearby cover as it moves. During a pause, it may settle down to eat, holding food close with its front paws. The bushy tail is easy to spot, even when the animal briefly stops moving. Its stop-and-go path carries it across the park, rather than one long, straight sprint.",
     "caption": "WHY RED SQUIRRELS STOP MID-DASH. #WildVox #Wildlife #AnimalFacts",
     "sources": [
       {
@@ -202,7 +202,8 @@
         "tags": [
           "red_squirrel_on_tree_bark"
         ],
-        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
       },
       {
         "assetTitle": "2021-12-17 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
@@ -216,7 +217,8 @@
         "tags": [
           "red_squirrel_on_park_path"
         ],
-        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
       },
       {
         "assetTitle": "2021-12-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
@@ -230,7 +232,8 @@
         "tags": [
           "red_squirrel_in_tivoli_park"
         ],
-        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
       },
       {
         "assetTitle": "2022-01-07 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
@@ -244,7 +247,8 @@
         "tags": [
           "red_squirrel_on_tree_trunk"
         ],
-        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
       },
       {
         "assetTitle": "2022-01-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
@@ -258,21 +262,23 @@
         "tags": [
           "red_squirrel_on_tree_alert"
         ],
-        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 72
       },
       {
-        "assetTitle": "2022-02-14 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-02-14_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-02-14%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "assetTitle": "2021-12-10 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA 11.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA_11.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA%2011.webm",
         "type": "video",
         "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "red_squirrel_tail_in_tree"
+          "red_squirrel_tail_visible"
         ],
-        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+        "license_note": "Distinct original Commons video; final action window requires review.",
+        "start_seconds": 0
       },
       {
         "assetTitle": "2022-02-25 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
@@ -286,7 +292,8 @@
         "tags": [
           "red_squirrel_in_park"
         ],
-        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
       },
       {
         "assetTitle": "2022-01-03 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA 2.webm",
@@ -300,7 +307,8 @@
         "tags": [
           "red_squirrel_on_tivoli_tree"
         ],
-        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
       }
     ],
     "visual_plan": [
@@ -323,8 +331,8 @@
         "overlay_label": "PARK ROUTES"
       },
       {
-        "text": "It can climb, pause, turn, and cross open patches before finding the next safe spot, with one tree offering several different routes.",
-        "scene": "Red squirrel movement; both source windows need verification.",
+        "text": "It climbs, pauses, and crosses open patches, choosing between trees and nearby cover as it moves.",
+        "scene": "Two authentic squirrel videos: on a log and moving near a tree.",
         "tags": [
           "red_squirrel_in_tivoli_park",
           "red_squirrel_on_tree_trunk"
@@ -333,8 +341,8 @@
         "overlay_label": "QUICK MOVES"
       },
       {
-        "text": "Those brief pauses may help it assess the surroundings before making another move.",
-        "scene": "Squirrel alert in a tree, not claimed to be feeding.",
+        "text": "During a pause, it may settle down to eat, holding food close with its front paws.",
+        "scene": "Squirrel visibly holding food against a tree, not assumed to be scanning.",
         "tags": [
           "red_squirrel_on_tree_alert"
         ],
@@ -342,17 +350,17 @@
         "overlay_label": "LOOK AROUND"
       },
       {
-        "text": "Its bushy tail shifts position as the animal balances and changes direction.",
-        "scene": "Visible squirrel tail and posture; action must be confirmed.",
+        "text": "The bushy tail is easy to spot, even when the animal briefly stops moving.",
+        "scene": "Separate squirrel video; tail visible, action to be verified.",
         "tags": [
-          "red_squirrel_tail_in_tree"
+          "red_squirrel_tail_visible"
         ],
         "story_role": "twist",
         "overlay_label": "TAIL BALANCE"
       },
       {
-        "text": "The stop-and-go path makes sense when every branch offers another possible route instead of one long, straight sprint.",
-        "scene": "Squirrel moving through park, two distinct shots.",
+        "text": "Its stop-and-go path carries it across the park, rather than one long, straight sprint.",
+        "scene": "Squirrel on grass and then on path, two distinct sources.",
         "tags": [
           "red_squirrel_in_park",
           "red_squirrel_on_tivoli_tree"
@@ -367,7 +375,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-eurasian_red_squirrel_stop_and_go-recovery-v3",
+    "revision": "2026-10-31-eurasian_red_squirrel_stop_and_go-editorial-v4",
     "publication_hold": true,
     "trend_priority": false
   },
