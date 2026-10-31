@@ -1,0 +1,362 @@
+{
+  "date": "2026-10-31",
+  "timezone": "America/Sao_Paulo",
+  "scope": "PREP_RESEARCH_BRANCH_ONLY",
+  "main_commit_before_write": "71ea20a4ca35957dba7cceb730557853ebbd960f",
+  "main_daily_blob_before_write": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "main_config_still_2026_10_30": true,
+  "research_branch": "research/wildvox-2026-10-31-licensed-footage",
+  "candidate_config": "qa/daily-prep-candidate-2026-10-31.json",
+  "candidate_sources": "qa/source-candidates-2026-10-31.json",
+  "research_preflight_run_id": 41179680908,
+  "preview_run_id": 41179539099,
+  "preview_artifact_id": 13034143735,
+  "preview_status": "COMPLETED_SUCCESS_WITH_INDIVIDUAL_SOURCE_FAILURES",
+  "original_source_count": 40,
+  "original_unique_sha1": 40,
+  "commercial_license_compatible_sources": 40,
+  "commons_creator_fields_present": 40,
+  "previewed_real_videos": 34,
+  "preview_failed_429": 6,
+  "visual_approval": false,
+  "render_approved": false,
+  "publication_hold": true,
+  "editorial_blockers": [
+    "Six original clips could not be previewed because Wikimedia returned HTTP 429, including crucial heron strike, wild giraffe browsing, live swallowtail study and lion-with-cubs clips.",
+    "Multiple sampled sources lack the tagged animal or claimed behavior during substantial portions of the clip; no safe verified seek windows or action evidence yet.",
+    "Several clips are distant, captive, dark, embedded-text or possibly near-static; cannot guarantee 8 relevant usable shots per story or <=8s cuts.",
+    "Lion cub play appears in one clearly relevant source only; two other wild cub sources show resting/walking, not wrestling.",
+    "Swallowtail controlled-study clip s002 samples apparatus without visible butterfly/bird action; live study s001 not previewed.",
+    "Great egret on captive alligator is authentic and visually confirmed; other wetland scenes need selection/replacements.",
+    "CC BY/CC0/PD license metadata and 40 distinct original hashes passed; TikTok attribution delivery and independent source-family checks still pending."
+  ],
+  "next_actions": [
+    "Hourly QA should retry the six HTTP 429 sources with backoff and request video transcodes.",
+    "Replace mismatched/distant clips, or document precise action-window timestamps after reviewing full original video.",
+    "Re-run candidate semantic_shots.py, schema/narrative/license tests and original-hash uniqueness after every replacement.",
+    "Only then copy verified candidate to current main configs/daily.json after checking latest main and daily blob; leave publication_hold=true.",
+    "After fresh Daily 5 run, hourly QA alone inspects all five MP4s and manages TikTok scheduling/publication."
+  ],
+  "sources": [
+    {
+      "index": 0,
+      "for_key": "grey_heron",
+      "title": "2022-08-26 LJUBLJANA Špica CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Animal absent at middle sampled timestamp; needs verified seek window."
+    },
+    {
+      "index": 1,
+      "for_key": "grey_heron",
+      "title": "2022-06-17 GRAD OTOČEC CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 2,
+      "for_key": "grey_heron",
+      "title": "2022-08-10 LJUBLJANA Krajinski park Tivoli CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Heron absent at middle timestamp; some usable shots but window unverified."
+    },
+    {
+      "index": 3,
+      "for_key": "grey_heron",
+      "title": "2022-09-17 LJUBLJANA Gruberjevo nabrežje CICONIIFORMES Ardea cinerea SIVA ČAPLJA 2.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 4,
+      "for_key": "grey_heron",
+      "title": "2022-10-09 ZBILJE Zbiljsko jezero CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Very distant dark silhouette; inadequate hero/semantic clarity."
+    },
+    {
+      "index": 5,
+      "for_key": "grey_heron",
+      "title": "Grey heron (Ardea cinerea) on the Aran Islands.webm",
+      "preview_status": "DOWNLOAD_BLOCKED_429",
+      "visual_verdict": "UNVERIFIED_RATE_LIMIT",
+      "note": "Commons HTTP 429 after retries; no frames obtained."
+    },
+    {
+      "index": 6,
+      "for_key": "grey_heron",
+      "title": "2022-08-05 LJUBLJANA Izliv Gradaščice CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Heron absent at final timestamp; verified short action window needed."
+    },
+    {
+      "index": 7,
+      "for_key": "grey_heron",
+      "title": "2022-08-10 LJUBLJANA Izliv Gradaščice CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 8,
+      "for_key": "giraffe",
+      "title": "2023-08-18 ZOO LJUBLJANA Giraffa camelopardalis ŽIRAFA 3.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 9,
+      "for_key": "giraffe",
+      "title": "Žirafa v ZOO Ljubljana.ogv",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Last frame shows ground birds rather than giraffe; avoid blind random seek."
+    },
+    {
+      "index": 10,
+      "for_key": "giraffe",
+      "title": "Rothschild's giraffes at Olomouc Zoo, 30 August 2026.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 11,
+      "for_key": "giraffe",
+      "title": "Giraffe eating leaves.webm",
+      "preview_status": "DOWNLOAD_BLOCKED_429",
+      "visual_verdict": "UNVERIFIED_RATE_LIMIT",
+      "note": "Commons HTTP 429 after retries; no frames obtained."
+    },
+    {
+      "index": 12,
+      "for_key": "giraffe",
+      "title": "2023-08-18 ZOO LJUBLJANA - Giraffa camelopardalis.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 13,
+      "for_key": "giraffe",
+      "title": "Feeding a giraffe at the Giraffe Centre in Nairobi, Kenya.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 14,
+      "for_key": "giraffe",
+      "title": "2023-08-18 ZOO LJUBLJANA Giraffa camelopardalis ŽIRAFA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Giraffe behind fencing; mouth feeding action not established."
+    },
+    {
+      "index": 15,
+      "for_key": "giraffe",
+      "title": "Giraffes at Artis.ogv",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Low-resolution captive group; payoff feeding behavior not established."
+    },
+    {
+      "index": 16,
+      "for_key": "swallowtail_butterfly",
+      "title": "2022-08-10 LJUBLJANA Krajinski park Tivoli LEPIDOPTERA Papilio machaon LASTOVIČAR.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 17,
+      "for_key": "swallowtail_butterfly",
+      "title": "Papilio machaon - Kanagawa 2025 7 13.webm",
+      "preview_status": "DOWNLOAD_BLOCKED_429",
+      "visual_verdict": "UNVERIFIED_RATE_LIMIT",
+      "note": "Commons HTTP 429 after retries; no frames obtained."
+    },
+    {
+      "index": 18,
+      "for_key": "swallowtail_butterfly",
+      "title": "2022-06-16 LJUBLJANA Krajinski park Tivoli LEPIDOPTERA Papilio machaon LASTOVIČAR.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Butterfly distant/absent in middle and final frames; likely unusable for precise behavior."
+    },
+    {
+      "index": 19,
+      "for_key": "swallowtail_butterfly",
+      "title": "2022-08-08 LJUBLJANA Botanični vrt LEPIDOPTERA Papilio machaon LASTOVIČAR.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 20,
+      "for_key": "swallowtail_butterfly",
+      "title": "20090830 schwalbensch.mp4.ogv",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Appears archival still/low-motion shots; investigate before use; freeze prohibition."
+    },
+    {
+      "index": 21,
+      "for_key": "swallowtail_butterfly",
+      "title": "2022-08-08 LJUBLJANA Botanični vrt LEPIDOPTERA Papilio machaon LASTOVIČAR 2.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 22,
+      "for_key": "swallowtail_butterfly",
+      "title": "Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s002.ogv",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Controlled-study apparatus sampled without clear butterfly/approaching bird; need exact action window."
+    },
+    {
+      "index": 23,
+      "for_key": "swallowtail_butterfly",
+      "title": "Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s001.ogv",
+      "preview_status": "DOWNLOAD_BLOCKED_429",
+      "visual_verdict": "UNVERIFIED_RATE_LIMIT",
+      "note": "Commons HTTP 429 after retries; no frames obtained."
+    },
+    {
+      "index": 24,
+      "for_key": "lion",
+      "title": "Lions of Botlierskop video.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Adult lions resting/feeding; not evidence of cubs' play."
+    },
+    {
+      "index": 25,
+      "for_key": "lion",
+      "title": "Lions (Panthera leo) in zoo in Washington DC.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Adult captive lions in snow; not evidence of cub development."
+    },
+    {
+      "index": 26,
+      "for_key": "lion",
+      "title": "Lioness drinking at the National Zoo.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 27,
+      "for_key": "lion",
+      "title": "Lion cubs (Panthera leo).webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Wild cubs resting; no visible chase or wrestling."
+    },
+    {
+      "index": 28,
+      "for_key": "lion",
+      "title": "Lion cubs at Jacksonville Zoo.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 29,
+      "for_key": "lion",
+      "title": "Male lion and cubs.webm",
+      "preview_status": "DOWNLOAD_BLOCKED_429",
+      "visual_verdict": "UNVERIFIED_RATE_LIMIT",
+      "note": "Commons HTTP 429 after retries; no frames obtained."
+    },
+    {
+      "index": 30,
+      "for_key": "lion",
+      "title": "Lion Cubs Phinda 2011.ogv",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Wild cubs walking with adult; no visible wrestling."
+    },
+    {
+      "index": 31,
+      "for_key": "lion",
+      "title": "Marking territory.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Nighttime scene very dark; territory marking not clearly visible."
+    },
+    {
+      "index": 32,
+      "for_key": "great_egret",
+      "title": "2022-09-14 VRHNIKA Ribniki pri stari opekarni CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Egret perched on branches, not shallow-water steps described by hook."
+    },
+    {
+      "index": 33,
+      "for_key": "great_egret",
+      "title": "2022-07-31 LJUBLJANSKO BARJE Šinkov štradon CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Wading visible in two samples; middle sample shows other bird; verify selection."
+    },
+    {
+      "index": 34,
+      "for_key": "great_egret",
+      "title": "Great egrets (Ardea alba) riding on alligators.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 35,
+      "for_key": "great_egret",
+      "title": "2022-10-08 Naravni rezervat ORMOŠKE LAGUNE CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA 2.webm",
+      "preview_status": "DOWNLOAD_BLOCKED_429",
+      "visual_verdict": "UNVERIFIED_RATE_LIMIT",
+      "note": "Commons HTTP 429 after retries; no frames obtained."
+    },
+    {
+      "index": 36,
+      "for_key": "great_egret",
+      "title": "2022-06-04 GRAD OTOČEC CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Egret is a tiny distant white speck, unsuitable for distinctive action."
+    },
+    {
+      "index": 37,
+      "for_key": "great_egret",
+      "title": "Great egret (Ardea alba) in Slovakia.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "First sample blurred; embedded title text present; require clean seek."
+    },
+    {
+      "index": 38,
+      "for_key": "great_egret",
+      "title": "Great Egret . Ardea alba video.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "IDENTIFIABLE_SPECIES_SAMPLED_NOT_FINAL_QA",
+      "note": "Species visible in sampled frames, but actual shot timing, motion, source-family repetition and full narrative context still require independent QA."
+    },
+    {
+      "index": 39,
+      "for_key": "great_egret",
+      "title": "2022-06-15 GRAD OTOČEC CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "preview_status": "PREVIEW_AVAILABLE",
+      "visual_verdict": "REVIEW_OR_REPLACE",
+      "note": "Opening/end samples lack identifiable egret; seek window needed."
+    }
+  ]
+}
