@@ -744,9 +744,9 @@
     "trend_priority": false
   },
   "mute_swan_pond_glide": {
-    "title": "WHY SWANS LOOK SO CALM ON THE WATER",
-    "script": "Why do mute swans seem to glide without effort, even when the water around them moves? Their bodies float high while webbed feet paddle below the surface, mostly out of sight. Around ponds and park lakes, some swans swim near other birds, while others stay close to a nest. A gentle turn changes the ripples, and the long neck stays balanced above the water. White feathers make a swan stand out against darker water, even from a distance. The quiet glide is not magic: small strokes under the surface keep the bird moving forward.",
-    "caption": "WHY SWANS LOOK SO CALM ON THE WATER. #WildVox #Wildlife #Nature #AnimalFacts",
+    "title": "WHAT SWANS DO BETWEEN FLIGHTS",
+    "script": "A swan can look peaceful one moment and be airborne the next. What happens between those flights? On misty mornings, swans gather on the grass beside the water, stretching their long necks. At the pond, one bird splashes its feathers while a nearby nest waits among the reeds. Others rest on green banks, or move slowly past lily-covered corners of the park. The distant pond looks empty until two white swans appear near its edge. And when the flock takes off, broad wings carry them over the water in a completely different kind of glide.",
+    "caption": "WHAT SWANS DO BETWEEN FLIGHTS. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
         "assetTitle": "2021-12-17 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC.webm",
@@ -757,7 +757,7 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "tags": [
-          "mute_swan_gliding_park"
+          "swan_flying_above_water_intro"
         ],
         "license_note": "Commons author and CC BY 3.0 reviewed 2026-10-31; independent action-window visual check still required.",
         "license_verified_at": "2026-10-31"
@@ -771,7 +771,7 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "tags": [
-          "mute_swan_swimming_pond"
+          "swans_on_misty_grass"
         ],
         "license_note": "Commons author and CC BY 3.0 reviewed 2026-10-31; independent action-window visual check still required.",
         "license_verified_at": "2026-10-31"
@@ -785,7 +785,7 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "tags": [
-          "mute_swan_park_lake"
+          "swan_splashing_pond"
         ],
         "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication."
       },
@@ -798,7 +798,7 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "tags": [
-          "mute_swan_nest_shore"
+          "swan_nest_in_reeds"
         ],
         "license_note": "Commons author and CC BY 3.0 reviewed 2026-10-31; independent action-window visual check still required.",
         "license_verified_at": "2026-10-31"
@@ -812,7 +812,7 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "tags": [
-          "mute_swan_river_turn"
+          "swans_resting_on_grass"
         ],
         "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication."
       },
@@ -825,7 +825,7 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "tags": [
-          "mute_swan_park_pond_turn"
+          "swans_near_lily_pond"
         ],
         "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication."
       },
@@ -838,9 +838,10 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "tags": [
-          "mute_swan_white_on_dark_water"
+          "distant_swans_on_pond"
         ],
-        "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication."
+        "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication.",
+        "start_seconds": 14
       },
       {
         "assetTitle": "2022-10-18 VRHNIKA Ribniki pri stari opekarni ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
@@ -851,67 +852,67 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "tags": [
-          "mute_swan_final_glide"
+          "swan_flock_flying_over_water"
         ],
         "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication."
       }
     ],
     "visual_plan": [
       {
-        "text": "Why do mute swans seem to glide without effort, even when the water around them moves?",
-        "scene": "Mute swan visible on a park waterway.",
+        "text": "A swan can look peaceful one moment and be airborne the next. What happens between those flights?",
+        "scene": "Swans visibly flying above a misty lake, not gliding on the water.",
         "tags": [
-          "mute_swan_gliding_park"
+          "swan_flying_above_water_intro"
         ],
         "story_role": "hook",
-        "overlay_label": "EFFORTLESS GLIDE"
+        "overlay_label": "BETWEEN FLIGHTS"
       },
       {
-        "text": "Their bodies float high while webbed feet paddle below the surface, mostly out of sight.",
-        "scene": "Mute swan swimming across a quiet pond.",
+        "text": "On misty mornings, swans gather on the grass beside the water, stretching their long necks.",
+        "scene": "Two or more white swans standing together on grass in morning mist.",
         "tags": [
-          "mute_swan_swimming_pond"
+          "swans_on_misty_grass"
         ],
         "story_role": "setup",
-        "overlay_label": "HIDDEN PADDLES"
+        "overlay_label": "MISTY MORNING"
       },
       {
-        "text": "Around ponds and park lakes, some swans swim near other birds, while others stay close to a nest.",
-        "scene": "Swan at park lake followed by swan near its nest.",
+        "text": "At the pond, one bird splashes its feathers while a nearby nest waits among the reeds.",
+        "scene": "Swan splashing its feathers in pond followed by visible swan nest in reeds.",
         "tags": [
-          "mute_swan_park_lake",
-          "mute_swan_nest_shore"
+          "swan_splashing_pond",
+          "swan_nest_in_reeds"
         ],
         "story_role": "action",
-        "overlay_label": "POND LIFE"
+        "overlay_label": "POND AND NEST"
       },
       {
-        "text": "A gentle turn changes the ripples, and the long neck stays balanced above the water.",
-        "scene": "Two distinct swan videos at river and park pond.",
+        "text": "Others rest on green banks, or move slowly past lily-covered corners of the park.",
+        "scene": "Swans resting on a grassy bank, followed by swans near lily-covered pond and park building.",
         "tags": [
-          "mute_swan_river_turn",
-          "mute_swan_park_pond_turn"
+          "swans_resting_on_grass",
+          "swans_near_lily_pond"
         ],
         "story_role": "explanation",
-        "overlay_label": "SMALL TURNS"
+        "overlay_label": "RESTING PLACES"
       },
       {
-        "text": "White feathers make a swan stand out against darker water, even from a distance.",
-        "scene": "White swan on darker pond.",
+        "text": "The distant pond looks empty until two white swans appear near its edge.",
+        "scene": "Wide landscape of pond, with two white swans only appearing toward the end of the clip.",
         "tags": [
-          "mute_swan_white_on_dark_water"
+          "distant_swans_on_pond"
         ],
         "story_role": "twist",
-        "overlay_label": "BRIGHT FEATHERS"
+        "overlay_label": "SPOT THE SWANS"
       },
       {
-        "text": "The quiet glide is not magic: small strokes under the surface keep the bird moving forward.",
-        "scene": "Mute swan swimming near riverbank.",
+        "text": "And when the flock takes off, broad wings carry them over the water in a completely different kind of glide.",
+        "scene": "Several swans flying above water in a flock.",
         "tags": [
-          "mute_swan_final_glide"
+          "swan_flock_flying_over_water"
         ],
         "story_role": "payoff",
-        "overlay_label": "KEEP PADDLING"
+        "overlay_label": "WINGS UP"
       }
     ],
     "min_unique_videos": 6,
@@ -920,7 +921,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-mute_swan_pond_glide-research-v1",
+    "revision": "2026-10-31-mute_swan_pond_glide-editorial-v2",
     "publication_hold": true,
     "trend_priority": false
   }
