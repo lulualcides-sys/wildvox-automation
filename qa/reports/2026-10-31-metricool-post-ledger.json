@@ -67,15 +67,21 @@
       "media_file": "mallard_duckling_paddle_line.mp4",
       "editorial_review": "2026-10-31 original v3 rejected for false duckling footage; v4 rewritten around observed land/water clips; 8 source triptychs + v4 final review sheet inspected; 37.7s, 1080x1920, no freeze flagged, credits in caption",
       "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-8998971020839729018"
-    }
-  ],
-  "in_progress": [
+    },
     {
       "key": "eurasian_red_squirrel_stop_and_go",
-      "branch": "recovery/wildvox-squirrel-editorial-v4-20261031",
-      "workflow_run": 41194932517,
-      "status": "rearchive existing technically passed v4 artifact after concurrent media branch race; still on hold"
+      "title": "WHY RED SQUIRRELS STOP MID-DASH",
+      "metricool_post_id": 412072536,
+      "metricool_uuid": "3197508803490760738",
+      "slot_local": "2026-10-31T16:10:00-03:00",
+      "provider_status": "PENDING",
+      "published_confirmed": false,
+      "config_sha256": "fff7e2657799450afc2fcc5245897a47bd00c27b1466e96e609ca8d5ed586ca2",
+      "media_file": "eurasian_red_squirrel_stop_and_go.mp4",
+      "editorial_review": "2026-10-31 v4 source5 tail shot started before animal entered; v5 moved to verified 8.5s source window. Independent final sheet and six decoded shot frames reviewed; tail visible then squirrel moves off, 36.175s, 1080x1920, no freeze flagged, licensed credits in caption",
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=3197508803490760738"
     }
   ],
+  "in_progress": [],
   "notes": "Do not publish without independent current-run editorial approval. Do not re-post duplicates. For 31 Oct only, extra future slots are allowed, up to 10 distinct TikTok posts. No YouTube."
 }
