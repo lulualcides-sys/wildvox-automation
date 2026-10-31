@@ -1,0 +1,72 @@
+name: WildVox — 31 Oct mute swan footage-first recovery render
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-swan-recovery.yml'
+permissions:
+  contents: write
+jobs:
+  swan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check five-entry source and semantic contract
+        run: |
+          python scripts/semantic_shots.py --check-config qa/daily-prep-candidate-2026-10-31.json
+      - name: Install real render dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y espeak-ng ffmpeg curl fonts-dejavu-core
+          python -m pip install --upgrade pip
+          python -m pip install 'kokoro==0.9.4' 'spacy==3.8.4' 'preshed==3.0.9' 'numpy==1.26.4' soundfile
+          python -c "from kokoro import KPipeline; KPipeline(lang_code='a')"
+      - name: Render held swan story with genuine source previews
+        env:
+          WILDVOX_SOURCE_PREVIEWS: '1'
+        run: |
+          python scripts/generate_video.py --key mute_swan_pond_glide --config qa/daily-prep-candidate-2026-10-31.json
+      - name: Technical QA only, not editorial approval
+        run: |
+          python scripts/qa_rendered_batch.py --config qa/daily-prep-candidate-2026-10-31.json --media-dir output --key mute_swan_pond_glide --report swan_technical_qa_2026-10-31.json
+      - name: Archive held candidate with media branch race retries
+        run: |
+          set -euo pipefail
+          key=mute_swan_pond_glide
+          test -s "output/${key}.mp4"
+          test -s "output/${key}_meta.json"
+          test -s "output/${key}_review.jpg"
+          git fetch origin media
+          git worktree add --force --detach /tmp/wildvox-swan-media origin/media
+          git -C /tmp/wildvox-swan-media config user.name 'github-actions[bot]'
+          git -C /tmp/wildvox-swan-media config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3 4 5 6; do
+            git -C /tmp/wildvox-swan-media fetch origin media
+            git -C /tmp/wildvox-swan-media reset --hard FETCH_HEAD
+            cp "$GITHUB_WORKSPACE/output/${key}.mp4" /tmp/wildvox-swan-media/
+            cp "$GITHUB_WORKSPACE/output/${key}_meta.json" /tmp/wildvox-swan-media/
+            cp "$GITHUB_WORKSPACE/output/${key}_review.jpg" /tmp/wildvox-swan-media/
+            cp "$GITHUB_WORKSPACE/swan_technical_qa_2026-10-31.json" /tmp/wildvox-swan-media/
+            git -C /tmp/wildvox-swan-media add -- "${key}.mp4" "${key}_meta.json" "${key}_review.jpg" swan_technical_qa_2026-10-31.json
+            if git -C /tmp/wildvox-swan-media diff --cached --quiet; then exit 0; fi
+            git -C /tmp/wildvox-swan-media commit -m 'Archive held 31 Oct swan documentary for editorial review'
+            if git -C /tmp/wildvox-swan-media push origin HEAD:media; then exit 0; fi
+            sleep $((attempt * 3))
+          done
+          exit 1
+      - name: Preserve original previews and final MP4 for independent visual review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wildvox-31-oct-swan-recovery
+          path: |
+            output/mute_swan_pond_glide.mp4
+            output/mute_swan_pond_glide_meta.json
+            output/mute_swan_pond_glide_review.jpg
+            output/mute_swan_pond_glide_source_*_preview.jpg
+            swan_technical_qa_2026-10-31.json
+          retention-days: 3
+          if-no-files-found: warn
