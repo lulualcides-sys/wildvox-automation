@@ -6,7 +6,7 @@
   "publication_hold": true,
   "source_manifest_from_commons_live_api": true,
   "rights_scope": "Only CC0/PD/CC BY. Author/sourcePage from Commons extmetadata; source action windows and credits still require independent review.",
-  "note": "These are candidate sources, NOT a valid daily.json batch. No video render, schedule or publication authorized. Each candidate must show matching species/action in actual sampled frames; reject distant, captive-as-wild, repetitive family or static shots.",
+  "note": "These are candidate sources, NOT a valid daily.json batch. No video render, schedule or publication authorized. Each candidate must show matching species/action in actual sampled frames; reject distant, captive-as-wild, repetitive family or static shots. Great egret replaced brown bear as a distinct waterbird behavioral candidate; this is not approval.",
   "candidates": [
     {
       "for_key": "grey_heron",
@@ -185,94 +185,6 @@
       "status": "CANDIDATE_UNREVIEWED"
     },
     {
-      "for_key": "brown_bear",
-      "title": "Bear at Kaliningrad Zoo.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bear_at_Kaliningrad_Zoo.webm",
-      "license": "CC BY 3.0",
-      "author": "Alexander Grebenkov",
-      "source_description": "Bear at Kaliningrad Zoo",
-      "source_bytes": 57969904,
-      "target_block": "VISUAL_ACTION_UNCONFIRMED",
-      "status": "CANDIDATE_UNREVIEWED"
-    },
-    {
-      "for_key": "brown_bear",
-      "title": "Bear walking at Kaliningrad Zoo.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bear_walking_at_Kaliningrad_Zoo.webm",
-      "license": "CC BY 3.0",
-      "author": "Alexander Grebenkov",
-      "source_description": "Bear at Kaliningrad Zoo walking",
-      "source_bytes": 55194645,
-      "target_block": "VISUAL_ACTION_UNCONFIRMED",
-      "status": "CANDIDATE_UNREVIEWED"
-    },
-    {
-      "for_key": "brown_bear",
-      "title": "Bear begging for food at Kaliningrad Zoo.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bear_begging_for_food_at_Kaliningrad_Zoo.webm",
-      "license": "CC BY 3.0",
-      "author": "Alexander Grebenkov",
-      "source_description": "Bear at Kaliningrad Zoo begging for food",
-      "source_bytes": 42676407,
-      "target_block": "VISUAL_ACTION_UNCONFIRMED",
-      "status": "CANDIDATE_UNREVIEWED"
-    },
-    {
-      "for_key": "brown_bear",
-      "title": "Zoo Ljubljana medvedi.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Zoo_Ljubljana_medvedi.webm",
-      "license": "CC BY 3.0",
-      "author": "Pika na i",
-      "source_description": "Ne izzivaj me!",
-      "source_bytes": 38683783,
-      "target_block": "VISUAL_ACTION_UNCONFIRMED",
-      "status": "CANDIDATE_UNREVIEWED"
-    },
-    {
-      "for_key": "brown_bear",
-      "title": "Grizzly bears (Ursus arctos) in Alaska.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grizzly_bears_(Ursus_arctos)_in_Alaska.webm",
-      "license": "CC BY 3.0",
-      "author": "jerry harlin",
-      "source_description": "A grizzly sow ( Ursus arctos ) and her second-year cub enjoying a bit of mother and son time on the river and snacking on fresh salmon in Alaska, USA.",
-      "source_bytes": 32783815,
-      "target_block": "VISUAL_ACTION_UNCONFIRMED",
-      "status": "CANDIDATE_UNREVIEWED"
-    },
-    {
-      "for_key": "brown_bear",
-      "title": "Grizzly bear and her cubs eating grass.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grizzly_bear_and_her_cubs_eating_grass.webm",
-      "license": "CC BY 3.0",
-      "author": "Jussy",
-      "source_description": "Grizzly bear ( Ursus arctos ) and her cubs in Banff National Park, Alberta, Canada. Grizzly bears sometimes eat grass. In this video, the original material has been stabilised.",
-      "source_bytes": 31507174,
-      "target_block": "VISUAL_ACTION_UNCONFIRMED",
-      "status": "CANDIDATE_UNREVIEWED"
-    },
-    {
-      "for_key": "brown_bear",
-      "title": "2023-08-18 ZOO LJUBLJANA - Ursus arctos.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Ursus_arctos.webm",
-      "license": "CC BY 3.0",
-      "author": "NaIzletuSi ™",
-      "source_description": "2023-08-18 ZOO LJUBLJANA - Ursus arctos",
-      "source_bytes": 26384673,
-      "target_block": "VISUAL_ACTION_UNCONFIRMED",
-      "status": "CANDIDATE_UNREVIEWED"
-    },
-    {
-      "for_key": "brown_bear",
-      "title": "Brown bears (Ursus arctos).ogv",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Brown_bears_(Ursus_arctos).ogv",
-      "license": "Public domain",
-      "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
-      "source_description": "Brown bears ( Ursus arctos ) in Becharof National Wildlife Refuge, Alaska, USA. (The audio has been removed in this video.)",
-      "source_bytes": 23899094,
-      "target_block": "VISUAL_ACTION_UNCONFIRMED",
-      "status": "CANDIDATE_UNREVIEWED"
-    },
-    {
       "for_key": "swallowtail_butterfly",
       "title": "2022-08-10 LJUBLJANA Krajinski park Tivoli LEPIDOPTERA Papilio machaon LASTOVIČAR.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-10_LJUBLJANA_Krajinski_park_Tivoli_LEPIDOPTERA_Papilio_machaon_LASTOVI%C4%8CAR.webm",
@@ -437,6 +349,94 @@
       "license": "CC BY 2.0",
       "author": "Benjamin Hollis",
       "source_description": "Male lion marking territory",
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "great_egret",
+      "title": "2022-09-14 VRHNIKA Ribniki pri stari opekarni CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-14_VRHNIKA_Ribniki_pri_stari_opekarni_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "source_description": "2022-09-14 VRHNIKA Ribniki pri stari opekarni CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA",
+      "source_bytes": 99756502,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "great_egret",
+      "title": "2022-07-31 LJUBLJANSKO BARJE Šinkov štradon CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-31_LJUBLJANSKO_BARJE_%C5%A0inkov_%C5%A1tradon_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "source_description": "2022-07-31 LJUBLJANSKO BARJE Šinkov štradon CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA",
+      "source_bytes": 97287271,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "great_egret",
+      "title": "Great egrets (Ardea alba) riding on alligators.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_egrets_(Ardea_alba)_riding_on_alligators.webm",
+      "license": "CC BY 2.0",
+      "author": "Walter",
+      "source_description": "Great egrets ( Ardea alba ) on American alligators ( Alligator mississippiensis ). Filmed in Gatorland in Orlando, Florida, USA. In this video, the audio has been removed from the ",
+      "source_bytes": 48528014,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "great_egret",
+      "title": "2022-10-08 Naravni rezervat ORMOŠKE LAGUNE CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-08_Naravni_rezervat_ORMO%C5%A0KE_LAGUNE_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA_2.webm",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "source_description": "2022-10-08 Naravni rezervat ORMOŠKE LAGUNE CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA",
+      "source_bytes": 48307708,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "great_egret",
+      "title": "2022-06-04 GRAD OTOČEC CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "source_description": "2022-06-04 GRAD OTOČEC CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA",
+      "source_bytes": 47571261,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "great_egret",
+      "title": "Great egret (Ardea alba) in Slovakia.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_egret_(Ardea_alba)_in_Slovakia.webm",
+      "license": "CC BY 3.0",
+      "author": "Lubo Ondrasko",
+      "source_description": "Great egret (Ardea alba) in Slovakia. Filmed with a Nikon D800. In this video, the audio has been removed from the original material.",
+      "source_bytes": 45822346,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "great_egret",
+      "title": "Great Egret . Ardea alba video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Egret_._Ardea_alba_video.webm",
+      "license": "CC BY 2.0",
+      "author": "https://www.flickr.com/photos/gails_pictures/",
+      "source_description": "Cayo Coco, Cuba",
+      "source_bytes": 29589384,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "great_egret",
+      "title": "2022-06-15 GRAD OTOČEC CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-15_GRAD_OTO%C4%8CEC_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "source_description": "2022-06-15 GRAD OTOČEC CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA",
+      "source_bytes": 24299415,
       "target_block": "VISUAL_ACTION_UNCONFIRMED",
       "status": "CANDIDATE_UNREVIEWED"
     }
