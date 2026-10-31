@@ -745,7 +745,7 @@
   },
   "lion_cubs_learning_through_play": {
     "title": "WHAT LIONS DO BETWEEN THE HUNTS",
-    "script": "What happens when a lion is not chasing prey? Even young cubs have a busy day. In the wild, cubs travel together, while adult lions can share long quiet moments. The youngest lions explore their surroundings and stay close to larger members of the pride. Adults also spend time resting, grooming, and watching what happens around them. When it is time to drink, even a powerful hunter lowers its head to the water. And sometimes lions walk calmly past safari vehicles, reminding visitors that these are still wild animals.",
+    "script": "What happens when a lion is not chasing prey? Even young cubs have a busy day. In the wild, cubs travel together, while adult lions can share long quiet moments. The youngest lions explore their surroundings and stay close to larger members of the pride. Adults also spend time resting, grooming, and watching what happens around them. When it is time to drink, even a powerful hunter lowers its head to the water. Lions can even walk calmly past safari vehicles, still fully wild.",
     "caption": "WHAT LIONS DO BETWEEN THE HUNTS. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -910,7 +910,7 @@
         "overlay_label": "WATER BREAK"
       },
       {
-        "text": "And sometimes lions walk calmly past safari vehicles, reminding visitors that these are still wild animals.",
+        "text": "Lions can even walk calmly past safari vehicles, still fully wild.",
         "scene": "Lions walking beside safari vehicles in real footage.",
         "tags": [
           "lion_walking_past_safari_vehicles"
@@ -925,7 +925,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-lion_cubs_learning_through_play-editorial-v2",
+    "revision": "2026-10-31-lion_cubs_learning_through_play-editorial-v3",
     "publication_hold": true,
     "trend_priority": false
   }
