@@ -559,7 +559,7 @@
   },
   "rock_pigeon_head_bob_city_walk": {
     "title": "WHY PIGEONS BOB THEIR HEADS WHILE WALKING",
-    "script": "Why does this city pigeon move its head in little jerks as it walks? Rock pigeons share ledges and sidewalks with people, and their steps reveal a surprising trick. On pavement or rooftops, the body steps forward while the head briefly holds still, then catches up. When a pigeon rests, that head movement disappears because its body is no longer walking. But walking is only part of city life: pigeons also gather to bathe and preen. Once they move again, the familiar bob returns across paths and waterside grass.",
+    "script": "Why does this city pigeon move its head in little jerks as it walks? Rock pigeons share ledges and sidewalks with people, and their steps reveal a surprising trick. On pavement or rooftops, the body steps forward while the head briefly holds still, then catches up. When a pigeon rests, that head movement disappears because its body is no longer walking. But walking is only part of city life: pigeons also peck at the ground, gather to bathe and preen. Once they move again, the familiar bob returns across paths and waterside grass.",
     "caption": "WHY PIGEONS BOB THEIR HEADS WHILE WALKING. #WildVox #Wildlife #AnimalFacts",
     "sources": [
       {
@@ -722,9 +722,10 @@
         "overlay_label": "RESTING"
       },
       {
-        "text": "But walking is only part of city life: pigeons also gather to bathe and preen.",
-        "scene": "Several pigeons bathing together in shallow water.",
+        "text": "But walking is only part of city life: pigeons also peck at the ground, gather to bathe and preen.",
+        "scene": "Pigeon pecking at city ground, followed by group bathing in shallow water; inspect both exact windows.",
         "tags": [
+          "rock_pigeon_pecking_city_ground",
           "rock_pigeons_bathing_shallow_water"
         ],
         "story_role": "twist",
@@ -747,7 +748,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-rock_pigeon_head_bob_city_walk-editorial-v3",
+    "revision": "2026-10-31-rock_pigeon_head_bob_city_walk-editorial-v4",
     "publication_hold": true,
     "trend_priority": false
   },
