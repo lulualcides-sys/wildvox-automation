@@ -28,8 +28,9 @@ class FreezeTailRegression(unittest.TestCase):
         with patch.object(qa.subprocess, "run", return_value=fake) as runner:
             self.assertEqual(qa.freeze_durations(pathlib.Path("wildlife.mp4"), 34.0), [])
         cmd = runner.call_args.args[0]
-        self.assertIn("freezedetect=n=-55dB:d=1.0", cmd)
-        self.assertNotIn("freezedetect=n=-40dB:d=1.0", cmd)
+        video_filter = cmd[cmd.index("-vf") + 1]
+        self.assertIn("freezedetect=n=-55dB:d=1.0", video_filter)
+        self.assertNotIn("freezedetect=n=-40dB:d=1.0", video_filter)
 
     def test_closed_freeze_not_double_counted(self):
         result = self.read_freezes(
