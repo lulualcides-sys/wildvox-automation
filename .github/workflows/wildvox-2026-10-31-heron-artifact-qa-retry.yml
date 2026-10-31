@@ -1,0 +1,62 @@
+name: WildVox — recover existing heron render with current per-video QA
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-heron-artifact-qa-retry.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  qa_archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Retrieve existing heron MP4 without rerender
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 41195891914 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-heron-recovery --dir .
+      - name: Use merged per-candidate technical QA from main
+        run: |
+          git fetch origin main
+          git show origin/main:scripts/qa_rendered_batch.py > scripts/qa_rendered_batch.py
+          git show origin/main:scripts/tiktok_credits.py > scripts/tiktok_credits.py
+          python scripts/qa_rendered_batch.py --config qa/daily-prep-candidate-2026-10-31.json --media-dir output --key grey_heron_patient_fishing --report heron_technical_qa_2026-10-31.json
+      - name: Archive only if QA passes; never remove editorial hold
+        run: |
+          set -euo pipefail
+          key=grey_heron_patient_fishing
+          python - <<'PY'
+          import json
+          q=json.load(open('heron_technical_qa_2026-10-31.json'))
+          assert q['technical_pass'] and not q['editorial_approved'] and q['publication_hold']
+          assert q['videos'][0]['revision']=='2026-10-31-grey_heron_patient_fishing-editorial-v2'
+          print('Technically sound heron, independent visual review still required.')
+          PY
+          git fetch origin media
+          git worktree add --force --detach /tmp/wildvox-heron-qa-media origin/media
+          git -C /tmp/wildvox-heron-qa-media config user.name 'github-actions[bot]'
+          git -C /tmp/wildvox-heron-qa-media config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3 4 5 6; do
+            git -C /tmp/wildvox-heron-qa-media fetch origin media
+            git -C /tmp/wildvox-heron-qa-media reset --hard FETCH_HEAD
+            cp "output/${key}.mp4" /tmp/wildvox-heron-qa-media/
+            cp "output/${key}_meta.json" /tmp/wildvox-heron-qa-media/
+            cp "output/${key}_review.jpg" /tmp/wildvox-heron-qa-media/
+            cp heron_technical_qa_2026-10-31.json /tmp/wildvox-heron-qa-media/
+            git -C /tmp/wildvox-heron-qa-media add -- "${key}.mp4" "${key}_meta.json" "${key}_review.jpg" heron_technical_qa_2026-10-31.json
+            if git -C /tmp/wildvox-heron-qa-media diff --cached --quiet; then exit 0; fi
+            git -C /tmp/wildvox-heron-qa-media commit -m 'Archive QA-verified held 31 Oct heron from existing MP4'
+            if git -C /tmp/wildvox-heron-qa-media push origin HEAD:media; then exit 0; fi
+            sleep $((attempt * 3))
+          done
+          exit 1
+      - name: Preserve QA report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wildvox-31-oct-heron-qa-recovery
+          path: heron_technical_qa_2026-10-31.json
+          retention-days: 3
+          if-no-files-found: warn
