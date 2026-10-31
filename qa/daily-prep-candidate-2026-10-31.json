@@ -1,0 +1,932 @@
+{
+  "grey_heron_patient_fishing": {
+    "title": "THE HERON THAT WAITS FOR THE PERFECT STRIKE",
+    "script": "Why does this grey heron spend so much time standing almost still beside the water? In shallow wetlands, its long legs let it watch for fish without making big splashes. It takes careful steps along the bank, keeping that pointed bill ready for the next chance. Moving slowly may help it approach prey without drawing attention to itself. Then, when a fish comes within reach, the heron can strike with startling speed. The quiet waiting was part of the hunt all along, not a break from it.",
+    "caption": "THE HERON THAT WAITS FOR THE PERFECT STRIKE. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-26%20LJUBLJANA%20%C5%A0pica%20CICONIIFORMES%20Ardea%20cinerea%20SIVA%20%C4%8CAPLJA.webm",
+        "type": "video",
+        "assetTitle": "2022-08-26 LJUBLJANA Špica CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-26_LJUBLJANA_%C5%A0pica_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm",
+        "tags": [
+          "grey_heron_visible_water_edge"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-17%20GRAD%20OTO%C4%8CEC%20CICONIIFORMES%20Ardea%20cinerea%20SIVA%20%C4%8CAPLJA.webm",
+        "type": "video",
+        "assetTitle": "2022-06-17 GRAD OTOČEC CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTO%C4%8CEC_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm",
+        "tags": [
+          "grey_heron_wading_riverbank"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20CICONIIFORMES%20Ardea%20cinerea%20SIVA%20%C4%8CAPLJA.webm",
+        "type": "video",
+        "assetTitle": "2022-08-10 LJUBLJANA Krajinski park Tivoli CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-10_LJUBLJANA_Krajinski_park_Tivoli_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm",
+        "tags": [
+          "grey_heron_walking_shallow_water"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-17%20LJUBLJANA%20Gruberjevo%20nabre%C5%BEje%20CICONIIFORMES%20Ardea%20cinerea%20SIVA%20%C4%8CAPLJA%202.webm",
+        "type": "video",
+        "assetTitle": "2022-09-17 LJUBLJANA Gruberjevo nabrežje CICONIIFORMES Ardea cinerea SIVA ČAPLJA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-17_LJUBLJANA_Gruberjevo_nabre%C5%BEje_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA_2.webm",
+        "tags": [
+          "grey_heron_stalking_in_wetland"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-09%20ZBILJE%20Zbiljsko%20jezero%20CICONIIFORMES%20Ardea%20cinerea%20SIVA%20%C4%8CAPLJA.webm",
+        "type": "video",
+        "assetTitle": "2022-10-09 ZBILJE Zbiljsko jezero CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-09_ZBILJE_Zbiljsko_jezero_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm",
+        "tags": [
+          "grey_heron_pausing_by_water"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grey%20heron%20(Ardea%20cinerea)%20on%20the%20Aran%20Islands.webm",
+        "type": "video",
+        "assetTitle": "Grey heron (Ardea cinerea) on the Aran Islands.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_heron_(Ardea_cinerea)_on_the_Aran_Islands.webm",
+        "tags": [
+          "grey_heron_fishing_aran_islands"
+        ],
+        "author": "doonaran",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-05%20LJUBLJANA%20Izliv%20Grada%C5%A1%C4%8Dice%20CICONIIFORMES%20Ardea%20cinerea%20SIVA%20%C4%8CAPLJA.webm",
+        "type": "video",
+        "assetTitle": "2022-08-05 LJUBLJANA Izliv Gradaščice CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-05_LJUBLJANA_Izliv_Grada%C5%A1%C4%8Dice_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm",
+        "tags": [
+          "grey_heron_stationary_riverside"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-10%20LJUBLJANA%20Izliv%20Grada%C5%A1%C4%8Dice%20CICONIIFORMES%20Ardea%20cinerea%20SIVA%20%C4%8CAPLJA.webm",
+        "type": "video",
+        "assetTitle": "2022-08-10 LJUBLJANA Izliv Gradaščice CICONIIFORMES Ardea cinerea SIVA ČAPLJA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-10_LJUBLJANA_Izliv_Grada%C5%A1%C4%8Dice_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm",
+        "tags": [
+          "grey_heron_wetland_final_pose"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "Why does this grey heron spend so much time standing almost still beside the water?",
+        "scene": "Grey heron at a real waterside edge.",
+        "tags": [
+          "grey_heron_visible_water_edge"
+        ],
+        "story_role": "hook",
+        "overlay_label": "STAY STILL"
+      },
+      {
+        "text": "In shallow wetlands, its long legs let it watch for fish without making big splashes.",
+        "scene": "Heron standing in shallow river habitat.",
+        "tags": [
+          "grey_heron_wading_riverbank"
+        ],
+        "story_role": "setup",
+        "overlay_label": "SHALLOW WATER"
+      },
+      {
+        "text": "It takes careful steps along the bank, keeping that pointed bill ready for the next chance.",
+        "scene": "Heron walking along water; verify actual steps.",
+        "tags": [
+          "grey_heron_walking_shallow_water",
+          "grey_heron_stalking_in_wetland"
+        ],
+        "story_role": "action",
+        "overlay_label": "SLOW STEPS"
+      },
+      {
+        "text": "Moving slowly may help it approach prey without drawing attention to itself.",
+        "scene": "Heron pauses by water; avoid false fishing claim.",
+        "tags": [
+          "grey_heron_pausing_by_water"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "LOW PROFILE"
+      },
+      {
+        "text": "Then, when a fish comes within reach, the heron can strike with startling speed.",
+        "scene": "Actual grey heron fishing on Aran Islands; confirm strike window.",
+        "tags": [
+          "grey_heron_fishing_aran_islands"
+        ],
+        "story_role": "twist",
+        "overlay_label": "FAST STRIKE"
+      },
+      {
+        "text": "The quiet waiting was part of the hunt all along, not a break from it.",
+        "scene": "Return to heron waiting near water; not falsely same bird.",
+        "tags": [
+          "grey_heron_stationary_riverside",
+          "grey_heron_wetland_final_pose"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "PATIENT HUNTER"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-31-grey_heron_patient_fishing-research-v1",
+    "publication_hold": true,
+    "trend_priority": false
+  },
+  "great_egret_unexpected_perch": {
+    "title": "THE EGRET WITH AN UNEXPECTED PERCH",
+    "script": "Why is this great egret so careful with every step it takes near the water? Its long legs keep the white body above shallow water while it looks for a meal. It moves through wetlands slowly, changing position when the next patch of water looks promising. The neck and pointed bill give it reach without needing to plunge its whole body underwater. And at a Florida wildlife park, one egret was even filmed standing on a captive alligator. Whether walking through reeds or using an unexpected perch, the bird keeps its view above the water.",
+    "caption": "THE EGRET WITH AN UNEXPECTED PERCH. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-14%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CICONIIFORMES%20Egretta%20alba%20VELIKA%20BELA%20%C4%8CAPLJA.webm",
+        "type": "video",
+        "assetTitle": "2022-09-14 VRHNIKA Ribniki pri stari opekarni CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-14_VRHNIKA_Ribniki_pri_stari_opekarni_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+        "tags": [
+          "great_egret_wetland_opening"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-31%20LJUBLJANSKO%20BARJE%20%C5%A0inkov%20%C5%A1tradon%20CICONIIFORMES%20Egretta%20alba%20VELIKA%20BELA%20%C4%8CAPLJA.webm",
+        "type": "video",
+        "assetTitle": "2022-07-31 LJUBLJANSKO BARJE Šinkov štradon CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-31_LJUBLJANSKO_BARJE_%C5%A0inkov_%C5%A1tradon_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+        "tags": [
+          "great_egret_shallow_water"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-08%20Naravni%20rezervat%20ORMO%C5%A0KE%20LAGUNE%20CICONIIFORMES%20Egretta%20alba%20VELIKA%20BELA%20%C4%8CAPLJA%202.webm",
+        "type": "video",
+        "assetTitle": "2022-10-08 Naravni rezervat ORMOŠKE LAGUNE CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-08_Naravni_rezervat_ORMO%C5%A0KE_LAGUNE_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA_2.webm",
+        "tags": [
+          "great_egret_wetland_foraging"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-04%20GRAD%20OTO%C4%8CEC%20CICONIIFORMES%20Egretta%20alba%20VELIKA%20BELA%20%C4%8CAPLJA.webm",
+        "type": "video",
+        "assetTitle": "2022-06-04 GRAD OTOČEC CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+        "tags": [
+          "great_egret_wetland_stalking"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20egret%20(Ardea%20alba)%20in%20Slovakia.webm",
+        "type": "video",
+        "assetTitle": "Great egret (Ardea alba) in Slovakia.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_egret_(Ardea_alba)_in_Slovakia.webm",
+        "tags": [
+          "great_egret_slovakia_habitat"
+        ],
+        "author": "Lubo Ondrasko",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20egrets%20(Ardea%20alba)%20riding%20on%20alligators.webm",
+        "type": "video",
+        "assetTitle": "Great egrets (Ardea alba) riding on alligators.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_egrets_(Ardea_alba)_riding_on_alligators.webm",
+        "tags": [
+          "great_egret_perched_on_captive_alligator"
+        ],
+        "author": "Walter",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Egret%20.%20Ardea%20alba%20video.webm",
+        "type": "video",
+        "assetTitle": "Great Egret . Ardea alba video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Egret_._Ardea_alba_video.webm",
+        "tags": [
+          "great_egret_cuba_wetland"
+        ],
+        "author": "https://www.flickr.com/photos/gails_pictures/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-15%20GRAD%20OTO%C4%8CEC%20CICONIIFORMES%20Egretta%20alba%20VELIKA%20BELA%20%C4%8CAPLJA.webm",
+        "type": "video",
+        "assetTitle": "2022-06-15 GRAD OTOČEC CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-15_GRAD_OTO%C4%8CEC_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+        "tags": [
+          "great_egret_water_edge_final"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "Why is this great egret so careful with every step it takes near the water?",
+        "scene": "Great egret in shallow waterside setting.",
+        "tags": [
+          "great_egret_wetland_opening"
+        ],
+        "story_role": "hook",
+        "overlay_label": "CAREFUL STEPS"
+      },
+      {
+        "text": "Its long legs keep the white body above shallow water while it looks for a meal.",
+        "scene": "Great egret in wetland water, not feeding unless visible.",
+        "tags": [
+          "great_egret_shallow_water"
+        ],
+        "story_role": "setup",
+        "overlay_label": "LONG LEGS"
+      },
+      {
+        "text": "It moves through wetlands slowly, changing position when the next patch of water looks promising.",
+        "scene": "Great egret moving between wetland positions; verify movement.",
+        "tags": [
+          "great_egret_wetland_foraging",
+          "great_egret_wetland_stalking"
+        ],
+        "story_role": "action",
+        "overlay_label": "WETLAND WALK"
+      },
+      {
+        "text": "The neck and pointed bill give it reach without needing to plunge its whole body underwater.",
+        "scene": "Great egret profile shows long neck and pointed bill.",
+        "tags": [
+          "great_egret_slovakia_habitat"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "POINTED BILL"
+      },
+      {
+        "text": "And at a Florida wildlife park, one egret was even filmed standing on a captive alligator.",
+        "scene": "Gatorland original showing egret on alligator, clearly captive.",
+        "tags": [
+          "great_egret_perched_on_captive_alligator"
+        ],
+        "story_role": "twist",
+        "overlay_label": "ALLIGATOR PERCH"
+      },
+      {
+        "text": "Whether walking through reeds or using an unexpected perch, the bird keeps its view above the water.",
+        "scene": "Great egret in wetland, conclude without claiming same location.",
+        "tags": [
+          "great_egret_cuba_wetland",
+          "great_egret_water_edge_final"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "ABOVE THE WATER"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-31-great_egret_unexpected_perch-research-v1",
+    "publication_hold": true,
+    "trend_priority": false
+  },
+  "giraffe_careful_browsing": {
+    "title": "WHY A GIRAFFE EATS SO CAREFULLY",
+    "script": "Why does a giraffe need so much height just to get its next bite? A long neck puts branches within reach, while the animal stays planted on the ground. Watch a giraffe pull leaves into its mouth, using its lips and tongue to handle the foliage. That careful feeding matters because reaching a branch is only the beginning of eating it. At a supervised giraffe center, visitors can see the same precise mouth movements up close. The impressive part is not just how high it reaches, but how carefully it gathers every mouthful.",
+    "caption": "WHY A GIRAFFE EATS SO CAREFULLY. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20Giraffa%20camelopardalis%20%C5%BDIRAFA%203.webm",
+        "type": "video",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA Giraffa camelopardalis ŽIRAFA 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA_3.webm",
+        "tags": [
+          "giraffe_zoo_tall_neck"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%BDirafa%20v%20ZOO%20Ljubljana.ogv",
+        "type": "video",
+        "assetTitle": "Žirafa v ZOO Ljubljana.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%C5%BDirafa_v_ZOO_Ljubljana.ogv",
+        "tags": [
+          "giraffe_zoo_body_proportions"
+        ],
+        "author": "MZaplotnik",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rothschild's%20giraffes%20at%20Olomouc%20Zoo%2C%2030%20August%202026.webm",
+        "type": "video",
+        "assetTitle": "Rothschild's giraffes at Olomouc Zoo, 30 August 2026.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rothschild's_giraffes_at_Olomouc_Zoo%2C_30_August_2026.webm",
+        "tags": [
+          "rothschild_giraffe_zoo_posture"
+        ],
+        "author": "Dmitry Novoklimov",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe%20eating%20leaves.webm",
+        "type": "video",
+        "assetTitle": "Giraffe eating leaves.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giraffe_eating_leaves.webm",
+        "tags": [
+          "giraffe_wild_eating_leaves"
+        ],
+        "author": "Lennart Hessel",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Giraffa%20camelopardalis.webm",
+        "type": "video",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Giraffa camelopardalis.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Giraffa_camelopardalis.webm",
+        "tags": [
+          "giraffe_zoo_browsing"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Feeding%20a%20giraffe%20at%20the%20Giraffe%20Centre%20in%20Nairobi%2C%20Kenya.webm",
+        "type": "video",
+        "assetTitle": "Feeding a giraffe at the Giraffe Centre in Nairobi, Kenya.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Feeding_a_giraffe_at_the_Giraffe_Centre_in_Nairobi%2C_Kenya.webm",
+        "tags": [
+          "rothschild_giraffe_handfed_center"
+        ],
+        "author": "Lebu Ayiga",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20Giraffa%20camelopardalis%20%C5%BDIRAFA.webm",
+        "type": "video",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA Giraffa camelopardalis ŽIRAFA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA.webm",
+        "tags": [
+          "giraffe_zoo_reaching"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffes%20at%20Artis.ogv",
+        "type": "video",
+        "assetTitle": "Giraffes at Artis.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giraffes_at_Artis.ogv",
+        "tags": [
+          "giraffe_zoo_group_final"
+        ],
+        "author": "Uusijani",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "Why does a giraffe need so much height just to get its next bite?",
+        "scene": "Giraffe with visible tall neck in zoo.",
+        "tags": [
+          "giraffe_zoo_tall_neck"
+        ],
+        "story_role": "hook",
+        "overlay_label": "REACH HIGH"
+      },
+      {
+        "text": "A long neck puts branches within reach, while the animal stays planted on the ground.",
+        "scene": "Different zoo giraffes showing height and neck.",
+        "tags": [
+          "giraffe_zoo_body_proportions",
+          "rothschild_giraffe_zoo_posture"
+        ],
+        "story_role": "setup",
+        "overlay_label": "TALL DESIGN"
+      },
+      {
+        "text": "Watch a giraffe pull leaves into its mouth, using its lips and tongue to handle the foliage.",
+        "scene": "Wild giraffe eating leaves, authentic source.",
+        "tags": [
+          "giraffe_wild_eating_leaves"
+        ],
+        "story_role": "action",
+        "overlay_label": "LEAF BY LEAF"
+      },
+      {
+        "text": "That careful feeding matters because reaching a branch is only the beginning of eating it.",
+        "scene": "Giraffe in zoo, verify visible mouth action.",
+        "tags": [
+          "giraffe_zoo_browsing"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "MOUTH WORK"
+      },
+      {
+        "text": "At a supervised giraffe center, visitors can see the same precise mouth movements up close.",
+        "scene": "Rothschild giraffe being hand-fed at supervised Giraffe Centre.",
+        "tags": [
+          "rothschild_giraffe_handfed_center"
+        ],
+        "story_role": "twist",
+        "overlay_label": "CLOSE VIEW"
+      },
+      {
+        "text": "The impressive part is not just how high it reaches, but how carefully it gathers every mouthful.",
+        "scene": "Real giraffes in zoo final close-up; check actual feeding.",
+        "tags": [
+          "giraffe_zoo_reaching",
+          "giraffe_zoo_group_final"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "CAREFUL FEEDER"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-31-giraffe_careful_browsing-research-v1",
+    "publication_hold": true,
+    "trend_priority": false
+  },
+  "european_swallowtail_warning_wings": {
+    "title": "THE BUTTERFLY THAT STARTLES BIRDS",
+    "script": "This European swallowtail has bright wings, but those wings can also send a warning. Its yellow and dark markings stand out as it settles on plants in open places. In a controlled study, live swallowtails flicked their wings when great tits came close. The sudden motion appeared to make the birds hesitate, giving the butterfly an extra moment. Researchers compared those reactions with birds shown mounted butterflies that could not move. A quick flick is no guarantee of escape, but it can turn a vulnerable moment into a chance.",
+    "caption": "THE BUTTERFLY THAT STARTLES BIRDS. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Papilio%20machaon%20-%20Kanagawa%202025%207%2013.webm",
+        "type": "video",
+        "assetTitle": "Papilio machaon - Kanagawa 2025 7 13.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Papilio_machaon_-_Kanagawa_2025_7_13.webm",
+        "tags": [
+          "swallowtail_visible_wing_pattern"
+        ],
+        "author": "Nesnad",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20LEPIDOPTERA%20Papilio%20machaon%20LASTOVI%C4%8CAR.webm",
+        "type": "video",
+        "assetTitle": "2022-08-10 LJUBLJANA Krajinski park Tivoli LEPIDOPTERA Papilio machaon LASTOVIČAR.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-10_LJUBLJANA_Krajinski_park_Tivoli_LEPIDOPTERA_Papilio_machaon_LASTOVI%C4%8CAR.webm",
+        "tags": [
+          "swallowtail_wings_open_garden"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-08%20LJUBLJANA%20Botani%C4%8Dni%20vrt%20LEPIDOPTERA%20Papilio%20machaon%20LASTOVI%C4%8CAR%202.webm",
+        "type": "video",
+        "assetTitle": "2022-08-08 LJUBLJANA Botanični vrt LEPIDOPTERA Papilio machaon LASTOVIČAR 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Botani%C4%8Dni_vrt_LEPIDOPTERA_Papilio_machaon_LASTOVI%C4%8CAR_2.webm",
+        "tags": [
+          "swallowtail_garden_final_view"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s001.ogv",
+        "type": "video",
+        "assetTitle": "Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s001.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s001.ogv",
+        "tags": [
+          "swallowtail_live_bird_display"
+        ],
+        "author": "Olofsson M, Eriksson S, Jakobsson S, Wiklund C",
+        "license": "CC BY 2.5",
+        "license_url": "https://creativecommons.org/licenses/by/2.5/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-16%20LJUBLJANA%20Krajinski%20park%20Tivoli%20LEPIDOPTERA%20Papilio%20machaon%20LASTOVI%C4%8CAR.webm",
+        "type": "video",
+        "assetTitle": "2022-06-16 LJUBLJANA Krajinski park Tivoli LEPIDOPTERA Papilio machaon LASTOVIČAR.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-16_LJUBLJANA_Krajinski_park_Tivoli_LEPIDOPTERA_Papilio_machaon_LASTOVI%C4%8CAR.webm",
+        "tags": [
+          "swallowtail_perched_outdoors"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s002.ogv",
+        "type": "video",
+        "assetTitle": "Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s002.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s002.ogv",
+        "tags": [
+          "swallowtail_mounted_bird_comparison"
+        ],
+        "author": "Olofsson M, Eriksson S, Jakobsson S, Wiklund C",
+        "license": "CC BY 2.5",
+        "license_url": "https://creativecommons.org/licenses/by/2.5/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-08%20LJUBLJANA%20Botani%C4%8Dni%20vrt%20LEPIDOPTERA%20Papilio%20machaon%20LASTOVI%C4%8CAR.webm",
+        "type": "video",
+        "assetTitle": "2022-08-08 LJUBLJANA Botanični vrt LEPIDOPTERA Papilio machaon LASTOVIČAR.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Botani%C4%8Dni_vrt_LEPIDOPTERA_Papilio_machaon_LASTOVI%C4%8CAR.webm",
+        "tags": [
+          "swallowtail_garden_wing_movement"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/20090830%20schwalbensch.mp4.ogv",
+        "type": "video",
+        "assetTitle": "20090830 schwalbensch.mp4.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:20090830_schwalbensch.mp4.ogv",
+        "tags": [
+          "swallowtail_mountain_flight"
+        ],
+        "author": "Jochanan",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "This European swallowtail has bright wings, but those wings can also send a warning.",
+        "scene": "Swallowtail visibly holding patterned wings in authentic outdoor video.",
+        "tags": [
+          "swallowtail_visible_wing_pattern"
+        ],
+        "story_role": "hook",
+        "overlay_label": "WARNING WINGS"
+      },
+      {
+        "text": "Its yellow and dark markings stand out as it settles on plants in open places.",
+        "scene": "Outdoor swallowtails at flowers/plants; verify actual setting.",
+        "tags": [
+          "swallowtail_wings_open_garden",
+          "swallowtail_garden_final_view"
+        ],
+        "story_role": "setup",
+        "overlay_label": "BRIGHT PATTERN"
+      },
+      {
+        "text": "In a controlled study, live swallowtails flicked their wings when great tits came close.",
+        "scene": "Original peer-reviewed experiment: live butterfly and approaching great tit.",
+        "tags": [
+          "swallowtail_live_bird_display"
+        ],
+        "story_role": "action",
+        "overlay_label": "WING FLICK"
+      },
+      {
+        "text": "The sudden motion appeared to make the birds hesitate, giving the butterfly an extra moment.",
+        "scene": "Real butterfly wings in nature, not an invented predator attack.",
+        "tags": [
+          "swallowtail_perched_outdoors"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "STARTLE EFFECT"
+      },
+      {
+        "text": "Researchers compared those reactions with birds shown mounted butterflies that could not move.",
+        "scene": "Research experiment with dead mounted swallowtail specimens, explicitly staged.",
+        "tags": [
+          "swallowtail_mounted_bird_comparison"
+        ],
+        "story_role": "twist",
+        "overlay_label": "CONTROL GROUP"
+      },
+      {
+        "text": "A quick flick is no guarantee of escape, but it can turn a vulnerable moment into a chance.",
+        "scene": "Outdoor swallowtail movement, no claimed observed escape.",
+        "tags": [
+          "swallowtail_garden_wing_movement",
+          "swallowtail_mountain_flight"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "CHANCE TO ESCAPE"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-31-european_swallowtail_warning_wings-research-v1",
+    "publication_hold": true,
+    "trend_priority": false
+  },
+  "lion_cubs_learning_through_play": {
+    "title": "WHY LION CUBS WRESTLE",
+    "script": "These lion cubs are tumbling around, but the rough play has a purpose. Across wild prides and zoo groups, young lions spend time testing their balance and timing. They chase, wrestle, and grab at one another, learning how to control powerful movements. Those games help build coordination long before a young lion can hunt on its own. Meanwhile, adults have different jobs, including finding water and marking their surroundings. The playful cub is practicing for a future when every movement may matter.",
+    "caption": "WHY LION CUBS WRESTLE. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion%20cubs%20at%20Jacksonville%20Zoo.webm",
+        "type": "video",
+        "assetTitle": "Lion cubs at Jacksonville Zoo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lion_cubs_at_Jacksonville_Zoo.webm",
+        "tags": [
+          "lion_cubs_playing_jacksonville"
+        ],
+        "author": "Rob Bixby",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion%20cubs%20(Panthera%20leo).webm",
+        "type": "video",
+        "assetTitle": "Lion cubs (Panthera leo).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lion_cubs_(Panthera_leo).webm",
+        "tags": [
+          "lion_cubs_serengeti_wild"
+        ],
+        "author": "Bettina May",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion%20Cubs%20Phinda%202011.ogv",
+        "type": "video",
+        "assetTitle": "Lion Cubs Phinda 2011.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lion_Cubs_Phinda_2011.ogv",
+        "tags": [
+          "lion_cubs_phinda_play"
+        ],
+        "author": "GalliasM",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Male%20lion%20and%20cubs.webm",
+        "type": "video",
+        "assetTitle": "Male lion and cubs.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Male_lion_and_cubs.webm",
+        "tags": [
+          "lion_male_with_cubs"
+        ],
+        "author": "Rob Bixby",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lions%20of%20Botlierskop%20video.webm",
+        "type": "video",
+        "assetTitle": "Lions of Botlierskop video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lions_of_Botlierskop_video.webm",
+        "tags": [
+          "lion_group_botlierskop"
+        ],
+        "author": "brando",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lions%20(Panthera%20leo)%20in%20zoo%20in%20Washington%20DC.webm",
+        "type": "video",
+        "assetTitle": "Lions (Panthera leo) in zoo in Washington DC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lions_(Panthera_leo)_in_zoo_in_Washington_DC.webm",
+        "tags": [
+          "lion_group_zoo"
+        ],
+        "author": "Brian Gratwicke",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lioness%20drinking%20at%20the%20National%20Zoo.webm",
+        "type": "video",
+        "assetTitle": "Lioness drinking at the National Zoo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lioness_drinking_at_the_National_Zoo.webm",
+        "tags": [
+          "lioness_drinking_zoo"
+        ],
+        "author": "Brian Gratwicke",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marking%20territory.webm",
+        "type": "video",
+        "assetTitle": "Marking territory.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Marking_territory.webm",
+        "tags": [
+          "lion_marking_territory"
+        ],
+        "author": "Benjamin Hollis",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "These lion cubs are tumbling around, but the rough play has a purpose.",
+        "scene": "Lion cubs playing in actual zoo footage.",
+        "tags": [
+          "lion_cubs_playing_jacksonville"
+        ],
+        "story_role": "hook",
+        "overlay_label": "PLAY FIGHT"
+      },
+      {
+        "text": "Across wild prides and zoo groups, young lions spend time testing their balance and timing.",
+        "scene": "Wild Serengeti cubs and separate captive lions; do not imply same group.",
+        "tags": [
+          "lion_cubs_serengeti_wild",
+          "lion_group_zoo"
+        ],
+        "story_role": "setup",
+        "overlay_label": "GROWING UP"
+      },
+      {
+        "text": "They chase, wrestle, and grab at one another, learning how to control powerful movements.",
+        "scene": "Phinda lion cubs and male-with-cubs footage; confirm action.",
+        "tags": [
+          "lion_cubs_phinda_play",
+          "lion_male_with_cubs"
+        ],
+        "story_role": "action",
+        "overlay_label": "PRACTICE"
+      },
+      {
+        "text": "Those games help build coordination long before a young lion can hunt on its own.",
+        "scene": "Lions in private reserve, no falsely claimed specific cub continuity.",
+        "tags": [
+          "lion_group_botlierskop"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "COORDINATION"
+      },
+      {
+        "text": "Meanwhile, adults have different jobs, including finding water and marking their surroundings.",
+        "scene": "Adult lioness drinking, visibly distinct from cub footage.",
+        "tags": [
+          "lioness_drinking_zoo"
+        ],
+        "story_role": "twist",
+        "overlay_label": "ADULT TASKS"
+      },
+      {
+        "text": "The playful cub is practicing for a future when every movement may matter.",
+        "scene": "Adult lion territory marking as final contrast.",
+        "tags": [
+          "lion_marking_territory"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "FUTURE SKILLS"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-31-lion_cubs_learning_through_play-research-v1",
+    "publication_hold": true,
+    "trend_priority": false
+  }
+}
