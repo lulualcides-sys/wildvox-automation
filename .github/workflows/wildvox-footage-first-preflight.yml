@@ -1,0 +1,24 @@
+name: WildVox — 31 Oct research candidate preflight
+on:
+  push:
+    branches: [research/wildvox-2026-10-31-footage-first-v2]
+    paths:
+      - 'qa/daily-prep-candidate-2026-10-31-footage-first.json'
+      - 'qa/validate_footage_first.py'
+      - '.github/workflows/wildvox-footage-first-preflight.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Exact script, source and semantic preflight against production validator
+        run: python qa/validate_footage_first.py
+      - name: Existing narrative, cinematic FX and source quota regressions
+        run: python -m unittest discover -s qa -p 'test_*.py' -v
