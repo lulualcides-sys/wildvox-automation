@@ -160,17 +160,20 @@ def find_tiktok_channel():
     data = graphql("query { account { organizations { id name } } }")
     candidates = []
     for org in data["account"]["organizations"]:
-        q = "query { channels(input:{organizationId:" + json.dumps(org["id"]) + "}) { id name displayName service isQueuePaused isDisconnected isLocked } }"
+        q = "query { channels(input:{organizationId:" + json.dumps(org["id"]) + "}) { id name displayName externalLink service isQueuePaused isDisconnected isLocked } }"
         channels = graphql(q).get("channels") or []
         for channel in channels:
             if str(channel.get("service", "")).lower() != "tiktok":
                 continue
-            names = " ".join(str(channel.get(k) or "") for k in ("name", "displayName")).lower()
-            if "wildvox" in names:
+            # Never match lookalike handles such as @wildvox6 or a display name.
+            handle = str(channel.get("name") or "").strip().lower().lstrip("@")
+            external = str(channel.get("externalLink") or "").strip().lower().rstrip("/")
+            exact_url = external in ("", "https://tiktok.com/@wildvox", "https://www.tiktok.com/@wildvox")
+            if handle == "wildvox" and exact_url:
                 candidates.append((org["id"], channel))
     if len(candidates) != 1:
         raise RuntimeError(
-            "Expected exactly one connected TikTok @wildvox channel in Buffer; found "
+            "Expected exactly one EXACT TikTok @wildvox channel in Buffer (not @wildvox6 or display-name matches); found "
             + str(len(candidates)) + ". Connect @wildvox in Buffer first."
         )
     org_id, channel = candidates[0]
