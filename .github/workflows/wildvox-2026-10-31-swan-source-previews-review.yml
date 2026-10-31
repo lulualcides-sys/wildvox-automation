@@ -1,0 +1,30 @@
+name: WildVox — inspect swan original source previews (no rerender)
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-swan-source-previews-review.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  previews:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover existing source previews from exact swan render artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 41196076845 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-swan-recovery --dir .
+          mkdir -p qa/reviews/swan-original
+          cp output/mute_swan_pond_glide_source_*_preview.jpg qa/reviews/swan-original/
+          test "$(find qa/reviews/swan-original -type f | wc -l)" -ge 8
+      - name: Preserve only existing JPG previews for truthful source selection
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qa/reviews/swan-original
+          git commit -m 'qa: inspect original swan footage before any new render'
+          git pull --rebase origin recovery/wildvox-swan-20261031
+          git push origin HEAD:recovery/wildvox-swan-20261031
