@@ -1,0 +1,82 @@
+{
+  "checked_at_local": "2026-10-31T13:25:49-03:00",
+  "account": "Metricool brand 7242311; connected TikTok handle exactly wildvox",
+  "main_sha": "58f0c49bbf9fbfbe0529e758f972b58013ba851d",
+  "daily_blob_sha": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "posts": [
+    {
+      "title": "blackbird",
+      "id": 412139137,
+      "scheduled_local": "10:25",
+      "status": "ERROR",
+      "detail": "You have reached your Metricool account limit."
+    },
+    {
+      "title": "goat",
+      "id": 412138716,
+      "scheduled_local": "11:20",
+      "status": "ERROR",
+      "detail": "You have reached your Metricool account limit."
+    },
+    {
+      "title": "giraffe",
+      "id": 412139187,
+      "scheduled_local": "12:05",
+      "status": "ERROR",
+      "detail": "You have reached your Metricool account limit."
+    },
+    {
+      "title": "egret",
+      "id": 412139240,
+      "scheduled_local": "12:40",
+      "status": "ERROR",
+      "detail": "You have reached your Metricool account limit."
+    },
+    {
+      "title": "pigeon",
+      "id": 412139274,
+      "scheduled_local": "14:10",
+      "status": "PENDING"
+    },
+    {
+      "title": "mallard",
+      "id": 412139319,
+      "scheduled_local": "16:10",
+      "status": "PENDING"
+    },
+    {
+      "title": "squirrel",
+      "id": 412139350,
+      "scheduled_local": "17:50",
+      "status": "PENDING"
+    },
+    {
+      "title": "heron",
+      "id": 412139534,
+      "scheduled_local": "19:35",
+      "status": "PENDING"
+    },
+    {
+      "title": "lion",
+      "id": 412139565,
+      "scheduled_local": "20:55",
+      "status": "PENDING"
+    },
+    {
+      "title": "swan",
+      "id": 412139850,
+      "scheduled_local": "22:05",
+      "status": "PENDING"
+    }
+  ],
+  "summary": {
+    "metricool_posts": 10,
+    "provider_error": 4,
+    "provider_pending": 6,
+    "confirmed_published_tiktok_analytics_rows": 0
+  },
+  "source": "Live connected Metricool getScheduledPosts + getAnalyticsDataByMetrics TKPO01/TKPO02/TKPO03/TKPO05, 2026-10-31 America/Sao_Paulo",
+  "new_change": "Egret post 412139240 due 12:40 transitioned PENDING to ERROR; exact same existing Metricool monthly account limit; no new root cause.",
+  "actions": "Read-only verification and report. No new schedules, no retry, no edits to existing posts, no Buffer @wildvox6 use, no YouTube, no render credits. Preserve six pending posts and original media.",
+  "next": "Monitor remaining six Metricool posts and actual @wildvox TikTok publication analytics; never count pending or Buffer wrong-account sent as success. Do not retry account-limit errors while capped; November reset does not support 5 posts/day on 20/month plan."
+}
