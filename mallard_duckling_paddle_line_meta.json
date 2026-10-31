@@ -1,0 +1,216 @@
+{
+  "key": "mallard_duckling_paddle_line",
+  "title": "WHY MALLARD DUCKLINGS SWIM IN A LINE",
+  "caption": "WHY MALLARD DUCKLINGS SWIM IN A LINE. #WildVox #Wildlife #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n2. Estormiz | CC0 | https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_11.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_8.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-15_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_var.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-07-29_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm | https://creativecommons.org/licenses/by/3.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "de7e89acbfe666a440828e575d582f0759f3a971c1ed21d747f362096b99dbad",
+  "duration": 39.88,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.125,
+      "duration": 6.125,
+      "text": "Why are these mallard ducklings moving together instead of scattering across the water?",
+      "scene": "Ducklings visible swimming near shore.",
+      "tags": [
+        "mallard_ducklings_near_bank"
+      ],
+      "story_role": "hook",
+      "overlay_label": "DUCKLING LINE",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.125,
+      "end": 11.925,
+      "duration": 5.8,
+      "text": "A family can travel near the bank, where young birds remain close to the adults.",
+      "scene": "Mallard family swimming in a group.",
+      "tags": [
+        "mallard_family_paddling"
+      ],
+      "story_role": "setup",
+      "overlay_label": "STAY CLOSE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.925,
+      "end": 20.825000000000003,
+      "duration": 8.9,
+      "text": "The ducklings paddle in short bursts, leaving ripples as they cross the surface, while other ducks remain nearby on the water.",
+      "scene": "Ducklings paddling; second water-family shot needs preview.",
+      "tags": [
+        "mallard_ducklings_in_open_water",
+        "mallard_family_on_water"
+      ],
+      "story_role": "action",
+      "overlay_label": "SMALL PADDLES",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 20.825000000000003,
+      "end": 29.225,
+      "duration": 8.4,
+      "text": "Webbed feet push against the water, helping these birds move while their bodies float, even when the shoreline is uneven.",
+      "scene": "Adult mallard swimming and a second water shot, pending source-window check.",
+      "tags": [
+        "mallard_drake_swimming",
+        "mallard_group_on_pond"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "WATER POWER",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 29.225,
+      "end": 34.1,
+      "duration": 4.875,
+      "text": "A busy stretch of water still leaves the group room to turn and regroup.",
+      "scene": "Mallards on a populated pond; actual grouping to be verified.",
+      "tags": [
+        "mallard_pond_turning"
+      ],
+      "story_role": "twist",
+      "overlay_label": "TURN TOGETHER",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 34.1,
+      "end": 39.875,
+      "duration": 5.775,
+      "text": "That moving cluster is a simple way for young ducks to keep traveling together.",
+      "scene": "Return to distinct family footage; must show young birds.",
+      "tags": [
+        "mallard_ducklings_at_water_edge"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "FOLLOW THE GROUP",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "assetTitle": "2022-06-04 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-04%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "mallard_ducklings_near_bank"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Anas platyrhynchos Oulu 20200626.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas%20platyrhynchos%20Oulu%2020200626.webm",
+      "type": "video",
+      "author": "Estormiz",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "mallard_family_paddling"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "2022-06-17 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 11.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_11.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-17%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%2011.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "mallard_ducklings_in_open_water"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "2021 12 17 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021%2012%2017%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "mallard_family_on_water"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "2022-06-17 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 8.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_8.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-17%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%208.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "mallard_drake_swimming"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "2022-01-07 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-07%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "mallard_group_on_pond"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "2022-06-15 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA var.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-15_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_var.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-15%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%20var.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "mallard_pond_turning"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "2022-07-29 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-29_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-29%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "mallard_ducklings_at_water_edge"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    }
+  ],
+  "review_sheet": "mallard_duckling_paddle_line_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

@@ -1,0 +1,17 @@
+{
+  "editorial_day": "2026-10-31",
+  "scope": "mallard_duckling_paddle_line",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "mallard_duckling_paddle_line",
+      "revision": "2026-10-31-mallard_duckling_paddle_line-recovery-v3",
+      "errors": [],
+      "duration": 39.875,
+      "freeze_durations": []
+    }
+  ],
+  "errors": []
+}
