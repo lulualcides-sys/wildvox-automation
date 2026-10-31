@@ -1,7 +1,7 @@
 {
   "editorial_day": "2026-10-31",
-  "checked_at_utc": "2026-10-31T12:58:59.211955+00:00",
-  "checked_at_sao_paulo": "2026-10-31T09:58:59.211971-03:00",
+  "checked_at_utc": "2026-10-31T12:59:59.994397+00:00",
+  "checked_at_sao_paulo": "2026-10-31T09:59:59.994415-03:00",
   "channel": "tiktok:@wildvox",
   "provider": "buffer",
   "buffer_status_counts": {
@@ -10,22 +10,28 @@
     "error": 0,
     "not_returned": 0
   },
-  "tiktok_publication_confirmed": false,
-  "note": "Buffer sent does not independently confirm a public TikTok video. Check TikTok analytics separately. No posts created or modified.",
+  "tiktok_publication_confirmed": 1,
+  "note": "TikTok confirmation requires Buffer sent + sentAt + automatic + platform externalLink. TikTok analytics can lag. No posts created or modified.",
   "posts": [
     {
       "key": "common_blackbird_park_search",
       "buffer_post_id": "6ae5d50beaa24d6f9a70ed23",
       "status": "sent",
       "due_at": "2026-10-31T12:15:00.000Z",
+      "sent_at": "2026-10-31T12:16:58.453Z",
+      "scheduling_type": "automatic",
+      "tiktok_video_url": "https://tiktok.com/@wildvox6/video/7702804457880456455",
       "channel_id_matches": true,
-      "tiktok_publication_confirmed": false
+      "tiktok_publication_confirmed": true
     },
     {
       "key": "goat_herd_hillside_grazing",
       "buffer_post_id": "6ae5d708b84259308bd45d80",
       "status": "scheduled",
       "due_at": "2026-10-31T13:05:00.000Z",
+      "sent_at": null,
+      "scheduling_type": "automatic",
+      "tiktok_video_url": null,
       "channel_id_matches": true,
       "tiktok_publication_confirmed": false
     },
@@ -34,6 +40,9 @@
       "buffer_post_id": "6ae5d70ca114574349a1e3da",
       "status": "scheduled",
       "due_at": "2026-10-31T14:20:00.000Z",
+      "sent_at": null,
+      "scheduling_type": "automatic",
+      "tiktok_video_url": null,
       "channel_id_matches": true,
       "tiktok_publication_confirmed": false
     },
@@ -42,6 +51,9 @@
       "buffer_post_id": "6ae5d710ceb491e585f46246",
       "status": "scheduled",
       "due_at": "2026-10-31T15:40:00.000Z",
+      "sent_at": null,
+      "scheduling_type": "automatic",
+      "tiktok_video_url": null,
       "channel_id_matches": true,
       "tiktok_publication_confirmed": false
     },
@@ -50,6 +62,9 @@
       "buffer_post_id": "6ae5d713b84259308bd45e1f",
       "status": "scheduled",
       "due_at": "2026-10-31T17:10:00.000Z",
+      "sent_at": null,
+      "scheduling_type": "automatic",
+      "tiktok_video_url": null,
       "channel_id_matches": true,
       "tiktok_publication_confirmed": false
     },
@@ -58,6 +73,9 @@
       "buffer_post_id": "6ae5d717ceb491e585f4633d",
       "status": "scheduled",
       "due_at": "2026-10-31T19:10:00.000Z",
+      "sent_at": null,
+      "scheduling_type": "automatic",
+      "tiktok_video_url": null,
       "channel_id_matches": true,
       "tiktok_publication_confirmed": false
     },
@@ -66,6 +84,9 @@
       "buffer_post_id": "6ae5d74fceb491e585f474ed",
       "status": "scheduled",
       "due_at": "2026-10-31T20:50:00.000Z",
+      "sent_at": null,
+      "scheduling_type": "automatic",
+      "tiktok_video_url": null,
       "channel_id_matches": true,
       "tiktok_publication_confirmed": false
     },
@@ -74,6 +95,9 @@
       "buffer_post_id": "6ae5d71b1891472093ce575a",
       "status": "scheduled",
       "due_at": "2026-10-31T22:35:00.000Z",
+      "sent_at": null,
+      "scheduling_type": "automatic",
+      "tiktok_video_url": null,
       "channel_id_matches": true,
       "tiktok_publication_confirmed": false
     },
@@ -82,6 +106,9 @@
       "buffer_post_id": "6ae5d71fb84259308bd46061",
       "status": "scheduled",
       "due_at": "2026-10-31T23:55:00.000Z",
+      "sent_at": null,
+      "scheduling_type": "automatic",
+      "tiktok_video_url": null,
       "channel_id_matches": true,
       "tiktok_publication_confirmed": false
     },
@@ -90,6 +117,9 @@
       "buffer_post_id": "6ae5d723b84259308bd460ef",
       "status": "scheduled",
       "due_at": "2026-11-01T01:05:00.000Z",
+      "sent_at": null,
+      "scheduling_type": "automatic",
+      "tiktok_video_url": null,
       "channel_id_matches": true,
       "tiktok_publication_confirmed": false
     }
