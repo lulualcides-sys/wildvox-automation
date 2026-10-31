@@ -33,7 +33,9 @@ jobs:
           import json
           q=json.load(open('swan_technical_qa_2026-10-31.json'))
           assert q['technical_pass'] and not q['editorial_approved'] and q['publication_hold']
-          assert q['videos'][0]['revision']=='2026-10-31-mute_swan_pond_glide-editorial-v2'
+          cfg=json.load(open('qa/daily-prep-candidate-2026-10-31.json'))['mute_swan_pond_glide']
+          assert q['videos'][0]['revision']==cfg['revision'], 'QA revision differs from the exact rendered source config'
+          assert cfg['publication_hold'] is True, 'Editorial hold must remain active'
           print('Technically sound swan, independent visual review still required.')
           PY
           git fetch origin media
