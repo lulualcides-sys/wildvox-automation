@@ -1,0 +1,96 @@
+{
+  "day": "2026-10-31",
+  "timezone": "America/Sao_Paulo",
+  "scope": "TARGETED_HTTP_429_PREVIEW_RETRY_ONLY",
+  "publication_hold": true,
+  "editorial_approval": false,
+  "original_manifest": "qa/source-candidates-2026-10-31.json",
+  "original_indices": [
+    5,
+    11,
+    17,
+    23,
+    29,
+    35
+  ],
+  "note": "Only six original candidate URLs that returned HTTP 429 are retried; prior 34 source previews remain in artifact 13034143735. This is not a 40-source re-audit or permission to render/publish.",
+  "candidates": [
+    {
+      "for_key": "grey_heron",
+      "title": "Grey heron (Ardea cinerea) on the Aran Islands.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_heron_(Ardea_cinerea)_on_the_Aran_Islands.webm",
+      "license": "CC BY 3.0",
+      "author": "doonaran",
+      "source_description": "A hungry grey heron ( Ardea cinerea ) that never misses with her lightning fast beak.  A lethal strike and then \"down the hatch\". Aran has a large heronry and plenty of food it see",
+      "source_bytes": 57168168,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED",
+      "original_index": 5,
+      "retry_reason": "Commons API HTTP 429 during 2026-10-31 initial preview; no editorial approval"
+    },
+    {
+      "for_key": "giraffe",
+      "title": "Giraffe eating leaves.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Giraffe_eating_leaves.webm",
+      "license": "CC BY 3.0",
+      "author": "Lennart Hessel",
+      "source_description": "A short video of a eating giraffe. Taken in Kruger National Park, South Africa",
+      "source_bytes": 31005307,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED",
+      "original_index": 11,
+      "retry_reason": "Commons API HTTP 429 during 2026-10-31 initial preview; no editorial approval"
+    },
+    {
+      "for_key": "swallowtail_butterfly",
+      "title": "Papilio machaon - Kanagawa 2025 7 13.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Papilio_machaon_-_Kanagawa_2025_7_13.webm",
+      "license": "CC BY 4.0",
+      "author": "Nesnad",
+      "source_description": "キアゲハ (Papilio machaon)",
+      "source_bytes": 89606785,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED",
+      "original_index": 17,
+      "retry_reason": "Commons API HTTP 429 during 2026-10-31 initial preview; no editorial approval"
+    },
+    {
+      "for_key": "swallowtail_butterfly",
+      "title": "Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s001.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s001.ogv",
+      "license": "CC BY 2.5",
+      "author": "Olofsson M, Eriksson S, Jakobsson S, Wiklund C",
+      "source_description": "Shown are typical evasive responses by great tits when confronted with live European swallowtail butterflies that employ their wing-flicking display.",
+      "source_bytes": 933402,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED",
+      "original_index": 23,
+      "retry_reason": "Commons API HTTP 429 during 2026-10-31 initial preview; no editorial approval"
+    },
+    {
+      "for_key": "lion",
+      "title": "Male lion and cubs.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Male_lion_and_cubs.webm",
+      "license": "CC BY 2.0",
+      "author": "Rob Bixby",
+      "source_description": "Male lion and cubs in Jacksonville Zoo",
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED",
+      "original_index": 29,
+      "retry_reason": "Commons API HTTP 429 during 2026-10-31 initial preview; no editorial approval"
+    },
+    {
+      "for_key": "great_egret",
+      "title": "2022-10-08 Naravni rezervat ORMOŠKE LAGUNE CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-08_Naravni_rezervat_ORMO%C5%A0KE_LAGUNE_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA_2.webm",
+      "license": "CC BY 3.0",
+      "author": "NaIzletuSi ™",
+      "source_description": "2022-10-08 Naravni rezervat ORMOŠKE LAGUNE CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA",
+      "source_bytes": 48307708,
+      "target_block": "VISUAL_ACTION_UNCONFIRMED",
+      "status": "CANDIDATE_UNREVIEWED",
+      "original_index": 35,
+      "retry_reason": "Commons API HTTP 429 during 2026-10-31 initial preview; no editorial approval"
+    }
+  ]
+}
