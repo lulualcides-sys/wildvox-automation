@@ -1,41 +1,75 @@
 #!/usr/bin/env python3
-"""Lightweight Commons video discovery: research only, never auto-publish."""
-import json
-import re
-import time
+"""31 Oct footage-first exploratory Commons search; research only, no publishing."""
+import json, re, time, html
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import urlencode, quote
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 API="https://commons.wikimedia.org/w/api.php"
-UA="WildVoxSourceResearch/1.0 (GitHub QA; noncommercial research metadata)"
-def query(params):
-    p={"action":"query","format":"json","formatversion":2,**params}
-    url=API+"?"+urlencode(p)
-    with urlopen(Request(url,headers={"User-Agent":UA}),timeout=45) as r:
-        return json.load(r)
+UA="WildVoxFootageFirst/1.0 (source research; GitHub public repository)"
+TOPICS={
+  "mallard_duck": ["mallard","Anas platyrhynchos","Category:Videos of Anas platyrhynchos","Category:Videos of mallards"],
+  "eurasian_red_squirrel": ["red squirrel","Sciurus vulgaris","Category:Videos of Sciurus vulgaris","Category:Videos of red squirrels"],
+  "european_robin": ["European robin","Erithacus rubecula","Category:Videos of Erithacus rubecula"],
+  "domestic_goat": ["domestic goat","Capra hircus","Category:Videos of goats"],
+  "rock_pigeon": ["rock pigeon","Columba livia","Category:Videos of Columba livia","Category:Videos of pigeons"],
+  "domestic_cat": ["domestic cat","Felis catus","Category:Videos of cats"],
+  "mute_swan": ["mute swan","Cygnus olor","Category:Videos of Cygnus olor"],
+  "common_frog": ["common frog","Rana temporaria","Category:Videos of Rana temporaria"]
+}
+def api(params):
+    url=API+"?"+urlencode({"action":"query","format":"json","formatversion":"2",**params})
+    for attempt in range(4):
+        try:
+            with urlopen(Request(url,headers={"User-Agent":UA,"Accept":"application/json"}),timeout=35) as h:
+                result=json.load(h)
+            if result.get("error"): raise RuntimeError(str(result["error"])[:200])
+            return result
+        except (HTTPError,URLError,TimeoutError,RuntimeError) as e:
+            if attempt==3: raise
+            time.sleep((attempt+1)*3)
+def file_name(t):
+    return t.startswith("File:") and re.search(r"\.(webm|ogv|ogg|mp4)$",t,re.I)
 def main():
-    found={}
-    categories=["Category:Videos of Calypte anna","Category:Videos of hummingbirds","Category:Calypte anna"]
-    for cat in categories:
-        cont={}
-        for _ in range(3):
-            j=query({"generator":"categorymembers","gcmtitle":cat,"gcmtype":"file","gcmlimit":100,"prop":"imageinfo","iiprop":"size",**cont})
+    result={}
+    for topic,terms in TOPICS.items():
+        titles=set()
+        for phrase in terms:
+            try:
+                if phrase.startswith("Category:"):
+                    p=api({"generator":"categorymembers","gcmtitle":phrase,"gcmtype":"file","gcmlimit":"max","prop":"info"})
+                    titles.update(x.get("title","") for x in p.get("query",{}).get("pages",[]) if file_name(x.get("title","")))
+                else:
+                    p=api({"list":"search","srsearch":phrase+" filetype:video","srnamespace":"6","srlimit":"100"})
+                    titles.update(x.get("title","") for x in p.get("query",{}).get("search",[]) if file_name(x.get("title","")))
+            except Exception as e:
+                print(f"SEARCH_WARNING {topic} {phrase}: {str(e)[:120]}")
+        rows=[]
+        for i in range(0,len(titles),20):
+            batch=sorted(titles)[i:i+20]
+            try:
+                j=api({"prop":"imageinfo","iiprop":"url|size|mime|sha1|extmetadata","titles":"|".join(batch)})
+            except Exception as e:
+                print(f"METADATA_WARNING {topic}: {str(e)[:120]}")
+                continue
             for p in j.get("query",{}).get("pages",[]):
-                title=p.get("title","")
-                if re.search(r"\.(?:webm|ogv|ogg)$",title,re.I):
-                    info=(p.get("imageinfo") or [{}])[0]
-                    found[title]={"title":title,"size":info.get("size"),"category":cat}
-            cont=j.get("continue") or {}
-            if not cont:break
-        time.sleep(.2)
-    for phrase in ["Anna's hummingbird","Calypte anna"]:
-        j=query({"list":"search","srsearch":phrase,"srnamespace":6,"srlimit":100})
-        for p in j.get("query",{}).get("search",[]):
-            title=p.get("title","")
-            if re.search(r"\.(?:webm|ogv|ogg)$",title,re.I):
-                found.setdefault(title,{"title":title,"category":"search:"+phrase})
-    rows=sorted(found.values(),key=lambda x:x["title"].lower())
-    Path("commons-discovery.json").write_text(json.dumps({"subject":"Calypte anna","source_count":len(rows),"files":rows,"publication_hold":True},indent=2)+"\n",encoding="utf-8")
-    print(json.dumps({"count":len(rows),"files":[x["title"] for x in rows]}))
+                ii=(p.get("imageinfo") or [{}])[0]
+                license=(ii.get("extmetadata",{}).get("LicenseShortName") or {}).get("value","")
+                if not (license.lower().startswith(("cc by ","cc0","public domain","pd-","pd ")) and "by-sa" not in license.lower()):continue
+                if ii.get("mime") not in ("video/webm","video/ogg","application/ogg","video/mp4"):continue
+                if not ii.get("url") or not ii.get("sha1") or int(ii.get("size",0))<100000:continue
+                md=ii.get("extmetadata") or {}
+                creator=html.unescape(re.sub("<[^>]*>"," ",(md.get("Artist") or {}).get("value",""))).strip()
+                creator=re.sub(r"\s+"," ",creator)[:140]
+                filename=p["title"][5:]
+                rows.append({"assetTitle":filename,"sourcePage":"https://commons.wikimedia.org/wiki/File:"+quote(filename.replace(" ","_"),safe="()_-.'"),
+                  "url":"https://commons.wikimedia.org/wiki/Special:FilePath/"+quote(filename,safe="()_-.'"),
+                  "type":"video","author":creator,"license":license,
+                  "license_url":(md.get("LicenseUrl") or {}).get("value",""),
+                  "license_verified_at":"2026-10-31","size":ii["size"],"sha1":ii["sha1"],"original_url":ii["url"]})
+        rows.sort(key=lambda x:(x["size"]>120*1024*1024,x["size"]<1*1024*1024, len(x["assetTitle"]),x["assetTitle"]))
+        result[topic]={"count":len(rows),"candidates":rows[:35]}
+        print("TOPIC",topic,"FOUND",len(rows),"SHORTLIST",[(x["assetTitle"][:72],x["license"],x["size"]//1024//1024) for x in rows[:18]])
+    Path("commons-discovery.json").write_text(json.dumps({"day":"2026-10-31","research_only":True,"topics":result},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 if __name__=="__main__":main()
