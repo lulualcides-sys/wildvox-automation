@@ -16,7 +16,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh run download 41196124395 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-blackbird-recovery --dir .
+          gh run download 41197089005 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-blackbird-recovery --dir .
       - name: Use current independent per-candidate QA from main
         run: |
           sudo apt-get update -qq
@@ -65,3 +65,5 @@ jobs:
           path: blackbird_technical_qa_2026-10-31.json
           retention-days: 3
           if-no-files-found: warn
+
+# 2026-10-31: retry existing blackbird editorial-corrected MP4 from run 41197089005; no re-render.
