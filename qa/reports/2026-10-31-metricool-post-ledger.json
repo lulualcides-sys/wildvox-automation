@@ -87,9 +87,9 @@
       "key": "grey_heron_patient_fishing",
       "branch": "recovery/wildvox-heron-20261031",
       "source_render_run": 41195891914,
-      "qa_recovery_run": 41196403668,
+      "qa_recovery_run": 41196380659,
       "preview_run": 41196361202,
-      "status": "v2 rendered 34.4s but QA workflow needed ffmpeg; source5 coastal heron too distant for approval; targeted 3-source preview and v3 replacement pending; HOLD"
+      "status": "v2 rendered 34.4s; QA retry with ffmpeg running; source5 coastal heron too distant for editorial approval; targeted preview run failed, needs diagnosis; HOLD"
     },
     {
       "key": "lion_cubs_learning_through_play",
