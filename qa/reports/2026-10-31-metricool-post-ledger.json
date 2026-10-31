@@ -41,15 +41,22 @@
       "media_file": "great_egret_unexpected_perch.mp4",
       "editorial_review": "2026-10-31 visual review of final contact sheet and 8 original preview triptychs; 38.05s, no freeze flagged, captions legible, original creator Gailhampshire confirmed on Commons and corrected in Metricool caption",
       "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-4058463418687075203"
+    },
+    {
+      "key": "rock_pigeon_head_bob_city_walk",
+      "title": "WHY PIGEONS BOB THEIR HEADS WHILE WALKING",
+      "metricool_post_id": 412070351,
+      "metricool_uuid": "5307507754810822063",
+      "slot_local": "2026-10-31T12:40:00-03:00",
+      "provider_status": "PENDING",
+      "published_confirmed": false,
+      "config_sha256": "21e09badd5549b04af0e06f0c4aedbdd856f4a60a1aca2b6b0297ef336c67bff",
+      "media_file": "rock_pigeon_head_bob_city_walk.mp4",
+      "editorial_review": "2026-10-31 independent final contact sheet + 8 original source triptychs, 38.875s 1080x1920 H264/AAC, no frozen segments flagged, source actions aligned, Bisco public-domain source verified",
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=5307507754810822063"
     }
   ],
   "in_progress": [
-    {
-      "key": "rock_pigeon_head_bob_city_walk",
-      "branch": "recovery/wildvox-pigeon-20261031",
-      "workflow_run": 41194914857,
-      "status": "rerender after source5 semantic narration repair; still on hold"
-    },
     {
       "key": "mallard_duckling_paddle_line",
       "branch": "recovery/wildvox-mallard-20261031",
