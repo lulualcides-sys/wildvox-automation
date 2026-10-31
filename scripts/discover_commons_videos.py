@@ -16,14 +16,13 @@ from urllib.error import HTTPError
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "WildVoxSourceResearch/1.0 (public GitHub project; footage research)"
 SPECIES = {
-    "grey_heron": "Category:Videos of Ardea cinerea",
-    "great_egret": "Category:Videos of Ardea alba",
-    "common_raven": "Category:Videos of Corvus corax",
-    "giraffe": "Category:Videos of Giraffa camelopardalis",
-    "lion": "Category:Videos of Panthera leo",
-    "grey_wolf": "Category:Videos of Canis lupus",
-    "capybara": "Category:Videos of Hydrochoerus hydrochaeris",
-    "octopus": "Category:Videos of Octopus vulgaris",
+    "bottlenose_dolphin": "Category:Videos of Tursiops truncatus",
+    "brown_bear": "Category:Videos of Ursus arctos",
+    "tiger": "Category:Videos of Panthera tigris",
+    "gorilla": "Category:Videos of Gorilla gorilla",
+    "chimpanzee": "Category:Videos of Pan troglodytes",
+    "wild_boar": "Category:Videos of Sus scrofa",
+    "little_egret": "Category:Videos of Egretta garzetta",
 }
 def query(**params):
     q={"action":"query","format":"json","formatversion":2,**params}
