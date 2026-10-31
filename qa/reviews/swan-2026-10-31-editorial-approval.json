@@ -1,0 +1,22 @@
+{
+  "editorial_day": "2026-10-31",
+  "key": "mute_swan_pond_glide",
+  "revision": "2026-10-31-mute_swan_pond_glide-editorial-v3",
+  "config_sha256": "3ba099e00f4669391271a29fe71619fc4eed20b287f952a70b7b503e6ebef555",
+  "media_blob_sha": "0c509fbf7c57ef4c55f252e8234bab82210ff08e",
+  "technical_qa_report": "media:swan_technical_qa_2026-10-31.json",
+  "duration_seconds": 40.4,
+  "freeze_durations": [],
+  "source_preview_directory": "qa/reviews/swan-original",
+  "current_render_review": "qa/reviews/swan-2026-10-31-v3-motion-1fps.jpg",
+  "approved_for_tiktok_only": true,
+  "publication_hold_in_source_config": true,
+  "editorial_review": {
+    "species": "Mute swans visible in authentic source footage; nest in reeds, splashing water, misty grass, lily pond, distant pair and flying flock all verified.",
+    "narration": "v3 corrected source scene order: nest precedes splashing, lily pond precedes grassy resting; late-pond seek shows swans emerging from distant scene.",
+    "visual": "Decoded 1fps current MP4 and eight original source triptychs reviewed; no fabricated swimming/flying claims; no freeze >=1s.",
+    "rights": "Eight Commons CC BY 3.0 source pages, creator names and full source URLs retained with modification disclosure in TikTok caption.",
+    "caption_safe_area": "Portrait 1080x1920; subtitles visible in 1fps sheet.",
+    "remaining_note": "Approved for posting but not scheduled because Metricool hit account publishing limit; Buffer fallback being verified."
+  }
+}
