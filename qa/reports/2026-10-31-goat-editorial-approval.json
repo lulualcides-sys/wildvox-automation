@@ -1,0 +1,23 @@
+{
+  "day": "2026-10-31",
+  "timezone": "America/Sao_Paulo",
+  "key": "goat_herd_hillside_grazing",
+  "revision": "2026-10-31-goat_herd_hillside_grazing-editorial-v3",
+  "editorial_approved": true,
+  "publication_hold_for_this_review": false,
+  "media_metadata_still_holds_by_default": true,
+  "render_run_id": 41191464078,
+  "render_artifact_id": 13038699525,
+  "media_branch_sha": "d769be9d0353f43bc5ce56aeb6503367444e99ed",
+  "config_sha256": "857fe121198350a7369c1ff1c29a915fe1b8b93fdf6e7d9ad4a6a3a5d301d0f0",
+  "duration_seconds": 39.75,
+  "video_dimensions": "1080x1920",
+  "real_video_sources": 8,
+  "technical_qa_pass": true,
+  "freeze_segments_over_one_second": 0,
+  "editorial_visual_review": "Decoded MP4 inspected at 1,4,7,10,12,14,16,19,22,25,29,32,36,39 seconds and all eight original-source preview sheets inspected. Resting goat aligns with revised narration; feeding, grooming, barn, nursing kids, hillside herd and watchful adult match the spoken story. Captions within vertical safe area; no black bars or artificial freeze.",
+  "attribution": "Caption credits eight Commons sources, authors and license URLs including corrected original Flickr creator gailhampshire; modified video disclosure included.",
+  "schedule_status": "NOT_SCHEDULED",
+  "tiktok_only": true,
+  "youtube": false
+}
