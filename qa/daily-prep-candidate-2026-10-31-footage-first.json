@@ -1,8 +1,8 @@
 {
   "mallard_duckling_paddle_line": {
-    "title": "WHY MALLARD DUCKLINGS SWIM IN A LINE",
-    "script": "Why are these mallard ducklings moving together instead of scattering across the water? A family can travel near the bank, where young birds remain close to the adults. The ducklings paddle in short bursts, leaving ripples as they cross the surface, while other ducks remain nearby on the water. Webbed feet push against the water, helping these birds move while their bodies float, even when the shoreline is uneven. A busy stretch of water still leaves the group room to turn and regroup. That moving cluster is a simple way for young ducks to keep traveling together.",
-    "caption": "WHY MALLARD DUCKLINGS SWIM IN A LINE. #WildVox #Wildlife #AnimalFacts",
+    "title": "HOW MALLARDS MOVE BETWEEN LAND AND WATER",
+    "script": "Why do mallard ducks look so different on land and in water, even when ducklings are nearby? A line of adults glides along the bank, each bird leaving a narrow trail of ripples. Some ducks step onto the grass to rest, while others keep swimming just beyond the shore. On a log, one duck preens its feathers; on the bank, another walks on its broad webbed feet. Away from the water, a pair can settle quietly into the grass between trips. Then the water draws them back, where smaller groups paddle across the pond at their own pace.",
+    "caption": "HOW MALLARDS MOVE BETWEEN LAND AND WATER. #WildVox #Wildlife #AnimalFacts",
     "sources": [
       {
         "assetTitle": "2022-06-04 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
@@ -28,7 +28,7 @@
         "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "mallard_family_paddling"
+          "mallard_adults_paddling_in_line"
         ],
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       },
@@ -42,7 +42,7 @@
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "mallard_ducklings_in_open_water"
+          "mallard_pair_on_grass"
         ],
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       },
@@ -56,7 +56,7 @@
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "mallard_family_on_water"
+          "mallard_ducks_swimming_in_pond"
         ],
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       },
@@ -70,7 +70,7 @@
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "mallard_drake_swimming"
+          "mallard_preening_on_log"
         ],
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       },
@@ -84,7 +84,7 @@
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "mallard_group_on_pond"
+          "mallard_on_shoreline"
         ],
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       },
@@ -98,7 +98,7 @@
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "mallard_pond_turning"
+          "mallard_pair_resting_on_grass"
         ],
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       },
@@ -112,67 +112,67 @@
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "mallard_ducklings_at_water_edge"
+          "mallard_small_group_on_water"
         ],
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       }
     ],
     "visual_plan": [
       {
-        "text": "Why are these mallard ducklings moving together instead of scattering across the water?",
-        "scene": "Ducklings visible swimming near shore.",
+        "text": "Why do mallard ducks look so different on land and in water, even when ducklings are nearby?",
+        "scene": "Ducklings swimming near shore.",
         "tags": [
           "mallard_ducklings_near_bank"
         ],
         "story_role": "hook",
-        "overlay_label": "DUCKLING LINE"
+        "overlay_label": "DUCKLINGS NEARBY"
       },
       {
-        "text": "A family can travel near the bank, where young birds remain close to the adults.",
-        "scene": "Mallard family swimming in a group.",
+        "text": "A line of adults glides along the bank, each bird leaving a narrow trail of ripples.",
+        "scene": "Adult mallards visibly swimming in a line.",
         "tags": [
-          "mallard_family_paddling"
+          "mallard_adults_paddling_in_line"
         ],
         "story_role": "setup",
-        "overlay_label": "STAY CLOSE"
+        "overlay_label": "A MOVING LINE"
       },
       {
-        "text": "The ducklings paddle in short bursts, leaving ripples as they cross the surface, while other ducks remain nearby on the water.",
-        "scene": "Ducklings paddling; second water-family shot needs preview.",
+        "text": "Some ducks step onto the grass to rest, while others keep swimming just beyond the shore.",
+        "scene": "Two mallards on grass, then ducks swimming in pond.",
         "tags": [
-          "mallard_ducklings_in_open_water",
-          "mallard_family_on_water"
+          "mallard_pair_on_grass",
+          "mallard_ducks_swimming_in_pond"
         ],
         "story_role": "action",
-        "overlay_label": "SMALL PADDLES"
+        "overlay_label": "LAND OR WATER"
       },
       {
-        "text": "Webbed feet push against the water, helping these birds move while their bodies float, even when the shoreline is uneven.",
-        "scene": "Adult mallard swimming and a second water shot, pending source-window check.",
+        "text": "On a log, one duck preens its feathers; on the bank, another walks on its broad webbed feet.",
+        "scene": "Mallard preening on log, then mallard standing and walking on shoreline.",
         "tags": [
-          "mallard_drake_swimming",
-          "mallard_group_on_pond"
+          "mallard_preening_on_log",
+          "mallard_on_shoreline"
         ],
         "story_role": "explanation",
-        "overlay_label": "WATER POWER"
+        "overlay_label": "WEBBED FEET"
       },
       {
-        "text": "A busy stretch of water still leaves the group room to turn and regroup.",
-        "scene": "Mallards on a populated pond; actual grouping to be verified.",
+        "text": "Away from the water, a pair can settle quietly into the grass between trips.",
+        "scene": "Mallard pair resting on grass.",
         "tags": [
-          "mallard_pond_turning"
+          "mallard_pair_resting_on_grass"
         ],
         "story_role": "twist",
-        "overlay_label": "TURN TOGETHER"
+        "overlay_label": "A SHORT REST"
       },
       {
-        "text": "That moving cluster is a simple way for young ducks to keep traveling together.",
-        "scene": "Return to distinct family footage; must show young birds.",
+        "text": "Then the water draws them back, where smaller groups paddle across the pond at their own pace.",
+        "scene": "Three ducks paddling in water.",
         "tags": [
-          "mallard_ducklings_at_water_edge"
+          "mallard_small_group_on_water"
         ],
         "story_role": "payoff",
-        "overlay_label": "FOLLOW THE GROUP"
+        "overlay_label": "BACK TO WATER"
       }
     ],
     "min_unique_videos": 6,
@@ -181,7 +181,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-mallard_duckling_paddle_line-recovery-v3",
+    "revision": "2026-10-31-mallard_duckling_paddle_line-editorial-v4",
     "publication_hold": true,
     "trend_priority": false
   },
