@@ -1,0 +1,223 @@
+{
+  "key": "great_egret_unexpected_perch",
+  "title": "THE EGRET THAT STANDS ABOVE THE WATER",
+  "caption": "THE EGRET THAT STANDS ABOVE THE WATER. #WildVox #Wildlife #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-14_VRHNIKA_Ribniki_pri_stari_opekarni_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm | https://creativecommons.org/licenses/by/3.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-07-31_LJUBLJANSKO_BARJE_%C5%A0inkov_%C5%A1tradon_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-08_Naravni_rezervat_ORMO%C5%A0KE_LAGUNE_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA_2.webm | https://creativecommons.org/licenses/by/3.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm | https://creativecommons.org/licenses/by/3.0/\n5. Lubo Ondrasko | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Great_egret_(Ardea_alba)_in_Slovakia.webm | https://creativecommons.org/licenses/by/3.0/\n6. Walter | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Great_egrets_(Ardea_alba)_riding_on_alligators.webm | https://creativecommons.org/licenses/by/2.0/\n7. https://www.flickr.com/photos/gails_pictures/ | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Great_Egret_._Ardea_alba_video.webm | https://creativecommons.org/licenses/by/2.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-15_GRAD_OTO%C4%8CEC_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm | https://creativecommons.org/licenses/by/3.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "2df5b50dfee8b4c5a48f2d5c4cf605b852d532205ba00224e5cf12acf0248b26",
+  "duration": 38.05,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.575,
+      "duration": 5.575,
+      "text": "Why is this great egret perched on branches instead of standing in the water?",
+      "scene": "Egret clearly perched on branches above wetland vegetation.",
+      "tags": [
+        "great_egret_wetland_opening"
+      ],
+      "story_role": "hook",
+      "overlay_label": "BRANCH PERCH",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.575,
+      "end": 11.625,
+      "duration": 6.05,
+      "text": "Long legs let it wade through shallows while keeping its white body above the surface.",
+      "scene": "Egret wading in shallow water.",
+      "tags": [
+        "great_egret_shallow_water"
+      ],
+      "story_role": "setup",
+      "overlay_label": "LONG LEGS",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.625,
+      "end": 19.825,
+      "duration": 8.2,
+      "text": "Across wetlands, it changes position slowly, sometimes appearing as a distant white speck among the reeds.",
+      "scene": "Wetland establishing view and distant egret; do not claim a strike.",
+      "tags": [
+        "great_egret_wetland_foraging",
+        "great_egret_wetland_stalking"
+      ],
+      "story_role": "action",
+      "overlay_label": "WETLAND WATCH",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 19.825,
+      "end": 26.025,
+      "duration": 6.2,
+      "text": "Its pointed bill and long neck help it watch for prey without plunging underwater.",
+      "scene": "Close profile of egret bill and neck, avoid embedded title segment.",
+      "tags": [
+        "great_egret_slovakia_habitat"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "POINTED BILL",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 26.025,
+      "end": 32.449999999999996,
+      "duration": 6.425,
+      "text": "At a Florida wildlife park, egrets were even filmed standing on captive alligators.",
+      "scene": "Authentic captive alligator perch at Florida wildlife park.",
+      "tags": [
+        "great_egret_perched_on_captive_alligator"
+      ],
+      "story_role": "twist",
+      "overlay_label": "UNEXPECTED PERCH",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 32.449999999999996,
+      "end": 38.05,
+      "duration": 5.6,
+      "text": "Whether wading or perching, this bird keeps a clear view of the water below.",
+      "scene": "Two distinct wading-egret scenes, no false same-location claim.",
+      "tags": [
+        "great_egret_cuba_wetland",
+        "great_egret_water_edge_final"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "ABOVE THE WATER",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-14%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CICONIIFORMES%20Egretta%20alba%20VELIKA%20BELA%20%C4%8CAPLJA.webm",
+      "type": "video",
+      "assetTitle": "2022-09-14 VRHNIKA Ribniki pri stari opekarni CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-14_VRHNIKA_Ribniki_pri_stari_opekarni_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+      "tags": [
+        "great_egret_wetland_opening"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY.",
+      "start_seconds": 23
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-31%20LJUBLJANSKO%20BARJE%20%C5%A0inkov%20%C5%A1tradon%20CICONIIFORMES%20Egretta%20alba%20VELIKA%20BELA%20%C4%8CAPLJA.webm",
+      "type": "video",
+      "assetTitle": "2022-07-31 LJUBLJANSKO BARJE Šinkov štradon CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-31_LJUBLJANSKO_BARJE_%C5%A0inkov_%C5%A1tradon_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+      "tags": [
+        "great_egret_shallow_water"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY.",
+      "start_seconds": 12
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-08%20Naravni%20rezervat%20ORMO%C5%A0KE%20LAGUNE%20CICONIIFORMES%20Egretta%20alba%20VELIKA%20BELA%20%C4%8CAPLJA%202.webm",
+      "type": "video",
+      "assetTitle": "2022-10-08 Naravni rezervat ORMOŠKE LAGUNE CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-08_Naravni_rezervat_ORMO%C5%A0KE_LAGUNE_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA_2.webm",
+      "tags": [
+        "great_egret_wetland_foraging"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-04%20GRAD%20OTO%C4%8CEC%20CICONIIFORMES%20Egretta%20alba%20VELIKA%20BELA%20%C4%8CAPLJA.webm",
+      "type": "video",
+      "assetTitle": "2022-06-04 GRAD OTOČEC CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+      "tags": [
+        "great_egret_wetland_stalking"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY.",
+      "start_seconds": 2
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20egret%20(Ardea%20alba)%20in%20Slovakia.webm",
+      "type": "video",
+      "assetTitle": "Great egret (Ardea alba) in Slovakia.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_egret_(Ardea_alba)_in_Slovakia.webm",
+      "tags": [
+        "great_egret_slovakia_habitat"
+      ],
+      "author": "Lubo Ondrasko",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY.",
+      "start_seconds": 78
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20egrets%20(Ardea%20alba)%20riding%20on%20alligators.webm",
+      "type": "video",
+      "assetTitle": "Great egrets (Ardea alba) riding on alligators.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_egrets_(Ardea_alba)_riding_on_alligators.webm",
+      "tags": [
+        "great_egret_perched_on_captive_alligator"
+      ],
+      "author": "Walter",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY.",
+      "start_seconds": 8
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Great%20Egret%20.%20Ardea%20alba%20video.webm",
+      "type": "video",
+      "assetTitle": "Great Egret . Ardea alba video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Great_Egret_._Ardea_alba_video.webm",
+      "tags": [
+        "great_egret_cuba_wetland"
+      ],
+      "author": "https://www.flickr.com/photos/gails_pictures/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY.",
+      "start_seconds": 10
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-15%20GRAD%20OTO%C4%8CEC%20CICONIIFORMES%20Egretta%20alba%20VELIKA%20BELA%20%C4%8CAPLJA.webm",
+      "type": "video",
+      "assetTitle": "2022-06-15 GRAD OTOČEC CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-15_GRAD_OTO%C4%8CEC_CICONIIFORMES_Egretta_alba_VELIKA_BELA_%C4%8CAPLJA.webm",
+      "tags": [
+        "great_egret_water_edge_final"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY.",
+      "start_seconds": 9
+    }
+  ],
+  "review_sheet": "great_egret_unexpected_perch_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

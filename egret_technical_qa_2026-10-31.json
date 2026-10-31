@@ -1,0 +1,17 @@
+{
+  "editorial_day": "2026-10-31",
+  "scope": "great_egret_unexpected_perch",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "great_egret_unexpected_perch",
+      "revision": "2026-10-31-great_egret_unexpected_perch-recovery-v3",
+      "errors": [],
+      "duration": 38.05,
+      "freeze_durations": []
+    }
+  ],
+  "errors": []
+}
