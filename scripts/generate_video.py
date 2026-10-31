@@ -15,6 +15,7 @@ from kokoro import KPipeline
 from cinematic_fx import camera_filter, enrich_subtitles
 from semantic_shots import plan_semantic_shots
 from tiktok_credits import attributed_tiktok_caption
+from commons_derivatives import get_fallback_video_urls
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output"
@@ -41,20 +42,33 @@ def probe_duration(path):
 def safe_download(url, path):
     if path.exists() and path.stat().st_size > 100_000:
         return True
-    try:
-        run([
-            "curl","-L","--fail","--retry","5","--retry-delay","2",
-            "--connect-timeout","30","-A","Mozilla/5.0","-o",str(path),url
-        ])
-    except subprocess.CalledProcessError:
-        path.unlink(missing_ok=True)
-        print(f"Skipping source that failed to download: {url}", flush=True)
-        return False
-    if not path.exists() or path.stat().st_size <= 100_000:
-        path.unlink(missing_ok=True)
-        print(f"Skipping source with invalid/empty download: {url}", flush=True)
-        return False
-    return True
+
+    def attempt(download_url, retries):
+        try:
+            run([
+                "curl", "-L", "--fail", "--retry", str(retries), "--retry-delay", "2",
+                "--connect-timeout", "30", "--max-time", "240",
+                "-A", "Mozilla/5.0 (WildVox licensed animal footage)",
+                "-o", str(path), download_url
+            ])
+        except subprocess.CalledProcessError:
+            path.unlink(missing_ok=True)
+            return False
+        if not path.exists() or path.stat().st_size <= 100_000:
+            path.unlink(missing_ok=True)
+            return False
+        return True
+
+    if attempt(url, 2):
+        return True
+    # A Commons video transcode is the *same* original footage encoded at a
+    # lower resolution. Never silently substitute another clip or still.
+    for derivative in get_fallback_video_urls(url):
+        print(f"Retrying authentic Commons derivative after original download failure: {derivative}", flush=True)
+        if attempt(derivative, 2):
+            return True
+    print(f"Skipping source after original and authentic derivative downloads failed: {url}", flush=True)
+    return False
 
 def _normalize_plan_text(text):
     return re.sub(r"\s+", " ", re.sub(r"[^A-Za-z0-9']+", " ", text or "")).strip().lower()
