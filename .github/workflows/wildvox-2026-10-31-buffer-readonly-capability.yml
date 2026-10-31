@@ -19,7 +19,8 @@ jobs:
           import json
           from datetime import datetime, timezone
           from pathlib import Path
-          from scripts.publish_buffer import find_tiktok_channel, read_existing_posts, TZ
+          from scripts.publish_buffer import find_tiktok_channel, graphql, TZ
+          from urllib.parse import urlparse
           ids={
             "common_blackbird_park_search":"6ae5d50beaa24d6f9a70ed23",
             "goat_herd_hillside_grazing":"6ae5d708b84259308bd45d80",
@@ -33,16 +34,31 @@ jobs:
             "mute_swan_pond_glide":"6ae5d723b84259308bd460ef",
           }
           org,channel=find_tiktok_channel()
-          posts=read_existing_posts(org,channel)
+          posts=[]
+          after=None
+          for _ in range(8):
+            after_arg='' if not after else ', after: '+json.dumps(after)
+            query=('query { posts(first:50'+after_arg+', input:{ organizationId:'+json.dumps(org)+', filter:{channelIds:['+json.dumps(channel)+'],status:[scheduled,sent,error]} }) { edges { node { id text dueAt status channelId externalLink sentAt schedulingType } } pageInfo { hasNextPage endCursor } } }')
+            result=graphql(query)['posts']
+            posts.extend(edge['node'] for edge in result['edges'])
+            page=result['pageInfo']
+            if not page['hasNextPage']: break
+            after=page['endCursor']
+            if not after: raise RuntimeError('Buffer pagination ended without cursor')
+          else: raise RuntimeError('Buffer pagination exceeded 400 posts')
           byid={p["id"]:p for p in posts}
           results=[]
           for key,postid in ids.items():
             post=byid.get(postid)
-            row={"key":key,"buffer_post_id":postid,"status":post.get("status") if post else "not_returned","due_at":post.get("dueAt") if post else None,"channel_id_matches":post.get("channelId")==channel if post else False,"tiktok_publication_confirmed":False}
+            link=(post.get("externalLink") or "") if post else ""
+            parsed=urlparse(link)
+            valid_link=bool(parsed.scheme=="https" and parsed.hostname in ("tiktok.com","www.tiktok.com","m.tiktok.com","vm.tiktok.com") and ("/video/" in parsed.path or parsed.hostname=="vm.tiktok.com"))
+            confirmed=bool(post and post.get("status")=="sent" and post.get("sentAt") and post.get("schedulingType")=="automatic" and valid_link)
+            row={"key":key,"buffer_post_id":postid,"status":post.get("status") if post else "not_returned","due_at":post.get("dueAt") if post else None,"sent_at":post.get("sentAt") if post else None,"scheduling_type":post.get("schedulingType") if post else None,"tiktok_video_url":link if valid_link else None,"channel_id_matches":post.get("channelId")==channel if post else False,"tiktok_publication_confirmed":confirmed}
             results.append(row)
-            print("BUFFER_POST_STATUS "+key+" "+row["status"]+" "+str(row["due_at"]))
+            print("BUFFER_POST_STATUS "+key+" "+row["status"]+" "+str(row["due_at"])+" tiktok_link="+str(bool(row["tiktok_video_url"])))
           counts={status:sum(r["status"]==status for r in results) for status in ("scheduled","sent","error","not_returned")}
-          payload={"editorial_day":"2026-10-31","checked_at_utc":datetime.now(timezone.utc).isoformat(),"checked_at_sao_paulo":datetime.now(TZ).isoformat(),"channel":"tiktok:@wildvox","provider":"buffer","buffer_status_counts":counts,"tiktok_publication_confirmed":False,"note":"Buffer sent does not independently confirm a public TikTok video. Check TikTok analytics separately. No posts created or modified.","posts":results}
+          payload={"editorial_day":"2026-10-31","checked_at_utc":datetime.now(timezone.utc).isoformat(),"checked_at_sao_paulo":datetime.now(TZ).isoformat(),"channel":"tiktok:@wildvox","provider":"buffer","buffer_status_counts":counts,"tiktok_publication_confirmed":sum(r["tiktok_publication_confirmed"] for r in results),"note":"TikTok confirmation requires Buffer sent + sentAt + automatic + platform externalLink. TikTok analytics can lag. No posts created or modified.","posts":results}
           dest=Path("qa/reviews/2026-10-31-buffer-status-check.json")
           dest.parent.mkdir(parents=True,exist_ok=True)
           dest.write_text(json.dumps(payload,indent=2)+"\n")
