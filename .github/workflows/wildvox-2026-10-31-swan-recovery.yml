@@ -70,3 +70,5 @@ jobs:
             swan_technical_qa_2026-10-31.json
           retention-days: 3
           if-no-files-found: warn
+
+# 2026-10-31 swan editorial v2: accurate flight/grass/nest/pond narration and source6 late seek, hold TRUE.
