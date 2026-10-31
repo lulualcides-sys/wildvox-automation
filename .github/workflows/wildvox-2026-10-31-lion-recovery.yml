@@ -72,3 +72,5 @@ jobs:
           if-no-files-found: warn
 
 # Editorial v3: final one-source narration shortened after measured Kokoro allocation failure.
+
+# 2026-10-31-lion_cubs_learning_through_play-editorial-v4: corrected spoken claims after 1fps real-MP4 motion audit; independent QA and editorial hold required.
