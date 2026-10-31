@@ -82,6 +82,7 @@ class WorkflowIsolationContract(unittest.TestCase):
     def test_publish_each_candidate_and_keep_editorial_hold(self):
         workflow = (ROOT / ".github" / "workflows" / "wildvox-daily.yml").read_text("utf-8")
         publish = workflow.split("  publish-media:", 1)[1].split("  technical-qa:", 1)[0]
+        self.assertIn("cancel-in-progress: false", workflow)
         self.assertIn("max-parallel: 1", publish)
         self.assertIn("needs: [prepare, render]", publish)
         self.assertIn("matrix.animal", publish)

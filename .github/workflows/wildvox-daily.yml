@@ -19,9 +19,10 @@ permissions:
 
 concurrency:
   group: wildvox-daily-5
-  # A fallback cron must never cancel an in-progress editorial push render.
-  # A newer editorial push can still cancel an older stale push render.
-  cancel-in-progress: ${{ github.event_name == 'push' }}
+  # Preserve active renders when a second editorial batch is queued.
+  # GitHub keeps at most one pending run in this concurrency group, replacing
+  # obsolete pending revisions without canceling an in-progress first batch.
+  cancel-in-progress: false
 
 jobs:
   prepare:
