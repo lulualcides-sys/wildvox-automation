@@ -1,0 +1,30 @@
+name: WildVox — blackbird original source preview review
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-blackbird-source-preview-review.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  previews:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover original source previews, no new downloads or render
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 41196124395 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-blackbird-recovery --dir .
+          mkdir -p qa/reviews/blackbird-original
+          cp output/common_blackbird_park_search_source_*_preview.jpg qa/reviews/blackbird-original/
+          test "$(find qa/reviews/blackbird-original -type f | wc -l)" -ge 8
+      - name: Archive small original source preview JPGs only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qa/reviews/blackbird-original
+          git commit -m 'qa: blackbird original source previews for visual verification'
+          git pull --rebase origin recovery/wildvox-blackbird-20261031
+          git push origin HEAD:recovery/wildvox-blackbird-20261031
