@@ -1,32 +1,60 @@
-name: WildVox — Buffer TikTok fallback read-only capability check
+name: WildVox — 31 Oct Buffer TikTok post status audit (read only)
 on:
   push:
     paths:
       - '.github/workflows/wildvox-2026-10-31-buffer-readonly-capability.yml'
 permissions:
-  contents: read
+  contents: write
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
-      - name: Read Buffer @wildvox channel and queue WITHOUT creating posts
+      - name: Query exact ten Buffer TikTok IDs without publishing
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: |
           python - <<'PY'
-          from scripts.publish_buffer import find_tiktok_channel, read_existing_posts
-          try:
-              org_id,channel_id=find_tiktok_channel()
-              posts=read_existing_posts(org_id,channel_id)
-              print('BUFFER_WILDVOX_CONNECTED=true')
-              print('BUFFER_PENDING_COUNT='+str(sum(p.get('status')=='scheduled' for p in posts)))
-              print('BUFFER_SENT_COUNT='+str(sum(p.get('status')=='sent' for p in posts)))
-              print('BUFFER_ERROR_COUNT='+str(sum(p.get('status')=='error' for p in posts)))
-              print('READ_ONLY_NO_POSTING=true')
-          except Exception as exc:
-              print('BUFFER_WILDVOX_CONNECTED=false')
-              print('BUFFER_DIAGNOSTIC_ERROR='+str(exc)[:300])
-              print('READ_ONLY_NO_POSTING=true')
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from scripts.publish_buffer import find_tiktok_channel, read_existing_posts, TZ
+          ids={
+            "common_blackbird_park_search":"6ae5d50beaa24d6f9a70ed23",
+            "goat_herd_hillside_grazing":"6ae5d708b84259308bd45d80",
+            "giraffe_reaching_for_food":"6ae5d70ca114574349a1e3da",
+            "great_egret_unexpected_perch":"6ae5d710ceb491e585f46246",
+            "rock_pigeon_head_bob_city_walk":"6ae5d713b84259308bd45e1f",
+            "mallard_duckling_paddle_line":"6ae5d717ceb491e585f4633d",
+            "eurasian_red_squirrel_stop_and_go":"6ae5d74fceb491e585f474ed",
+            "grey_heron_patient_fishing":"6ae5d71b1891472093ce575a",
+            "lion_cubs_learning_through_play":"6ae5d71fb84259308bd46061",
+            "mute_swan_pond_glide":"6ae5d723b84259308bd460ef",
+          }
+          org,channel=find_tiktok_channel()
+          posts=read_existing_posts(org,channel)
+          byid={p["id"]:p for p in posts}
+          results=[]
+          for key,postid in ids.items():
+            post=byid.get(postid)
+            row={"key":key,"buffer_post_id":postid,"status":post.get("status") if post else "not_returned","due_at":post.get("dueAt") if post else None,"channel_id_matches":post.get("channelId")==channel if post else False,"tiktok_publication_confirmed":False}
+            results.append(row)
+            print("BUFFER_POST_STATUS "+key+" "+row["status"]+" "+str(row["due_at"]))
+          counts={status:sum(r["status"]==status for r in results) for status in ("scheduled","sent","error","not_returned")}
+          payload={"editorial_day":"2026-10-31","checked_at_utc":datetime.now(timezone.utc).isoformat(),"checked_at_sao_paulo":datetime.now(TZ).isoformat(),"channel":"tiktok:@wildvox","provider":"buffer","buffer_status_counts":counts,"tiktok_publication_confirmed":False,"note":"Buffer sent does not independently confirm a public TikTok video. Check TikTok analytics separately. No posts created or modified.","posts":results}
+          dest=Path("qa/reviews/2026-10-31-buffer-status-check.json")
+          dest.parent.mkdir(parents=True,exist_ok=True)
+          dest.write_text(json.dumps(payload,indent=2)+"\n")
+          print("BUFFER_STATUS_COUNTS="+json.dumps(counts))
+          if any(r["status"]=="not_returned" for r in results):
+            print("WARNING: one or more expected IDs not returned by Buffer status pagination")
           PY
+      - name: Persist sanitized status audit only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qa/reviews/2026-10-31-buffer-status-check.json
+          git commit -m 'audit: verify Buffer status for ten 31 Oct TikTok posts' || exit 0
+          git pull --rebase origin recovery/wildvox-blackbird-20261031
+          git push origin HEAD:recovery/wildvox-blackbird-20261031
