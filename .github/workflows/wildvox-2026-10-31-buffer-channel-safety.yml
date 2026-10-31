@@ -1,0 +1,96 @@
+name: WildVox — safety hold Buffer posts on wrong TikTok handle
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-buffer-channel-safety.yml'
+permissions:
+  contents: write
+jobs:
+  safety-hold:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Move only nine queued WildVox posts to drafts if channel handle is not @wildvox
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime,timezone
+          from scripts.publish_buffer import find_tiktok_channel,graphql,TZ
+          ids={
+            "goat_herd_hillside_grazing":"6ae5d708b84259308bd45d80",
+            "giraffe_reaching_for_food":"6ae5d70ca114574349a1e3da",
+            "great_egret_unexpected_perch":"6ae5d710ceb491e585f46246",
+            "rock_pigeon_head_bob_city_walk":"6ae5d713b84259308bd45e1f",
+            "mallard_duckling_paddle_line":"6ae5d717ceb491e585f4633d",
+            "eurasian_red_squirrel_stop_and_go":"6ae5d74fceb491e585f474ed",
+            "grey_heron_patient_fishing":"6ae5d71b1891472093ce575a",
+            "lion_cubs_learning_through_play":"6ae5d71fb84259308bd46061",
+            "mute_swan_pond_glide":"6ae5d723b84259308bd460ef",
+          }
+          org,channel=find_tiktok_channel()
+          connected=graphql('query { channels(input:{organizationId:'+json.dumps(org)+'}) { id name displayName service externalLink } }')['channels']
+          selected=next(c for c in connected if c['id']==channel)
+          actual=str(selected['name']).lower().lstrip('@')
+          link=str(selected.get('externalLink') or '').lower().rstrip('/')
+          wrong=actual!='wildvox' or link!='https://tiktok.com/@wildvox'
+          print('BUFFER_CHANNEL_NAME='+actual)
+          print('BUFFER_CHANNEL_URL='+link)
+          print('EXPECTED_CHANNEL=@wildvox')
+          print('WRONG_HANDLE_GUARD='+str(wrong))
+          def list_posts():
+            all_posts=[];after=None
+            for _ in range(8):
+              after_arg='' if not after else ', after: '+json.dumps(after)
+              q='query { posts(first:50'+after_arg+', input:{ organizationId:'+json.dumps(org)+', filter:{channelIds:['+json.dumps(channel)+'],status:[draft,scheduled,sent,error,sending]} }) { edges { node { id status channelId dueAt } } pageInfo { hasNextPage endCursor } } }'
+              page=graphql(q)['posts']
+              all_posts.extend(edge['node'] for edge in page['edges'])
+              if not page['pageInfo']['hasNextPage']:break
+              after=page['pageInfo']['endCursor']
+              if not after:raise RuntimeError('Missing pagination cursor')
+            else:raise RuntimeError('Buffer pagination exceeded 400 posts')
+            return {p['id']:p for p in all_posts}
+          before=list_posts()
+          result=[]
+          for key,post_id in ids.items():
+            p=before.get(post_id)
+            status=p['status'] if p else 'not_returned'
+            if not wrong:
+              result.append({'key':key,'id':post_id,'before':status,'action':'correct_channel_no_change'})
+              continue
+            if status!='scheduled':
+              result.append({'key':key,'id':post_id,'before':status,'action':'not_scheduled_no_change'})
+              continue
+            mutation='mutation($input:EditPostInput!){ editPost(input:$input){ __typename ... on PostActionSuccess { post { id status channelId } } ... on MutationError { message } } }'
+            response=graphql(mutation,{'input':{'id':post_id,'saveToDraft':True}})['editPost']
+            if response.get('__typename')!='PostActionSuccess':
+              result.append({'key':key,'id':post_id,'before':status,'action':'ERROR','error':str(response.get('message',response['__typename']))[:200]})
+            else:
+              updated=response['post']
+              result.append({'key':key,'id':post_id,'before':status,'action':'moved_to_draft','api_status':updated['status']})
+              print('HELD_WRONG_CHANNEL_POST '+key+' '+post_id+' '+updated['status'])
+          after=list_posts()
+          for row in result:
+            row['verified_status']=after.get(row['id'],{}).get('status','not_returned')
+          ledger={'checked_at_sao_paulo':datetime.now(TZ).isoformat(),'expected_channel':'@wildvox','actual_buffer_channel':actual,'actual_buffer_channel_link':link,'wrong_handle':wrong,'first_blackbird_already_sent_on_wrong_handle':True,'posts':result}
+          dest=Path('qa/reviews/2026-10-31-buffer-wrong-channel-safety.json')
+          dest.parent.mkdir(parents=True,exist_ok=True)
+          dest.write_text(json.dumps(ledger,indent=2)+'\n')
+          print('SAFETY_HOLD_COUNT='+str(sum(r['verified_status']=='draft' for r in result)))
+          print('SAFETY_REMAINING_SCHEDULED='+str(sum(r['verified_status']=='scheduled' for r in result)))
+          if wrong and any(r['verified_status']=='scheduled' for r in result):
+            raise RuntimeError('Safety failure: at least one post remains scheduled on wrong TikTok channel')
+          PY
+      - name: Persist safety results
+        if: always()
+        run: |
+          if [ ! -f qa/reviews/2026-10-31-buffer-wrong-channel-safety.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qa/reviews/2026-10-31-buffer-wrong-channel-safety.json
+          git commit -m 'safety: hold nine TikTok posts on mismatched Buffer channel' || exit 0
+          git pull --rebase origin recovery/wildvox-blackbird-20261031
+          git push origin HEAD:recovery/wildvox-blackbird-20261031
