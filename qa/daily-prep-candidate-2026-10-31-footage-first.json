@@ -1,0 +1,940 @@
+{
+  "mallard_duckling_paddle_line": {
+    "title": "WHY MALLARD DUCKLINGS SWIM IN A LINE",
+    "script": "Why are these mallard ducklings moving together instead of scattering across the water? A family can travel near the bank, where young birds remain close to the adults. The ducklings paddle in short bursts, leaving ripples as they cross the surface, while other ducks remain nearby on the water. Webbed feet push against the water, helping these birds move while their bodies float, even when the shoreline is uneven. A busy stretch of water still leaves the group room to turn and regroup. That moving cluster is a simple way for young ducks to keep traveling together.",
+    "caption": "WHY MALLARD DUCKLINGS SWIM IN A LINE. #WildVox #Wildlife #AnimalFacts",
+    "sources": [
+      {
+        "assetTitle": "2022-06-04 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-04%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "mallard_ducklings_near_bank"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Anas platyrhynchos Oulu 20200626.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas%20platyrhynchos%20Oulu%2020200626.webm",
+        "type": "video",
+        "author": "Estormiz",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "mallard_family_paddling"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-06-17 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 11.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_11.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-17%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%2011.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "mallard_ducklings_in_open_water"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2021 12 17 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021%2012%2017%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "mallard_family_on_water"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-06-17 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 8.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_8.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-17%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%208.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "mallard_drake_swimming"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-01-07 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-07%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "mallard_group_on_pond"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-06-15 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA var.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-15_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_var.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-15%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%20var.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "mallard_pond_turning"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-07-29 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-29_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-29%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "mallard_ducklings_at_water_edge"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "Why are these mallard ducklings moving together instead of scattering across the water?",
+        "scene": "Ducklings visible swimming near shore.",
+        "tags": [
+          "mallard_ducklings_near_bank"
+        ],
+        "story_role": "hook",
+        "overlay_label": "DUCKLING LINE"
+      },
+      {
+        "text": "A family can travel near the bank, where young birds remain close to the adults.",
+        "scene": "Mallard family swimming in a group.",
+        "tags": [
+          "mallard_family_paddling"
+        ],
+        "story_role": "setup",
+        "overlay_label": "STAY CLOSE"
+      },
+      {
+        "text": "The ducklings paddle in short bursts, leaving ripples as they cross the surface, while other ducks remain nearby on the water.",
+        "scene": "Ducklings paddling; second water-family shot needs preview.",
+        "tags": [
+          "mallard_ducklings_in_open_water",
+          "mallard_family_on_water"
+        ],
+        "story_role": "action",
+        "overlay_label": "SMALL PADDLES"
+      },
+      {
+        "text": "Webbed feet push against the water, helping these birds move while their bodies float, even when the shoreline is uneven.",
+        "scene": "Adult mallard swimming and a second water shot, pending source-window check.",
+        "tags": [
+          "mallard_drake_swimming",
+          "mallard_group_on_pond"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "WATER POWER"
+      },
+      {
+        "text": "A busy stretch of water still leaves the group room to turn and regroup.",
+        "scene": "Mallards on a populated pond; actual grouping to be verified.",
+        "tags": [
+          "mallard_pond_turning"
+        ],
+        "story_role": "twist",
+        "overlay_label": "TURN TOGETHER"
+      },
+      {
+        "text": "That moving cluster is a simple way for young ducks to keep traveling together.",
+        "scene": "Return to distinct family footage; must show young birds.",
+        "tags": [
+          "mallard_ducklings_at_water_edge"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "FOLLOW THE GROUP"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-31-mallard_duckling_paddle_line-research-v2",
+    "publication_hold": true,
+    "trend_priority": false
+  },
+  "eurasian_red_squirrel_stop_and_go": {
+    "title": "WHY RED SQUIRRELS STOP MID-DASH",
+    "script": "Why does this Eurasian red squirrel suddenly stop while moving around a tree? In a park, trunks and paths create routes between cover and exposed ground. It can climb, pause, turn, and cross open patches before finding the next safe spot, with one tree offering several different routes. Those brief pauses may help it assess the surroundings before making another move. Its bushy tail shifts position as the animal balances and changes direction. The stop-and-go path makes sense when every branch offers another possible route instead of one long, straight sprint.",
+    "caption": "WHY RED SQUIRRELS STOP MID-DASH. #WildVox #Wildlife #AnimalFacts",
+    "sources": [
+      {
+        "assetTitle": "2021-12-10 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "red_squirrel_on_tree_bark"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2021-12-17 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-17%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "red_squirrel_on_park_path"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2021-12-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-21%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "red_squirrel_in_tivoli_park"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-01-07 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-07%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "red_squirrel_on_tree_trunk"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-01-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-21%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "red_squirrel_on_tree_alert"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-02-14 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-02-14_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-02-14%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "red_squirrel_tail_in_tree"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-02-25 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-02-25_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-02-25%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "red_squirrel_in_park"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-01-03 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-03_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA_2.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-03%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA%202.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "red_squirrel_on_tivoli_tree"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "Why does this Eurasian red squirrel suddenly stop while moving around a tree?",
+        "scene": "Red squirrel visible on tree bark.",
+        "tags": [
+          "red_squirrel_on_tree_bark"
+        ],
+        "story_role": "hook",
+        "overlay_label": "SUDDEN PAUSE"
+      },
+      {
+        "text": "In a park, trunks and paths create routes between cover and exposed ground.",
+        "scene": "Red squirrel in a park near a path.",
+        "tags": [
+          "red_squirrel_on_park_path"
+        ],
+        "story_role": "setup",
+        "overlay_label": "PARK ROUTES"
+      },
+      {
+        "text": "It can climb, pause, turn, and cross open patches before finding the next safe spot, with one tree offering several different routes.",
+        "scene": "Red squirrel movement; both source windows need verification.",
+        "tags": [
+          "red_squirrel_in_tivoli_park",
+          "red_squirrel_on_tree_trunk"
+        ],
+        "story_role": "action",
+        "overlay_label": "QUICK MOVES"
+      },
+      {
+        "text": "Those brief pauses may help it assess the surroundings before making another move.",
+        "scene": "Squirrel alert in a tree, not claimed to be feeding.",
+        "tags": [
+          "red_squirrel_on_tree_alert"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "LOOK AROUND"
+      },
+      {
+        "text": "Its bushy tail shifts position as the animal balances and changes direction.",
+        "scene": "Visible squirrel tail and posture; action must be confirmed.",
+        "tags": [
+          "red_squirrel_tail_in_tree"
+        ],
+        "story_role": "twist",
+        "overlay_label": "TAIL BALANCE"
+      },
+      {
+        "text": "The stop-and-go path makes sense when every branch offers another possible route instead of one long, straight sprint.",
+        "scene": "Squirrel moving through park, two distinct shots.",
+        "tags": [
+          "red_squirrel_in_park",
+          "red_squirrel_on_tivoli_tree"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "NEXT BRANCH"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-31-eurasian_red_squirrel_stop_and_go-research-v2",
+    "publication_hold": true,
+    "trend_priority": false
+  },
+  "goat_herd_hillside_grazing": {
+    "title": "THE GOAT HERD THAT WORKS LIKE A LAWNMOWER",
+    "script": "Why are these goats spread across a hillside like a living lawn mower? A group can move together through open ground, searching for vegetation within reach. Some lower their heads to eat, choosing plants as they move from one patch to another, with different animals feeding in different spots. Between meals, goats also pause to groom or rest; feeding is only part of their day, especially in a quiet managed pen. Young kids have a different priority, staying close to their mothers for milk. From nursing young to grazing adults, the herd keeps moving through the plants together.",
+    "caption": "THE GOAT HERD THAT WORKS LIKE A LAWNMOWER. #WildVox #Wildlife #AnimalFacts",
+    "sources": [
+      {
+        "assetTitle": "Goats in Sunnyvale.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20in%20Sunnyvale.webm",
+        "type": "video",
+        "author": "Kat Walsh",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "goat_herd_grazing_sunnyvale_hillside"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Goats video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_video.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20video.webm",
+        "type": "video",
+        "author": "gailhampshire (Flickr gails_pictures)",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "goat_herd_moving_rocky_ground"
+        ],
+        "license_note": "Original Flickr creator gailhampshire verified against Commons file source and Flickr attribution; full scene and action-window review pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Goats eating.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_eating.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20eating.webm",
+        "type": "video",
+        "author": "Brian Boucheron",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "goats_eating_hay_close"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-10-01 MIRKE ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-01%20MIRKE%20ARTIODACTYLA%20Capra%20aegagrus%20hircus%20DOMA%C4%8CA%20KOZA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "domestic_goat_on_grassy_meadow"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Anglo-Nubian goats grooming themselves.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anglo-Nubian%20goats%20grooming%20themselves.webm",
+        "type": "video",
+        "author": "Rivadavia.vila",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "anglo_nubian_goats_grooming"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Goats yawning.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_yawning.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20yawning.webm",
+        "type": "video",
+        "author": "Brian Boucheron",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "domestic_goats_in_barn"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Newborn goats.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Newborn_goats.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Newborn%20goats.webm",
+        "type": "video",
+        "author": "Darius Dunlap",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "newborn_goats_nursing_mother"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-09-20 JAMNIK ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-20%20JAMNIK%20ARTIODACTYLA%20Capra%20aegagrus%20hircus%20DOMA%C4%8CA%20KOZA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "domestic_goat_in_open_grass"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "Why are these goats spread across a hillside like a living lawn mower?",
+        "scene": "Real managed goat herd grazing across grassy slope.",
+        "tags": [
+          "goat_herd_grazing_sunnyvale_hillside"
+        ],
+        "story_role": "hook",
+        "overlay_label": "LIVING MOWERS"
+      },
+      {
+        "text": "A group can move together through open ground, searching for vegetation within reach.",
+        "scene": "Goat herd on rocky ground, clearly a separate location.",
+        "tags": [
+          "goat_herd_moving_rocky_ground"
+        ],
+        "story_role": "setup",
+        "overlay_label": "HERD ON THE MOVE"
+      },
+      {
+        "text": "Some lower their heads to eat, choosing plants as they move from one patch to another, with different animals feeding in different spots.",
+        "scene": "Close goats eating hay and separate goat on grass.",
+        "tags": [
+          "goats_eating_hay_close",
+          "domestic_goat_on_grassy_meadow"
+        ],
+        "story_role": "action",
+        "overlay_label": "CHOOSE A BITE"
+      },
+      {
+        "text": "Between meals, goats also pause to groom or rest; feeding is only part of their day, especially in a quiet managed pen.",
+        "scene": "Goats grooming and goats resting in managed barn.",
+        "tags": [
+          "anglo_nubian_goats_grooming",
+          "domestic_goats_in_barn"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "TIME TO REST"
+      },
+      {
+        "text": "Young kids have a different priority, staying close to their mothers for milk.",
+        "scene": "Real mother goat with nursing newborn kids.",
+        "tags": [
+          "newborn_goats_nursing_mother"
+        ],
+        "story_role": "twist",
+        "overlay_label": "NEWBORN KIDS"
+      },
+      {
+        "text": "From nursing young to grazing adults, the herd keeps moving through the plants together.",
+        "scene": "Goat visibly in grassy field; verify movement window.",
+        "tags": [
+          "domestic_goat_in_open_grass"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "BACK TO GRAZING"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-31-goat_herd_hillside_grazing-research-v2",
+    "publication_hold": true,
+    "trend_priority": false
+  },
+  "rock_pigeon_head_bob_city_walk": {
+    "title": "WHY PIGEONS BOB THEIR HEADS WHILE WALKING",
+    "script": "Why does this city pigeon move its head in little jerks as it walks? Rock pigeons share ledges and sidewalks with people, and their steps reveal a surprising trick. On pavement or rooftops, the body steps forward while the head briefly holds still, then catches up. When a pigeon rests, that head movement disappears because its body is no longer walking. But walking is only part of city life: pigeons also gather to bathe and preen. Once they move again, the familiar bob returns across paths and waterside grass.",
+    "caption": "WHY PIGEONS BOB THEIR HEADS WHILE WALKING. #WildVox #Wildlife #AnimalFacts",
+    "sources": [
+      {
+        "assetTitle": "2022-10-10 LJUBLJANA Opera COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-10_LJUBLJANA_Opera_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-10%20LJUBLJANA%20Opera%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "rock_pigeon_walking_city_road"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
+      },
+      {
+        "assetTitle": "2022-09-24 LJUBLJANA Breg COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Breg_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-24%20LJUBLJANA%20Breg%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "rock_pigeons_on_urban_ledge"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
+      },
+      {
+        "assetTitle": "2022-05-13 LJUBLJANA Prule COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-13%20LJUBLJANA%20Prule%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "rock_pigeon_on_prule_sidewalk"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
+      },
+      {
+        "assetTitle": "2022-06-22 LJUBLJANA Špica COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-22_LJUBLJANA_%C5%A0pica_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-22%20LJUBLJANA%20%C5%A0pica%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "rock_pigeon_resting_riverside"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
+      },
+      {
+        "assetTitle": "2022-06-24 LJUBLJANA Špica COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-24_LJUBLJANA_%C5%A0pica_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-24%20LJUBLJANA%20%C5%A0pica%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "rock_pigeons_bathing_shallow_water"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
+      },
+      {
+        "assetTitle": "2022-08-26 LJUBLJANA Prule COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-26_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-26%20LJUBLJANA%20Prule%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "rock_pigeon_pecking_city_ground"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
+      },
+      {
+        "assetTitle": "2022-10-03 LJUBLJANA Prule COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-03_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-03%20LJUBLJANA%20Prule%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "rock_pigeon_on_prule_path"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+        "start_seconds": 0
+      },
+      {
+        "assetTitle": "Columba livia forma domestica - courtship dance2.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Columba_livia_forma_domestica_-_courtship_dance2.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Columba%20livia%20forma%20domestica%20-%20courtship%20dance2.ogv",
+        "type": "video",
+        "author": "Bisco",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "pigeon_courtship_walk_roof"
+        ],
+        "license_note": "Original Commons public-domain courtship footage; walking visible in sampled frames.",
+        "start_seconds": 0
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "Why does this city pigeon move its head in little jerks as it walks?",
+        "scene": "Single pigeon walking on city pavement.",
+        "tags": [
+          "rock_pigeon_walking_city_road"
+        ],
+        "story_role": "hook",
+        "overlay_label": "HEAD BOB"
+      },
+      {
+        "text": "Rock pigeons share ledges and sidewalks with people, and their steps reveal a surprising trick.",
+        "scene": "Two pigeons on urban ledge.",
+        "tags": [
+          "rock_pigeons_on_urban_ledge"
+        ],
+        "story_role": "setup",
+        "overlay_label": "CITY WALK"
+      },
+      {
+        "text": "On pavement or rooftops, the body steps forward while the head briefly holds still, then catches up.",
+        "scene": "Pigeons walking on a path and on rooftop courtship footage.",
+        "tags": [
+          "rock_pigeon_on_prule_sidewalk",
+          "pigeon_courtship_walk_roof"
+        ],
+        "story_role": "action",
+        "overlay_label": "STEADY VIEW"
+      },
+      {
+        "text": "When a pigeon rests, that head movement disappears because its body is no longer walking.",
+        "scene": "Pigeon visibly resting on gravel, no claim of movement.",
+        "tags": [
+          "rock_pigeon_resting_riverside"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "RESTING"
+      },
+      {
+        "text": "But walking is only part of city life: pigeons also gather to bathe and preen.",
+        "scene": "Several pigeons bathing together in shallow water.",
+        "tags": [
+          "rock_pigeons_bathing_shallow_water"
+        ],
+        "story_role": "twist",
+        "overlay_label": "BATH TIME"
+      },
+      {
+        "text": "Once they move again, the familiar bob returns across paths and waterside grass.",
+        "scene": "Pigeons walking on grass and group on path, two sources.",
+        "tags": [
+          "rock_pigeon_on_prule_path",
+          "rock_pigeons_walking_spica_group"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "BOB RETURNS"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-31-rock_pigeon_head_bob_city_walk-editorial-v3",
+    "publication_hold": true,
+    "trend_priority": false
+  },
+  "giraffe_reaching_for_food": {
+    "title": "WHY REACHING IS ONLY HALF A GIRAFFE'S MEAL",
+    "script": "A giraffe can reach food high above the ground, but how does it take a bite? Its long neck brings leaves and feeders closer while its feet remain planted, even when the food is presented in a supervised zoo setting. It moves its head toward the greenery, working its mouth near the food with small, deliberate motions instead of one quick snap. The lips and tongue help guide vegetation inward; reaching a branch is only the beginning. These animals were filmed in different managed settings, not as one wild herd. In open habitat, that reach brings leaves within range for the next mouthful.",
+    "caption": "WHY REACHING IS ONLY HALF A GIRAFFE'S MEAL. #WildVox #Wildlife #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Feeding%20a%20giraffe%20at%20the%20Giraffe%20Centre%20in%20Nairobi%2C%20Kenya.webm",
+        "type": "video",
+        "assetTitle": "Feeding a giraffe at the Giraffe Centre in Nairobi, Kenya.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Feeding_a_giraffe_at_the_Giraffe_Centre_in_Nairobi%2C_Kenya.webm",
+        "tags": [
+          "giraffe_handfed_at_supervised_center"
+        ],
+        "author": "Lebu Ayiga",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20Giraffa%20camelopardalis%20%C5%BDIRAFA%203.webm",
+        "type": "video",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA Giraffa camelopardalis ŽIRAFA 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA_3.webm",
+        "tags": [
+          "giraffe_full_neck_zoo"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rothschild's%20giraffes%20at%20Olomouc%20Zoo%2C%2030%20August%202026.webm",
+        "type": "video",
+        "assetTitle": "Rothschild's giraffes at Olomouc Zoo, 30 August 2026.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rothschild's_giraffes_at_Olomouc_Zoo%2C_30_August_2026.webm",
+        "tags": [
+          "rothschild_giraffes_in_olomouc_zoo"
+        ],
+        "author": "Dmitry Novoklimov",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Giraffa%20camelopardalis.webm",
+        "type": "video",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA - Giraffa camelopardalis.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Giraffa_camelopardalis.webm",
+        "tags": [
+          "giraffe_in_ljubljana_zoo"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20Giraffa%20camelopardalis%20%C5%BDIRAFA.webm",
+        "type": "video",
+        "assetTitle": "2023-08-18 ZOO LJUBLJANA Giraffa camelopardalis ŽIRAFA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA.webm",
+        "tags": [
+          "giraffe_head_near_foliage_zoo"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%BDirafa%20v%20ZOO%20Ljubljana.ogv",
+        "type": "video",
+        "assetTitle": "Žirafa v ZOO Ljubljana.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%C5%BDirafa_v_ZOO_Ljubljana.ogv",
+        "tags": [
+          "giraffe_body_in_zoo"
+        ],
+        "author": "MZaplotnik",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffes%20at%20Artis.ogv",
+        "type": "video",
+        "assetTitle": "Giraffes at Artis.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giraffes_at_Artis.ogv",
+        "tags": [
+          "giraffes_group_at_artis_zoo"
+        ],
+        "author": "Uusijani",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe%20eating%20leaves.webm",
+        "type": "video",
+        "assetTitle": "Giraffe eating leaves.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giraffe_eating_leaves.webm",
+        "tags": [
+          "giraffe_reaching_leaves_natural_landscape"
+        ],
+        "author": "Lennart Hessel",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-31",
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      }
+    ],
+    "visual_plan": [
+      {
+        "text": "A giraffe can reach food high above the ground, but how does it take a bite?",
+        "scene": "Giraffe at supervised feeding center; clearly captive setting.",
+        "tags": [
+          "giraffe_handfed_at_supervised_center"
+        ],
+        "story_role": "hook",
+        "overlay_label": "REACH FOR FOOD"
+      },
+      {
+        "text": "Its long neck brings leaves and feeders closer while its feet remain planted, even when the food is presented in a supervised zoo setting.",
+        "scene": "Giraffes in two different zoos showing full body and neck.",
+        "tags": [
+          "giraffe_full_neck_zoo",
+          "rothschild_giraffes_in_olomouc_zoo"
+        ],
+        "story_role": "setup",
+        "overlay_label": "LONG REACH"
+      },
+      {
+        "text": "It moves its head toward the greenery, working its mouth near the food with small, deliberate motions instead of one quick snap.",
+        "scene": "Zoo giraffe near foliage; two independent shots require action review.",
+        "tags": [
+          "giraffe_in_ljubljana_zoo",
+          "giraffe_head_near_foliage_zoo"
+        ],
+        "story_role": "action",
+        "overlay_label": "CAREFUL MOVES"
+      },
+      {
+        "text": "The lips and tongue help guide vegetation inward; reaching a branch is only the beginning.",
+        "scene": "Zoo giraffe muzzle in view; avoid claiming unshown bite.",
+        "tags": [
+          "giraffe_body_in_zoo"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "MOUTH CONTROL"
+      },
+      {
+        "text": "These animals were filmed in different managed settings, not as one wild herd.",
+        "scene": "Giraffes in separate zoo group footage.",
+        "tags": [
+          "giraffes_group_at_artis_zoo"
+        ],
+        "story_role": "twist",
+        "overlay_label": "DIFFERENT PLACES"
+      },
+      {
+        "text": "In open habitat, that reach brings leaves within range for the next mouthful.",
+        "scene": "Giraffe visibly reaching vegetation in natural-looking landscape.",
+        "tags": [
+          "giraffe_reaching_leaves_natural_landscape"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "THE NEXT BITE"
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-10-31-giraffe_reaching_for_food-research-v2",
+    "publication_hold": true,
+    "trend_priority": false
+  }
+}
