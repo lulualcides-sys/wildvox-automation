@@ -17,9 +17,11 @@ jobs:
           CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           REFRESH: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
           AUDITED: ${{ vars.TIKTOK_AUDITED }}
+          PUBLER_WEBHOOK: ${{ secrets.PUBLER_ZAPIER_WEBHOOK }}
+          BUFFER_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: |
           set -euo pipefail
-          for name in ACCESS CLIENT_KEY CLIENT_SECRET REFRESH; do
+          for name in ACCESS CLIENT_KEY CLIENT_SECRET REFRESH PUBLER_WEBHOOK BUFFER_KEY; do
             if [ -n "${!name:-}" ]; then
               echo "${name}_CONFIGURED=true"
             else
@@ -32,3 +34,5 @@ jobs:
             echo "PUBLIC_DIRECT_POST_AUDITED=false"
           fi
           echo "DIAGNOSTIC_ONLY_NO_POSTING=true"
+
+# 2026-10-31: add booleans for previously configured fallback bridges; no publishing.
