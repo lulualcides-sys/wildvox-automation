@@ -1,0 +1,74 @@
+name: WildVox — emergency Buffer TikTok 9 distinct reviewed posts
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-buffer-emergency-nine.yml'
+permissions:
+  contents: write
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Independently verify each 31 Oct MP4 and schedule only TikTok @wildvox
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          import json,time
+          from datetime import datetime,timedelta
+          from pathlib import Path
+          from urllib.request import urlopen
+          from scripts.publish_buffer import TZ,find_tiktok_channel,read_existing_posts,validate_public_url,schedule_video,normalize_caption
+          tasks=[["goat_herd_hillside_grazing",10,5,"857fe121198350a7369c1ff1c29a915fe1b8b93fdf6e7d9ad4a6a3a5d301d0f0","goat",412091133],["giraffe_reaching_for_food",11,20,"e5384d178d08524b36df78a40a7334ec3d54e1ece6ab44a3f28241c0cde5ab84","giraffe",412091149],["great_egret_unexpected_perch",12,40,"2df5b50dfee8b4c5a48f2d5c4cf605b852d532205ba00224e5cf12acf0248b26","egret",412091160],["rock_pigeon_head_bob_city_walk",14,10,"21e09badd5549b04af0e06f0c4aedbdd856f4a60a1aca2b6b0297ef336c67bff","pigeon",412091188],["mallard_duckling_paddle_line",16,10,"b10c6c35a62de56ffd620ba05929a0268d52c050cb1978b4320f2117621804ea","mallard",412091202],["eurasian_red_squirrel_stop_and_go",17,50,"fff7e2657799450afc2fcc5245897a47bd00c27b1466e96e609ca2d5ed586ca2","squirrel",412091217],["grey_heron_patient_fishing",19,35,"c62a7fcf8f90bef8e783cb306de48f6ddf0ce7172c00e39797dd47a9b8e865ad","heron",412091234],["lion_cubs_learning_through_play",20,55,"88484825540d4b9d4759ea5aaeb8e2541160474f62e670858e1d1537483cc3d9","lion",412091256],["mute_swan_pond_glide",22,5,"3ba099e00f4669391271a29fe71619fc4eed20b287f952a70b7b503e6ebef555","swan",null]]
+          base='https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/'
+          org,channel=find_tiktok_channel()
+          existing=read_existing_posts(org,channel)
+          seen={p.get('text','').strip():p for p in existing}
+          pending=sum(p.get('status')=='scheduled' for p in existing)
+          receipts=[]
+          for key,hour,minute,expected,qa_name,draft_id in tasks:
+              try:
+                  due=datetime(2026,10,31,hour,minute,tzinfo=TZ)
+                  if due<=datetime.now(TZ)+timedelta(minutes=10):
+                      raise RuntimeError('Slot is no longer safely in future')
+                  meta=json.load(urlopen(base+key+'_meta.json',timeout=35))
+                  qa=json.load(urlopen(base+qa_name+'_technical_qa_2026-10-31.json',timeout=35))
+                  assert meta['key']==key and meta['config_sha256']==expected, 'wrong media fingerprint'
+                  assert 30<=float(meta['duration'])<=45 and len(meta['sources'])==8, 'duration/sources'
+                  assert all(s.get('author') and s.get('license') and s.get('sourcePage') for s in meta['sources']), 'source credit missing'
+                  assert qa['technical_pass'] and qa['scope']==key and qa['publication_hold'], 'technical QA missing'
+                  assert len(qa['videos'])==1 and qa['videos'][0]['key']==key and qa['videos'][0]['revision'].startswith('2026-10-31'), 'wrong revision'
+                  assert not qa['videos'][0]['freeze_durations'], 'frozen segment'
+                  caption=normalize_caption(meta['caption'])
+                  if caption in seen:
+                      p=seen[caption]
+                      receipts.append({'key':key,'buffer_post_id':p['id'],'status':p['status'],'due_at':p.get('dueAt'),'already_exists':True,'metricool_draft_id':draft_id,'config_sha256':expected})
+                      print('ALREADY_EXISTS '+key+' '+str(p['id']))
+                      continue
+                  if pending>=10: raise RuntimeError('Buffer Free queue limit 10 reached')
+                  media_url=base+key+'.mp4'
+                  validate_public_url(media_url)
+                  post=schedule_video(channel,caption,media_url,due)
+                  pending+=1
+                  seen[caption]=post
+                  receipts.append({'key':key,'buffer_post_id':post['id'],'status':post.get('status'),'due_at':post.get('dueAt'),'already_exists':False,'metricool_draft_id':draft_id,'config_sha256':expected})
+                  print('BUFFER_SCHEDULED '+key+' '+str(post['id'])+' '+str(post.get('dueAt')))
+                  time.sleep(2)
+              except Exception as exc:
+                  receipts.append({'key':key,'error':str(exc)[:400],'metricool_draft_id':draft_id,'config_sha256':expected})
+                  print('BUFFER_ERROR '+key+' '+str(exc)[:400])
+          Path('qa/reviews/2026-10-31-buffer-emergency-nine-results.json').write_text(json.dumps({'date':'2026-10-31','provider':'buffer','channel':'tiktok:@wildvox','metricool_posts_converted_to_drafts':True,'results':receipts},indent=2)+'\n')
+          print('BUFFER_SCHEDULED_COUNT='+str(sum(bool(x.get('buffer_post_id')) for x in receipts)))
+          if not any(x.get('buffer_post_id') for x in receipts): raise SystemExit(1)
+          
+      - name: Persist per-video Buffer IDs, errors, and fingerprints
+        if: always()
+        run: |
+          if [ ! -f qa/reviews/2026-10-31-buffer-emergency-nine-results.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qa/reviews/2026-10-31-buffer-emergency-nine-results.json
+          git commit -m 'schedule: Buffer emergency TikTok receipts for nine reviewed 31 Oct clips'
+          git pull --rebase origin recovery/wildvox-blackbird-20261031
+          git push origin HEAD:recovery/wildvox-blackbird-20261031
