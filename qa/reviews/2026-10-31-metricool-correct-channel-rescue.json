@@ -1,0 +1,113 @@
+{
+  "editorial_day": "2026-10-31",
+  "verified_at_sao_paulo": "2026-10-31T10:03:00-03:00",
+  "provider": "metricool",
+  "brand_id": 7242311,
+  "connected_tiktok_handle": "wildvox",
+  "channel": "tiktok:@wildvox",
+  "confirmed_scheduled_count": 10,
+  "confirmed_published_count": 0,
+  "publication_confirmation_pending": true,
+  "auto_publish": true,
+  "draft": false,
+  "provider_status": "PENDING",
+  "posts": [
+    {
+      "key": "common_blackbird_park_search",
+      "metricool_post_id": 412139137,
+      "local_sao_paulo_time": "2026-10-31T10:25:00",
+      "provider_status": "PENDING",
+      "draft": false,
+      "autoPublish": true,
+      "published_confirmed": false
+    },
+    {
+      "key": "goat_herd_hillside_grazing",
+      "metricool_post_id": 412138716,
+      "local_sao_paulo_time": "2026-10-31T11:20:00",
+      "provider_status": "PENDING",
+      "draft": false,
+      "autoPublish": true,
+      "published_confirmed": false
+    },
+    {
+      "key": "giraffe_reaching_for_food",
+      "metricool_post_id": 412139187,
+      "local_sao_paulo_time": "2026-10-31T12:05:00",
+      "provider_status": "PENDING",
+      "draft": false,
+      "autoPublish": true,
+      "published_confirmed": false
+    },
+    {
+      "key": "great_egret_unexpected_perch",
+      "metricool_post_id": 412139240,
+      "local_sao_paulo_time": "2026-10-31T12:40:00",
+      "provider_status": "PENDING",
+      "draft": false,
+      "autoPublish": true,
+      "published_confirmed": false
+    },
+    {
+      "key": "rock_pigeon_head_bob_city_walk",
+      "metricool_post_id": 412139274,
+      "local_sao_paulo_time": "2026-10-31T14:10:00",
+      "provider_status": "PENDING",
+      "draft": false,
+      "autoPublish": true,
+      "published_confirmed": false
+    },
+    {
+      "key": "mallard_duckling_paddle_line",
+      "metricool_post_id": 412139319,
+      "local_sao_paulo_time": "2026-10-31T16:10:00",
+      "provider_status": "PENDING",
+      "draft": false,
+      "autoPublish": true,
+      "published_confirmed": false
+    },
+    {
+      "key": "eurasian_red_squirrel_stop_and_go",
+      "metricool_post_id": 412139350,
+      "local_sao_paulo_time": "2026-10-31T17:50:00",
+      "provider_status": "PENDING",
+      "draft": false,
+      "autoPublish": true,
+      "published_confirmed": false
+    },
+    {
+      "key": "grey_heron_patient_fishing",
+      "metricool_post_id": 412139534,
+      "local_sao_paulo_time": "2026-10-31T19:35:00",
+      "provider_status": "PENDING",
+      "draft": false,
+      "autoPublish": true,
+      "published_confirmed": false
+    },
+    {
+      "key": "lion_cubs_learning_through_play",
+      "metricool_post_id": 412139565,
+      "local_sao_paulo_time": "2026-10-31T20:55:00",
+      "provider_status": "PENDING",
+      "draft": false,
+      "autoPublish": true,
+      "published_confirmed": false
+    },
+    {
+      "key": "mute_swan_pond_glide",
+      "metricool_post_id": 412139850,
+      "local_sao_paulo_time": "2026-10-31T22:05:00",
+      "provider_status": "PENDING",
+      "draft": false,
+      "autoPublish": true,
+      "published_confirmed": false
+    }
+  ],
+  "wrong_buffer_channel": "@wildvox6",
+  "wrong_buffer_blackbird_post_id": "6ae5d50beaa24d6f9a70ed23",
+  "wrong_buffer_blackbird_sent_at": "2026-10-31T12:16:58.453Z",
+  "wrong_buffer_blackbird_tiktok_link": "https://tiktok.com/@wildvox6/video/7702804457880456455",
+  "wrong_buffer_remaining_posts_held_as_drafts": 9,
+  "buffer_queue_must_not_be_reenabled": true,
+  "notes": "Provider receipt IDs and 10 distinct titles verified via Metricool getScheduledPosts. TikTok published analytics TKPO01/TKPO02/TKPO03/TKPO05 returned 0 rows at verification; scheduled is not published. Never YouTube."
+}
