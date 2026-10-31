@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-31",
+  "timezone": "America/Sao_Paulo",
+  "audit_local_time": "2026-10-31T05:48:31-03:00",
+  "scope": "RESEARCH_PREVIEW_INDEPENDENT_VISUAL_REVIEW_ONLY",
+  "main_sha_before_write": "71ea20a4ca35957dba7cceb730557853ebbd960f",
+  "main_daily_blob_before_write": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "research_head_before_write": "8c05a2cf205c16f53bd28a9a16e4b3dde2e1f2b7",
+  "recovery_workflow_run": 41181633018,
+  "recovery_artifact_id": 13035097442,
+  "review_method": "Independently downloaded recovery artifact ZIP; opened each of six real three-frame source preview contact sheets; compared visual evidence with 2026-10-31 candidate script/tags and prior 34-source visual preflight. This is not full-footage motion, timing, creator-family or final MP4 approval.",
+  "recovery": {
+    "requested": 6,
+    "previewed": 6,
+    "failed": 0,
+    "prior_http_429_resolved": true,
+    "source_sha256_of_recovery_transcodes_present": 6
+  },
+  "source_findings": [
+    {
+      "original_index": 5,
+      "key": "grey_heron",
+      "title": "Grey heron (Ardea cinerea) on the Aran Islands.webm",
+      "sample_seconds": [
+        10.6,
+        44,
+        74.8
+      ],
+      "finding": "Grey heron visible in shallow tidal water at all sampled points, but small and distant; no fishing strike or caught prey visible.",
+      "verdict": "REJECT_FOR_FISHING_STRIKE; possible distant water habitat B-roll only after motion/seek verification"
+    },
+    {
+      "original_index": 11,
+      "key": "giraffe",
+      "title": "Giraffe eating leaves.webm",
+      "sample_seconds": [
+        3.7,
+        15.6,
+        26.4
+      ],
+      "finding": "Giraffe visibly reaches leafy vegetation in a natural-looking landscape; framing is wide and branches partially obscure mouth. Individual leaf bite is not established by three stills.",
+      "verdict": "CONDITIONAL_BROWSING_CONTEXT; requires full action-window/mouth movement review before assigning feeding tag"
+    },
+    {
+      "original_index": 17,
+      "key": "swallowtail_butterfly",
+      "title": "Papilio machaon - Kanagawa 2025 7 13.webm",
+      "sample_seconds": [
+        6,
+        25.1,
+        42.6
+      ],
+      "finding": "Swallowtail visible among flowers at first and final sample, smaller/distant at middle. Wing markings are identifiable in closer samples; wing-flick defense not established.",
+      "verdict": "CONDITIONAL_WING_PATTERN; do not assign deimatic warning action without footage evidence"
+    },
+    {
+      "original_index": 23,
+      "key": "swallowtail_butterfly",
+      "title": "Deimatic-Display-in-the-European-Swallowtail-Butterfly-as-a-Secondary-Defence-against-Attacks-from-pone.0047092.s001.ogv",
+      "sample_seconds": [
+        2.5,
+        10.3,
+        17.4
+      ],
+      "finding": "Controlled apparatus with small birds visible; no clear identifiable butterfly or defensive wing display in sampled frames. Scientific study title does not prove the required visual action.",
+      "verdict": "REJECT_FOR_BUTTERFLY_WARNING_DISPLAY; find exact verified moment or replace"
+    },
+    {
+      "original_index": 29,
+      "key": "lion",
+      "title": "Male lion and cubs.webm",
+      "sample_seconds": [
+        3.7,
+        15.2,
+        25.9
+      ],
+      "finding": "Male lion and cubs visible together in what appears to be a managed/captive setting. No chase, tumbling or wrestling is visible in sampled frames.",
+      "verdict": "REJECT_FOR_CUB_PLAY; conditional adult-with-cubs context only if caption correctly identifies setting"
+    },
+    {
+      "original_index": 35,
+      "key": "great_egret",
+      "title": "2022-10-08 Naravni rezervat ORMOŠKE LAGUNE CICONIIFORMES Egretta alba VELIKA BELA ČAPLJA 2.webm",
+      "sample_seconds": [
+        4.9,
+        20.3,
+        34.5
+      ],
+      "finding": "White egret visible perched at first sample; middle sample shows distant flying white bird; final sample is very distant/partly obscured by vegetation. No clear deliberate shallow-water steps.",
+      "verdict": "REJECT_FOR_WADING_HOOK; possible perch context only after exact seek review"
+    }
+  ],
+  "batch_decision": {
+    "research_candidate_video_count": 5,
+    "original_source_count": 40,
+    "prior_previews": 34,
+    "recovered_previews": 6,
+    "all_sources_have_three_frame_previews": true,
+    "all_sources_editorially_approved": false,
+    "all_five_stories_editorially_approved": false,
+    "all_five_final_mp4_available": false,
+    "publication_hold": true,
+    "push_to_main_allowed": false,
+    "trigger_daily5_allowed": false,
+    "tiktok_schedule_allowed": false
+  },
+  "remaining_actions": [
+    "Replace/seek-verify every visually mismatched or distant source; confirm six spoken-block visual semantics for each of five stories with eight unique actually used assets.",
+    "Independently review full source motion and shot timestamps (<=8s), filming families, exact creators and license/attribution delivery.",
+    "Re-run research schema/semantic/license/hash preflight after changes; only then push current-day config with publication_hold=true.",
+    "Independently inspect five new current-day rendered MP4s, reviews and all 40 source strips, then check Metricool scheduled/published duplicates before future-slot scheduling."
+  ],
+  "scheduling_check": {
+    "metricool_brand_id": "7242311",
+    "platform": "TikTok @wildvox only",
+    "date": "2026-10-31",
+    "scheduled_posts_returned": 0,
+    "published_TKPO01_rows_returned": 0,
+    "no_youtube_operations": true
+  }
+}
