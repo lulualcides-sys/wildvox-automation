@@ -82,6 +82,33 @@
       "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=3197508803490760738"
     }
   ],
-  "in_progress": [],
+  "in_progress": [
+    {
+      "key": "grey_heron_patient_fishing",
+      "branch": "recovery/wildvox-heron-20261031",
+      "source_render_run": 41195891914,
+      "qa_recovery_run": 41196403668,
+      "preview_run": 41196361202,
+      "status": "v2 rendered 34.4s but QA workflow needed ffmpeg; source5 coastal heron too distant for approval; targeted 3-source preview and v3 replacement pending; HOLD"
+    },
+    {
+      "key": "lion_cubs_learning_through_play",
+      "branch": "recovery/wildvox-lion-20261031",
+      "workflow_run": 41196171049,
+      "status": "v2 semantic allocation failed, v3 shortened payoff rendering; source1 actually resting cubs, narration requires v4 correction before approval; HOLD"
+    },
+    {
+      "key": "mute_swan_pond_glide",
+      "branch": "recovery/wildvox-swan-20261031",
+      "workflow_run": 41196076845,
+      "status": "research-only swan render in progress; independently verify all 8 licenses and actual actions; HOLD"
+    },
+    {
+      "key": "common_blackbird_park_search",
+      "branch": "recovery/wildvox-blackbird-20261031",
+      "workflow_run": 41196124395,
+      "status": "research-only blackbird render in progress; independently verify all 8 licenses and actual actions; HOLD"
+    }
+  ],
   "notes": "Do not publish without independent current-run editorial approval. Do not re-post duplicates. For 31 Oct only, extra future slots are allowed, up to 10 distinct TikTok posts. No YouTube."
 }
