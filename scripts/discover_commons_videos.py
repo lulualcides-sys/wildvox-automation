@@ -35,5 +35,19 @@ def main():
     subprocess.run([sys.executable,str(ROOT/"scripts"/"audit_commons_sources.py"),
                     "--config",str(CANDIDATE)],check=True)
     print("RESEARCH CANDIDATE: live Commons license check PASS; visual proof and creator attribution still pending",flush=True)
+    subprocess.run([sys.executable,str(ROOT/"scripts"/"export_commons_credits.py"),
+                    "--config",str(CANDIDATE),"--output","commons-credits-report.json"],check=True)
+    credits=json.loads(Path("commons-credits-report.json").read_text(encoding="utf-8"))
+    unmatched=[r for r in credits["records"] if not r.get("license_match")]
+    if unmatched:
+        raise RuntimeError("Commons creator audit detected license mismatches: "+
+                           str([r["title"] for r in unmatched]))
+    Path("commons-discovery.json").write_text(json.dumps({
+        "date":"2026-10-31","status":"RESEARCH_ONLY_NOT_VISUALLY_APPROVED",
+        "candidate":batch,"creator_audit":credits,
+        "render_triggered":False,"publication_hold":True
+    },ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    print(f"RESEARCH CANDIDATE: creator records={len(credits['records'])}, missing creator={credits['missing_creator_count']}; independent credit and video review still pending",flush=True)
+
 
 if __name__=="__main__":main()
