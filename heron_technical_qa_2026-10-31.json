@@ -1,0 +1,17 @@
+{
+  "editorial_day": "2026-10-31",
+  "scope": "grey_heron_patient_fishing",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "grey_heron_patient_fishing",
+      "revision": "2026-10-31-grey_heron_patient_fishing-editorial-v2",
+      "errors": [],
+      "duration": 34.4,
+      "freeze_durations": []
+    }
+  ],
+  "errors": []
+}
