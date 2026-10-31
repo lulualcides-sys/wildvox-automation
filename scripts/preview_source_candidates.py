@@ -1,13 +1,27 @@
 #!/usr/bin/env python3
 """Create source-only visual contact sheets; never approve or publish."""
-import argparse, hashlib, json, subprocess
+import argparse, hashlib, json, subprocess, time
 from pathlib import Path
 from urllib.parse import quote, unquote, urlsplit, urlencode
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 from PIL import Image, ImageDraw, ImageOps
 
 def run(cmd):
     return subprocess.run(cmd, check=True, capture_output=True, text=True)
+
+def api_json(url):
+    for attempt in range(4):
+        try:
+            with urlopen(Request(url, headers={
+                "User-Agent": "WildVox-QA/1.0 (Wikimedia Commons editorial source preview)"
+            }), timeout=35) as response:
+                return json.load(response)
+        except HTTPError as exc:
+            if exc.code != 429 or attempt == 3:
+                raise
+            time.sleep(7 + attempt * 5)
+
 
 def resolve_media(name, maxbytes):
     """Use the licensed Commons original, or a real video transcode when oversized.
@@ -20,16 +34,15 @@ def resolve_media(name, maxbytes):
         "prop": "imageinfo", "iiprop": "url|size|mime|derivatives",
         "titles": "File:" + name,
     })
-    request = Request(api, headers={"User-Agent": "WildVox-QA/1.0 (Wikimedia Commons editorial source preview)"})
-    with urlopen(request, timeout=35) as response:
-        payload = json.load(response)
+    payload = api_json(api)
     pages = payload.get("query", {}).get("pages", [])
     info = (pages[0].get("imageinfo") or [{}])[0] if pages else {}
     original = info.get("url")
     if not original:
         raise ValueError("Commons API did not return an original file URL")
-    if int(info.get("size", maxbytes + 1)) <= maxbytes:
-        return original, False
+    # Research previews should prefer authentic low-resolution transcodes even
+    # when the full original is technically below 90 MB. Avoid wasting data.
+    original_allowed = int(info.get("size", maxbytes + 1)) <= maxbytes
     # TimedMediaHandler exposes video encodings through videoinfo, not always
     # through imageinfo. Try both before declaring a large file unpreviewable.
     options = list(info.get("derivatives") or [])
@@ -40,10 +53,7 @@ def resolve_media(name, maxbytes):
             "titles": "File:" + name,
         })
         try:
-            with urlopen(Request(video_api, headers={
-                "User-Agent": "WildVox-QA/1.0 (Wikimedia Commons editorial source preview)"
-            }), timeout=35) as response:
-                video_payload = json.load(response)
+            video_payload = api_json(video_api)
             video_pages = video_payload.get("query", {}).get("pages", [])
             if video_pages:
                 options = (video_pages[0].get("videoinfo") or [{}])[0].get("derivatives") or []
@@ -60,10 +70,12 @@ def resolve_media(name, maxbytes):
                 src.lower().split("?")[0].endswith((".webm", ".mp4", ".ogv")) and
                 width >= 360 and height >= 200 and width <= 1280):
             derivatives.append((abs(width - 960), -width, src))
-    if not derivatives:
-        raise ValueError("Original exceeds preview cap; Commons imageinfo/videoinfo returned no usable video transcode")
-    derivatives.sort()
-    return derivatives[0][2], True
+    if derivatives:
+        derivatives.sort()
+        return derivatives[0][2], True
+    if original_allowed:
+        return original, False
+    raise ValueError("Original exceeds preview cap and Commons has no suitable transcode")
 
 def preview(item, out, index, maxbytes):
     url = item["sourcePage"]
@@ -141,6 +153,7 @@ def main():
             record={"title":item.get("title"),"sourcePage":item.get("sourcePage"),
                     "status":"PREVIEW_FAILED_OR_OVERSIZE","error":str(exc)[:400]}
         records.append(record)
+        time.sleep(.6)
     (out/"manifest.json").write_text(json.dumps({
         "day":data.get("day"),"source_config_sha":data.get("current_config_blob_sha"),
         "publication_hold":True,"editorial_approval":False,"candidates":records
