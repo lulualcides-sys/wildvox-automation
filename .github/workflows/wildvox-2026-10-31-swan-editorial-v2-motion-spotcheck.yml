@@ -16,19 +16,21 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh run download 41197227480 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-swan-recovery --dir .
+          gh run download 41197596181 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-swan-recovery --dir .
       - name: Extract real MP4 frames at 1fps
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg
           mkdir -p qa/reviews
-          ffmpeg -y -hide_banner -loglevel error -i output/mute_swan_pond_glide.mp4 -vf "fps=1,scale=180:-2,tile=6x7:nb_frames=42:padding=3:margin=3" -frames:v 1 -q:v 3 qa/reviews/swan-2026-10-31-v2-motion-1fps.jpg
-          test -s qa/reviews/swan-2026-10-31-v2-motion-1fps.jpg
+          ffmpeg -y -hide_banner -loglevel error -i output/mute_swan_pond_glide.mp4 -vf "fps=1,scale=180:-2,tile=6x7:nb_frames=42:padding=3:margin=3" -frames:v 1 -q:v 3 qa/reviews/swan-2026-10-31-v3-motion-1fps.jpg
+          test -s qa/reviews/swan-2026-10-31-v3-motion-1fps.jpg
       - name: Archive current decoded review sheet only
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add qa/reviews/swan-2026-10-31-v2-motion-1fps.jpg
+          git add qa/reviews/swan-2026-10-31-v3-motion-1fps.jpg
           git commit -m 'qa: swan v2 decoded 1fps motion review before approval'
           git pull --rebase origin recovery/wildvox-swan-20261031
           git push origin HEAD:recovery/wildvox-swan-20261031
+
+# 2026-10-31: inspect editorial v3 from exact successful run 41197596181, no stale QA reuse.
