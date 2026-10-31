@@ -744,9 +744,9 @@
     "trend_priority": false
   },
   "lion_cubs_learning_through_play": {
-    "title": "WHY LION CUBS WRESTLE",
-    "script": "These lion cubs are tumbling around, but the rough play has a purpose. Across wild prides and zoo groups, young lions spend time testing their balance and timing. They chase, wrestle, and grab at one another, learning how to control powerful movements. Those games help build coordination long before a young lion can hunt on its own. Meanwhile, adults have different jobs, including finding water and marking their surroundings. The playful cub is practicing for a future when every movement may matter.",
-    "caption": "WHY LION CUBS WRESTLE. #WildVox #Wildlife #Nature #AnimalFacts",
+    "title": "WHAT LIONS DO BETWEEN THE HUNTS",
+    "script": "What happens when a lion is not chasing prey? Even young cubs have a busy day. In the wild, cubs travel together, while adult lions can share long quiet moments. The youngest lions explore their surroundings and stay close to larger members of the pride. Adults also spend time resting, grooming, and watching what happens around them. When it is time to drink, even a powerful hunter lowers its head to the water. And sometimes lions walk calmly past safari vehicles, reminding visitors that these are still wild animals.",
+    "caption": "WHAT LIONS DO BETWEEN THE HUNTS. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lion%20cubs%20at%20Jacksonville%20Zoo.webm",
@@ -847,76 +847,76 @@
         "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marking%20territory.webm",
+        "assetTitle": "Lions walking among a pack of wild Land Crusiers.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Lions_walking_among_a_pack_of_wild_Land_Crusiers.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lions%20walking%20among%20a%20pack%20of%20wild%20Land%20Crusiers.webm",
         "type": "video",
-        "assetTitle": "Marking territory.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Marking_territory.webm",
-        "tags": [
-          "lion_marking_territory"
-        ],
-        "author": "Benjamin Hollis",
+        "author": "Don Heffernan",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0/",
         "license_verified_at": "2026-10-31",
-        "license_note": "Commons API metadata checked 2026-10-31; original creator attribution, independent frames, exact behavior and license delivery still require QA. RESEARCH ONLY."
+        "tags": [
+          "lion_walking_past_safari_vehicles"
+        ],
+        "license_note": "Wikimedia Commons page checked; authentic lion footage described walking near safari vehicles. Verify exact visible windows before publication."
       }
     ],
     "visual_plan": [
       {
-        "text": "These lion cubs are tumbling around, but the rough play has a purpose.",
-        "scene": "Lion cubs playing in actual zoo footage.",
+        "text": "What happens when a lion is not chasing prey? Even young cubs have a busy day.",
+        "scene": "Lion cubs playing and investigating a branch at Jacksonville Zoo.",
         "tags": [
           "lion_cubs_playing_jacksonville"
         ],
         "story_role": "hook",
-        "overlay_label": "PLAY FIGHT"
+        "overlay_label": "LIFE BETWEEN HUNTS"
       },
       {
-        "text": "Across wild prides and zoo groups, young lions spend time testing their balance and timing.",
-        "scene": "Wild Serengeti cubs and separate captive lions; do not imply same group.",
+        "text": "In the wild, cubs travel together, while adult lions can share long quiet moments.",
+        "scene": "Wild cubs walking in a group, then two adult male lions resting at a zoo.",
         "tags": [
           "lion_cubs_serengeti_wild",
           "lion_group_zoo"
         ],
         "story_role": "setup",
-        "overlay_label": "GROWING UP"
+        "overlay_label": "STAY TOGETHER"
       },
       {
-        "text": "They chase, wrestle, and grab at one another, learning how to control powerful movements.",
-        "scene": "Phinda lion cubs and male-with-cubs footage; confirm action.",
+        "text": "The youngest lions explore their surroundings and stay close to larger members of the pride.",
+        "scene": "Wild cubs and adult male with cubs; verify actual movements.",
         "tags": [
           "lion_cubs_phinda_play",
           "lion_male_with_cubs"
         ],
         "story_role": "action",
-        "overlay_label": "PRACTICE"
+        "overlay_label": "LEARNING TO MOVE"
       },
       {
-        "text": "Those games help build coordination long before a young lion can hunt on its own.",
-        "scene": "Lions in private reserve, no falsely claimed specific cub continuity.",
+        "text": "Adults also spend time resting, grooming, and watching what happens around them.",
+        "scene": "Lioness visibly grooming/resting on grass at Botlierskop.",
         "tags": [
           "lion_group_botlierskop"
         ],
         "story_role": "explanation",
-        "overlay_label": "COORDINATION"
+        "overlay_label": "QUIET MOMENTS"
       },
       {
-        "text": "Meanwhile, adults have different jobs, including finding water and marking their surroundings.",
-        "scene": "Adult lioness drinking, visibly distinct from cub footage.",
+        "text": "When it is time to drink, even a powerful hunter lowers its head to the water.",
+        "scene": "Lioness drinking at a zoo.",
         "tags": [
           "lioness_drinking_zoo"
         ],
         "story_role": "twist",
-        "overlay_label": "ADULT TASKS"
+        "overlay_label": "WATER BREAK"
       },
       {
-        "text": "The playful cub is practicing for a future when every movement may matter.",
-        "scene": "Adult lion territory marking as final contrast.",
+        "text": "And sometimes lions walk calmly past safari vehicles, reminding visitors that these are still wild animals.",
+        "scene": "Lions walking beside safari vehicles in real footage.",
         "tags": [
-          "lion_marking_territory"
+          "lion_walking_past_safari_vehicles"
         ],
         "story_role": "payoff",
-        "overlay_label": "FUTURE SKILLS"
+        "overlay_label": "STAY WILD"
       }
     ],
     "min_unique_videos": 6,
@@ -925,7 +925,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-lion_cubs_learning_through_play-research-v1",
+    "revision": "2026-10-31-lion_cubs_learning_through_play-editorial-v2",
     "publication_hold": true,
     "trend_priority": false
   }
