@@ -1,8 +1,11 @@
 {
   "editorial_day": "2026-10-31",
-  "checked_at_utc": "2026-10-31T12:59:59.994397+00:00",
-  "checked_at_sao_paulo": "2026-10-31T09:59:59.994415-03:00",
+  "checked_at_utc": "2026-10-31T13:00:40.004590+00:00",
+  "checked_at_sao_paulo": "2026-10-31T10:00:40.004607-03:00",
   "channel": "tiktok:@wildvox",
+  "buffer_channel_name": "wildvox6",
+  "buffer_channel_external_link": "https://tiktok.com/@wildvox6",
+  "buffer_channel_service_id": "_000BqMBioR4b_JhscKF7pqurlfC_OFSXhdH",
   "provider": "buffer",
   "buffer_status_counts": {
     "scheduled": 9,
