@@ -24,6 +24,8 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add qa/footage-first-2026-10-31.json
           git commit -m "research: preserve source metadata for 31 Oct footage-first batch" || true
+          git fetch origin research/wildvox-2026-10-31-footage-first-v2
+          git rebase origin/research/wildvox-2026-10-31-footage-first-v2
           git push origin HEAD:research/wildvox-2026-10-31-footage-first-v2
       - uses: actions/upload-artifact@v4
         with:
