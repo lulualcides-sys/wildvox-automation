@@ -1,0 +1,60 @@
+name: WildVox — archive held squirrel artifact after concurrent media pushes
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-squirrel-artifact-archive-retry.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download existing successful render artifact without rerender
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 41192067986 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-squirrel-recovery --dir squirrel-artifact
+      - name: Verify exact held artifact, technical QA, and attribution
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          p=pathlib.Path('squirrel-artifact')
+          qa=json.loads((p/'squirrel_technical_qa_2026-10-31.json').read_text())
+          m=json.loads((p/'output/eurasian_red_squirrel_stop_and_go_meta.json').read_text())
+          assert qa['editorial_day']=='2026-10-31'
+          assert qa['technical_pass'] and not qa['editorial_approved'] and qa['publication_hold']
+          assert qa['videos'][0]['revision']=='2026-10-31-eurasian_red_squirrel_stop_and_go-editorial-v4'
+          assert m['publication_hold'] and m['duration']>=30 and m['duration']<=45
+          assert m['config_sha256']=='bcfc6304c50a99e473c84d581d24aa9b0f758032754e691d851fa43dcd0e4c4b'
+          assert len(m['sources'])>=8 and (p/'output/eurasian_red_squirrel_stop_and_go.mp4').stat().st_size>10_000_000
+          print('Verified: squirrel held for independent editorial review, NOT authorized to publish.')
+          PY
+      - name: Archive to public media branch with conflict-safe retry
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3 4 5 6; do
+            git fetch origin media
+            git checkout -B media origin/media
+            cp squirrel-artifact/output/eurasian_red_squirrel_stop_and_go.mp4 .
+            cp squirrel-artifact/output/eurasian_red_squirrel_stop_and_go_meta.json .
+            cp squirrel-artifact/output/eurasian_red_squirrel_stop_and_go_review.jpg .
+            cp squirrel-artifact/squirrel_technical_qa_2026-10-31.json .
+            git add eurasian_red_squirrel_stop_and_go.mp4 eurasian_red_squirrel_stop_and_go_meta.json eurasian_red_squirrel_stop_and_go_review.jpg squirrel_technical_qa_2026-10-31.json
+            if git diff --cached --quiet; then
+              echo 'Exact squirrel artifact already archived.'
+              exit 0
+            fi
+            git commit -m 'Archive held 31 Oct squirrel v4 artifact after branch race'
+            if git push origin HEAD:media; then
+              echo 'Archived held artifact; still NOT editorially approved.'
+              exit 0
+            fi
+            echo "Concurrent media push; refreshing branch, attempt $attempt"
+            sleep $((attempt * 3))
+          done
+          exit 1
