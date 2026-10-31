@@ -16,7 +16,14 @@
   "freeze_segments_over_one_second": 0,
   "editorial_visual_review": "Decoded MP4 independently reviewed at 1,4,7,10,13,16,19,22,25,28,31,34,37,40 seconds; all eight authentic source preview sheets checked. Supervised hand-feeding, zoo giraffes, feeder, long neck, mouth and open-habitat leaf reach match cautious script. Different managed locations explicitly disclosed. No black bars, false action, or frozen segments. Captions in safe area.",
   "attribution": "Eight original Commons source authors, CC BY/CC0 licenses and source pages in caption, with edit disclosure.",
-  "schedule_status": "NOT_SCHEDULED",
+  "schedule_status": "PENDING",
   "tiktok_only": true,
-  "youtube": false
+  "youtube": false,
+  "metricool_post_id": 412046072,
+  "metricool_post_uuid": "3733737655898688863",
+  "scheduled_for": "2026-10-31T10:05:00-03:00",
+  "metricool_uploaded_mp4": "https://static.metricool.com/planner/202610/7242311-file-17720595436828982238.mp4",
+  "autoPublish": true,
+  "confirmed_in_metricool_getScheduledPosts": true,
+  "published_tiktok_id": null
 }
