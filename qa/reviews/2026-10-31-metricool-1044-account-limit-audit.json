@@ -1,0 +1,80 @@
+{
+  "checked_at_local": "2026-10-31T10:44:43-03:00",
+  "account": "TikTok @wildvox via Metricool brand 7242311 (verified network handle wildvox)",
+  "main_sha": "58f0c49bbf9fbfbe0529e758f972b58013ba851d",
+  "daily_blob_sha": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "metricool_posts": [
+    {
+      "id": 412139137,
+      "title": "blackbird",
+      "local": "10:25",
+      "provider": "ERROR",
+      "details": "You have reached your Metricool account limit."
+    },
+    {
+      "id": 412138716,
+      "title": "goat",
+      "local": "11:20",
+      "provider": "PENDING"
+    },
+    {
+      "id": 412139187,
+      "title": "giraffe",
+      "local": "12:05",
+      "provider": "PENDING"
+    },
+    {
+      "id": 412139240,
+      "title": "egret",
+      "local": "12:40",
+      "provider": "PENDING"
+    },
+    {
+      "id": 412139274,
+      "title": "pigeon",
+      "local": "14:10",
+      "provider": "PENDING"
+    },
+    {
+      "id": 412139319,
+      "title": "mallard",
+      "local": "16:10",
+      "provider": "PENDING"
+    },
+    {
+      "id": 412139350,
+      "title": "squirrel",
+      "local": "17:50",
+      "provider": "PENDING"
+    },
+    {
+      "id": 412139534,
+      "title": "heron",
+      "local": "19:35",
+      "provider": "PENDING"
+    },
+    {
+      "id": 412139565,
+      "title": "lion",
+      "local": "20:55",
+      "provider": "PENDING"
+    },
+    {
+      "id": 412139850,
+      "title": "swan",
+      "local": "22:05",
+      "provider": "PENDING"
+    }
+  ],
+  "tiktok_published_analytics_2026_10_31_rows": 0,
+  "tiktok_published_analytics_2026_10_01_to_31_rows": 19,
+  "free_plan_documented_limit": "20 published posts per calendar month across planner, resets Nov 1; scheduled/drafts do not count. Source: https://help.metricool.com/main-differences-between-free-and-paid-plans-bl0v9",
+  "fallback_verification": {
+    "buffer_connected_tiktok": "@wildvox6 (WRONG, NEVER POST)",
+    "buffer_remaining_posts": "9 drafts, no schedules",
+    "tiktok_direct_api": "ACCESS_CONFIGURED=false; CLIENT_KEY_CONFIGURED=false; CLIENT_SECRET_CONFIGURED=false; REFRESH_CONFIGURED=false; PUBLIC_DIRECT_POST_AUDITED=false",
+    "publer_webhook": "not configured"
+  },
+  "actions": "No new posts scheduled or rerouted. Existing nine pending kept intact for provider status checks. No duplicate/wrong-handle publication attempted.",
+  "next": "Watch each Metricool provider status. If cap persists, retain reviewed media and seek exact-handle authorized alternate delivery or wait for next month's quota. Do not claim any published @wildvox post without corroborating TikTok analytics."
+}
