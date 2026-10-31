@@ -1,0 +1,17 @@
+{
+  "editorial_day": "2026-10-31",
+  "scope": "giraffe_reaching_for_food",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "giraffe_reaching_for_food",
+      "revision": "2026-10-31-giraffe_reaching_for_food-recovery-v3",
+      "errors": [],
+      "duration": 41.425,
+      "freeze_durations": []
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,218 @@
+{
+  "key": "giraffe_reaching_for_food",
+  "title": "WHY REACHING IS ONLY HALF A GIRAFFE'S MEAL",
+  "caption": "WHY REACHING IS ONLY HALF A GIRAFFE'S MEAL. #WildVox #Wildlife #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Lebu Ayiga | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Feeding_a_giraffe_at_the_Giraffe_Centre_in_Nairobi%2C_Kenya.webm | https://creativecommons.org/licenses/by/4.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA_3.webm | https://creativecommons.org/licenses/by/3.0/\n3. Dmitry Novoklimov | CC0 | https://commons.wikimedia.org/wiki/File:Rothschild's_giraffes_at_Olomouc_Zoo%2C_30_August_2026.webm | https://creativecommons.org/publicdomain/zero/1.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Giraffa_camelopardalis.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA.webm | https://creativecommons.org/licenses/by/3.0/\n6. MZaplotnik | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:%C5%BDirafa_v_ZOO_Ljubljana.ogv | https://creativecommons.org/licenses/by/3.0/\n7. Uusijani | CC0 | https://commons.wikimedia.org/wiki/File:Giraffes_at_Artis.ogv | https://creativecommons.org/publicdomain/zero/1.0/\n8. Lennart Hessel | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Giraffe_eating_leaves.webm | https://creativecommons.org/licenses/by/3.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "e5384d178d08524b36df78a40a7334ec3d54e1ece6ab44a3f28241c0cde5ab84",
+  "duration": 41.42,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.1,
+      "duration": 5.1,
+      "text": "A giraffe can reach food high above the ground, but how does it take a bite?",
+      "scene": "Giraffe at supervised feeding center; clearly captive setting.",
+      "tags": [
+        "giraffe_handfed_at_supervised_center"
+      ],
+      "story_role": "hook",
+      "overlay_label": "REACH FOR FOOD",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.1,
+      "end": 14.7,
+      "duration": 9.6,
+      "text": "Its long neck brings leaves and feeders closer while its feet remain planted, even when the food is presented in a supervised zoo setting.",
+      "scene": "Giraffes in two different zoos showing full body and neck.",
+      "tags": [
+        "giraffe_full_neck_zoo",
+        "rothschild_giraffes_in_olomouc_zoo"
+      ],
+      "story_role": "setup",
+      "overlay_label": "LONG REACH",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 14.7,
+      "end": 23.45,
+      "duration": 8.75,
+      "text": "It moves its head toward the greenery, working its mouth near the food with small, deliberate motions instead of one quick snap.",
+      "scene": "Zoo giraffe near foliage; two independent shots require action review.",
+      "tags": [
+        "giraffe_in_ljubljana_zoo",
+        "giraffe_head_near_foliage_zoo"
+      ],
+      "story_role": "action",
+      "overlay_label": "CAREFUL MOVES",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 23.45,
+      "end": 29.9,
+      "duration": 6.45,
+      "text": "The lips and tongue help guide vegetation inward; reaching a branch is only the beginning.",
+      "scene": "Zoo giraffe muzzle in view; avoid claiming unshown bite.",
+      "tags": [
+        "giraffe_body_in_zoo"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "MOUTH CONTROL",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 29.9,
+      "end": 35.675,
+      "duration": 5.775,
+      "text": "These animals were filmed in different managed settings, not as one wild herd.",
+      "scene": "Giraffes in separate zoo group footage.",
+      "tags": [
+        "giraffes_group_at_artis_zoo"
+      ],
+      "story_role": "twist",
+      "overlay_label": "DIFFERENT PLACES",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 35.675,
+      "end": 41.425,
+      "duration": 5.75,
+      "text": "In open habitat, that reach brings leaves within range for the next mouthful.",
+      "scene": "Giraffe visibly reaching vegetation in natural-looking landscape.",
+      "tags": [
+        "giraffe_reaching_leaves_natural_landscape"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE NEXT BITE",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Feeding%20a%20giraffe%20at%20the%20Giraffe%20Centre%20in%20Nairobi%2C%20Kenya.webm",
+      "type": "video",
+      "assetTitle": "Feeding a giraffe at the Giraffe Centre in Nairobi, Kenya.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Feeding_a_giraffe_at_the_Giraffe_Centre_in_Nairobi%2C_Kenya.webm",
+      "tags": [
+        "giraffe_handfed_at_supervised_center"
+      ],
+      "author": "Lebu Ayiga",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 5
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20Giraffa%20camelopardalis%20%C5%BDIRAFA%203.webm",
+      "type": "video",
+      "assetTitle": "2023-08-18 ZOO LJUBLJANA Giraffa camelopardalis ŽIRAFA 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA_3.webm",
+      "tags": [
+        "giraffe_full_neck_zoo"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rothschild's%20giraffes%20at%20Olomouc%20Zoo%2C%2030%20August%202026.webm",
+      "type": "video",
+      "assetTitle": "Rothschild's giraffes at Olomouc Zoo, 30 August 2026.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rothschild's_giraffes_at_Olomouc_Zoo%2C_30_August_2026.webm",
+      "tags": [
+        "rothschild_giraffes_in_olomouc_zoo"
+      ],
+      "author": "Dmitry Novoklimov",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20-%20Giraffa%20camelopardalis.webm",
+      "type": "video",
+      "assetTitle": "2023-08-18 ZOO LJUBLJANA - Giraffa camelopardalis.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Giraffa_camelopardalis.webm",
+      "tags": [
+        "giraffe_in_ljubljana_zoo"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-18%20ZOO%20LJUBLJANA%20Giraffa%20camelopardalis%20%C5%BDIRAFA.webm",
+      "type": "video",
+      "assetTitle": "2023-08-18 ZOO LJUBLJANA Giraffa camelopardalis ŽIRAFA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_Giraffa_camelopardalis_%C5%BDIRAFA.webm",
+      "tags": [
+        "giraffe_head_near_foliage_zoo"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%BDirafa%20v%20ZOO%20Ljubljana.ogv",
+      "type": "video",
+      "assetTitle": "Žirafa v ZOO Ljubljana.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%C5%BDirafa_v_ZOO_Ljubljana.ogv",
+      "tags": [
+        "giraffe_body_in_zoo"
+      ],
+      "author": "MZaplotnik",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 8
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffes%20at%20Artis.ogv",
+      "type": "video",
+      "assetTitle": "Giraffes at Artis.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Giraffes_at_Artis.ogv",
+      "tags": [
+        "giraffes_group_at_artis_zoo"
+      ],
+      "author": "Uusijani",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe%20eating%20leaves.webm",
+      "type": "video",
+      "assetTitle": "Giraffe eating leaves.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Giraffe_eating_leaves.webm",
+      "tags": [
+        "giraffe_reaching_leaves_natural_landscape"
+      ],
+      "author": "Lennart Hessel",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    }
+  ],
+  "review_sheet": "giraffe_reaching_for_food_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
