@@ -95,6 +95,37 @@ class SemanticShotTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "no tagged source"):
             validate_editorial_tags(batch)
 
+    def test_reject_two_blocks_depending_on_one_source(self):
+        batch = {"kingfisher_nest": {
+            "visual_plan": [
+                {"tags": ["kingfisher_digging_bank"]},
+                {"tags": ["kingfisher_entering_tunnel"]},
+                {"tags": ["kingfisher_carrying_fish"]},
+            ],
+            "sources": [
+                {"tags": ["kingfisher_digging_bank", "kingfisher_entering_tunnel"]},
+                {"tags": ["kingfisher_carrying_fish"]},
+                {"tags": ["kingfisher_carrying_fish"]},
+            ],
+        }}
+        with self.assertRaisesRegex(ValueError, "distinct source"):
+            validate_editorial_tags(batch)
+
+    def test_accept_shared_tags_when_distinct_assignment_exists(self):
+        batch = {"kingfisher_nest": {
+            "visual_plan": [
+                {"tags": ["kingfisher_digging_bank"]},
+                {"tags": ["kingfisher_entering_tunnel"]},
+                {"tags": ["kingfisher_carrying_fish"]},
+            ],
+            "sources": [
+                {"tags": ["kingfisher_digging_bank", "kingfisher_entering_tunnel"]},
+                {"tags": ["kingfisher_entering_tunnel"]},
+                {"tags": ["kingfisher_carrying_fish"]},
+            ],
+        }}
+        self.assertTrue(validate_editorial_tags(batch))
+
 
 if __name__ == "__main__":
     unittest.main()

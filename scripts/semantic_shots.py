@@ -144,6 +144,34 @@ def validate_editorial_tags(batch):
         for index, tags in enumerate(available):
             if not any(tags & block_tags for block_tags in wanted):
                 failures.append(f"{key}: source {index} is not relevant to any spoken block")
+
+        # Local tag overlap is not enough: two narration blocks can both
+        # depend on the same sole clip. Require a distinct source for each
+        # block before downloading media. This is a necessary (not sufficient)
+        # condition; Kokoro durations and shot limits are checked at render.
+        adjacency = [
+            [source_index for source_index, source_tags in enumerate(available)
+             if block_tags & source_tags]
+            for block_tags in wanted
+        ]
+        assigned = {}
+
+        def match_block(block_index, seen):
+            for source_index in adjacency[block_index]:
+                if source_index in seen:
+                    continue
+                seen.add(source_index)
+                previous = assigned.get(source_index)
+                if previous is None or match_block(previous, seen):
+                    assigned[source_index] = block_index
+                    return True
+            return False
+
+        if not all(match_block(index, set()) for index in
+                   sorted(range(len(wanted)), key=lambda i: len(adjacency[i]))):
+            failures.append(
+                f"{key}: cannot assign a distinct source to every spoken block"
+            )
     if failures:
         raise ValueError("Semantic tag preflight failed (not visual approval):\n" + "\n".join(failures))
     return True
