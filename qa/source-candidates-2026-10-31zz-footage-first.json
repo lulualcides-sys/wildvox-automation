@@ -1,0 +1,168 @@
+{
+  "day": "2026-10-31",
+  "research_only": true,
+  "current_config_blob_sha": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "notes": "Two abundant footage-first species, no action claims approved; inspect all preview frames before drafting narrative.",
+  "candidates": [
+    {
+      "for_key": "mallard_duck",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "Anas platyrhynchos Oulu 20200626.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Estormiz",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "mallard_duck",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-10-01 MIRKE ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "mallard_duck",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-06-04 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "mallard_duck",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-06-04 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "mallard_duck",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-02-10 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-02-10_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "mallard_duck",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-06-20 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-20_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "mallard_duck",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-09-24 LJUBLJANA Špica ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_%C5%A0pica_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "mallard_duck",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-06-27 BLED Blejsko jezero ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-27_BLED_Blejsko_jezero_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "eurasian_red_squirrel",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2021-12-10 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "eurasian_red_squirrel",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2021-12-17 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "eurasian_red_squirrel",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2021-12-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "eurasian_red_squirrel",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-01-07 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "eurasian_red_squirrel",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-01-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "eurasian_red_squirrel",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-02-14 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-02-14_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "eurasian_red_squirrel",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-02-25 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-02-25_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "eurasian_red_squirrel",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-01-03 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-03_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA_2.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    }
+  ]
+}
