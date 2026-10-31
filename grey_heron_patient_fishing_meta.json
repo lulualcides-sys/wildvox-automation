@@ -4,8 +4,8 @@
   "caption": "HOW GREY HERONS STAY PATIENT BY THE WATER. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-26_LJUBLJANA_%C5%A0pica_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm | https://creativecommons.org/licenses/by/3.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTO%C4%8CEC_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-10_LJUBLJANA_Krajinski_park_Tivoli_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm | https://creativecommons.org/licenses/by/3.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-17_LJUBLJANA_Gruberjevo_nabre%C5%BEje_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA_2.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-09_ZBILJE_Zbiljsko_jezero_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm | https://creativecommons.org/licenses/by/3.0/\n6. doonaran | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Grey_heron_(Ardea_cinerea)_on_the_Aran_Islands.webm | https://creativecommons.org/licenses/by/3.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-05_LJUBLJANA_Izliv_Grada%C5%A1%C4%8Dice_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm | https://creativecommons.org/licenses/by/3.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-10_LJUBLJANA_Izliv_Grada%C5%A1%C4%8Dice_CICONIIFORMES_Ardea_cinerea_SIVA_%C4%8CAPLJA.webm | https://creativecommons.org/licenses/by/3.0/",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "f90cb75d5d529c6b49019a4dd09a0f8fb72d1dd4a5d146ddfa41f940eb836130",
-  "duration": 34.4,
+  "config_sha256": "c62a7fcf8f90bef8e783cb306de48f6ddf0ce7172c00e39797dd47a9b8e865ad",
+  "duration": 35.25,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -69,21 +69,21 @@
     {
       "index": 4,
       "start": 22.424999999999997,
-      "end": 27.499999999999996,
-      "duration": 5.075,
-      "text": "Even on an island shore, a heron can watch the water from the edge.",
-      "scene": "Grey heron at coastal shore; verify original Aran Islands video.",
+      "end": 28.349999999999998,
+      "duration": 5.925,
+      "text": "From far away, a heron can look like a tiny speck against a rocky island shore.",
+      "scene": "Grey heron extremely distant on rocky Aran Islands shore, shown as intentional scale comparison; no close-up or fishing claim.",
       "tags": [
         "grey_heron_island_shore"
       ],
       "story_role": "twist",
-      "overlay_label": "ISLAND SHORE",
+      "overlay_label": "SPOT THE HERON",
       "fx": []
     },
     {
       "index": 5,
-      "start": 27.499999999999996,
-      "end": 34.4,
+      "start": 28.349999999999998,
+      "end": 35.25,
       "duration": 6.9,
       "text": "Back beside the river, its long neck and pointed bill make this patient bird easy to recognize.",
       "scene": "Two distinct heron videos by the river; not the same individual.",
