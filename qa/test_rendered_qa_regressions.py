@@ -23,6 +23,15 @@ class FreezeTailRegression(unittest.TestCase):
         self.assertEqual(len(result), 1)
         self.assertAlmostEqual(result[0], 2.2, places=3)
 
+    def test_detector_distinguishes_true_freeze_from_natural_low_motion(self):
+        fake = SimpleNamespace(stderr="", stdout="", returncode=0)
+        with patch.object(qa.subprocess, "run", return_value=fake) as runner:
+            self.assertEqual(qa.freeze_durations(pathlib.Path("wildlife.mp4"), 34.0), [])
+        cmd = runner.call_args.args[0]
+        video_filter = cmd[cmd.index("-vf") + 1]
+        self.assertIn("freezedetect=n=-55dB:d=1.0", video_filter)
+        self.assertNotIn("freezedetect=n=-40dB:d=1.0", video_filter)
+
     def test_closed_freeze_not_double_counted(self):
         result = self.read_freezes(
             "[freezedetect] lavfi.freezedetect.freeze_start: 18.2\n"

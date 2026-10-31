@@ -30,12 +30,15 @@ def freeze_durations(path, duration):
 
     FFmpeg can omit freeze_end/freeze_duration when a frozen segment reaches EOF.
     Ignoring that trailing interval would approve visibly frozen payoffs.
-    Sampling at 8 fps and 320px also catches near-static 1s holds that
-    full-rate 180px QA previously missed in independent review.
+    Use a tight pixel-difference threshold (-55 dB) for TRUE frozen frames.
+    Wildlife can naturally remain almost motionless for a second; the older
+    -40 dB threshold flagged this as an encoding freeze and blocked otherwise
+    valid videos. Editorial QA still rejects weak, repetitive or mismatched shots.
+    Sampling remains at 8 fps and 320px, including trailing frozen payoffs.
     """
     p = subprocess.run(
         ["ffmpeg", "-hide_banner", "-nostdin", "-i", str(path), "-vf",
-         "fps=8,scale=320:-2,freezedetect=n=-40dB:d=1.0", "-an", "-f", "null", "-"],
+         "fps=8,scale=320:-2,freezedetect=n=-55dB:d=1.0", "-an", "-f", "null", "-"],
         capture_output=True, text=True, check=True)
     closed = [float(value) for value in re.findall(
         r"lavfi\.freezedetect\.freeze_duration:\s*([0-9.]+)", p.stderr)]
