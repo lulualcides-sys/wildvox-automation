@@ -1,0 +1,22 @@
+{
+  "editorial_day": "2026-10-31",
+  "key": "grey_heron_patient_fishing",
+  "revision": "2026-10-31-grey_heron_patient_fishing-editorial-v3",
+  "config_sha256": "c62a7fcf8f90bef8e783cb306de48f6ddf0ce7172c00e39797dd47a9b8e865ad",
+  "media_blob_sha": "650751c31d08fdff7a94d06eb85a8df0e05f7807",
+  "technical_qa_report": "media:heron_technical_qa_2026-10-31.json",
+  "duration_seconds": 35.267,
+  "freeze_durations": [],
+  "source_preview_directory": "qa/reviews/heron-original",
+  "current_render_review": "qa/reviews/heron-2026-10-31-v3-motion-1fps.jpg",
+  "approved_for_tiktok_only": true,
+  "publication_hold_in_source_config": true,
+  "editorial_review": {
+    "species": "Grey herons visible in eight authentic source previews; rocky-island scene intentionally shows the bird as a distant tiny speck.",
+    "narration": "No fabricated hunting strike. Revised distant-scene line explicitly describes the tiny speck, matching 1fps decoded footage.",
+    "visual": "Original eight source triptychs and current 1fps MP4 review checked; leg wading, shoreline, reeds, silhouette and final recognizable bird correspond to narration. No >=1s freeze in technical QA.",
+    "rights": "Seven NaIzletuSi ™ and one doonaran Commons sources, each credited under CC BY 3.0 in complete TikTok caption with modifications disclosed.",
+    "caption_safe_area": "Portrait 1080x1920 subtitles visible in contact sheet; no black bars.",
+    "remaining_note": "Must verify Metricool duplicate check and PENDING scheduling ID before claiming scheduled; publication requires later provider confirmation."
+  }
+}
