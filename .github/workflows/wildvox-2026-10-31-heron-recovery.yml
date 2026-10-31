@@ -70,3 +70,5 @@ jobs:
             heron_technical_qa_2026-10-31.json
           retention-days: 3
           if-no-files-found: warn
+
+# 2026-10-31 editorial v3: distant bird is deliberately narrated as tiny, no invented hunting; hold TRUE.
