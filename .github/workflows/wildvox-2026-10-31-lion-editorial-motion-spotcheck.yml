@@ -16,7 +16,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh run download 41196171049 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-lion-recovery --dir .
+          gh run download 41197083221 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-lion-recovery --dir .
       - name: Extract real decoded MP4 frames at 1fps plus final six seconds at 2fps
         run: |
           sudo apt-get update -qq
@@ -35,3 +35,5 @@ jobs:
           git add qa/reviews/lion-2026-10-31-motion-1fps.jpg qa/reviews/lion-2026-10-31-last6s-2fps.jpg
           git commit -m 'qa: lion decoded motion review sheets from existing MP4'
           git push origin HEAD:recovery/wildvox-lion-20261031
+
+# Current source: 41197083221 (lion corrected narration). Do not reuse old visual approval.
