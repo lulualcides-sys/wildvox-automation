@@ -1,0 +1,81 @@
+{
+  "checked_at_local": "2026-10-31T12:35:52-03:00",
+  "account": "Metricool brand 7242311; connected TikTok handle exactly wildvox",
+  "main_sha": "58f0c49bbf9fbfbe0529e758f972b58013ba851d",
+  "daily_blob_sha": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "posts": [
+    {
+      "title": "blackbird",
+      "id": 412139137,
+      "scheduled_local": "10:25",
+      "status": "ERROR",
+      "detail": "You have reached your Metricool account limit."
+    },
+    {
+      "title": "goat",
+      "id": 412138716,
+      "scheduled_local": "11:20",
+      "status": "ERROR",
+      "detail": "You have reached your Metricool account limit."
+    },
+    {
+      "title": "giraffe",
+      "id": 412139187,
+      "scheduled_local": "12:05",
+      "status": "ERROR",
+      "detail": "You have reached your Metricool account limit."
+    },
+    {
+      "title": "egret",
+      "id": 412139240,
+      "scheduled_local": "12:40",
+      "status": "PENDING"
+    },
+    {
+      "title": "pigeon",
+      "id": 412139274,
+      "scheduled_local": "14:10",
+      "status": "PENDING"
+    },
+    {
+      "title": "mallard",
+      "id": 412139319,
+      "scheduled_local": "16:10",
+      "status": "PENDING"
+    },
+    {
+      "title": "squirrel",
+      "id": 412139350,
+      "scheduled_local": "17:50",
+      "status": "PENDING"
+    },
+    {
+      "title": "heron",
+      "id": 412139534,
+      "scheduled_local": "19:35",
+      "status": "PENDING"
+    },
+    {
+      "title": "lion",
+      "id": 412139565,
+      "scheduled_local": "20:55",
+      "status": "PENDING"
+    },
+    {
+      "title": "swan",
+      "id": 412139850,
+      "scheduled_local": "22:05",
+      "status": "PENDING"
+    }
+  ],
+  "summary": {
+    "metricool_posts": 10,
+    "provider_error": 3,
+    "provider_pending": 7,
+    "confirmed_published_tiktok_analytics_rows": 0
+  },
+  "source": "Live Metricool getScheduledPosts + getAnalyticsDataByMetrics TKPO01/TKPO02/TKPO03/TKPO05, 2026-10-31 America/Sao_Paulo",
+  "new_change": "Giraffe post 412139187 failed at 12:05 with same provider monthly account limit as blackbird and goat; no new root cause.",
+  "actions": "Read-only verification. No new scheduled items, no duplicate retries, no Buffer @wildvox6 writes, no YouTube, no render credits used. Seven future PENDING posts left intact. Media and attribution preserved in existing branches.",
+  "next": "Keep monitoring provider statuses and TikTok analytics. Do not retry account-limit ERROR under same capped account. November reset may restore up to 20 monthly free publications, but cannot support 5 daily continuously."
+}
