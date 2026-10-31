@@ -151,95 +151,89 @@ jobs:
           retention-days: 1
 
   publish-media:
-    needs: [render, technical-qa]
-    if: ${{ needs.render.result == 'success' && needs.technical-qa.result == 'success' }}
+    # A failed or missing fifth render must not suppress four sound candidates.
+    # GitHub's render matrix runs fail-fast:false, then each artifact is checked
+    # independently against the *current* five-entry config.
+    needs: [prepare, render]
+    if: ${{ always() && needs.prepare.result == 'success' && (needs.render.result == 'success' || needs.render.result == 'failure') && needs.prepare.outputs.animals != '[]' }}
+    strategy:
+      fail-fast: false
+      # Serial media writes avoid collisions on the shared Git branch.
+      # Do NOT use job-level concurrency with a shared group here: GitHub
+      # replaces older pending jobs, silently dropping other video candidates.
+      max-parallel: 1
+      matrix:
+        animal: ${{ fromJson(needs.prepare.outputs.animals) }}
     runs-on: ubuntu-latest
-    concurrency:
-      group: wildvox-media-branch
-      cancel-in-progress: false
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - name: Install FFmpeg for actual candidate QA
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
       - uses: actions/download-artifact@v4
         with:
-          pattern: daily-*
+          name: daily-${{ matrix.animal }}
           path: public
-          merge-multiple: true
-      - name: Publish successful daily media
+      - name: Validate this candidate's current MP4 and metadata
+        run: |
+          python scripts/qa_rendered_batch.py \
+            --config configs/daily.json \
+            --media-dir public \
+            --key "${{ matrix.animal }}" \
+            --report "technical_qa_${{ matrix.animal }}.json"
+      - name: Store technically valid candidate in root media branch
         run: |
           set -euo pipefail
-          rm -rf /tmp/wildvox-public /tmp/wildvox-media-branch
-          mkdir -p /tmp/wildvox-public
-          shopt -s nullglob
-          videos=(public/*.mp4)
-          metas=(public/*_meta.json)
-          reviews=(public/*_review.jpg)
-          if [ "${#videos[@]}" -ne 5 ] || [ "${#metas[@]}" -ne 5 ] || [ "${#reviews[@]}" -ne 5 ]; then
-            echo "Expected exactly 5 complete rendered videos, metadata and review images" >&2
-            exit 1
-          fi
-          cp "${videos[@]}" /tmp/wildvox-public/
-          cp public/*_meta.json /tmp/wildvox-public/
-          cp public/*_review.jpg /tmp/wildvox-public/
+          key="${{ matrix.animal }}"
+          test -s "public/${key}.mp4"
+          test -s "public/${key}_meta.json"
+          test -s "public/${key}_review.jpg"
 
+          # These are private QA candidates, NOT approved TikTok publications.
+          # The editorial publication_hold remains TRUE in all metadata.
+          rm -rf /tmp/wildvox-media-branch
           git fetch origin media
           git worktree add --force --detach /tmp/wildvox-media-branch origin/media
-          cp /tmp/wildvox-public/* /tmp/wildvox-media-branch/
-
-          # The canonical published media location is the ROOT of the media branch.
-          # Remove obsolete legacy copies so monitoring cannot reuse them.
-          rm -f /tmp/wildvox-media-branch/public/frog.mp4
-          rm -f /tmp/wildvox-media-branch/public/frog_meta.json
-          rm -f /tmp/wildvox-media-branch/public/frog_review.jpg
-          rm -f /tmp/wildvox-media-branch/public/owl.mp4
-          rm -f /tmp/wildvox-media-branch/public/owl_meta.json
-          rm -f /tmp/wildvox-media-branch/public/owl_review.jpg
-
           cd /tmp/wildvox-media-branch
           git config user.name "wildvox-bot"
           git config user.email "actions@users.noreply.github.com"
-          # A single >100 MB Git push can time out with HTTP 408.
-          # Publish one candidate (MP4 + meta + review) at a time, without
-          # altering editorial holds or attempting TikTok delivery.
           git config http.version HTTP/1.1
-          push_candidate() {
-            local attempt
-            for attempt in 1 2 3; do
-              if git push origin HEAD:media; then
-                return 0
-              fi
-              # A 408 can occur after the server accepted the push.
-              git fetch origin media
-              if git merge-base --is-ancestor HEAD FETCH_HEAD; then
-                echo "Push accepted remotely despite an ambiguous HTTP response."
-                return 0
-              fi
-              if [ "$attempt" -eq 3 ]; then
-                echo "Unable to push media after three attempts." >&2
-                return 1
-              fi
-              sleep $((attempt * 15))
-            done
-          }
-          for rendered in /tmp/wildvox-public/*.mp4; do
-            key="${rendered##*/}"
-            key="${key%.mp4}"
-            git add -- "${key}.mp4" "${key}_meta.json" "${key}_review.jpg"
-            if git diff --cached --quiet; then
-              continue
-            fi
-            git commit -m "Store rendered WildVox QA candidate: ${key}"
-            push_candidate
-          done
-
-          # Stage only tracked removals, such as obsolete legacy copies.
-          git add -u
-          if ! git diff --cached --quiet; then
-            git commit -m "Remove obsolete WildVox media copies"
-            push_candidate
+          cp "$GITHUB_WORKSPACE/public/${key}.mp4" .
+          cp "$GITHUB_WORKSPACE/public/${key}_meta.json" .
+          cp "$GITHUB_WORKSPACE/public/${key}_review.jpg" .
+          git add -- "${key}.mp4" "${key}_meta.json" "${key}_review.jpg"
+          if git diff --cached --quiet; then
+            echo "Candidate already stored; skip duplicate commit."
+            exit 0
           fi
-          echo "Current-run QA candidates transferred to media branch (not editorial approval)."
+          git commit -m "Store independently qualified WildVox candidate: ${key}"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:media; then
+              echo "Stored ${key} as a QA candidate, not editorially approved."
+              exit 0
+            fi
+            git fetch origin media
+            if git merge-base --is-ancestor HEAD FETCH_HEAD; then
+              echo "GitHub accepted push despite an ambiguous HTTP response."
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Media push failed after three attempts." >&2
+              exit 1
+            fi
+            sleep $((attempt * 15))
+          done
+      - name: Preserve per-candidate technical QA verdict
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: independent-qa-${{ matrix.animal }}
+          path: technical_qa_${{ matrix.animal }}.json
+          if-no-files-found: warn
+          retention-days: 7
 
   technical-qa:
     needs: render
