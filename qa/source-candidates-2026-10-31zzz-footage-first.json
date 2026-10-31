@@ -1,0 +1,168 @@
+{
+  "day": "2026-10-31",
+  "research_only": true,
+  "current_config_blob_sha": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "notes": "Preview goats and pigeons; source titles and CC metadata are not visual approval.",
+  "candidates": [
+    {
+      "for_key": "domestic_goat",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "Anglo-Nubian goats grooming themselves.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "author": "Rivadavia.vila",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "domestic_goat",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "Goats video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_video.webm",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "https://www.flickr.com/photos/gails_pictures/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "domestic_goat",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "Goats eating.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_eating.webm",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Brian Boucheron",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "domestic_goat",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "Goats yawning.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_yawning.webm",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Brian Boucheron",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "domestic_goat",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "Newborn goats.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Newborn_goats.webm",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "author": "Darius Dunlap",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "domestic_goat",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "Goats in Sunnyvale.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Kat Walsh",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "domestic_goat",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "Goats mowing Sunnyvale landfill.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_mowing_Sunnyvale_landfill.webm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "author": "Kat Walsh",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "domestic_goat",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-10-01 MIRKE ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "rock_pigeon",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "Columba livia forma domestica - courtship dance2.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Columba_livia_forma_domestica_-_courtship_dance2.ogv",
+      "license": "Public domain",
+      "license_url": "",
+      "author": "Bisco",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "rock_pigeon",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-09-24 LJUBLJANA Breg COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Breg_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "rock_pigeon",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-05-13 LJUBLJANA Prule COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "rock_pigeon",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-06-22 LJUBLJANA Špica COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-22_LJUBLJANA_%C5%A0pica_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "rock_pigeon",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-06-24 LJUBLJANA Špica COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-24_LJUBLJANA_%C5%A0pica_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "rock_pigeon",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-08-26 LJUBLJANA Prule COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-26_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "rock_pigeon",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-10-03 LJUBLJANA Prule COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-03_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "rock_pigeon",
+      "target_block": "SOURCE_VISUAL_REVIEW_REQUIRED",
+      "title": "2022-10-10 LJUBLJANA Opera COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-10_LJUBLJANA_Opera_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "author": "NaIzletuSi ™",
+      "status": "CANDIDATE_UNREVIEWED"
+    }
+  ]
+}
