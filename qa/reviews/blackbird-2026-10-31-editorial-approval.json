@@ -1,0 +1,22 @@
+{
+  "editorial_day": "2026-10-31",
+  "key": "common_blackbird_park_search",
+  "revision": "2026-10-31-common_blackbird_park_search-editorial-v2",
+  "config_sha256": "c6ef4dce13f5ffe82e461a469f0ad68785f9a16b5d3bbac46a41cc72dfa00aa1",
+  "media_blob_sha": "a7d2f5d9717404a42c69ca6c0c07842a9542fb1a",
+  "technical_qa_report": "media:blackbird_technical_qa_2026-10-31.json",
+  "duration_seconds": 33.275,
+  "freeze_durations": [],
+  "source_preview_directory": "qa/reviews/blackbird-original",
+  "current_render_review": "qa/reviews/blackbird-2026-10-31-motion-1fps.jpg",
+  "approved_for_tiktok_only": true,
+  "publication_hold_in_source_config": true,
+  "editorial_review": {
+    "species": "Common blackbird (Turdus merula) visible in all eight distinct genuine video sources, including males and brown-plumaged birds.",
+    "narration": "Revised hook no longer claims one bird repeatedly returns to same path; dense branches and final pauses now match actual decoded frames.",
+    "visual": "1fps decoded MP4 timeline and original 8 source triptych previews reviewed. No synthetic wildlife action, no duplicate source footage, no freeze >=1s in independent technical QA.",
+    "rights": "Eight Commons source pages credit NaIzletuSi ™ under CC BY 3.0; full source URLs, author, license, modification notice preserved in complete caption.",
+    "caption_safe_area": "Portrait 1080x1920; white/red subtitles visible without cropping in 1fps contact sheet.",
+    "remaining_note": "Metricool scheduled/published duplicate check and provider response required before claiming scheduled or published."
+  }
+}
