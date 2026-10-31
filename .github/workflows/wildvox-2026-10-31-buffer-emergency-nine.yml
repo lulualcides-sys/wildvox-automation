@@ -15,6 +15,7 @@ jobs:
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: |
+          python - <<'PY'
           import json,time
           from datetime import datetime,timedelta
           from pathlib import Path
@@ -61,7 +62,7 @@ jobs:
           Path('qa/reviews/2026-10-31-buffer-emergency-nine-results.json').write_text(json.dumps({'date':'2026-10-31','provider':'buffer','channel':'tiktok:@wildvox','metricool_posts_converted_to_drafts':True,'results':receipts},indent=2)+'\n')
           print('BUFFER_SCHEDULED_COUNT='+str(sum(bool(x.get('buffer_post_id')) for x in receipts)))
           if not any(x.get('buffer_post_id') for x in receipts): raise SystemExit(1)
-          
+          PY
       - name: Persist per-video Buffer IDs, errors, and fingerprints
         if: always()
         run: |
