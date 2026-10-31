@@ -176,7 +176,7 @@
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 5,
+    "target_shot_seconds": 6.5,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
@@ -362,7 +362,7 @@
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 5,
+    "target_shot_seconds": 6.5,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
@@ -548,7 +548,7 @@
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 5,
+    "target_shot_seconds": 6.5,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
@@ -734,7 +734,7 @@
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 5,
+    "target_shot_seconds": 6.5,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
@@ -920,7 +920,7 @@
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 5,
+    "target_shot_seconds": 6.5,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0,
     "min_duration": 30,
