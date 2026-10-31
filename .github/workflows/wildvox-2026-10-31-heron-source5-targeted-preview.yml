@@ -30,7 +30,7 @@ jobs:
           d=float(sys.argv[1]);i=int(sys.argv[2])
           ts=[min(d-0.3,max(0.3,d*f)) for f in (.15,.50,.85)]
           for j,t in enumerate(ts):
-              subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-y','-ss',str(t),'-i',f'previews/heron_{i}.webm','-frames:v','1','-vf','scale=400:225:force_original_aspect_ratio=decrease,pad=400:225:(ow-iw)/2:(oh-ih)/2',f'previews/heron_{i}_{j}.jpg'],check=True)
+              subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-y','-ss',str(t),'-i',f'previews/heron_{i}.webm','-frames:v','1','-vf','scale=400:226:force_original_aspect_ratio=decrease,pad=400:226:(ow-iw)/2:(oh-ih)/2,format=yuv420p',f'previews/heron_{i}_{j}.jpg'],check=True)
           PY
           done
           rm -f previews/*.webm
