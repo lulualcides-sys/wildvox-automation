@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Create source-only visual contact sheets; never approve or publish."""
-import argparse, hashlib, json, subprocess
+import argparse, hashlib, json, subprocess, time
 from pathlib import Path
 from urllib.parse import quote, unquote, urlsplit, urlencode
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 from PIL import Image, ImageDraw, ImageOps
 
 def run(cmd):
@@ -21,8 +22,16 @@ def resolve_media(name, maxbytes):
         "titles": "File:" + name,
     })
     request = Request(api, headers={"User-Agent": "WildVox-QA/1.0 (Wikimedia Commons editorial source preview)"})
-    with urlopen(request, timeout=35) as response:
-        payload = json.load(response)
+    for attempt in range(4):
+        try:
+            with urlopen(request, timeout=35) as response:
+                payload = json.load(response)
+            break
+        except HTTPError as exc:
+            if exc.code != 429 or attempt == 3:
+                raise
+            time.sleep(8 * (attempt + 1))
+    time.sleep(2.5)  # Courtesy throttle for Commons source preview API
     pages = payload.get("query", {}).get("pages", [])
     info = (pages[0].get("imageinfo") or [{}])[0] if pages else {}
     original = info.get("url")
