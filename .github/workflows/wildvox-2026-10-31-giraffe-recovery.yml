@@ -1,0 +1,74 @@
+name: WildVox — 31 Oct giraffe recovery render (one-day candidate)
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-giraffe-recovery.yml'
+permissions:
+  contents: write
+jobs:
+  giraffe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check exact 31 Oct editorial contract before costly render
+        run: |
+          python qa/validate_footage_first.py
+          python scripts/semantic_shots.py --check-config qa/daily-prep-candidate-2026-10-31-footage-first.json
+      - name: Install real render dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y espeak-ng ffmpeg curl fonts-dejavu-core
+          python -m pip install --upgrade pip
+          python -m pip install 'kokoro==0.9.4' 'spacy==3.8.4' 'preshed==3.0.9' 'numpy==1.26.4' soundfile
+          python -c "from kokoro import KPipeline; KPipeline(lang_code='a')"
+      - name: Render independently held giraffe candidate
+        env:
+          WILDVOX_SOURCE_PREVIEWS: '1'
+        run: |
+          python scripts/generate_video.py --key giraffe_reaching_for_food --config qa/daily-prep-candidate-2026-10-31-footage-first.json
+      - name: Technical QA for this MP4 only, never editorial approval
+        run: |
+          python scripts/qa_rendered_batch.py --config qa/daily-prep-candidate-2026-10-31-footage-first.json --media-dir output --key giraffe_reaching_for_food --report giraffe_technical_qa_2026-10-31.json
+      - name: Archive independently tested candidate, still on publication hold
+        run: |
+          set -euo pipefail
+          key=giraffe_reaching_for_food
+          test -s "output/${key}.mp4"
+          test -s "output/${key}_meta.json"
+          test -s "output/${key}_review.jpg"
+          git fetch origin media
+          git worktree add --force --detach /tmp/wildvox-recovery-media origin/media
+          cd /tmp/wildvox-recovery-media
+          git config user.name wildvox-bot
+          git config user.email actions@users.noreply.github.com
+          cp "$GITHUB_WORKSPACE/output/${key}.mp4" .
+          cp "$GITHUB_WORKSPACE/output/${key}_meta.json" .
+          cp "$GITHUB_WORKSPACE/output/${key}_review.jpg" .
+          cp "$GITHUB_WORKSPACE/giraffe_technical_qa_2026-10-31.json" .
+          git add -- "${key}.mp4" "${key}_meta.json" "${key}_review.jpg" giraffe_technical_qa_2026-10-31.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Store held 31 Oct giraffe recovery candidate for editorial QA'
+          for attempt in 1 2 3; do
+            if git push origin HEAD:media; then exit 0; fi
+            git fetch origin media
+            if git merge-base --is-ancestor HEAD FETCH_HEAD; then exit 0; fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+            sleep $((attempt * 15))
+          done
+      - name: Preserve real frames and MP4 for independent visual review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wildvox-31-oct-giraffe-recovery
+          path: |
+            output/giraffe_reaching_for_food.mp4
+            output/giraffe_reaching_for_food_meta.json
+            output/giraffe_reaching_for_food_review.jpg
+            output/giraffe_reaching_for_food_source_*_preview.jpg
+            giraffe_technical_qa_2026-10-31.json
+          retention-days: 3
+          if-no-files-found: warn
