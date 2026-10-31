@@ -1,0 +1,17 @@
+{
+  "editorial_day": "2026-10-31",
+  "scope": "mute_swan_pond_glide",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "mute_swan_pond_glide",
+      "revision": "2026-10-31-mute_swan_pond_glide-research-v1",
+      "errors": [],
+      "duration": 38.125,
+      "freeze_durations": []
+    }
+  ],
+  "errors": []
+}

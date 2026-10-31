@@ -1,0 +1,211 @@
+{
+  "key": "mute_swan_pond_glide",
+  "title": "WHY SWANS LOOK SO CALM ON THE WATER",
+  "caption": "WHY SWANS LOOK SO CALM ON THE WATER. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm | https://creativecommons.org/licenses/by/3.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm | https://creativecommons.org/licenses/by/3.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTOČEC_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm | https://creativecommons.org/licenses/by/3.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-03_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-18_VRHNIKA_Ribniki_pri_stari_opekarni_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "2f64338cb0aedbcce27537126e3fe508fdd588b7351a7016814e20557adfa4c3",
+  "duration": 38.12,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.225,
+      "duration": 6.225,
+      "text": "Why do mute swans seem to glide without effort, even when the water around them moves?",
+      "scene": "Mute swan visible on a park waterway.",
+      "tags": [
+        "mute_swan_gliding_park"
+      ],
+      "story_role": "hook",
+      "overlay_label": "EFFORTLESS GLIDE",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.225,
+      "end": 12.125,
+      "duration": 5.9,
+      "text": "Their bodies float high while webbed feet paddle below the surface, mostly out of sight.",
+      "scene": "Mute swan swimming across a quiet pond.",
+      "tags": [
+        "mute_swan_swimming_pond"
+      ],
+      "story_role": "setup",
+      "overlay_label": "HIDDEN PADDLES",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 12.125,
+      "end": 19.55,
+      "duration": 7.425,
+      "text": "Around ponds and park lakes, some swans swim near other birds, while others stay close to a nest.",
+      "scene": "Swan at park lake followed by swan near its nest.",
+      "tags": [
+        "mute_swan_park_lake",
+        "mute_swan_nest_shore"
+      ],
+      "story_role": "action",
+      "overlay_label": "POND LIFE",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 19.55,
+      "end": 25.75,
+      "duration": 6.2,
+      "text": "A gentle turn changes the ripples, and the long neck stays balanced above the water.",
+      "scene": "Two distinct swan videos at river and park pond.",
+      "tags": [
+        "mute_swan_river_turn",
+        "mute_swan_park_pond_turn"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "SMALL TURNS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 25.75,
+      "end": 31.525,
+      "duration": 5.775,
+      "text": "White feathers make a swan stand out against darker water, even from a distance.",
+      "scene": "White swan on darker pond.",
+      "tags": [
+        "mute_swan_white_on_dark_water"
+      ],
+      "story_role": "twist",
+      "overlay_label": "BRIGHT FEATHERS",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 31.525,
+      "end": 38.125,
+      "duration": 6.6,
+      "text": "The quiet glide is not magic: small strokes under the surface keep the bird moving forward.",
+      "scene": "Mute swan swimming near riverbank.",
+      "tags": [
+        "mute_swan_final_glide"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "KEEP PADDLING",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "assetTitle": "2021-12-17 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-17%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "mute_swan_gliding_park"
+      ],
+      "license_note": "Commons author and CC BY 3.0 reviewed 2026-10-31; independent action-window visual check still required.",
+      "license_verified_at": "2026-10-31"
+    },
+    {
+      "assetTitle": "2021-12-31 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-31%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "mute_swan_swimming_pond"
+      ],
+      "license_note": "Commons author and CC BY 3.0 reviewed 2026-10-31; independent action-window visual check still required.",
+      "license_verified_at": "2026-10-31"
+    },
+    {
+      "assetTitle": "2022-01-07 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-07%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "mute_swan_park_lake"
+      ],
+      "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication."
+    },
+    {
+      "assetTitle": "2022-05-13 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC gnezdo.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-13%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%20gnezdo.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "mute_swan_nest_shore"
+      ],
+      "license_note": "Commons author and CC BY 3.0 reviewed 2026-10-31; independent action-window visual check still required.",
+      "license_verified_at": "2026-10-31"
+    },
+    {
+      "assetTitle": "2022-06-17 GRAD OTOČEC ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTOČEC_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-17%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "mute_swan_river_turn"
+      ],
+      "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication."
+    },
+    {
+      "assetTitle": "2022-09-24 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-24%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "mute_swan_park_pond_turn"
+      ],
+      "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication."
+    },
+    {
+      "assetTitle": "2022-10-03 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-03_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-03%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "mute_swan_white_on_dark_water"
+      ],
+      "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication."
+    },
+    {
+      "assetTitle": "2022-10-18 VRHNIKA Ribniki pri stari opekarni ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-18_VRHNIKA_Ribniki_pri_stari_opekarni_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-18%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "mute_swan_final_glide"
+      ],
+      "license_note": "NaIzletuSi Commons source-family candidate; individual source-page license and actual visual action still require review before publication."
+    }
+  ],
+  "review_sheet": "mute_swan_pond_glide_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
