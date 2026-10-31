@@ -4,8 +4,8 @@
   "caption": "WHAT SWANS DO BETWEEN FLIGHTS. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm | https://creativecommons.org/licenses/by/3.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm | https://creativecommons.org/licenses/by/3.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTOČEC_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm | https://creativecommons.org/licenses/by/3.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-03_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-18_VRHNIKA_Ribniki_pri_stari_opekarni_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0/",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "35ded24d3ac4293e985c4627c82fd507241a93703d44a4134f4d1de3e141e5ca",
-  "duration": 38.2,
+  "config_sha256": "3ba099e00f4669391271a29fe71619fc4eed20b287f952a70b7b503e6ebef555",
+  "duration": 40.38,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -40,25 +40,25 @@
     {
       "index": 2,
       "start": 13.175,
-      "end": 19.675,
-      "duration": 6.5,
-      "text": "At the pond, one bird splashes its feathers while a nearby nest waits among the reeds.",
-      "scene": "Swan splashing its feathers in pond followed by visible swan nest in reeds.",
+      "end": 20.725,
+      "duration": 7.55,
+      "text": "Among the reeds, a swan's nest lies hidden; nearby, another bird splashes its feathers in the pond.",
+      "scene": "Swan nest in reeds appears first, then swan visibly splashing in pond; footage order verified at 1fps.",
       "tags": [
         "swan_splashing_pond",
         "swan_nest_in_reeds"
       ],
       "story_role": "action",
-      "overlay_label": "POND AND NEST",
+      "overlay_label": "NEST AND POND",
       "fx": []
     },
     {
       "index": 3,
-      "start": 19.675,
-      "end": 25.85,
-      "duration": 6.175,
-      "text": "Others rest on green banks, or move slowly past lily-covered corners of the park.",
-      "scene": "Swans resting on a grassy bank, followed by swans near lily-covered pond and park building.",
+      "start": 20.725,
+      "end": 28.025000000000002,
+      "duration": 7.3,
+      "text": "Some swans drift past lily-covered park corners, while others settle down to rest on green banks.",
+      "scene": "Lily-covered pond and park building appear first, then swans resting on grass; footage order verified.",
       "tags": [
         "swans_resting_on_grass",
         "swans_near_lily_pond"
@@ -69,8 +69,8 @@
     },
     {
       "index": 4,
-      "start": 25.85,
-      "end": 31.200000000000003,
+      "start": 28.025000000000002,
+      "end": 33.375,
       "duration": 5.35,
       "text": "The distant pond looks empty until two white swans appear near its edge.",
       "scene": "Wide landscape of pond, with two white swans only appearing toward the end of the clip.",
@@ -83,8 +83,8 @@
     },
     {
       "index": 5,
-      "start": 31.200000000000003,
-      "end": 38.2,
+      "start": 33.375,
+      "end": 40.375,
       "duration": 7.0,
       "text": "And when the flock takes off, broad wings carry them over the water in a completely different kind of glide.",
       "scene": "Several swans flying above water in a flock.",
