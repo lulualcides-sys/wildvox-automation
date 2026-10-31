@@ -1,0 +1,32 @@
+name: WildVox — Buffer TikTok fallback read-only capability check
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-buffer-readonly-capability.yml'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read Buffer @wildvox channel and queue WITHOUT creating posts
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          from scripts.publish_buffer import find_tiktok_channel, read_existing_posts
+          try:
+              org_id,channel_id=find_tiktok_channel()
+              posts=read_existing_posts(org_id,channel_id)
+              print('BUFFER_WILDVOX_CONNECTED=true')
+              print('BUFFER_PENDING_COUNT='+str(sum(p.get('status')=='scheduled' for p in posts)))
+              print('BUFFER_SENT_COUNT='+str(sum(p.get('status')=='sent' for p in posts)))
+              print('BUFFER_ERROR_COUNT='+str(sum(p.get('status')=='error' for p in posts)))
+              print('READ_ONLY_NO_POSTING=true')
+          except Exception as exc:
+              print('BUFFER_WILDVOX_CONNECTED=false')
+              print('BUFFER_DIAGNOSTIC_ERROR='+str(exc)[:300])
+              print('READ_ONLY_NO_POSTING=true')
+          PY
