@@ -745,7 +745,7 @@
   },
   "mute_swan_pond_glide": {
     "title": "WHAT SWANS DO BETWEEN FLIGHTS",
-    "script": "A swan can look peaceful one moment and be airborne the next. What happens between those flights? On misty mornings, swans gather on the grass beside the water, stretching their long necks. At the pond, one bird splashes its feathers while a nearby nest waits among the reeds. Others rest on green banks, or move slowly past lily-covered corners of the park. The distant pond looks empty until two white swans appear near its edge. And when the flock takes off, broad wings carry them over the water in a completely different kind of glide.",
+    "script": "A swan can look peaceful one moment and be airborne the next. What happens between those flights? On misty mornings, swans gather on the grass beside the water, stretching their long necks. Among the reeds, a swan's nest lies hidden; nearby, another bird splashes its feathers in the pond. Some swans drift past lily-covered park corners, while others settle down to rest on green banks. The distant pond looks empty until two white swans appear near its edge. And when the flock takes off, broad wings carry them over the water in a completely different kind of glide.",
     "caption": "WHAT SWANS DO BETWEEN FLIGHTS. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -877,18 +877,18 @@
         "overlay_label": "MISTY MORNING"
       },
       {
-        "text": "At the pond, one bird splashes its feathers while a nearby nest waits among the reeds.",
-        "scene": "Swan splashing its feathers in pond followed by visible swan nest in reeds.",
+        "text": "Among the reeds, a swan's nest lies hidden; nearby, another bird splashes its feathers in the pond.",
+        "scene": "Swan nest in reeds appears first, then swan visibly splashing in pond; footage order verified at 1fps.",
         "tags": [
           "swan_splashing_pond",
           "swan_nest_in_reeds"
         ],
         "story_role": "action",
-        "overlay_label": "POND AND NEST"
+        "overlay_label": "NEST AND POND"
       },
       {
-        "text": "Others rest on green banks, or move slowly past lily-covered corners of the park.",
-        "scene": "Swans resting on a grassy bank, followed by swans near lily-covered pond and park building.",
+        "text": "Some swans drift past lily-covered park corners, while others settle down to rest on green banks.",
+        "scene": "Lily-covered pond and park building appear first, then swans resting on grass; footage order verified.",
         "tags": [
           "swans_resting_on_grass",
           "swans_near_lily_pond"
@@ -921,7 +921,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-mute_swan_pond_glide-editorial-v2",
+    "revision": "2026-10-31-mute_swan_pond_glide-editorial-v3",
     "publication_hold": true,
     "trend_priority": false
   }
