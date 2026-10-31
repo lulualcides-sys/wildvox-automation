@@ -72,3 +72,5 @@ jobs:
           if-no-files-found: warn
 
 # 2026-10-31 swan editorial v2: accurate flight/grass/nest/pond narration and source6 late seek, hold TRUE.
+
+# 2026-10-31 editorial v3: nest-before-splash and lily-before-rest narration, based on actual 1fps frames.
