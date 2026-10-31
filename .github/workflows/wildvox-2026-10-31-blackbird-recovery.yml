@@ -70,3 +70,5 @@ jobs:
             blackbird_technical_qa_2026-10-31.json
           retention-days: 3
           if-no-files-found: warn
+
+# 2026-10-31-common_blackbird_park_search-editorial-v2: corrected spoken claims after 1fps real-MP4 motion audit; independent QA and editorial hold required.
