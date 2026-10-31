@@ -1,0 +1,22 @@
+{
+  "day": "2026-10-31",
+  "timezone": "America/Sao_Paulo",
+  "key": "giraffe_reaching_for_food",
+  "revision": "2026-10-31-giraffe_reaching_for_food-recovery-v3",
+  "editorial_approved": true,
+  "publication_hold_for_this_review": false,
+  "media_metadata_still_holds_by_default": true,
+  "render_run_id": 41191543984,
+  "render_artifact_id": 13039340874,
+  "config_sha256": "e5384d178d08524b36df78a40a7334ec3d54e1ece6ab44a3f28241c0cde5ab84",
+  "duration_seconds": 41.42,
+  "video_dimensions": "1080x1920",
+  "real_video_sources": 8,
+  "technical_qa_pass": true,
+  "freeze_segments_over_one_second": 0,
+  "editorial_visual_review": "Decoded MP4 independently reviewed at 1,4,7,10,13,16,19,22,25,28,31,34,37,40 seconds; all eight authentic source preview sheets checked. Supervised hand-feeding, zoo giraffes, feeder, long neck, mouth and open-habitat leaf reach match cautious script. Different managed locations explicitly disclosed. No black bars, false action, or frozen segments. Captions in safe area.",
+  "attribution": "Eight original Commons source authors, CC BY/CC0 licenses and source pages in caption, with edit disclosure.",
+  "schedule_status": "NOT_SCHEDULED",
+  "tiktok_only": true,
+  "youtube": false
+}
