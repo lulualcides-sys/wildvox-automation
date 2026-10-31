@@ -1,0 +1,32 @@
+name: WildVox — inspect real heron replacement preview frames
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-heron-source5-preview-review.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover existing 3 candidate previews without new downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/heron-source5
+          gh run download 41196421956 --repo lulualcides-sys/wildvox-automation --name wildvox-heron-source5-replacement-previews --dir /tmp/heron-source5
+          find /tmp/heron-source5 -type f -maxdepth 5 -printf '%p %s bytes\n'
+          mkdir -p qa/reviews/heron-source5
+          find /tmp/heron-source5 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' \) -exec cp -n {} qa/reviews/heron-source5/ \;
+          test "$(find qa/reviews/heron-source5 -type f | wc -l)" -gt 0
+      - name: Commit only small actual source preview images
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qa/reviews/heron-source5
+          git commit -m 'qa: archive authentic heron source5 replacement previews for editorial choice'
+          git pull --rebase origin recovery/wildvox-heron-20261031
+          git push origin HEAD:recovery/wildvox-heron-20261031
