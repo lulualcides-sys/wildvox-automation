@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-31",
+  "key": "grey_heron_patient_fishing",
+  "revision": "2026-10-31-grey_heron_patient_fishing-editorial-v3",
+  "config_sha256": "c62a7fcf8f90bef8e783cb306de48f6ddf0ce7172c00e39797dd47a9b8e865ad",
+  "media_blob_sha": "650751c31d08fdff7a94d06eb85a8df0e05f7807",
+  "metricool_brand_id": 7242311,
+  "metricool_post_id": 412088685,
+  "provider": "tiktok",
+  "provider_status": "PENDING",
+  "publication_datetime": "2026-10-31T19:35:00-03:00",
+  "confirmed_published": false,
+  "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-4145083861175284150",
+  "note": "Metricool API confirmed PENDING scheduled post; no publication claim; avoid duplicate."
+}
