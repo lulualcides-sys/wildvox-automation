@@ -73,3 +73,5 @@ jobs:
             mallard_technical_qa_2026-10-31.json
           retention-days: 3
           if-no-files-found: warn
+
+# 31 Oct mallard v4: source footage matched to land/water narration; held pending real video review.
