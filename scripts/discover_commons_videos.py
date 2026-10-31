@@ -10,8 +10,7 @@ API="https://commons.wikimedia.org/w/api.php"
 UA="WildVoxFootageFirst/1.0 (source research; GitHub public repository)"
 TOPICS={
   "domestic_goat": ["goats","Category:Videos of goats"],
-  "rock_pigeon": ["Columba livia domestica","Category:Videos of Columba livia"],
-  "european_robin": ["Erithacus rubecula","Category:Videos of Erithacus rubecula"]
+  "rock_pigeon": ["Columba livia domestica","Category:Videos of Columba livia"]
 }
 
 def api(params):
