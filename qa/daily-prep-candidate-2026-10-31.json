@@ -1,8 +1,8 @@
 {
   "grey_heron_patient_fishing": {
-    "title": "THE HERON THAT WAITS FOR THE PERFECT STRIKE",
-    "script": "Why does this grey heron spend so much time standing almost still beside the water? In shallow wetlands, its long legs let it watch for fish without making big splashes. It takes careful steps along the bank, keeping that pointed bill ready for the next chance. Moving slowly may help it approach prey without drawing attention to itself. Then, when a fish comes within reach, the heron can strike with startling speed. The quiet waiting was part of the hunt all along, not a break from it.",
-    "caption": "THE HERON THAT WAITS FOR THE PERFECT STRIKE. #WildVox #Wildlife #Nature #AnimalFacts",
+    "title": "HOW GREY HERONS STAY PATIENT BY THE WATER",
+    "script": "Why does a grey heron seem almost motionless beside a busy river? Its long legs let it stand in shallow water without wetting most of its body. One bird waits among reeds, while another takes careful steps along a grassy bank. Against bright reflections, that slim shape can nearly disappear into the wetland. Even on an island shore, a heron can watch the water from the edge. Back beside the river, its long neck and pointed bill make this patient bird easy to recognize.",
+    "caption": "HOW GREY HERONS STAY PATIENT BY THE WATER. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-26%20LJUBLJANA%20%C5%A0pica%20CICONIIFORMES%20Ardea%20cinerea%20SIVA%20%C4%8CAPLJA.webm",
@@ -80,7 +80,7 @@
         "assetTitle": "Grey heron (Ardea cinerea) on the Aran Islands.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Grey_heron_(Ardea_cinerea)_on_the_Aran_Islands.webm",
         "tags": [
-          "grey_heron_fishing_aran_islands"
+          "grey_heron_island_shore"
         ],
         "author": "doonaran",
         "license": "CC BY 3.0",
@@ -119,60 +119,60 @@
     ],
     "visual_plan": [
       {
-        "text": "Why does this grey heron spend so much time standing almost still beside the water?",
-        "scene": "Grey heron at a real waterside edge.",
+        "text": "Why does a grey heron seem almost motionless beside a busy river?",
+        "scene": "Heron visible at the edge of a river.",
         "tags": [
           "grey_heron_visible_water_edge"
         ],
         "story_role": "hook",
-        "overlay_label": "STAY STILL"
+        "overlay_label": "PATIENT HERON"
       },
       {
-        "text": "In shallow wetlands, its long legs let it watch for fish without making big splashes.",
-        "scene": "Heron standing in shallow river habitat.",
+        "text": "Its long legs let it stand in shallow water without wetting most of its body.",
+        "scene": "Heron standing in shallow water.",
         "tags": [
           "grey_heron_wading_riverbank"
         ],
         "story_role": "setup",
-        "overlay_label": "SHALLOW WATER"
+        "overlay_label": "LONG LEGS"
       },
       {
-        "text": "It takes careful steps along the bank, keeping that pointed bill ready for the next chance.",
-        "scene": "Heron walking along water; verify actual steps.",
+        "text": "One bird waits among reeds, while another takes careful steps along a grassy bank.",
+        "scene": "Heron among reeds followed by heron moving on a grassy bank.",
         "tags": [
           "grey_heron_walking_shallow_water",
           "grey_heron_stalking_in_wetland"
         ],
         "story_role": "action",
-        "overlay_label": "SLOW STEPS"
+        "overlay_label": "QUIET STEPS"
       },
       {
-        "text": "Moving slowly may help it approach prey without drawing attention to itself.",
-        "scene": "Heron pauses by water; avoid false fishing claim.",
+        "text": "Against bright reflections, that slim shape can nearly disappear into the wetland.",
+        "scene": "Heron dark silhouette in strongly backlit water.",
         "tags": [
           "grey_heron_pausing_by_water"
         ],
         "story_role": "explanation",
-        "overlay_label": "LOW PROFILE"
+        "overlay_label": "HIDDEN IN PLAIN SIGHT"
       },
       {
-        "text": "Then, when a fish comes within reach, the heron can strike with startling speed.",
-        "scene": "Actual grey heron fishing on Aran Islands; confirm strike window.",
+        "text": "Even on an island shore, a heron can watch the water from the edge.",
+        "scene": "Grey heron at coastal shore; verify original Aran Islands video.",
         "tags": [
-          "grey_heron_fishing_aran_islands"
+          "grey_heron_island_shore"
         ],
         "story_role": "twist",
-        "overlay_label": "FAST STRIKE"
+        "overlay_label": "ISLAND SHORE"
       },
       {
-        "text": "The quiet waiting was part of the hunt all along, not a break from it.",
-        "scene": "Return to heron waiting near water; not falsely same bird.",
+        "text": "Back beside the river, its long neck and pointed bill make this patient bird easy to recognize.",
+        "scene": "Two distinct heron videos by the river; not the same individual.",
         "tags": [
           "grey_heron_stationary_riverside",
           "grey_heron_wetland_final_pose"
         ],
         "story_role": "payoff",
-        "overlay_label": "PATIENT HUNTER"
+        "overlay_label": "EASY TO SPOT"
       }
     ],
     "min_unique_videos": 6,
@@ -181,7 +181,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-grey_heron_patient_fishing-research-v1",
+    "revision": "2026-10-31-grey_heron_patient_fishing-editorial-v2",
     "publication_hold": true,
     "trend_priority": false
   },
