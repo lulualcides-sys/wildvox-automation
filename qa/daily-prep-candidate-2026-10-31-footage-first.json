@@ -1,7 +1,7 @@
 {
   "mallard_duckling_paddle_line": {
     "title": "WHY MALLARD DUCKLINGS SWIM IN A LINE",
-    "script": "Why are these mallard ducklings moving together instead of scattering across the water? A family can travel near the bank, where young birds remain close to the adults. The ducklings paddle in short bursts, leaving ripples as they cross the surface. Webbed feet push against the water, helping these birds move while their bodies float. A busy stretch of water still leaves the group room to turn and regroup. That moving cluster is a simple way for young ducks to keep traveling together.",
+    "script": "Why are these mallard ducklings moving together instead of scattering across the water? A family can travel near the bank, where young birds remain close to the adults. The ducklings paddle in short bursts, leaving ripples as they cross the surface, while other ducks remain nearby on the water. Webbed feet push against the water, helping these birds move while their bodies float, even when the shoreline is uneven. A busy stretch of water still leaves the group room to turn and regroup. That moving cluster is a simple way for young ducks to keep traveling together.",
     "caption": "WHY MALLARD DUCKLINGS SWIM IN A LINE. #WildVox #Wildlife #AnimalFacts",
     "sources": [
       {
@@ -137,7 +137,7 @@
         "overlay_label": "STAY CLOSE"
       },
       {
-        "text": "The ducklings paddle in short bursts, leaving ripples as they cross the surface.",
+        "text": "The ducklings paddle in short bursts, leaving ripples as they cross the surface, while other ducks remain nearby on the water.",
         "scene": "Ducklings paddling; second water-family shot needs preview.",
         "tags": [
           "mallard_ducklings_in_open_water",
@@ -147,7 +147,7 @@
         "overlay_label": "SMALL PADDLES"
       },
       {
-        "text": "Webbed feet push against the water, helping these birds move while their bodies float.",
+        "text": "Webbed feet push against the water, helping these birds move while their bodies float, even when the shoreline is uneven.",
         "scene": "Adult mallard swimming and a second water shot, pending source-window check.",
         "tags": [
           "mallard_drake_swimming",
@@ -187,7 +187,7 @@
   },
   "eurasian_red_squirrel_stop_and_go": {
     "title": "WHY RED SQUIRRELS STOP MID-DASH",
-    "script": "Why does this Eurasian red squirrel suddenly stop while moving around a tree? In a park, trunks and paths create routes between cover and exposed ground. It can climb, pause, turn, and cross open patches before finding the next safe spot. Those brief pauses may help it assess the surroundings before making another move. Its bushy tail shifts position as the animal balances and changes direction. The stop-and-go path makes sense when every branch offers another possible route.",
+    "script": "Why does this Eurasian red squirrel suddenly stop while moving around a tree? In a park, trunks and paths create routes between cover and exposed ground. It can climb, pause, turn, and cross open patches before finding the next safe spot, with one tree offering several different routes. Those brief pauses may help it assess the surroundings before making another move. Its bushy tail shifts position as the animal balances and changes direction. The stop-and-go path makes sense when every branch offers another possible route instead of one long, straight sprint.",
     "caption": "WHY RED SQUIRRELS STOP MID-DASH. #WildVox #Wildlife #AnimalFacts",
     "sources": [
       {
@@ -323,7 +323,7 @@
         "overlay_label": "PARK ROUTES"
       },
       {
-        "text": "It can climb, pause, turn, and cross open patches before finding the next safe spot.",
+        "text": "It can climb, pause, turn, and cross open patches before finding the next safe spot, with one tree offering several different routes.",
         "scene": "Red squirrel movement; both source windows need verification.",
         "tags": [
           "red_squirrel_in_tivoli_park",
@@ -351,7 +351,7 @@
         "overlay_label": "TAIL BALANCE"
       },
       {
-        "text": "The stop-and-go path makes sense when every branch offers another possible route.",
+        "text": "The stop-and-go path makes sense when every branch offers another possible route instead of one long, straight sprint.",
         "scene": "Squirrel moving through park, two distinct shots.",
         "tags": [
           "red_squirrel_in_park",
@@ -373,7 +373,7 @@
   },
   "goat_herd_hillside_grazing": {
     "title": "THE GOAT HERD THAT WORKS LIKE A LAWNMOWER",
-    "script": "Why are these goats spread across a hillside like a living lawn mower? A group can move together through open ground, searching for vegetation within reach. Some lower their heads to eat, choosing plants as they move from one patch to another. Between meals, goats also pause to groom or rest; feeding is only part of their day. Young kids have a different priority, staying close to their mothers for milk. From nursing young to grazing adults, the herd keeps moving through the plants together.",
+    "script": "Why are these goats spread across a hillside like a living lawn mower? A group can move together through open ground, searching for vegetation within reach. Some lower their heads to eat, choosing plants as they move from one patch to another, with different animals feeding in different spots. Between meals, goats also pause to groom or rest; feeding is only part of their day, especially in a quiet managed pen. Young kids have a different priority, staying close to their mothers for milk. From nursing young to grazing adults, the herd keeps moving through the plants together.",
     "caption": "THE GOAT HERD THAT WORKS LIKE A LAWNMOWER. #WildVox #Wildlife #AnimalFacts",
     "sources": [
       {
@@ -509,7 +509,7 @@
         "overlay_label": "HERD ON THE MOVE"
       },
       {
-        "text": "Some lower their heads to eat, choosing plants as they move from one patch to another.",
+        "text": "Some lower their heads to eat, choosing plants as they move from one patch to another, with different animals feeding in different spots.",
         "scene": "Close goats eating hay and separate goat on grass.",
         "tags": [
           "goats_eating_hay_close",
@@ -519,7 +519,7 @@
         "overlay_label": "CHOOSE A BITE"
       },
       {
-        "text": "Between meals, goats also pause to groom or rest; feeding is only part of their day.",
+        "text": "Between meals, goats also pause to groom or rest; feeding is only part of their day, especially in a quiet managed pen.",
         "scene": "Goats grooming and goats resting in managed barn.",
         "tags": [
           "anglo_nubian_goats_grooming",
@@ -559,7 +559,7 @@
   },
   "rock_pigeon_head_bob_city_walk": {
     "title": "WHY PIGEONS BOB THEIR HEADS WHILE WALKING",
-    "script": "Why does this city pigeon move its head in little jerks as it walks? Rock pigeons move across ledges and sidewalks where people pass every day. Watch the body step forward while the head briefly holds position, then catches up. That motion helps stabilize the visual scene while the rest of the body moves. A pigeon may stop to peck at the ground before starting that walk again. The bob is not just a funny habit; it helps a walking bird see its surroundings.",
+    "script": "Why does this city pigeon move its head in little jerks as it walks? Rock pigeons move across ledges and sidewalks where people pass every day. Watch the body step forward while the head briefly holds position, then catches up, even with other pigeons moving nearby. That motion helps stabilize the visual scene while the rest of the body moves. A pigeon may stop to peck at the ground before starting that walk again. The bob is not just a funny habit; it helps a walking bird see its surroundings without stopping at every single step.",
     "caption": "WHY PIGEONS BOB THEIR HEADS WHILE WALKING. #WildVox #Wildlife #AnimalFacts",
     "sources": [
       {
@@ -695,7 +695,7 @@
         "overlay_label": "CITY WALKERS"
       },
       {
-        "text": "Watch the body step forward while the head briefly holds position, then catches up.",
+        "text": "Watch the body step forward while the head briefly holds position, then catches up, even with other pigeons moving nearby.",
         "scene": "Walking pigeon on pavement in two distinct source videos.",
         "tags": [
           "rock_pigeon_on_prule_sidewalk",
@@ -723,7 +723,7 @@
         "overlay_label": "PECK AND GO"
       },
       {
-        "text": "The bob is not just a funny habit; it helps a walking bird see its surroundings.",
+        "text": "The bob is not just a funny habit; it helps a walking bird see its surroundings without stopping at every single step.",
         "scene": "Two separate pigeons walking in city settings.",
         "tags": [
           "rock_pigeon_on_prule_path",
@@ -745,7 +745,7 @@
   },
   "giraffe_reaching_for_food": {
     "title": "WHY REACHING IS ONLY HALF A GIRAFFE'S MEAL",
-    "script": "A giraffe can reach food high above the ground, but how does it take a bite? Its long neck brings leaves and feeders closer while its feet remain planted. It moves its head toward the greenery, working its mouth near the food. The lips and tongue help guide vegetation inward; reaching a branch is only the beginning. These animals were filmed in different managed settings, not as one wild herd. In open habitat, that reach brings leaves within range for the next mouthful.",
+    "script": "A giraffe can reach food high above the ground, but how does it take a bite? Its long neck brings leaves and feeders closer while its feet remain planted, even when the food is presented in a supervised zoo setting. It moves its head toward the greenery, working its mouth near the food with small, deliberate motions instead of one quick snap. The lips and tongue help guide vegetation inward; reaching a branch is only the beginning. These animals were filmed in different managed settings, not as one wild herd. In open habitat, that reach brings leaves within range for the next mouthful.",
     "caption": "WHY REACHING IS ONLY HALF A GIRAFFE'S MEAL. #WildVox #Wildlife #AnimalFacts",
     "sources": [
       {
@@ -872,7 +872,7 @@
         "overlay_label": "REACH FOR FOOD"
       },
       {
-        "text": "Its long neck brings leaves and feeders closer while its feet remain planted.",
+        "text": "Its long neck brings leaves and feeders closer while its feet remain planted, even when the food is presented in a supervised zoo setting.",
         "scene": "Giraffes in two different zoos showing full body and neck.",
         "tags": [
           "giraffe_full_neck_zoo",
@@ -882,7 +882,7 @@
         "overlay_label": "LONG REACH"
       },
       {
-        "text": "It moves its head toward the greenery, working its mouth near the food.",
+        "text": "It moves its head toward the greenery, working its mouth near the food with small, deliberate motions instead of one quick snap.",
         "scene": "Zoo giraffe near foliage; two independent shots require action review.",
         "tags": [
           "giraffe_in_ljubljana_zoo",
