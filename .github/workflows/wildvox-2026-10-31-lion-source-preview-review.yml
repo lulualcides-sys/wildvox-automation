@@ -1,0 +1,30 @@
+name: WildVox — lion original source preview review
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-lion-source-preview-review.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  previews:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Recover original source previews, no new downloads or render
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh run download 41196171049 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-lion-recovery --dir .
+          mkdir -p qa/reviews/lion-original
+          cp output/lion_cubs_learning_through_play_source_*_preview.jpg qa/reviews/lion-original/
+          test "$(find qa/reviews/lion-original -type f | wc -l)" -ge 8
+      - name: Archive small original source preview JPGs only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qa/reviews/lion-original
+          git commit -m 'qa: lion original source previews for visual verification'
+          git pull --rebase origin recovery/wildvox-lion-20261031
+          git push origin HEAD:recovery/wildvox-lion-20261031
