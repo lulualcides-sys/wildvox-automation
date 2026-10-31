@@ -1,0 +1,224 @@
+{
+  "key": "eurasian_red_squirrel_stop_and_go",
+  "title": "WHY RED SQUIRRELS STOP MID-DASH",
+  "caption": "WHY RED SQUIRRELS STOP MID-DASH. #WildVox #Wildlife #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA_11.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-02-25_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-03_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA_2.webm | https://creativecommons.org/licenses/by/3.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "bcfc6304c50a99e473c84d581d24aa9b0f758032754e691d851fa43dcd0e4c4b",
+  "duration": 36.17,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.5,
+      "duration": 5.5,
+      "text": "Why does this Eurasian red squirrel suddenly stop while moving around a tree?",
+      "scene": "Red squirrel visible on tree bark.",
+      "tags": [
+        "red_squirrel_on_tree_bark"
+      ],
+      "story_role": "hook",
+      "overlay_label": "SUDDEN PAUSE",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.5,
+      "end": 10.975,
+      "duration": 5.475,
+      "text": "In a park, trunks and paths create routes between cover and exposed ground.",
+      "scene": "Red squirrel in a park near a path.",
+      "tags": [
+        "red_squirrel_on_park_path"
+      ],
+      "story_role": "setup",
+      "overlay_label": "PARK ROUTES",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 10.975,
+      "end": 18.55,
+      "duration": 7.575,
+      "text": "It climbs, pauses, and crosses open patches, choosing between trees and nearby cover as it moves.",
+      "scene": "Two authentic squirrel videos: on a log and moving near a tree.",
+      "tags": [
+        "red_squirrel_in_tivoli_park",
+        "red_squirrel_on_tree_trunk"
+      ],
+      "story_role": "action",
+      "overlay_label": "QUICK MOVES",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 18.55,
+      "end": 24.425,
+      "duration": 5.875,
+      "text": "During a pause, it may settle down to eat, holding food close with its front paws.",
+      "scene": "Squirrel visibly holding food against a tree, not assumed to be scanning.",
+      "tags": [
+        "red_squirrel_on_tree_alert"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "LOOK AROUND",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 24.425,
+      "end": 30.125,
+      "duration": 5.7,
+      "text": "The bushy tail is easy to spot, even when the animal briefly stops moving.",
+      "scene": "Separate squirrel video; tail visible, action to be verified.",
+      "tags": [
+        "red_squirrel_tail_visible"
+      ],
+      "story_role": "twist",
+      "overlay_label": "TAIL BALANCE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 30.125,
+      "end": 36.175,
+      "duration": 6.05,
+      "text": "Its stop-and-go path carries it across the park, rather than one long, straight sprint.",
+      "scene": "Squirrel on grass and then on path, two distinct sources.",
+      "tags": [
+        "red_squirrel_in_park",
+        "red_squirrel_on_tivoli_tree"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "NEXT BRANCH",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "assetTitle": "2021-12-10 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "red_squirrel_on_tree_bark"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2021-12-17 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-17%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "red_squirrel_on_park_path"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2021-12-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-21%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "red_squirrel_in_tivoli_park"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2022-01-07 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-07%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "red_squirrel_on_tree_trunk"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2022-01-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-21%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "red_squirrel_on_tree_alert"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 72
+    },
+    {
+      "assetTitle": "2021-12-10 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA 11.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA_11.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA%2011.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "red_squirrel_tail_visible"
+      ],
+      "license_note": "Distinct original Commons video; final action window requires review.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2022-02-25 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-02-25_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-02-25%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "red_squirrel_in_park"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2022-01-03 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-03_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA_2.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-03%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA%202.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "red_squirrel_on_tivoli_tree"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    }
+  ],
+  "review_sheet": "eurasian_red_squirrel_stop_and_go_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
