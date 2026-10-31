@@ -4,18 +4,18 @@
   "caption": "A BLACKBIRD'S BUSY DAY IN THE PARK. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-04-29_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-08_LJUBLJANA_Botanični_vrt_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-10_LJUBLJANA_Botanični_vrt_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-05_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS_2.webm | https://creativecommons.org/licenses/by/3.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-12_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS_2.webm | https://creativecommons.org/licenses/by/3.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "0dd5c3157de3680f8b8b702a460210ec3525ff78f317ebae50faa10f5ae20b33",
-  "duration": 34.88,
+  "config_sha256": "c6ef4dce13f5ffe82e461a469f0ad68785f9a16b5d3bbac46a41cc72dfa00aa1",
+  "duration": 33.27,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
     {
       "index": 0,
       "start": 0.0,
-      "end": 4.9,
-      "duration": 4.9,
-      "text": "Why does a common blackbird keep returning to the same park paths?",
-      "scene": "Blackbird visible in city park habitat.",
+      "end": 3.925,
+      "duration": 3.925,
+      "text": "What does a common blackbird do when the park is quiet?",
+      "scene": "Blackbird perched on a snowy branch in a city park.",
       "tags": [
         "blackbird_city_park_hook"
       ],
@@ -25,8 +25,8 @@
     },
     {
       "index": 1,
-      "start": 4.9,
-      "end": 10.65,
+      "start": 3.925,
+      "end": 9.675,
       "duration": 5.75,
       "text": "It explores short grass and the edges of paths, pausing to inspect the ground.",
       "scene": "Blackbird on park lawn or path.",
@@ -39,8 +39,8 @@
     },
     {
       "index": 2,
-      "start": 10.65,
-      "end": 17.125,
+      "start": 9.675,
+      "end": 16.15,
       "duration": 6.475,
       "text": "In a botanical garden, even small patches of soil and leaves can attract a searching bird.",
       "scene": "Blackbirds in two distinct botanical garden scenes.",
@@ -54,11 +54,11 @@
     },
     {
       "index": 3,
-      "start": 17.125,
-      "end": 23.45,
-      "duration": 6.325,
-      "text": "A few quick steps take it from open ground toward bushes, where it can disappear from view.",
-      "scene": "Two blackbird scenes in park vegetation.",
+      "start": 16.15,
+      "end": 21.799999999999997,
+      "duration": 5.65,
+      "text": "A few steps take it from open ground toward the grass, where it can pause and watch.",
+      "scene": "Blackbirds walking and pausing in open ground and grassy park vegetation; no disappearing claim.",
       "tags": [
         "blackbird_park_vegetation_a",
         "blackbird_park_vegetation_b"
@@ -69,11 +69,11 @@
     },
     {
       "index": 4,
-      "start": 23.45,
-      "end": 29.65,
-      "duration": 6.2,
-      "text": "A blackbird's rounded body and alert head turns make its movements easy to follow.",
-      "scene": "Blackbird visibly turning or pausing in a park.",
+      "start": 21.799999999999997,
+      "end": 27.624999999999996,
+      "duration": 5.825,
+      "text": "In dense branches, its rounded body and dark feathers can be harder to spot.",
+      "scene": "Blackbird partly hidden among berry-laden branches.",
       "tags": [
         "blackbird_alert_pause"
       ],
@@ -83,11 +83,11 @@
     },
     {
       "index": 5,
-      "start": 29.65,
-      "end": 34.875,
-      "duration": 5.225,
-      "text": "Then it is off again, checking another patch of the park for its next bite.",
-      "scene": "Blackbird moving through another park patch.",
+      "start": 27.624999999999996,
+      "end": 33.275,
+      "duration": 5.65,
+      "text": "Here it pauses again, looking over another patch of the park for its next bite.",
+      "scene": "Blackbird turning and pausing in a different grassy patch.",
       "tags": [
         "blackbird_park_final_search"
       ],
