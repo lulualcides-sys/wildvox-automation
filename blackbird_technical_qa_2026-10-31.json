@@ -1,0 +1,17 @@
+{
+  "editorial_day": "2026-10-31",
+  "scope": "common_blackbird_park_search",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "common_blackbird_park_search",
+      "revision": "2026-10-31-common_blackbird_park_search-research-v1",
+      "errors": [],
+      "duration": 34.9,
+      "freeze_durations": []
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,208 @@
+{
+  "key": "common_blackbird_park_search",
+  "title": "A BLACKBIRD'S BUSY DAY IN THE PARK",
+  "caption": "A BLACKBIRD'S BUSY DAY IN THE PARK. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-04-29_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-08_LJUBLJANA_Botanični_vrt_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-10_LJUBLJANA_Botanični_vrt_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-05_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS_2.webm | https://creativecommons.org/licenses/by/3.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-12_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS_2.webm | https://creativecommons.org/licenses/by/3.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm | https://creativecommons.org/licenses/by/3.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "0dd5c3157de3680f8b8b702a460210ec3525ff78f317ebae50faa10f5ae20b33",
+  "duration": 34.88,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.9,
+      "duration": 4.9,
+      "text": "Why does a common blackbird keep returning to the same park paths?",
+      "scene": "Blackbird visible in city park habitat.",
+      "tags": [
+        "blackbird_city_park_hook"
+      ],
+      "story_role": "hook",
+      "overlay_label": "BUSY BLACKBIRD",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.9,
+      "end": 10.65,
+      "duration": 5.75,
+      "text": "It explores short grass and the edges of paths, pausing to inspect the ground.",
+      "scene": "Blackbird on park lawn or path.",
+      "tags": [
+        "blackbird_ground_search"
+      ],
+      "story_role": "setup",
+      "overlay_label": "GROUND SEARCH",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 10.65,
+      "end": 17.125,
+      "duration": 6.475,
+      "text": "In a botanical garden, even small patches of soil and leaves can attract a searching bird.",
+      "scene": "Blackbirds in two distinct botanical garden scenes.",
+      "tags": [
+        "blackbird_botanical_garden_a",
+        "blackbird_botanical_garden_b"
+      ],
+      "story_role": "action",
+      "overlay_label": "LOOK CLOSELY",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 17.125,
+      "end": 23.45,
+      "duration": 6.325,
+      "text": "A few quick steps take it from open ground toward bushes, where it can disappear from view.",
+      "scene": "Two blackbird scenes in park vegetation.",
+      "tags": [
+        "blackbird_park_vegetation_a",
+        "blackbird_park_vegetation_b"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "QUICK STEPS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 23.45,
+      "end": 29.65,
+      "duration": 6.2,
+      "text": "A blackbird's rounded body and alert head turns make its movements easy to follow.",
+      "scene": "Blackbird visibly turning or pausing in a park.",
+      "tags": [
+        "blackbird_alert_pause"
+      ],
+      "story_role": "twist",
+      "overlay_label": "ALERT BIRD",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 29.65,
+      "end": 34.875,
+      "duration": 5.225,
+      "text": "Then it is off again, checking another patch of the park for its next bite.",
+      "scene": "Blackbird moving through another park patch.",
+      "tags": [
+        "blackbird_park_final_search"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "NEXT PATCH",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "assetTitle": "2021-12-10 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "blackbird_city_park_hook"
+      ],
+      "license_note": "Candidate from NaIzletuSi Commons source family. Individual license and real observed behavior require review before publication; never treat tag as proof."
+    },
+    {
+      "assetTitle": "2022-04-29 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-29_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-29%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "blackbird_ground_search"
+      ],
+      "license_note": "Candidate from NaIzletuSi Commons source family. Individual license and real observed behavior require review before publication; never treat tag as proof."
+    },
+    {
+      "assetTitle": "2022-06-08 LJUBLJANA Botanični vrt PASSERIFORMES Turdus merula KOS.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-08_LJUBLJANA_Botanični_vrt_PASSERIFORMES_Turdus_merula_KOS.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-08%20LJUBLJANA%20Botani%C4%8Dni%20vrt%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "blackbird_botanical_garden_a"
+      ],
+      "license_note": "Candidate from NaIzletuSi Commons source family. Individual license and real observed behavior require review before publication; never treat tag as proof."
+    },
+    {
+      "assetTitle": "2022-06-10 LJUBLJANA Botanični vrt PASSERIFORMES Turdus merula KOS.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-10_LJUBLJANA_Botanični_vrt_PASSERIFORMES_Turdus_merula_KOS.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-10%20LJUBLJANA%20Botani%C4%8Dni%20vrt%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "blackbird_botanical_garden_b"
+      ],
+      "license_note": "Candidate from NaIzletuSi Commons source family. Individual license and real observed behavior require review before publication; never treat tag as proof."
+    },
+    {
+      "assetTitle": "2022-08-05 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-05_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS_2.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-05%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS%202.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "blackbird_park_vegetation_a"
+      ],
+      "license_note": "Candidate from NaIzletuSi Commons source family. Individual license and real observed behavior require review before publication; never treat tag as proof."
+    },
+    {
+      "assetTitle": "2022-09-12 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-12_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS_2.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-12%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS%202.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "blackbird_park_vegetation_b"
+      ],
+      "license_note": "Candidate from NaIzletuSi Commons source family. Individual license and real observed behavior require review before publication; never treat tag as proof."
+    },
+    {
+      "assetTitle": "2022-09-24 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-24%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "blackbird_alert_pause"
+      ],
+      "license_note": "Candidate from NaIzletuSi Commons source family. Individual license and real observed behavior require review before publication; never treat tag as proof."
+    },
+    {
+      "assetTitle": "2022-10-14 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-14%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "tags": [
+        "blackbird_park_final_search"
+      ],
+      "license_note": "Candidate from NaIzletuSi Commons source family. Individual license and real observed behavior require review before publication; never treat tag as proof."
+    }
+  ],
+  "review_sheet": "common_blackbird_park_search_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
