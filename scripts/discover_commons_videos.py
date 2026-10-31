@@ -9,26 +9,24 @@ from urllib.error import HTTPError, URLError
 API="https://commons.wikimedia.org/w/api.php"
 UA="WildVoxFootageFirst/1.0 (source research; GitHub public repository)"
 TOPICS={
-  "mallard_duck": ["mallard","Anas platyrhynchos","Category:Videos of Anas platyrhynchos","Category:Videos of mallards"],
-  "eurasian_red_squirrel": ["red squirrel","Sciurus vulgaris","Category:Videos of Sciurus vulgaris","Category:Videos of red squirrels"],
-  "european_robin": ["European robin","Erithacus rubecula","Category:Videos of Erithacus rubecula"],
-  "domestic_goat": ["domestic goat","Capra hircus","Category:Videos of goats"],
-  "rock_pigeon": ["rock pigeon","Columba livia","Category:Videos of Columba livia","Category:Videos of pigeons"],
-  "domestic_cat": ["domestic cat","Felis catus","Category:Videos of cats"],
-  "mute_swan": ["mute swan","Cygnus olor","Category:Videos of Cygnus olor"],
-  "common_frog": ["common frog","Rana temporaria","Category:Videos of Rana temporaria"]
+  "mallard_duck": ["Anas platyrhynchos","Category:Videos of Anas platyrhynchos"],
+  "eurasian_red_squirrel": ["Sciurus vulgaris","Category:Videos of Sciurus vulgaris"],
+  "european_robin": ["Erithacus rubecula","Category:Videos of Erithacus rubecula"],
+  "domestic_goat": ["goats","Category:Videos of goats"],
+  "rock_pigeon": ["Columba livia domestica","Category:Videos of Columba livia"]
 }
+
 def api(params):
     url=API+"?"+urlencode({"action":"query","format":"json","formatversion":"2",**params})
-    for attempt in range(4):
+    for attempt in range(2):
         try:
-            with urlopen(Request(url,headers={"User-Agent":UA,"Accept":"application/json"}),timeout=35) as h:
+            with urlopen(Request(url,headers={"User-Agent":UA,"Accept":"application/json"}),timeout=15) as h:
                 result=json.load(h)
             if result.get("error"): raise RuntimeError(str(result["error"])[:200])
             return result
         except (HTTPError,URLError,TimeoutError,RuntimeError) as e:
-            if attempt==3: raise
-            time.sleep((attempt+1)*3)
+            if attempt==1: raise
+            time.sleep(1.5)
 def file_name(t):
     return t.startswith("File:") and re.search(r"\.(webm|ogv|ogg|mp4)$",t,re.I)
 def main():
@@ -38,15 +36,15 @@ def main():
         for phrase in terms:
             try:
                 if phrase.startswith("Category:"):
-                    p=api({"generator":"categorymembers","gcmtitle":phrase,"gcmtype":"file","gcmlimit":"max","prop":"info"})
+                    p=api({"generator":"categorymembers","gcmtitle":phrase,"gcmtype":"file","gcmlimit":"150","prop":"info"})
                     titles.update(x.get("title","") for x in p.get("query",{}).get("pages",[]) if file_name(x.get("title","")))
                 else:
-                    p=api({"list":"search","srsearch":phrase+" filetype:video","srnamespace":"6","srlimit":"100"})
+                    p=api({"list":"search","srsearch":phrase+" filetype:video","srnamespace":"6","srlimit":"70"})
                     titles.update(x.get("title","") for x in p.get("query",{}).get("search",[]) if file_name(x.get("title","")))
             except Exception as e:
                 print(f"SEARCH_WARNING {topic} {phrase}: {str(e)[:120]}")
         rows=[]
-        for i in range(0,len(titles),20):
+        for i in range(0,min(len(titles),100),20):
             batch=sorted(titles)[i:i+20]
             try:
                 j=api({"prop":"imageinfo","iiprop":"url|size|mime|sha1|extmetadata","titles":"|".join(batch)})
@@ -68,7 +66,16 @@ def main():
                   "type":"video","author":creator,"license":license,
                   "license_url":(md.get("LicenseUrl") or {}).get("value",""),
                   "license_verified_at":"2026-10-31","size":ii["size"],"sha1":ii["sha1"],"original_url":ii["url"]})
-        rows.sort(key=lambda x:(x["size"]>120*1024*1024,x["size"]<1*1024*1024, len(x["assetTitle"]),x["assetTitle"]))
+        rows.sort(key=lambda x:(
+          not bool(re.search({
+            "mallard_duck":r"mallard|platyrhynchos|mlakarica",
+            "eurasian_red_squirrel":r"sciurus vulgaris|red squirrel|veverica|eichhoernchen",
+            "european_robin":r"erithacus rubecula|european robin|taščica",
+            "domestic_goat":r"goats?\\b|capra hircus|nubian|vuohi",
+            "rock_pigeon":r"columba livia|domestic pigeon|mestni golob|pigeons?"
+          }[topic],x["assetTitle"],re.I)),
+          x["size"]>120*1024*1024,x["size"]<1*1024*1024,
+          len(x["assetTitle"]),x["assetTitle"]))
         result[topic]={"count":len(rows),"candidates":rows[:35]}
         print("TOPIC",topic,"FOUND",len(rows),"SHORTLIST",[(x["assetTitle"][:72],x["license"],x["size"]//1024//1024) for x in rows[:18]])
     Path("commons-discovery.json").write_text(json.dumps({"day":"2026-10-31","research_only":True,"topics":result},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
