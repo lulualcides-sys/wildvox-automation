@@ -277,8 +277,8 @@
         "tags": [
           "red_squirrel_tail_visible"
         ],
-        "license_note": "Distinct original Commons video; final action window requires review.",
-        "start_seconds": 0
+        "license_note": "31 Oct original source triptych: squirrel and tail visible near 11.1s; start at 8.5s, verify final exact 5.7s window.",
+        "start_seconds": 8.5
       },
       {
         "assetTitle": "2022-02-25 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
@@ -375,7 +375,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-eurasian_red_squirrel_stop_and_go-editorial-v4",
+    "revision": "2026-10-31-eurasian_red_squirrel_stop_and_go-editorial-v5",
     "publication_hold": true,
     "trend_priority": false
   },
