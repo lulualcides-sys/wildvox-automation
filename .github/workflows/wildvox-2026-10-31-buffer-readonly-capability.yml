@@ -34,6 +34,12 @@ jobs:
             "mute_swan_pond_glide":"6ae5d723b84259308bd460ef",
           }
           org,channel=find_tiktok_channel()
+          channel_data=graphql('query { channels(input:{organizationId:'+json.dumps(org)+'}) { id name displayName service externalLink serviceId } }')['channels']
+          chosen=next(x for x in channel_data if x['id']==channel)
+          print('BUFFER_CHANNEL_ID='+str(chosen['id']))
+          print('BUFFER_CHANNEL_NAME='+str(chosen['name']))
+          print('BUFFER_CHANNEL_DISPLAY='+str(chosen['displayName']))
+          print('BUFFER_CHANNEL_EXTERNAL_LINK='+str(chosen['externalLink']))
           posts=[]
           after=None
           for _ in range(8):
@@ -58,7 +64,7 @@ jobs:
             results.append(row)
             print("BUFFER_POST_STATUS "+key+" "+row["status"]+" "+str(row["due_at"])+" tiktok_link="+str(bool(row["tiktok_video_url"])))
           counts={status:sum(r["status"]==status for r in results) for status in ("scheduled","sent","error","not_returned")}
-          payload={"editorial_day":"2026-10-31","checked_at_utc":datetime.now(timezone.utc).isoformat(),"checked_at_sao_paulo":datetime.now(TZ).isoformat(),"channel":"tiktok:@wildvox","provider":"buffer","buffer_status_counts":counts,"tiktok_publication_confirmed":sum(r["tiktok_publication_confirmed"] for r in results),"note":"TikTok confirmation requires Buffer sent + sentAt + automatic + platform externalLink. TikTok analytics can lag. No posts created or modified.","posts":results}
+          payload={"editorial_day":"2026-10-31","checked_at_utc":datetime.now(timezone.utc).isoformat(),"checked_at_sao_paulo":datetime.now(TZ).isoformat(),"channel":"tiktok:@wildvox","buffer_channel_name":chosen['name'],"buffer_channel_external_link":chosen['externalLink'],"buffer_channel_service_id":chosen['serviceId'],"provider":"buffer","buffer_status_counts":counts,"tiktok_publication_confirmed":sum(r["tiktok_publication_confirmed"] for r in results),"note":"TikTok confirmation requires Buffer sent + sentAt + automatic + platform externalLink. TikTok analytics can lag. No posts created or modified.","posts":results}
           dest=Path("qa/reviews/2026-10-31-buffer-status-check.json")
           dest.parent.mkdir(parents=True,exist_ok=True)
           dest.write_text(json.dumps(payload,indent=2)+"\n")
