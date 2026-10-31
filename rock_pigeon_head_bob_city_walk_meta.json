@@ -1,0 +1,225 @@
+{
+  "key": "rock_pigeon_head_bob_city_walk",
+  "title": "WHY PIGEONS BOB THEIR HEADS WHILE WALKING",
+  "caption": "WHY PIGEONS BOB THEIR HEADS WHILE WALKING. #WildVox #Wildlife #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-10_LJUBLJANA_Opera_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm | https://creativecommons.org/licenses/by/3.0\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Breg_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm | https://creativecommons.org/licenses/by/3.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-22_LJUBLJANA_%C5%A0pica_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-24_LJUBLJANA_%C5%A0pica_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-26_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-03_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm | https://creativecommons.org/licenses/by/3.0\n8. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Columba_livia_forma_domestica_-_courtship_dance2.ogv | https://creativecommons.org/publicdomain/mark/1.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "21e09badd5549b04af0e06f0c4aedbdd856f4a60a1aca2b6b0297ef336c67bff",
+  "duration": 38.88,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.925,
+      "duration": 4.925,
+      "text": "Why does this city pigeon move its head in little jerks as it walks?",
+      "scene": "Single pigeon walking on city pavement.",
+      "tags": [
+        "rock_pigeon_walking_city_road"
+      ],
+      "story_role": "hook",
+      "overlay_label": "HEAD BOB",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.925,
+      "end": 11.75,
+      "duration": 6.825,
+      "text": "Rock pigeons share ledges and sidewalks with people, and their steps reveal a surprising trick.",
+      "scene": "Two pigeons on urban ledge.",
+      "tags": [
+        "rock_pigeons_on_urban_ledge"
+      ],
+      "story_role": "setup",
+      "overlay_label": "CITY WALK",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.75,
+      "end": 18.85,
+      "duration": 7.1,
+      "text": "On pavement or rooftops, the body steps forward while the head briefly holds still, then catches up.",
+      "scene": "Pigeons walking on a path and on rooftop courtship footage.",
+      "tags": [
+        "rock_pigeon_on_prule_sidewalk",
+        "pigeon_courtship_walk_roof"
+      ],
+      "story_role": "action",
+      "overlay_label": "STEADY VIEW",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 18.85,
+      "end": 25.325000000000003,
+      "duration": 6.475,
+      "text": "When a pigeon rests, that head movement disappears because its body is no longer walking.",
+      "scene": "Pigeon visibly resting on gravel, no claim of movement.",
+      "tags": [
+        "rock_pigeon_resting_riverside"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "RESTING",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 25.325000000000003,
+      "end": 32.650000000000006,
+      "duration": 7.325,
+      "text": "But walking is only part of city life: pigeons also peck at the ground, gather to bathe and preen.",
+      "scene": "Pigeon pecking at city ground, followed by group bathing in shallow water; inspect both exact windows.",
+      "tags": [
+        "rock_pigeon_pecking_city_ground",
+        "rock_pigeons_bathing_shallow_water"
+      ],
+      "story_role": "twist",
+      "overlay_label": "BATH TIME",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 32.650000000000006,
+      "end": 38.87500000000001,
+      "duration": 6.225,
+      "text": "Once they move again, the familiar bob returns across paths and waterside grass.",
+      "scene": "Pigeons walking on grass and group on path, two sources.",
+      "tags": [
+        "rock_pigeon_on_prule_path",
+        "rock_pigeons_walking_spica_group"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "BOB RETURNS",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "assetTitle": "2022-10-10 LJUBLJANA Opera COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-10_LJUBLJANA_Opera_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-10%20LJUBLJANA%20Opera%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "rock_pigeon_walking_city_road"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2022-09-24 LJUBLJANA Breg COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Breg_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-24%20LJUBLJANA%20Breg%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "rock_pigeons_on_urban_ledge"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2022-05-13 LJUBLJANA Prule COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-13%20LJUBLJANA%20Prule%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "rock_pigeon_on_prule_sidewalk"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2022-06-22 LJUBLJANA Špica COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-22_LJUBLJANA_%C5%A0pica_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-22%20LJUBLJANA%20%C5%A0pica%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "rock_pigeon_resting_riverside"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2022-06-24 LJUBLJANA Špica COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-24_LJUBLJANA_%C5%A0pica_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-24%20LJUBLJANA%20%C5%A0pica%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "rock_pigeons_bathing_shallow_water"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2022-08-26 LJUBLJANA Prule COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-26_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-26%20LJUBLJANA%20Prule%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "rock_pigeon_pecking_city_ground"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "2022-10-03 LJUBLJANA Prule COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-03_LJUBLJANA_Prule_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-03%20LJUBLJANA%20Prule%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "rock_pigeon_on_prule_path"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY.",
+      "start_seconds": 0
+    },
+    {
+      "assetTitle": "Columba livia forma domestica - courtship dance2.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Columba_livia_forma_domestica_-_courtship_dance2.ogv",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Columba%20livia%20forma%20domestica%20-%20courtship%20dance2.ogv",
+      "type": "video",
+      "author": "Bisco",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "pigeon_courtship_walk_roof"
+      ],
+      "license_note": "Original Commons public-domain courtship footage; walking visible in sampled frames.",
+      "start_seconds": 0
+    }
+  ],
+  "review_sheet": "rock_pigeon_head_bob_city_walk_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

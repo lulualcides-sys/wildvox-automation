@@ -1,0 +1,17 @@
+{
+  "editorial_day": "2026-10-31",
+  "scope": "rock_pigeon_head_bob_city_walk",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "rock_pigeon_head_bob_city_walk",
+      "revision": "2026-10-31-rock_pigeon_head_bob_city_walk-editorial-v4",
+      "errors": [],
+      "duration": 38.875,
+      "freeze_durations": []
+    }
+  ],
+  "errors": []
+}
