@@ -9,28 +9,27 @@ from urllib.error import HTTPError, URLError
 API="https://commons.wikimedia.org/w/api.php"
 UA="WildVoxFootageFirst/1.0 (source research; GitHub public repository)"
 TOPICS={
-  "mallard_duck": ["Anas platyrhynchos","Category:Videos of Anas platyrhynchos"],
-  "eurasian_red_squirrel": ["Sciurus vulgaris","Category:Videos of Sciurus vulgaris"],
-  "european_robin": ["Erithacus rubecula","Category:Videos of Erithacus rubecula"],
   "domestic_goat": ["goats","Category:Videos of goats"],
-  "rock_pigeon": ["Columba livia domestica","Category:Videos of Columba livia"]
+  "rock_pigeon": ["Columba livia domestica","Category:Videos of Columba livia"],
+  "european_robin": ["Erithacus rubecula","Category:Videos of Erithacus rubecula"]
 }
 
 def api(params):
     url=API+"?"+urlencode({"action":"query","format":"json","formatversion":"2",**params})
-    for attempt in range(2):
+    for attempt in range(3):
         try:
             with urlopen(Request(url,headers={"User-Agent":UA,"Accept":"application/json"}),timeout=15) as h:
                 result=json.load(h)
             if result.get("error"): raise RuntimeError(str(result["error"])[:200])
             return result
         except (HTTPError,URLError,TimeoutError,RuntimeError) as e:
-            if attempt==1: raise
-            time.sleep(1.5)
+            if attempt==2: raise
+            time.sleep(4*(attempt+1))
 def file_name(t):
     return t.startswith("File:") and re.search(r"\.(webm|ogv|ogg|mp4)$",t,re.I)
 def main():
-    result={}
+    previous=Path("qa/footage-first-2026-10-31.json")
+    result=json.loads(previous.read_text(encoding="utf-8")).get("topics",{}) if previous.exists() else {}
     for topic,terms in TOPICS.items():
         titles=set()
         for phrase in terms:
