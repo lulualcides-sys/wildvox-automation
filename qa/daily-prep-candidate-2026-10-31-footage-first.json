@@ -373,7 +373,7 @@
   },
   "goat_herd_hillside_grazing": {
     "title": "THE GOAT HERD THAT WORKS LIKE A LAWNMOWER",
-    "script": "Why are these goats spread across a hillside like a living lawn mower? A group can move together through open ground, searching for vegetation within reach. Some lower their heads to eat, choosing plants as they move from one patch to another, with different animals feeding in different spots. Between meals, goats also pause to groom or rest; feeding is only part of their day, especially in a quiet managed pen. Young kids have a different priority, staying close to their mothers for milk. From nursing young to grazing adults, the herd keeps moving through the plants together.",
+    "script": "Why are these goats spread across a hillside like a living lawn mower? A group can move together through open ground, searching for vegetation within reach. Some goats pause in the grass, while others lower their heads to eat hay, choosing plants from one patch to another. Between meals, goats also pause to groom or rest; feeding is only part of their day, especially in a quiet managed pen. Young kids have a different priority, staying close to their mothers for milk. From nursing kids to a watchful adult in a grassy enclosure, goat life is more than grazing.",
     "caption": "THE GOAT HERD THAT WORKS LIKE A LAWNMOWER. #WildVox #Wildlife #AnimalFacts",
     "sources": [
       {
@@ -509,8 +509,8 @@
         "overlay_label": "HERD ON THE MOVE"
       },
       {
-        "text": "Some lower their heads to eat, choosing plants as they move from one patch to another, with different animals feeding in different spots.",
-        "scene": "Close goats eating hay and separate goat on grass.",
+        "text": "Some goats pause in the grass, while others lower their heads to eat hay, choosing plants from one patch to another.",
+        "scene": "One goat rests in a grassy meadow, followed by close goats visibly eating hay.",
         "tags": [
           "goats_eating_hay_close",
           "domestic_goat_on_grassy_meadow"
@@ -538,13 +538,13 @@
         "overlay_label": "NEWBORN KIDS"
       },
       {
-        "text": "From nursing young to grazing adults, the herd keeps moving through the plants together.",
-        "scene": "Goat visibly in grassy field; verify movement window.",
+        "text": "From nursing kids to a watchful adult in a grassy enclosure, goat life is more than grazing.",
+        "scene": "Adult goat standing alert in a grassy fenced enclosure; no claim of active grazing.",
         "tags": [
           "domestic_goat_in_open_grass"
         ],
         "story_role": "payoff",
-        "overlay_label": "BACK TO GRAZING"
+        "overlay_label": "MORE THAN GRAZING"
       }
     ],
     "min_unique_videos": 6,
@@ -553,7 +553,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-goat_herd_hillside_grazing-research-v2",
+    "revision": "2026-10-31-goat_herd_hillside_grazing-editorial-v3",
     "publication_hold": true,
     "trend_priority": false
   },
