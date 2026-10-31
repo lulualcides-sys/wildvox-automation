@@ -45,7 +45,7 @@ jobs:
             all_posts=[];after=None
             for _ in range(8):
               after_arg='' if not after else ', after: '+json.dumps(after)
-              q='query { posts(first:50'+after_arg+', input:{ organizationId:'+json.dumps(org)+', filter:{channelIds:['+json.dumps(channel)+'],status:[draft,scheduled,sent,error,sending]} }) { edges { node { id status channelId dueAt } } pageInfo { hasNextPage endCursor } } }'
+              q='query { posts(first:50'+after_arg+', input:{ organizationId:'+json.dumps(org)+', filter:{channelIds:['+json.dumps(channel)+'],status:[draft,scheduled,sent,error,sending]} }) { edges { node { id status channelId dueAt text } } pageInfo { hasNextPage endCursor } } }'
               page=graphql(q)['posts']
               all_posts.extend(edge['node'] for edge in page['edges'])
               if not page['pageInfo']['hasNextPage']:break
@@ -65,7 +65,7 @@ jobs:
               result.append({'key':key,'id':post_id,'before':status,'action':'not_scheduled_no_change'})
               continue
             mutation='mutation($input:EditPostInput!){ editPost(input:$input){ __typename ... on PostActionSuccess { post { id status channelId } } ... on MutationError { message } } }'
-            response=graphql(mutation,{'input':{'id':post_id,'saveToDraft':True}})['editPost']
+            response=graphql(mutation,{'input':{'id':post_id,'saveToDraft':True,'text':p['text']}})['editPost']
             if response.get('__typename')!='PostActionSuccess':
               result.append({'key':key,'id':post_id,'before':status,'action':'ERROR','error':str(response.get('message',response['__typename']))[:200]})
             else:
