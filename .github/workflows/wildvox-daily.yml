@@ -202,31 +202,35 @@ jobs:
           git config user.name "wildvox-bot"
           git config user.email "actions@users.noreply.github.com"
           git config http.version HTTP/1.1
-          cp "$GITHUB_WORKSPACE/public/${key}.mp4" .
-          cp "$GITHUB_WORKSPACE/public/${key}_meta.json" .
-          cp "$GITHUB_WORKSPACE/public/${key}_review.jpg" .
-          git add -- "${key}.mp4" "${key}_meta.json" "${key}_review.jpg"
-          if git diff --cached --quiet; then
-            echo "Candidate already stored; skip duplicate commit."
-            exit 0
-          fi
-          git commit -m "Store independently qualified WildVox candidate: ${key}"
-          for attempt in 1 2 3; do
-            if git push origin HEAD:media; then
-              echo "Stored ${key} as a QA candidate, not editorially approved."
+          # Refresh the remote tip and restage on EVERY retry. Re-pushing a
+          # rejected detached commit without rebasing cannot fix a branch race.
+          for attempt in 1 2 3 4 5 6; do
+            git fetch origin media
+            git reset --hard FETCH_HEAD
+            cp "$GITHUB_WORKSPACE/public/${key}.mp4" .
+            cp "$GITHUB_WORKSPACE/public/${key}_meta.json" .
+            cp "$GITHUB_WORKSPACE/public/${key}_review.jpg" .
+            git add -- "${key}.mp4" "${key}_meta.json" "${key}_review.jpg"
+            if git diff --cached --quiet; then
+              echo "Exact candidate already archived; no duplicate commit."
               exit 0
             fi
+            git commit -m "Store independently qualified WildVox candidate: ${key}"
+            if git push origin HEAD:media; then
+              echo "Stored ${key} as QA candidate, not editorially approved."
+              exit 0
+            fi
+            # Another workflow may have pushed to media. Fetch/reset and
+            # restage our exact files, never force-push or discard others.
             git fetch origin media
             if git merge-base --is-ancestor HEAD FETCH_HEAD; then
-              echo "GitHub accepted push despite an ambiguous HTTP response."
+              echo "Commit is present remotely despite ambiguous push response."
               exit 0
             fi
-            if [ "$attempt" -eq 3 ]; then
-              echo "Media push failed after three attempts." >&2
-              exit 1
-            fi
-            sleep $((attempt * 15))
+            sleep $((attempt * 3))
           done
+          echo "Media archive failed after six refreshed retries." >&2
+          exit 1
       - name: Preserve per-candidate technical QA verdict
         if: always()
         uses: actions/upload-artifact@v4
