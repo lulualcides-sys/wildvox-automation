@@ -83,7 +83,21 @@ def preview(item, out, index, maxbytes):
     if not name or "/" in name or "\\" in name:
         raise ValueError("Invalid Commons file name")
     key = f"candidate_{index:02d}"
-    direct, used_transcode = resolve_media(name, maxbytes)
+    # Discovery already recorded the verified Commons original URL, MIME and
+    # byte size. Reuse that exact original to avoid redundant API calls/429s.
+    # Reject arbitrary domains and filenames; oversized originals still require
+    # an official Commons derivative lookup.
+    cached = item.get("verified_original_url")
+    size = int(item.get("verified_original_size") or 0)
+    if cached and 100000 < size <= maxbytes:
+        parsed = urlsplit(cached)
+        remote_name = unquote(Path(parsed.path).name).replace("_", " ")
+        if (parsed.scheme != "https" or parsed.netloc != "upload.wikimedia.org"
+                or remote_name != name):
+            raise ValueError("Verified original URL does not match Commons filename")
+        direct, used_transcode = cached, False
+    else:
+        direct, used_transcode = resolve_media(name, maxbytes)
     ext = Path(urlsplit(direct).path).suffix.lower()
     if ext not in (".webm", ".mp4", ".ogv"):
         raise ValueError("Commons returned a non-video URL")
