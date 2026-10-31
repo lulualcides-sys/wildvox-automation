@@ -54,15 +54,22 @@
       "media_file": "rock_pigeon_head_bob_city_walk.mp4",
       "editorial_review": "2026-10-31 independent final contact sheet + 8 original source triptychs, 38.875s 1080x1920 H264/AAC, no frozen segments flagged, source actions aligned, Bisco public-domain source verified",
       "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=5307507754810822063"
+    },
+    {
+      "key": "mallard_duckling_paddle_line",
+      "title": "HOW MALLARDS MOVE BETWEEN LAND AND WATER",
+      "metricool_post_id": 412072008,
+      "metricool_uuid": "-8998971020839729018",
+      "slot_local": "2026-10-31T14:10:00-03:00",
+      "provider_status": "PENDING",
+      "published_confirmed": false,
+      "config_sha256": "b10c6c35a62de56ffd620ba05929a0268d52c050cb1978b4320f2117621804ea",
+      "media_file": "mallard_duckling_paddle_line.mp4",
+      "editorial_review": "2026-10-31 original v3 rejected for false duckling footage; v4 rewritten around observed land/water clips; 8 source triptychs + v4 final review sheet inspected; 37.7s, 1080x1920, no freeze flagged, credits in caption",
+      "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-8998971020839729018"
     }
   ],
   "in_progress": [
-    {
-      "key": "mallard_duckling_paddle_line",
-      "branch": "recovery/wildvox-mallard-20261031",
-      "workflow_run": 41194963193,
-      "status": "rerender after observed-source aligned narrative revision v4; still on hold"
-    },
     {
       "key": "eurasian_red_squirrel_stop_and_go",
       "branch": "recovery/wildvox-squirrel-editorial-v4-20261031",
