@@ -1,0 +1,22 @@
+{
+  "editorial_day": "2026-10-31",
+  "key": "lion_cubs_learning_through_play",
+  "revision": "2026-10-31-lion_cubs_learning_through_play-editorial-v4",
+  "config_sha256": "88484825540d4b9d4759ea5aaeb8e2541160474f62e670858e1d1537483cc3d9",
+  "media_blob_sha": "f8a583d882c58b3a474c09fef00722b270e6d482",
+  "technical_qa_report": "media:lion_technical_qa_2026-10-31.json",
+  "duration_seconds": 35.8,
+  "freeze_durations": [],
+  "source_preview_directory": "qa/reviews/lion-original",
+  "current_render_review": "qa/reviews/lion-2026-10-31-motion-1fps.jpg",
+  "approved_for_tiktok_only": true,
+  "publication_hold_in_source_config": true,
+  "editorial_review": {
+    "species": "Lions, cubs and lionesses identifiable in all eight authentic source previews, including separate zoo and wild scenes.",
+    "narration": "Corrected earlier false walking claim: final wild lion is shown standing calmly beside safari vehicles, and v4 narration says exactly that.",
+    "visual": "Decoded 1fps current MP4 and original source triptychs reviewed for cub play, adults resting, grooming, drinking and safari vehicles. No freeze >=1s in QA.",
+    "rights": "Eight Commons source pages with authors and CC BY 2.0/3.0 or CC0, complete author/license/source URLs and 9:16 crop/subtitles/narration modification notice in TikTok caption.",
+    "caption_safe_area": "1080x1920; captions legible in actual decoded 1fps frames.",
+    "remaining_note": "Check Metricool scheduled/published duplicates and confirm post ID/status before claiming scheduled; publication remains unconfirmed."
+  }
+}
