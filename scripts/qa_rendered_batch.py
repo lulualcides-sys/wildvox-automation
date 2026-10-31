@@ -86,11 +86,23 @@ def sources_match(config_sources, rendered_sources):
     return config_sources == rendered_sources
 
 
-def inspect(config, directory, day):
-    errors, records, urls = [], [], set()
+def inspect(config, directory, day, selected_key=None):
+    """Inspect one independently deliverable candidate or the full five-video batch.
+
+    Single-candidate mode still checks cross-video source reuse, freshness,
+    metadata fingerprints, captions and technical conditions. A defect in a
+    *different* candidate cannot prevent a sound candidate from reaching QA.
+    """
+    errors, records = [], []
+    all_urls = [source.get("url") for entry in config.values()
+                for source in (entry.get("sources") or [])]
+    if selected_key is not None and selected_key not in config:
+        errors.append(f"Unknown video key: {selected_key}")
     if len(config) != 5:
         errors.append(f"Expected exactly five videos, got {len(config)}")
     for key, cfg in config.items():
+        if selected_key is not None and key != selected_key:
+            continue
         item = {"key": key, "revision": cfg.get("revision"), "errors": []}
         bad = item["errors"]
         video = directory / f"{key}.mp4"
@@ -113,9 +125,8 @@ def inspect(config, directory, day):
             bad.append("8-12 assets and >=6 genuine videos required")
         for s in sources:
             url = s.get("url")
-            if not url or url in urls:
-                bad.append(f"Duplicate/missing URL: {url}")
-            urls.add(url)
+            if not url or all_urls.count(url) != 1:
+                bad.append(f"Duplicate/missing URL across daily batch: {url}")
             if not all(s.get(k) for k in ("author", "license", "license_url", "sourcePage")):
                 bad.append(f"Incomplete credits: {s.get('assetTitle', url)}")
         if video.is_file():
@@ -166,7 +177,8 @@ def inspect(config, directory, day):
                 bad.append(f"Metadata error: {exc}")
         errors.extend(f"{key}: {msg}" for msg in bad)
         records.append(item)
-    return {"editorial_day": day, "technical_pass": not errors,
+    return {"editorial_day": day, "scope": selected_key or "full_batch",
+            "technical_pass": not errors,
             "editorial_approved": False, "publication_hold": True,
             "videos": records, "errors": errors}
 
@@ -177,10 +189,11 @@ def main():
     ap.add_argument("--media-dir", default="public")
     ap.add_argument("--report", default="technical_qa_report.json")
     ap.add_argument("--date")
+    ap.add_argument("--key", help="Validate one candidate, keeping five-video and cross-video uniqueness checks")
     args = ap.parse_args()
     day = args.date or datetime.now(ZoneInfo("America/Sao_Paulo")).date().isoformat()
     config = json.loads(Path(args.config).read_text(encoding="utf-8"))
-    report = inspect(config, Path(args.media_dir), day)
+    report = inspect(config, Path(args.media_dir), day, selected_key=args.key)
     Path(args.report).write_text(
         json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     for item in report["videos"]:
