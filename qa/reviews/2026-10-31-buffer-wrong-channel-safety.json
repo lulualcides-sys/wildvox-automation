@@ -1,0 +1,82 @@
+{
+  "checked_at_sao_paulo": "2026-10-31T10:01:15.038190-03:00",
+  "expected_channel": "@wildvox",
+  "actual_buffer_channel": "wildvox6",
+  "actual_buffer_channel_link": "https://tiktok.com/@wildvox6",
+  "wrong_handle": true,
+  "first_blackbird_already_sent_on_wrong_handle": true,
+  "posts": [
+    {
+      "key": "goat_herd_hillside_grazing",
+      "id": "6ae5d708b84259308bd45d80",
+      "before": "scheduled",
+      "action": "ERROR",
+      "error": "Invalid post: Post must have either text or media.",
+      "verified_status": "scheduled"
+    },
+    {
+      "key": "giraffe_reaching_for_food",
+      "id": "6ae5d70ca114574349a1e3da",
+      "before": "scheduled",
+      "action": "ERROR",
+      "error": "Invalid post: Post must have either text or media.",
+      "verified_status": "scheduled"
+    },
+    {
+      "key": "great_egret_unexpected_perch",
+      "id": "6ae5d710ceb491e585f46246",
+      "before": "scheduled",
+      "action": "ERROR",
+      "error": "Invalid post: Post must have either text or media.",
+      "verified_status": "scheduled"
+    },
+    {
+      "key": "rock_pigeon_head_bob_city_walk",
+      "id": "6ae5d713b84259308bd45e1f",
+      "before": "scheduled",
+      "action": "ERROR",
+      "error": "Invalid post: Post must have either text or media.",
+      "verified_status": "scheduled"
+    },
+    {
+      "key": "mallard_duckling_paddle_line",
+      "id": "6ae5d717ceb491e585f4633d",
+      "before": "scheduled",
+      "action": "ERROR",
+      "error": "Invalid post: Post must have either text or media.",
+      "verified_status": "scheduled"
+    },
+    {
+      "key": "eurasian_red_squirrel_stop_and_go",
+      "id": "6ae5d74fceb491e585f474ed",
+      "before": "scheduled",
+      "action": "ERROR",
+      "error": "Invalid post: Post must have either text or media.",
+      "verified_status": "scheduled"
+    },
+    {
+      "key": "grey_heron_patient_fishing",
+      "id": "6ae5d71b1891472093ce575a",
+      "before": "scheduled",
+      "action": "ERROR",
+      "error": "Invalid post: Post must have either text or media.",
+      "verified_status": "scheduled"
+    },
+    {
+      "key": "lion_cubs_learning_through_play",
+      "id": "6ae5d71fb84259308bd46061",
+      "before": "scheduled",
+      "action": "ERROR",
+      "error": "Invalid post: Post must have either text or media.",
+      "verified_status": "scheduled"
+    },
+    {
+      "key": "mute_swan_pond_glide",
+      "id": "6ae5d723b84259308bd460ef",
+      "before": "scheduled",
+      "action": "ERROR",
+      "error": "Invalid post: Post must have either text or media.",
+      "verified_status": "scheduled"
+    }
+  ]
+}
