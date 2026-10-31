@@ -1,0 +1,79 @@
+{
+  "checked_at_local": "2026-10-31T12:03:33-03:00",
+  "account": "TikTok @wildvox via Metricool brand 7242311; exact connected handle verified",
+  "main_sha": "58f0c49bbf9fbfbe0529e758f972b58013ba851d",
+  "daily_blob_sha": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "posts": [
+    {
+      "id": 412139137,
+      "title": "blackbird",
+      "scheduled_local": "10:25",
+      "status": "ERROR",
+      "detail": "You have reached your Metricool account limit."
+    },
+    {
+      "id": 412138716,
+      "title": "goat",
+      "scheduled_local": "11:20",
+      "status": "ERROR",
+      "detail": "You have reached your Metricool account limit."
+    },
+    {
+      "id": 412139187,
+      "title": "giraffe",
+      "scheduled_local": "12:05",
+      "status": "PENDING"
+    },
+    {
+      "id": 412139240,
+      "title": "egret",
+      "scheduled_local": "12:40",
+      "status": "PENDING"
+    },
+    {
+      "id": 412139274,
+      "title": "pigeon",
+      "scheduled_local": "14:10",
+      "status": "PENDING"
+    },
+    {
+      "id": 412139319,
+      "title": "mallard",
+      "scheduled_local": "16:10",
+      "status": "PENDING"
+    },
+    {
+      "id": 412139350,
+      "title": "squirrel",
+      "scheduled_local": "17:50",
+      "status": "PENDING"
+    },
+    {
+      "id": 412139534,
+      "title": "heron",
+      "scheduled_local": "19:35",
+      "status": "PENDING"
+    },
+    {
+      "id": 412139565,
+      "title": "lion",
+      "scheduled_local": "20:55",
+      "status": "PENDING"
+    },
+    {
+      "id": 412139850,
+      "title": "swan",
+      "scheduled_local": "22:05",
+      "status": "PENDING"
+    }
+  ],
+  "summary": {
+    "metricool_posts": 10,
+    "provider_error": 2,
+    "provider_pending": 8,
+    "confirmed_published_tiktok_analytics_rows": 0
+  },
+  "source": "Metricool getScheduledPosts and getAnalyticsDataByMetrics TKPO01/TKPO02/TKPO03/TKPO05 for 2026-10-31",
+  "actions": "No duplicates created, no old media republished, no Buffer @wildvox6 actions, no new renders. Existing scheduled media retained. Two independent scheduled times have failed with the same Metricool account quota error. No configured audited exact-handle alternate is available.",
+  "next": "Monitor remaining provider statuses; if further failures same account limit, consolidate without repeat notification. Preserve assets for next quota period, do not claim publication without @wildvox TikTok evidence. Oct 31 cap is ten distinct titles, not ten new retry attempts. From Nov 1 revert to five/day target but acknowledge 20/month free cap cannot support it."
+}
