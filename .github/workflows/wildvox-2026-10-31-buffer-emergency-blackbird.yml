@@ -1,0 +1,60 @@
+name: WildVox — emergency Buffer TikTok blackbird (Metricool capped)
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-buffer-emergency-blackbird.yml'
+permissions:
+  contents: write
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Schedule exactly ONE reviewed TikTok @wildvox video via connected Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime,timedelta
+          from pathlib import Path
+          from urllib.request import urlopen
+          from scripts.publish_buffer import TZ,find_tiktok_channel,read_existing_posts,validate_public_url,schedule_video,normalize_caption
+          key='common_blackbird_park_search'
+          expected='c6ef4dce13f5ffe82e461a469f0ad68785f9a16b5d3bbac46a41cc72dfa00aa1'
+          approval=json.load(open('qa/reviews/blackbird-2026-10-31-editorial-approval.json'))
+          assert approval['approved_for_tiktok_only'] and approval['config_sha256']==expected
+          base='https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/'
+          meta=json.load(urlopen(base+key+'_meta.json',timeout=35))
+          assert meta['config_sha256']==expected and meta['key']==key
+          assert 30<=float(meta['duration'])<=45 and len(meta['sources'])==8
+          url=base+key+'.mp4'
+          validate_public_url(url)
+          caption=normalize_caption(meta['caption'])
+          org,channel=find_tiktok_channel()
+          posts=read_existing_posts(org,channel)
+          if any(p.get('text','').strip()==caption for p in posts):
+              print('BUFFER_ALREADY_EXISTS=true; no duplicate')
+              raise SystemExit(0)
+          if sum(p.get('status')=='scheduled' for p in posts)>=10:
+              raise RuntimeError('Buffer free queue full')
+          due=datetime(2026,10,31,9,15,tzinfo=TZ)
+          if due<=datetime.now(TZ)+timedelta(minutes=10):
+              raise RuntimeError('09:15 slot too close/past, do not backdate')
+          post=schedule_video(channel,caption,url,due)
+          print('BUFFER_POST_ID='+str(post['id']))
+          print('BUFFER_STATUS='+str(post.get('status')))
+          print('BUFFER_DUE_AT='+str(post.get('dueAt')))
+          receipt={'editorial_day':'2026-10-31','key':key,'config_sha256':expected,'provider':'buffer','channel':'tiktok:@wildvox','buffer_post_id':post['id'],'buffer_status':post.get('status'),'due_at':post.get('dueAt'),'metricool_previous_post_id':412090565,'metricool_draft':True,'confirmed_published':False}
+          Path('qa/reviews/blackbird-2026-10-31-buffer-fallback.json').write_text(json.dumps(receipt,indent=2)+'\n')
+          PY
+      - name: Persist receipt without any credentials
+        run: |
+          if [ ! -f qa/reviews/blackbird-2026-10-31-buffer-fallback.json ]; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add qa/reviews/blackbird-2026-10-31-buffer-fallback.json
+          git commit -m 'schedule: verified Buffer TikTok blackbird fallback after Metricool limit'
+          git pull --rebase origin recovery/wildvox-blackbird-20261031
+          git push origin HEAD:recovery/wildvox-blackbird-20261031
