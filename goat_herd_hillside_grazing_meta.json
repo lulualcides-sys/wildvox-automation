@@ -1,0 +1,216 @@
+{
+  "key": "goat_herd_hillside_grazing",
+  "title": "THE GOAT HERD THAT WORKS LIKE A LAWNMOWER",
+  "caption": "THE GOAT HERD THAT WORKS LIKE A LAWNMOWER. #WildVox #Wildlife #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Kat Walsh | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm | https://creativecommons.org/licenses/by/4.0\n2. https://www.flickr.com/photos/gails_pictures/ | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_video.webm | https://creativecommons.org/licenses/by/2.0\n3. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_eating.webm | https://creativecommons.org/licenses/by/2.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0\n5. Rivadavia.vila | CC0 | https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_yawning.webm | https://creativecommons.org/licenses/by/2.0\n7. Darius Dunlap | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Newborn_goats.webm | https://creativecommons.org/licenses/by/2.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "c8d42a1bad3a4411e0f76119327208fda124e580b114fd6e72f727e8c254a93a",
+  "duration": 39.98,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.6,
+      "duration": 4.6,
+      "text": "Why are these goats spread across a hillside like a living lawn mower?",
+      "scene": "Real managed goat herd grazing across grassy slope.",
+      "tags": [
+        "goat_herd_grazing_sunnyvale_hillside"
+      ],
+      "story_role": "hook",
+      "overlay_label": "LIVING MOWERS",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.6,
+      "end": 10.475,
+      "duration": 5.875,
+      "text": "A group can move together through open ground, searching for vegetation within reach.",
+      "scene": "Goat herd on rocky ground, clearly a separate location.",
+      "tags": [
+        "goat_herd_moving_rocky_ground"
+      ],
+      "story_role": "setup",
+      "overlay_label": "HERD ON THE MOVE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 10.475,
+      "end": 19.549999999999997,
+      "duration": 9.075,
+      "text": "Some lower their heads to eat, choosing plants as they move from one patch to another, with different animals feeding in different spots.",
+      "scene": "Close goats eating hay and separate goat on grass.",
+      "tags": [
+        "goats_eating_hay_close",
+        "domestic_goat_on_grassy_meadow"
+      ],
+      "story_role": "action",
+      "overlay_label": "CHOOSE A BITE",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 19.549999999999997,
+      "end": 28.849999999999998,
+      "duration": 9.3,
+      "text": "Between meals, goats also pause to groom or rest; feeding is only part of their day, especially in a quiet managed pen.",
+      "scene": "Goats grooming and goats resting in managed barn.",
+      "tags": [
+        "anglo_nubian_goats_grooming",
+        "domestic_goats_in_barn"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "TIME TO REST",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 28.849999999999998,
+      "end": 34.074999999999996,
+      "duration": 5.225,
+      "text": "Young kids have a different priority, staying close to their mothers for milk.",
+      "scene": "Real mother goat with nursing newborn kids.",
+      "tags": [
+        "newborn_goats_nursing_mother"
+      ],
+      "story_role": "twist",
+      "overlay_label": "NEWBORN KIDS",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 34.074999999999996,
+      "end": 39.974999999999994,
+      "duration": 5.9,
+      "text": "From nursing young to grazing adults, the herd keeps moving through the plants together.",
+      "scene": "Goat visibly in grassy field; verify movement window.",
+      "tags": [
+        "domestic_goat_in_open_grass"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "BACK TO GRAZING",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "assetTitle": "Goats in Sunnyvale.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20in%20Sunnyvale.webm",
+      "type": "video",
+      "author": "Kat Walsh",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "goat_herd_grazing_sunnyvale_hillside"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Goats video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_video.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20video.webm",
+      "type": "video",
+      "author": "https://www.flickr.com/photos/gails_pictures/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "goat_herd_moving_rocky_ground"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Goats eating.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_eating.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20eating.webm",
+      "type": "video",
+      "author": "Brian Boucheron",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "goats_eating_hay_close"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "2022-10-01 MIRKE ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-01%20MIRKE%20ARTIODACTYLA%20Capra%20aegagrus%20hircus%20DOMA%C4%8CA%20KOZA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "domestic_goat_on_grassy_meadow"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Anglo-Nubian goats grooming themselves.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anglo-Nubian%20goats%20grooming%20themselves.webm",
+      "type": "video",
+      "author": "Rivadavia.vila",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "anglo_nubian_goats_grooming"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Goats yawning.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_yawning.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20yawning.webm",
+      "type": "video",
+      "author": "Brian Boucheron",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "domestic_goats_in_barn"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Newborn goats.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Newborn_goats.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Newborn%20goats.webm",
+      "type": "video",
+      "author": "Darius Dunlap",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "newborn_goats_nursing_mother"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "2022-09-20 JAMNIK ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-20%20JAMNIK%20ARTIODACTYLA%20Capra%20aegagrus%20hircus%20DOMA%C4%8CA%20KOZA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "domestic_goat_in_open_grass"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    }
+  ],
+  "review_sheet": "goat_herd_hillside_grazing_review.jpg",
+  "music": null,
+  "trend_exception": null
+}

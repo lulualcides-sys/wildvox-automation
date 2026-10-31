@@ -1,0 +1,17 @@
+{
+  "editorial_day": "2026-10-31",
+  "scope": "goat_herd_hillside_grazing",
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "videos": [
+    {
+      "key": "goat_herd_hillside_grazing",
+      "revision": "2026-10-31-goat_herd_hillside_grazing-research-v2",
+      "errors": [],
+      "duration": 39.975,
+      "freeze_durations": []
+    }
+  ],
+  "errors": []
+}
