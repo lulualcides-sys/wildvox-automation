@@ -1,0 +1,34 @@
+name: WildVox — TikTok official direct API capability check (no posting)
+on:
+  push:
+    paths:
+      - '.github/workflows/wildvox-2026-10-31-tiktok-direct-capability-check.yml'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Report booleans ONLY, never credentials
+        env:
+          ACCESS: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
+          CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          REFRESH: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          AUDITED: ${{ vars.TIKTOK_AUDITED }}
+        run: |
+          set -euo pipefail
+          for name in ACCESS CLIENT_KEY CLIENT_SECRET REFRESH; do
+            if [ -n "${!name:-}" ]; then
+              echo "${name}_CONFIGURED=true"
+            else
+              echo "${name}_CONFIGURED=false"
+            fi
+          done
+          if [ "${AUDITED:-}" = "true" ] || [ "${AUDITED:-}" = "1" ]; then
+            echo "PUBLIC_DIRECT_POST_AUDITED=true"
+          else
+            echo "PUBLIC_DIRECT_POST_AUDITED=false"
+          fi
+          echo "DIAGNOSTIC_ONLY_NO_POSTING=true"
