@@ -19,6 +19,8 @@ jobs:
           gh run download 41195891914 --repo lulualcides-sys/wildvox-automation --name wildvox-31-oct-heron-recovery --dir .
       - name: Use merged per-candidate technical QA from main
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
           git fetch origin main
           git show origin/main:scripts/qa_rendered_batch.py > scripts/qa_rendered_batch.py
           git show origin/main:scripts/tiktok_credits.py > scripts/tiktok_credits.py
