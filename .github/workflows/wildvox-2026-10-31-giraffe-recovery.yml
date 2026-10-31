@@ -1,4 +1,5 @@
 name: WildVox — 31 Oct giraffe recovery render (one-day candidate)
+# Validated branch includes qa/validate_footage_first.py
 on:
   push:
     paths:
