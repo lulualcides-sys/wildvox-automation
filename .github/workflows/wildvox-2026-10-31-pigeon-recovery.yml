@@ -73,3 +73,5 @@ jobs:
             pigeon_technical_qa_2026-10-31.json
           retention-days: 3
           if-no-files-found: warn
+
+# Editorial v4: real pecking source 5 is now narrated and tagged; still held for visual QA.
