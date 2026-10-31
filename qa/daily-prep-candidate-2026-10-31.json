@@ -1,7 +1,7 @@
 {
   "grey_heron_patient_fishing": {
     "title": "HOW GREY HERONS STAY PATIENT BY THE WATER",
-    "script": "Why does a grey heron seem almost motionless beside a busy river? Its long legs let it stand in shallow water without wetting most of its body. One bird waits among reeds, while another takes careful steps along a grassy bank. Against bright reflections, that slim shape can nearly disappear into the wetland. Even on an island shore, a heron can watch the water from the edge. Back beside the river, its long neck and pointed bill make this patient bird easy to recognize.",
+    "script": "Why does a grey heron seem almost motionless beside a busy river? Its long legs let it stand in shallow water without wetting most of its body. One bird waits among reeds, while another takes careful steps along a grassy bank. Against bright reflections, that slim shape can nearly disappear into the wetland. From far away, a heron can look like a tiny speck against a rocky island shore. Back beside the river, its long neck and pointed bill make this patient bird easy to recognize.",
     "caption": "HOW GREY HERONS STAY PATIENT BY THE WATER. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -156,13 +156,13 @@
         "overlay_label": "HIDDEN IN PLAIN SIGHT"
       },
       {
-        "text": "Even on an island shore, a heron can watch the water from the edge.",
-        "scene": "Grey heron at coastal shore; verify original Aran Islands video.",
+        "text": "From far away, a heron can look like a tiny speck against a rocky island shore.",
+        "scene": "Grey heron extremely distant on rocky Aran Islands shore, shown as intentional scale comparison; no close-up or fishing claim.",
         "tags": [
           "grey_heron_island_shore"
         ],
         "story_role": "twist",
-        "overlay_label": "ISLAND SHORE"
+        "overlay_label": "SPOT THE HERON"
       },
       {
         "text": "Back beside the river, its long neck and pointed bill make this patient bird easy to recognize.",
@@ -181,7 +181,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-10-31-grey_heron_patient_fishing-editorial-v2",
+    "revision": "2026-10-31-grey_heron_patient_fishing-editorial-v3",
     "publication_hold": true,
     "trend_priority": false
   },
