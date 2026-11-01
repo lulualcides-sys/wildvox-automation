@@ -561,7 +561,7 @@
   },
   "red_squirrel_branch_dining": {
     "title": "HOW A RED SQUIRREL EATS IN THE TREES",
-    "script": "Why does this red squirrel keep stopping in the middle of its day? A tree is both a route through its habitat and a place to pause for food. One red squirrel nibbles berries high in a tree while another grips a nut between its front paws. Those small flexible paws help it handle food while it balances on branches above the ground. Between meals, the animal moves along branches and checks its surroundings. That is the red squirrel's daily routine: travel through trees, find a safe perch, and eat.",
+    "script": "Why does this red squirrel keep stopping in the middle of its day? A tree is both a route through its habitat and a place to pause for food. One red squirrel inspects a walnut while another grips food between its front paws. Those small flexible paws help it handle food while it balances on a stump or branch. Between meals, the animal moves along branches and checks its surroundings. That is the red squirrel's daily routine: travel through trees, find a safe perch, and eat.",
     "caption": "HOW A RED SQUIRREL EATS IN THE TREES. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -593,18 +593,18 @@
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20squirrel%20(Sciurus%20vulgaris)%20eating%20berries.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Walnut%20Disaster.webm",
         "type": "video",
-        "assetTitle": "Red squirrel (Sciurus vulgaris) eating berries.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_squirrel_(Sciurus_vulgaris)_eating_berries.webm",
+        "assetTitle": "The Great Walnut Disaster.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Walnut_Disaster.webm",
         "tags": [
-          "red_squirrel_eating_berries"
+          "red_squirrel_walnut_selection_stump"
         ],
-        "author": "Roberto Verzo",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Peter Trimming",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_note": "Live Commons and original Flickr license-review metadata verified 2026-11-01; independently inspect actual motion and visible walnut action after render before release."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20eats%20a%20nut.webm",
@@ -656,7 +656,7 @@
         "tags": [
           "red_squirrel_climbing_tree_trunk"
         ],
-        "author": "https://www.flickr.com/photos/gails_pictures/",
+        "author": "gails_pictures (Flickr)",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-01",
@@ -683,7 +683,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v5",
+    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v6",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -705,18 +705,18 @@
         "overlay_label": "A SAFE PERCH"
       },
       {
-        "text": "One red squirrel nibbles berries high in a tree while another grips a nut between its front paws.",
-        "scene": "Two real red squirrels visibly eating berries and a nut in separate original videos.",
+        "text": "One red squirrel inspects a walnut while another grips food between its front paws.",
+        "scene": "Two separate genuine red-squirrel clips: a walnut on a stump and a squirrel feeding with its forepaws; no same-animal continuity.",
         "tags": [
-          "red_squirrel_eating_berries",
+          "red_squirrel_walnut_selection_stump",
           "red_squirrel_eating_nut"
         ],
         "story_role": "action",
-        "overlay_label": "BERRIES AND NUTS"
+        "overlay_label": "GRIP AND NIBBLE"
       },
       {
-        "text": "Those small flexible paws help it handle food while it balances on branches above the ground.",
-        "scene": "Red squirrel in England in a tree; explanation about forepaws is voice-over.",
+        "text": "Those small flexible paws help it handle food while it balances on a stump or branch.",
+        "scene": "Genuine red squirrel among logs and branches; forepaw function is explanatory narration.",
         "tags": [
           "red_squirrel_england_tree_perch"
         ],
@@ -746,9 +746,9 @@
     "trend_priority": false
   },
   "rock_pigeon_flock_takeoff": {
-    "title": "WHY CITY PIGEONS SUDDENLY TAKE OFF",
-    "script": "Why does a city pigeon suddenly stop pecking at food and take off? A flock searches the ground for food while keeping track of nearby movement. When something nearby startles a pigeon, it can suddenly spring into the air in a flash. That quick departure creates distance from a possible threat, including a nearby cat. But once the disturbance passes, pigeons can settle back into their ordinary routines. The burst of wings is a fast escape, not the end of the bird's search for its next meal.",
-    "caption": "WHY CITY PIGEONS SUDDENLY TAKE OFF. #WildVox #Wildlife #Nature #AnimalFacts",
+    "title": "HOW CITY PIGEONS FIND FOOD EVERYWHERE",
+    "script": "Why do city pigeons keep checking the ground, even beside busy streets? Their daily search for seeds and scraps takes them from sidewalks to station ledges. One pigeon walks near a city street, while another moves across a patch of grass. They pause, look around, and move again, checking each new patch for something edible. When food is on the ground, several pigeons can feed side by side. From parks to busy crossings, a pigeon's next meal may be only a few steps away.",
+    "caption": "HOW CITY PIGEONS FIND FOOD EVERYWHERE. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeons%20Eating.ogv",
@@ -779,18 +779,18 @@
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon%20Flushing.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-10%20LJUBLJANA%20Opera%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
         "type": "video",
-        "assetTitle": "Pigeon Flushing.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon_Flushing.ogv",
+        "assetTitle": "2022-10-10 LJUBLJANA Opera COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-10_LJUBLJANA_Opera_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
         "tags": [
-          "rock_pigeon_flock_flushing"
+          "rock_pigeon_walking_city_road"
         ],
-        "author": "D. Benjamin Miller",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_note": "Live Commons metadata verified 2026-11-01; independently inspect actual visible pigeon movement before release."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20chasing%20a%20pigeon.webm",
@@ -869,64 +869,64 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v5",
+    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v6",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does a city pigeon suddenly stop pecking at food and take off?",
-        "scene": "Authentic urban pigeons pecking at food.",
+        "text": "Why do city pigeons keep checking the ground, even beside busy streets?",
+        "scene": "Real city pigeons pecking and looking at the ground; no flight implied.",
         "tags": [
           "rock_pigeon_flock_eating_ground"
         ],
         "story_role": "hook",
-        "overlay_label": "WHY SCATTER?"
+        "overlay_label": "LOOKING FOR FOOD"
       },
       {
-        "text": "A flock searches the ground for food while keeping track of nearby movement.",
-        "scene": "A pigeon on an urban station platform, not misrepresented as feeding.",
+        "text": "Their daily search for seeds and scraps takes them from sidewalks to station ledges.",
+        "scene": "A city pigeon perched on a station ledge, not falsely depicted as feeding.",
         "tags": [
           "rock_pigeon_urban_station_platform"
         ],
         "story_role": "setup",
-        "overlay_label": "STAY ALERT"
+        "overlay_label": "CITY HABITAT"
       },
       {
-        "text": "When something nearby startles a pigeon, it can suddenly spring into the air in a flash.",
-        "scene": "One genuine pigeon flushing and a separately filmed cat chasing another pigeon; never imply a single incident.",
+        "text": "One pigeon walks near a city street, while another moves across a patch of grass.",
+        "scene": "Two independent recordings: urban street pigeon and pigeon on grass; do not imply one continuous encounter or a cat encounter.",
         "tags": [
-          "rock_pigeon_flock_flushing",
+          "rock_pigeon_walking_city_road",
           "rock_pigeon_chased_by_cat"
         ],
         "story_role": "action",
-        "overlay_label": "SUDDEN TAKEOFF"
+        "overlay_label": "STREET TO PARK"
       },
       {
-        "text": "That quick departure creates distance from a possible threat, including a nearby cat.",
-        "scene": "Real rock pigeon close view, explanation of escape mechanism as voice-over.",
+        "text": "They pause, look around, and move again, checking each new patch for something edible.",
+        "scene": "Real rock pigeon moving on grass, with foraging explanation in narration.",
         "tags": [
           "rock_pigeon_closeup_urban"
         ],
         "story_role": "explanation",
-        "overlay_label": "ESCAPE FIRST"
+        "overlay_label": "CHECK EVERY STEP"
       },
       {
-        "text": "But once the disturbance passes, pigeons can settle back into their ordinary routines.",
-        "scene": "Close real pigeons feeding in an urban park; narration does not claim the footage is from the same disturbance.",
+        "text": "When food is on the ground, several pigeons can feed side by side.",
+        "scene": "Real pigeons feeding in an urban park.",
         "tags": [
           "rock_pigeons_feeding_urban_park"
         ],
         "story_role": "twist",
-        "overlay_label": "BACK TO NORMAL"
+        "overlay_label": "FEEDING TOGETHER"
       },
       {
-        "text": "The burst of wings is a fast escape, not the end of the bird's search for its next meal.",
-        "scene": "Real pigeons eating bread and a separately filmed group on a pier.",
+        "text": "From parks to busy crossings, a pigeon's next meal may be only a few steps away.",
+        "scene": "Separate genuine pigeon group feeding scenes on a pier and in an urban setting; no invented continuity.",
         "tags": [
           "rock_pigeons_eating_bread",
           "rock_pigeons_group_on_pier"
         ],
         "story_role": "payoff",
-        "overlay_label": "NEXT MEAL"
+        "overlay_label": "NEXT SMALL BITE"
       }
     ],
     "trend_priority": false
