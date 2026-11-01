@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-01",
+  "timezone": "America/Sao_Paulo",
+  "candidate": "house_sparrow_two_baths",
+  "revision": "2026-11-01-house_sparrow_two_baths-footage-first-v6",
+  "config_blob_sha": "758f4b557ac36e8b4544334fc10bb0191ae74dcb",
+  "config_fingerprint_sha256": "c1dea93b92438f9508442bdf00189a409929a59ab9094962e8aecc57c4bf2820",
+  "media_branch": "media",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/house_sparrow_two_baths.mp4",
+  "media_meta_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/house_sparrow_two_baths_meta.json",
+  "reviewed_artifact_run": 41289577000,
+  "media_archival_commit": "89acb8e",
+  "mp4_sha256": "089c02662cb78f0a0a792cc54594b8f8c361512d017fb6f5dc5c2dc8eb0954d6",
+  "duration_seconds": 37.7,
+  "source_count": 8,
+  "technical_qa": {
+    "pass": true,
+    "freeze_segments_ge_1s": 0,
+    "ffmpeg_freezedetect_ge_1s": 0,
+    "blackdetect_ge_0_8s": 0,
+    "portrait": "1080x1920",
+    "max_shot_seconds": 8
+  },
+  "editorial_review": {
+    "approved": true,
+    "visual_review": "Current-run review JPG, 12 decoded timeline MP4 frames, all 8 original source preview sheets; hook dust-bathing, zoo dust-bathing explicitly labeled, water-edge sparrow, separate birdbath, foraging and separate closing scenes.",
+    "caption_safe_area": "Word captions remain in lower-middle safe zone; title at top.",
+    "narration_accuracy": "Revised narration does not assert unobserved water splashing or continuous same-bird encounter.",
+    "attribution": "1545-character TikTok caption includes all eight original source-page URLs, author names, license names/URLs, and edited crop/subtitle/narration disclosure. CC BY sources Pauly and NaIzletuSi ™ specifically credited.",
+    "license_scope": "Commons live source/license audit already passed; public-domain/CC0/CC BY only.",
+    "source_diversity": "Eight distinct original source assets, no repeated rendered shots or artificial loop observed.",
+    "limitations": "Sampling cannot guarantee every natural movement is visible; independent decoded-frame freeze QA was also checked."
+  },
+  "publication_hold_in_config": true,
+  "release_control": "Separate editorial approval receipt required; technical QA intentionally preserves publication_hold=true. Do not flip hold to false in production config; renderer QA rejects that.",
+  "metricool": {
+    "brand_id": 7242311,
+    "verified_tiktok_handle": "wildvox",
+    "scheduled_post_id": null,
+    "status": "NOT_SCHEDULED"
+  },
+  "youtube": false
+}
