@@ -310,8 +310,8 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-house_sparrow_two_baths-footage-first-v7-editorial-approved",
-    "publication_hold": false,
+    "revision": "2026-11-01-house_sparrow_two_baths-footage-first-v6",
+    "publication_hold": true,
     "visual_plan": [
       {
         "text": "Why is this little house sparrow throwing dry dirt all over its own feathers?",
