@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-01",
+  "candidate": "red_squirrel_branch_dining",
+  "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v9",
+  "editorial": "APPROVED_CURRENT_MP4",
+  "reviewed_workflow_run": 41316109660,
+  "reviewed_artifact_id": 13088011633,
+  "technical_qa_artifact_id": 13087668111,
+  "config_sha256": "e276a677a83636209d60b14048fdb61fb72cd26a0ea3233237edee305ea108bf",
+  "mp4_sha256": "37cea3d4c4908c53d781e3fd765bf9339652f865bf916390dc3bf3fa1043e2c6",
+  "media_git_blob": "15cbaddc308af6f62fff43f98cce66b35ee34e0a",
+  "review_jpg_blob": "ee55bc74eb12dacc3d6af1659e83dd08f4147174",
+  "duration_seconds": 35,
+  "format": "1080x1920 H.264 30fps AAC",
+  "sources": 8,
+  "credits": "Eight distinct original Commons videos; creator, source-page, CC BY license and edited-video credits present in full caption.",
+  "independent_review": "Downloaded exact current-run artifact, decoded 35 real MP4 frames at 1s intervals, inspected eight current-run source preview contact sheets (hook/action/payoff), reviewed current-run JPG, confirmed squirrel visible on urban ledge, branches, stump and nut-eating payoff, with no baked-in foreign titles or generic filler. Checked captions lower-middle safe area and six spoken blocks against actual footage. Independent ffmpeg freezedetect >=1s and blackdetect >=0.8s yielded no events; additional decoded central-subject 1s window comparison across 69 half-second samples found zero near-identical windows (mean absolute difference <0.5 threshold). Low-motion natural animal moments not treated as freeze. No fake zoom/loops or source repetitions seen.",
+  "source_context": "Opening urban ledge explicitly acknowledged; tree and stump shots from separate squirrels not presented as one event. Some sources shot at zoo? None claimed; separate locations described generically.",
+  "publication_hold_in_daily_json": true,
+  "release_rule": "May schedule only exact media branch blob 15cbaddc308af6f62fff43f98cce66b35ee34e0a with matching config fingerprint after fresh @wildvox Metricool duplicate and provider checks; no YouTube, no Buffer @wildvox6.",
+  "tiktok_only": true
+}
