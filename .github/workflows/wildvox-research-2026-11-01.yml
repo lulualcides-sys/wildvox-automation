@@ -1,0 +1,74 @@
+name: WildVox — 1 Nov footage-first research preflight (NO RENDER)
+
+on:
+  push:
+    branches:
+      - research/wildvox-2026-11-01-footage-first
+    paths:
+      - "qa/research/2026-11-01-proposal.json"
+      - "qa/research/2026-11-01-preview.py"
+      - ".github/workflows/wildvox-research-2026-11-01.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use research config ONLY inside isolated runner
+        run: cp qa/research/2026-11-01-proposal.json configs/daily.json
+      - name: Validate current semantic source-to-block contract
+        run: python scripts/semantic_shots.py --check-config configs/daily.json
+      - name: Validate full 30–45s / six-block editorial schema
+        run: |
+          python - <<'PY'
+          import json,re
+          from pathlib import Path
+          d=json.loads(Path("configs/daily.json").read_text())
+          assert len(d)==5
+          urls=[]
+          for key,v in d.items():
+              assert v["revision"].startswith("2026-11-01-"),key
+              assert v["publication_hold"] is True
+              assert (v["min_duration"],v["max_duration"])==(30,45)
+              assert len(v["visual_plan"])==6
+              assert len(v["sources"])==8
+              assert sum(s["type"]=="video" for s in v["sources"])==8
+              assert v["min_unique_videos"]>=6
+              assert v["max_shot_seconds"]<=8
+              assert v["max_freeze_seconds"]==0
+              normalize=lambda s:re.sub(r"\s+"," ",re.sub(r"[^A-Za-z0-9']+"," ",s)).strip().lower()
+              assert normalize(v["script"])==normalize(" ".join(b["text"] for b in v["visual_plan"])),key
+              roles=[b["story_role"] for b in v["visual_plan"]]
+              assert roles[0]=="hook" and roles[-1]=="payoff" and "action" in roles and "explanation" in roles
+              for s in v["sources"]:
+                  assert s["author"] and s["sourcePage"] and s["license_url"]
+                  assert "by-sa" not in s["license"].lower()
+                  urls.append(s["url"])
+              words=len(v["script"].split())
+              assert 72<=words<=100,(key,words)
+              print("PASS",key,words,"words, 8 videos, 6 exact blocks")
+          assert len(urls)==len(set(urls))==40
+          PY
+      - name: Narrated story and cinematic overlay regression
+        run: |
+          python -m unittest discover -s qa -p test_narrative_contract.py -v
+          python -m unittest discover -s qa -p test_cinematic_fx.py -v
+      - name: Live Commons license/availability preflight
+        run: python scripts/audit_commons_sources.py --config configs/daily.json
+      - name: Commons original hash + poster-frame research
+        run: |
+          python -m pip install --quiet pillow
+          python qa/research/2026-11-01-preview.py
+      - name: Persist visual research previews (not approval)
+        run: |
+          git config user.name "wildvox-research-bot"
+          git config user.email "wildvox-research-bot@users.noreply.github.com"
+          git add qa/research/previews/*.b64 qa/research/previews/report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "research: archive 1 Nov Commons poster-frame preflight"
+            git push origin HEAD:research/wildvox-2026-11-01-footage-first
+          fi
