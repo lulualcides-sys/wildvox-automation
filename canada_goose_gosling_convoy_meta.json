@@ -4,8 +4,8 @@
   "caption": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. U.S. Fish and Wildlife Service - Midwest Region | Public domain | https://commons.wikimedia.org/wiki/File:Canada_Goose_Family_(27519845085).webm | https://creativecommons.org/publicdomain/mark/1.0/\n2. Packer1028 | CC0 | https://commons.wikimedia.org/wiki/File:Canada_goose_family.webm | https://creativecommons.org/publicdomain/zero/1.0/\n3. Katja Schulz | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Canada_goose_gosling_foraging_(Branta_canadensis).webm | https://creativecommons.org/licenses/by/2.0\n4. Peter H. Warkentin | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:CGshoreWS.ogv | https://creativecommons.org/licenses/by/3.0\n5. U.S. Fish and Wildlife Service - Midwest Region | Public domain | https://commons.wikimedia.org/wiki/File:Goslings_(17156662405).webm | https://creativecommons.org/publicdomain/mark/1.0/\n6. Editor (YouTube channel, as attributed on Wikimedia Commons) | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Canada_Goose_on_Golden_Gate_Park_lake.webm | https://creativecommons.org/licenses/by/3.0\n7. U.S. Fish and Wildlife Service - Midwest Region | Public domain | https://commons.wikimedia.org/wiki/File:Canada_Geese_(25738746322).webm | https://creativecommons.org/publicdomain/mark/1.0/\n8. ZaydDepaor (YouTube channel, as attributed on Wikimedia Commons) | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Canada_Geese_with_Gosling_-_Mother_%26_Father_Goose_with_baby_-_Canon_FS200.webm | https://creativecommons.org/licenses/by/3.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "2b2d8829c9f1eeeeb6155c29cfb27638f0eb5cb631fceeb6d706b8c51a8452b0",
-  "duration": 35.75,
+  "config_sha256": "a406737d962307d6344f6b90b711d8cfb3a0904e9898030c0824fe9777daadf9",
+  "duration": 37.27,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -83,16 +83,16 @@
     {
       "index": 5,
       "start": 29.625,
-      "end": 35.75,
-      "duration": 6.125,
-      "text": "For now, the safest path for a little gosling is right beside its watchful family.",
-      "scene": "Authentic Canada goose family and gosling footage from separate originals, without pretending a continuous event.",
+      "end": 37.275,
+      "duration": 7.65,
+      "text": "From green park banks to open water, Canada geese travel together, each family finding its own route.",
+      "scene": "Separate original wide park/pond establishing shot followed by Canada geese visibly moving on water; no claim that goslings are clearly visible in the distant shot or that the scenes are one continuous family.",
       "tags": [
         "canada_geese_usfws_group_movement",
         "canada_goose_parent_and_gosling_family"
       ],
       "story_role": "payoff",
-      "overlay_label": "TOGETHER",
+      "overlay_label": "PARK TO POND",
       "fx": []
     }
   ],
