@@ -559,7 +559,7 @@
   },
   "red_squirrel_branch_dining": {
     "title": "HOW A RED SQUIRREL EATS IN THE TREES",
-    "script": "Why does this red squirrel keep stopping along the branches? A tree is both a route through its habitat and a place to pause for food. One red squirrel nibbles berries while another grips a nut between its front paws. Those small paws help it handle food while it balances above the ground. Between meals, the animal moves along branches and checks its surroundings. That is the red squirrel's routine: travel, find a perch, and eat.",
+    "script": "Why does this red squirrel keep stopping to look around? A tree is both a route through its habitat and a place to pause for food. One red squirrel nibbles berries while another grips a nut between its front paws. Those small paws help it handle food while it balances above the ground. Between meals, the animal moves along branches and checks its surroundings. That is the red squirrel's routine: travel, find a perch, and eat.",
     "caption": "HOW A RED SQUIRREL EATS IN THE TREES. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -681,12 +681,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v2",
+    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v3",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does this red squirrel keep stopping along the branches?",
-        "scene": "Authentic red squirrel in Berlin, tree movement or perch; no invented feeding.",
+        "text": "Why does this red squirrel keep stopping to look around?",
+        "scene": "A real red squirrel perched on a manmade ledge in Berlin; no claim this particular shot is wild woodland.",
         "tags": [
           "red_squirrel_berlin_tree_perch"
         ],
@@ -745,7 +745,7 @@
   },
   "rock_pigeon_flock_takeoff": {
     "title": "WHY CITY PIGEONS SUDDENLY TAKE OFF",
-    "script": "Why do these city pigeons suddenly stop pecking and scatter? A flock searches the ground for food while keeping track of nearby movement. When something startles the birds, several can launch into the air at once. That quick departure creates distance from a possible threat, including a nearby cat. But once the disturbance passes, pigeons can settle back into their ordinary routines. The burst of wings is a fast escape, not the end of the next meal.",
+    "script": "Why does a city pigeon suddenly stop pecking and take off? A flock searches the ground for food while keeping track of nearby movement. When something startles a pigeon, it can spring into the air in a flash. That quick departure creates distance from a possible threat, including a nearby cat. But once the disturbance passes, pigeons can settle back into their ordinary routines. The burst of wings is a fast escape, not the end of the next meal.",
     "caption": "WHY CITY PIGEONS SUDDENLY TAKE OFF. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -867,11 +867,11 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v2",
+    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v3",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why do these city pigeons suddenly stop pecking and scatter?",
+        "text": "Why does a city pigeon suddenly stop pecking and take off?",
         "scene": "Authentic urban pigeons pecking at food.",
         "tags": [
           "rock_pigeon_flock_eating_ground"
@@ -889,8 +889,8 @@
         "overlay_label": "STAY ALERT"
       },
       {
-        "text": "When something startles the birds, several can launch into the air at once.",
-        "scene": "Actual pigeon flock flushing and a separately filmed cat chasing a pigeon.",
+        "text": "When something startles a pigeon, it can spring into the air in a flash.",
+        "scene": "One genuine pigeon flushing and a separately filmed cat chasing another pigeon; never imply a single incident.",
         "tags": [
           "rock_pigeon_flock_flushing",
           "rock_pigeon_chased_by_cat"
