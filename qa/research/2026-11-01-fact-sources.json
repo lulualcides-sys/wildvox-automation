@@ -1,0 +1,51 @@
+{
+  "editorial_day": "2026-11-01",
+  "research_method": "Footage-first. Commons API live metadata and source-page verification, then exact narration storyboard. News/trend exceptions not asserted without strong dated evidence.",
+  "fact_sources": {
+    "canada_goose_gosling_convoy": [
+      {
+        "url": "https://www.allaboutbirds.org/guide/Canada_Goose/lifehistory",
+        "claim": "Goslings peck for food soon after hatching and stay with parents."
+      },
+      {
+        "url": "https://www.audubon.org/field-guide/bird/canada-goose",
+        "claim": "Both parents tend young; first flight usually 7-9 weeks."
+      }
+    ],
+    "house_sparrow_two_baths": [
+      {
+        "url": "https://www.allaboutbirds.org/guide/House_Sparrow/lifehistory",
+        "claim": "House Sparrows bathe in puddles and dust, flicking water or dust over feathers."
+      },
+      {
+        "url": "https://www.bto.org/learn/about-birds/behaviour/preening-bathing",
+        "claim": "Water and dust bathing maintain plumage; house sparrows use wing-flicking dust baths."
+      }
+    ],
+    "european_robin_singing_and_feeding": [
+      {
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/robin",
+        "claim": "Robin song and territory context; recheck if site changes."
+      },
+      {
+        "url": "https://www.birdforum.net/opus/European_Robin",
+        "claim": "European robins sing to advertise territory, including outside spring."
+      }
+    ],
+    "red_squirrel_branch_dining": [
+      {
+        "url": "https://www.woodlandtrust.org.uk/trees-woods-and-wildlife/animals/mammals/red-squirrel/",
+        "claim": "Red squirrels move through woodland branches; nuts and seeds are main foods."
+      }
+    ],
+    "rock_pigeon_flock_takeoff": [
+      {
+        "url": "https://www.allaboutbirds.org/guide/Rock_Pigeon/overview",
+        "claim": "Rock pigeons commonly feed on the ground in urban flocks; threat-escape narration remains a general interpretation, not proof of a particular filmed trigger."
+      }
+    ]
+  },
+  "license_policy": "CC BY, CC0 or public domain only; all author names and licenses verified via Commons metadata. No CC BY-SA.",
+  "visual_truth_limit": "Commons first-frame thumbnails, filenames and license metadata do NOT establish that a specific movement occurs at a precise time. Hourly QA must independently inspect hook/action/payoff and actual MP4 before scheduling.",
+  "publishing_target": "TikTok @wildvox ONLY; publication_hold=true"
+}
