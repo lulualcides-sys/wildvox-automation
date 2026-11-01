@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "candidate": "rock_pigeon_flock_takeoff",
+  "editorial": "APPROVED",
+  "release_scope": "THIS EXACT CURRENT-RUN MP4 ONLY",
+  "main_config_blob": "5ef1b3d8725d095a591e0e9eedb9f21e9ffaed7e",
+  "workflow_run": 41311105675,
+  "artifact_id": 13085273772,
+  "media_branch_blob": "5e6f02acc9614eeefb02d70335aa667df24b4281",
+  "mp4_sha256": "70581b424910dc09e7f5ded299f3b5aba62badbb42eee07cfceb1a0687bdbb30",
+  "config_sha256": "e706021f9869369efc43ce25c87f71b796e15e4e1eed23f9948bbf32a01b8cb7",
+  "duration_seconds": 34.675,
+  "format": "1080x1920 H.264 30fps AAC",
+  "source_count": 8,
+  "all_authentic_video": true,
+  "licenses": "CC BY 3.0/4.0, CC0, public domain; full eight human-readable creator/source/license credits in caption",
+  "independent_review": "Inspected current-run review JPG, 23 decoded MP4 frames at 1.5-second intervals, all eight source preview JPGs; checked full MP4 ffmpeg freezedetect -55dB >=1s and blackdetect >=0.8s (no hits). Pigeons visible in hook, station, urban walkway, pavement, grass, feeding group and urban payoff. No cat or invented takeoff/continuous event. Captions inside lower-middle safe area; title above. Distinct original source shots and no artificial looping or synthetic zoom observed.",
+  "editorial_risks": "Some station shots are distant; voiceover describes general city feeding, not false close action. Background blur fills portrait frame without letterbox. Frame sampling is not exhaustive frame-by-frame certification.",
+  "publication_hold_in_daily_json": true,
+  "approved_media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/rock_pigeon_flock_takeoff.mp4",
+  "tiktok_only": true,
+  "never_youtube": true
+}
