@@ -42,7 +42,7 @@
   "metricool": {
     "brand_id": 7242311,
     "verified_tiktok_handle": "wildvox",
-    "status": "PENDING",
+    "status": "PUBLISHED",
     "scheduled_post_id": 412813462,
     "scheduled_local": "2026-11-01T12:40:00-03:00",
     "autoPublish": true,
@@ -51,7 +51,12 @@
     "media_url": "https://static.metricool.com/planner/202611/7242311-file-8710781041506532967.mp4",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-3693965087265307563",
     "confirmed_via": "createScheduledPost + fresh getScheduledPosts readback",
-    "uuid": "-3693965087265307563"
+    "uuid": "-3693965087265307563",
+    "provider_detailed_status": "Published",
+    "tiktok_post_id": "7703228204944837889",
+    "public_url": "https://www.tiktok.com/@wildvox/video/7703228204944837889",
+    "published_status_verified_date": "2026-11-01",
+    "published_status_verified_via": "Metricool getScheduledPosts readback; exact @wildvox TikTok provider status PUBLISHED, platform post ID and public URL; TikTok analytics rows not yet synchronized"
   },
   "youtube": false
 }
