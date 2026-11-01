@@ -58,7 +58,8 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "crop_black_bars": true
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20goose%20(Branta%20canadensis)%20family.webm",
@@ -82,7 +83,7 @@
         "tags": [
           "canada_goose_adult_swimming_park_lake"
         ],
-        "author": "https://www.youtube.com/user/Editor",
+        "author": "Editor (YouTube channel, as attributed on Wikimedia Commons)",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-01",
@@ -110,7 +111,7 @@
         "tags": [
           "canada_goose_parent_and_gosling_family"
         ],
-        "author": "https://www.youtube.com/user/ZaydDepaor",
+        "author": "ZaydDepaor (YouTube channel, as attributed on Wikimedia Commons)",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-01",
@@ -123,7 +124,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v5",
+    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v6",
     "publication_hold": true,
     "visual_plan": [
       {
