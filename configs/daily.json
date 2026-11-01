@@ -188,7 +188,7 @@
   },
   "house_sparrow_two_baths": {
     "title": "WHY HOUSE SPARROWS BATHE IN DIRT AND WATER",
-    "script": "Why is this little house sparrow throwing dry dirt all over its own feathers? It lowers its body into loose soil, then shakes and flutters in the dust. Another sparrow splashes in shallow water while a different bird keeps working through the dry earth. Dust baths and water baths are two ways birds can care for their plumage. Between baths, a sparrow still spends its day searching plants and paths for food. After a dusty roll or a quick splash, the little sparrow returns to its busy day.",
+    "script": "Why is this little house sparrow throwing dry dirt all over its own feathers? It lowers its body into loose soil, then shakes and flutters in the dust. At the water's edge, another sparrow pauses while a different bird continues rubbing its feathers through dry earth. Dust baths and water baths are two ways birds can care for their plumage. Between baths, a sparrow still spends its day searching plants and paths for food. After visiting dust or water, each sparrow continues its day, moving through the same busy search for food.",
     "caption": "WHY HOUSE SPARROWS BATHE IN DIRT AND WATER. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -310,7 +310,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-house_sparrow_two_baths-footage-first-v5",
+    "revision": "2026-11-01-house_sparrow_two_baths-footage-first-v6",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -329,11 +329,11 @@
           "house_sparrow_dust_bath_zoo_ground"
         ],
         "story_role": "setup",
-        "overlay_label": "DRY SOIL"
+        "overlay_label": "ZOO DUST BATH"
       },
       {
-        "text": "Another sparrow splashes in shallow water while a different bird keeps working through the dry earth.",
-        "scene": "Another genuine dust bath contrasted with a genuine water bath.",
+        "text": "At the water's edge, another sparrow pauses while a different bird continues rubbing its feathers through dry earth.",
+        "scene": "A genuine zoo-ground dust bath contrasted with a separately filmed sparrow at water's edge; no unverified splash or same-animal continuity.",
         "tags": [
           "house_sparrow_sand_bath_zoo",
           "house_sparrow_bathing_in_water"
@@ -360,8 +360,8 @@
         "overlay_label": "BACK TO FORAGING"
       },
       {
-        "text": "After a dusty roll or a quick splash, the little sparrow returns to its busy day.",
-        "scene": "House sparrow dust-bath aftermath and a separate ordinary house-sparrow view.",
+        "text": "After visiting dust or water, each sparrow continues its day, moving through the same busy search for food.",
+        "scene": "Separate authentic house-sparrow scenes, not one continuous individual returning from a bath.",
         "tags": [
           "house_sparrow_closeup_after_bath",
           "house_sparrow_urban_waterfront"
