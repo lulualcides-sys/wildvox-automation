@@ -4,8 +4,8 @@
   "caption": "WHY HOUSE SPARROWS BATHE IN DIRT AND WATER. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_in_flowerbed.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n2. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_at_zoo_video_1.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n3. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Spatz_Sandbad_im_Zoo_Teil2_10prozent.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n4. Richard001 | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_bathing_in_water%2C_Anas_platyrhynchos_in_background.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n5. Pauly | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Passer_domesticus_%26_Turdus_viscivorus%2C_bathing_in_a_bird_bath.ogv | https://creativecommons.org/licenses/by/2.0\n6. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_female_-_foraging_plants.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n7. 5snake5 | CC0 | https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_Haussperling.ogv | https://creativecommons.org/publicdomain/zero/1.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Grudnovo_nabre%C5%BEje_PASSERIFORMES_Passer_domesticus_DOMA%C4%8CI_VRABEC.webm | https://creativecommons.org/licenses/by/3.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "bf07adabef0b5d194a4658fd0e7914b6438049064a9abf0dd72910ea64eb6fa1",
-  "duration": 34.77,
+  "config_sha256": "c1dea93b92438f9508442bdf00189a409929a59ab9094962e8aecc57c4bf2820",
+  "duration": 37.7,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -34,16 +34,16 @@
         "house_sparrow_dust_bath_zoo_ground"
       ],
       "story_role": "setup",
-      "overlay_label": "DRY SOIL",
+      "overlay_label": "ZOO DUST BATH",
       "fx": []
     },
     {
       "index": 2,
       "start": 10.7,
-      "end": 17.4,
-      "duration": 6.7,
-      "text": "Another sparrow splashes in shallow water while a different bird keeps working through the dry earth.",
-      "scene": "Another genuine dust bath contrasted with a genuine water bath.",
+      "end": 18.475,
+      "duration": 7.775,
+      "text": "At the water's edge, another sparrow pauses while a different bird continues rubbing its feathers through dry earth.",
+      "scene": "A genuine zoo-ground dust bath contrasted with a separately filmed sparrow at water's edge; no unverified splash or same-animal continuity.",
       "tags": [
         "house_sparrow_sand_bath_zoo",
         "house_sparrow_bathing_in_water"
@@ -54,8 +54,8 @@
     },
     {
       "index": 3,
-      "start": 17.4,
-      "end": 22.799999999999997,
+      "start": 18.475,
+      "end": 23.875,
       "duration": 5.4,
       "text": "Dust baths and water baths are two ways birds can care for their plumage.",
       "scene": "House sparrow bathing in a bird bath; other species may be present.",
@@ -68,8 +68,8 @@
     },
     {
       "index": 4,
-      "start": 22.799999999999997,
-      "end": 28.699999999999996,
+      "start": 23.875,
+      "end": 29.775,
       "duration": 5.9,
       "text": "Between baths, a sparrow still spends its day searching plants and paths for food.",
       "scene": "Female house sparrow visibly foraging among plants.",
@@ -82,11 +82,11 @@
     },
     {
       "index": 5,
-      "start": 28.699999999999996,
-      "end": 34.775,
-      "duration": 6.075,
-      "text": "After a dusty roll or a quick splash, the little sparrow returns to its busy day.",
-      "scene": "House sparrow dust-bath aftermath and a separate ordinary house-sparrow view.",
+      "start": 29.775,
+      "end": 37.699999999999996,
+      "duration": 7.925,
+      "text": "After visiting dust or water, each sparrow continues its day, moving through the same busy search for food.",
+      "scene": "Separate authentic house-sparrow scenes, not one continuous individual returning from a bath.",
       "tags": [
         "house_sparrow_closeup_after_bath",
         "house_sparrow_urban_waterfront"
