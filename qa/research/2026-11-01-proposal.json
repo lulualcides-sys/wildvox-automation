@@ -1,7 +1,7 @@
 {
   "canada_goose_gosling_convoy": {
     "title": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE",
-    "script": "Why do these Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food while other geese move beside them across the lake. Those bigger birds help keep small goslings together as they learn where to feed. Adult geese can glide across open water, while their young still need to stay nearby. For now, the safest path for a gosling is right beside its family.",
+    "script": "Why do these tiny Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food on grassy banks while other geese move beside them across the lake. Those bigger birds help keep small goslings together as they learn where to feed. Adult geese can glide across open water, while their young still need to stay nearby. For now, the safest path for a little gosling is right beside its watchful family.",
     "caption": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -123,11 +123,11 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v2",
+    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v5",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why do these Canada goose goslings stay so close to the adults?",
+        "text": "Why do these tiny Canada goose goslings stay so close to the adults?",
         "scene": "Authentic Canada goose family with visible goslings.",
         "tags": [
           "canada_goose_family_goslings_usfws"
@@ -145,7 +145,7 @@
         "overlay_label": "THE FAMILY"
       },
       {
-        "text": "The chicks peck for food while other geese move beside them across the lake.",
+        "text": "The chicks peck for food on grassy banks while other geese move beside them across the lake.",
         "scene": "A gosling foraging on grass followed by separately filmed Canada geese at a shoreline.",
         "tags": [
           "canada_goose_gosling_foraging_plants",
@@ -173,7 +173,7 @@
         "overlay_label": "ADULTS ON WATER"
       },
       {
-        "text": "For now, the safest path for a gosling is right beside its family.",
+        "text": "For now, the safest path for a little gosling is right beside its watchful family.",
         "scene": "Authentic Canada goose family and gosling footage from separate originals, without pretending a continuous event.",
         "tags": [
           "canada_geese_usfws_group_movement",
@@ -187,7 +187,7 @@
   },
   "house_sparrow_two_baths": {
     "title": "WHY HOUSE SPARROWS BATHE IN DIRT AND WATER",
-    "script": "Why is this house sparrow throwing dry dirt all over its feathers? It lowers its body into loose soil, then shakes and flutters in the dust. Another sparrow splashes in water while a different bird works through dry earth. Dust baths and water baths are two ways birds can care for their plumage. Between baths, a sparrow still spends its day searching plants and paths for food. After a dusty roll or a splash, the sparrow returns to its busy day.",
+    "script": "Why is this little house sparrow throwing dry dirt all over its own feathers? It lowers its body into loose soil, then shakes and flutters in the dust. Another sparrow splashes in shallow water while a different bird keeps working through the dry earth. Dust baths and water baths are two ways birds can care for their plumage. Between baths, a sparrow still spends its day searching plants and paths for food. After a dusty roll or a quick splash, the little sparrow returns to its busy day.",
     "caption": "WHY HOUSE SPARROWS BATHE IN DIRT AND WATER. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -309,11 +309,11 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-house_sparrow_two_baths-footage-first-v1",
+    "revision": "2026-11-01-house_sparrow_two_baths-footage-first-v5",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why is this house sparrow throwing dry dirt all over its feathers?",
+        "text": "Why is this little house sparrow throwing dry dirt all over its own feathers?",
         "scene": "Actual house sparrow dust bathing in a flowerbed.",
         "tags": [
           "house_sparrow_dust_bath_flowerbed"
@@ -331,7 +331,7 @@
         "overlay_label": "DRY SOIL"
       },
       {
-        "text": "Another sparrow splashes in water while a different bird works through dry earth.",
+        "text": "Another sparrow splashes in shallow water while a different bird keeps working through the dry earth.",
         "scene": "Another genuine dust bath contrasted with a genuine water bath.",
         "tags": [
           "house_sparrow_sand_bath_zoo",
@@ -359,7 +359,7 @@
         "overlay_label": "BACK TO FORAGING"
       },
       {
-        "text": "After a dusty roll or a splash, the sparrow returns to its busy day.",
+        "text": "After a dusty roll or a quick splash, the little sparrow returns to its busy day.",
         "scene": "House sparrow dust-bath aftermath and a separate ordinary house-sparrow view.",
         "tags": [
           "house_sparrow_closeup_after_bath",
@@ -373,7 +373,7 @@
   },
   "european_robin_singing_and_feeding": {
     "title": "WHY A EUROPEAN ROBIN KEEPS SINGING",
-    "script": "Why does this European robin keep singing from an exposed perch? That small bird uses a clear song to announce its presence across nearby habitat. One robin sings in the reeds while another gives short notes from a different perch. A repeated song can help a robin signal its territory to other robins. But between vocal moments, the same species must also spend time looking for food. The song is more than background noise: it is a message carried through the trees.",
+    "script": "Why does this small European robin keep singing from such an exposed perch? That small bird uses a clear song to announce its presence across nearby habitat. One robin sings from deep in the reeds while another gives short notes from a completely different perch. A repeated song can help a robin signal its territory to other robins. But between vocal moments, the same species must also spend time looking for food. The song is more than background noise: it is a clear message carried through the surrounding trees.",
     "caption": "WHY A EUROPEAN ROBIN KEEPS SINGING. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -495,11 +495,11 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-european_robin_singing_and_feeding-footage-first-v1",
+    "revision": "2026-11-01-european_robin_singing_and_feeding-footage-first-v5",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does this European robin keep singing from an exposed perch?",
+        "text": "Why does this small European robin keep singing from such an exposed perch?",
         "scene": "European robin audibly or visibly singing from reeds.",
         "tags": [
           "european_robin_singing_in_reeds_first"
@@ -517,7 +517,7 @@
         "overlay_label": "A SIGNAL"
       },
       {
-        "text": "One robin sings in the reeds while another gives short notes from a different perch.",
+        "text": "One robin sings from deep in the reeds while another gives short notes from a completely different perch.",
         "scene": "Two independently filmed European robin singing sequences.",
         "tags": [
           "european_robin_singing_in_reeds_second",
@@ -545,7 +545,7 @@
         "overlay_label": "TIME TO FEED"
       },
       {
-        "text": "The song is more than background noise: it is a message carried through the trees.",
+        "text": "The song is more than background noise: it is a clear message carried through the surrounding trees.",
         "scene": "Two further authentic European robin perches or movements, without invented singing behavior.",
         "tags": [
           "european_robin_park_perch_june",
@@ -559,7 +559,7 @@
   },
   "red_squirrel_branch_dining": {
     "title": "HOW A RED SQUIRREL EATS IN THE TREES",
-    "script": "Why does this red squirrel keep stopping to look around? A tree is both a route through its habitat and a place to pause for food. One red squirrel nibbles berries while another grips a nut between its front paws. Those small paws help it handle food while it balances above the ground. Between meals, the animal moves along branches and checks its surroundings. That is the red squirrel's routine: travel, find a perch, and eat.",
+    "script": "Why does this red squirrel keep stopping in the middle of its day? A tree is both a route through its habitat and a place to pause for food. One red squirrel nibbles berries high in a tree while another grips a nut between its front paws. Those small flexible paws help it handle food while it balances on branches above the ground. Between meals, the animal moves along branches and checks its surroundings. That is the red squirrel's daily routine: travel through trees, find a safe perch, and eat.",
     "caption": "HOW A RED SQUIRREL EATS IN THE TREES. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -681,11 +681,11 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v3",
+    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v5",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does this red squirrel keep stopping to look around?",
+        "text": "Why does this red squirrel keep stopping in the middle of its day?",
         "scene": "A real red squirrel perched on a manmade ledge in Berlin; no claim this particular shot is wild woodland.",
         "tags": [
           "red_squirrel_berlin_tree_perch"
@@ -703,7 +703,7 @@
         "overlay_label": "A SAFE PERCH"
       },
       {
-        "text": "One red squirrel nibbles berries while another grips a nut between its front paws.",
+        "text": "One red squirrel nibbles berries high in a tree while another grips a nut between its front paws.",
         "scene": "Two real red squirrels visibly eating berries and a nut in separate original videos.",
         "tags": [
           "red_squirrel_eating_berries",
@@ -713,7 +713,7 @@
         "overlay_label": "BERRIES AND NUTS"
       },
       {
-        "text": "Those small paws help it handle food while it balances above the ground.",
+        "text": "Those small flexible paws help it handle food while it balances on branches above the ground.",
         "scene": "Red squirrel in England in a tree; explanation about forepaws is voice-over.",
         "tags": [
           "red_squirrel_england_tree_perch"
@@ -731,7 +731,7 @@
         "overlay_label": "ON THE MOVE"
       },
       {
-        "text": "That is the red squirrel's routine: travel, find a perch, and eat.",
+        "text": "That is the red squirrel's daily routine: travel through trees, find a safe perch, and eat.",
         "scene": "A genuine red squirrel on a tree trunk, followed by a separate close-up of a red squirrel holding and eating a nut.",
         "tags": [
           "red_squirrel_climbing_tree_trunk",
@@ -745,7 +745,7 @@
   },
   "rock_pigeon_flock_takeoff": {
     "title": "WHY CITY PIGEONS SUDDENLY TAKE OFF",
-    "script": "Why does a city pigeon suddenly stop pecking and take off? A flock searches the ground for food while keeping track of nearby movement. When something startles a pigeon, it can spring into the air in a flash. That quick departure creates distance from a possible threat, including a nearby cat. But once the disturbance passes, pigeons can settle back into their ordinary routines. The burst of wings is a fast escape, not the end of the next meal.",
+    "script": "Why does a city pigeon suddenly stop pecking at food and take off? A flock searches the ground for food while keeping track of nearby movement. When something nearby startles a pigeon, it can suddenly spring into the air in a flash. That quick departure creates distance from a possible threat, including a nearby cat. But once the disturbance passes, pigeons can settle back into their ordinary routines. The burst of wings is a fast escape, not the end of the bird's search for its next meal.",
     "caption": "WHY CITY PIGEONS SUDDENLY TAKE OFF. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -867,11 +867,11 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v4",
+    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v5",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does a city pigeon suddenly stop pecking and take off?",
+        "text": "Why does a city pigeon suddenly stop pecking at food and take off?",
         "scene": "Authentic urban pigeons pecking at food.",
         "tags": [
           "rock_pigeon_flock_eating_ground"
@@ -889,7 +889,7 @@
         "overlay_label": "STAY ALERT"
       },
       {
-        "text": "When something startles a pigeon, it can spring into the air in a flash.",
+        "text": "When something nearby startles a pigeon, it can suddenly spring into the air in a flash.",
         "scene": "One genuine pigeon flushing and a separately filmed cat chasing another pigeon; never imply a single incident.",
         "tags": [
           "rock_pigeon_flock_flushing",
@@ -917,7 +917,7 @@
         "overlay_label": "BACK TO NORMAL"
       },
       {
-        "text": "The burst of wings is a fast escape, not the end of the next meal.",
+        "text": "The burst of wings is a fast escape, not the end of the bird's search for its next meal.",
         "scene": "Real pigeons eating bread and a separately filmed group on a pier.",
         "tags": [
           "rock_pigeons_eating_bread",
