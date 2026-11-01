@@ -1,7 +1,7 @@
 {
   "canada_goose_gosling_convoy": {
     "title": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE",
-    "script": "Why do these Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food while other geese move beside them across the lake. Those bigger birds help keep small goslings together as they learn where to feed. Adult geese can take flight, but the youngest birds still depend on their family below. For now, the safest path for a gosling is right beside its family.",
+    "script": "Why do these Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food while other geese move beside them across the lake. Those bigger birds help keep small goslings together as they learn where to feed. Adult geese can glide across open water, while their young still need to stay nearby. For now, the safest path for a gosling is right beside its family.",
     "caption": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -47,14 +47,14 @@
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20geese%20on%20Astotin%20Lake.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CGshoreWS.ogv",
         "type": "video",
-        "assetTitle": "Canada geese on Astotin Lake.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_geese_on_Astotin_Lake.webm",
+        "assetTitle": "CGshoreWS.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:CGshoreWS.ogv",
         "tags": [
-          "canada_geese_swimming_astotin_lake"
+          "canada_geese_family_on_shoreline"
         ],
-        "author": "michael h",
+        "author": "Peter H. Warkentin",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-01",
@@ -75,16 +75,16 @@
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20geese%20(Branta%20canadensis)%20in%20flight.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Goose%20on%20Golden%20Gate%20Park%20lake.webm",
         "type": "video",
-        "assetTitle": "Canada geese (Branta canadensis) in flight.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_geese_(Branta_canadensis)_in_flight.webm",
+        "assetTitle": "Canada Goose on Golden Gate Park lake.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_Goose_on_Golden_Gate_Park_lake.webm",
         "tags": [
-          "canada_geese_flock_in_flight"
+          "canada_goose_adult_swimming_park_lake"
         ],
-        "author": "tuchodi",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "author": "https://www.youtube.com/user/Editor",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-01",
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
@@ -123,7 +123,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v1",
+    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -146,10 +146,10 @@
       },
       {
         "text": "The chicks peck for food while other geese move beside them across the lake.",
-        "scene": "Gosling foraging and Canada geese swimming on a lake.",
+        "scene": "A gosling foraging on grass followed by separately filmed Canada geese at a shoreline.",
         "tags": [
           "canada_goose_gosling_foraging_plants",
-          "canada_geese_swimming_astotin_lake"
+          "canada_geese_family_on_shoreline"
         ],
         "story_role": "action",
         "overlay_label": "FOLLOW THE ADULTS"
@@ -164,13 +164,13 @@
         "overlay_label": "PROTECTION"
       },
       {
-        "text": "Adult geese can take flight, but the youngest birds still depend on their family below.",
-        "scene": "Canada geese flying overhead, contrasting flightless chicks.",
+        "text": "Adult geese can glide across open water, while their young still need to stay nearby.",
+        "scene": "Real adult Canada goose swimming on Golden Gate Park lake; not presented as the same family.",
         "tags": [
-          "canada_geese_flock_in_flight"
+          "canada_goose_adult_swimming_park_lake"
         ],
         "story_role": "twist",
-        "overlay_label": "NOT READY TO FLY"
+        "overlay_label": "ADULTS ON WATER"
       },
       {
         "text": "For now, the safest path for a gosling is right beside its family.",
@@ -633,44 +633,44 @@
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-17%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ekorre%20r%C3%A4dselljud%3F%20Red%20squirrel%20fear%20noise%3F.webm",
         "type": "video",
-        "assetTitle": "2022-03-17 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-17_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "assetTitle": "Ekorre rädselljud? Red squirrel fear noise?.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ekorre_r%C3%A4dselljud%3F_Red_squirrel_fear_noise%3F.webm",
         "tags": [
-          "red_squirrel_ljubljana_branch_pause"
+          "red_squirrel_alert_on_tree_branches"
         ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Blockhaj",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
         "license_verified_at": "2026-11-01",
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-03%20POKLJUKA%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20(Sciurus%20vulgaris).webm",
         "type": "video",
-        "assetTitle": "2022-08-03 POKLJUKA RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-03_POKLJUKA_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "assetTitle": "Red Squirrel (Sciurus vulgaris).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_(Sciurus_vulgaris).webm",
         "tags": [
-          "red_squirrel_pokljuka_woodland"
+          "red_squirrel_climbing_tree_trunk"
         ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "author": "https://www.flickr.com/photos/gails_pictures/",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-01",
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-12%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20'Nutkin'%20-%20Seen%20at%20Forest%20How%2C%20Eskdale%2C%20Cumbria%20-%20North%20West%20England.webm",
         "type": "video",
-        "assetTitle": "2022-09-12 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-12_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "assetTitle": "Red Squirrel 'Nutkin' - Seen at Forest How, Eskdale, Cumbria - North West England.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_'Nutkin'_-_Seen_at_Forest_How%2C_Eskdale%2C_Cumbria_-_North_West_England.webm",
         "tags": [
-          "red_squirrel_ljubljana_forest_perch"
+          "red_squirrel_nutkin_eating_on_stump"
         ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Peter Trimming from Croydon, England",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-01",
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       }
@@ -681,7 +681,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v1",
+    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -723,19 +723,19 @@
       },
       {
         "text": "Between meals, the animal moves along branches and checks its surroundings.",
-        "scene": "Red squirrel on branches in Ljubljana, no invented predator or chase.",
+        "scene": "European red squirrel alert among branches; no claim a predator appears.",
         "tags": [
-          "red_squirrel_ljubljana_branch_pause"
+          "red_squirrel_alert_on_tree_branches"
         ],
         "story_role": "twist",
         "overlay_label": "ON THE MOVE"
       },
       {
         "text": "That is the red squirrel's routine: travel, find a perch, and eat.",
-        "scene": "Two separate red-squirrel forest/park views closing the foraging routine.",
+        "scene": "A genuine red squirrel on a tree trunk, followed by a separate close-up of a red squirrel holding and eating a nut.",
         "tags": [
-          "red_squirrel_pokljuka_woodland",
-          "red_squirrel_ljubljana_forest_perch"
+          "red_squirrel_climbing_tree_trunk",
+          "red_squirrel_nutkin_eating_on_stump"
         ],
         "story_role": "payoff",
         "overlay_label": "DINNER UP HIGH"
@@ -819,16 +819,16 @@
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tauben%20auf%20dem%20Luftsteg%20Hof%2020230109%20114652.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon%20feeding%2C%20Jardim%20da%20Estrela%2C%202025%2001.webm",
         "type": "video",
-        "assetTitle": "Tauben auf dem Luftsteg Hof 20230109 114652.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tauben_auf_dem_Luftsteg_Hof_20230109_114652.webm",
+        "assetTitle": "Pigeon feeding, Jardim da Estrela, 2025 01.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon_feeding%2C_Jardim_da_Estrela%2C_2025_01.webm",
         "tags": [
-          "rock_pigeons_on_urban_walkway"
+          "rock_pigeons_feeding_urban_park"
         ],
-        "author": "PantheraLeo1359531",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "author": "JnpoJuwan",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
         "license_verified_at": "2026-11-01",
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
@@ -867,7 +867,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v1",
+    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -909,9 +909,9 @@
       },
       {
         "text": "But once the disturbance passes, pigeons can settle back into their ordinary routines.",
-        "scene": "Pigeons on an urban structure, with no claim of showing a specific return event.",
+        "scene": "Close real pigeons feeding in an urban park; narration does not claim the footage is from the same disturbance.",
         "tags": [
-          "rock_pigeons_on_urban_walkway"
+          "rock_pigeons_feeding_urban_park"
         ],
         "story_role": "twist",
         "overlay_label": "BACK TO NORMAL"
