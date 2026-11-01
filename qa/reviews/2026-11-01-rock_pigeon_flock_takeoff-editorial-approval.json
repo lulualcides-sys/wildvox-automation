@@ -27,11 +27,15 @@
     "uuid": "575571665155277647",
     "scheduled_local": "2026-11-01T16:10:00-03:00",
     "provider": "tiktok",
-    "status": "PENDING",
+    "status": "PUBLISHED",
     "autoPublish": true,
     "draft": false,
     "media_url": "https://static.metricool.com/planner/202611/7242311-file-6758796032474162573.mp4",
     "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=575571665155277647",
-    "confirmed_via": "createScheduledPost plus independent getScheduledPosts readback; TikTok publication not yet confirmed"
+    "confirmed_via": "Independent Metricool getScheduledPosts readback 2026-11-01 after 16:10 São Paulo; TikTok provider status PUBLISHED, publicUrl exact @wildvox and provider video ID. TikTok analytics rows not yet populated; do not infer view count.",
+    "provider_video_id": "7703282539623943476",
+    "public_url": "https://www.tiktok.com/@wildvox/video/7703282539623943476",
+    "detailed_status": "Published",
+    "publication_verified_at_local": "2026-11-01T16:18:41-03:00"
   }
 }
