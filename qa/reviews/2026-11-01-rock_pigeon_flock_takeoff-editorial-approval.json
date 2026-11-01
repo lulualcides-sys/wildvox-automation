@@ -19,5 +19,19 @@
   "publication_hold_in_daily_json": true,
   "approved_media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/rock_pigeon_flock_takeoff.mp4",
   "tiktok_only": true,
-  "never_youtube": true
+  "never_youtube": true,
+  "metricool": {
+    "brand_id": 7242311,
+    "verified_handle": "wildvox",
+    "post_id": 412949905,
+    "uuid": "575571665155277647",
+    "scheduled_local": "2026-11-01T16:10:00-03:00",
+    "provider": "tiktok",
+    "status": "PENDING",
+    "autoPublish": true,
+    "draft": false,
+    "media_url": "https://static.metricool.com/planner/202611/7242311-file-6758796032474162573.mp4",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=575571665155277647",
+    "confirmed_via": "createScheduledPost plus independent getScheduledPosts readback; TikTok publication not yet confirmed"
+  }
 }
