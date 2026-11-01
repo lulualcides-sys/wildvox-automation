@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "candidate": "canada_goose_gosling_convoy",
+  "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v10",
+  "editorial": "APPROVED_CURRENT_MP4_PENDING_ARCHIVE_CONFIRMATION",
+  "config_sha256": "a406737d962307d6344f6b90b711d8cfb3a0904e9898030c0824fe9777daadf9",
+  "mp4_sha256": "43f22f564ee1863ae2ce2d70f8ecfcf1605ddcd5ba331366240e905b7906d432",
+  "expected_media_git_blob": "510957200e8e3a6c383dd42ff35f837e531db387",
+  "reviewed_workflow_run": 41315581265,
+  "reviewed_artifact_id": 13087895398,
+  "duration_seconds": 37.27,
+  "format": "1080x1920 H.264 30fps AAC",
+  "source_count": 8,
+  "unique_authentic_video_sources": 8,
+  "independent_qa": "Inspected 25 decoded MP4 frames at 1.5s spacing, 12 close-spaced action/payoff frames, current-run review JPG, source preview JPGs, current-run meta, and full MP4 ffmpeg freezedetect >=1s and blackdetect >=0.8s (no detections). 17.8–18.5s shows real goslings paddling and 19.5–23.3s distinct hatchlings resting in nest. 29.7–32.3s shows park/pond establishing, then 33.5–37s real geese on water; revised v10 payoff does not claim invisible goslings. No reused shots, fake zoom or black letterbox observed.",
+  "editorial_note": "11–17.5s water-to-grass montage is the reverse of narration's two clauses, but both authentic actions are shown within the same script block. Narration does not assert one continuous family across independent clips. Creator 'Editor' is credited as the Commons-attributed channel name with direct source page and CC BY license link; no unsupported personal identity claimed.",
+  "credits": "Eight individual source-page, creator, license and modification credits in TikTok caption; Commons audit workflow passed.",
+  "caption_safe_area": "Word captions lower-middle, title top, no overlap with lower TikTok control strip in sampled frames.",
+  "hold_in_daily_json": true,
+  "release_rule": "DO NOT schedule until media branch exact MP4 blob 510957200e8e3a6c383dd42ff35f837e531db387 and matching meta config SHA are verified, and Metricool fresh duplicate checks pass. Do not use stale v9 or @wildvox6.",
+  "tiktok_only": true,
+  "never_youtube": true
+}
