@@ -4,7 +4,7 @@
   "caption": "HOW A RED SQUIRREL EATS IN THE TREES. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Redeemer | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Red_Squirrel_in_Berlin.webm | https://creativecommons.org/licenses/by/3.0\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n4. Peter Trimming | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:The_Great_Walnut_Disaster.webm | https://creativecommons.org/licenses/by/2.0\n5. Peter Trimming | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_squirrel_(Sciurus_vulgaris)_in_England.webm | https://creativecommons.org/licenses/by/2.0\n6. Blockhaj | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Ekorre_r%C3%A4dselljud%3F_Red_squirrel_fear_noise%3F.webm | https://creativecommons.org/licenses/by/4.0\n7. gails_pictures (Flickr) | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_Squirrel_(Sciurus_vulgaris).webm | https://creativecommons.org/licenses/by/2.0\n8. Peter Trimming from Croydon, England | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_Squirrel_'Nutkin'_-_Seen_at_Forest_How%2C_Eskdale%2C_Cumbria_-_North_West_England.webm | https://creativecommons.org/licenses/by/2.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "8ba6752336fec1ef0748c3159d110c4a057d1a58d822ebad4177ed2c7abba22c",
+  "config_sha256": "e276a677a83636209d60b14048fdb61fb72cd26a0ea3233237edee305ea108bf",
   "duration": 35.0,
   "voice": "am_michael",
   "speed": 1.0,
@@ -137,7 +137,8 @@
       "license": "CC BY 3.0",
       "license_url": "https://creativecommons.org/licenses/by/3.0",
       "license_verified_at": "2026-10-31",
-      "license_note": "Previously Commons-verified real red-squirrel footage; exact tree action and absence of baked-in unrelated text require current-run visual review."
+      "license_note": "Previously Commons-verified real red-squirrel footage; exact tree action and absence of baked-in unrelated text require current-run visual review. Current-run v8 decoded frames showed source randomly offset to near-empty trunk at 14.3-16.3s; force original beginning where source-preview frame shows the squirrel on branches. Rerender and verify visible action.",
+      "start_seconds": 0
     },
     {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Walnut%20Disaster.webm",
