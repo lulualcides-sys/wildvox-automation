@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-01",
+  "review_time_local": "2026-11-01 08:48 America/Sao_Paulo",
+  "brand_id": 7242311,
+  "allowed_tiktok_handle": "wildvox",
+  "platforms": [
+    "tiktok"
+  ],
+  "main_config_after_fix": "e0fbd72025e4374e60b0cc328092bbcb4d38afd6",
+  "method": "Downloaded three actual GitHub Actions artifact ZIPs, decoded complete MP4 timelines at one-second intervals, compared with source-preview contact sheets and exact narration metadata, checked 1080x1920 H264/AAC streams and ffmpeg freezedetect -55dB >=1s. This is independent frame-sampling and automated freeze analysis, not blanket editorial approval.",
+  "scheduled_verified_at_review": [
+    {
+      "metricool_id": 412806760,
+      "animal": "house_sparrow_two_baths",
+      "time": "10:05",
+      "status": "PENDING"
+    },
+    {
+      "metricool_id": 412813462,
+      "animal": "european_robin_singing_and_feeding",
+      "time": "12:40",
+      "status": "PENDING"
+    }
+  ],
+  "published_analytics_rows": 0,
+  "candidates": {
+    "canada_goose_gosling_convoy": {
+      "artifact_run": 41299209009,
+      "config_sha256": "c89f1356e55f370bf06dcafbab9a02b6ad90d7979fb5de4ebbcbd0f75d99ddc1",
+      "mp4_sha256": "7f93465d4d5474e8a149a3104ba5c9df35bbf1e4ddfbb0972c161ac346d37df5",
+      "duration": 36.575,
+      "technical": "PASS",
+      "editorial": "HOLD",
+      "issues": [
+        "18.5–24.4s original v7 narration claimed goslings exploring while rendered video showed goslings paddling briefly and then hatchlings huddling in a nest; v8 narration corrected in main commit e0fbd720.",
+        "At 30.5–33.5s distant park establishing footage has very small geese; confirm actual family/gosling visibility before release."
+      ],
+      "next": "Wait for v8 run 41303335071, download its NEW MP4 and source previews, verify changed narration/captions/behavior/credits and freeze before any editorial release; v7 MP4 cannot be scheduled."
+    },
+    "rock_pigeon_flock_takeoff": {
+      "artifact_run": 41298980999,
+      "config_sha256": "eaf030bd147ed66d0e2b349f91da8f50c10a6b0a0daffc5291d4ede68e65a3a3",
+      "mp4_sha256": "7b696bf06e4cb6a28ecc642b2ec141a9befeafeaab480c0054c980fb974476e4",
+      "duration": 33.875,
+      "technical": "PASS",
+      "editorial": "HOLD",
+      "issues": [
+        "11.5–13.5s empty urban street while narration says pigeon walks near street; no pigeon is visible until about 14.5s.",
+        "14.5–16.5s pigeon stands/walks on pavement, not across a patch of grass as narration claims."
+      ],
+      "next": "Replace empty-street source with a verified genuine pigeon-visible video and retag/rewrite action block to match both shots; rerender only pigeon. No unrelated generic filler."
+    },
+    "red_squirrel_branch_dining": {
+      "artifact_run": 41298980999,
+      "config_sha256": "a449eb07c04eb9c4b7c90e99ec960618e6b5b715ffe3db983d2c3a62da498827",
+      "mp4_sha256": "a7327482d81c80d239b76997fc90a260fbb30e1e1bdd3be67a94cbf8be99730f",
+      "duration": 34.4,
+      "technical": "PASS",
+      "editorial": "HOLD",
+      "issues": [
+        "10.5–12s original Alvar Freude source has large embedded 'Cute Red Squirrel' and 'Eichhörnchen' titles over footage, visually competing with WildVox captions.",
+        "22.4–27.9s narrated 'moves along branches' while sampled frames show squirrel mostly stationary on a branch.",
+        "Hook labels 'TREE LIFE' while first 4.5s clearly show squirrel perched on a manmade ledge in Berlin; narration itself does not falsely claim wild forest."
+      ],
+      "next": "Replace embedded-text source with separately verified clean Sciurus vulgaris eating footage, adjust stationary behavior narration and hook label, then rerender only squirrel."
+    }
+  },
+  "release_rule": "All three remain publication_hold=true. Technical PASS is not editorial approval. No new Metricool scheduling or TikTok publication claimed. Do not use @wildvox6, Buffer, or YouTube."
+}
