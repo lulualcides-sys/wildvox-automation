@@ -374,7 +374,7 @@
   },
   "european_robin_singing_and_feeding": {
     "title": "WHY A EUROPEAN ROBIN KEEPS SINGING",
-    "script": "Why does this small European robin keep singing from such an exposed perch? That small bird uses a clear song to announce its presence across nearby habitat. One robin sings from deep in the reeds while another gives short notes from a completely different perch. A repeated song can help a robin signal its territory to other robins. But between vocal moments, the same species must also spend time looking for food. The song is more than background noise: it is a clear message carried through the surrounding trees.",
+    "script": "Why does this small European robin keep singing from such an exposed perch? That small bird uses a clear song to announce its presence across nearby habitat. One robin sings from deep in the reeds while another gives short notes from a completely different perch. A repeated song can help a robin signal its territory to other robins. Between songs, a robin may perch on a garden fence and watch the ground below. The song is more than background noise: it is a clear message carried through the surrounding trees.",
     "caption": "WHY A EUROPEAN ROBIN KEEPS SINGING. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -427,7 +427,7 @@
         "tags": [
           "european_robin_singing_video_flickr"
         ],
-        "author": "https://www.flickr.com/photos/gails_pictures/",
+        "author": "gails_pictures (Flickr)",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-01",
@@ -453,13 +453,14 @@
         "assetTitle": "Robin feeding.ogv",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Robin_feeding.ogv",
         "tags": [
-          "european_robin_feeding_original_video"
+          "european_robin_garden_fence_perch"
         ],
         "author": "Quantockgoblin",
         "license": "Public domain",
         "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
         "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "crop_black_bars": true
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-14%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
@@ -496,7 +497,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-european_robin_singing_and_feeding-footage-first-v5",
+    "revision": "2026-11-01-european_robin_singing_and_feeding-footage-first-v6",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -537,13 +538,13 @@
         "overlay_label": "TERRITORY"
       },
       {
-        "text": "But between vocal moments, the same species must also spend time looking for food.",
-        "scene": "Genuine European robin feeding, not footage of a different robin species.",
+        "text": "Between songs, a robin may perch on a garden fence and watch the ground below.",
+        "scene": "A genuine European robin perched on a garden fence; do not imply feeding action is visibly captured.",
         "tags": [
-          "european_robin_feeding_original_video"
+          "european_robin_garden_fence_perch"
         ],
         "story_role": "twist",
-        "overlay_label": "TIME TO FEED"
+        "overlay_label": "PAUSE AND WATCH"
       },
       {
         "text": "The song is more than background noise: it is a clear message carried through the surrounding trees.",
