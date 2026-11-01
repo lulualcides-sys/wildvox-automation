@@ -4,8 +4,8 @@
   "caption": "HOW CITY PIGEONS FIND FOOD EVERYWHERE. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. D V S | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Pigeons_Eating.ogv | https://creativecommons.org/licenses/by/3.0\n2. Сарапулов | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%BB%D1%83%D0%B1_%D0%BD%D0%B0_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%97_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D0%B6%D0%B8%D1%87%D1%96.webm | https://creativecommons.org/licenses/by/4.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-10_LJUBLJANA_Opera_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm | https://creativecommons.org/licenses/by/3.0\n4. Jeromi Mikhael | CC0 | https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm | https://creativecommons.org/publicdomain/zero/1.0/\n5. ジダネ | Public domain | https://commons.wikimedia.org/wiki/File:Pigeon.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n6. JnpoJuwan | CC0 | https://commons.wikimedia.org/wiki/File:Pigeon_feeding%2C_Jardim_da_Estrela%2C_2025_01.webm | https://creativecommons.org/publicdomain/zero/1.0/\n7. Atomicdragon136 | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Seagull_and_pigeons_eating_bread.webm | https://creativecommons.org/licenses/by/3.0\n8. Сарапулов | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B8_%D0%BD%D0%B0_%D0%BF%D1%96%D1%80%D1%81%D1%96.webm | https://creativecommons.org/licenses/by/4.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "eaf030bd147ed66d0e2b349f91da8f50c10a6b0a0daffc5291d4ede68e65a3a3",
-  "duration": 33.88,
+  "config_sha256": "62eded75ff652669ed5fbfd583876d25d0ce7aaa3182ff0b625e83740d2704cf",
+  "duration": 34.35,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -40,22 +40,22 @@
     {
       "index": 2,
       "start": 11.05,
-      "end": 16.925,
-      "duration": 5.875,
-      "text": "One pigeon walks near a city street, while another moves across a patch of grass.",
-      "scene": "Two independent recordings: urban street pigeon and pigeon on grass; do not imply one continuous encounter or a cat encounter.",
+      "end": 17.4,
+      "duration": 6.35,
+      "text": "One pigeon walks by a city street; in another scene, a pigeon pauses on the pavement.",
+      "scene": "Two independent original videos, first a pigeon visibly walking near an urban street at approximately 12s of the cat/pigeon source, then a pigeon standing on pavement. Do not imply one continuous encounter or a cat chase.",
       "tags": [
-        "rock_pigeon_walking_city_road",
-        "rock_pigeon_chased_by_cat"
+        "rock_pigeon_walking_near_street",
+        "rock_pigeon_walking_city_road"
       ],
       "story_role": "action",
-      "overlay_label": "STREET TO PARK",
+      "overlay_label": "CITY FOOTSTEPS",
       "fx": []
     },
     {
       "index": 3,
-      "start": 16.925,
-      "end": 22.65,
+      "start": 17.4,
+      "end": 23.125,
       "duration": 5.725,
       "text": "They pause, look around, and move again, checking each new patch for something edible.",
       "scene": "Real rock pigeon moving on grass, with foraging explanation in narration.",
@@ -68,8 +68,8 @@
     },
     {
       "index": 4,
-      "start": 22.65,
-      "end": 27.775,
+      "start": 23.125,
+      "end": 28.25,
       "duration": 5.125,
       "text": "When food is on the ground, several pigeons can feed side by side.",
       "scene": "Real pigeons feeding in an urban park.",
@@ -82,8 +82,8 @@
     },
     {
       "index": 5,
-      "start": 27.775,
-      "end": 33.875,
+      "start": 28.25,
+      "end": 34.35,
       "duration": 6.1,
       "text": "From parks to busy crossings, a pigeon's next meal may be only a few steps away.",
       "scene": "Separate genuine pigeon group feeding scenes on a pier and in an urban setting; no invented continuity.",
@@ -145,13 +145,14 @@
       "assetTitle": "Cat chasing a pigeon.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm",
       "tags": [
-        "rock_pigeon_chased_by_cat"
+        "rock_pigeon_walking_near_street"
       ],
       "author": "Jeromi Mikhael",
       "license": "CC0",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "license_verified_at": "2026-11-01",
-      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+      "license_note": "CC0 verified; original preview at 40% (~12s) visibly shows pigeon near street. Explicit start_seconds=10.8 avoids empty opening; independently verify exact 10.8–13.8s selected clip in NEW rendered MP4 before release.",
+      "start_seconds": 10.8
     },
     {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon.ogv",
