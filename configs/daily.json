@@ -1,7 +1,7 @@
 {
   "canada_goose_gosling_convoy": {
     "title": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE",
-    "script": "Why do these tiny Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food on grassy banks while other geese move beside them across the lake. Those bigger birds help keep small goslings together as they learn where to feed. Adult geese can glide across open water, while their young still need to stay nearby. For now, the safest path for a little gosling is right beside its watchful family.",
+    "script": "Why do these tiny Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food on grassy banks while other geese move beside them across the lake. In a different scene, more goslings explore their surroundings while they are still learning to move around. Adult geese can glide across open water, while their young still need to stay nearby. For now, the safest path for a little gosling is right beside its watchful family.",
     "caption": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -62,18 +62,18 @@
         "crop_black_bars": true
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20goose%20(Branta%20canadensis)%20family.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goslings%20%2817156662405%29.webm",
         "type": "video",
-        "assetTitle": "Canada goose (Branta canadensis) family.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_goose_(Branta_canadensis)_family.webm",
+        "assetTitle": "Goslings (17156662405).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goslings_(17156662405).webm",
         "tags": [
-          "canada_goose_adults_with_goslings"
+          "usfws_2015_goslings_separate_family_scene"
         ],
-        "author": "Courtney Celley/USFWS",
+        "author": "U.S. Fish and Wildlife Service - Midwest Region",
         "license": "Public domain",
         "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
         "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_note": "USFWS federal-work public domain statement and 2015 date checked on Commons; original action, framing, 2016-source visual distinctness, and payoff still require independent rendered MP4 QA. Flickr review pending; do not clear editorial hold."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Goose%20on%20Golden%20Gate%20Park%20lake.webm",
@@ -124,7 +124,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v6",
+    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v7",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -156,13 +156,13 @@
         "overlay_label": "FOLLOW THE ADULTS"
       },
       {
-        "text": "Those bigger birds help keep small goslings together as they learn where to feed.",
-        "scene": "Adult Canada geese with their young, filmed together.",
+        "text": "In a different scene, more goslings explore their surroundings while they are still learning to move around.",
+        "scene": "Separate 2015 USFWS footage showing goslings; do not claim a continuous family or adult protective action. Actual motion/framing must be confirmed in rendered video before release.",
         "tags": [
-          "canada_goose_adults_with_goslings"
+          "usfws_2015_goslings_separate_family_scene"
         ],
         "story_role": "explanation",
-        "overlay_label": "PROTECTION"
+        "overlay_label": "LEARNING TO EXPLORE"
       },
       {
         "text": "Adult geese can glide across open water, while their young still need to stay nearby.",
