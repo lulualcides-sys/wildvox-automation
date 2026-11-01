@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-01",
+  "brand_id": 7242311,
+  "exact_handle": "wildvox",
+  "candidate": "red_squirrel_branch_dining",
+  "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v9",
+  "metricool_post_id": 412996988,
+  "provider_network": "tiktok",
+  "provider_status": "PENDING",
+  "publication_status": "NOT_YET_PUBLISHED",
+  "scheduled_local": "2026-11-01T22:05:00-03:00",
+  "auto_publish": true,
+  "draft": false,
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/red_squirrel_branch_dining.mp4",
+  "media_git_blob": "15cbaddc308af6f62fff43f98cce66b35ee34e0a",
+  "mp4_sha256": "37cea3d4c4908c53d781e3fd765bf9339652f865bf916390dc3bf3fa1043e2c6",
+  "media_config_sha256": "e276a677a83636209d60b14048fdb61fb72cd26a0ea3233237edee305ea108bf",
+  "editorial_approval": "qa/reviews/2026-11-01-red_squirrel_branch_dining-editorial-approval.json",
+  "reviewed_workflow_run": 41316109660,
+  "duplicate_check": "Metricool schedule and TikTok analytics checked immediately before creation. Four distinct current-day posts already existed; 22:05 was free. After creation, readback confirms five unique TikTok-only posts and this one PENDING.",
+  "no_new_render": true,
+  "never_youtube": true
+}
