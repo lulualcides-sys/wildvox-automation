@@ -1,0 +1,216 @@
+{
+  "key": "rock_pigeon_flock_takeoff",
+  "title": "WHY CITY PIGEONS SUDDENLY TAKE OFF",
+  "caption": "WHY CITY PIGEONS SUDDENLY TAKE OFF. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. D V S | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Pigeons_Eating.ogv | https://creativecommons.org/licenses/by/3.0\n2. Сарапулов | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%BB%D1%83%D0%B1_%D0%BD%D0%B0_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%97_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D0%B6%D0%B8%D1%87%D1%96.webm | https://creativecommons.org/licenses/by/4.0\n3. D. Benjamin Miller | CC0 | https://commons.wikimedia.org/wiki/File:Pigeon_Flushing.ogv | https://creativecommons.org/publicdomain/zero/1.0/\n4. Jeromi Mikhael | CC0 | https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm | https://creativecommons.org/publicdomain/zero/1.0/\n5. ジダネ | Public domain | https://commons.wikimedia.org/wiki/File:Pigeon.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n6. JnpoJuwan | CC0 | https://commons.wikimedia.org/wiki/File:Pigeon_feeding%2C_Jardim_da_Estrela%2C_2025_01.webm | https://creativecommons.org/publicdomain/zero/1.0/\n7. Atomicdragon136 | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Seagull_and_pigeons_eating_bread.webm | https://creativecommons.org/licenses/by/3.0\n8. Сарапулов | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B8_%D0%BD%D0%B0_%D0%BF%D1%96%D1%80%D1%81%D1%96.webm | https://creativecommons.org/licenses/by/4.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "818d8eb60ccbe4edb89614548d563a337ec730acdff9237bbaf98491d02c47e9",
+  "duration": 34.62,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.675,
+      "duration": 4.675,
+      "text": "Why does a city pigeon suddenly stop pecking at food and take off?",
+      "scene": "Authentic urban pigeons pecking at food.",
+      "tags": [
+        "rock_pigeon_flock_eating_ground"
+      ],
+      "story_role": "hook",
+      "overlay_label": "WHY SCATTER?",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.675,
+      "end": 10.1,
+      "duration": 5.425,
+      "text": "A flock searches the ground for food while keeping track of nearby movement.",
+      "scene": "A pigeon on an urban station platform, not misrepresented as feeding.",
+      "tags": [
+        "rock_pigeon_urban_station_platform"
+      ],
+      "story_role": "setup",
+      "overlay_label": "STAY ALERT",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 10.1,
+      "end": 16.175,
+      "duration": 6.075,
+      "text": "When something nearby startles a pigeon, it can suddenly spring into the air in a flash.",
+      "scene": "One genuine pigeon flushing and a separately filmed cat chasing another pigeon; never imply a single incident.",
+      "tags": [
+        "rock_pigeon_flock_flushing",
+        "rock_pigeon_chased_by_cat"
+      ],
+      "story_role": "action",
+      "overlay_label": "SUDDEN TAKEOFF",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 16.175,
+      "end": 22.275,
+      "duration": 6.1,
+      "text": "That quick departure creates distance from a possible threat, including a nearby cat.",
+      "scene": "Real rock pigeon close view, explanation of escape mechanism as voice-over.",
+      "tags": [
+        "rock_pigeon_closeup_urban"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "ESCAPE FIRST",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 22.275,
+      "end": 28.4,
+      "duration": 6.125,
+      "text": "But once the disturbance passes, pigeons can settle back into their ordinary routines.",
+      "scene": "Close real pigeons feeding in an urban park; narration does not claim the footage is from the same disturbance.",
+      "tags": [
+        "rock_pigeons_feeding_urban_park"
+      ],
+      "story_role": "twist",
+      "overlay_label": "BACK TO NORMAL",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 28.4,
+      "end": 34.625,
+      "duration": 6.225,
+      "text": "The burst of wings is a fast escape, not the end of the bird's search for its next meal.",
+      "scene": "Real pigeons eating bread and a separately filmed group on a pier.",
+      "tags": [
+        "rock_pigeons_eating_bread",
+        "rock_pigeons_group_on_pier"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "NEXT MEAL",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeons%20Eating.ogv",
+      "type": "video",
+      "assetTitle": "Pigeons Eating.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeons_Eating.ogv",
+      "tags": [
+        "rock_pigeon_flock_eating_ground"
+      ],
+      "author": "D V S",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D0%BE%D0%BB%D1%83%D0%B1%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%97%20%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D0%B6%D0%B8%D1%87%D1%96.webm",
+      "type": "video",
+      "assetTitle": "Голуб на станції Дорогожичі.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%BB%D1%83%D0%B1_%D0%BD%D0%B0_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%97_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D0%B6%D0%B8%D1%87%D1%96.webm",
+      "tags": [
+        "rock_pigeon_urban_station_platform"
+      ],
+      "author": "Сарапулов",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon%20Flushing.ogv",
+      "type": "video",
+      "assetTitle": "Pigeon Flushing.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon_Flushing.ogv",
+      "tags": [
+        "rock_pigeon_flock_flushing"
+      ],
+      "author": "D. Benjamin Miller",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20chasing%20a%20pigeon.webm",
+      "type": "video",
+      "assetTitle": "Cat chasing a pigeon.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm",
+      "tags": [
+        "rock_pigeon_chased_by_cat"
+      ],
+      "author": "Jeromi Mikhael",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon.ogv",
+      "type": "video",
+      "assetTitle": "Pigeon.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon.ogv",
+      "tags": [
+        "rock_pigeon_closeup_urban"
+      ],
+      "author": "ジダネ",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon%20feeding%2C%20Jardim%20da%20Estrela%2C%202025%2001.webm",
+      "type": "video",
+      "assetTitle": "Pigeon feeding, Jardim da Estrela, 2025 01.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon_feeding%2C_Jardim_da_Estrela%2C_2025_01.webm",
+      "tags": [
+        "rock_pigeons_feeding_urban_park"
+      ],
+      "author": "JnpoJuwan",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seagull%20and%20pigeons%20eating%20bread.webm",
+      "type": "video",
+      "assetTitle": "Seagull and pigeons eating bread.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Seagull_and_pigeons_eating_bread.webm",
+      "tags": [
+        "rock_pigeons_eating_bread"
+      ],
+      "author": "Atomicdragon136",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D1%96%D1%80%D1%81%D1%96.webm",
+      "type": "video",
+      "assetTitle": "Голуби на пірсі.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B8_%D0%BD%D0%B0_%D0%BF%D1%96%D1%80%D1%81%D1%96.webm",
+      "tags": [
+        "rock_pigeons_group_on_pier"
+      ],
+      "author": "Сарапулов",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    }
+  ],
+  "review_sheet": "rock_pigeon_flock_takeoff_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
