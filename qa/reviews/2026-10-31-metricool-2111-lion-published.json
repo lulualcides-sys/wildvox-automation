@@ -1,0 +1,56 @@
+{
+  "checked_at_local": "2026-10-31T21:11:11-03:00",
+  "target": "TikTok @wildvox ONLY",
+  "metricool_brand_id": 7242311,
+  "main_sha": "58f0c49bbf9fbfbe0529e758f972b58013ba851d",
+  "daily_blob_sha": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "summary": {
+    "ERROR": 8,
+    "PUBLISHED": 1,
+    "PENDING": 1,
+    "authorized_confirmed_published": 1
+  },
+  "published": {
+    "title": "WHAT LIONS DO BETWEEN THE HUNTS",
+    "metricool_id": 412139565,
+    "scheduled_local": "2026-10-31T20:55:00-03:00",
+    "provider_status": "PUBLISHED",
+    "provider_detail": "Published",
+    "public_profile": "https://www.tiktok.com/@wildvox",
+    "public_video_url": "https://www.tiktok.com/@wildvox/video/7702984848914287878",
+    "video_id": "7702984848914287878",
+    "video_id_timestamp_utc": "2026-10-31T23:55:20Z",
+    "corroboration": "TikTok public @wildvox profile lists this new video URL. Video ID timestamp matches scheduled lion slot to 20 seconds. Direct video page returned site-maintenance, so caption was not independently inspected."
+  },
+  "pending": [
+    {
+      "id": 412139850,
+      "title": "WHAT SWANS DO BETWEEN FLIGHTS",
+      "scheduled_local": "2026-10-31T22:05:00-03:00",
+      "status": "PENDING"
+    }
+  ],
+  "errors": [
+    412138716,
+    412139137,
+    412139187,
+    412139240,
+    412139274,
+    412139319,
+    412139350,
+    412139534
+  ],
+  "error_detail": "You have reached your Metricool account limit.",
+  "analytics": {
+    "metrics": [
+      "TKPO01",
+      "TKPO02",
+      "TKPO03",
+      "TKPO05"
+    ],
+    "rows": 0,
+    "note": "Metricool analytics not yet synchronized; direct public profile URL and PUBLISHED provider status used for confirmation."
+  },
+  "actions": "Read-only provider checks; no scheduling, re-render, config edit, or wrong-channel Buffer operation.",
+  "safety": "Never use @wildvox6. No more Oct 31 scheduling. Continue swan provider and TikTok URL checks after 22:05."
+}
