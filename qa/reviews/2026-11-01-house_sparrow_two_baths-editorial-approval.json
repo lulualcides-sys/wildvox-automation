@@ -36,8 +36,15 @@
   "metricool": {
     "brand_id": 7242311,
     "verified_tiktok_handle": "wildvox",
-    "scheduled_post_id": null,
-    "status": "NOT_SCHEDULED"
+    "scheduled_post_id": 412806760,
+    "status": "PENDING",
+    "scheduled_local": "2026-11-01T10:05:00-03:00",
+    "autoPublish": true,
+    "draft": false,
+    "provider": "tiktok",
+    "media_url": "https://static.metricool.com/planner/202611/7242311-file-10227951962048130031.mp4",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-8466134495522370246",
+    "confirmed_via": "getScheduledPosts after createScheduledPost"
   },
   "youtube": false
 }
