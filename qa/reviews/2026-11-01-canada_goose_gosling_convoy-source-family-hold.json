@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-01",
+  "candidate": "canada_goose_gosling_convoy",
+  "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v6",
+  "run": 41289534972,
+  "artifact_id": 13076528104,
+  "technical_pass": true,
+  "editorial_approved": false,
+  "publication_hold": true,
+  "issue": "Two different Commons source files reproduce effectively the same USFWS family footage. Distinct original SHA1 values do not establish distinct visual material.",
+  "evidence": {
+    "source_0": "Canada Goose Family (27519845085).webm",
+    "source_4": "Canada goose (Branta canadensis) family.webm",
+    "preview_size": "960x180",
+    "preview_resized_comparison": "450x85 RGB",
+    "preview_pixel_correlation": 0.9982374261405046,
+    "preview_mean_absolute_error": 1.5787363834422659,
+    "observed": "First and fifth source contact sheets show near-identical parent/gosling arrangement and camera angle; 0–5s and 17–23s of MP4 repeat essentially the same visual scene.",
+    "additional_editorial_weakness": "At 29–35s payoff, a wide lawn and geese on water do not clearly show a nearby gosling; narration claims a gosling stays right beside family."
+  },
+  "required_action": "Replace the duplicated source 4 with a distinct verified CC0/PD/CC BY real video that actually shows the claim; rewrite the final block to match observable footage or use a genuinely visible gosling family shot; render this candidate only and re-review new source previews and full MP4 before scheduling.",
+  "avoid": "Do not accept green technical QA as editorial clearance, and do not reuse this artifact for a changed config.",
+  "metricool_status": "NOT_SCHEDULED",
+  "youtube": false
+}
