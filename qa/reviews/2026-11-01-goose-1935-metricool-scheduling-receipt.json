@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "brand_id": 7242311,
+  "exact_handle": "wildvox",
+  "candidate": "canada_goose_gosling_convoy",
+  "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v10",
+  "metricool_post_id": 412994363,
+  "provider_network": "tiktok",
+  "provider_status": "PENDING",
+  "publication_status": "NOT_YET_PUBLISHED",
+  "scheduled_local": "2026-11-01T19:35:00-03:00",
+  "auto_publish": true,
+  "draft": false,
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/canada_goose_gosling_convoy.mp4",
+  "media_git_blob": "510957200e8e3a6c383dd42ff35f837e531db387",
+  "media_config_sha256": "a406737d962307d6344f6b90b711d8cfb3a0904e9898030c0824fe9777daadf9",
+  "editorial_approval": "qa/reviews/2026-11-01-canada_goose_gosling_convoy-editorial-approval.json",
+  "reviewed_workflow_run": 41315581265,
+  "duplication_check": "Metricool schedule checked immediately before scheduling; analytics TKPO01/02/03/05 returned no rows; exactly 3 existing today; 19:35 was free; no @wildvox6 or YouTube used.",
+  "no_new_render": true
+}
