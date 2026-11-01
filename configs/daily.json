@@ -747,7 +747,7 @@
   },
   "rock_pigeon_flock_takeoff": {
     "title": "HOW CITY PIGEONS FIND FOOD EVERYWHERE",
-    "script": "Why do city pigeons keep checking the ground, even beside busy streets? Their daily search for seeds and scraps takes them from sidewalks to station ledges. One pigeon walks near a city street, while another moves across a patch of grass. They pause, look around, and move again, checking each new patch for something edible. When food is on the ground, several pigeons can feed side by side. From parks to busy crossings, a pigeon's next meal may be only a few steps away.",
+    "script": "Why do city pigeons keep checking the ground, even beside busy streets? Their daily search for seeds and scraps takes them from sidewalks to station ledges. One pigeon walks by a city street; in another scene, a pigeon pauses on the pavement. They pause, look around, and move again, checking each new patch for something edible. When food is on the ground, several pigeons can feed side by side. From parks to busy crossings, a pigeon's next meal may be only a few steps away.",
     "caption": "HOW CITY PIGEONS FIND FOOD EVERYWHERE. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -798,13 +798,14 @@
         "assetTitle": "Cat chasing a pigeon.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm",
         "tags": [
-          "rock_pigeon_chased_by_cat"
+          "rock_pigeon_walking_near_street"
         ],
         "author": "Jeromi Mikhael",
         "license": "CC0",
         "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_note": "CC0 verified; original preview at 40% (~12s) visibly shows pigeon near street. Explicit start_seconds=10.8 avoids empty opening; independently verify exact 10.8–13.8s selected clip in NEW rendered MP4 before release.",
+        "start_seconds": 10.8
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon.ogv",
@@ -869,7 +870,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v6",
+    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v7",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -891,14 +892,14 @@
         "overlay_label": "CITY HABITAT"
       },
       {
-        "text": "One pigeon walks near a city street, while another moves across a patch of grass.",
-        "scene": "Two independent recordings: urban street pigeon and pigeon on grass; do not imply one continuous encounter or a cat encounter.",
+        "text": "One pigeon walks by a city street; in another scene, a pigeon pauses on the pavement.",
+        "scene": "Two independent original videos, first a pigeon visibly walking near an urban street at approximately 12s of the cat/pigeon source, then a pigeon standing on pavement. Do not imply one continuous encounter or a cat chase.",
         "tags": [
-          "rock_pigeon_walking_city_road",
-          "rock_pigeon_chased_by_cat"
+          "rock_pigeon_walking_near_street",
+          "rock_pigeon_walking_city_road"
         ],
         "story_role": "action",
-        "overlay_label": "STREET TO PARK"
+        "overlay_label": "CITY FOOTSTEPS"
       },
       {
         "text": "They pause, look around, and move again, checking each new patch for something edible.",
