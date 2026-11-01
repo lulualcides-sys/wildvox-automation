@@ -828,7 +828,7 @@
         ],
         "author": "JnpoJuwan",
         "license": "CC0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "license_verified_at": "2026-11-01",
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
@@ -867,7 +867,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v3",
+    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v4",
     "publication_hold": true,
     "visual_plan": [
       {
