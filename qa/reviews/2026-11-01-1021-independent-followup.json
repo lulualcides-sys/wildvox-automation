@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-01",
+  "timezone": "America/Sao_Paulo",
+  "review_scope": "Current-day per-candidate MP4 editorial QA and publication readback",
+  "main_at_write": "9ceafc523b78662f8f57103243c597201b02561b",
+  "daily_blob": "5ef1b3d8725d095a591e0e9eedb9f21e9ffaed7e",
+  "metricool": {
+    "brand_id": 7242311,
+    "handle": "wildvox",
+    "published": [
+      {
+        "candidate": "house_sparrow_two_baths",
+        "id": 412806760,
+        "tiktok_id": "7703188466179296564",
+        "url": "https://www.tiktok.com/@wildvox/video/7703188466179296564",
+        "provider_status": "PUBLISHED"
+      }
+    ],
+    "pending": [
+      {
+        "candidate": "european_robin_singing_and_feeding",
+        "id": 412813462,
+        "provider_status": "PENDING",
+        "local_time": "12:40"
+      }
+    ],
+    "analytics_rows": 0
+  },
+  "inspected": [
+    {
+      "candidate": "canada_goose_gosling_convoy",
+      "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v9",
+      "run": 41303813759,
+      "duration": 35.75,
+      "technical": "PASS",
+      "editorial": "HOLD",
+      "evidence": "Decoded MP4 frames every 2 seconds from 0.5 to 34.5s, current-run review JPG and eight source preview JPGs; no freeze ≥1s or letterbox detected in ffmpeg checks. Source 4 now shows goslings in a nest, visually distinct from opening. 29.6-33.4s wide park/pond footage shows no clearly visible gosling, while payoff claims gosling beside family. Source 5 creator is only 'Editor (YouTube channel...)', attribution needs independent creator verification.",
+      "next_action": "Replace weak wide payoff source with authentic clearly visible family/gosling clip, or rewrite payoff to match the group on pond; verify creator credit, rerender this candidate only, re-review."
+    },
+    {
+      "candidate": "rock_pigeon_flock_takeoff",
+      "revision_reviewed": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v7",
+      "run": 41303603747,
+      "duration": 34.35,
+      "technical": "PASS",
+      "editorial": "HOLD",
+      "evidence": "Decoded frames every 2s, source previews, review JPG and ffmpeg freeze/black checks. At ~12.5s, cat is foreground and pigeon tiny at far right; visual does not strongly support a pigeon-focused city-walk segment. No ≥1s freeze or letterbox detected.",
+      "repair": "Replaced cat source with separate licensed Ljubljana pigeon street footage, revised narration and visual tags in daily.json v8 at commit 0a24a772; new run 41311105675. Await source preview and new MP4 inspection; do not approve prior v7."
+    },
+    {
+      "candidate": "red_squirrel_branch_dining",
+      "revision_reviewed": "2026-11-01-red_squirrel_branch_dining-footage-first-v6",
+      "run": 41298980999,
+      "duration": 34.4,
+      "technical": "PASS",
+      "editorial": "HOLD",
+      "evidence": "Decoded frames every 2s and source timeline; 10-12s original clip includes prominent baked-in unrelated multilingual text, even though squirrel and food later visible. No ≥1s freeze or letterbox detected.",
+      "repair": "Replaced baked-text walnut source with separate licensed Ljubljana red-squirrel clip and revised script/scene to avoid unverified walnut behavior; v7 at commit 0a24a772, run 41311105675 pending. Do not approve v6."
+    }
+  ],
+  "publication_holds": "All three candidates remain publication_hold=true; approvals are per render fingerprint, no Metricool scheduling attempted for them.",
+  "never_youtube": true,
+  "never_wrong_buffer_handle": true
+}
