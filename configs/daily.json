@@ -1,7 +1,7 @@
 {
   "canada_goose_gosling_convoy": {
     "title": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE",
-    "script": "Why do these tiny Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food on grassy banks while other geese move beside them across the lake. Another recording shows goslings paddling on water, followed by hatchlings resting together in a sheltered nest. Adult geese can glide across open water, while their young still need to stay nearby. For now, the safest path for a little gosling is right beside its watchful family.",
+    "script": "Why do these tiny Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food on grassy banks while other geese move beside them across the lake. Goslings paddle briefly, while other hatchlings rest together in a sheltered nest. Adult geese can glide across open water, while their young still need to stay nearby. For now, the safest path for a little gosling is right beside its watchful family.",
     "caption": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -124,7 +124,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v8",
+    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v9",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -156,8 +156,8 @@
         "overlay_label": "FOLLOW THE ADULTS"
       },
       {
-        "text": "Another recording shows goslings paddling on water, followed by hatchlings resting together in a sheltered nest.",
-        "scene": "Real goslings paddling at the start of the 2015 USFWS clip, followed by hatchlings huddling in a nest; do not imply one continuous family or exploratory walking.",
+        "text": "Goslings paddle briefly, while other hatchlings rest together in a sheltered nest.",
+        "scene": "Separate USFWS gosling footage: paddling briefly, then hatchlings resting in a nest. No exploratory walking or continuous family is claimed.",
         "tags": [
           "usfws_2015_goslings_separate_family_scene"
         ],
