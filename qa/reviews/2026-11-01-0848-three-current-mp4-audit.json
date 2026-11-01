@@ -6,7 +6,7 @@
   "platforms": [
     "tiktok"
   ],
-  "main_config_after_fix": "e0fbd72025e4374e60b0cc328092bbcb4d38afd6",
+  "main_config_after_fix": "355cc4bc71ac6bfea76954808e71505a4092d1e1",
   "method": "Downloaded three actual GitHub Actions artifact ZIPs, decoded complete MP4 timelines at one-second intervals, compared with source-preview contact sheets and exact narration metadata, checked 1080x1920 H264/AAC streams and ffmpeg freezedetect -55dB >=1s. This is independent frame-sampling and automated freeze analysis, not blanket editorial approval.",
   "scheduled_verified_at_review": [
     {
@@ -33,9 +33,10 @@
       "editorial": "HOLD",
       "issues": [
         "18.5–24.4s original v7 narration claimed goslings exploring while rendered video showed goslings paddling briefly and then hatchlings huddling in a nest; v8 narration corrected in main commit e0fbd720.",
-        "At 30.5–33.5s distant park establishing footage has very small geese; confirm actual family/gosling visibility before release."
+        "At 30.5–33.5s distant park establishing footage has very small geese; confirm actual family/gosling visibility before release.",
+        "v8 render run 41303335071 failed at plan_semantic_shots: cannot assign all 8 source assets to real Kokoro speech blocks; no v8 MP4 exists."
       ],
-      "next": "Wait for v8 run 41303335071, download its NEW MP4 and source previews, verify changed narration/captions/behavior/credits and freeze before any editorial release; v7 MP4 cannot be scheduled."
+      "next": "v9 shortened verified gosling/nest narration in commit 355cc4bc; await fresh v9 render, technical QA, actual MP4 and license review before release. Do not reuse v7."
     },
     "rock_pigeon_flock_takeoff": {
       "artifact_run": 41298980999,
@@ -46,9 +47,10 @@
       "editorial": "HOLD",
       "issues": [
         "11.5–13.5s empty urban street while narration says pigeon walks near street; no pigeon is visible until about 14.5s.",
-        "14.5–16.5s pigeon stands/walks on pavement, not across a patch of grass as narration claims."
+        "14.5–16.5s pigeon stands/walks on pavement, not across a patch of grass as narration claims.",
+        "v7 config commit 60a241f uses exact original cat/pigeon clip start_seconds=10.8 (pigeon visibly present near 12s in original source preview) and rewrites action as independent street/pavement scenes; new run 41303603747 must be independently checked."
       ],
-      "next": "Replace empty-street source with a verified genuine pigeon-visible video and retag/rewrite action block to match both shots; rerender only pigeon. No unrelated generic filler."
+      "next": "Wait for v7 run 41303603747; inspect actual 10.8–13.8s selected source and complete new MP4 before release."
     },
     "red_squirrel_branch_dining": {
       "artifact_run": 41298980999,
