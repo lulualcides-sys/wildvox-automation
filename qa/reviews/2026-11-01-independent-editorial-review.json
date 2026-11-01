@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-01",
+  "timezone": "America/Sao_Paulo",
+  "repository": "lulualcides-sys/wildvox-automation",
+  "main_sha_at_review": "42be2698e60e5d61a3f77da4e2c497f944e4eb32",
+  "daily_blob_sha": "2356f8d4a94bec8473a96322a4ebd663ded2e9fa",
+  "workflow_run": 41284103122,
+  "technical_qa": {
+    "pass": [
+      "canada_goose_gosling_convoy",
+      "house_sparrow_two_baths",
+      "european_robin_singing_and_feeding",
+      "rock_pigeon_flock_takeoff"
+    ],
+    "fail": {
+      "red_squirrel_branch_dining": "Decoded repeated-frame QA: freeze 1.25s; inspect actual source motion and replace shot or adjust only if false positive verified."
+    }
+  },
+  "metricool": {
+    "brand_id": 7242311,
+    "verified_handle": "wildvox",
+    "scheduled_posts_nov1": 0,
+    "published_analytics_rows_nov1": 0
+  },
+  "editorial_approval": "NONE",
+  "publication_hold_required": true,
+  "inspected_evidence": "Downloaded all five current-run GitHub render artifacts and examined rendered MP4 frames across timeline, current-run review JPGs, available source-preview JPGs, metadata/caption and GitHub shot/source mapping. Frame inspection is visual sampling, not full-frame human certification.",
+  "candidates": {
+    "canada_goose_gosling_convoy": {
+      "technical": "PASS",
+      "editorial": "HOLD",
+      "issues": [
+        "11.2-14.4s: embedded black letterbox bands in CGshoreWS.ogv, visible in actual MP4; fails no-black-bars rule.",
+        "Credits entries 6 and 8 use raw YouTube profile URLs rather than readable creator attribution; verify/normalize before release.",
+        "USFWS family scenes have similar content; verify they are not the same underlying event/shot before approval."
+      ],
+      "fix": "Set crop_black_bars=true only on confirmed letterboxed CGshoreWS.ogv (source index 3) or replace with verified full-frame shoreline clip; rerender affected candidate, re-audit black bands and readable credits."
+    },
+    "house_sparrow_two_baths": {
+      "technical": "PASS",
+      "editorial": "HOLD",
+      "issues": [
+        "11.8-13.8s narration/closed captions assert 'sparrow splashes in shallow water' while actual selected shot shows a bird perched at water edge with no clearly visible splashing.",
+        "Check the 18-23s bird-bath clip for actual sparrow water bathing, species/context; the zoo dust-bath must be labeled as zoo footage."
+      ],
+      "fix": "Retarget the water-bath shot to verified visible splashing, or rewrite narration to exactly observed behavior; render again and review."
+    },
+    "european_robin_singing_and_feeding": {
+      "technical": "PASS",
+      "editorial": "HOLD",
+      "issues": [
+        "26-30s: prominent black letterbox band within original footage from Ljubljana robin shot.",
+        "20-25s robin is distant, weak evidence of feeding action; confirm source behavior with decoded motion and replace if not observable."
+      ],
+      "fix": "Crop/replace only the embedded-letterbox source after source-level inspection; use closer authentic feeding clip or revise wording; rerender and QA."
+    },
+    "red_squirrel_branch_dining": {
+      "technical": "FAIL",
+      "editorial": "HOLD",
+      "issues": [
+        "Independent decoded-frame QA flags 1.25s freeze.",
+        "Approx 15-17s narration says squirrel grips nut but rendered footage shows empty landscape/tree; does not illustrate claim.",
+        "Approx 12s embedded unrelated source lettering appears in footage, distracting/possible attribution problem."
+      ],
+      "fix": "Replace empty landscape/nut shot with verified squirrel visibly eating; remove unrelated lettering by substituting legitimate clip, investigate freeze with repeated-frame evidence; rerender only this candidate and QA."
+    },
+    "rock_pigeon_flock_takeoff": {
+      "technical": "PASS",
+      "editorial": "HOLD",
+      "issues": [
+        "10.1-16.2s action segment does NOT visibly show pigeon taking off; rendered frames show empty street and pigeon standing by parked car.",
+        "Original source-preview frames of 'Pigeon Flushing.ogv' show a standing pigeon, not a demonstrated takeoff; 'Cat chasing a pigeon.webm' preview shows cat/empty street, not clear pigeon flight."
+      ],
+      "fix": "Find and verify authentic pigeon takeoff in exact selected time window, set start_seconds to that action or replace topic/footage; do not imply the cat and takeoff are one event."
+    }
+  },
+  "scheduling_decision": "NO_SCHEDULING: no current-run candidate has passed independent editorial and legal review; retain all publication_hold flags. Do not use Buffer @wildvox6, YouTube, or stale Oct31 media.",
+  "priority": "Repair one candidate with proven behavior first; do not rerender all five speculatively. A full green CI is not release clearance."
+}
