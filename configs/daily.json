@@ -561,7 +561,7 @@
   },
   "red_squirrel_branch_dining": {
     "title": "HOW A RED SQUIRREL EATS IN THE TREES",
-    "script": "Why does this red squirrel keep stopping in the middle of its day? A tree is both a route through its habitat and a place to pause for food. One red squirrel pauses among the branches while another grips food between its front paws. Those small flexible paws help it handle food while it balances on a stump or branch. Between meals, the animal moves along branches and checks its surroundings. That is the red squirrel's daily routine: travel through trees, find a safe perch, and eat.",
+    "script": "Why does this red squirrel keep stopping in the middle of its day? A tree is both a route through its habitat and a place to pause for food. One squirrel pauses to eat, while another explores the branches and a nearby tree trunk. Those small flexible paws help it handle food while it balances on a stump or branch. Between meals, the animal perches among branches and checks its surroundings. That is the red squirrel's daily routine: travel through trees, find a safe perch, and eat.",
     "caption": "HOW A RED SQUIRREL EATS IN THE TREES. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -570,7 +570,7 @@
         "assetTitle": "Red Squirrel in Berlin.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_in_Berlin.webm",
         "tags": [
-          "red_squirrel_berlin_tree_perch"
+          "red_squirrel_berlin_urban_ledge"
         ],
         "author": "Redeemer",
         "license": "CC BY 3.0",
@@ -607,18 +607,18 @@
         "license_note": "Previously Commons-verified real red-squirrel footage; exact tree action and absence of baked-in unrelated text require current-run visual review."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20eats%20a%20nut.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Walnut%20Disaster.webm",
         "type": "video",
-        "assetTitle": "Red Squirrel eats a nut.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_eats_a_nut.webm",
+        "assetTitle": "The Great Walnut Disaster.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Walnut_Disaster.webm",
         "tags": [
-          "red_squirrel_eating_nut"
+          "red_squirrel_walnut_stump_search"
         ],
-        "author": "Alvar Freude",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "author": "Peter Trimming",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_note": "Wikimedia Commons original Flickr CC BY 2.0 license reviewed 2019; video shows red squirrels and walnuts on a stump. Exact shot and absence of baked-in captions must be independently checked after current-day render; hold remains true."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20squirrel%20(Sciurus%20vulgaris)%20in%20England.webm",
@@ -683,17 +683,17 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v7",
+    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v8",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "Why does this red squirrel keep stopping in the middle of its day?",
-        "scene": "A real red squirrel perched on a manmade ledge in Berlin; no claim this particular shot is wild woodland.",
+        "scene": "Real European red squirrel on a manmade park ledge in Berlin, visibly pausing; no wild-tree claim.",
         "tags": [
-          "red_squirrel_berlin_tree_perch"
+          "red_squirrel_berlin_urban_ledge"
         ],
         "story_role": "hook",
-        "overlay_label": "TREE LIFE"
+        "overlay_label": "PAUSE AND EAT"
       },
       {
         "text": "A tree is both a route through its habitat and a place to pause for food.",
@@ -705,14 +705,14 @@
         "overlay_label": "A SAFE PERCH"
       },
       {
-        "text": "One red squirrel pauses among the branches while another grips food between its front paws.",
-        "scene": "Two separate real red-squirrel videos: squirrel on a branch and a different squirrel visibly eating. Verify the new first shot actually shows the animal; no walnut action or same-animal continuity claimed.",
+        "text": "One squirrel pauses to eat, while another explores the branches and a nearby tree trunk.",
+        "scene": "Independent genuine red-squirrel clips: a squirrel nibbling or inspecting walnuts at a stump, and another on branches/trunk. Do not imply same animal or a continuous event; verify rendered timing.",
         "tags": [
           "red_squirrel_ljubljana_tree_perch_december",
-          "red_squirrel_eating_nut"
+          "red_squirrel_walnut_stump_search"
         ],
         "story_role": "action",
-        "overlay_label": "GRIP AND NIBBLE"
+        "overlay_label": "FOOD AND BRANCHES"
       },
       {
         "text": "Those small flexible paws help it handle food while it balances on a stump or branch.",
@@ -724,13 +724,13 @@
         "overlay_label": "GRIPPING PAWS"
       },
       {
-        "text": "Between meals, the animal moves along branches and checks its surroundings.",
-        "scene": "European red squirrel alert among branches; no claim a predator appears.",
+        "text": "Between meals, the animal perches among branches and checks its surroundings.",
+        "scene": "Squirrel perched and alert among branches, without claiming visible running or a predator.",
         "tags": [
           "red_squirrel_alert_on_tree_branches"
         ],
         "story_role": "twist",
-        "overlay_label": "ON THE MOVE"
+        "overlay_label": "STAY ALERT"
       },
       {
         "text": "That is the red squirrel's daily routine: travel through trees, find a safe perch, and eat.",
