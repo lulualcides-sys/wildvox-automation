@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-01",
+  "timezone": "America/Sao_Paulo",
+  "candidate": "european_robin_singing_and_feeding",
+  "revision": "2026-11-01-european_robin_singing_and_feeding-footage-first-v6",
+  "main_commit_reviewed": "f68cf62e85ad9b9cbfd798f07f43e8d3a2dd509a",
+  "daily_json_blob_sha": "b3e15b282ceec8528b8129792210f88a87b57dae",
+  "config_fingerprint_sha256": "dfa683a8f8ef39784c36fd57060763c61c7b29c43464221a4bdc901186af9547",
+  "media_branch": "media",
+  "media_branch_commit": "3779493b0511c7b9dfbcf55789b384d1c26c8e3e",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/european_robin_singing_and_feeding.mp4",
+  "media_meta_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/european_robin_singing_and_feeding_meta.json",
+  "reviewed_artifact_run": 41297959193,
+  "reviewed_artifact_id": 13079933998,
+  "mp4_sha256": "d35fc92057388bc1ccacc94cb31f074d91843806f45d8dedd81544dc7263ee15",
+  "duration_seconds": 36.925,
+  "source_count": 8,
+  "technical_qa": {
+    "pass": true,
+    "portrait": "1080x1920",
+    "fps": 30,
+    "freeze_segments_ge_1s_detected": 0,
+    "independent_motion_check": "148 decoded 4-fps frames, 64x114 grayscale; no exact repeated frame; central-footage ROI y=40..72 min adjacent mean abs difference 1.06/255, no 4 consecutive <1; no ≥1 s static segment observed",
+    "black_bars": "No solid rectangular letterbox bars in sampled full MP4 frames; 24–30s original winter-fence source has a naturally dark upper background, not a blank horizontal bar",
+    "max_narration_block_seconds": 6.825,
+    "max_shot_seconds": 8
+  },
+  "editorial_review": {
+    "approved": true,
+    "method": "Inspected current-run 16-panel review JPG, 18 independently decoded MP4 frames across full timeline, all eight original source preview sheets, and representative full-resolution frames at 6.6s and 26.1s.",
+    "hook": "European robin visible on reeds; species clearly identifiable",
+    "action": "Multiple independent robin perches and visible beak movement in singing footage; no falsely continuous encounter",
+    "payoff": "Robin visible on woodland perch and separate park context; narration generalizes species behavior, not a single continuous scene",
+    "fence": "At 24–30 s actual European robin perches on snow-dusted wooden fence; no feeding action asserted",
+    "caption_safe_area": "Word captions in lower-middle at approximately 76–79% of frame, not in bottom TikTok control strip; title at top",
+    "source_credits": "Full caption 1608 characters includes 8 source pages, human-readable creator names, exact PD/CC BY/CC0 license and license URLs plus crop/subtitle/narration modification notice",
+    "license_scope": "Commons audit workflow 41297959224 succeeded; only Public domain and CC BY 2.0/3.0/4.0, author credits retained",
+    "limitations": "Some robin shots are distant; winter fence scene contains large dark natural background. Source previews are sampled frames and cannot prove every original action; editorial review supplemented by decoded MP4 timeline."
+  },
+  "publication_hold_in_config": true,
+  "release_control": "Approval is per candidate and current MP4 fingerprint. Do not set publication_hold=false in daily.json. Re-render or source change invalidates this receipt until re-reviewed.",
+  "metricool": {
+    "brand_id": 7242311,
+    "verified_tiktok_handle": "wildvox",
+    "status": "NOT_SCHEDULED",
+    "scheduled_post_id": null
+  },
+  "youtube": false
+}
