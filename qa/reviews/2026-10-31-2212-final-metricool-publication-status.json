@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-31",
+  "checked_at_local": "2026-10-31T22:12:26-03:00",
+  "timezone": "America/Sao_Paulo",
+  "brand_id": 7242311,
+  "target_tiktok": "@wildvox",
+  "main_sha": "58f0c49bbf9fbfbe0529e758f972b58013ba851d",
+  "main_daily_json_blob": "6d95305d922992869c6afd06f57221aed46c2cd2",
+  "summary": {
+    "metricool_published": 2,
+    "metricool_error": 8,
+    "pending": 0,
+    "confirmed_tiktok_analytics_rows": 0
+  },
+  "published": [
+    {
+      "id": 412139565,
+      "title": "WHAT LIONS DO BETWEEN THE HUNTS",
+      "scheduled_local": "20:55",
+      "metricool_status": "PUBLISHED",
+      "public_profile_video_url": "https://www.tiktok.com/@wildvox/video/7702984848914287878"
+    },
+    {
+      "id": 412139850,
+      "title": "WHAT SWANS DO BETWEEN FLIGHTS",
+      "scheduled_local": "22:05",
+      "metricool_status": "PUBLISHED",
+      "public_profile_video_url": "https://www.tiktok.com/@wildvox/video/7703002914037468437",
+      "caveat": "Public @wildvox profile exposes this new video URL; individual video page returned Site Maintenance and analytics had no rows, so individual clip caption could not be independently inspected."
+    }
+  ],
+  "errors": [
+    {
+      "id": 412138716,
+      "status": "ERROR",
+      "message": "You have reached your Metricool account limit."
+    },
+    {
+      "id": 412139137,
+      "status": "ERROR",
+      "message": "You have reached your Metricool account limit."
+    },
+    {
+      "id": 412139187,
+      "status": "ERROR",
+      "message": "You have reached your Metricool account limit."
+    },
+    {
+      "id": 412139240,
+      "status": "ERROR",
+      "message": "You have reached your Metricool account limit."
+    },
+    {
+      "id": 412139274,
+      "status": "ERROR",
+      "message": "You have reached your Metricool account limit."
+    },
+    {
+      "id": 412139319,
+      "status": "ERROR",
+      "message": "You have reached your Metricool account limit."
+    },
+    {
+      "id": 412139350,
+      "status": "ERROR",
+      "message": "You have reached your Metricool account limit."
+    },
+    {
+      "id": 412139534,
+      "status": "ERROR",
+      "message": "You have reached your Metricool account limit."
+    }
+  ],
+  "nov1_scheduled_posts": 0,
+  "actions": "Read main SHA and daily blob first; inspected brand identity and all ten scheduled provider states, checked Oct 31 analytics, checked Nov 1 schedule and exact public TikTok @wildvox profile; no scheduling, editing, re-rendering or use of @wildvox6.",
+  "next": "Allow Nov 1 Daily Prep 04:00 to own new editorial config; respect five/day and 20/month Metricool Free cap; do not recycle Oct 31 media as Nov 1 fresh videos."
+}
