@@ -103,14 +103,14 @@
         "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-28%2C%20Geese%20in%20the%20Bear%20Creek%20Park%2C%20Redmond%2C%20Washington%2C%20video3.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Geese%20with%20Gosling%20-%20Mother%20%26%20Father%20Goose%20with%20baby%20-%20Canon%20FS200.webm",
         "type": "video",
-        "assetTitle": "2022-05-28, Geese in the Bear Creek Park, Redmond, Washington, video3.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-28%2C_Geese_in_the_Bear_Creek_Park%2C_Redmond%2C_Washington%2C_video3.webm",
+        "assetTitle": "Canada Geese with Gosling - Mother & Father Goose with baby - Canon FS200.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_Geese_with_Gosling_-_Mother_%26_Father_Goose_with_baby_-_Canon_FS200.webm",
         "tags": [
-          "canada_geese_redmond_park_group"
+          "canada_goose_parent_and_gosling_family"
         ],
-        "author": "senapa",
+        "author": "https://www.youtube.com/user/ZaydDepaor",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-01",
@@ -174,10 +174,10 @@
       },
       {
         "text": "For now, the safest path for a gosling is right beside its family.",
-        "scene": "Two genuine goose-family or group views, no claim they are one continuous event.",
+        "scene": "Authentic Canada goose family and gosling footage from separate originals, without pretending a continuous event.",
         "tags": [
           "canada_geese_usfws_group_movement",
-          "canada_geese_redmond_park_group"
+          "canada_goose_parent_and_gosling_family"
         ],
         "story_role": "payoff",
         "overlay_label": "TOGETHER"
