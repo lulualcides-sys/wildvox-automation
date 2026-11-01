@@ -1,0 +1,216 @@
+{
+  "key": "european_robin_singing_and_feeding",
+  "title": "WHY A EUROPEAN ROBIN KEEPS SINGING",
+  "caption": "WHY A EUROPEAN ROBIN KEEPS SINGING. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Alexis Lours | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_01.webm | https://creativecommons.org/licenses/by/4.0\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-03_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA_2.webm | https://creativecommons.org/licenses/by/3.0\n3. Alexis Lours | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_02.webm | https://creativecommons.org/licenses/by/4.0\n4. https://www.flickr.com/photos/gails_pictures/ | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Robin_Singing_video.webm | https://creativecommons.org/licenses/by/2.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-28_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm | https://creativecommons.org/licenses/by/3.0\n6. Quantockgoblin | Public domain | https://commons.wikimedia.org/wiki/File:Robin_feeding.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm | https://creativecommons.org/licenses/by/3.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "70e77c203f4114ec16481fcab5030c904a51c630ade0dd4808a46e9c6070e789",
+  "duration": 37.12,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.525,
+      "duration": 5.525,
+      "text": "Why does this small European robin keep singing from such an exposed perch?",
+      "scene": "European robin audibly or visibly singing from reeds.",
+      "tags": [
+        "european_robin_singing_in_reeds_first"
+      ],
+      "story_role": "hook",
+      "overlay_label": "HEAR THAT?",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.525,
+      "end": 11.875,
+      "duration": 6.35,
+      "text": "That small bird uses a clear song to announce its presence across nearby habitat.",
+      "scene": "European robin on an ordinary perch in a Ljubljana park.",
+      "tags": [
+        "european_robin_park_perch_january"
+      ],
+      "story_role": "setup",
+      "overlay_label": "A SIGNAL",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.875,
+      "end": 18.7,
+      "duration": 6.825,
+      "text": "One robin sings from deep in the reeds while another gives short notes from a completely different perch.",
+      "scene": "Two independently filmed European robin singing sequences.",
+      "tags": [
+        "european_robin_singing_in_reeds_second",
+        "european_robin_singing_video_flickr"
+      ],
+      "story_role": "action",
+      "overlay_label": "REPEATED SONG",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 18.7,
+      "end": 24.225,
+      "duration": 5.525,
+      "text": "A repeated song can help a robin signal its territory to other robins.",
+      "scene": "Real European robin in park habitat; territorial meaning is narration, not a filmed dispute.",
+      "tags": [
+        "european_robin_park_perch_march"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "TERRITORY",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 24.225,
+      "end": 30.325000000000003,
+      "duration": 6.1,
+      "text": "But between vocal moments, the same species must also spend time looking for food.",
+      "scene": "Genuine European robin feeding, not footage of a different robin species.",
+      "tags": [
+        "european_robin_feeding_original_video"
+      ],
+      "story_role": "twist",
+      "overlay_label": "TIME TO FEED",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 30.325000000000003,
+      "end": 37.125,
+      "duration": 6.8,
+      "text": "The song is more than background noise: it is a clear message carried through the surrounding trees.",
+      "scene": "Two further authentic European robin perches or movements, without invented singing behavior.",
+      "tags": [
+        "european_robin_park_perch_june",
+        "european_robin_park_perch_september"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "A MESSAGE",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20robin%20singing%20in%20reeds%2001.webm",
+      "type": "video",
+      "assetTitle": "European robin singing in reeds 01.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_01.webm",
+      "tags": [
+        "european_robin_singing_in_reeds_first"
+      ],
+      "author": "Alexis Lours",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-03%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA%202.webm",
+      "type": "video",
+      "assetTitle": "2022-01-03 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-03_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA_2.webm",
+      "tags": [
+        "european_robin_park_perch_january"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20robin%20singing%20in%20reeds%2002.webm",
+      "type": "video",
+      "assetTitle": "European robin singing in reeds 02.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_02.webm",
+      "tags": [
+        "european_robin_singing_in_reeds_second"
+      ],
+      "author": "Alexis Lours",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robin%20Singing%20video.webm",
+      "type": "video",
+      "assetTitle": "Robin Singing video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Robin_Singing_video.webm",
+      "tags": [
+        "european_robin_singing_video_flickr"
+      ],
+      "author": "https://www.flickr.com/photos/gails_pictures/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-28%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
+      "type": "video",
+      "assetTitle": "2022-03-28 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-28_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
+      "tags": [
+        "european_robin_park_perch_march"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robin%20feeding.ogv",
+      "type": "video",
+      "assetTitle": "Robin feeding.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Robin_feeding.ogv",
+      "tags": [
+        "european_robin_feeding_original_video"
+      ],
+      "author": "Quantockgoblin",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-14%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
+      "type": "video",
+      "assetTitle": "2022-06-14 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
+      "tags": [
+        "european_robin_park_perch_june"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-24%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
+      "type": "video",
+      "assetTitle": "2022-09-24 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
+      "tags": [
+        "european_robin_park_perch_september"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+    }
+  ],
+  "review_sheet": "european_robin_singing_and_feeding_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
