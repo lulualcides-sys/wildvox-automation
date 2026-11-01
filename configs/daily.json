@@ -1,7 +1,7 @@
 {
   "canada_goose_gosling_convoy": {
     "title": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE",
-    "script": "Why do these tiny Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food on grassy banks while other geese move beside them across the lake. Goslings paddle briefly, while other hatchlings rest together in a sheltered nest. Adult geese can glide across open water, while their young still need to stay nearby. For now, the safest path for a little gosling is right beside its watchful family.",
+    "script": "Why do these tiny Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food on grassy banks while other geese move beside them across the lake. Goslings paddle briefly, while other hatchlings rest together in a sheltered nest. Adult geese can glide across open water, while their young still need to stay nearby. From green park banks to open water, Canada geese travel together, each family finding its own route.",
     "caption": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -124,7 +124,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v9",
+    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v10",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -174,14 +174,14 @@
         "overlay_label": "ADULTS ON WATER"
       },
       {
-        "text": "For now, the safest path for a little gosling is right beside its watchful family.",
-        "scene": "Authentic Canada goose family and gosling footage from separate originals, without pretending a continuous event.",
+        "text": "From green park banks to open water, Canada geese travel together, each family finding its own route.",
+        "scene": "Separate original wide park/pond establishing shot followed by Canada geese visibly moving on water; no claim that goslings are clearly visible in the distant shot or that the scenes are one continuous family.",
         "tags": [
           "canada_geese_usfws_group_movement",
           "canada_goose_parent_and_gosling_family"
         ],
         "story_role": "payoff",
-        "overlay_label": "TOGETHER"
+        "overlay_label": "PARK TO POND"
       }
     ],
     "trend_priority": false
