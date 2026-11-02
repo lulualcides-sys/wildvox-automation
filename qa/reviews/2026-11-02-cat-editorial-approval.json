@@ -21,7 +21,15 @@
     "captions": "Subtitle safe area inspected in current-run JPG and actual MP4 frames; English-US Kokoro am_michael narration; full creator credits in TikTok caption"
   },
   "publication_hold_in_config_remains_true": true,
-  "metricool_post_id": null,
-  "status": "APPROVED_NOT_SCHEDULED",
-  "published": false
+  "metricool_post_id": 413739317,
+  "status": "METRICOOL_PENDING",
+  "published": false,
+  "metricool_post_uuid": "-7261211168804091788",
+  "metricool_provider_status": "PENDING",
+  "metricool_autoPublish": true,
+  "metricool_draft": false,
+  "scheduled_local": "2026-11-02T19:35:00-03:00",
+  "metricool_planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-7261211168804091788",
+  "scheduled_config_sha256": "b6c1551f42054467049191cecfc5033382a491397cebdf23db1eb6a5cb9bd4ed",
+  "tiktok_published_id": null
 }
