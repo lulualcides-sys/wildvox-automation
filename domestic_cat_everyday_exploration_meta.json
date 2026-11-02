@@ -4,8 +4,8 @@
   "caption": "WHY ORDINARY OBJECTS FASCINATE HOUSE CATS. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0\n2. Ivan Kurmanov | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_relaxing_on_a_sofa.webm | https://creativecommons.org/licenses/by/2.0\n3. User:Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin1.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0\n5. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0\n6. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0\n7. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "0a70a7d3cd8a6b3569d0ab42befd2cc4b5431ac56af3643de0dd5d6ea6518553",
-  "duration": 35.65,
+  "config_sha256": "b6c1551f42054467049191cecfc5033382a491397cebdf23db1eb6a5cb9bd4ed",
+  "duration": 35.58,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -84,10 +84,10 @@
     {
       "index": 5,
       "start": 28.650000000000002,
-      "end": 35.650000000000006,
-      "duration": 7.0,
-      "text": "A bag, a toy, or a person offering attention can make an ordinary room worth exploring.",
-      "scene": "Real cat being petted by a person outdoors; no invented chase or play.",
+      "end": 35.575,
+      "duration": 6.925,
+      "text": "A bag, a toy, or a person offering attention can make an ordinary day worth exploring.",
+      "scene": "A real domestic cat receiving attention from a person outdoors, not an indoor room.",
       "tags": [
         "domestic_cat_interacts_with_person"
       ],
