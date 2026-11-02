@@ -1,0 +1,28 @@
+{
+  "editorial_day": "2026-11-02",
+  "platform": "TikTok",
+  "exact_handle": "wildvox",
+  "brand_id": 7242311,
+  "candidate": "mute_swan_nest_and_water",
+  "approval": "EDITORIAL_AND_LICENSE_APPROVED",
+  "render_run": 41419645415,
+  "config_sha256": "0993de330a3e955ba13d653d7c10b7f19b51f5e52c3306250d02531a6859a961",
+  "root_media_branch": "media",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mute_swan_nest_and_water.mp4",
+  "media_blob_sha": "140d8610728badb98f01ca1444cb7095953fb9e8",
+  "duration_seconds": 35.625,
+  "original_video_sources": 8,
+  "license": "CC BY 2.0/3.0/4.0 with eight named creators, source pages, license URLs and 9:16/subtitle/narration edit disclosure in 1585-character TikTok caption",
+  "editorial_review": {
+    "current_run_review_jpg": "Inspected current 16-frame contact sheet, 2026-11-02 run 41419645415",
+    "current_run_mp4": "Decoded 1080x1920 30fps H.264/AAC; full timeline, nest hook, swan family canal, foggy bank and flying/resting payoff inspected",
+    "source_previews": "Eight current-run source preview strips reviewed against narration; rewritten bank segment accurately describes visible swans rather than a new nest action",
+    "motion": "1066 decoded frames; longest consecutive near-identical <0.2-pixel frames 0.167s; no >=1s frozen segment",
+    "shot_length": "Six narration segments 4.85,5.875,6.6,5.25,5.825,7.225 seconds, all <=8s; no repeated original source",
+    "composition": "Captions and title within safe area, no black bars, no synthetic zoom or false arrows"
+  },
+  "publication_hold_in_config_remains_true": true,
+  "metricool_post_id": null,
+  "status": "APPROVED_NOT_SCHEDULED",
+  "published": false
+}
