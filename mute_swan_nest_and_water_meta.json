@@ -1,0 +1,224 @@
+{
+  "key": "mute_swan_nest_and_water",
+  "title": "Why a Mute Swan Sits on a Nest Beside Water",
+  "caption": "WHY A MUTE SWAN SITS ON A NEST BESIDE WATER. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Katja Schulz | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mute_Swan_in_Prague.webm | https://creativecommons.org/licenses/by/2.0\n2. Ingo Zahlheimer | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Mute_swans_(Cygnus_olor)_and_their_eggs.webm | https://creativecommons.org/licenses/by/3.0\n3. The Nature Box | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Family_of_mute_swans_(Cygnus_olor).webm | https://creativecommons.org/licenses/by/4.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_3.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "e7730dc9b9402cdd920c3814c0e2a2a69427710fcea37b26760b9b68e7b8ecb5",
+  "duration": 35.05,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.85,
+      "duration": 4.85,
+      "text": "Why is this mute swan sitting on a mound of sticks instead of swimming?",
+      "scene": "Close mute swan settled on a stick nest in Prague, visually reviewed.",
+      "tags": [
+        "mute_swan_prague_sitting_on_nest"
+      ],
+      "story_role": "hook",
+      "overlay_label": "ON THE NEST",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.85,
+      "end": 10.725,
+      "duration": 5.875,
+      "text": "That raised spot is a nest, built close enough to water for the adults to reach.",
+      "scene": "Real mute swans and their eggs at a waterside nest.",
+      "tags": [
+        "mute_swan_nest_with_eggs"
+      ],
+      "story_role": "setup",
+      "overlay_label": "A SAFE NEST",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 10.725,
+      "end": 17.325,
+      "duration": 6.6,
+      "text": "Away from the nest, mute swans travel along canals with other family members nearby.",
+      "scene": "Mute swan family including young swimming along a Wiltshire canal.",
+      "tags": [
+        "mute_swan_wiltshire_family_canal"
+      ],
+      "story_role": "action",
+      "overlay_label": "BACK ON WATER",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 17.325,
+      "end": 22.575,
+      "duration": 5.25,
+      "text": "The water lets them move and feed, while the bank offers a place to rest.",
+      "scene": "Mute swan in a Slovenian park near water; feeding not claimed visible.",
+      "tags": [
+        "mute_swan_tivoli_park_water"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "TWO HABITATS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 22.575,
+      "end": 29.1,
+      "duration": 6.525,
+      "text": "Back near shore, a swan may settle into its nest while another moves across the pond.",
+      "scene": "Two swans walking on foggy bank and a separate Drage pond scene.",
+      "tags": [
+        "mute_swans_foggy_drage_bank",
+        "mute_swan_drage_pond_second_view"
+      ],
+      "story_role": "setup",
+      "overlay_label": "NEAR THE BANK",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 29.1,
+      "end": 35.050000000000004,
+      "duration": 5.95,
+      "text": "The answer is simple: a swan's life depends on both the water and a safe nest.",
+      "scene": "Actual nest scene at Tivoli plus separate swan in Drage pond.",
+      "tags": [
+        "mute_swan_tivoli_park_nest",
+        "mute_swan_drage_may_pond_first"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "NEST AND WATER",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mute%20Swan%20in%20Prague.webm",
+      "type": "video",
+      "assetTitle": "Mute Swan in Prague.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mute_Swan_in_Prague.webm",
+      "tags": [
+        "mute_swan_prague_sitting_on_nest"
+      ],
+      "author": "Katja Schulz",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "a1e1eb88ea0d135bbf65280e66f798915684e59d",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mute%20swans%20(Cygnus%20olor)%20and%20their%20eggs.webm",
+      "type": "video",
+      "assetTitle": "Mute swans (Cygnus olor) and their eggs.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mute_swans_(Cygnus_olor)_and_their_eggs.webm",
+      "tags": [
+        "mute_swan_nest_with_eggs"
+      ],
+      "author": "Ingo Zahlheimer",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "760c676d3d72bd55826de7677f550e63ed884d7d",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Family%20of%20mute%20swans%20(Cygnus%20olor).webm",
+      "type": "video",
+      "assetTitle": "Family of mute swans (Cygnus olor).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Family_of_mute_swans_(Cygnus_olor).webm",
+      "tags": [
+        "mute_swan_wiltshire_family_canal"
+      ],
+      "author": "The Nature Box",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "3922e611e3806a3e3c9803eaab5052d2a4ff4eec",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-17%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC.webm",
+      "type": "video",
+      "assetTitle": "2021-12-17 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm",
+      "tags": [
+        "mute_swan_tivoli_park_water"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "ce2afb1257b74a321b42dcb4905aac3f107e60d8",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-31%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
+      "type": "video",
+      "assetTitle": "2021-12-31 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
+      "tags": [
+        "mute_swans_foggy_drage_bank"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "d323ab163c1ed698def708be208edcb30cb55300",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-31%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%203.webm",
+      "type": "video",
+      "assetTitle": "2021-12-31 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_3.webm",
+      "tags": [
+        "mute_swan_drage_pond_second_view"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "4ff8c4ca2b54c445ce61f8c0875a80c9f0547afb",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-13%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%20gnezdo.webm",
+      "type": "video",
+      "assetTitle": "2022-05-13 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC gnezdo.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm",
+      "tags": [
+        "mute_swan_tivoli_park_nest"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "88d05970b5eafb83685ff3c7d9d0b5085e6cf36d",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-02%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
+      "type": "video",
+      "assetTitle": "2022-05-02 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
+      "tags": [
+        "mute_swan_drage_may_pond_first"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "6dd002982d72e4eaecd8282ca69f0217756e5234",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    }
+  ],
+  "review_sheet": "mute_swan_nest_and_water_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
