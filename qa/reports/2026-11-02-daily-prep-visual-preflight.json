@@ -1,0 +1,63 @@
+{
+  "editorial_day": "2026-11-02",
+  "timezone": "America/Sao_Paulo",
+  "platform": "TikTok @wildvox only",
+  "publication_hold": true,
+  "scope": "Daily Prep source selection and visual sampling, NOT full independent rendered-MP4 QA",
+  "research_branch": "research/wildvox-2026-11-02-footage-first",
+  "source_pools": {
+    "entries": 5,
+    "assets_per_entry": 8,
+    "genuine_videos": 40,
+    "distinct_commons_original_sha1": 40,
+    "source_license_allowlist": [
+      "CC0",
+      "CC BY 2.0",
+      "CC BY 3.0",
+      "CC BY 4.0"
+    ],
+    "sharealike_sources": 0,
+    "creator_metadata_verified": true,
+    "license_verification": "Wikimedia Commons live imageinfo + creator-credit GitHub Action 41404862114; original file byte hashes and current license metadata"
+  },
+  "preview_runs": [
+    41404306292,
+    41404567580,
+    41404788401
+  ],
+  "preview_sample_count": 25,
+  "preview_success": 24,
+  "preview_failed": 1,
+  "preview_failure": "Amselmännchen Futtersuche.webm returned Commons HTTP 429 and was removed from final batch",
+  "observed_corrections": [
+    {
+      "topic": "Mallard",
+      "finding": "Wide winter shoreline foraging video had ducks tiny or absent in sampled frames; discarded. Close USFWS drake-with-young and Otočec ducklings inspected and used in revised family-swimming story."
+    },
+    {
+      "topic": "Mute swan",
+      "finding": "Mute Swan in Prague.webm shows an adult sitting on a stick nest, not swimming. Rewrote hook and arc around nest/water, with separately verified eggs and canal family footage."
+    },
+    {
+      "topic": "Domestic cat",
+      "finding": "Cat in a Bag clearly depicts cat inside paper bag; Larry and Chloé shows cats interacting; Andra and Billy depicts human petting cat, so payoff text now says attention, not invented play."
+    },
+    {
+      "topic": "Domestic horse",
+      "finding": "Horses running in a pasture.webm shows distant animals and poor action detail; removed. Rewrote story around close California grazing, Camargue lake/forest group movement, no invented gallop."
+    },
+    {
+      "topic": "Common blackbird",
+      "finding": "Greek predawn singing video shows a distant dark silhouette, unsuitable for hook. Moved to brief dawn explanatory block; daylight close blackbird carrying worm and later ground shots support hook/payoff."
+    }
+  ],
+  "unresolved_for_hourly_qa": [
+    "Full frame-level semantic inspection of remaining final source clips and all five rendered MP4s",
+    "Verify every actual clip used once with <=8s, no freeze/loop/black bars and stable portrait fill",
+    "Confirm full spoken duration 30-45s, captions, credits delivered in TikTok caption",
+    "Recheck source download availability and any HTTP 429/transcode fallback at render time",
+    "No scheduling or publication before independent QA clears publication_hold"
+  ],
+  "production_render_started": false,
+  "published": false
+}
