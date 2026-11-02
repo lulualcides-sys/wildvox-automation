@@ -4,8 +4,8 @@
   "caption": "WHY A MUTE SWAN SITS ON A NEST BESIDE WATER. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Katja Schulz | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mute_Swan_in_Prague.webm | https://creativecommons.org/licenses/by/2.0\n2. Ingo Zahlheimer | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Mute_swans_(Cygnus_olor)_and_their_eggs.webm | https://creativecommons.org/licenses/by/3.0\n3. The Nature Box | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Family_of_mute_swans_(Cygnus_olor).webm | https://creativecommons.org/licenses/by/4.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_3.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTOČEC_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-18_VRHNIKA_Ribniki_pri_stari_opekarni_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "8983f53a93bff443b67c2997fbd497fb66bc67a5ae134d41a6b137021c452e06",
-  "duration": 36.33,
+  "config_sha256": "0993de330a3e955ba13d653d7c10b7f19b51f5e52c3306250d02531a6859a961",
+  "duration": 35.62,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -68,10 +68,10 @@
     {
       "index": 4,
       "start": 22.575,
-      "end": 29.1,
-      "duration": 6.525,
-      "text": "Back near shore, a swan may settle into its nest while another moves across the pond.",
-      "scene": "Two swans walking on foggy bank and a separate Drage pond scene.",
+      "end": 28.4,
+      "duration": 5.825,
+      "text": "Back near shore, swans may gather on the bank while others move across the pond.",
+      "scene": "Swans visibly gathered on foggy bank, followed by a distinct pond view; no nest action implied.",
       "tags": [
         "mute_swans_foggy_drage_bank",
         "mute_swan_drage_pond_second_view"
@@ -82,8 +82,8 @@
     },
     {
       "index": 5,
-      "start": 29.1,
-      "end": 36.325,
+      "start": 28.4,
+      "end": 35.625,
       "duration": 7.225,
       "text": "From nesting to resting on shore, swans also fly over the water that connects their daily routines.",
       "scene": "Actual mute swans resting on grass, followed by a distinct real flock flying over water. No invented takeoff or nest scene in these shots.",
