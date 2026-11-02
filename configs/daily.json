@@ -195,7 +195,7 @@
   },
   "mute_swan_nest_and_water": {
     "title": "Why a Mute Swan Sits on a Nest Beside Water",
-    "script": "Why is this mute swan sitting on a mound of sticks instead of swimming? That raised spot is a nest, built close enough to water for the adults to reach. Away from the nest, mute swans travel along canals with other family members nearby. The water lets them move and feed, while the bank offers a place to rest. Back near shore, a swan may settle into its nest while another moves across the pond. The answer is simple: a swan's life depends on both the water and a safe nest.",
+    "script": "Why is this mute swan sitting on a mound of sticks instead of swimming? That raised spot is a nest, built close enough to water for the adults to reach. Away from the nest, mute swans travel along canals with other family members nearby. The water lets them move and feed, while the bank offers a place to rest. Back near shore, a swan may settle into its nest while another moves across the pond. From nesting to resting on shore, swans also fly over the water that connects their daily routines.",
     "caption": "WHY A MUTE SWAN SITS ON A NEST BESIDE WATER. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -289,34 +289,34 @@
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-13%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%20gnezdo.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-17%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
         "type": "video",
-        "assetTitle": "2022-05-13 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC gnezdo.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm",
+        "assetTitle": "2022-06-17 GRAD OTOČEC ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTOČEC_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
         "tags": [
-          "mute_swan_tivoli_park_nest"
+          "mute_swans_resting_on_grass"
         ],
         "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-02",
-        "original_sha1": "88d05970b5eafb83685ff3c7d9d0b5085e6cf36d",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+        "original_sha1": "4db6c5e09004fd848f4397ae3c150c4d6892a5bf",
+        "license_note": "Commons creator NaIzletuSi, CC BY 3.0 human-reviewed 2025-08-08; 31 Oct archived rendered visual confirms close swans resting on bank."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-02%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-18%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
         "type": "video",
-        "assetTitle": "2022-05-02 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
+        "assetTitle": "2022-10-18 VRHNIKA Ribniki pri stari opekarni ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-18_VRHNIKA_Ribniki_pri_stari_opekarni_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
         "tags": [
-          "mute_swan_drage_may_pond_first"
+          "mute_swan_flock_flying_over_water"
         ],
         "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-02",
-        "original_sha1": "6dd002982d72e4eaecd8282ca69f0217756e5234",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+        "original_sha1": "ecdaf57c78c29e86c078b300b43b8fe9ad6ba7f1",
+        "license_note": "Commons creator NaIzletuSi, CC BY 3.0 human-reviewed 2026-01-03; archived rendered visual confirms flying swan flock above pond."
       }
     ],
     "min_unique_videos": 6,
@@ -325,7 +325,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-mute_swan_nest_and_water-verified-frames-v2",
+    "revision": "2026-11-02-mute_swan_nest_and_water-verified-frames-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -375,14 +375,14 @@
         "overlay_label": "NEAR THE BANK"
       },
       {
-        "text": "The answer is simple: a swan's life depends on both the water and a safe nest.",
-        "scene": "Actual nest scene at Tivoli plus separate swan in Drage pond.",
+        "text": "From nesting to resting on shore, swans also fly over the water that connects their daily routines.",
+        "scene": "Actual mute swans resting on grass, followed by a distinct real flock flying over water. No invented takeoff or nest scene in these shots.",
         "tags": [
-          "mute_swan_tivoli_park_nest",
-          "mute_swan_drage_may_pond_first"
+          "mute_swans_resting_on_grass",
+          "mute_swan_flock_flying_over_water"
         ],
         "story_role": "payoff",
-        "overlay_label": "NEST AND WATER"
+        "overlay_label": "NEST, SHORE, SKY"
       }
     ],
     "trend_priority": false
@@ -583,7 +583,7 @@
   },
   "domestic_horse_meadow_grazing": {
     "title": "Why Horses Spend So Much Time Grazing",
-    "script": "Why do these horses spend so much time with their heads down in the grass? Grazing is a slow job, and horses can spend hours taking small bites as they move. In other pastures, groups walk together, pause, and lower their heads again. Horses are grazing animals, built to take in forage over many parts of the day. Between mouthfuls, they keep an eye on other horses sharing their own fields. The quiet routine continues near water and trees: move with the group, then lower the head to graze.",
+    "script": "Why do these horses spend so much time with their heads down in the grass? Some horses accept food from a person, while others keep grazing along the water's edge. In other pastures, groups walk together, pause, and lower their heads again. Horses are grazing animals, built to take in forage over many parts of the day. Between mouthfuls, they keep an eye on other horses sharing their own fields. The quiet routine continues near water and trees: move with the group, then lower the head to graze.",
     "caption": "WHY HORSES SPEND SO MUCH TIME GRAZING. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -607,7 +607,7 @@
         "assetTitle": "Icelandic horses!! Video.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm",
         "tags": [
-          "icelandic_horses_group"
+          "icelandic_horse_accepts_handfed_food"
         ],
         "author": "Adon Metcalfe",
         "license": "CC BY 2.0",
@@ -713,7 +713,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-domestic_horse_meadow_grazing-verified-frames-v3",
+    "revision": "2026-11-02-domestic_horse_meadow_grazing-verified-frames-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -726,14 +726,14 @@
         "overlay_label": "HEADS DOWN"
       },
       {
-        "text": "Grazing is a slow job, and horses can spend hours taking small bites as they move.",
-        "scene": "Real Icelandic horses and a Camargue horse feeding near a lake.",
+        "text": "Some horses accept food from a person, while others keep grazing along the water's edge.",
+        "scene": "A real Icelandic horse is hand-fed by a person, then a different Camargue horse grazes at a lakeside. Do not imply hand-feeding is grazing.",
         "tags": [
-          "icelandic_horses_group",
+          "icelandic_horse_accepts_handfed_food",
           "camargue_horse_slovenia_march_lakeside_grazing"
         ],
         "story_role": "setup",
-        "overlay_label": "SLOW GRAZING"
+        "overlay_label": "DIFFERENT WAYS TO FEED"
       },
       {
         "text": "In other pastures, groups walk together, pause, and lower their heads again.",
