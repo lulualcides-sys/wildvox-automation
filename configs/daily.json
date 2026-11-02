@@ -389,7 +389,7 @@
   },
   "domestic_cat_everyday_exploration": {
     "title": "Why Ordinary Objects Fascinate House Cats",
-    "script": "Why can an ordinary paper bag keep a house cat so interested? Cats notice small changes around them, sometimes stopping to inspect something they did not expect. In other homes, cats reach for toys and follow quick movements with their paws. Play gives those paws and eyes practice coordinating fast, precise movements. After exploring, a cat may walk away, rest, or spend time grooming its coat. A bag, a toy, or a person offering attention can make an ordinary room worth exploring.",
+    "script": "Why can an ordinary paper bag keep a house cat so interested? Cats can also settle on a sofa for a quiet moment before returning to their curious routines. In other homes, cats reach for toys and follow quick movements with their paws. Play gives those paws and eyes practice coordinating fast, precise movements. After exploring, a cat may walk away, rest, or spend time grooming its coat. A bag, a toy, or a person offering attention can make an ordinary room worth exploring.",
     "caption": "WHY ORDINARY OBJECTS FASCINATE HOUSE CATS. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -408,19 +408,19 @@
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20discovers%20it%20was%20being%20spied%20on.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20relaxing%20on%20a%20sofa.webm",
         "type": "video",
-        "assetTitle": "Cat discovers it was being spied on.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm",
+        "assetTitle": "Cat relaxing on a sofa.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_relaxing_on_a_sofa.webm",
         "tags": [
-          "domestic_cat_looks_up_at_camera"
+          "domestic_cat_resting_on_sofa"
         ],
-        "author": "Yourusernamewillbepublic2",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "Ivan Kurmanov",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-02",
-        "original_sha1": "ea6f896654030df56bb1ef9985ac5e5e8fbc7607",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+        "original_sha1": "e64cefbf1bb292491cabf3775f4b5424cc63743f",
+        "license_note": "Wikimedia Commons original and 2016 Flickr CC BY 2.0 reviewer confirmation verified 2026-11-02; replaces visually empty balcony footage; independent rendered MP4 QA and visual approval still required."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
@@ -519,7 +519,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-domestic_cat_everyday_exploration-verified-frames-v3",
+    "revision": "2026-11-02-domestic_cat_everyday_exploration-verified-frames-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -532,13 +532,13 @@
         "overlay_label": "A PAPER BAG"
       },
       {
-        "text": "Cats notice small changes around them, sometimes stopping to inspect something they did not expect.",
-        "scene": "Real cat looking up toward the person filming.",
+        "text": "Cats can also settle on a sofa for a quiet moment before returning to their curious routines.",
+        "scene": "Visible domestic cat relaxing on a sofa; no invented reaction or offscreen cat.",
         "tags": [
-          "domestic_cat_looks_up_at_camera"
+          "domestic_cat_resting_on_sofa"
         ],
         "story_role": "setup",
-        "overlay_label": "LOOK CLOSER"
+        "overlay_label": "QUIET MOMENTS"
       },
       {
         "text": "In other homes, cats reach for toys and follow quick movements with their paws.",
