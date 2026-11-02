@@ -389,7 +389,7 @@
   },
   "domestic_cat_everyday_exploration": {
     "title": "Why Ordinary Objects Fascinate House Cats",
-    "script": "Why can an ordinary paper bag keep a house cat so interested? Cats notice small changes around them, sometimes stopping to inspect something they did not expect. In other homes, cats reach for toys and follow quick movements with their paws. Play gives those paws and eyes practice coordinating fast, precise movements. After exploring, a cat may walk away, rest, or spend time grooming its coat. A bag, a toy, or a person offering play can make an ordinary room worth exploring.",
+    "script": "Why can an ordinary paper bag keep a house cat so interested? Cats notice small changes around them, sometimes stopping to inspect something they did not expect. In other homes, cats reach for toys and follow quick movements with their paws. Play gives those paws and eyes practice coordinating fast, precise movements. After exploring, a cat may walk away, rest, or spend time grooming its coat. A bag, a toy, or a person offering attention can make an ordinary room worth exploring.",
     "caption": "WHY ORDINARY OBJECTS FASCINATE HOUSE CATS. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -519,7 +519,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-domestic_cat_everyday_exploration-verified-frames-v2",
+    "revision": "2026-11-02-domestic_cat_everyday_exploration-verified-frames-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -570,8 +570,8 @@
         "overlay_label": "TIME TO GROOM"
       },
       {
-        "text": "A bag, a toy, or a person offering play can make an ordinary room worth exploring.",
-        "scene": "College student interacting with a real faculty cat.",
+        "text": "A bag, a toy, or a person offering attention can make an ordinary room worth exploring.",
+        "scene": "Real cat being petted by a person outdoors; no invented chase or play.",
         "tags": [
           "domestic_cat_interacts_with_person"
         ],
@@ -583,7 +583,7 @@
   },
   "domestic_horse_meadow_grazing": {
     "title": "Why Horses Spend So Much Time Grazing",
-    "script": "Why do these horses spend so much time with their heads down in the grass? Grazing is a slow job, and horses can spend hours taking small bites as they move. In other pastures, groups walk together, pause, and lower their heads again. Horses are grazing animals, built to take in forage over many parts of the day. Between mouthfuls, they keep an eye on other horses sharing their own fields. The quiet scene is the story: step, graze, look around, and keep moving with the herd.",
+    "script": "Why do these horses spend so much time with their heads down in the grass? Grazing is a slow job, and horses can spend hours taking small bites as they move. In other pastures, groups walk together, pause, and lower their heads again. Horses are grazing animals, built to take in forage over many parts of the day. Between mouthfuls, they keep an eye on other horses sharing their own fields. The quiet routine continues near water and trees: move with the group, then lower the head to graze.",
     "caption": "WHY HORSES SPEND SO MUCH TIME GRAZING. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -713,7 +713,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-domestic_horse_meadow_grazing-verified-frames-v2",
+    "revision": "2026-11-02-domestic_horse_meadow_grazing-verified-frames-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -764,8 +764,8 @@
         "overlay_label": "STAY AWARE"
       },
       {
-        "text": "The quiet scene is the story: step, graze, look around, and keep moving with the herd.",
-        "scene": "Camargue horses in two distinct summer scenes, walking and grazing.",
+        "text": "The quiet routine continues near water and trees: move with the group, then lower the head to graze.",
+        "scene": "Actual Camargue horses standing together at a lake and a different white horse grazing on a wooded path.",
         "tags": [
           "camargue_horses_slovenia_july"
         ],
