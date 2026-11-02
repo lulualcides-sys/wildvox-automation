@@ -1,0 +1,31 @@
+{
+  "editorial_day": "2026-11-02",
+  "platform": "TikTok",
+  "exact_handle": "wildvox",
+  "brand_id": 7242311,
+  "candidate": "common_blackbird_foraging_to_song",
+  "approval": "EDITORIAL_AND_LICENSE_APPROVED",
+  "main_config_blob": "b7e1a1a24b8c054133b219d1eca89afee9133432",
+  "render_config_sha256": "99c0998adcd439a1738cc8d0d64c28fd9a5f40f86073aa40d1f1eb8948149255",
+  "render_revision": "2026-11-02-common_blackbird_foraging_to_song-verified-frames-v2",
+  "render_run": 41405183317,
+  "root_media_branch": "media",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/common_blackbird_foraging_to_song.mp4",
+  "duration_seconds": 37.15,
+  "assets_unique": 8,
+  "source_license_summary": "Seven Commons CC BY 3.0 videos credited to NaIzletuSi ™; one Commons CC BY 4.0 original credited to Tsester. No sharealike, complete attribution and edit disclosure in 1755-character TikTok caption.",
+  "editorial_review": {
+    "rendered_mp4": "Downloaded and independently decoded original 1080x1920 30fps H.264/AAC artifact from run 41405183317; reviewed full 2s time-indexed montage (19 frames), current-run 12-frame review and all 8 source preview strips.",
+    "hook": "Real blackbird pulls a worm from grass; action visible in first 0-5s.",
+    "action": "Blackbirds visibly on ground and moving in green plants, park soil and rocks, consistent with foraging story.",
+    "dawn": "Real dark-blue predawn source shows perched blackbird silhouettes on antennas. Darkness is authentic scene context rather than synthetic freeze or filler; six-second section deliberately illustrates dawn song, not a claimed closeup.",
+    "payoff": "Ground-level blackbirds visibly forage in two independent clips; narration distinguishes daytime search from dawn song.",
+    "captions": "Centered, high contrast, above TikTok bottom UI; no black bars or unsupported arrows.",
+    "motion": "Independent ffmpeg freezedetect n=-55dB d=1 on downloaded actual MP4: zero freeze events; 37.15s, 1080x1920, AAC present; technical QA artifact confirms same.",
+    "editorial_caveat": "Predawn singing scene is dark and small. Accepted as genuine behavior-specific contextual footage; do not extend or reuse in future topics."
+  },
+  "hold_others": true,
+  "publication_hold_in_config_remains_true": true,
+  "metricool_post_id": null,
+  "status": "APPROVED_NOT_SCHEDULED"
+}
