@@ -26,6 +26,12 @@
   },
   "hold_others": true,
   "publication_hold_in_config_remains_true": true,
-  "metricool_post_id": null,
-  "status": "APPROVED_NOT_SCHEDULED"
+  "metricool_post_id": 413649768,
+  "status": "METRICOOL_PENDING",
+  "metricool_post_uuid": "551461355698931655",
+  "autoPublish": true,
+  "draft": false,
+  "scheduled_local": "2026-11-02T12:40:00-03:00",
+  "published": false,
+  "tiktok_published_id": null
 }
