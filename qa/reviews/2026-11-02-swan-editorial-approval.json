@@ -22,7 +22,14 @@
     "composition": "Captions and title within safe area, no black bars, no synthetic zoom or false arrows"
   },
   "publication_hold_in_config_remains_true": true,
-  "metricool_post_id": null,
-  "status": "APPROVED_NOT_SCHEDULED",
-  "published": false
+  "metricool_post_id": 413732330,
+  "status": "METRICOOL_PENDING",
+  "published": false,
+  "metricool_post_uuid": "-1617953783409718936",
+  "metricool_provider_status": "PENDING",
+  "metricool_autoPublish": true,
+  "metricool_draft": false,
+  "scheduled_local": "2026-11-02T16:10:00-03:00",
+  "metricool_planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-1617953783409718936",
+  "tiktok_published_id": null
 }
