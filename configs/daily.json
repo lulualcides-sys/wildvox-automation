@@ -195,7 +195,7 @@
   },
   "mute_swan_nest_and_water": {
     "title": "Why a Mute Swan Sits on a Nest Beside Water",
-    "script": "Why is this mute swan sitting on a mound of sticks instead of swimming? That raised spot is a nest, built close enough to water for the adults to reach. Away from the nest, mute swans travel along canals with other family members nearby. The water lets them move and feed, while the bank offers a place to rest. Back near shore, a swan may settle into its nest while another moves across the pond. From nesting to resting on shore, swans also fly over the water that connects their daily routines.",
+    "script": "Why is this mute swan sitting on a mound of sticks instead of swimming? That raised spot is a nest, built close enough to water for the adults to reach. Away from the nest, mute swans travel along canals with other family members nearby. The water lets them move and feed, while the bank offers a place to rest. Back near shore, swans may gather on the bank while others move across the pond. From nesting to resting on shore, swans also fly over the water that connects their daily routines.",
     "caption": "WHY A MUTE SWAN SITS ON A NEST BESIDE WATER. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -325,7 +325,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-mute_swan_nest_and_water-verified-frames-v3",
+    "revision": "2026-11-02-mute_swan_nest_and_water-verified-frames-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -365,8 +365,8 @@
         "overlay_label": "TWO HABITATS"
       },
       {
-        "text": "Back near shore, a swan may settle into its nest while another moves across the pond.",
-        "scene": "Two swans walking on foggy bank and a separate Drage pond scene.",
+        "text": "Back near shore, swans may gather on the bank while others move across the pond.",
+        "scene": "Swans visibly gathered on foggy bank, followed by a distinct pond view; no nest action implied.",
         "tags": [
           "mute_swans_foggy_drage_bank",
           "mute_swan_drage_pond_second_view"
@@ -389,7 +389,7 @@
   },
   "domestic_cat_everyday_exploration": {
     "title": "Why Ordinary Objects Fascinate House Cats",
-    "script": "Why can an ordinary paper bag keep a house cat so interested? Cats can also settle on a sofa for a quiet moment before returning to their curious routines. In other homes, cats reach for toys and follow quick movements with their paws. Play gives those paws and eyes practice coordinating fast, precise movements. After exploring, a cat may walk away, rest, or spend time grooming its coat. A bag, a toy, or a person offering attention can make an ordinary room worth exploring.",
+    "script": "Why can an ordinary paper bag keep a house cat so interested? Cats can also settle on a sofa for a quiet moment before returning to their curious routines. In other homes, cats reach for toys and follow quick movements with their paws. Play gives those paws and eyes practice coordinating fast, precise movements. After exploring, a cat may walk away, rest, or spend time grooming its coat. A bag, a toy, or a person offering attention can make an ordinary day worth exploring.",
     "caption": "WHY ORDINARY OBJECTS FASCINATE HOUSE CATS. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
@@ -519,7 +519,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-domestic_cat_everyday_exploration-verified-frames-v4",
+    "revision": "2026-11-02-domestic_cat_everyday_exploration-verified-frames-v5",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -570,8 +570,8 @@
         "overlay_label": "TIME TO GROOM"
       },
       {
-        "text": "A bag, a toy, or a person offering attention can make an ordinary room worth exploring.",
-        "scene": "Real cat being petted by a person outdoors; no invented chase or play.",
+        "text": "A bag, a toy, or a person offering attention can make an ordinary day worth exploring.",
+        "scene": "A real domestic cat receiving attention from a person outdoors, not an indoor room.",
         "tags": [
           "domestic_cat_interacts_with_person"
         ],
@@ -689,7 +689,8 @@
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-02",
         "original_sha1": "3c33aad445429959c56bf30c758dcdfadc5627cd",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication. Editorial trim 0.0s selected to retain real horses in frame rather than empty lake pan; verify new render before release.",
+        "start_seconds": 0
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-14%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%202.webm",
