@@ -4,8 +4,8 @@
   "caption": "WHY HORSES SPEND SO MUCH TIME GRAZING. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. docentjoyce | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Grazing_Horses_in_California.webm | https://creativecommons.org/licenses/by/2.0\n2. Adon Metcalfe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm | https://creativecommons.org/licenses/by/2.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_3.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-07-14_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "c3372b12db78b18e58f54eb92ac95f250510fa8664db2b62eab88c663a3ab017",
-  "duration": 35.45,
+  "config_sha256": "e85e7dc6cf1f976236a2fec5c52a57fdad19d008f1eab93faf95b6c6eb096be2",
+  "duration": 35.38,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -26,22 +26,22 @@
     {
       "index": 1,
       "start": 4.775,
-      "end": 11.175,
-      "duration": 6.4,
-      "text": "Grazing is a slow job, and horses can spend hours taking small bites as they move.",
-      "scene": "Real Icelandic horses and a Camargue horse feeding near a lake.",
+      "end": 11.100000000000001,
+      "duration": 6.325,
+      "text": "Some horses accept food from a person, while others keep grazing along the water's edge.",
+      "scene": "A real Icelandic horse is hand-fed by a person, then a different Camargue horse grazes at a lakeside. Do not imply hand-feeding is grazing.",
       "tags": [
-        "icelandic_horses_group",
+        "icelandic_horse_accepts_handfed_food",
         "camargue_horse_slovenia_march_lakeside_grazing"
       ],
       "story_role": "setup",
-      "overlay_label": "SLOW GRAZING",
+      "overlay_label": "DIFFERENT WAYS TO FEED",
       "fx": []
     },
     {
       "index": 2,
-      "start": 11.175,
-      "end": 16.450000000000003,
+      "start": 11.100000000000001,
+      "end": 16.375,
       "duration": 5.275,
       "text": "In other pastures, groups walk together, pause, and lower their heads again.",
       "scene": "Two real Camargue horse clips from the same Slovenian nature area.",
@@ -55,8 +55,8 @@
     },
     {
       "index": 3,
-      "start": 16.450000000000003,
-      "end": 22.550000000000004,
+      "start": 16.375,
+      "end": 22.475,
       "duration": 6.1,
       "text": "Horses are grazing animals, built to take in forage over many parts of the day.",
       "scene": "Another genuine Camargue horse grazing/walking view.",
@@ -69,8 +69,8 @@
     },
     {
       "index": 4,
-      "start": 22.550000000000004,
-      "end": 27.925000000000004,
+      "start": 22.475,
+      "end": 27.85,
       "duration": 5.375,
       "text": "Between mouthfuls, they keep an eye on other horses sharing their own fields.",
       "scene": "Camargue horses in a different spring meadow.",
@@ -83,8 +83,8 @@
     },
     {
       "index": 5,
-      "start": 27.925000000000004,
-      "end": 35.45,
+      "start": 27.85,
+      "end": 35.375,
       "duration": 7.525,
       "text": "The quiet routine continues near water and trees: move with the group, then lower the head to graze.",
       "scene": "Actual Camargue horses standing together at a lake and a different white horse grazing on a wooded path.",
@@ -118,7 +118,7 @@
       "assetTitle": "Icelandic horses!! Video.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm",
       "tags": [
-        "icelandic_horses_group"
+        "icelandic_horse_accepts_handfed_food"
       ],
       "author": "Adon Metcalfe",
       "license": "CC BY 2.0",
