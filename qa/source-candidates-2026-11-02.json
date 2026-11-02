@@ -1,0 +1,97 @@
+{
+  "day": "2026-11-02",
+  "current_config_blob_sha": "da990140fd29f07d48ff699cfa7444e6e775f42a",
+  "purpose": "Pre-production authentic Commons video previews for footage-first mini-documentaries; no render/publish approval",
+  "candidates": [
+    {
+      "title": "Ducks Foraging along the Lake Okanagan shoreline in Winter near Maude Roxby Wetlands.webm",
+      "for_key": "mallard_dabbling_shoreline",
+      "target_block": "hook",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ducks_Foraging_along_the_Lake_Okanagan_shoreline_in_Winter_near_Maude_Roxby_Wetlands.webm",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Anas platyrhynchos Oulu 20200626.webm",
+      "for_key": "mallard_dabbling_shoreline",
+      "target_block": "action",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Mute Swan in Prague.webm",
+      "for_key": "mute_swan_water_glide",
+      "target_block": "hook",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mute_Swan_in_Prague.webm",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Mute swans (Cygnus olor) and their eggs.webm",
+      "for_key": "mute_swan_water_glide",
+      "target_block": "action",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mute_swans_(Cygnus_olor)_and_their_eggs.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Cat in a Bag.webm",
+      "for_key": "domestic_cat_everyday_exploration",
+      "target_block": "hook",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Moomin1.webm",
+      "for_key": "domestic_cat_everyday_exploration",
+      "target_block": "action",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Horses running in a pasture.webm",
+      "for_key": "domestic_horse_herd_motion",
+      "target_block": "hook",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Horses_running_in_a_pasture.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Grazing Horses in California.webm",
+      "for_key": "domestic_horse_herd_motion",
+      "target_block": "payoff",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grazing_Horses_in_California.webm",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Κότσυφας Τραγουδεί.P1110011.part2of5.webm",
+      "for_key": "common_blackbird_dawn_song",
+      "target_block": "hook",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%CE%9A%CF%8C%CF%84%CF%83%CF%85%CF%86%CE%B1%CF%82_%CE%A4%CF%81%CE%B1%CE%B3%CE%BF%CF%85%CE%B4%CE%B5%CE%AF.P1110011.part2of5.webm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Amselmännchen Futtersuche.webm",
+      "for_key": "common_blackbird_dawn_song",
+      "target_block": "action",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Amselm%C3%A4nnchen_Futtersuche.webm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    }
+  ]
+}
