@@ -1,11 +1,11 @@
 {
   "key": "mute_swan_nest_and_water",
   "title": "Why a Mute Swan Sits on a Nest Beside Water",
-  "caption": "WHY A MUTE SWAN SITS ON A NEST BESIDE WATER. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Katja Schulz | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mute_Swan_in_Prague.webm | https://creativecommons.org/licenses/by/2.0\n2. Ingo Zahlheimer | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Mute_swans_(Cygnus_olor)_and_their_eggs.webm | https://creativecommons.org/licenses/by/3.0\n3. The Nature Box | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Family_of_mute_swans_(Cygnus_olor).webm | https://creativecommons.org/licenses/by/4.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_3.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0",
+  "caption": "WHY A MUTE SWAN SITS ON A NEST BESIDE WATER. #WildVox #Wildlife #Nature #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Katja Schulz | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mute_Swan_in_Prague.webm | https://creativecommons.org/licenses/by/2.0\n2. Ingo Zahlheimer | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Mute_swans_(Cygnus_olor)_and_their_eggs.webm | https://creativecommons.org/licenses/by/3.0\n3. The Nature Box | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Family_of_mute_swans_(Cygnus_olor).webm | https://creativecommons.org/licenses/by/4.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_3.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTOČEC_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-18_VRHNIKA_Ribniki_pri_stari_opekarni_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm | https://creativecommons.org/licenses/by/3.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "e7730dc9b9402cdd920c3814c0e2a2a69427710fcea37b26760b9b68e7b8ecb5",
-  "duration": 35.05,
+  "config_sha256": "8983f53a93bff443b67c2997fbd497fb66bc67a5ae134d41a6b137021c452e06",
+  "duration": 36.33,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -83,16 +83,16 @@
     {
       "index": 5,
       "start": 29.1,
-      "end": 35.050000000000004,
-      "duration": 5.95,
-      "text": "The answer is simple: a swan's life depends on both the water and a safe nest.",
-      "scene": "Actual nest scene at Tivoli plus separate swan in Drage pond.",
+      "end": 36.325,
+      "duration": 7.225,
+      "text": "From nesting to resting on shore, swans also fly over the water that connects their daily routines.",
+      "scene": "Actual mute swans resting on grass, followed by a distinct real flock flying over water. No invented takeoff or nest scene in these shots.",
       "tags": [
-        "mute_swan_tivoli_park_nest",
-        "mute_swan_drage_may_pond_first"
+        "mute_swans_resting_on_grass",
+        "mute_swan_flock_flying_over_water"
       ],
       "story_role": "payoff",
-      "overlay_label": "NEST AND WATER",
+      "overlay_label": "NEST, SHORE, SKY",
       "fx": []
     }
   ],
@@ -188,34 +188,34 @@
       "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
     },
     {
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-13%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%20gnezdo.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-17%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
       "type": "video",
-      "assetTitle": "2022-05-13 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC gnezdo.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm",
+      "assetTitle": "2022-06-17 GRAD OTOČEC ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-17_GRAD_OTOČEC_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
       "tags": [
-        "mute_swan_tivoli_park_nest"
+        "mute_swans_resting_on_grass"
       ],
       "author": "NaIzletuSi ™",
       "license": "CC BY 3.0",
       "license_url": "https://creativecommons.org/licenses/by/3.0",
       "license_verified_at": "2026-11-02",
-      "original_sha1": "88d05970b5eafb83685ff3c7d9d0b5085e6cf36d",
-      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+      "original_sha1": "4db6c5e09004fd848f4397ae3c150c4d6892a5bf",
+      "license_note": "Commons creator NaIzletuSi, CC BY 3.0 human-reviewed 2025-08-08; 31 Oct archived rendered visual confirms close swans resting on bank."
     },
     {
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-02%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-18%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
       "type": "video",
-      "assetTitle": "2022-05-02 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
+      "assetTitle": "2022-10-18 VRHNIKA Ribniki pri stari opekarni ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-18_VRHNIKA_Ribniki_pri_stari_opekarni_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
       "tags": [
-        "mute_swan_drage_may_pond_first"
+        "mute_swan_flock_flying_over_water"
       ],
       "author": "NaIzletuSi ™",
       "license": "CC BY 3.0",
       "license_url": "https://creativecommons.org/licenses/by/3.0",
       "license_verified_at": "2026-11-02",
-      "original_sha1": "6dd002982d72e4eaecd8282ca69f0217756e5234",
-      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      "original_sha1": "ecdaf57c78c29e86c078b300b43b8fe9ad6ba7f1",
+      "license_note": "Commons creator NaIzletuSi, CC BY 3.0 human-reviewed 2026-01-03; archived rendered visual confirms flying swan flock above pond."
     }
   ],
   "review_sheet": "mute_swan_nest_and_water_review.jpg",
