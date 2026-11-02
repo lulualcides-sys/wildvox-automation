@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-01",
+  "brand_id": 7242311,
+  "exact_handle": "wildvox",
+  "candidate": "red_squirrel_branch_dining",
+  "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v9",
+  "metricool_post_id": 412996988,
+  "metricool_uuid": "6838959943263866704",
+  "provider_network": "tiktok",
+  "provider_status": "PUBLISHED",
+  "provider_detailed_status": "Published",
+  "tiktok_video_id": "7703373915669777716",
+  "tiktok_public_url": "https://www.tiktok.com/@wildvox/video/7703373915669777716",
+  "scheduled_local": "2026-11-01T22:05:00-03:00",
+  "observed_after_local": "2026-11-01T22:51:24-03:00",
+  "auto_publish": true,
+  "draft": false,
+  "media_url": "https://static.metricool.com/planner/202611/7242311-file-708343888810107984.mp4",
+  "archived_media_git_blob": "15cbaddc308af6f62fff43f98cce66b35ee34e0a",
+  "media_config_sha256": "e276a677a83636209d60b14048fdb61fb72cd26a0ea3233237edee305ea108bf",
+  "mp4_sha256": "37cea3d4c4908c53d781e3fd765bf9339652f865bf916390dc3bf3fa1043e2c6",
+  "editorial_approval": "qa/reviews/2026-11-01-red_squirrel_branch_dining-editorial-approval.json",
+  "duplicate_audit": "Fresh Metricool getScheduledPosts readback for 2026-11-01 showed exactly five unique TikTok-only posts, all five with provider PUBLISHED, distinct exact @wildvox public URLs and platform IDs. TikTok analytics TKPO01/TKPO02/TKPO03/TKPO05 returned zero rows (lag); provider publication verified directly.",
+  "all_five_tiktok_published": [
+    {
+      "post_id": 412806760,
+      "video_id": "7703188466179296564"
+    },
+    {
+      "post_id": 412813462,
+      "video_id": "7703228204944837889"
+    },
+    {
+      "post_id": 412949905,
+      "video_id": "7703282539623943476"
+    },
+    {
+      "post_id": 412994363,
+      "video_id": "7703335336700595477"
+    },
+    {
+      "post_id": 412996988,
+      "video_id": "7703373915669777716"
+    }
+  ],
+  "no_new_post_created": true,
+  "never_youtube": true
+}
