@@ -31,6 +31,13 @@
     "other_four_unapproved": true,
     "metricool_schedule_requires_fresh_duplicate_check": true
   },
-  "metricool_post_id": null,
-  "metricool_provider_status": "NOT_SCHEDULED_AT_APPROVAL"
+  "metricool_post_id": 413645275,
+  "metricool_provider_status": "PENDING",
+  "metricool_post_uuid": "6805192904593458495",
+  "metricool_auto_publish": true,
+  "metricool_draft": false,
+  "scheduled_local": "2026-11-02T10:05:00-03:00",
+  "metricool_planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=6805192904593458495",
+  "published": false,
+  "tiktok_published_id": null
 }
