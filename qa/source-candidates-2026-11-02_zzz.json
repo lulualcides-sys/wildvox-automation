@@ -1,0 +1,51 @@
+{
+  "day": "2026-11-02",
+  "purpose": "Final five replacement payoff frames before editorial handoff; no render/publish approval",
+  "candidates": [
+    {
+      "title": "Mallard Drake With Young (18955798721).webm",
+      "for_key": "mallard_shoreline_dabbling",
+      "target_block": "payoff",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mallard_Drake_With_Young_(18955798721).webm",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "2022-05-13 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC gnezdo.webm",
+      "for_key": "mute_swan_underwater_paddle",
+      "target_block": "payoff",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Andra and Billy.webm",
+      "for_key": "domestic_cat_everyday_exploration",
+      "target_block": "payoff",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "2022-05-21 IZLIV SOČE PERISSODACTYLA kamarški konji 2.webm",
+      "for_key": "domestic_horse_herd_motion",
+      "target_block": "payoff",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "2022-10-14 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+      "for_key": "common_blackbird_dawn_song",
+      "target_block": "payoff",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    }
+  ]
+}
