@@ -1,8 +1,8 @@
 {
-  "mallard_shoreline_dabbling": {
-    "title": "Why Mallards Keep Returning to the Shore",
-    "script": "Why do mallards keep returning to the shallow edges of ponds and lakes? On calm water, these ducks move slowly, keeping close to banks and sheltered corners. Different mallards paddle, turn, and pause as they travel through the same kind of habitat. Along a winter shoreline, they also forage, using their broad bills to find food. A short swim can end with another stop, because the water's edge offers more than a route. For a mallard, the shoreline is not just a border; it is part of the feeding ground.",
-    "caption": "WHY MALLARDS KEEP RETURNING TO THE SHORE. #WildVox #Wildlife #Nature #AnimalFacts",
+  "mallard_pond_family_swim": {
+    "title": "Why Mallards Swim Together Near Shore",
+    "script": "Why do mallards often stay together as they move across a pond? These ducks can swim in loose groups, turning along the bank as they travel. At different waterways, mallards paddle past one another and keep exploring the shallow edges. Their webbed feet carry them through water, while their bills help them search for food. A group may spread out, then come close again as it travels across the pond. When ducklings are nearby, swimming close to family becomes part of that same daily journey.",
+    "caption": "WHY MALLARDS SWIM TOGETHER NEAR SHORE. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas%20platyrhynchos%20Oulu%2020200626.webm",
@@ -10,7 +10,7 @@
         "assetTitle": "Anas platyrhynchos Oulu 20200626.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm",
         "tags": [
-          "mallard_oulu_park_water_swim"
+          "mallard_oulu_park_group_swim"
         ],
         "author": "Estormiz",
         "license": "CC0",
@@ -65,18 +65,18 @@
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ducks%20Foraging%20along%20the%20Lake%20Okanagan%20shoreline%20in%20Winter%20near%20Maude%20Roxby%20Wetlands.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-02%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
         "type": "video",
-        "assetTitle": "Ducks Foraging along the Lake Okanagan shoreline in Winter near Maude Roxby Wetlands.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ducks_Foraging_along_the_Lake_Okanagan_shoreline_in_Winter_near_Maude_Roxby_Wetlands.webm",
+        "assetTitle": "2022-05-02 RIBNIKI V DOLINI DRAGE ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
         "tags": [
-          "mallard_winter_shore_foraging"
+          "mallard_drage_pond_bank"
         ],
-        "author": "Extemporalist",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-02",
-        "original_sha1": "7ce9692e52bbd71eee6ed0c5ec012559ce458629",
+        "original_sha1": "f7efb799a20dfd71f35a52260c9ddd674be6c4ed",
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
@@ -100,7 +100,7 @@
         "assetTitle": "2022-06-04 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
         "tags": [
-          "mallard_otocec_castle_pond"
+          "mallard_otocec_ducklings_near_bank"
         ],
         "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
@@ -110,19 +110,19 @@
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-02%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mallard%20Drake%20With%20Young%20(18955798721).webm",
         "type": "video",
-        "assetTitle": "2022-05-02 RIBNIKI V DOLINI DRAGE ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+        "assetTitle": "Mallard Drake With Young (18955798721).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mallard_Drake_With_Young_(18955798721).webm",
         "tags": [
-          "mallard_drage_pond_bank"
+          "mallard_usfws_drake_with_young"
         ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "author": "U.S. Fish and Wildlife Service - Midwest Region",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
         "license_verified_at": "2026-11-02",
-        "original_sha1": "f7efb799a20dfd71f35a52260c9ddd674be6c4ed",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+        "original_sha1": "be98fbe3893f7ce95ffd8a802c39c7febf6716b1",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
       }
     ],
     "min_unique_videos": 6,
@@ -131,72 +131,72 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-mallard_shoreline_dabbling-footage-first-v1",
+    "revision": "2026-11-02-mallard_pond_family_swim-verified-frames-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why do mallards keep returning to the shallow edges of ponds and lakes?",
-        "scene": "Mallards swimming near the edge of an Oulu park pond.",
+        "text": "Why do mallards often stay together as they move across a pond?",
+        "scene": "Visible group of mallards swimming together in an Oulu park.",
         "tags": [
-          "mallard_oulu_park_water_swim"
+          "mallard_oulu_park_group_swim"
         ],
         "story_role": "hook",
-        "overlay_label": "THE SHORELINE"
+        "overlay_label": "SWIM TOGETHER"
       },
       {
-        "text": "On calm water, these ducks move slowly, keeping close to banks and sheltered corners.",
-        "scene": "Mallards in Ljubljana's Prule waterway.",
+        "text": "These ducks can swim in loose groups, turning along the bank as they travel.",
+        "scene": "Adult mallards moving on Ljubljana Prule waterway.",
         "tags": [
           "mallard_ljubljana_prule_waterway"
         ],
         "story_role": "setup",
-        "overlay_label": "ALONG THE BANK"
+        "overlay_label": "LOOSE GROUPS"
       },
       {
-        "text": "Different mallards paddle, turn, and pause as they travel through the same kind of habitat.",
-        "scene": "Two distinct views of mallards swimming on Ljubljana waterways.",
+        "text": "At different waterways, mallards paddle past one another and keep exploring the shallow edges.",
+        "scene": "Two real mallard clips on different Ljubljana river dates.",
         "tags": [
           "mallard_prule_december_group_swim",
           "mallard_prule_january_water_edge"
         ],
         "story_role": "action",
-        "overlay_label": "SHORT SWIMS"
+        "overlay_label": "FOLLOW THE BANK"
       },
       {
-        "text": "Along a winter shoreline, they also forage, using their broad bills to find food.",
-        "scene": "Ducks actively foraging along Lake Okanagan's winter shoreline.",
+        "text": "Their webbed feet carry them through water, while their bills help them search for food.",
+        "scene": "Mallards on a pond in Drage; webbed feet explained but not claimed visible.",
         "tags": [
-          "mallard_winter_shore_foraging"
+          "mallard_drage_pond_bank"
         ],
         "story_role": "explanation",
-        "overlay_label": "DABBLING"
+        "overlay_label": "WEBBED FEET"
       },
       {
-        "text": "A short swim can end with another stop, because the water's edge offers more than a route.",
-        "scene": "Mallards in a different Ljubljana pond, no fabricated feeding.",
+        "text": "A group may spread out, then come close again as it travels across the pond.",
+        "scene": "Adult mallards moving in Ljubljana winter waterway.",
         "tags": [
           "mallard_prule_february_swim"
         ],
         "story_role": "action",
-        "overlay_label": "PAUSE AND SEARCH"
+        "overlay_label": "BACK TOGETHER"
       },
       {
-        "text": "For a mallard, the shoreline is not just a border; it is part of the feeding ground.",
-        "scene": "Two independent real mallard pond scenes at Otočec and Drage.",
+        "text": "When ducklings are nearby, swimming close to family becomes part of that same daily journey.",
+        "scene": "Actual mallard ducklings near bank and separate USFWS adult-with-young footage.",
         "tags": [
-          "mallard_otocec_castle_pond",
-          "mallard_drage_pond_bank"
+          "mallard_otocec_ducklings_near_bank",
+          "mallard_usfws_drake_with_young"
         ],
         "story_role": "payoff",
-        "overlay_label": "FOOD AT THE EDGE"
+        "overlay_label": "STAY NEAR FAMILY"
       }
     ],
     "trend_priority": false
   },
-  "mute_swan_underwater_paddle": {
-    "title": "The Hidden Work Behind a Swan's Glide",
-    "script": "How does a mute swan glide across a pond while its body looks almost motionless? Its broad body floats on the surface, with the long neck rising above the water. At other ponds, swans keep moving forward even when their legs stay out of sight. Below the surface, webbed feet push against the water and drive each smooth stroke. When a swan reaches a quiet bank, it may pause beside its nest or resting place. That graceful glide is not magic; it is steady work happening just beneath the water.",
-    "caption": "THE HIDDEN WORK BEHIND A SWAN'S GLIDE. #WildVox #Wildlife #Nature #AnimalFacts",
+  "mute_swan_nest_and_water": {
+    "title": "Why a Mute Swan Sits on a Nest Beside Water",
+    "script": "Why is this mute swan sitting on a mound of sticks instead of swimming? That raised spot is a nest, built close enough to water for the adults to reach. Away from the nest, mute swans travel along canals with other family members nearby. The water lets them move and feed, while the bank offers a place to rest. Back near shore, a swan may settle into its nest while another moves across the pond. The answer is simple: a swan's life depends on both the water and a safe nest.",
+    "caption": "WHY A MUTE SWAN SITS ON A NEST BESIDE WATER. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mute%20Swan%20in%20Prague.webm",
@@ -204,13 +204,28 @@
         "assetTitle": "Mute Swan in Prague.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Mute_Swan_in_Prague.webm",
         "tags": [
-          "mute_swan_prague_water_glide"
+          "mute_swan_prague_sitting_on_nest"
         ],
         "author": "Katja Schulz",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-02",
         "original_sha1": "a1e1eb88ea0d135bbf65280e66f798915684e59d",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mute%20swans%20(Cygnus%20olor)%20and%20their%20eggs.webm",
+        "type": "video",
+        "assetTitle": "Mute swans (Cygnus olor) and their eggs.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mute_swans_(Cygnus_olor)_and_their_eggs.webm",
+        "tags": [
+          "mute_swan_nest_with_eggs"
+        ],
+        "author": "Ingo Zahlheimer",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "760c676d3d72bd55826de7677f550e63ed884d7d",
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
@@ -249,7 +264,7 @@
         "assetTitle": "2021-12-31 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
         "tags": [
-          "mute_swan_drage_pond_december"
+          "mute_swans_foggy_drage_bank"
         ],
         "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
@@ -274,19 +289,19 @@
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mute%20swans%20(Cygnus%20olor)%20and%20their%20eggs.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-13%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%20gnezdo.webm",
         "type": "video",
-        "assetTitle": "Mute swans (Cygnus olor) and their eggs.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mute_swans_(Cygnus_olor)_and_their_eggs.webm",
+        "assetTitle": "2022-05-13 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC gnezdo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm",
         "tags": [
-          "mute_swan_nest_with_eggs"
+          "mute_swan_tivoli_park_nest"
         ],
-        "author": "Ingo Zahlheimer",
+        "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-02",
-        "original_sha1": "760c676d3d72bd55826de7677f550e63ed884d7d",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+        "original_sha1": "88d05970b5eafb83685ff3c7d9d0b5085e6cf36d",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-02%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
@@ -302,21 +317,6 @@
         "license_verified_at": "2026-11-02",
         "original_sha1": "6dd002982d72e4eaecd8282ca69f0217756e5234",
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-02%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%207.webm",
-        "type": "video",
-        "assetTitle": "2022-05-02 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 7.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_7.webm",
-        "tags": [
-          "mute_swan_drage_may_pond_second"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "f451fcc7a4677fa4ca1b5e9327f829d32cc9439e",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       }
     ],
     "min_unique_videos": 6,
@@ -325,64 +325,64 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-mute_swan_underwater_paddle-footage-first-v1",
+    "revision": "2026-11-02-mute_swan_nest_and_water-verified-frames-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "How does a mute swan glide across a pond while its body looks almost motionless?",
-        "scene": "Real mute swan gliding on Prague water.",
+        "text": "Why is this mute swan sitting on a mound of sticks instead of swimming?",
+        "scene": "Close mute swan settled on a stick nest in Prague, visually reviewed.",
         "tags": [
-          "mute_swan_prague_water_glide"
+          "mute_swan_prague_sitting_on_nest"
         ],
         "story_role": "hook",
-        "overlay_label": "SMOOTH GLIDE"
+        "overlay_label": "ON THE NEST"
       },
       {
-        "text": "Its broad body floats on the surface, with the long neck rising above the water.",
-        "scene": "Mute swan family moving along a Wiltshire canal.",
-        "tags": [
-          "mute_swan_wiltshire_family_canal"
-        ],
-        "story_role": "setup",
-        "overlay_label": "LONG NECK"
-      },
-      {
-        "text": "At other ponds, swans keep moving forward even when their legs stay out of sight.",
-        "scene": "Two real views of swans on Slovenian park and pond water.",
-        "tags": [
-          "mute_swan_tivoli_park_water",
-          "mute_swan_drage_pond_december"
-        ],
-        "story_role": "action",
-        "overlay_label": "UNDER THE WATER"
-      },
-      {
-        "text": "Below the surface, webbed feet push against the water and drive each smooth stroke.",
-        "scene": "Swan moving in Drage pond; submerged feet not falsely claimed visible.",
-        "tags": [
-          "mute_swan_drage_pond_second_view"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "WEBBED FEET"
-      },
-      {
-        "text": "When a swan reaches a quiet bank, it may pause beside its nest or resting place.",
-        "scene": "Actual mute swan nesting with eggs, not an invented hatching event.",
+        "text": "That raised spot is a nest, built close enough to water for the adults to reach.",
+        "scene": "Real mute swans and their eggs at a waterside nest.",
         "tags": [
           "mute_swan_nest_with_eggs"
         ],
         "story_role": "setup",
-        "overlay_label": "NEAR THE NEST"
+        "overlay_label": "A SAFE NEST"
       },
       {
-        "text": "That graceful glide is not magic; it is steady work happening just beneath the water.",
-        "scene": "Two different mute swan swimming views at Drage ponds.",
+        "text": "Away from the nest, mute swans travel along canals with other family members nearby.",
+        "scene": "Mute swan family including young swimming along a Wiltshire canal.",
         "tags": [
-          "mute_swan_drage_may_pond_first",
-          "mute_swan_drage_may_pond_second"
+          "mute_swan_wiltshire_family_canal"
+        ],
+        "story_role": "action",
+        "overlay_label": "BACK ON WATER"
+      },
+      {
+        "text": "The water lets them move and feed, while the bank offers a place to rest.",
+        "scene": "Mute swan in a Slovenian park near water; feeding not claimed visible.",
+        "tags": [
+          "mute_swan_tivoli_park_water"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "TWO HABITATS"
+      },
+      {
+        "text": "Back near shore, a swan may settle into its nest while another moves across the pond.",
+        "scene": "Two swans walking on foggy bank and a separate Drage pond scene.",
+        "tags": [
+          "mute_swans_foggy_drage_bank",
+          "mute_swan_drage_pond_second_view"
+        ],
+        "story_role": "setup",
+        "overlay_label": "NEAR THE BANK"
+      },
+      {
+        "text": "The answer is simple: a swan's life depends on both the water and a safe nest.",
+        "scene": "Actual nest scene at Tivoli plus separate swan in Drage pond.",
+        "tags": [
+          "mute_swan_tivoli_park_nest",
+          "mute_swan_drage_may_pond_first"
         ],
         "story_role": "payoff",
-        "overlay_label": "THE HIDDEN STROKE"
+        "overlay_label": "NEST AND WATER"
       }
     ],
     "trend_priority": false
@@ -519,7 +519,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-domestic_cat_everyday_exploration-footage-first-v1",
+    "revision": "2026-11-02-domestic_cat_everyday_exploration-verified-frames-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -581,26 +581,11 @@
     ],
     "trend_priority": false
   },
-  "domestic_horse_herd_motion": {
-    "title": "Why Horses Move Together",
-    "script": "Why do horses sometimes run together across a field instead of moving one by one? In quieter moments, the same species spends long stretches grazing with other horses nearby. A group may walk through open grass, pause, then move again without separating far. Horses are social animals, and they keep track of the others around them. Their ears and eyes help them notice movement, while the group offers more animals watching. From a sudden run to a slow walk, moving together is part of everyday horse life.",
-    "caption": "WHY HORSES MOVE TOGETHER. #WildVox #Wildlife #Nature #AnimalFacts",
+  "domestic_horse_meadow_grazing": {
+    "title": "Why Horses Spend So Much Time Grazing",
+    "script": "Why do these horses spend so much time with their heads down in the grass? Grazing is a slow job, and horses can spend hours taking small bites as they move. In other pastures, groups walk together, pause, and lower their heads again. Horses are grazing animals, built to take in forage over many parts of the day. Between mouthfuls, they keep an eye on other horses sharing their own fields. The quiet scene is the story: step, graze, look around, and keep moving with the herd.",
+    "caption": "WHY HORSES SPEND SO MUCH TIME GRAZING. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Horses%20running%20in%20a%20pasture.webm",
-        "type": "video",
-        "assetTitle": "Horses running in a pasture.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Horses_running_in_a_pasture.webm",
-        "tags": [
-          "domestic_horses_running_pasture"
-        ],
-        "author": "Field of Dreams",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "01aa0662ee7842bd40c641b9555b455c4ea27d6d",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
-      },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grazing%20Horses%20in%20California.webm",
         "type": "video",
@@ -637,7 +622,7 @@
         "assetTitle": "2022-03-12 IZLIV SOČE PERISSODACTYLA kamarški konji.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm",
         "tags": [
-          "camargue_horses_slovenia_march_group"
+          "camargue_horse_slovenia_march_lakeside_grazing"
         ],
         "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
@@ -692,6 +677,21 @@
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%202.webm",
+        "type": "video",
+        "assetTitle": "2022-05-21 IZLIV SOČE PERISSODACTYLA kamarški konji 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+        "tags": [
+          "camargue_horses_slovenia_may_second"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "3c33aad445429959c56bf30c758dcdfadc5627cd",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+      },
+      {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-14%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%202.webm",
         "type": "video",
         "assetTitle": "2022-07-14 IZLIV SOČE PERISSODACTYLA kamarški konji 2.webm",
@@ -713,125 +713,80 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-domestic_horse_herd_motion-footage-first-v1",
+    "revision": "2026-11-02-domestic_horse_meadow_grazing-verified-frames-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why do horses sometimes run together across a field instead of moving one by one?",
-        "scene": "Actual horses running together in a pasture in Illinois.",
+        "text": "Why do these horses spend so much time with their heads down in the grass?",
+        "scene": "Real close horse grazing on a California meadow.",
         "tags": [
-          "domestic_horses_running_pasture"
+          "domestic_horses_grazing_california"
         ],
         "story_role": "hook",
-        "overlay_label": "RUNNING TOGETHER"
+        "overlay_label": "HEADS DOWN"
       },
       {
-        "text": "In quieter moments, the same species spends long stretches grazing with other horses nearby.",
-        "scene": "Horses grazing in California with a separate group of Icelandic horses.",
+        "text": "Grazing is a slow job, and horses can spend hours taking small bites as they move.",
+        "scene": "Real Icelandic horses and a Camargue horse feeding near a lake.",
         "tags": [
-          "domestic_horses_grazing_california",
-          "icelandic_horses_group"
+          "icelandic_horses_group",
+          "camargue_horse_slovenia_march_lakeside_grazing"
         ],
         "story_role": "setup",
-        "overlay_label": "BACK TO GRAZING"
+        "overlay_label": "SLOW GRAZING"
       },
       {
-        "text": "A group may walk through open grass, pause, then move again without separating far.",
-        "scene": "Two independent Camargue horse pasture clips in Slovenia.",
+        "text": "In other pastures, groups walk together, pause, and lower their heads again.",
+        "scene": "Two real Camargue horse clips from the same Slovenian nature area.",
         "tags": [
-          "camargue_horses_slovenia_march_group",
-          "camargue_horses_slovenia_march_second"
-        ],
-        "story_role": "action",
-        "overlay_label": "HERD MOVEMENT"
-      },
-      {
-        "text": "Horses are social animals, and they keep track of the others around them.",
-        "scene": "Another filmed group of Camargue horses.",
-        "tags": [
+          "camargue_horses_slovenia_march_second",
           "camargue_horses_slovenia_march_third"
         ],
-        "story_role": "explanation",
-        "overlay_label": "STAYING TOGETHER"
+        "story_role": "action",
+        "overlay_label": "STEP AND GRAZE"
       },
       {
-        "text": "Their ears and eyes help them notice movement, while the group offers more animals watching.",
-        "scene": "Real Camargue horses on grassland, no implied predator or stampede.",
+        "text": "Horses are grazing animals, built to take in forage over many parts of the day.",
+        "scene": "Another genuine Camargue horse grazing/walking view.",
         "tags": [
           "camargue_horses_slovenia_may"
         ],
-        "story_role": "setup",
-        "overlay_label": "WATCHFUL EYES"
+        "story_role": "explanation",
+        "overlay_label": "BUILT TO GRAZE"
       },
       {
-        "text": "From a sudden run to a slow walk, moving together is part of everyday horse life.",
-        "scene": "Real Camargue horses in a different summer pasture.",
+        "text": "Between mouthfuls, they keep an eye on other horses sharing their own fields.",
+        "scene": "Camargue horses in a different spring meadow.",
+        "tags": [
+          "camargue_horses_slovenia_may_second"
+        ],
+        "story_role": "setup",
+        "overlay_label": "STAY AWARE"
+      },
+      {
+        "text": "The quiet scene is the story: step, graze, look around, and keep moving with the herd.",
+        "scene": "Camargue horses in two distinct summer scenes, walking and grazing.",
         "tags": [
           "camargue_horses_slovenia_july"
         ],
         "story_role": "payoff",
-        "overlay_label": "MOVE AS A GROUP"
+        "overlay_label": "GRAZE AND MOVE"
       }
     ],
     "trend_priority": false
   },
-  "common_blackbird_dawn_song": {
-    "title": "Why Blackbirds Sing Before Sunrise",
-    "script": "Why does a common blackbird sing before many other birds have started their day? A male can deliver a long series of notes from a perch in the early light. Later, blackbirds also spend time searching for food in gardens and park vegetation. Their song can advertise a territory, while foraging helps meet the day's energy needs. Between those activities, a bird may pause on a branch or move across the ground. The dawn song and the daytime search are different parts of the same busy routine.",
-    "caption": "WHY BLACKBIRDS SING BEFORE SUNRISE. #WildVox #Wildlife #Nature #AnimalFacts",
+  "common_blackbird_foraging_to_song": {
+    "title": "Why Blackbirds Search the Grass and Sing at Dawn",
+    "script": "Why is this common blackbird pulling something from the grass instead of singing? In gardens and parks, blackbirds often search low vegetation for food. One bird walks through green plants, then moves on to check another small patch. That ground search can uncover insects, worms, and other small things a blackbird eats. At dawn, the same species may sing from a perch before returning to daytime routines. So a blackbird's day shifts between finding food on the ground and sending song across its habitat.",
+    "caption": "WHY BLACKBIRDS SEARCH THE GRASS AND SING AT DAWN. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%CE%9A%CF%8C%CF%84%CF%83%CF%85%CF%86%CE%B1%CF%82%20%CE%A4%CF%81%CE%B1%CE%B3%CE%BF%CF%85%CE%B4%CE%B5%CE%AF.P1110011.part2of5.webm",
-        "type": "video",
-        "assetTitle": "Κότσυφας Τραγουδεί.P1110011.part2of5.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:%CE%9A%CF%8C%CF%84%CF%83%CF%85%CF%86%CE%B1%CF%82_%CE%A4%CF%81%CE%B1%CE%B3%CE%BF%CF%85%CE%B4%CE%B5%CE%AF.P1110011.part2of5.webm",
-        "tags": [
-          "common_blackbird_singing_before_dawn_first"
-        ],
-        "author": "Tsester",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "ac1fed7b546a0da85586e2a49f5e746dbe852701",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%CE%9A%CF%8C%CF%84%CF%83%CF%85%CF%86%CE%B1%CF%82%20%CE%A4%CF%81%CE%B1%CE%B3%CE%BF%CF%85%CE%B4%CE%B5%CE%AF.P1110013.part3of5.webm",
-        "type": "video",
-        "assetTitle": "Κότσυφας Τραγουδεί.P1110013.part3of5.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:%CE%9A%CF%8C%CF%84%CF%83%CF%85%CF%86%CE%B1%CF%82_%CE%A4%CF%81%CE%B1%CE%B3%CE%BF%CF%85%CE%B4%CE%B5%CE%AF.P1110013.part3of5.webm",
-        "tags": [
-          "common_blackbird_singing_before_dawn_second"
-        ],
-        "author": "Tsester",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "6f207cc061f4c9aad2b870106766cedc1c0ff34c",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amselm%C3%A4nnchen%20Futtersuche.webm",
-        "type": "video",
-        "assetTitle": "Amselmännchen Futtersuche.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Amselm%C3%A4nnchen_Futtersuche.webm",
-        "tags": [
-          "common_blackbird_ground_foraging"
-        ],
-        "author": "Anton Porsche",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "dca454bd2c6d4a576dd62e98620110067bbfa39a",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
-      },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-08%20LJUBLJANA%20Botani%C4%8Dni%20vrt%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
         "type": "video",
         "assetTitle": "2022-06-08 LJUBLJANA Botanični vrt PASSERIFORMES Turdus merula KOS.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-08_LJUBLJANA_Botani%C4%8Dni_vrt_PASSERIFORMES_Turdus_merula_KOS.webm",
         "tags": [
-          "common_blackbird_botanical_garden"
+          "common_blackbird_worm_foraging_garden"
         ],
         "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
@@ -841,18 +796,18 @@
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-29%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-05%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
         "type": "video",
-        "assetTitle": "2022-04-29 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-29_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "assetTitle": "2022-08-05 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-05_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
         "tags": [
-          "common_blackbird_tivoli_april"
+          "common_blackbird_tivoli_august_ground"
         ],
         "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-02",
-        "original_sha1": "d517af9c0f809fd0a5cd2211b6684344a2f42da7",
+        "original_sha1": "22d9178de98f82f95dc88fd681bae55ef25e63d7",
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
@@ -871,18 +826,48 @@
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-05%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-27%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
         "type": "video",
-        "assetTitle": "2022-08-05 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-05_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "assetTitle": "2022-06-27 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-27_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
         "tags": [
-          "common_blackbird_tivoli_august"
+          "common_blackbird_tivoli_june_late"
         ],
         "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-11-02",
-        "original_sha1": "22d9178de98f82f95dc88fd681bae55ef25e63d7",
+        "original_sha1": "276671b3bd9dae53b897942c8ce8da53a599c753",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-29%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "type": "video",
+        "assetTitle": "2022-04-29 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-29_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "tags": [
+          "common_blackbird_tivoli_april"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "d517af9c0f809fd0a5cd2211b6684344a2f42da7",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%CE%9A%CF%8C%CF%84%CF%83%CF%85%CF%86%CE%B1%CF%82%20%CE%A4%CF%81%CE%B1%CE%B3%CE%BF%CF%85%CE%B4%CE%B5%CE%AF.P1110011.part2of5.webm",
+        "type": "video",
+        "assetTitle": "Κότσυφας Τραγουδεί.P1110011.part2of5.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%CE%9A%CF%8C%CF%84%CF%83%CF%85%CF%86%CE%B1%CF%82_%CE%A4%CF%81%CE%B1%CE%B3%CE%BF%CF%85%CE%B4%CE%B5%CE%AF.P1110011.part2of5.webm",
+        "tags": [
+          "common_blackbird_singing_before_dawn_first"
+        ],
+        "author": "Tsester",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "ac1fed7b546a0da85586e2a49f5e746dbe852701",
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
@@ -899,6 +884,21 @@
         "license_verified_at": "2026-11-02",
         "original_sha1": "047e566c3e0445f6e430de3402fc9a19dc9f348c",
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-14%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "type": "video",
+        "assetTitle": "2022-10-14 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "tags": [
+          "common_blackbird_tivoli_october"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "80dbacc8385695d8b26a9947435e693cf04c8d2e",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
       }
     ],
     "min_unique_videos": 6,
@@ -907,64 +907,64 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-02-common_blackbird_dawn_song-footage-first-v1",
+    "revision": "2026-11-02-common_blackbird_foraging_to_song-verified-frames-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does a common blackbird sing before many other birds have started their day?",
-        "scene": "Actual blackbird singing before dawn in Greece.",
+        "text": "Why is this common blackbird pulling something from the grass instead of singing?",
+        "scene": "Close blackbird visibly carrying a worm and foraging in botanical garden.",
         "tags": [
-          "common_blackbird_singing_before_dawn_first"
+          "common_blackbird_worm_foraging_garden"
         ],
         "story_role": "hook",
-        "overlay_label": "BEFORE SUNRISE"
+        "overlay_label": "A WORM IN THE BILL"
       },
       {
-        "text": "A male can deliver a long series of notes from a perch in the early light.",
-        "scene": "Second authentic recording of a blackbird singing before dawn.",
+        "text": "In gardens and parks, blackbirds often search low vegetation for food.",
+        "scene": "Close blackbird resting on rocky park ground.",
         "tags": [
-          "common_blackbird_singing_before_dawn_second"
+          "common_blackbird_tivoli_august_ground"
         ],
         "story_role": "setup",
-        "overlay_label": "THE MORNING SONG"
+        "overlay_label": "GROUND SEARCH"
       },
       {
-        "text": "Later, blackbirds also spend time searching for food in gardens and park vegetation.",
-        "scene": "Male blackbird foraging and a separate blackbird in botanical garden.",
+        "text": "One bird walks through green plants, then moves on to check another small patch.",
+        "scene": "Two real blackbird park scenes in Ljubljana.",
         "tags": [
-          "common_blackbird_ground_foraging",
-          "common_blackbird_botanical_garden"
+          "common_blackbird_tivoli_june",
+          "common_blackbird_tivoli_june_late"
         ],
         "story_role": "action",
-        "overlay_label": "SEARCHING FOR FOOD"
+        "overlay_label": "CHECK THE GROUND"
       },
       {
-        "text": "Their song can advertise a territory, while foraging helps meet the day's energy needs.",
-        "scene": "A blackbird in Tivoli park; no invented territorial encounter.",
+        "text": "That ground search can uncover insects, worms, and other small things a blackbird eats.",
+        "scene": "Blackbird in Tivoli park; food type explained without fake closeup.",
         "tags": [
           "common_blackbird_tivoli_april"
         ],
         "story_role": "explanation",
-        "overlay_label": "TWO NEEDS"
+        "overlay_label": "WHAT THEY EAT"
       },
       {
-        "text": "Between those activities, a bird may pause on a branch or move across the ground.",
-        "scene": "Two separate blackbird park scenes in June and August.",
+        "text": "At dawn, the same species may sing from a perch before returning to daytime routines.",
+        "scene": "Actual dark predawn blackbird singing on rooftop antenna, clearly marked dawn.",
         "tags": [
-          "common_blackbird_tivoli_june",
-          "common_blackbird_tivoli_august"
+          "common_blackbird_singing_before_dawn_first"
         ],
         "story_role": "setup",
-        "overlay_label": "A BUSY DAY"
+        "overlay_label": "DAWN SONG"
       },
       {
-        "text": "The dawn song and the daytime search are different parts of the same busy routine.",
-        "scene": "Blackbird in Ljubljana city square; ending stays species-correct.",
+        "text": "So a blackbird's day shifts between finding food on the ground and sending song across its habitat.",
+        "scene": "Two separate blackbird ground-level park/city scenes.",
         "tags": [
-          "common_blackbird_city_square_september"
+          "common_blackbird_city_square_september",
+          "common_blackbird_tivoli_october"
         ],
         "story_role": "payoff",
-        "overlay_label": "THE DAILY ROUTINE"
+        "overlay_label": "SONG AND FOOD"
       }
     ],
     "trend_priority": false
