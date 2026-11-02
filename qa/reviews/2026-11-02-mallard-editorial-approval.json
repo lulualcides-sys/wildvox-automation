@@ -1,0 +1,36 @@
+{
+  "editorial_day": "2026-11-02",
+  "platform": "tiktok",
+  "exact_handle": "wildvox",
+  "brand_id": 7242311,
+  "candidate": "mallard_pond_family_swim",
+  "approval": "EDITORIAL_AND_LICENSE_APPROVED",
+  "approved_for_one_future_slot": true,
+  "main_config_sha": "7d96a07d4b2f9c28a53666f306e12547d2ff0238",
+  "render_config_sha256": "74b0164bed15c44cf619a7418bec2550c01bc94d3f4c6a22ca62e71de8509146",
+  "source_workflow_run": 41405183317,
+  "source_commit": "e29c7025c82fe26bd616736ef4c6b6b871d88200",
+  "root_media_branch": "media",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mallard_pond_family_swim.mp4",
+  "review_jpg": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mallard_pond_family_swim_review.jpg",
+  "duration_seconds": 34.55,
+  "real_kokoro_timeline_blocks": 6,
+  "assets_unique": 8,
+  "review": {
+    "current_run_12_frame_contact_sheet": "Inspected current media branch JPG; mallards are visible in hook, waterways, middle action and final ducklings; footage changes between narrated blocks; no unsupported claim of continuous encounter.",
+    "source_preview": "2026-11-02 Daily Prep 24/25 previews and species-specific close duckling/USFWS sources reviewed; failed 429 blackbird source excluded from final config.",
+    "safe_area": "White high-contrast captions near mid-to-lower-middle, title at upper-center; no bottom-right UI overlap in 12-frame JPG.",
+    "license": "8 Commons original SHA1 sources; 1 CC0, 1 PD, 6 CC BY 3.0; creator/source page/license and editing disclosure present in full rendered caption.",
+    "technical": "GitHub Actions independent actual MP4 ffprobe and FFmpeg 8fps -55dB freezedetect returned PASS, 1080x1920, narration present, 34.55 seconds; no >=1s freeze detected.",
+    "editorial_caveat": "Several wide waterway scenes show small ducks; acceptable but future renders should favor closer subject framing. This is an editorial judgement based on 12 sampled MP4 frames plus source preflight and independent technical analysis, not a claim of manual frame-by-frame playback."
+  },
+  "guardrails": {
+    "no_youtube": true,
+    "no_buffer_wildvox6": true,
+    "publication_hold_in_config_remains_true": true,
+    "other_four_unapproved": true,
+    "metricool_schedule_requires_fresh_duplicate_check": true
+  },
+  "metricool_post_id": null,
+  "metricool_provider_status": "NOT_SCHEDULED_AT_APPROVAL"
+}
