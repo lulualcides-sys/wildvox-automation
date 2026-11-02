@@ -1,0 +1,27 @@
+{
+  "editorial_day": "2026-11-02",
+  "platform": "TikTok",
+  "exact_handle": "wildvox",
+  "brand_id": 7242311,
+  "candidate": "domestic_horse_meadow_grazing",
+  "approval": "EDITORIAL_AND_LICENSE_APPROVED",
+  "render_run": 41419645415,
+  "config_sha256": "388d2e6d2ae0672920b3ce5ae341f8a5e29607d1417261b2679575ea09b5c12b",
+  "root_media_branch": "media",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/domestic_horse_meadow_grazing.mp4",
+  "media_blob_sha": null,
+  "duration_seconds": 35.375,
+  "original_video_sources": 8,
+  "license": "8 distinct CC BY sources, creators and source pages verified with full attribution and 9:16/narration/subtitles modification disclosure",
+  "editorial_review": {
+    "current_run_review_and_mp4": "California grazing hook, Icelandic hand-feeding shown as distinct from grazing, Camargue groups near water, grazing and wooded path payoff. Fixed source 6 start_seconds=0: independently checked 23.5–27.5s frames, real horse herd clearly in 23.5–26.5s, brief continuation to same pond habitat. Eight original preview strips and 16-frame current-run JPG reviewed; 1061 frames decoded, no >=1s frozen segment.",
+    "source_previews": "All eight authentic original source preview strips examined for species, context, hook, action and payoff",
+    "motion": "Independent decoded-frame analysis: max near-identical streak 0.067s, no >=1s freeze",
+    "shots": "Six exact narration segments each <=8 seconds; no loops, black bars, synthetic zoom, false arrows or duplicated original video",
+    "captions": "Subtitle safe area inspected in current-run JPG and actual MP4 frames; English-US Kokoro am_michael narration; full creator credits in TikTok caption"
+  },
+  "publication_hold_in_config_remains_true": true,
+  "metricool_post_id": null,
+  "status": "APPROVED_NOT_SCHEDULED",
+  "published": false
+}
