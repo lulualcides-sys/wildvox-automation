@@ -1,0 +1,97 @@
+{
+  "day": "2026-11-02",
+  "current_config_blob_sha": "065c7798e7f35f5a5972761d9b06e6d1c60cd070",
+  "purpose": "Second lightweight authentic video frame review; identify replacement hooks and payoffs before production",
+  "candidates": [
+    {
+      "title": "2021 12 17 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "for_key": "mallard_shoreline_dabbling",
+      "target_block": "hook",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "2022-06-04 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+      "for_key": "mallard_shoreline_dabbling",
+      "target_block": "payoff",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Family of mute swans (Cygnus olor).webm",
+      "for_key": "mute_swan_underwater_paddle",
+      "target_block": "hook",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Family_of_mute_swans_(Cygnus_olor).webm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "2021-12-31 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+      "for_key": "mute_swan_underwater_paddle",
+      "target_block": "payoff",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Larry the cat and Chloé playing (100111224612).webm",
+      "for_key": "domestic_cat_everyday_exploration",
+      "target_block": "action",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "Cat behaviour - self-grooming.webm",
+      "for_key": "domestic_cat_everyday_exploration",
+      "target_block": "action",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "2022-03-12 IZLIV SOČE PERISSODACTYLA kamarški konji.webm",
+      "for_key": "domestic_horse_herd_motion",
+      "target_block": "hook",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "2022-07-14 IZLIV SOČE PERISSODACTYLA kamarški konji 2.webm",
+      "for_key": "domestic_horse_herd_motion",
+      "target_block": "payoff",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-14_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "2022-06-08 LJUBLJANA Botanični vrt PASSERIFORMES Turdus merula KOS.webm",
+      "for_key": "common_blackbird_dawn_song",
+      "target_block": "hook",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-08_LJUBLJANA_Botani%C4%8Dni_vrt_PASSERIFORMES_Turdus_merula_KOS.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "title": "2022-08-05 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+      "for_key": "common_blackbird_dawn_song",
+      "target_block": "payoff",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-05_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    }
+  ]
+}
