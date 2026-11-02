@@ -27,11 +27,23 @@
   "hold_others": true,
   "publication_hold_in_config_remains_true": true,
   "metricool_post_id": 413649768,
-  "status": "METRICOOL_PENDING",
+  "status": "METRICOOL_PUBLISHED",
   "metricool_post_uuid": "551461355698931655",
   "autoPublish": true,
   "draft": false,
   "scheduled_local": "2026-11-02T12:40:00-03:00",
-  "published": false,
-  "tiktok_published_id": null
+  "published": true,
+  "tiktok_published_id": "7703599610249366792",
+  "metricool_provider_status": "PUBLISHED",
+  "tiktok_published_url": "https://www.tiktok.com/@wildvox/video/7703599610249366792",
+  "publication_confirmation": {
+    "verified_at_local": "2026-11-02T12:49:14-03:00",
+    "verification_source": "Connected Metricool brand 7242311 getScheduledPosts: TikTok provider PUBLISHED, detailedStatus Published, publicUrl exact @wildvox",
+    "analytics_note": "TikTok analytics TKPO01/TKPO02/TKPO03/TKPO05 returned rows=[] at this check; provider published status and public URL are confirmed; analytics may lag",
+    "metricool_post_id": 413649768,
+    "provider_tiktok_id": "7703599610249366792",
+    "public_url": "https://www.tiktok.com/@wildvox/video/7703599610249366792",
+    "autoPublish": true,
+    "draft": false
+  }
 }
