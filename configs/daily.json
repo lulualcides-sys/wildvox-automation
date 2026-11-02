@@ -1,121 +1,322 @@
 {
-  "canada_goose_gosling_convoy": {
-    "title": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE",
-    "script": "Why do these tiny Canada goose goslings stay so close to the adults? A young goose cannot fly yet, so its family travels together on land and water. The chicks peck for food on grassy banks while other geese move beside them across the lake. Goslings paddle briefly, while other hatchlings rest together in a sheltered nest. Adult geese can glide across open water, while their young still need to stay nearby. From green park banks to open water, Canada geese travel together, each family finding its own route.",
-    "caption": "WHY CANADA GOOSE CHICKS FOLLOW SO CLOSE. #WildVox #Wildlife #Nature #AnimalFacts",
+  "mallard_pond_family_swim": {
+    "title": "Why Mallards Swim Together Near Shore",
+    "script": "Why do mallards often stay together as they move across a pond? These ducks can swim in loose groups, turning along the bank as they travel. At different waterways, mallards paddle past one another and keep exploring the shallow edges. Their webbed feet carry them through water, while their bills help them search for food. A group may spread out, then come close again as it travels across the pond. When ducklings are nearby, swimming close to family becomes part of that same daily journey.",
+    "caption": "WHY MALLARDS SWIM TOGETHER NEAR SHORE. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Goose%20Family%20(27519845085).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas%20platyrhynchos%20Oulu%2020200626.webm",
         "type": "video",
-        "assetTitle": "Canada Goose Family (27519845085).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_Goose_Family_(27519845085).webm",
+        "assetTitle": "Anas platyrhynchos Oulu 20200626.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm",
         "tags": [
-          "canada_goose_family_goslings_usfws"
+          "mallard_oulu_park_group_swim"
+        ],
+        "author": "Estormiz",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "61b179ae6fb1ffabef00c3cf19266b3cc225f869",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021%2012%2017%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA.webm",
+        "type": "video",
+        "assetTitle": "2021 12 17 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+        "tags": [
+          "mallard_ljubljana_prule_waterway"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "215095387a02f72c4a02bc8fe9d60639776dd786",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021%2012%2017%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+        "type": "video",
+        "assetTitle": "2021 12 17 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+        "tags": [
+          "mallard_prule_december_group_swim"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "bd4c4737c4549146a0798a7457658c270e13abe6",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-07%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+        "type": "video",
+        "assetTitle": "2022-01-07 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+        "tags": [
+          "mallard_prule_january_water_edge"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "9501b5f0b9501e4bcf49f1b5fcce5acbb3849270",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-02%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+        "type": "video",
+        "assetTitle": "2022-05-02 RIBNIKI V DOLINI DRAGE ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+        "tags": [
+          "mallard_drage_pond_bank"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "f7efb799a20dfd71f35a52260c9ddd674be6c4ed",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-02-10%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%203.webm",
+        "type": "video",
+        "assetTitle": "2022-02-10 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-02-10_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_3.webm",
+        "tags": [
+          "mallard_prule_february_swim"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "4ff972e7b657463da6981fd10d067968ad9bdfa7",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-04%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+        "type": "video",
+        "assetTitle": "2022-06-04 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+        "tags": [
+          "mallard_otocec_ducklings_near_bank"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "3f295f450e4204df460652206455300af2f842e6",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mallard%20Drake%20With%20Young%20(18955798721).webm",
+        "type": "video",
+        "assetTitle": "Mallard Drake With Young (18955798721).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mallard_Drake_With_Young_(18955798721).webm",
+        "tags": [
+          "mallard_usfws_drake_with_young"
         ],
         "author": "U.S. Fish and Wildlife Service - Midwest Region",
         "license": "Public domain",
         "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "be98fbe3893f7ce95ffd8a802c39c7febf6716b1",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-11-02-mallard_pond_family_swim-verified-frames-v2",
+    "publication_hold": true,
+    "visual_plan": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20goose%20family.webm",
-        "type": "video",
-        "assetTitle": "Canada goose family.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_goose_family.webm",
+        "text": "Why do mallards often stay together as they move across a pond?",
+        "scene": "Visible group of mallards swimming together in an Oulu park.",
         "tags": [
-          "canada_goose_goslings_close_group"
+          "mallard_oulu_park_group_swim"
         ],
-        "author": "Packer1028",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "story_role": "hook",
+        "overlay_label": "SWIM TOGETHER"
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20goose%20gosling%20foraging%20(Branta%20canadensis).webm",
-        "type": "video",
-        "assetTitle": "Canada goose gosling foraging (Branta canadensis).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_goose_gosling_foraging_(Branta_canadensis).webm",
+        "text": "These ducks can swim in loose groups, turning along the bank as they travel.",
+        "scene": "Adult mallards moving on Ljubljana Prule waterway.",
         "tags": [
-          "canada_goose_gosling_foraging_plants"
+          "mallard_ljubljana_prule_waterway"
+        ],
+        "story_role": "setup",
+        "overlay_label": "LOOSE GROUPS"
+      },
+      {
+        "text": "At different waterways, mallards paddle past one another and keep exploring the shallow edges.",
+        "scene": "Two real mallard clips on different Ljubljana river dates.",
+        "tags": [
+          "mallard_prule_december_group_swim",
+          "mallard_prule_january_water_edge"
+        ],
+        "story_role": "action",
+        "overlay_label": "FOLLOW THE BANK"
+      },
+      {
+        "text": "Their webbed feet carry them through water, while their bills help them search for food.",
+        "scene": "Mallards on a pond in Drage; webbed feet explained but not claimed visible.",
+        "tags": [
+          "mallard_drage_pond_bank"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "WEBBED FEET"
+      },
+      {
+        "text": "A group may spread out, then come close again as it travels across the pond.",
+        "scene": "Adult mallards moving in Ljubljana winter waterway.",
+        "tags": [
+          "mallard_prule_february_swim"
+        ],
+        "story_role": "action",
+        "overlay_label": "BACK TOGETHER"
+      },
+      {
+        "text": "When ducklings are nearby, swimming close to family becomes part of that same daily journey.",
+        "scene": "Actual mallard ducklings near bank and separate USFWS adult-with-young footage.",
+        "tags": [
+          "mallard_otocec_ducklings_near_bank",
+          "mallard_usfws_drake_with_young"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "STAY NEAR FAMILY"
+      }
+    ],
+    "trend_priority": false
+  },
+  "mute_swan_nest_and_water": {
+    "title": "Why a Mute Swan Sits on a Nest Beside Water",
+    "script": "Why is this mute swan sitting on a mound of sticks instead of swimming? That raised spot is a nest, built close enough to water for the adults to reach. Away from the nest, mute swans travel along canals with other family members nearby. The water lets them move and feed, while the bank offers a place to rest. Back near shore, a swan may settle into its nest while another moves across the pond. The answer is simple: a swan's life depends on both the water and a safe nest.",
+    "caption": "WHY A MUTE SWAN SITS ON A NEST BESIDE WATER. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mute%20Swan%20in%20Prague.webm",
+        "type": "video",
+        "assetTitle": "Mute Swan in Prague.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mute_Swan_in_Prague.webm",
+        "tags": [
+          "mute_swan_prague_sitting_on_nest"
         ],
         "author": "Katja Schulz",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "a1e1eb88ea0d135bbf65280e66f798915684e59d",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CGshoreWS.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mute%20swans%20(Cygnus%20olor)%20and%20their%20eggs.webm",
         "type": "video",
-        "assetTitle": "CGshoreWS.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:CGshoreWS.ogv",
+        "assetTitle": "Mute swans (Cygnus olor) and their eggs.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Mute_swans_(Cygnus_olor)_and_their_eggs.webm",
         "tags": [
-          "canada_geese_family_on_shoreline"
+          "mute_swan_nest_with_eggs"
         ],
-        "author": "Peter H. Warkentin",
+        "author": "Ingo Zahlheimer",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "crop_black_bars": true
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "760c676d3d72bd55826de7677f550e63ed884d7d",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goslings%20%2817156662405%29.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Family%20of%20mute%20swans%20(Cygnus%20olor).webm",
         "type": "video",
-        "assetTitle": "Goslings (17156662405).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goslings_(17156662405).webm",
+        "assetTitle": "Family of mute swans (Cygnus olor).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Family_of_mute_swans_(Cygnus_olor).webm",
         "tags": [
-          "usfws_2015_goslings_separate_family_scene"
+          "mute_swan_wiltshire_family_canal"
         ],
-        "author": "U.S. Fish and Wildlife Service - Midwest Region",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "USFWS federal-work public domain statement and 2015 date checked on Commons; original action, framing, 2016-source visual distinctness, and payoff still require independent rendered MP4 QA. Flickr review pending; do not clear editorial hold."
+        "author": "The Nature Box",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "3922e611e3806a3e3c9803eaab5052d2a4ff4eec",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Goose%20on%20Golden%20Gate%20Park%20lake.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-17%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC.webm",
         "type": "video",
-        "assetTitle": "Canada Goose on Golden Gate Park lake.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_Goose_on_Golden_Gate_Park_lake.webm",
+        "assetTitle": "2021-12-17 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-17_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC.webm",
         "tags": [
-          "canada_goose_adult_swimming_park_lake"
+          "mute_swan_tivoli_park_water"
         ],
-        "author": "Editor (YouTube channel, as attributed on Wikimedia Commons)",
+        "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "ce2afb1257b74a321b42dcb4905aac3f107e60d8",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Geese%20(25738746322).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-31%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
         "type": "video",
-        "assetTitle": "Canada Geese (25738746322).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_Geese_(25738746322).webm",
+        "assetTitle": "2021-12-31 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
         "tags": [
-          "canada_geese_usfws_group_movement"
+          "mute_swans_foggy_drage_bank"
         ],
-        "author": "U.S. Fish and Wildlife Service - Midwest Region",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Geese%20with%20Gosling%20-%20Mother%20%26%20Father%20Goose%20with%20baby%20-%20Canon%20FS200.webm",
-        "type": "video",
-        "assetTitle": "Canada Geese with Gosling - Mother & Father Goose with baby - Canon FS200.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_Geese_with_Gosling_-_Mother_%26_Father_Goose_with_baby_-_Canon_FS200.webm",
-        "tags": [
-          "canada_goose_parent_and_gosling_family"
-        ],
-        "author": "ZaydDepaor (YouTube channel, as attributed on Wikimedia Commons)",
+        "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "d323ab163c1ed698def708be208edcb30cb55300",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-31%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%203.webm",
+        "type": "video",
+        "assetTitle": "2021-12-31 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-31_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_3.webm",
+        "tags": [
+          "mute_swan_drage_pond_second_view"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "4ff8c4ca2b54c445ce61f8c0875a80c9f0547afb",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-13%20LJUBLJANA%20Krajinski%20park%20Tivoli%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%20gnezdo.webm",
+        "type": "video",
+        "assetTitle": "2022-05-13 LJUBLJANA Krajinski park Tivoli ANSERIFORMES Cygnus olor LABOD GRBEC gnezdo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-13_LJUBLJANA_Krajinski_park_Tivoli_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_gnezdo.webm",
+        "tags": [
+          "mute_swan_tivoli_park_nest"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "88d05970b5eafb83685ff3c7d9d0b5085e6cf36d",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-02%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Cygnus%20olor%20LABOD%20GRBEC%202.webm",
+        "type": "video",
+        "assetTitle": "2022-05-02 RIBNIKI V DOLINI DRAGE ANSERIFORMES Cygnus olor LABOD GRBEC 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Cygnus_olor_LABOD_GRBEC_2.webm",
+        "tags": [
+          "mute_swan_drage_may_pond_first"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "6dd002982d72e4eaecd8282ca69f0217756e5234",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       }
     ],
     "min_unique_videos": 6,
@@ -124,744 +325,192 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-canada_goose_gosling_convoy-footage-first-v10",
+    "revision": "2026-11-02-mute_swan_nest_and_water-verified-frames-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why do these tiny Canada goose goslings stay so close to the adults?",
-        "scene": "Authentic Canada goose family with visible goslings.",
+        "text": "Why is this mute swan sitting on a mound of sticks instead of swimming?",
+        "scene": "Close mute swan settled on a stick nest in Prague, visually reviewed.",
         "tags": [
-          "canada_goose_family_goslings_usfws"
+          "mute_swan_prague_sitting_on_nest"
         ],
         "story_role": "hook",
-        "overlay_label": "STAY CLOSE"
+        "overlay_label": "ON THE NEST"
       },
       {
-        "text": "A young goose cannot fly yet, so its family travels together on land and water.",
-        "scene": "Downy Canada goose family moving together.",
+        "text": "That raised spot is a nest, built close enough to water for the adults to reach.",
+        "scene": "Real mute swans and their eggs at a waterside nest.",
         "tags": [
-          "canada_goose_goslings_close_group"
+          "mute_swan_nest_with_eggs"
         ],
         "story_role": "setup",
-        "overlay_label": "THE FAMILY"
+        "overlay_label": "A SAFE NEST"
       },
       {
-        "text": "The chicks peck for food on grassy banks while other geese move beside them across the lake.",
-        "scene": "A gosling foraging on grass followed by separately filmed Canada geese at a shoreline.",
+        "text": "Away from the nest, mute swans travel along canals with other family members nearby.",
+        "scene": "Mute swan family including young swimming along a Wiltshire canal.",
         "tags": [
-          "canada_goose_gosling_foraging_plants",
-          "canada_geese_family_on_shoreline"
+          "mute_swan_wiltshire_family_canal"
         ],
         "story_role": "action",
-        "overlay_label": "FOLLOW THE ADULTS"
+        "overlay_label": "BACK ON WATER"
       },
       {
-        "text": "Goslings paddle briefly, while other hatchlings rest together in a sheltered nest.",
-        "scene": "Separate USFWS gosling footage: paddling briefly, then hatchlings resting in a nest. No exploratory walking or continuous family is claimed.",
+        "text": "The water lets them move and feed, while the bank offers a place to rest.",
+        "scene": "Mute swan in a Slovenian park near water; feeding not claimed visible.",
         "tags": [
-          "usfws_2015_goslings_separate_family_scene"
+          "mute_swan_tivoli_park_water"
         ],
         "story_role": "explanation",
-        "overlay_label": "WATER AND NEST"
+        "overlay_label": "TWO HABITATS"
       },
       {
-        "text": "Adult geese can glide across open water, while their young still need to stay nearby.",
-        "scene": "Real adult Canada goose swimming on Golden Gate Park lake; not presented as the same family.",
+        "text": "Back near shore, a swan may settle into its nest while another moves across the pond.",
+        "scene": "Two swans walking on foggy bank and a separate Drage pond scene.",
         "tags": [
-          "canada_goose_adult_swimming_park_lake"
+          "mute_swans_foggy_drage_bank",
+          "mute_swan_drage_pond_second_view"
         ],
-        "story_role": "twist",
-        "overlay_label": "ADULTS ON WATER"
+        "story_role": "setup",
+        "overlay_label": "NEAR THE BANK"
       },
       {
-        "text": "From green park banks to open water, Canada geese travel together, each family finding its own route.",
-        "scene": "Separate original wide park/pond establishing shot followed by Canada geese visibly moving on water; no claim that goslings are clearly visible in the distant shot or that the scenes are one continuous family.",
+        "text": "The answer is simple: a swan's life depends on both the water and a safe nest.",
+        "scene": "Actual nest scene at Tivoli plus separate swan in Drage pond.",
         "tags": [
-          "canada_geese_usfws_group_movement",
-          "canada_goose_parent_and_gosling_family"
+          "mute_swan_tivoli_park_nest",
+          "mute_swan_drage_may_pond_first"
         ],
         "story_role": "payoff",
-        "overlay_label": "PARK TO POND"
+        "overlay_label": "NEST AND WATER"
       }
     ],
     "trend_priority": false
   },
-  "house_sparrow_two_baths": {
-    "title": "WHY HOUSE SPARROWS BATHE IN DIRT AND WATER",
-    "script": "Why is this little house sparrow throwing dry dirt all over its own feathers? It lowers its body into loose soil, then shakes and flutters in the dust. At the water's edge, another sparrow pauses while a different bird continues rubbing its feathers through dry earth. Dust baths and water baths are two ways birds can care for their plumage. Between baths, a sparrow still spends its day searching plants and paths for food. After visiting dust or water, each sparrow continues its day, moving through the same busy search for food.",
-    "caption": "WHY HOUSE SPARROWS BATHE IN DIRT AND WATER. #WildVox #Wildlife #Nature #AnimalFacts",
+  "domestic_cat_everyday_exploration": {
+    "title": "Why Ordinary Objects Fascinate House Cats",
+    "script": "Why can an ordinary paper bag keep a house cat so interested? Cats notice small changes around them, sometimes stopping to inspect something they did not expect. In other homes, cats reach for toys and follow quick movements with their paws. Play gives those paws and eyes practice coordinating fast, precise movements. After exploring, a cat may walk away, rest, or spend time grooming its coat. A bag, a toy, or a person offering attention can make an ordinary room worth exploring.",
+    "caption": "WHY ORDINARY OBJECTS FASCINATE HOUSE CATS. #WildVox #Wildlife #Nature #AnimalFacts",
     "sources": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20sandbath%20in%20flowerbed.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20in%20a%20Bag.webm",
         "type": "video",
-        "assetTitle": "Passer domesticus sandbath in flowerbed.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_in_flowerbed.ogv",
+        "assetTitle": "Cat in a Bag.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
         "tags": [
-          "house_sparrow_dust_bath_flowerbed"
+          "domestic_cat_inside_paper_bag"
         ],
-        "author": "Bisco",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20sandbath%20at%20zoo%20video%201.ogv",
-        "type": "video",
-        "assetTitle": "Passer domesticus sandbath at zoo video 1.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_at_zoo_video_1.ogv",
-        "tags": [
-          "house_sparrow_dust_bath_zoo_ground"
-        ],
-        "author": "Bisco",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spatz%20Sandbad%20im%20Zoo%20Teil2%2010prozent.ogv",
-        "type": "video",
-        "assetTitle": "Spatz Sandbad im Zoo Teil2 10prozent.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Spatz_Sandbad_im_Zoo_Teil2_10prozent.ogv",
-        "tags": [
-          "house_sparrow_sand_bath_zoo"
-        ],
-        "author": "Bisco",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20bathing%20in%20water%2C%20Anas%20platyrhynchos%20in%20background.ogv",
-        "type": "video",
-        "assetTitle": "Passer domesticus bathing in water, Anas platyrhynchos in background.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_bathing_in_water%2C_Anas_platyrhynchos_in_background.ogv",
-        "tags": [
-          "house_sparrow_bathing_in_water"
-        ],
-        "author": "Richard001",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20%26%20Turdus%20viscivorus%2C%20bathing%20in%20a%20bird%20bath.ogv",
-        "type": "video",
-        "assetTitle": "Passer domesticus & Turdus viscivorus, bathing in a bird bath.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_%26_Turdus_viscivorus%2C_bathing_in_a_bird_bath.ogv",
-        "tags": [
-          "house_sparrow_shared_birdbath"
-        ],
-        "author": "Pauly",
+        "author": "Roger Braunstein",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "3e44bcd7f1be98563b3e009fb7191c07bab65796",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20female%20-%20foraging%20plants.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20discovers%20it%20was%20being%20spied%20on.webm",
         "type": "video",
-        "assetTitle": "Passer domesticus female - foraging plants.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_female_-_foraging_plants.ogv",
+        "assetTitle": "Cat discovers it was being spied on.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm",
         "tags": [
-          "house_sparrow_female_foraging_plants"
+          "domestic_cat_looks_up_at_camera"
         ],
-        "author": "Bisco",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20-%20Haussperling.ogv",
-        "type": "video",
-        "assetTitle": "Passer domesticus - Haussperling.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_Haussperling.ogv",
-        "tags": [
-          "house_sparrow_closeup_after_bath"
-        ],
-        "author": "5snake5",
+        "author": "Yourusernamewillbepublic2",
         "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "ea6f896654030df56bb1ef9985ac5e5e8fbc7607",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-08%20LJUBLJANA%20Grudnovo%20nabre%C5%BEje%20PASSERIFORMES%20Passer%20domesticus%20DOMA%C4%8CI%20VRABEC.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
         "type": "video",
-        "assetTitle": "2022-08-08 LJUBLJANA Grudnovo nabrežje PASSERIFORMES Passer domesticus DOMAČI VRABEC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Grudnovo_nabre%C5%BEje_PASSERIFORMES_Passer_domesticus_DOMA%C4%8CI_VRABEC.webm",
+        "assetTitle": "Moomin1.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
         "tags": [
-          "house_sparrow_urban_waterfront"
+          "domestic_cat_paws_cotton_bud"
         ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-01-house_sparrow_two_baths-footage-first-v6",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Why is this little house sparrow throwing dry dirt all over its own feathers?",
-        "scene": "Actual house sparrow dust bathing in a flowerbed.",
-        "tags": [
-          "house_sparrow_dust_bath_flowerbed"
-        ],
-        "story_role": "hook",
-        "overlay_label": "DUST BATH"
-      },
-      {
-        "text": "It lowers its body into loose soil, then shakes and flutters in the dust.",
-        "scene": "House sparrow taking a dust bath in zoo grounds; explicitly captive setting.",
-        "tags": [
-          "house_sparrow_dust_bath_zoo_ground"
-        ],
-        "story_role": "setup",
-        "overlay_label": "ZOO DUST BATH"
-      },
-      {
-        "text": "At the water's edge, another sparrow pauses while a different bird continues rubbing its feathers through dry earth.",
-        "scene": "A genuine zoo-ground dust bath contrasted with a separately filmed sparrow at water's edge; no unverified splash or same-animal continuity.",
-        "tags": [
-          "house_sparrow_sand_bath_zoo",
-          "house_sparrow_bathing_in_water"
-        ],
-        "story_role": "action",
-        "overlay_label": "DUST VS WATER"
-      },
-      {
-        "text": "Dust baths and water baths are two ways birds can care for their plumage.",
-        "scene": "House sparrow bathing in a bird bath; other species may be present.",
-        "tags": [
-          "house_sparrow_shared_birdbath"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "FEATHER CARE"
-      },
-      {
-        "text": "Between baths, a sparrow still spends its day searching plants and paths for food.",
-        "scene": "Female house sparrow visibly foraging among plants.",
-        "tags": [
-          "house_sparrow_female_foraging_plants"
-        ],
-        "story_role": "twist",
-        "overlay_label": "BACK TO FORAGING"
-      },
-      {
-        "text": "After visiting dust or water, each sparrow continues its day, moving through the same busy search for food.",
-        "scene": "Separate authentic house-sparrow scenes, not one continuous individual returning from a bath.",
-        "tags": [
-          "house_sparrow_closeup_after_bath",
-          "house_sparrow_urban_waterfront"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "DAILY ROUTINE"
-      }
-    ],
-    "trend_priority": false
-  },
-  "european_robin_singing_and_feeding": {
-    "title": "WHY A EUROPEAN ROBIN KEEPS SINGING",
-    "script": "Why does this small European robin keep singing from such an exposed perch? That small bird uses a clear song to announce its presence across nearby habitat. One robin sings from deep in the reeds while another gives short notes from a completely different perch. A repeated song can help a robin signal its territory to other robins. Between songs, a robin may perch on a garden fence and watch the ground below. The song is more than background noise: it is a clear message carried through the surrounding trees.",
-    "caption": "WHY A EUROPEAN ROBIN KEEPS SINGING. #WildVox #Wildlife #Nature #AnimalFacts",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20robin%20singing%20in%20reeds%2001.webm",
-        "type": "video",
-        "assetTitle": "European robin singing in reeds 01.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_01.webm",
-        "tags": [
-          "european_robin_singing_in_reeds_first"
-        ],
-        "author": "Alexis Lours",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-03%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA%202.webm",
-        "type": "video",
-        "assetTitle": "2022-01-03 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-03_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA_2.webm",
-        "tags": [
-          "european_robin_park_perch_january"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20robin%20singing%20in%20reeds%2002.webm",
-        "type": "video",
-        "assetTitle": "European robin singing in reeds 02.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_02.webm",
-        "tags": [
-          "european_robin_singing_in_reeds_second"
-        ],
-        "author": "Alexis Lours",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robin%20Singing%20video.webm",
-        "type": "video",
-        "assetTitle": "Robin Singing video.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Robin_Singing_video.webm",
-        "tags": [
-          "european_robin_singing_video_flickr"
-        ],
-        "author": "gails_pictures (Flickr)",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-28%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
-        "type": "video",
-        "assetTitle": "2022-03-28 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-28_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
-        "tags": [
-          "european_robin_park_perch_march"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robin%20feeding.ogv",
-        "type": "video",
-        "assetTitle": "Robin feeding.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Robin_feeding.ogv",
-        "tags": [
-          "european_robin_garden_fence_perch"
-        ],
-        "author": "Quantockgoblin",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "crop_black_bars": true
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-14%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
-        "type": "video",
-        "assetTitle": "2022-06-14 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
-        "tags": [
-          "european_robin_park_perch_june"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-24%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
-        "type": "video",
-        "assetTitle": "2022-09-24 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
-        "tags": [
-          "european_robin_park_perch_september"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-01-european_robin_singing_and_feeding-footage-first-v6",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Why does this small European robin keep singing from such an exposed perch?",
-        "scene": "European robin audibly or visibly singing from reeds.",
-        "tags": [
-          "european_robin_singing_in_reeds_first"
-        ],
-        "story_role": "hook",
-        "overlay_label": "HEAR THAT?"
-      },
-      {
-        "text": "That small bird uses a clear song to announce its presence across nearby habitat.",
-        "scene": "European robin on an ordinary perch in a Ljubljana park.",
-        "tags": [
-          "european_robin_park_perch_january"
-        ],
-        "story_role": "setup",
-        "overlay_label": "A SIGNAL"
-      },
-      {
-        "text": "One robin sings from deep in the reeds while another gives short notes from a completely different perch.",
-        "scene": "Two independently filmed European robin singing sequences.",
-        "tags": [
-          "european_robin_singing_in_reeds_second",
-          "european_robin_singing_video_flickr"
-        ],
-        "story_role": "action",
-        "overlay_label": "REPEATED SONG"
-      },
-      {
-        "text": "A repeated song can help a robin signal its territory to other robins.",
-        "scene": "Real European robin in park habitat; territorial meaning is narration, not a filmed dispute.",
-        "tags": [
-          "european_robin_park_perch_march"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "TERRITORY"
-      },
-      {
-        "text": "Between songs, a robin may perch on a garden fence and watch the ground below.",
-        "scene": "A genuine European robin perched on a garden fence; do not imply feeding action is visibly captured.",
-        "tags": [
-          "european_robin_garden_fence_perch"
-        ],
-        "story_role": "twist",
-        "overlay_label": "PAUSE AND WATCH"
-      },
-      {
-        "text": "The song is more than background noise: it is a clear message carried through the surrounding trees.",
-        "scene": "Two further authentic European robin perches or movements, without invented singing behavior.",
-        "tags": [
-          "european_robin_park_perch_june",
-          "european_robin_park_perch_september"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "A MESSAGE"
-      }
-    ],
-    "trend_priority": false
-  },
-  "red_squirrel_branch_dining": {
-    "title": "HOW A RED SQUIRREL EATS IN THE TREES",
-    "script": "Why does this red squirrel keep stopping in the middle of its day? A tree is both a route through its habitat and a place to pause for food. One squirrel pauses to eat, while another explores the branches and a nearby tree trunk. Those small flexible paws help it handle food while it balances on a stump or branch. Between meals, the animal perches among branches and checks its surroundings. That is the red squirrel's daily routine: travel through trees, find a safe perch, and eat.",
-    "caption": "HOW A RED SQUIRREL EATS IN THE TREES. #WildVox #Wildlife #Nature #AnimalFacts",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20in%20Berlin.webm",
-        "type": "video",
-        "assetTitle": "Red Squirrel in Berlin.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_in_Berlin.webm",
-        "tags": [
-          "red_squirrel_berlin_urban_ledge"
-        ],
-        "author": "Redeemer",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-21%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
-        "type": "video",
-        "assetTitle": "2022-01-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
-        "tags": [
-          "red_squirrel_ljubljana_tree_movement"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
-        "type": "video",
-        "assetTitle": "2021-12-10 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
-        "tags": [
-          "red_squirrel_ljubljana_tree_perch_december"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-10-31",
-        "license_note": "Previously Commons-verified real red-squirrel footage; exact tree action and absence of baked-in unrelated text require current-run visual review. Current-run v8 decoded frames showed source randomly offset to near-empty trunk at 14.3-16.3s; force original beginning where source-preview frame shows the squirrel on branches. Rerender and verify visible action.",
-        "start_seconds": 0
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Walnut%20Disaster.webm",
-        "type": "video",
-        "assetTitle": "The Great Walnut Disaster.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Walnut_Disaster.webm",
-        "tags": [
-          "red_squirrel_walnut_stump_search"
-        ],
-        "author": "Peter Trimming",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Wikimedia Commons original Flickr CC BY 2.0 license reviewed 2019; video shows red squirrels and walnuts on a stump. Exact shot and absence of baked-in captions must be independently checked after current-day render; hold remains true."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20squirrel%20(Sciurus%20vulgaris)%20in%20England.webm",
-        "type": "video",
-        "assetTitle": "Red squirrel (Sciurus vulgaris) in England.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_squirrel_(Sciurus_vulgaris)_in_England.webm",
-        "tags": [
-          "red_squirrel_england_tree_perch"
-        ],
-        "author": "Peter Trimming",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ekorre%20r%C3%A4dselljud%3F%20Red%20squirrel%20fear%20noise%3F.webm",
-        "type": "video",
-        "assetTitle": "Ekorre rädselljud? Red squirrel fear noise?.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ekorre_r%C3%A4dselljud%3F_Red_squirrel_fear_noise%3F.webm",
-        "tags": [
-          "red_squirrel_alert_on_tree_branches"
-        ],
-        "author": "Blockhaj",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20(Sciurus%20vulgaris).webm",
-        "type": "video",
-        "assetTitle": "Red Squirrel (Sciurus vulgaris).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_(Sciurus_vulgaris).webm",
-        "tags": [
-          "red_squirrel_climbing_tree_trunk"
-        ],
-        "author": "gails_pictures (Flickr)",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20'Nutkin'%20-%20Seen%20at%20Forest%20How%2C%20Eskdale%2C%20Cumbria%20-%20North%20West%20England.webm",
-        "type": "video",
-        "assetTitle": "Red Squirrel 'Nutkin' - Seen at Forest How, Eskdale, Cumbria - North West England.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_'Nutkin'_-_Seen_at_Forest_How%2C_Eskdale%2C_Cumbria_-_North_West_England.webm",
-        "tags": [
-          "red_squirrel_nutkin_eating_on_stump"
-        ],
-        "author": "Peter Trimming from Croydon, England",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 6.5,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-01-red_squirrel_branch_dining-footage-first-v9",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Why does this red squirrel keep stopping in the middle of its day?",
-        "scene": "Real European red squirrel on a manmade park ledge in Berlin, visibly pausing; no wild-tree claim.",
-        "tags": [
-          "red_squirrel_berlin_urban_ledge"
-        ],
-        "story_role": "hook",
-        "overlay_label": "PAUSE AND EAT"
-      },
-      {
-        "text": "A tree is both a route through its habitat and a place to pause for food.",
-        "scene": "European red squirrel moving or resting on branches in a Ljubljana park.",
-        "tags": [
-          "red_squirrel_ljubljana_tree_movement"
-        ],
-        "story_role": "setup",
-        "overlay_label": "A SAFE PERCH"
-      },
-      {
-        "text": "One squirrel pauses to eat, while another explores the branches and a nearby tree trunk.",
-        "scene": "Independent genuine red-squirrel clips: a squirrel nibbling or inspecting walnuts at a stump, and another on branches/trunk. Do not imply same animal or a continuous event; verify rendered timing.",
-        "tags": [
-          "red_squirrel_ljubljana_tree_perch_december",
-          "red_squirrel_walnut_stump_search"
-        ],
-        "story_role": "action",
-        "overlay_label": "FOOD AND BRANCHES"
-      },
-      {
-        "text": "Those small flexible paws help it handle food while it balances on a stump or branch.",
-        "scene": "Genuine red squirrel among logs and branches; forepaw function is explanatory narration.",
-        "tags": [
-          "red_squirrel_england_tree_perch"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "GRIPPING PAWS"
-      },
-      {
-        "text": "Between meals, the animal perches among branches and checks its surroundings.",
-        "scene": "Squirrel perched and alert among branches, without claiming visible running or a predator.",
-        "tags": [
-          "red_squirrel_alert_on_tree_branches"
-        ],
-        "story_role": "twist",
-        "overlay_label": "STAY ALERT"
-      },
-      {
-        "text": "That is the red squirrel's daily routine: travel through trees, find a safe perch, and eat.",
-        "scene": "A genuine red squirrel on a tree trunk, followed by a separate close-up of a red squirrel holding and eating a nut.",
-        "tags": [
-          "red_squirrel_climbing_tree_trunk",
-          "red_squirrel_nutkin_eating_on_stump"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "DINNER UP HIGH"
-      }
-    ],
-    "trend_priority": false
-  },
-  "rock_pigeon_flock_takeoff": {
-    "title": "HOW CITY PIGEONS FIND FOOD EVERYWHERE",
-    "script": "Why do city pigeons keep checking the ground, even beside busy streets? Their daily search for seeds and scraps takes them from sidewalks to station ledges. One pigeon moves along a city walkway; in another scene, a pigeon pauses on the pavement. They pause, look around, and move again, checking each new patch for something edible. When food is on the ground, several pigeons can feed side by side. From parks to busy crossings, a pigeon's next meal may be only a few steps away.",
-    "caption": "HOW CITY PIGEONS FIND FOOD EVERYWHERE. #WildVox #Wildlife #Nature #AnimalFacts",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeons%20Eating.ogv",
-        "type": "video",
-        "assetTitle": "Pigeons Eating.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeons_Eating.ogv",
-        "tags": [
-          "rock_pigeon_flock_eating_ground"
-        ],
-        "author": "D V S",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D0%BE%D0%BB%D1%83%D0%B1%20%D0%BD%D0%B0%20%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%97%20%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D0%B6%D0%B8%D1%87%D1%96.webm",
-        "type": "video",
-        "assetTitle": "Голуб на станції Дорогожичі.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%BB%D1%83%D0%B1_%D0%BD%D0%B0_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%97_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%BE%D0%B6%D0%B8%D1%87%D1%96.webm",
-        "tags": [
-          "rock_pigeon_urban_station_platform"
-        ],
-        "author": "Сарапулов",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-10%20LJUBLJANA%20Opera%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
-        "type": "video",
-        "assetTitle": "2022-10-10 LJUBLJANA Opera COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-10_LJUBLJANA_Opera_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
-        "tags": [
-          "rock_pigeon_walking_city_road"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons metadata verified 2026-11-01; independently inspect actual visible pigeon movement before release."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-24%20LJUBLJANA%20Breg%20COLIMBAE%20Columba%20livia%20domestica%20MESTNI%20GOLOB.webm",
-        "type": "video",
-        "assetTitle": "2022-09-24 LJUBLJANA Breg COLIMBAE Columba livia domestica MESTNI GOLOB.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Breg_COLIMBAE_Columba_livia_domestica_MESTNI_GOLOB.webm",
-        "tags": [
-          "rock_pigeon_city_riverbank_walk"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-10-31",
-        "license_note": "Previously Commons-verified pigeon source; original action, subject framing and current-run footage must be re-inspected before editorial release."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon.ogv",
-        "type": "video",
-        "assetTitle": "Pigeon.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon.ogv",
-        "tags": [
-          "rock_pigeon_closeup_urban"
-        ],
-        "author": "ジダネ",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigeon%20feeding%2C%20Jardim%20da%20Estrela%2C%202025%2001.webm",
-        "type": "video",
-        "assetTitle": "Pigeon feeding, Jardim da Estrela, 2025 01.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pigeon_feeding%2C_Jardim_da_Estrela%2C_2025_01.webm",
-        "tags": [
-          "rock_pigeons_feeding_urban_park"
-        ],
-        "author": "JnpoJuwan",
+        "author": "User:Tet",
         "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "b8cc558859ad4acfc423ed62d0837e9b1f29576f",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seagull%20and%20pigeons%20eating%20bread.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20and%20Chlo%C3%A9%20playing%20(100111224612).webm",
         "type": "video",
-        "assetTitle": "Seagull and pigeons eating bread.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Seagull_and_pigeons_eating_bread.webm",
+        "assetTitle": "Larry the cat and Chloé playing (100111224612).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm",
         "tags": [
-          "rock_pigeons_eating_bread"
+          "domestic_cats_playing_together"
         ],
-        "author": "Atomicdragon136",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B8%20%D0%BD%D0%B0%20%D0%BF%D1%96%D1%80%D1%81%D1%96.webm",
-        "type": "video",
-        "assetTitle": "Голуби на пірсі.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BE%D0%BB%D1%83%D0%B1%D0%B8_%D0%BD%D0%B0_%D0%BF%D1%96%D1%80%D1%81%D1%96.webm",
-        "tags": [
-          "rock_pigeons_group_on_pier"
-        ],
-        "author": "Сарапулов",
+        "author": "Trougnouf",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "7d8ad97a93c959d18f433998b9659d6211276c6d",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20in%20Taiwan.webm",
+        "type": "video",
+        "assetTitle": "Cat playing in Taiwan.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm",
+        "tags": [
+          "domestic_cat_playing_in_taiwan"
+        ],
+        "author": "MiNe",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "4bcb9837d5f4a5fb471091b9cd7b082db247fde4",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
+        "type": "video",
+        "assetTitle": "Cat behaviour - self-grooming.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
+        "tags": [
+          "domestic_cat_self_grooming"
+        ],
+        "author": "Learnerktm",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "abed679c9607ae913d3528c8fccc6e5ea1384153",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Cat%20walking.webm",
+        "type": "video",
+        "assetTitle": "Black Cat walking.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm",
+        "tags": [
+          "black_domestic_cat_walking"
+        ],
+        "author": "Dzkouslavia",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "21b4861a4752fb0171b5a62c4610112b016cb042",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andra%20and%20Billy.webm",
+        "type": "video",
+        "assetTitle": "Andra and Billy.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm",
+        "tags": [
+          "domestic_cat_interacts_with_person"
+        ],
+        "author": "Joaquim Baeta",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "5d50eec313bfaaf1dcf1562088f1a7f52a445edf",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
       }
     ],
     "min_unique_videos": 6,
@@ -870,64 +519,452 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-01-rock_pigeon_flock_takeoff-footage-first-v8",
+    "revision": "2026-11-02-domestic_cat_everyday_exploration-verified-frames-v3",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why do city pigeons keep checking the ground, even beside busy streets?",
-        "scene": "Real city pigeons pecking and looking at the ground; no flight implied.",
+        "text": "Why can an ordinary paper bag keep a house cat so interested?",
+        "scene": "Real house cat Kumo investigating a paper bag.",
         "tags": [
-          "rock_pigeon_flock_eating_ground"
+          "domestic_cat_inside_paper_bag"
         ],
         "story_role": "hook",
-        "overlay_label": "LOOKING FOR FOOD"
+        "overlay_label": "A PAPER BAG"
       },
       {
-        "text": "Their daily search for seeds and scraps takes them from sidewalks to station ledges.",
-        "scene": "A city pigeon perched on a station ledge, not falsely depicted as feeding.",
+        "text": "Cats notice small changes around them, sometimes stopping to inspect something they did not expect.",
+        "scene": "Real cat looking up toward the person filming.",
         "tags": [
-          "rock_pigeon_urban_station_platform"
+          "domestic_cat_looks_up_at_camera"
         ],
         "story_role": "setup",
-        "overlay_label": "CITY HABITAT"
+        "overlay_label": "LOOK CLOSER"
       },
       {
-        "text": "One pigeon moves along a city walkway; in another scene, a pigeon pauses on the pavement.",
-        "scene": "Two independent original city-pigeon scenes; verify visible bird movement in the new Ljubljana Breg clip, then a separate pigeon on pavement. Do not imply continuous encounter.",
+        "text": "In other homes, cats reach for toys and follow quick movements with their paws.",
+        "scene": "One cat playing with a cotton bud; two other cats playing.",
         "tags": [
-          "rock_pigeon_city_riverbank_walk",
-          "rock_pigeon_walking_city_road"
+          "domestic_cat_paws_cotton_bud",
+          "domestic_cats_playing_together"
         ],
         "story_role": "action",
-        "overlay_label": "CITY FOOTSTEPS"
+        "overlay_label": "PAWS AT WORK"
       },
       {
-        "text": "They pause, look around, and move again, checking each new patch for something edible.",
-        "scene": "Real rock pigeon moving on grass, with foraging explanation in narration.",
+        "text": "Play gives those paws and eyes practice coordinating fast, precise movements.",
+        "scene": "A real house cat playing in a Taiwan home.",
         "tags": [
-          "rock_pigeon_closeup_urban"
+          "domestic_cat_playing_in_taiwan"
         ],
         "story_role": "explanation",
-        "overlay_label": "CHECK EVERY STEP"
+        "overlay_label": "PLAY PRACTICE"
       },
       {
-        "text": "When food is on the ground, several pigeons can feed side by side.",
-        "scene": "Real pigeons feeding in an urban park.",
+        "text": "After exploring, a cat may walk away, rest, or spend time grooming its coat.",
+        "scene": "Actual cat self-grooming and a separate black cat walking.",
         "tags": [
-          "rock_pigeons_feeding_urban_park"
+          "domestic_cat_self_grooming",
+          "black_domestic_cat_walking"
         ],
-        "story_role": "twist",
-        "overlay_label": "FEEDING TOGETHER"
+        "story_role": "setup",
+        "overlay_label": "TIME TO GROOM"
       },
       {
-        "text": "From parks to busy crossings, a pigeon's next meal may be only a few steps away.",
-        "scene": "Separate genuine pigeon group feeding scenes on a pier and in an urban setting; no invented continuity.",
+        "text": "A bag, a toy, or a person offering attention can make an ordinary room worth exploring.",
+        "scene": "Real cat being petted by a person outdoors; no invented chase or play.",
         "tags": [
-          "rock_pigeons_eating_bread",
-          "rock_pigeons_group_on_pier"
+          "domestic_cat_interacts_with_person"
         ],
         "story_role": "payoff",
-        "overlay_label": "NEXT SMALL BITE"
+        "overlay_label": "EVERYDAY CURIOSITY"
+      }
+    ],
+    "trend_priority": false
+  },
+  "domestic_horse_meadow_grazing": {
+    "title": "Why Horses Spend So Much Time Grazing",
+    "script": "Why do these horses spend so much time with their heads down in the grass? Grazing is a slow job, and horses can spend hours taking small bites as they move. In other pastures, groups walk together, pause, and lower their heads again. Horses are grazing animals, built to take in forage over many parts of the day. Between mouthfuls, they keep an eye on other horses sharing their own fields. The quiet routine continues near water and trees: move with the group, then lower the head to graze.",
+    "caption": "WHY HORSES SPEND SO MUCH TIME GRAZING. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grazing%20Horses%20in%20California.webm",
+        "type": "video",
+        "assetTitle": "Grazing Horses in California.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grazing_Horses_in_California.webm",
+        "tags": [
+          "domestic_horses_grazing_california"
+        ],
+        "author": "docentjoyce",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "bd7130de60ed3de2cf061361182be3bae6951c7a",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Icelandic%20horses!!%20Video.webm",
+        "type": "video",
+        "assetTitle": "Icelandic horses!! Video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm",
+        "tags": [
+          "icelandic_horses_group"
+        ],
+        "author": "Adon Metcalfe",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "1df04801991e6908e01c988a7d5c7c0edb64ab88",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji.webm",
+        "type": "video",
+        "assetTitle": "2022-03-12 IZLIV SOČE PERISSODACTYLA kamarški konji.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm",
+        "tags": [
+          "camargue_horse_slovenia_march_lakeside_grazing"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "e81b6b893ceb58152c12b51b96899d526787359d",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%202.webm",
+        "type": "video",
+        "assetTitle": "2022-03-12 IZLIV SOČE PERISSODACTYLA kamarški konji 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+        "tags": [
+          "camargue_horses_slovenia_march_second"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "7a821fefb14a40264cc96c55d90c2636a63b296c",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%203.webm",
+        "type": "video",
+        "assetTitle": "2022-03-12 IZLIV SOČE PERISSODACTYLA kamarški konji 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_3.webm",
+        "tags": [
+          "camargue_horses_slovenia_march_third"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "c0b35cc4d96616a9ade670a90e0692143c4011a4",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji.webm",
+        "type": "video",
+        "assetTitle": "2022-05-21 IZLIV SOČE PERISSODACTYLA kamarški konji.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm",
+        "tags": [
+          "camargue_horses_slovenia_may"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "1ad3b8cdd639f8da8580528f9720da861694c62f",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%202.webm",
+        "type": "video",
+        "assetTitle": "2022-05-21 IZLIV SOČE PERISSODACTYLA kamarški konji 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+        "tags": [
+          "camargue_horses_slovenia_may_second"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "3c33aad445429959c56bf30c758dcdfadc5627cd",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-14%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%202.webm",
+        "type": "video",
+        "assetTitle": "2022-07-14 IZLIV SOČE PERISSODACTYLA kamarški konji 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-14_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+        "tags": [
+          "camargue_horses_slovenia_july"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "8801315732e9445ab9dc4e3fb85fb86bc2d980fd",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-11-02-domestic_horse_meadow_grazing-verified-frames-v3",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Why do these horses spend so much time with their heads down in the grass?",
+        "scene": "Real close horse grazing on a California meadow.",
+        "tags": [
+          "domestic_horses_grazing_california"
+        ],
+        "story_role": "hook",
+        "overlay_label": "HEADS DOWN"
+      },
+      {
+        "text": "Grazing is a slow job, and horses can spend hours taking small bites as they move.",
+        "scene": "Real Icelandic horses and a Camargue horse feeding near a lake.",
+        "tags": [
+          "icelandic_horses_group",
+          "camargue_horse_slovenia_march_lakeside_grazing"
+        ],
+        "story_role": "setup",
+        "overlay_label": "SLOW GRAZING"
+      },
+      {
+        "text": "In other pastures, groups walk together, pause, and lower their heads again.",
+        "scene": "Two real Camargue horse clips from the same Slovenian nature area.",
+        "tags": [
+          "camargue_horses_slovenia_march_second",
+          "camargue_horses_slovenia_march_third"
+        ],
+        "story_role": "action",
+        "overlay_label": "STEP AND GRAZE"
+      },
+      {
+        "text": "Horses are grazing animals, built to take in forage over many parts of the day.",
+        "scene": "Another genuine Camargue horse grazing/walking view.",
+        "tags": [
+          "camargue_horses_slovenia_may"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "BUILT TO GRAZE"
+      },
+      {
+        "text": "Between mouthfuls, they keep an eye on other horses sharing their own fields.",
+        "scene": "Camargue horses in a different spring meadow.",
+        "tags": [
+          "camargue_horses_slovenia_may_second"
+        ],
+        "story_role": "setup",
+        "overlay_label": "STAY AWARE"
+      },
+      {
+        "text": "The quiet routine continues near water and trees: move with the group, then lower the head to graze.",
+        "scene": "Actual Camargue horses standing together at a lake and a different white horse grazing on a wooded path.",
+        "tags": [
+          "camargue_horses_slovenia_july"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "GRAZE AND MOVE"
+      }
+    ],
+    "trend_priority": false
+  },
+  "common_blackbird_foraging_to_song": {
+    "title": "Why Blackbirds Search the Grass and Sing at Dawn",
+    "script": "Why is this common blackbird pulling something from the grass instead of singing? In gardens and parks, blackbirds often search low vegetation for food. One bird walks through green plants, then moves on to check another small patch. That ground search can uncover insects, worms, and other small things a blackbird eats. At dawn, the same species may sing from a perch before returning to daytime routines. So a blackbird's day shifts between finding food on the ground and sending song across its habitat.",
+    "caption": "WHY BLACKBIRDS SEARCH THE GRASS AND SING AT DAWN. #WildVox #Wildlife #Nature #AnimalFacts",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-08%20LJUBLJANA%20Botani%C4%8Dni%20vrt%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "type": "video",
+        "assetTitle": "2022-06-08 LJUBLJANA Botanični vrt PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-08_LJUBLJANA_Botani%C4%8Dni_vrt_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "tags": [
+          "common_blackbird_worm_foraging_garden"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "1dba03100f66cce48a85905ec0a3913fa712dc05",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-05%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "type": "video",
+        "assetTitle": "2022-08-05 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-05_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "tags": [
+          "common_blackbird_tivoli_august_ground"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "22d9178de98f82f95dc88fd681bae55ef25e63d7",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "type": "video",
+        "assetTitle": "2022-06-10 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-10_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "tags": [
+          "common_blackbird_tivoli_june"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "42ea02090226f86a333083230985965ac950dc0c",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-27%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "type": "video",
+        "assetTitle": "2022-06-27 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-27_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "tags": [
+          "common_blackbird_tivoli_june_late"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "276671b3bd9dae53b897942c8ce8da53a599c753",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-29%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "type": "video",
+        "assetTitle": "2022-04-29 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-29_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "tags": [
+          "common_blackbird_tivoli_april"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "d517af9c0f809fd0a5cd2211b6684344a2f42da7",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%CE%9A%CF%8C%CF%84%CF%83%CF%85%CF%86%CE%B1%CF%82%20%CE%A4%CF%81%CE%B1%CE%B3%CE%BF%CF%85%CE%B4%CE%B5%CE%AF.P1110011.part2of5.webm",
+        "type": "video",
+        "assetTitle": "Κότσυφας Τραγουδεί.P1110011.part2of5.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%CE%9A%CF%8C%CF%84%CF%83%CF%85%CF%86%CE%B1%CF%82_%CE%A4%CF%81%CE%B1%CE%B3%CE%BF%CF%85%CE%B4%CE%B5%CE%AF.P1110011.part2of5.webm",
+        "tags": [
+          "common_blackbird_singing_before_dawn_first"
+        ],
+        "author": "Tsester",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "ac1fed7b546a0da85586e2a49f5e746dbe852701",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-12%20LJUBLJANA%20Trg%20narodnih%20herojev%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "type": "video",
+        "assetTitle": "2022-09-12 LJUBLJANA Trg narodnih herojev PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-12_LJUBLJANA_Trg_narodnih_herojev_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "tags": [
+          "common_blackbird_city_square_september"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "047e566c3e0445f6e430de3402fc9a19dc9f348c",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-14%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Turdus%20merula%20KOS.webm",
+        "type": "video",
+        "assetTitle": "2022-10-14 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Turdus merula KOS.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Turdus_merula_KOS.webm",
+        "tags": [
+          "common_blackbird_tivoli_october"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-02",
+        "original_sha1": "80dbacc8385695d8b26a9947435e693cf04c8d2e",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 6.5,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-11-02-common_blackbird_foraging_to_song-verified-frames-v2",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Why is this common blackbird pulling something from the grass instead of singing?",
+        "scene": "Close blackbird visibly carrying a worm and foraging in botanical garden.",
+        "tags": [
+          "common_blackbird_worm_foraging_garden"
+        ],
+        "story_role": "hook",
+        "overlay_label": "A WORM IN THE BILL"
+      },
+      {
+        "text": "In gardens and parks, blackbirds often search low vegetation for food.",
+        "scene": "Close blackbird resting on rocky park ground.",
+        "tags": [
+          "common_blackbird_tivoli_august_ground"
+        ],
+        "story_role": "setup",
+        "overlay_label": "GROUND SEARCH"
+      },
+      {
+        "text": "One bird walks through green plants, then moves on to check another small patch.",
+        "scene": "Two real blackbird park scenes in Ljubljana.",
+        "tags": [
+          "common_blackbird_tivoli_june",
+          "common_blackbird_tivoli_june_late"
+        ],
+        "story_role": "action",
+        "overlay_label": "CHECK THE GROUND"
+      },
+      {
+        "text": "That ground search can uncover insects, worms, and other small things a blackbird eats.",
+        "scene": "Blackbird in Tivoli park; food type explained without fake closeup.",
+        "tags": [
+          "common_blackbird_tivoli_april"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "WHAT THEY EAT"
+      },
+      {
+        "text": "At dawn, the same species may sing from a perch before returning to daytime routines.",
+        "scene": "Actual dark predawn blackbird singing on rooftop antenna, clearly marked dawn.",
+        "tags": [
+          "common_blackbird_singing_before_dawn_first"
+        ],
+        "story_role": "setup",
+        "overlay_label": "DAWN SONG"
+      },
+      {
+        "text": "So a blackbird's day shifts between finding food on the ground and sending song across its habitat.",
+        "scene": "Two separate blackbird ground-level park/city scenes.",
+        "tags": [
+          "common_blackbird_city_square_september",
+          "common_blackbird_tivoli_october"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "SONG AND FOOD"
       }
     ],
     "trend_priority": false
