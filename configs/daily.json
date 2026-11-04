@@ -737,7 +737,7 @@
   },
   "goats_grazing_grooming_and_nursing": {
     "title": "What Do Goats Do When They Stop Grazing?",
-    "script": "These goats are spread across a grassy hillside, but feeding is not their only activity. A different herd moves over rocky ground, looking for the next place to stop. Some goats eat hay, while others choose grass in another open field. Between meals, goats may pause to groom, yawn, or simply rest for a while. Newborn kids have another priority: getting milk from their mother before they can graze. From small kids to roaming adults, a goat herd is always doing more than eating.",
+    "script": "These goats are spread across a grassy hillside, but feeding is not their only activity. A different herd moves over rocky ground, looking for the next place to stop. Some goats eat hay, while others rest on grass in an open field. Between meals, goats may pause to groom, yawn, or simply rest for a while. Newborn kids have another priority: staying close to their mother while they grow. From small kids to roaming adults, a goat herd is always doing more than eating.",
     "caption": "WHAT GOATS DO BETWEEN MEALS. #WildVox #Goats #FarmAnimals #AnimalFacts",
     "sources": [
       {
@@ -778,7 +778,7 @@
         "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "goat_feeding_hay_and_grass"
+          "goats_eating_hay_and_resting_on_grass"
         ],
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       },
@@ -792,7 +792,7 @@
         "license_url": "https://creativecommons.org/licenses/by/3.0",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "goat_feeding_hay_and_grass"
+          "goats_eating_hay_and_resting_on_grass"
         ],
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       },
@@ -834,7 +834,7 @@
         "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-10-31",
         "tags": [
-          "newborn_goats_nursing_mother"
+          "newborn_goats_near_mother"
         ],
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       },
@@ -859,7 +859,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-04-goats_grazing_grooming_and_nursing-fresh-narration-v1",
+    "revision": "2026-11-04-goats_grazing_grooming_and_nursing-visual-proof-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -881,10 +881,10 @@
         "overlay_label": "WHY IT MATTERS"
       },
       {
-        "text": "Some goats eat hay, while others choose grass in another open field.",
-        "scene": "Two real clips of domestic goats feeding on hay and grass.",
+        "text": "Some goats eat hay, while others rest on grass in an open field.",
+        "scene": "Real goats eating hay and another goat resting on a separate grassy field.",
         "tags": [
-          "goat_feeding_hay_and_grass"
+          "goats_eating_hay_and_resting_on_grass"
         ],
         "story_role": "action",
         "overlay_label": "REAL ACTION"
@@ -899,10 +899,10 @@
         "overlay_label": "THE REASON"
       },
       {
-        "text": "Newborn kids have another priority: getting milk from their mother before they can graze.",
-        "scene": "Actual newborn goats nursing or staying close to mother.",
+        "text": "Newborn kids have another priority: staying close to their mother while they grow.",
+        "scene": "Newborn kids standing and moving close to their mother; no milk transfer claimed.",
         "tags": [
-          "newborn_goats_nursing_mother"
+          "newborn_goats_near_mother"
         ],
         "story_role": "twist",
         "overlay_label": "ANOTHER SIDE"
