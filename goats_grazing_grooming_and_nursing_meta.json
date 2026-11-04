@@ -1,0 +1,214 @@
+{
+  "key": "goats_grazing_grooming_and_nursing",
+  "title": "What Do Goats Do When They Stop Grazing?",
+  "caption": "WHAT GOATS DO BETWEEN MEALS. #WildVox #Goats #FarmAnimals #AnimalFacts\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Kat Walsh | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm | https://creativecommons.org/licenses/by/4.0\n2. gailhampshire (Flickr gails_pictures) | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_video.webm | https://creativecommons.org/licenses/by/2.0\n3. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_eating.webm | https://creativecommons.org/licenses/by/2.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0\n5. Rivadavia.vila | CC0 | https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_yawning.webm | https://creativecommons.org/licenses/by/2.0\n7. Darius Dunlap | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Newborn_goats.webm | https://creativecommons.org/licenses/by/2.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "7bc278b6e7277fbae21a8fcec25d03d3b8c521bcfd300edbdf6e3cab9f911828",
+  "duration": 33.6,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.1,
+      "duration": 6.1,
+      "text": "These goats are spread across a grassy hillside, but feeding is not their only activity.",
+      "scene": "Visible managed goat group on grassy Sunnyvale hillside.",
+      "tags": [
+        "goat_herd_grazing_sunnyvale_hillside"
+      ],
+      "story_role": "hook",
+      "overlay_label": "LOOK CLOSER",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.1,
+      "end": 11.5,
+      "duration": 5.4,
+      "text": "A different herd moves over rocky ground, looking for the next place to stop.",
+      "scene": "Goat herd on rocky terrain in a different location.",
+      "tags": [
+        "goat_herd_moving_rocky_ground"
+      ],
+      "story_role": "setup",
+      "overlay_label": "WHY IT MATTERS",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.5,
+      "end": 16.625,
+      "duration": 5.125,
+      "text": "Some goats eat hay, while others rest on grass in an open field.",
+      "scene": "Real goats eating hay and another goat resting on a separate grassy field.",
+      "tags": [
+        "goats_eating_hay_and_resting_on_grass"
+      ],
+      "story_role": "action",
+      "overlay_label": "REAL ACTION",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 16.625,
+      "end": 22.075,
+      "duration": 5.45,
+      "text": "Between meals, goats may pause to groom, yawn, or simply rest for a while.",
+      "scene": "Separate close footage of goat grooming and goats yawning in a managed setting.",
+      "tags": [
+        "goats_grooming_or_yawning"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "THE REASON",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 22.075,
+      "end": 27.674999999999997,
+      "duration": 5.6,
+      "text": "Newborn kids have another priority: staying close to their mother while they grow.",
+      "scene": "Newborn kids standing and moving close to their mother; no milk transfer claimed.",
+      "tags": [
+        "newborn_goats_near_mother"
+      ],
+      "story_role": "twist",
+      "overlay_label": "ANOTHER SIDE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 27.674999999999997,
+      "end": 33.599999999999994,
+      "duration": 5.925,
+      "text": "From small kids to roaming adults, a goat herd is always doing more than eating.",
+      "scene": "Domestic goat in open grassy area.",
+      "tags": [
+        "goat_standing_in_open_grass"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE PAYOFF",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "assetTitle": "Goats in Sunnyvale.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20in%20Sunnyvale.webm",
+      "type": "video",
+      "author": "Kat Walsh",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "goat_herd_grazing_sunnyvale_hillside"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Goats video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_video.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20video.webm",
+      "type": "video",
+      "author": "gailhampshire (Flickr gails_pictures)",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "goat_herd_moving_rocky_ground"
+      ],
+      "license_note": "Original Flickr creator gailhampshire verified against Commons file source and Flickr attribution; full scene and action-window review pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Goats eating.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_eating.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20eating.webm",
+      "type": "video",
+      "author": "Brian Boucheron",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "goats_eating_hay_and_resting_on_grass"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "2022-10-01 MIRKE ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-01%20MIRKE%20ARTIODACTYLA%20Capra%20aegagrus%20hircus%20DOMA%C4%8CA%20KOZA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "goats_eating_hay_and_resting_on_grass"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Anglo-Nubian goats grooming themselves.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anglo-Nubian%20goats%20grooming%20themselves.webm",
+      "type": "video",
+      "author": "Rivadavia.vila",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "goats_grooming_or_yawning"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Goats yawning.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_yawning.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20yawning.webm",
+      "type": "video",
+      "author": "Brian Boucheron",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "goats_grooming_or_yawning"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "Newborn goats.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Newborn_goats.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Newborn%20goats.webm",
+      "type": "video",
+      "author": "Darius Dunlap",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "newborn_goats_near_mother"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    },
+    {
+      "assetTitle": "2022-09-20 JAMNIK ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-20%20JAMNIK%20ARTIODACTYLA%20Capra%20aegagrus%20hircus%20DOMA%C4%8CA%20KOZA.webm",
+      "type": "video",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "tags": [
+        "goat_standing_in_open_grass"
+      ],
+      "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+    }
+  ],
+  "review_sheet": "goats_grazing_grooming_and_nursing_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
