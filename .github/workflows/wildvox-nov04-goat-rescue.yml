@@ -1,0 +1,90 @@
+name: WildVox goat rescue Nov 4
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/wildvox-nov04-goat-rescue.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: wildvox-nov04-goat-rescue
+  cancel-in-progress: false
+
+jobs:
+  rescue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify current-day held candidate
+        run: |
+          set -euo pipefail
+          day=$(TZ=America/Sao_Paulo date +%F)
+          jq -e --arg day "$day" '.goats_grazing_grooming_and_nursing.revision | startswith($day)' configs/daily.json
+          jq -e '.goats_grazing_grooming_and_nursing.publication_hold == true' configs/daily.json
+          python scripts/semantic_shots.py --check-config configs/daily.json
+          python scripts/audit_commons_sources.py --config configs/daily.json
+      - name: Install real voice and video dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y espeak-ng ffmpeg curl fonts-dejavu-core
+          python -m pip install --upgrade pip
+          python -m pip install "kokoro==0.9.4" "spacy==3.8.4" "preshed==3.0.9" "numpy==1.26.4" soundfile
+          python -c "from kokoro import KPipeline; KPipeline(lang_code='a')"
+      - name: Render only current Nov 4 goat candidate
+        env:
+          WILDVOX_SOURCE_PREVIEWS: '1'
+        run: python scripts/generate_video.py --key goats_grazing_grooming_and_nursing --config configs/daily.json
+      - name: QA real rendered video
+        run: |
+          python scripts/qa_rendered_batch.py --config configs/daily.json --media-dir output --key goats_grazing_grooming_and_nursing --report technical_qa_goats.json
+      - name: Save independent visual review artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: 2026-11-04-goat-rescue-review
+          path: |
+            output/goats_grazing_grooming_and_nursing.mp4
+            output/goats_grazing_grooming_and_nursing_meta.json
+            output/goats_grazing_grooming_and_nursing_review.jpg
+            output/goats_grazing_grooming_and_nursing_source_*_preview.jpg
+            technical_qa_goats.json
+          retention-days: 2
+      - name: Archive as QA candidate only, NOT approved for publication
+        run: |
+          set -euo pipefail
+          key=goats_grazing_grooming_and_nursing
+          test -s "output/$key.mp4"
+          test -s "output/${key}_meta.json"
+          test -s "output/${key}_review.jpg"
+          git fetch origin media
+          git worktree add --force --detach /tmp/wildvox-nov4-media origin/media
+          cd /tmp/wildvox-nov4-media
+          git config user.name "wildvox-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git config http.version HTTP/1.1
+          for attempt in 1 2 3 4 5 6; do
+            git fetch origin media
+            git reset --hard FETCH_HEAD
+            cp "$GITHUB_WORKSPACE/output/$key.mp4" "./$key.mp4"
+            cp "$GITHUB_WORKSPACE/output/${key}_meta.json" "./${key}_meta.json"
+            cp "$GITHUB_WORKSPACE/output/${key}_review.jpg" "./${key}_review.jpg"
+            git add -- "$key.mp4" "${key}_meta.json" "${key}_review.jpg"
+            if git diff --cached --quiet; then
+              echo "Existing exact QA files"
+              exit 0
+            fi
+            git commit -m "Archive verified technical goat candidate from Nov 4 current config"
+            if git push origin HEAD:media; then
+              echo "QA candidate archived; publication_hold remains true"
+              exit 0
+            fi
+            sleep $((attempt * 3))
+          done
+          exit 1
