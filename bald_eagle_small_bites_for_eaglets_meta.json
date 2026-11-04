@@ -1,0 +1,214 @@
+{
+  "key": "bald_eagle_small_bites_for_eaglets",
+  "title": "Why Do Bald Eagle Parents Feed Such Small Bites?",
+  "caption": "WHY EAGLETS NEED SMALL BITES. #WildVox #Eagles #AnimalFacts #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. USFWS Mountain Prairie | Public domain | https://commons.wikimedia.org/wiki/File:Bald_eagle_feeding_eaglets_on_Seedskadee_National_Wildlife_Refuge_(27715193638).webm | https://commons.wikimedia.org/wiki/Commons:Public_domain\n2. Lucastphotography | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Bald_Eagles_Mating_in_Greater_Toronto_Area.webm | https://creativecommons.org/licenses/by/4.0/\n3. USFWS Mountain Prairie | Public domain | https://commons.wikimedia.org/wiki/File:Bald_eagle_feeding_eaglets_at_Seedskadee_National_Wildlife_Refuge_(39930814005).webm | https://commons.wikimedia.org/wiki/Commons:Public_domain\n4. devra | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_in_California.webm | https://creativecommons.org/licenses/by/2.0/\n5. Video courtesy of U.S. Fish and Wildlife Service National Conservation Training Center | Public domain | https://commons.wikimedia.org/wiki/File:Bald_Eagle_(Haliaeetus_leucocephalus)_in_USA.webm | https://commons.wikimedia.org/wiki/Commons:Public_domain\n6. Wonderlane | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_being_chased_by_a_smaller_bird.webm | https://creativecommons.org/licenses/by/2.0/\n7. Bill Ward | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Bald_Eagle_(Haliaeetus_leucocephalus)%2C_immature%2C_in_California.webm | https://creativecommons.org/licenses/by/2.0/\n8. U.S. Fish and Wildlife Service National Conservation Training Center | Public domain | https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_in_wilidlife_refuge.ogv | https://commons.wikimedia.org/wiki/Commons:Public_domain",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "f5158f8d241da2ea7790a77196ad7758b91f4fa11451090473f813628b77399e",
+  "duration": 36.25,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.225,
+      "duration": 6.225,
+      "text": "An adult bald eagle has a powerful beak, but its chicks still need very small meals.",
+      "scene": "USFWS footage of adult feeding chicks in nest.",
+      "tags": [
+        "bald_eagle_parent_feeding_nest_chicks"
+      ],
+      "story_role": "hook",
+      "overlay_label": "LOOK CLOSER",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.225,
+      "end": 12.125,
+      "duration": 5.9,
+      "text": "Young eaglets cannot catch their own fish, so adults must bring food to the nest.",
+      "scene": "Real adult eagle pair filmed at a separate site.",
+      "tags": [
+        "bald_eagle_adult_pair_at_territory"
+      ],
+      "story_role": "setup",
+      "overlay_label": "WHY IT MATTERS",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 12.125,
+      "end": 17.775,
+      "duration": 5.65,
+      "text": "Here another parent bends toward the nest, offering food to growing young birds.",
+      "scene": "Second USFWS clip of eagle feeding eaglets.",
+      "tags": [
+        "bald_eagle_second_eaglet_feeding"
+      ],
+      "story_role": "action",
+      "overlay_label": "REAL ACTION",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 17.775,
+      "end": 24.474999999999998,
+      "duration": 6.7,
+      "text": "Across other places, adult bald eagles keep searching, flying, and watching their surroundings.",
+      "scene": "Separate natural recordings of adult bald eagles.",
+      "tags": [
+        "bald_eagle_adults_at_separate_sites"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "THE REASON",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 24.474999999999998,
+      "end": 29.974999999999998,
+      "duration": 5.5,
+      "text": "Even these powerful birds can be chased by smaller birds near a territory.",
+      "scene": "Small bird visibly pursuing a bald eagle.",
+      "tags": [
+        "bald_eagle_chased_by_smaller_bird"
+      ],
+      "story_role": "twist",
+      "overlay_label": "ANOTHER SIDE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 29.974999999999998,
+      "end": 36.25,
+      "duration": 6.275,
+      "text": "Long before a young eagle can hunt, its survival depends on the adults that feed it.",
+      "scene": "Immature bald eagle and another adult in separate genuine clips.",
+      "tags": [
+        "bald_eagle_immature_and_refuge_adult"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE PAYOFF",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20feeding%20eaglets%20on%20Seedskadee%20National%20Wildlife%20Refuge%20(27715193638).webm",
+      "type": "video",
+      "assetTitle": "Bald eagle feeding eaglets on Seedskadee National Wildlife Refuge (27715193638).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_feeding_eaglets_on_Seedskadee_National_Wildlife_Refuge_(27715193638).webm",
+      "tags": [
+        "bald_eagle_parent_feeding_nest_chicks"
+      ],
+      "author": "USFWS Mountain Prairie",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagles%20Mating%20in%20Greater%20Toronto%20Area.webm",
+      "type": "video",
+      "assetTitle": "Bald Eagles Mating in Greater Toronto Area.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_Eagles_Mating_in_Greater_Toronto_Area.webm",
+      "tags": [
+        "bald_eagle_adult_pair_at_territory"
+      ],
+      "author": "Lucastphotography",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20feeding%20eaglets%20at%20Seedskadee%20National%20Wildlife%20Refuge%20(39930814005).webm",
+      "type": "video",
+      "assetTitle": "Bald eagle feeding eaglets at Seedskadee National Wildlife Refuge (39930814005).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_feeding_eaglets_at_Seedskadee_National_Wildlife_Refuge_(39930814005).webm",
+      "tags": [
+        "bald_eagle_second_eaglet_feeding"
+      ],
+      "author": "USFWS Mountain Prairie",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20in%20California.webm",
+      "type": "video",
+      "assetTitle": "Bald eagle (Haliaeetus leucocephalus) in California.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_in_California.webm",
+      "tags": [
+        "bald_eagle_second_eaglet_feeding"
+      ],
+      "author": "devra",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagle%20(Haliaeetus%20leucocephalus)%20in%20USA.webm",
+      "type": "video",
+      "assetTitle": "Bald Eagle (Haliaeetus leucocephalus) in USA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_(Haliaeetus_leucocephalus)_in_USA.webm",
+      "tags": [
+        "bald_eagle_adults_at_separate_sites"
+      ],
+      "author": "Video courtesy of U.S. Fish and Wildlife Service National Conservation Training Center",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20being%20chased%20by%20a%20smaller%20bird.webm",
+      "type": "video",
+      "assetTitle": "Bald eagle (Haliaeetus leucocephalus) being chased by a smaller bird.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_being_chased_by_a_smaller_bird.webm",
+      "tags": [
+        "bald_eagle_chased_by_smaller_bird"
+      ],
+      "author": "Wonderlane",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagle%20(Haliaeetus%20leucocephalus)%2C%20immature%2C%20in%20California.webm",
+      "type": "video",
+      "assetTitle": "Bald Eagle (Haliaeetus leucocephalus), immature, in California.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_(Haliaeetus_leucocephalus)%2C_immature%2C_in_California.webm",
+      "tags": [
+        "bald_eagle_immature_and_refuge_adult"
+      ],
+      "author": "Bill Ward",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20in%20wilidlife%20refuge.ogv",
+      "type": "video",
+      "assetTitle": "Bald eagle (Haliaeetus leucocephalus) in wilidlife refuge.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_in_wilidlife_refuge.ogv",
+      "tags": [
+        "bald_eagle_immature_and_refuge_adult"
+      ],
+      "author": "U.S. Fish and Wildlife Service National Conservation Training Center",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    }
+  ],
+  "review_sheet": "bald_eagle_small_bites_for_eaglets_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
