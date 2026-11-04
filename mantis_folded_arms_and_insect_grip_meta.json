@@ -1,0 +1,214 @@
+{
+  "key": "mantis_folded_arms_and_insect_grip",
+  "title": "Why Does a Mantis Hold Its Arms Up?",
+  "caption": "WHY DOES A MANTIS HOLD ITS ARMS UP? #WildVox #Animals #Nature #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Quentin Scouflaire | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Praying_mantis_threat_display.webm | https://creativecommons.org/licenses/by/4.0/\n2. Pohled 111 | CC0 | https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_01.webm | https://creativecommons.org/publicdomain/zero/1.0/\n3. https://www.flickr.com/photos/gails_pictures/ | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mantis_eating_small_bee_caught_video.webm | https://creativecommons.org/licenses/by/2.0/\n4. https://www.flickr.com/photos/gails_pictures/ | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mantis_versus_Hornet_(_Vespa_crabro)_video.webm | https://creativecommons.org/licenses/by/2.0/\n5. Pohled 111 | CC0 | https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_02.webm | https://creativecommons.org/publicdomain/zero/1.0/\n6. Jason Eppink | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Praying_mantis_in_New_York.webm | https://creativecommons.org/licenses/by/2.0/\n7. Сарапулов | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB_%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%B9.webm | https://creativecommons.org/licenses/by/4.0/\n8. Pohled 111 | CC0 | https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_04.webm | https://creativecommons.org/publicdomain/zero/1.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "14240dfb8ecd5c2933c94f3c12d4027fe2bc9994387dcf45c439a0e528ec80fe",
+  "duration": 36.33,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.1,
+      "duration": 5.1,
+      "text": "Why does this mantis hold its front legs up, almost like it is waving?",
+      "scene": "Real mantis shown raising its forelegs in threat display.",
+      "tags": [
+        "mantis_raised_forelegs_threat_posture"
+      ],
+      "story_role": "hook",
+      "overlay_label": "LOOK CLOSER",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.1,
+      "end": 11.125,
+      "duration": 6.025,
+      "text": "Those folded legs have spines that help the insect grip things close to its body.",
+      "scene": "Close image of folded forelegs on a live mantis.",
+      "tags": [
+        "mantis_folded_front_legs_close_view"
+      ],
+      "story_role": "setup",
+      "overlay_label": "WHY IT MATTERS",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.125,
+      "end": 17.7,
+      "duration": 6.575,
+      "text": "When a smaller insect is caught, the mantis uses those arms to keep its meal from escaping.",
+      "scene": "Mantis interacting with real insect prey in two separate recordings.",
+      "tags": [
+        "mantis_real_insect_capture_and_grip"
+      ],
+      "story_role": "action",
+      "overlay_label": "REAL ACTION",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 17.7,
+      "end": 23.924999999999997,
+      "duration": 6.225,
+      "text": "Other close recordings show how carefully the animal positions those same front legs.",
+      "scene": "Authentic close-up of a mantis moving or holding its forelegs.",
+      "tags": [
+        "mantis_close_posture_in_motion"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "THE REASON",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 23.924999999999997,
+      "end": 29.549999999999997,
+      "duration": 5.625,
+      "text": "A raised posture can also appear when a mantis responds to something around it.",
+      "scene": "Mantis posture in a separate outdoor New York recording.",
+      "tags": [
+        "mantis_response_in_new_york_recording"
+      ],
+      "story_role": "twist",
+      "overlay_label": "ANOTHER SIDE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 29.549999999999997,
+      "end": 36.324999999999996,
+      "duration": 6.775,
+      "text": "Whether it is handling prey or holding still, those front legs are its most remarkable tools.",
+      "scene": "Two separate mantis close-ups of foreleg posture.",
+      "tags": [
+        "mantis_close_study_of_front_legs"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE PAYOFF",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praying%20mantis%20threat%20display.webm",
+      "type": "video",
+      "assetTitle": "Praying mantis threat display.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Praying_mantis_threat_display.webm",
+      "tags": [
+        "mantis_raised_forelegs_threat_posture"
+      ],
+      "author": "Quentin Scouflaire",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kudlanka%20n%C3%A1bo%C5%BEn%C3%A1%20-%20video%2001.webm",
+      "type": "video",
+      "assetTitle": "Kudlanka nábožná - video 01.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_01.webm",
+      "tags": [
+        "mantis_folded_front_legs_close_view"
+      ],
+      "author": "Pohled 111",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mantis%20eating%20small%20bee%20caught%20video.webm",
+      "type": "video",
+      "assetTitle": "Mantis eating small bee caught video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mantis_eating_small_bee_caught_video.webm",
+      "tags": [
+        "mantis_real_insect_capture_and_grip"
+      ],
+      "author": "https://www.flickr.com/photos/gails_pictures/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mantis%20versus%20Hornet%20(%20Vespa%20crabro)%20video.webm",
+      "type": "video",
+      "assetTitle": "Mantis versus Hornet ( Vespa crabro) video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mantis_versus_Hornet_(_Vespa_crabro)_video.webm",
+      "tags": [
+        "mantis_real_insect_capture_and_grip"
+      ],
+      "author": "https://www.flickr.com/photos/gails_pictures/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kudlanka%20n%C3%A1bo%C5%BEn%C3%A1%20-%20video%2002.webm",
+      "type": "video",
+      "assetTitle": "Kudlanka nábožná - video 02.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_02.webm",
+      "tags": [
+        "mantis_close_posture_in_motion"
+      ],
+      "author": "Pohled 111",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praying%20mantis%20in%20New%20York.webm",
+      "type": "video",
+      "assetTitle": "Praying mantis in New York.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Praying_mantis_in_New_York.webm",
+      "tags": [
+        "mantis_response_in_new_york_recording"
+      ],
+      "author": "Jason Eppink",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB%20%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%B9.webm",
+      "type": "video",
+      "assetTitle": "Богомол звичайний.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB_%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%B9.webm",
+      "tags": [
+        "mantis_close_study_of_front_legs"
+      ],
+      "author": "Сарапулов",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kudlanka%20n%C3%A1bo%C5%BEn%C3%A1%20-%20video%2004.webm",
+      "type": "video",
+      "assetTitle": "Kudlanka nábožná - video 04.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_04.webm",
+      "tags": [
+        "mantis_close_study_of_front_legs"
+      ],
+      "author": "Pohled 111",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    }
+  ],
+  "review_sheet": "mantis_folded_arms_and_insect_grip_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
