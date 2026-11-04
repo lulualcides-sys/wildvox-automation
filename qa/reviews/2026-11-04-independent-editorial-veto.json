@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-04",
+  "timezone": "America/Sao_Paulo",
+  "pipeline_run_id": 41908436351,
+  "main_render_commit": "0dcace0b3d5d6a72f3c691413ee206ec8da0815d",
+  "scope": "Independent review of actual CURRENT-run MP4 review sheet and 8 source-preview strips. No approval on technical CI alone.",
+  "editorial_rejections": [
+    {
+      "key": "mantis_folded_arms_and_insect_grip",
+      "config_sha256": "14240dfb8ecd5c2933c94f3c12d4027fe2bc9994387dcf45c439a0e528ec80fe",
+      "review": "REJECTED",
+      "evidence": [
+        "Current-run source_06 preview has substantial encoded black side bars and an indistinct insect, reproduced in final 9:16 MP4.",
+        "Opening subject is small in distant rocky habitat; inspect stronger replacement hook."
+      ],
+      "action": "Replace weak/barred authentic footage with separately licensed and visually verified mantis video, rerender only changed entry, reaudit."
+    },
+    {
+      "key": "kingfisher_digging_and_fishing_bill",
+      "config_sha256": "796a9e4468cdaad23886ee811e14387bcce95fcd0f27f5608738e3b99265cc46",
+      "review": "REJECTED",
+      "evidence": [
+        "Source_00 and source_03 strips show empty bank opening, not a visible kingfisher digging or entering.",
+        "Opening and action narration assert activity that actual frames do not visibly substantiate."
+      ],
+      "action": "Replace bank-only clips with close observable common kingfisher footage, or pivot script to genuinely visible perching behavior. New render/review required."
+    },
+    {
+      "key": "bald_eagle_small_bites_for_eaglets",
+      "config_sha256": "f5158f8d241da2ea7790a77196ad7758b91f4fa11451090473f813628b77399e",
+      "review": "REJECTED",
+      "evidence": [
+        "Source_05 credited as 'bald eagle being chased by a smaller bird' visually shows a dog on a beach, not an eagle chasing event.",
+        "Distant nest sources 00 and 02 cannot substantiate the claimed feeding of small bites in review shots."
+      ],
+      "action": "Replace mismatched sources and rewrite script to demonstrated activity; rerender only that candidate and reaudit."
+    }
+  ],
+  "pending": [
+    {
+      "key": "beaver_zoo_land_and_water_movement",
+      "review": "PENDING_CURRENT_RUN_FULL_REVIEW"
+    },
+    {
+      "key": "goats_grazing_grooming_and_nursing",
+      "review": "PENDING_CURRENT_RUN_FULL_REVIEW"
+    }
+  ],
+  "controls": {
+    "publication_hold": "Keep all unapproved entries held. No scheduling of rejected fingerprints.",
+    "network": "TikTok @wildvox ONLY",
+    "not_youtube": true,
+    "provider_brand_id": 7242311
+  }
+}
