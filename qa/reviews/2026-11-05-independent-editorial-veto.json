@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-05",
+  "timezone": "America/Sao_Paulo",
+  "scope": "Independent original media inspection: downloaded run 42066675761 artifacts for all five videos (each MP4, final review JPG, and eight original-source preview JPGs); sampled actual decoded MP4 timeline at 1 fps for eagle/goats; ffmpeg freeze detector checked. Technical CI success is not editorial approval.",
+  "media_run_id": 42066675761,
+  "media_commit": "f6a52d1474b26790b3643887656ea0f1df0e7b12",
+  "editorial_veto": [
+    {
+      "key": "mantis_folded_arms_and_insect_grip",
+      "review": "REJECT",
+      "reason": "Current-run hook displays a beetle-like insect rather than a praying mantis, contradicting species and spoken hook. Current render must not be published.",
+      "action": "Replace source_00 with visually verified close mantis footage. Rebuild only this candidate; inspect new preview and actual MP4."
+    },
+    {
+      "key": "beaver_zoo_land_and_water_movement",
+      "review": "REJECT",
+      "reason": "Current-run opening, second and fourth narrated blocks show extremely dark red/night-vision enclosure footage; animal barely discernible. Fails visual clarity.",
+      "action": "Replace affected nocturnal red source clips with bright clear footage from legally verified real beavers, adjust text to visible behavior, rerender only this candidate."
+    },
+    {
+      "key": "kingfisher_digging_and_fishing_bill",
+      "review": "REJECT",
+      "reason": "Current-run source_05/review clips show a distant sitting bird with no clear visible caught fish, while narration asserts handling a fish; water-edge footage is partly distant.",
+      "action": "Remove unverified fish-handling claim or find source actually depicting close identifiable fish; rerender and review."
+    },
+    {
+      "key": "bald_eagle_small_bites_for_eaglets",
+      "review": "REJECT",
+      "reason": "Actual nest footage contains a distant bird, but no clearly visible chicks/parent-care interaction. Current narration mentions raising young and young eagles relying on adults with unproven visible relation; payoff bird tiny. Visually weak for hook.",
+      "action": "Reframe strictly to observable adult nest/perch/flight behavior and visibly verifiable eagle scenes, or obtain closer licensed eagle family footage; rerender then re-review."
+    }
+  ],
+  "pending": [
+    {
+      "key": "goats_grazing_grooming_and_nursing",
+      "review": "TARGETED_CORRECTION_IN_PROGRESS",
+      "reason": "Current-run visual material shows real goat hillside, rocky movement, grazing/resting, pen/grooming, kids with adult, payoff. A spoken yawning claim not independently observable in current-run sampled frames, so updated 2026-11-05 revision v2 to describe pen and grooming only.",
+      "corrective_commit": "7a7807d1b57482db90dee3f2471bc330945aa2d0",
+      "new_render_run": 42107454267,
+      "postfix_review_required": true
+    }
+  ],
+  "controls": {
+    "exact_tiktok_handle": "wildvox",
+    "brand_id": 7242311,
+    "all_unapproved_publication_hold": true,
+    "metricool_schedule_only_after_independent_approval": true,
+    "never_youtube": true,
+    "buffer_wildvox6_forbidden": true
+  }
+}
