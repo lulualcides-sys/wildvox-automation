@@ -186,7 +186,7 @@
   },
   "kingfisher_digging_and_fishing_bill": {
     "title": "Where Kingfishers Rest Between Flights",
-    "script": "This kingfisher pauses on a rounded post, tilting its head between looks. Elsewhere, another kingfisher rests on a branch beside a pond. In a closer view, its blue and orange feathers stand out as it shifts on its perch. Some kingfishers sit deep among branches, where leaves almost hide their bright colors. Another bird remains on a low branch, watching the bank from a distance. Different close views reveal the long pointed bill and compact body of this little bird.",
+    "script": "This kingfisher pauses on a rounded post, tilting its head between looks. Elsewhere, another kingfisher rests on a branch beside a pond. In a closer view, its blue and orange feathers stand out as it shifts on its perch. Some kingfishers sit deep among branches, where leaves almost hide their bright colors. Another bird remains on a low branch, watching the bank from a distance. From one perch to another, this little bird keeps its distinctive pointed bill in view.",
     "caption": "THE QUIET MOMENTS OF A KINGFISHER. #WildVox #Kingfisher #Birds #Wildlife",
     "sources": [
       {
@@ -308,7 +308,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-05-kingfisher_digging_and_fishing_bill-perching-observed-v2",
+    "revision": "2026-11-05-kingfisher_digging_and_fishing_bill-perching-observed-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -358,8 +358,8 @@
         "overlay_label": "ANOTHER SIDE"
       },
       {
-        "text": "Different close views reveal the long pointed bill and compact body of this little bird.",
-        "scene": "Sources_06 and 07 show two actual perches with identifiable kingfisher appearance.",
+        "text": "From one perch to another, this little bird keeps its distinctive pointed bill in view.",
+        "scene": "Actual source_06 wider view followed by close source_07 of the pointed kingfisher bill; no false assertion both clips are close-ups.",
         "tags": [
           "kingfisher_close_perch_last_scene"
         ],
