@@ -1,11 +1,11 @@
 {
   "key": "goats_grazing_grooming_and_nursing",
   "title": "A Goat Herd Does More Than Eat",
-  "caption": "WHAT GOATS DO BETWEEN MEALS. #WildVox #Goats #AnimalLife #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Kat Walsh | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm | https://creativecommons.org/licenses/by/4.0\n2. gailhampshire (Flickr gails_pictures) | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_video.webm | https://creativecommons.org/licenses/by/2.0\n3. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_eating.webm | https://creativecommons.org/licenses/by/2.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0\n5. Rivadavia.vila | CC0 | https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_yawning.webm | https://creativecommons.org/licenses/by/2.0\n7. Darius Dunlap | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Newborn_goats.webm | https://creativecommons.org/licenses/by/2.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0",
+  "caption": "WHAT GOATS DO BETWEEN MEALS. #WildVox #Goats #AnimalLife #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Kat Walsh | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm | https://creativecommons.org/licenses/by/4.0\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-15_%C4%8CRNE%C4%8CA_VAS_(Gorjanci)_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0\n3. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_eating.webm | https://creativecommons.org/licenses/by/2.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0\n5. Rivadavia.vila | CC0 | https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_yawning.webm | https://creativecommons.org/licenses/by/2.0\n7. Darius Dunlap | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Newborn_goats.webm | https://creativecommons.org/licenses/by/2.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "32fbc003e1426768ce2c7d0f11304178c9777978920c1ae9553abc95f8e25941",
-  "duration": 34.1,
+  "config_sha256": "102705b70cbb8afa9670d5d9ca1b42ee19f5dfb9eeb94c6c2722592861ee9ed9",
+  "duration": 34.8,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -26,12 +26,12 @@
     {
       "index": 1,
       "start": 5.85,
-      "end": 11.125,
-      "duration": 5.275,
-      "text": "In a different place, a herd picks its way across rough and rocky ground.",
-      "scene": "Actual goats moving across rocky ground",
+      "end": 11.825,
+      "duration": 5.975,
+      "text": "In another place, a goat appears in a different landscape, away from the first herd.",
+      "scene": "Distinct authentic domestic goat video filmed at Črneča Vas, Slovenia; do not claim specific walking/rocky action unless visible.",
       "tags": [
-        "goat_herd_moving_rocky_ground"
+        "goat_crneca_vas_scenic"
       ],
       "story_role": "setup",
       "overlay_label": "WHY IT MATTERS",
@@ -39,8 +39,8 @@
     },
     {
       "index": 2,
-      "start": 11.125,
-      "end": 16.425,
+      "start": 11.825,
+      "end": 17.125,
       "duration": 5.3,
       "text": "Other goats stop to eat hay, while one rests on an open grassy patch.",
       "scene": "Goats eating hay and separately resting on grass",
@@ -53,8 +53,8 @@
     },
     {
       "index": 3,
-      "start": 16.425,
-      "end": 22.425,
+      "start": 17.125,
+      "end": 23.125,
       "duration": 6.0,
       "text": "Some goats pause inside a barn, while others groom themselves between activities.",
       "scene": "Authentic indoor goat pen followed by a separate genuine goat grooming view; no claim of visible yawning.",
@@ -67,8 +67,8 @@
     },
     {
       "index": 4,
-      "start": 22.425,
-      "end": 28.075000000000003,
+      "start": 23.125,
+      "end": 28.775,
       "duration": 5.65,
       "text": "Small newborn kids stand near an adult goat, still learning their surroundings.",
       "scene": "Real newborn kids next to adult; no claim nursing",
@@ -81,8 +81,8 @@
     },
     {
       "index": 5,
-      "start": 28.075000000000003,
-      "end": 34.1,
+      "start": 28.775,
+      "end": 34.8,
       "duration": 6.025,
       "text": "A goat herd has quiet moments, busy moments, and many tiny daily routines.",
       "scene": "Real goat standing on grass",
@@ -110,18 +110,18 @@
       "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
     },
     {
-      "assetTitle": "Goats video.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_video.webm",
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20video.webm",
+      "assetTitle": "2022-06-15 ČRNEČA VAS (Gorjanci) ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-15_%C4%8CRNE%C4%8CA_VAS_(Gorjanci)_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-15%20%C4%8CRNE%C4%8CA%20VAS%20(Gorjanci)%20ARTIODACTYLA%20Capra%20aegagrus%20hircus%20DOMA%C4%8CA%20KOZA.webm",
       "type": "video",
-      "author": "gailhampshire (Flickr gails_pictures)",
-      "license": "CC BY 2.0",
-      "license_url": "https://creativecommons.org/licenses/by/2.0",
-      "license_verified_at": "2026-10-31",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-05",
       "tags": [
-        "goat_herd_moving_rocky_ground"
+        "goat_crneca_vas_scenic"
       ],
-      "license_note": "Original Flickr creator gailhampshire verified against Commons file source and Flickr attribution; full scene and action-window review pending. RESEARCH ONLY."
+      "license_note": "Commons source license reviewed by MZaplotnik 2025-08-08; independent video-frame validation still required; RESEARCH ONLY."
     },
     {
       "assetTitle": "Goats eating.webm",
