@@ -4,8 +4,8 @@
   "caption": "WHAT GOATS DO BETWEEN MEALS. #WildVox #Goats #AnimalLife #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Kat Walsh | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm | https://creativecommons.org/licenses/by/4.0\n2. gailhampshire (Flickr gails_pictures) | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_video.webm | https://creativecommons.org/licenses/by/2.0\n3. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_eating.webm | https://creativecommons.org/licenses/by/2.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0\n5. Rivadavia.vila | CC0 | https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_yawning.webm | https://creativecommons.org/licenses/by/2.0\n7. Darius Dunlap | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Newborn_goats.webm | https://creativecommons.org/licenses/by/2.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "fdc263d186cba3d6eea7e11948b51828192b0294e7db6f7c86049b5d78732866",
-  "duration": 34.08,
+  "config_sha256": "32fbc003e1426768ce2c7d0f11304178c9777978920c1ae9553abc95f8e25941",
+  "duration": 34.1,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -54,10 +54,10 @@
     {
       "index": 3,
       "start": 16.425,
-      "end": 22.4,
-      "duration": 5.975,
-      "text": "Close recordings reveal goats grooming their coats and yawning between activities.",
-      "scene": "Grooming and yawning goats in genuine recordings",
+      "end": 22.425,
+      "duration": 6.0,
+      "text": "Some goats pause inside a barn, while others groom themselves between activities.",
+      "scene": "Authentic indoor goat pen followed by a separate genuine goat grooming view; no claim of visible yawning.",
       "tags": [
         "goats_grooming_or_yawning"
       ],
@@ -67,8 +67,8 @@
     },
     {
       "index": 4,
-      "start": 22.4,
-      "end": 28.049999999999997,
+      "start": 22.425,
+      "end": 28.075000000000003,
       "duration": 5.65,
       "text": "Small newborn kids stand near an adult goat, still learning their surroundings.",
       "scene": "Real newborn kids next to adult; no claim nursing",
@@ -81,8 +81,8 @@
     },
     {
       "index": 5,
-      "start": 28.049999999999997,
-      "end": 34.074999999999996,
+      "start": 28.075000000000003,
+      "end": 34.1,
       "duration": 6.025,
       "text": "A goat herd has quiet moments, busy moments, and many tiny daily routines.",
       "scene": "Real goat standing on grass",
