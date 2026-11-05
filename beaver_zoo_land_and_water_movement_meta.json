@@ -1,21 +1,21 @@
 {
   "key": "beaver_zoo_land_and_water_movement",
-  "title": "Why Does a Beaver Move So Differently Near Water?",
-  "caption": "A BEAVER'S BODY IS BUILT FOR WATER. Filmed in a zoo. #WildVox #Beavers #AnimalFacts #Nature\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Castor_canadensis_KANADSKI_BOBER_2.webm | https://creativecommons.org/licenses/by/3.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Castor_canadensis_KANADSKI_BOBER_3.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis_4.webm | https://creativecommons.org/licenses/by/3.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis_5.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Castor_canadensis_KANADSKI_BOBER_4.webm | https://creativecommons.org/licenses/by/3.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis.webm | https://creativecommons.org/licenses/by/3.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis_3.webm | https://creativecommons.org/licenses/by/3.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Castor_canadensis_2.webm | https://creativecommons.org/licenses/by/3.0/",
+  "title": "Why Do Beavers Look Different in Water?",
+  "caption": "A BEAVER ON LAND VERSUS WATER. #WildVox #Beaver #Animals #Nature\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Castor_canadensis_KANADSKI_BOBER_2.webm | https://creativecommons.org/licenses/by/3.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Castor_canadensis_KANADSKI_BOBER_3.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis_4.webm | https://creativecommons.org/licenses/by/3.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis_5.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-02-17_ZOO_LJUBLJANA_Castor_canadensis_KANADSKI_BOBER_4.webm | https://creativecommons.org/licenses/by/3.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis.webm | https://creativecommons.org/licenses/by/3.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2023-08-18_ZOO_LJUBLJANA_-_Castor_canadensis_3.webm | https://creativecommons.org/licenses/by/3.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2024-06-01_LJUBLJANA_ZOO_LJUBLJANA_-_Castor_canadensis_2.webm | https://creativecommons.org/licenses/by/3.0/",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "0a586fffe9eeff55ab69d75a59e8e67460b2d28d93ad7d7e5fd7524323667b75",
-  "duration": 34.02,
+  "config_sha256": "948e4a58fbb8bd9a3699327d31cdf7c752380ec5e529b655d8d7e70c1a108fb1",
+  "duration": 31.45,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
     {
       "index": 0,
       "start": 0.0,
-      "end": 6.175,
-      "duration": 6.175,
-      "text": "This North American beaver was filmed at a zoo, where its heavy body is easy to see.",
-      "scene": "North American beaver in Ljubljana zoo shown on or near ground.",
+      "end": 4.925,
+      "duration": 4.925,
+      "text": "Here is a North American beaver filmed in an enclosure at a zoo.",
+      "scene": "Real captive beaver at Ljubljana Zoo",
       "tags": [
         "captive_beaver_body_shape_zoo"
       ],
@@ -25,11 +25,11 @@
     },
     {
       "index": 1,
-      "start": 6.175,
-      "end": 12.0,
-      "duration": 5.825,
-      "text": "On the ground, the animal carries a broad body and stays close to the enclosure.",
-      "scene": "Another authentic beaver recording inside zoo enclosure.",
+      "start": 4.925,
+      "end": 10.175,
+      "duration": 5.25,
+      "text": "On dry ground, its heavy body is easy to spot as it moves along.",
+      "scene": "Beaver walking through zoo enclosure",
       "tags": [
         "beaver_moving_around_zoo_enclosure"
       ],
@@ -39,11 +39,11 @@
     },
     {
       "index": 2,
-      "start": 12.0,
-      "end": 17.625,
-      "duration": 5.625,
-      "text": "When it enters water, that same body is supported as it moves and paddles.",
-      "scene": "Two separate genuine clips of beaver water movement at zoo.",
+      "start": 10.175,
+      "end": 15.075000000000001,
+      "duration": 4.9,
+      "text": "Watch it enter the water, where the same animal begins to paddle.",
+      "scene": "Authentic beaver swimming, separate clips",
       "tags": [
         "beaver_swimming_in_zoo_water"
       ],
@@ -53,11 +53,11 @@
     },
     {
       "index": 3,
-      "start": 17.625,
-      "end": 23.275,
-      "duration": 5.65,
-      "text": "A beaver also has dense fur that helps protect it in its watery habitat.",
-      "scene": "Beaver in separate close view of its fur and body.",
+      "start": 15.075000000000001,
+      "end": 21.0,
+      "duration": 5.925,
+      "text": "Other close recordings reveal its thick coat and broad body from new angles.",
+      "scene": "Real beaver body and fur close view",
       "tags": [
         "beaver_zoo_enclosure_close_body"
       ],
@@ -67,11 +67,11 @@
     },
     {
       "index": 4,
-      "start": 23.275,
-      "end": 27.825,
-      "duration": 4.55,
-      "text": "Watch how different the animal can look when it is moving through water.",
-      "scene": "Beaver moving through water in different zoo session.",
+      "start": 21.0,
+      "end": 26.2,
+      "duration": 5.2,
+      "text": "Back in the pool, the beaver travels with a very different-looking movement.",
+      "scene": "Separate actual beaver moving in pool",
       "tags": [
         "beaver_in_water_separate_zoo_session"
       ],
@@ -81,11 +81,11 @@
     },
     {
       "index": 5,
-      "start": 27.825,
-      "end": 34.025,
-      "duration": 6.2,
-      "text": "These zoo recordings give a close look at a rodent adapted for life beside water.",
-      "scene": "Two beaver sightings in zoo setting near water.",
+      "start": 26.2,
+      "end": 31.45,
+      "duration": 5.25,
+      "text": "These real zoo scenes show how one animal handles both land and water.",
+      "scene": "Two genuine Ljubljana Zoo beaver clips",
       "tags": [
         "beaver_near_water_ljubljana_zoo"
       ],
