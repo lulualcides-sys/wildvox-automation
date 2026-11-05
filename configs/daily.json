@@ -740,7 +740,7 @@
   },
   "goats_grazing_grooming_and_nursing": {
     "title": "A Goat Herd Does More Than Eat",
-    "script": "Look at the goats scattered across this grassy hillside, each moving at its own pace. In a different place, a herd picks its way across rough and rocky ground. Other goats stop to eat hay, while one rests on an open grassy patch. Close recordings reveal goats grooming their coats and yawning between activities. Small newborn kids stand near an adult goat, still learning their surroundings. A goat herd has quiet moments, busy moments, and many tiny daily routines.",
+    "script": "Look at the goats scattered across this grassy hillside, each moving at its own pace. In a different place, a herd picks its way across rough and rocky ground. Other goats stop to eat hay, while one rests on an open grassy patch. Some goats pause inside a barn, while others groom themselves between activities. Small newborn kids stand near an adult goat, still learning their surroundings. A goat herd has quiet moments, busy moments, and many tiny daily routines.",
     "caption": "WHAT GOATS DO BETWEEN MEALS. #WildVox #Goats #AnimalLife #Wildlife",
     "sources": [
       {
@@ -862,7 +862,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-05-goats_grazing_grooming_and_nursing-footage-grounded-v1",
+    "revision": "2026-11-05-goats_grazing_grooming_and_nursing-verifiable-stall-grooming-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -893,8 +893,8 @@
         "overlay_label": "REAL ACTION"
       },
       {
-        "text": "Close recordings reveal goats grooming their coats and yawning between activities.",
-        "scene": "Grooming and yawning goats in genuine recordings",
+        "text": "Some goats pause inside a barn, while others groom themselves between activities.",
+        "scene": "Authentic indoor goat pen followed by a separate genuine goat grooming view; no claim of visible yawning.",
         "tags": [
           "goats_grooming_or_yawning"
         ],
