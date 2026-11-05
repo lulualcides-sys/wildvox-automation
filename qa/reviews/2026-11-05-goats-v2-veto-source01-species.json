@@ -1,0 +1,22 @@
+{
+  "day": "2026-11-05",
+  "key": "goats_grazing_grooming_and_nursing",
+  "status": "VETO_OLD_V2_RENDER",
+  "source_run_id": 42107454267,
+  "artifact_id": 13455995380,
+  "config_sha256": "32fbc003e1426768ce2c7d0f11304178c9777978920c1ae9553abc95f8e25941",
+  "mp4_sha256": "385151dd2f277afe71a931fdac98be67a1a96b71e280fb6af4fdd89732281366",
+  "actual_duration_seconds": 34.1,
+  "actual_resolution": "1080x1920",
+  "frame_rate": 30,
+  "freeze_check": "ffmpeg freezedetect n=-50dB d=1 returned no freeze segments",
+  "visual_inspection": "Decoded actual final MP4 at 0.8,3.5,6.5,9.5,12,14.5,17,19.5,23,26,29,32 seconds; reviewed all eight original-source preview images.",
+  "failure": "At 6.5–11.1 seconds (narration 'goat herd across rocky ground'), actual video depicts birds/ducks at a rocky stream, with no discernible goats. This is a species and action mismatch; cannot approve despite CI success.",
+  "remediation": {
+    "new_config_commit": "fc73f2c2bf6ea4c403e03ce8d301d5f9adfe5a7b",
+    "new_revision": "2026-11-05-goats_grazing_grooming_and_nursing-replace-mismatched-duck-source-v3",
+    "source_replacement": "Wikimedia Commons 2022-06-15 ČRNEČA VAS (Gorjanci) ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm, author NaIzletuSi, CC BY 3.0, independent source review pending.",
+    "next_step": "Wait for v3 targeted render, visually verify scene1 contains actual goats and accurate script, then independent full editorial/legal approval; do not schedule v2."
+  },
+  "publication_hold": true
+}
