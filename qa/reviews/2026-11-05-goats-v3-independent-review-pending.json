@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-05",
+  "key": "goats_grazing_grooming_and_nursing",
+  "run_id": 42116565062,
+  "run_commit": "fc73f2c2bf6ea4c403e03ce8d301d5f9adfe5a7b",
+  "daily_blob_sha": "9c65d8ccc94634487b7ee2770bc41d3fff100b70",
+  "revision": "2026-11-05-goats_grazing_grooming_and_nursing-replace-mismatched-duck-source-v3",
+  "config_sha256": "102705b70cbb8afa9670d5d9ca1b42ee19f5dfb9eeb94c6c2722592861ee9ed9",
+  "media_sha256": "2a9ae6f18e9d6d8db6a90a765af3cbbf133282bcd539bfadbe1e93e00c74a678",
+  "duration_seconds": 34.8,
+  "unique_source_videos": 8,
+  "source_previews_inspected": 8,
+  "review_contact_sheet_inspected": true,
+  "independent_ffmpeg_freezedetect_1s": "no freezes detected at -50dB",
+  "narration_vs_images": "The replacement scene shows goats, not ducks. Six narrated blocks are broadly consistent with sampled contact-sheet scenes; full independent playback, safe-zone and per-shot timing inspection remain incomplete.",
+  "license_status": "Source licenses and credits are declared in metadata, but independent original-license and commercial-rights verification has not been completed in this run.",
+  "editorial_approved": false,
+  "publication_hold": true,
+  "decision": "PENDING_INDEPENDENT_FULL_REVIEW",
+  "scheduled": false,
+  "reason": "Technical QA pass and contact sheet inspection alone cannot clear full narration, shot timings, safe-zone and original commercial license provenance."
+}
