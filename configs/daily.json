@@ -185,9 +185,9 @@
     "trend_priority": false
   },
   "kingfisher_digging_and_fishing_bill": {
-    "title": "Why Does a Kingfisher Sit and Watch the Water?",
-    "script": "Can you spot this little kingfisher keeping watch beside a stretch of moving water? The same species appears on branches and banks, pausing between short trips. One close recording shows a kingfisher preening its feathers while sitting on a perch. At different waterways, these birds can stay still as the water moves past them. Then a separate clip shows a kingfisher handling a fish it has already caught. Watching, cleaning feathers, and eating are very different moments in a kingfisher's day.",
-    "caption": "THE KINGFISHER'S QUIET SIDE. #WildVox #Kingfisher #Birds #Nature",
+    "title": "Where Kingfishers Rest Between Flights",
+    "script": "This kingfisher pauses on a rounded post, tilting its head between looks. Elsewhere, another kingfisher rests on a branch beside a pond. In a closer view, its blue and orange feathers stand out as it shifts on its perch. Some kingfishers sit deep among branches, where leaves almost hide their bright colors. Another bird remains on a low branch, watching the bank from a distance. Different close views reveal the long pointed bill and compact body of this little bird.",
+    "caption": "THE QUIET MOMENTS OF A KINGFISHER. #WildVox #Kingfisher #Birds #Wildlife",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-14%20LJUBLJANA%20%C5%A0pica%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
@@ -308,12 +308,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-05-kingfisher_digging_and_fishing_bill-footage-grounded-v1",
+    "revision": "2026-11-05-kingfisher_digging_and_fishing_bill-perching-observed-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Can you spot this little kingfisher keeping watch beside a stretch of moving water?",
-        "scene": "Actual common kingfisher alongside Ljubljana waterway",
+        "text": "This kingfisher pauses on a rounded post, tilting its head between looks.",
+        "scene": "Original source_00 visibly shows a kingfisher on a rounded concrete post.",
         "tags": [
           "kingfisher_perched_at_water_edge"
         ],
@@ -321,8 +321,8 @@
         "overlay_label": "LOOK CLOSER"
       },
       {
-        "text": "The same species appears on branches and banks, pausing between short trips.",
-        "scene": "Real kingfisher resting near water",
+        "text": "Elsewhere, another kingfisher rests on a branch beside a pond.",
+        "scene": "Kingfisher source_01 perched on a branch near water.",
         "tags": [
           "kingfisher_resting_preening_by_water"
         ],
@@ -330,8 +330,8 @@
         "overlay_label": "WHY IT MATTERS"
       },
       {
-        "text": "One close recording shows a kingfisher preening its feathers while sitting on a perch.",
-        "scene": "Common Kingfisher preening.webm shows preening",
+        "text": "In a closer view, its blue and orange feathers stand out as it shifts on its perch.",
+        "scene": "Close original source_02 demonstrates blue and orange kingfisher plumage; no unsupported preening assertion.",
         "tags": [
           "kingfisher_preening_feathers"
         ],
@@ -339,8 +339,8 @@
         "overlay_label": "REAL ACTION"
       },
       {
-        "text": "At different waterways, these birds can stay still as the water moves past them.",
-        "scene": "Real kingfisher perched by a separate waterway",
+        "text": "Some kingfishers sit deep among branches, where leaves almost hide their bright colors.",
+        "scene": "Sources_03 and 04 show real perched kingfishers amid leaves and branches.",
         "tags": [
           "kingfisher_at_different_waterway",
           "kingfisher_perched_near_river_habitat"
@@ -349,8 +349,8 @@
         "overlay_label": "THE REASON"
       },
       {
-        "text": "Then a separate clip shows a kingfisher handling a fish it has already caught.",
-        "scene": "Kingfisher visibly handling real fish",
+        "text": "Another bird remains on a low branch, watching the bank from a distance.",
+        "scene": "Source_05 shows a genuine small bird perched near shaded bank; no unverified caught fish claim.",
         "tags": [
           "kingfisher_eating_caught_fish"
         ],
@@ -358,8 +358,8 @@
         "overlay_label": "ANOTHER SIDE"
       },
       {
-        "text": "Watching, cleaning feathers, and eating are very different moments in a kingfisher's day.",
-        "scene": "Two genuine kingfisher feeding and perching clips",
+        "text": "Different close views reveal the long pointed bill and compact body of this little bird.",
+        "scene": "Sources_06 and 07 show two actual perches with identifiable kingfisher appearance.",
         "tags": [
           "kingfisher_close_perch_last_scene"
         ],
