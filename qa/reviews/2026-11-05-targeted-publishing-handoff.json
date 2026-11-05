@@ -1,0 +1,39 @@
+{
+  "day": "2026-11-05",
+  "timezone": "America/Sao_Paulo",
+  "platform": "TikTok",
+  "handle": "wildvox",
+  "brand_id": 7242311,
+  "objective": "Schedule the first independently visually and legally approved 30-45s current-day MP4 without waiting for other candidates. Verify latest main/daily.json before edits and all Metricool scheduled/posts analytics for duplicates.",
+  "priority": [
+    {
+      "key": "goats_grazing_grooming_and_nursing",
+      "correction_commit": "7a7807d1b57482db90dee3f2471bc330945aa2d0",
+      "workflow_run": 42107454267,
+      "issue_fixed": "Removed unproven yawn assertion; narration now matches pen+grooming observable footage.",
+      "next_step": "Read this run's new MP4, review JPG, all eight source previews and metadata. Compare config_sha256 against latest config for this entry, independently verify frames/duration/true freeze, safe area and credits. Only if approved, schedule exact @wildvox one unused future slot."
+    },
+    {
+      "key": "kingfisher_digging_and_fishing_bill",
+      "correction_commit": "8de8e281ebe0036d081537ea175492ca4078e54c",
+      "workflow_run": 42108046327,
+      "issue_fixed": "Removed unverified caught-fish and water-dive claims; observable perching narrative only.",
+      "next_step": "After current goat run, inspect NEW kingfisher output and sources. Keep hold if any individual scene is still false/indistinct. If approved, schedule only unused future slot."
+    }
+  ],
+  "vetoed_for_current_old_fingerprints": [
+    "mantis_folded_arms_and_insect_grip",
+    "beaver_zoo_land_and_water_movement",
+    "bald_eagle_small_bites_for_eaglets"
+  ],
+  "slots_local_future_for_2026_11_05": [
+    "19:35",
+    "22:05"
+  ],
+  "maximum_five_for_day": true,
+  "no_retroactive_schedule": true,
+  "metricool_duplicate_check": "Before EACH createScheduledPost, call getScheduledPosts and TikTok TKPO01/TKPO02/TKPO03/TKPO05; verify provider network tiktok handle wildvox, unique video key/fingerprint/caption, max five total.",
+  "publication_requirement": "Metricool ID + provider PENDING confirms scheduling only; provider PUBLISHED and exact @wildvox publicUrl/TikTok provider ID confirms publishing. Provider ERROR must be captured and approved media preserved.",
+  "legal_review": "Keep publication_hold=true without per-candidate approval record; no YouTube, no Buffer @wildvox6, no bypass of rights, no speculative rerenders.",
+  "reference_veto": "qa/reviews/2026-11-05-independent-editorial-veto.json"
+}
