@@ -1,22 +1,22 @@
 {
   "mantis_folded_arms_and_insect_grip": {
-    "title": "Why Does a Mantis Hold Its Arms Up?",
-    "script": "Why does this mantis hold its front legs up, almost like it is waving? Those folded legs have spines that help the insect grip things close to its body. When a smaller insect is caught, the mantis uses those arms to keep its meal from escaping. Other close recordings show how carefully the animal positions those same front legs. A raised posture can also appear when a mantis responds to something around it. Whether it is handling prey or holding still, those front legs are its most remarkable tools.",
-    "caption": "WHY DOES A MANTIS HOLD ITS ARMS UP? #WildVox #Animals #Nature #Wildlife",
+    "title": "A Praying Mantis Has Two Very Different Foreleg Moves",
+    "script": "Look at this mantis lifting one front leg as it moves in front of the camera. Those folded forelegs carry tiny spines that help hold objects close to its body. Other recordings show a mantis gripping insect prey with those very same front legs. On a quiet leaf, a mantis can pause and carefully reposition its forelegs. In another outdoor scene, a mantis reacts by raising its arms in a wider posture. From a small wave to gripping prey, these forelegs do much more than walking.",
+    "caption": "TINY ARMS, TWO JOBS. #WildVox #PrayingMantis #AnimalBehavior #Wildlife",
     "sources": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praying%20mantis%20threat%20display.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praying%20mantis%20waving%20foreleg.webm",
         "type": "video",
-        "assetTitle": "Praying mantis threat display.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Praying_mantis_threat_display.webm",
+        "assetTitle": "Praying mantis waving foreleg.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Praying_mantis_waving_foreleg.webm",
         "tags": [
-          "mantis_raised_forelegs_threat_posture"
+          "mantis_waving_front_legs_close"
         ],
-        "author": "Quentin Scouflaire",
+        "author": "L. Shyamal",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+        "license_verified_at": "2026-11-05",
+        "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kudlanka%20n%C3%A1bo%C5%BEn%C3%A1%20-%20video%2001.webm",
@@ -89,14 +89,14 @@
         "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB%20%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%B9.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praying%20mantis%20threat%20display.webm",
         "type": "video",
-        "assetTitle": "Богомол звичайний.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB_%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%B9.webm",
+        "assetTitle": "Praying mantis threat display.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Praying_mantis_threat_display.webm",
         "tags": [
-          "mantis_close_study_of_front_legs"
+          "mantis_raised_forelegs_threat_posture"
         ],
-        "author": "Сарапулов",
+        "author": "Quentin Scouflaire",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0/",
         "license_verified_at": "2026-10-30",
@@ -123,21 +123,21 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-04-mantis_folded_arms_and_insect_grip-fresh-narration-v1",
+    "revision": "2026-11-05-mantis_folded_arms_and_insect_grip-footage-grounded-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why does this mantis hold its front legs up, almost like it is waving?",
-        "scene": "Real mantis shown raising its forelegs in threat display.",
+        "text": "Look at this mantis lifting one front leg as it moves in front of the camera.",
+        "scene": "A live mantis nymph visibly waving a foreleg",
         "tags": [
-          "mantis_raised_forelegs_threat_posture"
+          "mantis_waving_front_legs_close"
         ],
         "story_role": "hook",
         "overlay_label": "LOOK CLOSER"
       },
       {
-        "text": "Those folded legs have spines that help the insect grip things close to its body.",
-        "scene": "Close image of folded forelegs on a live mantis.",
+        "text": "Those folded forelegs carry tiny spines that help hold objects close to its body.",
+        "scene": "Real close mantis folded forelegs",
         "tags": [
           "mantis_folded_front_legs_close_view"
         ],
@@ -145,8 +145,8 @@
         "overlay_label": "WHY IT MATTERS"
       },
       {
-        "text": "When a smaller insect is caught, the mantis uses those arms to keep its meal from escaping.",
-        "scene": "Mantis interacting with real insect prey in two separate recordings.",
+        "text": "Other recordings show a mantis gripping insect prey with those very same front legs.",
+        "scene": "Mantis holding real captured insect prey",
         "tags": [
           "mantis_real_insect_capture_and_grip"
         ],
@@ -154,8 +154,8 @@
         "overlay_label": "REAL ACTION"
       },
       {
-        "text": "Other close recordings show how carefully the animal positions those same front legs.",
-        "scene": "Authentic close-up of a mantis moving or holding its forelegs.",
+        "text": "On a quiet leaf, a mantis can pause and carefully reposition its forelegs.",
+        "scene": "Real mantis moving folded forelegs",
         "tags": [
           "mantis_close_posture_in_motion"
         ],
@@ -163,8 +163,8 @@
         "overlay_label": "THE REASON"
       },
       {
-        "text": "A raised posture can also appear when a mantis responds to something around it.",
-        "scene": "Mantis posture in a separate outdoor New York recording.",
+        "text": "In another outdoor scene, a mantis reacts by raising its arms in a wider posture.",
+        "scene": "Mantis response in separate outdoor footage",
         "tags": [
           "mantis_response_in_new_york_recording"
         ],
@@ -172,9 +172,10 @@
         "overlay_label": "ANOTHER SIDE"
       },
       {
-        "text": "Whether it is handling prey or holding still, those front legs are its most remarkable tools.",
-        "scene": "Two separate mantis close-ups of foreleg posture.",
+        "text": "From a small wave to gripping prey, these forelegs do much more than walking.",
+        "scene": "Raised mantis forelegs plus another close study",
         "tags": [
+          "mantis_raised_forelegs_threat_posture",
           "mantis_close_study_of_front_legs"
         ],
         "story_role": "payoff",
@@ -184,23 +185,23 @@
     "trend_priority": false
   },
   "kingfisher_digging_and_fishing_bill": {
-    "title": "What Does a Kingfisher Do Before It Catches Fish?",
-    "script": "This tiny kingfisher is working at a riverbank instead of diving after a fish. A bird that feeds near water still needs a sheltered place to raise its young. In this recording, it visits a small opening in the bank where a nest tunnel is being made. Other kingfishers can be seen resting or moving along the edges of different waterways. Later, the pointed bill has another job when a kingfisher handles a caught fish. The same small bird can work at its nest and bring home food with one remarkable bill.",
-    "caption": "A KINGFISHER HAS MORE THAN ONE JOB FOR ITS BILL. #WildVox #Birds #Wildlife #Nature",
+    "title": "Why Does a Kingfisher Sit and Watch the Water?",
+    "script": "Can you spot this little kingfisher keeping watch beside a stretch of moving water? The same species appears on branches and banks, pausing between short trips. One close recording shows a kingfisher preening its feathers while sitting on a perch. At different waterways, these birds can stay still as the water moves past them. Then a separate clip shows a kingfisher handling a fish it has already caught. Watching, cleaning feathers, and eating are very different moments in a kingfisher's day.",
+    "caption": "THE KINGFISHER'S QUIET SIDE. #WildVox #Kingfisher #Birds #Nature",
     "sources": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20Gravend%20-%20common%20kingfisher%20digging%20-%20Alcedo%20atthis.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-14%20LJUBLJANA%20%C5%A0pica%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
         "type": "video",
-        "assetTitle": "IJsvogel Gravend - common kingfisher digging - Alcedo atthis.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_Gravend_-_common_kingfisher_digging_-_Alcedo_atthis.webm",
+        "assetTitle": "2022-01-14 LJUBLJANA Špica CORACIIFORMES Alcedo atthis VODOMEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-14_LJUBLJANA_Špica_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
         "tags": [
-          "kingfisher_excavating_real_bank"
+          "kingfisher_perched_at_water_edge"
         ],
-        "author": "Bouke ten Cate",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-11-05",
+        "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
@@ -222,7 +223,7 @@
         "assetTitle": "Common Kingfisher preening.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_preening.webm",
         "tags": [
-          "kingfisher_at_nest_bank_entrance"
+          "kingfisher_preening_feathers"
         ],
         "author": "Lennart Hessel",
         "license": "CC BY 3.0",
@@ -231,18 +232,18 @@
         "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsvogel%20bij%20nestwand%20-%20common%20kingfisher%20at%20nest%20bank%20-%20Alcedo%20atthis.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-01%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
         "type": "video",
-        "assetTitle": "IJsvogel bij nestwand - common kingfisher at nest bank - Alcedo atthis.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:IJsvogel_bij_nestwand_-_common_kingfisher_at_nest_bank_-_Alcedo_atthis.webm",
+        "assetTitle": "2022-09-01 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-01_VRHNIKA_Ribniki_pri_stari_opekarni_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
         "tags": [
-          "kingfisher_at_nest_bank_entrance"
+          "kingfisher_at_different_waterway"
         ],
-        "author": "Bouke ten Cate",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-11-05",
+        "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-23%20RIBNIKI%20V%20DOLINI%20DRAGE%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
@@ -307,21 +308,21 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-04-kingfisher_digging_and_fishing_bill-fresh-narration-v1",
+    "revision": "2026-11-05-kingfisher_digging_and_fishing_bill-footage-grounded-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "This tiny kingfisher is working at a riverbank instead of diving after a fish.",
-        "scene": "Kingfisher digging at a real riverbank opening.",
+        "text": "Can you spot this little kingfisher keeping watch beside a stretch of moving water?",
+        "scene": "Actual common kingfisher alongside Ljubljana waterway",
         "tags": [
-          "kingfisher_excavating_real_bank"
+          "kingfisher_perched_at_water_edge"
         ],
         "story_role": "hook",
         "overlay_label": "LOOK CLOSER"
       },
       {
-        "text": "A bird that feeds near water still needs a sheltered place to raise its young.",
-        "scene": "Authentic kingfisher perching or preening near water.",
+        "text": "The same species appears on branches and banks, pausing between short trips.",
+        "scene": "Real kingfisher resting near water",
         "tags": [
           "kingfisher_resting_preening_by_water"
         ],
@@ -329,26 +330,27 @@
         "overlay_label": "WHY IT MATTERS"
       },
       {
-        "text": "In this recording, it visits a small opening in the bank where a nest tunnel is being made.",
-        "scene": "Separate footage of kingfisher at riverbank entrance.",
+        "text": "One close recording shows a kingfisher preening its feathers while sitting on a perch.",
+        "scene": "Common Kingfisher preening.webm shows preening",
         "tags": [
-          "kingfisher_at_nest_bank_entrance"
+          "kingfisher_preening_feathers"
         ],
         "story_role": "action",
         "overlay_label": "REAL ACTION"
       },
       {
-        "text": "Other kingfishers can be seen resting or moving along the edges of different waterways.",
-        "scene": "Actual kingfisher in two separate watery habitats.",
+        "text": "At different waterways, these birds can stay still as the water moves past them.",
+        "scene": "Real kingfisher perched by a separate waterway",
         "tags": [
+          "kingfisher_at_different_waterway",
           "kingfisher_perched_near_river_habitat"
         ],
         "story_role": "explanation",
         "overlay_label": "THE REASON"
       },
       {
-        "text": "Later, the pointed bill has another job when a kingfisher handles a caught fish.",
-        "scene": "Kingfisher visibly handling a fish.",
+        "text": "Then a separate clip shows a kingfisher handling a fish it has already caught.",
+        "scene": "Kingfisher visibly handling real fish",
         "tags": [
           "kingfisher_eating_caught_fish"
         ],
@@ -356,8 +358,8 @@
         "overlay_label": "ANOTHER SIDE"
       },
       {
-        "text": "The same small bird can work at its nest and bring home food with one remarkable bill.",
-        "scene": "Kingfisher perched near the water in a close view.",
+        "text": "Watching, cleaning feathers, and eating are very different moments in a kingfisher's day.",
+        "scene": "Two genuine kingfisher feeding and perching clips",
         "tags": [
           "kingfisher_close_perch_last_scene"
         ],
@@ -368,9 +370,9 @@
     "trend_priority": false
   },
   "bald_eagle_small_bites_for_eaglets": {
-    "title": "Why Do Bald Eagle Parents Feed Such Small Bites?",
-    "script": "An adult bald eagle has a powerful beak, but its chicks still need very small meals. Young eaglets cannot catch their own fish, so adults must bring food to the nest. Here another parent bends toward the nest, offering food to growing young birds. Across other places, adult bald eagles keep searching, flying, and watching their surroundings. Even these powerful birds can be chased by smaller birds near a territory. Long before a young eagle can hunt, its survival depends on the adults that feed it.",
-    "caption": "WHY EAGLETS NEED SMALL BITES. #WildVox #Eagles #AnimalFacts #Wildlife",
+    "title": "Bald Eagles: From Nest to Open Sky",
+    "script": "From this distant nest camera, we can glimpse bald eagles sharing a place to raise young. Another recording shows adult eagles together in a separate area of their territory. At a second nest, the family is filmed again from a different viewpoint. Far from the nest, adults perch, turn, and explore the landscape around them. Refuge footage reveals another view of these powerful birds in the wild. Young eagles still rely on adults before they can find food independently.",
+    "caption": "THE EAGLE'S WORLD FROM NEST TO SKY. #WildVox #BaldEagle #Wildlife #Nature",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20feeding%20eaglets%20on%20Seedskadee%20National%20Wildlife%20Refuge%20(27715193638).webm",
@@ -378,7 +380,7 @@
         "assetTitle": "Bald eagle feeding eaglets on Seedskadee National Wildlife Refuge (27715193638).webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_feeding_eaglets_on_Seedskadee_National_Wildlife_Refuge_(27715193638).webm",
         "tags": [
-          "bald_eagle_parent_feeding_nest_chicks"
+          "bald_eagle_nest_observed_from_distance"
         ],
         "author": "USFWS Mountain Prairie",
         "license": "Public domain",
@@ -406,7 +408,7 @@
         "assetTitle": "Bald eagle feeding eaglets at Seedskadee National Wildlife Refuge (39930814005).webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_feeding_eaglets_at_Seedskadee_National_Wildlife_Refuge_(39930814005).webm",
         "tags": [
-          "bald_eagle_second_eaglet_feeding"
+          "bald_eagle_second_nest_observed"
         ],
         "author": "USFWS Mountain Prairie",
         "license": "Public domain",
@@ -420,7 +422,7 @@
         "assetTitle": "Bald eagle (Haliaeetus leucocephalus) in California.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_in_California.webm",
         "tags": [
-          "bald_eagle_second_eaglet_feeding"
+          "bald_eagle_adult_at_separate_site"
         ],
         "author": "devra",
         "license": "CC BY 2.0",
@@ -443,18 +445,18 @@
         "license_note": "Commons original media candidate; Public domain. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20eagle%20(Haliaeetus%20leucocephalus)%20being%20chased%20by%20a%20smaller%20bird.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagles%20(18731656064).webm",
         "type": "video",
-        "assetTitle": "Bald eagle (Haliaeetus leucocephalus) being chased by a smaller bird.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_eagle_(Haliaeetus_leucocephalus)_being_chased_by_a_smaller_bird.webm",
+        "assetTitle": "Bald Eagles (18731656064).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bald_Eagles_(18731656064).webm",
         "tags": [
-          "bald_eagle_chased_by_smaller_bird"
+          "bald_eagles_in_refuge_broll"
         ],
-        "author": "Wonderlane",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+        "author": "U.S. Fish and Wildlife Service - Midwest Region",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "license_verified_at": "2026-11-05",
+        "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bald%20Eagle%20(Haliaeetus%20leucocephalus)%2C%20immature%2C%20in%20California.webm",
@@ -491,21 +493,21 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-04-bald_eagle_small_bites_for_eaglets-fresh-narration-v1",
+    "revision": "2026-11-05-bald_eagle_small_bites_for_eaglets-footage-grounded-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "An adult bald eagle has a powerful beak, but its chicks still need very small meals.",
-        "scene": "USFWS footage of adult feeding chicks in nest.",
+        "text": "From this distant nest camera, we can glimpse bald eagles sharing a place to raise young.",
+        "scene": "Authentic distant USFWS bald eagle nest; no small-bite claim",
         "tags": [
-          "bald_eagle_parent_feeding_nest_chicks"
+          "bald_eagle_nest_observed_from_distance"
         ],
         "story_role": "hook",
         "overlay_label": "LOOK CLOSER"
       },
       {
-        "text": "Young eaglets cannot catch their own fish, so adults must bring food to the nest.",
-        "scene": "Real adult eagle pair filmed at a separate site.",
+        "text": "Another recording shows adult eagles together in a separate area of their territory.",
+        "scene": "Two real adult bald eagles",
         "tags": [
           "bald_eagle_adult_pair_at_territory"
         ],
@@ -513,35 +515,36 @@
         "overlay_label": "WHY IT MATTERS"
       },
       {
-        "text": "Here another parent bends toward the nest, offering food to growing young birds.",
-        "scene": "Second USFWS clip of eagle feeding eaglets.",
+        "text": "At a second nest, the family is filmed again from a different viewpoint.",
+        "scene": "Second genuine distant USFWS eagle nest",
         "tags": [
-          "bald_eagle_second_eaglet_feeding"
+          "bald_eagle_second_nest_observed"
         ],
         "story_role": "action",
         "overlay_label": "REAL ACTION"
       },
       {
-        "text": "Across other places, adult bald eagles keep searching, flying, and watching their surroundings.",
-        "scene": "Separate natural recordings of adult bald eagles.",
+        "text": "Far from the nest, adults perch, turn, and explore the landscape around them.",
+        "scene": "Different adult bald eagle recordings",
         "tags": [
+          "bald_eagle_adult_at_separate_site",
           "bald_eagle_adults_at_separate_sites"
         ],
         "story_role": "explanation",
         "overlay_label": "THE REASON"
       },
       {
-        "text": "Even these powerful birds can be chased by smaller birds near a territory.",
-        "scene": "Small bird visibly pursuing a bald eagle.",
+        "text": "Refuge footage reveals another view of these powerful birds in the wild.",
+        "scene": "Public domain USFWS eagle footage; no chase claim",
         "tags": [
-          "bald_eagle_chased_by_smaller_bird"
+          "bald_eagles_in_refuge_broll"
         ],
         "story_role": "twist",
         "overlay_label": "ANOTHER SIDE"
       },
       {
-        "text": "Long before a young eagle can hunt, its survival depends on the adults that feed it.",
-        "scene": "Immature bald eagle and another adult in separate genuine clips.",
+        "text": "Young eagles still rely on adults before they can find food independently.",
+        "scene": "Real immature and adult bald eagle scenes",
         "tags": [
           "bald_eagle_immature_and_refuge_adult"
         ],
@@ -552,9 +555,9 @@
     "trend_priority": false
   },
   "beaver_zoo_land_and_water_movement": {
-    "title": "Why Does a Beaver Move So Differently Near Water?",
-    "script": "This North American beaver was filmed at a zoo, where its heavy body is easy to see. On the ground, the animal carries a broad body and stays close to the enclosure. When it enters water, that same body is supported as it moves and paddles. A beaver also has dense fur that helps protect it in its watery habitat. Watch how different the animal can look when it is moving through water. These zoo recordings give a close look at a rodent adapted for life beside water.",
-    "caption": "A BEAVER'S BODY IS BUILT FOR WATER. Filmed in a zoo. #WildVox #Beavers #AnimalFacts #Nature",
+    "title": "Why Do Beavers Look Different in Water?",
+    "script": "Here is a North American beaver filmed in an enclosure at a zoo. On dry ground, its heavy body is easy to spot as it moves along. Watch it enter the water, where the same animal begins to paddle. Other close recordings reveal its thick coat and broad body from new angles. Back in the pool, the beaver travels with a very different-looking movement. These real zoo scenes show how one animal handles both land and water.",
+    "caption": "A BEAVER ON LAND VERSUS WATER. #WildVox #Beaver #Animals #Nature",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-02-17%20ZOO%20LJUBLJANA%20Castor%20canadensis%20KANADSKI%20BOBER%202.webm",
@@ -675,12 +678,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-04-beaver_zoo_land_and_water_movement-fresh-narration-v1",
+    "revision": "2026-11-05-beaver_zoo_land_and_water_movement-footage-grounded-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "This North American beaver was filmed at a zoo, where its heavy body is easy to see.",
-        "scene": "North American beaver in Ljubljana zoo shown on or near ground.",
+        "text": "Here is a North American beaver filmed in an enclosure at a zoo.",
+        "scene": "Real captive beaver at Ljubljana Zoo",
         "tags": [
           "captive_beaver_body_shape_zoo"
         ],
@@ -688,8 +691,8 @@
         "overlay_label": "LOOK CLOSER"
       },
       {
-        "text": "On the ground, the animal carries a broad body and stays close to the enclosure.",
-        "scene": "Another authentic beaver recording inside zoo enclosure.",
+        "text": "On dry ground, its heavy body is easy to spot as it moves along.",
+        "scene": "Beaver walking through zoo enclosure",
         "tags": [
           "beaver_moving_around_zoo_enclosure"
         ],
@@ -697,8 +700,8 @@
         "overlay_label": "WHY IT MATTERS"
       },
       {
-        "text": "When it enters water, that same body is supported as it moves and paddles.",
-        "scene": "Two separate genuine clips of beaver water movement at zoo.",
+        "text": "Watch it enter the water, where the same animal begins to paddle.",
+        "scene": "Authentic beaver swimming, separate clips",
         "tags": [
           "beaver_swimming_in_zoo_water"
         ],
@@ -706,8 +709,8 @@
         "overlay_label": "REAL ACTION"
       },
       {
-        "text": "A beaver also has dense fur that helps protect it in its watery habitat.",
-        "scene": "Beaver in separate close view of its fur and body.",
+        "text": "Other close recordings reveal its thick coat and broad body from new angles.",
+        "scene": "Real beaver body and fur close view",
         "tags": [
           "beaver_zoo_enclosure_close_body"
         ],
@@ -715,8 +718,8 @@
         "overlay_label": "THE REASON"
       },
       {
-        "text": "Watch how different the animal can look when it is moving through water.",
-        "scene": "Beaver moving through water in different zoo session.",
+        "text": "Back in the pool, the beaver travels with a very different-looking movement.",
+        "scene": "Separate actual beaver moving in pool",
         "tags": [
           "beaver_in_water_separate_zoo_session"
         ],
@@ -724,8 +727,8 @@
         "overlay_label": "ANOTHER SIDE"
       },
       {
-        "text": "These zoo recordings give a close look at a rodent adapted for life beside water.",
-        "scene": "Two beaver sightings in zoo setting near water.",
+        "text": "These real zoo scenes show how one animal handles both land and water.",
+        "scene": "Two genuine Ljubljana Zoo beaver clips",
         "tags": [
           "beaver_near_water_ljubljana_zoo"
         ],
@@ -736,9 +739,9 @@
     "trend_priority": false
   },
   "goats_grazing_grooming_and_nursing": {
-    "title": "What Do Goats Do When They Stop Grazing?",
-    "script": "These goats are spread across a grassy hillside, but feeding is not their only activity. A different herd moves over rocky ground, looking for the next place to stop. Some goats eat hay, while others rest on grass in an open field. Between meals, goats may pause to groom, yawn, or simply rest for a while. Newborn kids have another priority: staying close to their mother while they grow. From small kids to roaming adults, a goat herd is always doing more than eating.",
-    "caption": "WHAT GOATS DO BETWEEN MEALS. #WildVox #Goats #FarmAnimals #AnimalFacts",
+    "title": "A Goat Herd Does More Than Eat",
+    "script": "Look at the goats scattered across this grassy hillside, each moving at its own pace. In a different place, a herd picks its way across rough and rocky ground. Other goats stop to eat hay, while one rests on an open grassy patch. Close recordings reveal goats grooming their coats and yawning between activities. Small newborn kids stand near an adult goat, still learning their surroundings. A goat herd has quiet moments, busy moments, and many tiny daily routines.",
+    "caption": "WHAT GOATS DO BETWEEN MEALS. #WildVox #Goats #AnimalLife #Wildlife",
     "sources": [
       {
         "assetTitle": "Goats in Sunnyvale.webm",
@@ -859,12 +862,12 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-04-goats_grazing_grooming_and_nursing-visual-proof-v2",
+    "revision": "2026-11-05-goats_grazing_grooming_and_nursing-footage-grounded-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "These goats are spread across a grassy hillside, but feeding is not their only activity.",
-        "scene": "Visible managed goat group on grassy Sunnyvale hillside.",
+        "text": "Look at the goats scattered across this grassy hillside, each moving at its own pace.",
+        "scene": "Real managed goat herd on grassy Sunnyvale hillside",
         "tags": [
           "goat_herd_grazing_sunnyvale_hillside"
         ],
@@ -872,8 +875,8 @@
         "overlay_label": "LOOK CLOSER"
       },
       {
-        "text": "A different herd moves over rocky ground, looking for the next place to stop.",
-        "scene": "Goat herd on rocky terrain in a different location.",
+        "text": "In a different place, a herd picks its way across rough and rocky ground.",
+        "scene": "Actual goats moving across rocky ground",
         "tags": [
           "goat_herd_moving_rocky_ground"
         ],
@@ -881,8 +884,8 @@
         "overlay_label": "WHY IT MATTERS"
       },
       {
-        "text": "Some goats eat hay, while others rest on grass in an open field.",
-        "scene": "Real goats eating hay and another goat resting on a separate grassy field.",
+        "text": "Other goats stop to eat hay, while one rests on an open grassy patch.",
+        "scene": "Goats eating hay and separately resting on grass",
         "tags": [
           "goats_eating_hay_and_resting_on_grass"
         ],
@@ -890,8 +893,8 @@
         "overlay_label": "REAL ACTION"
       },
       {
-        "text": "Between meals, goats may pause to groom, yawn, or simply rest for a while.",
-        "scene": "Separate close footage of goat grooming and goats yawning in a managed setting.",
+        "text": "Close recordings reveal goats grooming their coats and yawning between activities.",
+        "scene": "Grooming and yawning goats in genuine recordings",
         "tags": [
           "goats_grooming_or_yawning"
         ],
@@ -899,8 +902,8 @@
         "overlay_label": "THE REASON"
       },
       {
-        "text": "Newborn kids have another priority: staying close to their mother while they grow.",
-        "scene": "Newborn kids standing and moving close to their mother; no milk transfer claimed.",
+        "text": "Small newborn kids stand near an adult goat, still learning their surroundings.",
+        "scene": "Real newborn kids next to adult; no claim nursing",
         "tags": [
           "newborn_goats_near_mother"
         ],
@@ -908,8 +911,8 @@
         "overlay_label": "ANOTHER SIDE"
       },
       {
-        "text": "From small kids to roaming adults, a goat herd is always doing more than eating.",
-        "scene": "Domestic goat in open grassy area.",
+        "text": "A goat herd has quiet moments, busy moments, and many tiny daily routines.",
+        "scene": "Real goat standing on grass",
         "tags": [
           "goat_standing_in_open_grass"
         ],
