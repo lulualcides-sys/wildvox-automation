@@ -740,7 +740,7 @@
   },
   "goats_grazing_grooming_and_nursing": {
     "title": "A Goat Herd Does More Than Eat",
-    "script": "Look at the goats scattered across this grassy hillside, each moving at its own pace. In a different place, a herd picks its way across rough and rocky ground. Other goats stop to eat hay, while one rests on an open grassy patch. Some goats pause inside a barn, while others groom themselves between activities. Small newborn kids stand near an adult goat, still learning their surroundings. A goat herd has quiet moments, busy moments, and many tiny daily routines.",
+    "script": "Look at the goats scattered across this grassy hillside, each moving at its own pace. In another place, a goat appears in a different landscape, away from the first herd. Other goats stop to eat hay, while one rests on an open grassy patch. Some goats pause inside a barn, while others groom themselves between activities. Small newborn kids stand near an adult goat, still learning their surroundings. A goat herd has quiet moments, busy moments, and many tiny daily routines.",
     "caption": "WHAT GOATS DO BETWEEN MEALS. #WildVox #Goats #AnimalLife #Wildlife",
     "sources": [
       {
@@ -758,18 +758,18 @@
         "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
       },
       {
-        "assetTitle": "Goats video.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_video.webm",
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20video.webm",
+        "assetTitle": "2022-06-15 ČRNEČA VAS (Gorjanci) ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-15_%C4%8CRNE%C4%8CA_VAS_(Gorjanci)_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-15%20%C4%8CRNE%C4%8CA%20VAS%20(Gorjanci)%20ARTIODACTYLA%20Capra%20aegagrus%20hircus%20DOMA%C4%8CA%20KOZA.webm",
         "type": "video",
-        "author": "gailhampshire (Flickr gails_pictures)",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-10-31",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-05",
         "tags": [
-          "goat_herd_moving_rocky_ground"
+          "goat_crneca_vas_scenic"
         ],
-        "license_note": "Original Flickr creator gailhampshire verified against Commons file source and Flickr attribution; full scene and action-window review pending. RESEARCH ONLY."
+        "license_note": "Commons source license reviewed by MZaplotnik 2025-08-08; independent video-frame validation still required; RESEARCH ONLY."
       },
       {
         "assetTitle": "Goats eating.webm",
@@ -862,7 +862,7 @@
     "max_freeze_seconds": 0,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-05-goats_grazing_grooming_and_nursing-verifiable-stall-grooming-v2",
+    "revision": "2026-11-05-goats_grazing_grooming_and_nursing-replace-mismatched-duck-source-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -875,10 +875,10 @@
         "overlay_label": "LOOK CLOSER"
       },
       {
-        "text": "In a different place, a herd picks its way across rough and rocky ground.",
-        "scene": "Actual goats moving across rocky ground",
+        "text": "In another place, a goat appears in a different landscape, away from the first herd.",
+        "scene": "Distinct authentic domestic goat video filmed at Črneča Vas, Slovenia; do not claim specific walking/rocky action unless visible.",
         "tags": [
-          "goat_herd_moving_rocky_ground"
+          "goat_crneca_vas_scenic"
         ],
         "story_role": "setup",
         "overlay_label": "WHY IT MATTERS"
