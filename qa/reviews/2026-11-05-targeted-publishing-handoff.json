@@ -15,10 +15,12 @@
     },
     {
       "key": "kingfisher_digging_and_fishing_bill",
-      "correction_commit": "8de8e281ebe0036d081537ea175492ca4078e54c",
-      "workflow_run": 42108046327,
+      "correction_commit": "a51870de118b7920eb5b584ee032d5e437314549",
+      "workflow_run": 42108349445,
       "issue_fixed": "Removed unverified caught-fish and water-dive claims; observable perching narrative only.",
-      "next_step": "After current goat run, inspect NEW kingfisher output and sources. Keep hold if any individual scene is still false/indistinct. If approved, schedule only unused future slot."
+      "next_step": "After current goat run, inspect NEW kingfisher output and sources. Keep hold if any individual scene is still false/indistinct. If approved, schedule only unused future slot.",
+      "correction_revision": "2026-11-05-kingfisher_digging_and_fishing_bill-perching-observed-v3",
+      "old_run_cancelled": "42108046327 cancelled/replaced while pending by refined v3; do not use its artifact."
     }
   ],
   "vetoed_for_current_old_fingerprints": [
