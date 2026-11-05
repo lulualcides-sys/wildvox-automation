@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-05",
+  "key": "goats_grazing_grooming_and_nursing",
+  "status": "HOLD_INDEPENDENT_REVIEW_INCOMPLETE",
+  "artifact_run": 42116565062,
+  "artifact_id": 13458039654,
+  "config_sha256": "102705b70cbb8afa9670d5d9ca1b42ee19f5dfb9eeb94c6c2722592861ee9ed9",
+  "media_sha256": "2a9ae6f18e9d6d8db6a90a765af3cbbf133282bcd539bfadbe1e93e00c74a678",
+  "duration_seconds": 34.8,
+  "video_sources": 8,
+  "observations": [
+    "Original MP4 decoded at 3-second intervals: real goats visible in hillside, resting, barn, grooming, kids and payoff scenes.",
+    "Independent ffmpeg freezedetect -50dB 1s: no freeze events.",
+    "Caption and license disclosure list exists in metadata with eight source links and creator names.",
+    "Frame samples contain a large blurred/duplicated background region around sharp horizontal footage band; editorial visual composition requires closer review.",
+    "Full source-page commercial-license verification, per-source preview scene inspection and caption safe-zone check not completed; cannot clear publication."
+  ],
+  "publication_hold": true,
+  "metricool": {
+    "brand_id": 7242311,
+    "handle": "wildvox",
+    "scheduled_today": 0,
+    "published_analytics_rows": 0
+  },
+  "next": "Complete remaining independent legal/visual inspection; do not schedule without full approval."
+}
