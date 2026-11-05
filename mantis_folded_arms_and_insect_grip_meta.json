@@ -1,23 +1,23 @@
 {
   "key": "mantis_folded_arms_and_insect_grip",
-  "title": "Why Does a Mantis Hold Its Arms Up?",
-  "caption": "WHY DOES A MANTIS HOLD ITS ARMS UP? #WildVox #Animals #Nature #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Quentin Scouflaire | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Praying_mantis_threat_display.webm | https://creativecommons.org/licenses/by/4.0/\n2. Pohled 111 | CC0 | https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_01.webm | https://creativecommons.org/publicdomain/zero/1.0/\n3. https://www.flickr.com/photos/gails_pictures/ | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mantis_eating_small_bee_caught_video.webm | https://creativecommons.org/licenses/by/2.0/\n4. https://www.flickr.com/photos/gails_pictures/ | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mantis_versus_Hornet_(_Vespa_crabro)_video.webm | https://creativecommons.org/licenses/by/2.0/\n5. Pohled 111 | CC0 | https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_02.webm | https://creativecommons.org/publicdomain/zero/1.0/\n6. Jason Eppink | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Praying_mantis_in_New_York.webm | https://creativecommons.org/licenses/by/2.0/\n7. Сарапулов | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB_%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%B9.webm | https://creativecommons.org/licenses/by/4.0/\n8. Pohled 111 | CC0 | https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_04.webm | https://creativecommons.org/publicdomain/zero/1.0/",
+  "title": "A Praying Mantis Has Two Very Different Foreleg Moves",
+  "caption": "TINY ARMS, TWO JOBS. #WildVox #PrayingMantis #AnimalBehavior #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. L. Shyamal | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Praying_mantis_waving_foreleg.webm | https://creativecommons.org/licenses/by/4.0/\n2. Pohled 111 | CC0 | https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_01.webm | https://creativecommons.org/publicdomain/zero/1.0/\n3. https://www.flickr.com/photos/gails_pictures/ | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mantis_eating_small_bee_caught_video.webm | https://creativecommons.org/licenses/by/2.0/\n4. https://www.flickr.com/photos/gails_pictures/ | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Mantis_versus_Hornet_(_Vespa_crabro)_video.webm | https://creativecommons.org/licenses/by/2.0/\n5. Pohled 111 | CC0 | https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_02.webm | https://creativecommons.org/publicdomain/zero/1.0/\n6. Jason Eppink | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Praying_mantis_in_New_York.webm | https://creativecommons.org/licenses/by/2.0/\n7. Quentin Scouflaire | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Praying_mantis_threat_display.webm | https://creativecommons.org/licenses/by/4.0/\n8. Pohled 111 | CC0 | https://commons.wikimedia.org/wiki/File:Kudlanka_n%C3%A1bo%C5%BEn%C3%A1_-_video_04.webm | https://creativecommons.org/publicdomain/zero/1.0/",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "14240dfb8ecd5c2933c94f3c12d4027fe2bc9994387dcf45c439a0e528ec80fe",
-  "duration": 36.33,
+  "config_sha256": "8824d56973833247c21d6c25fca3f3b2e52d041d649f16ee3ff44197cf1aeccc",
+  "duration": 36.17,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
     {
       "index": 0,
       "start": 0.0,
-      "end": 5.1,
-      "duration": 5.1,
-      "text": "Why does this mantis hold its front legs up, almost like it is waving?",
-      "scene": "Real mantis shown raising its forelegs in threat display.",
+      "end": 5.925,
+      "duration": 5.925,
+      "text": "Look at this mantis lifting one front leg as it moves in front of the camera.",
+      "scene": "A live mantis nymph visibly waving a foreleg",
       "tags": [
-        "mantis_raised_forelegs_threat_posture"
+        "mantis_waving_front_legs_close"
       ],
       "story_role": "hook",
       "overlay_label": "LOOK CLOSER",
@@ -25,11 +25,11 @@
     },
     {
       "index": 1,
-      "start": 5.1,
-      "end": 11.125,
-      "duration": 6.025,
-      "text": "Those folded legs have spines that help the insect grip things close to its body.",
-      "scene": "Close image of folded forelegs on a live mantis.",
+      "start": 5.925,
+      "end": 12.25,
+      "duration": 6.325,
+      "text": "Those folded forelegs carry tiny spines that help hold objects close to its body.",
+      "scene": "Real close mantis folded forelegs",
       "tags": [
         "mantis_folded_front_legs_close_view"
       ],
@@ -39,11 +39,11 @@
     },
     {
       "index": 2,
-      "start": 11.125,
-      "end": 17.7,
-      "duration": 6.575,
-      "text": "When a smaller insect is caught, the mantis uses those arms to keep its meal from escaping.",
-      "scene": "Mantis interacting with real insect prey in two separate recordings.",
+      "start": 12.25,
+      "end": 18.575,
+      "duration": 6.325,
+      "text": "Other recordings show a mantis gripping insect prey with those very same front legs.",
+      "scene": "Mantis holding real captured insect prey",
       "tags": [
         "mantis_real_insect_capture_and_grip"
       ],
@@ -53,11 +53,11 @@
     },
     {
       "index": 3,
-      "start": 17.7,
-      "end": 23.924999999999997,
-      "duration": 6.225,
-      "text": "Other close recordings show how carefully the animal positions those same front legs.",
-      "scene": "Authentic close-up of a mantis moving or holding its forelegs.",
+      "start": 18.575,
+      "end": 24.275,
+      "duration": 5.7,
+      "text": "On a quiet leaf, a mantis can pause and carefully reposition its forelegs.",
+      "scene": "Real mantis moving folded forelegs",
       "tags": [
         "mantis_close_posture_in_motion"
       ],
@@ -67,11 +67,11 @@
     },
     {
       "index": 4,
-      "start": 23.924999999999997,
-      "end": 29.549999999999997,
-      "duration": 5.625,
-      "text": "A raised posture can also appear when a mantis responds to something around it.",
-      "scene": "Mantis posture in a separate outdoor New York recording.",
+      "start": 24.275,
+      "end": 30.674999999999997,
+      "duration": 6.4,
+      "text": "In another outdoor scene, a mantis reacts by raising its arms in a wider posture.",
+      "scene": "Mantis response in separate outdoor footage",
       "tags": [
         "mantis_response_in_new_york_recording"
       ],
@@ -81,12 +81,13 @@
     },
     {
       "index": 5,
-      "start": 29.549999999999997,
-      "end": 36.324999999999996,
-      "duration": 6.775,
-      "text": "Whether it is handling prey or holding still, those front legs are its most remarkable tools.",
-      "scene": "Two separate mantis close-ups of foreleg posture.",
+      "start": 30.674999999999997,
+      "end": 36.175,
+      "duration": 5.5,
+      "text": "From a small wave to gripping prey, these forelegs do much more than walking.",
+      "scene": "Raised mantis forelegs plus another close study",
       "tags": [
+        "mantis_raised_forelegs_threat_posture",
         "mantis_close_study_of_front_legs"
       ],
       "story_role": "payoff",
@@ -96,18 +97,18 @@
   ],
   "sources": [
     {
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praying%20mantis%20threat%20display.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praying%20mantis%20waving%20foreleg.webm",
       "type": "video",
-      "assetTitle": "Praying mantis threat display.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Praying_mantis_threat_display.webm",
+      "assetTitle": "Praying mantis waving foreleg.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Praying_mantis_waving_foreleg.webm",
       "tags": [
-        "mantis_raised_forelegs_threat_posture"
+        "mantis_waving_front_legs_close"
       ],
-      "author": "Quentin Scouflaire",
+      "author": "L. Shyamal",
       "license": "CC BY 4.0",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
-      "license_verified_at": "2026-10-30",
-      "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      "license_verified_at": "2026-11-05",
+      "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
     },
     {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kudlanka%20n%C3%A1bo%C5%BEn%C3%A1%20-%20video%2001.webm",
@@ -180,14 +181,14 @@
       "license_note": "Commons original media candidate; CC BY 2.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
     },
     {
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB%20%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%B9.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Praying%20mantis%20threat%20display.webm",
       "type": "video",
-      "assetTitle": "Богомол звичайний.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%BE%D0%B3%D0%BE%D0%BC%D0%BE%D0%BB_%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%B9.webm",
+      "assetTitle": "Praying mantis threat display.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Praying_mantis_threat_display.webm",
       "tags": [
-        "mantis_close_study_of_front_legs"
+        "mantis_raised_forelegs_threat_posture"
       ],
-      "author": "Сарапулов",
+      "author": "Quentin Scouflaire",
       "license": "CC BY 4.0",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "license_verified_at": "2026-10-30",
