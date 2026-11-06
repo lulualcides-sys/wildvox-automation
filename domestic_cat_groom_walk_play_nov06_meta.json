@@ -4,8 +4,8 @@
   "caption": "A cat's day: grooming, walking, a paper bag, kitten play and a gentle pat. Different real cats in separate recordings. #WildVox #Cats #AnimalLife #Nature\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0\n2. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n3. Nesnad | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm | https://creativecommons.org/licenses/by/4.0/\n4. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0\n5. User:Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin1.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0\n7. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "5bf4ac2a0c8a07836b4af5fa1c78fd2106c39cd71223bfc32987c979e8fa5b60",
-  "duration": 37.65,
+  "config_sha256": "e08315ea73e3c817a5e70c3a7ba58c6406c7a121dec8e5eed2898d4025aab810",
+  "duration": 37.62,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -40,10 +40,10 @@
     {
       "index": 2,
       "start": 12.4,
-      "end": 19.35,
-      "duration": 6.95,
-      "text": "At home, one cat explores a paper bag, while another kitten plays in a separately filmed room.",
-      "scene": "Authentic cat investigating paper bag plus separate real kitten playing in Tokyo; no misleading balcony scene.",
+      "end": 19.325,
+      "duration": 6.925,
+      "text": "At home, one cat explores a paper bag, while another kitten rests in a separately filmed room.",
+      "scene": "Real cat exploring a paper bag plus a separate fluffy kitten resting in a striped bed in Tokyo; do not claim kitten is playing.",
       "tags": [
         "domestic_cat_inside_paper_bag",
         "domestic_kitten_playing_indoors"
@@ -54,8 +54,8 @@
     },
     {
       "index": 3,
-      "start": 19.35,
-      "end": 26.25,
+      "start": 19.325,
+      "end": 26.225,
       "duration": 6.9,
       "text": "Others bat at small objects or play with another cat, turning quiet moments into activity.",
       "scene": "One real cat batting a cotton bud and two separate cats playing",
@@ -69,8 +69,8 @@
     },
     {
       "index": 4,
-      "start": 26.25,
-      "end": 31.4,
+      "start": 26.225,
+      "end": 31.375,
       "duration": 5.15,
       "text": "One playful cat keeps following a moving object with its eyes and paws.",
       "scene": "Real cat playing indoors in Taiwan",
@@ -83,8 +83,8 @@
     },
     {
       "index": 5,
-      "start": 31.4,
-      "end": 37.65,
+      "start": 31.375,
+      "end": 37.625,
       "duration": 6.25,
       "text": "When the activity ends, another cat accepts a gentle pat from a person outdoors.",
       "scene": "Actual house cat being petted outdoors; no claim the earlier cats are the same",
