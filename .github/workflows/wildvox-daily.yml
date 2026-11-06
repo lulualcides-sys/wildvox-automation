@@ -119,6 +119,28 @@ jobs:
             exit 1
           fi
 
+          # The renderer validates shot cadence only AFTER large ML packages
+          # have been installed. Reject impossible configs here to avoid
+          # wasting GitHub minutes on every matrix job.
+          invalid_cadence=$(jq -r '
+            to_entries[]
+            | select((.value.trend_exception.photo_only_allowed // false) == false)
+            | select(
+                ((.value.target_shot_seconds // 0) < 6)
+                or ((.value.target_shot_seconds // 0) > 8)
+                or ((.value.max_shot_seconds // 0) <= 0)
+                or ((.value.max_shot_seconds // 0) > 8)
+                or ((.value.max_freeze_seconds // 99) < 0)
+                or ((.value.max_freeze_seconds // 99) > 1)
+              )
+            | .key
+          ' configs/daily.json)
+          if [ -n "$invalid_cadence" ]; then
+            echo "Invalid video shot cadence (target 6-8s, max shot <=8s, freeze <=1s):" >&2
+            echo "$invalid_cadence" >&2
+            exit 1
+          fi
+
           echo "animals=$animals" >> "$GITHUB_OUTPUT"
       - name: Reject placeholder scene tags before source download or rendering
         if: steps.matrix.outputs.animals != '[]'
