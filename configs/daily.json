@@ -193,8 +193,8 @@
   },
   "house_sparrow_foraging_and_bathing_nov06": {
     "title": "A House Sparrow Has More Than One Daily Routine",
-    "script": "A female house sparrow searches between these leaves, stopping to inspect small patches of ground. Another sparrow appears beside a waterfront, where busy city spaces meet everyday bird life. In a closer view, notice the bird's short beak and the quick way it turns its head. But sparrows also take unusual baths, settling into dry soil and shaking their feathers through the dust. Water offers another option, as other sparrows bathe near a pond and in a shared birdbath. In one last zoo-ground scene, a sparrow rolls through the dust before continuing its day.",
-    "caption": "A House Sparrow Has More Than One Daily Routine — five-minute wild observations in just forty seconds. #WildVox #Animals #Nature #Wildlife",
+    "script": "A female house sparrow searches between these leaves, stopping to inspect small patches of ground. Another sparrow appears beside a waterfront, where busy city spaces meet everyday bird life. From a wider view, a sparrow pauses near stones along a path before turning toward the nearby trees. But sparrows also take unusual baths, settling into dry soil and shaking their feathers through the dust. Water offers another option, as other sparrows bathe near a pond and in a shared birdbath. In one last zoo-ground scene, a sparrow rolls through the dust before continuing its day.",
+    "caption": "From foraging among plants to dust and water baths: three genuine scenes of house sparrows filmed at separate locations. #WildVox #HouseSparrow #Birdwatching #Wildlife",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20female%20-%20foraging%20plants.ogv",
@@ -315,7 +315,7 @@
     "max_freeze_seconds": 0.25,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-06-house_sparrow_foraging_and_bathing_nov06-original-narration-recut-v2",
+    "revision": "2026-11-06-house_sparrow_foraging_and_bathing_nov06-original-narration-recut-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -339,8 +339,8 @@
         "fx": []
       },
       {
-        "text": "In a closer view, notice the bird's short beak and the quick way it turns its head.",
-        "scene": "Close identifiable real house sparrow in independent footage",
+        "text": "From a wider view, a sparrow pauses near stones along a path before turning toward the nearby trees.",
+        "scene": "Actual distant house sparrow beside stones and path; no false close-up bill detail.",
         "tags": [
           "house_sparrow_closeup_after_bath"
         ],
@@ -577,8 +577,8 @@
   },
   "domestic_cat_groom_walk_play_nov06": {
     "title": "A Cat's Day Can Change in Seconds",
-    "script": "This house cat is busy washing its fur, carefully reaching different spots with its tongue and paws. In another scene, a black cat walks past the camera at an unhurried pace. At home, curious cats look up at a visitor or investigate the inside of a paper bag. Others bat at small objects or play with another cat, turning quiet moments into activity. One playful cat keeps following a moving object with its eyes and paws. When the activity ends, another cat accepts a gentle pat from a person outdoors.",
-    "caption": "A Cat's Day Can Change in Seconds — five-minute wild observations in just forty seconds. #WildVox #Animals #Nature #Wildlife",
+    "script": "This house cat is busy washing its fur, carefully reaching different spots with its tongue and paws. In another scene, a black cat walks past the camera at an unhurried pace. At home, one cat explores a paper bag, while another kitten plays in a separately filmed room. Others bat at small objects or play with another cat, turning quiet moments into activity. One playful cat keeps following a moving object with its eyes and paws. When the activity ends, another cat accepts a gentle pat from a person outdoors.",
+    "caption": "A cat's day: grooming, walking, a paper bag, kitten play and a gentle pat. Different real cats in separate recordings. #WildVox #Cats #AnimalLife #Nature",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
@@ -609,17 +609,16 @@
         ]
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20discovers%20it%20was%20being%20spied%20on.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
         "type": "video",
-        "assetTitle": "Cat discovers it was being spied on.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm",
-        "author": "Yourusernamewillbepublic2",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_verified_at": "2026-11-02",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+        "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
+        "author": "Nesnad",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Original Commons source previously catalogued in cat_play_hunting_instinct_meta.json; LIVE Commons audit and CURRENT-run visual review required before release.",
         "tags": [
-          "domestic_cat_looks_up_at_camera"
+          "domestic_kitten_playing_indoors"
         ]
       },
       {
@@ -699,7 +698,7 @@
     "max_freeze_seconds": 0.25,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-06-domestic_cat_groom_walk_play_nov06-original-narration-recut-v2",
+    "revision": "2026-11-06-domestic_cat_groom_walk_play_nov06-original-narration-recut-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -723,11 +722,11 @@
         "fx": []
       },
       {
-        "text": "At home, curious cats look up at a visitor or investigate the inside of a paper bag.",
-        "scene": "Actual real cat looking up at camera and a different house cat inside a bag",
+        "text": "At home, one cat explores a paper bag, while another kitten plays in a separately filmed room.",
+        "scene": "Authentic cat investigating paper bag plus separate real kitten playing in Tokyo; no misleading balcony scene.",
         "tags": [
-          "domestic_cat_looks_up_at_camera",
-          "domestic_cat_inside_paper_bag"
+          "domestic_cat_inside_paper_bag",
+          "domestic_kitten_playing_indoors"
         ],
         "story_role": "action",
         "overlay_label": "REAL BEHAVIOR",
@@ -769,8 +768,8 @@
   },
   "domestic_horse_group_meadow_nov06": {
     "title": "Inside the Quiet Rhythm of a Horse Herd",
-    "script": "These Icelandic horses gather close together, each facing a different part of the field. Elsewhere, a horse lowers its head and grazes through green grass. Two spring recordings show pale horses standing near water and moving together in small groups. On another part of the shore, the herd shifts position across open ground. Later spring footage shows other horses moving through meadow grass and pausing between mouthfuls. By summer, another group remains near the lake, following its own relaxed rhythm.",
-    "caption": "Inside the Quiet Rhythm of a Horse Herd — five-minute wild observations in just forty seconds. #WildVox #Animals #Nature #Wildlife",
+    "script": "These Icelandic horses gather close together, each facing a different part of the field. Elsewhere, a horse lowers its head and grazes through green grass. Two spring recordings show pale horses standing near water and moving together in small groups. On another part of the shore, the herd shifts position across open ground. Later spring footage shows other horses moving through meadow grass and pausing between mouthfuls. In a separate summer scene, a white horse grazes among trees, following its own relaxed daily rhythm.",
+    "caption": "Real horses across Iceland, meadows and woodland: how their daily routines change by place and season. Separate original recordings. #WildVox #Horses #Nature #AnimalBehavior",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Icelandic%20horses!!%20Video.webm",
@@ -881,7 +880,7 @@
         "license_verified_at": "2026-11-02",
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
         "tags": [
-          "camargue_horses_slovenia_july"
+          "white_camargue_horse_grazes_near_trees"
         ]
       }
     ],
@@ -891,7 +890,7 @@
     "max_freeze_seconds": 0.25,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-06-domestic_horse_group_meadow_nov06-original-narration-recut-v2",
+    "revision": "2026-11-06-domestic_horse_group_meadow_nov06-original-narration-recut-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -947,10 +946,10 @@
         "fx": []
       },
       {
-        "text": "By summer, another group remains near the lake, following its own relaxed rhythm.",
-        "scene": "Genuine July footage of Camargue horses near water",
+        "text": "In a separate summer scene, a white horse grazes among trees, following its own relaxed daily rhythm.",
+        "scene": "Actual single white horse feeding among trees near woodland; no invented group by a lake.",
         "tags": [
-          "camargue_horses_slovenia_july"
+          "white_camargue_horse_grazes_near_trees"
         ],
         "story_role": "payoff",
         "overlay_label": "THE PAYOFF",
