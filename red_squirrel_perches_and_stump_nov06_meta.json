@@ -1,0 +1,216 @@
+{
+  "key": "red_squirrel_perches_and_stump_nov06",
+  "title": "Where a Red Squirrel Stops to Watch and Eat",
+  "caption": "Where a Red Squirrel Stops to Watch and Eat — five-minute wild observations in just forty seconds. #WildVox #Animals #Nature #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Blockhaj | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Ekorre_r%C3%A4dselljud%3F_Red_squirrel_fear_noise%3F.webm | https://creativecommons.org/licenses/by/4.0\n2. Redeemer | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Red_Squirrel_in_Berlin.webm | https://creativecommons.org/licenses/by/3.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n5. Peter Trimming | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:The_Great_Walnut_Disaster.webm | https://creativecommons.org/licenses/by/2.0\n6. Peter Trimming | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_squirrel_(Sciurus_vulgaris)_in_England.webm | https://creativecommons.org/licenses/by/2.0\n7. gails_pictures (Flickr) | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_Squirrel_(Sciurus_vulgaris).webm | https://creativecommons.org/licenses/by/2.0\n8. Peter Trimming from Croydon, England | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_Squirrel_'Nutkin'_-_Seen_at_Forest_How%2C_Eskdale%2C_Cumbria_-_North_West_England.webm | https://creativecommons.org/licenses/by/2.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "a70b0ffd12161ac47a310506de116c1e636d804d7072e924920f328e9658829a",
+  "duration": 41.15,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.375,
+      "duration": 6.375,
+      "text": "This red squirrel pauses among the branches, staying alert to the world around its perch.",
+      "scene": "Real red squirrel motion or alert posture among branches, no invented predator",
+      "tags": [
+        "red_squirrel_alert_on_tree_branches"
+      ],
+      "story_role": "hook",
+      "overlay_label": "THE HOOK",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.375,
+      "end": 13.525,
+      "duration": 7.15,
+      "text": "Another squirrel turns up on a city ledge, a reminder that trees are not its only stopping places.",
+      "scene": "Real red squirrel on a man-made ledge in Berlin",
+      "tags": [
+        "red_squirrel_berlin_urban_ledge"
+      ],
+      "story_role": "setup",
+      "overlay_label": "FIRST CLUE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 13.525,
+      "end": 20.425,
+      "duration": 6.9,
+      "text": "Inside a park, two separately filmed squirrels move between branches and settle into the trees.",
+      "scene": "Two authentic Ljubljana park red squirrel branch recordings",
+      "tags": [
+        "red_squirrel_ljubljana_tree_movement",
+        "red_squirrel_ljubljana_tree_perch_december"
+      ],
+      "story_role": "action",
+      "overlay_label": "REAL BEHAVIOR",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 20.425,
+      "end": 27.8,
+      "duration": 7.375,
+      "text": "Near a stump, another squirrel investigates food, while a different one explores the logs nearby.",
+      "scene": "Genuine squirrel at walnut stump plus separate squirrel on logs and branches",
+      "tags": [
+        "red_squirrel_walnut_stump_search",
+        "red_squirrel_england_tree_perch"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "WHAT IT SHOWS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 27.8,
+      "end": 34.5,
+      "duration": 6.7,
+      "text": "One squirrel uses a tree trunk as a pathway, holding on as it moves from place to place.",
+      "scene": "Authentic red squirrel on tree trunk",
+      "tags": [
+        "red_squirrel_climbing_tree_trunk"
+      ],
+      "story_role": "twist",
+      "overlay_label": "NEW ANGLE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 34.5,
+      "end": 41.15,
+      "duration": 6.65,
+      "text": "A final close view shows a squirrel handling food at a stump, ending this busy little journey.",
+      "scene": "Original red squirrel Nutkin footage visibly eating at tree stump",
+      "tags": [
+        "red_squirrel_nutkin_eating_on_stump"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE PAYOFF",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ekorre%20r%C3%A4dselljud%3F%20Red%20squirrel%20fear%20noise%3F.webm",
+      "type": "video",
+      "assetTitle": "Ekorre rädselljud? Red squirrel fear noise?.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Ekorre_r%C3%A4dselljud%3F_Red_squirrel_fear_noise%3F.webm",
+      "author": "Blockhaj",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "red_squirrel_alert_on_tree_branches"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20in%20Berlin.webm",
+      "type": "video",
+      "assetTitle": "Red Squirrel in Berlin.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_in_Berlin.webm",
+      "author": "Redeemer",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "red_squirrel_berlin_urban_ledge"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-21%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+      "type": "video",
+      "assetTitle": "2022-01-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "red_squirrel_ljubljana_tree_movement"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
+      "type": "video",
+      "assetTitle": "2021-12-10 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-10-31",
+      "license_note": "Previously Commons-verified real red-squirrel footage; exact tree action and absence of baked-in unrelated text require current-run visual review. Current-run v8 decoded frames showed source randomly offset to near-empty trunk at 14.3-16.3s; force original beginning where source-preview frame shows the squirrel on branches. Rerender and verify visible action.",
+      "tags": [
+        "red_squirrel_ljubljana_tree_perch_december"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Walnut%20Disaster.webm",
+      "type": "video",
+      "assetTitle": "The Great Walnut Disaster.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Walnut_Disaster.webm",
+      "author": "Peter Trimming",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Wikimedia Commons original Flickr CC BY 2.0 license reviewed 2019; video shows red squirrels and walnuts on a stump. Exact shot and absence of baked-in captions must be independently checked after current-day render; hold remains true.",
+      "tags": [
+        "red_squirrel_walnut_stump_search"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20squirrel%20(Sciurus%20vulgaris)%20in%20England.webm",
+      "type": "video",
+      "assetTitle": "Red squirrel (Sciurus vulgaris) in England.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_squirrel_(Sciurus_vulgaris)_in_England.webm",
+      "author": "Peter Trimming",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "red_squirrel_england_tree_perch"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20(Sciurus%20vulgaris).webm",
+      "type": "video",
+      "assetTitle": "Red Squirrel (Sciurus vulgaris).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_(Sciurus_vulgaris).webm",
+      "author": "gails_pictures (Flickr)",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "red_squirrel_climbing_tree_trunk"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20'Nutkin'%20-%20Seen%20at%20Forest%20How%2C%20Eskdale%2C%20Cumbria%20-%20North%20West%20England.webm",
+      "type": "video",
+      "assetTitle": "Red Squirrel 'Nutkin' - Seen at Forest How, Eskdale, Cumbria - North West England.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_'Nutkin'_-_Seen_at_Forest_How%2C_Eskdale%2C_Cumbria_-_North_West_England.webm",
+      "author": "Peter Trimming from Croydon, England",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "red_squirrel_nutkin_eating_on_stump"
+      ]
+    }
+  ],
+  "review_sheet": "red_squirrel_perches_and_stump_nov06_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
