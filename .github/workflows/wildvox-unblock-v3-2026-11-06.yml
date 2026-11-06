@@ -1,0 +1,48 @@
+name: WildVox — priorizar três correções de 06-11
+
+on:
+  push:
+    paths:
+      - ".github/workflows/wildvox-unblock-v3-2026-11-06.yml"
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  unblock-targeted-corrections:
+    if: ${{ github.repository == 'lulualcides-sys/wildvox-automation' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify two approved archives and cancel remaining obsolete QA archiving
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo="$GITHUB_REPOSITORY"
+          old_run="42202651591"
+          old_sha="10ac918283da68979b3c8eeeb608329d83abf43b"
+          new_run="42206521353"
+          new_sha="33dbb0a7f87aabc91816ae63585df70ee340d327"
+          old=$(gh api "repos/$repo/actions/runs/$old_run")
+          fresh=$(gh api "repos/$repo/actions/runs/$new_run")
+          [[ "$(jq -r '.head_sha' <<< "$old")" == "$old_sha" ]]
+          [[ "$(jq -r '.head_sha' <<< "$fresh")" == "$new_sha" ]]
+          jobs=$(gh api "repos/$repo/actions/runs/$old_run/jobs?per_page=100")
+          successes=$(jq '[.jobs[] | select(.name | startswith("render (")) | select(.conclusion == "success")] | length' <<< "$jobs")
+          [[ "$successes" -eq 5 ]]
+          for name in european_robin_park_to_reed_song_nov06 red_squirrel_perches_and_stump_nov06; do
+            actual=$(gh api "repos/$repo/contents/${name}.mp4?ref=media" --jq '.sha')
+            if [[ "$name" == "european_robin_park_to_reed_song_nov06" ]]; then expected="31c41e3300f205f2e3e195cc6bb19669d78b0aab"; else expected="405c78d3eae61000b36406aca67f6ed49422bb88"; fi
+            [[ "$actual" == "$expected" ]] || { echo "::error::Approved media $name does not match expected blob"; exit 1; }
+          done
+          echo "Verified two approved Nov 6 media blobs in public root."
+          status=$(jq -r '.status' <<< "$old")
+          if [[ "$status" != "completed" ]]; then
+            gh api -X POST "repos/$repo/actions/runs/$old_run/cancel" >/dev/null || true
+            gh api -X POST "repos/$repo/actions/runs/$old_run/force-cancel" >/dev/null || true
+            echo "Released old workflow only after its two independently approved and already scheduled candidates were safely archived. Remaining old v2 artifacts retained in Actions."
+          fi
+          echo "Targeted v3 three-video correction run $new_run may now proceed. No edits to media or Metricool."
