@@ -1,0 +1,216 @@
+{
+  "key": "domestic_cat_groom_walk_play_nov06",
+  "title": "A Cat's Day Can Change in Seconds",
+  "caption": "A Cat's Day Can Change in Seconds — five-minute wild observations in just forty seconds. #WildVox #Animals #Nature #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0\n2. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n3. Yourusernamewillbepublic2 | CC0 | https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0\n5. User:Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin1.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0\n7. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "72b3acede1f16fa67a2329ebec5965b51ba5170d27a5c6fd630ecbfef4bdf5f0",
+  "duration": 37.3,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.875,
+      "duration": 6.875,
+      "text": "This house cat is busy washing its fur, carefully reaching different spots with its tongue and paws.",
+      "scene": "Genuine house cat clearly self-grooming",
+      "tags": [
+        "domestic_cat_self_grooming"
+      ],
+      "story_role": "hook",
+      "overlay_label": "THE HOOK",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.875,
+      "end": 12.4,
+      "duration": 5.525,
+      "text": "In another scene, a black cat walks past the camera at an unhurried pace.",
+      "scene": "Authentic separate black house cat walking",
+      "tags": [
+        "black_domestic_cat_walking"
+      ],
+      "story_role": "setup",
+      "overlay_label": "FIRST CLUE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 12.4,
+      "end": 19.0,
+      "duration": 6.6,
+      "text": "At home, curious cats look up at a visitor or investigate the inside of a paper bag.",
+      "scene": "Actual real cat looking up at camera and a different house cat inside a bag",
+      "tags": [
+        "domestic_cat_looks_up_at_camera",
+        "domestic_cat_inside_paper_bag"
+      ],
+      "story_role": "action",
+      "overlay_label": "REAL BEHAVIOR",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 19.0,
+      "end": 25.9,
+      "duration": 6.9,
+      "text": "Others bat at small objects or play with another cat, turning quiet moments into activity.",
+      "scene": "One real cat batting a cotton bud and two separate cats playing",
+      "tags": [
+        "domestic_cat_paws_cotton_bud",
+        "domestic_cats_playing_together"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "WHAT IT SHOWS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 25.9,
+      "end": 31.049999999999997,
+      "duration": 5.15,
+      "text": "One playful cat keeps following a moving object with its eyes and paws.",
+      "scene": "Real cat playing indoors in Taiwan",
+      "tags": [
+        "domestic_cat_playing_in_taiwan"
+      ],
+      "story_role": "twist",
+      "overlay_label": "NEW ANGLE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 31.049999999999997,
+      "end": 37.3,
+      "duration": 6.25,
+      "text": "When the activity ends, another cat accepts a gentle pat from a person outdoors.",
+      "scene": "Actual house cat being petted outdoors; no claim the earlier cats are the same",
+      "tags": [
+        "domestic_cat_interacts_with_person"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE PAYOFF",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
+      "type": "video",
+      "assetTitle": "Cat behaviour - self-grooming.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
+      "author": "Learnerktm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_self_grooming"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Cat%20walking.webm",
+      "type": "video",
+      "assetTitle": "Black Cat walking.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm",
+      "author": "Dzkouslavia",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "black_domestic_cat_walking"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20discovers%20it%20was%20being%20spied%20on.webm",
+      "type": "video",
+      "assetTitle": "Cat discovers it was being spied on.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm",
+      "author": "Yourusernamewillbepublic2",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_looks_up_at_camera"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20in%20a%20Bag.webm",
+      "type": "video",
+      "assetTitle": "Cat in a Bag.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
+      "author": "Roger Braunstein",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_inside_paper_bag"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
+      "type": "video",
+      "assetTitle": "Moomin1.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
+      "author": "User:Tet",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_paws_cotton_bud"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20and%20Chlo%C3%A9%20playing%20(100111224612).webm",
+      "type": "video",
+      "assetTitle": "Larry the cat and Chloé playing (100111224612).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm",
+      "author": "Trougnouf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cats_playing_together"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20in%20Taiwan.webm",
+      "type": "video",
+      "assetTitle": "Cat playing in Taiwan.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm",
+      "author": "MiNe",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_playing_in_taiwan"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andra%20and%20Billy.webm",
+      "type": "video",
+      "assetTitle": "Andra and Billy.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm",
+      "author": "Joaquim Baeta",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_interacts_with_person"
+      ]
+    }
+  ],
+  "review_sheet": "domestic_cat_groom_walk_play_nov06_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
