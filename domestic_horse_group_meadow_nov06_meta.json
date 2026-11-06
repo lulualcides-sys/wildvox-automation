@@ -1,0 +1,216 @@
+{
+  "key": "domestic_horse_group_meadow_nov06",
+  "title": "Inside the Quiet Rhythm of a Horse Herd",
+  "caption": "Real horses across Iceland, meadows and woodland: how their daily routines change by place and season. Separate original recordings. #WildVox #Horses #Nature #AnimalBehavior\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Adon Metcalfe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm | https://creativecommons.org/licenses/by/2.0\n2. docentjoyce | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Grazing_Horses_in_California.webm | https://creativecommons.org/licenses/by/2.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_3.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-07-14_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "c12ba304a205b22f89f6823348904efdecfa325c7e153e03942581664e156cb0",
+  "duration": 38.17,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.25,
+      "duration": 6.25,
+      "text": "These Icelandic horses gather close together, each facing a different part of the field.",
+      "scene": "Authentic group of Icelandic horses in one recording",
+      "tags": [
+        "icelandic_horses_group"
+      ],
+      "story_role": "hook",
+      "overlay_label": "THE HOOK",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.25,
+      "end": 11.275,
+      "duration": 5.025,
+      "text": "Elsewhere, a horse lowers its head and grazes through green grass.",
+      "scene": "A genuine close horse grazing in California",
+      "tags": [
+        "domestic_horses_grazing_california"
+      ],
+      "story_role": "setup",
+      "overlay_label": "FIRST CLUE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.275,
+      "end": 18.225,
+      "duration": 6.95,
+      "text": "Two spring recordings show pale horses standing near water and moving together in small groups.",
+      "scene": "Separate original Camargue horses near Slovenian lakeside in March",
+      "tags": [
+        "camargue_horse_slovenia_march_lakeside_grazing",
+        "camargue_horses_slovenia_march_second"
+      ],
+      "story_role": "action",
+      "overlay_label": "REAL BEHAVIOR",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 18.225,
+      "end": 23.575000000000003,
+      "duration": 5.35,
+      "text": "On another part of the shore, the herd shifts position across open ground.",
+      "scene": "Actual additional Camargue horses on lakeside ground",
+      "tags": [
+        "camargue_horses_slovenia_march_third"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "WHAT IT SHOWS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 23.575000000000003,
+      "end": 30.375000000000004,
+      "duration": 6.8,
+      "text": "Later spring footage shows other horses moving through meadow grass and pausing between mouthfuls.",
+      "scene": "Two separate authentic Camargue horses in the spring meadow",
+      "tags": [
+        "camargue_horses_slovenia_may",
+        "camargue_horses_slovenia_may_second"
+      ],
+      "story_role": "twist",
+      "overlay_label": "NEW ANGLE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 30.375000000000004,
+      "end": 38.175000000000004,
+      "duration": 7.8,
+      "text": "In a separate summer scene, a white horse grazes among trees, following its own relaxed daily rhythm.",
+      "scene": "Actual single white horse feeding among trees near woodland; no invented group by a lake.",
+      "tags": [
+        "white_camargue_horse_grazes_near_trees"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE PAYOFF",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Icelandic%20horses!!%20Video.webm",
+      "type": "video",
+      "assetTitle": "Icelandic horses!! Video.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm",
+      "author": "Adon Metcalfe",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "icelandic_horses_group"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grazing%20Horses%20in%20California.webm",
+      "type": "video",
+      "assetTitle": "Grazing Horses in California.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Grazing_Horses_in_California.webm",
+      "author": "docentjoyce",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_horses_grazing_california"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji.webm",
+      "type": "video",
+      "assetTitle": "2022-03-12 IZLIV SOČE PERISSODACTYLA kamarški konji.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "camargue_horse_slovenia_march_lakeside_grazing"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%202.webm",
+      "type": "video",
+      "assetTitle": "2022-03-12 IZLIV SOČE PERISSODACTYLA kamarški konji 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "camargue_horses_slovenia_march_second"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%203.webm",
+      "type": "video",
+      "assetTitle": "2022-03-12 IZLIV SOČE PERISSODACTYLA kamarški konji 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_3.webm",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "camargue_horses_slovenia_march_third"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji.webm",
+      "type": "video",
+      "assetTitle": "2022-05-21 IZLIV SOČE PERISSODACTYLA kamarški konji.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "camargue_horses_slovenia_may"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%202.webm",
+      "type": "video",
+      "assetTitle": "2022-05-21 IZLIV SOČE PERISSODACTYLA kamarški konji 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication.",
+      "tags": [
+        "camargue_horses_slovenia_may_second"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-14%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji%202.webm",
+      "type": "video",
+      "assetTitle": "2022-07-14 IZLIV SOČE PERISSODACTYLA kamarški konji 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-14_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "white_camargue_horse_grazes_near_trees"
+      ]
+    }
+  ],
+  "review_sheet": "domestic_horse_group_meadow_nov06_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
