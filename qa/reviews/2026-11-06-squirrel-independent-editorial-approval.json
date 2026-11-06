@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-06",
+  "timezone": "America/Sao_Paulo",
+  "candidate": "red_squirrel_perches_and_stump_nov06",
+  "revision": "2026-11-06-red_squirrel_perches_and_stump_nov06-original-narration-recut-v2",
+  "brand_id": 7242311,
+  "exact_tiktok_handle": "wildvox",
+  "run_id": 42202651591,
+  "artifact_id": 13495766312,
+  "config_blob": "033268a5fd036f7ed5909cafe181bf0974c7327b",
+  "config_sha256": "a70b0ffd12161ac47a310506de116c1e636d804d7072e924920f328e9658829a",
+  "mp4_sha256": "0b1dfb4601d44bd79eb3556cd9c8b47acc4e0c0ce1cfcff1565e94f0d43641d7",
+  "mp4_git_blob_sha": "405c78d3eae61000b36406aca67f6ed49422bb88",
+  "duration_seconds": 41.15,
+  "frame_size": "1080x1920",
+  "sources_count": 8,
+  "source_license_types": [
+    "CC BY 4.0",
+    "CC BY 3.0",
+    "CC BY 2.0"
+  ],
+  "all_authentic_videos": true,
+  "editorial_review": {
+    "approved": true,
+    "method": "Independently inspected original 2026-11-06 run artifact MP4 and meta, current-run review JPG, all 8 original-source preview JPGs and 20 independently decoded timeline frames from 0.5-40.8s; full FFmpeg decoded integrity and motion test.",
+    "scenes": "Real European red squirrels visible in hook on tree, city ledge, park branches/tree trunks, log/stump, climb, and close-up eating nut payoff. Each scene is from a separate genuine filming source; narration explicitly distinguishes separate animals and places.",
+    "limitations": "Some woodland frames are briefly obscured by branches/tree bark before the real squirrel reappears. These are actual source footage rather than unrelated filler; no claimed predator/continuous individual or synthetic zoom.",
+    "motion": "FFmpeg froze-detect <= -55dB 1s and blackdetect >=0.8s found no events. No unnatural repeats or loops in 20 visual samples.",
+    "shot_max": "All six measured Kokoro speech blocks 6.375-7.375s each and exactly eight unique original clips; no shot >8s.",
+    "safe_area": "Word captions in lower-middle safe zone and top title, not bottom TikTok controls.",
+    "audio": "Non-silent AAC audio, measured mean -27.8dB, peak -3.9dB.",
+    "credits": "Live Commons commercial-use audit passed with original author + pages + CC BY 2.0/3.0/4.0 and modifications; no CC BY-SA/NC. Corrected post caption contains eight complete attributions."
+  },
+  "corrected_tiktok_caption": "A red squirrel's busy day: branches, city ledges, tree trunks and a nut-eating finish. Different squirrels were filmed in separate locations. #WildVox #RedSquirrel #Wildlife #Nature\n\nFootage credits (edited: portrait crop, synced subtitles and English narration):\n1. Blockhaj | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Ekorre_r%C3%A4dselljud%3F_Red_squirrel_fear_noise%3F.webm | https://creativecommons.org/licenses/by/4.0\n2. Redeemer | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Red_Squirrel_in_Berlin.webm | https://creativecommons.org/licenses/by/3.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm | https://creativecommons.org/licenses/by/3.0\n5. Peter Trimming | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:The_Great_Walnut_Disaster.webm | https://creativecommons.org/licenses/by/2.0\n6. Peter Trimming | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_squirrel_(Sciurus_vulgaris)_in_England.webm | https://creativecommons.org/licenses/by/2.0\n7. gails_pictures (Flickr) | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_Squirrel_(Sciurus_vulgaris).webm | https://creativecommons.org/licenses/by/2.0\n8. Peter Trimming from Croydon, England | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Red_Squirrel_'Nutkin'_-_Seen_at_Forest_How%2C_Eskdale%2C_Cumbria_-_North_West_England.webm | https://creativecommons.org/licenses/by/2.0",
+  "publication_hold_in_config": true,
+  "release_control": {
+    "editorially_approved": true,
+    "can_schedule_now": false,
+    "why": "Per-candidate independent technical QA archive/current public root media URL must be verified and match exact Git blob + config fingerprint; check Metricool exact @wildvox and duplicates immediately before scheduling.",
+    "on_verified": "Authorize only one future unused 2026-11-06 TikTok slot with autoPublish true, TikTok-only provider and this full caption."
+  },
+  "metricool": {
+    "status": "NOT_YET_SCHEDULED"
+  },
+  "never_youtube": true,
+  "never_buffer_wildvox6": true
+}
