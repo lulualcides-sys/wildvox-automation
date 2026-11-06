@@ -1,11 +1,11 @@
 {
   "key": "house_sparrow_foraging_and_bathing_nov06",
   "title": "A House Sparrow Has More Than One Daily Routine",
-  "caption": "A House Sparrow Has More Than One Daily Routine — five-minute wild observations in just forty seconds. #WildVox #Animals #Nature #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_female_-_foraging_plants.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Grudnovo_nabre%C5%BEje_PASSERIFORMES_Passer_domesticus_DOMA%C4%8CI_VRABEC.webm | https://creativecommons.org/licenses/by/3.0\n3. 5snake5 | CC0 | https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_Haussperling.ogv | https://creativecommons.org/publicdomain/zero/1.0/\n4. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_in_flowerbed.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n5. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_at_zoo_video_1.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n6. Richard001 | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_bathing_in_water%2C_Anas_platyrhynchos_in_background.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n7. Pauly | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Passer_domesticus_%26_Turdus_viscivorus%2C_bathing_in_a_bird_bath.ogv | https://creativecommons.org/licenses/by/2.0\n8. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Spatz_Sandbad_im_Zoo_Teil2_10prozent.ogv | https://creativecommons.org/publicdomain/mark/1.0/",
+  "caption": "From foraging among plants to dust and water baths: three genuine scenes of house sparrows filmed at separate locations. #WildVox #HouseSparrow #Birdwatching #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_female_-_foraging_plants.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Grudnovo_nabre%C5%BEje_PASSERIFORMES_Passer_domesticus_DOMA%C4%8CI_VRABEC.webm | https://creativecommons.org/licenses/by/3.0\n3. 5snake5 | CC0 | https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_Haussperling.ogv | https://creativecommons.org/publicdomain/zero/1.0/\n4. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_in_flowerbed.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n5. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_at_zoo_video_1.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n6. Richard001 | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_bathing_in_water%2C_Anas_platyrhynchos_in_background.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n7. Pauly | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Passer_domesticus_%26_Turdus_viscivorus%2C_bathing_in_a_bird_bath.ogv | https://creativecommons.org/licenses/by/2.0\n8. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Spatz_Sandbad_im_Zoo_Teil2_10prozent.ogv | https://creativecommons.org/publicdomain/mark/1.0/",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "00608706b057928943a9e4f00eddcc90ff95edddf24d302a38ef85b0733a141c",
-  "duration": 40.42,
+  "config_sha256": "c3c1c197189be674e9e11dd2042608d659103ad2798d20e661bb385b10587a04",
+  "duration": 42.1,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -40,10 +40,10 @@
     {
       "index": 2,
       "start": 13.925,
-      "end": 19.625,
-      "duration": 5.7,
-      "text": "In a closer view, notice the bird's short beak and the quick way it turns its head.",
-      "scene": "Close identifiable real house sparrow in independent footage",
+      "end": 21.3,
+      "duration": 7.375,
+      "text": "From a wider view, a sparrow pauses near stones along a path before turning toward the nearby trees.",
+      "scene": "Actual distant house sparrow beside stones and path; no false close-up bill detail.",
       "tags": [
         "house_sparrow_closeup_after_bath"
       ],
@@ -53,8 +53,8 @@
     },
     {
       "index": 3,
-      "start": 19.625,
-      "end": 27.075,
+      "start": 21.3,
+      "end": 28.75,
       "duration": 7.45,
       "text": "But sparrows also take unusual baths, settling into dry soil and shaking their feathers through the dust.",
       "scene": "Two original sparrow dust-bath clips, one in a flowerbed and another at zoo grounds",
@@ -68,8 +68,8 @@
     },
     {
       "index": 4,
-      "start": 27.075,
-      "end": 33.975,
+      "start": 28.75,
+      "end": 35.65,
       "duration": 6.9,
       "text": "Water offers another option, as other sparrows bathe near a pond and in a shared birdbath.",
       "scene": "Real sparrow water-edge bathing and separate birdbath with other birds",
@@ -83,8 +83,8 @@
     },
     {
       "index": 5,
-      "start": 33.975,
-      "end": 40.425000000000004,
+      "start": 35.65,
+      "end": 42.1,
       "duration": 6.45,
       "text": "In one last zoo-ground scene, a sparrow rolls through the dust before continuing its day.",
       "scene": "A genuine sparrow dust-bath scene in zoo grounds",
