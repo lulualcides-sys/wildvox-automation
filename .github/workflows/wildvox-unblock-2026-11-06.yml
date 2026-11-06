@@ -1,4 +1,4 @@
-name: WildVox — desbloqueio pontual 2026-11-06
+name: WildVox — recuperação definitiva 2026-11-06
 
 on:
   push:
@@ -10,50 +10,62 @@ permissions:
   actions: write
 
 jobs:
-  unblock-old-invalid-render:
+  start-fixed-five:
     if: ${{ github.repository == 'lulualcides-sys/wildvox-automation' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 6
     steps:
-      - name: Verify old render failed before stopping its stuck archive jobs
+      - name: Verify current config and dispatch fixed separate-concurrency Daily 5
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
           set -euo pipefail
-          repo="${GITHUB_REPOSITORY}"
-          obsolete_run=42190998697
-          expected_sha="da4a4647453ed71f5a7717cabd767e626a33fb39"
-          corrected_run=42191464303
-          expected_corrected_sha="766f0d748715b056fbfe7aaba9760522f932d31a"
-
-          stale_json=$(gh api "repos/$repo/actions/runs/$obsolete_run")
-          current_json=$(gh api "repos/$repo/actions/runs/$corrected_run")
-          stale_sha=$(jq -r '.head_sha' <<< "$stale_json")
-          corrected_sha=$(jq -r '.head_sha' <<< "$current_json")
-          state=$(jq -r '.status' <<< "$stale_json")
-          if [[ "$stale_sha" != "$expected_sha" || "$corrected_sha" != "$expected_corrected_sha" ]]; then
-            echo "::error::Workflow SHAs changed. Refusing unsafe cancellation."
+          repo="$GITHUB_REPOSITORY"
+          config_sha=$(gh api "repos/$repo/contents/configs/daily.json" --jq '.sha')
+          workflow_sha=$(gh api "repos/$repo/contents/.github/workflows/wildvox-daily.yml" --jq '.sha')
+          if [[ "$config_sha" != "033268a5fd036f7ed5909cafe181bf0974c7327b" ]]; then
+            echo "::error::Daily config changed since verified Nov 6 batch; refusing stale dispatch."
+            exit 1
+          fi
+          if [[ "$workflow_sha" != "4ffde50a99e17ce6fd5df56bd133e1953fb70c0a" ]]; then
+            echo "::error::Fixed workflow changed; inspect new workflow before dispatch."
             exit 1
           fi
 
-          failed_render_count=$(gh api "repos/$repo/actions/runs/$obsolete_run/jobs?per_page=100" \
-            --jq '[.jobs[] | select(.name | startswith("render (")) | select(.conclusion == "failure")] | length')
-          if [[ "$failed_render_count" -ne 5 ]]; then
-            echo "::error::Old run does not have exactly five failed renders. Refusing cancellation."
-            exit 1
-          fi
+          # This dispatch executes all five validated Nov 6 entries from MAIN.
+          # The fixed workflow runs in concurrency group wildvox-daily-5-v2,
+          # not the stale queue which has five confirmed failed renders.
+          gh api -X POST "repos/$repo/actions/workflows/wildvox-daily.yml/dispatches" -f ref=main >/dev/null
+          echo "Triggered corrected current-day WildVox Daily 5 with workflow_dispatch, not an old rendered MP4."
 
-          if [[ "$state" == "completed" ]]; then
-            echo "Old run has already completed; corrected run can proceed."
-            exit 0
-          fi
-          if [[ "$state" != "in_progress" && "$state" != "queued" && "$state" != "pending" && "$state" != "waiting" ]]; then
-            echo "::error::Unexpected old run state $state; aborting."
-            exit 1
-          fi
+          # Once the replacement is dispatched, stop the two obsolete runs
+          # from the old queue. Both SHAs are known, preventing cancellation
+          # of unrelated user jobs; do not touch other workflow runs.
+          for item in "42190998697:da4a4647453ed71f5a7717cabd767e626a33fb39" \
+                      "42191464303:766f0d748715b056fbfe7aaba9760522f932d31a"; do
+            run_id="${item%%:*}"
+            expected_sha="${item#*:}"
+            run_json=$(gh api "repos/$repo/actions/runs/$run_id")
+            run_sha=$(jq -r '.head_sha' <<< "$run_json")
+            state=$(jq -r '.status' <<< "$run_json")
+            if [[ "$run_sha" != "$expected_sha" ]]; then
+              echo "::warning::Skipping mismatched old run $run_id."
+              continue
+            fi
+            if [[ "$state" == "completed" ]]; then
+              echo "Old run $run_id already terminal."
+              continue
+            fi
+            gh api -X POST "repos/$repo/actions/runs/$run_id/cancel" >/dev/null || true
+            # Force cancel is appropriate here: the first run's five renders
+            # all failed and its media-archive jobs never produced files; the
+            # second run has not started and has been replaced by this dispatch.
+            gh api -X POST "repos/$repo/actions/runs/$run_id/force-cancel" >/dev/null || true
+            echo "Cancelled obsolete workflow $run_id, status was $state."
+          done
 
-          gh api -X POST "repos/$repo/actions/runs/$obsolete_run/cancel" >/dev/null
-          echo "Requested cancellation of old all-five-failed render $obsolete_run."
-          echo "Corrected run $corrected_run remains pending/queued and must start after old concurrency releases."
-          echo "No TikTok, Metricool, YouTube or media-branch changes were made."
+          sleep 2
+          gh api "repos/$repo/actions/workflows/wildvox-daily.yml/runs?event=workflow_dispatch&per_page=10" \
+            --jq '.workflow_runs[] | [.id, .status, .head_sha] | @tsv' | head -n 5
+          echo "New videos still require own current-run MP4, technical and editorial approval before Metricool TikTok @wildvox schedule."
