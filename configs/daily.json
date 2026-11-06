@@ -768,7 +768,7 @@
   },
   "domestic_horse_group_meadow_nov06": {
     "title": "Inside the Quiet Rhythm of a Horse Herd",
-    "script": "These Icelandic horses gather close together, each facing a different part of the field. Elsewhere, a horse lowers its head and grazes through green grass. Two spring recordings show pale horses standing near water and moving together in small groups. On another part of the shore, the herd shifts position across open ground. Later spring footage shows other horses moving through meadow grass and pausing between mouthfuls. In a separate summer scene, a white horse grazes among trees, following its own relaxed daily rhythm.",
+    "script": "These Icelandic horses gather close together, each facing a different part of the field. Elsewhere, a horse lowers its head and grazes through green grass. In two spring recordings, one pale horse drinks at the water's edge while another horse grazes alone beside the shore. On another part of the shore, the herd shifts position across open ground. Later spring footage shows other horses moving through meadow grass and pausing between mouthfuls. In a separate summer scene, a white horse grazes among trees, following its own relaxed daily rhythm.",
     "caption": "Real horses across Iceland, meadows and woodland: how their daily routines change by place and season. Separate original recordings. #WildVox #Horses #Nature #AnimalBehavior",
     "sources": [
       {
@@ -890,7 +890,7 @@
     "max_freeze_seconds": 0.25,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-06-domestic_horse_group_meadow_nov06-original-narration-recut-v3",
+    "revision": "2026-11-06-domestic_horse_group_meadow_nov06-water-edge-observed-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -914,8 +914,8 @@
         "fx": []
       },
       {
-        "text": "Two spring recordings show pale horses standing near water and moving together in small groups.",
-        "scene": "Separate original Camargue horses near Slovenian lakeside in March",
+        "text": "In two spring recordings, one pale horse drinks at the water's edge while another horse grazes alone beside the shore.",
+        "scene": "Separate recordings: a pale horse drinking at the shoreline and a single tan horse grazing beside the water; no group movement claimed.",
         "tags": [
           "camargue_horse_slovenia_march_lakeside_grazing",
           "camargue_horses_slovenia_march_second"
