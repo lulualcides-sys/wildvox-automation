@@ -35,12 +35,24 @@
   "publication_hold_in_config": true,
   "release_control": {
     "editorially_approved": true,
-    "can_schedule_now": true,
-    "why": "Independently reviewed + current-run verified MP4 and media metadata, exact SHA and revisions verified. Check scheduled / TikTok analytics immediately before creating Metricool post.",
+    "can_schedule_now": false,
+    "why": "Already scheduled once via Metricool 418784786, do not duplicate.",
     "on_verified": "Authorize only one future unused 2026-11-06 TikTok slot with autoPublish true, TikTok-only provider and this full caption."
   },
   "metricool": {
-    "status": "NOT_YET_SCHEDULED"
+    "brand_id": 7242311,
+    "exact_handle": "wildvox",
+    "provider_network": "tiktok",
+    "post_id": 418784786,
+    "scheduled_local": "2026-11-06T12:40:00-03:00",
+    "provider_status": "PENDING",
+    "publication_status": "NOT_YET_CONFIRMED",
+    "autoPublish": true,
+    "draft": false,
+    "media_url": "https://static.metricool.com/planner/202611/7242311-file-6188121571250561893.mp4",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=6152061591170140030",
+    "uuid": "6152061591170140030",
+    "verification": "createScheduledPost ID 418784786 followed by getScheduledPosts readback; 2 distinct TikTok-only entries including robin ID 418769372, no TikTok published analytics rows yet"
   },
   "never_youtube": true,
   "never_buffer_wildvox6": true,
