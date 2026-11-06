@@ -381,7 +381,8 @@
         "fx": []
       }
     ],
-    "trend_priority": false
+    "trend_priority": false,
+    "targeted_render_request": "2026-11-06-v4-github-actions-recovery-2013-BRT"
   },
   "red_squirrel_perches_and_stump_nov06": {
     "title": "Where a Red Squirrel Stops to Watch and Eat",
@@ -764,7 +765,8 @@
         "fx": []
       }
     ],
-    "trend_priority": false
+    "trend_priority": false,
+    "targeted_render_request": "2026-11-06-v4-github-actions-recovery-2013-BRT"
   },
   "domestic_horse_group_meadow_nov06": {
     "title": "Inside the Quiet Rhythm of a Horse Herd",
@@ -956,6 +958,7 @@
         "fx": []
       }
     ],
-    "trend_priority": false
+    "trend_priority": false,
+    "targeted_render_request": "2026-11-06-v4-github-actions-recovery-2013-BRT"
   }
 }
