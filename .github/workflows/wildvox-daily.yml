@@ -18,7 +18,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: wildvox-daily-5
+  group: wildvox-daily-5-v2
   # Preserve active renders when a second editorial batch is queued.
   # GitHub keeps at most one pending run in this concurrency group, replacing
   # obsolete pending revisions without canceling an in-progress first batch.
@@ -210,15 +210,32 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - name: Check the artifact exists before running expensive candidate QA
+        id: candidate-artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          artifact="daily-${{ matrix.animal }}"
+          if gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts?per_page=100" \
+              --jq '.artifacts[].name' | grep -Fxq "$artifact"; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Render artifact missing for ${{ matrix.animal }}; skip this video's archive without wasting FFmpeg installation."
+          fi
       - name: Install FFmpeg for actual candidate QA
+        if: steps.candidate-artifact.outputs.exists == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
       - uses: actions/download-artifact@v4
+        if: steps.candidate-artifact.outputs.exists == 'true'
         with:
           name: daily-${{ matrix.animal }}
           path: public
       - name: Validate this candidate's current MP4 and metadata
+        if: steps.candidate-artifact.outputs.exists == 'true'
         run: |
           python scripts/qa_rendered_batch.py \
             --config configs/daily.json \
@@ -226,6 +243,7 @@ jobs:
             --key "${{ matrix.animal }}" \
             --report "technical_qa_${{ matrix.animal }}.json"
       - name: Store technically valid candidate in root media branch
+        if: steps.candidate-artifact.outputs.exists == 'true'
         run: |
           set -euo pipefail
           key="${{ matrix.animal }}"
@@ -272,7 +290,7 @@ jobs:
           echo "Media archive failed after six refreshed retries." >&2
           exit 1
       - name: Preserve per-candidate technical QA verdict
-        if: always()
+        if: always() && steps.candidate-artifact.outputs.exists == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: independent-qa-${{ matrix.animal }}
