@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-06",
+  "key": "domestic_horse_group_meadow_nov06",
+  "verdict": "VETO",
+  "source_run_id": 42206521353,
+  "artifact_id": 13497283493,
+  "config_sha256": "c12ba304a205b22f89f6823348904efdecfa325c7e153e03942581664e156cb0",
+  "media_sha256": "fd038bd7ffb309de2ffdc0db9c398b0e215472153d54b957ec4b4f9c7837b2a8",
+  "duration_seconds": 38.175,
+  "evidence": "Original ZIP downloaded. Reviewed contact sheet and metadata; middle sequence shows a pale horse at water and a separate solitary brown horse grazing by shoreline. Narration falsely says pale horses moving together in small groups.",
+  "correction_commit": "a2524048c4864a8e1fede532f722eabd06013cef",
+  "new_revision": "2026-11-06-domestic_horse_group_meadow_nov06-water-edge-observed-v4",
+  "publication_hold": true,
+  "approval": false,
+  "remaining_checks": "Targeted v4 render and independent complete frame/source/caption/license/freeze inspection required; v3 media not publishable."
+}
