@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-06",
+  "candidate": "domestic_cat_groom_walk_play_nov06",
+  "run_id": 42206521353,
+  "artifact_id": 13497388771,
+  "review": "independent_editorial_veto",
+  "old_config_sha256": "5bf4ac2a0c8a07836b4af5fa1c78fd2106c39cd71223bfc32987c979e8fa5b60",
+  "old_mp4_sha256": "912c02e5defc2fe6edee045fb538a02905a3dbe1b750c04fc9148a8e046d932e",
+  "evidence": "Original artifact ZIP and final contact sheet plus source_02_preview.jpg: Tokyo kitten is resting curled in a striped bed, not playing; 12.4-19.35s voice-over falsely says kitten plays. Scene not editorially cleared.",
+  "fix_commit": "40b8df16658f464f158a8cad0fadfca15cbc1ea3",
+  "fix": "Changed only cat v4 narration and visual plan to 'rests'; preserved other four configs and publication_hold=true.",
+  "next": "Render only cat v4, recheck actual decoded video, narration, all source licenses/credits and exact media branch hashes before scheduling. Never schedule rejected v3 MP4.",
+  "publication_authorized": false
+}
