@@ -1,11 +1,11 @@
 {
   "key": "domestic_cat_groom_walk_play_nov06",
   "title": "A Cat's Day Can Change in Seconds",
-  "caption": "A Cat's Day Can Change in Seconds — five-minute wild observations in just forty seconds. #WildVox #Animals #Nature #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0\n2. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n3. Yourusernamewillbepublic2 | CC0 | https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0\n5. User:Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin1.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0\n7. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0",
+  "caption": "A cat's day: grooming, walking, a paper bag, kitten play and a gentle pat. Different real cats in separate recordings. #WildVox #Cats #AnimalLife #Nature\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0\n2. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n3. Nesnad | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm | https://creativecommons.org/licenses/by/4.0/\n4. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0\n5. User:Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin1.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0\n7. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "72b3acede1f16fa67a2329ebec5965b51ba5170d27a5c6fd630ecbfef4bdf5f0",
-  "duration": 37.3,
+  "config_sha256": "5bf4ac2a0c8a07836b4af5fa1c78fd2106c39cd71223bfc32987c979e8fa5b60",
+  "duration": 37.65,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -40,13 +40,13 @@
     {
       "index": 2,
       "start": 12.4,
-      "end": 19.0,
-      "duration": 6.6,
-      "text": "At home, curious cats look up at a visitor or investigate the inside of a paper bag.",
-      "scene": "Actual real cat looking up at camera and a different house cat inside a bag",
+      "end": 19.35,
+      "duration": 6.95,
+      "text": "At home, one cat explores a paper bag, while another kitten plays in a separately filmed room.",
+      "scene": "Authentic cat investigating paper bag plus separate real kitten playing in Tokyo; no misleading balcony scene.",
       "tags": [
-        "domestic_cat_looks_up_at_camera",
-        "domestic_cat_inside_paper_bag"
+        "domestic_cat_inside_paper_bag",
+        "domestic_kitten_playing_indoors"
       ],
       "story_role": "action",
       "overlay_label": "REAL BEHAVIOR",
@@ -54,8 +54,8 @@
     },
     {
       "index": 3,
-      "start": 19.0,
-      "end": 25.9,
+      "start": 19.35,
+      "end": 26.25,
       "duration": 6.9,
       "text": "Others bat at small objects or play with another cat, turning quiet moments into activity.",
       "scene": "One real cat batting a cotton bud and two separate cats playing",
@@ -69,8 +69,8 @@
     },
     {
       "index": 4,
-      "start": 25.9,
-      "end": 31.049999999999997,
+      "start": 26.25,
+      "end": 31.4,
       "duration": 5.15,
       "text": "One playful cat keeps following a moving object with its eyes and paws.",
       "scene": "Real cat playing indoors in Taiwan",
@@ -83,8 +83,8 @@
     },
     {
       "index": 5,
-      "start": 31.049999999999997,
-      "end": 37.3,
+      "start": 31.4,
+      "end": 37.65,
       "duration": 6.25,
       "text": "When the activity ends, another cat accepts a gentle pat from a person outdoors.",
       "scene": "Actual house cat being petted outdoors; no claim the earlier cats are the same",
@@ -126,17 +126,16 @@
       ]
     },
     {
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20discovers%20it%20was%20being%20spied%20on.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
       "type": "video",
-      "assetTitle": "Cat discovers it was being spied on.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm",
-      "author": "Yourusernamewillbepublic2",
-      "license": "CC0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "license_verified_at": "2026-11-02",
-      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
+      "author": "Nesnad",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Original Commons source previously catalogued in cat_play_hunting_instinct_meta.json; LIVE Commons audit and CURRENT-run visual review required before release.",
       "tags": [
-        "domestic_cat_looks_up_at_camera"
+        "domestic_kitten_playing_indoors"
       ]
     },
     {
