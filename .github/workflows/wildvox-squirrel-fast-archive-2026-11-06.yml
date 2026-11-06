@@ -1,0 +1,86 @@
+name: WildVox — recuperação rápida do esquilo 2026-11-06
+
+on:
+  push:
+    paths:
+      - ".github/workflows/wildvox-squirrel-fast-archive-2026-11-06.yml"
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  archive-reviewed-squirrel:
+    if: ${{ github.repository == 'lulualcides-sys/wildvox-automation' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Download exact Nov 6 render artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 --retry-delay 2 --max-time 180 \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/artifacts/13495766312/zip" \
+            -o /tmp/wildvox-squirrel.zip
+          mkdir -p /tmp/wildvox-squirrel
+          unzip -oq /tmp/wildvox-squirrel.zip -d /tmp/wildvox-squirrel
+      - name: Verify current-day MP4, exact config fingerprint and editorial gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json
+          key="red_squirrel_perches_and_stump_nov06"
+          cfg=json.loads(Path("configs/daily.json").read_text())[key]
+          data=json.loads(Path(f"/tmp/wildvox-squirrel/{key}_meta.json").read_text())
+          video=Path(f"/tmp/wildvox-squirrel/{key}.mp4")
+          actual=hashlib.sha256(video.read_bytes()).hexdigest()
+          expected="0b1dfb4601d44bd79eb3556cd9c8b47acc4e0c0ce1cfcff1565e94f0d43641d7"
+          fp=hashlib.sha256(json.dumps(cfg,sort_keys=True,ensure_ascii=False,separators=(",",":")).encode()).hexdigest()
+          assert actual==expected, "Wrong MP4 SHA256"
+          assert data["config_sha256"]==fp=="a70b0ffd12161ac47a310506de116c1e636d804d7072e924920f328e9658829a", "Wrong current-day config"
+          assert data["publication_hold"] is True and cfg["publication_hold"] is True
+          assert 30 <= data["duration"] <= 45 and len(data["sources"])==8
+          assert Path(f"/tmp/wildvox-squirrel/{key}_review.jpg").is_file()
+          print("Exact 2026-11-06 edited squirrel media and metadata verified.")
+          PY
+      - name: Sparse, blob-filtered archive to media without fetching gigabytes
+        shell: bash
+        run: |
+          set -euo pipefail
+          key="red_squirrel_perches_and_stump_nov06"
+          git fetch --depth=1 --filter=blob:none --no-tags origin media
+          git worktree add --no-checkout --detach /tmp/wildvox-squirrel-media FETCH_HEAD
+          git -C /tmp/wildvox-squirrel-media sparse-checkout init --no-cone
+          git -C /tmp/wildvox-squirrel-media sparse-checkout set \
+             "/${key}.mp4" "/${key}_meta.json" "/${key}_review.jpg"
+          git -C /tmp/wildvox-squirrel-media config user.name "wildvox-bot"
+          git -C /tmp/wildvox-squirrel-media config user.email "actions@users.noreply.github.com"
+          for attempt in 1 2 3 4 5; do
+            git fetch --depth=1 --filter=blob:none --no-tags origin media
+            git -C /tmp/wildvox-squirrel-media reset --hard FETCH_HEAD
+            cp "/tmp/wildvox-squirrel/${key}.mp4" /tmp/wildvox-squirrel-media/
+            cp "/tmp/wildvox-squirrel/${key}_meta.json" /tmp/wildvox-squirrel-media/
+            cp "/tmp/wildvox-squirrel/${key}_review.jpg" /tmp/wildvox-squirrel-media/
+            git -C /tmp/wildvox-squirrel-media add -- "${key}.mp4" "${key}_meta.json" "${key}_review.jpg"
+            if git -C /tmp/wildvox-squirrel-media diff --cached --quiet; then
+              echo "Identical current-run media already archived; no second commit."
+              exit 0
+            fi
+            git -C /tmp/wildvox-squirrel-media commit -m "Archive exact QA-approved 2026-11-06 squirrel candidate"
+            if git -C /tmp/wildvox-squirrel-media push origin HEAD:media; then
+              echo "Squirrel archived; editorial approval ledger still governs publication."
+              exit 0
+            fi
+            echo "Media branch race or slow push; retrying refreshed sparse tree ($attempt)"
+            sleep "$((attempt*2))"
+          done
+          exit 1
