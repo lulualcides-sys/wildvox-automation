@@ -4,8 +4,8 @@
   "caption": "Real horses across Iceland, meadows and woodland: how their daily routines change by place and season. Separate original recordings. #WildVox #Horses #Nature #AnimalBehavior\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Adon Metcalfe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm | https://creativecommons.org/licenses/by/2.0\n2. docentjoyce | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Grazing_Horses_in_California.webm | https://creativecommons.org/licenses/by/2.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_3.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-07-14_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "c12ba304a205b22f89f6823348904efdecfa325c7e153e03942581664e156cb0",
-  "duration": 38.17,
+  "config_sha256": "fe0d368c62729093287726044915b590b6fe7cd58baf7fe649dcfd18372ed346",
+  "duration": 39.62,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -40,10 +40,10 @@
     {
       "index": 2,
       "start": 11.275,
-      "end": 18.225,
-      "duration": 6.95,
-      "text": "Two spring recordings show pale horses standing near water and moving together in small groups.",
-      "scene": "Separate original Camargue horses near Slovenian lakeside in March",
+      "end": 19.675,
+      "duration": 8.4,
+      "text": "In two spring recordings, one pale horse drinks at the water's edge while another horse grazes alone beside the shore.",
+      "scene": "Separate recordings: a pale horse drinking at the shoreline and a single tan horse grazing beside the water; no group movement claimed.",
       "tags": [
         "camargue_horse_slovenia_march_lakeside_grazing",
         "camargue_horses_slovenia_march_second"
@@ -54,8 +54,8 @@
     },
     {
       "index": 3,
-      "start": 18.225,
-      "end": 23.575000000000003,
+      "start": 19.675,
+      "end": 25.025,
       "duration": 5.35,
       "text": "On another part of the shore, the herd shifts position across open ground.",
       "scene": "Actual additional Camargue horses on lakeside ground",
@@ -68,8 +68,8 @@
     },
     {
       "index": 4,
-      "start": 23.575000000000003,
-      "end": 30.375000000000004,
+      "start": 25.025,
+      "end": 31.825,
       "duration": 6.8,
       "text": "Later spring footage shows other horses moving through meadow grass and pausing between mouthfuls.",
       "scene": "Two separate authentic Camargue horses in the spring meadow",
@@ -83,8 +83,8 @@
     },
     {
       "index": 5,
-      "start": 30.375000000000004,
-      "end": 38.175000000000004,
+      "start": 31.825,
+      "end": 39.625,
       "duration": 7.8,
       "text": "In a separate summer scene, a white horse grazes among trees, following its own relaxed daily rhythm.",
       "scene": "Actual single white horse feeding among trees near woodland; no invented group by a lake.",
