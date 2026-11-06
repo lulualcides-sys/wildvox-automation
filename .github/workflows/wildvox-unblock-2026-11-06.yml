@@ -1,0 +1,59 @@
+name: WildVox — desbloqueio pontual 2026-11-06
+
+on:
+  push:
+    paths:
+      - ".github/workflows/wildvox-unblock-2026-11-06.yml"
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  unblock-old-invalid-render:
+    if: ${{ github.repository == 'lulualcides-sys/wildvox-automation' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify old render failed before stopping its stuck archive jobs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo="${GITHUB_REPOSITORY}"
+          obsolete_run=42190998697
+          expected_sha="da4a4647453ed71f5a7717cabd767e626a33fb39"
+          corrected_run=42191464303
+          expected_corrected_sha="766f0d748715b056fbfe7aaba9760522f932d31a"
+
+          stale_json=$(gh api "repos/$repo/actions/runs/$obsolete_run")
+          current_json=$(gh api "repos/$repo/actions/runs/$corrected_run")
+          stale_sha=$(jq -r '.head_sha' <<< "$stale_json")
+          corrected_sha=$(jq -r '.head_sha' <<< "$current_json")
+          state=$(jq -r '.status' <<< "$stale_json")
+          if [[ "$stale_sha" != "$expected_sha" || "$corrected_sha" != "$expected_corrected_sha" ]]; then
+            echo "::error::Workflow SHAs changed. Refusing unsafe cancellation."
+            exit 1
+          fi
+
+          failed_render_count=$(gh api "repos/$repo/actions/runs/$obsolete_run/jobs?per_page=100" \
+            --jq '[.jobs[] | select(.name | startswith("render (")) | select(.conclusion == "failure")] | length')
+          if [[ "$failed_render_count" -ne 5 ]]; then
+            echo "::error::Old run does not have exactly five failed renders. Refusing cancellation."
+            exit 1
+          fi
+
+          if [[ "$state" == "completed" ]]; then
+            echo "Old run has already completed; corrected run can proceed."
+            exit 0
+          fi
+          if [[ "$state" != "in_progress" && "$state" != "queued" && "$state" != "pending" && "$state" != "waiting" ]]; then
+            echo "::error::Unexpected old run state $state; aborting."
+            exit 1
+          fi
+
+          gh api -X POST "repos/$repo/actions/runs/$obsolete_run/cancel" >/dev/null
+          echo "Requested cancellation of old all-five-failed render $obsolete_run."
+          echo "Corrected run $corrected_run remains pending/queued and must start after old concurrency releases."
+          echo "No TikTok, Metricool, YouTube or media-branch changes were made."
