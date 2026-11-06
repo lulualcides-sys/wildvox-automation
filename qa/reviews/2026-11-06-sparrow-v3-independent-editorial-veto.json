@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-06",
+  "key": "house_sparrow_foraging_and_bathing_nov06",
+  "status": "VETO",
+  "render_run_id": 42206521353,
+  "artifact_id": 13498580480,
+  "render_revision": "2026-11-06-house_sparrow_foraging_and_bathing_nov06-original-narration-recut-v3",
+  "config_sha256": "c3c1c197189be674e9e11dd2042608d659103ad2798d20e661bb385b10587a04",
+  "media_sha256": "887820d9a0280c683a1498770fe69b7b16ef3bf4a7df0459bef6e81e6ab41496",
+  "duration_seconds": 42.1,
+  "evidence": "Inspected original ZIP MP4 metadata, contact sheet and all eight source-preview JPGs. Scene 3 has a distant sparrow beside mossy stone; the claim 'before turning toward the nearby trees' is not independently evidenced.",
+  "remediation_commit": "2eccd8fa3e6a8bbaabec1e0d4b33aa5983c5a60f",
+  "remediation": "Narration and visual plan corrected to observed mossy stone border. This changes the config fingerprint; previous MP4 remains vetoed. Render only this entry again and independently review new MP4, all frames, sources, freeze, licensing before any publication.",
+  "publication_hold": true
+}
