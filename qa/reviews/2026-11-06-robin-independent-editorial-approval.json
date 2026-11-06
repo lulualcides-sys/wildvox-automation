@@ -35,10 +35,20 @@
   "publication_hold_in_config": true,
   "release_control": {
     "editorially_approved": true,
-    "can_schedule_now": false,
-    "why": "Wait for CURRENT run per-video independent technical QA to succeed and exact 2026-11-06 MP4+metadata to appear on public root media branch; verify same fingerprint and SHA-256, recheck today's Metricool scheduled and published records, and confirm exact @wildvox network. No preemptive upload.",
+    "can_schedule_now": true,
+    "why": "Full independent visual and license editorial approval recorded above; current-run archived MP4, meta and Git blob verified. Still check exact handle and same-day duplicate/slots immediately before Metricool create.",
     "when_verified": "Allowed to schedule one unused FUTURE 2026-11-06 Sao Paulo slot with autoPublish true, draft false, providers=[{network:'tiktok'}] only and full corrected caption."
   },
   "never_youtube": true,
-  "never_buffer_wildvox6": true
+  "never_buffer_wildvox6": true,
+  "media_branch_mp4_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/european_robin_park_to_reed_song_nov06.mp4",
+  "media_branch_mp4_git_blob_sha": "31c41e3300f205f2e3e195cc6bb19669d78b0aab",
+  "media_branch_meta_git_blob_sha": "9d547538aca4f3f1a444e580f21693e4b349ab18",
+  "media_branch_current_meta_config_sha256": "2c9df94a4a74d856f994f366475b1db31c5c4161111a586726ed3cd5411b8bde",
+  "media_verification": "Public GitHub media branch REST directory readback confirms root .mp4 size 26412867 bytes and Git blob 31c41e3300f205f2e3e195cc6bb19669d78b0aab, equal to independent local git hash-object. JSON meta blob equals local original artifact meta hash and same config_sha256. Workflow run 42202651591 render SUCCESS; technical-qa SUCCESS; publish-media robin per-video QA and media archive SUCCESS.",
+  "metricool": {
+    "brand_id": 7242311,
+    "handle": "wildvox",
+    "status": "NOT_YET_SCHEDULED"
+  }
 }
