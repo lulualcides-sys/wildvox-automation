@@ -118,12 +118,12 @@
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 4.5,
+    "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0.25,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-06-european_robin_park_to_reed_song_nov06-original-narration-recut-v1",
+    "revision": "2026-11-06-european_robin_park_to_reed_song_nov06-original-narration-recut-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -310,12 +310,12 @@
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 4.5,
+    "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0.25,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-06-house_sparrow_foraging_and_bathing_nov06-original-narration-recut-v1",
+    "revision": "2026-11-06-house_sparrow_foraging_and_bathing_nov06-original-narration-recut-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -502,12 +502,12 @@
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 4.5,
+    "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0.25,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-06-red_squirrel_perches_and_stump_nov06-original-narration-recut-v1",
+    "revision": "2026-11-06-red_squirrel_perches_and_stump_nov06-original-narration-recut-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -694,12 +694,12 @@
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 4.5,
+    "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0.25,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-06-domestic_cat_groom_walk_play_nov06-original-narration-recut-v1",
+    "revision": "2026-11-06-domestic_cat_groom_walk_play_nov06-original-narration-recut-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -886,12 +886,12 @@
       }
     ],
     "min_unique_videos": 6,
-    "target_shot_seconds": 4.5,
+    "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0.25,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-06-domestic_horse_group_meadow_nov06-original-narration-recut-v1",
+    "revision": "2026-11-06-domestic_horse_group_meadow_nov06-original-narration-recut-v2",
     "publication_hold": true,
     "visual_plan": [
       {
