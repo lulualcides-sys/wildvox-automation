@@ -6,16 +6,16 @@
   "brand_id": 7242311,
   "never_youtube": true,
   "never_buffer_wildvox6": true,
-  "source_commit": "da4a4647453ed71f5a7717cabd767e626a33fb39",
-  "config_blob_sha": "609d742ad292bfd2d5b5a63850256e3c08daf568",
-  "workflow_run_id": 42190998697,
+  "source_commit": "766f0d748715b056fbfe7aaba9760522f932d31a",
+  "config_blob_sha": "033268a5fd036f7ed5909cafe181bf0974c7327b",
+  "workflow_run_id": 42202651591,
   "prep_validation": "GitHub run 42190998697 prepare SUCCESS (includes live Commons source audit + tag preflight); current renders not yet editorially approved",
   "root_media_branch": "media",
   "freshness": "New six-block English-US narration per animal, freshly rendered 2026-11-06; raw CC-licensed source material originally documented and independently reviewed on previous days. Do NOT reuse any prior MP4 or editorial approval; do NOT assert videos were filmed today.",
   "candidates": [
     {
       "key": "european_robin_park_to_reed_song_nov06",
-      "revision": "2026-11-06-european_robin_park_to_reed_song_nov06-original-narration-recut-v1",
+      "revision": "2026-11-06-european_robin_park_to_reed_song_nov06-original-narration-recut-v2",
       "publication_hold": true,
       "assets": 8,
       "narrative_blocks": 6,
@@ -34,7 +34,7 @@
     },
     {
       "key": "house_sparrow_foraging_and_bathing_nov06",
-      "revision": "2026-11-06-house_sparrow_foraging_and_bathing_nov06-original-narration-recut-v1",
+      "revision": "2026-11-06-house_sparrow_foraging_and_bathing_nov06-original-narration-recut-v2",
       "publication_hold": true,
       "assets": 8,
       "narrative_blocks": 6,
@@ -53,7 +53,7 @@
     },
     {
       "key": "red_squirrel_perches_and_stump_nov06",
-      "revision": "2026-11-06-red_squirrel_perches_and_stump_nov06-original-narration-recut-v1",
+      "revision": "2026-11-06-red_squirrel_perches_and_stump_nov06-original-narration-recut-v2",
       "publication_hold": true,
       "assets": 8,
       "narrative_blocks": 6,
@@ -72,7 +72,7 @@
     },
     {
       "key": "domestic_cat_groom_walk_play_nov06",
-      "revision": "2026-11-06-domestic_cat_groom_walk_play_nov06-original-narration-recut-v1",
+      "revision": "2026-11-06-domestic_cat_groom_walk_play_nov06-original-narration-recut-v2",
       "publication_hold": true,
       "assets": 8,
       "narrative_blocks": 6,
@@ -91,7 +91,7 @@
     },
     {
       "key": "domestic_horse_group_meadow_nov06",
-      "revision": "2026-11-06-domestic_horse_group_meadow_nov06-original-narration-recut-v1",
+      "revision": "2026-11-06-domestic_horse_group_meadow_nov06-original-narration-recut-v2",
       "publication_hold": true,
       "assets": 8,
       "narrative_blocks": 6,
@@ -127,5 +127,20 @@
     "new config_sha256 equals corresponding media metadata"
   ],
   "publish_receipt": "Only actual Metricool scheduled id with PENDING counts as scheduled. Only provider PUBLISHED and public TikTok URL exact @wildvox counts as published.",
-  "note": "Daily Prep 2026-11-06 at 04:00 had failed original Commons lookup; manually recovered from already vetted original raw source pools and wrote new current-day batch. Existing Daily Prep automation prompt now includes explicit no-output recovery and never-old-MP4 rule."
+  "note": "Daily Prep 2026-11-06 at 04:00 had failed original Commons lookup; manually recovered from already vetted original raw source pools and wrote new current-day batch. Existing Daily Prep automation prompt now includes explicit no-output recovery and never-old-MP4 rule. IMPORTANT 2026-11-06 07:26 Sao Paulo: corrected run is 42202651591; earlier 42190998697 and 42191464303 are obsolete and cannot authorize publication.",
+  "workflow_dispatch_commit": "10ac918283da68979b3c8eeeb608329d83abf43b",
+  "fixed_workflow_commit": "d7d3d39093e6fda4c0ddec4e33815febc3ddddbc",
+  "previous_invalid_runs": [
+    {
+      "run_id": 42190998697,
+      "status": "cancelled",
+      "cause": "old configs/daily.json target_shot_seconds 4.5; five failed renders and stuck archive jobs"
+    },
+    {
+      "run_id": 42191464303,
+      "status": "cancellation requested",
+      "cause": "replaced pending workflow on old concurrency group"
+    }
+  ],
+  "production_recovery": "New workflow_dispatch uses concurrency group wildvox-daily-5-v2 and artifact pre-check; current-day config has target_shot_seconds 7 seconds for every entry. Prepare of new run 42202651591 passed. This is current run for source/MP4 reviews."
 }
