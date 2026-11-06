@@ -193,7 +193,7 @@
   },
   "house_sparrow_foraging_and_bathing_nov06": {
     "title": "A House Sparrow Has More Than One Daily Routine",
-    "script": "A female house sparrow searches between these leaves, stopping to inspect small patches of ground. Another sparrow appears beside a waterfront, where busy city spaces meet everyday bird life. From a wider view, a sparrow pauses near stones along a path before turning toward the nearby trees. But sparrows also take unusual baths, settling into dry soil and shaking their feathers through the dust. Water offers another option, as other sparrows bathe near a pond and in a shared birdbath. In one last zoo-ground scene, a sparrow rolls through the dust before continuing its day.",
+    "script": "A female house sparrow searches between these leaves, stopping to inspect small patches of ground. Another sparrow appears beside a waterfront, where busy city spaces meet everyday bird life. From a wider view, a sparrow appears beside a mossy stone border, pausing on the edge of a garden path. But sparrows also take unusual baths, settling into dry soil and shaking their feathers through the dust. Water offers another option, as other sparrows bathe near a pond and in a shared birdbath. In one last zoo-ground scene, a sparrow rolls through the dust before continuing its day.",
     "caption": "From foraging among plants to dust and water baths: three genuine scenes of house sparrows filmed at separate locations. #WildVox #HouseSparrow #Birdwatching #Wildlife",
     "sources": [
       {
@@ -315,7 +315,7 @@
     "max_freeze_seconds": 0.25,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-06-house_sparrow_foraging_and_bathing_nov06-original-narration-recut-v3",
+    "revision": "2026-11-06-house_sparrow_foraging_and_bathing_nov06-stone-border-observed-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -339,8 +339,8 @@
         "fx": []
       },
       {
-        "text": "From a wider view, a sparrow pauses near stones along a path before turning toward the nearby trees.",
-        "scene": "Actual distant house sparrow beside stones and path; no false close-up bill detail.",
+        "text": "From a wider view, a sparrow appears beside a mossy stone border, pausing on the edge of a garden path.",
+        "scene": "Actual distant sparrow perched beside a mossy stone garden border; do not claim movement toward trees.",
         "tags": [
           "house_sparrow_closeup_after_bath"
         ],
