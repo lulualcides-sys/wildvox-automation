@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-06",
+  "timezone": "America/Sao_Paulo",
+  "platform": "tiktok",
+  "exact_target": "@wildvox",
+  "brand_id": 7242311,
+  "never_youtube": true,
+  "never_buffer_wildvox6": true,
+  "source_commit": "da4a4647453ed71f5a7717cabd767e626a33fb39",
+  "config_blob_sha": "609d742ad292bfd2d5b5a63850256e3c08daf568",
+  "workflow_run_id": 42190998697,
+  "prep_validation": "GitHub run 42190998697 prepare SUCCESS (includes live Commons source audit + tag preflight); current renders not yet editorially approved",
+  "root_media_branch": "media",
+  "freshness": "New six-block English-US narration per animal, freshly rendered 2026-11-06; raw CC-licensed source material originally documented and independently reviewed on previous days. Do NOT reuse any prior MP4 or editorial approval; do NOT assert videos were filmed today.",
+  "candidates": [
+    {
+      "key": "european_robin_park_to_reed_song_nov06",
+      "revision": "2026-11-06-european_robin_park_to_reed_song_nov06-original-narration-recut-v1",
+      "publication_hold": true,
+      "assets": 8,
+      "narrative_blocks": 6,
+      "original_source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Robin_feeding.ogv",
+        "https://commons.wikimedia.org/wiki/File:2022-01-03_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA_2.webm",
+        "https://commons.wikimedia.org/wiki/File:2022-03-28_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
+        "https://commons.wikimedia.org/wiki/File:2022-06-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
+        "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
+        "https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_01.webm",
+        "https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_02.webm",
+        "https://commons.wikimedia.org/wiki/File:Robin_Singing_video.webm"
+      ],
+      "previous_source_previews_are_not_current_review": true,
+      "current_render_artifact_pending": true
+    },
+    {
+      "key": "house_sparrow_foraging_and_bathing_nov06",
+      "revision": "2026-11-06-house_sparrow_foraging_and_bathing_nov06-original-narration-recut-v1",
+      "publication_hold": true,
+      "assets": 8,
+      "narrative_blocks": 6,
+      "original_source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Passer_domesticus_female_-_foraging_plants.ogv",
+        "https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Grudnovo_nabre%C5%BEje_PASSERIFORMES_Passer_domesticus_DOMA%C4%8CI_VRABEC.webm",
+        "https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_Haussperling.ogv",
+        "https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_in_flowerbed.ogv",
+        "https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_at_zoo_video_1.ogv",
+        "https://commons.wikimedia.org/wiki/File:Passer_domesticus_bathing_in_water%2C_Anas_platyrhynchos_in_background.ogv",
+        "https://commons.wikimedia.org/wiki/File:Passer_domesticus_%26_Turdus_viscivorus%2C_bathing_in_a_bird_bath.ogv",
+        "https://commons.wikimedia.org/wiki/File:Spatz_Sandbad_im_Zoo_Teil2_10prozent.ogv"
+      ],
+      "previous_source_previews_are_not_current_review": true,
+      "current_render_artifact_pending": true
+    },
+    {
+      "key": "red_squirrel_perches_and_stump_nov06",
+      "revision": "2026-11-06-red_squirrel_perches_and_stump_nov06-original-narration-recut-v1",
+      "publication_hold": true,
+      "assets": 8,
+      "narrative_blocks": 6,
+      "original_source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Ekorre_r%C3%A4dselljud%3F_Red_squirrel_fear_noise%3F.webm",
+        "https://commons.wikimedia.org/wiki/File:Red_Squirrel_in_Berlin.webm",
+        "https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
+        "https://commons.wikimedia.org/wiki/File:The_Great_Walnut_Disaster.webm",
+        "https://commons.wikimedia.org/wiki/File:Red_squirrel_(Sciurus_vulgaris)_in_England.webm",
+        "https://commons.wikimedia.org/wiki/File:Red_Squirrel_(Sciurus_vulgaris).webm",
+        "https://commons.wikimedia.org/wiki/File:Red_Squirrel_'Nutkin'_-_Seen_at_Forest_How%2C_Eskdale%2C_Cumbria_-_North_West_England.webm"
+      ],
+      "previous_source_previews_are_not_current_review": true,
+      "current_render_artifact_pending": true
+    },
+    {
+      "key": "domestic_cat_groom_walk_play_nov06",
+      "revision": "2026-11-06-domestic_cat_groom_walk_play_nov06-original-narration-recut-v1",
+      "publication_hold": true,
+      "assets": 8,
+      "narrative_blocks": 6,
+      "original_source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
+        "https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm",
+        "https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm",
+        "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
+        "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
+        "https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm",
+        "https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm",
+        "https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm"
+      ],
+      "previous_source_previews_are_not_current_review": true,
+      "current_render_artifact_pending": true
+    },
+    {
+      "key": "domestic_horse_group_meadow_nov06",
+      "revision": "2026-11-06-domestic_horse_group_meadow_nov06-original-narration-recut-v1",
+      "publication_hold": true,
+      "assets": 8,
+      "narrative_blocks": 6,
+      "original_source_pages": [
+        "https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm",
+        "https://commons.wikimedia.org/wiki/File:Grazing_Horses_in_California.webm",
+        "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm",
+        "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+        "https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_3.webm",
+        "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm",
+        "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm",
+        "https://commons.wikimedia.org/wiki/File:2022-07-14_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm"
+      ],
+      "previous_source_previews_are_not_current_review": true,
+      "current_render_artifact_pending": true
+    }
+  ],
+  "current_day_slots": [
+    "10:05",
+    "12:40",
+    "16:10",
+    "19:35",
+    "22:05"
+  ],
+  "schedule_guards": "Only actual future slots; get Metricool scheduled posts AND TKPO01/02/03/05 analytics immediately before every TikTok-only create; exact tiktokData wildvox; at most 5 distinct today; no duplicate source media/fingerprint",
+  "review_requires": [
+    "current-run 8 source preview JPGs",
+    "current-run 9:16 MP4 decoded hook/action/payoff",
+    "current-run final contact sheet JPG",
+    "source license/author/sourcePage/current attribution and editing disclosure",
+    "real Kokoro 30-45 seconds, 8-12 unique originals >=6 video",
+    "safe area, no black bars, no synthetic zoom/loop, no >=1s freeze",
+    "new config_sha256 equals corresponding media metadata"
+  ],
+  "publish_receipt": "Only actual Metricool scheduled id with PENDING counts as scheduled. Only provider PUBLISHED and public TikTok URL exact @wildvox counts as published.",
+  "note": "Daily Prep 2026-11-06 at 04:00 had failed original Commons lookup; manually recovered from already vetted original raw source pools and wrote new current-day batch. Existing Daily Prep automation prompt now includes explicit no-output recovery and never-old-MP4 rule."
+}
