@@ -35,8 +35,8 @@
   "publication_hold_in_config": true,
   "release_control": {
     "editorially_approved": true,
-    "can_schedule_now": true,
-    "why": "Full independent visual and license editorial approval recorded above; current-run archived MP4, meta and Git blob verified. Still check exact handle and same-day duplicate/slots immediately before Metricool create.",
+    "can_schedule_now": false,
+    "why": "Already scheduled exactly once as Metricool post 418769372; do not duplicate it.",
     "when_verified": "Allowed to schedule one unused FUTURE 2026-11-06 Sao Paulo slot with autoPublish true, draft false, providers=[{network:'tiktok'}] only and full corrected caption."
   },
   "never_youtube": true,
@@ -48,7 +48,17 @@
   "media_verification": "Public GitHub media branch REST directory readback confirms root .mp4 size 26412867 bytes and Git blob 31c41e3300f205f2e3e195cc6bb19669d78b0aab, equal to independent local git hash-object. JSON meta blob equals local original artifact meta hash and same config_sha256. Workflow run 42202651591 render SUCCESS; technical-qa SUCCESS; publish-media robin per-video QA and media archive SUCCESS.",
   "metricool": {
     "brand_id": 7242311,
-    "handle": "wildvox",
-    "status": "NOT_YET_SCHEDULED"
+    "verified_tiktok_handle": "wildvox",
+    "post_id": 418769372,
+    "provider": "tiktok",
+    "provider_status": "PENDING",
+    "published_status": "NOT_YET_CONFIRMED",
+    "scheduled_local": "2026-11-06T10:05:00-03:00",
+    "autoPublish": true,
+    "draft": false,
+    "platform_media_url": "https://static.metricool.com/planner/202611/7242311-file-5228036322229528084.mp4",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=3486011982011059353",
+    "uuid": "3486011982011059353",
+    "verified_via": "createScheduledPost ID 418769372 + fresh getScheduledPosts readback; 1 scheduled and TikTok analytics 0 published"
   }
 }
