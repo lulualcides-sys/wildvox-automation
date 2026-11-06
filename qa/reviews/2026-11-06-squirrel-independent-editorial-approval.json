@@ -35,13 +35,16 @@
   "publication_hold_in_config": true,
   "release_control": {
     "editorially_approved": true,
-    "can_schedule_now": false,
-    "why": "Per-candidate independent technical QA archive/current public root media URL must be verified and match exact Git blob + config fingerprint; check Metricool exact @wildvox and duplicates immediately before scheduling.",
+    "can_schedule_now": true,
+    "why": "Independently reviewed + current-run verified MP4 and media metadata, exact SHA and revisions verified. Check scheduled / TikTok analytics immediately before creating Metricool post.",
     "on_verified": "Authorize only one future unused 2026-11-06 TikTok slot with autoPublish true, TikTok-only provider and this full caption."
   },
   "metricool": {
     "status": "NOT_YET_SCHEDULED"
   },
   "never_youtube": true,
-  "never_buffer_wildvox6": true
+  "never_buffer_wildvox6": true,
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/red_squirrel_perches_and_stump_nov06.mp4",
+  "meta_git_blob_sha": "ab99aa83226044af92c24d46b1dc3001d614103c",
+  "media_verification": "GitHub root media directory readback: exact current-run MP4 Git blob SHA 405c78d3eae61000b36406aca67f6ed49422bb88 (30809485 bytes), matching locally independently decoded and SHA256-verified MP4. Meta Git blob ab99aa83226044af92c24d46b1dc3001d614103c; its config_sha256 a70b0ffd... matches original artifact and current config entry revision v2, unchanged by Nov6 targeted other 3 edits. Current-run per-candidate technical QA archive SUCCESS."
 }
