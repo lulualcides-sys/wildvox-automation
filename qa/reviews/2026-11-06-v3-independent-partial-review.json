@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-06",
+  "review_type": "independent_partial_visual_review",
+  "run_id": 42206521353,
+  "head_sha": "33dbb0a7f87aabc91816ae63585df70ee340d327",
+  "publication_authorized": false,
+  "metricool_existing": [
+    418769372,
+    418784786
+  ],
+  "candidates": [
+    {
+      "key": "house_sparrow_foraging_and_bathing_nov06",
+      "artifact_id": 13498580480,
+      "config_sha256": "c3c1c197189be674e9e11dd2042608d659103ad2798d20e661bb385b10587a04",
+      "mp4_sha256": "887820d9a0280c683a1498770fe69b7b16ef3bf4a7df0459bef6e81e6ab41496",
+      "duration": 42.1,
+      "inspection": "Original artifact ZIP downloaded; review contact sheet and all eight source preview JPGs inspected; decoded all MP4 frames for near-identical-frame test (max 0.067s). Species and dust/water bathing scenes visually plausible. Not independently approved: audio-to-scene and all licensing/archival checks remain."
+    },
+    {
+      "key": "domestic_cat_groom_walk_play_nov06",
+      "artifact_id": 13497388771,
+      "config_sha256": "5bf4ac2a0c8a07836b4af5fa1c78fd2106c39cd71223bfc32987c979e8fa5b60",
+      "mp4_sha256": "912c02e5defc2fe6edee045fb538a02905a3dbe1b750c04fc9148a8e046d932e",
+      "duration": 37.65,
+      "inspection": "Original ZIP and review JPG inspected. Authentic cat scenes visible, including kitten and petting payoff. Full source preview/motion/audio/rights review pending."
+    },
+    {
+      "key": "domestic_horse_group_meadow_nov06",
+      "artifact_id": 13497283493,
+      "config_sha256": "c12ba304a205b22f89f6823348904efdecfa325c7e153e03942581664e156cb0",
+      "mp4_sha256": "fd038bd7ffb309de2ffdc0db9c398b0e215472153d54b957ec4b4f9c7837b2a8",
+      "duration": 38.17,
+      "inspection": "Original ZIP and review JPG inspected. White horse among trees visible in payoff; horse herd scenes present. Full source preview/motion/audio/rights review pending."
+    }
+  ],
+  "next": "Complete full independent per-video checks and exact media branch archive readback; only then create one TikTok-only Metricool post per unused future slot."
+}
