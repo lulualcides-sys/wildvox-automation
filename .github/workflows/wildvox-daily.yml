@@ -34,6 +34,35 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
+      # The GitHub connector cannot list push-triggered run IDs. Expose only
+      # an operational receipt (never media approval) on the public media branch.
+      - name: Record run ID and source config SHA for independent QA
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          day=$(TZ=America/Sao_Paulo date +%F)
+          blob=$(git hash-object configs/daily.json)
+          receipt=$(jq -nc \
+            --arg day "$day" \
+            --arg run_id "${GITHUB_RUN_ID}" \
+            --arg commit "${GITHUB_SHA}" \
+            --arg blob "$blob" \
+            --arg repo "${GITHUB_REPOSITORY}" \
+            '{day_local:$day,workflow_run_id:($run_id|tonumber),source_commit:$commit,config_blob_sha:$blob,workflow_run_url:("https://github.com/"+$repo+"/actions/runs/"+$run_id),editorial_approved:false}')
+          for attempt in 1 2 3 4; do
+            sha=$(gh api "repos/${GITHUB_REPOSITORY}/contents/wildvox-current-run.json?ref=media" --jq .sha 2>/dev/null || true)
+            fields=(-f "message=Record WildVox workflow ${GITHUB_RUN_ID}" -f "branch=media" -f "content=$(printf %s "$receipt" | base64 -w0)")
+            if [[ -n "$sha" ]]; then fields+=(-f "sha=$sha"); fi
+            if gh api -X PUT "repos/${GITHUB_REPOSITORY}/contents/wildvox-current-run.json" "${fields[@]}" >/dev/null; then
+              echo "Workflow run receipt stored on media branch"
+              exit 0
+            fi
+            sleep "$attempt"
+          done
+          exit 1
       - id: matrix
         shell: bash
         run: |
