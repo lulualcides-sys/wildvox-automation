@@ -1,7 +1,7 @@
 {
   "cat_paper_bag_to_play_nov07": {
     "title": "The Curious Life of House Cats",
-    "script": "A simple paper bag becomes a whole adventure when this house cat pushes its head inside and investigates. Elsewhere, a little kitten is doing the opposite: resting quietly in a soft bed instead of playing. One black cat walks calmly past the camera. In another home, a different cat pauses for a thorough grooming session. Then the pace changes. One cat bats at a small cotton bud, while another pair starts playing together on the floor. A different indoor cat follows something moving, keeping its eyes and paws focused on the game. And finally, another cat enjoys a gentle human pat outdoors. These are separate cats, with surprisingly different moments in one day.",
+    "script": "A paper bag catches this cat's attention, and it leans inside to explore. Elsewhere, a fluffy kitten rests quietly, showing a much calmer moment. A black cat strolls past the camera, while another cat takes its time grooming its fur. Then one cat paws at a cotton bud, while a different pair begins playing together indoors. Another cat follows a moving toy with careful eyes and reaching paws. Outdoors, a final cat relaxes under gentle petting, ending this tour of very different moods.",
     "caption": "FROM A PAPER BAG TO PLAYTIME. A new edit of independent real cat recordings. #WildVox #CatBehavior #Cats",
     "sources": [
       {
@@ -122,11 +122,11 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-cat_paper_bag_to_play_nov07-fresh-angle-and-resequenced-sources-v2",
+    "revision": "2026-11-07-cat_paper_bag_to_play_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "A simple paper bag becomes a whole adventure when this house cat pushes its head inside and investigates.",
+        "text": "A paper bag catches this cat's attention, and it leans inside to explore.",
         "scene": "Real cat investigating paper bag",
         "tags": [
           "domestic_cat_inside_paper_bag"
@@ -136,7 +136,7 @@
         "fx": []
       },
       {
-        "text": "Elsewhere, a little kitten is doing the opposite: resting quietly in a soft bed instead of playing.",
+        "text": "Elsewhere, a fluffy kitten rests quietly, showing a much calmer moment.",
         "scene": "Actual separate resting kitten in Tokyo",
         "tags": [
           "domestic_kitten_playing_indoors"
@@ -146,7 +146,7 @@
         "fx": []
       },
       {
-        "text": "One black cat walks calmly past the camera. In another home, a different cat pauses for a thorough grooming session.",
+        "text": "A black cat strolls past the camera, while another cat takes its time grooming its fur.",
         "scene": "Separate genuine black walking cat and self-grooming cat",
         "tags": [
           "black_domestic_cat_walking",
@@ -157,7 +157,7 @@
         "fx": []
       },
       {
-        "text": "Then the pace changes. One cat bats at a small cotton bud, while another pair starts playing together on the floor.",
+        "text": "Then one cat paws at a cotton bud, while a different pair begins playing together indoors.",
         "scene": "Cat batting cotton bud and pair playing",
         "tags": [
           "domestic_cat_paws_cotton_bud",
@@ -168,7 +168,7 @@
         "fx": []
       },
       {
-        "text": "A different indoor cat follows something moving, keeping its eyes and paws focused on the game.",
+        "text": "Another cat follows a moving toy with careful eyes and reaching paws.",
         "scene": "Indoor Taiwan cat playing with object",
         "tags": [
           "domestic_cat_playing_in_taiwan"
@@ -178,7 +178,7 @@
         "fx": []
       },
       {
-        "text": "And finally, another cat enjoys a gentle human pat outdoors. These are separate cats, with surprisingly different moments in one day.",
+        "text": "Outdoors, a final cat relaxes under gentle petting, ending this tour of very different moods.",
         "scene": "Different outdoor cat receiving human pat",
         "tags": [
           "domestic_cat_interacts_with_person"
@@ -188,12 +188,11 @@
         "fx": []
       }
     ],
-    "trend_priority": false,
-    "targeted_render_request": "2026-11-07-per-video-rights-audit-recovery-1600-BRT-v1"
+    "trend_priority": false
   },
   "sparrow_dust_bath_contrast_nov07": {
     "title": "Why Sparrows Bathe in Dust",
-    "script": "Why is this little house sparrow rolling around in dry soil? It is taking a dust bath right in a flowerbed. Other sparrows make similar movements on zoo grounds, settling low and flicking dust through their feathers in two separate recordings. But these birds do more than bathe. A female sparrow stops to investigate the ground and plants for food. One bird pauses beside a mossy stone border, while another appears at a busy waterfront, far from that dusty flowerbed. Now the contrast: a sparrow splashes in real water at the edge of a pond, rather than dry earth. And at a shared birdbath, sparrows join other birds. For these city survivors, the same daily routine can look completely different.",
+    "script": "This sparrow rolls in a flowerbed, kicking up dry dust as it bathes. Other sparrows do the same on zoo grounds, using tiny shakes to work dust through their feathers. Meanwhile, a female sparrow searches for food among leaves and low plants. One bird perches by a mossy stone border; another appears near a city waterfront. But another sparrow chooses water, splashing near a pond instead of dry soil. At a shared birdbath, different birds gather, showing how varied this routine can be.",
     "caption": "DUST OR WATER? House sparrows in a new footage-grounded edit. #WildVox #HouseSparrow #BirdBath",
     "sources": [
       {
@@ -315,11 +314,11 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-sparrow_dust_bath_contrast_nov07-fresh-angle-and-resequenced-sources-v2",
+    "revision": "2026-11-07-sparrow_dust_bath_contrast_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Why is this little house sparrow rolling around in dry soil? It is taking a dust bath right in a flowerbed.",
+        "text": "This sparrow rolls in a flowerbed, kicking up dry dust as it bathes.",
         "scene": "Real sparrow rolling in flowerbed dust",
         "tags": [
           "house_sparrow_dust_bath_flowerbed"
@@ -329,7 +328,7 @@
         "fx": []
       },
       {
-        "text": "Other sparrows make similar movements on zoo grounds, settling low and flicking dust through their feathers in two separate recordings.",
+        "text": "Other sparrows do the same on zoo grounds, using tiny shakes to work dust through their feathers.",
         "scene": "Two independent zoo-ground sparrow dust-bath videos",
         "tags": [
           "house_sparrow_dust_bath_zoo_ground",
@@ -340,7 +339,7 @@
         "fx": []
       },
       {
-        "text": "But these birds do more than bathe. A female sparrow stops to investigate the ground and plants for food.",
+        "text": "Meanwhile, a female sparrow searches for food among leaves and low plants.",
         "scene": "Actual female sparrow searching ground and plants",
         "tags": [
           "house_sparrow_female_foraging_plants"
@@ -350,7 +349,7 @@
         "fx": []
       },
       {
-        "text": "One bird pauses beside a mossy stone border, while another appears at a busy waterfront, far from that dusty flowerbed.",
+        "text": "One bird perches by a mossy stone border; another appears near a city waterfront.",
         "scene": "One distant sparrow near mossy stone border and separate waterfront sparrow",
         "tags": [
           "house_sparrow_closeup_after_bath",
@@ -361,7 +360,7 @@
         "fx": []
       },
       {
-        "text": "Now the contrast: a sparrow splashes in real water at the edge of a pond, rather than dry earth.",
+        "text": "But another sparrow chooses water, splashing near a pond instead of dry soil.",
         "scene": "Real house sparrow bathing at pond edge",
         "tags": [
           "house_sparrow_bathing_in_water"
@@ -371,7 +370,7 @@
         "fx": []
       },
       {
-        "text": "And at a shared birdbath, sparrows join other birds. For these city survivors, the same daily routine can look completely different.",
+        "text": "At a shared birdbath, different birds gather, showing how varied this routine can be.",
         "scene": "Actual mixed-species birdbath",
         "tags": [
           "house_sparrow_shared_birdbath"
@@ -381,12 +380,11 @@
         "fx": []
       }
     ],
-    "trend_priority": false,
-    "targeted_render_request": "2026-11-07-isolated-license-preflight-sparrow-next-after-cat-1608-BRT"
+    "trend_priority": false
   },
   "horse_from_shore_to_field_nov07": {
     "title": "Horses from the Shore to the Meadow",
-    "script": "Right beside the shoreline, a pale horse lowers its head to drink. Nothing dramatic, just a very real daily need. Nearby in a different recording, a tan horse is occupied with grass rather than the water itself. On another stretch of shore, several horses move and settle into positions across the open ground. Far away, Icelandic horses gather in one field, while a different horse grazes through green grass in California. Two spring meadow recordings show more horses making their way among grasses, pausing again and again to feed. Finally, a white horse grazes alone among trees. Different places and different animals, but the same slow rhythm of finding food.",
+    "script": "A pale horse drinks beside the shoreline, lowering its muzzle toward the water. In another recording, a tan horse grazes near the water instead of drinking. Along a separate shore, a group of horses moves across the open ground and pauses. Far away, Icelandic horses gather together while another horse grazes in California. Two spring meadow recordings show horses walking slowly and pausing among the grass. A white horse finishes our journey, feeding quietly among trees at the meadow's edge.",
     "caption": "HORSES BY WATER AND GRASS. New edit from genuine independent footage. #WildVox #Horses #AnimalDocumentary",
     "sources": [
       {
@@ -508,11 +506,11 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-horse_from_shore_to_field_nov07-fresh-angle-and-resequenced-sources-v2",
+    "revision": "2026-11-07-horse_from_shore_to_field_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Right beside the shoreline, a pale horse lowers its head to drink. Nothing dramatic, just a very real daily need.",
+        "text": "A pale horse drinks beside the shoreline, lowering its muzzle toward the water.",
         "scene": "Real pale horse drinking along shore",
         "tags": [
           "camargue_horse_slovenia_march_lakeside_grazing"
@@ -522,7 +520,7 @@
         "fx": []
       },
       {
-        "text": "Nearby in a different recording, a tan horse is occupied with grass rather than the water itself.",
+        "text": "In another recording, a tan horse grazes near the water instead of drinking.",
         "scene": "Separate tan horse grazing beside water",
         "tags": [
           "camargue_horses_slovenia_march_second"
@@ -532,7 +530,7 @@
         "fx": []
       },
       {
-        "text": "On another stretch of shore, several horses move and settle into positions across the open ground.",
+        "text": "Along a separate shore, a group of horses moves across the open ground and pauses.",
         "scene": "Actual herd on shore ground",
         "tags": [
           "camargue_horses_slovenia_march_third"
@@ -542,7 +540,7 @@
         "fx": []
       },
       {
-        "text": "Far away, Icelandic horses gather in one field, while a different horse grazes through green grass in California.",
+        "text": "Far away, Icelandic horses gather together while another horse grazes in California.",
         "scene": "Genuine Icelandic group and separately filmed California grazing horse",
         "tags": [
           "icelandic_horses_group",
@@ -553,7 +551,7 @@
         "fx": []
       },
       {
-        "text": "Two spring meadow recordings show more horses making their way among grasses, pausing again and again to feed.",
+        "text": "Two spring meadow recordings show horses walking slowly and pausing among the grass.",
         "scene": "Two spring Camargue meadow horse clips",
         "tags": [
           "camargue_horses_slovenia_may",
@@ -564,7 +562,7 @@
         "fx": []
       },
       {
-        "text": "Finally, a white horse grazes alone among trees. Different places and different animals, but the same slow rhythm of finding food.",
+        "text": "A white horse finishes our journey, feeding quietly among trees at the meadow's edge.",
         "scene": "White horse grazing by woodland trees",
         "tags": [
           "white_camargue_horse_grazes_near_trees"
@@ -578,7 +576,7 @@
   },
   "goat_kids_to_hillside_nov07": {
     "title": "From Goat Kids to the Hillside Herd",
-    "script": "These newborn goat kids are standing close to an adult, already taking in the world around their feet. In a separate hillside herd, bigger goats spread across the grass, moving and stopping at different moments. Another group carefully makes its way over rough rocky ground, a very different surface from the first field. Not every scene is about traveling. Some goats stop for hay, while another rests on an open patch of grass. Other footage moves indoors, where goats pause inside a pen and groom themselves between the busier moments. Out in the open again, one goat stands among the grass. From young kids to adults, every scene shows a different piece of goat life.",
+    "script": "Newborn goat kids stand beside an adult, exploring the world just a few steps away. On another hillside, older goats spread across the grass and move at different speeds. A separate herd carefully crosses rough and rocky ground, finding its footing. Some goats stop for hay, while a different goat rests on an open grassy patch. In a pen, other goats pause and groom themselves between their daily activities. One last goat stands outside, a quiet ending to these different moments of herd life.",
     "caption": "GOAT KIDS, HILLSIDES AND QUIET MOMENTS. New story, original edit, real source credits. #WildVox #Goats #AnimalLife",
     "sources": [
       {
@@ -700,11 +698,11 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-goat_kids_to_hillside_nov07-fresh-angle-and-resequenced-sources-v2",
+    "revision": "2026-11-07-goat_kids_to_hillside_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "These newborn goat kids are standing close to an adult, already taking in the world around their feet.",
+        "text": "Newborn goat kids stand beside an adult, exploring the world just a few steps away.",
         "scene": "Authentic newborn kids beside adult; no nursing claim",
         "tags": [
           "newborn_goats_near_mother"
@@ -714,7 +712,7 @@
         "fx": []
       },
       {
-        "text": "In a separate hillside herd, bigger goats spread across the grass, moving and stopping at different moments.",
+        "text": "On another hillside, older goats spread across the grass and move at different speeds.",
         "scene": "Managed goat herd grazing on Sunnyvale hillside",
         "tags": [
           "goat_herd_grazing_sunnyvale_hillside"
@@ -724,7 +722,7 @@
         "fx": []
       },
       {
-        "text": "Another group carefully makes its way over rough rocky ground, a very different surface from the first field.",
+        "text": "A separate herd carefully crosses rough and rocky ground, finding its footing.",
         "scene": "Real moving goats on rocky ground",
         "tags": [
           "goat_herd_moving_rocky_ground"
@@ -734,7 +732,7 @@
         "fx": []
       },
       {
-        "text": "Not every scene is about traveling. Some goats stop for hay, while another rests on an open patch of grass.",
+        "text": "Some goats stop for hay, while a different goat rests on an open grassy patch.",
         "scene": "Separate hay feeding and resting goat",
         "tags": [
           "goats_eating_hay_and_resting_on_grass",
@@ -745,7 +743,7 @@
         "fx": []
       },
       {
-        "text": "Other footage moves indoors, where goats pause inside a pen and groom themselves between the busier moments.",
+        "text": "In a pen, other goats pause and groom themselves between their daily activities.",
         "scene": "Real goats in pen and independently filmed genuine self-grooming; never assert yawning",
         "tags": [
           "goats_grooming_or_yawning",
@@ -756,7 +754,7 @@
         "fx": []
       },
       {
-        "text": "Out in the open again, one goat stands among the grass. From young kids to adults, every scene shows a different piece of goat life.",
+        "text": "One last goat stands outside, a quiet ending to these different moments of herd life.",
         "scene": "Single goat on grass",
         "tags": [
           "goat_standing_in_open_grass"
@@ -770,7 +768,7 @@
   },
   "kingfisher_color_hidden_nov07": {
     "title": "The Kingfisher You Almost Miss",
-    "script": "Look closely at this kingfisher. Its long pointed bill and bright feathers make it unmistakable when the camera gets near. Another recording reveals that striking orange and blue color while the bird shifts its posture on a perch. But watch how the view changes. One kingfisher sits on a rounded post, another stays beside a pond on a branch. In two different waterways, leaves and thin branches surround the birds until their small bodies are harder to spot. One distant bird waits quietly on a low branch. This shot shows patience and a perch, not a dramatic fish catch. Even in a wider final view, that pointed shape gives away the little kingfisher. Sometimes spotting it is the whole story.",
+    "script": "This kingfisher's pointed bill and bright colors stand out in a close view. Another recording reveals vivid blue and orange feathers as the bird changes posture. One bird perches on a rounded post; another stays on a branch near a pond. In separate waterways, leaves and branches make these tiny birds harder to find. One distant kingfisher remains on a low branch, with no visible fish catch. Even from farther away, its shape and sharp bill help observers recognize a kingfisher.",
     "caption": "A FLASH OF BLUE, THEN ALMOST HIDDEN. Real perches; no fake fish catch. #WildVox #Kingfisher #Birdwatching",
     "sources": [
       {
@@ -892,11 +890,11 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-kingfisher_color_hidden_nov07-fresh-angle-and-resequenced-sources-v2",
+    "revision": "2026-11-07-kingfisher_color_hidden_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Look closely at this kingfisher. Its long pointed bill and bright feathers make it unmistakable when the camera gets near.",
+        "text": "This kingfisher's pointed bill and bright colors stand out in a close view.",
         "scene": "Real close kingfisher view and pointed bill",
         "tags": [
           "kingfisher_close_perch_last_scene"
@@ -906,7 +904,7 @@
         "fx": []
       },
       {
-        "text": "Another recording reveals that striking orange and blue color while the bird shifts its posture on a perch.",
+        "text": "Another recording reveals vivid blue and orange feathers as the bird changes posture.",
         "scene": "Real orange and blue plumage in independent film",
         "tags": [
           "kingfisher_preening_feathers"
@@ -916,7 +914,7 @@
         "fx": []
       },
       {
-        "text": "But watch how the view changes. One kingfisher sits on a rounded post, another stays beside a pond on a branch.",
+        "text": "One bird perches on a rounded post; another stays on a branch near a pond.",
         "scene": "Kingfisher on concrete post and one near pond",
         "tags": [
           "kingfisher_perched_at_water_edge",
@@ -927,7 +925,7 @@
         "fx": []
       },
       {
-        "text": "In two different waterways, leaves and thin branches surround the birds until their small bodies are harder to spot.",
+        "text": "In separate waterways, leaves and branches make these tiny birds harder to find.",
         "scene": "Two independently filmed distant kingfisher perches within foliage",
         "tags": [
           "kingfisher_at_different_waterway",
@@ -938,7 +936,7 @@
         "fx": []
       },
       {
-        "text": "One distant bird waits quietly on a low branch. This shot shows patience and a perch, not a dramatic fish catch.",
+        "text": "One distant kingfisher remains on a low branch, with no visible fish catch.",
         "scene": "Genuine distant sitting kingfisher; no fish claim",
         "tags": [
           "kingfisher_eating_caught_fish"
@@ -948,7 +946,7 @@
         "fx": []
       },
       {
-        "text": "Even in a wider final view, that pointed shape gives away the little kingfisher. Sometimes spotting it is the whole story.",
+        "text": "Even from farther away, its shape and sharp bill help observers recognize a kingfisher.",
         "scene": "Original wider kingfisher shot; no unverified hunt",
         "tags": [
           "kingfisher_close_perch_last_scene"
