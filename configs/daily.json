@@ -188,7 +188,8 @@
         "fx": []
       }
     ],
-    "trend_priority": false
+    "trend_priority": false,
+    "targeted_render_request": "2026-11-07-per-video-rights-audit-recovery-1600-BRT-v1"
   },
   "sparrow_dust_bath_contrast_nov07": {
     "title": "Why Sparrows Bathe in Dust",
