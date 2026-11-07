@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-07",
+  "timezone": "America/Sao_Paulo",
+  "key": "kingfisher_color_hidden_nov07",
+  "verdict": "REJECT",
+  "editorial_approved": false,
+  "publication_hold": true,
+  "workflow_run_id": 42404858206,
+  "source_config_commit": "1f743526ecfabe6721390ca21255a8feab705df7",
+  "source_config_blob": "8b3ab5ec8d7d008af178f73b5c55560ef0db7aaa",
+  "config_sha256": "9d3ff91a9a688aeb3c3ce731cbf0c24d511d12959edc1e56020078dbfa86ca06",
+  "media_sha256": "dcbe63b1e038187c5b9abcebaa02517a581df07e9aaa8c27109a29d18417c05b",
+  "duration_seconds": 36.4,
+  "original_zip_inspected": true,
+  "original_source_previews_count": 8,
+  "decoded_mp4_hook_action_payoff_review": true,
+  "ffmpeg_freezedetect_1sec_findings": [],
+  "credit_license_source_pages": "Eight source metadata entries and full credited caption present; original video candidates passed current-run per-video live Wikimedia Commons license audit; CC BY/CC0/PD as recorded",
+  "reject_reasons": [
+    "Hook promises a close visible bill/color but decoded opening is distant small kingfisher on thin branch",
+    "Payoff unexpectedly uses the much closer colorful bird, reverse of planned close-hook/distant-payoff",
+    "Avoid even negated fish-catch reference with no demonstrable fishing action; only narrated perching and plumage are supported"
+  ],
+  "remediation": "Semantic source-order preservation patch a0a9a1c plus regression tests, corrected v4 scene tags/script commit 00b2031; rerender only current corrected config; v3 asset must not be scheduled.",
+  "approved_media_sha256": null,
+  "provider_post_id": null
+}
