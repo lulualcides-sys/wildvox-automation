@@ -4,8 +4,8 @@
   "caption": "FROM A PAPER BAG TO PLAYTIME. A new edit of independent real cat recordings. #WildVox #CatBehavior #Cats\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0\n2. Nesnad | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm | https://creativecommons.org/licenses/by/4.0/\n3. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0\n5. User:Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin1.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0\n7. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "106ea7a58c6864a7dd6903b5c8c03dc5a94d8ec61eefefa7161b113202a845a8",
-  "duration": 35.88,
+  "config_sha256": "a62cfc25b9bebd67eac152fa3bcb3922824075b1c60bf32beb0d4084403504e8",
+  "duration": 37.67,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -70,10 +70,10 @@
     {
       "index": 4,
       "start": 23.775,
-      "end": 28.799999999999997,
-      "duration": 5.025,
-      "text": "Another cat follows a moving toy with careful eyes and reaching paws.",
-      "scene": "Indoor Taiwan cat playing with object",
+      "end": 30.599999999999998,
+      "duration": 6.825,
+      "text": "Another indoor cat rolls onto its side and stretches its paws, enjoying a playful moment.",
+      "scene": "Actual indoor cat rolls across floor and stretches paws; no unverified toy tracking",
       "tags": [
         "domestic_cat_playing_in_taiwan"
       ],
@@ -83,8 +83,8 @@
     },
     {
       "index": 5,
-      "start": 28.799999999999997,
-      "end": 35.875,
+      "start": 30.599999999999998,
+      "end": 37.675,
       "duration": 7.075,
       "text": "Outdoors, a final cat relaxes under gentle petting, ending this tour of very different moods.",
       "scene": "Different outdoor cat receiving human pat",
