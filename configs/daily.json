@@ -381,7 +381,8 @@
         "fx": []
       }
     ],
-    "trend_priority": false
+    "trend_priority": false,
+    "targeted_render_request": "2026-11-07-isolated-license-preflight-sparrow-next-after-cat-1608-BRT"
   },
   "horse_from_shore_to_field_nov07": {
     "title": "Horses from the Shore to the Meadow",
