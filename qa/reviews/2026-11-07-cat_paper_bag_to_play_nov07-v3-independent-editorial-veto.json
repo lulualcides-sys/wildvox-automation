@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-07",
+  "timezone": "America/Sao_Paulo",
+  "key": "cat_paper_bag_to_play_nov07",
+  "verdict": "REJECT",
+  "editorial_approved": false,
+  "publication_hold": true,
+  "workflow_run_id": 42404858206,
+  "source_config_commit": "1f743526ecfabe6721390ca21255a8feab705df7",
+  "source_config_blob": "8b3ab5ec8d7d008af178f73b5c55560ef0db7aaa",
+  "config_sha256": "106ea7a58c6864a7dd6903b5c8c03dc5a94d8ec61eefefa7161b113202a845a8",
+  "media_sha256": "e7e2e0f367398b0dedffb02d33826c7317f35e858af586fcde44dde0660467d2",
+  "duration_seconds": 35.88,
+  "original_zip_inspected": true,
+  "original_source_previews_count": 8,
+  "decoded_mp4_hook_action_payoff_review": true,
+  "ffmpeg_freezedetect_1sec_findings": [],
+  "credit_license_source_pages": "Eight source metadata entries and full credited caption present; original video candidates passed current-run per-video live Wikimedia Commons license audit; CC BY/CC0/PD as recorded",
+  "reject_reasons": [
+    "Decoded action frames 11-17s show grooming before black cat walks, opposite the spoken action order",
+    "Decoded frames 17-23s show interacting cats before the cotton-bud play, again reversed against narration",
+    "Decoded 24-28s indoor cat rolls on floor but a moving toy is not clearly visible"
+  ],
+  "remediation": "Semantic source-order preservation patch a0a9a1c plus regression tests, corrected v4 scene tags/script commit 00b2031; rerender only current corrected config; v3 asset must not be scheduled.",
+  "approved_media_sha256": null,
+  "provider_post_id": null
+}
