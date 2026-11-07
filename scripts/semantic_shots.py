@@ -79,12 +79,24 @@ def plan_semantic_shots(local, blocks, max_shot, max_freeze, key):
         owner = [-1] * n
 
         def augment(slot_index, seen):
+            # Prefer unused authentic assets before displacing earlier shots.
+            # The former DFS immediately stole slot 1's first source when
+            # slot 2 had the same two tags, reversing narration source order
+            # even when both videos were individually valid.
+            for asset_index in adjacency[slot_index]:
+                if asset_index not in seen and owner[asset_index] < 0:
+                    seen.add(asset_index)
+                    owner[asset_index] = slot_index
+                    return True
+            # A more constrained slot may still need an augmenting path.
+            # Retain complete bipartite matching rather than using a greedy
+            # first-fit allocator that would reject otherwise valid footage.
             for asset_index in adjacency[slot_index]:
                 if asset_index in seen:
                     continue
                 seen.add(asset_index)
                 previous = owner[asset_index]
-                if previous < 0 or augment(previous, seen):
+                if previous >= 0 and augment(previous, seen):
                     owner[asset_index] = slot_index
                     return True
             return False
