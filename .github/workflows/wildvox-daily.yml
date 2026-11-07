@@ -145,9 +145,6 @@ jobs:
       - name: Reject placeholder scene tags before source download or rendering
         if: steps.matrix.outputs.animals != '[]'
         run: python scripts/semantic_shots.py --check-config configs/daily.json
-      - name: Audit Commons source existence and commercial-reuse licenses
-        if: steps.matrix.outputs.animals != '[]'
-        run: python scripts/audit_commons_sources.py --config configs/daily.json
 
   render:
     needs: prepare
@@ -161,6 +158,13 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+      # Audit each video independently: never bypass licensing; one 429 blocks only that video.
+      - name: Audit only this video's Commons sources before installing dependencies
+        run: |
+          python -m py_compile scripts/audit_commons_sources.py
+          python scripts/audit_commons_sources.py \
+            --config configs/daily.json \
+            --key "${{ matrix.animal }}"
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
