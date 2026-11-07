@@ -4,20 +4,20 @@
   "caption": "DUST OR WATER? House sparrows in a new footage-grounded edit. #WildVox #HouseSparrow #BirdBath\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_in_flowerbed.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n2. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_at_zoo_video_1.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n3. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Spatz_Sandbad_im_Zoo_Teil2_10prozent.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n4. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_female_-_foraging_plants.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n5. 5snake5 | CC0 | https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_Haussperling.ogv | https://creativecommons.org/publicdomain/zero/1.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Grudnovo_nabre%C5%BEje_PASSERIFORMES_Passer_domesticus_DOMA%C4%8CI_VRABEC.webm | https://creativecommons.org/licenses/by/3.0\n7. Richard001 | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_bathing_in_water%2C_Anas_platyrhynchos_in_background.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n8. Pauly | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Passer_domesticus_%26_Turdus_viscivorus%2C_bathing_in_a_bird_bath.ogv | https://creativecommons.org/licenses/by/2.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "d8f6269d9ad09d6be89258f2dc10f471b7624dc91d752648a80d0bc761833129",
-  "duration": 35.67,
+  "config_sha256": "6fb73571fb22d7696c263234e9d9345eff6fda7401588558b23b2a81826f4ce7",
+  "duration": 36.7,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
     {
       "index": 0,
       "start": 0.0,
-      "end": 5.35,
-      "duration": 5.35,
-      "text": "This sparrow rolls in a flowerbed, kicking up dry dust as it bathes.",
-      "scene": "Real sparrow rolling in flowerbed dust",
+      "end": 5.975,
+      "duration": 5.975,
+      "text": "This sparrow shakes its feathers in dusty zoo ground, showing how a dust bath works.",
+      "scene": "Real visible sparrow moving through dry zoo-ground dust; close enough for hook",
       "tags": [
-        "house_sparrow_dust_bath_flowerbed"
+        "house_sparrow_sand_bath_zoo"
       ],
       "story_role": "hook",
       "overlay_label": "THE HOOK",
@@ -25,14 +25,14 @@
     },
     {
       "index": 1,
-      "start": 5.35,
-      "end": 12.125,
-      "duration": 6.775,
-      "text": "Other sparrows do the same on zoo grounds, using tiny shakes to work dust through their feathers.",
-      "scene": "Two independent zoo-ground sparrow dust-bath videos",
+      "start": 5.975,
+      "end": 13.149999999999999,
+      "duration": 7.175,
+      "text": "Others repeat those movements in separate recordings from a flowerbed and another patch of zoo ground.",
+      "scene": "Real flowerbed dust bath and a second independent zoo-ground sand bath",
       "tags": [
-        "house_sparrow_dust_bath_zoo_ground",
-        "house_sparrow_sand_bath_zoo"
+        "house_sparrow_dust_bath_flowerbed",
+        "house_sparrow_dust_bath_zoo_ground"
       ],
       "story_role": "setup",
       "overlay_label": "FIRST CLUE",
@@ -40,8 +40,8 @@
     },
     {
       "index": 2,
-      "start": 12.125,
-      "end": 17.65,
+      "start": 13.149999999999999,
+      "end": 18.674999999999997,
       "duration": 5.525,
       "text": "Meanwhile, a female sparrow searches for food among leaves and low plants.",
       "scene": "Actual female sparrow searching ground and plants",
@@ -54,8 +54,8 @@
     },
     {
       "index": 3,
-      "start": 17.65,
-      "end": 23.974999999999998,
+      "start": 18.674999999999997,
+      "end": 24.999999999999996,
       "duration": 6.325,
       "text": "One bird perches by a mossy stone border; another appears near a city waterfront.",
       "scene": "One distant sparrow near mossy stone border and separate waterfront sparrow",
@@ -69,8 +69,8 @@
     },
     {
       "index": 4,
-      "start": 23.974999999999998,
-      "end": 29.65,
+      "start": 24.999999999999996,
+      "end": 30.674999999999997,
       "duration": 5.675,
       "text": "But another sparrow chooses water, splashing near a pond instead of dry soil.",
       "scene": "Real house sparrow bathing at pond edge",
@@ -83,8 +83,8 @@
     },
     {
       "index": 5,
-      "start": 29.65,
-      "end": 35.675,
+      "start": 30.674999999999997,
+      "end": 36.699999999999996,
       "duration": 6.025,
       "text": "At a shared birdbath, different birds gather, showing how varied this routine can be.",
       "scene": "Actual mixed-species birdbath",
