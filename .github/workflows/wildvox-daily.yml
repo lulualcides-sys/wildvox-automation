@@ -171,6 +171,9 @@ jobs:
           fi
 
           echo "animals=$animals" >> "$GITHUB_OUTPUT"
+      - name: Regression-test original semantic source order before rendering
+        if: steps.matrix.outputs.animals != '[]'
+        run: python -m unittest discover -s qa -p test_semantic_order.py -v
       - name: Reject placeholder scene tags before source download or rendering
         if: steps.matrix.outputs.animals != '[]'
         run: python scripts/semantic_shots.py --check-config configs/daily.json
