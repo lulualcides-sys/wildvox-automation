@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-07",
+  "timezone": "America/Sao_Paulo",
+  "key": "horse_from_shore_to_field_nov07",
+  "verdict": "REJECT",
+  "editorial_approved": false,
+  "publication_hold": true,
+  "workflow_run_id": 42404858206,
+  "source_config_commit": "1f743526ecfabe6721390ca21255a8feab705df7",
+  "source_config_blob": "8b3ab5ec8d7d008af178f73b5c55560ef0db7aaa",
+  "config_sha256": "b3db434b0c602dcc4ed6d0fce9fd6c49c746e5e2e1cb4e94cfbe9fc4d43d8ebc",
+  "media_sha256": "a9c325b24ffb9f99ccff36eeadce934062ba642e0e180f9b9d9dcc8b9bcffc31",
+  "duration_seconds": 36.5,
+  "original_zip_inspected": true,
+  "original_source_previews_count": 8,
+  "decoded_mp4_hook_action_payoff_review": true,
+  "ffmpeg_freezedetect_1sec_findings": [],
+  "credit_license_source_pages": "Eight source metadata entries and full credited caption present; original video candidates passed current-run per-video live Wikimedia Commons license audit; CC BY/CC0/PD as recorded",
+  "reject_reasons": [
+    "Hook claims horse drinking, but original decoded hook appears to show horse grazing on the dry shoreline bank",
+    "Subsequent shot shows horse drinking while narration claims a different horse grazing",
+    "Later scene describes gathered Icelandic horses and California grazing when clips show an individual horse in field and another next to a person"
+  ],
+  "remediation": "Semantic source-order preservation patch a0a9a1c plus regression tests, corrected v4 scene tags/script commit 00b2031; rerender only current corrected config; v3 asset must not be scheduled.",
+  "approved_media_sha256": null,
+  "provider_post_id": null
+}
