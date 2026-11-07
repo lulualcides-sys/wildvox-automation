@@ -48,7 +48,16 @@
   "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/cat_paper_bag_to_play_nov07.mp4",
   "caption": "FROM A PAPER BAG TO PLAYTIME. A new edit of independent real cat recordings. #WildVox #CatBehavior #Cats\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0\n2. Nesnad | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm | https://creativecommons.org/licenses/by/4.0/\n3. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0\n5. User:Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin1.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0\n7. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0",
   "metricool": {
-    "post_id": null,
-    "status": "NOT_SCHEDULED_AT_APPROVAL"
+    "post_id": 420267861,
+    "uuid": "-3708475802531770718",
+    "scheduled_local": "2026-11-07T19:35:00",
+    "provider": "tiktok",
+    "provider_status": "PENDING",
+    "published_confirmed": false,
+    "autoPublish": true,
+    "draft": false,
+    "platform_media_url": "https://static.metricool.com/planner/202611/7242311-file-3042617286501641032.mp4",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-3708475802531770718",
+    "verified_by": "Fresh Metricool getScheduledPosts readback confirmed exact TikTok provider and the unique future slot."
   }
 }
