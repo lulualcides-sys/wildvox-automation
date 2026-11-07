@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-07",
+  "timezone": "America/Sao_Paulo",
+  "key": "sparrow_dust_bath_contrast_nov07",
+  "verdict": "REJECT",
+  "editorial_approved": false,
+  "publication_hold": true,
+  "workflow_run_id": 42404858206,
+  "source_config_commit": "1f743526ecfabe6721390ca21255a8feab705df7",
+  "source_config_blob": "8b3ab5ec8d7d008af178f73b5c55560ef0db7aaa",
+  "config_sha256": "d8f6269d9ad09d6be89258f2dc10f471b7624dc91d752648a80d0bc761833129",
+  "media_sha256": "8105cfed6fce19d16bb03700ac778509c7b85303b631007630a10e7492a85ac6",
+  "duration_seconds": 35.67,
+  "original_zip_inspected": true,
+  "original_source_previews_count": 8,
+  "decoded_mp4_hook_action_payoff_review": true,
+  "ffmpeg_freezedetect_1sec_findings": [],
+  "credit_license_source_pages": "Eight source metadata entries and full credited caption present; original video candidates passed current-run per-video live Wikimedia Commons license audit; CC BY/CC0/PD as recorded",
+  "reject_reasons": [
+    "Actual decoded hook 0-5s shows a very small bird in a wide flowerbed; weak species/action visibility for opening",
+    "A closer real sparrow sand-bathing source appears later in the original source previews; tag/order correction required"
+  ],
+  "remediation": "Semantic source-order preservation patch a0a9a1c plus regression tests, corrected v4 scene tags/script commit 00b2031; rerender only current corrected config; v3 asset must not be scheduled.",
+  "approved_media_sha256": null,
+  "provider_post_id": null
+}
