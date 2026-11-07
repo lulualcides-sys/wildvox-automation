@@ -7,8 +7,8 @@
   "brand_id": 7242311,
   "never_youtube": true,
   "never_buffer_wildvox6": true,
-  "config_commit": "6336bb7fafb724abe53f8452f452dd35c601c4e4",
-  "config_blob_sha": "87cfc1ed6971e236c2fb95e3e9d719ee17498016",
+  "config_commit": "1f743526ecfabe6721390ca21255a8feab705df7",
+  "config_blob_sha": "8b3ab5ec8d7d008af178f73b5c55560ef0db7aaa",
   "why_replaced": "Earlier 2026-11-07 prep repeated robin and squirrel topics already published on 2026-11-06. Corrective push replaced both with goats and kingfisher; changed other videos to new scene order and narration. Old rendered MP4s forbidden.",
   "source_provenance": "Previously inventoried Wikimedia Commons original RAW clips with creator/attribution/license/sourcePage metadata; current GitHub live Commons audit, new renders and independent original-frame verification still required. Old raw sources are not old rendered MP4s.",
   "publication_hold": true,
@@ -22,7 +22,7 @@
   "candidates": [
     {
       "key": "cat_paper_bag_to_play_nov07",
-      "revision": "2026-11-07-cat_paper_bag_to_play_nov07-fresh-angle-and-resequenced-sources-v2",
+      "revision": "2026-11-07-cat_paper_bag_to_play_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
       "original_video_sources": 8,
       "visual_plan_blocks": 6,
       "publication_hold": true,
@@ -30,13 +30,12 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "render_in_progress; current-run rights audit passed",
-      "notes": "Compare actual MP4 to exact new scene order and narrated behavior.",
-      "workflow_run_id": 42404414202
+      "archive_status": "2026-11-07 v3 new 80-84 word Kokoro render pending; editorial hold TRUE",
+      "notes": "Compare actual MP4 to exact new scene order and narrated behavior."
     },
     {
       "key": "sparrow_dust_bath_contrast_nov07",
-      "revision": "2026-11-07-sparrow_dust_bath_contrast_nov07-fresh-angle-and-resequenced-sources-v2",
+      "revision": "2026-11-07-sparrow_dust_bath_contrast_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
       "original_video_sources": 8,
       "visual_plan_blocks": 6,
       "publication_hold": true,
@@ -44,12 +43,12 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "queued by targeted config push; run id not verified",
+      "archive_status": "2026-11-07 v3 new 80-84 word Kokoro render pending; editorial hold TRUE",
       "notes": "Compare actual MP4 to exact new scene order and narrated behavior."
     },
     {
       "key": "horse_from_shore_to_field_nov07",
-      "revision": "2026-11-07-horse_from_shore_to_field_nov07-fresh-angle-and-resequenced-sources-v2",
+      "revision": "2026-11-07-horse_from_shore_to_field_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
       "original_video_sources": 8,
       "visual_plan_blocks": 6,
       "publication_hold": true,
@@ -57,12 +56,12 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "not yet rendered; do not queue while GitHub Actions concurrency pending slot occupied",
+      "archive_status": "2026-11-07 v3 new 80-84 word Kokoro render pending; editorial hold TRUE",
       "notes": "Compare actual MP4 to exact new scene order and narrated behavior."
     },
     {
       "key": "goat_kids_to_hillside_nov07",
-      "revision": "2026-11-07-goat_kids_to_hillside_nov07-fresh-angle-and-resequenced-sources-v2",
+      "revision": "2026-11-07-goat_kids_to_hillside_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
       "original_video_sources": 8,
       "visual_plan_blocks": 6,
       "publication_hold": true,
@@ -70,12 +69,12 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "not yet rendered; do not queue while GitHub Actions concurrency pending slot occupied",
+      "archive_status": "2026-11-07 v3 new 80-84 word Kokoro render pending; editorial hold TRUE",
       "notes": "Source that includes yawning in filename must NOT be narrated as yawning; only pen/grooming observed."
     },
     {
       "key": "kingfisher_color_hidden_nov07",
-      "revision": "2026-11-07-kingfisher_color_hidden_nov07-fresh-angle-and-resequenced-sources-v2",
+      "revision": "2026-11-07-kingfisher_color_hidden_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
       "original_video_sources": 8,
       "visual_plan_blocks": 6,
       "publication_hold": true,
@@ -83,7 +82,7 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "not yet rendered; do not queue while GitHub Actions concurrency pending slot occupied",
+      "archive_status": "2026-11-07 v3 new 80-84 word Kokoro render pending; editorial hold TRUE",
       "notes": "Veto fishing claim even if filename mentions fish: visually confirm bird and bill, no unshown capture."
     }
   ],
@@ -123,5 +122,19 @@
     "verified_metricool_today": "No scheduled entries and no TikTok posts analytics rows at last query; exact brand 7242311 handle wildvox",
     "do_not_remove_hold": true,
     "next_actions": "Wait for actual artifact from run 42404414202; download current-run original ZIP, inspect MP4 and eight source previews and review JPG. Only after independent approval schedule future empty local slot. After next workflow starts use media/wildvox-current-run.json to fetch new run/jobs/artifacts. No old MP4 reuse."
+  },
+  "duration_remediation": {
+    "first_cat_run": 42404414202,
+    "first_cat_result": "FAILED narration measured 48.00 sec at 113 words; no MP4 produced; source license audit and dependencies passed",
+    "source": "Actual finished GitHub Actions render job logs",
+    "affected_premature_configs": [
+      "dd979db15b3a5e4ad12cf00826930998aa442883",
+      "6336bb7fafb724abe53f8452f452dd35c601c4e4"
+    ],
+    "corrective_commit": "1f743526ecfabe6721390ca21255a8feab705df7",
+    "corrected_config_blob": "8b3ab5ec8d7d008af178f73b5c55560ef0db7aaa",
+    "remediation": "Shortened all five exactly six-block narratives to 80–84 words (duration forecast only; real Kokoro and MP4 still must pass) and kept old renders ineligible",
+    "new_batch_status": "Triggered by change to all five config entries after source-audit isolation; run ID pending",
+    "do_not_publish_old_fingerprints": true
   }
 }
