@@ -2,3 +2,5 @@
 Release GitHub concurrency only for run 42404858206, whose five v3 current-day MP4s were all individually editorial-vetoed in qa/reviews/2026-11-07-*-v3-independent-editorial-veto.json. No approved video or media should be deleted. New v4 render commit 00b2031bd3d28359374ba191665d8ebe1f438c19 is pending and must proceed. Cancel v3 obsolete archive only.
 
 Retry with observable action result, because all five original v3 videos have editorial vetoes; target run 42404858206 only.
+
+Escalate to verified force-cancel of obsolete editorial-vetoed v3 run 42404858206, preserve all files.
