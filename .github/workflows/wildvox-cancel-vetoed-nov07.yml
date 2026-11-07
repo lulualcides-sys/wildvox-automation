@@ -21,8 +21,10 @@ jobs:
             gh api "repos/${repo}/contents/qa/reviews/2026-11-07-${key}-v3-independent-editorial-veto.json" --jq .sha > /dev/null
           done
           cancellation="requested"
-          if ! gh api -X POST "repos/${repo}/actions/runs/42404858206/cancel"; then
-            cancellation="failed"
+          if ! gh api -X POST "repos/${repo}/actions/runs/42404858206/force-cancel"; then
+            cancellation="force-request-failed"
+          else
+            cancellation="force-requested"
           fi
           # Independent operational receipt, separate from editorial approval.
           status=$(jq -nc --arg status "$cancellation" --arg run "${GITHUB_RUN_ID}" \
@@ -31,4 +33,4 @@ jobs:
           args=(-f "message=Record WildVox cancellation request" -f "branch=media" -f "content=$(printf %s "$status" | base64 -w0)")
           if [[ -n "$sha" ]]; then args+=(-f "sha=$sha"); fi
           gh api -X PUT "repos/${repo}/contents/wildvox-cancel-receipt.json" "${args[@]}"
-          [[ "$cancellation" == "requested" ]]
+          [[ "$cancellation" == "force-requested" ]]
