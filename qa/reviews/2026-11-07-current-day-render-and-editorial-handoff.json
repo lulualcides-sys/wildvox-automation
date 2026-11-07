@@ -7,8 +7,8 @@
   "brand_id": 7242311,
   "never_youtube": true,
   "never_buffer_wildvox6": true,
-  "config_commit": "f7be3cacb80241588749d25fd030b4b21486812a",
-  "config_blob_sha": "50dbc09fb512aca91d63784004b6be20ae8c9bf3",
+  "config_commit": "6336bb7fafb724abe53f8452f452dd35c601c4e4",
+  "config_blob_sha": "87cfc1ed6971e236c2fb95e3e9d719ee17498016",
   "why_replaced": "Earlier 2026-11-07 prep repeated robin and squirrel topics already published on 2026-11-06. Corrective push replaced both with goats and kingfisher; changed other videos to new scene order and narration. Old rendered MP4s forbidden.",
   "source_provenance": "Previously inventoried Wikimedia Commons original RAW clips with creator/attribution/license/sourcePage metadata; current GitHub live Commons audit, new renders and independent original-frame verification still required. Old raw sources are not old rendered MP4s.",
   "publication_hold": true,
@@ -30,8 +30,9 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "not_yet_observed",
-      "notes": "Compare actual MP4 to exact new scene order and narrated behavior."
+      "archive_status": "render_in_progress; current-run rights audit passed",
+      "notes": "Compare actual MP4 to exact new scene order and narrated behavior.",
+      "workflow_run_id": 42404414202
     },
     {
       "key": "sparrow_dust_bath_contrast_nov07",
@@ -43,7 +44,7 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "not_yet_observed",
+      "archive_status": "queued by targeted config push; run id not verified",
       "notes": "Compare actual MP4 to exact new scene order and narrated behavior."
     },
     {
@@ -56,7 +57,7 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "not_yet_observed",
+      "archive_status": "not yet rendered; do not queue while GitHub Actions concurrency pending slot occupied",
       "notes": "Compare actual MP4 to exact new scene order and narrated behavior."
     },
     {
@@ -69,7 +70,7 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "not_yet_observed",
+      "archive_status": "not yet rendered; do not queue while GitHub Actions concurrency pending slot occupied",
       "notes": "Source that includes yawning in filename must NOT be narrated as yawning; only pen/grooming observed."
     },
     {
@@ -82,7 +83,7 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "not_yet_observed",
+      "archive_status": "not yet rendered; do not queue while GitHub Actions concurrency pending slot occupied",
       "notes": "Veto fishing claim even if filename mentions fish: visually confirm bird and bill, no unshown capture."
     }
   ],
@@ -102,5 +103,25 @@
     "22:05"
   ],
   "published_to_metricool": false,
-  "notes": "Commit on main for configs/daily.json matches WildVox Daily 5 push path; exact GitHub workflow run ID not retrievable from current integration, so do not claim it. At handoff no new current-day media metadata was present on media branch."
+  "notes": "Commit on main for configs/daily.json matches WildVox Daily 5 push path; exact GitHub workflow run ID not retrievable from current integration, so do not claim it. At handoff no new current-day media metadata was present on media branch.",
+  "current_day_recovery": {
+    "timestamp_local": "2026-11-07 16:06 America/Sao_Paulo",
+    "blockers_fixed": [
+      "Global 40-asset Commons licensing audit previously caused one failed HTTP request to prevent all five videos; replaced with strictly fail-closed per-video source audit (commit 99476e9bc5a19b5d16de41b8dea6c74057442a26)",
+      "No reliable GitHub Actions push run ID query in available connector; workflow now writes media/wildvox-current-run.json receipt with actual run ID and config blob (commit 916620c2e2dc5f879019c6b86cf274c9a0b779a0)"
+    ],
+    "current_verified_workflow_run": 42404414202,
+    "current_verified_workflow_url": "https://github.com/lulualcides-sys/wildvox-automation/actions/runs/42404414202",
+    "current_verified_workflow_commit": "dd979db15b3a5e4ad12cf00826930998aa442883",
+    "current_verified_workflow_blob": "d4a07a772c1481827613e237c9688aed7db61953",
+    "current_job": "prepare SUCCESS; single cat Commons license audit SUCCESS; Python dependencies installing; render MP4 not yet observed",
+    "queued_next_target": {
+      "key": "sparrow_dust_bath_contrast_nov07",
+      "commit": "6336bb7fafb724abe53f8452f452dd35c601c4e4",
+      "workflow_id": "not yet confirmed; GitHub workflow concurrency allows one pending while cat runs"
+    },
+    "verified_metricool_today": "No scheduled entries and no TikTok posts analytics rows at last query; exact brand 7242311 handle wildvox",
+    "do_not_remove_hold": true,
+    "next_actions": "Wait for actual artifact from run 42404414202; download current-run original ZIP, inspect MP4 and eight source previews and review JPG. Only after independent approval schedule future empty local slot. After next workflow starts use media/wildvox-current-run.json to fetch new run/jobs/artifacts. No old MP4 reuse."
+  }
 }
