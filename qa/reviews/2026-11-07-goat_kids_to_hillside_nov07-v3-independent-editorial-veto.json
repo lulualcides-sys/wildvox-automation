@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-07",
+  "timezone": "America/Sao_Paulo",
+  "key": "goat_kids_to_hillside_nov07",
+  "verdict": "REJECT",
+  "editorial_approved": false,
+  "publication_hold": true,
+  "workflow_run_id": 42404858206,
+  "source_config_commit": "1f743526ecfabe6721390ca21255a8feab705df7",
+  "source_config_blob": "8b3ab5ec8d7d008af178f73b5c55560ef0db7aaa",
+  "config_sha256": "f3396922b6c62edf88e9b4d758b685690f87912c5190aa7c6f54e779c75cb612",
+  "media_sha256": "6f08b22059a25b2d6eb06267954ac7004e3e58a7647402e270f05b44d6c24b17",
+  "duration_seconds": 35.4,
+  "original_zip_inspected": true,
+  "original_source_previews_count": 8,
+  "decoded_mp4_hook_action_payoff_review": true,
+  "ffmpeg_freezedetect_1sec_findings": [],
+  "credit_license_source_pages": "Eight source metadata entries and full credited caption present; original video candidates passed current-run per-video live Wikimedia Commons license audit; CC BY/CC0/PD as recorded",
+  "reject_reasons": [
+    "Decoded 17.6-23.2s visual sequence shows resting goat first and feeding goats second, reversed against word-level narration",
+    "Shared semantic block tag matching swapped equivalent sources despite technical pass; repeat with stable source-order allocator"
+  ],
+  "remediation": "Semantic source-order preservation patch a0a9a1c plus regression tests, corrected v4 scene tags/script commit 00b2031; rerender only current corrected config; v3 asset must not be scheduled.",
+  "approved_media_sha256": null,
+  "provider_post_id": null
+}
