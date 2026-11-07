@@ -1,21 +1,34 @@
 {
-  "cat_daily_rituals_nov07": {
-    "title": "Why Cats Switch From Calm to Play",
-    "script": "Watch this cat clean its fur with quick, careful movements of its tongue and paws. A different black cat walks through the frame, looking relaxed rather than hurried. Indoors, a curious cat investigates a paper bag while a separate kitten rests quietly. Other cats test small objects with their paws, and a pair plays together in another room. One more cat tracks a toy and reaches toward it, turning a simple object into a game. Outside, a different cat stays still while a person gently pets it. Every scene shows another ordinary cat moment.",
-    "caption": "Why Cats Switch From Calm to Play | WildVox original narration and edit. A cat's day: grooming, walking, a paper bag, a resting kitten and a gentle pat. Different real cats in separate recordings. #WildVox #Cats #AnimalLife #Nature",
+  "cat_paper_bag_to_play_nov07": {
+    "title": "The Curious Life of House Cats",
+    "script": "A simple paper bag becomes a whole adventure when this house cat pushes its head inside and investigates. Elsewhere, a little kitten is doing the opposite: resting quietly in a soft bed instead of playing. One black cat walks calmly past the camera. In another home, a different cat pauses for a thorough grooming session. Then the pace changes. One cat bats at a small cotton bud, while another pair starts playing together on the floor. A different indoor cat follows something moving, keeping its eyes and paws focused on the game. And finally, another cat enjoys a gentle human pat outdoors. These are separate cats, with surprisingly different moments in one day.",
+    "caption": "FROM A PAPER BAG TO PLAYTIME. A new edit of independent real cat recordings. #WildVox #CatBehavior #Cats",
     "sources": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20in%20a%20Bag.webm",
         "type": "video",
-        "assetTitle": "Cat behaviour - self-grooming.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
-        "author": "Learnerktm",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "assetTitle": "Cat in a Bag.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
+        "author": "Roger Braunstein",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-02",
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
         "tags": [
-          "domestic_cat_self_grooming"
+          "domestic_cat_inside_paper_bag"
+        ]
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
+        "type": "video",
+        "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
+        "author": "Nesnad",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Original Commons source previously catalogued in cat_play_hunting_instinct_meta.json; LIVE Commons audit and CURRENT-run visual review required before release.",
+        "tags": [
+          "domestic_kitten_playing_indoors"
         ]
       },
       {
@@ -33,30 +46,17 @@
         ]
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
         "type": "video",
-        "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
-        "author": "Nesnad",
+        "assetTitle": "Cat behaviour - self-grooming.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
+        "author": "Learnerktm",
         "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Original Commons source previously catalogued in cat_play_hunting_instinct_meta.json; LIVE Commons audit and CURRENT-run visual review required before release.",
-        "tags": [
-          "domestic_kitten_playing_indoors"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20in%20a%20Bag.webm",
-        "type": "video",
-        "assetTitle": "Cat in a Bag.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
-        "author": "Roger Braunstein",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
         "license_verified_at": "2026-11-02",
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
         "tags": [
-          "domestic_cat_inside_paper_bag"
+          "domestic_cat_self_grooming"
         ]
       },
       {
@@ -119,124 +119,82 @@
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
-    "max_freeze_seconds": 0.25,
+    "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-cat_daily_rituals_nov07-new-story-v1",
+    "revision": "2026-11-07-cat_paper_bag_to_play_nov07-fresh-angle-and-resequenced-sources-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Watch this cat clean its fur with quick, careful movements of its tongue and paws.",
-        "scene": "Genuine house cat clearly self-grooming",
+        "text": "A simple paper bag becomes a whole adventure when this house cat pushes its head inside and investigates.",
+        "scene": "Real cat investigating paper bag",
         "tags": [
-          "domestic_cat_self_grooming"
+          "domestic_cat_inside_paper_bag"
         ],
         "story_role": "hook",
-        "overlay_label": "WATCH THIS",
+        "overlay_label": "THE HOOK",
         "fx": []
       },
       {
-        "text": "A different black cat walks through the frame, looking relaxed rather than hurried.",
-        "scene": "Authentic separate black house cat walking",
+        "text": "Elsewhere, a little kitten is doing the opposite: resting quietly in a soft bed instead of playing.",
+        "scene": "Actual separate resting kitten in Tokyo",
         "tags": [
-          "black_domestic_cat_walking"
-        ],
-        "story_role": "setup",
-        "overlay_label": "ANOTHER SCENE",
-        "fx": []
-      },
-      {
-        "text": "Indoors, a curious cat investigates a paper bag while a separate kitten rests quietly.",
-        "scene": "Real cat exploring a paper bag plus a separate fluffy kitten resting in a striped bed in Tokyo; do not claim kitten is playing.",
-        "tags": [
-          "domestic_cat_inside_paper_bag",
           "domestic_kitten_playing_indoors"
         ],
-        "story_role": "action",
-        "overlay_label": "LOOK CLOSER",
+        "story_role": "setup",
+        "overlay_label": "FIRST CLUE",
         "fx": []
       },
       {
-        "text": "Other cats test small objects with their paws, and a pair plays together in another room.",
-        "scene": "One real cat batting a cotton bud and two separate cats playing",
+        "text": "One black cat walks calmly past the camera. In another home, a different cat pauses for a thorough grooming session.",
+        "scene": "Separate genuine black walking cat and self-grooming cat",
+        "tags": [
+          "black_domestic_cat_walking",
+          "domestic_cat_self_grooming"
+        ],
+        "story_role": "action",
+        "overlay_label": "REAL BEHAVIOR",
+        "fx": []
+      },
+      {
+        "text": "Then the pace changes. One cat bats at a small cotton bud, while another pair starts playing together on the floor.",
+        "scene": "Cat batting cotton bud and pair playing",
         "tags": [
           "domestic_cat_paws_cotton_bud",
           "domestic_cats_playing_together"
         ],
         "story_role": "explanation",
-        "overlay_label": "THE CHANGE",
+        "overlay_label": "THE CONTRAST",
         "fx": []
       },
       {
-        "text": "One more cat tracks a toy and reaches toward it, turning a simple object into a game.",
-        "scene": "Real cat playing indoors in Taiwan",
+        "text": "A different indoor cat follows something moving, keeping its eyes and paws focused on the game.",
+        "scene": "Indoor Taiwan cat playing with object",
         "tags": [
           "domestic_cat_playing_in_taiwan"
         ],
         "story_role": "twist",
-        "overlay_label": "ONE MORE CLUE",
+        "overlay_label": "NEW ANGLE",
         "fx": []
       },
       {
-        "text": "Outside, a different cat stays still while a person gently pets it. Every scene shows another ordinary cat moment.",
-        "scene": "Actual house cat being petted outdoors; no claim the earlier cats are the same",
+        "text": "And finally, another cat enjoys a gentle human pat outdoors. These are separate cats, with surprisingly different moments in one day.",
+        "scene": "Different outdoor cat receiving human pat",
         "tags": [
           "domestic_cat_interacts_with_person"
         ],
         "story_role": "payoff",
-        "overlay_label": "THE TAKEAWAY",
+        "overlay_label": "THE PAYOFF",
         "fx": []
       }
     ],
-    "trend_priority": true
+    "trend_priority": false
   },
-  "sparrow_dust_and_water_nov07": {
-    "title": "Why Sparrows Bathe in Dust and Water",
-    "script": "A house sparrow searches the leaves and ground, pausing between short movements. Another sparrow appears near a city waterfront, where these birds share space with people. A third sparrow waits beside a mossy stone border, almost blending into the garden. Then the behavior changes: sparrows settle into dry soil and shake dust through their feathers. Other sparrows choose water instead, splashing near a pond and inside a shared birdbath. Finally, one more sparrow rolls in dry ground at a zoo. Dust and water make two very different birdbath scenes.",
-    "caption": "Why Sparrows Bathe in Dust and Water | WildVox original narration and edit. From foraging among plants to dust and water baths: three genuine scenes of house sparrows filmed at separate locations. #WildVox #HouseSparrow #Birdwatching #Wildlife",
+  "sparrow_dust_bath_contrast_nov07": {
+    "title": "Why Sparrows Bathe in Dust",
+    "script": "Why is this little house sparrow rolling around in dry soil? It is taking a dust bath right in a flowerbed. Other sparrows make similar movements on zoo grounds, settling low and flicking dust through their feathers in two separate recordings. But these birds do more than bathe. A female sparrow stops to investigate the ground and plants for food. One bird pauses beside a mossy stone border, while another appears at a busy waterfront, far from that dusty flowerbed. Now the contrast: a sparrow splashes in real water at the edge of a pond, rather than dry earth. And at a shared birdbath, sparrows join other birds. For these city survivors, the same daily routine can look completely different.",
+    "caption": "DUST OR WATER? House sparrows in a new footage-grounded edit. #WildVox #HouseSparrow #BirdBath",
     "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20female%20-%20foraging%20plants.ogv",
-        "type": "video",
-        "assetTitle": "Passer domesticus female - foraging plants.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_female_-_foraging_plants.ogv",
-        "author": "Bisco",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "house_sparrow_female_foraging_plants"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-08%20LJUBLJANA%20Grudnovo%20nabre%C5%BEje%20PASSERIFORMES%20Passer%20domesticus%20DOMA%C4%8CI%20VRABEC.webm",
-        "type": "video",
-        "assetTitle": "2022-08-08 LJUBLJANA Grudnovo nabrežje PASSERIFORMES Passer domesticus DOMAČI VRABEC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Grudnovo_nabre%C5%BEje_PASSERIFORMES_Passer_domesticus_DOMA%C4%8CI_VRABEC.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "house_sparrow_urban_waterfront"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20-%20Haussperling.ogv",
-        "type": "video",
-        "assetTitle": "Passer domesticus - Haussperling.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_Haussperling.ogv",
-        "author": "5snake5",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "house_sparrow_closeup_after_bath"
-        ]
-      },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20sandbath%20in%20flowerbed.ogv",
         "type": "video",
@@ -266,6 +224,62 @@
         ]
       },
       {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spatz%20Sandbad%20im%20Zoo%20Teil2%2010prozent.ogv",
+        "type": "video",
+        "assetTitle": "Spatz Sandbad im Zoo Teil2 10prozent.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Spatz_Sandbad_im_Zoo_Teil2_10prozent.ogv",
+        "author": "Bisco",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "license_verified_at": "2026-11-01",
+        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "tags": [
+          "house_sparrow_sand_bath_zoo"
+        ]
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20female%20-%20foraging%20plants.ogv",
+        "type": "video",
+        "assetTitle": "Passer domesticus female - foraging plants.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_female_-_foraging_plants.ogv",
+        "author": "Bisco",
+        "license": "Public domain",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "license_verified_at": "2026-11-01",
+        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "tags": [
+          "house_sparrow_female_foraging_plants"
+        ]
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20-%20Haussperling.ogv",
+        "type": "video",
+        "assetTitle": "Passer domesticus - Haussperling.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_Haussperling.ogv",
+        "author": "5snake5",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_verified_at": "2026-11-01",
+        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "tags": [
+          "house_sparrow_closeup_after_bath"
+        ]
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-08%20LJUBLJANA%20Grudnovo%20nabre%C5%BEje%20PASSERIFORMES%20Passer%20domesticus%20DOMA%C4%8CI%20VRABEC.webm",
+        "type": "video",
+        "assetTitle": "2022-08-08 LJUBLJANA Grudnovo nabrežje PASSERIFORMES Passer domesticus DOMAČI VRABEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Grudnovo_nabre%C5%BEje_PASSERIFORMES_Passer_domesticus_DOMA%C4%8CI_VRABEC.webm",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-11-01",
+        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "tags": [
+          "house_sparrow_urban_waterfront"
+        ]
+      },
+      {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20bathing%20in%20water%2C%20Anas%20platyrhynchos%20in%20background.ogv",
         "type": "video",
         "assetTitle": "Passer domesticus bathing in water, Anas platyrhynchos in background.ogv",
@@ -292,513 +306,87 @@
         "tags": [
           "house_sparrow_shared_birdbath"
         ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spatz%20Sandbad%20im%20Zoo%20Teil2%2010prozent.ogv",
-        "type": "video",
-        "assetTitle": "Spatz Sandbad im Zoo Teil2 10prozent.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Spatz_Sandbad_im_Zoo_Teil2_10prozent.ogv",
-        "author": "Bisco",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "house_sparrow_sand_bath_zoo"
-        ]
       }
     ],
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
-    "max_freeze_seconds": 0.25,
+    "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-sparrow_dust_and_water_nov07-new-story-v1",
+    "revision": "2026-11-07-sparrow_dust_bath_contrast_nov07-fresh-angle-and-resequenced-sources-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "A house sparrow searches the leaves and ground, pausing between short movements.",
-        "scene": "Actual female house sparrow foraging among plants",
+        "text": "Why is this little house sparrow rolling around in dry soil? It is taking a dust bath right in a flowerbed.",
+        "scene": "Real sparrow rolling in flowerbed dust",
+        "tags": [
+          "house_sparrow_dust_bath_flowerbed"
+        ],
+        "story_role": "hook",
+        "overlay_label": "THE HOOK",
+        "fx": []
+      },
+      {
+        "text": "Other sparrows make similar movements on zoo grounds, settling low and flicking dust through their feathers in two separate recordings.",
+        "scene": "Two independent zoo-ground sparrow dust-bath videos",
+        "tags": [
+          "house_sparrow_dust_bath_zoo_ground",
+          "house_sparrow_sand_bath_zoo"
+        ],
+        "story_role": "setup",
+        "overlay_label": "FIRST CLUE",
+        "fx": []
+      },
+      {
+        "text": "But these birds do more than bathe. A female sparrow stops to investigate the ground and plants for food.",
+        "scene": "Actual female sparrow searching ground and plants",
         "tags": [
           "house_sparrow_female_foraging_plants"
         ],
-        "story_role": "hook",
-        "overlay_label": "WATCH THIS",
+        "story_role": "action",
+        "overlay_label": "REAL BEHAVIOR",
         "fx": []
       },
       {
-        "text": "Another sparrow appears near a city waterfront, where these birds share space with people.",
-        "scene": "A real house sparrow beside an urban Ljubljana waterfront",
+        "text": "One bird pauses beside a mossy stone border, while another appears at a busy waterfront, far from that dusty flowerbed.",
+        "scene": "One distant sparrow near mossy stone border and separate waterfront sparrow",
         "tags": [
+          "house_sparrow_closeup_after_bath",
           "house_sparrow_urban_waterfront"
         ],
-        "story_role": "setup",
-        "overlay_label": "ANOTHER SCENE",
-        "fx": []
-      },
-      {
-        "text": "A third sparrow waits beside a mossy stone border, almost blending into the garden.",
-        "scene": "Actual distant sparrow perched beside a mossy stone garden border; do not claim movement toward trees.",
-        "tags": [
-          "house_sparrow_closeup_after_bath"
-        ],
-        "story_role": "action",
-        "overlay_label": "LOOK CLOSER",
-        "fx": []
-      },
-      {
-        "text": "Then the behavior changes: sparrows settle into dry soil and shake dust through their feathers.",
-        "scene": "Two original sparrow dust-bath clips, one in a flowerbed and another at zoo grounds",
-        "tags": [
-          "house_sparrow_dust_bath_flowerbed",
-          "house_sparrow_dust_bath_zoo_ground"
-        ],
         "story_role": "explanation",
-        "overlay_label": "THE CHANGE",
+        "overlay_label": "THE CONTRAST",
         "fx": []
       },
       {
-        "text": "Other sparrows choose water instead, splashing near a pond and inside a shared birdbath.",
-        "scene": "Real sparrow water-edge bathing and separate birdbath with other birds",
+        "text": "Now the contrast: a sparrow splashes in real water at the edge of a pond, rather than dry earth.",
+        "scene": "Real house sparrow bathing at pond edge",
         "tags": [
-          "house_sparrow_bathing_in_water",
+          "house_sparrow_bathing_in_water"
+        ],
+        "story_role": "twist",
+        "overlay_label": "NEW ANGLE",
+        "fx": []
+      },
+      {
+        "text": "And at a shared birdbath, sparrows join other birds. For these city survivors, the same daily routine can look completely different.",
+        "scene": "Actual mixed-species birdbath",
+        "tags": [
           "house_sparrow_shared_birdbath"
         ],
-        "story_role": "twist",
-        "overlay_label": "ONE MORE CLUE",
-        "fx": []
-      },
-      {
-        "text": "Finally, one more sparrow rolls in dry ground at a zoo. Dust and water make two very different birdbath scenes.",
-        "scene": "A genuine sparrow dust-bath scene in zoo grounds",
-        "tags": [
-          "house_sparrow_sand_bath_zoo"
-        ],
         "story_role": "payoff",
-        "overlay_label": "THE TAKEAWAY",
+        "overlay_label": "THE PAYOFF",
         "fx": []
       }
     ],
     "trend_priority": false
   },
-  "squirrel_places_to_pause_nov07": {
-    "title": "A Squirrel's Surprising Places to Pause",
-    "script": "A red squirrel balances among branches, scanning the space around its perch. In a separate city recording, another squirrel sits on a ledge far from the forest floor. Two park recordings show squirrels using branches as resting places and pathways. Elsewhere, a squirrel investigates a stump while another explores the nearby trees and logs. One squirrel clings to a trunk, showing how easily it moves along vertical surfaces. The final squirrel pauses with food at a stump. From branches to buildings, these animals find many places to stop.",
-    "caption": "A Squirrel's Surprising Places to Pause | WildVox original narration and edit. Where a Red Squirrel Stops to Watch and Eat — five-minute wild observations in just forty seconds. #WildVox #Animals #Nature #Wildlife",
+  "horse_from_shore_to_field_nov07": {
+    "title": "Horses from the Shore to the Meadow",
+    "script": "Right beside the shoreline, a pale horse lowers its head to drink. Nothing dramatic, just a very real daily need. Nearby in a different recording, a tan horse is occupied with grass rather than the water itself. On another stretch of shore, several horses move and settle into positions across the open ground. Far away, Icelandic horses gather in one field, while a different horse grazes through green grass in California. Two spring meadow recordings show more horses making their way among grasses, pausing again and again to feed. Finally, a white horse grazes alone among trees. Different places and different animals, but the same slow rhythm of finding food.",
+    "caption": "HORSES BY WATER AND GRASS. New edit from genuine independent footage. #WildVox #Horses #AnimalDocumentary",
     "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ekorre%20r%C3%A4dselljud%3F%20Red%20squirrel%20fear%20noise%3F.webm",
-        "type": "video",
-        "assetTitle": "Ekorre rädselljud? Red squirrel fear noise?.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ekorre_r%C3%A4dselljud%3F_Red_squirrel_fear_noise%3F.webm",
-        "author": "Blockhaj",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_alert_on_tree_branches"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20in%20Berlin.webm",
-        "type": "video",
-        "assetTitle": "Red Squirrel in Berlin.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_in_Berlin.webm",
-        "author": "Redeemer",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_berlin_urban_ledge"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-21%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
-        "type": "video",
-        "assetTitle": "2022-01-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_ljubljana_tree_movement"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
-        "type": "video",
-        "assetTitle": "2021-12-10 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-10-31",
-        "license_note": "Previously Commons-verified real red-squirrel footage; exact tree action and absence of baked-in unrelated text require current-run visual review. Current-run v8 decoded frames showed source randomly offset to near-empty trunk at 14.3-16.3s; force original beginning where source-preview frame shows the squirrel on branches. Rerender and verify visible action.",
-        "tags": [
-          "red_squirrel_ljubljana_tree_perch_december"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Walnut%20Disaster.webm",
-        "type": "video",
-        "assetTitle": "The Great Walnut Disaster.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Walnut_Disaster.webm",
-        "author": "Peter Trimming",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Wikimedia Commons original Flickr CC BY 2.0 license reviewed 2019; video shows red squirrels and walnuts on a stump. Exact shot and absence of baked-in captions must be independently checked after current-day render; hold remains true.",
-        "tags": [
-          "red_squirrel_walnut_stump_search"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20squirrel%20(Sciurus%20vulgaris)%20in%20England.webm",
-        "type": "video",
-        "assetTitle": "Red squirrel (Sciurus vulgaris) in England.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_squirrel_(Sciurus_vulgaris)_in_England.webm",
-        "author": "Peter Trimming",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_england_tree_perch"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20(Sciurus%20vulgaris).webm",
-        "type": "video",
-        "assetTitle": "Red Squirrel (Sciurus vulgaris).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_(Sciurus_vulgaris).webm",
-        "author": "gails_pictures (Flickr)",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_climbing_tree_trunk"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20'Nutkin'%20-%20Seen%20at%20Forest%20How%2C%20Eskdale%2C%20Cumbria%20-%20North%20West%20England.webm",
-        "type": "video",
-        "assetTitle": "Red Squirrel 'Nutkin' - Seen at Forest How, Eskdale, Cumbria - North West England.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_'Nutkin'_-_Seen_at_Forest_How%2C_Eskdale%2C_Cumbria_-_North_West_England.webm",
-        "author": "Peter Trimming from Croydon, England",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_nutkin_eating_on_stump"
-        ]
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0.25,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-07-squirrel_places_to_pause_nov07-new-story-v1",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "A red squirrel balances among branches, scanning the space around its perch.",
-        "scene": "Real red squirrel motion or alert posture among branches, no invented predator",
-        "tags": [
-          "red_squirrel_alert_on_tree_branches"
-        ],
-        "story_role": "hook",
-        "overlay_label": "WATCH THIS",
-        "fx": []
-      },
-      {
-        "text": "In a separate city recording, another squirrel sits on a ledge far from the forest floor.",
-        "scene": "Real red squirrel on a man-made ledge in Berlin",
-        "tags": [
-          "red_squirrel_berlin_urban_ledge"
-        ],
-        "story_role": "setup",
-        "overlay_label": "ANOTHER SCENE",
-        "fx": []
-      },
-      {
-        "text": "Two park recordings show squirrels using branches as resting places and pathways.",
-        "scene": "Two authentic Ljubljana park red squirrel branch recordings",
-        "tags": [
-          "red_squirrel_ljubljana_tree_movement",
-          "red_squirrel_ljubljana_tree_perch_december"
-        ],
-        "story_role": "action",
-        "overlay_label": "LOOK CLOSER",
-        "fx": []
-      },
-      {
-        "text": "Elsewhere, a squirrel investigates a stump while another explores the nearby trees and logs.",
-        "scene": "Genuine squirrel at walnut stump plus separate squirrel on logs and branches",
-        "tags": [
-          "red_squirrel_walnut_stump_search",
-          "red_squirrel_england_tree_perch"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "THE CHANGE",
-        "fx": []
-      },
-      {
-        "text": "One squirrel clings to a trunk, showing how easily it moves along vertical surfaces.",
-        "scene": "Authentic red squirrel on tree trunk",
-        "tags": [
-          "red_squirrel_climbing_tree_trunk"
-        ],
-        "story_role": "twist",
-        "overlay_label": "ONE MORE CLUE",
-        "fx": []
-      },
-      {
-        "text": "The final squirrel pauses with food at a stump. From branches to buildings, these animals find many places to stop.",
-        "scene": "Original red squirrel Nutkin footage visibly eating at tree stump",
-        "tags": [
-          "red_squirrel_nutkin_eating_on_stump"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "THE TAKEAWAY",
-        "fx": []
-      }
-    ],
-    "trend_priority": false
-  },
-  "robin_city_perches_nov07": {
-    "title": "How to Spot a Robin in the City",
-    "script": "A European robin rests on a garden fence, its orange chest standing out clearly. In winter, another robin perches in a park with fewer leaves hiding the branches. A spring recording catches a robin on a low perch, turning its head to look around. Summer and autumn bring two more park sightings among different trees and leaves. Then two separate robins appear among reeds, their small bodies moving as they sing. A final close recording captures a robin singing again. Its bright chest makes this familiar bird easier to notice.",
-    "caption": "How to Spot a Robin in the City | WildVox original narration and edit. How a Robin Changes Its View From Fence to Reeds — five-minute wild observations in just forty seconds. #WildVox #Animals #Nature #Wildlife",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robin%20feeding.ogv",
-        "type": "video",
-        "assetTitle": "Robin feeding.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Robin_feeding.ogv",
-        "author": "Quantockgoblin",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "european_robin_garden_fence_perch"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-03%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA%202.webm",
-        "type": "video",
-        "assetTitle": "2022-01-03 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-03_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA_2.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "european_robin_park_perch_january"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-28%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
-        "type": "video",
-        "assetTitle": "2022-03-28 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-28_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "european_robin_park_perch_march"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-14%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
-        "type": "video",
-        "assetTitle": "2022-06-14 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "european_robin_park_perch_june"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-24%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
-        "type": "video",
-        "assetTitle": "2022-09-24 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "european_robin_park_perch_september"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20robin%20singing%20in%20reeds%2001.webm",
-        "type": "video",
-        "assetTitle": "European robin singing in reeds 01.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_01.webm",
-        "author": "Alexis Lours",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "european_robin_singing_in_reeds_first"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20robin%20singing%20in%20reeds%2002.webm",
-        "type": "video",
-        "assetTitle": "European robin singing in reeds 02.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_02.webm",
-        "author": "Alexis Lours",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "european_robin_singing_in_reeds_second"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robin%20Singing%20video.webm",
-        "type": "video",
-        "assetTitle": "Robin Singing video.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Robin_Singing_video.webm",
-        "author": "gails_pictures (Flickr)",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "european_robin_singing_video_flickr"
-        ]
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0.25,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-07-robin_city_perches_nov07-new-story-v1",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "A European robin rests on a garden fence, its orange chest standing out clearly.",
-        "scene": "Authentic European robin perched on a garden fence; no feeding claimed",
-        "tags": [
-          "european_robin_garden_fence_perch"
-        ],
-        "story_role": "hook",
-        "overlay_label": "WATCH THIS",
-        "fx": []
-      },
-      {
-        "text": "In winter, another robin perches in a park with fewer leaves hiding the branches.",
-        "scene": "Real European robin on a winter park perch in Ljubljana",
-        "tags": [
-          "european_robin_park_perch_january"
-        ],
-        "story_role": "setup",
-        "overlay_label": "ANOTHER SCENE",
-        "fx": []
-      },
-      {
-        "text": "A spring recording catches a robin on a low perch, turning its head to look around.",
-        "scene": "Actual European robin on a separate spring park perch",
-        "tags": [
-          "european_robin_park_perch_march"
-        ],
-        "story_role": "action",
-        "overlay_label": "LOOK CLOSER",
-        "fx": []
-      },
-      {
-        "text": "Summer and autumn bring two more park sightings among different trees and leaves.",
-        "scene": "Two separately filmed robin park clips in June and September",
-        "tags": [
-          "european_robin_park_perch_june",
-          "european_robin_park_perch_september"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "THE CHANGE",
-        "fx": []
-      },
-      {
-        "text": "Then two separate robins appear among reeds, their small bodies moving as they sing.",
-        "scene": "Two authentic reed-perched European robins in genuine singing recordings",
-        "tags": [
-          "european_robin_singing_in_reeds_first",
-          "european_robin_singing_in_reeds_second"
-        ],
-        "story_role": "twist",
-        "overlay_label": "ONE MORE CLUE",
-        "fx": []
-      },
-      {
-        "text": "A final close recording captures a robin singing again. Its bright chest makes this familiar bird easier to notice.",
-        "scene": "European robin visibly singing in original Flickr footage",
-        "tags": [
-          "european_robin_singing_video_flickr"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "THE TAKEAWAY",
-        "fx": []
-      }
-    ],
-    "trend_priority": false
-  },
-  "horse_quiet_routines_nov07": {
-    "title": "A Quiet Day in a Horse's World",
-    "script": "A group of Icelandic horses stands close together, each looking in a different direction. Elsewhere, a horse lowers its head to graze in an open patch of grass. Two separate spring scenes show one pale horse drinking near water and another grazing beside the shore. Another group of horses shifts position on the open ground along the water. Later recordings show horses moving slowly through grass and stopping to feed. Finally, a white horse grazes between trees. These different places reveal the quiet routines of horses.",
-    "caption": "A Quiet Day in a Horse's World | WildVox original narration and edit. Real horses across Iceland, meadows and woodland: how their daily routines change by place and season. Separate original recordings. #WildVox #Horses #Nature #AnimalBehavior",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Icelandic%20horses!!%20Video.webm",
-        "type": "video",
-        "assetTitle": "Icelandic horses!! Video.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm",
-        "author": "Adon Metcalfe",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-02",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
-        "tags": [
-          "icelandic_horses_group"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grazing%20Horses%20in%20California.webm",
-        "type": "video",
-        "assetTitle": "Grazing Horses in California.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grazing_Horses_in_California.webm",
-        "author": "docentjoyce",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-02",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
-        "tags": [
-          "domestic_horses_grazing_california"
-        ]
-      },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20IZLIV%20SO%C4%8CE%20PERISSODACTYLA%20kamar%C5%A1ki%20konji.webm",
         "type": "video",
@@ -839,6 +427,34 @@
         "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
         "tags": [
           "camargue_horses_slovenia_march_third"
+        ]
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Icelandic%20horses!!%20Video.webm",
+        "type": "video",
+        "assetTitle": "Icelandic horses!! Video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm",
+        "author": "Adon Metcalfe",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-11-02",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+        "tags": [
+          "icelandic_horses_group"
+        ]
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Grazing%20Horses%20in%20California.webm",
+        "type": "video",
+        "assetTitle": "Grazing Horses in California.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Grazing_Horses_in_California.webm",
+        "author": "docentjoyce",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-11-02",
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+        "tags": [
+          "domestic_horses_grazing_california"
         ]
       },
       {
@@ -887,72 +503,456 @@
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
-    "max_freeze_seconds": 0.25,
+    "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-horse_quiet_routines_nov07-new-story-v1",
+    "revision": "2026-11-07-horse_from_shore_to_field_nov07-fresh-angle-and-resequenced-sources-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "A group of Icelandic horses stands close together, each looking in a different direction.",
-        "scene": "Authentic group of Icelandic horses in one recording",
+        "text": "Right beside the shoreline, a pale horse lowers its head to drink. Nothing dramatic, just a very real daily need.",
+        "scene": "Real pale horse drinking along shore",
         "tags": [
-          "icelandic_horses_group"
+          "camargue_horse_slovenia_march_lakeside_grazing"
         ],
         "story_role": "hook",
-        "overlay_label": "WATCH THIS",
+        "overlay_label": "THE HOOK",
         "fx": []
       },
       {
-        "text": "Elsewhere, a horse lowers its head to graze in an open patch of grass.",
-        "scene": "A genuine close horse grazing in California",
+        "text": "Nearby in a different recording, a tan horse is occupied with grass rather than the water itself.",
+        "scene": "Separate tan horse grazing beside water",
         "tags": [
-          "domestic_horses_grazing_california"
-        ],
-        "story_role": "setup",
-        "overlay_label": "ANOTHER SCENE",
-        "fx": []
-      },
-      {
-        "text": "Two separate spring scenes show one pale horse drinking near water and another grazing beside the shore.",
-        "scene": "Separate recordings: a pale horse drinking at the shoreline and a single tan horse grazing beside the water; no group movement claimed.",
-        "tags": [
-          "camargue_horse_slovenia_march_lakeside_grazing",
           "camargue_horses_slovenia_march_second"
         ],
-        "story_role": "action",
-        "overlay_label": "LOOK CLOSER",
+        "story_role": "setup",
+        "overlay_label": "FIRST CLUE",
         "fx": []
       },
       {
-        "text": "Another group of horses shifts position on the open ground along the water.",
-        "scene": "Actual additional Camargue horses on lakeside ground",
+        "text": "On another stretch of shore, several horses move and settle into positions across the open ground.",
+        "scene": "Actual herd on shore ground",
         "tags": [
           "camargue_horses_slovenia_march_third"
         ],
-        "story_role": "explanation",
-        "overlay_label": "THE CHANGE",
+        "story_role": "action",
+        "overlay_label": "REAL BEHAVIOR",
         "fx": []
       },
       {
-        "text": "Later recordings show horses moving slowly through grass and stopping to feed.",
-        "scene": "Two separate authentic Camargue horses in the spring meadow",
+        "text": "Far away, Icelandic horses gather in one field, while a different horse grazes through green grass in California.",
+        "scene": "Genuine Icelandic group and separately filmed California grazing horse",
+        "tags": [
+          "icelandic_horses_group",
+          "domestic_horses_grazing_california"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "THE CONTRAST",
+        "fx": []
+      },
+      {
+        "text": "Two spring meadow recordings show more horses making their way among grasses, pausing again and again to feed.",
+        "scene": "Two spring Camargue meadow horse clips",
         "tags": [
           "camargue_horses_slovenia_may",
           "camargue_horses_slovenia_may_second"
         ],
         "story_role": "twist",
-        "overlay_label": "ONE MORE CLUE",
+        "overlay_label": "NEW ANGLE",
         "fx": []
       },
       {
-        "text": "Finally, a white horse grazes between trees. These different places reveal the quiet routines of horses.",
-        "scene": "Actual single white horse feeding among trees near woodland; no invented group by a lake.",
+        "text": "Finally, a white horse grazes alone among trees. Different places and different animals, but the same slow rhythm of finding food.",
+        "scene": "White horse grazing by woodland trees",
         "tags": [
           "white_camargue_horse_grazes_near_trees"
         ],
         "story_role": "payoff",
-        "overlay_label": "THE TAKEAWAY",
+        "overlay_label": "THE PAYOFF",
+        "fx": []
+      }
+    ],
+    "trend_priority": false
+  },
+  "goat_kids_to_hillside_nov07": {
+    "title": "From Goat Kids to the Hillside Herd",
+    "script": "These newborn goat kids are standing close to an adult, already taking in the world around their feet. In a separate hillside herd, bigger goats spread across the grass, moving and stopping at different moments. Another group carefully makes its way over rough rocky ground, a very different surface from the first field. Not every scene is about traveling. Some goats stop for hay, while another rests on an open patch of grass. Other footage moves indoors, where goats pause inside a pen and groom themselves between the busier moments. Out in the open again, one goat stands among the grass. From young kids to adults, every scene shows a different piece of goat life.",
+    "caption": "GOAT KIDS, HILLSIDES AND QUIET MOMENTS. New story, original edit, real source credits. #WildVox #Goats #AnimalLife",
+    "sources": [
+      {
+        "assetTitle": "Newborn goats.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Newborn_goats.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Newborn%20goats.webm",
+        "type": "video",
+        "author": "Darius Dunlap",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "newborn_goats_near_mother"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Goats in Sunnyvale.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20in%20Sunnyvale.webm",
+        "type": "video",
+        "author": "Kat Walsh",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "goat_herd_grazing_sunnyvale_hillside"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Goats video.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_video.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20video.webm",
+        "type": "video",
+        "author": "gailhampshire (Flickr gails_pictures)",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "goat_herd_moving_rocky_ground"
+        ],
+        "license_note": "Original Flickr creator gailhampshire verified against Commons file source and Flickr attribution; full scene and action-window review pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Goats eating.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_eating.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20eating.webm",
+        "type": "video",
+        "author": "Brian Boucheron",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "goats_eating_hay_and_resting_on_grass"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-10-01 MIRKE ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-01%20MIRKE%20ARTIODACTYLA%20Capra%20aegagrus%20hircus%20DOMA%C4%8CA%20KOZA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "goats_eating_hay_and_resting_on_grass"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Goats yawning.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goats_yawning.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goats%20yawning.webm",
+        "type": "video",
+        "author": "Brian Boucheron",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "goats_grooming_or_yawning"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "Anglo-Nubian goats grooming themselves.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anglo-Nubian%20goats%20grooming%20themselves.webm",
+        "type": "video",
+        "author": "Rivadavia.vila",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "goats_grooming_or_yawning"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      },
+      {
+        "assetTitle": "2022-09-20 JAMNIK ARTIODACTYLA Capra aegagrus hircus DOMAČA KOZA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-20%20JAMNIK%20ARTIODACTYLA%20Capra%20aegagrus%20hircus%20DOMA%C4%8CA%20KOZA.webm",
+        "type": "video",
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "license_verified_at": "2026-10-31",
+        "tags": [
+          "goat_standing_in_open_grass"
+        ],
+        "license_note": "Commons metadata checked; independent full action-window and creator-family review still pending. RESEARCH ONLY."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-11-07-goat_kids_to_hillside_nov07-fresh-angle-and-resequenced-sources-v2",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "These newborn goat kids are standing close to an adult, already taking in the world around their feet.",
+        "scene": "Authentic newborn kids beside adult; no nursing claim",
+        "tags": [
+          "newborn_goats_near_mother"
+        ],
+        "story_role": "hook",
+        "overlay_label": "THE HOOK",
+        "fx": []
+      },
+      {
+        "text": "In a separate hillside herd, bigger goats spread across the grass, moving and stopping at different moments.",
+        "scene": "Managed goat herd grazing on Sunnyvale hillside",
+        "tags": [
+          "goat_herd_grazing_sunnyvale_hillside"
+        ],
+        "story_role": "setup",
+        "overlay_label": "FIRST CLUE",
+        "fx": []
+      },
+      {
+        "text": "Another group carefully makes its way over rough rocky ground, a very different surface from the first field.",
+        "scene": "Real moving goats on rocky ground",
+        "tags": [
+          "goat_herd_moving_rocky_ground"
+        ],
+        "story_role": "action",
+        "overlay_label": "REAL BEHAVIOR",
+        "fx": []
+      },
+      {
+        "text": "Not every scene is about traveling. Some goats stop for hay, while another rests on an open patch of grass.",
+        "scene": "Separate hay feeding and resting goat",
+        "tags": [
+          "goats_eating_hay_and_resting_on_grass",
+          "goats_eating_hay_and_resting_on_grass"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "THE CONTRAST",
+        "fx": []
+      },
+      {
+        "text": "Other footage moves indoors, where goats pause inside a pen and groom themselves between the busier moments.",
+        "scene": "Real goats in pen and independently filmed genuine self-grooming; never assert yawning",
+        "tags": [
+          "goats_grooming_or_yawning",
+          "goats_grooming_or_yawning"
+        ],
+        "story_role": "twist",
+        "overlay_label": "NEW ANGLE",
+        "fx": []
+      },
+      {
+        "text": "Out in the open again, one goat stands among the grass. From young kids to adults, every scene shows a different piece of goat life.",
+        "scene": "Single goat on grass",
+        "tags": [
+          "goat_standing_in_open_grass"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "THE PAYOFF",
+        "fx": []
+      }
+    ],
+    "trend_priority": false
+  },
+  "kingfisher_color_hidden_nov07": {
+    "title": "The Kingfisher You Almost Miss",
+    "script": "Look closely at this kingfisher. Its long pointed bill and bright feathers make it unmistakable when the camera gets near. Another recording reveals that striking orange and blue color while the bird shifts its posture on a perch. But watch how the view changes. One kingfisher sits on a rounded post, another stays beside a pond on a branch. In two different waterways, leaves and thin branches surround the birds until their small bodies are harder to spot. One distant bird waits quietly on a low branch. This shot shows patience and a perch, not a dramatic fish catch. Even in a wider final view, that pointed shape gives away the little kingfisher. Sometimes spotting it is the whole story.",
+    "caption": "A FLASH OF BLUE, THEN ALMOST HIDDEN. Real perches; no fake fish catch. #WildVox #Kingfisher #Birdwatching",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingfisher%202025%2009%2028%2001.webm",
+        "type": "video",
+        "assetTitle": "Kingfisher 2025 09 28 01.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kingfisher_2025_09_28_01.webm",
+        "tags": [
+          "kingfisher_close_perch_last_scene"
+        ],
+        "author": "Alexis Lours",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20preening.webm",
+        "type": "video",
+        "assetTitle": "Common Kingfisher preening.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_preening.webm",
+        "tags": [
+          "kingfisher_preening_feathers"
+        ],
+        "author": "Lennart Hessel",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-14%20LJUBLJANA%20%C5%A0pica%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
+        "type": "video",
+        "assetTitle": "2022-01-14 LJUBLJANA Špica CORACIIFORMES Alcedo atthis VODOMEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-14_LJUBLJANA_Špica_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
+        "tags": [
+          "kingfisher_perched_at_water_edge"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-11-05",
+        "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
+        "type": "video",
+        "assetTitle": "Common kingfisher (Alcedo atthis) in Slovakia.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm",
+        "tags": [
+          "kingfisher_resting_preening_by_water"
+        ],
+        "author": "Lubo Ondrasko",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-01%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
+        "type": "video",
+        "assetTitle": "2022-09-01 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-01_VRHNIKA_Ribniki_pri_stari_opekarni_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
+        "tags": [
+          "kingfisher_at_different_waterway"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-11-05",
+        "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-23%20RIBNIKI%20V%20DOLINI%20DRAGE%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
+        "type": "video",
+        "assetTitle": "2022-07-23 RIBNIKI V DOLINI DRAGE CORACIIFORMES Alcedo atthis VODOMEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-23_RIBNIKI_V_DOLINI_DRAGE_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
+        "tags": [
+          "kingfisher_perched_near_river_habitat"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-25%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
+        "type": "video",
+        "assetTitle": "2022-07-25 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-25_VRHNIKA_Ribniki_pri_stari_opekarni_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
+        "tags": [
+          "kingfisher_eating_caught_fish"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20eating%20a%20fish.webm",
+        "type": "video",
+        "assetTitle": "Common Kingfisher eating a fish.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm",
+        "tags": [
+          "kingfisher_close_perch_last_scene"
+        ],
+        "author": "Lennart Hessel",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_verified_at": "2026-10-30",
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 1,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-11-07-kingfisher_color_hidden_nov07-fresh-angle-and-resequenced-sources-v2",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Look closely at this kingfisher. Its long pointed bill and bright feathers make it unmistakable when the camera gets near.",
+        "scene": "Real close kingfisher view and pointed bill",
+        "tags": [
+          "kingfisher_close_perch_last_scene"
+        ],
+        "story_role": "hook",
+        "overlay_label": "THE HOOK",
+        "fx": []
+      },
+      {
+        "text": "Another recording reveals that striking orange and blue color while the bird shifts its posture on a perch.",
+        "scene": "Real orange and blue plumage in independent film",
+        "tags": [
+          "kingfisher_preening_feathers"
+        ],
+        "story_role": "setup",
+        "overlay_label": "FIRST CLUE",
+        "fx": []
+      },
+      {
+        "text": "But watch how the view changes. One kingfisher sits on a rounded post, another stays beside a pond on a branch.",
+        "scene": "Kingfisher on concrete post and one near pond",
+        "tags": [
+          "kingfisher_perched_at_water_edge",
+          "kingfisher_resting_preening_by_water"
+        ],
+        "story_role": "action",
+        "overlay_label": "REAL BEHAVIOR",
+        "fx": []
+      },
+      {
+        "text": "In two different waterways, leaves and thin branches surround the birds until their small bodies are harder to spot.",
+        "scene": "Two independently filmed distant kingfisher perches within foliage",
+        "tags": [
+          "kingfisher_at_different_waterway",
+          "kingfisher_perched_near_river_habitat"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "THE CONTRAST",
+        "fx": []
+      },
+      {
+        "text": "One distant bird waits quietly on a low branch. This shot shows patience and a perch, not a dramatic fish catch.",
+        "scene": "Genuine distant sitting kingfisher; no fish claim",
+        "tags": [
+          "kingfisher_eating_caught_fish"
+        ],
+        "story_role": "twist",
+        "overlay_label": "NEW ANGLE",
+        "fx": []
+      },
+      {
+        "text": "Even in a wider final view, that pointed shape gives away the little kingfisher. Sometimes spotting it is the whole story.",
+        "scene": "Original wider kingfisher shot; no unverified hunt",
+        "tags": [
+          "kingfisher_close_perch_last_scene"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "THE PAYOFF",
         "fx": []
       }
     ],
