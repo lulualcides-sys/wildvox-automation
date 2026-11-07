@@ -1,0 +1,24 @@
+name: WildVox Release Vetoed Nov07 Archive
+on:
+  push:
+    branches: [main]
+    paths:
+      - qa/ops/release-obsolete-v3-nov07.txt
+permissions:
+  actions: write
+  contents: read
+jobs:
+  cancel-vetoed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm five individual editorial veto records before cancellation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          repo="${{ github.repository }}"
+          for key in cat_paper_bag_to_play_nov07 sparrow_dust_bath_contrast_nov07 horse_from_shore_to_field_nov07 goat_kids_to_hillside_nov07 kingfisher_color_hidden_nov07; do
+            gh api "repos/${repo}/contents/qa/reviews/2026-11-07-${key}-v3-independent-editorial-veto.json" --jq .sha > /dev/null
+          done
+          gh api -X POST "repos/${repo}/actions/runs/42404858206/cancel"
+          echo "Cancelled only obsolete fully vetoed Nov07 v3 archive to release v4 queued rendering"
