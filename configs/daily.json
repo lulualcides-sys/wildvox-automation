@@ -1,7 +1,7 @@
 {
   "cat_paper_bag_to_play_nov07": {
     "title": "The Curious Life of House Cats",
-    "script": "A paper bag catches this cat's attention, and it leans inside to explore. Elsewhere, a fluffy kitten rests quietly, showing a much calmer moment. A black cat strolls past the camera, while another cat takes its time grooming its fur. Then one cat paws at a cotton bud, while a different pair begins playing together indoors. Another cat follows a moving toy with careful eyes and reaching paws. Outdoors, a final cat relaxes under gentle petting, ending this tour of very different moods.",
+    "script": "A paper bag catches this cat's attention, and it leans inside to explore. Elsewhere, a fluffy kitten rests quietly, showing a much calmer moment. A black cat strolls past the camera, while another cat takes its time grooming its fur. Then one cat paws at a cotton bud, while a different pair begins playing together indoors. Another indoor cat rolls onto its side and stretches its paws, enjoying a playful moment. Outdoors, a final cat relaxes under gentle petting, ending this tour of very different moods.",
     "caption": "FROM A PAPER BAG TO PLAYTIME. A new edit of independent real cat recordings. #WildVox #CatBehavior #Cats",
     "sources": [
       {
@@ -122,7 +122,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-cat_paper_bag_to_play_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
+    "revision": "2026-11-07-cat_paper_bag_to_play_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-semantic-order-corrected-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -168,8 +168,8 @@
         "fx": []
       },
       {
-        "text": "Another cat follows a moving toy with careful eyes and reaching paws.",
-        "scene": "Indoor Taiwan cat playing with object",
+        "text": "Another indoor cat rolls onto its side and stretches its paws, enjoying a playful moment.",
+        "scene": "Actual indoor cat rolls across floor and stretches paws; no unverified toy tracking",
         "tags": [
           "domestic_cat_playing_in_taiwan"
         ],
@@ -192,7 +192,7 @@
   },
   "sparrow_dust_bath_contrast_nov07": {
     "title": "Why Sparrows Bathe in Dust",
-    "script": "This sparrow rolls in a flowerbed, kicking up dry dust as it bathes. Other sparrows do the same on zoo grounds, using tiny shakes to work dust through their feathers. Meanwhile, a female sparrow searches for food among leaves and low plants. One bird perches by a mossy stone border; another appears near a city waterfront. But another sparrow chooses water, splashing near a pond instead of dry soil. At a shared birdbath, different birds gather, showing how varied this routine can be.",
+    "script": "This sparrow shakes its feathers in dusty zoo ground, showing how a dust bath works. Others repeat those movements in separate recordings from a flowerbed and another patch of zoo ground. Meanwhile, a female sparrow searches for food among leaves and low plants. One bird perches by a mossy stone border; another appears near a city waterfront. But another sparrow chooses water, splashing near a pond instead of dry soil. At a shared birdbath, different birds gather, showing how varied this routine can be.",
     "caption": "DUST OR WATER? House sparrows in a new footage-grounded edit. #WildVox #HouseSparrow #BirdBath",
     "sources": [
       {
@@ -314,25 +314,25 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-sparrow_dust_bath_contrast_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
+    "revision": "2026-11-07-sparrow_dust_bath_contrast_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-semantic-order-corrected-v4",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "This sparrow rolls in a flowerbed, kicking up dry dust as it bathes.",
-        "scene": "Real sparrow rolling in flowerbed dust",
+        "text": "This sparrow shakes its feathers in dusty zoo ground, showing how a dust bath works.",
+        "scene": "Real visible sparrow moving through dry zoo-ground dust; close enough for hook",
         "tags": [
-          "house_sparrow_dust_bath_flowerbed"
+          "house_sparrow_sand_bath_zoo"
         ],
         "story_role": "hook",
         "overlay_label": "THE HOOK",
         "fx": []
       },
       {
-        "text": "Other sparrows do the same on zoo grounds, using tiny shakes to work dust through their feathers.",
-        "scene": "Two independent zoo-ground sparrow dust-bath videos",
+        "text": "Others repeat those movements in separate recordings from a flowerbed and another patch of zoo ground.",
+        "scene": "Real flowerbed dust bath and a second independent zoo-ground sand bath",
         "tags": [
-          "house_sparrow_dust_bath_zoo_ground",
-          "house_sparrow_sand_bath_zoo"
+          "house_sparrow_dust_bath_flowerbed",
+          "house_sparrow_dust_bath_zoo_ground"
         ],
         "story_role": "setup",
         "overlay_label": "FIRST CLUE",
@@ -384,7 +384,7 @@
   },
   "horse_from_shore_to_field_nov07": {
     "title": "Horses from the Shore to the Meadow",
-    "script": "A pale horse drinks beside the shoreline, lowering its muzzle toward the water. In another recording, a tan horse grazes near the water instead of drinking. Along a separate shore, a group of horses moves across the open ground and pauses. Far away, Icelandic horses gather together while another horse grazes in California. Two spring meadow recordings show horses walking slowly and pausing among the grass. A white horse finishes our journey, feeding quietly among trees at the meadow's edge.",
+    "script": "A pale horse drinks beside the shoreline, lowering its muzzle toward the water. In another recording, a tan horse grazes near the water instead of drinking. Along a separate shore, a group of horses moves across the open ground and pauses. Elsewhere, a brown horse grazes in an open field, while another horse stands close to a person. Two spring recordings show other horses near open water, shifting across grassy shores at their own pace. A white horse finishes our journey, feeding quietly among trees at the meadow's edge.",
     "caption": "HORSES BY WATER AND GRASS. New edit from genuine independent footage. #WildVox #Horses #AnimalDocumentary",
     "sources": [
       {
@@ -506,14 +506,14 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-horse_from_shore_to_field_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
+    "revision": "2026-11-07-horse_from_shore_to_field_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-semantic-order-corrected-v4",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "A pale horse drinks beside the shoreline, lowering its muzzle toward the water.",
-        "scene": "Real pale horse drinking along shore",
+        "scene": "Clear pale horse actually drinking from a water edge in source_01, not grazing",
         "tags": [
-          "camargue_horse_slovenia_march_lakeside_grazing"
+          "camargue_horses_slovenia_march_second"
         ],
         "story_role": "hook",
         "overlay_label": "THE HOOK",
@@ -521,9 +521,9 @@
       },
       {
         "text": "In another recording, a tan horse grazes near the water instead of drinking.",
-        "scene": "Separate tan horse grazing beside water",
+        "scene": "Real pale/tan horse grazing on shore bank in source_00, not drinking",
         "tags": [
-          "camargue_horses_slovenia_march_second"
+          "camargue_horse_slovenia_march_lakeside_grazing"
         ],
         "story_role": "setup",
         "overlay_label": "FIRST CLUE",
@@ -540,8 +540,8 @@
         "fx": []
       },
       {
-        "text": "Far away, Icelandic horses gather together while another horse grazes in California.",
-        "scene": "Genuine Icelandic group and separately filmed California grazing horse",
+        "text": "Elsewhere, a brown horse grazes in an open field, while another horse stands close to a person.",
+        "scene": "Authentic grazing horse in one source; another horse next to an actual person in separately filmed scene",
         "tags": [
           "icelandic_horses_group",
           "domestic_horses_grazing_california"
@@ -551,8 +551,8 @@
         "fx": []
       },
       {
-        "text": "Two spring meadow recordings show horses walking slowly and pausing among the grass.",
-        "scene": "Two spring Camargue meadow horse clips",
+        "text": "Two spring recordings show other horses near open water, shifting across grassy shores at their own pace.",
+        "scene": "Real herds and grazing horses filmed on separate wetland shores",
         "tags": [
           "camargue_horses_slovenia_may",
           "camargue_horses_slovenia_may_second"
@@ -698,7 +698,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-goat_kids_to_hillside_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
+    "revision": "2026-11-07-goat_kids_to_hillside_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-semantic-order-corrected-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -768,7 +768,7 @@
   },
   "kingfisher_color_hidden_nov07": {
     "title": "The Kingfisher You Almost Miss",
-    "script": "This kingfisher's pointed bill and bright colors stand out in a close view. Another recording reveals vivid blue and orange feathers as the bird changes posture. One bird perches on a rounded post; another stays on a branch near a pond. In separate waterways, leaves and branches make these tiny birds harder to find. One distant kingfisher remains on a low branch, with no visible fish catch. Even from farther away, its shape and sharp bill help observers recognize a kingfisher.",
+    "script": "This kingfisher's pointed bill and bright colors stand out in a close view. Another recording reveals vivid blue and orange feathers as the bird changes posture. One bird perches on a rounded post; another stays on a branch near a pond. In separate waterways, leaves and branches make these tiny birds harder to find. One distant kingfisher rests quietly on a low branch among the greenery. Even from farther away, its shape and sharp bill help observers recognize a kingfisher.",
     "caption": "A FLASH OF BLUE, THEN ALMOST HIDDEN. Real perches; no fake fish catch. #WildVox #Kingfisher #Birdwatching",
     "sources": [
       {
@@ -777,7 +777,7 @@
         "assetTitle": "Kingfisher 2025 09 28 01.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Kingfisher_2025_09_28_01.webm",
         "tags": [
-          "kingfisher_close_perch_last_scene"
+          "kingfisher_close_blue_orange_bill_hook_nov07"
         ],
         "author": "Alexis Lours",
         "license": "CC BY 4.0",
@@ -875,7 +875,7 @@
         "assetTitle": "Common Kingfisher eating a fish.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm",
         "tags": [
-          "kingfisher_close_perch_last_scene"
+          "kingfisher_distant_small_branch_payoff_nov07"
         ],
         "author": "Lennart Hessel",
         "license": "CC BY 3.0",
@@ -890,14 +890,14 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-07-kingfisher_color_hidden_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
+    "revision": "2026-11-07-kingfisher_color_hidden_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-semantic-order-corrected-v4",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "This kingfisher's pointed bill and bright colors stand out in a close view.",
-        "scene": "Real close kingfisher view and pointed bill",
+        "scene": "Original source_00 close and clearly identifiable colorful kingfisher on thin branch; do not use distant source_07 here",
         "tags": [
-          "kingfisher_close_perch_last_scene"
+          "kingfisher_close_blue_orange_bill_hook_nov07"
         ],
         "story_role": "hook",
         "overlay_label": "THE HOOK",
@@ -936,8 +936,8 @@
         "fx": []
       },
       {
-        "text": "One distant kingfisher remains on a low branch, with no visible fish catch.",
-        "scene": "Genuine distant sitting kingfisher; no fish claim",
+        "text": "One distant kingfisher rests quietly on a low branch among the greenery.",
+        "scene": "Real distant perched kingfisher with no fish-catch or feeding claim",
         "tags": [
           "kingfisher_eating_caught_fish"
         ],
@@ -947,9 +947,9 @@
       },
       {
         "text": "Even from farther away, its shape and sharp bill help observers recognize a kingfisher.",
-        "scene": "Original wider kingfisher shot; no unverified hunt",
+        "scene": "Original source_07 distant kingfisher perched among dry reeds; payoff describes spotting from a distance",
         "tags": [
-          "kingfisher_close_perch_last_scene"
+          "kingfisher_distant_small_branch_payoff_nov07"
         ],
         "story_role": "payoff",
         "overlay_label": "THE PAYOFF",
