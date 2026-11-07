@@ -7,8 +7,8 @@
   "brand_id": 7242311,
   "never_youtube": true,
   "never_buffer_wildvox6": true,
-  "config_commit": "1f743526ecfabe6721390ca21255a8feab705df7",
-  "config_blob_sha": "8b3ab5ec8d7d008af178f73b5c55560ef0db7aaa",
+  "config_commit": "00b2031bd3d28359374ba191665d8ebe1f438c19",
+  "config_blob_sha": "a7f68c849857e56abc76b97dda733822069b0182",
   "why_replaced": "Earlier 2026-11-07 prep repeated robin and squirrel topics already published on 2026-11-06. Corrective push replaced both with goats and kingfisher; changed other videos to new scene order and narration. Old rendered MP4s forbidden.",
   "source_provenance": "Previously inventoried Wikimedia Commons original RAW clips with creator/attribution/license/sourcePage metadata; current GitHub live Commons audit, new renders and independent original-frame verification still required. Old raw sources are not old rendered MP4s.",
   "publication_hold": true,
@@ -22,7 +22,7 @@
   "candidates": [
     {
       "key": "cat_paper_bag_to_play_nov07",
-      "revision": "2026-11-07-cat_paper_bag_to_play_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
+      "revision": "2026-11-07-cat_paper_bag_to_play_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-semantic-order-corrected-v4",
       "original_video_sources": 8,
       "visual_plan_blocks": 6,
       "publication_hold": true,
@@ -30,12 +30,12 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "2026-11-07 v3 new 80-84 word Kokoro render pending; editorial hold TRUE",
+      "archive_status": "v4 corrective original ZIP not yet reviewed; v3 editorial veto written",
       "notes": "Compare actual MP4 to exact new scene order and narrated behavior."
     },
     {
       "key": "sparrow_dust_bath_contrast_nov07",
-      "revision": "2026-11-07-sparrow_dust_bath_contrast_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
+      "revision": "2026-11-07-sparrow_dust_bath_contrast_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-semantic-order-corrected-v4",
       "original_video_sources": 8,
       "visual_plan_blocks": 6,
       "publication_hold": true,
@@ -43,12 +43,12 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "2026-11-07 v3 new 80-84 word Kokoro render pending; editorial hold TRUE",
+      "archive_status": "v4 corrective original ZIP not yet reviewed; v3 editorial veto written",
       "notes": "Compare actual MP4 to exact new scene order and narrated behavior."
     },
     {
       "key": "horse_from_shore_to_field_nov07",
-      "revision": "2026-11-07-horse_from_shore_to_field_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
+      "revision": "2026-11-07-horse_from_shore_to_field_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-semantic-order-corrected-v4",
       "original_video_sources": 8,
       "visual_plan_blocks": 6,
       "publication_hold": true,
@@ -56,12 +56,12 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "2026-11-07 v3 new 80-84 word Kokoro render pending; editorial hold TRUE",
+      "archive_status": "v4 corrective original ZIP not yet reviewed; v3 editorial veto written",
       "notes": "Compare actual MP4 to exact new scene order and narrated behavior."
     },
     {
       "key": "goat_kids_to_hillside_nov07",
-      "revision": "2026-11-07-goat_kids_to_hillside_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
+      "revision": "2026-11-07-goat_kids_to_hillside_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-semantic-order-corrected-v4",
       "original_video_sources": 8,
       "visual_plan_blocks": 6,
       "publication_hold": true,
@@ -69,12 +69,12 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "2026-11-07 v3 new 80-84 word Kokoro render pending; editorial hold TRUE",
+      "archive_status": "v4 corrective original ZIP not yet reviewed; v3 editorial veto written",
       "notes": "Source that includes yawning in filename must NOT be narrated as yawning; only pen/grooming observed."
     },
     {
       "key": "kingfisher_color_hidden_nov07",
-      "revision": "2026-11-07-kingfisher_color_hidden_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-v3",
+      "revision": "2026-11-07-kingfisher_color_hidden_nov07-fresh-angle-and-resequenced-sources-kokoro-duration-corrected-semantic-order-corrected-v4",
       "original_video_sources": 8,
       "visual_plan_blocks": 6,
       "publication_hold": true,
@@ -82,7 +82,7 @@
       "independent_editorial_approval": false,
       "media_sha256": null,
       "config_sha256": null,
-      "archive_status": "2026-11-07 v3 new 80-84 word Kokoro render pending; editorial hold TRUE",
+      "archive_status": "v4 corrective original ZIP not yet reviewed; v3 editorial veto written",
       "notes": "Veto fishing claim even if filename mentions fish: visually confirm bird and bill, no unshown capture."
     }
   ],
@@ -136,5 +136,24 @@
     "remediation": "Shortened all five exactly six-block narratives to 80–84 words (duration forecast only; real Kokoro and MP4 still must pass) and kept old renders ineligible",
     "new_batch_status": "Triggered by change to all five config entries after source-audit isolation; run ID pending",
     "do_not_publish_old_fingerprints": true
+  },
+  "last_full_render_run": 42404858206,
+  "last_full_render_status": "Five original v3 MP4s generated 35-36 seconds; all five editorially VETOED after original ZIP, source previews and actual MP4 frame inspection, despite full technical QA PASS.",
+  "v3_veto_records": [
+    "qa/reviews/2026-11-07-cat_paper_bag_to_play_nov07-v3-independent-editorial-veto.json",
+    "qa/reviews/2026-11-07-sparrow_dust_bath_contrast_nov07-v3-independent-editorial-veto.json",
+    "qa/reviews/2026-11-07-horse_from_shore_to_field_nov07-v3-independent-editorial-veto.json",
+    "qa/reviews/2026-11-07-goat_kids_to_hillside_nov07-v3-independent-editorial-veto.json",
+    "qa/reviews/2026-11-07-kingfisher_color_hidden_nov07-v3-independent-editorial-veto.json"
+  ],
+  "v4_remediation": {
+    "commit": "00b2031bd3d28359374ba191665d8ebe1f438c19",
+    "config_blob_sha": "a7f68c849857e56abc76b97dda733822069b0182",
+    "semantic_allocator_commit": "a0a9a1cb2781611721e21006a0b2bcd7b5590ae3",
+    "regression_test": "qa/test_semantic_order.py",
+    "reason": "The existing assignment matcher reversed footage order in multi-source narration blocks. Stronger sparrow and kingfisher hooks, factual horse source swap and accurate cat indoor footage were also corrected.",
+    "run_id": "pending confirmation; the previous workflow is archiving technically valid but editorially vetoed v3 candidates under GitHub concurrency",
+    "archive_warning": "Do not approve/schedule any v3 media archive; inspect only v4 matching each individual new config_sha256, original ZIP and media SHA",
+    "publish_hold": true
   }
 }
