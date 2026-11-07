@@ -1,0 +1,216 @@
+{
+  "key": "sparrow_dust_bath_contrast_nov07",
+  "title": "Why Sparrows Bathe in Dust",
+  "caption": "DUST OR WATER? House sparrows in a new footage-grounded edit. #WildVox #HouseSparrow #BirdBath\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_in_flowerbed.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n2. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_at_zoo_video_1.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n3. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Spatz_Sandbad_im_Zoo_Teil2_10prozent.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n4. Bisco | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_female_-_foraging_plants.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n5. 5snake5 | CC0 | https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_Haussperling.ogv | https://creativecommons.org/publicdomain/zero/1.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Grudnovo_nabre%C5%BEje_PASSERIFORMES_Passer_domesticus_DOMA%C4%8CI_VRABEC.webm | https://creativecommons.org/licenses/by/3.0\n7. Richard001 | Public domain | https://commons.wikimedia.org/wiki/File:Passer_domesticus_bathing_in_water%2C_Anas_platyrhynchos_in_background.ogv | https://creativecommons.org/publicdomain/mark/1.0/\n8. Pauly | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Passer_domesticus_%26_Turdus_viscivorus%2C_bathing_in_a_bird_bath.ogv | https://creativecommons.org/licenses/by/2.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "d8f6269d9ad09d6be89258f2dc10f471b7624dc91d752648a80d0bc761833129",
+  "duration": 35.67,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.35,
+      "duration": 5.35,
+      "text": "This sparrow rolls in a flowerbed, kicking up dry dust as it bathes.",
+      "scene": "Real sparrow rolling in flowerbed dust",
+      "tags": [
+        "house_sparrow_dust_bath_flowerbed"
+      ],
+      "story_role": "hook",
+      "overlay_label": "THE HOOK",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.35,
+      "end": 12.125,
+      "duration": 6.775,
+      "text": "Other sparrows do the same on zoo grounds, using tiny shakes to work dust through their feathers.",
+      "scene": "Two independent zoo-ground sparrow dust-bath videos",
+      "tags": [
+        "house_sparrow_dust_bath_zoo_ground",
+        "house_sparrow_sand_bath_zoo"
+      ],
+      "story_role": "setup",
+      "overlay_label": "FIRST CLUE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 12.125,
+      "end": 17.65,
+      "duration": 5.525,
+      "text": "Meanwhile, a female sparrow searches for food among leaves and low plants.",
+      "scene": "Actual female sparrow searching ground and plants",
+      "tags": [
+        "house_sparrow_female_foraging_plants"
+      ],
+      "story_role": "action",
+      "overlay_label": "REAL BEHAVIOR",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 17.65,
+      "end": 23.974999999999998,
+      "duration": 6.325,
+      "text": "One bird perches by a mossy stone border; another appears near a city waterfront.",
+      "scene": "One distant sparrow near mossy stone border and separate waterfront sparrow",
+      "tags": [
+        "house_sparrow_closeup_after_bath",
+        "house_sparrow_urban_waterfront"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "THE CONTRAST",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 23.974999999999998,
+      "end": 29.65,
+      "duration": 5.675,
+      "text": "But another sparrow chooses water, splashing near a pond instead of dry soil.",
+      "scene": "Real house sparrow bathing at pond edge",
+      "tags": [
+        "house_sparrow_bathing_in_water"
+      ],
+      "story_role": "twist",
+      "overlay_label": "NEW ANGLE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 29.65,
+      "end": 35.675,
+      "duration": 6.025,
+      "text": "At a shared birdbath, different birds gather, showing how varied this routine can be.",
+      "scene": "Actual mixed-species birdbath",
+      "tags": [
+        "house_sparrow_shared_birdbath"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE PAYOFF",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20sandbath%20in%20flowerbed.ogv",
+      "type": "video",
+      "assetTitle": "Passer domesticus sandbath in flowerbed.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_in_flowerbed.ogv",
+      "author": "Bisco",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "house_sparrow_dust_bath_flowerbed"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20sandbath%20at%20zoo%20video%201.ogv",
+      "type": "video",
+      "assetTitle": "Passer domesticus sandbath at zoo video 1.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_sandbath_at_zoo_video_1.ogv",
+      "author": "Bisco",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "house_sparrow_dust_bath_zoo_ground"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spatz%20Sandbad%20im%20Zoo%20Teil2%2010prozent.ogv",
+      "type": "video",
+      "assetTitle": "Spatz Sandbad im Zoo Teil2 10prozent.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Spatz_Sandbad_im_Zoo_Teil2_10prozent.ogv",
+      "author": "Bisco",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "house_sparrow_sand_bath_zoo"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20female%20-%20foraging%20plants.ogv",
+      "type": "video",
+      "assetTitle": "Passer domesticus female - foraging plants.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_female_-_foraging_plants.ogv",
+      "author": "Bisco",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "house_sparrow_female_foraging_plants"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20-%20Haussperling.ogv",
+      "type": "video",
+      "assetTitle": "Passer domesticus - Haussperling.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_Haussperling.ogv",
+      "author": "5snake5",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "house_sparrow_closeup_after_bath"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-08-08%20LJUBLJANA%20Grudnovo%20nabre%C5%BEje%20PASSERIFORMES%20Passer%20domesticus%20DOMA%C4%8CI%20VRABEC.webm",
+      "type": "video",
+      "assetTitle": "2022-08-08 LJUBLJANA Grudnovo nabrežje PASSERIFORMES Passer domesticus DOMAČI VRABEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-08-08_LJUBLJANA_Grudnovo_nabre%C5%BEje_PASSERIFORMES_Passer_domesticus_DOMA%C4%8CI_VRABEC.webm",
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "house_sparrow_urban_waterfront"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20bathing%20in%20water%2C%20Anas%20platyrhynchos%20in%20background.ogv",
+      "type": "video",
+      "assetTitle": "Passer domesticus bathing in water, Anas platyrhynchos in background.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_bathing_in_water%2C_Anas_platyrhynchos_in_background.ogv",
+      "author": "Richard001",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "house_sparrow_bathing_in_water"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer%20domesticus%20%26%20Turdus%20viscivorus%2C%20bathing%20in%20a%20bird%20bath.ogv",
+      "type": "video",
+      "assetTitle": "Passer domesticus & Turdus viscivorus, bathing in a bird bath.ogv",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_%26_Turdus_viscivorus%2C_bathing_in_a_bird_bath.ogv",
+      "author": "Pauly",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-01",
+      "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+      "tags": [
+        "house_sparrow_shared_birdbath"
+      ]
+    }
+  ],
+  "review_sheet": "sparrow_dust_bath_contrast_nov07_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
