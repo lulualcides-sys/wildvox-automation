@@ -84,12 +84,17 @@ def validate_source_mix(batch):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default="configs/daily.json")
+    parser.add_argument("--key", help="Audit one candidate independently; keep five-entry daily contract")
     args = parser.parse_args()
     with open(args.config, encoding="utf-8") as handle:
         batch = json.load(handle)
-    video_total = validate_source_mix(batch)
+    validate_source_mix(batch)
+    if args.key is not None and args.key not in batch:
+        raise RuntimeError(f"Unknown candidate for independent source audit: {args.key}")
     requests = []
     for key, entry in batch.items():
+        if args.key is not None and key != args.key:
+            continue
         for source in entry.get("sources", []):
             media_type = source.get("type", "video")
             if not all(str(source.get(field) or "").strip() for field in ("author", "license", "license_url", "sourcePage")):
@@ -159,7 +164,10 @@ def main():
             checked += 1
     if failures:
         raise RuntimeError(f"{len(failures)} source(s) failed Commons audit:\\n" + "\\n".join(failures))
-    print(f"Commons API preflight passed: {checked} authentic assets ({video_total} videos, {checked - video_total} images), all with commercial-reuse licenses and downloadable originals.")
+    checked_videos = sum(source.get("type", "video") == "video" for _, source, _ in requests)
+    print(f"Commons API preflight passed for {args.key or 'full batch'}: {checked} authentic assets "
+          f"({checked_videos} videos, {checked - checked_videos} images), "
+          "all with commercial-reuse licenses and downloadable originals.")
 
 if __name__ == "__main__":
     try:
