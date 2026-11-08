@@ -1,0 +1,77 @@
+name: WildVox Nov08 urgent independent candidate archive
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/wildvox-2026-11-08-fast-goat-archive.yml'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  archive-goat-nov08:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch exact current-run goat artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/wildvox-goat
+          gh run download 42509877990 --repo "$GITHUB_REPOSITORY" --name daily-goat_steps_meals_and_rest_nov08 --dir /tmp/wildvox-goat
+      - name: Check exact fresh config, MP4 SHA and hold
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,hashlib,pathlib,subprocess
+          key='goat_steps_meals_and_rest_nov08'
+          cfg=json.loads(pathlib.Path('configs/daily.json').read_text())[key]
+          meta=json.loads(pathlib.Path('/tmp/wildvox-goat/'+key+'_meta.json').read_text())
+          video=pathlib.Path('/tmp/wildvox-goat/'+key+'.mp4')
+          fp=hashlib.sha256(json.dumps(cfg,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
+          actual=hashlib.sha256(video.read_bytes()).hexdigest()
+          assert cfg['revision'].startswith('2026-11-08-')
+          assert cfg['publication_hold'] is True and meta['publication_hold'] is True
+          assert meta['config_sha256']==fp=='0a9d7ca3896207407dc45ea901d3daf6ed337aec4c629d752dcbfe5b75c44066'
+          assert actual=='c008eeb92b49bfbd700bb107a5c6ff6b12509e4356fc1763a2703e10bb38a767'
+          assert 30 <= float(meta['duration']) <= 45 and len(meta['sources'])==8
+          assert pathlib.Path('/tmp/wildvox-goat/'+key+'_review.jpg').stat().st_size>0
+          print('Nov08 goat original candidate artifact is exact; editorial hold retained')
+          PY
+      - name: Run per-candidate technical MP4 QA
+        run: |
+          set -euo pipefail
+          command -v ffprobe || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          python scripts/qa_rendered_batch.py --config configs/daily.json --media-dir /tmp/wildvox-goat --key goat_steps_meals_and_rest_nov08 --report /tmp/wildvox-goat-qa.json
+      - name: Sparse archive original candidate to media without full branch checkout
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          key=goat_steps_meals_and_rest_nov08
+          mkdir -p /tmp/wildvox-sparse
+          git -C /tmp/wildvox-sparse init -q
+          git -C /tmp/wildvox-sparse remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git -C /tmp/wildvox-sparse config user.name 'wildvox-bot'
+          git -C /tmp/wildvox-sparse config user.email 'actions@users.noreply.github.com'
+          git -C /tmp/wildvox-sparse config core.sparseCheckout true
+          printf '/%s.mp4\n/%s_meta.json\n/%s_review.jpg\n' "$key" "$key" "$key" > /tmp/wildvox-sparse/.git/info/sparse-checkout
+          for attempt in 1 2 3 4 5; do
+            git -C /tmp/wildvox-sparse fetch -q --depth=1 --filter=blob:none origin media
+            git -C /tmp/wildvox-sparse checkout -q --force --detach FETCH_HEAD
+            cp "/tmp/wildvox-goat/${key}.mp4" /tmp/wildvox-sparse/
+            cp "/tmp/wildvox-goat/${key}_meta.json" /tmp/wildvox-sparse/
+            cp "/tmp/wildvox-goat/${key}_review.jpg" /tmp/wildvox-sparse/
+            git -C /tmp/wildvox-sparse add -- "${key}.mp4" "${key}_meta.json" "${key}_review.jpg"
+            if git -C /tmp/wildvox-sparse diff --cached --quiet; then echo 'Exact media already archived'; exit 0; fi
+            git -C /tmp/wildvox-sparse commit -qm "Archive Nov08 independently inspectable goat candidate, hold intact"
+            if git -C /tmp/wildvox-sparse push -q origin HEAD:media; then echo 'Current goat candidate archived on media'; exit 0; fi
+            echo "Remote media branch advanced, retry $attempt"
+            sleep $((attempt*2))
+          done
+          echo 'Archive could not be pushed without a race' >&2
+          exit 1
