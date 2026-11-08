@@ -4,8 +4,8 @@
   "caption": "FROM WATER TO WOODLAND. Separate real horse scenes show drinking, grazing and moving across open ground. #WildVox #Horses #Nature\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm | https://creativecommons.org/licenses/by/3.0\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_3.webm | https://creativecommons.org/licenses/by/3.0\n4. Adon Metcalfe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Icelandic_horses!!_Video.webm | https://creativecommons.org/licenses/by/2.0\n5. docentjoyce | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Grazing_Horses_in_California.webm | https://creativecommons.org/licenses/by/2.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-07-14_IZLIV_SO%C4%8CE_PERISSODACTYLA_kamar%C5%A1ki_konji_2.webm | https://creativecommons.org/licenses/by/3.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "5c9c9946ac3313d1c7630e30648d1f5a57505809f1db03b875aca67e114f2087",
-  "duration": 36.02,
+  "config_sha256": "1e78afee02c6b62be86542d83e72b5d3da492ee1445918253103373a4739d2df",
+  "duration": 35.52,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -54,9 +54,9 @@
     {
       "index": 3,
       "start": 17.4,
-      "end": 24.099999999999998,
-      "duration": 6.7,
-      "text": "On separate farms, one horse grazes in a field, while another stands beside a person.",
+      "end": 23.599999999999998,
+      "duration": 6.2,
+      "text": "First, a horse stands beside a person. In another field, a different horse grazes.",
       "scene": "Authentic grazing horse in one source; another horse next to an actual person in separately filmed scene",
       "tags": [
         "icelandic_horses_group",
@@ -68,8 +68,8 @@
     },
     {
       "index": 4,
-      "start": 24.099999999999998,
-      "end": 30.5,
+      "start": 23.599999999999998,
+      "end": 30.0,
       "duration": 6.4,
       "text": "Other herds explore grassy wetland edges, moving between patches of open ground.",
       "scene": "Real herds and grazing horses filmed on separate wetland shores",
@@ -83,8 +83,8 @@
     },
     {
       "index": 5,
-      "start": 30.5,
-      "end": 36.025,
+      "start": 30.0,
+      "end": 35.525,
       "duration": 5.525,
       "text": "A white horse feeds among trees, ending this journey with a quieter scene.",
       "scene": "White horse grazing by woodland trees",
