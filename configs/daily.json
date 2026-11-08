@@ -384,7 +384,7 @@
   },
   "horse_shore_to_woodland_nov08": {
     "title": "A Horse's Quiet Route Through Nature",
-    "script": "At the water's edge, a pale horse lowers its head to drink, staying close to the shore. Another horse grazes on the bank, choosing grass while water remains nearby. Elsewhere, a small group shifts across open shore ground and pauses together. On separate farms, one horse grazes in a field, while another stands beside a person. Other herds explore grassy wetland edges, moving between patches of open ground. A white horse feeds among trees, ending this journey with a quieter scene.",
+    "script": "At the water's edge, a pale horse lowers its head to drink, staying close to the shore. Another horse grazes on the bank, choosing grass while water remains nearby. Elsewhere, a small group shifts across open shore ground and pauses together. First, a horse stands beside a person. In another field, a different horse grazes. Other herds explore grassy wetland edges, moving between patches of open ground. A white horse feeds among trees, ending this journey with a quieter scene.",
     "caption": "FROM WATER TO WOODLAND. Separate real horse scenes show drinking, grazing and moving across open ground. #WildVox #Horses #Nature",
     "sources": [
       {
@@ -506,7 +506,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-08-horse_shore_to_woodland_nov08-original_narration_new_edit_v1",
+    "revision": "2026-11-08-horse_shore_to_woodland_nov08-original_narration_semantic_order_v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -540,7 +540,7 @@
         "fx": []
       },
       {
-        "text": "On separate farms, one horse grazes in a field, while another stands beside a person.",
+        "text": "First, a horse stands beside a person. In another field, a different horse grazes.",
         "scene": "Authentic grazing horse in one source; another horse next to an actual person in separately filmed scene",
         "tags": [
           "icelandic_horses_group",
