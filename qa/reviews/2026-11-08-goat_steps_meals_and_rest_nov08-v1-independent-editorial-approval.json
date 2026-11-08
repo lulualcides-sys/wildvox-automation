@@ -1,0 +1,51 @@
+{
+  "editorial_day": "2026-11-08",
+  "timezone": "America/Sao_Paulo",
+  "platform": "tiktok",
+  "exact_handle": "wildvox",
+  "metricool_brand_id": 7242311,
+  "key": "goat_steps_meals_and_rest_nov08",
+  "verdict": "APPROVE",
+  "editorial_approved": true,
+  "publication_hold_in_config": true,
+  "source_config_commit": "333edc8d5d50c94c79214f46ce26187e5d463ad6",
+  "source_config_blob": "9661efe92d5979a0d2bc2d8c1816226e7b8fe93e",
+  "workflow_run_id": 42509877990,
+  "original_artifact_id": 13628858671,
+  "config_sha256": "0a9d7ca3896207407dc45ea901d3daf6ed337aec4c629d752dcbfe5b75c44066",
+  "mp4_sha256": "c008eeb92b49bfbd700bb107a5c6ff6b12509e4356fc1763a2703e10bb38a767",
+  "mp4_git_blob_sha": "c8b4a49043b0c5ba78515f2d49e17c81c9ab0e58",
+  "meta_git_blob_sha": "6f86edbb9d382a339e4e605ff514b68ac398d3be",
+  "duration_seconds": 35.38,
+  "resolution": "1080x1920",
+  "unique_original_videos": 8,
+  "independent_evidence": {
+    "original_zip": "Downloaded actual original GitHub Actions artifact ZIP with MP4, _meta.json, _review.jpg, and eight _source_XX_preview.jpg; visually inspected review storyboard plus all eight genuine source action preview strips.",
+    "hook": "Original source 00 visibly depicts newborn goat kids beside an adult; kids are on the ground near mother, no invented feeding claim.",
+    "hillside": "Source 01 genuine separately filmed hillside goat herd grazing; wide scene but identifiable animals.",
+    "rocky": "Source 02 shows actual goats among stones by a shallow stream; animals small in the wide view, but visible in original source preview; spoken movement and careful footing plausible.",
+    "feeding_and_rest": "Sources 03 and 04 independently show goats beside hay and one resting outdoors, matching the two-part script.",
+    "pen_and_grooming": "Source 05 goats inside enclosure, followed by source 06 showing genuine goats grooming; no fabricated yawn, no source context conflation.",
+    "payoff": "Source 07 clearly shows a single goat standing on grassy ground.",
+    "frames_and_captions": "Original MP4 preview/contact sheet independently visually inspected across 6 six timed narration segments; portrait captions in lower middle and title at top, no TikTok bottom-control conflicts observed.",
+    "audio_and_motion": "Independently decoded whole 35.38s MP4 with FFmpeg fps=8,scale=320; freezedetect at -55dB for >=1.0s and blackdetect >=0.8s had no incidents; AAC narration present; six speech blocks each <=7s.",
+    "source_licenses": "All eight creator/sourcePage/CC BY or CC0/license URL entries preserved in current metadata and full TikTok caption. Current-run GitHub Commons audit PASS and technical QA PASS; MP4/media-branch Git hash verified against local original.",
+    "limitations": "Rocky stream and hillside wide shots have small goats, but there is genuine animal motion; no claim of close-up or individual continuity."
+  },
+  "release": {
+    "can_schedule_one_current_day_future_slot": true,
+    "only_account": "@wildvox",
+    "only_provider": "tiktok",
+    "never_youtube": true,
+    "never_buffer": true,
+    "autoPublish": true,
+    "draft": false,
+    "no_duplicates": true
+  },
+  "approved_caption": "FIRST STEPS, HILLSIDES, AND QUIET GOAT MOMENTS. Separately filmed, genuine goat footage. #WildVox #Goats #AnimalBehavior\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Darius Dunlap | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Newborn_goats.webm | https://creativecommons.org/licenses/by/2.0\n2. Kat Walsh | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm | https://creativecommons.org/licenses/by/4.0\n3. gailhampshire (Flickr gails_pictures) | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_video.webm | https://creativecommons.org/licenses/by/2.0\n4. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_eating.webm | https://creativecommons.org/licenses/by/2.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0\n6. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_yawning.webm | https://creativecommons.org/licenses/by/2.0\n7. Rivadavia.vila | CC0 | https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/goat_steps_meals_and_rest_nov08.mp4",
+  "metricool": {
+    "post_id": null,
+    "provider_status": "NOT_SCHEDULED_AT_APPROVAL"
+  }
+}
