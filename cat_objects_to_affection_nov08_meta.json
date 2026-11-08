@@ -1,0 +1,215 @@
+{
+  "key": "cat_objects_to_affection_nov08",
+  "title": "Eight Real Moments in a Cat's Day",
+  "caption": "FROM A PAPER BAG TO A GENTLE PAT. Different cats and their everyday behavior, filmed in separate real places. #WildVox #Cats #CatBehavior\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0\n2. Nesnad | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm | https://creativecommons.org/licenses/by/4.0/\n3. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0\n5. User:Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin1.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0\n7. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "7205d04724b48672b25391da21afb614e99124c2b927695ca9241137ed937528",
+  "duration": 37.73,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 7.15,
+      "duration": 7.15,
+      "text": "A curious cat finds a paper bag and peers inside, turning a simple object into a hiding place.",
+      "scene": "Real cat investigating paper bag",
+      "tags": [
+        "domestic_cat_inside_paper_bag"
+      ],
+      "story_role": "hook",
+      "overlay_label": "THE HOOK",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 7.15,
+      "end": 13.05,
+      "duration": 5.9,
+      "text": "Another kitten has a quieter scene, resting indoors rather than joining the chase.",
+      "scene": "Actual separate resting kitten in Tokyo",
+      "tags": [
+        "domestic_kitten_playing_indoors"
+      ],
+      "story_role": "setup",
+      "overlay_label": "FIRST CLUE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 13.05,
+      "end": 19.1,
+      "duration": 6.05,
+      "text": "Outside, a black cat walks steadily, while a separate cat carefully cleans its fur.",
+      "scene": "Separate genuine black walking cat and self-grooming cat",
+      "tags": [
+        "black_domestic_cat_walking",
+        "domestic_cat_self_grooming"
+      ],
+      "story_role": "action",
+      "overlay_label": "REAL BEHAVIOR",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 19.1,
+      "end": 25.400000000000002,
+      "duration": 6.3,
+      "text": "In two different homes, one cat paws at a cotton bud and two others play together.",
+      "scene": "Cat batting cotton bud and pair playing",
+      "tags": [
+        "domestic_cat_paws_cotton_bud",
+        "domestic_cats_playing_together"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "THE CONTRAST",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 25.400000000000002,
+      "end": 31.300000000000004,
+      "duration": 5.9,
+      "text": "A cat in Taiwan rolls and stretches on the floor, showing another kind of movement.",
+      "scene": "Actual indoor cat rolls across floor and stretches paws; no unverified toy tracking",
+      "tags": [
+        "domestic_cat_playing_in_taiwan"
+      ],
+      "story_role": "twist",
+      "overlay_label": "NEW ANGLE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 31.300000000000004,
+      "end": 37.725,
+      "duration": 6.425,
+      "text": "Finally, a cat outdoors enjoys a person's gentle touch, ending with a calm moment.",
+      "scene": "Different outdoor cat receiving human pat",
+      "tags": [
+        "domestic_cat_interacts_with_person"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "THE PAYOFF",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20in%20a%20Bag.webm",
+      "type": "video",
+      "assetTitle": "Cat in a Bag.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
+      "author": "Roger Braunstein",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_inside_paper_bag"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
+      "type": "video",
+      "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
+      "author": "Nesnad",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Original Commons source previously catalogued in cat_play_hunting_instinct_meta.json; LIVE Commons audit and CURRENT-run visual review required before release.",
+      "tags": [
+        "domestic_kitten_playing_indoors"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Cat%20walking.webm",
+      "type": "video",
+      "assetTitle": "Black Cat walking.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm",
+      "author": "Dzkouslavia",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "black_domestic_cat_walking"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
+      "type": "video",
+      "assetTitle": "Cat behaviour - self-grooming.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
+      "author": "Learnerktm",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_self_grooming"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
+      "type": "video",
+      "assetTitle": "Moomin1.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
+      "author": "User:Tet",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_paws_cotton_bud"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20and%20Chlo%C3%A9%20playing%20(100111224612).webm",
+      "type": "video",
+      "assetTitle": "Larry the cat and Chloé playing (100111224612).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm",
+      "author": "Trougnouf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cats_playing_together"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20in%20Taiwan.webm",
+      "type": "video",
+      "assetTitle": "Cat playing in Taiwan.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm",
+      "author": "MiNe",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_playing_in_taiwan"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andra%20and%20Billy.webm",
+      "type": "video",
+      "assetTitle": "Andra and Billy.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm",
+      "author": "Joaquim Baeta",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_verified_at": "2026-11-02",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "tags": [
+        "domestic_cat_interacts_with_person"
+      ]
+    }
+  ],
+  "review_sheet": "cat_objects_to_affection_nov08_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
