@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-08",
+  "candidate": "horse_shore_to_woodland_nov08",
+  "decision": "VETO",
+  "publication_hold": true,
+  "reason": "Original current-run MP4 Git blob 4396c89a44e98d213237d3236a01dd6154a0c3b4 does not match public root media branch MP4 Git blob 1f8caa09cbec2ffc510d29423d6798b687c3a8b1. Never schedule until exact archive is corrected and verified.",
+  "evidence": {
+    "main_sha_at_review": "cadac53d2d5df7450128568d79093a888b7ee75d",
+    "daily_json_blob": "775c7a13602ad37e9853e4486ef5fb2c77c94a3e",
+    "run_id": 42509877990,
+    "artifact_id": 13628769779,
+    "config_sha256": "5c9c9946ac3313d1c7630e30648d1f5a57505809f1db03b875aca67e114f2087",
+    "original_mp4_sha256": "0cb08f9a7e0f4432efa26b00f30ded6a22130e95c354d4cb0fe2cd9cc70d6e21",
+    "original_mp4_git_blob": "4396c89a44e98d213237d3236a01dd6154a0c3b4",
+    "public_media_git_blob": "1f8caa09cbec2ffc510d29423d6798b687c3a8b1",
+    "duration_seconds": 36.025,
+    "source_previews_inspected": 8,
+    "review_sheet_inspected": true,
+    "freeze_detect_over_1s": false
+  },
+  "next_action": "Archive exact original MP4 and metadata to media root, verify blob and config hashes, then repeat independent approval before scheduling."
+}
