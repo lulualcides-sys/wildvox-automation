@@ -1,0 +1,224 @@
+{
+  "key": "mallard_waterside_and_young_nov08",
+  "title": "Mallards Along the Water's Edge",
+  "caption": "MALLARDS ON THE MOVE. Genuine separately filmed park, river and duckling moments. #WildVox #Mallard #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Estormiz | CC0 | https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm | https://creativecommons.org/licenses/by/3.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-02-10_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_3.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n8. U.S. Fish and Wildlife Service - Midwest Region | Public domain | https://commons.wikimedia.org/wiki/File:Mallard_Drake_With_Young_(18955798721).webm | https://creativecommons.org/publicdomain/mark/1.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "a8fe4cf79241d860428453d43f735763b84b12c2afa90c0a4dd882d7026591f9",
+  "duration": 37.45,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.275,
+      "duration": 6.275,
+      "text": "Several mallards glide together on a park pond, cutting small ripples through the surface.",
+      "scene": "Visible group of mallards swimming together in an Oulu park.",
+      "tags": [
+        "mallard_oulu_park_group_swim"
+      ],
+      "story_role": "hook",
+      "overlay_label": "SWIM TOGETHER",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.275,
+      "end": 12.15,
+      "duration": 5.875,
+      "text": "Another group follows the edge of a city waterway, passing slowly through the current.",
+      "scene": "Adult mallards moving on Ljubljana Prule waterway.",
+      "tags": [
+        "mallard_ljubljana_prule_waterway"
+      ],
+      "story_role": "setup",
+      "overlay_label": "LOOSE GROUPS",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 12.15,
+      "end": 18.625,
+      "duration": 6.475,
+      "text": "Winter recordings show the ducks changing direction and approaching different sections of shore.",
+      "scene": "Two real mallard clips on different Ljubljana river dates.",
+      "tags": [
+        "mallard_prule_december_group_swim",
+        "mallard_prule_january_water_edge"
+      ],
+      "story_role": "action",
+      "overlay_label": "FOLLOW THE BANK",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 18.625,
+      "end": 24.7,
+      "duration": 6.075,
+      "text": "At another pond, their broad bills hover near the water as they investigate the bank.",
+      "scene": "Mallards on a pond in Drage; webbed feet explained but not claimed visible.",
+      "tags": [
+        "mallard_drage_pond_bank"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "WEBBED FEET",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 24.7,
+      "end": 30.25,
+      "duration": 5.55,
+      "text": "Some ducks keep paddling through the cold water, while others drift a little farther.",
+      "scene": "Adult mallards moving in Ljubljana winter waterway.",
+      "tags": [
+        "mallard_prule_february_swim"
+      ],
+      "story_role": "action",
+      "overlay_label": "BACK TOGETHER",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 30.25,
+      "end": 37.45,
+      "duration": 7.2,
+      "text": "Two separate recordings show young ducks near adults, reminding us how early they begin to swim.",
+      "scene": "Actual mallard ducklings near bank and separate USFWS adult-with-young footage.",
+      "tags": [
+        "mallard_otocec_ducklings_near_bank",
+        "mallard_usfws_drake_with_young"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "STAY NEAR FAMILY",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas%20platyrhynchos%20Oulu%2020200626.webm",
+      "type": "video",
+      "assetTitle": "Anas platyrhynchos Oulu 20200626.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm",
+      "tags": [
+        "mallard_oulu_park_group_swim"
+      ],
+      "author": "Estormiz",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "61b179ae6fb1ffabef00c3cf19266b3cc225f869",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021%2012%2017%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA.webm",
+      "type": "video",
+      "assetTitle": "2021 12 17 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm",
+      "tags": [
+        "mallard_ljubljana_prule_waterway"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "215095387a02f72c4a02bc8fe9d60639776dd786",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021%2012%2017%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+      "type": "video",
+      "assetTitle": "2021 12 17 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+      "tags": [
+        "mallard_prule_december_group_swim"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "bd4c4737c4549146a0798a7457658c270e13abe6",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-07%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+      "type": "video",
+      "assetTitle": "2022-01-07 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+      "tags": [
+        "mallard_prule_january_water_edge"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "9501b5f0b9501e4bcf49f1b5fcce5acbb3849270",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-02%20RIBNIKI%20V%20DOLINI%20DRAGE%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+      "type": "video",
+      "assetTitle": "2022-05-02 RIBNIKI V DOLINI DRAGE ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+      "tags": [
+        "mallard_drage_pond_bank"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "f7efb799a20dfd71f35a52260c9ddd674be6c4ed",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-02-10%20LJUBLJANA%20Prule%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%203.webm",
+      "type": "video",
+      "assetTitle": "2022-02-10 LJUBLJANA Prule ANSERIFORMES Anas platyrhynchos MLAKARICA 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-02-10_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_3.webm",
+      "tags": [
+        "mallard_prule_february_swim"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "4ff972e7b657463da6981fd10d067968ad9bdfa7",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-04%20GRAD%20OTO%C4%8CEC%20ANSERIFORMES%20Anas%20platyrhynchos%20MLAKARICA%202.webm",
+      "type": "video",
+      "assetTitle": "2022-06-04 GRAD OTOČEC ANSERIFORMES Anas platyrhynchos MLAKARICA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm",
+      "tags": [
+        "mallard_otocec_ducklings_near_bank"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "3f295f450e4204df460652206455300af2f842e6",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mallard%20Drake%20With%20Young%20(18955798721).webm",
+      "type": "video",
+      "assetTitle": "Mallard Drake With Young (18955798721).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mallard_Drake_With_Young_(18955798721).webm",
+      "tags": [
+        "mallard_usfws_drake_with_young"
+      ],
+      "author": "U.S. Fish and Wildlife Service - Midwest Region",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "license_verified_at": "2026-11-02",
+      "original_sha1": "be98fbe3893f7ce95ffd8a802c39c7febf6716b1",
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original creator and license identified. Final full-video editorial review required before publication."
+    }
+  ],
+  "review_sheet": "mallard_waterside_and_young_nov08_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
