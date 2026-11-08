@@ -1,0 +1,40 @@
+name: WildVox Nov08 release targeted v2 horse pipeline
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/wildvox-2026-11-08-release-v2.yml'
+permissions:
+  actions: write
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Preserve all already archived live candidates and cancel redundant old archive jobs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          repo="$GITHUB_REPOSITORY"
+          gh api "repos/$repo/git/trees/media?recursive=1" > /tmp/wildvox-tree.json
+          python - <<'PY'
+          import json
+          d=json.load(open('/tmp/wildvox-tree.json'))
+          t={x['path']:x['sha'] for x in d['tree']}
+          required={
+           'cat_objects_to_affection_nov08.mp4':'5fbd070151ff934c55cff4566975873f23fbc8cd',
+           'goat_steps_meals_and_rest_nov08.mp4':'c8b4a49043b0c5ba78515f2d49e17c81c9ab0e58',
+           'mallard_waterside_and_young_nov08.mp4':'90e050775dd655d352ccc18715bcd035413f108d'
+          }
+          for name,sha in required.items():
+           assert t.get(name)==sha,f'Original candidate archive missing or altered: {name}'
+          print('Three exact current-day candidate archives preserved, one goat and one mallard scheduled independently')
+          PY
+          if gh api -X POST "repos/$repo/actions/runs/42509877990/cancel"; then
+            echo 'Requested cancellation of 42509877990 redundant serial archive to release targeted horse v2 run 42511730677'
+          else
+            gh api -X POST "repos/$repo/actions/runs/42509877990/force-cancel"
+          fi
