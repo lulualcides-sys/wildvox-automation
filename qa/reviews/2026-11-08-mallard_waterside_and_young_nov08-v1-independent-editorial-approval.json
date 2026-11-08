@@ -46,7 +46,16 @@
   "caption": "MALLARDS ON THE MOVE. Genuine separately filmed park, river and duckling moments. #WildVox #Mallard #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Estormiz | CC0 | https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm | https://creativecommons.org/licenses/by/3.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-02-10_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_3.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n8. U.S. Fish and Wildlife Service - Midwest Region | Public domain | https://commons.wikimedia.org/wiki/File:Mallard_Drake_With_Young_(18955798721).webm | https://creativecommons.org/publicdomain/mark/1.0/",
   "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mallard_waterside_and_young_nov08.mp4",
   "metricool": {
-    "post_id": null,
-    "provider_status": "NOT_SCHEDULED_AT_APPROVAL"
+    "post_id": 420987250,
+    "uuid": "-5672824732748723010",
+    "scheduled_local": "2026-11-08T19:35:00-03:00",
+    "provider": "tiktok",
+    "provider_status": "PENDING",
+    "published_confirmed": false,
+    "autoPublish": true,
+    "draft": false,
+    "platform_media_url": "https://static.metricool.com/planner/202611/7242311-file-4489906909177450555.mp4",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-5672824732748723010",
+    "verified_by": "Fresh Metricool @wildvox getScheduledPosts readback after create; distinct future slot."
   }
 }
