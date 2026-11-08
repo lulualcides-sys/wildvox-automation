@@ -1,0 +1,52 @@
+{
+  "editorial_day": "2026-11-08",
+  "timezone": "America/Sao_Paulo",
+  "platform": "tiktok",
+  "brand_id": 7242311,
+  "exact_handle": "wildvox",
+  "key": "mallard_waterside_and_young_nov08",
+  "verdict": "APPROVE",
+  "editorial_approved": true,
+  "publication_hold_in_config": true,
+  "source_config_commit": "333edc8d5d50c94c79214f46ce26187e5d463ad6",
+  "source_config_blob": "9661efe92d5979a0d2bc2d8c1816226e7b8fe93e",
+  "current_daily_blob_at_approval": "775c7a13602ad37e9853e4486ef5fb2c77c94a3e",
+  "source_run_id": 42509877990,
+  "original_artifact_id": 13629082217,
+  "sparse_archive_run_id": 42511666109,
+  "config_sha256": "a8fe4cf79241d860428453d43f735763b84b12c2afa90c0a4dd882d7026591f9",
+  "mp4_sha256": "da8d611791718d27dc88b426b8148950942acfa4f818682973e0fdf8649019fa",
+  "mp4_git_blob_sha": "90e050775dd655d352ccc18715bcd035413f108d",
+  "meta_git_blob_sha": "3b5c2879011a16671bef45080b8438bf00dd3234",
+  "duration_seconds": 37.45,
+  "dimensions": "1080x1920",
+  "unique_authentic_videos": 8,
+  "independent_evidence": {
+    "actual_media": "Downloaded original ZIP with MP4, eight _source_XX_preview.jpg, final _review.jpg, and metadata; read eight source strips and review contact sheet, inspected footage for species/hook/action/payoff.",
+    "hook": "A genuine group of mallards swimming together at a pond; first source shows several ducks and visible wake.",
+    "setup": "Another real group navigates a separate waterway; low contrast in initial clip but ducks visible later.",
+    "middle": "Two winter waterway sources show separate ducks swimming near banks; next source shows green-headed drake moving across green pond, beak near surface.",
+    "water_motion": "Next source shows drakes swimming separately and small wakes, matching narration; no false invented dive/fish capture claim.",
+    "payoff": "Two final authentic source videos include visible small ducklings near adult mallards (bankside and on water), scene matches explicit young-duck narration.",
+    "license": "Current-run live Wikimedia Commons commercial-use source audit passed. All eight original authors, CC0/CC BY/PD terms, URLs and modified-crop/subtitle/narration disclosure included in full exact TikTok caption.",
+    "technical": "Independently decoded entire current 37.45s AAC/H264 MP4 with FFmpeg at 8fps,320px; no freeze >=1s with -55dB threshold, no black intervals >=0.8s; complete six narration blocks <=8s each, no black bars, portrait 1080x1920.",
+    "captions": "Original video contact JPG shows upper title, word captions in lower-middle safe zone, no misleading same-individual continuity or false location.",
+    "media_integrity": "Local original MP4 SHA256 and git hash-object equal stored report and public root media tree Git object; metadata Git object matches public branch.",
+    "limitations": "Some wide water shots have small distant birds, but the ducks are identifiable in adjacent frames; no unsupported close-up claim."
+  },
+  "release": {
+    "can_schedule_current_day_once": true,
+    "provider_only": "tiktok",
+    "never_youtube": true,
+    "never_buffer": true,
+    "autoPublish": true,
+    "draft": false,
+    "publication_hold_changes": false
+  },
+  "caption": "MALLARDS ON THE MOVE. Genuine separately filmed park, river and duckling moments. #WildVox #Mallard #Wildlife\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Estormiz | CC0 | https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_Oulu_20200626.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA.webm | https://creativecommons.org/licenses/by/3.0\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2021_12_17_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-07_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-02_RIBNIKI_V_DOLINI_DRAGE_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-02-10_LJUBLJANA_Prule_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_3.webm | https://creativecommons.org/licenses/by/3.0\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-06-04_GRAD_OTO%C4%8CEC_ANSERIFORMES_Anas_platyrhynchos_MLAKARICA_2.webm | https://creativecommons.org/licenses/by/3.0\n8. U.S. Fish and Wildlife Service - Midwest Region | Public domain | https://commons.wikimedia.org/wiki/File:Mallard_Drake_With_Young_(18955798721).webm | https://creativecommons.org/publicdomain/mark/1.0/",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mallard_waterside_and_young_nov08.mp4",
+  "metricool": {
+    "post_id": null,
+    "provider_status": "NOT_SCHEDULED_AT_APPROVAL"
+  }
+}
