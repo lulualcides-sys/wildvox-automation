@@ -45,7 +45,16 @@
   "approved_caption": "FIRST STEPS, HILLSIDES, AND QUIET GOAT MOMENTS. Separately filmed, genuine goat footage. #WildVox #Goats #AnimalBehavior\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Darius Dunlap | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Newborn_goats.webm | https://creativecommons.org/licenses/by/2.0\n2. Kat Walsh | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Goats_in_Sunnyvale.webm | https://creativecommons.org/licenses/by/4.0\n3. gailhampshire (Flickr gails_pictures) | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_video.webm | https://creativecommons.org/licenses/by/2.0\n4. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_eating.webm | https://creativecommons.org/licenses/by/2.0\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-01_MIRKE_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0\n6. Brian Boucheron | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Goats_yawning.webm | https://creativecommons.org/licenses/by/2.0\n7. Rivadavia.vila | CC0 | https://commons.wikimedia.org/wiki/File:Anglo-Nubian_goats_grooming_themselves.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-20_JAMNIK_ARTIODACTYLA_Capra_aegagrus_hircus_DOMA%C4%8CA_KOZA.webm | https://creativecommons.org/licenses/by/3.0",
   "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/goat_steps_meals_and_rest_nov08.mp4",
   "metricool": {
-    "post_id": null,
-    "provider_status": "NOT_SCHEDULED_AT_APPROVAL"
+    "post_id": 420983188,
+    "uuid": "-1068267183192980640",
+    "scheduled_local": "2026-11-08T16:10:00-03:00",
+    "provider": "tiktok",
+    "provider_status": "PENDING",
+    "published_confirmed": false,
+    "autoPublish": true,
+    "draft": false,
+    "platform_media_url": "https://static.metricool.com/planner/202611/7242311-file-10526059532828664286.mp4",
+    "planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=-1068267183192980640",
+    "verified_by": "Fresh Metricool getScheduledPosts exact @wildvox TikTok only, matching 16:10 slot"
   }
 }
