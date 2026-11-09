@@ -1,7 +1,7 @@
 {
   "cat_sofa_to_play_nov09": {
     "title": "From a Quiet Sofa to a Cat's Busy Day",
-    "script": "A cat rests on a sofa, but stillness is only one part of its daily routine. In a different home, another cat explores a paper bag and peers into the opening. Outside, a black cat walks across the ground, while a separate cat carefully cleans its fur. Two cats play together indoors, while another cat rolls and stretches on the floor. Elsewhere, a kitten plays indoors, exploring its surroundings with curious movements. Finally, a cat enjoys a person's gentle attention outside, closing this story on a calmer note.",
+    "script": "A cat rests on a sofa, but stillness is only one part of its daily routine. In a different home, another cat explores a paper bag and peers into the opening. Outside, a black cat walks across the ground, while a separate cat carefully cleans its fur. Two cats play together indoors, while another cat rolls and stretches on the floor. Elsewhere, a young kitten rests on a bed, offering a quieter moment between the other scenes. Finally, a cat enjoys a person's gentle attention outside, closing this story on a calmer note.",
     "caption": "FROM SOFA REST TO PLAY. Original narration over independently filmed real cats. Sources and creators credited with each approved release. #WildVox #Cats #CatBehavior",
     "sources": [
       {
@@ -133,7 +133,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-09-cat_sofa_to_play_nov09-replace-misidentified-dog-v3",
+    "revision": "2026-11-09-cat_sofa_to_play_nov09-correct-kitten-action-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -179,13 +179,13 @@
         "fx": []
       },
       {
-        "text": "Elsewhere, a kitten plays indoors, exploring its surroundings with curious movements.",
-        "scene": "Authentic footage: Kitten playing - Tokyo - Jan 7 2020.webm",
+        "text": "Elsewhere, a young kitten rests on a bed, offering a quieter moment between the other scenes.",
+        "scene": "Authentic footage: Kitten playing - Tokyo - Jan 7 2020.webm; only bed/resting scene is asserted, no play action claimed",
         "tags": [
           "domestic_kitten_playing_indoors"
         ],
         "story_role": "twist",
-        "overlay_label": "CURIOUS KITTEN",
+        "overlay_label": "KITTEN REST",
         "fx": []
       },
       {
