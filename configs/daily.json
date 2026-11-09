@@ -1,7 +1,7 @@
 {
   "cat_sofa_to_play_nov09": {
     "title": "From a Quiet Sofa to a Cat's Busy Day",
-    "script": "A cat rests on a sofa, but stillness is only one part of its daily routine. In a different home, another cat explores a paper bag and peers into the opening. Outside, a black cat walks across the ground, while a separate cat carefully cleans its fur. Two cats play together indoors, while another cat rolls and stretches on the floor. Elsewhere, a cat reaches toward a small object, exploring it with its front paws. Finally, a cat enjoys a person's gentle attention outside, closing this story on a calmer note.",
+    "script": "A cat rests on a sofa, but stillness is only one part of its daily routine. In a different home, another cat explores a paper bag and peers into the opening. Outside, a black cat walks across the ground, while a separate cat carefully cleans its fur. Two cats play together indoors, while another cat rolls and stretches on the floor. Elsewhere, a kitten plays indoors, exploring its surroundings with curious movements. Finally, a cat enjoys a person's gentle attention outside, closing this story on a calmer note.",
     "caption": "FROM SOFA REST TO PLAY. Original narration over independently filmed real cats. Sources and creators credited with each approved release. #WildVox #Cats #CatBehavior",
     "sources": [
       {
@@ -99,19 +99,17 @@
         "portrait_crop": "4:5"
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
         "type": "video",
-        "assetTitle": "Moomin1.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
+        "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
+        "author": "Nesnad",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Original Commons source previously catalogued in cat_play_hunting_instinct_meta.json; LIVE Commons audit and CURRENT-run visual review required before release.",
         "tags": [
-          "domestic_cat_paws_cotton_bud"
-        ],
-        "author": "User:Tet",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "b8cc558859ad4acfc423ed62d0837e9b1f29576f",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+          "domestic_kitten_playing_indoors"
+        ]
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andra%20and%20Billy.webm",
@@ -135,7 +133,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-09-cat_sofa_to_play_nov09-targeted-static-crop-v2",
+    "revision": "2026-11-09-cat_sofa_to_play_nov09-replace-misidentified-dog-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -181,13 +179,13 @@
         "fx": []
       },
       {
-        "text": "Elsewhere, a cat reaches toward a small object, exploring it with its front paws.",
-        "scene": "Authentic footage: Moomin1.webm",
+        "text": "Elsewhere, a kitten plays indoors, exploring its surroundings with curious movements.",
+        "scene": "Authentic footage: Kitten playing - Tokyo - Jan 7 2020.webm",
         "tags": [
-          "domestic_cat_paws_cotton_bud"
+          "domestic_kitten_playing_indoors"
         ],
         "story_role": "twist",
-        "overlay_label": "SMALL DISCOVERY",
+        "overlay_label": "CURIOUS KITTEN",
         "fx": []
       },
       {
