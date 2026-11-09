@@ -410,7 +410,8 @@
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0/",
         "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits.",
+        "portrait_crop": "4:5"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20preening.webm",
@@ -424,7 +425,8 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits.",
+        "portrait_crop": "9:16"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-14%20LJUBLJANA%20%C5%A0pica%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
@@ -438,7 +440,8 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "license_verified_at": "2026-11-05",
-        "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
+        "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling.",
+        "portrait_crop": "9:16"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
@@ -480,7 +483,8 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits.",
+        "portrait_crop": "9:16"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-25%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
@@ -494,7 +498,8 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits.",
+        "portrait_crop": "4:5"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20eating%20a%20fish.webm",
@@ -508,7 +513,8 @@
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits.",
+        "portrait_crop": "9:16"
       }
     ],
     "min_unique_videos": 6,
@@ -517,7 +523,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-09-kingfisher_bill_feather_perches_nov09-original-script-fresh-edit-v1",
+    "revision": "2026-11-09-kingfisher_bill_feather_perches_nov09-subject-centered-portrait-crops-v2",
     "publication_hold": true,
     "visual_plan": [
       {
