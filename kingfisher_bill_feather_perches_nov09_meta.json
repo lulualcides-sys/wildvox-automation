@@ -1,0 +1,216 @@
+{
+  "key": "kingfisher_bill_feather_perches_nov09",
+  "title": "What Makes a Kingfisher Stand Out?",
+  "caption": "BLUE FEATHERS AND A POINTED BILL. Distinct real common kingfishers filmed beside different waterways. #WildVox #Kingfisher #Birdwatching\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Alexis Lours | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Kingfisher_2025_09_28_01.webm | https://creativecommons.org/licenses/by/4.0/\n2. Lennart Hessel | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Common_Kingfisher_preening.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-01-14_LJUBLJANA_Špica_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm | https://creativecommons.org/licenses/by/3.0/\n4. Lubo Ondrasko | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-01_VRHNIKA_Ribniki_pri_stari_opekarni_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm | https://creativecommons.org/licenses/by/3.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-07-23_RIBNIKI_V_DOLINI_DRAGE_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm | https://creativecommons.org/licenses/by/3.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-07-25_VRHNIKA_Ribniki_pri_stari_opekarni_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm | https://creativecommons.org/licenses/by/3.0/\n8. Lennart Hessel | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm | https://creativecommons.org/licenses/by/3.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "b9959652f51eb8061fba0540935355c478d0ee66dcdb3ad09dc6f18f6b128d9d",
+  "duration": 39.15,
+  "voice": "am_michael",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 7.7,
+      "duration": 7.7,
+      "text": "Bright blue feathers draw attention to this common kingfisher, but its long pointed bill is equally distinctive.",
+      "scene": "Authentic footage: Kingfisher 2025 09 28 01.webm",
+      "tags": [
+        "kingfisher_close_blue_orange_bill_hook_nov07"
+      ],
+      "story_role": "hook",
+      "overlay_label": "BLUE FLASH",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 7.7,
+      "end": 13.05,
+      "duration": 5.35,
+      "text": "In another view, a kingfisher preens its feathers while staying on a perch.",
+      "scene": "Authentic footage: Common Kingfisher preening.webm",
+      "tags": [
+        "kingfisher_preening_feathers"
+      ],
+      "story_role": "setup",
+      "overlay_label": "FEATHER CARE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 13.05,
+      "end": 19.525,
+      "duration": 6.475,
+      "text": "Different birds pause beside water, turning and watching from their separate resting places.",
+      "scene": "Authentic footage: 2022-01-14 LJUBLJANA Špica CORACIIFORMES Alcedo atthis VODOMEC.webm and Common kingfisher (Alcedo atthis) in Slovakia.webm",
+      "tags": [
+        "kingfisher_perched_at_water_edge",
+        "kingfisher_resting_preening_by_water"
+      ],
+      "story_role": "action",
+      "overlay_label": "WATER EDGE",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 19.525,
+      "end": 26.125,
+      "duration": 6.6,
+      "text": "At two more waterways, branches and greenery frame these small birds as they remain perched.",
+      "scene": "Authentic footage: 2022-09-01 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm and 2022-07-23 RIBNIKI V DOLINI DRAGE CORACIIFORMES Alcedo atthis VODOMEC.webm",
+      "tags": [
+        "kingfisher_at_different_waterway",
+        "kingfisher_perched_near_river_habitat"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "HIDDEN PERCH",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 26.125,
+      "end": 32.25,
+      "duration": 6.125,
+      "text": "A more distant kingfisher stays near its own patch of vegetation, harder to pick out.",
+      "scene": "Authentic footage: 2022-07-25 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm",
+      "tags": [
+        "kingfisher_eating_caught_fish"
+      ],
+      "story_role": "twist",
+      "overlay_label": "LOOK CLOSELY",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 32.25,
+      "end": 39.15,
+      "duration": 6.9,
+      "text": "Even from farther away, the small silhouette and pointed bill can reveal where the kingfisher sits.",
+      "scene": "Authentic footage: Common Kingfisher eating a fish.webm",
+      "tags": [
+        "kingfisher_distant_small_branch_payoff_nov07"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "SPOT THE BIRD",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingfisher%202025%2009%2028%2001.webm",
+      "type": "video",
+      "assetTitle": "Kingfisher 2025 09 28 01.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kingfisher_2025_09_28_01.webm",
+      "tags": [
+        "kingfisher_close_blue_orange_bill_hook_nov07"
+      ],
+      "author": "Alexis Lours",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20preening.webm",
+      "type": "video",
+      "assetTitle": "Common Kingfisher preening.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_preening.webm",
+      "tags": [
+        "kingfisher_preening_feathers"
+      ],
+      "author": "Lennart Hessel",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-14%20LJUBLJANA%20%C5%A0pica%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
+      "type": "video",
+      "assetTitle": "2022-01-14 LJUBLJANA Špica CORACIIFORMES Alcedo atthis VODOMEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-14_LJUBLJANA_Špica_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
+      "tags": [
+        "kingfisher_perched_at_water_edge"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-11-05",
+      "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
+      "type": "video",
+      "assetTitle": "Common kingfisher (Alcedo atthis) in Slovakia.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm",
+      "tags": [
+        "kingfisher_resting_preening_by_water"
+      ],
+      "author": "Lubo Ondrasko",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-01%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
+      "type": "video",
+      "assetTitle": "2022-09-01 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-01_VRHNIKA_Ribniki_pri_stari_opekarni_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
+      "tags": [
+        "kingfisher_at_different_waterway"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-11-05",
+      "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-23%20RIBNIKI%20V%20DOLINI%20DRAGE%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
+      "type": "video",
+      "assetTitle": "2022-07-23 RIBNIKI V DOLINI DRAGE CORACIIFORMES Alcedo atthis VODOMEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-23_RIBNIKI_V_DOLINI_DRAGE_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
+      "tags": [
+        "kingfisher_perched_near_river_habitat"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-25%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
+      "type": "video",
+      "assetTitle": "2022-07-25 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-25_VRHNIKA_Ribniki_pri_stari_opekarni_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
+      "tags": [
+        "kingfisher_eating_caught_fish"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20eating%20a%20fish.webm",
+      "type": "video",
+      "assetTitle": "Common Kingfisher eating a fish.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm",
+      "tags": [
+        "kingfisher_distant_small_branch_payoff_nov07"
+      ],
+      "author": "Lennart Hessel",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_verified_at": "2026-10-30",
+      "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
+    }
+  ],
+  "review_sheet": "kingfisher_bill_feather_perches_nov09_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
