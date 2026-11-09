@@ -4,7 +4,7 @@
   "caption": "FROM SOFA REST TO PLAY. Original narration over independently filmed real cats. Sources and creators credited with each approved release. #WildVox #Cats #CatBehavior\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Ivan Kurmanov | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_relaxing_on_a_sofa.webm | https://creativecommons.org/licenses/by/2.0\n2. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0\n3. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0\n5. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0\n6. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0\n7. User:Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin1.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "955eb9b0f5013cd0059461c9c340e60fa29d37bcdf2297f19dc452be2611ba41",
+  "config_sha256": "5d1aa2909852a5754bc21682fceac4018359324a86569e92335981b48e7357b8",
   "duration": 37.48,
   "voice": "am_michael",
   "speed": 1.0,
@@ -125,7 +125,8 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_verified_at": "2026-11-02",
       "original_sha1": "3e44bcd7f1be98563b3e009fb7191c07bab65796",
-      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "portrait_crop": "4:5"
     },
     {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Cat%20walking.webm",
@@ -155,7 +156,8 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0",
       "license_verified_at": "2026-11-02",
       "original_sha1": "abed679c9607ae913d3528c8fccc6e5ea1384153",
-      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "portrait_crop": "4:5"
     },
     {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20and%20Chlo%C3%A9%20playing%20(100111224612).webm",
@@ -170,7 +172,8 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0",
       "license_verified_at": "2026-11-02",
       "original_sha1": "7d8ad97a93c959d18f433998b9659d6211276c6d",
-      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "portrait_crop": "4:5"
     },
     {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20in%20Taiwan.webm",
@@ -185,7 +188,8 @@
       "license_url": "https://creativecommons.org/licenses/by/2.0",
       "license_verified_at": "2026-11-02",
       "original_sha1": "4bcb9837d5f4a5fb471091b9cd7b082db247fde4",
-      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+      "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+      "portrait_crop": "4:5"
     },
     {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
