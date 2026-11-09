@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-09",
+  "decision": "VETO",
+  "publication_hold": true,
+  "run_id": 42605941463,
+  "artifact_id": 13666914929,
+  "config_sha256": "38771a7eb6300c35ccd3a6789b22fd3d849cb91cca6c8fbd9ab4c21759c4c3e7",
+  "mp4_sha256": "724cf9c303aff5f7865faa92ad7c8c0907c75ef4edd7c478888152e6d83ea48c",
+  "duration_seconds": 36.966667,
+  "independent_review": [
+    "Original current-run ZIP extracted",
+    "Final JPG contact sheet inspected visually",
+    "MP4 duration checked using ffprobe"
+  ],
+  "veto_reason": "Portrait composition uses large dark/defocused filler around small horizontal animal footage in multiple shots; visual quality not approved. Source-action alignment, decoded-frame freeze detection and media-branch verification not yet cleared.",
+  "next_action": "Repair only this candidate's visual framing, rerender, inspect original source previews and decoded MP4; do not schedule this fingerprint."
+}
