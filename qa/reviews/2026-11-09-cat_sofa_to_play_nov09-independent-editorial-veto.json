@@ -2,16 +2,17 @@
   "date": "2026-11-09",
   "decision": "VETO",
   "publication_hold": true,
-  "run_id": 42605941463,
-  "artifact_id": 13668615859,
-  "config_sha256": "955eb9b0f5013cd0059461c9c340e60fa29d37bcdf2297f19dc452be2611ba41",
-  "mp4_sha256": "b0d0a8fe1a6c959f6d48ccaa4621e1005201c7f180bbbf9942f3d20aa1a3ebb3",
+  "run_id": 42636556030,
+  "artifact_id": 13683203168,
+  "config_sha256": "5d1aa2909852a5754bc21682fceac4018359324a86569e92335981b48e7357b8",
+  "mp4_sha256": "c7b33f7a95db6d9a0eb7098bd8493a67a4b91ce9331d637a709303f92ff84a50",
   "duration_seconds": 37.475,
   "independent_review": [
-    "Original current-run ZIP extracted",
-    "Final JPG contact sheet inspected visually",
-    "MP4 duration checked using ffprobe"
+    "Original rerender ZIP downloaded and extracted (MP4, final review JPG, eight source-preview JPGs, meta JSON)",
+    "Final 12-panel review JPG visually inspected: sofa and outdoor cat scenes still have large dark blurred margins; some 4:5-cropped scenes fill the frame better, but others show extreme close crops with partial animal visible",
+    "Metadata checked for eight credited sources, six narration blocks and 37.475-second duration",
+    "New render fingerprint verified from original metadata; no reuse of prior approval"
   ],
-  "veto_reason": "Portrait composition uses large dark/defocused filler around small horizontal animal footage in multiple shots; visual quality not approved. Source-action alignment, decoded-frame freeze detection and media-branch verification not yet cleared.",
-  "next_action": "Repair only this candidate's visual framing, rerender, inspect original source previews and decoded MP4; do not schedule this fingerprint."
+  "veto_reason": "Selective 4:5 cropping improves some portrait scenes but does not correct remaining large blurred margins in sofa, walking and outdoor interaction shots. Several cropped shots are over-tight and obscure animal action. Cannot establish complete source-to-narration alignment or frame-freeze compliance from this review alone. Not editorially approved.",
+  "next_action": "Target only cat_sofa_to_play_nov09. Choose per-source action-preserving crop or substitute properly framed genuine footage; avoid excessive zoom and filler. Render only this candidate, inspect all eight source scenes and decoded hook/action/payoff frames, and confirm media SHA before approval. Keep publication_hold=true."
 }
