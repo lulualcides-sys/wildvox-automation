@@ -4,8 +4,8 @@
   "caption": "FROM SOFA REST TO PLAY. Original narration over independently filmed real cats. Sources and creators credited with each approved release. #WildVox #Cats #CatBehavior\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n1. Ivan Kurmanov | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_relaxing_on_a_sofa.webm | https://creativecommons.org/licenses/by/2.0\n2. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0\n3. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0\n5. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0\n6. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0\n7. Nesnad | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm | https://creativecommons.org/licenses/by/4.0/\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "c0439e2bd1775d10c8806fef1736decb03796218e6694e37b6e4e95a975f354f",
-  "duration": 37.62,
+  "config_sha256": "5b952a12fd0746d52f6fa77c2c362b78c2712e289d77db55c745fc5bfd86e4c6",
+  "duration": 38.17,
   "voice": "am_michael",
   "speed": 1.0,
   "narration_timeline": [
@@ -70,21 +70,21 @@
     {
       "index": 4,
       "start": 24.475,
-      "end": 30.425,
-      "duration": 5.95,
-      "text": "Elsewhere, a kitten plays indoors, exploring its surroundings with curious movements.",
-      "scene": "Authentic footage: Kitten playing - Tokyo - Jan 7 2020.webm",
+      "end": 30.975,
+      "duration": 6.5,
+      "text": "Elsewhere, a young kitten rests on a bed, offering a quieter moment between the other scenes.",
+      "scene": "Authentic footage: Kitten playing - Tokyo - Jan 7 2020.webm; only bed/resting scene is asserted, no play action claimed",
       "tags": [
         "domestic_kitten_playing_indoors"
       ],
       "story_role": "twist",
-      "overlay_label": "CURIOUS KITTEN",
+      "overlay_label": "KITTEN REST",
       "fx": []
     },
     {
       "index": 5,
-      "start": 30.425,
-      "end": 37.625,
+      "start": 30.975,
+      "end": 38.175000000000004,
       "duration": 7.2,
       "text": "Finally, a cat enjoys a person's gentle attention outside, closing this story on a calmer note.",
       "scene": "Authentic footage: Andra and Billy.webm",
