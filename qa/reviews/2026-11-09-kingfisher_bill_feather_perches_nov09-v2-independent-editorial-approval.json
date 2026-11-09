@@ -40,7 +40,21 @@
   },
   "publication_hold_in_config": true,
   "approval_applies_to_this_exact_config_and_media_only": true,
-  "scheduled_metricool_id": null,
-  "provider_status": null,
-  "public_tiktok_url": null
+  "scheduled_metricool_id": 422504834,
+  "provider_status": "PENDING",
+  "public_tiktok_url": null,
+  "metricool_uuid": "5398254695596511103",
+  "scheduled_local_time": "2026-11-09T22:05:00-03:00",
+  "metricool_media_url": "https://static.metricool.com/planner/202611/7242311-file-13297185824484768413.mp4",
+  "metricool_planner_url": "https://app.metricool.com/planner/calendar?blogId=7242311&openWithPostUuid=5398254695596511103",
+  "readback_verified": true,
+  "readback_providers": [
+    {
+      "network": "tiktok",
+      "status": "PENDING"
+    }
+  ],
+  "readback_autoPublish": true,
+  "readback_draft": false,
+  "published_tiktok_link": null
 }
