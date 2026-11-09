@@ -473,6 +473,38 @@ def detect_embedded_black_bars(path, start, available_seconds):
     return "crop=" + ":".join(crop)
 
 
+def portrait_framing_filter(source_meta=None):
+    """Opt-in editorial crop for independently inspected, subject-centered footage.
+
+    The default preserves the full authentic frame. A reviewed source may
+    explicitly request a static 4:5 or 9:16 crop to reduce empty portrait
+    sidebands. Never animate crop position, zoom or infer subject location.
+    The editor must verify the animal stays visible for the whole shot.
+    """
+    mode = (source_meta or {}).get("portrait_crop")
+    if mode not in (None, "4:5", "9:16"):
+        raise ValueError(f"Unsupported portrait_crop: {mode!r}")
+    active = {
+        "4:5": "crop='min(iw,ih*4/5)':'min(ih,iw*5/4)'",
+        "9:16": "crop='min(iw,ih*9/16)':'min(ih,iw*16/9)'",
+    }.get(mode, "")
+    if active:
+        # Center-only static editorial crop, before scale; do not crop
+        # an already-portrait source into a narrower frame unnecessarily.
+        active += ","
+    return (
+        active
+        + "split=2[bg][fg];"
+        "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
+        "crop=1080:1920,boxblur=80:2,"
+        "eq=brightness=-0.30:saturation=0.35[back];"
+        "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,"
+        "setsar=1[front];"
+        "[back][front]overlay=(W-w)/2:(H-h)/2:shortest=1,"
+        "setsar=1,fps=30"
+    )
+
+
 def render_speech_aligned_visual(local, key, duration, narration_timeline, max_shot_seconds=None, max_freeze_seconds=None):
     """Cut B-roll at the real boundaries of spoken semantic blocks."""
     max_shot = float(max_shot_seconds or 8.0)
@@ -491,18 +523,10 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
         )
 
     shots = []
-    vf = (
-        "split=2[bg][fg];"
-        "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
-        "crop=1080:1920,boxblur=80:2,"
-        "eq=brightness=-0.30:saturation=0.35[back];"
-        "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,"
-        "setsar=1[front];"
-        "[back][front]overlay=(W-w)/2:(H-h)/2:shortest=1,"
-        "setsar=1,fps=30"
-    )
+    vf = portrait_framing_filter()
 
     for i, ((src, media_type, source_meta), shot_len, block) in enumerate(scheduled):
+        vf = portrait_framing_filter(scheduled[i][0][2])
         shot_filter = camera_filter(vf, shot_len, block.get("story_role"))
         out = WORK / f"{key}_speech_shot_{i:02d}.mp4"
         if media_type == "image":
@@ -879,16 +903,7 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
         # sidebands with a dimmed, blurred copy instead of giant black bars.
         # The background is cropped only as decoration; the foreground is not.
         # No synthetic motion, zoompan, or repeated footage is introduced.
-        vf = (
-            "split=2[bg][fg];"
-            "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
-            "crop=1080:1920,boxblur=80:2,"
-            "eq=brightness=-0.30:saturation=0.35[back];"
-            "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,"
-            "setsar=1[front];"
-            "[back][front]overlay=(W-w)/2:(H-h)/2:shortest=1,"
-            "setsar=1,fps=30"
-        )
+        vf = portrait_framing_filter(source_meta)
 
         if media_type == "image":
             run([
