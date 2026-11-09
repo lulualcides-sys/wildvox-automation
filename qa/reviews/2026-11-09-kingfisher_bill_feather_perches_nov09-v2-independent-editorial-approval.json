@@ -1,0 +1,46 @@
+{
+  "date_local": "2026-11-09",
+  "timezone": "America/Sao_Paulo",
+  "key": "kingfisher_bill_feather_perches_nov09",
+  "revision": "2026-11-09-kingfisher_bill_feather_perches_nov09-subject-centered-portrait-crops-v2",
+  "decision": "APPROVE",
+  "purpose": "Single-use TikTok @wildvox same-day release, future valid slot only; never YouTube or Buffer.",
+  "github_run_id": 42714316545,
+  "artifact_id": 13718215370,
+  "source_main_commit": "9e351e55b35a155eb19f77f1d1828303fb2858ad",
+  "daily_json_blob_sha": "e8967bd4c68483c169c788f81205bbaf99dcbcb9",
+  "config_sha256": "1233f4aa51982d761a37f7da4d0eb275cb50313074fb7c0a69312acf610c1e54",
+  "media_sha256": "4915c122d93e15ebfce37aa3db0c4682868dfe4187bc86b5ce40eac060bb2d79",
+  "media_git_blob_sha": "5b62cfbeed4316f944801986b117e77f5677bebf",
+  "metadata_git_blob_sha": "c955f1a1d28707ff694b5e25d0ca0a634223321d",
+  "media_branch_head_at_review": "a00884a6997cf0cca9d75f616208ba7a20390990",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/kingfisher_bill_feather_perches_nov09.mp4",
+  "media_metadata_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/kingfisher_bill_feather_perches_nov09_meta.json",
+  "review": {
+    "independent_original_zip": true,
+    "original_zip_contents": [
+      "MP4",
+      "_meta.json",
+      "_review.jpg",
+      "8 source_XX_preview.jpg"
+    ],
+    "image_review": "Inspected source 00-07 three-frame preview strips; original and new v2 final review contact sheets; extracted actual v2 MP4 frames at 0,2,...,38s (20 time points).",
+    "truthfulness": "All scenes depict a common kingfisher, not fish capture; hook shows blue/orange bill; second source visibly preens; two different water-edge perches and distant vegetation scenes match six narration blocks; no false fish-capture labels.",
+    "presentation": "Six targeted static portrait crops improve visibility without camera zoom or motion; two wider authentic habitat shots remain uncropped to retain small off-center birds (not unrelated filler). Subtitles and overlays remain readable in central safe area.",
+    "original_film": "Eight unique Commons source files, eight actual videos; no still-only or synthetic fillers; all species and locations represented generically without conflating distinct recordings.",
+    "audio_video": "39.15 seconds, 1080×1920 H.264 30 fps and AAC 24 kHz Kokoro am_michael narration.",
+    "shot_constraints": "8 semantically paired authentic shots; max segment 7.70s; 6 measured Kokoro speech blocks, chronological footage pairing verified at 2s frame sampling.",
+    "freeze": "Independent FFmpeg freezedetect at n=-60dB:d=1s yielded no frozen intervals; additionally checked subsecond center-frame ROI changes from 0.2–7.2s and 34–36s, real low-motion birds not treated as stills.",
+    "attribution": "8 source creators, Commons pages and CC BY 3.0/4.0 license URLs with modification disclosure present in 1604-character TikTok caption; matching creator audit run 42714316467 success.",
+    "source_licenses": [
+      "CC BY 4.0",
+      "CC BY 3.0"
+    ],
+    "explicit_warning": "No approval of previous fingerprints or other five daily candidates. Technical CI alone did not determine decision."
+  },
+  "publication_hold_in_config": true,
+  "approval_applies_to_this_exact_config_and_media_only": true,
+  "scheduled_metricool_id": null,
+  "provider_status": null,
+  "public_tiktok_url": null
+}
