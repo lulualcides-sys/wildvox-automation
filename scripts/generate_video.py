@@ -494,8 +494,8 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
     vf = (
         "split=2[bg][fg];"
         "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
-        "crop=1080:1920,boxblur=16:1,"
-        "eq=brightness=-0.12:saturation=0.7[back];"
+        "crop=1080:1920,boxblur=80:2,"
+        "eq=brightness=-0.30:saturation=0.35[back];"
         "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,"
         "setsar=1[front];"
         "[back][front]overlay=(W-w)/2:(H-h)/2:shortest=1,"
@@ -882,8 +882,8 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
         vf = (
             "split=2[bg][fg];"
             "[bg]scale=1080:1920:force_original_aspect_ratio=increase,"
-            "crop=1080:1920,boxblur=16:1,"
-            "eq=brightness=-0.12:saturation=0.7[back];"
+            "crop=1080:1920,boxblur=80:2,"
+            "eq=brightness=-0.30:saturation=0.35[back];"
             "[fg]scale=1080:1920:force_original_aspect_ratio=decrease,"
             "setsar=1[front];"
             "[back][front]overlay=(W-w)/2:(H-h)/2:shortest=1,"
