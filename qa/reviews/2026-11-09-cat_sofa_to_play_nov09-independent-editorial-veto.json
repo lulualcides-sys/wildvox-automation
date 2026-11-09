@@ -2,18 +2,24 @@
   "date": "2026-11-09",
   "decision": "VETO",
   "publication_hold": true,
-  "run_id": 42636556030,
-  "artifact_id": 13683203168,
-  "config_sha256": "5d1aa2909852a5754bc21682fceac4018359324a86569e92335981b48e7357b8",
-  "mp4_sha256": "c7b33f7a95db6d9a0eb7098bd8493a67a4b91ce9331d637a709303f92ff84a50",
-  "duration_seconds": 37.475,
+  "run_id": 42657961566,
+  "artifact_id": 13693741134,
+  "config_sha256": "c0439e2bd1775d10c8806fef1736decb03796218e6694e37b6e4e95a975f354f",
+  "mp4_sha256": "350fa802b087347211389797748533aa2f58af719d2708496f27f973ae72f46d",
+  "duration_seconds": 37.625,
   "independent_review": [
-    "Original rerender ZIP downloaded and extracted (MP4, final review JPG, eight source-preview JPGs, meta JSON)",
-    "Final 12-panel review JPG visually inspected: sofa and outdoor cat scenes still have large dark blurred margins; some 4:5-cropped scenes fill the frame better, but others show extreme close crops with partial animal visible",
-    "Metadata checked for eight credited sources, six narration blocks and 37.475-second duration",
-    "New render fingerprint verified from original metadata; no reuse of prior approval",
-    "2026-11-09 follow-up: independently re-opened the original artifact ZIP and inspected its 12-panel final contact sheet; the second frame in the 'SMALL DISCOVERY' section shows a dog on the rug rather than the narrated cat reaching toward a small object. This is an additional concrete visual/script mismatch, independent of portrait framing."
+    "Downloaded original current-run ZIP and extracted original MP4, metadata, final review contact sheet, and eight source preview JPGs.",
+    "Visually inspected all twelve final contact-sheet frames and eight source previews. The replacement Tokyo kitten source 06 shows a kitten in a bed, not an obvious active play action. The narration says 'kitten plays indoors' and 'curious movements'; action is not visibly substantiated by the contact sheet.",
+    "The 'PLAYTIME' segment includes a pale animal in the footage credited as Larry the cat and Chloé playing. Identity and cat-only action cannot be confidently established from the small preview/contact sheet; source 04 requires decoded frame-by-frame inspection.",
+    "Sofa and outdoor cat footage still appears in a narrow horizontal strip with large blurred dark padding; portrait framing remains below the stated standard.",
+    "Metadata lists eight attributed Commons videos, six narration blocks, CC licenses, publication_hold=true, and 37.625 seconds. Metadata and CI alone are insufficient to clear source identity, motion, caption safe zones, and freeze."
   ],
-  "veto_reason": "Selective 4:5 cropping improves some portrait scenes but does not correct remaining large blurred margins in sofa, walking and outdoor interaction shots. Several cropped shots are over-tight and obscure animal action. Cannot establish complete source-to-narration alignment or frame-freeze compliance from this review alone. Not editorially approved. Follow-up confirms the source tagged domestic_cat_paws_cotton_bud (Moomin1.webm) yields a dog visible during the 'cat reaches toward a small object' narration. Remove or replace that source; do not approve this fingerprint.",
-  "next_action": "Replace the Moomin1.webm source with independently inspected authentic cat-only footage and align its narration; then selectively repair framing of sofa, walking and outdoor interaction scenes without cropping animal action. Rerender only cat_sofa_to_play_nov09, recheck decoded frames and licensing; keep publication_hold=true."
+  "veto_reason": "Current replacement removes the previously identified Moomin1 source, but original current-run visual review still reveals excessive blurred letterbox padding in multiple scenes and narration/action uncertainty in Tokyo kitten and playtime footage. Independent full decoded-frame freeze and source identity clearance is incomplete. No editorial approval.",
+  "next_action": "Do not reuse or publish this fingerprint. Replace or rewrite unsupported kitten 'plays' claim if source shows resting only; inspect full source 04 decoded action for correct animal identity; select source-specific framing without overcrop or blurred padding. Rerender cat only after targeted correction, then independently validate every source and MP4.",
+  "previous_veto": {
+    "run_id": 42636556030,
+    "artifact_id": 13683203168,
+    "config_sha256": "5d1aa2909852a5754bc21682fceac4018359324a86569e92335981b48e7357b8",
+    "mp4_sha256": "c7b33f7a95db6d9a0eb7098bd8493a67a4b91ce9331d637a709303f92ff84a50"
+  }
 }
