@@ -32,7 +32,8 @@
         "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-02",
         "original_sha1": "3e44bcd7f1be98563b3e009fb7191c07bab65796",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+        "portrait_crop": "4:5"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Cat%20walking.webm",
@@ -62,7 +63,8 @@
         "license_url": "https://creativecommons.org/licenses/by/4.0",
         "license_verified_at": "2026-11-02",
         "original_sha1": "abed679c9607ae913d3528c8fccc6e5ea1384153",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+        "portrait_crop": "4:5"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20and%20Chlo%C3%A9%20playing%20(100111224612).webm",
@@ -77,7 +79,8 @@
         "license_url": "https://creativecommons.org/licenses/by/4.0",
         "license_verified_at": "2026-11-02",
         "original_sha1": "7d8ad97a93c959d18f433998b9659d6211276c6d",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+        "portrait_crop": "4:5"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20in%20Taiwan.webm",
@@ -92,7 +95,8 @@
         "license_url": "https://creativecommons.org/licenses/by/2.0",
         "license_verified_at": "2026-11-02",
         "original_sha1": "4bcb9837d5f4a5fb471091b9cd7b082db247fde4",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
+        "portrait_crop": "4:5"
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
@@ -131,7 +135,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-09-cat_sofa_to_play_nov09-original-script-fresh-edit-v1",
+    "revision": "2026-11-09-cat_sofa_to_play_nov09-targeted-static-crop-v2",
     "publication_hold": true,
     "visual_plan": [
       {
