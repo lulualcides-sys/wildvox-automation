@@ -1,0 +1,27 @@
+{
+  "day_local": "2026-11-09",
+  "candidate": "cat_sofa_to_play_nov09",
+  "reviewed_run_id": 42682950546,
+  "artifact_id": 13703468190,
+  "source_commit": "f0e44d55ce506e679edccbd4ce89305dba37fd1c",
+  "config_blob_sha": "49c66a9c5e23584cf362e15abc4a8fb97ab41c83",
+  "config_sha256": "5b952a12fd0746d52f6fa77c2c362b78c2712e289d77db55c745fc5bfd86e4c6",
+  "mp4_sha256": "cf29a9197168baa5c998a6e84ff051df695482114a06a6e64797f4bdf44ddfc2",
+  "duration_seconds": 38.175,
+  "source_count": 8,
+  "visual_evidence": [
+    "Inspected original workflow ZIP, full final 4x3 review contact sheet, source_04 (two cats playing), source_05 (white/orange cat rolling), source_06 (kitten resting) preview contact sheets.",
+    "Actual review sheet still shows large dark/blurred portrait padding around landscape footage in the sofa, black-cat walk, grooming, rolling and kitten scenes; foreground often occupies only roughly one third to one half of vertical screen.",
+    "Cat/kitten species and revised resting action are supported in source_04/05/06 previews; do not repeat the earlier dog allegation for this corrected media.",
+    "Narration/shot correspondence for all 8 original action windows, independent motion/freeze and exact safe-zone checks remain unverified; sample review sheet cannot establish full approval."
+  ],
+  "decision": "VETO",
+  "publication_hold": true,
+  "publication_approved": false,
+  "reason": "Portrait composition remains visually inadequate and full decoded-frame editorial review not complete.",
+  "next_actions": [
+    "Do not schedule this MP4 or reuse previous approval.",
+    "Select alternate verified portrait-friendly authentic cat footage for the problematic landscape source windows rather than blindly center-cropping animals.",
+    "Rerender only cat with changed entry fingerprint and independently inspect decoded MP4 at every action window before any approval."
+  ]
+}
