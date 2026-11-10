@@ -373,7 +373,7 @@
   },
   "gato_higiene_chamados_nov10": {
     "title": "Gatos em detalhes: higiene, atenção e encontros",
-    "script": "Um gato de pelagem clara começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis. Em outra gravação, um filhote birmanês também cuida da própria pelagem. É uma cena de higiene, sem ajuda humana. Um gato preto aparece deitado e em movimento. Outro registro mostra um gato preto cuidando do próprio pelo, sem provar que sejam indivíduos diferentes. Uma pessoa segura um gato no colo para cortar as unhas. É uma forma de cuidado diferente da autolimpeza. Perto de uma janela, um gato observa outro do lado de fora, atento ao que acontece naquele momento. Em outra gravação, dois gatos se aproximam e interagem no chão. Depois, outro gato cuida do próprio pelo, em um momento separado. Os comportamentos mudam de cena para cena, mas nem toda intenção pode ser conhecida.",
+    "script": "Um gato começa a se limpar. A língua passa pelos pelos em movimentos fáceis de observar. Em outra gravação, um filhote birmanês cuida da própria pelagem. É uma cena de higiene. Um gato preto se movimenta. Outro registro mostra um gato preto se limpando, sem provar que são animais diferentes. Uma pessoa segura um gato para cortar as unhas. É um cuidado diferente da autolimpeza. Perto da janela, um gato observa outro do lado de fora, atento. Dois gatos interagem no chão em uma gravação. Depois, outro gato se limpa sozinho. Os comportamentos variam, mas nem toda intenção fica clara.",
     "caption": "Higiene, cuidado humano e encontros entre gatos: oito cenas reais com narração brasileira. #WildVox #Gatos #ComportamentoFelino",
     "sources": [
       {
@@ -487,11 +487,11 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_higiene_chamados_nov10-licensed-dynamic-payoff-v3",
+    "revision": "2026-11-10-gato_higiene_chamados_nov10-licensed-dynamic-payoff-duration-v4",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Um gato de pelagem clara começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis.",
+        "text": "Um gato começa a se limpar. A língua passa pelos pelos em movimentos fáceis de observar.",
         "scene": "Cenas reais de origem: Moomin2.webm",
         "tags": [
           "house_cat_moomin_grooming"
@@ -501,7 +501,7 @@
         "fx": []
       },
       {
-        "text": "Em outra gravação, um filhote birmanês também cuida da própria pelagem. É uma cena de higiene, sem ajuda humana.",
+        "text": "Em outra gravação, um filhote birmanês cuida da própria pelagem. É uma cena de higiene.",
         "scene": "Cenas reais de origem: Burmese Kitten Grooming Itself.webm",
         "tags": [
           "burmese_kitten_self_grooming"
@@ -511,7 +511,7 @@
         "fx": []
       },
       {
-        "text": "Um gato preto aparece deitado e em movimento. Outro registro mostra um gato preto cuidando do próprio pelo, sem provar que sejam indivíduos diferentes.",
+        "text": "Um gato preto se movimenta. Outro registro mostra um gato preto se limpando, sem provar que são animais diferentes.",
         "scene": "Duas gravações de um gato preto repousando e realizando autolimpeza, sem inferir indivíduos distintos",
         "tags": [
           "black_monarca_cat_play_groom",
@@ -522,7 +522,7 @@
         "fx": []
       },
       {
-        "text": "Uma pessoa segura um gato no colo para cortar as unhas. É uma forma de cuidado diferente da autolimpeza.",
+        "text": "Uma pessoa segura um gato para cortar as unhas. É um cuidado diferente da autolimpeza.",
         "scene": "Cenas reais de origem: Larry the cat getting his nails trimmed (VID 20210408 123153).webm",
         "tags": [
           "house_cat_getting_nails_trimmed"
@@ -532,7 +532,7 @@
         "fx": []
       },
       {
-        "text": "Perto de uma janela, um gato observa outro do lado de fora, atento ao que acontece naquele momento.",
+        "text": "Perto da janela, um gato observa outro do lado de fora, atento.",
         "scene": "Gato dentro de casa observa outro gato através da janela; Tomcat calling.webm",
         "tags": [
           "house_cat_looking_at_another_cat_through_window"
@@ -542,7 +542,7 @@
         "fx": []
       },
       {
-        "text": "Em outra gravação, dois gatos se aproximam e interagem no chão. Depois, outro gato cuida do próprio pelo, em um momento separado. Os comportamentos mudam de cena para cena, mas nem toda intenção pode ser conhecida.",
+        "text": "Dois gatos interagem no chão em uma gravação. Depois, outro gato se limpa sozinho. Os comportamentos variam, mas nem toda intenção fica clara.",
         "scene": "Dois gatos interagem no chão em filmagem distinta; outro gato lambe sua própria pelagem em vídeo autêntico, sem fotografia estática",
         "tags": [
           "domestic_cats_physical_interaction",
