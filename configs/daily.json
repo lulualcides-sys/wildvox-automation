@@ -187,8 +187,8 @@
   },
   "gato_saltos_corridas_nov10": {
     "title": "Gatos em movimento: do chão às alturas",
-    "script": "Um gato rola pelo chão perto de um móvel. Ele muda de posição mais uma vez, diante da câmera. Em outro ambiente, um gato salta para trás durante uma brincadeira. Um segundo gato também aparece perto dele. Um gato branco se movimenta sobre uma esteira de bambu. Em outra gravação, um gato e um pombo aparecem numa rua, sem que a câmera mostre uma captura. Nas ruas de Istambul, outro gato caminha pelo calçamento. A gravação vertical mostra o animal explorando o ambiente. Um ocicat preso a uma guia sobe numa árvore. O registro mostra outra forma de movimento, num lugar completamente diferente. Por fim, um gato fica no alto de um parapeito, enquanto outro rola no chão. São cenas de animais diferentes, cada um com seu próprio ritmo.",
-    "caption": "Gatos rolando, saltando, caminhando e subindo em uma árvore: cenas de animais diferentes. #WildVox #Gatos #ComportamentoFelino",
+    "script": "Um gato rola pelo chão perto de um móvel. Ele muda de posição mais uma vez, diante da câmera. Em outro ambiente, um gato salta para trás durante uma brincadeira. Um segundo gato também aparece perto dele. Um gato branco se movimenta sobre uma esteira de bambu. Em outra gravação, um gato e um pombo aparecem numa rua, sem que a câmera mostre uma captura. Nas ruas de Istambul, outro gato caminha pelo calçamento. A gravação vertical mostra o animal explorando o ambiente. Um ocicat com guia é filmado ao pé de uma árvore. A gravação mostra um ambiente diferente das ruas e da casa. Por fim, um gato fica no alto de um parapeito, enquanto outro rola no chão. São cenas de animais diferentes, cada um com seu próprio ritmo.",
+    "caption": "Gatos rolando, saltando e explorando ambientes diferentes, sem inventar ações nas imagens. #WildVox #Gatos #GatosEmMovimento",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Jumpscare.webm",
@@ -301,7 +301,7 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_saltos_corridas_nov10-visual-truth-corrected-v3",
+    "revision": "2026-11-10-gato_saltos_corridas_nov10-tree-action-factual-v4",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -346,13 +346,13 @@
         "fx": []
       },
       {
-        "text": "Um ocicat preso a uma guia sobe numa árvore. O registro mostra outra forma de movimento, num lugar completamente diferente.",
-        "scene": "Ocicat sobe numa árvore com guia; Ocicat on leash climbing a tree.webm",
+        "text": "Um ocicat com guia é filmado ao pé de uma árvore. A gravação mostra um ambiente diferente das ruas e da casa.",
+        "scene": "Ocicat preso a guia visível perto do tronco de uma árvore; não afirmar escalada sem evidência nas tomadas",
         "tags": [
           "ocicat_on_leash_climbing_a_tree"
         ],
         "story_role": "twist",
-        "overlay_label": "SUBINDO NA ÁRVORE",
+        "overlay_label": "PERTO DA ÁRVORE",
         "fx": []
       },
       {
