@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-27-cinematic-fx",
+  "version": "2026-11-10-brazilian-portuguese-first",
   "editorial_priority": {
     "specific_species_or_subspecies_pct": 75,
     "well_known_animals_with_unusual_specific_fact_pct": 10,
@@ -53,8 +53,8 @@
       "explanation_or_twist"
     ],
     "preserve": [
-      "am_michael",
-      "en-US",
+      "pm_alex",
+      "pt-BR",
       "vertical_9_16",
       "speech_aligned_visual_plan",
       "6_to_8_second_shots",
@@ -92,5 +92,19 @@
       "shot_timing": "exact narration_timeline.start/end, maximum 3 seconds per annotation",
       "test": "qa/test_cinematic_fx.py"
     }
+  },
+  "audience_language": {
+    "effective_from": "2026-11-10",
+    "language": "pt-BR",
+    "voice_engine": "Kokoro",
+    "voice_id": "pm_alex",
+    "kokoro_lang_code": "p",
+    "requirements": [
+      "All NEW videos must have Portuguese-Brazilian spoken narration, script, plan block text, title, overlays, caption and hashtags; English voice am_michael remains only for archived legacy videos.",
+      "Maintain 30-45 seconds and same evidence, licensed footage, no repeat, semantic timing and attribution gates.",
+      "Prefer 3 distinct cat stories and 2 other distinct animal stories when sources genuinely support them.",
+      "Never republish old English MP4 as Portuguese; new sources, new angle, fresh original render and independent review required.",
+      "Do not schedule or publish videos until tested Brazilian Portuguese TTS and synchronized captions are verified."
+    ]
   }
 }
