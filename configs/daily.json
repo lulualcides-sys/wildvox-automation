@@ -457,17 +457,17 @@
         "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fur%20Lickers.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Owiii%20and%20Iis%20Cleaning.webm",
         "type": "video",
-        "assetTitle": "Fur Lickers.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Fur_Lickers.webm",
+        "assetTitle": "Owiii and Iis Cleaning.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Owiii_and_Iis_Cleaning.webm",
         "tags": [
-          "two_cats_playing_interior_social_context"
+          "two_domestic_cats_cleaning_in_street"
         ],
-        "author": "Steve Jurvetson",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_note": "Flickr footage originally published by creator Steve Jurvetson, Commons CC BY 2.0; cats interacting in a home. DO NOT infer actual licking from title; independent visual review required."
+        "author": "Joaquim Baeta",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Original creator Joaquim Baeta; CC BY 4.0 verified in live Commons File summary and structured metadata; depicts two cats cleaning outdoors. Independent actual frame inspection still required."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20relaxing%20on%20a%20sofa.webm",
@@ -502,7 +502,7 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_higiene_chamados_nov10-papillas-social-fresh-footage-v6",
+    "revision": "2026-11-10-gato_higiene_chamados_nov10-tongue-science-verified-ccby-v7",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -548,9 +548,9 @@
       },
       {
         "text": "Entre gatos, contato e cuidado podem fazer parte da vida social. Mas nem toda interação é uma lambida.",
-        "scene": "Duas gatas interagindo em vídeo real de Steve Jurvetson; o B-roll NÃO prova lambidas recíprocas.",
+        "scene": "Dois gatos se limpam em ambiente de rua (cenas autênticas Owiii and Iis Cleaning.webm); ilustrar interação sem atribuir reciprocidade exata não demonstrada.",
         "tags": [
-          "two_cats_playing_interior_social_context"
+          "two_domestic_cats_cleaning_in_street"
         ],
         "story_role": "twist",
         "overlay_label": "CONTATO SOCIAL",
