@@ -186,9 +186,9 @@
     "voice": "pm_alex"
   },
   "gato_saltos_corridas_nov10": {
-    "title": "Gatos em movimento: da corrida ao descanso",
-    "script": "Um gato corre em direção à câmera de repente. A velocidade transforma um instante comum numa surpresa. Em outra gravação, um gato salta para trás. O movimento foi filmado e depois mostrado lentamente. Um filhote pula sobre uma esteira de bambu. Em outra cena, um gato corre atrás de um pombo, sem mostrar captura. Já nas ruas de Istambul, um gato aparece em um registro vertical, longe dessas duas corridas. Em outro local, um gato olha para cima perto de uma varanda. O ambiente muda completamente. Por fim, um gato aparece num parapeito alto, enquanto outro rola no chão. As tomadas revelam movimentos diferentes, não uma aventura do mesmo animal.",
-    "caption": "Corridas, saltos e pausas: oito registros diferentes de gatos. #WildVox #Gatos #Animais",
+    "title": "Gatos em movimento: do chão às alturas",
+    "script": "Um gato rola pelo chão perto de um móvel. Ele muda de posição mais uma vez, diante da câmera. Em outro ambiente, um gato salta para trás durante uma brincadeira. Um segundo gato também aparece perto dele. Um gato branco se movimenta sobre uma esteira de bambu. Em outra gravação, um gato e um pombo aparecem numa rua, sem que a câmera mostre uma captura. Nas ruas de Istambul, outro gato caminha pelo calçamento. A gravação vertical mostra o animal explorando o ambiente. Um ocicat preso a uma guia sobe numa árvore. O registro mostra outra forma de movimento, num lugar completamente diferente. Por fim, um gato fica no alto de um parapeito, enquanto outro rola no chão. São cenas de animais diferentes, cada um com seu próprio ritmo.",
+    "caption": "Gatos rolando, saltando, caminhando e subindo em uma árvore: cenas de animais diferentes. #WildVox #Gatos #ComportamentoFelino",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Jumpscare.webm",
@@ -256,17 +256,17 @@
         "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20discovers%20it%20was%20being%20spied%20on.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ocicat%20on%20leash%20climbing%20a%20tree.webm",
         "type": "video",
-        "assetTitle": "Cat discovers it was being spied on.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm",
+        "assetTitle": "Ocicat on leash climbing a tree.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ocicat_on_leash_climbing_a_tree.webm",
         "tags": [
-          "cat_beside_balcony_looking_up"
+          "ocicat_on_leash_climbing_a_tree"
         ],
-        "author": "Yourusernamewillbepublic2",
+        "author": "oldperson",
         "license": "CC0",
         "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+        "license_note": "Creator oldperson dedicated original video to CC0, Commons source page verified; actual activity must be confirmed by new MP4 review."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sophy%20the%20Cat%20is%20Really%20High%20On%20A%20Ledge.webm",
@@ -301,22 +301,22 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_saltos_corridas_nov10-ptbr-originais-v1",
+    "revision": "2026-11-10-gato_saltos_corridas_nov10-correction-independent-mp4-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Um gato corre em direção à câmera de repente. A velocidade transforma um instante comum numa surpresa.",
-        "scene": "Cenas reais de origem: Cat Jumpscare.webm",
+        "text": "Um gato rola pelo chão perto de um móvel. Ele muda de posição mais uma vez, diante da câmera.",
+        "scene": "Gato marrom brinca, deitado e rolando perto de um sofá; Cat Jumpscare.webm",
         "tags": [
           "house_cat_running_toward_camera"
         ],
         "story_role": "hook",
-        "overlay_label": "CORRIDA REPENTINA",
+        "overlay_label": "ROLANDO NO CHÃO",
         "fx": []
       },
       {
-        "text": "Em outra gravação, um gato salta para trás. O movimento foi filmado e depois mostrado lentamente.",
-        "scene": "Cenas reais de origem: Cat jumping backwards.webm",
+        "text": "Em outro ambiente, um gato salta para trás durante uma brincadeira. Um segundo gato também aparece perto dele.",
+        "scene": "Gato salta para trás num quarto; Cat jumping backwards.webm",
         "tags": [
           "house_cat_jump_backwards"
         ],
@@ -325,19 +325,19 @@
         "fx": []
       },
       {
-        "text": "Um filhote pula sobre uma esteira de bambu. Em outra cena, um gato corre atrás de um pombo, sem mostrar captura.",
-        "scene": "Cenas reais de origem: Kitten jumping on bamboo mat.webm | Cat chasing a pigeon.webm",
+        "text": "Um gato branco se movimenta sobre uma esteira de bambu. Em outra gravação, um gato e um pombo aparecem numa rua, sem que a câmera mostre uma captura.",
+        "scene": "Gato branco se movimenta sobre esteira, depois gato e pombo aparecem na rua; vídeos distintos",
         "tags": [
           "kitten_jumping_bamboo_mat",
           "outdoor_cat_chases_pigeon"
         ],
         "story_role": "action",
-        "overlay_label": "PULO E PERSEGUIÇÃO",
+        "overlay_label": "MOVIMENTOS REAIS",
         "fx": []
       },
       {
-        "text": "Já nas ruas de Istambul, um gato aparece em um registro vertical, longe dessas duas corridas.",
-        "scene": "Cenas reais de origem: Stray cat from Istambul.webm",
+        "text": "Nas ruas de Istambul, outro gato caminha pelo calçamento. A gravação vertical mostra o animal explorando o ambiente.",
+        "scene": "Gato caminha sobre calçamento de Istambul, em enquadramento vertical",
         "tags": [
           "istanbul_street_cat_recorded_vertically"
         ],
@@ -346,18 +346,18 @@
         "fx": []
       },
       {
-        "text": "Em outro local, um gato olha para cima perto de uma varanda. O ambiente muda completamente.",
-        "scene": "Cenas reais de origem: Cat discovers it was being spied on.webm",
+        "text": "Um ocicat preso a uma guia sobe numa árvore. O registro mostra outra forma de movimento, num lugar completamente diferente.",
+        "scene": "Ocicat sobe numa árvore com guia; Ocicat on leash climbing a tree.webm",
         "tags": [
-          "cat_beside_balcony_looking_up"
+          "ocicat_on_leash_climbing_a_tree"
         ],
         "story_role": "twist",
-        "overlay_label": "NOVO PONTO DE VISTA",
+        "overlay_label": "SUBINDO NA ÁRVORE",
         "fx": []
       },
       {
-        "text": "Por fim, um gato aparece num parapeito alto, enquanto outro rola no chão. As tomadas revelam movimentos diferentes, não uma aventura do mesmo animal.",
-        "scene": "Cenas reais de origem: Sophy the Cat is Really High On A Ledge.webm | Tonkinese cat rolling around - Japan - 2025 mar 22.webm",
+        "text": "Por fim, um gato fica no alto de um parapeito, enquanto outro rola no chão. São cenas de animais diferentes, cada um com seu próprio ritmo.",
+        "scene": "Gato de perfil no alto de parapeito interno; outro gato rola em carpete",
         "tags": [
           "house_cat_perched_high_ledge",
           "tonkinese_cat_rolling_on_ground"
