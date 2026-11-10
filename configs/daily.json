@@ -388,7 +388,7 @@
   },
   "gato_higiene_chamados_nov10": {
     "title": "Por que a língua dos gatos parece uma lixa?",
-    "script": "Por que a língua do gato parece lixa? Ela esconde um detalhe de engenharia natural. Pequenas papilas de queratina, voltadas para trás, ajudam a cuidar da pelagem. Pesquisadores descobriram cavidades nas pontas dessas papilas. Elas transportam saliva até os fios durante as lambidas, como pequenas colheres. Mas a língua não substitui tudo: unhas, por exemplo, exigem outros cuidados. Entre gatos, contato e cuidado podem fazer parte da vida social. Mas nem toda interação é uma lambida. O segredo é a combinação de pente e umidade. Essa estrutura impressionou cientistas, que desenvolveram até uma escova inspirada na língua felina.",
+    "script": "Por que a língua do gato parece lixa? Ela esconde um detalhe de engenharia natural. Pequenas papilas de queratina, voltadas para trás, ajudam a cuidar da pelagem. Pesquisadores descobriram cavidades nas pontas dessas papilas. Elas transportam saliva até os fios durante as lambidas, como pequenas colheres. Mas a língua não substitui tudo: unhas, por exemplo, exigem outros cuidados. Gatos também observam outros animais e se comunicam de várias formas. Mas olhar pela janela não é o mesmo que se limpar. O segredo é a combinação de pente e umidade. Essa estrutura impressionou cientistas, que desenvolveram até uma escova inspirada na língua felina.",
     "caption": "A língua de um gato não é apenas áspera: suas papilas ajudam a levar saliva até o pelo. Cientistas estudaram essa estrutura e criaram uma escova inspirada nela. Fonte científica: PNAS, 2018. #WildVox #CuriosidadesDosGatos #Gatos",
     "sources": [
       {
@@ -457,17 +457,17 @@
         "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Owiii%20and%20Iis%20Cleaning.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomcat%20calling.webm",
         "type": "video",
-        "assetTitle": "Owiii and Iis Cleaning.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Owiii_and_Iis_Cleaning.webm",
+        "assetTitle": "Tomcat calling.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomcat_calling.webm",
         "tags": [
-          "two_domestic_cats_cleaning_in_street"
+          "house_cat_observing_other_cat_through_window"
         ],
-        "author": "Joaquim Baeta",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Original creator Joaquim Baeta; CC BY 4.0 verified in live Commons File summary and structured metadata; depicts two cats cleaning outdoors. Independent actual frame inspection still required."
+        "author": "Drummyfish",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Independent prior Commons CC0 audit; frames show an indoor cat looking at another through glass; do not label the clip meowing or grooming."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20relaxing%20on%20a%20sofa.webm",
@@ -502,7 +502,7 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_higiene_chamados_nov10-tongue-science-verified-ccby-v7",
+    "revision": "2026-11-10-gato_higiene_chamados_nov10-tongue-science-unrepeated-cc0-v8",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -547,13 +547,13 @@
         "fx": []
       },
       {
-        "text": "Entre gatos, contato e cuidado podem fazer parte da vida social. Mas nem toda interação é uma lambida.",
-        "scene": "Dois gatos se limpam em ambiente de rua (cenas autênticas Owiii and Iis Cleaning.webm); ilustrar interação sem atribuir reciprocidade exata não demonstrada.",
+        "text": "Gatos também observam outros animais e se comunicam de várias formas. Mas olhar pela janela não é o mesmo que se limpar.",
+        "scene": "Tomcat calling.webm: gato de dentro observa outro por uma janela. B-roll ilustrativo de comportamentos distintos; não afirmar emissão de miado ou lambida nesta cena.",
         "tags": [
-          "two_domestic_cats_cleaning_in_street"
+          "house_cat_observing_other_cat_through_window"
         ],
         "story_role": "twist",
-        "overlay_label": "CONTATO SOCIAL",
+        "overlay_label": "OUTRO COMPORTAMENTO",
         "fx": []
       },
       {
@@ -576,7 +576,7 @@
       "verified_fact": "O estudo de 2018 na PNAS descreve papilas filiformes ocas na ponta que transportam saliva para a pelagem durante a autolimpeza.",
       "biological_explanation": "As papilas de queratina voltadas para trás possuem cavidades que retêm saliva por capilaridade, distribuindo fluido e ajudando a desembaraçar os pelos.",
       "comparison_or_consequence": "Os pesquisadores fabricaram uma escova inspirada nas papilas felinas; a estrutura funciona como um pente que distribui umidade. Higiene compartilhada é também forma de interação social entre alguns gatos.",
-      "visual_evidence_strategy": "B-roll real de autolimpeza em múltiplas fontes, dois gatos interagindo como contexto social sem atribuir lambidas não captadas, contraste com unhas cortadas por cuidador. Não fingir microscopia nem afirmar que o vídeo prova a estrutura das papilas.",
+      "visual_evidence_strategy": "Autolimpeza real em diversas filmagens; gato observando outro pela janela para contrastar comportamentos sem inventar lambida ou miado; corte real de unhas por pessoa é outra função de cuidado. Nenhuma microscopia simulada.",
       "fact_sources": [
         {
           "claim": "Papilas ocas na língua de seis espécies felinas transportam saliva até o pelo e inspiraram escova experimental.",
