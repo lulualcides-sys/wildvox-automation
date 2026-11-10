@@ -1,8 +1,8 @@
 {
   "gato_filhotinhos_cuidados_nov10": {
     "title": "Gatinhos e adultos: cuidados em cenas reais",
-    "script": "Três gatinhos alaranjados seguem a mãe, bem próximos. É uma cena simples, mas cheia de movimento. Em outra gravação, um gato adulto lambe um filhote. O contato entre eles aparece claramente. Outros três gatinhos se movimentam juntos em Kiev. Depois, surgem gatos diferentes no pátio de uma mesquita em Istambul. Uma segunda filmagem da mesquita registra novos movimentos, sem indicar que todos os animais formam uma família. Na mesma região, outra gravação mostra gatos ocupando seu espaço. Cada vídeo acompanha um momento independente. Em uma universidade, gatos recebem comida de uma pessoa. Na última cena, dois animais se limpam na rua. São cuidados visíveis, em situações diferentes.",
-    "caption": "Gatinhos, adultos e diferentes formas de cuidado em registros reais. #WildVox #Gatos #Gatinhos",
+    "script": "Três gatinhos alaranjados acompanham a mãe de perto. São movimentos pequenos, mas claros na gravação. Em outra casa, um gato adulto lambe um filhote que está deitado junto dele. Um filhote aparece ao ar livre numa filmagem distante. Depois, um gato escuro se limpa no pátio de uma mesquita em Istambul. Em outra gravação da mesquita, um gato adulto interage com filhotes no gramado, aproximando-se deles. Na mesma região, outra filmagem mostra um gato adulto cercado por filhotes. O contato acontece perto de uma parede. Em uma universidade, gatos recebem comida de uma pessoa. Na última cena, um gato branco cuida do próprio pelo na rua. São situações distintas de cuidado.",
+    "caption": "Registros reais de gatinhos, contato com adultos, alimentação e higiene. Cenas independentes e filmagens com créditos. #WildVox #Gatos #Gatinhos",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Three%20orange%20kittens%20following%20their%20mother.webm",
@@ -36,7 +36,7 @@
         "assetTitle": "Трійця кошенят.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D1%96%D0%B9%D1%86%D1%8F_%D0%BA%D0%BE%D1%88%D0%B5%D0%BD%D1%8F%D1%82.webm",
         "tags": [
-          "young_kittens_group_play_kyiv"
+          "distant_kitten_outdoors"
         ],
         "author": "Сарапулов",
         "license": "CC BY 4.0",
@@ -49,7 +49,7 @@
         "assetTitle": "Кішки мечеті Шехзаде 06.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_06.webm",
         "tags": [
-          "istanbul_mosque_cat_family_scene"
+          "istanbul_mosque_black_cat_self_grooming"
         ],
         "author": "Сарапулов",
         "license": "CC BY 4.0",
@@ -75,7 +75,7 @@
         "assetTitle": "Кішки мечеті Шехзаде 08.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_08.webm",
         "tags": [
-          "istanbul_mosque_cats_present"
+          "istanbul_mosque_adult_cat_with_kittens"
         ],
         "author": "Сарапулов",
         "license": "CC BY 4.0",
@@ -101,7 +101,7 @@
         "assetTitle": "Owiii and Iis Cleaning.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Owiii_and_Iis_Cleaning.webm",
         "tags": [
-          "two_cats_grooming_on_street"
+          "white_cat_self_grooming_outdoors"
         ],
         "author": "Joaquim Baeta",
         "license": "CC BY 4.0",
@@ -115,11 +115,11 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_filhotinhos_cuidados_nov10-ptbr-originais-v1",
+    "revision": "2026-11-10-gato_filhotinhos_cuidados_nov10-visual-truth-corrected-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Três gatinhos alaranjados seguem a mãe, bem próximos. É uma cena simples, mas cheia de movimento.",
+        "text": "Três gatinhos alaranjados acompanham a mãe de perto. São movimentos pequenos, mas claros na gravação.",
         "scene": "Cenas reais de origem: Three orange kittens following their mother.webm",
         "tags": [
           "orange_kittens_follow_cat_mother"
@@ -129,7 +129,7 @@
         "fx": []
       },
       {
-        "text": "Em outra gravação, um gato adulto lambe um filhote. O contato entre eles aparece claramente.",
+        "text": "Em outra casa, um gato adulto lambe um filhote que está deitado junto dele.",
         "scene": "Cenas reais de origem: A male cat grooms a female kitten 2021-08-25 August 25.webm",
         "tags": [
           "adult_cat_grooming_young_kitten"
@@ -139,18 +139,18 @@
         "fx": []
       },
       {
-        "text": "Outros três gatinhos se movimentam juntos em Kiev. Depois, surgem gatos diferentes no pátio de uma mesquita em Istambul.",
-        "scene": "Cenas reais de origem: Трійця кошенят.webm | Кішки мечеті Шехзаде 06.webm",
+        "text": "Um filhote aparece ao ar livre numa filmagem distante. Depois, um gato escuro se limpa no pátio de uma mesquita em Istambul.",
+        "scene": "Filhote aparece distante no ambiente externo; outro registro apresenta gato preto se limpando na grama",
         "tags": [
-          "young_kittens_group_play_kyiv",
-          "istanbul_mosque_cat_family_scene"
+          "distant_kitten_outdoors",
+          "istanbul_mosque_black_cat_self_grooming"
         ],
         "story_role": "action",
         "overlay_label": "OUTROS GATINHOS",
         "fx": []
       },
       {
-        "text": "Uma segunda filmagem da mesquita registra novos movimentos, sem indicar que todos os animais formam uma família.",
+        "text": "Em outra gravação da mesquita, um gato adulto interage com filhotes no gramado, aproximando-se deles.",
         "scene": "Cenas reais de origem: Кішки мечеті Шехзаде 07.webm",
         "tags": [
           "istanbul_mosque_cat_interaction"
@@ -160,21 +160,21 @@
         "fx": []
       },
       {
-        "text": "Na mesma região, outra gravação mostra gatos ocupando seu espaço. Cada vídeo acompanha um momento independente.",
-        "scene": "Cenas reais de origem: Кішки мечеті Шехзаде 08.webm",
+        "text": "Na mesma região, outra filmagem mostra um gato adulto cercado por filhotes. O contato acontece perto de uma parede.",
+        "scene": "Gato adulto preto e branco deitado com vários filhotes no pátio",
         "tags": [
-          "istanbul_mosque_cats_present"
+          "istanbul_mosque_adult_cat_with_kittens"
         ],
         "story_role": "twist",
         "overlay_label": "EM ISTAMBUL",
         "fx": []
       },
       {
-        "text": "Em uma universidade, gatos recebem comida de uma pessoa. Na última cena, dois animais se limpam na rua. São cuidados visíveis, em situações diferentes.",
-        "scene": "Cenas reais de origem: Rury Feeds the Faculty of Biology Cats.webm | Owiii and Iis Cleaning.webm",
+        "text": "Em uma universidade, gatos recebem comida de uma pessoa. Na última cena, um gato branco cuida do próprio pelo na rua. São situações distintas de cuidado.",
+        "scene": "Gatos alimentados por pessoa; gato branco sozinho se limpa ao ar livre",
         "tags": [
           "faculty_cats_receiving_food",
-          "two_cats_grooming_on_street"
+          "white_cat_self_grooming_outdoors"
         ],
         "story_role": "payoff",
         "overlay_label": "ALIMENTAÇÃO E HIGIENE",
@@ -372,9 +372,9 @@
     "voice": "pm_alex"
   },
   "gato_higiene_chamados_nov10": {
-    "title": "Dos pelos ao miado: comportamentos de gatos",
-    "script": "Uma gata começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis. Em outra gravação, uma pequena gata birmanesa também cuida da própria pelagem, sem precisar de ajuda. Um gato preto aparece se movimentando e se limpando. Outro gato preto, filmado separadamente, repete uma rotina de higiene. Já em outra casa, uma pessoa corta as unhas de um gato. É um cuidado diferente da autolimpeza. Um macho emite um chamado alto diante de outro gato. A cena não deve ser confundida com brincadeira. Em seguida, dois gatos realmente brigam numa gravação distinta. Terminamos com o retrato de outro gato atento. Nem todos os sinais significam a mesma coisa.",
-    "caption": "Gatos se limpam, vocalizam e reagem de maneiras distintas. Filmagens reais. #WildVox #Gatos #ComportamentoFelino",
+    "title": "Gatos em detalhes: higiene, atenção e encontros",
+    "script": "Um gato de pelagem clara começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis. Em outra gravação, um filhote birmanês também cuida da própria pelagem. É uma cena de higiene, sem ajuda humana. Um gato preto aparece deitado e em movimento. Outro registro mostra um gato preto cuidando do próprio pelo, sem provar que sejam indivíduos diferentes. Uma pessoa segura um gato no colo para cortar as unhas. É uma forma de cuidado diferente da autolimpeza. Perto de uma janela, um gato observa outro do lado de fora, atento ao que acontece naquele momento. Em outra casa, dois gatos se aproximam e interagem no chão. Um retrato encerra a sequência: a linguagem corporal muda de cena para cena, e nem toda intenção fica clara.",
+    "caption": "Gatos cuidando da pelagem, observando uma janela e interagindo: cenas reais de diferentes animais. #WildVox #Gatos #ComportamentoFelino",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin2.webm",
@@ -447,7 +447,7 @@
         "assetTitle": "Tomcat calling.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomcat_calling.webm",
         "tags": [
-          "male_cat_vocalizing_alert"
+          "house_cat_looking_at_another_cat_through_window"
         ],
         "author": "Drummyfish",
         "license": "CC0",
@@ -460,7 +460,7 @@
         "assetTitle": "Domestic catfight.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Domestic_catfight.webm",
         "tags": [
-          "domestic_cats_actual_fight"
+          "domestic_cats_physical_interaction"
         ],
         "author": "Panini!",
         "license": "CC0",
@@ -487,11 +487,11 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_higiene_chamados_nov10-ptbr-originais-v1",
+    "revision": "2026-11-10-gato_higiene_chamados_nov10-real-action-revision-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Uma gata começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis.",
+        "text": "Um gato de pelagem clara começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis.",
         "scene": "Cenas reais de origem: Moomin2.webm",
         "tags": [
           "house_cat_moomin_grooming"
@@ -501,7 +501,7 @@
         "fx": []
       },
       {
-        "text": "Em outra gravação, uma pequena gata birmanesa também cuida da própria pelagem, sem precisar de ajuda.",
+        "text": "Em outra gravação, um filhote birmanês também cuida da própria pelagem. É uma cena de higiene, sem ajuda humana.",
         "scene": "Cenas reais de origem: Burmese Kitten Grooming Itself.webm",
         "tags": [
           "burmese_kitten_self_grooming"
@@ -511,8 +511,8 @@
         "fx": []
       },
       {
-        "text": "Um gato preto aparece se movimentando e se limpando. Outro gato preto, filmado separadamente, repete uma rotina de higiene.",
-        "scene": "Cenas reais de origem: Felis silvestris catus (Monarca).ogv | A black Felis silvestris catus.ogv",
+        "text": "Um gato preto aparece deitado e em movimento. Outro registro mostra um gato preto cuidando do próprio pelo, sem provar que sejam indivíduos diferentes.",
+        "scene": "Duas gravações de um gato preto repousando e realizando autolimpeza, sem inferir indivíduos distintos",
         "tags": [
           "black_monarca_cat_play_groom",
           "black_house_cat_self_grooming"
@@ -522,7 +522,7 @@
         "fx": []
       },
       {
-        "text": "Já em outra casa, uma pessoa corta as unhas de um gato. É um cuidado diferente da autolimpeza.",
+        "text": "Uma pessoa segura um gato no colo para cortar as unhas. É uma forma de cuidado diferente da autolimpeza.",
         "scene": "Cenas reais de origem: Larry the cat getting his nails trimmed (VID 20210408 123153).webm",
         "tags": [
           "house_cat_getting_nails_trimmed"
@@ -532,24 +532,24 @@
         "fx": []
       },
       {
-        "text": "Um macho emite um chamado alto diante de outro gato. A cena não deve ser confundida com brincadeira.",
-        "scene": "Cenas reais de origem: Tomcat calling.webm",
+        "text": "Perto de uma janela, um gato observa outro do lado de fora, atento ao que acontece naquele momento.",
+        "scene": "Gato dentro de casa observa outro gato através da janela; Tomcat calling.webm",
         "tags": [
-          "male_cat_vocalizing_alert"
+          "house_cat_looking_at_another_cat_through_window"
         ],
         "story_role": "twist",
-        "overlay_label": "CHAMADO DE ALERTA",
+        "overlay_label": "OLHANDO A JANELA",
         "fx": []
       },
       {
-        "text": "Em seguida, dois gatos realmente brigam numa gravação distinta. Terminamos com o retrato de outro gato atento. Nem todos os sinais significam a mesma coisa.",
-        "scene": "Cenas reais de origem: Domestic catfight.webm | Closeup of a black cat.jpg",
+        "text": "Em outra casa, dois gatos se aproximam e interagem no chão. Um retrato encerra a sequência: a linguagem corporal muda de cena para cena, e nem toda intenção fica clara.",
+        "scene": "Duas felinas interagem fisicamente no chão; foto de outro gato preto encerra",
         "tags": [
-          "domestic_cats_actual_fight",
+          "domestic_cats_physical_interaction",
           "black_cat_green_eyes_closeup"
         ],
         "story_role": "payoff",
-        "overlay_label": "CONFLITO REAL",
+        "overlay_label": "OUTRO ENCONTRO",
         "fx": []
       }
     ],
