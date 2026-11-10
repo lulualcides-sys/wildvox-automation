@@ -71,9 +71,27 @@ def safe_download(url, path):
     return False
 
 def _normalize_plan_text(text):
-    return re.sub(r"\s+", " ", re.sub(r"[^A-Za-z0-9']+", " ", text or "")).strip().lower()
+    """Compare exact narration text without stripping Portuguese accent letters."""
+    return re.sub(r"\s+", " ", re.sub(r"[^\w']+", " ", text or "")).strip().casefold()
 
-def generate_voice(text, key, visual_plan=None):
+
+NARRATION_VOICES = {
+    "en-US": ("a", "am_michael"),  # Legacy batches, never re-publish as new.
+    "pt-BR": ("p", "pm_alex"),    # Brazilian Portuguese, male Kokoro voice.
+}
+
+
+def narration_preset(language="en-US", voice_name=None):
+    if language not in NARRATION_VOICES:
+        raise ValueError(f"Unsupported WildVox narration locale: {language}")
+    code, expected_voice = NARRATION_VOICES[language]
+    if voice_name and voice_name != expected_voice:
+        raise ValueError(
+            f"Voice {voice_name} is incompatible with {language}; expected {expected_voice}"
+        )
+    return code, expected_voice
+
+def generate_voice(text, key, visual_plan=None, language="en-US", voice_name=None):
     """Generate Kokoro narration and an exact semantic timing map.
 
     When every visual_plan block includes exact narration text, synthesize each
@@ -81,8 +99,9 @@ def generate_voice(text, key, visual_plan=None):
     editor exact boundaries for B-roll changes without running ASR over speech
     that WildVox generated itself.
     """
-    print(f"Generating Kokoro am_michael narration for {key}...", flush=True)
-    pipeline = KPipeline(lang_code="a")
+    lang_code, selected_voice = narration_preset(language, voice_name)
+    print(f"Generating Kokoro {language} / {selected_voice} narration for {key}...", flush=True)
+    pipeline = KPipeline(lang_code=lang_code)
 
     timed_plan = []
     if visual_plan and all((block.get("text") or "").strip() for block in visual_plan):
@@ -102,7 +121,7 @@ def generate_voice(text, key, visual_plan=None):
         block_text = (block.get("text") or "").strip()
         generator = pipeline(
             block_text,
-            voice="am_michael",
+            voice=selected_voice,
             speed=NARRATION_SPEED,
             split_pattern=r"\n+",
         )
@@ -130,6 +149,7 @@ def generate_voice(text, key, visual_plan=None):
             "end": cursor,
             "duration": block_duration,
             "text": block_text,
+            "language": language,
             "scene": block.get("scene") or block_text,
             "tags": list(block.get("tags") or []),
             "story_role": block.get("story_role"),
@@ -142,11 +162,11 @@ def generate_voice(text, key, visual_plan=None):
         raise RuntimeError("Kokoro returned no audio")
 
     full = np.concatenate(chunks)
-    wav = OUT / f"{key}_michael.wav"
+    wav = OUT / f"{key}_{selected_voice}.wav"
     sf.write(wav, full, 24000)
     run([
         "ffmpeg","-y","-hide_banner","-loglevel","error","-i",str(wav),
-        "-codec:a","libmp3lame","-b:a","192k",str(OUT/f"{key}_michael.mp3")
+        "-codec:a","libmp3lame","-b:a","192k",str(OUT/f"{key}_{selected_voice}.mp3")
     ])
     return wav, len(full) / 24000.0, timed_plan
 
@@ -161,8 +181,8 @@ def ass_time(seconds):
     return f"{h}:{m:02d}:{s:05.2f}"
 
 def weight(word):
-    clean = re.sub(r"[^A-Za-z]","",word).lower()
-    vowels = re.findall(r"[aeiouy]+",clean)
+    clean = re.sub(r"[^A-Za-zÀ-ÿ]", "", word).lower()
+    vowels = re.findall(r"[aeiouyáàãâéêíóôõúü]+", clean)
     return max(0.75, len(vowels)*1.05 + len(clean)*0.055)
 
 def caption_word_intervals(text, duration, narration_timeline=None):
@@ -1059,8 +1079,11 @@ def main():
     # Prepare complete source attribution before expensive TTS or rendering.
     attributed_caption = attributed_tiktok_caption(cfg)
 
+    language = cfg.get("language") or "en-US"
+    lang_code, selected_voice = narration_preset(language, cfg.get("voice"))
     voice, duration, narration_timeline = generate_voice(
-        cfg["script"], args.key, visual_plan=cfg.get("visual_plan")
+        cfg["script"], args.key, visual_plan=cfg.get("visual_plan"),
+        language=language, voice_name=selected_voice
     )
 
     min_duration = float(cfg.get("min_duration", 0) or 0)
@@ -1113,7 +1136,8 @@ def main():
                 cfg, sort_keys=True, ensure_ascii=False,
                 separators=(",", ":")).encode("utf-8")).hexdigest(),
             "duration": round(duration, 2),
-            "voice": "am_michael",
+            "voice": selected_voice,
+            "language": language,
             "speed": NARRATION_SPEED,
             "narration_timeline": narration_timeline,
             "sources": cfg["sources"],

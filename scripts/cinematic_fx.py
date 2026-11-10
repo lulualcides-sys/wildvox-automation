@@ -11,6 +11,7 @@ Style: FxShape,DejaVu Sans,25,&H004AD0F2,&H004AD0F2,&H004AD0F2,&H00000000,-1,0,0
 """
 GOLD = "&H4AD0F2&"
 ROLES = {"hook": "LOOK CLOSER", "payoff": "THE REVEAL"}
+ROLES_PT_BR = {"hook": "OLHE BEM", "payoff": "A REVELAÇÃO"}
 TYPES = {"arrow", "ring", "box", "label"}
 
 
@@ -101,7 +102,8 @@ def build_events(timeline):
         role = block.get("story_role")
         caption = block.get("overlay_label")
         if caption is None:
-            caption = ROLES.get(role)
+            roles = ROLES_PT_BR if block.get("language") == "pt-BR" else ROLES
+            caption = roles.get(role)
         if caption:
             line = label(caption, 82, 1150, t0 + .08, min(end, t0 + 1.95))
             if line:

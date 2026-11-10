@@ -39,8 +39,11 @@ def attributed_tiktok_caption(entry):
         # footage by the same creator can represent different source works.
         lines.append(f"{index}. {author} | {license_name} | {source_page} | {license_url}")
 
-    result = (caption + "\n\nFootage credits (edited: 9:16 crop, subtitles, narration):\n"
-              + "\n".join(lines))
+    language = str(entry.get("language") or "en-US")
+    heading = ("Créditos dos vídeos (edição vertical 9:16, legendas e narração):"
+               if language == "pt-BR"
+               else "Footage credits (edited: 9:16 crop, subtitles, narration):")
+    result = caption + "\n\n" + heading + "\n" + "\n".join(lines)
     if len(result) > MAX_TIKTOK_CAPTION:
         raise ValueError(
             f"Attribution caption is {len(result)} characters; TikTok limit "
