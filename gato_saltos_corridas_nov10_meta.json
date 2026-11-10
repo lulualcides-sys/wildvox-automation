@@ -1,0 +1,215 @@
+{
+  "key": "gato_saltos_corridas_nov10",
+  "title": "Gatos em movimento: da corrida ao descanso",
+  "caption": "Corridas, saltos e pausas: oito registros diferentes de gatos. #WildVox #Gatos #Animais\n\nCréditos dos vídeos (edição vertical 9:16, legendas e narração):\n1. Panini! | CC0 | https://commons.wikimedia.org/wiki/File:Cat_Jumpscare.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n2. Mary Qin | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Cat_jumping_backwards.webm | https://creativecommons.org/licenses/by/3.0/\n3. Fumikas Sagisavas | CC0 | https://commons.wikimedia.org/wiki/File:Kitten_jumping_on_bamboo_mat.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. Jeromi Mikhael | CC0 | https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n5. ErikaGuetti | CC0 | https://commons.wikimedia.org/wiki/File:Stray_cat_from_Istambul.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n6. Yourusernamewillbepublic2 | CC0 | https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n7. PseudoSkull | CC0 | https://commons.wikimedia.org/wiki/File:Sophy_the_Cat_is_Really_High_On_A_Ledge.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n8. Nesnad | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Tonkinese_cat_rolling_around_-_Japan_-_2025_mar_22.webm | https://creativecommons.org/licenses/by/4.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "658f2507e1eae0a1e9a6b3b90fe97eb7f0c618b3ef7e95b2c7df8643a8b69613",
+  "duration": 39.85,
+  "voice": "pm_alex",
+  "language": "pt-BR",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.55,
+      "duration": 6.55,
+      "text": "Um gato corre em direção à câmera de repente. A velocidade transforma um instante comum numa surpresa.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Cat Jumpscare.webm",
+      "tags": [
+        "house_cat_running_toward_camera"
+      ],
+      "story_role": "hook",
+      "overlay_label": "CORRIDA REPENTINA",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.55,
+      "end": 12.825,
+      "duration": 6.275,
+      "text": "Em outra gravação, um gato salta para trás. O movimento foi filmado e depois mostrado lentamente.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Cat jumping backwards.webm",
+      "tags": [
+        "house_cat_jump_backwards"
+      ],
+      "story_role": "setup",
+      "overlay_label": "SALTO PARA TRÁS",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 12.825,
+      "end": 19.525,
+      "duration": 6.7,
+      "text": "Um filhote pula sobre uma esteira de bambu. Em outra cena, um gato corre atrás de um pombo, sem mostrar captura.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Kitten jumping on bamboo mat.webm | Cat chasing a pigeon.webm",
+      "tags": [
+        "kitten_jumping_bamboo_mat",
+        "outdoor_cat_chases_pigeon"
+      ],
+      "story_role": "action",
+      "overlay_label": "PULO E PERSEGUIÇÃO",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 19.525,
+      "end": 25.275,
+      "duration": 5.75,
+      "text": "Já nas ruas de Istambul, um gato aparece em um registro vertical, longe dessas duas corridas.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Stray cat from Istambul.webm",
+      "tags": [
+        "istanbul_street_cat_recorded_vertically"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "NAS RUAS",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 25.275,
+      "end": 30.924999999999997,
+      "duration": 5.65,
+      "text": "Em outro local, um gato olha para cima perto de uma varanda. O ambiente muda completamente.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Cat discovers it was being spied on.webm",
+      "tags": [
+        "cat_beside_balcony_looking_up"
+      ],
+      "story_role": "twist",
+      "overlay_label": "NOVO PONTO DE VISTA",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 30.924999999999997,
+      "end": 39.849999999999994,
+      "duration": 8.925,
+      "text": "Por fim, um gato aparece num parapeito alto, enquanto outro rola no chão. As tomadas revelam movimentos diferentes, não uma aventura do mesmo animal.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Sophy the Cat is Really High On A Ledge.webm | Tonkinese cat rolling around - Japan - 2025 mar 22.webm",
+      "tags": [
+        "house_cat_perched_high_ledge",
+        "tonkinese_cat_rolling_on_ground"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "DO ALTO AO CHÃO",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Jumpscare.webm",
+      "type": "video",
+      "assetTitle": "Cat Jumpscare.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Jumpscare.webm",
+      "tags": [
+        "house_cat_running_toward_camera"
+      ],
+      "author": "Panini!",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20jumping%20backwards.webm",
+      "type": "video",
+      "assetTitle": "Cat jumping backwards.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_jumping_backwards.webm",
+      "tags": [
+        "house_cat_jump_backwards"
+      ],
+      "author": "Mary Qin",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20jumping%20on%20bamboo%20mat.webm",
+      "type": "video",
+      "assetTitle": "Kitten jumping on bamboo mat.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_jumping_on_bamboo_mat.webm",
+      "tags": [
+        "kitten_jumping_bamboo_mat"
+      ],
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20chasing%20a%20pigeon.webm",
+      "type": "video",
+      "assetTitle": "Cat chasing a pigeon.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm",
+      "tags": [
+        "outdoor_cat_chases_pigeon"
+      ],
+      "author": "Jeromi Mikhael",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stray%20cat%20from%20Istambul.webm",
+      "type": "video",
+      "assetTitle": "Stray cat from Istambul.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Stray_cat_from_Istambul.webm",
+      "tags": [
+        "istanbul_street_cat_recorded_vertically"
+      ],
+      "author": "ErikaGuetti",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20discovers%20it%20was%20being%20spied%20on.webm",
+      "type": "video",
+      "assetTitle": "Cat discovers it was being spied on.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm",
+      "tags": [
+        "cat_beside_balcony_looking_up"
+      ],
+      "author": "Yourusernamewillbepublic2",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sophy%20the%20Cat%20is%20Really%20High%20On%20A%20Ledge.webm",
+      "type": "video",
+      "assetTitle": "Sophy the Cat is Really High On A Ledge.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sophy_the_Cat_is_Really_High_On_A_Ledge.webm",
+      "tags": [
+        "house_cat_perched_high_ledge"
+      ],
+      "author": "PseudoSkull",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkinese%20cat%20rolling%20around%20-%20Japan%20-%202025%20mar%2022.webm",
+      "type": "video",
+      "assetTitle": "Tonkinese cat rolling around - Japan - 2025 mar 22.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tonkinese_cat_rolling_around_-_Japan_-_2025_mar_22.webm",
+      "tags": [
+        "tonkinese_cat_rolling_on_ground"
+      ],
+      "author": "Nesnad",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    }
+  ],
+  "review_sheet": "gato_saltos_corridas_nov10_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
