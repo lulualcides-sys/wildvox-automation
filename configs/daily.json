@@ -1,979 +1,932 @@
 {
-  "cat_curiosity_to_calm_nov10": {
-    "title": "How Cats Move Between Curiosity and Rest",
-    "script": "A cat investigates a paper bag, peering into a new hiding place. Elsewhere, a black cat walks outdoors across the ground. Two cats play together indoors, while another cat rolls and stretches in a separate home. A different cat stops to groom its own fur. One kitten rests on a bed, and another cat relaxes on a sofa. Finally, a cat spends a quiet moment with a person outdoors. These scenes show different cats in different settings, not one continuous journey. The camera follows small, everyday changes in activity without assuming what any cat is thinking.",
-    "caption": "How Cats Move Between Curiosity and Rest. Original English narration, real animal footage. All creators, sources, and CC licenses credited in publication metadata. #WildVox #Animals #Wildlife",
+  "gato_filhotinhos_cuidados_nov10": {
+    "title": "Gatinhos e adultos: cuidados em cenas reais",
+    "script": "Três gatinhos alaranjados seguem a mãe, bem próximos. É uma cena simples, mas cheia de movimento. Em outra gravação, um gato adulto lambe um filhote. O contato entre eles aparece claramente. Outros três gatinhos se movimentam juntos em Kiev. Depois, surgem gatos diferentes no pátio de uma mesquita em Istambul. Uma segunda filmagem da mesquita registra novos movimentos, sem indicar que todos os animais formam uma família. Na mesma região, outra gravação mostra gatos ocupando seu espaço. Cada vídeo acompanha um momento independente. Em uma universidade, gatos recebem comida de uma pessoa. Na última cena, dois animais se limpam na rua. São cuidados visíveis, em situações diferentes.",
+    "caption": "Gatinhos, adultos e diferentes formas de cuidado em registros reais. #WildVox #Gatos #Gatinhos",
     "sources": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20in%20a%20Bag.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Three%20orange%20kittens%20following%20their%20mother.webm",
         "type": "video",
-        "assetTitle": "Cat in a Bag.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
+        "assetTitle": "Three orange kittens following their mother.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Three_orange_kittens_following_their_mother.webm",
         "tags": [
-          "domestic_cat_inside_paper_bag"
+          "orange_kittens_follow_cat_mother"
         ],
-        "author": "Roger Braunstein",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "3e44bcd7f1be98563b3e009fb7191c07bab65796",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
-        "portrait_crop": "4:5"
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Cat%20walking.webm",
-        "type": "video",
-        "assetTitle": "Black Cat walking.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm",
-        "tags": [
-          "black_domestic_cat_walking"
-        ],
-        "author": "Dzkouslavia",
+        "author": "Jeromi Mikhael",
         "license": "CC0",
         "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "21b4861a4752fb0171b5a62c4610112b016cb042",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20and%20Chlo%C3%A9%20playing%20(100111224612).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20male%20cat%20grooms%20a%20female%20kitten%202021-08-25%20August%2025.webm",
         "type": "video",
-        "assetTitle": "Larry the cat and Chloé playing (100111224612).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm",
+        "assetTitle": "A male cat grooms a female kitten 2021-08-25 August 25.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_male_cat_grooms_a_female_kitten_2021-08-25_August_25.webm",
         "tags": [
-          "domestic_cats_playing_together"
+          "adult_cat_grooming_young_kitten"
         ],
-        "author": "Trougnouf",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "7d8ad97a93c959d18f433998b9659d6211276c6d",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
-        "portrait_crop": "4:5"
+        "author": "ウィキ太郎(Wiki Taro)",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20in%20Taiwan.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A2%D1%80%D1%96%D0%B9%D1%86%D1%8F%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BD%D1%8F%D1%82.webm",
         "type": "video",
-        "assetTitle": "Cat playing in Taiwan.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm",
+        "assetTitle": "Трійця кошенят.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D1%96%D0%B9%D1%86%D1%8F_%D0%BA%D0%BE%D1%88%D0%B5%D0%BD%D1%8F%D1%82.webm",
         "tags": [
-          "domestic_cat_playing_in_taiwan"
+          "young_kittens_group_play_kyiv"
         ],
-        "author": "MiNe",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "4bcb9837d5f4a5fb471091b9cd7b082db247fde4",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
-        "portrait_crop": "4:5"
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
-        "type": "video",
-        "assetTitle": "Cat behaviour - self-grooming.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
-        "tags": [
-          "domestic_cat_self_grooming"
-        ],
-        "author": "Learnerktm",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "abed679c9607ae913d3528c8fccc6e5ea1384153",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication.",
-        "portrait_crop": "4:5"
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
-        "type": "video",
-        "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
-        "author": "Nesnad",
+        "author": "Сарапулов",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Original Commons source previously catalogued in cat_play_hunting_instinct_meta.json; LIVE Commons audit and CURRENT-run visual review required before release.",
-        "tags": [
-          "domestic_kitten_playing_indoors"
-        ]
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20relaxing%20on%20a%20sofa.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D1%96%D1%88%D0%BA%D0%B8%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96%20%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5%2006.webm",
         "type": "video",
-        "assetTitle": "Cat relaxing on a sofa.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_relaxing_on_a_sofa.webm",
+        "assetTitle": "Кішки мечеті Шехзаде 06.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_06.webm",
         "tags": [
-          "domestic_cat_resting_on_sofa"
+          "istanbul_mosque_cat_family_scene"
         ],
-        "author": "Ivan Kurmanov",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "e64cefbf1bb292491cabf3775f4b5424cc63743f",
-        "license_note": "Wikimedia Commons original and 2016 Flickr CC BY 2.0 reviewer confirmation verified 2026-11-02; replaces visually empty balcony footage; independent rendered MP4 QA and visual approval still required."
+        "author": "Сарапулов",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andra%20and%20Billy.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D1%96%D1%88%D0%BA%D0%B8%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96%20%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5%2007.webm",
         "type": "video",
-        "assetTitle": "Andra and Billy.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm",
+        "assetTitle": "Кішки мечеті Шехзаде 07.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_07.webm",
         "tags": [
-          "domestic_cat_interacts_with_person"
+          "istanbul_mosque_cat_interaction"
+        ],
+        "author": "Сарапулов",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D1%96%D1%88%D0%BA%D0%B8%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96%20%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5%2008.webm",
+        "type": "video",
+        "assetTitle": "Кішки мечеті Шехзаде 08.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_08.webm",
+        "tags": [
+          "istanbul_mosque_cats_present"
+        ],
+        "author": "Сарапулов",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rury%20Feeds%20the%20Faculty%20of%20Biology%20Cats.webm",
+        "type": "video",
+        "assetTitle": "Rury Feeds the Faculty of Biology Cats.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rury_Feeds_the_Faculty_of_Biology_Cats.webm",
+        "tags": [
+          "faculty_cats_receiving_food"
         ],
         "author": "Joaquim Baeta",
         "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-02",
-        "original_sha1": "5d50eec313bfaaf1dcf1562088f1a7f52a445edf",
-        "license_note": "Wikimedia Commons live imageinfo verified 2026-11-02; original footage, creator and license identified. Framing/action must pass independent full-video QA before publication."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-10-cat_curiosity_to_calm_nov10-narration-duration-visual-alignment-v3",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "A cat investigates a paper bag, peering into a new hiding place.",
-        "scene": "Authentic footage: Cat in a Bag.webm",
-        "tags": [
-          "domestic_cat_inside_paper_bag"
-        ],
-        "story_role": "hook",
-        "overlay_label": "OPENING",
-        "fx": []
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "text": "Elsewhere, a black cat walks outdoors across the ground.",
-        "scene": "Authentic footage: Black Cat walking.webm",
-        "tags": [
-          "black_domestic_cat_walking"
-        ],
-        "story_role": "setup",
-        "overlay_label": "OBSERVE",
-        "fx": []
-      },
-      {
-        "text": "Two cats play together indoors, while another cat rolls and stretches in a separate home.",
-        "scene": "Authentic footage: Larry the cat and Chloé playing (100111224612).webm + Cat playing in Taiwan.webm",
-        "tags": [
-          "domestic_cats_playing_together",
-          "domestic_cat_playing_in_taiwan"
-        ],
-        "story_role": "action",
-        "overlay_label": "MOVEMENT",
-        "fx": []
-      },
-      {
-        "text": "A different cat stops to groom its own fur.",
-        "scene": "Authentic footage: Cat behaviour - self-grooming.webm",
-        "tags": [
-          "domestic_cat_self_grooming"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "BEHAVIOR",
-        "fx": []
-      },
-      {
-        "text": "One kitten rests on a bed, and another cat relaxes on a sofa.",
-        "scene": "Authentic footage: Kitten playing - Tokyo - Jan 7 2020.webm + Cat relaxing on a sofa.webm",
-        "tags": [
-          "domestic_kitten_playing_indoors",
-          "domestic_cat_resting_on_sofa"
-        ],
-        "story_role": "twist",
-        "overlay_label": "DETAIL",
-        "fx": []
-      },
-      {
-        "text": "Finally, a cat spends a quiet moment with a person outdoors. These scenes show different cats in different settings, not one continuous journey. The camera follows small, everyday changes in activity without assuming what any cat is thinking.",
-        "scene": "Authentic footage: Andra and Billy.webm",
-        "tags": [
-          "domestic_cat_interacts_with_person"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "FINAL SCENE",
-        "fx": []
-      }
-    ],
-    "trend_priority": true
-  },
-  "red_squirrel_perches_and_food_nov10": {
-    "title": "From Squirrel Perches to Food Stops",
-    "script": "One red squirrel pauses on a city ledge, while another sits among branches. In a park, a squirrel moves around a tree trunk. A separate squirrel perches in another park tree. One red squirrel pauses in an English tree, while another climbs a trunk. A squirrel handles food on a stump. Finally, another squirrel investigates walnuts scattered on wood. Each clip follows a different animal in a different place. Watch how the surroundings change from branches and trunks to the wooden surfaces where food is visible.",
-    "caption": "From Squirrel Perches to Food Stops. Original English narration, real animal footage. All creators, sources, and CC licenses credited in publication metadata. #WildVox #Animals #Wildlife",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20in%20Berlin.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Owiii%20and%20Iis%20Cleaning.webm",
         "type": "video",
-        "assetTitle": "Red Squirrel in Berlin.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_in_Berlin.webm",
-        "author": "Redeemer",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "assetTitle": "Owiii and Iis Cleaning.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Owiii_and_Iis_Cleaning.webm",
         "tags": [
-          "red_squirrel_berlin_urban_ledge"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ekorre%20r%C3%A4dselljud%3F%20Red%20squirrel%20fear%20noise%3F.webm",
-        "type": "video",
-        "assetTitle": "Ekorre rädselljud? Red squirrel fear noise?.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ekorre_r%C3%A4dselljud%3F_Red_squirrel_fear_noise%3F.webm",
-        "author": "Blockhaj",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_alert_on_tree_branches"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-21%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
-        "type": "video",
-        "assetTitle": "2022-01-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-21_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_ljubljana_tree_movement"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-12-10%20LJUBLJANA%20Krajinski%20park%20Tivoli%20RODENTIA%20Sciurus%20vulgaris%20NAVADNA%20VEVERICA.webm",
-        "type": "video",
-        "assetTitle": "2021-12-10 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2021-12-10_LJUBLJANA_Krajinski_park_Tivoli_RODENTIA_Sciurus_vulgaris_NAVADNA_VEVERICA.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-10-31",
-        "license_note": "Previously Commons-verified real red-squirrel footage; exact tree action and absence of baked-in unrelated text require current-run visual review. Current-run v8 decoded frames showed source randomly offset to near-empty trunk at 14.3-16.3s; force original beginning where source-preview frame shows the squirrel on branches. Rerender and verify visible action.",
-        "tags": [
-          "red_squirrel_ljubljana_tree_perch_december"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20squirrel%20(Sciurus%20vulgaris)%20in%20England.webm",
-        "type": "video",
-        "assetTitle": "Red squirrel (Sciurus vulgaris) in England.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_squirrel_(Sciurus_vulgaris)_in_England.webm",
-        "author": "Peter Trimming",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_england_tree_perch"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20(Sciurus%20vulgaris).webm",
-        "type": "video",
-        "assetTitle": "Red Squirrel (Sciurus vulgaris).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_(Sciurus_vulgaris).webm",
-        "author": "gails_pictures (Flickr)",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_climbing_tree_trunk"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20Squirrel%20'Nutkin'%20-%20Seen%20at%20Forest%20How%2C%20Eskdale%2C%20Cumbria%20-%20North%20West%20England.webm",
-        "type": "video",
-        "assetTitle": "Red Squirrel 'Nutkin' - Seen at Forest How, Eskdale, Cumbria - North West England.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_Squirrel_'Nutkin'_-_Seen_at_Forest_How%2C_Eskdale%2C_Cumbria_-_North_West_England.webm",
-        "author": "Peter Trimming from Croydon, England",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "red_squirrel_nutkin_eating_on_stump"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Walnut%20Disaster.webm",
-        "type": "video",
-        "assetTitle": "The Great Walnut Disaster.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Great_Walnut_Disaster.webm",
-        "author": "Peter Trimming",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Wikimedia Commons original Flickr CC BY 2.0 license reviewed 2019; video shows red squirrels and walnuts on a stump. Exact shot and absence of baked-in captions must be independently checked after current-day render; hold remains true.",
-        "tags": [
-          "red_squirrel_walnut_stump_search"
-        ]
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-10-red_squirrel_perches_and_food_nov10-narration-duration-visual-alignment-v3",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "One red squirrel pauses on a city ledge, while another sits among branches.",
-        "scene": "Authentic footage: Red Squirrel in Berlin.webm + Ekorre rädselljud? Red squirrel fear noise?.webm",
-        "tags": [
-          "red_squirrel_berlin_urban_ledge",
-          "red_squirrel_alert_on_tree_branches"
+          "two_cats_grooming_on_street"
         ],
-        "story_role": "hook",
-        "overlay_label": "OPENING",
-        "fx": []
-      },
-      {
-        "text": "In a park, a squirrel moves around a tree trunk.",
-        "scene": "Authentic footage: 2022-01-21 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "tags": [
-          "red_squirrel_ljubljana_tree_movement"
-        ],
-        "story_role": "setup",
-        "overlay_label": "OBSERVE",
-        "fx": []
-      },
-      {
-        "text": "A separate squirrel perches in another park tree.",
-        "scene": "Authentic footage: 2021-12-10 LJUBLJANA Krajinski park Tivoli RODENTIA Sciurus vulgaris NAVADNA VEVERICA.webm",
-        "tags": [
-          "red_squirrel_ljubljana_tree_perch_december"
-        ],
-        "story_role": "action",
-        "overlay_label": "MOVEMENT",
-        "fx": []
-      },
-      {
-        "text": "One red squirrel pauses in an English tree, while another climbs a trunk.",
-        "scene": "Authentic footage: Red squirrel (Sciurus vulgaris) in England.webm + Red Squirrel (Sciurus vulgaris).webm",
-        "tags": [
-          "red_squirrel_england_tree_perch",
-          "red_squirrel_climbing_tree_trunk"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "BEHAVIOR",
-        "fx": []
-      },
-      {
-        "text": "A squirrel handles food on a stump.",
-        "scene": "Authentic footage: Red Squirrel 'Nutkin' - Seen at Forest How, Eskdale, Cumbria - North West England.webm",
-        "tags": [
-          "red_squirrel_nutkin_eating_on_stump"
-        ],
-        "story_role": "twist",
-        "overlay_label": "DETAIL",
-        "fx": []
-      },
-      {
-        "text": "Finally, another squirrel investigates walnuts scattered on wood. Each clip follows a different animal in a different place. Watch how the surroundings change from branches and trunks to the wooden surfaces where food is visible.",
-        "scene": "Authentic footage: The Great Walnut Disaster.webm",
-        "tags": [
-          "red_squirrel_walnut_stump_search"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "FINAL SCENE",
-        "fx": []
-      }
-    ],
-    "trend_priority": false
-  },
-  "kingfisher_waterway_watch_nov10": {
-    "title": "Kingfishers Watching Different Waterways",
-    "script": "A kingfisher waits beside a waterway, sitting on a narrow perch. At another stretch of water, a different kingfisher pauses among vegetation. A third bird sits near a river, while another rests by the water. One kingfisher carefully preens its feathers. In a closer view, blue and orange plumage and a pointed bill stand out. Two other kingfishers appear in separate recordings near their own perches. These are separate sightings, not a single bird's journey. The footage shows quiet moments of watching and grooming, without claiming a successful catch or a particular hunting outcome.",
-    "caption": "Kingfishers Watching Different Waterways. Original English narration, real animal footage. All creators, sources, and CC licenses credited in publication metadata. #WildVox #Animals #Wildlife",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-14%20LJUBLJANA%20%C5%A0pica%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
-        "type": "video",
-        "assetTitle": "2022-01-14 LJUBLJANA Špica CORACIIFORMES Alcedo atthis VODOMEC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-14_LJUBLJANA_Špica_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
-        "tags": [
-          "kingfisher_perched_at_water_edge"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-11-05",
-        "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling.",
-        "portrait_crop": "9:16"
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-01%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
-        "type": "video",
-        "assetTitle": "2022-09-01 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-01_VRHNIKA_Ribniki_pri_stari_opekarni_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
-        "tags": [
-          "kingfisher_at_different_waterway"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-11-05",
-        "license_note": "Original Commons source, license independently checked. Current-run MP4 and source action review REQUIRED before any scheduling."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-23%20RIBNIKI%20V%20DOLINI%20DRAGE%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
-        "type": "video",
-        "assetTitle": "2022-07-23 RIBNIKI V DOLINI DRAGE CORACIIFORMES Alcedo atthis VODOMEC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-23_RIBNIKI_V_DOLINI_DRAGE_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
-        "tags": [
-          "kingfisher_perched_near_river_habitat"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits.",
-        "portrait_crop": "9:16"
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20kingfisher%20(Alcedo%20atthis)%20in%20Slovakia.webm",
-        "type": "video",
-        "assetTitle": "Common kingfisher (Alcedo atthis) in Slovakia.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_kingfisher_(Alcedo_atthis)_in_Slovakia.webm",
-        "tags": [
-          "kingfisher_resting_preening_by_water"
-        ],
-        "author": "Lubo Ondrasko",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20preening.webm",
-        "type": "video",
-        "assetTitle": "Common Kingfisher preening.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_preening.webm",
-        "tags": [
-          "kingfisher_preening_feathers"
-        ],
-        "author": "Lennart Hessel",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits.",
-        "portrait_crop": "9:16"
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kingfisher%202025%2009%2028%2001.webm",
-        "type": "video",
-        "assetTitle": "Kingfisher 2025 09 28 01.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kingfisher_2025_09_28_01.webm",
-        "tags": [
-          "kingfisher_close_blue_orange_bill_hook_nov07"
-        ],
-        "author": "Alexis Lours",
+        "author": "Joaquim Baeta",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 4.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits.",
-        "portrait_crop": "4:5"
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-25%20VRHNIKA%20Ribniki%20pri%20stari%20opekarni%20CORACIIFORMES%20Alcedo%20atthis%20VODOMEC.webm",
-        "type": "video",
-        "assetTitle": "2022-07-25 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-07-25_VRHNIKA_Ribniki_pri_stari_opekarni_CORACIIFORMES_Alcedo_atthis_VODOMEC.webm",
-        "tags": [
-          "kingfisher_eating_caught_fish"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits.",
-        "portrait_crop": "4:5"
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Common%20Kingfisher%20eating%20a%20fish.webm",
-        "type": "video",
-        "assetTitle": "Common Kingfisher eating a fish.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Common_Kingfisher_eating_a_fish.webm",
-        "tags": [
-          "kingfisher_distant_small_branch_payoff_nov07"
-        ],
-        "author": "Lennart Hessel",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_verified_at": "2026-10-30",
-        "license_note": "Commons original media candidate; CC BY 3.0. Independent creator and scene QA pending. Creator attribution and modifications must appear in TikTok credits.",
-        "portrait_crop": "9:16"
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       }
     ],
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
+    "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-kingfisher_waterway_watch_nov10-narration-duration-visual-alignment-v3",
+    "revision": "2026-11-10-gato_filhotinhos_cuidados_nov10-ptbr-originais-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "A kingfisher waits beside a waterway, sitting on a narrow perch.",
-        "scene": "Authentic footage: 2022-01-14 LJUBLJANA Špica CORACIIFORMES Alcedo atthis VODOMEC.webm",
+        "text": "Três gatinhos alaranjados seguem a mãe, bem próximos. É uma cena simples, mas cheia de movimento.",
+        "scene": "Cenas reais de origem: Three orange kittens following their mother.webm",
         "tags": [
-          "kingfisher_perched_at_water_edge"
+          "orange_kittens_follow_cat_mother"
         ],
         "story_role": "hook",
-        "overlay_label": "OPENING",
+        "overlay_label": "PERTO DA MÃE",
         "fx": []
       },
       {
-        "text": "At another stretch of water, a different kingfisher pauses among vegetation.",
-        "scene": "Authentic footage: 2022-09-01 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm",
+        "text": "Em outra gravação, um gato adulto lambe um filhote. O contato entre eles aparece claramente.",
+        "scene": "Cenas reais de origem: A male cat grooms a female kitten 2021-08-25 August 25.webm",
         "tags": [
-          "kingfisher_at_different_waterway"
+          "adult_cat_grooming_young_kitten"
         ],
         "story_role": "setup",
-        "overlay_label": "OBSERVE",
+        "overlay_label": "LAMBENDO O FILHOTE",
         "fx": []
       },
       {
-        "text": "A third bird sits near a river, while another rests by the water.",
-        "scene": "Authentic footage: 2022-07-23 RIBNIKI V DOLINI DRAGE CORACIIFORMES Alcedo atthis VODOMEC.webm + Common kingfisher (Alcedo atthis) in Slovakia.webm",
+        "text": "Outros três gatinhos se movimentam juntos em Kiev. Depois, surgem gatos diferentes no pátio de uma mesquita em Istambul.",
+        "scene": "Cenas reais de origem: Трійця кошенят.webm | Кішки мечеті Шехзаде 06.webm",
         "tags": [
-          "kingfisher_perched_near_river_habitat",
-          "kingfisher_resting_preening_by_water"
+          "young_kittens_group_play_kyiv",
+          "istanbul_mosque_cat_family_scene"
         ],
         "story_role": "action",
-        "overlay_label": "MOVEMENT",
+        "overlay_label": "OUTROS GATINHOS",
         "fx": []
       },
       {
-        "text": "One kingfisher carefully preens its feathers.",
-        "scene": "Authentic footage: Common Kingfisher preening.webm",
+        "text": "Uma segunda filmagem da mesquita registra novos movimentos, sem indicar que todos os animais formam uma família.",
+        "scene": "Cenas reais de origem: Кішки мечеті Шехзаде 07.webm",
         "tags": [
-          "kingfisher_preening_feathers"
+          "istanbul_mosque_cat_interaction"
         ],
         "story_role": "explanation",
-        "overlay_label": "BEHAVIOR",
+        "overlay_label": "OUTRA CENA",
         "fx": []
       },
       {
-        "text": "In a closer view, blue and orange plumage and a pointed bill stand out.",
-        "scene": "Authentic footage: Kingfisher 2025 09 28 01.webm",
+        "text": "Na mesma região, outra gravação mostra gatos ocupando seu espaço. Cada vídeo acompanha um momento independente.",
+        "scene": "Cenas reais de origem: Кішки мечеті Шехзаде 08.webm",
         "tags": [
-          "kingfisher_close_blue_orange_bill_hook_nov07"
+          "istanbul_mosque_cats_present"
         ],
         "story_role": "twist",
-        "overlay_label": "DETAIL",
+        "overlay_label": "EM ISTAMBUL",
         "fx": []
       },
       {
-        "text": "Two other kingfishers appear in separate recordings near their own perches. These are separate sightings, not a single bird's journey. The footage shows quiet moments of watching and grooming, without claiming a successful catch or a particular hunting outcome.",
-        "scene": "Authentic footage: 2022-07-25 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm + Common Kingfisher eating a fish.webm",
+        "text": "Em uma universidade, gatos recebem comida de uma pessoa. Na última cena, dois animais se limpam na rua. São cuidados visíveis, em situações diferentes.",
+        "scene": "Cenas reais de origem: Rury Feeds the Faculty of Biology Cats.webm | Owiii and Iis Cleaning.webm",
         "tags": [
-          "kingfisher_eating_caught_fish",
-          "kingfisher_distant_small_branch_payoff_nov07"
+          "faculty_cats_receiving_food",
+          "two_cats_grooming_on_street"
         ],
         "story_role": "payoff",
-        "overlay_label": "FINAL SCENE",
+        "overlay_label": "ALIMENTAÇÃO E HIGIENE",
         "fx": []
       }
     ],
-    "trend_priority": false
+    "trend_priority": true,
+    "language": "pt-BR",
+    "voice": "pm_alex"
   },
-  "canada_geese_goslings_to_water_nov10": {
-    "title": "Goslings on Land and Geese on Water",
-    "script": "A young Canada goose stops to forage among plants. Elsewhere, goslings stay close to adult geese in a family group. Another family gathers, while separate geese walk along a shoreline. Other goslings appear in one recording, and an adult with a young bird in another. An adult Canada goose swims across a park lake. Finally, another group of Canada geese moves together in a different place. These are separate families and separate locations. The footage moves from birds on land to birds in water, without suggesting they all belong to the same flock.",
-    "caption": "Goslings on Land and Geese on Water. Original English narration, real animal footage. All creators, sources, and CC licenses credited in publication metadata. #WildVox #Animals #Wildlife",
+  "gato_saltos_corridas_nov10": {
+    "title": "Gatos em movimento: da corrida ao descanso",
+    "script": "Um gato corre em direção à câmera de repente. A velocidade transforma um instante comum numa surpresa. Em outra gravação, um gato salta para trás. O movimento foi filmado e depois mostrado lentamente. Um filhote pula sobre uma esteira de bambu. Em outra cena, um gato corre atrás de um pombo, sem mostrar captura. Já nas ruas de Istambul, um gato aparece em um registro vertical, longe dessas duas corridas. Em outro local, um gato olha para cima perto de uma varanda. O ambiente muda completamente. Por fim, um gato aparece num parapeito alto, enquanto outro rola no chão. As tomadas revelam movimentos diferentes, não uma aventura do mesmo animal.",
+    "caption": "Corridas, saltos e pausas: oito registros diferentes de gatos. #WildVox #Gatos #Animais",
     "sources": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20goose%20gosling%20foraging%20(Branta%20canadensis).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Jumpscare.webm",
         "type": "video",
-        "assetTitle": "Canada goose gosling foraging (Branta canadensis).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_goose_gosling_foraging_(Branta_canadensis).webm",
+        "assetTitle": "Cat Jumpscare.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Jumpscare.webm",
         "tags": [
-          "canada_goose_gosling_foraging_plants"
+          "house_cat_running_toward_camera"
         ],
-        "author": "Katja Schulz",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20goose%20family.webm",
-        "type": "video",
-        "assetTitle": "Canada goose family.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_goose_family.webm",
-        "tags": [
-          "canada_goose_goslings_close_group"
-        ],
-        "author": "Packer1028",
+        "author": "Panini!",
         "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Goose%20Family%20(27519845085).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20jumping%20backwards.webm",
         "type": "video",
-        "assetTitle": "Canada Goose Family (27519845085).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_Goose_Family_(27519845085).webm",
+        "assetTitle": "Cat jumping backwards.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_jumping_backwards.webm",
         "tags": [
-          "canada_goose_family_goslings_usfws"
+          "house_cat_jump_backwards"
         ],
-        "author": "U.S. Fish and Wildlife Service - Midwest Region",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/CGshoreWS.ogv",
-        "type": "video",
-        "assetTitle": "CGshoreWS.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:CGshoreWS.ogv",
-        "tags": [
-          "canada_geese_family_on_shoreline"
-        ],
-        "author": "Peter H. Warkentin",
+        "author": "Mary Qin",
         "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "crop_black_bars": true
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Goslings%20%2817156662405%29.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20jumping%20on%20bamboo%20mat.webm",
         "type": "video",
-        "assetTitle": "Goslings (17156662405).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Goslings_(17156662405).webm",
+        "assetTitle": "Kitten jumping on bamboo mat.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_jumping_on_bamboo_mat.webm",
         "tags": [
-          "usfws_2015_goslings_separate_family_scene"
+          "kitten_jumping_bamboo_mat"
         ],
-        "author": "U.S. Fish and Wildlife Service - Midwest Region",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "USFWS federal-work public domain statement and 2015 date checked on Commons; original action, framing, 2016-source visual distinctness, and payoff still require independent rendered MP4 QA. Flickr review pending; do not clear editorial hold."
+        "author": "Fumikas Sagisavas",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Geese%20with%20Gosling%20-%20Mother%20%26%20Father%20Goose%20with%20baby%20-%20Canon%20FS200.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20chasing%20a%20pigeon.webm",
         "type": "video",
-        "assetTitle": "Canada Geese with Gosling - Mother & Father Goose with baby - Canon FS200.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_Geese_with_Gosling_-_Mother_%26_Father_Goose_with_baby_-_Canon_FS200.webm",
+        "assetTitle": "Cat chasing a pigeon.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm",
         "tags": [
-          "canada_goose_parent_and_gosling_family"
+          "outdoor_cat_chases_pigeon"
         ],
-        "author": "ZaydDepaor (YouTube channel, as attributed on Wikimedia Commons)",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "author": "Jeromi Mikhael",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Goose%20on%20Golden%20Gate%20Park%20lake.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stray%20cat%20from%20Istambul.webm",
         "type": "video",
-        "assetTitle": "Canada Goose on Golden Gate Park lake.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_Goose_on_Golden_Gate_Park_lake.webm",
+        "assetTitle": "Stray cat from Istambul.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Stray_cat_from_Istambul.webm",
         "tags": [
-          "canada_goose_adult_swimming_park_lake"
+          "istanbul_street_cat_recorded_vertically"
         ],
-        "author": "Editor (YouTube channel, as attributed on Wikimedia Commons)",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "author": "ErikaGuetti",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Canada%20Geese%20(25738746322).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20discovers%20it%20was%20being%20spied%20on.webm",
         "type": "video",
-        "assetTitle": "Canada Geese (25738746322).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Canada_Geese_(25738746322).webm",
+        "assetTitle": "Cat discovers it was being spied on.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm",
         "tags": [
-          "canada_geese_usfws_group_movement"
+          "cat_beside_balcony_looking_up"
         ],
-        "author": "U.S. Fish and Wildlife Service - Midwest Region",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared."
+        "author": "Yourusernamewillbepublic2",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sophy%20the%20Cat%20is%20Really%20High%20On%20A%20Ledge.webm",
+        "type": "video",
+        "assetTitle": "Sophy the Cat is Really High On A Ledge.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sophy_the_Cat_is_Really_High_On_A_Ledge.webm",
+        "tags": [
+          "house_cat_perched_high_ledge"
+        ],
+        "author": "PseudoSkull",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkinese%20cat%20rolling%20around%20-%20Japan%20-%202025%20mar%2022.webm",
+        "type": "video",
+        "assetTitle": "Tonkinese cat rolling around - Japan - 2025 mar 22.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tonkinese_cat_rolling_around_-_Japan_-_2025_mar_22.webm",
+        "tags": [
+          "tonkinese_cat_rolling_on_ground"
+        ],
+        "author": "Nesnad",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       }
     ],
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
+    "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-canada_geese_goslings_to_water_nov10-narration-duration-visual-alignment-v3",
+    "revision": "2026-11-10-gato_saltos_corridas_nov10-ptbr-originais-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "A young Canada goose stops to forage among plants.",
-        "scene": "Authentic footage: Canada goose gosling foraging (Branta canadensis).webm",
+        "text": "Um gato corre em direção à câmera de repente. A velocidade transforma um instante comum numa surpresa.",
+        "scene": "Cenas reais de origem: Cat Jumpscare.webm",
         "tags": [
-          "canada_goose_gosling_foraging_plants"
+          "house_cat_running_toward_camera"
         ],
         "story_role": "hook",
-        "overlay_label": "OPENING",
+        "overlay_label": "CORRIDA REPENTINA",
         "fx": []
       },
       {
-        "text": "Elsewhere, goslings stay close to adult geese in a family group.",
-        "scene": "Authentic footage: Canada goose family.webm",
+        "text": "Em outra gravação, um gato salta para trás. O movimento foi filmado e depois mostrado lentamente.",
+        "scene": "Cenas reais de origem: Cat jumping backwards.webm",
         "tags": [
-          "canada_goose_goslings_close_group"
+          "house_cat_jump_backwards"
         ],
         "story_role": "setup",
-        "overlay_label": "OBSERVE",
+        "overlay_label": "SALTO PARA TRÁS",
         "fx": []
       },
       {
-        "text": "Another family gathers, while separate geese walk along a shoreline.",
-        "scene": "Authentic footage: Canada Goose Family (27519845085).webm + CGshoreWS.ogv",
+        "text": "Um filhote pula sobre uma esteira de bambu. Em outra cena, um gato corre atrás de um pombo, sem mostrar captura.",
+        "scene": "Cenas reais de origem: Kitten jumping on bamboo mat.webm | Cat chasing a pigeon.webm",
         "tags": [
-          "canada_goose_family_goslings_usfws",
-          "canada_geese_family_on_shoreline"
+          "kitten_jumping_bamboo_mat",
+          "outdoor_cat_chases_pigeon"
         ],
         "story_role": "action",
-        "overlay_label": "MOVEMENT",
+        "overlay_label": "PULO E PERSEGUIÇÃO",
         "fx": []
       },
       {
-        "text": "Other goslings appear in one recording, and an adult with a young bird in another.",
-        "scene": "Authentic footage: Goslings (17156662405).webm + Canada Geese with Gosling - Mother & Father Goose with baby - Canon FS200.webm",
+        "text": "Já nas ruas de Istambul, um gato aparece em um registro vertical, longe dessas duas corridas.",
+        "scene": "Cenas reais de origem: Stray cat from Istambul.webm",
         "tags": [
-          "usfws_2015_goslings_separate_family_scene",
-          "canada_goose_parent_and_gosling_family"
+          "istanbul_street_cat_recorded_vertically"
         ],
         "story_role": "explanation",
-        "overlay_label": "BEHAVIOR",
+        "overlay_label": "NAS RUAS",
         "fx": []
       },
       {
-        "text": "An adult Canada goose swims across a park lake.",
-        "scene": "Authentic footage: Canada Goose on Golden Gate Park lake.webm",
+        "text": "Em outro local, um gato olha para cima perto de uma varanda. O ambiente muda completamente.",
+        "scene": "Cenas reais de origem: Cat discovers it was being spied on.webm",
         "tags": [
-          "canada_goose_adult_swimming_park_lake"
+          "cat_beside_balcony_looking_up"
         ],
         "story_role": "twist",
-        "overlay_label": "DETAIL",
+        "overlay_label": "NOVO PONTO DE VISTA",
         "fx": []
       },
       {
-        "text": "Finally, another group of Canada geese moves together in a different place. These are separate families and separate locations. The footage moves from birds on land to birds in water, without suggesting they all belong to the same flock.",
-        "scene": "Authentic footage: Canada Geese (25738746322).webm",
+        "text": "Por fim, um gato aparece num parapeito alto, enquanto outro rola no chão. As tomadas revelam movimentos diferentes, não uma aventura do mesmo animal.",
+        "scene": "Cenas reais de origem: Sophy the Cat is Really High On A Ledge.webm | Tonkinese cat rolling around - Japan - 2025 mar 22.webm",
         "tags": [
-          "canada_geese_usfws_group_movement"
+          "house_cat_perched_high_ledge",
+          "tonkinese_cat_rolling_on_ground"
         ],
         "story_role": "payoff",
-        "overlay_label": "FINAL SCENE",
+        "overlay_label": "DO ALTO AO CHÃO",
         "fx": []
       }
     ],
-    "trend_priority": false
+    "trend_priority": true,
+    "language": "pt-BR",
+    "voice": "pm_alex"
   },
-  "european_robin_park_to_song_nov10": {
-    "title": "A Robin's Journey From Perches to Song",
-    "script": "A European robin pauses among the branches of an autumn park. In another recording, a robin perches amid summer greenery. A spring park provides a different perch for another robin. One robin sits on a winter branch, while another pauses by a garden fence. Two robins sing from reeds in separate recordings. Finally, a different robin sings from its own perch. The recordings come from different places and seasons. They show separate birds, rather than one robin traveling through the year. Listen and watch for each distinct moment.",
-    "caption": "A Robin's Journey From Perches to Song. Original English narration, real animal footage. All creators, sources, and CC licenses credited in publication metadata. #WildVox #Animals #Wildlife",
+  "gato_higiene_chamados_nov10": {
+    "title": "Dos pelos ao miado: comportamentos de gatos",
+    "script": "Uma gata começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis. Em outra gravação, uma pequena gata birmanesa também cuida da própria pelagem, sem precisar de ajuda. Um gato preto aparece se movimentando e se limpando. Outro gato preto, filmado separadamente, repete uma rotina de higiene. Já em outra casa, uma pessoa corta as unhas de um gato. É um cuidado diferente da autolimpeza. Um macho emite um chamado alto diante de outro gato. A cena não deve ser confundida com brincadeira. Em seguida, dois gatos realmente brigam numa gravação distinta. Terminamos com o retrato de outro gato atento. Nem todos os sinais significam a mesma coisa.",
+    "caption": "Gatos se limpam, vocalizam e reagem de maneiras distintas. Filmagens reais. #WildVox #Gatos #ComportamentoFelino",
     "sources": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-24%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin2.webm",
         "type": "video",
-        "assetTitle": "2022-09-24 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-24_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "assetTitle": "Moomin2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin2.webm",
         "tags": [
-          "european_robin_park_perch_september"
-        ]
+          "house_cat_moomin_grooming"
+        ],
+        "author": "Tet",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-06-14%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Burmese%20Kitten%20Grooming%20Itself.webm",
         "type": "video",
-        "assetTitle": "2022-06-14 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-06-14_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "assetTitle": "Burmese Kitten Grooming Itself.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Burmese_Kitten_Grooming_Itself.webm",
         "tags": [
-          "european_robin_park_perch_june"
-        ]
+          "burmese_kitten_self_grooming"
+        ],
+        "author": "Alistair Findlay",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-28%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Felis%20silvestris%20catus%20(Monarca).ogv",
         "type": "video",
-        "assetTitle": "2022-03-28 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-28_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "assetTitle": "Felis silvestris catus (Monarca).ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus_(Monarca).ogv",
         "tags": [
-          "european_robin_park_perch_march"
-        ]
+          "black_monarca_cat_play_groom"
+        ],
+        "author": "George Miquilena",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-01-03%20LJUBLJANA%20Krajinski%20park%20Tivoli%20PASSERIFORMES%20Erithacus%20rubecula%20TA%C5%A0%C4%8CICA%202.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20black%20Felis%20silvestris%20catus.ogv",
         "type": "video",
-        "assetTitle": "2022-01-03 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-01-03_LJUBLJANA_Krajinski_park_Tivoli_PASSERIFORMES_Erithacus_rubecula_TA%C5%A0%C4%8CICA_2.webm",
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "assetTitle": "A black Felis silvestris catus.ogv",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_black_Felis_silvestris_catus.ogv",
         "tags": [
-          "european_robin_park_perch_january"
-        ]
+          "black_house_cat_self_grooming"
+        ],
+        "author": "George Miquilena",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robin%20feeding.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20getting%20his%20nails%20trimmed%20(VID%2020210408%20123153).webm",
         "type": "video",
-        "assetTitle": "Robin feeding.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Robin_feeding.ogv",
-        "author": "Quantockgoblin",
-        "license": "Public domain",
-        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "assetTitle": "Larry the cat getting his nails trimmed (VID 20210408 123153).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_getting_his_nails_trimmed_(VID_20210408_123153).webm",
         "tags": [
-          "european_robin_garden_fence_perch"
-        ]
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20robin%20singing%20in%20reeds%2001.webm",
-        "type": "video",
-        "assetTitle": "European robin singing in reeds 01.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_01.webm",
-        "author": "Alexis Lours",
+          "house_cat_getting_nails_trimmed"
+        ],
+        "author": "Trougnouf",
         "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
-        "tags": [
-          "european_robin_singing_in_reeds_first"
-        ]
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/European%20robin%20singing%20in%20reeds%2002.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomcat%20calling.webm",
         "type": "video",
-        "assetTitle": "European robin singing in reeds 02.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:European_robin_singing_in_reeds_02.webm",
-        "author": "Alexis Lours",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "assetTitle": "Tomcat calling.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomcat_calling.webm",
         "tags": [
-          "european_robin_singing_in_reeds_second"
-        ]
+          "male_cat_vocalizing_alert"
+        ],
+        "author": "Drummyfish",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robin%20Singing%20video.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Domestic%20catfight.webm",
         "type": "video",
-        "assetTitle": "Robin Singing video.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Robin_Singing_video.webm",
-        "author": "gails_pictures (Flickr)",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0",
-        "license_verified_at": "2026-11-01",
-        "license_note": "Live Commons file metadata checked 2026-11-01; original action/framing and TikTok creator-credit delivery require independent QA before hold can be cleared.",
+        "assetTitle": "Domestic catfight.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Domestic_catfight.webm",
         "tags": [
-          "european_robin_singing_video_flickr"
-        ]
+          "domestic_cats_actual_fight"
+        ],
+        "author": "Panini!",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Closeup%20of%20a%20black%20cat.jpg",
+        "type": "image",
+        "assetTitle": "Closeup of a black cat.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Closeup_of_a_black_cat.jpg",
+        "tags": [
+          "black_cat_green_eyes_closeup"
+        ],
+        "author": "Miscellaneous contributor",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       }
     ],
     "min_unique_videos": 6,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
-    "max_freeze_seconds": 1,
+    "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-european_robin_park_to_song_nov10-narration-duration-visual-alignment-v3",
+    "revision": "2026-11-10-gato_higiene_chamados_nov10-ptbr-originais-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "A European robin pauses among the branches of an autumn park.",
-        "scene": "Authentic footage: 2022-09-24 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
+        "text": "Uma gata começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis.",
+        "scene": "Cenas reais de origem: Moomin2.webm",
         "tags": [
-          "european_robin_park_perch_september"
+          "house_cat_moomin_grooming"
         ],
         "story_role": "hook",
-        "overlay_label": "OPENING",
+        "overlay_label": "HIGIENE FELINA",
         "fx": []
       },
       {
-        "text": "In another recording, a robin perches amid summer greenery.",
-        "scene": "Authentic footage: 2022-06-14 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
+        "text": "Em outra gravação, uma pequena gata birmanesa também cuida da própria pelagem, sem precisar de ajuda.",
+        "scene": "Cenas reais de origem: Burmese Kitten Grooming Itself.webm",
         "tags": [
-          "european_robin_park_perch_june"
+          "burmese_kitten_self_grooming"
         ],
         "story_role": "setup",
-        "overlay_label": "OBSERVE",
+        "overlay_label": "PELAGEM DO FILHOTE",
         "fx": []
       },
       {
-        "text": "A spring park provides a different perch for another robin.",
-        "scene": "Authentic footage: 2022-03-28 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA.webm",
+        "text": "Um gato preto aparece se movimentando e se limpando. Outro gato preto, filmado separadamente, repete uma rotina de higiene.",
+        "scene": "Cenas reais de origem: Felis silvestris catus (Monarca).ogv | A black Felis silvestris catus.ogv",
         "tags": [
-          "european_robin_park_perch_march"
+          "black_monarca_cat_play_groom",
+          "black_house_cat_self_grooming"
         ],
         "story_role": "action",
-        "overlay_label": "MOVEMENT",
+        "overlay_label": "GATOS PRETOS",
         "fx": []
       },
       {
-        "text": "One robin sits on a winter branch, while another pauses by a garden fence.",
-        "scene": "Authentic footage: 2022-01-03 LJUBLJANA Krajinski park Tivoli PASSERIFORMES Erithacus rubecula TAŠČICA 2.webm + Robin feeding.ogv",
+        "text": "Já em outra casa, uma pessoa corta as unhas de um gato. É um cuidado diferente da autolimpeza.",
+        "scene": "Cenas reais de origem: Larry the cat getting his nails trimmed (VID 20210408 123153).webm",
         "tags": [
-          "european_robin_park_perch_january",
-          "european_robin_garden_fence_perch"
+          "house_cat_getting_nails_trimmed"
         ],
         "story_role": "explanation",
-        "overlay_label": "BEHAVIOR",
+        "overlay_label": "CUIDADO HUMANO",
         "fx": []
       },
       {
-        "text": "Two robins sing from reeds in separate recordings.",
-        "scene": "Authentic footage: European robin singing in reeds 01.webm + European robin singing in reeds 02.webm",
+        "text": "Um macho emite um chamado alto diante de outro gato. A cena não deve ser confundida com brincadeira.",
+        "scene": "Cenas reais de origem: Tomcat calling.webm",
         "tags": [
-          "european_robin_singing_in_reeds_first",
-          "european_robin_singing_in_reeds_second"
+          "male_cat_vocalizing_alert"
         ],
         "story_role": "twist",
-        "overlay_label": "DETAIL",
+        "overlay_label": "CHAMADO DE ALERTA",
         "fx": []
       },
       {
-        "text": "Finally, a different robin sings from its own perch. The recordings come from different places and seasons. They show separate birds, rather than one robin traveling through the year. Listen and watch for each distinct moment.",
-        "scene": "Authentic footage: Robin Singing video.webm",
+        "text": "Em seguida, dois gatos realmente brigam numa gravação distinta. Terminamos com o retrato de outro gato atento. Nem todos os sinais significam a mesma coisa.",
+        "scene": "Cenas reais de origem: Domestic catfight.webm | Closeup of a black cat.jpg",
         "tags": [
-          "european_robin_singing_video_flickr"
+          "domestic_cats_actual_fight",
+          "black_cat_green_eyes_closeup"
         ],
         "story_role": "payoff",
-        "overlay_label": "FINAL SCENE",
+        "overlay_label": "CONFLITO REAL",
         "fx": []
       }
     ],
-    "trend_priority": false
+    "trend_priority": true,
+    "language": "pt-BR",
+    "voice": "pm_alex"
+  },
+  "panda_rotinas_cativeiro_nov10": {
+    "title": "Pandas: alimentação, filhotes e descanso",
+    "script": "Um panda-gigante come em meio à neve. A gravação mostra um momento de alimentação em um ambiente cuidado por pessoas. Em outro zoológico, uma fêmea aparece ao lado do filhote. Os dois foram filmados juntos. Um panda é visto em um novo espaço. Depois, outro registro mostra a alimentação de um panda num centro de conservação chinês. A mesma instituição aparece numa segunda filmagem de alimentação. Não é necessário fingir que as cenas são do mesmo dia. O panda conhecido como Jia Jia também aparece comendo bambu, em outra gravação feita em cativeiro. Por fim, um panda descansa no zoológico de Pequim. Uma fotografia independente mostra outro panda em Edimburgo. São encontros registrados em lugares diferentes.",
+    "caption": "Momentos diferentes de pandas em zoológicos e centros de conservação. #WildVox #Pandas #Animais",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BaoBao%20the%20Panda%20having%20a%20snack%20in%20the%20snow.webm",
+        "type": "video",
+        "assetTitle": "BaoBao the Panda having a snack in the snow.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:BaoBao_the_Panda_having_a_snack_in_the_snow.webm",
+        "tags": [
+          "giant_panda_baobao_eating_snow"
+        ],
+        "author": "Brian Gratwicke",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Female%20panda%20and%20cub.webm",
+        "type": "video",
+        "assetTitle": "Female panda and cub.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Female_panda_and_cub.webm",
+        "tags": [
+          "giant_panda_mother_cub_zoo"
+        ],
+        "author": "Brian Gratwicke",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20panda%20(Ailuropoda%20melanoleuca)%20in%20a%20zoo.webm",
+        "type": "video",
+        "assetTitle": "Giant panda (Ailuropoda melanoleuca) in a zoo.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_panda_(Ailuropoda_melanoleuca)_in_a_zoo.webm",
+        "tags": [
+          "giant_panda_baobao_washington_zoo"
+        ],
+        "author": "Brian Gratwicke",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20panda%20feeding%20-%20Dujiangyan%20Research%20Center%20of%20Giant%20Panda%20Breeding%20and%20Release%20-%20China%20-%20Nov.%202014.webm",
+        "type": "video",
+        "assetTitle": "Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014.webm",
+        "tags": [
+          "giant_panda_eating_research_center_first"
+        ],
+        "author": "LWYang",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20panda%20feeding%20-%20Dujiangyan%20Research%20Center%20of%20Giant%20Panda%20Breeding%20and%20Release%20-%20China%20-%20Nov.%202014%20-%20(1).webm",
+        "type": "video",
+        "assetTitle": "Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014 - (1).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014_-_(1).webm",
+        "tags": [
+          "giant_panda_eating_research_center_second"
+        ],
+        "author": "LWYang",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panda%20Jia%20Jia.webm",
+        "type": "video",
+        "assetTitle": "Panda Jia Jia.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panda_Jia_Jia.webm",
+        "tags": [
+          "giant_panda_jia_jia_eating_bamboo"
+        ],
+        "author": "TheDanSync",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panda%20at%20the%20zoo%20in%20Beijing%20just%20chilling.webm",
+        "type": "video",
+        "assetTitle": "Panda at the zoo in Beijing just chilling.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panda_at_the_zoo_in_Beijing_just_chilling.webm",
+        "tags": [
+          "giant_panda_beijing_zoo_resting"
+        ],
+        "author": "Rose Abrams",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20panda%20in%20Edinburgh%20Zoo%2001.jpg",
+        "type": "image",
+        "assetTitle": "Giant panda in Edinburgh Zoo 01.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_panda_in_Edinburgh_Zoo_01.jpg",
+        "tags": [
+          "giant_panda_edinburgh_portrait"
+        ],
+        "author": "Adam Harangozó",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0.8,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-11-10-panda_rotinas_cativeiro_nov10-ptbr-originais-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Um panda-gigante come em meio à neve. A gravação mostra um momento de alimentação em um ambiente cuidado por pessoas.",
+        "scene": "Cenas reais de origem: BaoBao the Panda having a snack in the snow.webm",
+        "tags": [
+          "giant_panda_baobao_eating_snow"
+        ],
+        "story_role": "hook",
+        "overlay_label": "COMENDO NA NEVE",
+        "fx": []
+      },
+      {
+        "text": "Em outro zoológico, uma fêmea aparece ao lado do filhote. Os dois foram filmados juntos.",
+        "scene": "Cenas reais de origem: Female panda and cub.webm",
+        "tags": [
+          "giant_panda_mother_cub_zoo"
+        ],
+        "story_role": "setup",
+        "overlay_label": "FÊMEA E FILHOTE",
+        "fx": []
+      },
+      {
+        "text": "Um panda é visto em um novo espaço. Depois, outro registro mostra a alimentação de um panda num centro de conservação chinês.",
+        "scene": "Cenas reais de origem: Giant panda (Ailuropoda melanoleuca) in a zoo.webm | Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014.webm",
+        "tags": [
+          "giant_panda_baobao_washington_zoo",
+          "giant_panda_eating_research_center_first"
+        ],
+        "story_role": "action",
+        "overlay_label": "NOVOS REGISTROS",
+        "fx": []
+      },
+      {
+        "text": "A mesma instituição aparece numa segunda filmagem de alimentação. Não é necessário fingir que as cenas são do mesmo dia.",
+        "scene": "Cenas reais de origem: Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014 - (1).webm",
+        "tags": [
+          "giant_panda_eating_research_center_second"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "CENTRO DE CONSERVAÇÃO",
+        "fx": []
+      },
+      {
+        "text": "O panda conhecido como Jia Jia também aparece comendo bambu, em outra gravação feita em cativeiro.",
+        "scene": "Cenas reais de origem: Panda Jia Jia.webm",
+        "tags": [
+          "giant_panda_jia_jia_eating_bamboo"
+        ],
+        "story_role": "twist",
+        "overlay_label": "COMENDO BAMBU",
+        "fx": []
+      },
+      {
+        "text": "Por fim, um panda descansa no zoológico de Pequim. Uma fotografia independente mostra outro panda em Edimburgo. São encontros registrados em lugares diferentes.",
+        "scene": "Cenas reais de origem: Panda at the zoo in Beijing just chilling.webm | Giant panda in Edinburgh Zoo 01.jpg",
+        "tags": [
+          "giant_panda_beijing_zoo_resting",
+          "giant_panda_edinburgh_portrait"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "DESCANSO E RETRATO",
+        "fx": []
+      }
+    ],
+    "trend_priority": false,
+    "language": "pt-BR",
+    "voice": "pm_alex"
+  },
+  "flamingo_lagoas_e_estuarios_nov10": {
+    "title": "Flamingos em lagoas: oito momentos reais",
+    "script": "Flamingos aparecem numa lagoa em março. A câmera acompanha aves altas, de pernas longas, cercadas pela água. Outra filmagem do mesmo período revela uma nova perspectiva dessas aves, sem transformar a cena em uma migração. Duas gravações adicionais mostram flamingos na área úmida. Repare no contraste entre as penas claras, as pernas e a água ao redor. Em abril, outro registro mostra essas aves na região. O cenário permanece aquático, mas a data mudou. Uma segunda tomada de abril acrescenta outra perspectiva, ainda sem afirmar alimentação ou cortejo não demonstrados. Em maio, os flamingos aparecem perto da foz de um rio. O vídeo termina com outra lagoa: são observações reais e separadas desses animais.",
+    "caption": "Flamingos observados em lagoas e áreas úmidas, em datas distintas. #WildVox #Flamingos #Natureza",
+    "sources": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC.webm",
+        "type": "video",
+        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+        "tags": [
+          "greater_flamingo_march_lagoon_scene"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+        "type": "video",
+        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
+        "tags": [
+          "greater_flamingo_march_second_view"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%205.webm",
+        "type": "video",
+        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_5.webm",
+        "tags": [
+          "greater_flamingo_march_third_view"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%208.webm",
+        "type": "video",
+        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 8.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_8.webm",
+        "tags": [
+          "greater_flamingo_march_fourth_view"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC.webm",
+        "type": "video",
+        "assetTitle": "2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+        "tags": [
+          "greater_flamingo_april_lagoon_view"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+        "type": "video",
+        "assetTitle": "2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
+        "tags": [
+          "greater_flamingo_april_second_view"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20IZLIV%20SO%C4%8CE%20Phoenicopterus%20roseus%20PLAMENEC.webm",
+        "type": "video",
+        "assetTitle": "2022-05-21 IZLIV SOČE Phoenicopterus roseus PLAMENEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_Phoenicopterus_roseus_PLAMENEC.webm",
+        "tags": [
+          "greater_flamingo_may_river_mouth"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC.webm",
+        "type": "video",
+        "assetTitle": "2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+        "tags": [
+          "greater_flamingo_may_lagoon_view"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      }
+    ],
+    "min_unique_videos": 6,
+    "target_shot_seconds": 7,
+    "max_shot_seconds": 8,
+    "max_freeze_seconds": 0.8,
+    "min_duration": 30,
+    "max_duration": 45,
+    "revision": "2026-11-10-flamingo_lagoas_e_estuarios_nov10-ptbr-originais-v1",
+    "publication_hold": true,
+    "visual_plan": [
+      {
+        "text": "Flamingos aparecem numa lagoa em março. A câmera acompanha aves altas, de pernas longas, cercadas pela água.",
+        "scene": "Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+        "tags": [
+          "greater_flamingo_march_lagoon_scene"
+        ],
+        "story_role": "hook",
+        "overlay_label": "AVES NA LAGOA",
+        "fx": []
+      },
+      {
+        "text": "Outra filmagem do mesmo período revela uma nova perspectiva dessas aves, sem transformar a cena em uma migração.",
+        "scene": "Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+        "tags": [
+          "greater_flamingo_march_second_view"
+        ],
+        "story_role": "setup",
+        "overlay_label": "OUTRO ÂNGULO",
+        "fx": []
+      },
+      {
+        "text": "Duas gravações adicionais mostram flamingos na área úmida. Repare no contraste entre as penas claras, as pernas e a água ao redor.",
+        "scene": "Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm | 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 8.webm",
+        "tags": [
+          "greater_flamingo_march_third_view",
+          "greater_flamingo_march_fourth_view"
+        ],
+        "story_role": "action",
+        "overlay_label": "PENAS E PERNAS",
+        "fx": []
+      },
+      {
+        "text": "Em abril, outro registro mostra essas aves na região. O cenário permanece aquático, mas a data mudou.",
+        "scene": "Cenas reais de origem: 2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+        "tags": [
+          "greater_flamingo_april_lagoon_view"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "REGISTRO DE ABRIL",
+        "fx": []
+      },
+      {
+        "text": "Uma segunda tomada de abril acrescenta outra perspectiva, ainda sem afirmar alimentação ou cortejo não demonstrados.",
+        "scene": "Cenas reais de origem: 2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+        "tags": [
+          "greater_flamingo_april_second_view"
+        ],
+        "story_role": "twist",
+        "overlay_label": "CENA INDEPENDENTE",
+        "fx": []
+      },
+      {
+        "text": "Em maio, os flamingos aparecem perto da foz de um rio. O vídeo termina com outra lagoa: são observações reais e separadas desses animais.",
+        "scene": "Cenas reais de origem: 2022-05-21 IZLIV SOČE Phoenicopterus roseus PLAMENEC.webm | 2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+        "tags": [
+          "greater_flamingo_may_river_mouth",
+          "greater_flamingo_may_lagoon_view"
+        ],
+        "story_role": "payoff",
+        "overlay_label": "DA FOZ À LAGOA",
+        "fx": []
+      }
+    ],
+    "trend_priority": false,
+    "language": "pt-BR",
+    "voice": "pm_alex"
   }
 }
