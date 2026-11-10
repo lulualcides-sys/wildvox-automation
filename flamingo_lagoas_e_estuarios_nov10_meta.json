@@ -1,0 +1,215 @@
+{
+  "key": "flamingo_lagoas_e_estuarios_nov10",
+  "title": "Flamingos em lagoas: oito momentos reais",
+  "caption": "Flamingos observados em lagoas e áreas úmidas, em datas distintas. #WildVox #Flamingos #Natureza\n\nCréditos dos vídeos (edição vertical 9:16, legendas e narração):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm | https://creativecommons.org/licenses/by/3.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_5.webm | https://creativecommons.org/licenses/by/3.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_8.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm | https://creativecommons.org/licenses/by/3.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm | https://creativecommons.org/licenses/by/3.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_Phoenicopterus_roseus_PLAMENEC.webm | https://creativecommons.org/licenses/by/3.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-05-21_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm | https://creativecommons.org/licenses/by/3.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "6f2f1d457261177962527615de222eb1d91f42f5f9655803d91225076cdccb65",
+  "duration": 44.08,
+  "voice": "pm_alex",
+  "language": "pt-BR",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.775,
+      "duration": 6.775,
+      "text": "Flamingos aparecem numa lagoa em março. A câmera acompanha aves altas, de pernas longas, cercadas pela água.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+      "tags": [
+        "greater_flamingo_march_lagoon_scene"
+      ],
+      "story_role": "hook",
+      "overlay_label": "AVES NA LAGOA",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.775,
+      "end": 13.775,
+      "duration": 7.0,
+      "text": "Outra filmagem do mesmo período revela uma nova perspectiva dessas aves, sem transformar a cena em uma migração.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+      "tags": [
+        "greater_flamingo_march_second_view"
+      ],
+      "story_role": "setup",
+      "overlay_label": "OUTRO ÂNGULO",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 13.775,
+      "end": 21.9,
+      "duration": 8.125,
+      "text": "Duas gravações adicionais mostram flamingos na área úmida. Repare no contraste entre as penas claras, as pernas e a água ao redor.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm | 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 8.webm",
+      "tags": [
+        "greater_flamingo_march_third_view",
+        "greater_flamingo_march_fourth_view"
+      ],
+      "story_role": "action",
+      "overlay_label": "PENAS E PERNAS",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 21.9,
+      "end": 28.275,
+      "duration": 6.375,
+      "text": "Em abril, outro registro mostra essas aves na região. O cenário permanece aquático, mas a data mudou.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: 2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+      "tags": [
+        "greater_flamingo_april_lagoon_view"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "REGISTRO DE ABRIL",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 28.275,
+      "end": 35.5,
+      "duration": 7.225,
+      "text": "Uma segunda tomada de abril acrescenta outra perspectiva, ainda sem afirmar alimentação ou cortejo não demonstrados.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: 2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+      "tags": [
+        "greater_flamingo_april_second_view"
+      ],
+      "story_role": "twist",
+      "overlay_label": "CENA INDEPENDENTE",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 35.5,
+      "end": 44.075,
+      "duration": 8.575,
+      "text": "Em maio, os flamingos aparecem perto da foz de um rio. O vídeo termina com outra lagoa: são observações reais e separadas desses animais.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: 2022-05-21 IZLIV SOČE Phoenicopterus roseus PLAMENEC.webm | 2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+      "tags": [
+        "greater_flamingo_may_river_mouth",
+        "greater_flamingo_may_lagoon_view"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "DA FOZ À LAGOA",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC.webm",
+      "type": "video",
+      "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+      "tags": [
+        "greater_flamingo_march_lagoon_scene"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+      "type": "video",
+      "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
+      "tags": [
+        "greater_flamingo_march_second_view"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%205.webm",
+      "type": "video",
+      "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_5.webm",
+      "tags": [
+        "greater_flamingo_march_third_view"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%208.webm",
+      "type": "video",
+      "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 8.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_8.webm",
+      "tags": [
+        "greater_flamingo_march_fourth_view"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC.webm",
+      "type": "video",
+      "assetTitle": "2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+      "tags": [
+        "greater_flamingo_april_lagoon_view"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
+      "type": "video",
+      "assetTitle": "2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
+      "tags": [
+        "greater_flamingo_april_second_view"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20IZLIV%20SO%C4%8CE%20Phoenicopterus%20roseus%20PLAMENEC.webm",
+      "type": "video",
+      "assetTitle": "2022-05-21 IZLIV SOČE Phoenicopterus roseus PLAMENEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_Phoenicopterus_roseus_PLAMENEC.webm",
+      "tags": [
+        "greater_flamingo_may_river_mouth"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC.webm",
+      "type": "video",
+      "assetTitle": "2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
+      "tags": [
+        "greater_flamingo_may_lagoon_view"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    }
+  ],
+  "review_sheet": "flamingo_lagoas_e_estuarios_nov10_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
