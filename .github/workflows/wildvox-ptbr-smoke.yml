@@ -1,0 +1,59 @@
+name: WildVox — teste real de voz brasileira
+
+on:
+  pull_request:
+    paths:
+      - "scripts/generate_video.py"
+      - "qa/test_ptbr_locale.py"
+      - ".github/workflows/wildvox-ptbr-smoke.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ptbr-voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Instalar dependências reais da voz Kokoro pt-BR
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y espeak-ng ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install "kokoro==0.9.4" "spacy==3.8.4" "preshed==3.0.9" "numpy==1.26.4" soundfile
+      - name: Verificar síntese real masculina em português e áudio audível
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import numpy as np
+          import soundfile as sf
+          from kokoro import KPipeline
+          pipeline = KPipeline(lang_code="p")
+          text = "Este gato observa um objeto novo. Depois, se aproxima com cuidado."
+          chunks = []
+          for item in pipeline(text, voice="pm_alex", speed=1.0):
+              audio = getattr(item, "audio", None)
+              if audio is None:
+                  audio = item[2]
+              if hasattr(audio, "detach"):
+                  audio = audio.detach().cpu().numpy()
+              chunks.append(np.asarray(audio, dtype=np.float32).reshape(-1))
+          assert chunks, "Kokoro não sintetizou nenhum bloco em português"
+          sound = np.concatenate(chunks)
+          duration = len(sound) / 24000.0
+          assert 1.5 < duration < 20, f"Duração inesperada: {duration}s"
+          assert np.isfinite(sound).all() and np.max(np.abs(sound)) > .01, "Áudio silencioso ou inválido"
+          sf.write("voz-ptbr-teste.wav", sound, 24000)
+          print(f"Sucesso: pt-BR pm_alex, {duration:.2f}s, pico={np.max(np.abs(sound)):.3f}")
+          PY
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: wildvox-ptbr-male-voice-test
+          path: voz-ptbr-teste.wav
+          retention-days: 2
