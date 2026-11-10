@@ -38,6 +38,10 @@
   "voice": "pm_alex",
   "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/gato_higiene_chamados_nov10.mp4",
   "publication_hold": true,
-  "metricool_post_id": null,
-  "provider_status": "NOT_SCHEDULED"
+  "metricool_post_id": 423361788,
+  "provider_status": "PENDING",
+  "metricool_post_uuid": "-3732039013619514583",
+  "metricool_autoPublish": true,
+  "metricool_draft": false,
+  "scheduled_local": "2026-11-10T16:30:00-03:00"
 }
