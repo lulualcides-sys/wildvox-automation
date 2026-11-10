@@ -1,11 +1,11 @@
 {
   "key": "gato_higiene_chamados_nov10",
-  "title": "Gatos em detalhes: higiene, atenção e encontros",
-  "caption": "Higiene, cuidado humano e encontros entre gatos: oito cenas reais com narração brasileira. #WildVox #Gatos #ComportamentoFelino\n\nCréditos dos vídeos (edição vertical 9:16, legendas e narração):\n1. Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin2.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n2. Alistair Findlay | CC0 | https://commons.wikimedia.org/wiki/File:Burmese_Kitten_Grooming_Itself.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n3. George Miquilena | CC0 | https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus_(Monarca).ogv | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. George Miquilena | CC0 | https://commons.wikimedia.org/wiki/File:A_black_Felis_silvestris_catus.ogv | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n5. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_getting_his_nails_trimmed_(VID_20210408_123153).webm | https://creativecommons.org/licenses/by/4.0/\n6. Drummyfish | CC0 | https://commons.wikimedia.org/wiki/File:Tomcat_calling.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n7. Panini! | CC0 | https://commons.wikimedia.org/wiki/File:Domestic_catfight.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n8. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0/",
+  "title": "Por que a língua dos gatos parece uma lixa?",
+  "caption": "A língua de um gato não é apenas áspera: suas papilas ajudam a levar saliva até o pelo. Cientistas estudaram essa estrutura e criaram uma escova inspirada nela. Fonte científica: PNAS, 2018. #WildVox #CuriosidadesDosGatos #Gatos\n\nCréditos dos vídeos (edição vertical 9:16, legendas e narração):\n1. Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin2.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n2. Alistair Findlay | CC0 | https://commons.wikimedia.org/wiki/File:Burmese_Kitten_Grooming_Itself.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n3. George Miquilena | CC0 | https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus_(Monarca).ogv | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n4. George Miquilena | CC0 | https://commons.wikimedia.org/wiki/File:A_black_Felis_silvestris_catus.ogv | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n5. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_getting_his_nails_trimmed_(VID_20210408_123153).webm | https://creativecommons.org/licenses/by/4.0/\n6. Drummyfish | CC0 | https://commons.wikimedia.org/wiki/File:Tomcat_calling.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n7. Ivan Kurmanov | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_relaxing_on_a_sofa.webm | https://creativecommons.org/licenses/by/2.0/\n8. Learnerktm | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm | https://creativecommons.org/licenses/by/4.0/",
   "publication_hold": true,
   "attribution_review_required": true,
-  "config_sha256": "ad4c0baf8e90a9f5d70ef63fd418227ec4330fadb31f7390316901243f93bfcd",
-  "duration": 36.85,
+  "config_sha256": "e887a4dffde4861a08a04e99704ced7285f249978f0780484dea7a3a4c2f1796",
+  "duration": 39.95,
   "voice": "pm_alex",
   "language": "pt-BR",
   "speed": 1.0,
@@ -13,93 +13,93 @@
     {
       "index": 0,
       "start": 0.0,
-      "end": 5.6,
-      "duration": 5.6,
-      "text": "Um gato começa a se limpar. A língua passa pelos pelos em movimentos fáceis de observar.",
+      "end": 5.05,
+      "duration": 5.05,
+      "text": "Por que a língua do gato parece lixa? Ela esconde um detalhe de engenharia natural.",
       "language": "pt-BR",
-      "scene": "Cenas reais de origem: Moomin2.webm",
+      "scene": "Cena Moomin2: gato realiza autolimpeza. B-roll ilustrativo da língua, sem microscopia.",
       "tags": [
         "house_cat_moomin_grooming"
       ],
       "story_role": "hook",
-      "overlay_label": "HIGIENE FELINA",
+      "overlay_label": "LÍNGUA DE LIXA?",
       "fx": []
     },
     {
       "index": 1,
-      "start": 5.6,
-      "end": 11.1,
-      "duration": 5.5,
-      "text": "Em outra gravação, um filhote birmanês cuida da própria pelagem. É uma cena de higiene.",
+      "start": 5.05,
+      "end": 10.0,
+      "duration": 4.95,
+      "text": "Pequenas papilas de queratina, voltadas para trás, ajudam a cuidar da pelagem.",
       "language": "pt-BR",
-      "scene": "Cenas reais de origem: Burmese Kitten Grooming Itself.webm",
+      "scene": "Filhote birmanês lambendo a pelagem, exemplo da limpeza felina.",
       "tags": [
         "burmese_kitten_self_grooming"
       ],
       "story_role": "setup",
-      "overlay_label": "PELAGEM DO FILHOTE",
+      "overlay_label": "PAPILAS DE QUERATINA",
       "fx": []
     },
     {
       "index": 2,
-      "start": 11.1,
-      "end": 18.45,
-      "duration": 7.35,
-      "text": "Um gato preto se movimenta. Outro registro mostra um gato preto se limpando, sem provar que são animais diferentes.",
+      "start": 10.0,
+      "end": 18.875,
+      "duration": 8.875,
+      "text": "Pesquisadores descobriram cavidades nas pontas dessas papilas. Elas transportam saliva até os fios durante as lambidas, como pequenas colheres.",
       "language": "pt-BR",
-      "scene": "Duas gravações de um gato preto repousando e realizando autolimpeza, sem inferir indivíduos distintos",
+      "scene": "Gatos pretos em gravações separadas, ao menos uma de higiene, ilustram diversidade de pelagem; papilas microscópicas são informação do estudo.",
       "tags": [
         "black_monarca_cat_play_groom",
         "black_house_cat_self_grooming"
       ],
       "story_role": "action",
-      "overlay_label": "GATOS PRETOS",
+      "overlay_label": "SALIVA ENTRE OS PELOS",
       "fx": []
     },
     {
       "index": 3,
-      "start": 18.45,
-      "end": 23.825,
-      "duration": 5.375,
-      "text": "Uma pessoa segura um gato para cortar as unhas. É um cuidado diferente da autolimpeza.",
+      "start": 18.875,
+      "end": 23.85,
+      "duration": 4.975,
+      "text": "Mas a língua não substitui tudo: unhas, por exemplo, exigem outros cuidados.",
       "language": "pt-BR",
-      "scene": "Cenas reais de origem: Larry the cat getting his nails trimmed (VID 20210408 123153).webm",
+      "scene": "Registro real do gato Larry recebendo aparo de unhas por pessoa; contraste de cuidados não executados pela língua.",
       "tags": [
         "house_cat_getting_nails_trimmed"
       ],
       "story_role": "explanation",
-      "overlay_label": "CUIDADO HUMANO",
+      "overlay_label": "LÍNGUA NÃO CORTA UNHAS",
       "fx": []
     },
     {
       "index": 4,
-      "start": 23.825,
-      "end": 28.049999999999997,
-      "duration": 4.225,
-      "text": "Perto da janela, um gato observa outro do lado de fora, atento.",
+      "start": 23.85,
+      "end": 31.325000000000003,
+      "duration": 7.475,
+      "text": "Gatos também observam outros animais e se comunicam de várias formas. Mas olhar pela janela não é o mesmo que se limpar.",
       "language": "pt-BR",
-      "scene": "Gato dentro de casa observa outro gato através da janela; Tomcat calling.webm",
+      "scene": "Tomcat calling.webm: gato de dentro observa outro por uma janela. B-roll ilustrativo de comportamentos distintos; não afirmar emissão de miado ou lambida nesta cena.",
       "tags": [
-        "house_cat_looking_at_another_cat_through_window"
+        "house_cat_observing_other_cat_through_window"
       ],
       "story_role": "twist",
-      "overlay_label": "OLHANDO A JANELA",
+      "overlay_label": "OUTRO COMPORTAMENTO",
       "fx": []
     },
     {
       "index": 5,
-      "start": 28.049999999999997,
-      "end": 36.849999999999994,
-      "duration": 8.8,
-      "text": "Dois gatos interagem no chão em uma gravação. Depois, outro gato se limpa sozinho. Os comportamentos variam, mas nem toda intenção fica clara.",
+      "start": 31.325000000000003,
+      "end": 39.95,
+      "duration": 8.625,
+      "text": "O segredo é a combinação de pente e umidade. Essa estrutura impressionou cientistas, que desenvolveram até uma escova inspirada na língua felina.",
       "language": "pt-BR",
-      "scene": "Dois gatos interagem no chão em filmagem distinta; outro gato lambe sua própria pelagem em vídeo autêntico, sem fotografia estática",
+      "scene": "Gato relaxando no sofá como B-roll, seguido de gato se autolimpando com a língua; finalizar explicação científica das papilas.",
       "tags": [
-        "domestic_cats_physical_interaction",
+        "house_cat_sofa_rest_ccby",
         "domestic_cat_self_grooming_late_payoff"
       ],
       "story_role": "payoff",
-      "overlay_label": "CADA CENA É DIFERENTE",
+      "overlay_label": "ESCOVA NATURAL",
       "fx": []
     }
   ],
@@ -175,25 +175,25 @@
       "assetTitle": "Tomcat calling.webm",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomcat_calling.webm",
       "tags": [
-        "house_cat_looking_at_another_cat_through_window"
+        "house_cat_observing_other_cat_through_window"
       ],
       "author": "Drummyfish",
       "license": "CC0",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      "license_note": "Independent prior Commons CC0 audit; frames show an indoor cat looking at another through glass; do not label the clip meowing or grooming."
     },
     {
-      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Domestic%20catfight.webm",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20relaxing%20on%20a%20sofa.webm",
       "type": "video",
-      "assetTitle": "Domestic catfight.webm",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Domestic_catfight.webm",
+      "assetTitle": "Cat relaxing on a sofa.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_relaxing_on_a_sofa.webm",
       "tags": [
-        "domestic_cats_physical_interaction"
+        "house_cat_sofa_rest_ccby"
       ],
-      "author": "Panini!",
-      "license": "CC0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+      "author": "Ivan Kurmanov",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_note": "Flickr original verified as CC BY 2.0 by Commons reviewer; cat at rest is illustrative B-roll, do not assert grooming unless independently seen in render."
     },
     {
       "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
