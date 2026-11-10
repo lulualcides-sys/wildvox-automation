@@ -800,9 +800,9 @@
     }
   },
   "flamingo_lagoas_e_estuarios_nov10": {
-    "title": "Flamingos em lagoas: oito momentos reais",
-    "script": "Flamingos aparecem numa lagoa em março. A câmera acompanha aves altas, de pernas longas, cercadas pela água. Outra filmagem do mesmo período revela uma nova perspectiva dessas aves, sem transformar a cena em uma migração. Duas gravações adicionais mostram flamingos na área úmida. Repare no contraste entre as penas claras, as pernas e a água ao redor. Em abril, outro registro mostra essas aves na região. O cenário permanece aquático, mas a data mudou. Uma segunda tomada de abril acrescenta outra perspectiva, ainda sem afirmar alimentação ou cortejo não demonstrados. Em maio, os flamingos aparecem perto da foz de um rio. O vídeo termina com outra lagoa: são observações reais e separadas desses animais.",
-    "caption": "Flamingos observados em lagoas e áreas úmidas, em datas distintas. #WildVox #Flamingos #Natureza",
+    "title": "Por que os flamingos ficam rosas? O segredo está no que comem",
+    "script": "Por que os flamingos são rosados? Curiosamente, os filhotes nascem com penas acinzentadas. A mudança vem da dieta. Algas e pequenos crustáceos contêm pigmentos naturais chamados carotenoides. O corpo processa os pigmentos e, aos poucos, novas penas ganham tons rosados. A alimentação muda a aparência! O bico desses animais também surpreende: ele funciona como um filtro para buscar alimento na água. Placas especiais retêm partículas, enquanto a língua ajuda a movimentar a água pelo bico. É como uma peneira biológica: o bico retém alimento, e a língua movimenta a água. A cor revela a dieta.",
+    "caption": "Flamingos não nascem com penas rosas! Os pigmentos da alimentação dão a cor às penas, e o bico funciona como um filtro. Fontes científicas: Smithsonian National Zoo e San Diego Zoo. #WildVox #CuriosidadesAnimais #Flamingos #Natureza",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC.webm",
@@ -915,74 +915,95 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-flamingo_lagoas_e_estuarios_nov10-ptbr-originais-v1",
+    "revision": "2026-11-10-flamingo_lagoas_e_estuarios_nov10-science-pink-filter-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Flamingos aparecem numa lagoa em março. A câmera acompanha aves altas, de pernas longas, cercadas pela água.",
-        "scene": "Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+        "text": "Por que os flamingos são rosados? Curiosamente, os filhotes nascem com penas acinzentadas.",
+        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
         "tags": [
           "greater_flamingo_march_lagoon_scene"
         ],
         "story_role": "hook",
-        "overlay_label": "AVES NA LAGOA",
+        "overlay_label": "POR QUE SÃO ROSAS?",
         "fx": []
       },
       {
-        "text": "Outra filmagem do mesmo período revela uma nova perspectiva dessas aves, sem transformar a cena em uma migração.",
-        "scene": "Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+        "text": "A mudança vem da dieta. Algas e pequenos crustáceos contêm pigmentos naturais chamados carotenoides.",
+        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
         "tags": [
           "greater_flamingo_march_second_view"
         ],
         "story_role": "setup",
-        "overlay_label": "OUTRO ÂNGULO",
+        "overlay_label": "PIGMENTOS DA DIETA",
         "fx": []
       },
       {
-        "text": "Duas gravações adicionais mostram flamingos na área úmida. Repare no contraste entre as penas claras, as pernas e a água ao redor.",
-        "scene": "Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm | 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 8.webm",
+        "text": "O corpo processa os pigmentos e, aos poucos, novas penas ganham tons rosados. A alimentação muda a aparência!",
+        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm | 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 8.webm",
         "tags": [
           "greater_flamingo_march_third_view",
           "greater_flamingo_march_fourth_view"
         ],
         "story_role": "action",
-        "overlay_label": "PENAS E PERNAS",
+        "overlay_label": "A COMIDA MUDA AS PENAS",
         "fx": []
       },
       {
-        "text": "Em abril, outro registro mostra essas aves na região. O cenário permanece aquático, mas a data mudou.",
-        "scene": "Cenas reais de origem: 2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+        "text": "O bico desses animais também surpreende: ele funciona como um filtro para buscar alimento na água.",
+        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
         "tags": [
           "greater_flamingo_april_lagoon_view"
         ],
         "story_role": "explanation",
-        "overlay_label": "REGISTRO DE ABRIL",
+        "overlay_label": "BICO QUE FILTRA",
         "fx": []
       },
       {
-        "text": "Uma segunda tomada de abril acrescenta outra perspectiva, ainda sem afirmar alimentação ou cortejo não demonstrados.",
-        "scene": "Cenas reais de origem: 2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
+        "text": "Placas especiais retêm partículas, enquanto a língua ajuda a movimentar a água pelo bico.",
+        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
         "tags": [
           "greater_flamingo_april_second_view"
         ],
         "story_role": "twist",
-        "overlay_label": "CENA INDEPENDENTE",
+        "overlay_label": "LÍNGUA E LAMELAS",
         "fx": []
       },
       {
-        "text": "Em maio, os flamingos aparecem perto da foz de um rio. O vídeo termina com outra lagoa: são observações reais e separadas desses animais.",
-        "scene": "Cenas reais de origem: 2022-05-21 IZLIV SOČE Phoenicopterus roseus PLAMENEC.webm | 2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
+        "text": "É como uma peneira biológica: o bico retém alimento, e a língua movimenta a água. A cor revela a dieta.",
+        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-05-21 IZLIV SOČE Phoenicopterus roseus PLAMENEC.webm | 2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
         "tags": [
           "greater_flamingo_may_river_mouth",
           "greater_flamingo_may_lagoon_view"
         ],
         "story_role": "payoff",
-        "overlay_label": "DA FOZ À LAGOA",
+        "overlay_label": "UMA PENEIRA NATURAL",
         "fx": []
       }
     ],
     "trend_priority": false,
     "language": "pt-BR",
-    "voice": "pm_alex"
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "hook_question": "Por que flamingos são rosados, se seus filhotes nascem com penas acinzentadas?",
+      "verified_fact": "A cor rosa vem de carotenoides na alimentação com algas e crustáceos; flamingos jovens não nascem com plumagem rosa.",
+      "biological_explanation": "Pigmentos ingeridos são metabolizados e incorporados às novas penas; o bico e a língua com lamelas especializadas filtram alimento da água.",
+      "comparison_or_consequence": "O bico se comporta como uma peneira biológica, enquanto a dieta pode afetar a cor da plumagem, em contraste com uma cor determinada somente por pigmentação genética fixa.",
+      "visual_evidence_strategy": "Oito cenas independentes de flamingos-rosados adultos em lagoas europeias mostram cor e habitat; são B-roll ilustrativo, não representam filhotes, microscopia de lamelas nem ingestão de um crustáceo específico. Nunca fingir demonstração de bico por close-up quando fonte só mostra ave distante.",
+      "fact_sources": [
+        {
+          "claim": "Filhotes de flamingo nascem com penas cinzentas e a cor rosa provém de carotenoides alimentares de algas e pequenos crustáceos.",
+          "url": "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts",
+          "publisher": "Smithsonian National Zoo & Conservation Biology Institute",
+          "reference_title": "Why Are Flamingos Pink? And Other Flamingo Facts"
+        },
+        {
+          "claim": "Flamingos filtram alimento com bico invertido, língua que bombeia água e lamelas semelhantes a pente.",
+          "url": "https://animals.sandiegozoo.org/animals/flamingo",
+          "publisher": "San Diego Zoo Wildlife Alliance",
+          "reference_title": "Flamingo – Habitat and Diet"
+        }
+      ]
+    }
   }
 }
