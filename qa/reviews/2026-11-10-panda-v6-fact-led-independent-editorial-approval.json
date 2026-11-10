@@ -1,0 +1,47 @@
+{
+  "date_local": "2026-11-10",
+  "brandId": 7242311,
+  "network": "tiktok",
+  "account": "@wildvox",
+  "key": "panda_rotinas_cativeiro_nov10",
+  "revision": "2026-11-10-panda_rotinas_cativeiro_nov10-licensed-pd-carnivore-bamboo-v6",
+  "decision": "APPROVE",
+  "approval_scope": "one-time exact GitHub current-day MP4 only, no release of other revisions or past descriptive videos",
+  "editorial_theme": "Por que pandas-gigantes, ursos da ordem dos carnívoros, vivem principalmente de bambu e passam tantas horas comendo",
+  "science_sources": [
+    {
+      "publisher": "Smithsonian National Zoo",
+      "url": "https://nationalzoo.si.edu/animals/giant-panda",
+      "claims": "Panda nutrition, digestive adaptation, feeding duration and enlarged wrist bone false thumb"
+    },
+    {
+      "publisher": "WWF UK",
+      "url": "https://www.wwf.org.uk/learn/wildlife/giant-pandas",
+      "claims": "Giant panda bamboo-dominant diet and extended feeding time"
+    }
+  ],
+  "editorial_evidence": {
+    "narration_fact_driven": true,
+    "mechanism_and_comparison": true,
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "video_and_source_review": "Original GitHub Actions ZIP extracted. Inspected eight 3-frame source previews, final review sheet and decoded MP4 at 1,4,7,10,14,17,20,24,27,31,35,37s. All show giant pandas at authentic facilities, eating/being near bamboo/resting; different filming dates and sites, no claim of same continuous event.",
+    "visual_risks": "Two adjacent feeding clips are from same Dujiangyan institution but distinct original URLs; shots show real feeding. Some older footage/captive enclosures and blurred dark portrait background are visible; no fabricated laboratory view of wrist/thumb.",
+    "technical": "FFprobe 38.700s 1080x1920 H264/AAC, independent ffmpeg freezedetect -50dB:d=1 and blackdetect no >=1s frozen events/black frames; independent per-candidate publish-media QA job passed; eight distinct raw videos with shots <=8s.",
+    "licensing": "4 CC BY 2.0 + 1 CC BY 3.0 + 1 CC BY 4.0 + 1 CC0 + 1 Public domain. Eight source page/creator/license links plus modification disclosure in 1690-character caption; no ShareAlike.",
+    "duplicate_guard": "Panda topic and raw footage not a repeated current-day @wildvox video; no previously scheduled panda media in 2026-11-10 planner."
+  },
+  "github_actions_run": 42846345513,
+  "original_artifact_id": 13779920335,
+  "original_zip": "github-actions-artifact-13779920335.zip",
+  "config_sha256": "2c693505239951faf7d1b41a99f5b5cd5859132c42b1c2a1ba6b588b70582026",
+  "sha256_mp4": "4e528d22457aa10cd6244298f85f63502a28d1b4180d167dbf18a071d220f807",
+  "git_blob_mp4": "0045c3b250bc429163a73e8dd2144d4912e215d7",
+  "git_blob_meta": "83c2e46d0df77d295a36a3432dad8adbfdcc05df",
+  "duration_seconds": 38.7,
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/panda_rotinas_cativeiro_nov10.mp4",
+  "publication_hold": true,
+  "metricool_post_id": null,
+  "provider_status": "NOT_SCHEDULED",
+  "public_tiktok_url": null
+}
