@@ -1080,6 +1080,10 @@ def main():
     attributed_caption = attributed_tiktok_caption(cfg)
 
     language = cfg.get("language") or "en-US"
+    # Editorial policy from 2026-11-10: never render new English batches.
+    # Legacy archived batches remain readable, but new production is pt-BR only.
+    if str(cfg.get("revision", "")) >= "2026-11-10" and language != "pt-BR":
+        raise RuntimeError(f"{args.key}: new WildVox production requires language=pt-BR; English content is on editorial hold")
     lang_code, selected_voice = narration_preset(language, cfg.get("voice"))
     voice, duration, narration_timeline = generate_voice(
         cfg["script"], args.key, visual_plan=cfg.get("visual_plan"),
