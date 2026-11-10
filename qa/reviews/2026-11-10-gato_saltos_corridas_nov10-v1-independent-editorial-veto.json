@@ -1,0 +1,32 @@
+{
+  "day_local": "2026-11-10",
+  "candidate": "gato_saltos_corridas_nov10",
+  "reviewed_run_id": 42819354575,
+  "artifact_id": 13765914917,
+  "source_commit": "d9d8bca00d471b8f5272f6e3cb4feead84061892",
+  "source_config_blob_sha": "b375457df6477429746575f8b71212a930848c39",
+  "config_sha256": "658f2507e1eae0a1e9a6b3b90fe97eb7f0c618b3ef7e95b2c7df8643a8b69613",
+  "mp4_sha256": "b9529189ab169f707330185fd40d1d99e377a89e670d004aef1858c5d0c11932",
+  "duration_seconds": 39.85,
+  "voice": "pm_alex",
+  "language": "pt-BR",
+  "visual_evidence": [
+    "Inspected original ZIP downloaded from current-run Actions, final 4-column contact sheet and all eight original source-preview sheets.",
+    "Source_00 'Cat Jumpscare.webm' shows a cat rolling on the floor; v1 narrator incorrectly called it a cat running at the camera.",
+    "Source_02 white cat on bamboo mat is not visibly jumping in inspected preview frames.",
+    "Source_03 street cat/pigeon has no demonstrated capture; narrated chase would overstate visual evidence.",
+    "Source_05 balcony recording has no clearly identifiable cat in the inspected frames and is weak filler."
+  ],
+  "decision": "VETO",
+  "publication_hold": true,
+  "publication_approved": false,
+  "reason": "Misleading action claims and a poor/unclear source; passing technical render is not editorial approval.",
+  "replacement_revision": "2026-11-10-gato_saltos_corridas_nov10-visual-truth-corrected-v3",
+  "replacement_commit": "e6c405f55ceefc74f667aed3d4b40f508d72d275",
+  "replacement_run_id": 42820828344,
+  "next_actions": [
+    "Never schedule this original MP4 SHA256 or reuse old approval.",
+    "Independently inspect replacement original after targeted rerender and check all eight shots against Portuguese narration.",
+    "Only publish after verified license, decoded-frame QA, originality, safety zones and @wildvox account check."
+  ]
+}
