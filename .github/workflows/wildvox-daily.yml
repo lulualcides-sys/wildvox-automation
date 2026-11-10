@@ -129,7 +129,7 @@ jobs:
             exit 1
           fi
 
-          # Reject an invalid batch before installing multi-gigabyte rendering dependencies.
+          # Editorial fact sheets for newly prepared content: fail before any render costs.\n          # This structural gate does not certify scientific truth or visual footage.\n          python qa/validate_curiosity_facts.py configs/daily.json\n\n          # Reject an invalid batch before installing multi-gigabyte rendering dependencies.
           # The render script enforces these same minimums; catch them once here.
           jq -er '
             to_entries[]
