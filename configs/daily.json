@@ -387,9 +387,9 @@
     }
   },
   "gato_higiene_chamados_nov10": {
-    "title": "Gatos em detalhes: higiene, atenção e encontros",
-    "script": "Um gato começa a se limpar. A língua passa pelos pelos em movimentos fáceis de observar. Em outra gravação, um filhote birmanês cuida da própria pelagem. É uma cena de higiene. Um gato preto se movimenta. Outro registro mostra um gato preto se limpando, sem provar que são animais diferentes. Uma pessoa segura um gato para cortar as unhas. É um cuidado diferente da autolimpeza. Perto da janela, um gato observa outro do lado de fora, atento. Dois gatos interagem no chão em uma gravação. Depois, outro gato se limpa sozinho. Os comportamentos variam, mas nem toda intenção fica clara.",
-    "caption": "Higiene, cuidado humano e encontros entre gatos: oito cenas reais com narração brasileira. #WildVox #Gatos #ComportamentoFelino",
+    "title": "Por que a língua dos gatos parece uma lixa?",
+    "script": "Por que a língua do gato parece lixa? Ela esconde um detalhe de engenharia natural. Pequenas papilas de queratina, voltadas para trás, ajudam a cuidar da pelagem. Pesquisadores descobriram cavidades nas pontas dessas papilas. Elas transportam saliva até os fios durante as lambidas, como pequenas colheres. Mas a língua não substitui tudo: unhas, por exemplo, exigem outros cuidados. Um gato também pode lamber outro: a higiene compartilhada faz parte de algumas interações sociais. O segredo é a combinação de pente e umidade. Essa estrutura impressionou cientistas, que desenvolveram até uma escova inspirada na língua felina.",
+    "caption": "A língua de um gato não é apenas áspera: suas papilas ajudam a levar saliva até o pelo. Cientistas estudaram essa estrutura e criaram uma escova inspirada nela. Fonte científica: PNAS, 2018. #WildVox #CuriosidadesDosGatos #Gatos",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin2.webm",
@@ -457,30 +457,30 @@
         "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomcat%20calling.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20male%20cat%20grooms%20a%20female%20kitten%202021-08-25%20August%2025.webm",
         "type": "video",
-        "assetTitle": "Tomcat calling.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomcat_calling.webm",
+        "assetTitle": "A male cat grooms a female kitten 2021-08-25 August 25.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_male_cat_grooms_a_female_kitten_2021-08-25_August_25.webm",
         "tags": [
-          "house_cat_looking_at_another_cat_through_window"
+          "adult_cat_grooming_kitten_cc0"
         ],
-        "author": "Drummyfish",
+        "author": "ウィキ太郎 (Wiki Taro)",
         "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_note": "Creator publicly dedicated the original to CC0 and public domain; verify precise mutual-grooming actions in the original video before publishing."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Domestic%20catfight.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20relaxing%20on%20a%20sofa.webm",
         "type": "video",
-        "assetTitle": "Domestic catfight.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Domestic_catfight.webm",
+        "assetTitle": "Cat relaxing on a sofa.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_relaxing_on_a_sofa.webm",
         "tags": [
-          "domestic_cats_physical_interaction"
+          "house_cat_sofa_rest_ccby"
         ],
-        "author": "Panini!",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+        "author": "Ivan Kurmanov",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_note": "Flickr original verified as CC BY 2.0 by Commons reviewer; cat at rest is illustrative B-roll, do not assert grooming unless independently seen in render."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
@@ -502,75 +502,96 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_higiene_chamados_nov10-licensed-dynamic-payoff-duration-v4",
+    "revision": "2026-11-10-gato_higiene_chamados_nov10-tongue-brush-science-v5",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Um gato começa a se limpar. A língua passa pelos pelos em movimentos fáceis de observar.",
-        "scene": "Cenas reais de origem: Moomin2.webm",
+        "text": "Por que a língua do gato parece lixa? Ela esconde um detalhe de engenharia natural.",
+        "scene": "Cena Moomin2: gato realiza autolimpeza. B-roll ilustrativo da língua, sem microscopia.",
         "tags": [
           "house_cat_moomin_grooming"
         ],
         "story_role": "hook",
-        "overlay_label": "HIGIENE FELINA",
+        "overlay_label": "LÍNGUA DE LIXA?",
         "fx": []
       },
       {
-        "text": "Em outra gravação, um filhote birmanês cuida da própria pelagem. É uma cena de higiene.",
-        "scene": "Cenas reais de origem: Burmese Kitten Grooming Itself.webm",
+        "text": "Pequenas papilas de queratina, voltadas para trás, ajudam a cuidar da pelagem.",
+        "scene": "Filhote birmanês lambendo a pelagem, exemplo da limpeza felina.",
         "tags": [
           "burmese_kitten_self_grooming"
         ],
         "story_role": "setup",
-        "overlay_label": "PELAGEM DO FILHOTE",
+        "overlay_label": "PAPILAS DE QUERATINA",
         "fx": []
       },
       {
-        "text": "Um gato preto se movimenta. Outro registro mostra um gato preto se limpando, sem provar que são animais diferentes.",
-        "scene": "Duas gravações de um gato preto repousando e realizando autolimpeza, sem inferir indivíduos distintos",
+        "text": "Pesquisadores descobriram cavidades nas pontas dessas papilas. Elas transportam saliva até os fios durante as lambidas, como pequenas colheres.",
+        "scene": "Gatos pretos em gravações separadas, ao menos uma de higiene, ilustram diversidade de pelagem; papilas microscópicas são informação do estudo.",
         "tags": [
           "black_monarca_cat_play_groom",
           "black_house_cat_self_grooming"
         ],
         "story_role": "action",
-        "overlay_label": "GATOS PRETOS",
+        "overlay_label": "SALIVA ENTRE OS PELOS",
         "fx": []
       },
       {
-        "text": "Uma pessoa segura um gato para cortar as unhas. É um cuidado diferente da autolimpeza.",
-        "scene": "Cenas reais de origem: Larry the cat getting his nails trimmed (VID 20210408 123153).webm",
+        "text": "Mas a língua não substitui tudo: unhas, por exemplo, exigem outros cuidados.",
+        "scene": "Registro real do gato Larry recebendo aparo de unhas por pessoa; contraste de cuidados não executados pela língua.",
         "tags": [
           "house_cat_getting_nails_trimmed"
         ],
         "story_role": "explanation",
-        "overlay_label": "CUIDADO HUMANO",
+        "overlay_label": "LÍNGUA NÃO CORTA UNHAS",
         "fx": []
       },
       {
-        "text": "Perto da janela, um gato observa outro do lado de fora, atento.",
-        "scene": "Gato dentro de casa observa outro gato através da janela; Tomcat calling.webm",
+        "text": "Um gato também pode lamber outro: a higiene compartilhada faz parte de algumas interações sociais.",
+        "scene": "Gato adulto CC0 lambendo um filhote em vídeo independente, exemplo verificável de higiene social.",
         "tags": [
-          "house_cat_looking_at_another_cat_through_window"
+          "adult_cat_grooming_kitten_cc0"
         ],
         "story_role": "twist",
-        "overlay_label": "OLHANDO A JANELA",
+        "overlay_label": "HIGIENE SOCIAL",
         "fx": []
       },
       {
-        "text": "Dois gatos interagem no chão em uma gravação. Depois, outro gato se limpa sozinho. Os comportamentos variam, mas nem toda intenção fica clara.",
-        "scene": "Dois gatos interagem no chão em filmagem distinta; outro gato lambe sua própria pelagem em vídeo autêntico, sem fotografia estática",
+        "text": "O segredo é a combinação de pente e umidade. Essa estrutura impressionou cientistas, que desenvolveram até uma escova inspirada na língua felina.",
+        "scene": "Gato relaxando no sofá como B-roll, seguido de gato se autolimpando com a língua; finalizar explicação científica das papilas.",
         "tags": [
-          "domestic_cats_physical_interaction",
+          "house_cat_sofa_rest_ccby",
           "domestic_cat_self_grooming_late_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "CADA CENA É DIFERENTE",
+        "overlay_label": "ESCOVA NATURAL",
         "fx": []
       }
     ],
     "trend_priority": true,
     "language": "pt-BR",
-    "voice": "pm_alex"
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "hook_question": "Por que a língua do gato é áspera e como ela distribui saliva no pelo?",
+      "verified_fact": "O estudo de 2018 na PNAS descreve papilas filiformes ocas na ponta que transportam saliva para a pelagem durante a autolimpeza.",
+      "biological_explanation": "As papilas de queratina voltadas para trás possuem cavidades que retêm saliva por capilaridade, distribuindo fluido e ajudando a desembaraçar os pelos.",
+      "comparison_or_consequence": "Os pesquisadores fabricaram uma escova inspirada nas papilas felinas; a estrutura funciona como um pente que distribui umidade. Higiene compartilhada é também forma de interação social entre alguns gatos.",
+      "visual_evidence_strategy": "B-roll de gatos genuinamente se lambendo, um gato cuidando de filhote e comparação pontual com unhas cortadas por humano. Não fingir filmagem microscópica da língua nem afirmar que o vídeo demonstra a estrutura molecular; nenhuma cena de luta/miado sem evidência.",
+      "fact_sources": [
+        {
+          "claim": "Papilas ocas na língua de seis espécies felinas transportam saliva até o pelo e inspiraram escova experimental.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6298077/",
+          "publisher": "PNAS / National Library of Medicine",
+          "reference_title": "Cats use hollow papillae to wick saliva into fur"
+        },
+        {
+          "claim": "Allogrooming é exemplo de interação social felina; recursos de cuidado e atividade devem ser separados quando necessário.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11383066/",
+          "publisher": "AAFP/ISFM - Journal of Feline Medicine and Surgery",
+          "reference_title": "AAFP and ISFM Feline Environmental Needs Guidelines"
+        }
+      ]
+    }
   },
   "panda_rotinas_cativeiro_nov10": {
     "title": "Pandas: por que um carnívoro passa tantas horas comendo bambu?",
