@@ -372,9 +372,9 @@
     "voice": "pm_alex"
   },
   "gato_higiene_chamados_nov10": {
-    "title": "Dos pelos ao miado: comportamentos de gatos",
-    "script": "Uma gata começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis. Em outra gravação, uma pequena gata birmanesa também cuida da própria pelagem, sem precisar de ajuda. Um gato preto aparece se movimentando e se limpando. Outro gato preto, filmado separadamente, repete uma rotina de higiene. Já em outra casa, uma pessoa corta as unhas de um gato. É um cuidado diferente da autolimpeza. Um macho emite um chamado alto diante de outro gato. A cena não deve ser confundida com brincadeira. Em seguida, dois gatos realmente brigam numa gravação distinta. Terminamos com o retrato de outro gato atento. Nem todos os sinais significam a mesma coisa.",
-    "caption": "Gatos se limpam, vocalizam e reagem de maneiras distintas. Filmagens reais. #WildVox #Gatos #ComportamentoFelino",
+    "title": "Gatos em detalhes: higiene, atenção e encontros",
+    "script": "Um gato de pelagem clara começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis. Em outra gravação, um filhote birmanês também cuida da própria pelagem. É uma cena de higiene, sem ajuda humana. Um gato preto aparece deitado e em movimento. Outro registro mostra um gato preto cuidando do próprio pelo, sem provar que sejam indivíduos diferentes. Uma pessoa segura um gato no colo para cortar as unhas. É uma forma de cuidado diferente da autolimpeza. Perto de uma janela, um gato observa outro do lado de fora, atento ao que acontece naquele momento. Em outra casa, dois gatos se aproximam e interagem no chão. Um retrato encerra a sequência: a linguagem corporal muda de cena para cena, e nem toda intenção fica clara.",
+    "caption": "Gatos cuidando da pelagem, observando uma janela e interagindo: cenas reais de diferentes animais. #WildVox #Gatos #ComportamentoFelino",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin2.webm",
@@ -447,7 +447,7 @@
         "assetTitle": "Tomcat calling.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomcat_calling.webm",
         "tags": [
-          "male_cat_vocalizing_alert"
+          "house_cat_looking_at_another_cat_through_window"
         ],
         "author": "Drummyfish",
         "license": "CC0",
@@ -460,7 +460,7 @@
         "assetTitle": "Domestic catfight.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Domestic_catfight.webm",
         "tags": [
-          "domestic_cats_actual_fight"
+          "domestic_cats_physical_interaction"
         ],
         "author": "Panini!",
         "license": "CC0",
@@ -487,11 +487,11 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_higiene_chamados_nov10-ptbr-originais-v1",
+    "revision": "2026-11-10-gato_higiene_chamados_nov10-real-action-revision-v2",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Uma gata começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis.",
+        "text": "Um gato de pelagem clara começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis.",
         "scene": "Cenas reais de origem: Moomin2.webm",
         "tags": [
           "house_cat_moomin_grooming"
@@ -501,7 +501,7 @@
         "fx": []
       },
       {
-        "text": "Em outra gravação, uma pequena gata birmanesa também cuida da própria pelagem, sem precisar de ajuda.",
+        "text": "Em outra gravação, um filhote birmanês também cuida da própria pelagem. É uma cena de higiene, sem ajuda humana.",
         "scene": "Cenas reais de origem: Burmese Kitten Grooming Itself.webm",
         "tags": [
           "burmese_kitten_self_grooming"
@@ -511,8 +511,8 @@
         "fx": []
       },
       {
-        "text": "Um gato preto aparece se movimentando e se limpando. Outro gato preto, filmado separadamente, repete uma rotina de higiene.",
-        "scene": "Cenas reais de origem: Felis silvestris catus (Monarca).ogv | A black Felis silvestris catus.ogv",
+        "text": "Um gato preto aparece deitado e em movimento. Outro registro mostra um gato preto cuidando do próprio pelo, sem provar que sejam indivíduos diferentes.",
+        "scene": "Duas gravações de um gato preto repousando e realizando autolimpeza, sem inferir indivíduos distintos",
         "tags": [
           "black_monarca_cat_play_groom",
           "black_house_cat_self_grooming"
@@ -522,7 +522,7 @@
         "fx": []
       },
       {
-        "text": "Já em outra casa, uma pessoa corta as unhas de um gato. É um cuidado diferente da autolimpeza.",
+        "text": "Uma pessoa segura um gato no colo para cortar as unhas. É uma forma de cuidado diferente da autolimpeza.",
         "scene": "Cenas reais de origem: Larry the cat getting his nails trimmed (VID 20210408 123153).webm",
         "tags": [
           "house_cat_getting_nails_trimmed"
@@ -532,24 +532,24 @@
         "fx": []
       },
       {
-        "text": "Um macho emite um chamado alto diante de outro gato. A cena não deve ser confundida com brincadeira.",
-        "scene": "Cenas reais de origem: Tomcat calling.webm",
+        "text": "Perto de uma janela, um gato observa outro do lado de fora, atento ao que acontece naquele momento.",
+        "scene": "Gato dentro de casa observa outro gato através da janela; Tomcat calling.webm",
         "tags": [
-          "male_cat_vocalizing_alert"
+          "house_cat_looking_at_another_cat_through_window"
         ],
         "story_role": "twist",
-        "overlay_label": "CHAMADO DE ALERTA",
+        "overlay_label": "OLHANDO A JANELA",
         "fx": []
       },
       {
-        "text": "Em seguida, dois gatos realmente brigam numa gravação distinta. Terminamos com o retrato de outro gato atento. Nem todos os sinais significam a mesma coisa.",
-        "scene": "Cenas reais de origem: Domestic catfight.webm | Closeup of a black cat.jpg",
+        "text": "Em outra casa, dois gatos se aproximam e interagem no chão. Um retrato encerra a sequência: a linguagem corporal muda de cena para cena, e nem toda intenção fica clara.",
+        "scene": "Duas felinas interagem fisicamente no chão; foto de outro gato preto encerra",
         "tags": [
-          "domestic_cats_actual_fight",
+          "domestic_cats_physical_interaction",
           "black_cat_green_eyes_closeup"
         ],
         "story_role": "payoff",
-        "overlay_label": "CONFLITO REAL",
+        "overlay_label": "OUTRO ENCONTRO",
         "fx": []
       }
     ],
