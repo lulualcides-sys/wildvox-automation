@@ -1,16 +1,22 @@
-# WildVox — narrativa visual (a partir de 2026-10-27)
+# WildVox — minidocumentários de curiosidades animais (padrão restabelecido em 2026-11-10)
 
 ## Objetivo
-Cada vídeo deve ser uma minihistória factual, contada em português brasileiro (pt-BR) a partir de 10/11/2026, em vez de uma lista solta de curiosidades. Aplicar aos próximos lotes **sem reprocessar o lote de 26/10**. TikTok apenas; nenhuma ação desta política agenda/publica posts.
+**Objetivo editorial:** ensinar uma curiosidade comprovada sobre o animal — comportamento, comida, brincadeira, sentidos, adaptações, habilidades ou comparação — e explicar o porquê ou o como. A história é sobre o **conhecimento transmitido**, não uma locução descrevendo cada clipe. O vídeo é B-roll que ilustra os fatos, nunca o contrário. Português brasileiro (pt-BR), TikTok @wildvox apenas.
+
+**PROIBIDO:** roteiros descritivos do tipo "agora o gato olha", "depois ele anda", "aqui vemos outro animal", "o vídeo mostra...", listas de cenas independentes sem aprendizagem factual, interpretações de comportamentos não verificadas, comparação inventada, regravação de temas já publicados. Um vídeo tecnicamente bonito com esse defeito recebe VETO editorial.
+
+**Estrutura factual:** gancho em pergunta ou fato surpreendente → curiosidade comprovada → comportamento observável → explicação biológica (mecanismo/causa, com incertezas quando existirem) → comparação concreta ou consequência → fechamento memorável. Fatos de biologia exigem pesquisa em fonte confiável independente das URLs do banco de imagens. Anotações, setas, rótulos, ilustrações e cortes aparecem quando ajudam a ensinar o mecanismo. Não exigir que B-roll de comportamento externo mostre estruturas internas; não apresentar imagens ilustrativas como prova do que não foi filmado.
+
+**Trava de produção:** revisões preparadas a partir de 11/11/2026 exigem `curiosity_fact_sheet` com `hook_question`, `verified_fact`, `biological_explanation`, `comparison_or_consequence`, `visual_evidence_strategy` e `fact_sources` (cada uma: `claim`, `url`, `publisher`, `reference_title`). O gate em `qa/validate_curiosity_facts.py` rejeita fichas incompletas antes de renderizar, mas não substitui verificação científica individual nem inspeção visual do MP4. Históricos anteriores não são liberados automaticamente por essa regra.
 
 ## Estrutura obrigatória do `visual_plan`
 Manter exatamente 5-7 blocos e o texto falado integral: a concatenação de `visual_plan[].text` deve equivaler exatamente a `script` após normalização prevista no gerador. Cada bloco precisa de `scene`, `tags` semânticas específicas que correspondam a fontes reais, e `story_role`. Papéis permitidos: `hook`, `setup`, `action`, `explanation`, `twist`, `payoff`. Primeiro bloco = `hook`; último = `payoff`; pelo menos um bloco intermediário = `action` e pelo menos um = `explanation` ou `twist`. Vários blocos podem ter o mesmo papel. Não são metadados top-level; integram cada vídeo.
 
 - **Hook:** primeira fala cria pergunta, surpresa verificável ou conflito concreto, preferencialmente demonstrável pela primeira imagem. Evitar clickbait não comprovado, "you won't believe" e exageros.
 - **Setup:** situar espécie e circunstância sem transformar o roteiro numa aula taxonômica.
-- **Action:** mostrar comportamento real em andamento, com verbo e objeto visualmente demonstráveis.
-- **Explanation/twist:** explicar mecanismo, causa e consequência; se for hipótese científica, dizer isso explicitamente.
-- **Payoff:** resolver o gancho, fechar com a revelação ou consequência visual, não repetir a introdução.
+- **Action:** usar uma cena real de comportamento como ilustração de uma afirmação zoológica relevante; nunca apenas relatar o movimento do clipe.
+- **Explanation/twist:** ensinar mecanismo biológico ou causa/comparação baseada em fonte científica; se houver hipótese ou debate, indicar a incerteza com precisão.
+- **Payoff:** entregar uma conclusão educativa surpreendente e verificável sobre o fato, com cena relevante; não resumir o que os clipes exibiram.
 
 ## Edição e áudio
 - A partir de 10/11/2026 usar voz Kokoro `pm_alex` com `lang_code='p'`, narração e legendas em português brasileiro; preservar ritmo aprovado, legendas curtas e área segura vertical 1080x1920.
