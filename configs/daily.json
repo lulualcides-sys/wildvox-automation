@@ -373,8 +373,8 @@
   },
   "gato_higiene_chamados_nov10": {
     "title": "Gatos em detalhes: higiene, atenção e encontros",
-    "script": "Um gato de pelagem clara começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis. Em outra gravação, um filhote birmanês também cuida da própria pelagem. É uma cena de higiene, sem ajuda humana. Um gato preto aparece deitado e em movimento. Outro registro mostra um gato preto cuidando do próprio pelo, sem provar que sejam indivíduos diferentes. Uma pessoa segura um gato no colo para cortar as unhas. É uma forma de cuidado diferente da autolimpeza. Perto de uma janela, um gato observa outro do lado de fora, atento ao que acontece naquele momento. Em outra casa, dois gatos se aproximam e interagem no chão. Um retrato encerra a sequência: a linguagem corporal muda de cena para cena, e nem toda intenção fica clara.",
-    "caption": "Gatos cuidando da pelagem, observando uma janela e interagindo: cenas reais de diferentes animais. #WildVox #Gatos #ComportamentoFelino",
+    "script": "Um gato começa a se limpar. A língua passa pelos pelos em movimentos fáceis de observar. Em outra gravação, um filhote birmanês cuida da própria pelagem. É uma cena de higiene. Um gato preto se movimenta. Outro registro mostra um gato preto se limpando, sem provar que são animais diferentes. Uma pessoa segura um gato para cortar as unhas. É um cuidado diferente da autolimpeza. Perto da janela, um gato observa outro do lado de fora, atento. Dois gatos interagem no chão em uma gravação. Depois, outro gato se limpa sozinho. Os comportamentos variam, mas nem toda intenção fica clara.",
+    "caption": "Higiene, cuidado humano e encontros entre gatos: oito cenas reais com narração brasileira. #WildVox #Gatos #ComportamentoFelino",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin2.webm",
@@ -468,17 +468,17 @@
         "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Closeup%20of%20a%20black%20cat.jpg",
-        "type": "image",
-        "assetTitle": "Closeup of a black cat.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Closeup_of_a_black_cat.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
+        "type": "video",
+        "assetTitle": "Cat behaviour - self-grooming.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
         "tags": [
-          "black_cat_green_eyes_closeup"
+          "domestic_cat_self_grooming_late_payoff"
         ],
-        "author": "Miscellaneous contributor",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+        "author": "Learnerktm",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "start_seconds": 40
       }
     ],
     "min_unique_videos": 6,
@@ -487,11 +487,11 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_higiene_chamados_nov10-real-action-revision-v2",
+    "revision": "2026-11-10-gato_higiene_chamados_nov10-licensed-dynamic-payoff-duration-v4",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Um gato de pelagem clara começa a se limpar. A língua passa pelos pelos em movimentos repetidos e visíveis.",
+        "text": "Um gato começa a se limpar. A língua passa pelos pelos em movimentos fáceis de observar.",
         "scene": "Cenas reais de origem: Moomin2.webm",
         "tags": [
           "house_cat_moomin_grooming"
@@ -501,7 +501,7 @@
         "fx": []
       },
       {
-        "text": "Em outra gravação, um filhote birmanês também cuida da própria pelagem. É uma cena de higiene, sem ajuda humana.",
+        "text": "Em outra gravação, um filhote birmanês cuida da própria pelagem. É uma cena de higiene.",
         "scene": "Cenas reais de origem: Burmese Kitten Grooming Itself.webm",
         "tags": [
           "burmese_kitten_self_grooming"
@@ -511,7 +511,7 @@
         "fx": []
       },
       {
-        "text": "Um gato preto aparece deitado e em movimento. Outro registro mostra um gato preto cuidando do próprio pelo, sem provar que sejam indivíduos diferentes.",
+        "text": "Um gato preto se movimenta. Outro registro mostra um gato preto se limpando, sem provar que são animais diferentes.",
         "scene": "Duas gravações de um gato preto repousando e realizando autolimpeza, sem inferir indivíduos distintos",
         "tags": [
           "black_monarca_cat_play_groom",
@@ -522,7 +522,7 @@
         "fx": []
       },
       {
-        "text": "Uma pessoa segura um gato no colo para cortar as unhas. É uma forma de cuidado diferente da autolimpeza.",
+        "text": "Uma pessoa segura um gato para cortar as unhas. É um cuidado diferente da autolimpeza.",
         "scene": "Cenas reais de origem: Larry the cat getting his nails trimmed (VID 20210408 123153).webm",
         "tags": [
           "house_cat_getting_nails_trimmed"
@@ -532,7 +532,7 @@
         "fx": []
       },
       {
-        "text": "Perto de uma janela, um gato observa outro do lado de fora, atento ao que acontece naquele momento.",
+        "text": "Perto da janela, um gato observa outro do lado de fora, atento.",
         "scene": "Gato dentro de casa observa outro gato através da janela; Tomcat calling.webm",
         "tags": [
           "house_cat_looking_at_another_cat_through_window"
@@ -542,14 +542,14 @@
         "fx": []
       },
       {
-        "text": "Em outra casa, dois gatos se aproximam e interagem no chão. Um retrato encerra a sequência: a linguagem corporal muda de cena para cena, e nem toda intenção fica clara.",
-        "scene": "Duas felinas interagem fisicamente no chão; foto de outro gato preto encerra",
+        "text": "Dois gatos interagem no chão em uma gravação. Depois, outro gato se limpa sozinho. Os comportamentos variam, mas nem toda intenção fica clara.",
+        "scene": "Dois gatos interagem no chão em filmagem distinta; outro gato lambe sua própria pelagem em vídeo autêntico, sem fotografia estática",
         "tags": [
           "domestic_cats_physical_interaction",
-          "black_cat_green_eyes_closeup"
+          "domestic_cat_self_grooming_late_payoff"
         ],
         "story_role": "payoff",
-        "overlay_label": "OUTRO ENCONTRO",
+        "overlay_label": "CADA CENA É DIFERENTE",
         "fx": []
       }
     ],
@@ -559,8 +559,8 @@
   },
   "panda_rotinas_cativeiro_nov10": {
     "title": "Pandas: alimentação, filhotes e descanso",
-    "script": "Um panda-gigante come em meio à neve. A gravação mostra um momento de alimentação em um ambiente cuidado por pessoas. Em outro zoológico, uma fêmea aparece ao lado do filhote. Os dois foram filmados juntos. Um panda é visto em um novo espaço. Depois, outro registro mostra a alimentação de um panda num centro de conservação chinês. A mesma instituição aparece numa segunda filmagem de alimentação. Não é necessário fingir que as cenas são do mesmo dia. O panda conhecido como Jia Jia também aparece comendo bambu, em outra gravação feita em cativeiro. Por fim, um panda descansa no zoológico de Pequim. Uma fotografia independente mostra outro panda em Edimburgo. São encontros registrados em lugares diferentes.",
-    "caption": "Momentos diferentes de pandas em zoológicos e centros de conservação. #WildVox #Pandas #Animais",
+    "script": "Um panda-gigante come em meio à neve. A gravação mostra um momento de alimentação em um ambiente cuidado por pessoas. Em outro zoológico, uma fêmea aparece ao lado do filhote. Os dois foram filmados juntos. Um panda é visto em um novo espaço. Depois, outro registro mostra a alimentação de um panda num centro de conservação chinês. A mesma instituição aparece numa segunda filmagem de alimentação. Não é necessário fingir que as cenas são do mesmo dia. O panda conhecido como Jia Jia também aparece comendo bambu, em outra gravação feita em cativeiro. Por fim, um panda descansa no zoológico de Pequim. O último vídeo apresenta outro panda no zoológico de Berlim, filmado em abril de 2026. São registros verdadeiros de locais diferentes.",
+    "caption": "Pandas em zoológicos e centros de conservação: alimentação, filhotes e momentos separados. #WildVox #Pandas #Animais",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BaoBao%20the%20Panda%20having%20a%20snack%20in%20the%20snow.webm",
@@ -654,17 +654,16 @@
         "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20panda%20in%20Edinburgh%20Zoo%2001.jpg",
-        "type": "image",
-        "assetTitle": "Giant panda in Edinburgh Zoo 01.jpg",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_panda_in_Edinburgh_Zoo_01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20zoologisk%20hage%202026-04-07%20mov11.webm",
+        "type": "video",
+        "assetTitle": "Berlin zoologisk hage 2026-04-07 mov11.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Berlin_zoologisk_hage_2026-04-07_mov11.webm",
         "tags": [
-          "giant_panda_edinburgh_portrait"
+          "giant_panda_berlin_zoo_2026"
         ],
-        "author": "Adam Harangozó",
+        "author": "LarsMueller",
         "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
       }
     ],
     "min_unique_videos": 6,
@@ -673,7 +672,7 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-panda_rotinas_cativeiro_nov10-ptbr-originais-v1",
+    "revision": "2026-11-10-panda_rotinas_cativeiro_nov10-real-video-ending-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -728,14 +727,14 @@
         "fx": []
       },
       {
-        "text": "Por fim, um panda descansa no zoológico de Pequim. Uma fotografia independente mostra outro panda em Edimburgo. São encontros registrados em lugares diferentes.",
-        "scene": "Cenas reais de origem: Panda at the zoo in Beijing just chilling.webm | Giant panda in Edinburgh Zoo 01.jpg",
+        "text": "Por fim, um panda descansa no zoológico de Pequim. O último vídeo apresenta outro panda no zoológico de Berlim, filmado em abril de 2026. São registros verdadeiros de locais diferentes.",
+        "scene": "Panda em vídeo no zoológico de Pequim; panda distinto visto no Zoológico de Berlim em abril de 2026, sem alegar alimentação não demonstrada",
         "tags": [
           "giant_panda_beijing_zoo_resting",
-          "giant_panda_edinburgh_portrait"
+          "giant_panda_berlin_zoo_2026"
         ],
         "story_role": "payoff",
-        "overlay_label": "DESCANSO E RETRATO",
+        "overlay_label": "OUTRO ZOOLÓGICO",
         "fx": []
       }
     ],
