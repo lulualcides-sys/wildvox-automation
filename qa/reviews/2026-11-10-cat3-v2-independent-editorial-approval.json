@@ -1,0 +1,24 @@
+{
+  "day_local": "2026-11-10",
+  "candidate": "gato_higiene_chamados_nov10",
+  "source_run_id": 42826585845,
+  "artifact_id": 13771300145,
+  "config_sha256": "ad4c0baf8e90a9f5d70ef63fd418227ec4330fadb31f7390316901243f93bfcd",
+  "mp4_sha256": "65afa387e50e2dffda10594954b8777763da2db64fff33e1dd4f46bc3cecab11",
+  "media_blob_sha": "c2056e570b140614baf76fd817f63e45eef40490",
+  "duration_seconds": 36.85,
+  "language": "pt-BR",
+  "voice": "pm_alex",
+  "inspection": [
+    "Original GitHub artifact ZIP extracted; eight source preview JPGs and MP4 decoded at 2,6,10,14,18,22,26,30,34 seconds.",
+    "Scenes depict cats grooming, a person trimming a cat's nails, a cat looking toward another outside a window, cats interacting on the floor; narration avoids unverified vocalizations and fights.",
+    "Independent FFmpeg freezedetect threshold -50dB for >=1s found no freezes.",
+    "Original MP4 Git hash-object matches public media branch Git blob; distinct from prior published cat-family and cat-play clips.",
+    "Creator/license/source disclosures present in MP4 metadata, CC0 and CC BY 4.0; voice/captions pt-BR."
+  ],
+  "approval": "APPROVED_FOR_TIKTOK_SCHEDULING",
+  "publication_hold_config": true,
+  "publication_approved": true,
+  "platform": "TikTok @wildvox only, brand 7242311",
+  "approved_media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/gato_higiene_chamados_nov10.mp4"
+}
