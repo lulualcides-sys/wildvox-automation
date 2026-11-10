@@ -559,7 +559,7 @@
   },
   "panda_rotinas_cativeiro_nov10": {
     "title": "Pandas: alimentação, filhotes e descanso",
-    "script": "Um panda-gigante come em meio à neve. A gravação mostra um momento de alimentação em um ambiente cuidado por pessoas. Em outro zoológico, uma fêmea aparece ao lado do filhote. Os dois foram filmados juntos. Um panda é visto em um novo espaço. Depois, outro registro mostra a alimentação de um panda num centro de conservação chinês. A mesma instituição aparece numa segunda filmagem de alimentação. Não é necessário fingir que as cenas são do mesmo dia. O panda conhecido como Jia Jia também aparece comendo bambu, em outra gravação feita em cativeiro. Por fim, um panda descansa no zoológico de Pequim. O último vídeo apresenta outro panda no zoológico de Berlim, filmado em abril de 2026. São registros verdadeiros de locais diferentes.",
+    "script": "Um panda-gigante come em meio à neve. A gravação mostra um momento de alimentação em um ambiente cuidado por pessoas. Em outro zoológico, uma fêmea aparece ao lado do filhote. Os dois foram filmados juntos. Um panda é visto em um novo espaço. Depois, outro registro mostra a alimentação de um panda num centro de conservação chinês. A mesma instituição aparece numa segunda filmagem de alimentação. Não é necessário fingir que as cenas são do mesmo dia. O panda conhecido como Jia Jia também aparece comendo bambu, em outra gravação feita em cativeiro. Um panda descansa no zoológico de Pequim. Outro aparece no zoológico de Berlim em abril de 2026.",
     "caption": "Pandas em zoológicos e centros de conservação: alimentação, filhotes e momentos separados. #WildVox #Pandas #Animais",
     "sources": [
       {
@@ -672,7 +672,7 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-panda_rotinas_cativeiro_nov10-real-video-ending-v2",
+    "revision": "2026-11-10-panda_rotinas_cativeiro_nov10-shorter-ptbr-voice-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -727,7 +727,7 @@
         "fx": []
       },
       {
-        "text": "Por fim, um panda descansa no zoológico de Pequim. O último vídeo apresenta outro panda no zoológico de Berlim, filmado em abril de 2026. São registros verdadeiros de locais diferentes.",
+        "text": "Um panda descansa no zoológico de Pequim. Outro aparece no zoológico de Berlim em abril de 2026.",
         "scene": "Panda em vídeo no zoológico de Pequim; panda distinto visto no Zoológico de Berlim em abril de 2026, sem alegar alimentação não demonstrada",
         "tags": [
           "giant_panda_beijing_zoo_resting",
