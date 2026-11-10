@@ -1,0 +1,214 @@
+{
+  "key": "panda_rotinas_cativeiro_nov10",
+  "title": "Pandas: alimentação, filhotes e descanso",
+  "caption": "Pandas em zoológicos e centros de conservação: alimentação, filhotes e momentos separados. #WildVox #Pandas #Animais\n\nCréditos dos vídeos (edição vertical 9:16, legendas e narração):\n1. Brian Gratwicke | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:BaoBao_the_Panda_having_a_snack_in_the_snow.webm | https://creativecommons.org/licenses/by/2.0/\n2. Brian Gratwicke | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Female_panda_and_cub.webm | https://creativecommons.org/licenses/by/2.0/\n3. Brian Gratwicke | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Giant_panda_(Ailuropoda_melanoleuca)_in_a_zoo.webm | https://creativecommons.org/licenses/by/2.0/\n4. LWYang | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014.webm | https://creativecommons.org/licenses/by/2.0/\n5. LWYang | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014_-_(1).webm | https://creativecommons.org/licenses/by/2.0/\n6. TheDanSync | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Panda_Jia_Jia.webm | https://creativecommons.org/licenses/by/3.0/\n7. Rose Abrams | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Panda_at_the_zoo_in_Beijing_just_chilling.webm | https://creativecommons.org/licenses/by/4.0/\n8. LarsMueller | CC0 | https://commons.wikimedia.org/wiki/File:Berlin_zoologisk_hage_2026-04-07_mov11.webm | https://creativecommons.org/publicdomain/zero/1.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "809ab5551e9f5160334de340a8c4d1b58e2bbd82afd51cc9c6a0e35a390ab954",
+  "duration": 41.05,
+  "voice": "pm_alex",
+  "language": "pt-BR",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 7.0,
+      "duration": 7.0,
+      "text": "Um panda-gigante come em meio à neve. A gravação mostra um momento de alimentação em um ambiente cuidado por pessoas.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: BaoBao the Panda having a snack in the snow.webm",
+      "tags": [
+        "giant_panda_baobao_eating_snow"
+      ],
+      "story_role": "hook",
+      "overlay_label": "COMENDO NA NEVE",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 7.0,
+      "end": 12.55,
+      "duration": 5.55,
+      "text": "Em outro zoológico, uma fêmea aparece ao lado do filhote. Os dois foram filmados juntos.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Female panda and cub.webm",
+      "tags": [
+        "giant_panda_mother_cub_zoo"
+      ],
+      "story_role": "setup",
+      "overlay_label": "FÊMEA E FILHOTE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 12.55,
+      "end": 20.325000000000003,
+      "duration": 7.775,
+      "text": "Um panda é visto em um novo espaço. Depois, outro registro mostra a alimentação de um panda num centro de conservação chinês.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Giant panda (Ailuropoda melanoleuca) in a zoo.webm | Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014.webm",
+      "tags": [
+        "giant_panda_baobao_washington_zoo",
+        "giant_panda_eating_research_center_first"
+      ],
+      "story_role": "action",
+      "overlay_label": "NOVOS REGISTROS",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 20.325000000000003,
+      "end": 27.625000000000004,
+      "duration": 7.3,
+      "text": "A mesma instituição aparece numa segunda filmagem de alimentação. Não é necessário fingir que as cenas são do mesmo dia.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014 - (1).webm",
+      "tags": [
+        "giant_panda_eating_research_center_second"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "CENTRO DE CONSERVAÇÃO",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 27.625000000000004,
+      "end": 33.95,
+      "duration": 6.325,
+      "text": "O panda conhecido como Jia Jia também aparece comendo bambu, em outra gravação feita em cativeiro.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Panda Jia Jia.webm",
+      "tags": [
+        "giant_panda_jia_jia_eating_bamboo"
+      ],
+      "story_role": "twist",
+      "overlay_label": "COMENDO BAMBU",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 33.95,
+      "end": 41.050000000000004,
+      "duration": 7.1,
+      "text": "Um panda descansa no zoológico de Pequim. Outro aparece no zoológico de Berlim em abril de 2026.",
+      "language": "pt-BR",
+      "scene": "Panda em vídeo no zoológico de Pequim; panda distinto visto no Zoológico de Berlim em abril de 2026, sem alegar alimentação não demonstrada",
+      "tags": [
+        "giant_panda_beijing_zoo_resting",
+        "giant_panda_berlin_zoo_2026"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "OUTRO ZOOLÓGICO",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BaoBao%20the%20Panda%20having%20a%20snack%20in%20the%20snow.webm",
+      "type": "video",
+      "assetTitle": "BaoBao the Panda having a snack in the snow.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:BaoBao_the_Panda_having_a_snack_in_the_snow.webm",
+      "tags": [
+        "giant_panda_baobao_eating_snow"
+      ],
+      "author": "Brian Gratwicke",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Female%20panda%20and%20cub.webm",
+      "type": "video",
+      "assetTitle": "Female panda and cub.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Female_panda_and_cub.webm",
+      "tags": [
+        "giant_panda_mother_cub_zoo"
+      ],
+      "author": "Brian Gratwicke",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20panda%20(Ailuropoda%20melanoleuca)%20in%20a%20zoo.webm",
+      "type": "video",
+      "assetTitle": "Giant panda (Ailuropoda melanoleuca) in a zoo.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_panda_(Ailuropoda_melanoleuca)_in_a_zoo.webm",
+      "tags": [
+        "giant_panda_baobao_washington_zoo"
+      ],
+      "author": "Brian Gratwicke",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20panda%20feeding%20-%20Dujiangyan%20Research%20Center%20of%20Giant%20Panda%20Breeding%20and%20Release%20-%20China%20-%20Nov.%202014.webm",
+      "type": "video",
+      "assetTitle": "Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014.webm",
+      "tags": [
+        "giant_panda_eating_research_center_first"
+      ],
+      "author": "LWYang",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20panda%20feeding%20-%20Dujiangyan%20Research%20Center%20of%20Giant%20Panda%20Breeding%20and%20Release%20-%20China%20-%20Nov.%202014%20-%20(1).webm",
+      "type": "video",
+      "assetTitle": "Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014 - (1).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014_-_(1).webm",
+      "tags": [
+        "giant_panda_eating_research_center_second"
+      ],
+      "author": "LWYang",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panda%20Jia%20Jia.webm",
+      "type": "video",
+      "assetTitle": "Panda Jia Jia.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panda_Jia_Jia.webm",
+      "tags": [
+        "giant_panda_jia_jia_eating_bamboo"
+      ],
+      "author": "TheDanSync",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panda%20at%20the%20zoo%20in%20Beijing%20just%20chilling.webm",
+      "type": "video",
+      "assetTitle": "Panda at the zoo in Beijing just chilling.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Panda_at_the_zoo_in_Beijing_just_chilling.webm",
+      "tags": [
+        "giant_panda_beijing_zoo_resting"
+      ],
+      "author": "Rose Abrams",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20zoologisk%20hage%202026-04-07%20mov11.webm",
+      "type": "video",
+      "assetTitle": "Berlin zoologisk hage 2026-04-07 mov11.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Berlin_zoologisk_hage_2026-04-07_mov11.webm",
+      "tags": [
+        "giant_panda_berlin_zoo_2026"
+      ],
+      "author": "LarsMueller",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "review_sheet": "panda_rotinas_cativeiro_nov10_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
