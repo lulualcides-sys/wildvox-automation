@@ -186,9 +186,9 @@
     "voice": "pm_alex"
   },
   "gato_saltos_corridas_nov10": {
-    "title": "Gatos em movimento: do chão às alturas",
-    "script": "Um gato rola pelo chão perto de um móvel. Ele muda de posição mais uma vez, diante da câmera. Em outro ambiente, um gato salta para trás durante uma brincadeira. Um segundo gato também aparece perto dele. Um gato branco se movimenta sobre uma esteira de bambu. Em outra gravação, um gato e um pombo aparecem numa rua, sem que a câmera mostre uma captura. Nas ruas de Istambul, outro gato caminha pelo calçamento. A gravação vertical mostra o animal explorando o ambiente. Um ocicat com guia é filmado ao pé de uma árvore. A gravação mostra um ambiente diferente das ruas e da casa. Por fim, um gato fica no alto de um parapeito, enquanto outro rola no chão. São cenas de animais diferentes, cada um com seu próprio ritmo.",
-    "caption": "Gatos rolando, saltando e explorando ambientes diferentes, sem inventar ações nas imagens. #WildVox #Gatos #GatosEmMovimento",
+    "title": "Por que gatos caçam brinquedos mesmo depois de comer?",
+    "script": "O que existe por trás das brincadeiras dos gatos? Mesmo bem alimentados, eles podem manter o impulso natural de perseguir. Na brincadeira, muitos gatos observam, perseguem e saltam. Esses gestos lembram etapas de caça, mas não significam uma captura real. Diretrizes veterinárias recomendam brinquedos que imitem presas em movimento. Eles permitem perseguir e alcançar um alvo, sem precisar de animais de verdade. Explorar também é importante: locais variados e comida escondida oferecem desafios que estimulam comportamentos naturais dentro de casa. Subir e investigar o ambiente amplia as oportunidades de atividade. Mas um salto isolado não prova que o gato estava caçando. É essa a comparação surpreendente: nós vemos diversão, enquanto o gato pratica movimentos que também aparecem na caça. Brincar pode ser uma forma segura de enriquecimento.",
+    "caption": "Por que um gato alimentado ainda sente vontade de perseguir e brincar? A explicação está no comportamento predatório e no enriquecimento ambiental. Fonte científica: diretrizes AAFP/ISFM. #WildVox #CuriosidadesDosGatos #Gatos #ComportamentoFelino",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Jumpscare.webm",
@@ -301,75 +301,90 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_saltos_corridas_nov10-tree-action-factual-v4",
+    "revision": "2026-11-10-gato_saltos_corridas_nov10-predatory-play-science-v5",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Um gato rola pelo chão perto de um móvel. Ele muda de posição mais uma vez, diante da câmera.",
-        "scene": "Gato marrom brinca, deitado e rolando perto de um sofá; Cat Jumpscare.webm",
+        "text": "O que existe por trás das brincadeiras dos gatos? Mesmo bem alimentados, eles podem manter o impulso natural de perseguir.",
+        "scene": "Gato marrom brinca, deitado e rolando perto de um sofá; Cat Jumpscare.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "domestic_cat_rolling_under_furniture"
         ],
         "story_role": "hook",
-        "overlay_label": "ROLANDO NO CHÃO",
+        "overlay_label": "BRINCAR OU CAÇAR?",
         "fx": []
       },
       {
-        "text": "Em outro ambiente, um gato salta para trás durante uma brincadeira. Um segundo gato também aparece perto dele.",
-        "scene": "Gato salta para trás num quarto; Cat jumping backwards.webm",
+        "text": "Na brincadeira, muitos gatos observam, perseguem e saltam. Esses gestos lembram etapas de caça, mas não significam uma captura real.",
+        "scene": "Gato salta para trás num quarto; Cat jumping backwards.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "house_cat_jump_backwards"
         ],
         "story_role": "setup",
-        "overlay_label": "SALTO PARA TRÁS",
+        "overlay_label": "INSTINTO PREDATÓRIO",
         "fx": []
       },
       {
-        "text": "Um gato branco se movimenta sobre uma esteira de bambu. Em outra gravação, um gato e um pombo aparecem numa rua, sem que a câmera mostre uma captura.",
-        "scene": "Gato branco se movimenta sobre esteira, depois gato e pombo aparecem na rua; vídeos distintos",
+        "text": "Diretrizes veterinárias recomendam brinquedos que imitem presas em movimento. Eles permitem perseguir e alcançar um alvo, sem precisar de animais de verdade.",
+        "scene": "Gato branco se movimenta sobre esteira, depois gato e pombo aparecem na rua; vídeos distintos | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "white_cat_moving_on_bamboo_mat",
           "street_cat_pigeon_same_video_no_capture"
         ],
         "story_role": "action",
-        "overlay_label": "MOVIMENTOS REAIS",
+        "overlay_label": "BRINQUEDOS COM MOVIMENTO",
         "fx": []
       },
       {
-        "text": "Nas ruas de Istambul, outro gato caminha pelo calçamento. A gravação vertical mostra o animal explorando o ambiente.",
-        "scene": "Gato caminha sobre calçamento de Istambul, em enquadramento vertical",
+        "text": "Explorar também é importante: locais variados e comida escondida oferecem desafios que estimulam comportamentos naturais dentro de casa.",
+        "scene": "Gato caminha sobre calçamento de Istambul, em enquadramento vertical | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "istanbul_street_cat_recorded_vertically"
         ],
         "story_role": "explanation",
-        "overlay_label": "NAS RUAS",
+        "overlay_label": "ESTÍMULOS EM CASA",
         "fx": []
       },
       {
-        "text": "Um ocicat com guia é filmado ao pé de uma árvore. A gravação mostra um ambiente diferente das ruas e da casa.",
-        "scene": "Ocicat preso a guia visível perto do tronco de uma árvore; não afirmar escalada sem evidência nas tomadas",
+        "text": "Subir e investigar o ambiente amplia as oportunidades de atividade. Mas um salto isolado não prova que o gato estava caçando.",
+        "scene": "Ocicat preso a guia visível perto do tronco de uma árvore; não afirmar escalada sem evidência nas tomadas | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "ocicat_on_leash_climbing_a_tree"
         ],
         "story_role": "twist",
-        "overlay_label": "PERTO DA ÁRVORE",
+        "overlay_label": "EXPLORAÇÃO SEGURA",
         "fx": []
       },
       {
-        "text": "Por fim, um gato fica no alto de um parapeito, enquanto outro rola no chão. São cenas de animais diferentes, cada um com seu próprio ritmo.",
-        "scene": "Gato de perfil no alto de parapeito interno; outro gato rola em carpete",
+        "text": "É essa a comparação surpreendente: nós vemos diversão, enquanto o gato pratica movimentos que também aparecem na caça. Brincar pode ser uma forma segura de enriquecimento.",
+        "scene": "Gato de perfil no alto de parapeito interno; outro gato rola em carpete | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "house_cat_perched_high_ledge",
           "tonkinese_cat_rolling_on_ground"
         ],
         "story_role": "payoff",
-        "overlay_label": "DO ALTO AO CHÃO",
+        "overlay_label": "CAÇAR SEM PRESA",
         "fx": []
       }
     ],
     "trend_priority": true,
     "language": "pt-BR",
-    "voice": "pm_alex"
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "hook_question": "Por que um gato bem alimentado ainda quer perseguir e brincar com objetos?",
+      "verified_fact": "Diretrizes AAFP/ISFM recomendam permitir brincadeiras que simulem perseguição e captura, com brinquedos e métodos de alimentação interativos.",
+      "biological_explanation": "A brincadeira com objetos pode envolver componentes da sequência predatória, como observar, perseguir, saltar e alcançar; não é preciso uma presa real.",
+      "comparison_or_consequence": "O tutor pode simular essas oportunidades com brinquedos de vara, caça a alimentos e espaços enriquecidos, evitando a necessidade de contato com presas reais.",
+      "visual_evidence_strategy": "As oito fontes inéditas ainda não publicadas ilustram movimentos variados de gatos; nenhum rolamento, salto ou filmagem de pombo será tratado como prova de caça real. Imagens de gatos na rua não indicam recomendação de soltá-los.",
+      "fact_sources": [
+        {
+          "claim": "Pillar 3 recomenda fornecer oportunidades para brincadeira e comportamento predatório por meio de brinquedos, brincadeiras e alimentação interativa.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11383066/",
+          "publisher": "AAFP/ISFM; Journal of Feline Medicine and Surgery",
+          "reference_title": "AAFP and ISFM Feline Environmental Needs Guidelines"
+        }
+      ]
+    }
   },
   "gato_higiene_chamados_nov10": {
     "title": "Gatos em detalhes: higiene, atenção e encontros",
@@ -558,9 +573,9 @@
     "voice": "pm_alex"
   },
   "panda_rotinas_cativeiro_nov10": {
-    "title": "Pandas: alimentação, filhotes e descanso",
-    "script": "Um panda-gigante come em meio à neve. A gravação mostra um momento de alimentação em um ambiente cuidado por pessoas. Em outro zoológico, uma fêmea aparece ao lado do filhote. Os dois foram filmados juntos. Um panda é visto em um novo espaço. Depois, outro registro mostra a alimentação de um panda num centro de conservação chinês. A mesma instituição aparece numa segunda filmagem de alimentação. Não é necessário fingir que as cenas são do mesmo dia. O panda conhecido como Jia Jia também aparece comendo bambu, em outra gravação feita em cativeiro. Um panda descansa no zoológico de Pequim. Outro aparece no zoológico de Berlim em abril de 2026.",
-    "caption": "Pandas em zoológicos e centros de conservação: alimentação, filhotes e momentos separados. #WildVox #Pandas #Animais",
+    "title": "Pandas: por que um carnívoro passa tantas horas comendo bambu?",
+    "script": "Como um animal da ordem dos carnívoros vive quase só de bambu? A dieta do panda-gigante parece uma contradição. Ele é um urso, mas seu sistema digestivo ainda se parece mais com o dos carnívoros. Isso traz dificuldades. Como aproveita o bambu com pouca eficiência, o panda precisa comer bastante. Segundo o Smithsonian, pode passar de dez a dezesseis horas por dia procurando e mastigando alimento. E há um truque anatômico: um osso do punho funciona como falso polegar, ajudando a segurar os caules de bambu. Seus dentes fortes trituram a planta resistente. Mesmo assim, muito do que ele come não é totalmente aproveitado pelo organismo. Comparado a outros ursos, ele depende de uma planta pouco nutritiva. O preço dessa escolha é passar grande parte do dia comendo para obter energia.",
+    "caption": "Pandas são ursos da ordem dos carnívoros, mas dependem quase totalmente do bambu. Veja a curiosidade do falso polegar e da digestão pouco eficiente. Fontes: Smithsonian National Zoo e WWF. #WildVox #Pandas #CuriosidadesAnimais",
     "sources": [
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BaoBao%20the%20Panda%20having%20a%20snack%20in%20the%20snow.webm",
@@ -672,75 +687,96 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-panda_rotinas_cativeiro_nov10-shorter-ptbr-voice-v3",
+    "revision": "2026-11-10-panda_rotinas_cativeiro_nov10-carnivore-bamboo-science-v4",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Um panda-gigante come em meio à neve. A gravação mostra um momento de alimentação em um ambiente cuidado por pessoas.",
-        "scene": "Cenas reais de origem: BaoBao the Panda having a snack in the snow.webm",
+        "text": "Como um animal da ordem dos carnívoros vive quase só de bambu? A dieta do panda-gigante parece uma contradição.",
+        "scene": "Cenas reais de origem: BaoBao the Panda having a snack in the snow.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "giant_panda_baobao_eating_snow"
         ],
         "story_role": "hook",
-        "overlay_label": "COMENDO NA NEVE",
+        "overlay_label": "CARNÍVORO QUE COME BAMBU",
         "fx": []
       },
       {
-        "text": "Em outro zoológico, uma fêmea aparece ao lado do filhote. Os dois foram filmados juntos.",
-        "scene": "Cenas reais de origem: Female panda and cub.webm",
+        "text": "Ele é um urso, mas seu sistema digestivo ainda se parece mais com o dos carnívoros. Isso traz dificuldades.",
+        "scene": "Cenas reais de origem: Female panda and cub.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "giant_panda_mother_cub_zoo"
         ],
         "story_role": "setup",
-        "overlay_label": "FÊMEA E FILHOTE",
+        "overlay_label": "DIGESTÃO SURPREENDENTE",
         "fx": []
       },
       {
-        "text": "Um panda é visto em um novo espaço. Depois, outro registro mostra a alimentação de um panda num centro de conservação chinês.",
-        "scene": "Cenas reais de origem: Giant panda (Ailuropoda melanoleuca) in a zoo.webm | Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014.webm",
+        "text": "Como aproveita o bambu com pouca eficiência, o panda precisa comer bastante. Segundo o Smithsonian, pode passar de dez a dezesseis horas por dia procurando e mastigando alimento.",
+        "scene": "Cenas reais de origem: Giant panda (Ailuropoda melanoleuca) in a zoo.webm | Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "giant_panda_baobao_washington_zoo",
           "giant_panda_eating_research_center_first"
         ],
         "story_role": "action",
-        "overlay_label": "NOVOS REGISTROS",
+        "overlay_label": "ATÉ 16 HORAS COMENDO",
         "fx": []
       },
       {
-        "text": "A mesma instituição aparece numa segunda filmagem de alimentação. Não é necessário fingir que as cenas são do mesmo dia.",
-        "scene": "Cenas reais de origem: Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014 - (1).webm",
+        "text": "E há um truque anatômico: um osso do punho funciona como falso polegar, ajudando a segurar os caules de bambu.",
+        "scene": "Cenas reais de origem: Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014 - (1).webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "giant_panda_eating_research_center_second"
         ],
         "story_role": "explanation",
-        "overlay_label": "CENTRO DE CONSERVAÇÃO",
+        "overlay_label": "FALSO POLEGAR",
         "fx": []
       },
       {
-        "text": "O panda conhecido como Jia Jia também aparece comendo bambu, em outra gravação feita em cativeiro.",
-        "scene": "Cenas reais de origem: Panda Jia Jia.webm",
+        "text": "Seus dentes fortes trituram a planta resistente. Mesmo assim, muito do que ele come não é totalmente aproveitado pelo organismo.",
+        "scene": "Cenas reais de origem: Panda Jia Jia.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "giant_panda_jia_jia_eating_bamboo"
         ],
         "story_role": "twist",
-        "overlay_label": "COMENDO BAMBU",
+        "overlay_label": "DENTES FORTES",
         "fx": []
       },
       {
-        "text": "Um panda descansa no zoológico de Pequim. Outro aparece no zoológico de Berlim em abril de 2026.",
-        "scene": "Panda em vídeo no zoológico de Pequim; panda distinto visto no Zoológico de Berlim em abril de 2026, sem alegar alimentação não demonstrada",
+        "text": "Comparado a outros ursos, ele depende de uma planta pouco nutritiva. O preço dessa escolha é passar grande parte do dia comendo para obter energia.",
+        "scene": "Panda em vídeo no zoológico de Pequim; panda distinto visto no Zoológico de Berlim em abril de 2026, sem alegar alimentação não demonstrada | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
         "tags": [
           "giant_panda_beijing_zoo_resting",
           "giant_panda_berlin_zoo_2026"
         ],
         "story_role": "payoff",
-        "overlay_label": "OUTRO ZOOLÓGICO",
+        "overlay_label": "UMA DIETA INCOMUM",
         "fx": []
       }
     ],
     "trend_priority": false,
     "language": "pt-BR",
-    "voice": "pm_alex"
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "hook_question": "Como um urso da ordem Carnivora pode depender quase totalmente de bambu?",
+      "verified_fact": "O panda-gigante tem sistema digestivo mais semelhante ao de carnívoros, e precisa se alimentar por muitas horas porque aproveita o bambu com baixa eficiência.",
+      "biological_explanation": "Um osso alargado do punho forma um falso polegar para agarrar colmos, enquanto dentes e mandíbulas fortes trituram fibras vegetais; a digestão ineficiente exige grande consumo.",
+      "comparison_or_consequence": "Em comparação com outros ursos de dieta mais diversa, o panda depende em grande medida do bambu e gasta entre dez e dezesseis horas por dia se alimentando.",
+      "visual_evidence_strategy": "Oito gravações inéditas de pandas em cativeiro mostram os animais comendo, mãe com filhote e descansando. O mecanismo interno de digestão e o osso de punho não são apresentados como filmados em close; são explicações científicas sobre o animal e sobre B-roll representativo.",
+      "fact_sources": [
+        {
+          "claim": "Pandas digerem bambu com pouca eficiência, têm falso polegar formado por osso do punho e gastam 10–16 horas procurando/comendo.",
+          "url": "https://nationalzoo.si.edu/animals/giant-panda",
+          "publisher": "Smithsonian National Zoo & Conservation Biology Institute",
+          "reference_title": "Giant panda: food/eating habits"
+        },
+        {
+          "claim": "Pandas passam 10–16 horas do dia se alimentando principalmente de bambu.",
+          "url": "https://www.wwf.org.uk/learn/wildlife/giant-pandas",
+          "publisher": "WWF-UK",
+          "reference_title": "Giant Panda"
+        }
+      ]
+    }
   },
   "flamingo_lagoas_e_estuarios_nov10": {
     "title": "Flamingos em lagoas: oito momentos reais",
