@@ -133,7 +133,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-cat_curiosity_to_calm_nov10-narration-duration-v2",
+    "revision": "2026-11-10-cat_curiosity_to_calm_nov10-narration-duration-visual-alignment-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -189,7 +189,7 @@
         "fx": []
       },
       {
-        "text": "Finally, a cat spends a quiet moment with a person outdoors.",
+        "text": "Finally, a cat spends a quiet moment with a person outdoors. These scenes show different cats in different settings, not one continuous journey. The camera follows small, everyday changes in activity without assuming what any cat is thinking.",
         "scene": "Authentic footage: Andra and Billy.webm",
         "tags": [
           "domestic_cat_interacts_with_person"
@@ -325,7 +325,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-red_squirrel_perches_and_food_nov10-narration-duration-v2",
+    "revision": "2026-11-10-red_squirrel_perches_and_food_nov10-narration-duration-visual-alignment-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -381,7 +381,7 @@
         "fx": []
       },
       {
-        "text": "Finally, another squirrel investigates walnuts scattered on wood.",
+        "text": "Finally, another squirrel investigates walnuts scattered on wood. Each clip follows a different animal in a different place. Watch how the surroundings change from branches and trunks to the wooden surfaces where food is visible.",
         "scene": "Authentic footage: The Great Walnut Disaster.webm",
         "tags": [
           "red_squirrel_walnut_stump_search"
@@ -523,7 +523,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-kingfisher_waterway_watch_nov10-narration-duration-v2",
+    "revision": "2026-11-10-kingfisher_waterway_watch_nov10-narration-duration-visual-alignment-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -578,7 +578,7 @@
         "fx": []
       },
       {
-        "text": "Two other kingfishers appear in separate recordings near their own perches.",
+        "text": "Two other kingfishers appear in separate recordings near their own perches. These are separate sightings, not a single bird's journey. The footage shows quiet moments of watching and grooming, without claiming a successful catch or a particular hunting outcome.",
         "scene": "Authentic footage: 2022-07-25 VRHNIKA Ribniki pri stari opekarni CORACIIFORMES Alcedo atthis VODOMEC.webm + Common Kingfisher eating a fish.webm",
         "tags": [
           "kingfisher_eating_caught_fish",
@@ -716,7 +716,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-canada_geese_goslings_to_water_nov10-narration-duration-v2",
+    "revision": "2026-11-10-canada_geese_goslings_to_water_nov10-narration-duration-visual-alignment-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -772,7 +772,7 @@
         "fx": []
       },
       {
-        "text": "Finally, another group of Canada geese moves together in a different place.",
+        "text": "Finally, another group of Canada geese moves together in a different place. These are separate families and separate locations. The footage moves from birds on land to birds in water, without suggesting they all belong to the same flock.",
         "scene": "Authentic footage: Canada Geese (25738746322).webm",
         "tags": [
           "canada_geese_usfws_group_movement"
@@ -908,7 +908,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-european_robin_park_to_song_nov10-narration-duration-v2",
+    "revision": "2026-11-10-european_robin_park_to_song_nov10-narration-duration-visual-alignment-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -964,7 +964,7 @@
         "fx": []
       },
       {
-        "text": "Finally, a different robin sings from its own perch.",
+        "text": "Finally, a different robin sings from its own perch. The recordings come from different places and seasons. They show separate birds, rather than one robin traveling through the year. Listen and watch for each distinct moment.",
         "scene": "Authentic footage: Robin Singing video.webm",
         "tags": [
           "european_robin_singing_video_flickr"
