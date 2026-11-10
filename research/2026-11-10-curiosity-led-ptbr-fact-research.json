@@ -1,0 +1,122 @@
+{
+  "editorial_day": "2026-11-10",
+  "target_language": "pt-BR",
+  "scope": "research_only_not_rendered_not_approved_not_scheduled",
+  "source_footage_status": "NOT RESEARCHED OR LICENSE CLEARED",
+  "publication_hold": true,
+  "goal": "3 genuinely new cat scientific curiosities and 2 other animal stories; do not replace any current live configs until 8 unique authentic licensed assets per candidate and factual visual plan verified",
+  "topics": [
+    {
+      "topic_key": "gatos_paladar_sem_doce",
+      "status": "fact_researched_footage_not_cleared",
+      "priority": "cat",
+      "curiosity_fact_sheet": {
+        "hook_question": "Por que um gato pode ignorar uma sobremesa que parece irresistível para nós?",
+        "verified_fact": "Gatos domésticos não possuem o receptor funcional T1R2/T1R3 normalmente necessário para detectar o sabor doce.",
+        "biological_explanation": "O gene TAS1R2 dos felinos estudados é não funcional; por isso o receptor heterodimérico de doçura não se forma como em muitos outros mamíferos.",
+        "comparison_or_consequence": "Ao contrário de humanos e de muitos outros mamíferos, gatos são carnívoros obrigatórios e não apresentam a mesma percepção do açúcar.",
+        "visual_evidence_strategy": "Cenas reais inéditas de gatos cheirando e comendo alimentação apropriada; não dar doces aos gatos nem afirmar que imagens demonstram molecularmente a mutação. Ilustração textual T1R2 em vez de cena falsa.",
+        "fact_sources": [
+          {
+            "claim": "Gene Tas1r2 não funcional em gatos e falta de receptor funcional de gosto doce.",
+            "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0010003",
+            "publisher": "PLOS Genetics",
+            "reference_title": "Pseudogenization of a Sweet-Receptor Gene Accounts for Cats' Indifference toward Sugar"
+          }
+        ]
+      }
+    },
+    {
+      "topic_key": "gatos_lingua_escova",
+      "status": "fact_researched_footage_not_cleared",
+      "priority": "cat",
+      "curiosity_fact_sheet": {
+        "hook_question": "Como a língua de um gato consegue funcionar como uma escova para o próprio pelo?",
+        "verified_fact": "A língua felina tem papilas especializadas com cavidades capazes de transportar saliva até o pelo.",
+        "biological_explanation": "Papilas ocas retêm pequenas quantidades de saliva; ao lamber, a língua distribui líquido pelos fios e ajuda na higiene.",
+        "comparison_or_consequence": "O sistema lembra uma escova que também libera líquido, e inspirou pesquisas em dispositivos de limpeza.",
+        "visual_evidence_strategy": "Clipes novos com gatos se lambendo; corte didático com esquema de papilas reconhecido como gráfico explicativo, sem fingir filmagem microscópica e sem reciclar vídeo de higiene publicado.",
+        "fact_sources": [
+          {
+            "claim": "Papilas ocas da língua felina transportam saliva durante a higiene.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6298077/",
+            "publisher": "PNAS / U.S. National Library of Medicine",
+            "reference_title": "Cats use hollow papillae to wick saliva into fur"
+          }
+        ]
+      }
+    },
+    {
+      "topic_key": "gatos_brincadeira_caca",
+      "status": "fact_researched_footage_not_cleared",
+      "priority": "cat",
+      "curiosity_fact_sheet": {
+        "hook_question": "Por que um gato bem alimentado continua perseguindo brinquedos como se fossem presas?",
+        "verified_fact": "A brincadeira com objetos em gatos pode reproduzir comportamentos da sequência predatória, como observar, perseguir e saltar.",
+        "biological_explanation": "O impulso predatório não desaparece simplesmente quando o animal recebe comida suficiente; brincadeiras e enriquecimento ambiental dão oportunidade de expressá-lo.",
+        "comparison_or_consequence": "Uma vara com brinquedo pode simular o movimento de uma presa, enquanto um comedouro-desafio pode associar busca e alimentação.",
+        "visual_evidence_strategy": "Filmar novas sessões reais com brinquedos e caça simulada, sem afirmar captura real de presa ou atribuir intenção emocional ao gato. Rejeitar ângulos já publicados de sacola ou rolamento.",
+        "fact_sources": [
+          {
+            "claim": "Brincadeira em gatos inclui sequência predatória e pode persistir mesmo em gatos alimentados.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11383066/",
+            "publisher": "Journal of Feline Medicine and Surgery / AAFP-ISFM",
+            "reference_title": "AAFP and ISFM Feline Environmental Needs Guidelines"
+          },
+          {
+            "claim": "Object play em gatos inclui perseguir, dar patadas e saltar.",
+            "url": "https://www.merckvetmanual.com/en-us/veterinary/behavior/behavior-of-cats/social-behavior-of-cats",
+            "publisher": "Merck Veterinary Manual",
+            "reference_title": "Social Behavior of Cats"
+          }
+        ]
+      }
+    },
+    {
+      "topic_key": "capivara_dentes_que_crescem",
+      "status": "fact_researched_footage_not_cleared",
+      "priority": "other_animal",
+      "curiosity_fact_sheet": {
+        "hook_question": "Por que uma capivara precisa mastigar tanta vegetação ao longo da vida?",
+        "verified_fact": "Os incisivos das capivaras crescem continuamente e são desgastados quando mastigam alimentos fibrosos.",
+        "biological_explanation": "A dieta com vegetação resistente provoca desgaste dentário, enquanto o crescimento constante dos incisivos compensa a abrasão.",
+        "comparison_or_consequence": "Assim como outros roedores, capivaras possuem incisivos de crescimento contínuo; sua adaptação combina alimentação e manutenção dos dentes.",
+        "visual_evidence_strategy": "Clipes novos de capivaras comendo capim ou plantas, close legítimo da boca sem inventar tamanho dos dentes, gráficos simples para explicar desgaste contínuo.",
+        "fact_sources": [
+          {
+            "claim": "Incisivos de capivaras crescem continuamente e se desgastam ao mastigar vegetação.",
+            "url": "https://www.nhm.ac.uk/discover/things-you-might-not-know-about-capybaras.html",
+            "publisher": "Natural History Museum London",
+            "reference_title": "Capybaras: Get to know the world's largest rodent"
+          }
+        ]
+      }
+    },
+    {
+      "topic_key": "corujas_voo_silencioso",
+      "status": "fact_researched_footage_not_cleared",
+      "priority": "other_animal",
+      "curiosity_fact_sheet": {
+        "hook_question": "Como algumas corujas conseguem voar com muito menos ruído que outras aves?",
+        "verified_fact": "Características especializadas das penas contribuem para reduzir o ruído aerodinâmico durante o voo de muitas corujas.",
+        "biological_explanation": "Bordas e superfícies plumosas alteram o fluxo de ar ao redor das asas; há hipóteses sobre vantagens para ouvir presas e se aproximar sem ser notado.",
+        "comparison_or_consequence": "Em comparação com aves sem essas especializações, as corujas apresentam adaptações acústicas; a função evolutiva exata ainda é estudada.",
+        "visual_evidence_strategy": "Usar clipes inéditos que mostrem espécie identificada de coruja voando; esquema correto das penas para explicar. Não prometer áudio de voo original nem afirmar que 'absolutamente nada' é ouvido.",
+        "fact_sources": [
+          {
+            "claim": "Adaptações de penas estão ligadas ao voo pouco ruidoso de corujas.",
+            "url": "https://qrius.si.edu/taxonomy/term/12125",
+            "publisher": "Smithsonian Institution",
+            "reference_title": "About Owls (Order Strigiformes): Feeding"
+          },
+          {
+            "claim": "Hipóteses de voo silencioso incluem mascaramento auditivo e furtividade.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7671161/",
+            "publisher": "Integrative Organismal Biology / PMC",
+            "reference_title": "Evolution and Ecology of Silent Flight in Owls and Other Flying Vertebrates"
+          }
+        ]
+      }
+    }
+  ]
+}
