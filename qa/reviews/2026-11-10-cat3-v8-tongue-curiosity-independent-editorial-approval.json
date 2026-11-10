@@ -1,0 +1,43 @@
+{
+  "day_local": "2026-11-10",
+  "brand_id": 7242311,
+  "account": "@wildvox",
+  "network": "tiktok",
+  "candidate_key": "gato_higiene_chamados_nov10",
+  "revision": "2026-11-10-gato_higiene_chamados_nov10-tongue-science-unrepeated-cc0-v8",
+  "decision": "APPROVE",
+  "scope": "only exact verified MP4 with listed SHA256 + blob and config fingerprint; publication_hold remains true for any other render",
+  "scientific_topic": "Por que a língua do gato parece uma lixa? Papilas de queratina transportam saliva; comparação com uma escova",
+  "scientific_references": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6298077/",
+      "publisher": "PNAS/National Library of Medicine",
+      "paper": "Cats use hollow papillae to wick saliva into fur"
+    }
+  ],
+  "editorial_checks": {
+    "curiosity_first": true,
+    "distinct_non_descriptive_main_narrative": true,
+    "mechanism": "Explains hollow keratin papillae and transport of saliva",
+    "comparison": "Physical brush/pente as functional comparison, not literal microscope footage",
+    "visual_truth": "First and last source shots show domestic cat licking; Burmese kitten licking, two black cats on floor, human trimming claws and cat observing other through window explicitly used as contrast. No evidence of cats fighting, no claim that a single filmed cat demonstrates a microscopic structure.",
+    "limitations": "7.47 second window-observation cut is only illustrative contrast rather than direct proof of tongue mechanism. Multiple landscape excerpts use large blurred dark portrait sidebands; weak visual polish but no full-black footage, no synthetic zoom and no claimed false actions.",
+    "independent_original_mp4_inspection": "Inspected original GitHub Actions ZIP MP4, _review.jpg and eight independent source preview contact sheets; decoded frames sampled at 2,5,8,11,14,17,20,23,26,29,32,35,38 seconds; subtitle safe zones and pt-BR text visually checked.",
+    "source_rights": "8 distinct files, 5 CC0, 2 CC BY 4.0, 1 CC BY 2.0; full eight creator/license/source URLs and modifications in 1533-character caption; no CC BY-SA.",
+    "technical_ffmpeg": "ffprobe H264/AAC 1080x1920 30fps 39.95s. Independent ffmpeg freezedetect=n=-50dB:d=1 and blackdetect=d=0.3:pix_th=0.07 found no >=1 second freezes/black frames; publish-media technical QA completed success.",
+    "anti_duplicate": "All eight source URLs unique across today's five daily candidates and materially different source footage and science angle from earlier published kitten montage."
+  },
+  "github_actions_run_id": 42849432941,
+  "github_original_zip_artifact_id": 13779957723,
+  "config_sha256": "e887a4dffde4861a08a04e99704ced7285f249978f0780484dea7a3a4c2f1796",
+  "media_sha256": "73b083ee4c0708c9b512a24855d9c5bcb850e04dfa13fac1da551574d56ac337",
+  "git_blob_mp4": "b9c38625488090cf7c86bb026e916c38aaaf04fc",
+  "git_blob_meta": "14d75a18797d5e84d178c972eca17467157c158e",
+  "duration_seconds": 39.95,
+  "language": "pt-BR",
+  "voice": "pm_alex",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/gato_higiene_chamados_nov10.mp4",
+  "publication_hold": true,
+  "metricool_post_id": null,
+  "provider_status": "NOT_SCHEDULED"
+}
