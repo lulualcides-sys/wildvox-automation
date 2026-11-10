@@ -1,0 +1,20 @@
+{
+  "day_local": "2026-11-10",
+  "candidate": "gato_saltos_corridas_nov10",
+  "source_run_id": 42827416949,
+  "artifact_id": 13771531051,
+  "config_sha256": "7d44bd88fb0f68521a39802959d8e7e63b2c00f60e31d6f098472ee5a3cf9715",
+  "mp4_sha256": "e017e4f6ed38fd85297437419f9c4b1215dbad1e67ea8a0c132f51195948c9ed",
+  "media_blob_sha": "317a7cc503c1fc9b9521f2c923c7dd310743116a",
+  "duration_seconds": 43.3,
+  "inspection": [
+    "Original eight source preview JPGs and MP4 decoded at 2,6,10,14,18,22,26,30,34,38 seconds.",
+    "At approximately 18 seconds 'gato e um pombo' caption overlays a parking-lot frame with no clearly identifiable cat or pigeon; this is a misleading visual claim.",
+    "Other scenes of rolling cats, a cat with leash by tree and a cat on high ledge are visible.",
+    "Technical render passed but independent semantic editorial review vetoes source 03 claim; replace misleading source or change the claim to precisely what is visible, rerender only this candidate."
+  ],
+  "approval": "VETO",
+  "publication_approved": false,
+  "publication_hold_config": true,
+  "platform": "TikTok @wildvox only"
+}
