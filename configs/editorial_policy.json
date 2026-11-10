@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-10-brazilian-portuguese-first",
+  "version": "2026-11-10-curiosity-first-brazilian-portuguese-v2",
   "editorial_priority": {
     "specific_species_or_subspecies_pct": 75,
     "well_known_animals_with_unusual_specific_fact_pct": 10,
@@ -30,13 +30,14 @@
   "narrative_storytelling": {
     "effective_from": "2026-10-27",
     "guide": "docs/NARRATIVE_STYLE.md",
-    "format": "narration_led_mini_documentary",
+    "format": "curiosity_and_verified_animal_fact_led_mini_documentary",
     "narrative_arc": [
-      "hook",
-      "setup",
-      "action",
-      "explanation_or_twist",
-      "payoff"
+      "factual_hook_or_question",
+      "surprising_verified_fact",
+      "observable_behavior",
+      "biological_explanation",
+      "comparison_or_consequence",
+      "memorable_payoff"
     ],
     "visual_plan_roles": [
       "hook",
@@ -63,22 +64,26 @@
       "publication_hold_until_QA"
     ],
     "rules": [
-      "Tell one causal story per species rather than an unrelated list of facts.",
-      "Hook must be factual and supported by opening footage; no sensational exaggeration.",
-      "Narration explains visible behavior as it happens; tag every spoken block to authentic relevant footage.",
-      "The payoff must resolve the hook using a genuinely representative final shot.",
-      "Use exact script coverage in 5-7 visual_plan speech blocks and tag each with story_role.",
-      "Use uncertainty language for developing science; never show footage of another species as proof.",
-      "Animated labels and manually reviewed arrows, rings and boxes are implemented in scripts/cinematic_fx.py; do not place unverified pointers or introduce synthetic zoom.",
-      "Do not modify old batches or auto-schedule any platform posts."
+      "Editorial premise is a sourced zoological curiosity or accurate animal-behavior explanation, NEVER the chronological description of what appears in the video.",
+      "Start from a meaningful verifiable question or unusual fact about food, play, communication, sleep, movement, anatomy, senses, social behavior, adaptations or comparisons. The fact guides the script; real footage illustrates it.",
+      "Each story must teach at least one non-obvious independently verifiable fact and explain WHY or HOW; use an accurate comparison or consequence when supported.",
+      "Do not narrate incidental clip transitions, camera action, location lists, unconnected scenes or generic filler (e.g. 'agora ele olha', 'aqui ele caminha', 'o vídeo mostra'). A compilation of footage descriptions is NOT editorially acceptable.",
+      "Do not invent frequencies, statistics, evolutionary explanations, causal links, diets or behaviors. Record independent scientific/institutional evidence for each central claim; qualify uncertainty.",
+      "The first shot and subsequent B-roll need to fit species and claim, but they need not literally show an internal mechanism. If the precise action is not shown, explain it with neutral representative footage or clear labels, without pretending it was filmed.",
+      "Keep hook, setup, action, explanation/twist and payoff roles for technical synchronization, but roles organize factual teaching, not a fictional story of one animal through unrelated footage.",
+      "Use authentic licensed animal footage as illustrative B-roll, not as a basis to infer undocumented facts or claim that independent clips show the same event/individual.",
+      "Never repeat published footage/themes just by changing audio; create genuinely fresh fact angles with new licensed sources and captions.",
+      "Maintain Brazilian Portuguese pt-BR throughout, Kokoro pm_alex after real synthesis QA, dynamic concise subtitles and safe optional visual annotations.",
+      "Use 3 different cat curiosity angles and 2 other species when verified material exists; avoid quota pressure causing fabrications.",
+      "Independent video inspection, attribution, 30–45 s, <=8 s shot, no >=1s genuine frozen frame, publication_hold and exact @wildvox TikTok-only release remain mandatory."
     ],
     "cinematic_fx": {
       "engine": "scripts/cinematic_fx.py (FFmpeg/libass)",
       "available_from": "2026-10-27",
       "zoom": "disabled; preserve authentic original foreground framing, no synthetic zoom or camera pan",
       "automatic_labels": [
-        "LOOK CLOSER hook",
-        "THE REVEAL payoff"
+        "OLHE BEM (gancho factual)",
+        "ENTENDA O PORQUÊ (revelação)"
       ],
       "reviewed_effect_types": [
         "arrow",
@@ -105,6 +110,33 @@
       "Prefer 3 distinct cat stories and 2 other distinct animal stories when sources genuinely support them.",
       "Never republish old English MP4 as Portuguese; new sources, new angle, fresh original render and independent review required.",
       "Do not schedule or publish videos until tested Brazilian Portuguese TTS and synchronized captions are verified."
+    ]
+  },
+  "curiosity_fact_contract": {
+    "enforce_revision_from": "2026-11-11",
+    "applies_to": "all newly prepared editorial entries from this date; previous entries are grandfathered for CI but NOT automatically approved",
+    "required_entry_field": "curiosity_fact_sheet",
+    "required_fields": [
+      "hook_question",
+      "verified_fact",
+      "biological_explanation",
+      "comparison_or_consequence",
+      "visual_evidence_strategy",
+      "fact_sources"
+    ],
+    "fact_sources_schema": {
+      "claim": "specific factual assertion",
+      "url": "https source URL",
+      "publisher": "independent reputable reference",
+      "reference_title": "page/book/research title"
+    },
+    "rules": [
+      "At least one distinct independent scientific, academic, institutional or expert reference per entry, not a raw animal video URL used as evidence for a biological claim.",
+      "Fact, explanation and comparison/consequence must be nonempty distinct statements; review substantive accuracy independently before editorial APPROVE.",
+      "Scripts must DEVELOP the fact sheet in natural Brazilian Portuguese, not merely recite what the animal is doing frame by frame.",
+      "Shots are supportive real B-roll; do not infer a biological claim only because footage superficially resembles it.",
+      "Unverified facts, imprecise comparisons and descriptive-only narration receive VETO even if render/technical tests pass.",
+      "No auto-publish of previously rendered or grandfathered clips without independent review under curiosity-first policy."
     ]
   }
 }
