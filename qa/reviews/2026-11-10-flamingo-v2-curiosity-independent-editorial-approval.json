@@ -41,7 +41,11 @@
   "voice": "pm_alex",
   "publication_hold": true,
   "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/flamingo_lagoas_e_estuarios_nov10.mp4",
-  "metricool_post_id": null,
-  "provider_status": "NOT_SCHEDULED",
-  "published_tiktok_url": null
+  "metricool_post_id": 423368772,
+  "provider_status": "PENDING",
+  "published_tiktok_url": null,
+  "metricool_post_uuid": "2858692832677808228",
+  "autoPublish": true,
+  "draft": false,
+  "scheduled_local": "2026-11-10T17:45:00-03:00"
 }
