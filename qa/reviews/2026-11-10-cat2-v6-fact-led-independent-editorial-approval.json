@@ -1,0 +1,43 @@
+{
+  "date_local": "2026-11-10",
+  "account": "@wildvox",
+  "brandId": 7242311,
+  "network": "tiktok",
+  "key": "gato_saltos_corridas_nov10",
+  "revision": "2026-11-10-gato_saltos_corridas_nov10-predatory-play-science-v6",
+  "decision": "APPROVE",
+  "approval_scope": "one-time release of exact rendered MP4 only; maintain publication_hold=true for other fingerprints",
+  "editorial_theme": "Por que gatos brincam mesmo alimentados: comportamento predatorio e enriquecimento ambiental",
+  "approval_basis": {
+    "fact_driven_narration": true,
+    "why_how_explanation": true,
+    "not_shot_by_shot_descriptive": true,
+    "scientific_reference": [
+      {
+        "publisher": "AAFP/ISFM",
+        "title": "Feline Environmental Needs Guidelines",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11383066/",
+        "claims": "Brincadeiras com brinquedos e alimentação interativa permitem expressar comportamentos predatórios com enriquecimento"
+      }
+    ],
+    "visual_truth": "O vídeo não afirma que os indivíduos filmados capturaram presa ou brincaram com brinquedo específico. B-roll representa movimento, exploração e brincadeira em filmagens independentes. Fontes originais e final MP4 amostrados. Um plano de rua tem gato pequeno e algumas áreas de fundo desfocado são escuras; não foram tratados como filmagem de caça e não ocultam a informação principal.",
+    "media_original_review": "Inspecionados 8 previews fonte e storyboard review.jpg; quadros decodificados do MP4 em 1,4,7,10,14,18,21,25,28,32,35,39 segundos; legendas em pt-BR na área segura; sem cenas atribuídas a um único indivíduo ou evento.",
+    "render_qa": "FFprobe duração 40.525s 1080x1920 30fps H264 AAC; FFmpeg freezedetect -50dB:d=1 e blackdetect 0.3 sem eventos; QA independente publish-media do próprio candidato executou com sucesso; shot cap 8s e oito fontes distintas via contrato de render.",
+    "license": "8 fontes reais distintas, 6 CC0 + 1 CC BY 3.0 + 1 CC BY 4.0, nomes, links originais, licenças e modificação presentes no caption <=2200 chars; sem CC BY-SA.",
+    "duplicate_guard": "MP4 e fonte não reutilizam vídeos já publicados no TikTok @wildvox e nenhum slot foi criado durante esta aprovação."
+  },
+  "github_actions_run": 42845465933,
+  "source_commit": "1a3422d05005f76a541b2588445a67f106fdfcc0",
+  "original_artifact_id": 13777084950,
+  "original_zip": "github-actions-artifact-13777084950.zip",
+  "config_sha256": "48f91d17dce6c0328a701a98e93889d48e7101c621b0c5d2fb31e7fa92fc78c7",
+  "sha256_mp4": "be564b4d3df2e28efd26411f9f95fc35e501fbdff20ec5f1ce1f32d62c3c5a77",
+  "git_blob_mp4": "c596591d8f0d04626df241703e55de3a23c1c464",
+  "git_blob_meta": "bbfe783bcef180250a41d139aaa47d9df4671922",
+  "duration_seconds": 40.525,
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/gato_saltos_corridas_nov10.mp4",
+  "publication_hold": true,
+  "metricool_post_id": null,
+  "provider_status": "NOT_SCHEDULED",
+  "public_tiktok_url": null
+}
