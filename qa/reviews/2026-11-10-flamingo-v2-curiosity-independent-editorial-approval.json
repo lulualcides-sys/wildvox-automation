@@ -1,0 +1,47 @@
+{
+  "day_local": "2026-11-10",
+  "account": "@wildvox",
+  "metricool_brand": 7242311,
+  "network": "tiktok",
+  "key": "flamingo_lagoas_e_estuarios_nov10",
+  "revision": "2026-11-10-flamingo_lagoas_e_estuarios_nov10-science-pink-filter-v2",
+  "decision": "APPROVE",
+  "approval_scope": "one-time exact video rendered in current daily batch, never approve the prior descriptive draft fingerprint or older video",
+  "scientific_topic": "Por que flamingos ficam rosa: carotenoides na alimentação e bico de filtragem",
+  "scientific_references": [
+    {
+      "publisher": "Smithsonian National Zoo and Conservation Biology Institute",
+      "url": "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts",
+      "claims": "Juvenile gray down, dietary carotenoids, and flamingo bill upside-down filtering"
+    },
+    {
+      "publisher": "San Diego Zoo Wildlife Alliance",
+      "url": "https://animals.sandiegozoo.org/animals/flamingo",
+      "claims": "Food intake/filter-feeding with lamellae and tongue pumping water"
+    }
+  ],
+  "editorial_review": {
+    "curiosity_first": true,
+    "script_educational_in_portuguese": true,
+    "scientific_mechanism_and_comparison": true,
+    "visual_truth": "All original eight Wikimedia Commons preview strips and 13 decoded output frames at 1,3,6,9,12,15,18,21,24,27,30,33,36 seconds inspected. The eight separate source clips depict greater flamingos in wetland/shallow water, not invented feeding events. The information about carotenoids and bill filtration is sourced biology; it does not claim footage reveals microscopic lamellae or gray chicks.",
+    "limitations": "Birds in several long wetland shots are relatively distant and small; at least the 21-24s section has a larger identifiable flamingo. Large blurred portrait matte occupies spare frame space. No false species labels or fabricated closeup; acceptable as illustrative documentary rather than direct microscopic proof. Vary original sources in future batches for closer details.",
+    "technical": "Original Actions ZIP MP4 inspected, FFprobe 1080x1920 30fps H264/AAC 36.95s. Independent FFmpeg freezedetect -50dB:d=1 and blackdetect d=0.3 no ≥1s freeze / black intervals; eight original video sources within six narrated blocks, no plan exceeds 8s; technical publish-media QA passed.",
+    "legal": "8 distinct Commons video URLs, each NaIzletuSi ™ CC BY 3.0 with source/license/creator + modification disclosure in full 1781 character caption; no ShareAlike.",
+    "anti_duplicate": "Exact new v2 revision+MP4 hash differs from same-day rejected descriptive flamingo draft (draft=true, autoPublish=false); no prior public flamingo reuse verified in current daily history."
+  },
+  "github_actions_run_id": 42852124834,
+  "workflow_artifact_id": 13782150440,
+  "config_sha256": "101a429fec17c3508b6fb1e49a906e0cf38478f26cf88ee674183c725b5a5935",
+  "mp4_sha256": "95b15ddda1c50246fc2c4909bfa9cdb45e74be430231cd839480496c307db84f",
+  "git_blob_mp4": "d9f2200920029f502e9e7d03d8935b86e0726059",
+  "git_blob_metadata": "71eb4fc95dbc60d4a1eb9ee00a1eaaea33c6817d",
+  "duration_seconds": 36.95,
+  "language": "pt-BR",
+  "voice": "pm_alex",
+  "publication_hold": true,
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/flamingo_lagoas_e_estuarios_nov10.mp4",
+  "metricool_post_id": null,
+  "provider_status": "NOT_SCHEDULED",
+  "published_tiktok_url": null
+}
