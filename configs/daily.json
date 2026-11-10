@@ -1,7 +1,7 @@
 {
   "cat_curiosity_to_calm_nov10": {
     "title": "How Cats Move Between Curiosity and Rest",
-    "script": "A cat investigates a paper bag, peering into a new hiding place. Elsewhere, a black cat walks outdoors across the ground. Two cats play together indoors, while another cat rolls and stretches in a separate home. A different cat stops to groom its own fur. One kitten rests on a bed, and another cat relaxes on a sofa. Finally, a cat spends a quiet moment with a person outdoors.",
+    "script": "A cat investigates a paper bag, peering into a new hiding place. Elsewhere, a black cat walks outdoors across the ground. Two cats play together indoors, while another cat rolls and stretches in a separate home. A different cat stops to groom its own fur. One kitten rests on a bed, and another cat relaxes on a sofa. Finally, a cat spends a quiet moment with a person outdoors. These scenes show different cats in different settings, not one continuous journey. The camera follows small, everyday changes in activity without assuming what any cat is thinking.",
     "caption": "How Cats Move Between Curiosity and Rest. Original English narration, real animal footage. All creators, sources, and CC licenses credited in publication metadata. #WildVox #Animals #Wildlife",
     "sources": [
       {
@@ -133,7 +133,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-cat_curiosity_to_calm_nov10-fresh-story-v1",
+    "revision": "2026-11-10-cat_curiosity_to_calm_nov10-narration-duration-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -203,7 +203,7 @@
   },
   "red_squirrel_perches_and_food_nov10": {
     "title": "From Squirrel Perches to Food Stops",
-    "script": "One red squirrel pauses on a city ledge, while another sits among branches. In a park, a squirrel moves around a tree trunk. A separate squirrel perches in another park tree. One red squirrel pauses in an English tree, while another climbs a trunk. A squirrel handles food on a stump. Finally, another squirrel investigates walnuts scattered on wood.",
+    "script": "One red squirrel pauses on a city ledge, while another sits among branches. In a park, a squirrel moves around a tree trunk. A separate squirrel perches in another park tree. One red squirrel pauses in an English tree, while another climbs a trunk. A squirrel handles food on a stump. Finally, another squirrel investigates walnuts scattered on wood. Each clip follows a different animal in a different place. Watch how the surroundings change from branches and trunks to the wooden surfaces where food is visible.",
     "caption": "From Squirrel Perches to Food Stops. Original English narration, real animal footage. All creators, sources, and CC licenses credited in publication metadata. #WildVox #Animals #Wildlife",
     "sources": [
       {
@@ -325,7 +325,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-red_squirrel_perches_and_food_nov10-fresh-story-v1",
+    "revision": "2026-11-10-red_squirrel_perches_and_food_nov10-narration-duration-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -395,7 +395,7 @@
   },
   "kingfisher_waterway_watch_nov10": {
     "title": "Kingfishers Watching Different Waterways",
-    "script": "A kingfisher waits beside a waterway, sitting on a narrow perch. At another stretch of water, a different kingfisher pauses among vegetation. A third bird sits near a river, while another rests by the water. One kingfisher carefully preens its feathers. In a closer view, blue and orange plumage and a pointed bill stand out. Two other kingfishers appear in separate recordings near their own perches.",
+    "script": "A kingfisher waits beside a waterway, sitting on a narrow perch. At another stretch of water, a different kingfisher pauses among vegetation. A third bird sits near a river, while another rests by the water. One kingfisher carefully preens its feathers. In a closer view, blue and orange plumage and a pointed bill stand out. Two other kingfishers appear in separate recordings near their own perches. These are separate sightings, not a single bird's journey. The footage shows quiet moments of watching and grooming, without claiming a successful catch or a particular hunting outcome.",
     "caption": "Kingfishers Watching Different Waterways. Original English narration, real animal footage. All creators, sources, and CC licenses credited in publication metadata. #WildVox #Animals #Wildlife",
     "sources": [
       {
@@ -523,7 +523,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-kingfisher_waterway_watch_nov10-fresh-story-v1",
+    "revision": "2026-11-10-kingfisher_waterway_watch_nov10-narration-duration-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -593,7 +593,7 @@
   },
   "canada_geese_goslings_to_water_nov10": {
     "title": "Goslings on Land and Geese on Water",
-    "script": "A young Canada goose stops to forage among plants. Elsewhere, goslings stay close to adult geese in a family group. Another family gathers, while separate geese walk along a shoreline. Other goslings appear in one recording, and an adult with a young bird in another. An adult Canada goose swims across a park lake. Finally, another group of Canada geese moves together in a different place.",
+    "script": "A young Canada goose stops to forage among plants. Elsewhere, goslings stay close to adult geese in a family group. Another family gathers, while separate geese walk along a shoreline. Other goslings appear in one recording, and an adult with a young bird in another. An adult Canada goose swims across a park lake. Finally, another group of Canada geese moves together in a different place. These are separate families and separate locations. The footage moves from birds on land to birds in water, without suggesting they all belong to the same flock.",
     "caption": "Goslings on Land and Geese on Water. Original English narration, real animal footage. All creators, sources, and CC licenses credited in publication metadata. #WildVox #Animals #Wildlife",
     "sources": [
       {
@@ -716,7 +716,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-canada_geese_goslings_to_water_nov10-fresh-story-v1",
+    "revision": "2026-11-10-canada_geese_goslings_to_water_nov10-narration-duration-v2",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -786,7 +786,7 @@
   },
   "european_robin_park_to_song_nov10": {
     "title": "A Robin's Journey From Perches to Song",
-    "script": "A European robin pauses among the branches of an autumn park. In another recording, a robin perches amid summer greenery. A spring park provides a different perch for another robin. One robin sits on a winter branch, while another pauses by a garden fence. Two robins sing from reeds in separate recordings. Finally, a different robin sings from its own perch.",
+    "script": "A European robin pauses among the branches of an autumn park. In another recording, a robin perches amid summer greenery. A spring park provides a different perch for another robin. One robin sits on a winter branch, while another pauses by a garden fence. Two robins sing from reeds in separate recordings. Finally, a different robin sings from its own perch. The recordings come from different places and seasons. They show separate birds, rather than one robin traveling through the year. Listen and watch for each distinct moment.",
     "caption": "A Robin's Journey From Perches to Song. Original English narration, real animal footage. All creators, sources, and CC licenses credited in publication metadata. #WildVox #Animals #Wildlife",
     "sources": [
       {
@@ -908,7 +908,7 @@
     "max_freeze_seconds": 1,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-european_robin_park_to_song_nov10-fresh-story-v1",
+    "revision": "2026-11-10-european_robin_park_to_song_nov10-narration-duration-v2",
     "publication_hold": true,
     "visual_plan": [
       {
