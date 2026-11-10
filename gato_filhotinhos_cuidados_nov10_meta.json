@@ -1,0 +1,215 @@
+{
+  "key": "gato_filhotinhos_cuidados_nov10",
+  "title": "Gatinhos e adultos: cuidados em cenas reais",
+  "caption": "Gatinhos, adultos e diferentes formas de cuidado em registros reais. #WildVox #Gatos #Gatinhos\n\nCréditos dos vídeos (edição vertical 9:16, legendas e narração):\n1. Jeromi Mikhael | CC0 | https://commons.wikimedia.org/wiki/File:Three_orange_kittens_following_their_mother.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en\n2. ウィキ太郎(Wiki Taro) | Public domain | https://commons.wikimedia.org/wiki/File:A_male_cat_grooms_a_female_kitten_2021-08-25_August_25.webm | https://commons.wikimedia.org/wiki/File:A_male_cat_grooms_a_female_kitten_2021-08-25_August_25.webm\n3. Сарапулов | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D1%96%D0%B9%D1%86%D1%8F_%D0%BA%D0%BE%D1%88%D0%B5%D0%BD%D1%8F%D1%82.webm | https://creativecommons.org/licenses/by/4.0/\n4. Сарапулов | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_06.webm | https://creativecommons.org/licenses/by/4.0/\n5. Сарапулов | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_07.webm | https://creativecommons.org/licenses/by/4.0/\n6. Сарапулов | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_08.webm | https://creativecommons.org/licenses/by/4.0/\n7. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Rury_Feeds_the_Faculty_of_Biology_Cats.webm | https://creativecommons.org/licenses/by/4.0/\n8. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Owiii_and_Iis_Cleaning.webm | https://creativecommons.org/licenses/by/4.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "9eb6fbfdd685868f3f87cbe2677196b5207748b56bf22a3604f420b965a21530",
+  "duration": 42.15,
+  "voice": "pm_alex",
+  "language": "pt-BR",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 5.825,
+      "duration": 5.825,
+      "text": "Três gatinhos alaranjados seguem a mãe, bem próximos. É uma cena simples, mas cheia de movimento.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Three orange kittens following their mother.webm",
+      "tags": [
+        "orange_kittens_follow_cat_mother"
+      ],
+      "story_role": "hook",
+      "overlay_label": "PERTO DA MÃE",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 5.825,
+      "end": 11.525,
+      "duration": 5.7,
+      "text": "Em outra gravação, um gato adulto lambe um filhote. O contato entre eles aparece claramente.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: A male cat grooms a female kitten 2021-08-25 August 25.webm",
+      "tags": [
+        "adult_cat_grooming_young_kitten"
+      ],
+      "story_role": "setup",
+      "overlay_label": "LAMBENDO O FILHOTE",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 11.525,
+      "end": 18.875,
+      "duration": 7.35,
+      "text": "Outros três gatinhos se movimentam juntos em Kiev. Depois, surgem gatos diferentes no pátio de uma mesquita em Istambul.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Трійця кошенят.webm | Кішки мечеті Шехзаде 06.webm",
+      "tags": [
+        "young_kittens_group_play_kyiv",
+        "istanbul_mosque_cat_family_scene"
+      ],
+      "story_role": "action",
+      "overlay_label": "OUTROS GATINHOS",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 18.875,
+      "end": 25.85,
+      "duration": 6.975,
+      "text": "Uma segunda filmagem da mesquita registra novos movimentos, sem indicar que todos os animais formam uma família.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Кішки мечеті Шехзаде 07.webm",
+      "tags": [
+        "istanbul_mosque_cat_interaction"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "OUTRA CENA",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 25.85,
+      "end": 32.9,
+      "duration": 7.05,
+      "text": "Na mesma região, outra gravação mostra gatos ocupando seu espaço. Cada vídeo acompanha um momento independente.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Кішки мечеті Шехзаде 08.webm",
+      "tags": [
+        "istanbul_mosque_cats_present"
+      ],
+      "story_role": "twist",
+      "overlay_label": "EM ISTAMBUL",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 32.9,
+      "end": 42.15,
+      "duration": 9.25,
+      "text": "Em uma universidade, gatos recebem comida de uma pessoa. Na última cena, dois animais se limpam na rua. São cuidados visíveis, em situações diferentes.",
+      "language": "pt-BR",
+      "scene": "Cenas reais de origem: Rury Feeds the Faculty of Biology Cats.webm | Owiii and Iis Cleaning.webm",
+      "tags": [
+        "faculty_cats_receiving_food",
+        "two_cats_grooming_on_street"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "ALIMENTAÇÃO E HIGIENE",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Three%20orange%20kittens%20following%20their%20mother.webm",
+      "type": "video",
+      "assetTitle": "Three orange kittens following their mother.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Three_orange_kittens_following_their_mother.webm",
+      "tags": [
+        "orange_kittens_follow_cat_mother"
+      ],
+      "author": "Jeromi Mikhael",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20male%20cat%20grooms%20a%20female%20kitten%202021-08-25%20August%2025.webm",
+      "type": "video",
+      "assetTitle": "A male cat grooms a female kitten 2021-08-25 August 25.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_male_cat_grooms_a_female_kitten_2021-08-25_August_25.webm",
+      "tags": [
+        "adult_cat_grooming_young_kitten"
+      ],
+      "author": "ウィキ太郎(Wiki Taro)",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:A_male_cat_grooms_a_female_kitten_2021-08-25_August_25.webm",
+      "license_note": "Commons live API on 2026-11-10 labels this original file Public domain; the source page documents the public-domain declaration. Publication still needs independent action/framing and rights review."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A2%D1%80%D1%96%D0%B9%D1%86%D1%8F%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BD%D1%8F%D1%82.webm",
+      "type": "video",
+      "assetTitle": "Трійця кошенят.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D1%96%D0%B9%D1%86%D1%8F_%D0%BA%D0%BE%D1%88%D0%B5%D0%BD%D1%8F%D1%82.webm",
+      "tags": [
+        "young_kittens_group_play_kyiv"
+      ],
+      "author": "Сарапулов",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D1%96%D1%88%D0%BA%D0%B8%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96%20%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5%2006.webm",
+      "type": "video",
+      "assetTitle": "Кішки мечеті Шехзаде 06.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_06.webm",
+      "tags": [
+        "istanbul_mosque_cat_family_scene"
+      ],
+      "author": "Сарапулов",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D1%96%D1%88%D0%BA%D0%B8%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96%20%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5%2007.webm",
+      "type": "video",
+      "assetTitle": "Кішки мечеті Шехзаде 07.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_07.webm",
+      "tags": [
+        "istanbul_mosque_cat_interaction"
+      ],
+      "author": "Сарапулов",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D1%96%D1%88%D0%BA%D0%B8%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96%20%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5%2008.webm",
+      "type": "video",
+      "assetTitle": "Кішки мечеті Шехзаде 08.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_08.webm",
+      "tags": [
+        "istanbul_mosque_cats_present"
+      ],
+      "author": "Сарапулов",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rury%20Feeds%20the%20Faculty%20of%20Biology%20Cats.webm",
+      "type": "video",
+      "assetTitle": "Rury Feeds the Faculty of Biology Cats.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rury_Feeds_the_Faculty_of_Biology_Cats.webm",
+      "tags": [
+        "faculty_cats_receiving_food"
+      ],
+      "author": "Joaquim Baeta",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Owiii%20and%20Iis%20Cleaning.webm",
+      "type": "video",
+      "assetTitle": "Owiii and Iis Cleaning.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Owiii_and_Iis_Cleaning.webm",
+      "tags": [
+        "two_cats_grooming_on_street"
+      ],
+      "author": "Joaquim Baeta",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+    }
+  ],
+  "review_sheet": "gato_filhotinhos_cuidados_nov10_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
