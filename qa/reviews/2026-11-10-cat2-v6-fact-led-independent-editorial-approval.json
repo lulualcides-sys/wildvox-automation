@@ -37,7 +37,11 @@
   "duration_seconds": 40.525,
   "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/gato_saltos_corridas_nov10.mp4",
   "publication_hold": true,
-  "metricool_post_id": null,
-  "provider_status": "NOT_SCHEDULED",
-  "public_tiktok_url": null
+  "metricool_post_id": 423330092,
+  "provider_status": "PENDING",
+  "public_tiktok_url": null,
+  "metricool_post_uuid": "-2780562573150237302",
+  "metricool_autoPublish": true,
+  "metricool_draft": false,
+  "scheduled_local": "2026-11-10T19:35:00-03:00"
 }
