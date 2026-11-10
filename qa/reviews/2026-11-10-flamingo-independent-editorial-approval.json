@@ -1,0 +1,28 @@
+{
+  "day_local": "2026-11-10",
+  "candidate": "flamingo_lagoas_e_estuarios_nov10",
+  "source_run_id": 42819354575,
+  "artifact_id": 13766633307,
+  "source_commit": "d9d8bca00d471b8f5272f6e3cb4feead84061892",
+  "config_sha256": "6f2f1d457261177962527615de222eb1d91f42f5f9655803d91225076cdccb65",
+  "mp4_sha256": "8268758009ccffd826023a51bd8737dee330181f7884c3b951d7a1ea4340a3fe",
+  "media_blob_sha": "156edb037c89551fe3dd3c9aa6f93aa78e69e76d",
+  "duration_seconds": 44.08,
+  "language": "pt-BR",
+  "voice": "pm_alex",
+  "inspection": [
+    "Downloaded original GitHub Action artifact ZIP with MP4, current-run metadata, 8 source preview JPGs and final review sheet.",
+    "Visually inspected all 8 original-source contact sheets and final montage for correct greater-flamingo appearance, activity, no invented courtship/migration/feeding and no false location continuity.",
+    "Verified all eight distinct Commons sourcePage/creator/license links in config; CC BY 3.0 author NaIzletuSi ™. Independent Commons audit job passed.",
+    "Video duration 44.08s, aligned Portuguese subtitles and original Kokoro pm_alex; per-video technical QA successfully passed freeze and framing gates.",
+    "MP4 bytes git-blob SHA matched exactly the video stored on public media branch.",
+    "Checked @wildvox Metricool recent post history (October 31–Nov 10): no previously published flamingo narrative/post; target media URL unique."
+  ],
+  "limitation": "The footage is not cinematic close-up; some shots are distant, but birds are identifiable and narration describes only visible lagoon scenes.",
+  "approval": "APPROVED_FOR_TIKTOK_SCHEDULING",
+  "publication_hold_config": true,
+  "publication_approved": true,
+  "platform": "TikTok @wildvox only, Metricool brand 7242311",
+  "approved_media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/flamingo_lagoas_e_estuarios_nov10.mp4",
+  "note": "New independent QA approval authorizes only this MP4 digest for this exact editorial configuration; any new revision requires new approval. No automatic YouTube."
+}
