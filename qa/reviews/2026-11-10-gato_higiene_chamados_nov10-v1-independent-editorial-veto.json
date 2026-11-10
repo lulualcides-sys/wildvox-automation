@@ -1,0 +1,31 @@
+{
+  "day_local": "2026-11-10",
+  "candidate": "gato_higiene_chamados_nov10",
+  "reviewed_run_id": 42819354575,
+  "artifact_id": 13767890318,
+  "source_commit": "d9d8bca00d471b8f5272f6e3cb4feead84061892",
+  "source_config_blob_sha": "b375457df6477429746575f8b71212a930848c39",
+  "config_sha256": "d6fa6115f441cc1e0da3e17b0d5edf497003d576966a16e53a4596b0d76979a5",
+  "mp4_sha256": "1a2a2b6b42d0a98f1b17e250023aeae764338d0c2ae05ac6ee734ae2d9baebff",
+  "duration_seconds": 41.33,
+  "voice": "pm_alex",
+  "language": "pt-BR",
+  "visual_evidence": [
+    "Inspected original current-run ZIP, final preview contact sheet and all eight source-preview contact sheets.",
+    "Source_05 Tomcat calling shows one cat indoors observing another cat through the window, but actual calling cannot be substantiated from the final dubbed film stills.",
+    "Source_06 Domestic catfight preview shows cats in close physical contact or interaction, not unambiguously fighting at the chosen frames.",
+    "Two recordings of a black cat look similar; no basis to assert they are different individuals.",
+    "Other scenes clearly show natural self-grooming, human clipping a cat's nails and a black-cat portrait."
+  ],
+  "decision": "VETO",
+  "publication_hold": true,
+  "publication_approved": false,
+  "reason": "V1 narration overstates calling, fight and individual identity; requires more conservative source-aligned narration and a new original MP4.",
+  "proposed_revision": "2026-11-10-gato_higiene_chamados_nov10-real-action-revision-v2",
+  "proposed_pull_request": "https://github.com/lulualcides-sys/wildvox-automation/pull/13",
+  "next_actions": [
+    "Do not schedule the v1 MP4 SHA above.",
+    "Merge targeted editorial correction PR #13 ONLY after prior targeted cat2 run #42820828344 starts or completes, to avoid replacing the pending concurrency run.",
+    "Rerender only cat3, inspect true MP4 at action/sound windows, then consider independent approval."
+  ]
+}
