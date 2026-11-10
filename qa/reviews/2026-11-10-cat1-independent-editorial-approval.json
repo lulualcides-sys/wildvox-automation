@@ -1,0 +1,27 @@
+{
+  "day_local": "2026-11-10",
+  "candidate": "gato_filhotinhos_cuidados_nov10",
+  "source_run_id": 42824706460,
+  "artifact_id": 13768197865,
+  "source_commit": "33d6d66f03f564e8715f5b0e0a27944fc836e879",
+  "config_sha256": "0c90f4a9ad4afd3912e0f2f7a5a0aa0106c47b186f0393abd8118b9850a9029f",
+  "mp4_sha256": "a3e0ea011e21877408a8d0d20f5a404f72d25f50b8f0bad01c2b95c8840172cd",
+  "media_blob_sha": "df2fe54989b25060ec3160f8f76d8a353904978c",
+  "duration_seconds": 41.38,
+  "language": "pt-BR",
+  "voice": "pm_alex",
+  "inspection": [
+    "Downloaded and inspected 8 genuine source preview contact sheets, final original current-run MP4 review sheet, metadata and original video bytes.",
+    "Hook: actual orange mother cat and kittens visible. Setup: adult cat grooming a light kitten. Action: distant kitten stated explicitly; black cat self-grooming; adult cat with kittens. Payoff: adult with kittens and cats eating at a communal location, plus white cat grooming independently. Separate locations are not portrayed as one wild family.",
+    "Original source 02 is distant and weaker but narrator explicitly identifies it as distant; not misleading. All other scenes identifiable and directly relevant.",
+    "Verified public sourcePage, creator and CC0/PD/CC BY rights metadata for eight unique authentic videos; separate production Commons audit passed.",
+    "Independent per-candidate GitHub MP4 QA passed (video duration 41.38s, no disallowed freezes); original MP4 SHA matches public media branch Git blob SHA.",
+    "Recent @wildvox Metricool posts checked through 2026-11-10: neither this cat family story nor these 8-source original sequence appeared in published videos."
+  ],
+  "approval": "APPROVED_FOR_TIKTOK_SCHEDULING",
+  "publication_hold_config": true,
+  "publication_approved": true,
+  "platform": "TikTok @wildvox only, brand 7242311",
+  "approved_media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/gato_filhotinhos_cuidados_nov10.mp4",
+  "note": "Approval applies only to v2 MP4 SHA and current config; any changed narration/source requires independent new review; no YouTube."
+}
