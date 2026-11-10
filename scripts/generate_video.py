@@ -149,6 +149,7 @@ def generate_voice(text, key, visual_plan=None, language="en-US", voice_name=Non
             "end": cursor,
             "duration": block_duration,
             "text": block_text,
+            "language": language,
             "scene": block.get("scene") or block_text,
             "tags": list(block.get("tags") or []),
             "story_role": block.get("story_role"),
