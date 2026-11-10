@@ -49,6 +49,16 @@ class WildVoxPortugueseLocaleTest(unittest.TestCase):
         self.assertNotEqual(norm("ação"), norm("a o"))
         self.assertGreater(env["weight"]("coração"), 1)
 
+    def test_ptbr_role_callouts_are_not_english(self):
+        from cinematic_fx import build_events
+        events = build_events([
+            {"start": 0, "end": 2.5, "story_role": "hook", "language": "pt-BR"},
+            {"start": 2.5, "end": 5.0, "story_role": "payoff", "language": "pt-BR"}
+        ])
+        self.assertTrue(any("OLHE BEM" in e for e in events))
+        self.assertTrue(any("A REVELAÇÃO" in e for e in events))
+        self.assertFalse(any("THE REVEAL" in e for e in events))
+
     def test_ptbr_caption_keeps_all_legal_credits(self):
         daily = json.loads((ROOT / "configs/daily.json").read_text(encoding="utf-8"))
         entry = dict(next(iter(daily.values())))
