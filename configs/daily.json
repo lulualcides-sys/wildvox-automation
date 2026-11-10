@@ -196,7 +196,7 @@
         "assetTitle": "Cat Jumpscare.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Jumpscare.webm",
         "tags": [
-          "house_cat_running_toward_camera"
+          "domestic_cat_rolling_under_furniture"
         ],
         "author": "Panini!",
         "license": "CC0",
@@ -222,7 +222,7 @@
         "assetTitle": "Kitten jumping on bamboo mat.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_jumping_on_bamboo_mat.webm",
         "tags": [
-          "kitten_jumping_bamboo_mat"
+          "white_cat_moving_on_bamboo_mat"
         ],
         "author": "Fumikas Sagisavas",
         "license": "CC0",
@@ -235,7 +235,7 @@
         "assetTitle": "Cat chasing a pigeon.webm",
         "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm",
         "tags": [
-          "outdoor_cat_chases_pigeon"
+          "street_cat_pigeon_same_video_no_capture"
         ],
         "author": "Jeromi Mikhael",
         "license": "CC0",
@@ -301,14 +301,14 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_saltos_corridas_nov10-correction-independent-mp4-v2",
+    "revision": "2026-11-10-gato_saltos_corridas_nov10-visual-truth-corrected-v3",
     "publication_hold": true,
     "visual_plan": [
       {
         "text": "Um gato rola pelo chão perto de um móvel. Ele muda de posição mais uma vez, diante da câmera.",
         "scene": "Gato marrom brinca, deitado e rolando perto de um sofá; Cat Jumpscare.webm",
         "tags": [
-          "house_cat_running_toward_camera"
+          "domestic_cat_rolling_under_furniture"
         ],
         "story_role": "hook",
         "overlay_label": "ROLANDO NO CHÃO",
@@ -328,8 +328,8 @@
         "text": "Um gato branco se movimenta sobre uma esteira de bambu. Em outra gravação, um gato e um pombo aparecem numa rua, sem que a câmera mostre uma captura.",
         "scene": "Gato branco se movimenta sobre esteira, depois gato e pombo aparecem na rua; vídeos distintos",
         "tags": [
-          "kitten_jumping_bamboo_mat",
-          "outdoor_cat_chases_pigeon"
+          "white_cat_moving_on_bamboo_mat",
+          "street_cat_pigeon_same_video_no_capture"
         ],
         "story_role": "action",
         "overlay_label": "MOVIMENTOS REAIS",
