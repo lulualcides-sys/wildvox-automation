@@ -13,6 +13,13 @@ def sample():
         "revision": "2026-11-11-gatos-comunicacao-v1",
         "publication_hold": True, "language": "pt-BR", "voice": "pm_alex",
         "script": "Por que os gatos ronronam? Nem todo ronronar indica prazer. Existem diferentes contextos e mecanismos investigados.",
+        "visual_plan": [
+            {"text": "Por que os gatos ronronam?", "scene": "Gato em repouso", "tags": ["cat_rest"], "story_role": "hook"},
+            {"text": "Nem todo ronronar", "scene": "Gato em interação", "tags": ["cat_social"], "story_role": "setup"},
+            {"text": "indica prazer.", "scene": "Gato em movimento", "tags": ["cat_move"], "story_role": "action"},
+            {"text": "Existem diferentes contextos", "scene": "Gato em descanso", "tags": ["cat_sleep"], "story_role": "explanation"},
+            {"text": "e mecanismos investigados.", "scene": "Gato próximo a outro", "tags": ["cat_pair"], "story_role": "payoff"},
+        ],
         "curiosity_fact_sheet": {
             "hook_question": "Por que os gatos podem ronronar em situações diferentes?",
             "verified_fact": "O ronronar ocorre em múltiplos contextos, não apenas no descanso.",
