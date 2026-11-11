@@ -1,0 +1,58 @@
+name: WildVox TikTok direct publishing readiness
+
+# Safe diagnostic only: no upload, no scheduling, no publication and no secret values in logs.
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/wildvox-tiktok-readiness.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      TIKTOK_ACCESS_TOKEN: ${{ secrets.TIKTOK_ACCESS_TOKEN }}
+      TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+      TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+      TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+      TIKTOK_AUDITED: ${{ vars.TIKTOK_AUDITED }}
+    steps:
+      - name: Check safe prerequisites (never output credential values)
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "${TIKTOK_ACCESS_TOKEN:-}" ]] && \
+             { [[ -z "${TIKTOK_CLIENT_KEY:-}" ]] || [[ -z "${TIKTOK_CLIENT_SECRET:-}" ]] || [[ -z "${TIKTOK_REFRESH_TOKEN:-}" ]]; }; then
+            echo "::error::Direct TikTok API is not authenticated: neither access token nor complete OAuth refresh credentials exist."
+            exit 1
+          fi
+          if [[ "${TIKTOK_AUDITED,,}" != "true" && "${TIKTOK_AUDITED}" != "1" && "${TIKTOK_AUDITED,,}" != "yes" ]]; then
+            echo "::error::PUBLIC_TO_EVERYONE is blocked: TIKTOK_AUDITED is not enabled."
+            exit 1
+          fi
+          echo "Direct TikTok publishing prerequisites are configured (authorization and @wildvox identity still require live verification)."
+      - name: Verify connected TikTok creator without uploading media
+        if: ${{ env.TIKTOK_ACCESS_TOKEN != '' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          response=$(curl --fail-with-body --silent --show-error --connect-timeout 10 --max-time 35 \
+             -H "Authorization: Bearer ${TIKTOK_ACCESS_TOKEN}" \
+             -H "Content-Type: application/json; charset=UTF-8" \
+             -X POST -d '{}' 'https://open.tiktokapis.com/v2/post/publish/creator_info/query/')
+          name=$(jq -r '.data.creator_username // ""' <<<"$response")
+          code=$(jq -r '.error.code // ""' <<<"$response")
+          if [[ "$code" != "ok" ]] || [[ "$name" != "wildvox" ]]; then
+            echo "::error::Live TikTok creator verification failed; refusing any automatic publication."
+            exit 1
+          fi
+          if ! jq -e '.data.privacy_level_options | index("PUBLIC_TO_EVERYONE")' <<<"$response" >/dev/null; then
+            echo "::error::TikTok does not permit PUBLIC_TO_EVERYONE for this creator/app."
+            exit 1
+          fi
+          echo "Live verified TikTok creator: @wildvox; public publishing is available to this API token."
