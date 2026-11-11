@@ -24,6 +24,11 @@ def sample():
                 "url": "https://www.example.edu/research/purring",
                 "publisher": "Instituição acadêmica demonstrativa",
                 "reference_title": "Literatura sobre vocalizações de felinos",
+            }, {
+                "claim": "A vocalização felina possui mecanismos biológicos estudados.",
+                "url": "https://www.example.org/research/feline-vocalization",
+                "publisher": "Instituição científica demonstrativa independente",
+                "reference_title": "Estudos sobre mecanismos de vocalização felina",
             }],
         },
     }
@@ -47,6 +52,24 @@ class CuriosityEditorialContract(unittest.TestCase):
         item = sample()
         item["curiosity_fact_sheet"]["fact_sources"][0]["url"] = "https://commons.wikimedia.org/wiki/File:Cat.webm"
         with self.assertRaisesRegex(ValueError, "not an independent scientific citation"):
+            validate_entry("cat", item)
+
+    def test_one_fact_source_is_rejected(self):
+        item = sample()
+        item["curiosity_fact_sheet"]["fact_sources"].pop()
+        with self.assertRaisesRegex(ValueError, "independent fact_sources"):
+            validate_entry("cat", item)
+
+    def test_duplicate_fact_source_is_rejected(self):
+        item = sample()
+        item["curiosity_fact_sheet"]["fact_sources"][1]["url"] = item["curiosity_fact_sheet"]["fact_sources"][0]["url"]
+        with self.assertRaisesRegex(ValueError, "duplicate scientific URLs"):
+            validate_entry("cat", item)
+
+    def test_same_publisher_is_rejected(self):
+        item = sample()
+        item["curiosity_fact_sheet"]["fact_sources"][1]["publisher"] = item["curiosity_fact_sheet"]["fact_sources"][0]["publisher"]
+        with self.assertRaisesRegex(ValueError, "two independent scientific publishers"):
             validate_entry("cat", item)
 
     def test_release_hold_cannot_be_removed(self):
