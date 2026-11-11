@@ -21,7 +21,16 @@ jobs:
       TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
       TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
       TIKTOK_AUDITED: ${{ vars.TIKTOK_AUDITED }}
+      PUBLER_ZAPIER_WEBHOOK: ${{ secrets.PUBLER_ZAPIER_WEBHOOK }}
     steps:
+      - name: Check Publer bridge credentials without sending media
+        shell: bash
+        run: |
+          if [[ -z "${PUBLER_ZAPIER_WEBHOOK:-}" ]]; then
+            echo "::notice::Publer/Zapier bridge is not configured."
+          else
+            echo "Publer/Zapier bridge credential exists; a separate editorial approval and channel verification are required."
+          fi
       - name: Check safe prerequisites (never output credential values)
         shell: bash
         run: |
