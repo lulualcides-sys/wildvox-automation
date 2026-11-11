@@ -101,8 +101,8 @@ def inspect(config, directory, day, selected_key=None):
                 for source in (entry.get("sources") or [])]
     if selected_key is not None and selected_key not in config:
         errors.append(f"Unknown video key: {selected_key}")
-    if len(config) != 5:
-        errors.append(f"Expected exactly five videos, got {len(config)}")
+    if not isinstance(config, dict) or not 1 <= len(config) <= 5:
+        errors.append(f"Expected between 1 and 5 videos, got {len(config) if isinstance(config, dict) else 'invalid'}")
     for key, cfg in config.items():
         if selected_key is not None and key != selected_key:
             continue

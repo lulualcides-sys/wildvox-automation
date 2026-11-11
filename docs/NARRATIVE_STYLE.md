@@ -38,9 +38,9 @@ Manter exatamente 5-7 blocos e o texto falado integral: a concatenação de `vis
 ```
 
 ## Critérios de aceite
-1. Cinco entradas top-level do dia editorial correto, nenhuma metadata top-level adicional.
+1. De uma a cinco entradas top-level do dia editorial correto, nenhuma metadata top-level adicional.
 2. Histórias individuais com gancho, ação, mecanismo ou reviravolta e desfecho verificáveis; espécies e perspectivas variadas, sem duplicatas recentes.
-3. Texto total da narração idêntico aos blocos; cenas e fontes correlacionadas; duração e fontes conforme validação **atual** do GitHub (atualmente cinco vídeos de 30-45s).
+3. Texto total da narração idêntico aos blocos; cenas e fontes correlacionadas; duração e fontes conforme validação **atual** do GitHub (de 1 a 5 vídeos de 30-45s nesta configuração).
 4. Passar QA estrutural. Render, áudio, visualização de quadros e autorização das fontes são verificações separadas: não declarar pronto/publicado só porque o JSON passou.
 5. Não alterar o gerador principal durante experimentos de novos overlays; construir e testar esse recurso isoladamente antes de integrá-lo.
 

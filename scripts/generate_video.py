@@ -314,8 +314,8 @@ def canonical_url(url):
 
 def validate_daily_batch(data):
     """Enforce the non-negotiable editorial and media gates for daily.json."""
-    if len(data) != 5:
-        raise RuntimeError(f"daily.json must contain exactly 5 entries, found {len(data)}")
+    if not isinstance(data, dict) or not 1 <= len(data) <= 5:
+        raise RuntimeError(f"daily.json must contain between 1 and 5 entries, found {len(data) if isinstance(data, dict) else 'invalid'}")
 
     short_count = 0
     batch_urls = set()
@@ -419,11 +419,12 @@ def validate_daily_batch(data):
         if not 0 <= max_freeze <= 1.0:
             raise RuntimeError(f"{key} max_freeze_seconds must be at most 1")
 
-    # Editorial contract: exactly five 30-45s TikTok videos per day.
-    if short_count != 5:
+    # Editorial contract: every prepared candidate must pass 30-45s gates;
+    # do not require five when fewer factual/licensed videos are available.
+    if short_count != len(data):
         raise RuntimeError(
-            f"daily.json must contain exactly 5 short (30-45s) videos; "
-            f"found {short_count} short"
+            f"daily.json must contain only short (30-45s) videos; "
+            f"found {short_count} short for {len(data)} entries"
         )
 
 
