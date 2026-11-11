@@ -45,7 +45,7 @@ def validate_entry(key, entry):
     if len(set(statements)) != 3:
         raise ValueError(f"{key}: fact, mechanism and comparison must be distinct")
     sources = sheet.get("fact_sources")
-    if not isinstance(sources, list) or not sources:
+    if not isinstance(sources, list) or len(sources) < 2:
         raise ValueError(f"{key}: factual claims require independent fact_sources")
     for i, source in enumerate(sources, 1):
         if not isinstance(source, dict):
@@ -59,6 +59,10 @@ def validate_entry(key, entry):
             raise ValueError(f"{key}: fact source must be an HTTPS citation")
         if any(host == domain or host.endswith("." + domain) for domain in REJECTED_HOSTS):
             raise ValueError(f"{key}: animal video/social footage is not an independent scientific citation")
+    if len({s["url"].strip() for s in sources}) != len(sources):
+        raise ValueError(f"{key}: duplicate scientific URLs")
+    if len({s["publisher"].strip().casefold() for s in sources}) < 2:
+        raise ValueError(f"{key}: require two independent scientific publishers")
     if not str(entry.get("script") or "").strip():
         raise ValueError(f"{key}: empty narration script")
 
