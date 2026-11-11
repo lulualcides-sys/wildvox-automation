@@ -63,8 +63,32 @@ def validate_entry(key, entry):
         raise ValueError(f"{key}: duplicate scientific URLs")
     if len({s["publisher"].strip().casefold() for s in sources}) < 2:
         raise ValueError(f"{key}: require two independent scientific publishers")
-    if not str(entry.get("script") or "").strip():
+    script = str(entry.get("script") or "").strip()
+    if not script:
         raise ValueError(f"{key}: empty narration script")
+    # Mechanical anti-compilation gate: editorial review remains mandatory.
+    descriptive = (
+        r"\\b(?:agora|depois|em seguida) (?:ele|ela|o gato|a gata) "
+        r"(?:anda|olha|caminha|aparece)\\b",
+        r"\\b(?:aqui vemos|na próxima cena|o vídeo mostra)\\b",
+    )
+    if any(re.search(pattern, script, flags=re.IGNORECASE) for pattern in descriptive):
+        raise ValueError(f"{key}: chronological clip-description narration is forbidden")
+    plan = entry.get("visual_plan")
+    if not isinstance(plan, list) or not 5 <= len(plan) <= 7:
+        raise ValueError(f"{key}: visual_plan must contain 5-7 factual blocks")
+    roles = [block.get("story_role") for block in plan if isinstance(block, dict)]
+    if len(roles) != len(plan) or roles[0] != "hook" or roles[-1] != "payoff":
+        raise ValueError(f"{key}: visual_plan must start with hook and end with payoff")
+    if "action" not in roles or not ({"explanation", "twist"} & set(roles)):
+        raise ValueError(f"{key}: visual_plan lacks action or biological explanation")
+    if any(not isinstance(block.get("scene"), str) or not block["scene"].strip()
+           or not isinstance(block.get("tags"), list) or not block["tags"]
+           for block in plan):
+        raise ValueError(f"{key}: each visual block needs scene and source tags")
+    normalized = lambda value: re.sub(r"\\s+", " ", value).strip()
+    if normalized(" ".join(str(block.get("text") or "") for block in plan)) != normalized(script):
+        raise ValueError(f"{key}: visual_plan text does not exactly cover script")
 
 
 def validate_batch(batch):
