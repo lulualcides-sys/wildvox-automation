@@ -44,10 +44,17 @@ class EditorialContract(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError,"Duplicate media URL"):
             self.check(batch)
 
-    def test_rejects_wrong_video_count(self):
+    def test_accepts_one_to_five_approved_candidates_structurally(self):
+        for n in range(1, 6):
+            batch=dict(list(copy.deepcopy(self.daily).items())[:n])
+            self.check(batch)
+
+    def test_rejects_empty_or_more_than_five(self):
+        with self.assertRaisesRegex(RuntimeError, "between 1 and 5"):
+            self.check({})
         batch=copy.deepcopy(self.daily)
-        batch.pop(next(iter(batch)))
-        with self.assertRaisesRegex(RuntimeError,"exactly 5"):
+        batch["extra_candidate"] = copy.deepcopy(next(iter(self.daily.values())))
+        with self.assertRaisesRegex(RuntimeError, "between 1 and 5"):
             self.check(batch)
 
     def test_no_placeholder_or_missing_configs(self):

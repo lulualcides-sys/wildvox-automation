@@ -98,11 +98,11 @@ jobs:
           ' configs/daily.json)
 
           # A targeted editorial correction must render ONLY the changed
-          # candidates. A new daily prep normally changes all five. The
-          # five-entry contract is still validated against the full config.
+          # candidates. A daily prep can contain 1–5 distinct research-backed
+          # videos; never invent footage to satisfy a fixed daily quota.
           count=$(jq 'length' configs/daily.json)
-          if [ "$count" -ne 5 ]; then
-            echo "Expected exactly 5 WildVox candidates, found $count." >&2
+          if [ "$count" -lt 1 ] || [ "$count" -gt 5 ]; then
+            echo "Expected 1–5 WildVox candidates, found $count." >&2
             exit 1
           fi
           if [[ "${{ github.event_name }}" == "push" ]] && \
@@ -113,7 +113,7 @@ jobs:
               '$after[0] | to_entries | map(select(.value != ($before[0][.key] // null))) | map(.key)')
             echo "Changed editorial candidates: $animals"
           fi
-          echo "full_batch=$(jq 'length == 5' <<<"$animals")" >> "$GITHUB_OUTPUT"
+          echo "full_batch=$(jq --argjson count "$count" 'length == $count' <<<"$animals")" >> "$GITHUB_OUTPUT"
 
           # Do not render or republish yesterday's content on today's scheduled run.
           # Revisions must identify the local editorial day for every candidate.
@@ -216,7 +216,7 @@ jobs:
           # and pin preshed to avoid native-extension version drift.
           python -m pip install "kokoro==0.9.4" "spacy==3.8.4" "preshed==3.0.9" "numpy==1.26.4" soundfile
           # Fail early on TTS initialization instead of after source rendering.
-          python -c "from kokoro import KPipeline; KPipeline(lang_code='a')"
+          python -c "from kokoro import KPipeline; KPipeline(lang_code='p')"
       - name: Render video
         env:
           WILDVOX_SOURCE_PREVIEWS: "1"
@@ -341,7 +341,7 @@ jobs:
   technical-qa:
     needs: [prepare, render]
     # The independent per-candidate publish-media QA covers targeted edits.
-    # The aggregate QA requires all five artifacts, so run it only for a full batch.
+    # The aggregate QA requires all configured artifacts, whether 1 or 5.
     if: ${{ needs.render.result == 'success' && needs.prepare.outputs.full_batch == 'true' }}
     runs-on: ubuntu-latest
     steps:
@@ -355,7 +355,7 @@ jobs:
           pattern: daily-*
           path: public
           merge-multiple: true
-      - name: Validate all five rendered MP4s (not editorial approval)
+      - name: Validate all configured MP4s (not editorial approval)
         run: |
           python scripts/qa_rendered_batch.py \
             --config configs/daily.json \
