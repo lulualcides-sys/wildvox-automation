@@ -57,17 +57,17 @@
         "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-18%20LJUBLJANA%20Doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%202.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andra%20and%20Billy.webm",
         "type": "video",
-        "assetTitle": "2022-10-18 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA 2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-18_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_2.webm",
+        "assetTitle": "Andra and Billy.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm",
         "tags": [
           "cat_home"
         ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+        "author": "Joaquim Baeta",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "license_note": "Self-published original in Commons, user Spontaneous Symmetry, exact CC BY 4.0; visual review required; adapted/cropped captions in final."
       },
       {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20and%20Chlo%C3%A9%20playing%20(100111224612).webm",
@@ -96,17 +96,17 @@
         "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gato%20escalando.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Cat%20walking.webm",
         "type": "video",
-        "assetTitle": "Gato escalando.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gato_escalando.webm",
+        "assetTitle": "Black Cat walking.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm",
         "tags": [
-          "cat_climb"
+          "cat_walk"
         ],
-        "author": "Bone Bone",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+        "author": "Dzkouslavia",
+        "license": "CC0",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "license_note": "Self-published original author Dzkouslavia CC0; visual review required."
       }
     ],
     "min_unique_videos": 6,
@@ -115,7 +115,7 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-12-gatos_paladar_sem_doce-nov12-v2",
+    "revision": "2026-11-12-gatos_paladar_sem_doce-nov12-v3",
     "publication_hold": true,
     "visual_plan": [
       {
@@ -172,9 +172,9 @@
       },
       {
         "text": "A revelação: diante do mesmo açúcar, o gato não recebe o sinal doce que sentimos.",
-        "scene": "Gato real escalando estrutura de tela; usar imagem como ilustração geral de felino e concluir com comparação escrita, nunca como teste alimentar.",
+        "scene": "Gato preto real caminhando, com narração sobre diferença de sinal gustativo; as imagens não demonstram paladar molecular. Evitar narrar movimentos.",
         "tags": [
-          "cat_climb"
+          "cat_walk"
         ],
         "story_role": "payoff",
         "overlay_label": "DOCE É DIFERENTE PARA GATOS",
@@ -189,7 +189,7 @@
       "verified_fact": "O gene felino TAS1R2 é um pseudogene sem expressão funcional; o receptor heteromérico de sabor doce normalmente associado a T1R2 e T1R3 não se forma em gatos.",
       "biological_explanation": "O receptor do sabor doce em muitos mamíferos depende de T1R2 e T1R3; quando a parte T1R2 não é funcional nos gatos, o estímulo doce não é detectado de maneira equivalente à dos humanos.",
       "comparison_or_consequence": "Estudos com outros carnívoros especializados em carne encontraram perdas independentes do gene TAS1R2; gatos continuam capazes de detectar outros estímulos gustativos, mas não a doçura como humanos.",
-      "visual_evidence_strategy": "Oito clipes reais inéditos de gatos ilustram o animal, sem apresentar câmera como prova de comportamento gustativo. Textos sobre T1R2/T1R3 e TAS1R2 explicam o mecanismo com fontes científicas; nenhuma imagem sintética ou oferta de doce a animais.",
+      "visual_evidence_strategy": "Oito vídeos reais inéditos de gatos, escolhidos com páginas Commons licenciadas CC0 ou CC BY e revisão visual. A filmagem ilustra felinos reais sem afirmar teste de paladar; rótulos T1R2/T1R3 e TAS1R2 explicam mecanismo segundo fontes científicas originais. Nada gerado artificialmente.",
       "fact_sources": [
         {
           "claim": "Gatos possuem Tas1r2 não funcional, sem formação do receptor de doçura com T1R3.",
