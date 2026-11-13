@@ -1,0 +1,54 @@
+{
+  "day_local": "2026-11-12",
+  "brand_id": 7242311,
+  "account": "@wildvox",
+  "network": "tiktok",
+  "candidate_key": "gatos_paladar_sem_doce_nov12",
+  "revision": "2026-11-12-gatos_paladar_sem_doce-nov12-v3",
+  "decision": "APPROVE",
+  "publication_hold": true,
+  "scope": "Aprovação editorial restrita ao MP4 do run 43335657869 / SHA256 verificado; outros rendereamentos, outros dias e outros canais não autorizados",
+  "scientific_topic": "Por que gatos não percebem o sabor doce como os humanos? Pseudogene TAS1R2 e receptor T1R2/T1R3",
+  "scientific_references": [
+    {
+      "claim": "Feline Tas1r2 is an unexpressed pseudogene and functional T1R2/T1R3 sweet receptor cannot form",
+      "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0010003",
+      "publisher": "PLOS Genetics",
+      "reference_title": "Pseudogenization of a Sweet-Receptor Gene Accounts for Cats' Indifference toward Sugar"
+    },
+    {
+      "claim": "Seven non-feline obligate meat-eating carnivores independently lost Tas1r2 function",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22411809/",
+      "publisher": "Proceedings of the National Academy of Sciences",
+      "reference_title": "Major taste loss in carnivorous mammals"
+    }
+  ],
+  "editorial_checks": {
+    "curiosity_first": true,
+    "verified_biological_mechanism": true,
+    "comparison_or_consequence": true,
+    "non_descriptive_story": true,
+    "language": "pt-BR",
+    "voice_requested": "pm_alex",
+    "lang_code_p": true,
+    "evidence_strategy": "B-roll de gatos reais apenas ilustrativo; nenhum clipe usado como prova de gene ou de reação ao açúcar; nenhum doce oferecido a animal.",
+    "independent_original_zip_inspection": "Artefato original 13996549446 extraído: MP4, meta.json, folha de 12 quadros e oito previews reais de origem; 12 quadros foram vistos, além de previews de todos oito clipes. Gatos reais em todas as cenas, hook e legendas pt-BR legíveis em 9:16.",
+    "original_footage": "8 arquivos Commons distintos de gatos, verificados nos previews reais, não são do lote 2026-11-10; sem animações ou cenas geradas por IA. Autor/licença/URL em metadados e legenda integral.",
+    "source_rights": "8 clipes: CC BY 4.0 (3), CC BY 2.0 (2), CC0 (3). Créditos por autor + licença + URL integral na legenda do _meta.json; nenhum ShareAlike ou fonte pendente de revisão. O tamanho da legenda foi aprovado nos testes de crédito.",
+    "narration_evidence": "Geração real por Kokoro KPipeline(lang_code='p', voice='pm_alex') no workflow, WAV convertido para AAC; MP4 audio AAC mono 24000Hz, volumedetect mean -26.3 dB / max -3.9 dB. A transcrição auditável é o roteiro pt-BR e os seis blocos exatos em _meta.json; não houve reconhecimento de voz ASR externo.",
+    "audiovisual": "ffprobe H264 1080x1920 30fps AAC 24000Hz duração 32.40s; FFmpeg freezedetect (-50dB,d=1) e blackdetect (d=0.3 pix_th=.07) sem eventos; sem frames inteiros pretos, sem freeze >=1s; imagens de fontes paisagem preservam proporções com fundo desfocado, sem zoom sintético. Fonte #4 escura e fundo desfocado perceptível, limite estético documentado.",
+    "anti_duplicate": "Matéria/filmagens inéditas em relação a publicações confirmadas de 10/11; única pauta no lote de 12/11; verificar posts pendentes novamente antes de agendar."
+  },
+  "github_actions_run_id": 43335657869,
+  "github_original_zip_artifact_id": 13996549446,
+  "config_blob_sha": "ece862aaa1003ae60f410658cf46b35a5c38d760",
+  "config_sha256": "555d2e3ab8703def28adc92df65a483fb498366ac95d5408a08bf3e4e0f76b05",
+  "media_sha256": "833095ad8549f3b1bf3f734093aca698abef43ee0bed23dd8f4379ebd4f41c93",
+  "git_blob_mp4": "b1742083e1a191e78c98ec0f30c282bfc72e4c73",
+  "git_blob_meta": "eac31507ee99dd16a9fd6ee723d00a3d08ef4715",
+  "duration_seconds": 32.4,
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/gatos_paladar_sem_doce_nov12.mp4",
+  "metricool_post_id": null,
+  "provider_status": "NOT_SCHEDULED",
+  "scheduled_local": null
+}
