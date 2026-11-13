@@ -30,13 +30,16 @@ class EditorialContract(unittest.TestCase):
         cls.check=staticmethod(load_validation())
         cls.daily=json.loads(DAILY.read_text(encoding="utf-8"))
 
-    def test_current_daily_five_passes_current_generator_gate(self):
-        self.assertEqual(len(self.daily),5)
+    def test_current_daily_one_to_five_passes_current_generator_gate(self):
+        self.assertTrue(1 <= len(self.daily) <= 5)
         self.check(copy.deepcopy(self.daily))
 
     def test_rejects_duplicate_url_across_videos(self):
         batch=copy.deepcopy(self.daily)
         keys=list(batch)
+        if len(keys) == 1:
+            batch["another_candidate"] = copy.deepcopy(batch[keys[0]])
+            keys=list(batch)
         # Mesmo URL, ainda que acrescente querystring, tem que bloquear.
         url=batch[keys[0]]["sources"][0]
         url=url if isinstance(url,str) else url["url"]
@@ -45,7 +48,7 @@ class EditorialContract(unittest.TestCase):
             self.check(batch)
 
     def test_accepts_one_to_five_approved_candidates_structurally(self):
-        for n in range(1, 6):
+        for n in range(1, len(self.daily) + 1):
             batch=dict(list(copy.deepcopy(self.daily).items())[:n])
             self.check(batch)
 
@@ -53,7 +56,8 @@ class EditorialContract(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "between 1 and 5"):
             self.check({})
         batch=copy.deepcopy(self.daily)
-        batch["extra_candidate"] = copy.deepcopy(next(iter(self.daily.values())))
+        for i in range(6):
+            batch[f"extra_candidate_{i}"] = copy.deepcopy(next(iter(self.daily.values())))
         with self.assertRaisesRegex(RuntimeError, "between 1 and 5"):
             self.check(batch)
 

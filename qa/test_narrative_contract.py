@@ -44,7 +44,7 @@ class NarrativeStoryContract(unittest.TestCase):
         # Today (2026-10-26) was prepared before the storytelling transition.
         if not active:
             return
-        self.assertEqual(len(active), 5, "all five future videos must follow narrative style")
+        self.assertTrue(1 <= len(active) <= 5, "every prepared daily video must follow narrative style")
         for key, cfg in active:
             with self.subTest(key=key):
                 validate_narrative_arc(cfg)

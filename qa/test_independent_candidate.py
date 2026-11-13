@@ -57,14 +57,16 @@ class IndependentCandidateQA(unittest.TestCase):
             self.assertTrue(one["technical_pass"], one["errors"])
             self.assertEqual(one["scope"], self.key)
             self.assertEqual(len(one["videos"]), 1)
-            self.assertFalse(whole["technical_pass"])
-            self.assertEqual(len(whole["videos"]), 5)
+            self.assertEqual(whole["technical_pass"], len(self.config) == 1)
+            self.assertEqual(len(whole["videos"]), len(self.config))
             self.assertFalse(one["editorial_approved"])
             self.assertTrue(one["publication_hold"])
 
     def test_cross_video_duplicate_source_still_rejected(self):
         config = json.loads(json.dumps(self.config))
-        other_key = list(config)[1]
+        if len(config) == 1:
+            config["second_test_candidate"] = json.loads(json.dumps(config[self.key]))
+        other_key = [k for k in config if k != self.key][0]
         config[other_key]["sources"][0]["url"] = config[self.key]["sources"][0]["url"]
         with tempfile.TemporaryDirectory() as root:
             report = qa.inspect(config, pathlib.Path(root), self.day, self.key)

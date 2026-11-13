@@ -1,499 +1,112 @@
 {
-  "gato_filhotinhos_cuidados_nov10": {
-    "title": "Gatinhos e adultos: cuidados em cenas reais",
-    "script": "Três gatinhos alaranjados acompanham a mãe de perto. São movimentos pequenos, mas claros na gravação. Em outra casa, um gato adulto lambe um filhote que está deitado junto dele. Um filhote aparece ao ar livre numa filmagem distante. Depois, um gato escuro se limpa no pátio de uma mesquita em Istambul. Em outra gravação da mesquita, um gato adulto interage com filhotes no gramado, aproximando-se deles. Na mesma região, outra filmagem mostra um gato adulto cercado por filhotes. O contato acontece perto de uma parede. Em uma universidade, gatos recebem comida de uma pessoa. Na última cena, um gato branco cuida do próprio pelo na rua. São situações distintas de cuidado.",
-    "caption": "Registros reais de gatinhos, contato com adultos, alimentação e higiene. Cenas independentes e filmagens com créditos. #WildVox #Gatos #Gatinhos",
+  "gatos_paladar_sem_doce_nov12": {
+    "title": "Por que gatos não sentem o doce como nós?",
+    "script": "Por que gatos podem ignorar uma sobremesa que parece deliciosa para nós? A resposta não é falta de paladar: eles percebem outros sabores normalmente. Em humanos, duas proteínas trabalham juntas para detectar açúcar: T um R dois e T um R três. Nos gatos, o gene de uma delas não funciona. Sem essa parte, o receptor do doce não se forma. Pesquisas encontraram uma perda semelhante em outros carnívoros especializados em carne. A revelação: diante do mesmo açúcar, o gato não recebe o sinal doce que sentimos.",
+    "caption": "Você sabia? Gatos não formam o receptor funcional do sabor doce como nós. A causa está no gene TAS1R2, estudado em pesquisas científicas. As cenas são ilustrativas: não ofereça doces aos animais. #WildVox #Gatos #CuriosidadesDosGatos #Zoologia #Biologia #Paladar",
     "sources": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Three%20orange%20kittens%20following%20their%20mother.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
         "type": "video",
-        "assetTitle": "Three orange kittens following their mother.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Three_orange_kittens_following_their_mother.webm",
+        "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
         "tags": [
-          "orange_kittens_follow_cat_mother"
-        ],
-        "author": "Jeromi Mikhael",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20male%20cat%20grooms%20a%20female%20kitten%202021-08-25%20August%2025.webm",
-        "type": "video",
-        "assetTitle": "A male cat grooms a female kitten 2021-08-25 August 25.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_male_cat_grooms_a_female_kitten_2021-08-25_August_25.webm",
-        "tags": [
-          "adult_cat_grooming_young_kitten"
-        ],
-        "author": "ウィキ太郎(Wiki Taro)",
-        "license": "Public domain",
-        "license_url": "https://commons.wikimedia.org/wiki/File:A_male_cat_grooms_a_female_kitten_2021-08-25_August_25.webm",
-        "license_note": "Commons live API on 2026-11-10 labels this original file Public domain; the source page documents the public-domain declaration. Publication still needs independent action/framing and rights review."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A2%D1%80%D1%96%D0%B9%D1%86%D1%8F%20%D0%BA%D0%BE%D1%88%D0%B5%D0%BD%D1%8F%D1%82.webm",
-        "type": "video",
-        "assetTitle": "Трійця кошенят.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D1%96%D0%B9%D1%86%D1%8F_%D0%BA%D0%BE%D1%88%D0%B5%D0%BD%D1%8F%D1%82.webm",
-        "tags": [
-          "distant_kitten_outdoors"
-        ],
-        "author": "Сарапулов",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D1%96%D1%88%D0%BA%D0%B8%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96%20%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5%2006.webm",
-        "type": "video",
-        "assetTitle": "Кішки мечеті Шехзаде 06.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_06.webm",
-        "tags": [
-          "istanbul_mosque_black_cat_self_grooming"
-        ],
-        "author": "Сарапулов",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D1%96%D1%88%D0%BA%D0%B8%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96%20%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5%2007.webm",
-        "type": "video",
-        "assetTitle": "Кішки мечеті Шехзаде 07.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_07.webm",
-        "tags": [
-          "istanbul_mosque_cat_interaction"
-        ],
-        "author": "Сарапулов",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9A%D1%96%D1%88%D0%BA%D0%B8%20%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96%20%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5%2008.webm",
-        "type": "video",
-        "assetTitle": "Кішки мечеті Шехзаде 08.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%96%D1%88%D0%BA%D0%B8_%D0%BC%D0%B5%D1%87%D0%B5%D1%82%D1%96_%D0%A8%D0%B5%D1%85%D0%B7%D0%B0%D0%B4%D0%B5_08.webm",
-        "tags": [
-          "istanbul_mosque_adult_cat_with_kittens"
-        ],
-        "author": "Сарапулов",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rury%20Feeds%20the%20Faculty%20of%20Biology%20Cats.webm",
-        "type": "video",
-        "assetTitle": "Rury Feeds the Faculty of Biology Cats.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Rury_Feeds_the_Faculty_of_Biology_Cats.webm",
-        "tags": [
-          "faculty_cats_receiving_food"
-        ],
-        "author": "Joaquim Baeta",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Owiii%20and%20Iis%20Cleaning.webm",
-        "type": "video",
-        "assetTitle": "Owiii and Iis Cleaning.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Owiii_and_Iis_Cleaning.webm",
-        "tags": [
-          "white_cat_self_grooming_outdoors"
-        ],
-        "author": "Joaquim Baeta",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0.8,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-10-gato_filhotinhos_cuidados_nov10-visual-truth-corrected-v2",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Três gatinhos alaranjados acompanham a mãe de perto. São movimentos pequenos, mas claros na gravação.",
-        "scene": "Cenas reais de origem: Three orange kittens following their mother.webm",
-        "tags": [
-          "orange_kittens_follow_cat_mother"
-        ],
-        "story_role": "hook",
-        "overlay_label": "PERTO DA MÃE",
-        "fx": []
-      },
-      {
-        "text": "Em outra casa, um gato adulto lambe um filhote que está deitado junto dele.",
-        "scene": "Cenas reais de origem: A male cat grooms a female kitten 2021-08-25 August 25.webm",
-        "tags": [
-          "adult_cat_grooming_young_kitten"
-        ],
-        "story_role": "setup",
-        "overlay_label": "LAMBENDO O FILHOTE",
-        "fx": []
-      },
-      {
-        "text": "Um filhote aparece ao ar livre numa filmagem distante. Depois, um gato escuro se limpa no pátio de uma mesquita em Istambul.",
-        "scene": "Filhote aparece distante no ambiente externo; outro registro apresenta gato preto se limpando na grama",
-        "tags": [
-          "distant_kitten_outdoors",
-          "istanbul_mosque_black_cat_self_grooming"
-        ],
-        "story_role": "action",
-        "overlay_label": "OUTROS GATINHOS",
-        "fx": []
-      },
-      {
-        "text": "Em outra gravação da mesquita, um gato adulto interage com filhotes no gramado, aproximando-se deles.",
-        "scene": "Cenas reais de origem: Кішки мечеті Шехзаде 07.webm",
-        "tags": [
-          "istanbul_mosque_cat_interaction"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "OUTRA CENA",
-        "fx": []
-      },
-      {
-        "text": "Na mesma região, outra filmagem mostra um gato adulto cercado por filhotes. O contato acontece perto de uma parede.",
-        "scene": "Gato adulto preto e branco deitado com vários filhotes no pátio",
-        "tags": [
-          "istanbul_mosque_adult_cat_with_kittens"
-        ],
-        "story_role": "twist",
-        "overlay_label": "EM ISTAMBUL",
-        "fx": []
-      },
-      {
-        "text": "Em uma universidade, gatos recebem comida de uma pessoa. Na última cena, um gato branco cuida do próprio pelo na rua. São situações distintas de cuidado.",
-        "scene": "Gatos alimentados por pessoa; gato branco sozinho se limpa ao ar livre",
-        "tags": [
-          "faculty_cats_receiving_food",
-          "white_cat_self_grooming_outdoors"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "ALIMENTAÇÃO E HIGIENE",
-        "fx": []
-      }
-    ],
-    "trend_priority": true,
-    "language": "pt-BR",
-    "voice": "pm_alex"
-  },
-  "gato_saltos_corridas_nov10": {
-    "title": "Por que gatos caçam brinquedos mesmo depois de comer?",
-    "script": "Por que gatos brincam mesmo alimentados? Perseguir movimentos não depende apenas de sentir fome. Na brincadeira, observam, perseguem e saltam: movimentos parecidos com etapas da caça. Veterinários recomendam brinquedos que imitem presas. Assim, o gato pode correr e alcançar alvos sem caçar animais. Esconder comida e oferecer desafios estimula comportamentos de busca também dentro de casa. Subir e explorar enriquece o ambiente, mas nenhum salto isolado comprova uma caçada. A diferença surpreende: nós vemos diversão; o gato exercita parte de seu repertório predatório. Brincadeiras planejadas podem oferecer essa experiência com segurança.",
-    "caption": "Por que um gato alimentado ainda sente vontade de perseguir e brincar? A explicação está no comportamento predatório e no enriquecimento ambiental. Fonte científica: diretrizes AAFP/ISFM. #WildVox #CuriosidadesDosGatos #Gatos #ComportamentoFelino",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20Jumpscare.webm",
-        "type": "video",
-        "assetTitle": "Cat Jumpscare.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_Jumpscare.webm",
-        "tags": [
-          "domestic_cat_rolling_under_furniture"
-        ],
-        "author": "Panini!",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20jumping%20backwards.webm",
-        "type": "video",
-        "assetTitle": "Cat jumping backwards.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_jumping_backwards.webm",
-        "tags": [
-          "house_cat_jump_backwards"
-        ],
-        "author": "Mary Qin",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20jumping%20on%20bamboo%20mat.webm",
-        "type": "video",
-        "assetTitle": "Kitten jumping on bamboo mat.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_jumping_on_bamboo_mat.webm",
-        "tags": [
-          "white_cat_moving_on_bamboo_mat"
-        ],
-        "author": "Fumikas Sagisavas",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20chasing%20a%20pigeon.webm",
-        "type": "video",
-        "assetTitle": "Cat chasing a pigeon.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_chasing_a_pigeon.webm",
-        "tags": [
-          "street_cat_pigeon_same_video_no_capture"
-        ],
-        "author": "Jeromi Mikhael",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stray%20cat%20from%20Istambul.webm",
-        "type": "video",
-        "assetTitle": "Stray cat from Istambul.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Stray_cat_from_Istambul.webm",
-        "tags": [
-          "istanbul_street_cat_recorded_vertically"
-        ],
-        "author": "ErikaGuetti",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ocicat%20on%20leash%20climbing%20a%20tree.webm",
-        "type": "video",
-        "assetTitle": "Ocicat on leash climbing a tree.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Ocicat_on_leash_climbing_a_tree.webm",
-        "tags": [
-          "ocicat_on_leash_climbing_a_tree"
-        ],
-        "author": "oldperson",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Creator oldperson dedicated original video to CC0, Commons source page verified; actual activity must be confirmed by new MP4 review."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sophy%20the%20Cat%20is%20Really%20High%20On%20A%20Ledge.webm",
-        "type": "video",
-        "assetTitle": "Sophy the Cat is Really High On A Ledge.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Sophy_the_Cat_is_Really_High_On_A_Ledge.webm",
-        "tags": [
-          "house_cat_perched_high_ledge"
-        ],
-        "author": "PseudoSkull",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tonkinese%20cat%20rolling%20around%20-%20Japan%20-%202025%20mar%2022.webm",
-        "type": "video",
-        "assetTitle": "Tonkinese cat rolling around - Japan - 2025 mar 22.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tonkinese_cat_rolling_around_-_Japan_-_2025_mar_22.webm",
-        "tags": [
-          "tonkinese_cat_rolling_on_ground"
+          "cat_playing"
         ],
         "author": "Nesnad",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0.8,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-10-gato_saltos_corridas_nov10-predatory-play-science-v6",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Por que gatos brincam mesmo alimentados? Perseguir movimentos não depende apenas de sentir fome.",
-        "scene": "Gato marrom brinca, deitado e rolando perto de um sofá; Cat Jumpscare.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "domestic_cat_rolling_under_furniture"
-        ],
-        "story_role": "hook",
-        "overlay_label": "BRINCAR OU CAÇAR?",
-        "fx": []
+        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
       },
       {
-        "text": "Na brincadeira, observam, perseguem e saltam: movimentos parecidos com etapas da caça.",
-        "scene": "Gato salta para trás num quarto; Cat jumping backwards.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "house_cat_jump_backwards"
-        ],
-        "story_role": "setup",
-        "overlay_label": "INSTINTO PREDATÓRIO",
-        "fx": []
-      },
-      {
-        "text": "Veterinários recomendam brinquedos que imitem presas. Assim, o gato pode correr e alcançar alvos sem caçar animais.",
-        "scene": "Gato branco se movimenta sobre esteira, depois gato e pombo aparecem na rua; vídeos distintos | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "white_cat_moving_on_bamboo_mat",
-          "street_cat_pigeon_same_video_no_capture"
-        ],
-        "story_role": "action",
-        "overlay_label": "BRINQUEDOS COM MOVIMENTO",
-        "fx": []
-      },
-      {
-        "text": "Esconder comida e oferecer desafios estimula comportamentos de busca também dentro de casa.",
-        "scene": "Gato caminha sobre calçamento de Istambul, em enquadramento vertical | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "istanbul_street_cat_recorded_vertically"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "ESTÍMULOS EM CASA",
-        "fx": []
-      },
-      {
-        "text": "Subir e explorar enriquece o ambiente, mas nenhum salto isolado comprova uma caçada.",
-        "scene": "Ocicat preso a guia visível perto do tronco de uma árvore; não afirmar escalada sem evidência nas tomadas | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "ocicat_on_leash_climbing_a_tree"
-        ],
-        "story_role": "twist",
-        "overlay_label": "EXPLORAÇÃO SEGURA",
-        "fx": []
-      },
-      {
-        "text": "A diferença surpreende: nós vemos diversão; o gato exercita parte de seu repertório predatório. Brincadeiras planejadas podem oferecer essa experiência com segurança.",
-        "scene": "Gato de perfil no alto de parapeito interno; outro gato rola em carpete | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "house_cat_perched_high_ledge",
-          "tonkinese_cat_rolling_on_ground"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "CAÇAR SEM PRESA",
-        "fx": []
-      }
-    ],
-    "trend_priority": true,
-    "language": "pt-BR",
-    "voice": "pm_alex",
-    "curiosity_fact_sheet": {
-      "hook_question": "Por que um gato bem alimentado ainda quer perseguir e brincar com objetos?",
-      "verified_fact": "Diretrizes AAFP/ISFM recomendam permitir brincadeiras que simulem perseguição e captura, com brinquedos e métodos de alimentação interativos.",
-      "biological_explanation": "A brincadeira com objetos pode envolver componentes da sequência predatória, como observar, perseguir, saltar e alcançar; não é preciso uma presa real.",
-      "comparison_or_consequence": "O tutor pode simular essas oportunidades com brinquedos de vara, caça a alimentos e espaços enriquecidos, evitando a necessidade de contato com presas reais.",
-      "visual_evidence_strategy": "As oito fontes inéditas ainda não publicadas ilustram movimentos variados de gatos; nenhum rolamento, salto ou filmagem de pombo será tratado como prova de caça real. Imagens de gatos na rua não indicam recomendação de soltá-los.",
-      "fact_sources": [
-        {
-          "claim": "Pillar 3 recomenda fornecer oportunidades para brincadeira e comportamento predatório por meio de brinquedos, brincadeiras e alimentação interativa.",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11383066/",
-          "publisher": "AAFP/ISFM; Journal of Feline Medicine and Surgery",
-          "reference_title": "AAFP and ISFM Feline Environmental Needs Guidelines"
-        }
-      ]
-    }
-  },
-  "gato_higiene_chamados_nov10": {
-    "title": "Por que a língua dos gatos parece uma lixa?",
-    "script": "Por que a língua do gato parece lixa? Ela esconde um detalhe de engenharia natural. Pequenas papilas de queratina, voltadas para trás, ajudam a cuidar da pelagem. Pesquisadores descobriram cavidades nas pontas dessas papilas. Elas transportam saliva até os fios durante as lambidas, como pequenas colheres. Mas a língua não substitui tudo: unhas, por exemplo, exigem outros cuidados. Gatos também observam outros animais e se comunicam de várias formas. Mas olhar pela janela não é o mesmo que se limpar. O segredo é a combinação de pente e umidade. Essa estrutura impressionou cientistas, que desenvolveram até uma escova inspirada na língua felina.",
-    "caption": "A língua de um gato não é apenas áspera: suas papilas ajudam a levar saliva até o pelo. Cientistas estudaram essa estrutura e criaram uma escova inspirada nela. Fonte científica: PNAS, 2018. #WildVox #CuriosidadesDosGatos #Gatos",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin2.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20in%20a%20Bag.webm",
         "type": "video",
-        "assetTitle": "Moomin2.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin2.webm",
+        "assetTitle": "Cat in a Bag.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
         "tags": [
-          "house_cat_moomin_grooming"
+          "cat_peek"
+        ],
+        "author": "Roger Braunstein",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
+        "type": "video",
+        "assetTitle": "Moomin1.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
+        "tags": [
+          "cat_playing"
         ],
         "author": "Tet",
         "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Burmese%20Kitten%20Grooming%20Itself.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koetjing%20gweh%2C%20Cito.webm",
         "type": "video",
-        "assetTitle": "Burmese Kitten Grooming Itself.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Burmese_Kitten_Grooming_Itself.webm",
+        "assetTitle": "Koetjing gweh, Cito.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koetjing_gweh%2C_Cito.webm",
         "tags": [
-          "burmese_kitten_self_grooming"
+          "cat_closeup"
         ],
-        "author": "Alistair Findlay",
+        "author": "Gabpzxs",
         "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Felis%20silvestris%20catus%20(Monarca).ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-18%20LJUBLJANA%20Doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%202.webm",
         "type": "video",
-        "assetTitle": "Felis silvestris catus (Monarca).ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Felis_silvestris_catus_(Monarca).ogv",
+        "assetTitle": "2022-10-18 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA 2.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-18_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_2.webm",
         "tags": [
-          "black_monarca_cat_play_groom"
+          "cat_home"
         ],
-        "author": "George Miquilena",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+        "author": "NaIzletuSi",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20black%20Felis%20silvestris%20catus.ogv",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20and%20Chlo%C3%A9%20playing%20(100111224612).webm",
         "type": "video",
-        "assetTitle": "A black Felis silvestris catus.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:A_black_Felis_silvestris_catus.ogv",
+        "assetTitle": "Larry the cat and Chloé playing (100111224612).webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm",
         "tags": [
-          "black_house_cat_self_grooming"
-        ],
-        "author": "George Miquilena",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20getting%20his%20nails%20trimmed%20(VID%2020210408%20123153).webm",
-        "type": "video",
-        "assetTitle": "Larry the cat getting his nails trimmed (VID 20210408 123153).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_getting_his_nails_trimmed_(VID_20210408_123153).webm",
-        "tags": [
-          "house_cat_getting_nails_trimmed"
+          "cat_social_play"
         ],
         "author": "Trougnouf",
         "license": "CC BY 4.0",
         "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
+        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomcat%20calling.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20in%20Taiwan.webm",
         "type": "video",
-        "assetTitle": "Tomcat calling.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Tomcat_calling.webm",
+        "assetTitle": "Cat playing in Taiwan.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm",
         "tags": [
-          "house_cat_observing_other_cat_through_window"
+          "cat_playing"
         ],
-        "author": "Drummyfish",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Independent prior Commons CC0 audit; frames show an indoor cat looking at another through glass; do not label the clip meowing or grooming."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20relaxing%20on%20a%20sofa.webm",
-        "type": "video",
-        "assetTitle": "Cat relaxing on a sofa.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_relaxing_on_a_sofa.webm",
-        "tags": [
-          "house_cat_sofa_rest_ccby"
-        ],
-        "author": "Ivan Kurmanov",
+        "author": "MiNe",
         "license": "CC BY 2.0",
         "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_note": "Flickr original verified as CC BY 2.0 by Commons reviewer; cat at rest is illustrative B-roll, do not assert grooming unless independently seen in render."
+        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20behaviour%20-%20self-grooming.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gato%20escalando.webm",
         "type": "video",
-        "assetTitle": "Cat behaviour - self-grooming.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_behaviour_-_self-grooming.webm",
+        "assetTitle": "Gato escalando.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Gato_escalando.webm",
         "tags": [
-          "domestic_cat_self_grooming_late_payoff"
+          "cat_climb"
         ],
-        "author": "Learnerktm",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "start_seconds": 40
+        "author": "Bone Bone",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
       }
     ],
     "min_unique_videos": 6,
@@ -502,69 +115,69 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-10-gato_higiene_chamados_nov10-tongue-science-unrepeated-cc0-v8",
+    "revision": "2026-11-12-gatos_paladar_sem_doce-nov12-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Por que a língua do gato parece lixa? Ela esconde um detalhe de engenharia natural.",
-        "scene": "Cena Moomin2: gato realiza autolimpeza. B-roll ilustrativo da língua, sem microscopia.",
+        "text": "Por que gatos podem ignorar uma sobremesa que parece deliciosa para nós?",
+        "scene": "Filhote de gato real brincando, sem exposição a alimentos açucarados; pergunta é científica e não uma alegação sobre o clipe.",
         "tags": [
-          "house_cat_moomin_grooming"
+          "cat_playing"
         ],
         "story_role": "hook",
-        "overlay_label": "LÍNGUA DE LIXA?",
+        "overlay_label": "GATOS SENTEM DOCE?",
         "fx": []
       },
       {
-        "text": "Pequenas papilas de queratina, voltadas para trás, ajudam a cuidar da pelagem.",
-        "scene": "Filhote birmanês lambendo a pelagem, exemplo da limpeza felina.",
+        "text": "A resposta não é falta de paladar: eles percebem outros sabores normalmente.",
+        "scene": "Gato adulto examinando um saco, b-roll ilustrativo, sem atribuir reação sensorial à cena.",
         "tags": [
-          "burmese_kitten_self_grooming"
-        ],
-        "story_role": "setup",
-        "overlay_label": "PAPILAS DE QUERATINA",
-        "fx": []
-      },
-      {
-        "text": "Pesquisadores descobriram cavidades nas pontas dessas papilas. Elas transportam saliva até os fios durante as lambidas, como pequenas colheres.",
-        "scene": "Gatos pretos em gravações separadas, ao menos uma de higiene, ilustram diversidade de pelagem; papilas microscópicas são informação do estudo.",
-        "tags": [
-          "black_monarca_cat_play_groom",
-          "black_house_cat_self_grooming"
+          "cat_peek"
         ],
         "story_role": "action",
-        "overlay_label": "SALIVA ENTRE OS PELOS",
+        "overlay_label": "PALADAR NÃO SUMIU",
         "fx": []
       },
       {
-        "text": "Mas a língua não substitui tudo: unhas, por exemplo, exigem outros cuidados.",
-        "scene": "Registro real do gato Larry recebendo aparo de unhas por pessoa; contraste de cuidados não executados pela língua.",
+        "text": "Em humanos, duas proteínas trabalham juntas para detectar açúcar: T um R dois e T um R três.",
+        "scene": "Gatos reais brincando ou explorando interior; legenda explicativa T1R2 + T1R3 informa mecanismo e não afirma que a filmagem exibe proteínas.",
         "tags": [
-          "house_cat_getting_nails_trimmed"
+          "cat_playing",
+          "cat_home"
         ],
         "story_role": "explanation",
-        "overlay_label": "LÍNGUA NÃO CORTA UNHAS",
+        "overlay_label": "T1R2 + T1R3",
         "fx": []
       },
       {
-        "text": "Gatos também observam outros animais e se comunicam de várias formas. Mas olhar pela janela não é o mesmo que se limpar.",
-        "scene": "Tomcat calling.webm: gato de dentro observa outro por uma janela. B-roll ilustrativo de comportamentos distintos; não afirmar emissão de miado ou lambida nesta cena.",
+        "text": "Nos gatos, o gene de uma delas não funciona. Sem essa parte, o receptor do doce não se forma.",
+        "scene": "Close real do rosto de um gato e b-roll doméstico; rótulo educativo TAS1R2 não funcional, sem filmagem microscópica falsa.",
         "tags": [
-          "house_cat_observing_other_cat_through_window"
+          "cat_closeup",
+          "cat_home"
+        ],
+        "story_role": "explanation",
+        "overlay_label": "TAS1R2 NÃO FUNCIONA",
+        "fx": []
+      },
+      {
+        "text": "Pesquisas encontraram uma perda semelhante em outros carnívoros especializados em carne.",
+        "scene": "Dois gatos reais brincando, imagem apenas ilustrativa dos felinos; não inventar imagens de outros carnívoros nem inferir genoma visualmente.",
+        "tags": [
+          "cat_social_play"
         ],
         "story_role": "twist",
-        "overlay_label": "OUTRO COMPORTAMENTO",
+        "overlay_label": "OUTROS CARNÍVOROS",
         "fx": []
       },
       {
-        "text": "O segredo é a combinação de pente e umidade. Essa estrutura impressionou cientistas, que desenvolveram até uma escova inspirada na língua felina.",
-        "scene": "Gato relaxando no sofá como B-roll, seguido de gato se autolimpando com a língua; finalizar explicação científica das papilas.",
+        "text": "A revelação: diante do mesmo açúcar, o gato não recebe o sinal doce que sentimos.",
+        "scene": "Gato real escalando estrutura de tela; usar imagem como ilustração geral de felino e concluir com comparação escrita, nunca como teste alimentar.",
         "tags": [
-          "house_cat_sofa_rest_ccby",
-          "domestic_cat_self_grooming_late_payoff"
+          "cat_climb"
         ],
         "story_role": "payoff",
-        "overlay_label": "ESCOVA NATURAL",
+        "overlay_label": "DOCE É DIFERENTE PARA GATOS",
         "fx": []
       }
     ],
@@ -572,436 +185,23 @@
     "language": "pt-BR",
     "voice": "pm_alex",
     "curiosity_fact_sheet": {
-      "hook_question": "Por que a língua do gato é áspera e como ela distribui saliva no pelo?",
-      "verified_fact": "O estudo de 2018 na PNAS descreve papilas filiformes ocas na ponta que transportam saliva para a pelagem durante a autolimpeza.",
-      "biological_explanation": "As papilas de queratina voltadas para trás possuem cavidades que retêm saliva por capilaridade, distribuindo fluido e ajudando a desembaraçar os pelos.",
-      "comparison_or_consequence": "Os pesquisadores fabricaram uma escova inspirada nas papilas felinas; a estrutura funciona como um pente que distribui umidade. Higiene compartilhada é também forma de interação social entre alguns gatos.",
-      "visual_evidence_strategy": "Autolimpeza real em diversas filmagens; gato observando outro pela janela para contrastar comportamentos sem inventar lambida ou miado; corte real de unhas por pessoa é outra função de cuidado. Nenhuma microscopia simulada.",
+      "hook_question": "Por que os gatos não reconhecem a doçura da mesma forma que os humanos?",
+      "verified_fact": "O gene felino TAS1R2 é um pseudogene sem expressão funcional; o receptor heteromérico de sabor doce normalmente associado a T1R2 e T1R3 não se forma em gatos.",
+      "biological_explanation": "O receptor do sabor doce em muitos mamíferos depende de T1R2 e T1R3; quando a parte T1R2 não é funcional nos gatos, o estímulo doce não é detectado de maneira equivalente à dos humanos.",
+      "comparison_or_consequence": "Estudos com outros carnívoros especializados em carne encontraram perdas independentes do gene TAS1R2; gatos continuam capazes de detectar outros estímulos gustativos, mas não a doçura como humanos.",
+      "visual_evidence_strategy": "Oito clipes reais inéditos de gatos ilustram o animal, sem apresentar câmera como prova de comportamento gustativo. Textos sobre T1R2/T1R3 e TAS1R2 explicam o mecanismo com fontes científicas; nenhuma imagem sintética ou oferta de doce a animais.",
       "fact_sources": [
         {
-          "claim": "Papilas ocas na língua de seis espécies felinas transportam saliva até o pelo e inspiraram escova experimental.",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6298077/",
-          "publisher": "PNAS / National Library of Medicine",
-          "reference_title": "Cats use hollow papillae to wick saliva into fur"
+          "claim": "Gatos possuem Tas1r2 não funcional, sem formação do receptor de doçura com T1R3.",
+          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0010003",
+          "publisher": "PLOS Genetics",
+          "reference_title": "Pseudogenization of a Sweet-Receptor Gene Accounts for Cats' Indifference toward Sugar"
         },
         {
-          "claim": "Allogrooming é exemplo de interação social felina; recursos de cuidado e atividade devem ser separados quando necessário.",
-          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11383066/",
-          "publisher": "AAFP/ISFM - Journal of Feline Medicine and Surgery",
-          "reference_title": "AAFP and ISFM Feline Environmental Needs Guidelines"
-        }
-      ]
-    }
-  },
-  "panda_rotinas_cativeiro_nov10": {
-    "title": "Pandas: por que um carnívoro passa tantas horas comendo bambu?",
-    "script": "Como um urso da ordem dos carnívoros vive quase só de bambu? Parece uma contradição. O panda ainda tem um sistema digestivo parecido com o de carnívoros, pouco eficiente para bambu. Por isso, precisa comer muito: segundo o Smithsonian, pode passar de dez a dezesseis horas por dia buscando e mastigando alimento. Um osso do punho age como falso polegar, ajudando a segurar os caules de bambu. Dentes fortes trituram a planta, mas boa parte das fibras passa sem total aproveitamento. Enquanto outros ursos comem alimentos variados, o panda depende principalmente do bambu. O preço dessa especialização é gastar muito tempo comendo.",
-    "caption": "Pandas são ursos da ordem dos carnívoros, mas dependem quase totalmente do bambu. Veja a curiosidade do falso polegar e da digestão pouco eficiente. Fontes: Smithsonian National Zoo e WWF. #WildVox #Pandas #CuriosidadesAnimais",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/BaoBao%20the%20Panda%20having%20a%20snack%20in%20the%20snow.webm",
-        "type": "video",
-        "assetTitle": "BaoBao the Panda having a snack in the snow.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:BaoBao_the_Panda_having_a_snack_in_the_snow.webm",
-        "tags": [
-          "giant_panda_baobao_eating_snow"
-        ],
-        "author": "Brian Gratwicke",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Female%20panda%20and%20cub.webm",
-        "type": "video",
-        "assetTitle": "Female panda and cub.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Female_panda_and_cub.webm",
-        "tags": [
-          "giant_panda_mother_cub_zoo"
-        ],
-        "author": "Brian Gratwicke",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pandas%20playing%20640x480.ogv",
-        "type": "video",
-        "assetTitle": "Pandas playing 640x480.ogv",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Pandas_playing_640x480.ogv",
-        "tags": [
-          "giant_pandas_chengdu_playing_2008"
-        ],
-        "author": "Brian Dell",
-        "license": "Public domain",
-        "license_url": "https://commons.wikimedia.org/wiki/File:Pandas_playing_640x480.ogv#Licensing",
-        "license_note": "Creator Brian Dell dedicated original media worldwide to public domain on Wikimedia Commons source page. Genuine Chengdu footage; independently review actual video frames before approval."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20panda%20feeding%20-%20Dujiangyan%20Research%20Center%20of%20Giant%20Panda%20Breeding%20and%20Release%20-%20China%20-%20Nov.%202014.webm",
-        "type": "video",
-        "assetTitle": "Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014.webm",
-        "tags": [
-          "giant_panda_eating_research_center_first"
-        ],
-        "author": "LWYang",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant%20panda%20feeding%20-%20Dujiangyan%20Research%20Center%20of%20Giant%20Panda%20Breeding%20and%20Release%20-%20China%20-%20Nov.%202014%20-%20(1).webm",
-        "type": "video",
-        "assetTitle": "Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014 - (1).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Giant_panda_feeding_-_Dujiangyan_Research_Center_of_Giant_Panda_Breeding_and_Release_-_China_-_Nov._2014_-_(1).webm",
-        "tags": [
-          "giant_panda_eating_research_center_second"
-        ],
-        "author": "LWYang",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panda%20Jia%20Jia.webm",
-        "type": "video",
-        "assetTitle": "Panda Jia Jia.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panda_Jia_Jia.webm",
-        "tags": [
-          "giant_panda_jia_jia_eating_bamboo"
-        ],
-        "author": "TheDanSync",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Panda%20at%20the%20zoo%20in%20Beijing%20just%20chilling.webm",
-        "type": "video",
-        "assetTitle": "Panda at the zoo in Beijing just chilling.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Panda_at_the_zoo_in_Beijing_just_chilling.webm",
-        "tags": [
-          "giant_panda_beijing_zoo_resting"
-        ],
-        "author": "Rose Abrams",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Berlin%20zoologisk%20hage%202026-04-07%20mov11.webm",
-        "type": "video",
-        "assetTitle": "Berlin zoologisk hage 2026-04-07 mov11.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Berlin_zoologisk_hage_2026-04-07_mov11.webm",
-        "tags": [
-          "giant_panda_berlin_zoo_2026"
-        ],
-        "author": "LarsMueller",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0.8,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-10-panda_rotinas_cativeiro_nov10-licensed-pd-carnivore-bamboo-v6",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Como um urso da ordem dos carnívoros vive quase só de bambu? Parece uma contradição.",
-        "scene": "Cenas reais de origem: BaoBao the Panda having a snack in the snow.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "giant_panda_baobao_eating_snow"
-        ],
-        "story_role": "hook",
-        "overlay_label": "CARNÍVORO QUE COME BAMBU",
-        "fx": []
-      },
-      {
-        "text": "O panda ainda tem um sistema digestivo parecido com o de carnívoros, pouco eficiente para bambu.",
-        "scene": "Cenas reais de origem: Female panda and cub.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "giant_panda_mother_cub_zoo"
-        ],
-        "story_role": "setup",
-        "overlay_label": "DIGESTÃO SURPREENDENTE",
-        "fx": []
-      },
-      {
-        "text": "Por isso, precisa comer muito: segundo o Smithsonian, pode passar de dez a dezesseis horas por dia buscando e mastigando alimento.",
-        "scene": "Pandas at Chengdu Research Base in a historical original PD video, then separate feeding scene from the Dujiangyan research center; these are independent sources illustrating the dietary explanation.",
-        "tags": [
-          "giant_pandas_chengdu_playing_2008",
-          "giant_panda_eating_research_center_first"
-        ],
-        "story_role": "action",
-        "overlay_label": "ATÉ 16 HORAS COMENDO",
-        "fx": []
-      },
-      {
-        "text": "Um osso do punho age como falso polegar, ajudando a segurar os caules de bambu.",
-        "scene": "Cenas reais de origem: Giant panda feeding - Dujiangyan Research Center of Giant Panda Breeding and Release - China - Nov. 2014 - (1).webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "giant_panda_eating_research_center_second"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "FALSO POLEGAR",
-        "fx": []
-      },
-      {
-        "text": "Dentes fortes trituram a planta, mas boa parte das fibras passa sem total aproveitamento.",
-        "scene": "Cenas reais de origem: Panda Jia Jia.webm | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "giant_panda_jia_jia_eating_bamboo"
-        ],
-        "story_role": "twist",
-        "overlay_label": "DENTES FORTES",
-        "fx": []
-      },
-      {
-        "text": "Enquanto outros ursos comem alimentos variados, o panda depende principalmente do bambu. O preço dessa especialização é gastar muito tempo comendo.",
-        "scene": "Panda em vídeo no zoológico de Pequim; panda distinto visto no Zoológico de Berlim em abril de 2026, sem alegar alimentação não demonstrada | B-roll ilustrativo; a narração explica fato científico referenciado sem atribuir ações não observadas.",
-        "tags": [
-          "giant_panda_beijing_zoo_resting",
-          "giant_panda_berlin_zoo_2026"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "UMA DIETA INCOMUM",
-        "fx": []
-      }
-    ],
-    "trend_priority": false,
-    "language": "pt-BR",
-    "voice": "pm_alex",
-    "curiosity_fact_sheet": {
-      "hook_question": "Como um urso da ordem Carnivora pode depender quase totalmente de bambu?",
-      "verified_fact": "O panda-gigante tem sistema digestivo mais semelhante ao de carnívoros, e precisa se alimentar por muitas horas porque aproveita o bambu com baixa eficiência.",
-      "biological_explanation": "Um osso alargado do punho forma um falso polegar para agarrar colmos, enquanto dentes e mandíbulas fortes trituram fibras vegetais; a digestão ineficiente exige grande consumo.",
-      "comparison_or_consequence": "Em comparação com outros ursos de dieta mais diversa, o panda depende em grande medida do bambu e gasta entre dez e dezesseis horas por dia se alimentando.",
-      "visual_evidence_strategy": "Oito gravações inéditas de pandas em cativeiro mostram os animais comendo, mãe com filhote e descansando. O mecanismo interno de digestão e o osso de punho não são apresentados como filmados em close; são explicações científicas sobre o animal e sobre B-roll representativo.",
-      "fact_sources": [
-        {
-          "claim": "Pandas digerem bambu com pouca eficiência, têm falso polegar formado por osso do punho e gastam 10–16 horas procurando/comendo.",
-          "url": "https://nationalzoo.si.edu/animals/giant-panda",
-          "publisher": "Smithsonian National Zoo & Conservation Biology Institute",
-          "reference_title": "Giant panda: food/eating habits"
-        },
-        {
-          "claim": "Pandas passam 10–16 horas do dia se alimentando principalmente de bambu.",
-          "url": "https://www.wwf.org.uk/learn/wildlife/giant-pandas",
-          "publisher": "WWF-UK",
-          "reference_title": "Giant Panda"
-        }
-      ]
-    }
-  },
-  "flamingo_lagoas_e_estuarios_nov10": {
-    "title": "Por que os flamingos ficam rosas? O segredo está no que comem",
-    "script": "Por que os flamingos são rosados? Curiosamente, os filhotes nascem com penas acinzentadas. A mudança vem da dieta. Algas e pequenos crustáceos contêm pigmentos naturais chamados carotenoides. O corpo processa os pigmentos e, aos poucos, novas penas ganham tons rosados. A alimentação muda a aparência! O bico desses animais também surpreende: ele funciona como um filtro para buscar alimento na água. Placas especiais retêm partículas, enquanto a língua ajuda a movimentar a água pelo bico. É como uma peneira biológica: o bico retém alimento, e a língua movimenta a água. A cor revela a dieta.",
-    "caption": "Flamingos não nascem com penas rosas! Os pigmentos da alimentação dão a cor às penas, e o bico funciona como um filtro. Fontes científicas: Smithsonian National Zoo e San Diego Zoo. #WildVox #CuriosidadesAnimais #Flamingos #Natureza",
-    "sources": [
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC.webm",
-        "type": "video",
-        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
-        "tags": [
-          "greater_flamingo_march_lagoon_scene"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
-        "type": "video",
-        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
-        "tags": [
-          "greater_flamingo_march_second_view"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%205.webm",
-        "type": "video",
-        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_5.webm",
-        "tags": [
-          "greater_flamingo_march_third_view"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-12%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%208.webm",
-        "type": "video",
-        "assetTitle": "2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 8.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-03-12_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_8.webm",
-        "tags": [
-          "greater_flamingo_march_fourth_view"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC.webm",
-        "type": "video",
-        "assetTitle": "2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
-        "tags": [
-          "greater_flamingo_april_lagoon_view"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-04-19%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC%203.webm",
-        "type": "video",
-        "assetTitle": "2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-04-19_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC_3.webm",
-        "tags": [
-          "greater_flamingo_april_second_view"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20IZLIV%20SO%C4%8CE%20Phoenicopterus%20roseus%20PLAMENEC.webm",
-        "type": "video",
-        "assetTitle": "2022-05-21 IZLIV SOČE Phoenicopterus roseus PLAMENEC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_IZLIV_SO%C4%8CE_Phoenicopterus_roseus_PLAMENEC.webm",
-        "tags": [
-          "greater_flamingo_may_river_mouth"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-05-21%20LAGUNSKA%20RIBOGOJNICA%20Phoenicopterus%20roseus%20PLAMENEC.webm",
-        "type": "video",
-        "assetTitle": "2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-05-21_LAGUNSKA_RIBOGOJNICA_Phoenicopterus_roseus_PLAMENEC.webm",
-        "tags": [
-          "greater_flamingo_may_lagoon_view"
-        ],
-        "author": "NaIzletuSi ™",
-        "license": "CC BY 3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "license_note": "Fonte identificada em página pública Commons; auditoria de licença atual em CI e revisão visual independente obrigatórias. Nenhuma autorização de postagem antecipada."
-      }
-    ],
-    "min_unique_videos": 6,
-    "target_shot_seconds": 7,
-    "max_shot_seconds": 8,
-    "max_freeze_seconds": 0.8,
-    "min_duration": 30,
-    "max_duration": 45,
-    "revision": "2026-11-10-flamingo_lagoas_e_estuarios_nov10-science-pink-filter-v2",
-    "publication_hold": true,
-    "visual_plan": [
-      {
-        "text": "Por que os flamingos são rosados? Curiosamente, os filhotes nascem com penas acinzentadas.",
-        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
-        "tags": [
-          "greater_flamingo_march_lagoon_scene"
-        ],
-        "story_role": "hook",
-        "overlay_label": "POR QUE SÃO ROSAS?",
-        "fx": []
-      },
-      {
-        "text": "A mudança vem da dieta. Algas e pequenos crustáceos contêm pigmentos naturais chamados carotenoides.",
-        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
-        "tags": [
-          "greater_flamingo_march_second_view"
-        ],
-        "story_role": "setup",
-        "overlay_label": "PIGMENTOS DA DIETA",
-        "fx": []
-      },
-      {
-        "text": "O corpo processa os pigmentos e, aos poucos, novas penas ganham tons rosados. A alimentação muda a aparência!",
-        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 5.webm | 2022-03-12 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 8.webm",
-        "tags": [
-          "greater_flamingo_march_third_view",
-          "greater_flamingo_march_fourth_view"
-        ],
-        "story_role": "action",
-        "overlay_label": "A COMIDA MUDA AS PENAS",
-        "fx": []
-      },
-      {
-        "text": "O bico desses animais também surpreende: ele funciona como um filtro para buscar alimento na água.",
-        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
-        "tags": [
-          "greater_flamingo_april_lagoon_view"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "BICO QUE FILTRA",
-        "fx": []
-      },
-      {
-        "text": "Placas especiais retêm partículas, enquanto a língua ajuda a movimentar a água pelo bico.",
-        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-04-19 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC 3.webm",
-        "tags": [
-          "greater_flamingo_april_second_view"
-        ],
-        "story_role": "twist",
-        "overlay_label": "LÍNGUA E LAMELAS",
-        "fx": []
-      },
-      {
-        "text": "É como uma peneira biológica: o bico retém alimento, e a língua movimenta a água. A cor revela a dieta.",
-        "scene": "Cena real de flamingos-rosados em lagoas e água rasa, independente de outras tomadas; B-roll ilustrativo de plumagem/habitat. Os fatos sobre carotenoides, filhotes e lamelas derivam das referências científicas, não de detalhes microscópicos filmados. Cenas reais de origem: 2022-05-21 IZLIV SOČE Phoenicopterus roseus PLAMENEC.webm | 2022-05-21 LAGUNSKA RIBOGOJNICA Phoenicopterus roseus PLAMENEC.webm",
-        "tags": [
-          "greater_flamingo_may_river_mouth",
-          "greater_flamingo_may_lagoon_view"
-        ],
-        "story_role": "payoff",
-        "overlay_label": "UMA PENEIRA NATURAL",
-        "fx": []
-      }
-    ],
-    "trend_priority": false,
-    "language": "pt-BR",
-    "voice": "pm_alex",
-    "curiosity_fact_sheet": {
-      "hook_question": "Por que flamingos são rosados, se seus filhotes nascem com penas acinzentadas?",
-      "verified_fact": "A cor rosa vem de carotenoides na alimentação com algas e crustáceos; flamingos jovens não nascem com plumagem rosa.",
-      "biological_explanation": "Pigmentos ingeridos são metabolizados e incorporados às novas penas; o bico e a língua com lamelas especializadas filtram alimento da água.",
-      "comparison_or_consequence": "O bico se comporta como uma peneira biológica, enquanto a dieta pode afetar a cor da plumagem, em contraste com uma cor determinada somente por pigmentação genética fixa.",
-      "visual_evidence_strategy": "Oito cenas independentes de flamingos-rosados adultos em lagoas europeias mostram cor e habitat; são B-roll ilustrativo, não representam filhotes, microscopia de lamelas nem ingestão de um crustáceo específico. Nunca fingir demonstração de bico por close-up quando fonte só mostra ave distante.",
-      "fact_sources": [
-        {
-          "claim": "Filhotes de flamingo nascem com penas cinzentas e a cor rosa provém de carotenoides alimentares de algas e pequenos crustáceos.",
-          "url": "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts",
-          "publisher": "Smithsonian National Zoo & Conservation Biology Institute",
-          "reference_title": "Why Are Flamingos Pink? And Other Flamingo Facts"
-        },
-        {
-          "claim": "Flamingos filtram alimento com bico invertido, língua que bombeia água e lamelas semelhantes a pente.",
-          "url": "https://animals.sandiegozoo.org/animals/flamingo",
-          "publisher": "San Diego Zoo Wildlife Alliance",
-          "reference_title": "Flamingo – Habitat and Diet"
+          "claim": "Sete outras espécies carnívoras altamente especializadas apresentam pseudogenização independente de TAS1R2.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22411809/",
+          "publisher": "Proceedings of the National Academy of Sciences (PNAS)",
+          "reference_title": "Major taste loss in carnivorous mammals"
         }
       ]
     }
