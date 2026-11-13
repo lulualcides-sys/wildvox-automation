@@ -38,7 +38,7 @@
         "tags": [
           "cat_playing"
         ],
-        "author": "Tet",
+        "author": "User:Tet",
         "license": "CC0",
         "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
         "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
@@ -64,7 +64,7 @@
         "tags": [
           "cat_home"
         ],
-        "author": "NaIzletuSi",
+        "author": "NaIzletuSi ™",
         "license": "CC BY 3.0",
         "license_url": "https://creativecommons.org/licenses/by/3.0/",
         "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
@@ -115,7 +115,7 @@
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-12-gatos_paladar_sem_doce-nov12-v1",
+    "revision": "2026-11-12-gatos_paladar_sem_doce-nov12-v2",
     "publication_hold": true,
     "visual_plan": [
       {

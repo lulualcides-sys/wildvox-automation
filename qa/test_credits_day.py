@@ -42,8 +42,14 @@ class CreditsDayTests(unittest.TestCase):
             self.extract(batch)
 
     def test_reject_wrong_count(self):
-        with self.assertRaisesRegex(ValueError, "Expected five candidates"):
-            self.extract(self.batch(["2026-10-30"] * 4))
+        for n in (0, 6):
+            with self.subTest(n=n), self.assertRaisesRegex(ValueError, "Expected 1 to 5 candidates"):
+                self.extract(self.batch(["2026-10-30"] * n))
+
+    def test_one_to_five_today_revisions(self):
+        for n in range(1, 6):
+            with self.subTest(n=n):
+                self.assertEqual(self.extract(self.batch(["2026-11-12"] * n)), "2026-11-12")
 
 
 if __name__ == "__main__":
