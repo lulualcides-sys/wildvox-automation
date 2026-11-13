@@ -1,0 +1,29 @@
+{
+  "day": "2026-11-12",
+  "timezone": "America/Sao_Paulo",
+  "current_config_blob_sha": "9eeccff7d84d045141b2bcbac756d7afd3a3c2c4",
+  "editorial_status": "REPLACEMENT_SOURCES_UNAPPROVED",
+  "publication_hold": true,
+  "candidates": [
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll de gato doméstico real interagindo com pessoa; não ilustra paladar molecular",
+      "title": "Andra and Billy.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm",
+      "author": "Joaquim Baeta",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll de gato preto caminhando; sem prova do sabor doce",
+      "title": "Black Cat walking.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm",
+      "author": "Dzkouslavia",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "status": "CANDIDATE_UNREVIEWED"
+    }
+  ]
+}
