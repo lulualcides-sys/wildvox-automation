@@ -1,0 +1,215 @@
+{
+  "key": "gatos_paladar_sem_doce_nov12",
+  "title": "Por que gatos não sentem o doce como nós?",
+  "caption": "Você sabia? Gatos não formam o receptor funcional do sabor doce como nós. A causa está no gene TAS1R2, estudado em pesquisas científicas. As cenas são ilustrativas: não ofereça doces aos animais. #WildVox #Gatos #CuriosidadesDosGatos #Zoologia #Biologia #Paladar\n\nCréditos dos vídeos (edição vertical 9:16, legendas e narração):\n1. Nesnad | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm | https://creativecommons.org/licenses/by/4.0/\n2. Roger Braunstein | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm | https://creativecommons.org/licenses/by/2.0/\n3. User:Tet | CC0 | https://commons.wikimedia.org/wiki/File:Moomin1.webm | https://creativecommons.org/publicdomain/zero/1.0/\n4. Gabpzxs | CC0 | https://commons.wikimedia.org/wiki/File:Koetjing_gweh%2C_Cito.webm | https://creativecommons.org/publicdomain/zero/1.0/\n5. Joaquim Baeta | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm | https://creativecommons.org/licenses/by/4.0/\n6. Trougnouf | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm | https://creativecommons.org/licenses/by/4.0/\n7. MiNe | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm | https://creativecommons.org/licenses/by/2.0/\n8. Dzkouslavia | CC0 | https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm | https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "555d2e3ab8703def28adc92df65a483fb498366ac95d5408a08bf3e4e0f76b05",
+  "duration": 32.4,
+  "voice": "pm_alex",
+  "language": "pt-BR",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 4.7,
+      "duration": 4.7,
+      "text": "Por que gatos podem ignorar uma sobremesa que parece deliciosa para nós?",
+      "language": "pt-BR",
+      "scene": "Filhote de gato real brincando, sem exposição a alimentos açucarados; pergunta é científica e não uma alegação sobre o clipe.",
+      "tags": [
+        "cat_playing"
+      ],
+      "story_role": "hook",
+      "overlay_label": "GATOS SENTEM DOCE?",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 4.7,
+      "end": 9.575,
+      "duration": 4.875,
+      "text": "A resposta não é falta de paladar: eles percebem outros sabores normalmente.",
+      "language": "pt-BR",
+      "scene": "Gato adulto examinando um saco, b-roll ilustrativo, sem atribuir reação sensorial à cena.",
+      "tags": [
+        "cat_peek"
+      ],
+      "story_role": "action",
+      "overlay_label": "PALADAR NÃO SUMIU",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 9.575,
+      "end": 15.725,
+      "duration": 6.15,
+      "text": "Em humanos, duas proteínas trabalham juntas para detectar açúcar: T um R dois e T um R três.",
+      "language": "pt-BR",
+      "scene": "Gatos reais brincando ou explorando interior; legenda explicativa T1R2 + T1R3 informa mecanismo e não afirma que a filmagem exibe proteínas.",
+      "tags": [
+        "cat_playing",
+        "cat_home"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "T1R2 + T1R3",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 15.725,
+      "end": 21.475,
+      "duration": 5.75,
+      "text": "Nos gatos, o gene de uma delas não funciona. Sem essa parte, o receptor do doce não se forma.",
+      "language": "pt-BR",
+      "scene": "Close real do rosto de um gato e b-roll doméstico; rótulo educativo TAS1R2 não funcional, sem filmagem microscópica falsa.",
+      "tags": [
+        "cat_closeup",
+        "cat_home"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "TAS1R2 NÃO FUNCIONA",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 21.475,
+      "end": 27.225,
+      "duration": 5.75,
+      "text": "Pesquisas encontraram uma perda semelhante em outros carnívoros especializados em carne.",
+      "language": "pt-BR",
+      "scene": "Dois gatos reais brincando, imagem apenas ilustrativa dos felinos; não inventar imagens de outros carnívoros nem inferir genoma visualmente.",
+      "tags": [
+        "cat_social_play"
+      ],
+      "story_role": "twist",
+      "overlay_label": "OUTROS CARNÍVOROS",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 27.225,
+      "end": 32.4,
+      "duration": 5.175,
+      "text": "A revelação: diante do mesmo açúcar, o gato não recebe o sinal doce que sentimos.",
+      "language": "pt-BR",
+      "scene": "Gato preto real caminhando, com narração sobre diferença de sinal gustativo; as imagens não demonstram paladar molecular. Evitar narrar movimentos.",
+      "tags": [
+        "cat_walk"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "DOCE É DIFERENTE PARA GATOS",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
+      "type": "video",
+      "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
+      "tags": [
+        "cat_playing"
+      ],
+      "author": "Nesnad",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20in%20a%20Bag.webm",
+      "type": "video",
+      "assetTitle": "Cat in a Bag.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
+      "tags": [
+        "cat_peek"
+      ],
+      "author": "Roger Braunstein",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
+      "type": "video",
+      "assetTitle": "Moomin1.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
+      "tags": [
+        "cat_playing"
+      ],
+      "author": "User:Tet",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koetjing%20gweh%2C%20Cito.webm",
+      "type": "video",
+      "assetTitle": "Koetjing gweh, Cito.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koetjing_gweh%2C_Cito.webm",
+      "tags": [
+        "cat_closeup"
+      ],
+      "author": "Gabpzxs",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andra%20and%20Billy.webm",
+      "type": "video",
+      "assetTitle": "Andra and Billy.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm",
+      "tags": [
+        "cat_home"
+      ],
+      "author": "Joaquim Baeta",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Self-published original in Commons, user Spontaneous Symmetry, exact CC BY 4.0; visual review required; adapted/cropped captions in final."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20and%20Chlo%C3%A9%20playing%20(100111224612).webm",
+      "type": "video",
+      "assetTitle": "Larry the cat and Chloé playing (100111224612).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm",
+      "tags": [
+        "cat_social_play"
+      ],
+      "author": "Trougnouf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20in%20Taiwan.webm",
+      "type": "video",
+      "assetTitle": "Cat playing in Taiwan.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm",
+      "tags": [
+        "cat_playing"
+      ],
+      "author": "MiNe",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Cat%20walking.webm",
+      "type": "video",
+      "assetTitle": "Black Cat walking.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm",
+      "tags": [
+        "cat_walk"
+      ],
+      "author": "Dzkouslavia",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "license_note": "Self-published original author Dzkouslavia CC0; visual review required."
+    }
+  ],
+  "review_sheet": "gatos_paladar_sem_doce_nov12_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
