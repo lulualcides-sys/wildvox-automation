@@ -1,0 +1,99 @@
+{
+  "day": "2026-11-12",
+  "timezone": "America/Sao_Paulo",
+  "current_config_blob_sha": "9eeccff7d84d045141b2bcbac756d7afd3a3c2c4",
+  "editorial_status": "SOURCE_PREVIEW_ONLY_NO_APPROVAL",
+  "publication_hold": true,
+  "candidates": [
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll ilustrativo de gato real: gato filhote brincando",
+      "title": "Kitten playing - Tokyo - Jan 7 2020.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
+      "author": "Nesnad",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll ilustrativo de gato real: gato investigando saco",
+      "title": "Cat in a Bag.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
+      "author": "Roger Braunstein",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll ilustrativo de gato real: gato doméstico",
+      "title": "2022-10-18 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA 4.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-18_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_4.webm",
+      "author": "NaIzletuSi",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll ilustrativo de gato real: gata brincando com cotonete",
+      "title": "Moomin1.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
+      "author": "Tet",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll ilustrativo de gato real: gato de estimação Cito",
+      "title": "Koetjing gweh, Cito.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koetjing_gweh%2C_Cito.webm",
+      "author": "Gabpzxs",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll ilustrativo de gato real: gato doméstico",
+      "title": "2022-10-18 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA 2.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-18_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_2.webm",
+      "author": "NaIzletuSi",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll ilustrativo de gato real: gatos brincando",
+      "title": "Larry the cat and Chloé playing (100111224612).webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm",
+      "author": "Trougnouf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll ilustrativo de gato real: gato brincando",
+      "title": "Cat playing in Taiwan.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm",
+      "author": "MiNe",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    },
+    {
+      "for_key": "gatos_paladar_sem_doce_nov12",
+      "target_block": "B-roll ilustrativo de gato real: gato escalando",
+      "title": "Gato escalando.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gato_escalando.webm",
+      "author": "Bone Bone",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "status": "CANDIDATE_UNREVIEWED"
+    }
+  ]
+}
