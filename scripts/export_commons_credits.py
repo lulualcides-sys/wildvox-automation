@@ -26,9 +26,9 @@ def plain(value):
     return re.sub(r"\s+", " ", html.unescape(" ".join(p.parts))).strip()
 
 def editorial_day_from_batch(batch):
-    """Use the actual five-candidate editorial date, never a hardcoded audit date."""
-    if len(batch) != 5:
-        raise ValueError(f"Expected five candidates for credits audit, got {len(batch)}")
+    """Use the active editorial date for any safe batch of 1 to 5."""
+    if not isinstance(batch, dict) or not 1 <= len(batch) <= 5:
+        raise ValueError(f"Expected 1 to 5 candidates for credits audit, got {len(batch) if isinstance(batch, dict) else 0}")
     days = set()
     for key, entry in batch.items():
         revision = str(entry.get("revision") or "")

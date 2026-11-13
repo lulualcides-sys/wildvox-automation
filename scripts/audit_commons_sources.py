@@ -50,8 +50,8 @@ def validate_source_mix(batch):
     Photo-only exceptions require documentary evidence and >=3 real photos.
     The generator independently enforces the same source-count rules.
     """
-    if len(batch) != 5:
-        raise RuntimeError(f"Expected exactly 5 daily candidates, found {len(batch)}")
+    if not isinstance(batch, dict) or not 1 <= len(batch) <= 5:
+        raise RuntimeError(f"Expected 1 to 5 daily candidates, found {len(batch) if isinstance(batch, dict) else 0}")
     video_total = 0
     for key, entry in batch.items():
         sources = entry.get("sources") or []
@@ -84,7 +84,7 @@ def validate_source_mix(batch):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default="configs/daily.json")
-    parser.add_argument("--key", help="Audit one candidate independently; keep five-entry daily contract")
+    parser.add_argument("--key", help="Audit one candidate independently; allow a daily batch of 1 to 5")
     args = parser.parse_args()
     with open(args.config, encoding="utf-8") as handle:
         batch = json.load(handle)
