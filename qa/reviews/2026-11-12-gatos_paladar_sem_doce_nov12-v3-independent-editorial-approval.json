@@ -48,7 +48,14 @@
   "git_blob_meta": "eac31507ee99dd16a9fd6ee723d00a3d08ef4715",
   "duration_seconds": 32.4,
   "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/gatos_paladar_sem_doce_nov12.mp4",
-  "metricool_post_id": null,
-  "provider_status": "NOT_SCHEDULED",
-  "scheduled_local": null
+  "metricool_post_id": 426396882,
+  "provider_status": "PENDING",
+  "scheduled_local": "2026-11-12T22:05:00-03:00",
+  "metricool_post_uuid": "-6346105383311750616",
+  "metricool_autoPublish": true,
+  "metricool_draft": false,
+  "metricool_media_url": "https://static.metricool.com/planner/202611/7242311-file-10755394115513030746.mp4",
+  "provider_publicUrl": null,
+  "readback_verified": true,
+  "readback_note": "Metricool post 426396882 readback from brand 7242311 TikTok wildvox on 2026-11-12; autoPublish true draft false provider PENDING. Do not declare PUBLISHED until TikTok public URL is read back."
 }
