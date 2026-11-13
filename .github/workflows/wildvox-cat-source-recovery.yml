@@ -1,0 +1,29 @@
+name: WildVox — recover legal real cat clips
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/discover_wildvox_cat_sources.py'
+      - '.github/workflows/wildvox-cat-source-recovery.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-discovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Discover real licensed source candidate pages
+        run: python scripts/discover_wildvox_cat_sources.py
+      - name: Preserve audited metadata for independent selection
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wildvox-real-cat-source-pool-2026-11-12
+          path: source-pool-2026-11-12.json
+          if-no-files-found: warn
+          retention-days: 7
