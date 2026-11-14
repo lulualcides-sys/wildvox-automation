@@ -3,6 +3,10 @@ name: WildVox Publer approved handoff
 # GitHub Issue -> Zapier -> Publer. No Metricool publishing.
 # Disabled until repository variable WILDVOX_PUBLER_ENABLED=true.
 on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/wildvox-publer-zapier.yml"
   workflow_dispatch:
     inputs:
       key:
@@ -26,8 +30,29 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  bootstrap-trigger-label:
+    # Creates only a GitHub label. Never creates Issues or TikTok posts.
+    if: ${{ github.event_name == 'push' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Create Publer-only label before Zapier setup
+        shell: bash
+        run: |
+          set -euo pipefail
+          if gh api "repos/${GITHUB_REPOSITORY}/labels/wildvox-publer-ready" >/dev/null 2>&1; then
+            echo "Label already exists; no changes."
+          else
+            gh api -X POST "repos/${GITHUB_REPOSITORY}/labels" \
+              -f name=wildvox-publer-ready \
+              -f color=0e8a16 \
+              -f description="Approved WildVox videos only: trigger Zapier Publer bridge"
+            echo "Created Publer-only label, without sending any media."
+          fi
   handoff:
-    if: ${{ github.event_name == 'workflow_dispatch' || vars.WILDVOX_PUBLER_ENABLED == 'true' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && vars.WILDVOX_PUBLER_ENABLED == 'true') }}
     runs-on: ubuntu-latest
     timeout-minutes: 12
     env:
