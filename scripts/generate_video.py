@@ -16,6 +16,7 @@ from cinematic_fx import camera_filter, enrich_subtitles
 from semantic_shots import plan_semantic_shots
 from tiktok_credits import attributed_tiktok_caption
 from commons_derivatives import get_fallback_video_urls
+from portrait_quality import require_reviewed_portrait
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "output"
@@ -547,7 +548,8 @@ def render_speech_aligned_visual(local, key, duration, narration_timeline, max_s
     vf = portrait_framing_filter()
 
     for i, ((src, media_type, source_meta), shot_len, block) in enumerate(scheduled):
-        vf = portrait_framing_filter(scheduled[i][0][2])
+        require_reviewed_portrait(src, source_meta)
+        vf = portrait_framing_filter(source_meta)
         shot_filter = camera_filter(vf, shot_len, block.get("story_role"))
         out = WORK / f"{key}_speech_shot_{i:02d}.mp4"
         if media_type == "image":
@@ -916,6 +918,7 @@ def build_visual(sources, key, duration, min_unique_videos=4, max_shot_seconds=N
     shots = []
 
     for i, (src, media_type, source_meta) in enumerate(local):
+        require_reviewed_portrait(src, source_meta)
         remaining = max(0.05, duration - (i * base_shot_len))
         shot_len = remaining if i == nshots - 1 else base_shot_len
         out = WORK / f"{key}_shot_{i:02d}.mp4"
