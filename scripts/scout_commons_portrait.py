@@ -62,11 +62,22 @@ def previously_used(folder):
             body = json.loads(meta.read_text(encoding="utf-8"))
         except (OSError, ValueError):
             continue
-        for source in body.get("sources") or []:
-            for name in ("url", "sourcePage", "assetTitle"):
-                value = source.get(name)
-                if value:
-                    used.add(canonical_source(value))
+        sources = body.get("sources") or []
+        if isinstance(sources, dict):
+            sources = list(sources.values())
+        if isinstance(sources, str):
+            sources = [sources]
+        if not isinstance(sources, list):
+            continue
+        for source in sources:
+            # Historical media metadata uses both URL strings and maps.
+            if isinstance(source, str):
+                used.add(canonical_source(source))
+            elif isinstance(source, dict):
+                for name in ("url", "sourcePage", "assetTitle"):
+                    value = source.get(name)
+                    if isinstance(value, str) and value:
+                        used.add(canonical_source(value))
     return used
 
 
