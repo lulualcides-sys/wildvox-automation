@@ -1,4 +1,4 @@
-name: WildVox Daily 5
+name: WildVox - producao mensal de documentarios
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     paths:
       - "configs/daily.json"
   schedule:
-    # GitHub cron is UTC. 08:30 UTC = 05:30 America/Sao_Paulo.
+    # Daily wakeup, but only 20 deterministically spaced dates per calendar month can render.
     - cron: "30 8 * * *"
   workflow_dispatch:
 
@@ -18,7 +18,7 @@ permissions:
   actions: read
 
 concurrency:
-  group: wildvox-daily-5-v2
+  group: wildvox-monthly-documentaries
   # Preserve active renders when a second editorial batch is queued.
   # GitHub keeps at most one pending run in this concurrency group, replacing
   # obsolete pending revisions without canceling an in-progress first batch.
@@ -34,9 +34,21 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 2
-      # The GitHub connector cannot list push-triggered run IDs. Expose only
-      # an operational receipt (never media approval) on the public media branch.
+      - name: Permit production only on one of 20 monthly dates
+        id: monthly_slot
+        shell: bash
+        run: |
+          set -euo pipefail
+          day=$(TZ=America/Sao_Paulo date +%F)
+          if python scripts/metricool_monthly_calendar.py --date "$day" --check-day; then
+            echo 'planned=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'planned=false' >> "$GITHUB_OUTPUT"
+            echo "::notice::Not among 20 monthly editorial production dates. Skip."
+          fi
+      # Expose an operational receipt, never a social-post approval.
       - name: Record run ID and source config SHA for independent QA
+        if: steps.monthly_slot.outputs.planned == 'true'
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
@@ -67,6 +79,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          if [[ "${{ steps.monthly_slot.outputs.planned }}" != "true" ]]; then
+            echo 'animals=[]' >> "$GITHUB_OUTPUT"
+            echo 'full_batch=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
 
           # Cron is strictly a fallback. When Daily Prep has already
           # completed a successful push run on the SAME Sao Paulo calendar
@@ -89,8 +106,8 @@ jobs:
             fi
           fi
 
-          # Render exactly five daily candidates. Trend-priority entries come first;
-          # remaining slots preserve the order in configs/daily.json.
+          # Render at most one new documentary on a planned calendar day. Trend-priority comes first;
+          # no stale or unrelated candidates may be automatically released.
           animals=$(jq -c '
             ([to_entries[] | select(.value.trend_priority == true)] +
              [to_entries[] | select(.value.trend_priority != true)])
@@ -101,8 +118,8 @@ jobs:
           # candidates. A daily prep can contain 1–5 distinct research-backed
           # videos; never invent footage to satisfy a fixed daily quota.
           count=$(jq 'length' configs/daily.json)
-          if [ "$count" -lt 1 ] || [ "$count" -gt 5 ]; then
-            echo "Expected 1–5 WildVox candidates, found $count." >&2
+          if [ "$count" -lt 1 ] || [ "$count" -gt 1 ]; then
+            echo "Expected one independently sourced monthly documentary candidate, found $count." >&2
             exit 1
           fi
           if [[ "${{ github.event_name }}" == "push" ]] && \
@@ -112,6 +129,11 @@ jobs:
               --slurpfile after configs/daily.json \
               '$after[0] | to_entries | map(select(.value != ($before[0][.key] // null))) | map(.key)')
             echo "Changed editorial candidates: $animals"
+          fi
+          # Monthly policy: a single current-day candidate, not a five-video push.
+          if [[ $(jq 'length' <<<"$animals") -gt 1 ]]; then
+            echo "::error::Monthly production accepts at most one new documentary per day."
+            exit 1
           fi
           echo "full_batch=$(jq --argjson count "$count" 'length == $count' <<<"$animals")" >> "$GITHUB_OUTPUT"
 
@@ -191,7 +213,7 @@ jobs:
       matrix:
         animal: ${{ fromJson(needs.prepare.outputs.animals) }}
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 85
     steps:
       - uses: actions/checkout@v4
       # Audit each video independently: never bypass licensing; one 429 blocks only that video.
@@ -229,7 +251,7 @@ jobs:
             output/${{ matrix.animal }}_meta.json
             output/${{ matrix.animal }}_review.jpg
             output/${{ matrix.animal }}_source_*_preview.jpg
-          retention-days: 1
+          retention-days: 7
 
   publish-media:
     # A failed or missing fifth render must not suppress four sound candidates.
