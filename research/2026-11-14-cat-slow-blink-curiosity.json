@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-14",
+  "status": "SCIENTIFIC_SCRIPT_VERIFIED_FOOTAGE_NOT_CLEARED_DO_NOT_RENDER",
+  "publication_hold": true,
+  "account": "@wildvox",
+  "language": "pt-BR",
+  "voice": "pm_alex",
+  "key_provisional": "gato_piscar_lento_comunicacao_nov14",
+  "title": "O piscar lento dos gatos é uma forma de comunicação?",
+  "script": "Você já tentou piscar devagar para um gato? Parece um gesto simples, mas pesquisadores testaram isso. Quando tutores fizeram a sequência de olhos semicerrados e piscadas lentas, os gatos estreitaram os olhos com mais frequência do que sem interação. Em outro teste, eles se aproximaram mais de uma pessoa desconhecida depois desse gesto do que diante de um rosto neutro. O movimento pode funcionar como um sinal visual de interação positiva. Mas atenção: uma piscada isolada não prova amor ou confiança. A descoberta é outra: gatos podem responder aos nossos movimentos faciais de um jeito mensurável.",
+  "caption": "Por que gatos respondem quando piscamos lentamente? Dois estudos apontam que movimentos dos olhos participam da comunicação humano-gato. Isso não prova amor em toda piscada. #WildVox #Gatos #Biologia #ComportamentoAnimal",
+  "visual_plan_provisional": [
+    {
+      "text": "Você já tentou piscar devagar para um gato? Parece um gesto simples, mas pesquisadores testaram isso.",
+      "story_role": "hook",
+      "scene": "Plano autêntico de rosto felino, com olhos legíveis, sem fingir que houve resposta humana na filmagem.",
+      "overlay_label": "GATOS RESPONDEM À PISCADA?",
+      "tags": [
+        "PENDING_ACTUAL_AUTHENTIC_FOOTAGE_REVIEW"
+      ],
+      "fx": []
+    },
+    {
+      "text": "Quando tutores fizeram a sequência de olhos semicerrados e piscadas lentas, os gatos estreitaram os olhos com mais frequência do que sem interação.",
+      "story_role": "setup",
+      "scene": "Close legítimo de expressão dos olhos, diferenciando observação científica de imagem ilustrativa.",
+      "overlay_label": "PISCAR É UM SINAL VISUAL",
+      "tags": [
+        "PENDING_ACTUAL_AUTHENTIC_FOOTAGE_REVIEW"
+      ],
+      "fx": []
+    },
+    {
+      "text": "Em outro teste, eles se aproximaram mais de uma pessoa desconhecida depois desse gesto do que diante de um rosto neutro.",
+      "story_role": "action",
+      "scene": "Filmagem de gato doméstico real com rosto visível; resultados experimentais como texto, não como suposta filmagem do experimento.",
+      "overlay_label": "MAIS OLHOS SEMICERRADOS",
+      "tags": [
+        "PENDING_ACTUAL_AUTHENTIC_FOOTAGE_REVIEW"
+      ],
+      "fx": []
+    },
+    {
+      "text": "O movimento pode funcionar como um sinal visual de interação positiva.",
+      "story_role": "explanation",
+      "scene": "Gato e pessoa reais, em gravação independente; não alegar que houve teste controlado nesta cena.",
+      "overlay_label": "PESSOA DESCONHECIDA",
+      "tags": [
+        "PENDING_ACTUAL_AUTHENTIC_FOOTAGE_REVIEW"
+      ],
+      "fx": []
+    },
+    {
+      "text": "Mas atenção: uma piscada isolada não prova amor ou confiança.",
+      "story_role": "twist",
+      "scene": "Imagem de felino real acompanhada do rótulo 'NÃO É PROVA DE AMOR' sem atribuir emoção.",
+      "overlay_label": "NÃO PROVA AMOR",
+      "tags": [
+        "PENDING_ACTUAL_AUTHENTIC_FOOTAGE_REVIEW"
+      ],
+      "fx": []
+    },
+    {
+      "text": "A descoberta é outra: gatos podem responder aos nossos movimentos faciais de um jeito mensurável.",
+      "story_role": "payoff",
+      "scene": "Último rosto felino real com olhos visíveis e legenda comparativa das duas condições de pesquisa.",
+      "overlay_label": "COMUNICAÇÃO MENSURÁVEL",
+      "tags": [
+        "PENDING_ACTUAL_AUTHENTIC_FOOTAGE_REVIEW"
+      ],
+      "fx": []
+    }
+  ],
+  "curiosity_fact_sheet": {
+    "hook_question": "Por que gatos respondem ao piscar lento de pessoas?",
+    "verified_fact": "Em dois experimentos publicados em Scientific Reports (2020), gatos aumentaram o estreitamento ocular diante de estímulos humanos de piscar lento e tiveram maior propensão de aproximação após essa interação do que na condição neutra.",
+    "biological_explanation": "A sequência de meios-piscares e estreitamento prolongado dos olhos pode integrar um sinal visual de interação entre espécies. O comportamento observado é experimental, não prova um estado emocional individual nem sua origem evolutiva.",
+    "comparison_or_consequence": "Diante de humanos com expressão neutra ou sem interação, as respostas dos gatos diferiram; um estudo independente em abrigo associou respostas de fechamento ocular ao tempo até adoção, sem provar causalidade.",
+    "visual_evidence_strategy": "Exigir oito vídeos originais distintos de gatos com rosto e olhos reais; close só quando efetivamente visível. Rótulos com resultados científicos identificados como didáticos. Nenhum gato em filme de arquivo deve ser tratado como participante desses experimentos. Evitar fundo desfocado e recortes sem revisão completa.",
+    "fact_sources": [
+      {
+        "claim": "Comparações experimentais de piscar lento humano versus condições neutra/sem interação, estreitamento dos olhos e aproximação.",
+        "url": "https://www.nature.com/articles/s41598-020-73426-0",
+        "publisher": "Scientific Reports / Nature Portfolio",
+        "reference_title": "The role of cat eye narrowing movements in cat–human communication"
+      },
+      {
+        "claim": "Em estudo observacional com 18 gatos de abrigo, maior resposta de fechamento ocular foi associada a menor tempo até adoção; resultados não demonstram causalidade.",
+        "url": "https://www.mdpi.com/2076-2615/10/12/2256",
+        "publisher": "Animals / MDPI",
+        "reference_title": "Slow Blink Eye Closure in Shelter Cats Is Related to Quicker Adoption"
+      }
+    ]
+  },
+  "media_research": {
+    "required_video_count": 8,
+    "eligible_licenses": [
+      "CC0",
+      "PD",
+      "CC BY"
+    ],
+    "sources": [],
+    "footage_review_complete": false,
+    "rights_review_complete": false,
+    "source_uniqueness_review_complete": false,
+    "rendered_mp4": null,
+    "run_id": null,
+    "independent_qa_approval": false
+  },
+  "source_discovery_issue": "Commons API HTTP 429 from GitHub Actions on 2026-11-14; no substitute or publishing authorized"
+}
