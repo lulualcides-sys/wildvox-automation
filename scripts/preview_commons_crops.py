@@ -39,10 +39,28 @@ PREFERRED = (
 MAX_BYTES = 60 * 1024 * 1024
 
 
-def selected(candidates):
+def selected(candidates, auto_select=False):
     by_name = {item["title"]: item for item in candidates}
     result = []
-    for title in PREFERRED:
+    if auto_select:
+        # Prefer video filenames consistent with authentic feline B-roll.
+        # Metadata alone does not verify what is actually in a shot.
+        def score(item):
+            title = item["title"].casefold()
+            useful = ("slow blink", "eyes", "eye", "face", "close", "blink",
+                      "kitten", "cat", "gato", "gatos", "cats", "feline")
+            suspect = ("trailer", "commercial", "animation", "cartoon",
+                       "advert", "game", "samsung", "movie")
+            return (
+                sum(3 for k in useful if k in title)
+                - sum(9 for k in suspect if k in title),
+                1 if not item.get("crop_review_required") else 0,
+                -(item.get("file_size") or 0),
+            )
+        titles = [x["title"] for x in sorted(candidates, key=score, reverse=True)]
+    else:
+        titles = list(PREFERRED)
+    for title in titles:
         info = by_name.get(title)
         if not info or info.get("source_status") not in (
                 "RESEARCH_ONLY_NOT_VISUALLY_APPROVED",
@@ -185,6 +203,8 @@ def main():
     cli.add_argument("--research", required=True)
     cli.add_argument("--out", default="crop-preview")
     cli.add_argument("--count", type=int, default=11)
+    cli.add_argument("--auto-select", action="store_true",
+                     help="Select new, factual-looking video prospects automatically for visual review only")
     args = cli.parse_args()
     research = json.loads(Path(args.research).read_text(encoding="utf-8"))
     if research.get("status") != "RESEARCH_ONLY_NOT_EDITORIALLY_APPROVED":
@@ -192,7 +212,9 @@ def main():
     out = Path(args.out)
     out.mkdir(exist_ok=True, parents=True)
     results = []
-    shortlisted = selected(research["candidates"])[:args.count]
+    shortlisted = selected(
+        research["candidates"], auto_select=args.auto_select
+    )[:args.count]
     try:
         transcodes = preview_transcode_urls(shortlisted)
         print("Official Commons preview derivatives found:", len(transcodes), flush=True)
