@@ -1,0 +1,118 @@
+name: WildVox - pesquisa e previews automaticos
+
+# Zero-cost automation for research and genuine footage-review artifacts.
+# This workflow NEVER creates editorial APPROVE, never changes daily.json,
+# never publishes TikTok and never signs into Publer.
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/wildvox-auto-research.yml"
+      - "scripts/scout_commons_keyword.py"
+      - "qa/test_scout_commons_keyword.py"
+  schedule:
+    # 06:15 UTC = 03:15 America/Sao_Paulo (no DST in Sao Paulo).
+    # The editorial Daily Prep runs at 04:00 local, AFTER this source research.
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: wildvox-source-research-and-previews
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - name: Checkout current editorial validation tools
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Checkout ONLY media metadata for no-reuse filter
+        uses: actions/checkout@v4
+        with:
+          ref: media
+          path: media-branch
+          filter: blob:none
+          sparse-checkout: |
+            /*_meta.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install real frame decoding and contact-sheet prerequisites
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install 'Pillow>=10,<12'
+      - name: Focused regressions for safe Commons discovery and previews
+        run: |
+          python -m unittest discover -s qa -p "test_scout_commons_keyword.py" -v
+          python -m unittest discover -s qa -p "test_scout_commons_portrait.py" -v
+          python -m unittest discover -s qa -p "test_preview_commons_crops.py" -v
+      - name: Find previously unused licensed original cat videos
+        id: find
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p fresh-research
+          # 429 and unavailable remote API are blockers, never media approval.
+          python scripts/scout_commons_keyword.py \
+            --media-dir media-branch \
+            --output fresh-research/commons_keyword_sources.json || true
+          test -s fresh-research/commons_keyword_sources.json
+          if jq -e '.status=="RESEARCH_ONLY_NOT_EDITORIALLY_APPROVED" and (.candidates|length)>0' fresh-research/commons_keyword_sources.json >/dev/null; then
+            echo "has_prospects=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_prospects=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::No rights-cleared source prospects found; will not render or release old media."
+          fi
+      - name: Inspect actual cat video frames and alternative portrait crops
+        if: steps.find.outputs.has_prospects == 'true'
+        run: |
+          python scripts/preview_commons_crops.py \
+            --research fresh-research/commons_keyword_sources.json \
+            --out fresh-research/crop-review \
+            --auto-select \
+            --count 14
+      - name: Preserve factual review artifacts for independent QA
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wildvox-daily-new-licensed-footage-research
+          path: fresh-research/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Publish honest review handoff in GitHub Actions Summary
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "# WildVox — pesquisa de imagens reais"
+            echo ""
+            echo "Dia em São Paulo: $(TZ=America/Sao_Paulo date +%F)"
+            echo ""
+            echo "Esta execução NÃO libera vídeo para publicar nem aprova licenças."
+            echo "Os candidatos estão nos artefatos como pesquisa e prévias;"
+            echo "a inspeção integral do MP4, áudio, fontes e cortes continua obrigatória."
+            if [ -s fresh-research/commons_keyword_sources.json ]; then
+              echo ""
+              echo "Metadados da pesquisa:"
+              jq -r '"Status: \(.status). Títulos consultados: \(.searched_video_files). Prospectos: \(.candidates|length)."' fresh-research/commons_keyword_sources.json
+            fi
+            if [ -s fresh-research/crop-review/contact_sheets_review_pending.json ]; then
+              echo ""
+              echo "Prévia visual (NÃO aprovação):"
+              jq -r '"Pré-visualizações: \([.items[]|select(.status|startswith("PREVIEW_GENERATED"))]|length), falhas: \([.items[]|select(.status|startswith("FAILED"))]|length)."' fresh-research/crop-review/contact_sheets_review_pending.json
+            fi
+            echo ""
+            echo "Próxima etapa: revisão científica e visual; só um candidato diário realmente novo"
+            echo "e aprovado pode acionar o render do workflow WildVox Daily 5."
+          } >> "$GITHUB_STEP_SUMMARY"
