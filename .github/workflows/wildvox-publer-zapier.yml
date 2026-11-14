@@ -1,79 +1,110 @@
-name: WildVox Publer Bridge
+name: WildVox Publer approved handoff
 
-# Retained only for historical diagnostics. Production posting is Metricool-only.
+# GitHub Issue -> Zapier -> Publer. No Metricool publishing.
+# Disabled until repository variable WILDVOX_PUBLER_ENABLED=true.
 on:
   workflow_dispatch:
+    inputs:
+      key:
+        description: "Optional exact approved video key (empty checks today's entries)"
+        required: false
+        type: string
+      dry_run:
+        description: "Only validate; do not create GitHub Issues"
+        type: boolean
+        required: true
+        default: true
+  schedule:
+    - cron: "10 * * * *"
 
 permissions:
   contents: read
+  issues: write
+
+concurrency:
+  group: wildvox-publer-approved-handoff
+  cancel-in-progress: false
 
 jobs:
-  send-to-publer:
-    # Never deliver via Publer/Zapier: TikTok @wildvox uses Metricool exclusively.
-    if: ${{ false }}
+  handoff:
+    if: ${{ github.event_name == 'workflow_dispatch' || vars.WILDVOX_PUBLER_ENABLED == 'true' }}
     runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GITHUB_TOKEN: ${{ github.token }}
+      WILDVOX_PUBLER_ENABLED: ${{ vars.WILDVOX_PUBLER_ENABLED }}
     steps:
-      - name: Checkout main config
+      - name: Checkout current editorial config
         uses: actions/checkout@v4
         with:
           ref: main
-
-      - name: Send five approved posts to Zapier/Publer
-        env:
-          PUBLER_ZAPIER_WEBHOOK: ${{ secrets.PUBLER_ZAPIER_WEBHOOK }}
+      - name: Checkout canonical media branch
+        uses: actions/checkout@v4
+        with:
+          ref: media
+          path: media-branch
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Safety regressions
+        run: |
+          python -m py_compile scripts/publer_handoff.py
+          python -m unittest discover -s qa -p test_publer_handoff.py -v
+      - name: Ensure authorized Zapier trigger label exists
+        if: ${{ vars.WILDVOX_PUBLER_ENABLED == 'true' && (github.event_name == 'schedule' || inputs.dry_run == false) }}
+        run: |
+          set -euo pipefail
+          if ! gh api "repos/${GITHUB_REPOSITORY}/labels/wildvox-publer-ready" >/dev/null 2>&1; then
+            gh api -X POST "repos/${GITHUB_REPOSITORY}/labels" \
+              -f name=wildvox-publer-ready \
+              -f color=0e8a16 \
+              -f description='Independently approved WildVox video ready for Publer Zap'
+          fi
+      - name: Hand off ONLY exact-hash, independently approved clips
         shell: bash
         run: |
           set -euo pipefail
-
-          if [ -z "${PUBLER_ZAPIER_WEBHOOK:-}" ]; then
-            echo "PUBLER_ZAPIER_WEBHOOK is not configured; skipping Publer delivery."
-            exit 0
+          day=$(TZ=America/Sao_Paulo date +%F)
+          key_input="${{ inputs.key }}"
+          if [[ -n "$key_input" ]]; then
+            keys=("$key_input")
+          else
+            mapfile -t keys < <(jq -r 'keys[]' configs/daily.json)
           fi
-
-          # Preparation-only batches must never be sent to Zapier/Publer.
-          if jq -e 'any(.[]; .publication_hold == true)' configs/daily.json >/dev/null; then
-            echo "Editorial preparation hold: no social posts will be scheduled."
-            exit 0
-          fi
-
-          mapfile -t keys < <(jq -r 'keys[]' configs/daily.json)
-          if [ "${#keys[@]}" -ne 5 ]; then
-            echo "Expected exactly 5 WildVox entries, found ${#keys[@]}." >&2
+          if [[ "${#keys[@]}" -gt 5 ]]; then
+            echo "::error::Maximum five candidates per day."
             exit 1
           fi
-
-          i=0
           for key in "${keys[@]}"; do
-            i=$((i+1))
-            title=$(jq -r --arg k "$key" '.[$k].title // ""' configs/daily.json)
-            caption=$(jq -r --arg k "$key" '.[$k].caption // .[$k].title // ""' configs/daily.json)
-            media_url="https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/$key.mp4"
-            meta_url="https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/${key}_meta.json"
-            review_url="https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/${key}_review.jpg"
-
-            for url in "$media_url" "$meta_url" "$review_url"; do
-              code=$(curl -L -sS -o /dev/null -w '%{http_code}' "$url")
-              if [ "$code" != "200" ]; then
-                echo "Canonical asset not ready for $key: $url returned HTTP $code" >&2
-                exit 1
-              fi
-            done
-
-            payload=$(jq -n               --arg key "$key"               --arg title "$title"               --arg text "$caption"               --arg media "$media_url"               --arg meta "$meta_url"               --arg review "$review_url"               --argjson order "$i"               '{
-                source: "wildvox",
-                platform: "tiktok",
-                key: $key,
-                title: $title,
-                text: $text,
-                media_url: $media,
-                meta_url: $meta,
-                review_url: $review,
-                order: $order,
-                autoschedule: true
-              }')
-
-            curl --fail-with-body -sS               -H 'Content-Type: application/json'               -X POST               -d "$payload"               "$PUBLER_ZAPIER_WEBHOOK"
-
-            echo "Sent $key to Publer bridge."
-            sleep 2
+            revision=$(jq -r --arg key "$key" '.[$key].revision // ""' configs/daily.json)
+            if [[ "$revision" != "$day"* ]]; then
+              echo "::notice::Stale candidate $key skipped. No post."
+              continue
+            fi
+            # Require today's receipt; Python later independently validates
+            # the original ZIP, signatures, hashes, copy, voice and metadata.
+            if ! python - "$day" "$key" <<'PY'
+          import json, pathlib, sys
+          day, key = sys.argv[1:]
+          found = False
+          for path in pathlib.Path("qa/reviews").glob("*.json"):
+              try:
+                  r = json.loads(path.read_text(encoding="utf-8"))
+              except (OSError, ValueError):
+                  continue
+              if r.get("day_local") == day and r.get("candidate_key") == key and r.get("decision") == "APPROVE":
+                  found = True
+                  break
+          sys.exit(0 if found else 1)
+          PY
+            then
+              echo "::notice::No independent current-day APPROVE for $key."
+              continue
+            fi
+            if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.dry_run }}" == "true" ]]; then
+              python scripts/publer_handoff.py --key "$key"
+            else
+              python scripts/publer_handoff.py --key "$key" --send
+            fi
           done
