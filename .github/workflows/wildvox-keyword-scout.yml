@@ -1,0 +1,47 @@
+name: WildVox - pesquisa ampliada de gatos sem custo
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 06:20 Sao Paulo daily; source research only, never social publishing.
+    - cron: "20 9 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wildvox-keyword-source-research
+  cancel-in-progress: false
+
+jobs:
+  keyword-research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout previous media metadata for deduplication
+        uses: actions/checkout@v4
+        with:
+          ref: media
+          path: media-branch
+          filter: blob:none
+          sparse-checkout: |
+            /*_meta.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Test keyword search and fail-closed research gates
+        run: |
+          python -m py_compile scripts/scout_commons_keyword.py
+          python -m unittest discover -s qa -p test_scout_commons_keyword.py -v
+      - name: Search Commons video file titles and verify licenses
+        run: python scripts/scout_commons_keyword.py --media-dir media-branch --output commons_keyword_sources.json
+      - name: Preserve metadata only, never claim footage approval
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: commons-keyword-original-research
+          path: commons_keyword_sources.json
+          if-no-files-found: warn
+          retention-days: 7
