@@ -318,16 +318,25 @@ def validate_daily_batch(data):
     if not isinstance(data, dict) or not 1 <= len(data) <= 5:
         raise RuntimeError(f"daily.json must contain between 1 and 5 entries, found {len(data) if isinstance(data, dict) else 'invalid'}")
 
-    short_count = 0
+    validated_count = 0
     batch_urls = set()
 
     for key, cfg in data.items():
         min_duration = float(cfg.get("min_duration", 0) or 0)
         max_duration = float(cfg.get("max_duration", 0) or 0)
 
-        if (min_duration, max_duration) != (30.0, 45.0):
+        # Previous 30-45s material remains inspectable but never gets
+        # silently converted into a new documentary or re-published.
+        longform = str(cfg.get("revision") or "")[:10] >= "2026-11-15"
+        if longform:
+            if not 60 <= min_duration <= max_duration <= 240:
+                raise RuntimeError(
+                    f"{key} documentary must use 60-240s duration gates, "
+                    f"found {min_duration:.0f}-{max_duration:.0f}s"
+                )
+        elif (min_duration, max_duration) != (30.0, 45.0):
             raise RuntimeError(
-                f"{key} must use duration gates 30-45s, "
+                f"{key} legacy revision must use 30-45s duration gates, "
                 f"found {min_duration:.0f}-{max_duration:.0f}s"
             )
         plan = cfg.get("visual_plan")
@@ -339,13 +348,15 @@ def validate_daily_batch(data):
         for index, block in enumerate(plan, 1):
             if not str(block.get("scene") or "").strip() or not block.get("tags"):
                 raise RuntimeError(f"{key} visual_plan block {index} lacks scene or semantic tags")
-        short_count += 1
+        validated_count += 1
         required_videos = 6
 
         trend_exception = cfg.get("trend_exception") or {}
         allow_photo_only = bool(trend_exception.get("photo_only_allowed"))
 
         sources = cfg.get("sources") or []
+        if longform and allow_photo_only:
+            raise RuntimeError(f"{key}: documentaries require real moving footage, no photo-only exceptions")
         if allow_photo_only:
             if not trend_exception.get("evidence_url") or not trend_exception.get("evidence_published_date"):
                 raise RuntimeError(
@@ -412,6 +423,18 @@ def validate_daily_batch(data):
                 raise RuntimeError(
                     f"{key} photo-only max_shot_seconds must be at most 12"
                 )
+        elif longform:
+            # Documentaries may hold real explanatory action longer than
+            # shorts, but never freeze, loop, fabricate or repeat sources.
+            if not 8.0 <= target <= 20.0:
+                raise RuntimeError(f"{key} documentary target_shot_seconds must be 8-20")
+            if not 0 < max_shot <= 20.0:
+                raise RuntimeError(f"{key} documentary max_shot_seconds must be at most 20")
+            if max_duration > 12 * max_shot:
+                raise RuntimeError(
+                    f"{key}: 12 unique authentic assets cannot cover {max_duration:.0f}s "
+                    f"with {max_shot:.0f}s shots; choose a shorter max or implement chapters"
+                )
         else:
             if not 6.0 <= target <= 8.0:
                 raise RuntimeError(f"{key} target_shot_seconds must stay between 6 and 8")
@@ -420,13 +443,10 @@ def validate_daily_batch(data):
         if not 0 <= max_freeze <= 1.0:
             raise RuntimeError(f"{key} max_freeze_seconds must be at most 1")
 
-    # Editorial contract: every prepared candidate must pass 30-45s gates;
-    # do not require five when fewer factual/licensed videos are available.
-    if short_count != len(data):
-        raise RuntimeError(
-            f"daily.json must contain only short (30-45s) videos; "
-            f"found {short_count} short for {len(data)} entries"
-        )
+    # Editorial gate is revision-aware. The existing rejected 2026-11-14
+    # short remains protected, while new >=2026-11-15 edits are documentaries.
+    if validated_count != len(data):
+        raise RuntimeError("Some WildVox entries did not pass validation")
 
 
 def file_sha256(path):
