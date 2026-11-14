@@ -16,6 +16,14 @@ from urllib.request import Request, urlopen
 
 
 PREFERRED = (
+    # Unused, independently sourced cat behavior candidates from current run.
+    "Amelia -cat purrs and kneads.webm",
+    "Salto - Cat Jump.webm",
+    "Black and white cat growl and hiss 2.webm",
+    "Black and white cat growl and hiss.webm",
+    "Cat reacting to a fish tank.webm",
+    "Кошенят підгодовують.webm",
+    "Buddy the Dog & Socks the Cat.webm",
     "Cat discovers it was being spied on.webm",
     "Fur Lickers.webm",
     "2022-10-18 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA 4.webm",
@@ -40,7 +48,9 @@ def selected(candidates):
                 "RESEARCH_ONLY_NOT_VISUALLY_APPROVED",
                 "RESEARCH_ONLY_REQUIRES_VISUAL_CROP_REVIEW"):
             continue
-        if (info.get("file_size") or 0) > MAX_BYTES:
+        # Original bytes can be larger than 60MB: the Wikimedia 480p
+        # transcode is the authentic low-bandwidth review source.
+        if (info.get("file_size") or 0) > 250 * 1024 * 1024:
             continue
         if urlsplit(info.get("url", "")).hostname != "upload.wikimedia.org":
             continue
