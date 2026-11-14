@@ -1,0 +1,67 @@
+name: WildVox - previsualizar recortes reais
+
+# Authentic frames only. Research artwork; NO renderer or social publisher.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/preview_commons_crops.py"
+      - "qa/test_preview_commons_crops.py"
+      - ".github/workflows/wildvox-real-crop-preview.yml"
+  workflow_dispatch:
+    inputs:
+      research_run_id:
+        description: "Actions run ID of verified new original research"
+        required: true
+        default: "43591597774"
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      RESEARCH_RUN_ID: ${{ inputs.research_run_id || '43591597774' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Download original Commons source research, never trigger a new API search
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$RESEARCH_RUN_ID" =~ ^[0-9]+$ ]]
+          mkdir -p research-input
+          gh run download "$RESEARCH_RUN_ID" \
+            --repo "$GITHUB_REPOSITORY" \
+            --name commons-portrait-licensed-research \
+            --dir research-input
+          test -s research-input/commons_licensed_portrait_candidates.json
+      - name: Install JPEG contact-sheet requirements
+        run: |
+          python -m pip install 'Pillow>=10,<12'
+          ffmpeg -version | head -n 2
+      - name: Regression tests
+        run: |
+          python -m py_compile scripts/preview_commons_crops.py
+          python -m unittest discover -s qa -p 'test_preview_commons_crops.py' -v
+      - name: Decode actual videos and compare source to proposed 9:16 crop
+        run: |
+          python scripts/preview_commons_crops.py \
+            --research research-input/commons_licensed_portrait_candidates.json \
+            --out crop-preview \
+            --count 11
+      - name: Save only actual contact sheets as review artifact, never approval
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wildvox-originals-and-9x16-crop-review
+          path: crop-preview/
+          retention-days: 7
+          if-no-files-found: warn
