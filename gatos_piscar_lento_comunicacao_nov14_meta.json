@@ -1,0 +1,243 @@
+{
+  "key": "gatos_piscar_lento_comunicacao_nov14",
+  "title": "O piscar lento dos gatos é uma forma de comunicação?",
+  "caption": "Quando um humano pisca devagar para um gato, ele pode responder com os próprios olhos? Pesquisas compararam essas interações com condições neutras e observaram diferenças. Uma piscada isolada não prova amor. Cenas ilustrativas de gatos reais, não dos experimentos. #WildVox #CuriosidadesDosGatos #Gatos #ComportamentoFelino #Biologia\n\nCréditos dos vídeos (edição vertical 9:16, legendas e narração):\n1. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-15_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm | https://creativecommons.org/licenses/by/3.0/\n2. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm | https://creativecommons.org/licenses/by/3.0/\n3. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-10-01_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_4.webm | https://creativecommons.org/licenses/by/3.0/\n4. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-25_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm | https://creativecommons.org/licenses/by/3.0/\n5. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-22_MIRKE_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm | https://creativecommons.org/licenses/by/3.0/\n6. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-21_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_4.webm | https://creativecommons.org/licenses/by/3.0/\n7. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-05_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA.webm | https://creativecommons.org/licenses/by/3.0/\n8. NaIzletuSi ™ | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:2022-09-12_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_8.webm | https://creativecommons.org/licenses/by/3.0/",
+  "publication_hold": true,
+  "attribution_review_required": true,
+  "config_sha256": "7f1ad098298c6de97f079ed7664eacc7244cea718d7de11639d015077353c64e",
+  "duration": 36.75,
+  "voice": "pm_alex",
+  "language": "pt-BR",
+  "speed": 1.0,
+  "narration_timeline": [
+    {
+      "index": 0,
+      "start": 0.0,
+      "end": 6.3,
+      "duration": 6.3,
+      "text": "Você já tentou piscar devagar para um gato? Parece um gesto simples, mas pesquisadores testaram isso.",
+      "language": "pt-BR",
+      "scene": "Close de gato doméstico real, olhos visíveis; pergunta científica sem afirmar que o animal foi testado.",
+      "tags": [
+        "cat_face_close",
+        "cat_eyes_visible"
+      ],
+      "story_role": "hook",
+      "overlay_label": "GATOS RESPONDEM À PISCADA?",
+      "fx": []
+    },
+    {
+      "index": 1,
+      "start": 6.3,
+      "end": 14.899999999999999,
+      "duration": 8.6,
+      "text": "Quando tutores fizeram a sequência de olhos semicerrados e piscadas lentas, os gatos estreitaram os olhos com mais frequência do que sem interação.",
+      "language": "pt-BR",
+      "scene": "Gatos reais repousando de olhos visíveis; legenda destaca que resultados de estreitamento ocular vieram de experimentos científicos externos a esses clipes.",
+      "tags": [
+        "cat_resting",
+        "cat_eyes_visible"
+      ],
+      "story_role": "setup",
+      "overlay_label": "PISCAR É UM SINAL VISUAL",
+      "fx": []
+    },
+    {
+      "index": 2,
+      "start": 14.899999999999999,
+      "end": 22.099999999999998,
+      "duration": 7.2,
+      "text": "Em outro teste, eles se aproximaram mais de uma pessoa desconhecida depois desse gesto do que diante de um rosto neutro.",
+      "language": "pt-BR",
+      "scene": "Filmagens originais de gatos domésticos em ambiente externo; a comparação com rosto humano neutro é informação do estudo, nunca representada como experimento filmado.",
+      "tags": [
+        "cat_outdoors",
+        "cat_face_visible"
+      ],
+      "story_role": "action",
+      "overlay_label": "MAIS OLHOS SEMICERRADOS",
+      "fx": []
+    },
+    {
+      "index": 3,
+      "start": 22.099999999999998,
+      "end": 26.574999999999996,
+      "duration": 4.475,
+      "text": "O movimento pode funcionar como um sinal visual de interação positiva.",
+      "language": "pt-BR",
+      "scene": "Rosto real de gato visível, anotação 'SINAL VISUAL' apenas informativa; não atribuir estados internos ao animal.",
+      "tags": [
+        "cat_dark_face",
+        "cat_eyes_visible"
+      ],
+      "story_role": "explanation",
+      "overlay_label": "PESSOA DESCONHECIDA",
+      "fx": []
+    },
+    {
+      "index": 4,
+      "start": 26.574999999999996,
+      "end": 30.649999999999995,
+      "duration": 4.075,
+      "text": "Mas atenção: uma piscada isolada não prova amor ou confiança.",
+      "language": "pt-BR",
+      "scene": "Gato real visto de frente ou perfil; texto 'NÃO PROVA AMOR' evita inferir emoção a partir de B-roll.",
+      "tags": [
+        "cat_outdoors",
+        "cat_face_visible"
+      ],
+      "story_role": "twist",
+      "overlay_label": "NÃO PROVA AMOR",
+      "fx": []
+    },
+    {
+      "index": 5,
+      "start": 30.649999999999995,
+      "end": 36.74999999999999,
+      "duration": 6.1,
+      "text": "A descoberta é outra: gatos podem responder aos nossos movimentos faciais de um jeito mensurável.",
+      "language": "pt-BR",
+      "scene": "Rosto real de gato doméstico para concluir comparação científica. Sem alegar que o indivíduo participou das pesquisas.",
+      "tags": [
+        "cat_face_close",
+        "cat_eyes_visible"
+      ],
+      "story_role": "payoff",
+      "overlay_label": "COMUNICAÇÃO MENSURÁVEL",
+      "fx": []
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-15%20LJUBLJANA%20doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%203.webm",
+      "type": "video",
+      "assetTitle": "2022-09-15 LJUBLJANA doma CARNIVORA Felis catus DOMAČA MAČKA 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-15_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm",
+      "tags": [
+        "cat_face_close",
+        "cat_eyes_visible",
+        "cat_home"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+      "portrait_crop": "9:16"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-19%20LJUBLJANA%20Doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%203.webm",
+      "type": "video",
+      "assetTitle": "2022-10-19 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm",
+      "tags": [
+        "cat_resting",
+        "cat_eyes_visible",
+        "cat_home"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+      "portrait_crop": "9:16"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-01%20LJUBLJANA%20doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%204.webm",
+      "type": "video",
+      "assetTitle": "2022-10-01 LJUBLJANA doma CARNIVORA Felis catus DOMAČA MAČKA 4.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-01_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_4.webm",
+      "tags": [
+        "cat_resting",
+        "cat_eyes_visible",
+        "cat_home"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+      "portrait_crop": "9:16"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-25%20LJUBLJANA%20doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%203.webm",
+      "type": "video",
+      "assetTitle": "2022-09-25 LJUBLJANA doma CARNIVORA Felis catus DOMAČA MAČKA 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-25_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm",
+      "tags": [
+        "cat_dark_face",
+        "cat_eyes_visible",
+        "cat_home"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+      "portrait_crop": "9:16"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-22%20MIRKE%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%203.webm",
+      "type": "video",
+      "assetTitle": "2022-09-22 MIRKE CARNIVORA Felis catus DOMAČA MAČKA 3.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-22_MIRKE_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm",
+      "tags": [
+        "cat_outdoors",
+        "cat_face_visible",
+        "cat_eyes_visible"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+      "portrait_crop": "9:16"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-21%20LJUBLJANA%20doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%204.webm",
+      "type": "video",
+      "assetTitle": "2022-09-21 LJUBLJANA doma CARNIVORA Felis catus DOMAČA MAČKA 4.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-21_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_4.webm",
+      "tags": [
+        "cat_outdoors",
+        "cat_face_visible",
+        "cat_eyes_visible"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+      "portrait_crop": "9:16"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-05%20LJUBLJANA%20Doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA.webm",
+      "type": "video",
+      "assetTitle": "2022-09-05 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-05_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA.webm",
+      "tags": [
+        "cat_dark_face",
+        "cat_eyes_visible",
+        "cat_home"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+      "portrait_crop": "9:16"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-12%20LJUBLJANA%20doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%208.webm",
+      "type": "video",
+      "assetTitle": "2022-09-12 LJUBLJANA doma CARNIVORA Felis catus DOMAČA MAČKA 8.webm",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-12_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_8.webm",
+      "tags": [
+        "cat_outdoors",
+        "cat_face_visible",
+        "cat_eyes_visible"
+      ],
+      "author": "NaIzletuSi ™",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+      "portrait_crop": "9:16"
+    }
+  ],
+  "review_sheet": "gatos_piscar_lento_comunicacao_nov14_review.jpg",
+  "music": null,
+  "trend_exception": null
+}
