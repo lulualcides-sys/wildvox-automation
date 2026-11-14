@@ -61,6 +61,13 @@ def selected(candidates, auto_select=False):
     else:
         titles = list(PREFERRED)
     for title in titles:
+        # Commons "video" can include stop-motion and animation. These are
+        # not genuine live-action animal B-roll, regardless of license.
+        if auto_select and any(term in title.casefold() for term in (
+            "stopmotion", "stop-motion", "animation", "animated",
+            "cartoon", "trailer", "commercial", "advertisement",
+        )):
+            continue
         info = by_name.get(title)
         if not info or info.get("source_status") not in (
                 "RESEARCH_ONLY_NOT_VISUALLY_APPROVED",
