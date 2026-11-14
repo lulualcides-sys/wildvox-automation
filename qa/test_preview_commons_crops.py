@@ -60,6 +60,16 @@ class RealFootageReviewTest(unittest.TestCase):
         self.assertIsNone(url)
         self.assertIsNone(key)
 
+    def test_large_authentic_original_can_use_official_transcode_preview(self):
+        sample = [{
+            "title": "Кошенят підгодовують.webm",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/cat.webm",
+            "sourcePage": "https://commons.wikimedia.org/wiki/File:cat.webm",
+            "file_size": 160 * 1024 * 1024,
+            "source_status": "RESEARCH_ONLY_REQUIRES_VISUAL_CROP_REVIEW",
+        }]
+        self.assertEqual(len(mod.selected(sample)), 1)
+
     def test_host_restriction(self):
         sample = [{"title": mod.PREFERRED[0],
                    "url": "https://example.org/pretend.webm",
