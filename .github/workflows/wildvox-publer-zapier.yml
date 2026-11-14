@@ -62,11 +62,15 @@ jobs:
               -f description='Independently approved WildVox video ready for Publer Zap'
           fi
       - name: Hand off ONLY exact-hash, independently approved clips
+        env:
+          KEY_INPUT: ${{ inputs.key }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          RUN_EVENT: ${{ github.event_name }}
         shell: bash
         run: |
           set -euo pipefail
           day=$(TZ=America/Sao_Paulo date +%F)
-          key_input="${{ inputs.key }}"
+          key_input="$KEY_INPUT"
           if [[ -n "$key_input" ]]; then
             keys=("$key_input")
           else
@@ -102,7 +106,7 @@ jobs:
               echo "::notice::No independent current-day APPROVE for $key."
               continue
             fi
-            if [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.dry_run }}" == "true" ]]; then
+            if [[ "$RUN_EVENT" == "workflow_dispatch" && "$DRY_RUN" == "true" ]]; then
               python scripts/publer_handoff.py --key "$key"
             else
               python scripts/publer_handoff.py --key "$key" --send
