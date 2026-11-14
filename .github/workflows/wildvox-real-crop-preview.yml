@@ -13,7 +13,7 @@ on:
       research_run_id:
         description: "Actions run ID of verified new original research"
         required: true
-        default: "43591597774"
+        default: "43593019085"
         type: string
 
 permissions:
@@ -26,7 +26,7 @@ jobs:
     timeout-minutes: 20
     env:
       GH_TOKEN: ${{ github.token }}
-      RESEARCH_RUN_ID: ${{ inputs.research_run_id || '43591597774' }}
+      RESEARCH_RUN_ID: ${{ inputs.research_run_id || '43593019085' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
