@@ -78,6 +78,16 @@ class CommonsKeywordSearchTests(unittest.TestCase):
         result = selected([known, new], auto_select=True)
         self.assertEqual(result[0]["title"], new["title"])
 
+    def test_stopmotion_cannot_be_auto_selected_as_real_broll(self):
+        from preview_commons_crops import selected
+        fake = {
+            "title": "Gato Peludo backstage stopmotion.webm",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/fake.webm",
+            "sourcePage": "https://commons.wikimedia.org/wiki/File:fake.webm",
+            "source_status": "RESEARCH_ONLY_NOT_VISUALLY_APPROVED",
+        }
+        self.assertEqual(selected([fake], auto_select=True), [])
+
     def test_invalid_video_host_not_selected(self):
         from preview_commons_crops import selected
         fake = {"title":"cat face.webm",
