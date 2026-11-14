@@ -70,6 +70,23 @@ class RealFootageReviewTest(unittest.TestCase):
         }]
         self.assertEqual(len(mod.selected(sample)), 1)
 
+    def test_secondary_preview_window_does_not_repeat_primary(self):
+        candidates = []
+        for i in range(30):
+            candidates.append({
+                "title": f"Cat eye original {i:02d}.webm",
+                "url": f"https://upload.wikimedia.org/wikipedia/commons/cat{i}.webm",
+                "sourcePage": f"https://commons.wikimedia.org/wiki/File:cat{i}.webm",
+                "source_status": "RESEARCH_ONLY_NOT_VISUALLY_APPROVED",
+                "file_size": 2000 + i,
+            })
+        ordered = mod.selected(candidates, auto_select=True)
+        first, second = ordered[:14], ordered[14:28]
+        self.assertEqual(len(first), 14)
+        self.assertEqual(len(second), 14)
+        self.assertFalse({p["title"] for p in first} &
+                         {p["title"] for p in second})
+
     def test_host_restriction(self):
         sample = [{"title": mod.PREFERRED[0],
                    "url": "https://example.org/pretend.webm",

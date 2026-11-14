@@ -1,0 +1,92 @@
+name: WildVox - segunda revisao automatica de fontes
+
+# Runs when first-stage authentic Commons research completes.
+# Reuses its exact artifact, no repeat full-text search, no rendered/published videos.
+on:
+  workflow_run:
+    workflows:
+      - "WildVox - pesquisa e previews automaticos"
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/wildvox-auto-second-review.yml"
+  workflow_dispatch:
+    inputs:
+      research_run_id:
+        description: "Optional successful WildVox original source research run ID"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: wildvox-second-pass-source-review
+  cancel-in-progress: false
+
+jobs:
+  second-review:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PARENT_RUN_ID: ${{ github.event.workflow_run.id || inputs.research_run_id || '43596141244' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Reuse first-stage source research without repeating Commons search
+        shell: bash
+        run: |
+          set -euo pipefail
+          [[ "$PARENT_RUN_ID" =~ ^[0-9]+$ ]] || exit 1
+          mkdir -p research-input
+          gh run download "$PARENT_RUN_ID" \
+            --repo "$GITHUB_REPOSITORY" \
+            --name wildvox-daily-new-licensed-footage-research \
+            --dir research-input
+          test -s research-input/commons_keyword_sources.json
+      - name: Install real video-frame review requirements
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          python -m pip install 'Pillow>=10,<12'
+      - name: Verify independent candidate window safety
+        run: |
+          python -m unittest discover -s qa -p "test_preview_commons_crops.py" -v
+          python -m unittest discover -s qa -p "test_scout_commons_keyword.py" -v
+      - name: Inspect next 14 authentic video sources, not first 14 again
+        shell: bash
+        run: |
+          python scripts/preview_commons_crops.py \
+            --research research-input/commons_keyword_sources.json \
+            --out next-real-video-previews \
+            --auto-select --offset 14 --count 14
+      - name: Archive source/crop comparison before any editorial approval
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wildvox-second-batch-real-footage-review
+          path: next-real-video-previews/
+          retention-days: 7
+          if-no-files-found: warn
+      - name: Honest review status
+        if: always()
+        shell: bash
+        run: |
+          {
+            echo "# WildVox — segunda revisão de vídeo real"
+            echo ""
+            echo "Artefato de origem: https://github.com/$GITHUB_REPOSITORY/actions/runs/$PARENT_RUN_ID"
+            if [ -s next-real-video-previews/contact_sheets_review_pending.json ]; then
+              jq -r '"Janela de fontes: \(.source_range_start) a \(.source_range_end); quadros reais pré-visualizados: \([.items[]|select(.status|startswith("PREVIEW_GENERATED"))]|length)."' next-real-video-previews/contact_sheets_review_pending.json
+            fi
+            echo ""
+            echo "Pesquisa/preview apenas: NÃO é vídeo renderizado, não é APPROVE, não é PUBLISHED."
+          } >> "$GITHUB_STEP_SUMMARY"

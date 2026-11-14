@@ -203,6 +203,8 @@ def main():
     cli.add_argument("--research", required=True)
     cli.add_argument("--out", default="crop-preview")
     cli.add_argument("--count", type=int, default=11)
+    cli.add_argument("--offset", type=int, default=0,
+                     help="Review subsequent candidates without rerunning Wikimedia source search")
     cli.add_argument("--auto-select", action="store_true",
                      help="Select new, factual-looking video prospects automatically for visual review only")
     args = cli.parse_args()
@@ -212,9 +214,10 @@ def main():
     out = Path(args.out)
     out.mkdir(exist_ok=True, parents=True)
     results = []
-    shortlisted = selected(
-        research["candidates"], auto_select=args.auto_select
-    )[:args.count]
+    if args.offset < 0 or not 1 <= args.count <= 20:
+        raise SystemExit("Invalid candidate preview range")
+    shortlist_all = selected(research["candidates"], auto_select=args.auto_select)
+    shortlisted = shortlist_all[args.offset:args.offset + args.count]
     try:
         transcodes = preview_transcode_urls(shortlisted)
         print("Official Commons preview derivatives found:", len(transcodes), flush=True)
@@ -252,7 +255,10 @@ def main():
         print(f"{idx}: {result['status']} {item['title'][:64]}", flush=True)
         results.append(result)
     report = {"status": "REAL_VIDEO_PREVIEW_ONLY", "editorially_approved": False,
-              "ready_to_render": False, "items": results}
+              "ready_to_render": False,
+              "source_range_start": args.offset,
+              "source_range_end": args.offset + len(shortlisted),
+              "items": results}
     (out / "contact_sheets_review_pending.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"succeeded": sum(x["status"].startswith("PREVIEW") for x in results),
