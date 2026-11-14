@@ -1,0 +1,46 @@
+name: WildVox - descobrir fontes originais sem custo
+
+# Research only: never edits configs/daily.json or sends social posts.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/scout_commons_portrait.py"
+      - "qa/test_scout_commons_portrait.py"
+      - ".github/workflows/wildvox-commons-scout.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Checkout media history to prevent recycling previous clips
+        uses: actions/checkout@v4
+        with:
+          ref: media
+          path: media-branch
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Regression tests before network requests
+        run: |
+          python -m py_compile scripts/scout_commons_portrait.py
+          python -m unittest discover -s qa -p test_scout_commons_portrait.py -v
+      - name: Search Commons for verifiably free portrait cat videos
+        run: |
+          python scripts/scout_commons_portrait.py \
+            --media-dir media-branch \
+            --output commons_licensed_portrait_candidates.json
+      - name: Archive licensing candidates; not publishing approval
+        uses: actions/upload-artifact@v4
+        with:
+          name: commons-portrait-licensed-research
+          path: commons_licensed_portrait_candidates.json
+          retention-days: 7
