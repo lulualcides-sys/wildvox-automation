@@ -23,6 +23,15 @@ CATEGORIES = [
     "Category:Videos of sleeping cats",
     "Category:Videos of grooming cats",
     "Category:Videos of kittens",
+    # Distinct real-world footage collections omitted by the first search;
+    # target faces and everyday cat behavior, not animations.
+    "Category:Videos of cats looking at viewer",
+    "Category:Videos of kneading cats",
+    "Category:Videos of cats eating",
+    "Category:Videos of drinking cats",
+    "Category:Videos of black and white cats",
+    "Category:Videos of yawning cats",
+    "Category:Videos of jumping cats",
 ]
 ACCEPTED_LICENSE = re.compile(
     r"^(?:CC0(?: 1\.0)?|CC BY (?:1\.0|2\.0|2\.5|3\.0|4\.0)|Public domain)$",
