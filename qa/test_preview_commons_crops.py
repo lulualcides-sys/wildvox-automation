@@ -39,6 +39,27 @@ class RealFootageReviewTest(unittest.TestCase):
         sample[0]["source_status"] = "PUBLISHED"
         self.assertEqual(mod.selected(sample), [])
 
+    def test_uses_only_real_licensed_commons_transcodes(self):
+        rows = [
+            {"src": "https://upload.wikimedia.org/x/test.webm",
+             "transcodekey": "240p.vp9.webm"},
+            {"src": "https://upload.wikimedia.org/x/quality.webm",
+             "transcodekey": "480p.vp9.webm"},
+            {"src": "https://fake-cdn.example/hd.webm",
+             "transcodekey": "480p.vp9.webm"},
+        ]
+        url, key = mod.choose_transcode(rows)
+        self.assertTrue(url.endswith("quality.webm"))
+        self.assertEqual(key, "480p.vp9.webm")
+
+    def test_noncommons_or_nonvideo_derivative_rejected(self):
+        url, key = mod.choose_transcode([
+            {"src": "https://fake.example/x.webm", "transcodekey": "480p.vp9.webm"},
+            {"src": "https://upload.wikimedia.org/x/image.jpg", "transcodekey": "480p.jpg"},
+        ])
+        self.assertIsNone(url)
+        self.assertIsNone(key)
+
     def test_host_restriction(self):
         sample = [{"title": mod.PREFERRED[0],
                    "url": "https://example.org/pretend.webm",
