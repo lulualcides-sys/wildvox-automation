@@ -1,7 +1,14 @@
 name: WildVox - pacote gratuito Publer
 
 # Read-only report. No social network posting or Zapier use.
+# Auto-regenerate the copy-ready packet only after independent QA receipts land on main.
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'qa/reviews/**'
+      - 'scripts/publer_manual_packet.py'
+      - '.github/workflows/wildvox-publer-manual.yml'
   workflow_dispatch:
     inputs:
       key:
