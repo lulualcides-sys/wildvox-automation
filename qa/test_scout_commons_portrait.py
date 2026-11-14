@@ -43,6 +43,21 @@ class CommonsScoutTest(unittest.TestCase):
     def test_reject_unreviewed_landscape_filler(self):
         self.assertIsNone(mod.source_candidate(page(width=1920, height=1080), set()))
 
+    def test_landscape_video_only_as_pending_crop_review(self):
+        result = mod.source_candidate(
+            page(width=1920, height=1080), set(), include_crop_review=True)
+        self.assertIsNotNone(result)
+        self.assertTrue(result["crop_review_required"])
+        self.assertIsNone(result["allowed_crop"])
+        self.assertEqual(result["source_status"],
+                         "RESEARCH_ONLY_REQUIRES_VISUAL_CROP_REVIEW")
+
+    def test_landscape_with_sharealike_still_rejected(self):
+        result = mod.source_candidate(
+            page(width=1920, height=1080, license_="CC BY-SA 4.0"), set(),
+            include_crop_review=True)
+        self.assertIsNone(result)
+
     def test_reject_images_and_unknown_license(self):
         self.assertIsNone(mod.source_candidate(page(mime="image/jpeg"), set()))
         self.assertIsNone(mod.source_candidate(page(license_="Pixabay License"), set()))
