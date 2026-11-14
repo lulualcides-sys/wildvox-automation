@@ -1,183 +1,211 @@
 {
-  "gatos_paladar_sem_doce_nov12": {
-    "title": "Por que gatos não sentem o doce como nós?",
-    "script": "Por que gatos podem ignorar uma sobremesa que parece deliciosa para nós? A resposta não é falta de paladar: eles percebem outros sabores normalmente. Em humanos, duas proteínas trabalham juntas para detectar açúcar: T um R dois e T um R três. Nos gatos, o gene de uma delas não funciona. Sem essa parte, o receptor do doce não se forma. Pesquisas encontraram uma perda semelhante em outros carnívoros especializados em carne. A revelação: diante do mesmo açúcar, o gato não recebe o sinal doce que sentimos.",
-    "caption": "Você sabia? Gatos não formam o receptor funcional do sabor doce como nós. A causa está no gene TAS1R2, estudado em pesquisas científicas. As cenas são ilustrativas: não ofereça doces aos animais. #WildVox #Gatos #CuriosidadesDosGatos #Zoologia #Biologia #Paladar",
+  "gatos_piscar_lento_comunicacao_nov14": {
+    "title": "O piscar lento dos gatos é uma forma de comunicação?",
+    "script": "Você já tentou piscar devagar para um gato? Parece um gesto simples, mas pesquisadores testaram isso. Quando tutores fizeram a sequência de olhos semicerrados e piscadas lentas, os gatos estreitaram os olhos com mais frequência do que sem interação. Em outro teste, eles se aproximaram mais de uma pessoa desconhecida depois desse gesto do que diante de um rosto neutro. O movimento pode funcionar como um sinal visual de interação positiva. Mas atenção: uma piscada isolada não prova amor ou confiança. A descoberta é outra: gatos podem responder aos nossos movimentos faciais de um jeito mensurável.",
+    "caption": "Quando um humano pisca devagar para um gato, ele pode responder com os próprios olhos? Pesquisas compararam essas interações com condições neutras e observaram diferenças. Uma piscada isolada não prova amor. Cenas ilustrativas de gatos reais, não dos experimentos. #WildVox #CuriosidadesDosGatos #Gatos #ComportamentoFelino #Biologia",
     "sources": [
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitten%20playing%20-%20Tokyo%20-%20Jan%207%202020.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-15%20LJUBLJANA%20doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%203.webm",
         "type": "video",
-        "assetTitle": "Kitten playing - Tokyo - Jan 7 2020.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Kitten_playing_-_Tokyo_-_Jan_7_2020.webm",
+        "assetTitle": "2022-09-15 LJUBLJANA doma CARNIVORA Felis catus DOMAČA MAČKA 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-15_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm",
         "tags": [
-          "cat_playing"
-        ],
-        "author": "Nesnad",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20in%20a%20Bag.webm",
-        "type": "video",
-        "assetTitle": "Cat in a Bag.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_in_a_Bag.webm",
-        "tags": [
-          "cat_peek"
-        ],
-        "author": "Roger Braunstein",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moomin1.webm",
-        "type": "video",
-        "assetTitle": "Moomin1.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Moomin1.webm",
-        "tags": [
-          "cat_playing"
-        ],
-        "author": "User:Tet",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Koetjing%20gweh%2C%20Cito.webm",
-        "type": "video",
-        "assetTitle": "Koetjing gweh, Cito.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Koetjing_gweh%2C_Cito.webm",
-        "tags": [
-          "cat_closeup"
-        ],
-        "author": "Gabpzxs",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
-      },
-      {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Andra%20and%20Billy.webm",
-        "type": "video",
-        "assetTitle": "Andra and Billy.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Andra_and_Billy.webm",
-        "tags": [
+          "cat_face_close",
+          "cat_eyes_visible",
           "cat_home"
         ],
-        "author": "Joaquim Baeta",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Self-published original in Commons, user Spontaneous Symmetry, exact CC BY 4.0; visual review required; adapted/cropped captions in final."
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+        "portrait_crop": "9:16"
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Larry%20the%20cat%20and%20Chlo%C3%A9%20playing%20(100111224612).webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-19%20LJUBLJANA%20Doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%203.webm",
         "type": "video",
-        "assetTitle": "Larry the cat and Chloé playing (100111224612).webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Larry_the_cat_and_Chlo%C3%A9_playing_(100111224612).webm",
+        "assetTitle": "2022-10-19 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-19_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm",
         "tags": [
-          "cat_social_play"
+          "cat_resting",
+          "cat_eyes_visible",
+          "cat_home"
         ],
-        "author": "Trougnouf",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+        "portrait_crop": "9:16"
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cat%20playing%20in%20Taiwan.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-10-01%20LJUBLJANA%20doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%204.webm",
         "type": "video",
-        "assetTitle": "Cat playing in Taiwan.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Cat_playing_in_Taiwan.webm",
+        "assetTitle": "2022-10-01 LJUBLJANA doma CARNIVORA Felis catus DOMAČA MAČKA 4.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-10-01_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_4.webm",
         "tags": [
-          "cat_playing"
+          "cat_resting",
+          "cat_eyes_visible",
+          "cat_home"
         ],
-        "author": "MiNe",
-        "license": "CC BY 2.0",
-        "license_url": "https://creativecommons.org/licenses/by/2.0/",
-        "license_note": "Página original e três frames genuínos verificados em 12/11/2026; vídeo final ainda exige revisão independente; fonte adaptada/cortada/legendada."
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+        "portrait_crop": "9:16"
       },
       {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Black%20Cat%20walking.webm",
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-25%20LJUBLJANA%20doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%203.webm",
         "type": "video",
-        "assetTitle": "Black Cat walking.webm",
-        "sourcePage": "https://commons.wikimedia.org/wiki/File:Black_Cat_walking.webm",
+        "assetTitle": "2022-09-25 LJUBLJANA doma CARNIVORA Felis catus DOMAČA MAČKA 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-25_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm",
         "tags": [
-          "cat_walk"
+          "cat_dark_face",
+          "cat_eyes_visible",
+          "cat_home"
         ],
-        "author": "Dzkouslavia",
-        "license": "CC0",
-        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "license_note": "Self-published original author Dzkouslavia CC0; visual review required."
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+        "portrait_crop": "9:16"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-22%20MIRKE%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%203.webm",
+        "type": "video",
+        "assetTitle": "2022-09-22 MIRKE CARNIVORA Felis catus DOMAČA MAČKA 3.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-22_MIRKE_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_3.webm",
+        "tags": [
+          "cat_outdoors",
+          "cat_face_visible",
+          "cat_eyes_visible"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+        "portrait_crop": "9:16"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-21%20LJUBLJANA%20doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%204.webm",
+        "type": "video",
+        "assetTitle": "2022-09-21 LJUBLJANA doma CARNIVORA Felis catus DOMAČA MAČKA 4.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-21_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_4.webm",
+        "tags": [
+          "cat_outdoors",
+          "cat_face_visible",
+          "cat_eyes_visible"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+        "portrait_crop": "9:16"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-05%20LJUBLJANA%20Doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA.webm",
+        "type": "video",
+        "assetTitle": "2022-09-05 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-05_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA.webm",
+        "tags": [
+          "cat_dark_face",
+          "cat_eyes_visible",
+          "cat_home"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+        "portrait_crop": "9:16"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-09-12%20LJUBLJANA%20doma%20CARNIVORA%20Felis%20catus%20DOMA%C4%8CA%20MA%C4%8CKA%208.webm",
+        "type": "video",
+        "assetTitle": "2022-09-12 LJUBLJANA doma CARNIVORA Felis catus DOMAČA MAČKA 8.webm",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:2022-09-12_LJUBLJANA_doma_CARNIVORA_Felis_catus_DOMA%C4%8CA_MA%C4%8CKA_8.webm",
+        "tags": [
+          "cat_outdoors",
+          "cat_face_visible",
+          "cat_eyes_visible"
+        ],
+        "author": "NaIzletuSi ™",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "license_note": "Oito arquivos de vídeo originais distintos, autoria/licença conferidas via Wikimedia Commons API em 14/11/2026; quadros reais do original e prévia de recorte examinados em quatro tempos por arquivo. Recorte central 9:16 provisório para RENDER DE QA: exigir inspeção do trecho inteiro e do ZIP original MP4 antes de APPROVE. Vídeos adaptados/cortados/legendados; imagens são ilustrativas e não mostram os experimentos descritos.",
+        "portrait_crop": "9:16"
       }
     ],
-    "min_unique_videos": 6,
+    "min_unique_videos": 8,
     "target_shot_seconds": 7,
     "max_shot_seconds": 8,
     "max_freeze_seconds": 0.8,
     "min_duration": 30,
     "max_duration": 45,
-    "revision": "2026-11-12-gatos_paladar_sem_doce-nov12-v3",
+    "revision": "2026-11-14-gatos_piscar_lento-comunicacao-v1",
     "publication_hold": true,
     "visual_plan": [
       {
-        "text": "Por que gatos podem ignorar uma sobremesa que parece deliciosa para nós?",
-        "scene": "Filhote de gato real brincando, sem exposição a alimentos açucarados; pergunta é científica e não uma alegação sobre o clipe.",
-        "tags": [
-          "cat_playing"
-        ],
+        "text": "Você já tentou piscar devagar para um gato? Parece um gesto simples, mas pesquisadores testaram isso.",
         "story_role": "hook",
-        "overlay_label": "GATOS SENTEM DOCE?",
+        "scene": "Close de gato doméstico real, olhos visíveis; pergunta científica sem afirmar que o animal foi testado.",
+        "overlay_label": "GATOS RESPONDEM À PISCADA?",
+        "tags": [
+          "cat_face_close",
+          "cat_eyes_visible"
+        ],
         "fx": []
       },
       {
-        "text": "A resposta não é falta de paladar: eles percebem outros sabores normalmente.",
-        "scene": "Gato adulto examinando um saco, b-roll ilustrativo, sem atribuir reação sensorial à cena.",
+        "text": "Quando tutores fizeram a sequência de olhos semicerrados e piscadas lentas, os gatos estreitaram os olhos com mais frequência do que sem interação.",
+        "story_role": "setup",
+        "scene": "Gatos reais repousando de olhos visíveis; legenda destaca que resultados de estreitamento ocular vieram de experimentos científicos externos a esses clipes.",
+        "overlay_label": "PISCAR É UM SINAL VISUAL",
         "tags": [
-          "cat_peek"
+          "cat_resting",
+          "cat_eyes_visible"
         ],
+        "fx": []
+      },
+      {
+        "text": "Em outro teste, eles se aproximaram mais de uma pessoa desconhecida depois desse gesto do que diante de um rosto neutro.",
         "story_role": "action",
-        "overlay_label": "PALADAR NÃO SUMIU",
+        "scene": "Filmagens originais de gatos domésticos em ambiente externo; a comparação com rosto humano neutro é informação do estudo, nunca representada como experimento filmado.",
+        "overlay_label": "MAIS OLHOS SEMICERRADOS",
+        "tags": [
+          "cat_outdoors",
+          "cat_face_visible"
+        ],
         "fx": []
       },
       {
-        "text": "Em humanos, duas proteínas trabalham juntas para detectar açúcar: T um R dois e T um R três.",
-        "scene": "Gatos reais brincando ou explorando interior; legenda explicativa T1R2 + T1R3 informa mecanismo e não afirma que a filmagem exibe proteínas.",
-        "tags": [
-          "cat_playing",
-          "cat_home"
-        ],
+        "text": "O movimento pode funcionar como um sinal visual de interação positiva.",
         "story_role": "explanation",
-        "overlay_label": "T1R2 + T1R3",
+        "scene": "Rosto real de gato visível, anotação 'SINAL VISUAL' apenas informativa; não atribuir estados internos ao animal.",
+        "overlay_label": "PESSOA DESCONHECIDA",
+        "tags": [
+          "cat_dark_face",
+          "cat_eyes_visible"
+        ],
         "fx": []
       },
       {
-        "text": "Nos gatos, o gene de uma delas não funciona. Sem essa parte, o receptor do doce não se forma.",
-        "scene": "Close real do rosto de um gato e b-roll doméstico; rótulo educativo TAS1R2 não funcional, sem filmagem microscópica falsa.",
-        "tags": [
-          "cat_closeup",
-          "cat_home"
-        ],
-        "story_role": "explanation",
-        "overlay_label": "TAS1R2 NÃO FUNCIONA",
-        "fx": []
-      },
-      {
-        "text": "Pesquisas encontraram uma perda semelhante em outros carnívoros especializados em carne.",
-        "scene": "Dois gatos reais brincando, imagem apenas ilustrativa dos felinos; não inventar imagens de outros carnívoros nem inferir genoma visualmente.",
-        "tags": [
-          "cat_social_play"
-        ],
+        "text": "Mas atenção: uma piscada isolada não prova amor ou confiança.",
         "story_role": "twist",
-        "overlay_label": "OUTROS CARNÍVOROS",
+        "scene": "Gato real visto de frente ou perfil; texto 'NÃO PROVA AMOR' evita inferir emoção a partir de B-roll.",
+        "overlay_label": "NÃO PROVA AMOR",
+        "tags": [
+          "cat_outdoors",
+          "cat_face_visible"
+        ],
         "fx": []
       },
       {
-        "text": "A revelação: diante do mesmo açúcar, o gato não recebe o sinal doce que sentimos.",
-        "scene": "Gato preto real caminhando, com narração sobre diferença de sinal gustativo; as imagens não demonstram paladar molecular. Evitar narrar movimentos.",
-        "tags": [
-          "cat_walk"
-        ],
+        "text": "A descoberta é outra: gatos podem responder aos nossos movimentos faciais de um jeito mensurável.",
         "story_role": "payoff",
-        "overlay_label": "DOCE É DIFERENTE PARA GATOS",
+        "scene": "Rosto real de gato doméstico para concluir comparação científica. Sem alegar que o indivíduo participou das pesquisas.",
+        "overlay_label": "COMUNICAÇÃO MENSURÁVEL",
+        "tags": [
+          "cat_face_close",
+          "cat_eyes_visible"
+        ],
         "fx": []
       }
     ],
@@ -185,23 +213,23 @@
     "language": "pt-BR",
     "voice": "pm_alex",
     "curiosity_fact_sheet": {
-      "hook_question": "Por que os gatos não reconhecem a doçura da mesma forma que os humanos?",
-      "verified_fact": "O gene felino TAS1R2 é um pseudogene sem expressão funcional; o receptor heteromérico de sabor doce normalmente associado a T1R2 e T1R3 não se forma em gatos.",
-      "biological_explanation": "O receptor do sabor doce em muitos mamíferos depende de T1R2 e T1R3; quando a parte T1R2 não é funcional nos gatos, o estímulo doce não é detectado de maneira equivalente à dos humanos.",
-      "comparison_or_consequence": "Estudos com outros carnívoros especializados em carne encontraram perdas independentes do gene TAS1R2; gatos continuam capazes de detectar outros estímulos gustativos, mas não a doçura como humanos.",
-      "visual_evidence_strategy": "Oito vídeos reais inéditos de gatos, escolhidos com páginas Commons licenciadas CC0 ou CC BY e revisão visual. A filmagem ilustra felinos reais sem afirmar teste de paladar; rótulos T1R2/T1R3 e TAS1R2 explicam mecanismo segundo fontes científicas originais. Nada gerado artificialmente.",
+      "hook_question": "Por que gatos respondem ao piscar lento de pessoas?",
+      "verified_fact": "Em dois experimentos publicados em Scientific Reports (2020), gatos aumentaram o estreitamento ocular diante de estímulos humanos de piscar lento e tiveram maior propensão de aproximação após essa interação do que na condição neutra.",
+      "biological_explanation": "A sequência de meios-piscares e estreitamento prolongado dos olhos pode integrar um sinal visual de interação entre espécies. O comportamento observado é experimental, não prova um estado emocional individual nem sua origem evolutiva.",
+      "comparison_or_consequence": "Diante de humanos com expressão neutra ou sem interação, as respostas dos gatos diferiram; um estudo independente em abrigo associou respostas de fechamento ocular ao tempo até adoção, sem provar causalidade.",
+      "visual_evidence_strategy": "Exigir oito vídeos originais distintos de gatos com rosto e olhos reais; close só quando efetivamente visível. Rótulos com resultados científicos identificados como didáticos. Nenhum gato em filme de arquivo deve ser tratado como participante desses experimentos. Evitar fundo desfocado e recortes sem revisão completa.",
       "fact_sources": [
         {
-          "claim": "Gatos possuem Tas1r2 não funcional, sem formação do receptor de doçura com T1R3.",
-          "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0010003",
-          "publisher": "PLOS Genetics",
-          "reference_title": "Pseudogenization of a Sweet-Receptor Gene Accounts for Cats' Indifference toward Sugar"
+          "claim": "Comparações experimentais de piscar lento humano versus condições neutra/sem interação, estreitamento dos olhos e aproximação.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7536207/",
+          "publisher": "Scientific Reports / Nature Portfolio",
+          "reference_title": "The role of cat eye narrowing movements in cat–human communication"
         },
         {
-          "claim": "Sete outras espécies carnívoras altamente especializadas apresentam pseudogenização independente de TAS1R2.",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/22411809/",
-          "publisher": "Proceedings of the National Academy of Sciences (PNAS)",
-          "reference_title": "Major taste loss in carnivorous mammals"
+          "claim": "Em estudo observacional com 18 gatos de abrigo, maior resposta de fechamento ocular foi associada a menor tempo até adoção; resultados não demonstram causalidade.",
+          "url": "https://www.mdpi.com/2076-2615/10/12/2256",
+          "publisher": "Animals / MDPI",
+          "reference_title": "Slow Blink Eye Closure in Shelter Cats Is Related to Quicker Adoption"
         }
       ]
     }
