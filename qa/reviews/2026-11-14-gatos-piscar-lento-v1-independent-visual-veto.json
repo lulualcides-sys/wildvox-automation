@@ -1,0 +1,60 @@
+{
+  "day_local": "2026-11-14",
+  "candidate_key": "gatos_piscar_lento_comunicacao_nov14",
+  "revision": "2026-11-14-gatos_piscar_lento-comunicacao-v1",
+  "decision": "REJECT",
+  "publication_hold": true,
+  "network": "tiktok",
+  "account": "@wildvox",
+  "github_actions_run_id": 43597518796,
+  "github_original_zip_artifact_id": 14115277405,
+  "media_sha256": "2628c34ed1e8ee886d95e72ad64cd84e4d53c3e3716c262ddf2df9653554e3b9",
+  "git_blob_mp4": "1a2737c1c4bd10f71f7eb6ac43dd91c292792b6f",
+  "config_sha256": "7f1ad098298c6de97f079ed7664eacc7244cea718d7de11639d015077353c64e",
+  "mp4_seconds": 36.75,
+  "mp4_technical": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_sample_rate": 24000,
+    "technical_qa_conclusion": "success",
+    "editorial_approved": false
+  },
+  "review_method": "Downloaded exact original GitHub Actions artifact ZIP; opened genuine _review.jpg, eight _source_XX_preview.jpg, frame-decoded 1Hz samples of final MP4 for 1-36 seconds; checked all six spoken segments and metadata for species/story labels and overall portrait visual quality.",
+  "evidence": [
+    {
+      "seconds": "0-6",
+      "issue": "FAIL. Very tight 9:16 crop creates repeated shots of cat fur and partial eye, no clear readable cat face/eyes for opening scientific slow-blink question. Low compositional quality."
+    },
+    {
+      "seconds": "12-15",
+      "issue": "FAIL. Another excessive close crop obscures most of face; eye visibility insufficient to support slow-blink story visually."
+    },
+    {
+      "seconds": "15-22",
+      "issue": "Review. White-black cat in garden and gray tabby frames; fit is okay but illustrative only; original clips did not depict experimental researchers."
+    },
+    {
+      "seconds": "22-27",
+      "issue": "Review. Dark tight close-up cat eyes; legible but poor scene variation."
+    },
+    {
+      "seconds": "28-31",
+      "issue": "Review. Gray tabby heavily cropped/moves partly out of frame."
+    },
+    {
+      "seconds": "32-36",
+      "issue": "Review. Black cat with visible eyes then yawn; illustration cannot be interpreted as slow-blink response."
+    },
+    {
+      "seconds": "15-27",
+      "issue": "FAIL editorial labels: 'MAIS OLHOS SEMICERRADOS' aligned with stranger approach segment, 'PESSOA DESCONHECIDA' aligned with hypothesis about positive visual signals. Need semantic correction."
+    }
+  ],
+  "independent_full_audio_language_audition": false,
+  "final_approval": false,
+  "replacement_pr": 37,
+  "notes": "No TikTok/Publer release, no publication. Original v1 replaced by revised factual v2; inspect full v2 original ZIP independently and do not inherit approval from this rejected technical render."
+}
