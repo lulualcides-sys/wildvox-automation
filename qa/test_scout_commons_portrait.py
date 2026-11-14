@@ -64,6 +64,18 @@ class CommonsScoutTest(unittest.TestCase):
         original["imageinfo"][0]["extmetadata"]["LicenseUrl"]["value"] = ""
         self.assertIsNone(mod.source_candidate(original, set()))
 
+    def test_common_api_rate_limit_stops_without_accepting_video(self):
+        from urllib.error import HTTPError
+        from unittest.mock import patch
+        too_many = HTTPError(
+            "https://commons.wikimedia.org/w/api.php", 429,
+            "Too Many Requests", {"Retry-After": "120"}, None
+        )
+        with patch.object(mod, "urlopen", side_effect=too_many):
+            with patch.object(mod.time, "sleep"):
+                with self.assertRaises(mod.CommonsRateLimited):
+                    mod.api({"action": "query"})
+
     def test_historical_sources_with_bare_strings_and_dict_values(self):
         import json
         with tempfile.TemporaryDirectory() as d:
