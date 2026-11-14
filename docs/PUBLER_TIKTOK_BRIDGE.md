@@ -1,13 +1,13 @@
 # WildVox: GitHub → Zapier → Publer → TikTok @wildvox
 
-Status: **not connected**. This is a safe release bridge, not an assertion that any TikTok post has been published. Until the owner finishes OAuth and a real end-to-end test, leave \`WILDVOX_PUBLER_ENABLED\` unset.
+Status: **not connected**. This is a safe release bridge, not an assertion that any TikTok post has been published. Until the owner finishes OAuth and a real end-to-end test, leave `WILDVOX_PUBLER_ENABLED` unset.
 
 ## Why this route?
 
 Publer Free supports 3 social accounts and 10 queued posts per social account, replenished as posts publish. Its REST API, however, requires eligible Business/Enterprise accounts. Instead of inventing an API key on Free or paying for "Webhooks by Zapier", we can use a **two-step Zap**:
 
-1. Trigger: **GitHub → New Issue**, repo \`lulualcides-sys/wildvox-automation\`, filter label **\`wildvox-publer-ready\`**.
-2. Action: **Publer → Add Post to Queue / Auto Schedule**, account TikTok **exactly \`@wildvox\`**. Map:
+1. Trigger: **GitHub → New Issue**, repo `lulualcides-sys/wildvox-automation`, filter label **`wildvox-publer-ready`**.
+2. Action: **Publer → Add Post to Queue / Auto Schedule**, account TikTok **exactly `@wildvox`**. Map:
    - **Media / video URL** ← GitHub Issue **Title** (the canonical public MP4 URL, and nothing else).
    - **Text / caption** ← GitHub Issue **Body** (complete, verified creator and license credits).
    - Provider: **TikTok only**. Publish: **Post Automatically**, not "Get a reminder".
@@ -20,25 +20,25 @@ Configure the Publer TikTok account's **Posting Schedule** for America/Sao_Paulo
 Sources:
 - https://publer.com/help/en/article/what-is-included-in-publer-free-dliovh
 - https://publer.com/help/en/article/how-to-connect-to-zapier-and-automate-your-workflows-18mun8n/
-- https://publer.com/help/en/article/how-to-directly-post-tiktok-videos-1vpkmcs/
+- https://publer.com/help/en/article/1vpkmcs/
 - https://help.zapier.com/hc/en-us/articles/32337438839565-What-s-included-in-Zapier-s-Free-plan
 - https://zapier.com/apps/github/integrations
 
 ## GitHub setup and controls
 
-After connecting Publer + TikTok and **testing the Zap mapping with a non-public test post**, set this repository's **Settings → Secrets and variables → Actions → Variables → \`WILDVOX_PUBLER_ENABLED=true\`**. This repository variable is intentionally absent by default.
+After connecting Publer + TikTok and **testing the Zap mapping with a non-public test post**, set this repository's **Settings → Secrets and variables → Actions → Variables → `WILDVOX_PUBLER_ENABLED=true`**. This repository variable is intentionally absent by default.
 
-The already existing workflow \`.github/workflows/wildvox-publer-zapier.yml\` will then check the current batch periodically. On a real, exact-match editorial receipt, it creates **one GitHub Issue** containing only the canonical video URL (title) and full caption (body). The issue label is created by the workflow if needed.
+The already existing workflow `.github/workflows/wildvox-publer-zapier.yml` will then check the current batch periodically. On a real, exact-match editorial receipt, it creates **one GitHub Issue** containing only the canonical video URL (title) and full caption (body). The issue label is created by the workflow if needed.
 
-Never connect the Zap to all GitHub issues; filter by **\`wildvox-publer-ready\`**, otherwise unrelated issues could become TikTok posts.
+Never connect the Zap to all GitHub issues; filter by **`wildvox-publer-ready`**, otherwise unrelated issues could become TikTok posts.
 
-The Python gate \`scripts/publer_handoff.py\` checks:
+The Python gate `scripts/publer_handoff.py` checks:
 - Today's revision and 30–45s content, at most 5 distinct candidates
 - pt-BR Kokoro pm_alex, >=8 video sources and scientific fact sheet
-- Original \`media\` branch MP4, metadata, review and full attributed caption
-- SHA256 MP4, \`git hash-object\` and canonical editorial config fingerprint
-- Exactly one current-day approval receipt with GitHub run ID, original ZIP ID, factual/editorial checks **and explicit \`editorial_checks.visual_quality_approved=true\`**
-- Never removes \`publication_hold=true\` from original editorial config
+- Original `media` branch MP4, metadata, review and full attributed caption
+- SHA256 MP4, `git hash-object` and canonical editorial config fingerprint
+- Exactly one current-day approval receipt with GitHub run ID, original ZIP ID, factual/editorial checks **and explicit `editorial_checks.visual_quality_approved=true`**
+- Never removes `publication_hold=true` from original editorial config
 - Prevents a duplicate GitHub Issue for an identical media URL; no older MP4/day is reused
 - Refuses release if today's five authorized slots have already passed
 
