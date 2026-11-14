@@ -64,6 +64,21 @@ class CommonsScoutTest(unittest.TestCase):
         original["imageinfo"][0]["extmetadata"]["LicenseUrl"]["value"] = ""
         self.assertIsNone(mod.source_candidate(original, set()))
 
+    def test_historical_sources_with_bare_strings_and_dict_values(self):
+        import json
+        with tempfile.TemporaryDirectory() as d:
+            folder = pathlib.Path(d)
+            (folder / "str_meta.json").write_text(json.dumps({
+                "sources": ["https://commons.wikimedia.org/wiki/Special:FilePath/Old%20Cat.webm"]
+            }))
+            (folder / "dict_meta.json").write_text(json.dumps({
+                "sources": {"a": {"assetTitle": "Other cat.webm"}, "b": "Third cat.webm"}
+            }))
+            used = mod.previously_used(folder)
+            self.assertIn("old cat.webm", used)
+            self.assertIn("other cat.webm", used)
+            self.assertIn("third cat.webm", used)
+
     def test_used_source_history_from_prior_media_branch(self):
         import json
         with tempfile.TemporaryDirectory() as d:
