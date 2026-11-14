@@ -1,0 +1,139 @@
+{
+  "review_date_local": "2026-11-14",
+  "account": "@wildvox",
+  "status": "SAMPLED_REAL_FRAME_REVIEW_NOT_VIDEO_APPROVAL",
+  "scientific_candidate": "research/2026-11-14-cat-slow-blink-curiosity.json",
+  "commons_license_scout_run_id": 43593019085,
+  "commons_research_artifact_id": 14112834321,
+  "original_frame_preview_run_id": 43593304691,
+  "original_frame_preview_artifact_id": 14113830385,
+  "source_preview_basis": "four authentic video frame samples per successful file around 0.8s, 2.8s, 4.8s, 7s, comparing original and simulated static center 9:16 crop; samples from Commons originals or official Commons transcodes, not full original frame-by-frame inspection",
+  "notes": "All sources carry preliminary Commons CC0/PD/CC BY metadata; link and attribution are not proof of scene authenticity or subject-safe full footage. Never use animation, third-party advertisement, archive montage, or cropped-out cat as factual B-roll. No autoapproval; research only.",
+  "sources": [
+    {
+      "title": "Amelia -cat purrs and kneads.webm",
+      "screened_frame_count": 4,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amelia_-cat_purrs_and_kneads.webm",
+      "review_status": "PROMISING_BROLL_NOT_APPROVED",
+      "observation": "Square real cat close-up, visible face and narrowing eyes in sampled 0.8,2.8,4.8,7.0s; 9:16 center crop retains head; must still inspect full selected duration, rights, audio and repeat check.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    },
+    {
+      "title": "Salto - Cat Jump.webm",
+      "screened_frame_count": 4,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Salto_-_Cat_Jump.webm",
+      "review_status": "REJECT_FOR_SLOW_BLINK",
+      "observation": "Outdoor sky/buildings dominate; cat small and airborne in some frames; no informative eye closeup.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    },
+    {
+      "title": "Black and white cat growl and hiss 2.webm",
+      "screened_frame_count": 4,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_and_white_cat_growl_and_hiss_2.webm",
+      "review_status": "PROMISING_BROLL_NOT_APPROVED",
+      "observation": "Real black-and-white cat face centered in four sampled frames; sharp eye detail; no claim that this cat was part of experiments or that any hiss was observed.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    },
+    {
+      "title": "Black and white cat growl and hiss.webm",
+      "screened_frame_count": 4,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Black_and_white_cat_growl_and_hiss.webm",
+      "review_status": "REJECT_FOR_SLOW_BLINK",
+      "observation": "Likely same animal as other clip, face cut at right edge of proposed 9:16 crop; potential near-duplicate visual, full fingerprint not established.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    },
+    {
+      "title": "Cat reacting to a fish tank.webm",
+      "screened_frame_count": 4,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cat_reacting_to_a_fish_tank.webm",
+      "review_status": "LOW_RELEVANCE_NO_APPROVAL",
+      "observation": "Cat behind aquarium/glass/foliage, face small and obscured; no verified slow-blink action.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    },
+    {
+      "title": "Кошенят підгодовують.webm",
+      "screened_frame_count": 4,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Кошенят_підгодовують.webm",
+      "review_status": "ILLUSTRATIVE_ONLY_NOT_APPROVED",
+      "observation": "Real group of kittens eating outside; center crop keeps multiple kittens but not visible eye communication; visual scientifically irrelevant beyond generic domestic cat.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    },
+    {
+      "title": "Buddy the Dog & Socks the Cat.webm",
+      "screened_frame_count": 0,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Buddy_the_Dog_&_Socks_the_Cat.webm",
+      "review_status": "NO_FRAMES_REVIEWED",
+      "observation": "Review transcode exceeded preview 60MiB download cap; no frame inspection; cannot use.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    },
+    {
+      "title": "Cat discovers it was being spied on.webm",
+      "screened_frame_count": 4,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cat_discovers_it_was_being_spied_on.webm",
+      "review_status": "ILLUSTRATIVE_ONLY_NOT_APPROVED",
+      "observation": "Real cat visible outside a window in native portrait, small in frame; eye mechanism not discernible; duration ~7.9 seconds before shot edits.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    },
+    {
+      "title": "Fur Lickers.webm",
+      "screened_frame_count": 4,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fur_Lickers.webm",
+      "review_status": "CROP_SUBJECT_PARTIALLY_OUT_OF_FRAME",
+      "observation": "Real cats on couch/chair; 9:16 center crop omits part of faces/bodies across sampled frames; limited use only after reframing review.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    },
+    {
+      "title": "2022-10-18 LJUBLJANA Doma CARNIVORA Felis catus DOMAČA MAČKA 4.webm",
+      "screened_frame_count": 4,
+      "source_page": "https://commons.wikimedia.org/wiki/File:2022-10-18_LJUBLJANA_Doma_CARNIVORA_Felis_catus_DOMAČA_MAČKA_4.webm",
+      "review_status": "CROP_AND_DARKNESS_REVIEW_REQUIRED",
+      "observation": "Real dark cat, face partially within crop; poor illumination, not a reliable eye-closeup.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    },
+    {
+      "title": "Fox Dark - Cat (2017).webm",
+      "screened_frame_count": 4,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fox_Dark_-_Cat_(2017).webm",
+      "review_status": "REJECT_ANIMATION",
+      "observation": "Cartoon/animated imagery rather than authentic feline B-roll.",
+      "independent_full_clip_qa": false,
+      "allowed_portrait_crop": null,
+      "publication_approval": false
+    }
+  ],
+  "status_summary": {
+    "promising_broll_sources": 2,
+    "other_illustrative_unapproved": 2,
+    "other_broll_requires_review": 2,
+    "rejected_or_failed": 5
+  },
+  "production_gate": {
+    "minimum_unique_video_sources": 8,
+    "full_video_visual_inspection_required": true,
+    "license_verified_in_original_pages": false,
+    "ready_for_daily_json": false,
+    "ready_for_render": false,
+    "approved_mp4_count": 0,
+    "published_count": 0
+  }
+}
