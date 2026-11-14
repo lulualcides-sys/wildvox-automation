@@ -114,7 +114,7 @@ def author_text(value):
     return html.unescape(re.sub(r"<[^>]+>", "", value or "")).strip()
 
 
-def source_candidate(page, used):
+def source_candidate(page, used, include_crop_review=False):
     if not page.get("title", "").startswith("File:"):
         return None
     infos = page.get("imageinfo") or []
@@ -128,13 +128,17 @@ def source_candidate(page, used):
     if not ACCEPTED_LICENSE.fullmatch(license_name):
         return None
     width, height = int(entry.get("width") or 0), int(entry.get("height") or 0)
-    if width < 300 or height < 450:
+    if width < 640 or height < 360:
         return None
-    # The renderer's no-blur rule needs >=90% authentic sharp footage.
+    # Background-blur is never an acceptable automatic substitute for a
+    # real portrait reframing. Horizontal footage is only a REVIEW prospect:
+    # it must be independently previewed and an explicit subject-safe crop
+    # selected before a production video may be rendered.
     portrait_fraction = min(
         (width / height) / (9 / 16), (9 / 16) / (width / height)
     )
-    if portrait_fraction < .90:
+    crop_review_required = portrait_fraction < .90
+    if crop_review_required and not include_crop_review:
         return None
     original = entry.get("url") or ""
     if not original or canonical_source(original) in used:
@@ -160,7 +164,11 @@ def source_candidate(page, used):
         "height": height,
         "foreground_fraction": round(portrait_fraction, 3),
         "file_size": entry.get("size"),
-        "source_status": "RESEARCH_ONLY_NOT_VISUALLY_APPROVED",
+        "crop_review_required": crop_review_required,
+        "allowed_crop": None,
+        "source_status": ("RESEARCH_ONLY_REQUIRES_VISUAL_CROP_REVIEW"
+                          if crop_review_required else
+                          "RESEARCH_ONLY_NOT_VISUALLY_APPROVED"),
     }
 
 
@@ -194,14 +202,16 @@ def search_cat_titles(max_results=250):
     return sorted(seen)[:max_results]
 
 
-def verify_titles(titles, used):
+def verify_titles(titles, used, include_crop_review=False):
     choices = []
     for start in range(0, len(titles), 30):
         response = api({"action": "query", "titles": "|".join(titles[start:start+30]),
                         "prop": "imageinfo",
                         "iiprop": "url|mime|size|extmetadata"})
         for page in (response.get("query") or {}).get("pages", []):
-            candidate = source_candidate(page, used)
+            candidate = source_candidate(
+                page, used, include_crop_review=include_crop_review
+            )
             if candidate:
                 choices.append(candidate)
     return sorted(choices, key=lambda x: (-x["foreground_fraction"],
@@ -211,6 +221,10 @@ def verify_titles(titles, used):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--media-dir", default="media-branch")
+    ap.add_argument(
+        "--include-crop-review", action="store_true",
+        help="List horizontal CC0/CC BY footage only as unapproved crop-review candidates"
+    )
     ap.add_argument("--output", default="commons_licensed_portrait_candidates.json")
     args = ap.parse_args()
     seen = previously_used(Path(args.media_dir))
@@ -218,7 +232,9 @@ def main():
     error = None
     try:
         titles = search_cat_titles()
-        matches = verify_titles(titles, seen)
+        matches = verify_titles(
+            titles, seen, include_crop_review=args.include_crop_review
+        )
     except CommonsRateLimited as exc:
         titles, matches = [], []
         status = "BLOCKED_EXTERNAL_COMMONS_HTTP_429"
@@ -229,7 +245,12 @@ def main():
         "source": "Wikimedia Commons live API",
         "searched_video_files": len(titles),
         "previously_used_original_filenames": len(seen),
-        "new_eligible_portrait_sources": len(matches),
+        "new_eligible_portrait_sources": sum(
+            not item["crop_review_required"] for item in matches
+        ),
+        "new_crop_review_only_sources": sum(
+            item["crop_review_required"] for item in matches
+        ),
         "ready_to_render": False,
         "candidates": matches,
     }
@@ -241,10 +262,15 @@ def main():
         print(json.dumps({k: entry[k] for k in (
             "title", "sourcePage", "license", "author", "width", "height",
             "foreground_fraction")}, ensure_ascii=False))
+    unapproved_crop = sum(item["crop_review_required"] for item in matches)
+    print("Source triage:", len(matches)-unapproved_crop,
+          "portrait-native and", unapproved_crop, "crop-review-only.")
     if len(matches) < 8:
-        print("BLOCK: fewer than 8 unreviewed eligible originals; do not render.")
+        print("BLOCK: fewer than 8 license-eligible distinct prospects; do not render.")
+    elif unapproved_crop:
+        print("BLOCK: landscape candidates need actual frame-by-frame subject-safe crop review.")
     else:
-        print("Sources found, but original pages and video frames still need manual review.")
+        print("Source prospects need independent visual footage review; not ready to render.")
     return 0
 
 

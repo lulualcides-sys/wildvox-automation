@@ -42,6 +42,7 @@ jobs:
         run: |
           python scripts/scout_commons_portrait.py \
             --media-dir media-branch \
+            --include-crop-review \
             --output commons_licensed_portrait_candidates.json
       - name: Archive licensing candidates; not publishing approval
         uses: actions/upload-artifact@v4
