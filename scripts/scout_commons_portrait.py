@@ -30,18 +30,41 @@ ACCEPTED_LICENSE = re.compile(
 )
 
 
+class CommonsRateLimited(RuntimeError):
+    """Remote Commons API is throttling research; no unverified media may pass."""
+
+
 def api(params):
     url = API + "?" + urlencode(dict(params, format="json", formatversion="2"))
     for attempt in range(3):
         request = Request(url, headers={"User-Agent": USER_AGENT,
                                         "Accept": "application/json"})
         try:
+            # Wikimedia's shared API throttles bursts from hosted CI addresses.
+            time.sleep(1.5)
             with urlopen(request, timeout=45) as response:
                 payload = json.load(response)
             if payload.get("error"):
                 raise RuntimeError("Commons API error: " + str(payload["error"]))
             return payload
-        except (HTTPError, URLError) as exc:
+        except HTTPError as exc:
+            if exc.code == 429:
+                retry_after = (exc.headers or {}).get("Retry-After", "")
+                try:
+                    delay = max(1, int(retry_after))
+                except (ValueError, TypeError):
+                    delay = 20 * (attempt + 1)
+                if attempt == 2 or delay > 60:
+                    raise CommonsRateLimited(
+                        "Wikimedia Commons returned HTTP 429; original "
+                        "file licenses and portrait footage remain unverified"
+                    ) from exc
+                time.sleep(delay)
+                continue
+            if attempt == 2:
+                raise RuntimeError("Commons API request failed") from exc
+            time.sleep(2 ** attempt)
+        except URLError as exc:
             if attempt == 2:
                 raise RuntimeError("Commons API request failed") from exc
             time.sleep(2 ** attempt)
@@ -164,6 +187,8 @@ def search_cat_titles(max_results=250):
     for category in CATEGORIES:
         try:
             seen.update(category_titles(category, limit=max_results))
+        except CommonsRateLimited:
+            raise
         except RuntimeError as exc:
             print("Category unavailable:", category, str(exc), file=sys.stderr)
     return sorted(seen)[:max_results]
@@ -189,10 +214,18 @@ def main():
     ap.add_argument("--output", default="commons_licensed_portrait_candidates.json")
     args = ap.parse_args()
     seen = previously_used(Path(args.media_dir))
-    titles = search_cat_titles()
-    matches = verify_titles(titles, seen)
+    status = "RESEARCH_ONLY_NOT_EDITORIALLY_APPROVED"
+    error = None
+    try:
+        titles = search_cat_titles()
+        matches = verify_titles(titles, seen)
+    except CommonsRateLimited as exc:
+        titles, matches = [], []
+        status = "BLOCKED_EXTERNAL_COMMONS_HTTP_429"
+        error = str(exc)
     report = {
-        "status": "RESEARCH_ONLY_NOT_EDITORIALLY_APPROVED",
+        "status": status,
+        "technical_blocker": error,
         "source": "Wikimedia Commons live API",
         "searched_video_files": len(titles),
         "previously_used_original_filenames": len(seen),
