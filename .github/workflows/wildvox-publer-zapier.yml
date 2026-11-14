@@ -1,7 +1,8 @@
 name: WildVox Publer approved handoff
 
 # GitHub Issue -> Zapier -> Publer. No Metricool publishing.
-# Disabled until repository variable WILDVOX_PUBLER_ENABLED=true.
+# RETIRED: Zapier is not part of the free manual Publer workflow.
+# The old dispatch path is kept for audit only; never create publishing issues.
 on:
   push:
     branches: [main]
@@ -18,8 +19,6 @@ on:
         type: boolean
         required: true
         default: true
-  schedule:
-    - cron: "10 * * * *"
 
 permissions:
   contents: read
@@ -52,7 +51,7 @@ jobs:
             echo "Created Publer-only label, without sending any media."
           fi
   handoff:
-    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && vars.WILDVOX_PUBLER_ENABLED == 'true') }}
+    if: ${{ false }}
     runs-on: ubuntu-latest
     timeout-minutes: 12
     env:
