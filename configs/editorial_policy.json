@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-10-curiosity-first-brazilian-portuguese-v2",
+  "version": "2026-11-14-metricool-20-monthly-documentaries-v1",
   "editorial_priority": {
     "specific_species_or_subspecies_pct": 75,
     "well_known_animals_with_unusual_specific_fact_pct": 10,
@@ -75,7 +75,7 @@
       "Never repeat published footage/themes just by changing audio; create genuinely fresh fact angles with new licensed sources and captions.",
       "Maintain Brazilian Portuguese pt-BR throughout, Kokoro pm_alex after real synthesis QA, dynamic concise subtitles and safe optional visual annotations.",
       "Use 3 different cat curiosity angles and 2 other species when verified material exists; avoid quota pressure causing fabrications.",
-      "Independent video inspection, attribution, 30–45 s, <=8 s shot, no >=1s genuine frozen frame, publication_hold and exact @wildvox TikTok-only release remain mandatory."
+      "Independent video inspection, attribution, 60–240 s (for revisions from 2026-11-15; legacy 30–45s preserved), <=8 s shot, no >=1s genuine frozen frame, publication_hold and exact @wildvox TikTok-only release remain mandatory."
     ],
     "cinematic_fx": {
       "engine": "scripts/cinematic_fx.py (FFmpeg/libass)",
@@ -106,7 +106,7 @@
     "kokoro_lang_code": "p",
     "requirements": [
       "All NEW videos must have Portuguese-Brazilian spoken narration, script, plan block text, title, overlays, caption and hashtags; English voice am_michael remains only for archived legacy videos.",
-      "Maintain 30-45 seconds and same evidence, licensed footage, no repeat, semantic timing and attribution gates.",
+      "Maintain 60–240 s (for revisions from 2026-11-15; legacy 30–45s preserved) and same evidence, licensed footage, no repeat, semantic timing and attribution gates.",
       "Prefer 3 distinct cat stories and 2 other distinct animal stories when sources genuinely support them.",
       "Never republish old English MP4 as Portuguese; new sources, new angle, fresh original render and independent review required.",
       "Do not schedule or publish videos until tested Brazilian Portuguese TTS and synchronized captions are verified."
@@ -137,6 +137,38 @@
       "Shots are supportive real B-roll; do not infer a biological claim only because footage superficially resembles it.",
       "Unverified facts, imprecise comparisons and descriptive-only narration receive VETO even if render/technical tests pass.",
       "No auto-publish of previously rendered or grandfathered clips without independent review under curiosity-first policy."
+    ]
+  },
+  "monthly_publishing": {
+    "exclusive_account": "@wildvox",
+    "provider": "Metricool Free",
+    "metricool_brand_id": 7242311,
+    "calendar_month_limit": 20,
+    "cadence": "20 evenly spaced eligible dates each calendar month, one approved documentary per date; skip exhausted months",
+    "calendar_script": "scripts/metricool_monthly_calendar.py",
+    "previously_published_and_pending_count_required": true,
+    "provider_counter_authoritative": true,
+    "publication_mode": "AUTO_PUBLISH (when supported by TikTok/Metricool)",
+    "approval_requirement": "independent per-video visual/audio/scientific/licensing QA receipt bound to exact current MP4 hash before scheduling",
+    "maximum_video_file_bytes": 500000000,
+    "platform_auto_publish_max_seconds": 600,
+    "production_documentary_duration": {
+      "applies_from_revision": "2026-11-15",
+      "min_seconds": 60,
+      "target_seconds": [
+        90,
+        180
+      ],
+      "max_supported_by_current_renderer_seconds": 240,
+      "further_extension_requires": "more authentic unique chapters and matching final-video QA; do not lengthen by repeats or filler"
+    },
+    "publishing_notes": [
+      "Return to Metricool for publishing; legacy Publer and Zapier handoff are retired.",
+      "The calendar counts planned release dates; Metricool actual published count limits monthly quota. Scheduled posts must also reserve slots.",
+      "Never schedule one video twice or publish after twenty videos already published in the current calendar month.",
+      "Do not fabricate monthly quota status from GitHub CI or count success.",
+      "If November 2026 cap has been reached, prepare and QA new original documentaries for December 1 onward, without claiming they have been scheduled.",
+      "TikTok-only; no cross-posting to YouTube or other networks."
     ]
   }
 }
