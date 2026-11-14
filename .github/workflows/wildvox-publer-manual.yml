@@ -1,0 +1,44 @@
+name: WildVox - pacote gratuito Publer
+
+# Read-only report. No social network posting or Zapier use.
+on:
+  workflow_dispatch:
+    inputs:
+      key:
+        description: "Optional exact video key for today's approved video"
+        type: string
+        required: false
+
+permissions:
+  contents: read
+
+jobs:
+  packet:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout editorial config and approvals
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Checkout authentic canonical media
+        uses: actions/checkout@v4
+        with:
+          ref: media
+          path: media-branch
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Focused safety tests
+        run: python -m unittest discover -s qa -p 'test_publer_manual_packet.py' -v
+      - name: Generate copy-ready MP4 URL and credited caption in job summary
+        env:
+          REQUESTED_KEY: ${{ inputs.key }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -n "$REQUESTED_KEY" ]]; then
+            python scripts/publer_manual_packet.py --key "$REQUESTED_KEY"
+          else
+            python scripts/publer_manual_packet.py
+          fi
