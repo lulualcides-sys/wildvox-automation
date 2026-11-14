@@ -4,7 +4,6 @@ import pathlib
 import sys
 import unittest
 
-from PIL import Image
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 spec = importlib.util.spec_from_file_location(
@@ -14,13 +13,17 @@ spec.loader.exec_module(mod)
 
 
 class RealFootageReviewTest(unittest.TestCase):
+    @unittest.skipUnless(importlib.util.find_spec("PIL"), "Pillow optional outside preview workflow")
     def test_center_crop_is_9_16_preview_only(self):
+        from PIL import Image
         input_image = Image.new("RGB", (1920, 1080), "orange")
         crop = mod.centered_portrait(input_image)
         self.assertEqual(crop.size, (608, 1080))
         self.assertEqual(input_image.size, (1920, 1080))
 
+    @unittest.skipUnless(importlib.util.find_spec("PIL"), "Pillow optional outside preview workflow")
     def test_native_portrait_preserved(self):
+        from PIL import Image
         frame = Image.new("RGB", (720, 1280), "red")
         self.assertEqual(mod.centered_portrait(frame).size, frame.size)
 
