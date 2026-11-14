@@ -26,6 +26,11 @@ jobs:
         with:
           ref: media
           path: media-branch
+          # Do not fetch gigabytes of MP4 files just to compare source metadata.
+          filter: blob:none
+          sparse-checkout: |
+            /*_meta.json
+          sparse-checkout-cone-mode: false
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
