@@ -14,7 +14,6 @@ from urllib.error import HTTPError
 from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 
-from PIL import Image, ImageDraw
 
 PREFERRED = (
     "Cat discovers it was being spied on.webm",
@@ -102,6 +101,8 @@ def centered_portrait(frame):
 
 
 def contact_sheet(info, source, output):
+    # Pillow only needed by the isolated preview workflow, not QA unit imports.
+    from PIL import Image, ImageDraw
     dur = probe_duration(source)
     if dur < 4:
         raise ValueError("Source too short to assess a multi-shot clip")
