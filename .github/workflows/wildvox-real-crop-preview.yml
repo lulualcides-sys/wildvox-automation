@@ -43,10 +43,12 @@ jobs:
             --name commons-portrait-licensed-research \
             --dir research-input
           test -s research-input/commons_licensed_portrait_candidates.json
-      - name: Install JPEG contact-sheet requirements
+      - name: Install authentic-video preview dependencies
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
           python -m pip install 'Pillow>=10,<12'
-          ffmpeg -version | head -n 2
+          ffprobe -version | head -n 1
       - name: Regression tests
         run: |
           python -m py_compile scripts/preview_commons_crops.py

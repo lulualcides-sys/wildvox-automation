@@ -11,7 +11,7 @@ import tempfile
 import time
 from pathlib import Path
 from urllib.error import HTTPError
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urlencode
 from urllib.request import Request, urlopen
 
 
@@ -48,6 +48,44 @@ def selected(candidates):
             continue
         result.append(info)
     return result
+
+
+def choose_transcode(derivatives):
+    """Choose a genuine Commons video derivative only for lightweight review."""
+    valid = []
+    for video in derivatives or []:
+        link = video.get("src") or video.get("url") or ""
+        key = str(video.get("transcodekey") or "")
+        if (urlsplit(link).hostname == "upload.wikimedia.org"
+                and link.startswith("https://")
+                and (key.endswith(".webm") or link.endswith(".webm"))
+                and ("240p" in key or "480p" in key)):
+            valid.append((0 if "480p" in key else 1, link, key))
+    return min(valid, default=(None, None, None))[1:]
+
+
+def preview_transcode_urls(items):
+    """Resolve real transcoded files for all candidates in ONE Commons API call."""
+    names = [f"File:{entry['title']}" for entry in items]
+    params = urlencode({
+        "action": "query", "prop": "videoinfo",
+        "viprop": "derivatives", "titles": "|".join(names),
+        "format": "json", "formatversion": "2",
+    })
+    request = Request(
+        "https://commons.wikimedia.org/w/api.php?" + params,
+        headers={"User-Agent": "WildVoxFootagePreview/1.0 (research)",
+                 "Accept": "application/json"}
+    )
+    with urlopen(request, timeout=45) as response:
+        payload = json.load(response)
+    found = {}
+    for page in (payload.get("query") or {}).get("pages") or []:
+        info = (page.get("videoinfo") or [{}])[0]
+        link, key = choose_transcode(info.get("derivatives") or [])
+        if link:
+            found[page["title"][5:]] = {"url": link, "type": key}
+    return found
 
 
 def download_source(url, path, limit=MAX_BYTES):
@@ -144,7 +182,15 @@ def main():
     out = Path(args.out)
     out.mkdir(exist_ok=True, parents=True)
     results = []
-    for idx, item in enumerate(selected(research["candidates"])[:args.count], 1):
+    shortlisted = selected(research["candidates"])[:args.count]
+    try:
+        transcodes = preview_transcode_urls(shortlisted)
+        print("Official Commons preview derivatives found:", len(transcodes), flush=True)
+    except (OSError, ValueError, RuntimeError, HTTPError) as exc:
+        # Do not falsify data: lack of derivatives is a research blocker.
+        print("Commons derivative resolution unavailable:", type(exc).__name__, flush=True)
+        transcodes = {}
+    for idx, item in enumerate(shortlisted, 1):
         filename = out / f"original_{idx}.webm"
         jpeg = out / f"source_{idx:02d}_crop_contact.jpg"
         result = {"title": item["title"], "sourcePage": item["sourcePage"],
@@ -152,7 +198,15 @@ def main():
                   "url": item["url"], "crop_review_required": item["crop_review_required"],
                   "visual_approved": False, "status": "UNREVIEWED"}
         try:
-            download_source(item["url"], filename)
+            preview = transcodes.get(item["title"])
+            source_url = preview["url"] if preview else item["url"]
+            # Large originals should not be requested from upload.wikimedia:
+            # transcoded files serve the real original frames at lower bitrates.
+            if not preview and item.get("file_size", MAX_BYTES) > 20 * 1024 * 1024:
+                raise RuntimeError("Large original blocked; no official review transcode")
+            download_source(source_url, filename, limit=MAX_BYTES)
+            result["preview_provenance"] = (
+                preview["type"] if preview else "original-file")
             details = contact_sheet(item, filename, jpeg)
             result.update(details)
             result["status"] = "PREVIEW_GENERATED_NEEDS_INDEPENDENT_INSPECTION"
