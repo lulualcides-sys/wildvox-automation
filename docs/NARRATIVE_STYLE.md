@@ -1,3 +1,5 @@
+> **Padrão vigente a partir de 15/11/2026:** 20 documentários/mês no Metricool gratuito para TikTok @wildvox, min. 60s, alvo 90–180s, até 240s no renderizador atual. Revisões de até 14/11 continuam arquivadas sob regras antigas e não podem ser publicadas sem nova inspeção. Ver [plano de publicação mensal](METRICOOL_DOCUMENTARIOS_20.md).
+
 # WildVox — minidocumentários de curiosidades animais (padrão restabelecido em 2026-11-10)
 
 ## Objetivo
@@ -40,7 +42,7 @@ Manter exatamente 5-7 blocos e o texto falado integral: a concatenação de `vis
 ## Critérios de aceite
 1. De uma a cinco entradas top-level do dia editorial correto, nenhuma metadata top-level adicional.
 2. Histórias individuais com gancho, ação, mecanismo ou reviravolta e desfecho verificáveis; espécies e perspectivas variadas, sem duplicatas recentes.
-3. Texto total da narração idêntico aos blocos; cenas e fontes correlacionadas; duração e fontes conforme validação **atual** do GitHub (de 1 a 5 vídeos de 30-45s nesta configuração).
+3. Texto total da narração idêntico aos blocos; cenas e fontes correlacionadas; duração e fontes conforme validação **atual** do GitHub (uma pauta por dia elegível; a partir de 15/11, 60–240s, e até 20 datas de publicação por mês).
 4. Passar QA estrutural. Render, áudio, visualização de quadros e autorização das fontes são verificações separadas: não declarar pronto/publicado só porque o JSON passou.
 5. Não alterar o gerador principal durante experimentos de novos overlays; construir e testar esse recurso isoladamente antes de integrá-lo.
 
@@ -67,4 +69,4 @@ Os blocos "hook" e "payoff" não recebem zoom nem panorâmica artificial. Um ró
 - `title`, `script`, `caption`, `visual_plan[].text`, `overlay_label`, textos na tela e descrição devem ser em português brasileiro natural (sem traduções literais difíceis de entender). As tags descritivas internas podem continuar em inglês quando correspondem às fontes documentais.
 - O gerador usa Kokoro `KPipeline(lang_code='p')` e voz masculina brasileira `pm_alex`. Legendas preservam acentuação; tempos vêm dos blocos de áudio realmente sintetizados.
 - As publicações históricas em inglês permanecem intactas, mas não devem ser reencaminhadas como se fossem novas.
-- `publication_hold=true` até testes reais de voz e renderização, licença, frames e revisão editorial, antes de qualquer agendamento pelo Metricool.
+- `publication_hold=true` até testes reais de voz e renderização, licença, frames e revisão editorial, antes de qualquer agendamento pelo Metricool. A aprovação editorial deve referenciar o MP4 novo e seu SHA256; sucesso de CI não é aprovação.
