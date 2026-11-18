@@ -1,0 +1,99 @@
+name: WildVox MoneyPrinterTurbo offline render (experimental)
+
+# Experimental review render. Never publishes: no secrets are passed, the
+# MoneyPrinterTurbo config forces cross-posting off and the output is only an
+# Actions artifact for human review.
+on:
+  push:
+    branches: ["experimental/mpt-*"]
+    paths:
+      - ".github/workflows/wildvox-mpt-offline-render.yml"
+      - "scripts/mpt_offline_render.py"
+  workflow_dispatch:
+    inputs:
+      key:
+        description: "Candidate key in configs/daily.json"
+        required: true
+        default: "gatos_piscar_lento_comunicacao_nov14"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wildvox-mpt-offline-render
+  cancel-in-progress: true
+
+env:
+  MPT_REPO: https://github.com/harry0703/MoneyPrinterTurbo
+  MPT_COMMIT: 92e0f9a55b91e353565015aab74b7c50cc28f148  # pinned, reviewed 2026-11-18
+  KEY: ${{ github.event.inputs.key || 'gatos_piscar_lento_comunicacao_nov14' }}
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: System dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg imagemagick espeak-ng curl fonts-dejavu-core
+
+      - name: Unit tests (gate)
+        run: python -m unittest discover -s qa -p 'test_mpt_*.py' -v
+
+      - name: Clone MoneyPrinterTurbo (pinned)
+        run: |
+          git init mpt && cd mpt
+          git remote add origin "$MPT_REPO"
+          git fetch --depth 1 origin "$MPT_COMMIT"
+          git checkout --detach FETCH_HEAD
+          test "$(git rev-parse HEAD)" = "$MPT_COMMIT"
+
+      - name: Install MoneyPrinterTurbo in isolated venv
+        working-directory: mpt
+        run: |
+          python -m pip install --upgrade pip uv
+          uv python install 3.11
+          uv sync --frozen
+          .venv/bin/python -c "import moviepy, faster_whisper; print('mpt deps ok')"
+
+      - name: Install WildVox narration deps (Kokoro pm_alex)
+        run: python -m pip install "kokoro>=0.9.4" soundfile numpy
+
+      - name: Render with MoneyPrinterTurbo (no publish)
+        run: |
+          python scripts/mpt_offline_render.py \
+            --key "$KEY" \
+            --mpt-root "$GITHUB_WORKSPACE/mpt" \
+            --mpt-python "$GITHUB_WORKSPACE/mpt/.venv/bin/python"
+
+      - name: Verify no cross-posting and collect outputs
+        if: always()
+        run: |
+          grep -q '^upload_post_enabled = false' mpt/config.toml
+          grep -q '^upload_post_auto_upload = false' mpt/config.toml
+          mkdir -p review
+          find mpt/storage/tasks -maxdepth 2 \( -name 'final-*.mp4' -o -name '*.srt' -o -name 'script.json' \) -exec cp {} review/ \; || true
+          cp output/*.wav review/ 2>/dev/null || true
+          for f in review/*.mp4; do
+            [ -f "$f" ] || continue
+            ffprobe -v error -show_entries format=duration:stream=width,height -of json "$f"
+            ffmpeg -y -hide_banner -loglevel error -i "$f" -vf "fps=1/4,scale=270:-1,tile=6x2" -frames:v 1 "${f%.mp4}-contact.jpg"
+          done
+          ls -la review
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: wildvox-mpt-${{ env.KEY }}
+          path: review/
+          if-no-files-found: warn
+          retention-days: 7
