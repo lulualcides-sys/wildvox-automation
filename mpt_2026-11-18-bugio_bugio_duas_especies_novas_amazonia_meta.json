@@ -1,0 +1,97 @@
+{
+  "key": "bugio_duas_especies_novas_amazonia",
+  "title": "Duas espécies novas de bugio na Amazônia",
+  "caption": "DNA revelou duas espécies de bugio que ninguém tinha reconhecido na Amazônia brasileira. Imagens ilustrativas de espécies parentes. #WildVox #Amazonia #EspecieNova #Bugio #Ciencia",
+  "sources": [
+    {
+      "type": "image",
+      "assetTitle": "inat-600484999.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/600484999/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/600484999",
+      "author": "Jean-Paul Boerekamps",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 2048,
+      "height": 1388
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-244140710.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/244140710/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/244140710",
+      "author": "Suhei Castro",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1383
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-261943363.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261943363/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/261943363",
+      "author": "Amber M. King",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1382
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-258880585.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258880585/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/258880585",
+      "author": "Kristof Zyskowski",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-258880473.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258880473/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/258880473",
+      "author": "Kristof Zyskowski",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-258880539.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258880539/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/258880539",
+      "author": "Kristof Zyskowski",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-258880529.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258880529/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/258880529",
+      "author": "Kristof Zyskowski",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-620209545.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620209545/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/620209545",
+      "author": "Jean-Paul Boerekamps",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 2048,
+      "height": 1365
+    }
+  ],
+  "editor": "MoneyPrinterTurbo 92e0f9a",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mpt_2026-11-18-bugio_bugio_duas_especies_novas_amazonia.mp4"
+}
