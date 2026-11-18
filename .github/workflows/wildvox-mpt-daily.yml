@@ -6,7 +6,7 @@ name: WildVox MPT daily batch -> Buffer TikTok
 on:
   push:
     branches: ["experimental/mpt-*"]
-    paths: ["configs/mpt_batch/????-??-??.json"]
+    paths: ["configs/mpt_batch/*.json", "!configs/mpt_batch/*.approved.json"]
   workflow_dispatch:
     inputs:
       batch:
@@ -46,7 +46,7 @@ jobs:
       - id: find
         run: |
           b="${{ github.event.inputs.batch }}"
-          if [ -z "$b" ]; then b=$(git diff --name-only HEAD~1 HEAD -- 'configs/mpt_batch/*.json' | sort | tail -1); fi
+          if [ -z "$b" ]; then b=$(git diff --name-only HEAD~1 HEAD -- 'configs/mpt_batch/*.json' | grep -v approved | sort | tail -1); fi
           test -f "$b"
           echo "batch=$b" >> "$GITHUB_OUTPUT"
           echo "date=$(basename "$b" .json)" >> "$GITHUB_OUTPUT"
