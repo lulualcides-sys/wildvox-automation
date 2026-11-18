@@ -1,0 +1,97 @@
+{
+  "key": "teste_fotos_bugio_ruivo",
+  "title": "TESTE fotos (não publicar)",
+  "caption": "DNA revelou duas espécies de bugio que ninguém tinha reconhecido na Amazônia brasileira. Imagens ilustrativas de espécies parentes. #WildVox #Amazonia #EspecieNova #Bugio #Ciencia",
+  "sources": [
+    {
+      "type": "image",
+      "assetTitle": "Alouatta seniculus puruensis.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alouatta%20seniculus%20puruensis.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Alouatta_seniculus_puruensis.jpg",
+      "author": "Brian Ralphs",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 2899,
+      "height": 1934
+    },
+    {
+      "type": "image",
+      "assetTitle": "Red howler monkey Manu national park.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Red%20howler%20monkey%20Manu%20national%20park.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Red_howler_monkey_Manu_national_park.jpg",
+      "author": "Jason Rothmeyer",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "width": 2831,
+      "height": 1886
+    },
+    {
+      "type": "image",
+      "assetTitle": "Aloutta seniculus.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aloutta%20seniculus.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aloutta_seniculus.jpg",
+      "author": "Gsalcedo",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "width": 2592,
+      "height": 1944
+    },
+    {
+      "type": "image",
+      "assetTitle": "Distribution of Animals - Brazil.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Distribution%20of%20Animals%20-%20Brazil.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Distribution_of_Animals_-_Brazil.jpg",
+      "author": "Alfred Russel Wallace. Illustration by Johann Baptist Zwecker (1814–1876).",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Distribution_of_Animals_-_Brazil.jpg",
+      "width": 2564,
+      "height": 1575
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-208798226.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208798226/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/208798226",
+      "author": "Zac Peterson",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1620
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-208798265.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208798265/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/208798265",
+      "author": "Zac Peterson",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1619
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-208798251.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208798251/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/208798251",
+      "author": "Zac Peterson",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1618
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-208798204.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208798204/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/208798204",
+      "author": "Zac Peterson",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1606
+    }
+  ],
+  "editor": "MoneyPrinterTurbo 92e0f9a",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mpt_2026-11-18-teste_teste_fotos_bugio_ruivo.mp4"
+}
