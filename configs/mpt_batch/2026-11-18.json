@@ -27,7 +27,15 @@
       "Category:Videos of Felis catus",
       "Category:Meowing"
     ],
-    "revision": "2026-11-18-v2-categories-only"
+    "revision": "2026-11-18-v3-pixabay",
+    "pixabay_queries": [
+      "cat",
+      "kitten"
+    ],
+    "pixabay_required_tags": [
+      "cat",
+      "kitten"
+    ]
   },
   "polvo_tres_coracoes_sangue_azul": {
     "title": "Por que o polvo tem três corações?",
@@ -60,6 +68,12 @@
       "Category:Videos of octopuses",
       "Category:Videos of Octopus vulgaris",
       "Category:Videos of Enteroctopus dofleini"
+    ],
+    "pixabay_queries": [
+      "octopus"
+    ],
+    "pixabay_required_tags": [
+      "octopus"
     ]
   },
   "gatos_ronronar_como_funciona": {
@@ -94,6 +108,14 @@
       "Category:Videos of cats",
       "Category:Videos of Felis catus",
       "Category:Purring"
+    ],
+    "pixabay_queries": [
+      "cat sleeping",
+      "cat"
+    ],
+    "pixabay_required_tags": [
+      "cat",
+      "kitten"
     ]
   },
   "beija_flor_torpor_noturno": {
@@ -123,6 +145,12 @@
       "Category:Videos of hummingbirds",
       "Category:Videos of Trochilidae",
       "Category:Videos of Calypte anna"
+    ],
+    "pixabay_queries": [
+      "hummingbird"
+    ],
+    "pixabay_required_tags": [
+      "hummingbird"
     ]
   },
   "gatos_visao_noturna": {
@@ -158,6 +186,14 @@
       "Category:Videos of cats",
       "Category:Videos of Felis catus",
       "Category:Cat eyes"
+    ],
+    "pixabay_queries": [
+      "cat eyes",
+      "cat"
+    ],
+    "pixabay_required_tags": [
+      "cat",
+      "kitten"
     ]
   }
 }

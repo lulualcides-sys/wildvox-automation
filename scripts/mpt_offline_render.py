@@ -88,6 +88,15 @@ def _is_commons(url: str, prefix: str) -> bool:
     return p.scheme == "https" and p.hostname == "commons.wikimedia.org" and p.path.startswith(prefix)
 
 
+def is_pixabay(s: dict) -> bool:
+    page, url = urlsplit(s.get("sourcePage") or ""), urlsplit(s.get("url") or "")
+    return (page.scheme == "https" and page.hostname == "pixabay.com" and url.scheme == "https"
+            and url.hostname == "cdn.pixabay.com" and s.get("license") == PIXABAY_LICENSE)
+
+
+PIXABAY_LICENSE = "Pixabay Content License"
+
+
 def validate_candidate(cand: dict) -> list:
     if not isinstance(cand, dict) or not (cand.get("script") or "").strip():
         raise ValueError("Candidate needs an approved script")
@@ -95,8 +104,9 @@ def validate_candidate(cand: dict) -> list:
         raise ValueError("Candidate needs curiosity_fact_sheet (editorial policy 11/11/2026)")
     videos = [s for s in cand.get("sources") or [] if s.get("type", "video") == "video"]
     for s in videos:
-        if not _is_commons(s.get("sourcePage"), "/wiki/File:") or not _is_commons(s.get("url"), "/wiki/Special:FilePath/"):
-            raise ValueError("Only Wikimedia Commons sources are allowed")
+        commons = _is_commons(s.get("sourcePage"), "/wiki/File:") and _is_commons(s.get("url"), "/wiki/Special:FilePath/")
+        if not (commons or is_pixabay(s)):
+            raise ValueError("Only Wikimedia Commons or Pixabay sources are allowed")
         if not (s.get("license") or "").strip():
             raise ValueError("Missing license metadata")
     if len({s["url"] for s in videos}) != len(videos):
@@ -140,7 +150,7 @@ def prepare_media(videos: list, work: Path, used_out: list | None = None) -> lis
     work.mkdir(parents=True, exist_ok=True)
     shots = []
     for i, s in enumerate(videos):
-        raw = work / f"raw_{i:02d}{Path(urlsplit(s['url']).path).suffix or '.webm'}"
+        raw = work / f"raw_{i:02d}{Path(urlsplit(s['url']).path).suffix or '.mp4'}"
         if not safe_download(s["url"], raw):
             continue
         w, h = (int(x) for x in subprocess.run(

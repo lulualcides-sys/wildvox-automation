@@ -36,8 +36,33 @@ def search_titles(query, limit=50, query_fn=api):
     return [x["title"] for x in (r.get("query") or {}).get("search", [])]
 
 
+def pixabay_search(q, pages=2):
+    import os, time
+    from urllib.parse import urlencode
+    from urllib.request import Request, urlopen
+    key = os.environ.get("PIXABAY_API_KEY", "")
+    if not key:
+        raise RuntimeError("PIXABAY_API_KEY secret missing")
+    hits = []
+    for page in range(1, pages + 1):
+        url = "https://pixabay.com/api/videos/?" + urlencode({
+            "key": key, "q": q, "video_type": "film", "safesearch": "true",
+            "per_page": 100, "page": page, "order": "popular"})
+        with urlopen(Request(url, headers={"User-Agent": "WildVox/1.0"}), timeout=40) as r:
+            body = json.load(r)
+        hits += body.get("hits") or []
+        if len(hits) >= int(body.get("totalHits") or 0):
+            break
+        time.sleep(1)
+    return hits
+
+
 def to_source(c):
     title = c["title"]
+    if c.get("license") == "Pixabay Content License":
+        return {"url": c["url"], "type": "video", "assetTitle": title, "sourcePage": c["sourcePage"],
+                "author": c["author"], "license": c["license"], "license_url": c["license_url"],
+                "width": c["width"], "height": c["height"], "tags": c.get("tags", "")}
     return {
         "url": "https://commons.wikimedia.org/wiki/Special:FilePath/" + quote(title),
         "type": "video",
@@ -66,9 +91,58 @@ def choose(candidates, used, want):
     return picks
 
 
+PIXABAY_BAD_TAGS = re.compile(r"cartoon|animation|animated|3d|render|illustration|toy|plush|food|"
+                              r"cooking|neon|logo|drawing|painting|statue|costume|mask|cgi|moth|sushi|dish|market", re.I)
+
+
+def pixabay_candidates(hits, required_tags):
+    """Map Pixabay /api/videos hits to sources; only real-footage hits whose
+    tags name the animal; largest widescreen rendition."""
+    req = [t.lower() for t in required_tags]
+    out = []
+    for h in hits:
+        tags = str(h.get("tags", "")).lower()
+        if req and not any(t in tags for t in req):
+            continue
+        if PIXABAY_BAD_TAGS.search(tags) or h.get("type", "film") != "film":
+            continue
+        vids = h.get("videos") or {}
+        best = None
+        for size in ("large", "medium"):
+            v = vids.get(size) or {}
+            if v.get("url") and int(v.get("width") or 0) >= 1280:
+                best = v
+                break
+        if not best or int(h.get("duration") or 0) < 4:
+            continue
+        out.append({
+            "title": f"pixabay-{h['id']}.mp4",
+            "sourcePage": h.get("pageURL") or f"https://pixabay.com/videos/id-{h['id']}/",
+            "url": best["url"], "author": h.get("user") or "Pixabay",
+            "license": "Pixabay Content License", "license_url": "https://pixabay.com/service/license-summary/",
+            "width": int(best["width"]), "height": int(best["height"]), "tags": tags,
+        })
+    return out
+
+
 def pick_batch(batch, used, gather):
     out, dropped = {}, {}
     for key, cand in batch.items():
+        if cand.get("pixabay_queries"):
+            pool = []
+            for q in cand["pixabay_queries"]:
+                pool += gather("pixabay", q)
+            verified = pixabay_candidates(pool, cand.get("pixabay_required_tags") or [])
+            want = int(cand.get("max_shots") or MAX_SHOTS)
+            picks = choose(verified, used, min(want, MAX_SHOTS))
+            if len(picks) < MIN_SHOTS:
+                dropped[key] = f"only {len(picks)} usable Pixabay videos"
+                for p in picks:
+                    k = canonical_source(p["assetTitle"])
+                    used.difference_update({k, "file:" + k})
+                continue
+            out[key] = dict(cand, sources=picks)
+            continue
         titles = []
         for cat in cand.get("commons_categories") or []:
             titles += gather("category", cat)
@@ -101,6 +175,8 @@ def main(argv=None):
             return category_titles(arg, limit=300)
         if kind == "search":
             return search_titles(arg)
+        if kind == "pixabay":
+            return pixabay_search(arg)
         return verify_titles(arg, set(), include_crop_review=True)
 
     out, dropped = pick_batch(batch, used, gather)

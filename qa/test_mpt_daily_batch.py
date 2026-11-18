@@ -85,6 +85,32 @@ class DailyBatch(unittest.TestCase):
                             "--approved", str(Path(d) / "missing.json")])
             self.assertIn("AWAITING_REVIEW", out.getvalue())
 
+    def test_pixabay_hits_filtered_by_tags_and_quality(self):
+        def hit(i, tags, w=1920, h=1080, typ="film", dur=10):
+            return {"id": i, "tags": tags, "type": typ, "duration": dur, "user": "u", "pageURL": f"https://pixabay.com/videos/x-{i}/",
+                    "videos": {"large": {"url": f"https://cdn.pixabay.com/video/{i}_large.mp4", "width": w, "height": h}}}
+        hits = [hit(1, "cat, kitten, pet"), hit(2, "dog, pet"), hit(3, "cat, cartoon"), hit(4, "cat", typ="animation"),
+                hit(5, "cat", w=1080, h=1920), hit(6, "cat", dur=2), hit(7, "kitten, animal")]
+        got = pick.pixabay_candidates(hits, ["cat", "kitten"])
+        self.assertEqual([c["title"] for c in got], ["pixabay-1.mp4", "pixabay-7.mp4"])
+        src = pick.to_source(got[0])
+        self.assertTrue(render.is_pixabay(src))
+
+    def test_pixabay_batch_passes_render_validation_and_short_caption(self):
+        hits = [{"id": i, "tags": "cat", "type": "film", "duration": 12, "user": "u",
+                 "pageURL": f"https://pixabay.com/videos/cat-{i}/",
+                 "videos": {"large": {"url": f"https://cdn.pixabay.com/video/{i}.mp4", "width": 1920, "height": 1080}}}
+                for i in range(9)]
+        out, dropped = pick.pick_batch({"k": {"script": "Fato.", "curiosity_fact_sheet": {"x": 1},
+                                               "pixabay_queries": ["cat"], "pixabay_required_tags": ["cat"]}},
+                                       set(), lambda kind, a: hits)
+        self.assertEqual(dropped, {})
+        self.assertEqual(len(render.validate_candidate(out["k"])), 9)
+        import buffer_post_single as bps
+        cap = bps.credited_caption({"caption": "Texto #WildVox", "sources": out["k"]["sources"]})
+        self.assertIn("Pixabay", cap)
+        self.assertLess(len(cap), 300)
+
     def test_clip_seconds_spreads_footage(self):
         self.assertEqual(render.clip_seconds(36.8, 7), 6)
         self.assertEqual(render.clip_seconds(90, 12), 8)

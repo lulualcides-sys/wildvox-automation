@@ -25,6 +25,15 @@ def credited_caption(entry: dict, exclude_pages=()) -> str:
     used = [s for s in entry.get("sources") or [] if s.get("sourcePage") not in set(exclude_pages)]
     if not used:
         raise ValueError("No sources to credit")
+    pixabay = [s for s in used if s.get("license") == "Pixabay Content License"
+               and str(s.get("sourcePage", "")).startswith("https://pixabay.com/")]
+    if len(pixabay) == len(used):
+        # Pixabay Content License: no attribution required; we still disclose the source.
+        text = caption + "\n\nVídeos: Pixabay (Pixabay Content License). Narração e edição: WildVox."
+        if len(text) > MAX_CAPTION or caption.count("#") > 5:
+            raise ValueError("Caption too long or more than 5 hashtags")
+        return text
+    used = [s for s in used if s not in pixabay]
     lines, seen = [], set()
     for i, s in enumerate(used, 1):
         fields = [str(s.get(k) or "").strip() for k in ("author", "license", "license_url", "sourcePage", "url")]

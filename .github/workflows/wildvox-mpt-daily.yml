@@ -55,7 +55,9 @@ jobs:
           git clone --depth 1 --filter=blob:none --no-checkout --branch media \
             "https://github.com/${{ github.repository }}.git" media-branch
           cd media-branch && git sparse-checkout set --no-cone '/*_meta.json' && git checkout -q media
-      - name: Pick licensed unused Commons footage
+      - name: Pick licensed unused footage (Pixabay / Commons)
+        env:
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
         run: python scripts/mpt_pick_sources.py --batch "${{ steps.find.outputs.batch }}" --media-dir media-branch --output enriched.json
       - id: keys
         run: echo "keys=$(python -c 'import json;print(json.dumps(list(json.load(open("enriched.json")))))')" >> "$GITHUB_OUTPUT"
