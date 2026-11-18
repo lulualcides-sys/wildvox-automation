@@ -47,6 +47,27 @@ def credited_caption(entry: dict, exclude_pages=()) -> str:
     return text
 
 
+def find_channel(handle: str):
+    """Exact TikTok handle match only (owner confirmed @wildvox6 on 18/11/2026)."""
+    handle = handle.strip().lower().lstrip("@")
+    ok_links = {"", f"https://tiktok.com/@{handle}", f"https://www.tiktok.com/@{handle}"}
+    found = []
+    for org in pb.graphql("query { account { organizations { id } } }")["account"]["organizations"]:
+        q = ("query { channels(input:{organizationId:" + json.dumps(org["id"])
+             + "}) { id name externalLink service isQueuePaused isDisconnected isLocked } }")
+        for c in pb.graphql(q).get("channels") or []:
+            if (str(c.get("service", "")).lower() == "tiktok"
+                    and str(c.get("name") or "").strip().lower().lstrip("@") == handle
+                    and str(c.get("externalLink") or "").strip().lower().rstrip("/") in ok_links):
+                found.append((org["id"], c))
+    if len(found) != 1:
+        raise RuntimeError(f"Expected exactly one TikTok @{handle} channel in Buffer; found {len(found)}")
+    org_id, c = found[0]
+    if c["isDisconnected"] or c["isLocked"] or c["isQueuePaused"]:
+        raise RuntimeError(f"TikTok @{handle} is disconnected, locked or paused")
+    return org_id, c["id"]
+
+
 def next_slot(now, used_slots):
     for day in range(0, 3):
         base = now + timedelta(days=day)
@@ -62,6 +83,7 @@ def main(argv=None):
     ap.add_argument("--key", required=True)
     ap.add_argument("--media-url", required=True)
     ap.add_argument("--exclude-source", action="append", default=[])
+    ap.add_argument("--tiktok-handle", required=True, help="exact Buffer TikTok handle, e.g. wildvox6")
     ap.add_argument("--dry-run", action="store_true")
     o = ap.parse_args(argv)
     if not o.media_url.startswith("https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/"):
@@ -71,7 +93,7 @@ def main(argv=None):
     caption = credited_caption(entry, o.exclude_source)
     now = datetime.now(pb.TZ)
 
-    org_id, channel_id = pb.find_tiktok_channel()
+    org_id, channel_id = find_channel(o.tiktok_handle)
     posts = pb.read_existing_posts(org_id, channel_id)
     scheduled = [p for p in posts if p.get("status") == "scheduled"]
     if len(scheduled) >= pb.MAX_PENDING_FREE:

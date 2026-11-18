@@ -42,7 +42,24 @@ class BufferPostSingle(unittest.TestCase):
 
     def test_refuses_non_media_branch_url(self):
         with self.assertRaises(RuntimeError):
-            mod.main(["--key", KEY, "--media-url", "https://example.com/x.mp4"])
+            mod.main(["--key", KEY, "--tiktok-handle", "wildvox6", "--media-url", "https://example.com/x.mp4"])
+
+
+    def test_channel_match_is_exact(self):
+        chans = [{"id": "a", "name": "wildvox66", "externalLink": "https://tiktok.com/@wildvox66", "service": "tiktok",
+                  "isQueuePaused": False, "isDisconnected": False, "isLocked": False},
+                 {"id": "b", "name": "wildvox6", "externalLink": "https://tiktok.com/@wildvox6", "service": "tiktok",
+                  "isQueuePaused": False, "isDisconnected": False, "isLocked": False}]
+        def fake(q, v=None):
+            return {"account": {"organizations": [{"id": "o"}]}} if "account" in q else {"channels": chans}
+        orig = mod.pb.graphql
+        mod.pb.graphql = fake
+        try:
+            self.assertEqual(mod.find_channel("@wildvox6"), ("o", "b"))
+            with self.assertRaises(RuntimeError):
+                mod.find_channel("wildvox")
+        finally:
+            mod.pb.graphql = orig
 
 
 if __name__ == "__main__":
