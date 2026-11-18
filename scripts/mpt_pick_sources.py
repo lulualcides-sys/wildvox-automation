@@ -29,6 +29,10 @@ INAT_LICENSES = {"cc0": ("CC0", "https://creativecommons.org/publicdomain/zero/1
                  "cc-by": ("CC BY 4.0", "https://creativecommons.org/licenses/by/4.0/")}
 
 
+NOT_A_PHOTO = re.compile(r"engraving|illustration|drawing|lithograph|plate|painting|print|scan|map|"
+                         r"skull|specimen|museum|taxiderm|diagram|stamp|book|page", re.I)
+
+
 def commons_photo_candidates(pages):
     """Commons imageinfo pages -> licensed landscape photos of the exact species."""
     out = []
@@ -37,6 +41,8 @@ def commons_photo_candidates(pages):
         if not str(info.get("mime", "")).startswith(("image/jpeg", "image/png")):
             continue
         ext = info.get("extmetadata") or {}
+        if NOT_A_PHOTO.search(page.get("title", "") + " " + license_value(ext, "Categories")):
+            continue
         lic = license_value(ext, "LicenseShortName")
         author = author_text(license_value(ext, "Artist"))
         if not ACCEPTED_LICENSE.fullmatch(lic) or not author:
@@ -237,27 +243,33 @@ def pick_batch(batch, used, gather):
                 out[key] = dict(cand, sources=picks, media_mode="video")
                 continue
             release(picks)
+            def photos_of(species):
+                ph = gather("inat_photos", species)          # real field observations first
+                picks = choose_photos(ph, used)
+                if len(picks) < MIN_PHOTOS:
+                    release(picks)
+                    picks = choose_photos(ph + gather("commons_photos", species), used)
+                return picks
             # 2) licensed PHOTOS of the exact species (owner decision 18/11/2026)
             if cand.get("species"):
-                photos = gather("commons_photos", cand["species"]) + gather("inat_photos", cand["species"])
-                picks = choose_photos(photos, used)
+                picks = photos_of(cand["species"])
                 if len(picks) >= MIN_PHOTOS:
                     c2 = dict(cand, sources=picks, media_mode="photo")
                     c2.pop("illustrative_label", None)  # exact species: no "related" label
                     out[key] = c2
                     continue
                 release(picks)
-            # 3) last resort: related-species video, always labelled on screen
-            pool = []
-            for q in cand.get("related_pixabay_queries") or []:
-                pool += gather("pixabay", q)
-            picks = choose(pixabay_candidates(pool, cand.get("related_required_tags") or []), used, want)
-            if len(picks) >= MIN_SHOTS:
-                out[key] = dict(cand, sources=picks, media_mode="related_video",
-                                illustrative_label=RELATED_LABEL)
+            # 3) last resort: PHOTOS of named sister species (from the paper), labelled
+            for rel in cand.get("related_species") or []:
+                picks = photos_of(rel)
+                if len(picks) >= MIN_PHOTOS:
+                    out[key] = dict(cand, sources=picks, media_mode="related_photo",
+                                    illustrative_label=RELATED_LABEL, related_used=rel)
+                    break
+                release(picks)
+            if key in out:
                 continue
-            release(picks)
-            dropped[key] = "no exact video, too few exact photos and no related footage"
+            dropped[key] = "no exact video and too few photos of the species or its sister species"
             continue
         titles = []
         for cat in cand.get("commons_categories") or []:

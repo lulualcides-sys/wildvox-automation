@@ -125,7 +125,7 @@ def is_inat_photo(s: dict) -> bool:
 
 def is_landscape_photo(width: int, height: int) -> bool:
     """Photos may be a bit taller than 16:9 but must leave the caption bar free."""
-    return height > 0 and width / height >= 1.25
+    return height > 0 and width / height >= 1.45  # 1.25 let 4-line captions touch the photo
 
 
 def validate_candidate(cand: dict) -> list:

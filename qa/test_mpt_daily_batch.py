@@ -139,18 +139,23 @@ class DailyBatch(unittest.TestCase):
         self.assertEqual(pick.inat_photo_candidates(self._inat_obs(3, code="cc-by-nc")), [])
         self.assertEqual(pick.inat_photo_candidates(self._inat_obs(3, w=1000, h=1500)), [])
 
-    def test_related_video_last_resort_is_labelled(self):
-        hits = [{"id": i, "tags": "frog, amphibian", "type": "film", "duration": 9, "user": "u",
-                 "pageURL": f"https://pixabay.com/videos/frog-{i}/",
-                 "videos": {"large": {"url": f"https://cdn.pixabay.com/v/{i}.mp4", "width": 1920, "height": 1080}}}
-                for i in range(8)]
+    def test_sister_species_photos_last_resort_is_labelled(self):
         def gather(kind, arg):
-            return hits if (kind == "pixabay" and arg == "tree frog") else []
-        cand = {"script": "Nova.", "curiosity_fact_sheet": {"x": 1}, "species": "Hyla nova",
-                "related_pixabay_queries": ["tree frog"], "related_required_tags": ["frog"]}
+            if kind == "inat_photos" and arg == "Alouatta macconnelli":
+                return pick.inat_photo_candidates(self._inat_obs(4))
+            return []
+        cand = {"script": "Nova.", "curiosity_fact_sheet": {"x": 1}, "species": "Alouatta iroi",
+                "related_species": ["Alouatta macconnelli"]}
         out, _ = pick.pick_batch({"k": cand}, set(), gather)
-        self.assertEqual(out["k"]["media_mode"], "related_video")
+        self.assertEqual(out["k"]["media_mode"], "related_photo")
         self.assertEqual(out["k"]["illustrative_label"], pick.RELATED_LABEL)
+        self.assertEqual(out["k"]["related_used"], "Alouatta macconnelli")
+
+    def test_engravings_are_not_photos(self):
+        page = {"title": "File:Old engraving of howler monkeys.jpg", "imageinfo": [{"mime": "image/jpeg",
+                "width": 3000, "height": 1800, "descriptionurl": "https://commons.wikimedia.org/wiki/File:X.jpg",
+                "extmetadata": {"LicenseShortName": {"value": "Public domain"}, "Artist": {"value": "A"}}}]}
+        self.assertEqual(pick.commons_photo_candidates([page]), [])
 
     def test_static_image_motion(self):
         shots = [Path(f"/x/s{i}.jpg") for i in range(3)]
