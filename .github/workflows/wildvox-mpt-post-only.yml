@@ -1,0 +1,46 @@
+name: WildVox MPT re-post (no re-render)
+
+# Re-runs only the Buffer scheduling of an existing daily batch run,
+# using its meta-* artifacts (media already on the public media branch).
+on:
+  push:
+    branches: ["experimental/mpt-*"]
+    paths: [".github/workflows/wildvox-mpt-post-only.yml"]
+  workflow_dispatch:
+    inputs:
+      run_id: {description: "wildvox-mpt-daily run id", required: true}
+      batch: {description: "configs/mpt_batch/YYYY-MM-DD.json", required: true}
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: wildvox-mpt-daily
+  cancel-in-progress: false
+
+env:
+  RUN_ID: ${{ github.event.inputs.run_id || '44327481184' }}
+  BATCH: ${{ github.event.inputs.batch || 'configs/mpt_batch/2026-11-18.json' }}
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m unittest discover -s qa -p 'test_buffer_post_single.py'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: meta-*
+          merge-multiple: true
+          path: metas
+          run-id: ${{ env.RUN_ID }}
+          github-token: ${{ github.token }}
+      - name: Schedule on Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python scripts/buffer_post_batch.py --batch "$BATCH" --meta-dir metas --tiktok-handle wildvox6

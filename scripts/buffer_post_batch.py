@@ -54,8 +54,14 @@ def main(argv=None):
             for p in scheduled if p.get("dueAt")}
     now = datetime.now(pb.TZ)
     queued = 0
+    failed = []
     for m in metas:
-        caption = credited_caption({"caption": m["caption"], "sources": m["sources"]})
+        try:
+            caption = credited_caption({"caption": m["caption"], "sources": m["sources"]})
+        except ValueError as exc:
+            print(f"FAILED {m['key']}: {exc}")
+            failed.append(m["key"])
+            continue
         if caption.strip() in seen:
             print(f"ALREADY {m['key']}: caption exists in Buffer")
             continue
@@ -72,7 +78,9 @@ def main(argv=None):
         used.add(slot)
         seen.add(caption.strip())
         queued += 1
-    print(f"DONE: {queued} scheduled of {len(metas)} rendered ({len(order)} planned)")
+    print(f"DONE: {queued} scheduled of {len(metas)} rendered ({len(order)} planned); failed: {failed}")
+    if failed:
+        sys.exit(1)
 
 
 if __name__ == "__main__":

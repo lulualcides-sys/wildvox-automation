@@ -41,6 +41,16 @@ def credited_caption(entry: dict, exclude_pages=()) -> str:
         lines.append(f"{i}. {author} | {lic} | {page} | {lic_url}")
     text = caption + "\n\nCréditos dos vídeos (edição vertical 9:16 sem corte, legendas e narração):\n" + "\n".join(lines)
     if len(text) > MAX_CAPTION:
+        # Compact TASL credits: title (Commons file), author, license; each
+        # license deed URL listed once. Still names every used work.
+        short, deeds = [], {}
+        for i, s in enumerate(used, 1):
+            title = str(s.get("assetTitle") or s["sourcePage"].rsplit("File:", 1)[-1])
+            short.append(f"{i}. {s['author']} ({s['license']}) – Commons: {title}")
+            deeds.setdefault(s["license"], s["license_url"])
+        text = (caption + "\n\nCréditos (Wikimedia Commons; editado: 9:16, legendas, narração):\n"
+                + "\n".join(short) + "\nLicenças: " + " ".join(f"{k} {v}" for k, v in deeds.items()))
+    if len(text) > MAX_CAPTION:
         raise ValueError(f"Caption {len(text)} chars exceeds TikTok limit; not truncating credits")
     if caption.count("#") > 5:
         raise ValueError("Buffer/TikTok: max 5 hashtags")

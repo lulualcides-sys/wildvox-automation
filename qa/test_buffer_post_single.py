@@ -27,6 +27,19 @@ class BufferPostSingle(unittest.TestCase):
         self.assertNotIn("8. ", text)
         self.assertLessEqual(len(text), 2200)
 
+    def test_long_credit_list_is_compacted_not_truncated(self):
+        src = {"author": "Autor Muito Comprido da Silva", "license": "CC BY 4.0",
+               "license_url": "https://creativecommons.org/licenses/by/4.0/", "type": "video"}
+        e = {"caption": "x " * 300, "sources": [dict(src,
+              assetTitle=f"Um titulo de arquivo bem longo numero {i} gravado em 4K.webm",
+              sourcePage=f"https://commons.wikimedia.org/wiki/File:Um_titulo_de_arquivo_bem_longo_numero_{i}_gravado_em_4K_com_mais_texto.webm",
+              url=f"https://commons.wikimedia.org/wiki/Special:FilePath/Um_titulo_{i}_" + "y" * 80 + ".webm")
+              for i in range(12)]}
+        text = mod.credited_caption(e)
+        self.assertLessEqual(len(text), 2200)
+        self.assertIn("12. Autor Muito Comprido da Silva", text)
+        self.assertEqual(text.count("https://creativecommons.org/licenses/by/4.0/"), 1)
+
     def test_rejects_sharealike(self):
         e = self.entry()
         e["sources"][1]["license"] = "CC BY-SA 4.0"
