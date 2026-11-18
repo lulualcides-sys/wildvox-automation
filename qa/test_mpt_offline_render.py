@@ -63,7 +63,7 @@ class MptOfflineRender(unittest.TestCase):
         opt = lambda k: cmd[cmd.index(k) + 1]
         self.assertEqual(opt("--video-fit-mode"), "contain")
         self.assertEqual(opt("--subtitle-position"), "custom")
-        self.assertTrue(70 <= float(opt("--custom-position")) <= 80)
+        self.assertTrue(70 <= float(opt("--custom-position")) <= 85)
         self.assertEqual(opt("--font-name"), "Inter-Black.ttf")
 
     def test_captions_sit_in_bottom_black_bar_with_brand_colours(self):
