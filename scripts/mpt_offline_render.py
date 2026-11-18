@@ -16,6 +16,7 @@ import json
 import re
 import subprocess
 import sys
+import uuid
 from pathlib import Path
 from urllib.parse import urlsplit
 
@@ -28,13 +29,37 @@ SUBTITLE_FONT = "Inter-Black.ttf"
 SUBTITLE_STYLE = [
     "--video-fit-mode", "contain",          # full frame, no crop/zoom
     "--subtitle-position", "custom",
-    "--custom-position", "74",              # just below a centred 16:9 video
+    "--custom-position", "80",              # inside the bottom black bar
     "--font-name", SUBTITLE_FONT,
-    "--font-size", "64",
-    "--text-fore-color", "#FFFFFF",
-    "--stroke-color", "#0B0D10",
-    "--stroke-width", "4",
+    "--font-size", "60",
+    "--text-fore-color", "#FFFFFF",         # WildVox white ...
+    "--subtitle-background-color", "#FF4D22",  # ... on WildVox orange
+    "--rounded-subtitle-background",
+    "--stroke-color", "#FF4D22",
+    "--stroke-width", "2",
 ]
+LOGO_MARGIN_X, LOGO_Y = 48, 220             # top-right, inside the top black bar
+
+
+def is_widescreen(width: int, height: int) -> bool:
+    """Only ~16:9 shots leave a bottom bar for captions under `contain`."""
+    return height > 0 and width / height >= 1.6
+
+
+def logo_overlay_command(video: Path, logo: Path, out: Path) -> list:
+    return ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+            "-i", str(video), "-i", str(logo),
+            "-filter_complex", f"[0:v][1:v]overlay=W-w-{LOGO_MARGIN_X}:{LOGO_Y}",
+            "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
+            "-c:a", "copy", str(out)]
+
+
+def make_wordmark(font: Path, out: Path) -> Path:
+    """WildVox wordmark as on legal/*.html: 'Wild' white + 'Vox' orange, Inter 900."""
+    subprocess.run(["magick", "-background", "none", "-font", str(font), "-pointsize", "72",
+                    "-fill", "#FFFFFF", "label:Wild", "-fill", "#FF4D22", "label:Vox",
+                    "+append", str(out)], check=True)
+    return out
 
 # (pattern, replacement) – every pattern MUST match exactly once.
 SAFE_CONFIG = [
@@ -113,6 +138,13 @@ def prepare_media(videos: list, work: Path) -> list:
         raw = work / f"raw_{i:02d}{Path(urlsplit(s['url']).path).suffix or '.webm'}"
         if not safe_download(s["url"], raw):
             continue
+        w, h = (int(x) for x in subprocess.run(
+            ["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+             "stream=width,height", "-of", "csv=p=0", str(raw)],
+            capture_output=True, text=True, check=True).stdout.strip().split(",")[:2])
+        if not is_widescreen(w, h):
+            print(f"Skipping non-widescreen shot {w}x{h}: {s['sourcePage']}", flush=True)
+            continue
         mp4 = work / f"shot_{i:02d}.mp4"
         subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(raw),
                         "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
@@ -141,9 +173,15 @@ def main(argv=None):
                    cand.get("language", "pt-BR"), cand.get("voice"))
     voice = next(Path("output").glob(f"{o.key}_*.wav")).resolve()
 
+    task_id = str(uuid.uuid5(uuid.NAMESPACE_URL, f"wildvox-mpt/{o.key}"))
     cmd = build_render_command(o.mpt_root, cand["script"], shots, voice, o.mpt_python)
+    cmd[-2:-2] = ["--task-id", task_id]
     print(json.dumps({"key": o.key, "shots": len(shots), "publish": False}, ensure_ascii=False), flush=True)
     subprocess.run(cmd, cwd=o.mpt_root, check=True, timeout=2400)
+
+    task = o.mpt_root / "storage" / "tasks" / task_id
+    logo = make_wordmark(o.mpt_root / "resource" / "fonts" / SUBTITLE_FONT, o.work / "wildvox-logo.png")
+    subprocess.run(logo_overlay_command(task / "final-1.mp4", logo, task / "final-1-wildvox.mp4"), check=True)
 
 
 if __name__ == "__main__":

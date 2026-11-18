@@ -66,6 +66,33 @@ class MptOfflineRender(unittest.TestCase):
         self.assertTrue(70 <= float(opt("--custom-position")) <= 80)
         self.assertEqual(opt("--font-name"), "Inter-Black.ttf")
 
+    def test_captions_sit_in_bottom_black_bar_with_brand_colours(self):
+        shots = [self.mpt / f"s{i}.mp4" for i in range(8)]
+        cmd = mod.build_render_command(self.mpt, "x", shots, self.mpt / "v.wav")
+        opt = lambda k: cmd[cmd.index(k) + 1]
+        # 16:9 video centred in 1080x1920 ends at y=1264; a caption box of
+        # 120-260 px must start below it and stay above the TikTok UI (~1650).
+        for box in (120, 260):
+            top = (1920 - box) * float(opt("--custom-position")) / 100
+            self.assertGreater(top, 1264)
+            self.assertLess(top + box, 1650)
+        self.assertEqual(opt("--text-fore-color"), "#FFFFFF")
+        self.assertEqual(opt("--subtitle-background-color"), "#FF4D22")
+        self.assertIn("--rounded-subtitle-background", cmd)
+
+    def test_only_widescreen_shots_keep_captions_off_the_image(self):
+        self.assertTrue(mod.is_widescreen(1920, 1080))
+        self.assertTrue(mod.is_widescreen(3840, 2160))
+        self.assertFalse(mod.is_widescreen(640, 640))
+        self.assertFalse(mod.is_widescreen(1080, 1920))
+
+    def test_logo_overlay_top_right(self):
+        cmd = mod.logo_overlay_command(Path("in.mp4"), Path("logo.png"), Path("out.mp4"))
+        joined = " ".join(map(str, cmd))
+        self.assertIn("overlay=W-w-", joined)
+        self.assertIn("-c:a copy", joined)
+        self.assertEqual(str(cmd[-1]), "out.mp4")
+
     def test_render_command_rejects_duplicates_and_few_shots(self):
         one = self.mpt / "s.mp4"
         with self.assertRaises(ValueError):
