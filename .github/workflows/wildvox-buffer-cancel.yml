@@ -1,0 +1,24 @@
+name: WildVox cancel bad Buffer posts
+
+on:
+  push:
+    branches: ["experimental/mpt-*"]
+    paths: [".github/workflows/wildvox-buffer-cancel.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cancel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Cancel 18/11 batch posts with wrong footage
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python scripts/buffer_cancel_posts.py 6afdc5eab3f8322ac74816a9 6afdc5ebff73344f88f64d2b 6afdc5ec0a7aa6dca2c8144d 6afdc5edff73344f88f64dc6
