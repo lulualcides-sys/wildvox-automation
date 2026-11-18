@@ -1,0 +1,15 @@
+{
+  "day_local": "2026-11-18",
+  "run_id": 44364635913,
+  "key": "bugio_duas_especies_novas_amazonia",
+  "decision": "APPROVE",
+  "media_mode": "related_photo (Alouatta macconnelli, sister species of A. iroi; iNaturalist CC0/CC BY)",
+  "checks": {
+    "all_frames_real_howler_monkeys": true,
+    "on_screen_label_related_species": true,
+    "captions_in_bottom_bar": true,
+    "portuguese_errors": "none seen"
+  },
+  "history": "v1 related Pixabay video rejected (mandrill/macaque/baboon); v2 one canopy-only photo excluded (inaturalist 261943363), label/caption spacing fixed",
+  "news": "Communications Biology 30/10/2026, coverage sci.news 15/11/2026"
+}
