@@ -1,0 +1,91 @@
+{
+  "bugio_duas_especies_novas_amazonia": {
+    "title": "Duas espécies novas de bugio na Amazônia",
+    "script": "A Amazônia acaba de ganhar duas espécies novas de macaco, e elas estavam escondidas à vista de todos. São bugios, os macacos famosos pelo ronco que pode ser ouvido a quilômetros. Pesquisadores da Universidade de Salford, no Reino Unido, analisaram o genoma de oitenta e seis bugios de onze espécies. O DNA, junto com crânios, pelagem e mapas, revelou duas linhagens que ninguém tinha reconhecido. Uma vive no noroeste do Amazonas, perto do Rio Branco e do Rio Negro. A outra vive no sul da Amazônia, entre os rios Madeira e Teles Pires, em Mato Grosso. Segundo o estudo, grandes rios funcionaram como barreiras e separaram essas populações há poucas centenas de milhares de anos. Ainda não existe avaliação oficial de risco para as duas espécies. Mas, como disse a autora principal, entender quais espécies existem é o primeiro passo para protegê-las.",
+    "caption": "DNA revelou duas espécies de bugio que ninguém tinha reconhecido na Amazônia brasileira. Imagens ilustrativas de espécies parentes. #WildVox #Amazonia #EspecieNova #Bugio #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": "2026-11-15",
+      "claims": [
+        {
+          "claim": "Duas espécies novas de bugio-ruivo: Alouatta iroi (noroeste da Amazônia, Rio Branco/Rio Negro, AM) e Alouatta matogrossensis (entre Madeira e Teles Pires, MT).",
+          "sources": [
+            "https://www.sci.news/biology/two-howler-monkey-species-amazon-15197.html",
+            "https://doi.org/10.1038/s42003-026-11187-8"
+          ]
+        },
+        {
+          "claim": "Genoma de 86 bugios de 11 das 13 espécies reconhecidas; Romina Batista e Jean Boubli, Universidade de Salford; Communications Biology, 30/10/2026.",
+          "sources": [
+            "https://www.sci.news/biology/two-howler-monkey-species-amazon-15197.html"
+          ]
+        },
+        {
+          "claim": "Separação A. macconnelli / A. iroi ~700 mil anos, associada ao Rio Branco; rios e savanas como barreiras.",
+          "sources": [
+            "https://www.sci.news/biology/two-howler-monkey-species-amazon-15197.html"
+          ]
+        },
+        {
+          "claim": "Sem status IUCN publicado para as novas espécies.",
+          "sources": [
+            "https://www.sci.news/biology/two-howler-monkey-species-amazon-15197.html"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "ronco audível a 5 km (número exato não verificado aqui; usado só 'a quilômetros')"
+      ]
+    },
+    "species": "Alouatta iroi",
+    "related_pixabay_queries": [
+      "howler monkey"
+    ],
+    "related_required_tags": [
+      "howler",
+      "monkey"
+    ]
+  },
+  "teste_fotos_bugio_ruivo": {
+    "title": "TESTE fotos (não publicar)",
+    "script": "A Amazônia acaba de ganhar duas espécies novas de macaco, e elas estavam escondidas à vista de todos. São bugios, os macacos famosos pelo ronco que pode ser ouvido a quilômetros. Pesquisadores da Universidade de Salford, no Reino Unido, analisaram o genoma de oitenta e seis bugios de onze espécies. O DNA, junto com crânios, pelagem e mapas, revelou duas linhagens que ninguém tinha reconhecido. Uma vive no noroeste do Amazonas, perto do Rio Branco e do Rio Negro. A outra vive no sul da Amazônia, entre os rios Madeira e Teles Pires, em Mato Grosso. Segundo o estudo, grandes rios funcionaram como barreiras e separaram essas populações há poucas centenas de milhares de anos. Ainda não existe avaliação oficial de risco para as duas espécies. Mas, como disse a autora principal, entender quais espécies existem é o primeiro passo para protegê-las.",
+    "caption": "DNA revelou duas espécies de bugio que ninguém tinha reconhecido na Amazônia brasileira. Imagens ilustrativas de espécies parentes. #WildVox #Amazonia #EspecieNova #Bugio #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": "2026-11-15",
+      "claims": [
+        {
+          "claim": "Duas espécies novas de bugio-ruivo: Alouatta iroi (noroeste da Amazônia, Rio Branco/Rio Negro, AM) e Alouatta matogrossensis (entre Madeira e Teles Pires, MT).",
+          "sources": [
+            "https://www.sci.news/biology/two-howler-monkey-species-amazon-15197.html",
+            "https://doi.org/10.1038/s42003-026-11187-8"
+          ]
+        },
+        {
+          "claim": "Genoma de 86 bugios de 11 das 13 espécies reconhecidas; Romina Batista e Jean Boubli, Universidade de Salford; Communications Biology, 30/10/2026.",
+          "sources": [
+            "https://www.sci.news/biology/two-howler-monkey-species-amazon-15197.html"
+          ]
+        },
+        {
+          "claim": "Separação A. macconnelli / A. iroi ~700 mil anos, associada ao Rio Branco; rios e savanas como barreiras.",
+          "sources": [
+            "https://www.sci.news/biology/two-howler-monkey-species-amazon-15197.html"
+          ]
+        },
+        {
+          "claim": "Sem status IUCN publicado para as novas espécies.",
+          "sources": [
+            "https://www.sci.news/biology/two-howler-monkey-species-amazon-15197.html"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "ronco audível a 5 km (número exato não verificado aqui; usado só 'a quilômetros')"
+      ]
+    },
+    "species": "Alouatta seniculus"
+  }
+}

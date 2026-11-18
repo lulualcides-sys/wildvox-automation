@@ -111,6 +111,52 @@ class DailyBatch(unittest.TestCase):
         self.assertIn("Pixabay", cap)
         self.assertLess(len(cap), 300)
 
+    def _inat_obs(self, n, w=2000, h=1333, code="cc-by"):
+        return [{"user": {"name": f"Fot {i}"}, "photos": [{"id": 100 + i, "license_code": code,
+                 "url": f"https://inaturalist-open-data.s3.amazonaws.com/photos/{100+i}/square.jpg",
+                 "original_dimensions": {"width": w, "height": h}}]} for i in range(n)]
+
+    def test_photo_fallback_when_no_exact_video(self):
+        def gather(kind, arg):
+            if kind == "pixabay":
+                return []
+            if kind == "inat_photos":
+                return pick.inat_photo_candidates(self._inat_obs(5))
+            return []
+        cand = {"script": "Nova espécie.", "curiosity_fact_sheet": {"x": 1}, "species": "Hyla nova",
+                "pixabay_queries": ["Hyla nova"], "illustrative_label": "x"}
+        out, dropped = pick.pick_batch({"k": cand}, set(), gather)
+        self.assertEqual(dropped, {})
+        self.assertEqual(out["k"]["media_mode"], "photo")
+        self.assertNotIn("illustrative_label", out["k"])
+        srcs = render.validate_candidate(out["k"])
+        self.assertEqual(len(srcs), 5)
+        self.assertTrue(all(s["url"].endswith("/original.jpg") for s in srcs))
+        import buffer_post_single as bps
+        self.assertIn("inaturalist.org/photos/100", bps.credited_caption({"caption": "c #WildVox", "sources": srcs}))
+
+    def test_nc_and_portrait_photos_rejected(self):
+        self.assertEqual(pick.inat_photo_candidates(self._inat_obs(3, code="cc-by-nc")), [])
+        self.assertEqual(pick.inat_photo_candidates(self._inat_obs(3, w=1000, h=1500)), [])
+
+    def test_related_video_last_resort_is_labelled(self):
+        hits = [{"id": i, "tags": "frog, amphibian", "type": "film", "duration": 9, "user": "u",
+                 "pageURL": f"https://pixabay.com/videos/frog-{i}/",
+                 "videos": {"large": {"url": f"https://cdn.pixabay.com/v/{i}.mp4", "width": 1920, "height": 1080}}}
+                for i in range(8)]
+        def gather(kind, arg):
+            return hits if (kind == "pixabay" and arg == "tree frog") else []
+        cand = {"script": "Nova.", "curiosity_fact_sheet": {"x": 1}, "species": "Hyla nova",
+                "related_pixabay_queries": ["tree frog"], "related_required_tags": ["frog"]}
+        out, _ = pick.pick_batch({"k": cand}, set(), gather)
+        self.assertEqual(out["k"]["media_mode"], "related_video")
+        self.assertEqual(out["k"]["illustrative_label"], pick.RELATED_LABEL)
+
+    def test_static_image_motion(self):
+        shots = [Path(f"/x/s{i}.jpg") for i in range(3)]
+        cmd = render.build_render_command(Path("/m"), "x", shots, Path("/v.wav"))
+        self.assertEqual(cmd[cmd.index("--image-motion") + 1], "static")
+
     def test_clip_seconds_spreads_footage(self):
         self.assertEqual(render.clip_seconds(36.8, 7), 6)
         self.assertEqual(render.clip_seconds(90, 12), 8)

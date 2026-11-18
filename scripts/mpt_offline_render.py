@@ -111,6 +111,21 @@ def is_pixabay(s: dict) -> bool:
 
 
 PIXABAY_LICENSE = "Pixabay Content License"
+MIN_PHOTOS = 3
+PHOTO_EXT = {".jpg", ".jpeg", ".png", ".webp"}
+
+
+def is_inat_photo(s: dict) -> bool:
+    page, url = urlsplit(s.get("sourcePage") or ""), urlsplit(s.get("url") or "")
+    return (page.scheme == "https" and page.hostname == "www.inaturalist.org"
+            and page.path.startswith("/photos/") and url.scheme == "https"
+            and url.hostname in {"inaturalist-open-data.s3.amazonaws.com", "static.inaturalist.org"}
+            and bool(s.get("license")))
+
+
+def is_landscape_photo(width: int, height: int) -> bool:
+    """Photos may be a bit taller than 16:9 but must leave the caption bar free."""
+    return height > 0 and width / height >= 1.25
 
 
 def validate_candidate(cand: dict) -> list:
@@ -118,17 +133,19 @@ def validate_candidate(cand: dict) -> list:
         raise ValueError("Candidate needs an approved script")
     if not cand.get("curiosity_fact_sheet"):
         raise ValueError("Candidate needs curiosity_fact_sheet (editorial policy 11/11/2026)")
-    videos = [s for s in cand.get("sources") or [] if s.get("type", "video") == "video"]
+    videos = [s for s in cand.get("sources") or [] if s.get("type", "video") in ("video", "image")]
     for s in videos:
         commons = _is_commons(s.get("sourcePage"), "/wiki/File:") and _is_commons(s.get("url"), "/wiki/Special:FilePath/")
-        if not (commons or is_pixabay(s)):
-            raise ValueError("Only Wikimedia Commons or Pixabay sources are allowed")
+        if not (commons or is_pixabay(s) or (s.get("type") == "image" and is_inat_photo(s))):
+            raise ValueError("Only Wikimedia Commons, Pixabay or iNaturalist sources are allowed")
         if not (s.get("license") or "").strip():
             raise ValueError("Missing license metadata")
     if len({s["url"] for s in videos}) != len(videos):
         raise ValueError("Duplicate sources")
-    if not MIN_SHOTS <= len(videos) <= MAX_SHOTS:
-        raise ValueError(f"Need {MIN_SHOTS}-{MAX_SHOTS} distinct video sources")
+    photos_only = bool(videos) and all(s.get("type") == "image" for s in videos)
+    low = MIN_PHOTOS if photos_only else MIN_SHOTS
+    if not low <= len(videos) <= MAX_SHOTS:
+        raise ValueError(f"Need {low}-{MAX_SHOTS} distinct sources")
     return videos
 
 
@@ -141,8 +158,9 @@ def build_render_command(mpt_root: Path, script: str, shots: list, voice: Path,
                          python: str = sys.executable, clip: int = 5) -> list:
     if len(set(shots)) != len(shots):
         raise ValueError("Duplicate media are forbidden")
-    if not MIN_SHOTS <= len(shots) <= MAX_SHOTS:
-        raise ValueError(f"Need {MIN_SHOTS}-{MAX_SHOTS} shots")
+    photos_only = bool(shots) and all(Path(x).suffix.lower() in PHOTO_EXT for x in shots)
+    if not (MIN_PHOTOS if photos_only else MIN_SHOTS) <= len(shots) <= MAX_SHOTS:
+        raise ValueError(f"Need {MIN_SHOTS}-{MAX_SHOTS} shots ({MIN_PHOTOS} if photos)")
     return [
         python, str(mpt_root / "cli.py"),
         "--video-script", script,
@@ -152,6 +170,7 @@ def build_render_command(mpt_root: Path, script: str, shots: list, voice: Path,
         "--video-aspect", "9:16",
         "--video-concat-mode", "sequential",
         "--video-clip-duration", str(clip),
+        "--image-motion", "static",           # owner prefers no zoom
         "--custom-audio-file", str(voice),
         "--bgm-type", "none",
         "--subtitle-enabled",
@@ -173,6 +192,17 @@ def prepare_media(videos: list, work: Path, used_out: list | None = None) -> lis
             ["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
              "stream=width,height", "-of", "csv=p=0", str(raw)],
             capture_output=True, text=True, check=True).stdout.strip().split(",")[:2])
+        if s.get("type") == "image":
+            if not is_landscape_photo(w, h) or w < 1200:
+                print(f"Skipping photo {w}x{h}: {s['sourcePage']}", flush=True)
+                continue
+            jpg = work / f"shot_{i:02d}.jpg"
+            subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", str(raw),
+                            "-vf", "scale='min(1920,iw)':-2", "-q:v", "2", str(jpg)], check=True)
+            shots.append(jpg.resolve())
+            if used_out is not None:
+                used_out.append(s)
+            continue
         if not is_widescreen(w, h):
             print(f"Skipping non-widescreen shot {w}x{h}: {s['sourcePage']}", flush=True)
             continue
@@ -201,8 +231,9 @@ def main(argv=None):
 
     used_sources = []
     shots = prepare_media(videos, o.work, used_sources)
-    if len(shots) < MIN_SHOTS:
-        raise RuntimeError(f"Only {len(shots)} usable widescreen shots; need {MIN_SHOTS}")
+    need = MIN_PHOTOS if all(x.suffix == ".jpg" for x in shots) and shots else MIN_SHOTS
+    if len(shots) < need:
+        raise RuntimeError(f"Only {len(shots)} usable shots; need {need}")
     (o.work / "used_sources.json").write_text(json.dumps(used_sources, ensure_ascii=False, indent=2), encoding="utf-8")
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from generate_video import generate_voice

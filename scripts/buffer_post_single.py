@@ -42,22 +42,24 @@ def credited_caption(entry: dict, exclude_pages=()) -> str:
             raise ValueError(f"Source {i}: missing creator/license/URL")
         if "by-sa" in lic.casefold().replace("_", "-"):
             raise ValueError(f"Source {i}: ShareAlike not cleared for TikTok")
-        if not page.startswith("https://commons.wikimedia.org/wiki/File:") or urlsplit(lic_url).scheme != "https":
+        if not (page.startswith("https://commons.wikimedia.org/wiki/File:") or page.startswith("https://www.inaturalist.org/photos/")) \
+                or urlsplit(lic_url).scheme != "https":
             raise ValueError(f"Source {i}: invalid credit URL")
         if url in seen:
             raise ValueError(f"Source {i}: duplicate footage")
         seen.add(url)
         lines.append(f"{i}. {author} | {lic} | {page} | {lic_url}")
-    text = caption + "\n\nCréditos dos vídeos (edição vertical 9:16 sem corte, legendas e narração):\n" + "\n".join(lines)
+    text = caption + "\n\nCréditos das imagens (edição vertical 9:16 sem corte, legendas e narração):\n" + "\n".join(lines)
     if len(text) > MAX_CAPTION:
         # Compact TASL credits: title (Commons file), author, license; each
         # license deed URL listed once. Still names every used work.
         short, deeds = [], {}
         for i, s in enumerate(used, 1):
             title = str(s.get("assetTitle") or s["sourcePage"].rsplit("File:", 1)[-1])
-            short.append(f"{i}. {s['author']} ({s['license']}) – Commons: {title}")
+            where = "iNaturalist" if "inaturalist.org" in s["sourcePage"] else "Commons"
+            short.append(f"{i}. {s['author']} ({s['license']}) – {where}: {title}")
             deeds.setdefault(s["license"], s["license_url"])
-        text = (caption + "\n\nCréditos (Wikimedia Commons; editado: 9:16, legendas, narração):\n"
+        text = (caption + "\n\nCréditos (Wikimedia Commons/iNaturalist; editado: 9:16, legendas, narração):\n"
                 + "\n".join(short) + "\nLicenças: " + " ".join(f"{k} {v}" for k, v in deeds.items()))
     if len(text) > MAX_CAPTION:
         raise ValueError(f"Caption {len(text)} chars exceeds TikTok limit; not truncating credits")
