@@ -4,7 +4,7 @@ name: WildVox Buffer read-only connection check
 on:
   push:
     branches: ["experimental/mpt-*"]
-    paths: [".github/workflows/wildvox-buffer-check.yml"]  # rev 2
+    paths: [".github/workflows/wildvox-buffer-check.yml"]  # rev 3
   workflow_dispatch:
 
 permissions:
@@ -35,4 +35,9 @@ jobs:
               q = "query { channels(input:{organizationId:" + json.dumps(o["id"]) + "}) { name displayName externalLink service isDisconnected isLocked isQueuePaused } }"
               for c in pb.graphql(q).get("channels") or []:
                   print("CHANNEL", json.dumps(c, ensure_ascii=False))
+          sys.path.insert(0, "scripts")
+          import buffer_post_single as bps
+          org, ch = bps.find_channel("wildvox6")
+          for p in pb.read_existing_posts(org, ch):
+              print("POST", p["id"], p["status"], p.get("dueAt"), p["text"][:50].replace("\n", " "))
           PY
