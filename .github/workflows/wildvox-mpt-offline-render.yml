@@ -65,6 +65,14 @@ jobs:
           uv sync --frozen
           .venv/bin/python -c "import moviepy, faster_whisper; print('mpt deps ok')"
 
+      - name: WildVox subtitle font (Inter Black, OFL)
+        run: |
+          curl -fsSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip
+          unzip -o -q /tmp/inter.zip -d /tmp/inter
+          f=$(find /tmp/inter -name 'Inter-Black.ttf' | head -1)
+          test -n "$f"
+          cp "$f" mpt/resource/fonts/Inter-Black.ttf
+
       - name: Install WildVox narration deps (Kokoro pm_alex)
         run: python -m pip install "kokoro>=0.9.4" soundfile numpy
 

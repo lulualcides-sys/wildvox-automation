@@ -57,6 +57,15 @@ class MptOfflineRender(unittest.TestCase):
         self.assertIn("--stop-at video", joined)
         self.assertNotIn("--confirm-", joined)  # no paid provider confirmations
 
+    def test_render_style_no_zoom_centred_brand_font(self):
+        shots = [self.mpt / f"s{i}.mp4" for i in range(8)]
+        cmd = mod.build_render_command(self.mpt, "x", shots, self.mpt / "v.wav")
+        opt = lambda k: cmd[cmd.index(k) + 1]
+        self.assertEqual(opt("--video-fit-mode"), "contain")
+        self.assertEqual(opt("--subtitle-position"), "custom")
+        self.assertTrue(70 <= float(opt("--custom-position")) <= 80)
+        self.assertEqual(opt("--font-name"), "Inter-Black.ttf")
+
     def test_render_command_rejects_duplicates_and_few_shots(self):
         one = self.mpt / "s.mp4"
         with self.assertRaises(ValueError):

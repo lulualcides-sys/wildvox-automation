@@ -21,6 +21,21 @@ from urllib.parse import urlsplit
 
 MIN_SHOTS, MAX_SHOTS = 6, 12
 
+# WildVox look (brand from legal/*.html: Inter weight 900, white on #0b0d10,
+# accent #ff4d22). Feedback 18/11/2026: no zoom/crop, video centred, captions
+# below the video and above the TikTok UI area.
+SUBTITLE_FONT = "Inter-Black.ttf"
+SUBTITLE_STYLE = [
+    "--video-fit-mode", "contain",          # full frame, no crop/zoom
+    "--subtitle-position", "custom",
+    "--custom-position", "74",              # just below a centred 16:9 video
+    "--font-name", SUBTITLE_FONT,
+    "--font-size", "64",
+    "--text-fore-color", "#FFFFFF",
+    "--stroke-color", "#0B0D10",
+    "--stroke-width", "4",
+]
+
 # (pattern, replacement) – every pattern MUST match exactly once.
 SAFE_CONFIG = [
     (r'^video_source\s*=.*$', 'video_source = "local"'),
@@ -84,8 +99,7 @@ def build_render_command(mpt_root: Path, script: str, shots: list, voice: Path, 
         "--custom-audio-file", str(voice),
         "--bgm-type", "none",
         "--subtitle-enabled",
-        "--subtitle-position", "custom",
-        "--custom-position", "68",
+        *SUBTITLE_STYLE,
         "--stop-at", "video",
     ]
 
