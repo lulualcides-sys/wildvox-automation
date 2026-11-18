@@ -29,7 +29,7 @@ SUBTITLE_FONT = "Inter-Black.ttf"
 SUBTITLE_STYLE = [
     "--video-fit-mode", "contain",          # full frame, no crop/zoom
     "--subtitle-position", "custom",
-    "--custom-position", "80",              # inside the bottom black bar
+    "--custom-position", "82",              # inside the bottom bar, clear of 4-line captions on photos
     "--font-name", SUBTITLE_FONT,
     "--font-size", "52",                   # fewer lines -> stays in the bar
     "--text-fore-color", "#FFFFFF",         # WildVox white text ...
@@ -45,7 +45,7 @@ def is_widescreen(width: int, height: int) -> bool:
     return height > 0 and width / height >= 1.6
 
 
-LABEL_Y = 560                               # just above a centred 16:9 video
+LABEL_Y = 530                               # above the media (photos reach y~594)
 
 
 def logo_overlay_command(video: Path, logo: Path, out: Path, label: Path | None = None) -> list:

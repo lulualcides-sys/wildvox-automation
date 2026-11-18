@@ -43,6 +43,9 @@
       "Alouatta macconnelli",
       "Alouatta sara",
       "Alouatta seniculus"
+    ],
+    "exclude_sources": [
+      "https://www.inaturalist.org/photos/261943363"
     ]
   }
 }

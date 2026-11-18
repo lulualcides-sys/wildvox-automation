@@ -243,12 +243,14 @@ def pick_batch(batch, used, gather):
                 out[key] = dict(cand, sources=picks, media_mode="video")
                 continue
             release(picks)
+            excl = set(cand.get("exclude_sources") or [])  # rejected in visual review
             def photos_of(species):
-                ph = gather("inat_photos", species)          # real field observations first
+                ph = [p for p in gather("inat_photos", species) if p["sourcePage"] not in excl]
                 picks = choose_photos(ph, used)
                 if len(picks) < MIN_PHOTOS:
                     release(picks)
-                    picks = choose_photos(ph + gather("commons_photos", species), used)
+                    picks = choose_photos(ph + [p for p in gather("commons_photos", species)
+                                                if p["sourcePage"] not in excl], used)
                 return picks
             # 2) licensed PHOTOS of the exact species (owner decision 18/11/2026)
             if cand.get("species"):

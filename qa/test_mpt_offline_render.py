@@ -122,7 +122,7 @@ class MptOfflineRender(unittest.TestCase):
         cmd = mod.logo_overlay_command(Path("in.mp4"), Path("logo.png"), Path("out.mp4"), Path("label.png"))
         joined = " ".join(map(str, cmd))
         self.assertIn("label.png", joined)
-        self.assertIn("overlay=(W-w)/2:560", joined)
+        self.assertIn("overlay=(W-w)/2:530", joined)
         with self.assertRaises(ValueError):
             mod.make_label(Path("f.ttf"), "x" * 61, Path("o.png"))
 
