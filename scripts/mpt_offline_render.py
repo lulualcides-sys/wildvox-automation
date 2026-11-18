@@ -32,11 +32,10 @@ SUBTITLE_STYLE = [
     "--custom-position", "80",              # inside the bottom black bar
     "--font-name", SUBTITLE_FONT,
     "--font-size", "60",
-    "--text-fore-color", "#FFFFFF",         # WildVox white ...
-    "--subtitle-background-color", "#FF4D22",  # ... on WildVox orange
-    "--rounded-subtitle-background",
-    "--stroke-color", "#FF4D22",
-    "--stroke-width", "2",
+    "--text-fore-color", "#FFFFFF",         # WildVox white text ...
+    "--no-subtitle-background-enabled",     # no box (feedback 18/11/2026)
+    "--stroke-color", "#FF4D22",            # ... with WildVox orange outline
+    "--stroke-width", "4",
 ]
 LOGO_MARGIN_X, LOGO_Y = 48, 220             # top-right, inside the top black bar
 

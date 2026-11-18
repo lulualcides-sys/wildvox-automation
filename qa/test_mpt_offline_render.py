@@ -77,8 +77,9 @@ class MptOfflineRender(unittest.TestCase):
             self.assertGreater(top, 1264)
             self.assertLess(top + box, 1650)
         self.assertEqual(opt("--text-fore-color"), "#FFFFFF")
-        self.assertEqual(opt("--subtitle-background-color"), "#FF4D22")
-        self.assertIn("--rounded-subtitle-background", cmd)
+        self.assertEqual(opt("--stroke-color"), "#FF4D22")
+        self.assertIn("--no-subtitle-background-enabled", cmd)
+        self.assertNotIn("--subtitle-background-color", cmd)
 
     def test_only_widescreen_shots_keep_captions_off_the_image(self):
         self.assertTrue(mod.is_widescreen(1920, 1080))
