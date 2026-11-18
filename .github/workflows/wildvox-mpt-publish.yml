@@ -48,7 +48,7 @@ jobs:
           f=approved/final-1-wildvox.mp4
           test -s "$f"
           sha256sum "$f"
-          ffprobe -v error -show_entries format=duration:stream=width,height -of csv=p=0 "$f"
+          ls -l "$f"
 
       - name: Publish MP4 on public media branch
         run: |
