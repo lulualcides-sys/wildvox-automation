@@ -1,0 +1,18 @@
+{
+  "day_local": "2026-11-18",
+  "candidate_key": "gatos_piscar_lento_comunicacao_nov14",
+  "decision": "APPROVE",
+  "approved_by": "owner (Lucas) in chat, after watching earlier renders; requested caption box removal then approved",
+  "editor": "MoneyPrinterTurbo 92e0f9a (experimental), contain fit, Inter Black captions white + #FF4D22 outline, WildVox wordmark top-right",
+  "github_actions_run_id": 44312657637,
+  "github_artifact_id": 14432485171,
+  "file": "final-1-wildvox.mp4",
+  "mp4_seconds": 36.77,
+  "sources_used": 7,
+  "source_excluded": "https://commons.wikimedia.org/wiki/File:Amelia_-cat_purrs_and_kneads.webm (640x640, skipped in render)",
+  "policy_exceptions": ["owner waived 60 s minimum for this video (18/11/2026)", "publication_hold lifted by owner for this file only"],
+  "network": "tiktok",
+  "account": "@wildvox",
+  "publisher": "Buffer free (scripts/buffer_post_single.py)",
+  "note": "Assistant could not download the artifact (proxy 403); visual approval is the owner's."
+}

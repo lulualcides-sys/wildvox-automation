@@ -1,0 +1,80 @@
+name: WildVox MPT approved video -> Buffer TikTok
+
+# Publishes ONE user-approved MoneyPrinterTurbo render (exact artifact the
+# user reviewed) to the public media branch and schedules it on Buffer.
+on:
+  push:
+    branches: ["experimental/mpt-*"]
+    paths: [".github/workflows/wildvox-mpt-publish.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: wildvox-media-push
+  cancel-in-progress: false
+
+env:
+  KEY: gatos_piscar_lento_comunicacao_nov14
+  SOURCE_RUN_ID: "44312657637"          # render approved by the user 18/11/2026
+  ARTIFACT: wildvox-mpt-gatos_piscar_lento_comunicacao_nov14
+  MEDIA_NAME: mpt_gatos_piscar_lento_nov18.mp4
+  EXCLUDE: https://commons.wikimedia.org/wiki/File:Amelia_-cat_purrs_and_kneads.webm  # skipped (640x640) in render
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Gate tests
+        run: python -m unittest discover -s qa -p 'test_buffer_post_single.py' -v
+
+      - name: Download the exact approved render
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.ARTIFACT }}
+          run-id: ${{ env.SOURCE_RUN_ID }}
+          github-token: ${{ github.token }}
+          path: approved
+
+      - name: Verify file
+        run: |
+          f=approved/final-1-wildvox.mp4
+          test -s "$f"
+          sha256sum "$f"
+          ffprobe -v error -show_entries format=duration:stream=width,height -of csv=p=0 "$f"
+
+      - name: Publish MP4 on public media branch
+        run: |
+          git config --global user.name "wildvox-bot"
+          git config --global user.email "actions@users.noreply.github.com"
+          git clone --depth 1 --filter=blob:none --no-checkout --branch media \
+            "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" /tmp/media
+          cd /tmp/media
+          git sparse-checkout set --no-cone "/$MEDIA_NAME"
+          git checkout -q media
+          cp "$GITHUB_WORKSPACE/approved/final-1-wildvox.mp4" "$MEDIA_NAME"
+          git add "$MEDIA_NAME"
+          if git diff --cached --quiet; then echo "already on media"; else
+            git commit -q -m "media: $MEDIA_NAME (MPT render approved by user 18/11/2026, run $SOURCE_RUN_ID)"
+            for i in 1 2 3; do git push -q origin HEAD:media && break; git pull -q --rebase origin media; done
+          fi
+          echo "MEDIA_URL=https://raw.githubusercontent.com/${{ github.repository }}/media/$MEDIA_NAME" >> "$GITHUB_ENV"
+
+      - name: Wait until public URL serves the file
+        run: |
+          for i in $(seq 1 20); do
+            code=$(curl -s -o /dev/null -w '%{http_code}' -I "$MEDIA_URL"); echo "HTTP $code"
+            [ "$code" = 200 ] && exit 0; sleep 15
+          done; exit 1
+
+      - name: Schedule on Buffer (TikTok @wildvox)
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python scripts/buffer_post_single.py --key "$KEY" --media-url "$MEDIA_URL" --exclude-source "$EXCLUDE"
