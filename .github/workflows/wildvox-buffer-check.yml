@@ -1,0 +1,28 @@
+name: WildVox Buffer read-only connection check
+
+# Read-only: lists the Buffer organisation/channels. Never creates posts.
+on:
+  push:
+    branches: ["experimental/mpt-*"]
+    paths: [".github/workflows/wildvox-buffer-check.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Read-only Buffer check
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          WILDVOX_BUFFER_ENABLED: ${{ vars.WILDVOX_BUFFER_ENABLED }}
+        run: python scripts/check_buffer_connection.py
