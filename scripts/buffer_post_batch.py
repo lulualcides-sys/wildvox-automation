@@ -15,8 +15,9 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import publish_buffer as pb  # noqa: E402
 from buffer_post_single import credited_caption, find_channel, next_slot  # noqa: E402
 
-# Daily MPT batch: 7 slots (America/Sao_Paulo) so >=5 videos/day fit the same day.
-DAILY_SLOTS = [(10, 5), (12, 40), (14, 25), (16, 10), (19, 35), (21, 5), (22, 35)]
+# Owner decision 18/11/2026: 2 high-quality videos per day (lunch + evening peak).
+DAILY_SLOTS = [(12, 40), (19, 35)]
+MAX_PER_DAY = 2
 MEDIA_PREFIX = "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/"
 
 
@@ -58,6 +59,17 @@ def main(argv=None):
     seen = {p.get("text", "").strip() for p in posts}
     used = {pb.utc_datetime(p["dueAt"]).astimezone(pb.TZ).replace(second=0, microsecond=0)
             for p in scheduled if p.get("dueAt")}
+    # Any post already scheduled/sent on a day (other slot times included)
+    # counts against that day's limit of MAX_PER_DAY.
+    per_day = {}
+    for p in posts:
+        if p.get("dueAt") and p.get("status") in ("scheduled", "sent"):
+            d = pb.utc_datetime(p["dueAt"]).astimezone(pb.TZ).date()
+            per_day[d] = per_day.get(d, 0) + 1
+    for d, n in per_day.items():
+        if n >= MAX_PER_DAY:
+            for h, m in DAILY_SLOTS:
+                used.add(datetime(d.year, d.month, d.day, h, m, tzinfo=pb.TZ))
     now = datetime.now(pb.TZ)
     queued = 0
     failed = []

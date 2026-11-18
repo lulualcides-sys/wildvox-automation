@@ -49,4 +49,4 @@ jobs:
         run: |
           d=${{ steps.d.outputs.date }}
           python scripts/buffer_post_batch.py --batch "configs/mpt_batch/$d.json" --meta-dir metas \
-            --tiktok-handle wildvox6 --approved "configs/mpt_batch/$d.approved.json"
+            --tiktok-handle wildvox --approved "configs/mpt_batch/$d.approved.json"
