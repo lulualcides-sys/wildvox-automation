@@ -92,7 +92,8 @@ def choose(candidates, used, want):
 
 
 PIXABAY_BAD_TAGS = re.compile(r"cartoon|animation|animated|3d|render|illustration|toy|plush|food|"
-                              r"cooking|neon|logo|drawing|painting|statue|costume|mask|cgi|moth|sushi|dish|market", re.I)
+                              r"cooking|neon|logo|drawing|painting|statue|costume|mask|cgi|moth|sushi|dish|market|"
+                              r"carousel|fair|festival|cuttlefish|squid|shark|aquarium fish", re.I)
 
 
 def pixabay_candidates(hits, required_tags):
@@ -102,7 +103,8 @@ def pixabay_candidates(hits, required_tags):
     out = []
     for h in hits:
         tags = str(h.get("tags", "")).lower()
-        if req and not any(t in tags for t in req):
+        lead = ", ".join(tags.split(", ")[:2])  # the animal must be a main subject
+        if req and not any(t in lead for t in req):
             continue
         if PIXABAY_BAD_TAGS.search(tags) or h.get("type", "film") != "film":
             continue

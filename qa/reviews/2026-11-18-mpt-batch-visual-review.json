@@ -1,0 +1,14 @@
+{
+  "day_local": "2026-11-18",
+  "run_id": 44345361563,
+  "method": "Contact sheet (1 frame / 4 s) of each final MP4 from media branch, viewed by assistant",
+  "approved": {
+    "gatos_ronronar_como_funciona": "12 domestic cat shots; captions correct; one long 6-line caption briefly overlaps bottom of video",
+    "beija_flor_torpor_noturno": "all hummingbirds (feeder, flowers, perched); captions correct",
+    "gatos_visao_noturna": "all domestic cats; captions correct"
+  },
+  "rejected": {
+    "polvo_tres_coracoes_sangue_azul": "wrong footage: cuttlefish, fairground carousel, sharks and fish school instead of octopus",
+    "gatos_miado_para_humanos": "footage OK but subtitle typos ('miam-os para os outros', 'gatos no sio')"
+  }
+}

@@ -31,7 +31,7 @@ SUBTITLE_STYLE = [
     "--subtitle-position", "custom",
     "--custom-position", "80",              # inside the bottom black bar
     "--font-name", SUBTITLE_FONT,
-    "--font-size", "60",
+    "--font-size", "52",                   # fewer lines -> stays in the bar
     "--text-fore-color", "#FFFFFF",         # WildVox white text ...
     "--no-subtitle-background-enabled",     # no box (feedback 18/11/2026)
     "--stroke-color", "#FF4D22",            # ... with WildVox orange outline
