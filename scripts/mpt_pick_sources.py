@@ -8,6 +8,7 @@ an original already on the media branch or picked for another video today.
 Candidates that cannot reach MIN_SHOTS are dropped (fail closed, logged).
 """
 import argparse
+import re
 import json
 import sys
 from pathlib import Path
@@ -18,6 +19,15 @@ from scout_commons_portrait import (  # noqa: E402
     api, canonical_source, category_titles, previously_used, verify_titles,
 )
 from mpt_offline_render import MIN_SHOTS, MAX_SHOTS, is_widescreen  # noqa: E402
+
+
+# Free-text Commons search pulled ads, cartoons, cooking and look-alike species
+# on 18/11/2026. Only species categories are used now; titles are also screened.
+JUNK = re.compile(r"trailer|nickrewind|rugrats|samsung|sora|openai|dvd|cook|recipe|cocer|receta|"
+                  r"yummy|neon|mosaic|museo|museum|moth|cartoon|animation|anime|felix the cat|"
+                  r"\(1[89]\d\d\)|episode|ep\. ?\d|show|music|official|commercial|advert|"
+                  r"toy|plush|lego|game|minecraft|robot|drawing|painting|statue|sculpture|logo",
+                  re.IGNORECASE)
 
 
 def search_titles(query, limit=50, query_fn=api):
@@ -45,6 +55,8 @@ def choose(candidates, used, want):
     picks = []
     for c in sorted(candidates, key=lambda c: -(c["width"] * c["height"])):
         key = canonical_source(c["title"])
+        if JUNK.search(c["title"]):
+            continue
         if key in used or ("file:" + key) in used or not is_widescreen(c["width"], c["height"]) or c["width"] < 1280:
             continue
         used.update({key, "file:" + key, canonical_source(c.get("url", ""))})
@@ -60,8 +72,6 @@ def pick_batch(batch, used, gather):
         titles = []
         for cat in cand.get("commons_categories") or []:
             titles += gather("category", cat)
-        for q in cand.get("commons_search") or []:
-            titles += gather("search", q)
         titles = list(dict.fromkeys(titles))
         verified = gather("verify", titles) if titles else []
         want = int(cand.get("max_shots") or MAX_SHOTS)

@@ -39,9 +39,15 @@ def main(argv=None):
     ap.add_argument("--batch", required=True, type=Path)
     ap.add_argument("--meta-dir", required=True, type=Path)
     ap.add_argument("--tiktok-handle", required=True)
+    ap.add_argument("--approved", required=True, type=Path,
+                    help="JSON list of keys whose contact sheet passed visual review")
     ap.add_argument("--dry-run", action="store_true")
     o = ap.parse_args(argv)
-    order = list(json.loads(o.batch.read_text(encoding="utf-8")))
+    if not o.approved.is_file():
+        print("AWAITING_REVIEW: no approved list; nothing posted")
+        return
+    approved = set(json.loads(o.approved.read_text(encoding="utf-8")))
+    order = [k for k in json.loads(o.batch.read_text(encoding="utf-8")) if k in approved]
     metas = load_metas(o.meta_dir, order)
     if not metas:
         raise RuntimeError("Nothing rendered; nothing to post")

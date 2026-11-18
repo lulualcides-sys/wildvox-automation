@@ -6,7 +6,7 @@ name: WildVox MPT daily batch -> Buffer TikTok
 on:
   push:
     branches: ["experimental/mpt-*"]
-    paths: ["configs/mpt_batch/*.json"]
+    paths: ["configs/mpt_batch/????-??-??.json"]
   workflow_dispatch:
     inputs:
       batch:
@@ -184,4 +184,7 @@ jobs:
       - name: Schedule on Buffer
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-        run: python scripts/buffer_post_batch.py --batch "${{ needs.pick.outputs.batch }}" --meta-dir metas --tiktok-handle "$TIKTOK_HANDLE"
+        run: |
+          b="${{ needs.pick.outputs.batch }}"
+          python scripts/buffer_post_batch.py --batch "$b" --meta-dir metas --tiktok-handle "$TIKTOK_HANDLE" \
+            --approved "${b%.json}.approved.json"

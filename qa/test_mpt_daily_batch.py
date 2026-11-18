@@ -59,6 +59,32 @@ class DailyBatch(unittest.TestCase):
                                  set(), lambda k, a: pool if k == "verify" else ["t"])
         self.assertEqual(len(render.validate_candidate(out["k"])), 8)
 
+    def test_junk_titles_and_free_text_search_are_ignored(self):
+        bad = ["2023 Neo QLED 8K- More Wow than Ever (Full Version) - Samsung.webm", "OpenAI - This is Sora 2.webm",
+               "The Mystery of the Malties Woodchuck - Rugrats - NickRewind.webm", "COMO COCER PULPO - HOW TO COOK.webm",
+               "Hummingbird Moth feeding at 25% speed.webm", "Le Déjeuner des Minet (1906).webm",
+               "Octopus-shaped rotating neon light.webm"]
+        pool = [cand(t) for t in bad] + [cand(f"good cat {i}.webm") for i in range(6)]
+        picks = pick.choose(pool, set(), 12)
+        self.assertEqual({p["assetTitle"] for p in picks}, {f"good cat {i}.webm" for i in range(6)})
+        calls = []
+        def gather(kind, arg):
+            calls.append(kind)
+            return pool if kind == "verify" else ["t"]
+        pick.pick_batch({"k": {"commons_categories": ["C"], "commons_search": ["cat"]}}, set(), gather)
+        self.assertNotIn("search", calls)
+
+    def test_batch_poster_requires_review_approval(self):
+        with tempfile.TemporaryDirectory() as d:
+            b = Path(d) / "b.json"
+            b.write_text(json.dumps({"a": {}}))
+            import io, contextlib
+            out = io.StringIO()
+            with contextlib.redirect_stdout(out):
+                batch.main(["--batch", str(b), "--meta-dir", d, "--tiktok-handle", "x",
+                            "--approved", str(Path(d) / "missing.json")])
+            self.assertIn("AWAITING_REVIEW", out.getvalue())
+
     def test_clip_seconds_spreads_footage(self):
         self.assertEqual(render.clip_seconds(36.8, 7), 6)
         self.assertEqual(render.clip_seconds(90, 12), 8)
