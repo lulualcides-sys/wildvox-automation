@@ -24,7 +24,7 @@ concurrency:
 env:
   MPT_REPO: https://github.com/harry0703/MoneyPrinterTurbo
   MPT_COMMIT: 92e0f9a55b91e353565015aab74b7c50cc28f148
-  TIKTOK_HANDLE: wildvox6   # owner confirmed 18/11/2026
+  TIKTOK_HANDLE: wildvox   # owner main account (reconnected in Buffer 18/11/2026)
 
 jobs:
   pick:

@@ -77,4 +77,4 @@ jobs:
       - name: Schedule on Buffer (TikTok @wildvox)
         env:
           BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
-        run: python scripts/buffer_post_single.py --key "$KEY" --media-url "$MEDIA_URL" --exclude-source "$EXCLUDE" --tiktok-handle wildvox6  # owner confirmed 18/11/2026
+        run: python scripts/buffer_post_single.py --key "$KEY" --media-url "$MEDIA_URL" --exclude-source "$EXCLUDE" --tiktok-handle wildvox  # owner main account
