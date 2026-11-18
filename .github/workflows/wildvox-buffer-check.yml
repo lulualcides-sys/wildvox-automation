@@ -4,7 +4,7 @@ name: WildVox Buffer read-only connection check
 on:
   push:
     branches: ["experimental/mpt-*"]
-    paths: [".github/workflows/wildvox-buffer-check.yml"]  # rev 3
+    paths: [".github/workflows/wildvox-buffer-check.yml"]  # rev 4
   workflow_dispatch:
 
 permissions:
