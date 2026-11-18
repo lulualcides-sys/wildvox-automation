@@ -45,12 +45,28 @@ def is_widescreen(width: int, height: int) -> bool:
     return height > 0 and width / height >= 1.6
 
 
-def logo_overlay_command(video: Path, logo: Path, out: Path) -> list:
-    return ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
-            "-i", str(video), "-i", str(logo),
-            "-filter_complex", f"[0:v][1:v]overlay=W-w-{LOGO_MARGIN_X}:{LOGO_Y}",
+LABEL_Y = 560                               # just above a centred 16:9 video
+
+
+def logo_overlay_command(video: Path, logo: Path, out: Path, label: Path | None = None) -> list:
+    inputs = ["-i", str(video), "-i", str(logo)]
+    graph = f"[0:v][1:v]overlay=W-w-{LOGO_MARGIN_X}:{LOGO_Y}"
+    if label is not None:
+        inputs += ["-i", str(label)]
+        graph += f"[v1];[v1][2:v]overlay=(W-w)/2:{LABEL_Y}"
+    return ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", *inputs,
+            "-filter_complex", graph,
             "-c:v", "libx264", "-preset", "veryfast", "-crf", "18",
             "-c:a", "copy", str(out)]
+
+
+def make_label(font: Path, text: str, out: Path) -> Path:
+    """Honest on-screen note, e.g. footage of related species (not the new one)."""
+    if not text or len(text) > 60:
+        raise ValueError("Label must be 1-60 characters")
+    subprocess.run(["magick", "-background", "none", "-font", str(font), "-pointsize", "34",
+                    "-fill", "#FFFFFFCC", f"label:{text}", str(out)], check=True)
+    return out
 
 
 def make_wordmark(font: Path, out: Path) -> Path:
@@ -206,7 +222,11 @@ def main(argv=None):
 
     task = o.mpt_root / "storage" / "tasks" / task_id
     logo = make_wordmark(o.mpt_root / "resource" / "fonts" / SUBTITLE_FONT, o.work / "wildvox-logo.png")
-    subprocess.run(logo_overlay_command(task / "final-1.mp4", logo, task / "final-1-wildvox.mp4"), check=True)
+    label = None
+    if cand.get("illustrative_label"):
+        label = make_label(o.mpt_root / "resource" / "fonts" / SUBTITLE_FONT,
+                           cand["illustrative_label"], o.work / "label.png")
+    subprocess.run(logo_overlay_command(task / "final-1.mp4", logo, task / "final-1-wildvox.mp4", label), check=True)
 
 
 if __name__ == "__main__":

@@ -118,6 +118,14 @@ class MptOfflineRender(unittest.TestCase):
         with self.assertRaises(ValueError):
             mod.validate_candidate(bad)
 
+    def test_illustrative_label_overlay(self):
+        cmd = mod.logo_overlay_command(Path("in.mp4"), Path("logo.png"), Path("out.mp4"), Path("label.png"))
+        joined = " ".join(map(str, cmd))
+        self.assertIn("label.png", joined)
+        self.assertIn("overlay=(W-w)/2:560", joined)
+        with self.assertRaises(ValueError):
+            mod.make_label(Path("f.ttf"), "x" * 61, Path("o.png"))
+
     def test_not_wired_to_production(self):
         daily = (ROOT / ".github" / "workflows" / "wildvox-daily.yml").read_text()
         self.assertNotIn("mpt_offline_render", daily)
