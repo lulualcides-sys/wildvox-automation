@@ -1,0 +1,181 @@
+{
+  "gatos_miado_para_humanos": {
+    "title": "Gatos adultos miam uns para os outros?",
+    "script": "Você sabia que gatos adultos quase não miam uns para os outros? Entre si, eles se comunicam principalmente por cheiro, postura do corpo e posição da cauda e das orelhas. O miado é um som típico de filhote: é assim que o gatinho chama a mãe quando sente fome ou frio. Depois de adultos, os gatos que vivem com pessoas continuam usando esse som, mas agora direcionado a nós. Uma explicação proposta é que os humanos leem mal a linguagem corporal felina e respondem bem a sons. Há exceções: fêmeas chamando filhotes, brigas e gatos no cio também usam vocalizações. Mas, no dia a dia, aquele miado na porta da cozinha é, muito provavelmente, uma mensagem feita para você.",
+    "caption": "Entre si, gatos adultos usam cheiro e linguagem corporal; o miado ficou reservado principalmente para os humanos. Cenas ilustrativas de gatos reais. #WildVox #Gatos #CuriosidadesDosGatos #ComportamentoFelino #Biologia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "claims": [
+        {
+          "claim": "Gatos adultos raramente miam uns para os outros; o miado é usado principalmente com humanos.",
+          "sources": [
+            "https://webmd.com/pets/cats/cats-excessive-meowing",
+            "https://www.purina.ca/articles/cat/behaviour/why-do-cats-meow"
+          ]
+        },
+        {
+          "claim": "Filhotes miam para chamar a mãe; entre adultos predominam cheiro, postura e cauda.",
+          "sources": [
+            "https://www.purina.ca/articles/cat/behaviour/why-do-cats-meow"
+          ]
+        }
+      ]
+    },
+    "commons_categories": [
+      "Category:Videos of cats",
+      "Category:Videos of Felis catus",
+      "Category:Meowing"
+    ],
+    "commons_search": [
+      "cat meowing",
+      "domestic cat"
+    ]
+  },
+  "polvo_tres_coracoes_sangue_azul": {
+    "title": "Por que o polvo tem três corações?",
+    "script": "O polvo tem três corações. Dois deles, chamados corações branquiais, ficam junto às brânquias e empurram o sangue por elas para captar oxigênio. O terceiro, o coração sistêmico, é o maior e mais musculoso: ele leva o sangue já oxigenado para o resto do corpo. E esse sangue é azul. No lugar da hemoglobina, que tem ferro e deixa o nosso sangue vermelho, o polvo usa a hemocianina, uma proteína com cobre. A hemocianina transporta oxigênio com menos eficiência que a hemoglobina, e ter bombas extras nas brânquias ajuda a manter esse sangue circulando. Três corações e sangue azul: duas adaptações que funcionam juntas.",
+    "caption": "Dois corações para as brânquias, um para o corpo e sangue azul com cobre: o sistema circulatório do polvo. Cenas ilustrativas de polvos reais. #WildVox #Polvo #VidaMarinha #CuriosidadesAnimais #Biologia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "claims": [
+        {
+          "claim": "Polvos têm dois corações branquiais e um coração sistêmico, o maior e mais musculoso.",
+          "sources": [
+            "https://www.livescience.com/how-many-hearts-does-an-octopus-have",
+            "https://www.smithsonianmag.com/science-nature/ten-curious-facts-about-octopuses-7625828/"
+          ]
+        },
+        {
+          "claim": "O sangue do polvo é azul por usar hemocianina (cobre) em vez de hemoglobina (ferro), menos eficiente no transporte de oxigênio.",
+          "sources": [
+            "https://www.livescience.com/how-many-hearts-does-an-octopus-have"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "'o coração sistêmico para quando nada' — contestado por especialistas (fórum TONMO), não usado"
+      ]
+    },
+    "commons_categories": [
+      "Category:Videos of Octopoda",
+      "Category:Videos of octopuses",
+      "Category:Videos of Octopus vulgaris"
+    ],
+    "commons_search": [
+      "octopus",
+      "octopus underwater"
+    ]
+  },
+  "gatos_ronronar_como_funciona": {
+    "title": "Como o gato consegue ronronar tão grave?",
+    "script": "Como um animal tão pequeno produz um som tão grave? O ronronar do gato fica, em geral, entre 25 e 150 hertz, e acontece tanto ao inspirar quanto ao expirar. Por décadas, a explicação principal era que o cérebro mandava sinais rápidos para os músculos da laringe. Em 2023, pesquisadores da Universidade de Viena testaram laringes de oito gatos em laboratório e viram que elas conseguem vibrar entre 25 e 30 hertz sem nenhum sinal nervoso. A pista está em almofadas de tecido nas pregas vocais, que deixam a vibração mais lenta, parecido com a voz grave e rouca que algumas pessoas fazem. O estudo não descarta totalmente a ideia antiga, mas mostra que parte do segredo está na própria anatomia. E atenção: gatos também ronronam quando estão estressados ou doentes, então ronronar nem sempre significa felicidade.",
+    "caption": "Um estudo de 2023 mostrou que a laringe do gato consegue produzir a vibração do ronronar sem sinal do cérebro. Cenas ilustrativas de gatos reais. #WildVox #Gatos #Ronronar #CuriosidadesDosGatos #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "claims": [
+        {
+          "claim": "O ronronar ocorre na inspiração e na expiração, entre 25 e 150 Hz.",
+          "sources": [
+            "https://www.scientificamerican.com/article/why-do-cats-purr/"
+          ]
+        },
+        {
+          "claim": "Laringes excisadas de oito gatos produziram 25–30 Hz sem input neural (Current Biology, 2023, Univ. de Viena); hipótese AMC não totalmente rejeitada.",
+          "sources": [
+            "https://phaidra.univie.ac.at/o:2023632"
+          ]
+        },
+        {
+          "claim": "Gatos também ronronam sob estresse, como em visitas ao veterinário ou recuperação de lesões.",
+          "sources": [
+            "https://www.scientificamerican.com/article/why-do-cats-purr/"
+          ]
+        }
+      ]
+    },
+    "commons_categories": [
+      "Category:Videos of cats",
+      "Category:Videos of Felis catus",
+      "Category:Purring"
+    ],
+    "commons_search": [
+      "cat purring",
+      "cat resting"
+    ]
+  },
+  "beija_flor_torpor_noturno": {
+    "title": "Como o beija-flor sobrevive à noite?",
+    "script": "O coração de um beija-flor ativo pode passar de mil batidas por minuto. Esse motor acelerado tem um custo: ele gasta energia tão rápido que, em noites frias, muitas vezes não teria reservas para chegar até a manhã. A solução é o torpor, um estado parecido com uma hibernação de uma noite só. Em um estudo nos Andes do Peru, publicado em 2020, pesquisadores acompanharam vinte e seis beija-flores de seis espécies. Em uma delas, a temperatura do corpo caiu para cerca de três graus Celsius, e os batimentos chegaram perto de quarenta por minuto. Ao amanhecer, eles se reaquecem e voltam a voar. Não é um sono comum: é uma estratégia para não morrer de fome durante a noite.",
+    "caption": "Mais de mil batimentos por minuto de dia; perto de 40 à noite, em torpor. Assim o beija-flor economiza energia. Cenas ilustrativas de beija-flores reais. #WildVox #BeijaFlor #Aves #CuriosidadesAnimais #Biologia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "claims": [
+        {
+          "claim": "Beija-flores ativos chegam a cerca de 1.200 bpm.",
+          "sources": [
+            "https://www.smithsonianmag.com/smart-news/hummingbirds-andes-go-chilly-extremes-good-nights-sleep-180975767/",
+            "https://sora.unm.edu/sites/default/files/journals/auk/v084n01/p0034-p0048.pdf"
+          ]
+        },
+        {
+          "claim": "Estudo nos Andes (Biology Letters, 2020): 26 aves de 6 espécies; black metaltail com corpo a ~3,3 °C e coração a ~40 bpm em torpor.",
+          "sources": [
+            "https://www.smithsonianmag.com/smart-news/hummingbirds-andes-go-chilly-extremes-good-nights-sleep-180975767/"
+          ]
+        }
+      ]
+    },
+    "commons_categories": [
+      "Category:Videos of hummingbirds",
+      "Category:Videos of Trochilidae",
+      "Category:Videos of Calypte anna"
+    ],
+    "commons_search": [
+      "hummingbird",
+      "hummingbird feeding"
+    ]
+  },
+  "gatos_visao_noturna": {
+    "title": "Gatos enxergam no escuro?",
+    "script": "Gatos não enxergam no escuro total, mas chegam perto. Estudos indicam que eles precisam de cerca de um sexto da luz que nós precisamos para enxergar. Três adaptações explicam isso. Primeiro, a retina do gato tem muito mais bastonetes, as células sensíveis à pouca luz. Segundo, a córnea é grande e a pupila dilata muito, deixando entrar mais luz. Terceiro, atrás da retina existe o tapetum lucidum, uma camada que funciona como espelho e devolve a luz para uma segunda chance de ser captada. É esse espelho que faz os olhos do gato brilharem no escuro. O preço é que, com menos cones, os gatos enxergam menos cores e menos detalhes do que nós durante o dia.",
+    "caption": "Mais bastonetes, pupila enorme e um espelho atrás da retina: por isso gatos precisam de cerca de 1/6 da luz que precisamos. Cenas ilustrativas de gatos reais. #WildVox #Gatos #VisaoFelina #CuriosidadesDosGatos #Biologia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "claims": [
+        {
+          "claim": "O limiar de luz para visão em humanos é ~6x o do gato.",
+          "sources": [
+            "https://www.vin.com/doc/?id=7054842"
+          ]
+        },
+        {
+          "claim": "Córnea (16,3 mm) e pupila dilatada (10,1 mm) maiores que as humanas; mais bastonetes; tapetum lucidum reflete a luz.",
+          "sources": [
+            "https://vin.com/doc/?id=3866640",
+            "https://www.petmd.com/cat/general-health/cat-vision"
+          ]
+        },
+        {
+          "claim": "Visão de cores limitada e menor resolução diurna.",
+          "sources": [
+            "https://www.petmd.com/cat/general-health/cat-vision"
+          ]
+        }
+      ]
+    },
+    "commons_categories": [
+      "Category:Videos of cats",
+      "Category:Videos of Felis catus",
+      "Category:Cat eyes"
+    ],
+    "commons_search": [
+      "cat eyes",
+      "cat at night"
+    ]
+  }
+}

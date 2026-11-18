@@ -106,7 +106,13 @@ def validate_candidate(cand: dict) -> list:
     return videos
 
 
-def build_render_command(mpt_root: Path, script: str, shots: list, voice: Path, python: str = sys.executable) -> list:
+def clip_seconds(audio_seconds: float, n_shots: int) -> int:
+    """Spread the real shots over the narration so footage is not looped."""
+    return max(3, min(15, int(-(-audio_seconds // n_shots))))
+
+
+def build_render_command(mpt_root: Path, script: str, shots: list, voice: Path,
+                         python: str = sys.executable, clip: int = 5) -> list:
     if len(set(shots)) != len(shots):
         raise ValueError("Duplicate media are forbidden")
     if not MIN_SHOTS <= len(shots) <= MAX_SHOTS:
@@ -119,7 +125,7 @@ def build_render_command(mpt_root: Path, script: str, shots: list, voice: Path, 
         "--video-materials", ",".join(str(s) for s in shots),
         "--video-aspect", "9:16",
         "--video-concat-mode", "sequential",
-        "--video-clip-duration", "5",
+        "--video-clip-duration", str(clip),
         "--custom-audio-file", str(voice),
         "--bgm-type", "none",
         "--subtitle-enabled",
@@ -128,7 +134,7 @@ def build_render_command(mpt_root: Path, script: str, shots: list, voice: Path, 
     ]
 
 
-def prepare_media(videos: list, work: Path) -> list:
+def prepare_media(videos: list, work: Path, used_out: list | None = None) -> list:
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from generate_video import safe_download  # reuse WildVox downloader (read-only)
     work.mkdir(parents=True, exist_ok=True)
@@ -149,6 +155,8 @@ def prepare_media(videos: list, work: Path) -> list:
                         "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
                         "-pix_fmt", "yuv420p", str(mp4)], check=True)
         shots.append(mp4.resolve())
+        if used_out is not None:
+            used_out.append(s)
     return shots
 
 
@@ -165,7 +173,11 @@ def main(argv=None):
     videos = validate_candidate(cand)
     write_safe_config(o.mpt_root)
 
-    shots = prepare_media(videos, o.work)
+    used_sources = []
+    shots = prepare_media(videos, o.work, used_sources)
+    if len(shots) < MIN_SHOTS:
+        raise RuntimeError(f"Only {len(shots)} usable widescreen shots; need {MIN_SHOTS}")
+    (o.work / "used_sources.json").write_text(json.dumps(used_sources, ensure_ascii=False, indent=2), encoding="utf-8")
     sys.path.insert(0, str(Path(__file__).resolve().parent))
     from generate_video import generate_voice
     generate_voice(cand["script"], o.key, cand.get("visual_plan"),
@@ -173,7 +185,11 @@ def main(argv=None):
     voice = next(Path("output").glob(f"{o.key}_*.wav")).resolve()
 
     task_id = str(uuid.uuid5(uuid.NAMESPACE_URL, f"wildvox-mpt/{o.key}"))
-    cmd = build_render_command(o.mpt_root, cand["script"], shots, voice, o.mpt_python)
+    audio_s = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                                    "-of", "csv=p=0", str(voice)], capture_output=True, text=True,
+                                   check=True).stdout.strip())
+    cmd = build_render_command(o.mpt_root, cand["script"], shots, voice, o.mpt_python,
+                               clip_seconds(audio_s, len(shots)))
     cmd[-2:-2] = ["--task-id", task_id]
     print(json.dumps({"key": o.key, "shots": len(shots), "publish": False}, ensure_ascii=False), flush=True)
     subprocess.run(cmd, cwd=o.mpt_root, check=True, timeout=2400)

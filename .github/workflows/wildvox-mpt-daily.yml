@@ -1,0 +1,187 @@
+name: WildVox MPT daily batch -> Buffer TikTok
+
+# A daily batch file (configs/mpt_batch/YYYY-MM-DD.json, written by the
+# WildVox research task) triggers: Commons source picking -> parallel
+# MoneyPrinterTurbo renders -> public media branch -> Buffer scheduling.
+on:
+  push:
+    branches: ["experimental/mpt-*"]
+    paths: ["configs/mpt_batch/*.json"]
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Batch file (configs/mpt_batch/YYYY-MM-DD.json)"
+        required: true
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: wildvox-mpt-daily
+  cancel-in-progress: false
+
+env:
+  MPT_REPO: https://github.com/harry0703/MoneyPrinterTurbo
+  MPT_COMMIT: 92e0f9a55b91e353565015aab74b7c50cc28f148
+  TIKTOK_HANDLE: wildvox6   # owner confirmed 18/11/2026
+
+jobs:
+  pick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      keys: ${{ steps.keys.outputs.keys }}
+      batch: ${{ steps.find.outputs.batch }}
+      date: ${{ steps.find.outputs.date }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Tests (gate)
+        run: python -m unittest discover -s qa -p 'test_*.py'
+      - id: find
+        run: |
+          b="${{ github.event.inputs.batch }}"
+          if [ -z "$b" ]; then b=$(git diff --name-only HEAD~1 HEAD -- 'configs/mpt_batch/*.json' | sort | tail -1); fi
+          test -f "$b"
+          echo "batch=$b" >> "$GITHUB_OUTPUT"
+          echo "date=$(basename "$b" .json)" >> "$GITHUB_OUTPUT"
+      - name: Media history (metadata only)
+        run: |
+          git clone --depth 1 --filter=blob:none --no-checkout --branch media \
+            "https://github.com/${{ github.repository }}.git" media-branch
+          cd media-branch && git sparse-checkout set --no-cone '/*_meta.json' && git checkout -q media
+      - name: Pick licensed unused Commons footage
+        run: python scripts/mpt_pick_sources.py --batch "${{ steps.find.outputs.batch }}" --media-dir media-branch --output enriched.json
+      - id: keys
+        run: echo "keys=$(python -c 'import json;print(json.dumps(list(json.load(open("enriched.json")))))')" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: enriched
+          path: enriched.json
+
+  render:
+    needs: pick
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        key: ${{ fromJson(needs.pick.outputs.keys) }}
+    env:
+      KEY: ${{ matrix.key }}
+      MEDIA_NAME: mpt_${{ needs.pick.outputs.date }}_${{ matrix.key }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/download-artifact@v4
+        with:
+          name: enriched
+      - name: System dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg imagemagick espeak-ng curl fonts-dejavu-core unzip
+      - name: MoneyPrinterTurbo (pinned, isolated venv)
+        run: |
+          git init mpt && cd mpt
+          git remote add origin "$MPT_REPO"
+          git fetch --depth 1 origin "$MPT_COMMIT" && git checkout --detach FETCH_HEAD
+          test "$(git rev-parse HEAD)" = "$MPT_COMMIT"
+          python -m pip install --upgrade pip uv
+          uv python install 3.11
+          uv sync --frozen
+      - name: Brand font
+        run: |
+          curl -fsSL -o /tmp/inter.zip https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip
+          unzip -o -q /tmp/inter.zip -d /tmp/inter
+          cp "$(find /tmp/inter -name 'Inter-Black.ttf' | head -1)" mpt/resource/fonts/Inter-Black.ttf
+      - name: Kokoro pm_alex
+        run: python -m pip install "kokoro>=0.9.4" soundfile numpy
+      - name: Render (no publish from MPT)
+        run: |
+          python scripts/mpt_offline_render.py --config enriched.json --key "$KEY" \
+            --mpt-root "$GITHUB_WORKSPACE/mpt" --mpt-python "$GITHUB_WORKSPACE/mpt/.venv/bin/python"
+          grep -q '^upload_post_enabled = false' mpt/config.toml
+      - name: Technical QA
+        run: |
+          f=$(find mpt/storage/tasks -name 'final-1-wildvox.mp4' | head -1)
+          test -s "$f"
+          d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f")
+          wh=$(ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=p=0 "$f")
+          echo "duration=$d size=$wh"
+          test "$wh" = "1080,1920"
+          python -c "import sys; d=float('$d'); sys.exit(0 if 20 <= d <= 240 else 1)"
+          ffmpeg -y -hide_banner -loglevel error -i "$f" -vf "fps=1/4,scale=270:-1,tile=6x3" -frames:v 1 contact.jpg
+          cp "$f" final.mp4
+      - name: Publish on media branch
+        run: |
+          python - <<'PY'
+          import json, os
+          cand = json.load(open("enriched.json"))[os.environ["KEY"]]
+          used = json.load(open("work/mpt/used_sources.json"))
+          name = os.environ["MEDIA_NAME"]
+          meta = {"key": os.environ["KEY"], "title": cand.get("title"), "caption": cand["caption"],
+                  "sources": used, "editor": "MoneyPrinterTurbo " + os.environ["MPT_COMMIT"][:7],
+                  "media_url": f"https://raw.githubusercontent.com/${{ github.repository }}/media/{name}.mp4"}
+          json.dump(meta, open("meta.json", "w"), ensure_ascii=False, indent=2)
+          PY
+          git config --global user.name "wildvox-bot"
+          git config --global user.email "actions@users.noreply.github.com"
+          git clone --depth 1 --filter=blob:none --no-checkout --branch media \
+            "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" /tmp/media
+          cd /tmp/media
+          git sparse-checkout set --no-cone "/$MEDIA_NAME*"
+          git checkout -q media
+          cp "$GITHUB_WORKSPACE/final.mp4" "$MEDIA_NAME.mp4"
+          cp "$GITHUB_WORKSPACE/meta.json" "${MEDIA_NAME}_meta.json"
+          cp "$GITHUB_WORKSPACE/contact.jpg" "${MEDIA_NAME}_review.jpg"
+          git add "$MEDIA_NAME"*
+          git commit -q -m "media: $MEDIA_NAME (MPT daily batch)" || true
+          for i in 1 2 3 4 5 6; do git push -q origin HEAD:media && break; sleep $((i*3)); git pull -q --rebase origin media; done
+          mkdir -p "$GITHUB_WORKSPACE/out" && cp "$GITHUB_WORKSPACE/meta.json" "$GITHUB_WORKSPACE/out/$KEY.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: meta-${{ matrix.key }}
+          path: out/
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: review-${{ matrix.key }}
+          path: |
+            final.mp4
+            contact.jpg
+          if-no-files-found: ignore
+          retention-days: 7
+
+  post:
+    needs: [pick, render]
+    if: always() && needs.pick.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: meta-*
+          merge-multiple: true
+          path: metas
+      - name: Wait for public media URLs
+        run: |
+          for f in metas/*.json; do
+            u=$(python -c "import json,sys;print(json.load(open(sys.argv[1]))['media_url'])" "$f")
+            for i in $(seq 1 20); do [ "$(curl -s -o /dev/null -w '%{http_code}' -I "$u")" = 200 ] && break; sleep 15; done
+          done
+      - name: Schedule on Buffer
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python scripts/buffer_post_batch.py --batch "${{ needs.pick.outputs.batch }}" --meta-dir metas --tiktok-handle "$TIKTOK_HANDLE"
