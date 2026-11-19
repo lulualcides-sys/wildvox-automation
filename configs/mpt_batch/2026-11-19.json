@@ -1,0 +1,132 @@
+{
+  "ra_voadora_ovos_em_gel_sulawesi": {
+    "title": "Rã voadora nova bota ovos em gel",
+    "script": "Na Indonésia, cientistas encontraram uma rã voadora que quebra uma regra da própria família. Ela se chama Rhacophorus kurniatiae e foi anunciada nesta semana, na revista Zootaxa. Vive nas montanhas Mekongga, na ilha de Sulawesi, perto de um pequeno lago de altitude apelidado de Danau Coca-Cola. A equipe, do Museu Zoológico de Bogor e da Universidade da Califórnia em Davis, comparou vinte e oito características do corpo, o DNA e o canto. Por fora, ela é muito parecida com as parentes. Por isso, é chamada de espécie críptica. A grande diferença está na reprodução. As rãs voadoras aparentadas constroem ninhos de espuma. Esta espécie põe os ovos numa massa de gel, sobre plantas acima ou perto da água. Ovos e girinos se desenvolvem dentro dessa geleia. Segundo os autores, é a primeira vez que isso é visto no gênero. O nome homenageia a herpetóloga indonésia Hellen Kurniati. Quantas espécies ainda se escondem atrás de rostos conhecidos?",
+    "caption": "Nova rã voadora de Sulawesi troca o ninho de espuma por ovos em gel. Imagens ilustrativas de espécies parentes. #WildVox #EspecieNova #Anfibios #Indonesia #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": "2026-11-17",
+      "claims": [
+        {
+          "claim": "Rhacophorus kurniatiae, nova rã voadora das montanhas Mekongga (Sulawesi, Indonésia), perto do lago de altitude Danau Coca-Cola; Zootaxa 5900(4): 349-370, doi 10.11646/zootaxa.5900.4.3; divulgada em 17/11/2026.",
+          "sources": [
+            "https://www.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia",
+            "https://www.sci.news/biology/rhacophorus-kurniatiae-15204.html"
+          ]
+        },
+        {
+          "claim": "Equipe do Museum Zoologicum Bogoriense e da UC Davis; 28 caracteres morfológicos, DNA e cantos; espécie críptica, muito parecida com outros Rhacophorus.",
+          "sources": [
+            "https://www.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia"
+          ]
+        },
+        {
+          "claim": "Parentes fazem ninhos de espuma; R. kurniatiae põe ovos em massa gelatinosa sobre vegetação acima ou perto da água; ovos e girinos se desenvolvem no gel; primeira vez vista no gênero (Herlambang).",
+          "sources": [
+            "https://www.sci.news/biology/rhacophorus-kurniatiae-15204.html",
+            "https://www.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia"
+          ]
+        },
+        {
+          "claim": "Nome homenageia a herpetóloga Hellen Kurniati (Museum Zoologicum Bogoriense).",
+          "sources": [
+            "https://www.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "tamanho em mm (não informado nas fontes)",
+        "região candidata a parque nacional (citado, mas omitido por espaço)",
+        "parente mais próximo R. boeadii (citado no sci.news; usado só para imagens)"
+      ]
+    },
+    "species": "Rhacophorus kurniatiae",
+    "related_species": [
+      "Rhacophorus boeadii",
+      "Rhacophorus monticola",
+      "Rhacophorus edentulus"
+    ],
+    "revision": "v1"
+  },
+  "gato_cabeca_chata_ativo_de_dia": {
+    "title": "Gato raro flagrado também de dia",
+    "script": "Um dos gatos selvagens mais raros do mundo acaba de mostrar que não segue o horário que se esperava. É o gato-de-cabeça-chata, um felino pequeno do Sudeste Asiático, classificado como Em Perigo pela IUCN. Na Malásia, pesquisadores do Departamento Florestal de Sarawak instalaram armadilhas fotográficas num manguezal em Lundu, entre agosto de 2021 e maio de 2024. Em mais de sete mil registros de animais, esse gato apareceu só cinquenta e nove vezes. É menos de um por cento. A atividade teve pico perto da meia-noite. Mas as câmeras também o flagraram de manhã e à tarde. Para os autores, isso sugere uma rotina mais flexível do que se pensava. Quase todos os registros vieram de áreas de palmeira nibong, um pouco mais altas que o mangue alagado. E uma fêmea apareceu com um filhote, sinal de reprodução no local. São dados de um único lugar. Mas mostram que proteger esse pedaço de floresta pode fazer diferença para um felino que quase ninguém vê.",
+    "caption": "Câmeras na Malásia flagraram o raro gato-de-cabeça-chata ativo também durante o dia. Imagens ilustrativas de espécies parentes. #WildVox #Felinos #EspecieAmeacada #Malasia #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": "2026-11-16",
+      "claims": [
+        {
+          "claim": "Prionailurus planiceps, Em Perigo (IUCN); armadilhas fotográficas na proposta Lundu Mangrove Protected Forest (Sarawak, Malásia), ago/2021 a mai/2024; Ampeng et al., Ecology and Evolution 2026, doi 10.1002/ece3.74248.",
+          "sources": [
+            "https://news.mongabay.com/short-article/2026/11/rare-flat-headed-cat-prefers-elevated-palms-in-malaysian-forest-says-study/",
+            "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.74248"
+          ]
+        },
+        {
+          "claim": "59 detecções, 0,8% de 7.426 registros de fauna; pico de atividade perto da meia-noite, com atividade também de manhã e à tarde (rotina mais flexível).",
+          "sources": [
+            "https://news.mongabay.com/short-article/2026/11/rare-flat-headed-cat-prefers-elevated-palms-in-malaysian-forest-says-study/",
+            "https://petapixel.com/2026/11/16/camera-traps-uncover-surprising-behavior-in-rare-flat-headed-cats/"
+          ]
+        },
+        {
+          "claim": "Maioria das detecções em pântano de palmeira nibong, 10-20 m acima do mar; só 1 no mangue alagado; fêmea adulta com filhote registrada.",
+          "sources": [
+            "https://news.mongabay.com/short-article/2026/11/rare-flat-headed-cat-prefers-elevated-palms-in-malaysian-forest-says-study/"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "dieta de peixes e patas palmadas (não verificado nas fontes desta pauta)",
+        "redescoberta na Tailândia (mencionada na petapixel sem fonte primária)"
+      ]
+    },
+    "species": "Prionailurus planiceps",
+    "related_species": [
+      "Prionailurus rubiginosus",
+      "Prionailurus viverrinus",
+      "Prionailurus bengalensis"
+    ],
+    "revision": "v1"
+  },
+  "zebra_listras_contra_moscas": {
+    "title": "Por que a zebra tem listras?",
+    "script": "Por que a zebra tem listras? Um experimento sugere que a resposta envolve moscas. Pesquisadores da Universidade de Bristol, no Reino Unido, observaram zebras e cavalos lado a lado. As mutucas, moscas que picam para se alimentar de sangue, rodeavam os dois na mesma frequência. A diferença estava no pouso. Perto dos cavalos, as moscas desaceleravam antes de pousar. Perto das zebras, elas não reduziam a velocidade. Passavam direto ou batiam no pelo. Depois, a equipe vestiu cavalos com capas pretas, brancas e listradas. As capas listradas receberam menos pousos. Uma hipótese é que, de perto, as listras confundem a visão de baixa resolução das moscas. As zebras também abanavam mais o rabo e fugiam mais, e as moscas que pousavam ficavam menos tempo. O estudo não encerra o debate sobre todas as funções das listras. Mas mostra que um padrão tão chamativo pode proteger contra um inimigo bem pequeno.",
+    "caption": "Um experimento com zebras e cavalos mostrou que as listras atrapalham o pouso das mutucas. #WildVox #Zebra #CuriosidadesAnimais #Africa #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": null,
+      "claims": [
+        {
+          "claim": "Mutucas rodeiam zebras e cavalos na mesma taxa, mas não desaceleram ao se aproximar das zebras e pousam muito menos nelas; capas listradas em cavalos reduziram pousos frente a capas pretas ou brancas; zebras abanam o rabo e fogem mais; moscas ficam menos tempo.",
+          "sources": [
+            "https://bristol.ac.uk/news/2019/february/zebra-stripes.html",
+            "https://doi.org/10.1371/journal.pone.0210831"
+          ]
+        },
+        {
+          "claim": "Hipótese de que as listras ofuscam a visão de baixa resolução das moscas de perto (Martin How).",
+          "sources": [
+            "https://bristol.ac.uk/news/2019/february/zebra-stripes.html"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "camuflagem contra leões (não testada no estudo)",
+        "local exato da fazenda"
+      ]
+    },
+    "species": "Equus quagga",
+    "pixabay_queries": [
+      "zebra"
+    ],
+    "pixabay_required_tags": [
+      "zebra"
+    ],
+    "revision": "v1"
+  }
+}
