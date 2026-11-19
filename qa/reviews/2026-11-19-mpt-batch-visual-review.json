@@ -1,0 +1,36 @@
+{
+  "day_local": "2026-11-19",
+  "runs": {
+    "batch_v1": 44487329285,
+    "cat_v2": 44489490510
+  },
+  "approved": [
+    {
+      "key": "ra_voadora_ovos_em_gel_sulawesi",
+      "decision": "APPROVE",
+      "media_mode": "related_photo (Rhacophorus sp. parentes; iNaturalist CC BY 4.0: 80945264, 129076317, 81155276)",
+      "checks": {
+        "all_frames_real_green_flying_frogs": true,
+        "on_screen_label_related_species": true,
+        "label_not_touching_image": true,
+        "captions_in_bottom_bar": true,
+        "portuguese_errors": "none seen"
+      },
+      "news": "Rhacophorus kurniatiae, Zootaxa 5900(4), doi 10.11646/zootaxa.5900.4.3; UC Davis news 17/11/2026"
+    }
+  ],
+  "rejected": [
+    {
+      "key": "gato_cabeca_chata_ativo_de_dia",
+      "decision": "REJECT",
+      "reason": "v1 (P. viverrinus): uma foto noturna com o gato quase invisível no capim e uma foto atrás de tela de recinto; v2 (exclude_sources aplicado, P. bengalensis): abre com gato atropelado na estrada com pessoas ao redor e tem quadros com o animal escondido na folhagem. Limite de 2 tentativas atingido.",
+      "news": "Ampeng et al., Ecology and Evolution 2026, doi 10.1002/ece3.74248; Mongabay 16/11/2026"
+    },
+    {
+      "key": "zebra_listras_contra_moscas",
+      "decision": "REJECT",
+      "reason": "Reserva. Dois quadros mostram rolinha 'zebra dove' (ave), não zebra: pixabay_required_tags ['zebra'] aceita a tag 'zebra dove' (pixabay 203332, 203329).",
+      "news": "atemporal (Caro et al., PLOS ONE 2019)"
+    }
+  ]
+}
