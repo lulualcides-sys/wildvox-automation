@@ -1,0 +1,50 @@
+{
+  "gato_cabeca_chata_ativo_de_dia": {
+    "title": "Gato raro flagrado também de dia",
+    "script": "Um dos gatos selvagens mais raros do mundo acaba de mostrar que não segue o horário que se esperava. É o gato-de-cabeça-chata, um felino pequeno do Sudeste Asiático, classificado como Em Perigo pela IUCN. Na Malásia, pesquisadores do Departamento Florestal de Sarawak instalaram armadilhas fotográficas num manguezal em Lundu, entre agosto de 2021 e maio de 2024. Em mais de sete mil registros de animais, esse gato apareceu só cinquenta e nove vezes. É menos de um por cento. A atividade teve pico perto da meia-noite. Mas as câmeras também o flagraram de manhã e à tarde. Para os autores, isso sugere uma rotina mais flexível do que se pensava. Quase todos os registros vieram de áreas de palmeira nibong, um pouco mais altas que o mangue alagado. E uma fêmea apareceu com um filhote, sinal de reprodução no local. São dados de um único lugar. Mas mostram que proteger esse pedaço de floresta pode fazer diferença para um felino que quase ninguém vê.",
+    "caption": "Câmeras na Malásia flagraram o raro gato-de-cabeça-chata ativo também durante o dia. Imagens ilustrativas de espécies parentes. #WildVox #Felinos #EspecieAmeacada #Malasia #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": "2026-11-16",
+      "claims": [
+        {
+          "claim": "Prionailurus planiceps, Em Perigo (IUCN); armadilhas fotográficas na proposta Lundu Mangrove Protected Forest (Sarawak, Malásia), ago/2021 a mai/2024; Ampeng et al., Ecology and Evolution 2026, doi 10.1002/ece3.74248.",
+          "sources": [
+            "https://news.mongabay.com/short-article/2026/11/rare-flat-headed-cat-prefers-elevated-palms-in-malaysian-forest-says-study/",
+            "https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.74248"
+          ]
+        },
+        {
+          "claim": "59 detecções, 0,8% de 7.426 registros de fauna; pico de atividade perto da meia-noite, com atividade também de manhã e à tarde (rotina mais flexível).",
+          "sources": [
+            "https://news.mongabay.com/short-article/2026/11/rare-flat-headed-cat-prefers-elevated-palms-in-malaysian-forest-says-study/",
+            "https://petapixel.com/2026/11/16/camera-traps-uncover-surprising-behavior-in-rare-flat-headed-cats/"
+          ]
+        },
+        {
+          "claim": "Maioria das detecções em pântano de palmeira nibong, 10-20 m acima do mar; só 1 no mangue alagado; fêmea adulta com filhote registrada.",
+          "sources": [
+            "https://news.mongabay.com/short-article/2026/11/rare-flat-headed-cat-prefers-elevated-palms-in-malaysian-forest-says-study/"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "dieta de peixes e patas palmadas (não verificado nas fontes desta pauta)",
+        "redescoberta na Tailândia (mencionada na petapixel sem fonte primária)"
+      ]
+    },
+    "species": "Prionailurus planiceps",
+    "related_species": [
+      "Prionailurus rubiginosus",
+      "Prionailurus viverrinus",
+      "Prionailurus bengalensis"
+    ],
+    "revision": "v2",
+    "exclude_sources": [
+      "https://www.inaturalist.org/photos/746901047",
+      "https://www.inaturalist.org/photos/746901046",
+      "https://commons.wikimedia.org/wiki/File:FishingCat-NightSafari-Singapore-20100110.jpg"
+    ]
+  }
+}
