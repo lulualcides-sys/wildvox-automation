@@ -1,0 +1,97 @@
+{
+  "key": "gato_cabeca_chata_ativo_de_dia",
+  "title": "Gato raro flagrado também de dia",
+  "caption": "Câmeras na Malásia flagraram o raro gato-de-cabeça-chata ativo também durante o dia. Imagens ilustrativas de espécies parentes. #WildVox #Felinos #EspecieAmeacada #Malasia #Ciencia",
+  "sources": [
+    {
+      "type": "image",
+      "assetTitle": "inat-348949881.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348949881/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/348949881",
+      "author": "kalyanvarma",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1371
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-348837047.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/348837047/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/348837047",
+      "author": "kalyanvarma",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1371
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-81345740.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81345740/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/81345740",
+      "author": "Utain Pummarin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-81345749.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81345749/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/81345749",
+      "author": "Utain Pummarin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-127403446.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127403446/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/127403446",
+      "author": "Ramnarayan K",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1365
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-349267435.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/349267435/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/349267435",
+      "author": "kalyanvarma",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1365
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-99597013.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99597013/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/99597013",
+      "author": "Long Vu",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1365
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-588439137.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588439137/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/588439137",
+      "author": "Dmitry Ivanov",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1365
+    }
+  ],
+  "editor": "MoneyPrinterTurbo 92e0f9a",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mpt_2026-11-19-gato_gato_cabeca_chata_ativo_de_dia.mp4"
+}
