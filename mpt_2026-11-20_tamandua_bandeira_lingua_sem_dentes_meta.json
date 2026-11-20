@@ -1,0 +1,97 @@
+{
+  "key": "tamandua_bandeira_lingua_sem_dentes",
+  "title": "Tamanduá-bandeira: língua gigante e zero dentes",
+  "caption": "Sem dentes e com uma língua de 60 cm, o tamanduá-bandeira come até 30 mil insetos por dia. #WildVox #Tamandua #CuriosidadesAnimais #Brasil #Ciencia",
+  "sources": [
+    {
+      "type": "image",
+      "assetTitle": "inat-696427104.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/696427104/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/696427104",
+      "author": "Donald Davesne",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-361090135.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361090135/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/361090135",
+      "author": "Ryan F. Mandelbaum",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-361090144.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361090144/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/361090144",
+      "author": "Ryan F. Mandelbaum",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-361090163.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361090163/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/361090163",
+      "author": "Ryan F. Mandelbaum",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-361090166.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361090166/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/361090166",
+      "author": "Ryan F. Mandelbaum",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-361090186.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361090186/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/361090186",
+      "author": "Ryan F. Mandelbaum",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-361090185.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361090185/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/361090185",
+      "author": "Ryan F. Mandelbaum",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-361090183.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361090183/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/361090183",
+      "author": "Ryan F. Mandelbaum",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1366
+    }
+  ],
+  "editor": "MoneyPrinterTurbo 92e0f9a",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mpt_2026-11-20_tamandua_bandeira_lingua_sem_dentes.mp4"
+}
