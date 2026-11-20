@@ -1,0 +1,47 @@
+{
+  "day_local": "2026-11-20",
+  "runs": {
+    "batch_v1": 44702767504
+  },
+  "approved": [
+    {
+      "key": "lagartixa_nova_templos_ba_vi",
+      "decision": "APPROVE",
+      "media_mode": "related_photo (Hemiphyllodactylus parentes; iNaturalist CC BY 4.0, Yung-Lun Lin: 327122659, 327122144, 327122641, 327122679, 327122720)",
+      "checks": {
+        "all_frames_real_slender_geckos": true,
+        "on_screen_label_related_species": true,
+        "label_not_touching_image": true,
+        "captions_in_bottom_bar": true,
+        "subtitle_correction": "MPT correct() alinhou todas as linhas ao roteiro (Emifilodactilus/Zoo Case/calda/lista corrigidos)",
+        "portuguese_errors": "none seen"
+      },
+      "news": "Hemiphyllodactylus baviensis, ZooKeys 1297: 311-337, doi 10.3897/zookeys.1297.203336; tratamento Plazi/Zenodo 16/11/2026"
+    },
+    {
+      "key": "preguica_desce_para_fazer_coco",
+      "decision": "APPROVE",
+      "media_mode": "exact_photo (Bradypus variegatus; iNaturalist CC0/CC BY 4.0)",
+      "checks": {
+        "all_frames_real_three_toed_sloths": true,
+        "captions_in_bottom_bar": true,
+        "subtitle_correction": "corrigido pelo roteiro (preguiça-de-três-dedos, cocô, Costa Rica)",
+        "portuguese_errors": "none seen"
+      },
+      "news": "atemporal (Pauli et al., Proc. R. Soc. B 2014, doi 10.1098/rspb.2013.3006)"
+    }
+  ],
+  "rejected": [
+    {
+      "key": "tamandua_bandeira_lingua_sem_dentes",
+      "decision": "REJECT",
+      "reason": "Imagens boas (tamanduás-bandeira reais), mas a correção de legenda do MPT falhou ('ran out of timed cues; preserving the original transcription'): legendas com 'copins', 'tamanduá bandeira' sem hífen, 'ele não é imune / as picadas' e 'IOC' em vez de IUCN. Causa provável: roteiro com muitas vírgulas desalinhou a segmentação. Não re-renderizado porque a reserva passou.",
+      "news": "atemporal (San Diego Zoo, SeaWorld, Chester Zoo)"
+    }
+  ],
+  "not_used_as_news": [
+    "Pyractomena similis (vaga-lume redescoberto; Mongabay 16/11, mas avistamento de maio/2026 e artigo primário inacessível)",
+    "Laimosemion laranja (peixe-killi do Amapá; artigo de 20/08/2026, release 22/09 — mais de 7 dias)",
+    "Mapa de corredores de onça-pintada (Global Change Biology; cobertura desde outubro/2026)"
+  ]
+}
