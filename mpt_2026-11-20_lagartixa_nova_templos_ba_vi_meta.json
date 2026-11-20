@@ -1,0 +1,97 @@
+{
+  "key": "lagartixa_nova_templos_ba_vi",
+  "title": "Lagartixa nova vivia em paredes de templos",
+  "caption": "Nova espécie de lagartixa foi descrita a partir de animais encontrados em paredes de templos no Vietnã. Imagens ilustrativas de espécies parentes. #WildVox #EspecieNova #Repteis #Vietna #Ciencia",
+  "sources": [
+    {
+      "type": "image",
+      "assetTitle": "inat-327122659.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327122659/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/327122659",
+      "author": "Yung-Lun Lin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-327122144.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327122144/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/327122144",
+      "author": "Yung-Lun Lin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-327122641.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327122641/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/327122641",
+      "author": "Yung-Lun Lin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-327122679.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327122679/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/327122679",
+      "author": "Yung-Lun Lin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-327122720.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327122720/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/327122720",
+      "author": "Yung-Lun Lin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-327122735.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327122735/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/327122735",
+      "author": "Yung-Lun Lin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-387695256.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387695256/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/387695256",
+      "author": "Yung-Lun Lin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-387695282.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/387695282/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/387695282",
+      "author": "Yung-Lun Lin",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1367
+    }
+  ],
+  "editor": "MoneyPrinterTurbo 92e0f9a",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mpt_2026-11-20_lagartixa_nova_templos_ba_vi.mp4"
+}
