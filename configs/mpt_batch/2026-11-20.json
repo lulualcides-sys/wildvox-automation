@@ -1,0 +1,132 @@
+{
+  "lagartixa_nova_templos_ba_vi": {
+    "title": "Lagartixa nova vivia em paredes de templos",
+    "script": "Uma lagartixa desconhecida pela ciência subia, à noite, nas paredes de templos no alto de uma montanha. Ela se chama Hemiphyllodactylus baviensis, a lagartixa-esguia-de-Ba Vì. Foi anunciada nesta semana, na revista ZooKeys, por uma equipe liderada pelo pesquisador vietnamita Tuong Sy Dinh. Vive no Parque Nacional Ba Vì, perto de Hanói, no norte do Vietnã, a cerca de mil e duzentos metros de altitude. Os pesquisadores encontraram nove exemplares em junho e julho de 2025. Todos estavam nas paredes e no corrimão da escada que leva a dois templos no topo das montanhas. O maior media cerca de cinco centímetros, sem contar a cauda. O DNA mostrou que a parente mais próxima é outra lagartixa vietnamita, com cerca de cinco por cento de diferença genética. No corpo, uma listra creme na frente dos olhos e uma marca clara em forma de V perto da cauda ajudam a reconhecê-la. Por enquanto, ela só é conhecida nesse parque. Quantas espécies novas ainda vivem bem ao nosso lado?",
+    "caption": "Nova espécie de lagartixa foi descrita a partir de animais encontrados em paredes de templos no Vietnã. Imagens ilustrativas de espécies parentes. #WildVox #EspecieNova #Repteis #Vietna #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": "2026-11-16",
+      "claims": [
+        {
+          "claim": "Hemiphyllodactylus baviensis Dinh, Nishikawa, Luu, Nguyen, Nguyen & Numata, 2026, sp. nov.; 'A new species of Hemiphyllodactylus Bleeker, 1860 (Squamata, Gekkonidae) from northern Vietnam', ZooKeys 1297: 311-337, doi 10.3897/zookeys.1297.203336; tratamento Plazi/Zenodo publicado em 16/11/2026; nome comum sugerido Ba Vi Slender Gecko.",
+          "sources": [
+            "https://zenodo.org/records/24293309",
+            "https://bioengineer.org/new-slender-gecko-species-discovered-in-northern-vietnam-montane-forest/"
+          ]
+        },
+        {
+          "claim": "Localidade-tipo: Templo Thuong (1.200-1.227 m) e Templo do Tio Ho (1.296 m), Parque Nacional Ba Vi, Hanói; todos os exemplares coletados na parede do edifício e no corrimão da escada dos templos, à noite (20h30-21h30); 9 exemplares (holótipo + 8 parátipos), junho-julho de 2025.",
+          "sources": [
+            "https://zenodo.org/records/24293309",
+            "https://bioengineer.org/new-slender-gecko-species-discovered-in-northern-vietnam-montane-forest/"
+          ]
+        },
+        {
+          "claim": "CRC máximo 50,7 mm; listra pré-orbital creme e marca pós-sacral creme em V são diagnósticas; geneticamente mais próxima de H. ngocsonensis, divergência não corrigida de 5%; conhecida apenas da localidade-tipo.",
+          "sources": [
+            "https://zenodo.org/records/24293309"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "afiliações dos autores (não confirmadas na fonte lida); só citado o primeiro autor",
+        "contagem de espécies do gênero no Vietnã (14 para 15, só no bioengineer; não confirmada no tratamento)",
+        "status de conservação (não proposto na fonte)",
+        "imagem do bioengineer é gerada por IA; não usar"
+      ]
+    },
+    "species": "Hemiphyllodactylus baviensis",
+    "related_species": [
+      "Hemiphyllodactylus ngocsonensis",
+      "Hemiphyllodactylus typus",
+      "Hemiphyllodactylus yunnanensis"
+    ],
+    "revision": "v1"
+  },
+  "tamandua_bandeira_lingua_sem_dentes": {
+    "title": "Tamanduá-bandeira: língua gigante e zero dentes",
+    "script": "Uma língua de sessenta centímetros, mais comprida que a própria cabeça. Esse é o principal instrumento do tamanduá-bandeira. Ele não tem nenhum dente. Para comer, põe e tira a língua até cento e cinquenta vezes por minuto. Ela é coberta de saliva grudenta, que prende formigas e cupins. Depois, o alimento é esmagado contra o céu da boca, e o estômago musculoso termina o serviço. Num único dia, ele pode comer até trinta mil insetos. Mas não fica muito tempo em cada formigueiro: só cerca de um minuto. Uma explicação é que ele não é imune às picadas das formigas. Outra é que, assim, não acaba com a colônia inteira e pode voltar depois. Para achar comida, usa o olfato, cerca de quarenta vezes mais forte que o nosso, porque enxerga mal. O tamanduá-bandeira vive no Brasil e em outros países da América do Sul e é classificado como Vulnerável pela IUCN. Às vezes, comer só um pouco de cada lugar é o segredo para nunca ficar sem comida.",
+    "caption": "Sem dentes e com uma língua de 60 cm, o tamanduá-bandeira come até 30 mil insetos por dia. #WildVox #Tamandua #CuriosidadesAnimais #Brasil #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": null,
+      "claims": [
+        {
+          "claim": "Língua de cerca de 60 cm, mais longa que a cabeça; movimentada até 150 vezes por minuto; coberta de saliva pegajosa; sem dentes (edentado).",
+          "sources": [
+            "https://www.chesterzoo.org/our-zoo/animals/giant-anteater/",
+            "https://animals.sandiegozoo.org/node/174",
+            "https://seaworld.org/animals/facts/mammals/giant-anteater/"
+          ]
+        },
+        {
+          "claim": "Alimento esmagado contra o palato e pulverizado pelo estômago muscular; até 30.000 formigas e cupins por dia.",
+          "sources": [
+            "https://animals.sandiegozoo.org/node/174",
+            "https://seaworld.org/animals/facts/mammals/giant-anteater/"
+          ]
+        },
+        {
+          "claim": "Alimenta-se cerca de um minuto em cada formigueiro; não é imune às picadas e não elimina a fonte de alimento.",
+          "sources": [
+            "https://animals.sandiegozoo.org/node/174",
+            "https://seaworld.org/animals/facts/mammals/giant-anteater/"
+          ]
+        },
+        {
+          "claim": "Visão fraca; olfato cerca de 40 vezes o humano; ocorre no Brasil; IUCN Vulnerável.",
+          "sources": [
+            "https://seaworld.org/animals/facts/mammals/giant-anteater/",
+            "https://www.chesterzoo.org/our-zoo/animals/giant-anteater/"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "temperatura corporal mais baixa entre placentários (fontes divergem na formulação)",
+        "andar sobre os nós dos dedos (não descrito em todas as fontes)"
+      ]
+    },
+    "species": "Myrmecophaga tridactyla",
+    "related_species": [
+      "Tamandua tetradactyla"
+    ],
+    "revision": "v1"
+  },
+  "preguica_desce_para_fazer_coco": {
+    "title": "Por que a preguiça desce para fazer cocô?",
+    "script": "Por que uma preguiça arriscaria a vida só para fazer cocô no chão? A preguiça-de-três-dedos passa quase todo o tempo no alto das árvores. Mas, cerca de uma vez por semana, ela desce até o chão para defecar. Lá embaixo, fica mais exposta a predadores, e a viagem gasta muita energia. Um estudo da Universidade de Wisconsin, nos Estados Unidos, publicado em 2014, propôs uma explicação curiosa. No pelo da preguiça vivem mariposas e algas. Quando a preguiça desce, as mariposas põem ovos nas fezes. As larvas se alimentam do cocô, e depois as mariposas voltam para o pelo das preguiças. Elas levam nutrientes, como nitrogênio, que ajudam as algas a crescer. E as algas, ricas em gordura, podem servir de lanche: os pesquisadores encontraram algas no estômago das preguiças. Ainda é uma hipótese, baseada em animais de uma fazenda na Costa Rica. Mas mostra como um hábito estranho pode sustentar um pequeno ecossistema.",
+    "caption": "A preguiça-de-três-dedos desce das árvores uma vez por semana para fazer cocô. Um estudo sugere que isso alimenta um jardim de algas no próprio pelo. #WildVox #Preguica #CuriosidadesAnimais #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": null,
+      "claims": [
+        {
+          "claim": "Preguiças-de-três-dedos descem das árvores cerca de uma vez por semana para defecar no chão; viagem arriscada (predadores) e energeticamente custosa.",
+          "sources": [
+            "https://www.smithsonianmag.com/science-nature/what-drives-a-sloths-ritualistic-trek-to-poop-180949419/",
+            "https://phys.org/news/2014-01-sloth-biologists.html"
+          ]
+        },
+        {
+          "claim": "Hipótese de mutualismo (Pauli, Universidade de Wisconsin-Madison; Proc. R. Soc. B 2014, doi 10.1098/rspb.2013.3006): mariposas põem ovos nas fezes, larvas comem as fezes, mariposas no pelo elevam nitrogênio, algas crescem e são ricas em lipídios; algas encontradas no estômago; estudo com preguiças de uma fazenda de cacau na Costa Rica.",
+          "sources": [
+            "https://www.smithsonianmag.com/science-nature/what-drives-a-sloths-ritualistic-trek-to-poop-180949419/",
+            "https://phys.org/news/2014-01-sloth-biologists.html"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "percentual de peso perdido por evacuação (não encontrado nas fontes)",
+        "proporção de mortes por predação no chão (não encontrado)"
+      ]
+    },
+    "species": "Bradypus variegatus",
+    "related_species": [
+      "Bradypus tridactylus"
+    ],
+    "revision": "v1"
+  }
+}
