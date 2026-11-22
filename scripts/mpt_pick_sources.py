@@ -234,16 +234,18 @@ def pick_batch(batch, used, gather):
                 for p in picks:
                     k = canonical_source(p["assetTitle"])
                     used.difference_update({k, "file:" + k})
+            excl = set(cand.get("exclude_sources") or [])  # rejected in visual review
             # 1) real video of the exact animal
             pool = []
             for q in cand.get("pixabay_queries") or []:
                 pool += gather("pixabay", q)
-            picks = choose(pixabay_candidates(pool, cand.get("pixabay_required_tags") or []), used, want)
+            vids = [c for c in pixabay_candidates(pool, cand.get("pixabay_required_tags") or [])
+                    if c.get("sourcePage") not in excl]
+            picks = choose(vids, used, want)
             if len(picks) >= MIN_SHOTS:
                 out[key] = dict(cand, sources=picks, media_mode="video")
                 continue
             release(picks)
-            excl = set(cand.get("exclude_sources") or [])  # rejected in visual review
             def photos_of(species):
                 ph = [p for p in gather("inat_photos", species) if p["sourcePage"] not in excl]
                 picks = choose_photos(ph, used)

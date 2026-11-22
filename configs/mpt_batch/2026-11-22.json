@@ -50,7 +50,7 @@
   },
   "pica_pau_cabeca_de_martelo": {
     "title": "A cabeça do pica-pau não é um capacete",
-    "script": "Como o pica-pau bate a cabeça na madeira sem machucar o cérebro? Durante muito tempo se disse que o crânio dele funcionava como um capacete que amortece as batidas. Em dois mil e vinte e dois, pesquisadores da Universidade de Antuérpia, na Bélgica, testaram essa ideia. Eles analisaram vídeos em alta velocidade de três espécies de pica-pau. O resultado surpreendeu. A cabeça do pica-pau não absorve o impacto. Ela funciona mais como um martelo rígido. Se o crânio amortecesse a batida, o bico perderia força contra a madeira. Então por que o cérebro não se machuca? O cérebro do pica-pau é pequeno. Os cálculos mostraram que, mesmo nas bicadas mais fortes, a carga no cérebro fica abaixo da que causa concussão em pessoas. Mas existe um limite. Uma bicada com força total em metal poderia ser um erro perigoso. E uma cabeça muito maior provavelmente sofreria concussões. Isso pode explicar por que não existem pica-paus com cabeças bem maiores.",
+    "script": "Como o pica-pau bate a cabeça na madeira sem machucar o cérebro? Durante muito tempo se disse que o crânio dele funcionava como um capacete que amortece as batidas. Pesquisadores da Universidade de Antuérpia, na Bélgica, testaram essa ideia. Eles analisaram vídeos em alta velocidade de três espécies de pica-pau. O resultado surpreendeu. A cabeça do pica-pau não absorve o impacto. Ela funciona mais como um martelo rígido. Se o crânio amortecesse a batida, o bico perderia força contra a madeira. Então por que o cérebro não se machuca? O cérebro do pica-pau é pequeno. Os cálculos mostraram que, mesmo nas bicadas mais fortes, a carga no cérebro fica abaixo da que causa concussão em pessoas. Mas existe um limite. Uma bicada com força total em metal poderia ser um erro perigoso. E uma cabeça muito maior provavelmente sofreria concussões. Isso pode explicar por que não existem pica-paus com cabeças bem maiores.",
     "caption": "Um estudo de 2022 derrubou o mito: a cabeça do pica-pau não amortece as batidas, ela funciona como um martelo rígido. #WildVox #PicaPau #CuriosidadesAnimais #Ciencia",
     "language": "pt-BR",
     "voice": "pm_alex",
@@ -82,9 +82,18 @@
       "Dryocopus martius",
       "Dryocopus pileatus"
     ],
-    "pixabay_queries": ["woodpecker"],
-    "pixabay_required_tags": ["woodpecker"],
-    "revision": "v1"
+    "pixabay_queries": [
+      "woodpecker"
+    ],
+    "pixabay_required_tags": [
+      "woodpecker"
+    ],
+    "revision": "v2",
+    "exclude_sources": [
+      "https://pixabay.com/videos/id-349249/",
+      "https://pixabay.com/videos/id-43758/",
+      "https://pixabay.com/videos/id-43757/"
+    ]
   },
   "araras_comem_barro_sodio": {
     "title": "Por que araras e papagaios comem barro?",
@@ -126,8 +135,15 @@
       "Ara chloropterus",
       "Ara ararauna"
     ],
-    "pixabay_queries": ["macaw"],
-    "pixabay_required_tags": ["macaw"],
-    "revision": "v1"
+    "pixabay_queries": [
+      "macaw"
+    ],
+    "pixabay_required_tags": [
+      "macaw"
+    ],
+    "revision": "v2",
+    "exclude_sources": [
+      "https://pixabay.com/videos/id-48737/"
+    ]
   }
 }

@@ -111,6 +111,20 @@ class DailyBatch(unittest.TestCase):
         self.assertIn("Pixabay", cap)
         self.assertLess(len(cap), 300)
 
+    def test_pixabay_respects_exclude_sources(self):
+        # 22/11/2026: visual review excluded Pixabay clips, but the video path ignored exclude_sources.
+        hits = [{"id": i, "tags": "cat", "type": "film", "duration": 12, "user": "u",
+                 "pageURL": f"https://pixabay.com/videos/id-{i}/",
+                 "videos": {"large": {"url": f"https://cdn.pixabay.com/video/{i}.mp4", "width": 1920, "height": 1080}}}
+                for i in range(12)]
+        out, dropped = pick.pick_batch({"k": {"script": "Fato.", "curiosity_fact_sheet": {"x": 1},
+                                               "pixabay_queries": ["cat"], "pixabay_required_tags": ["cat"],
+                                               "exclude_sources": ["https://pixabay.com/videos/id-0/"]}},
+                                       set(), lambda kind, a: hits)
+        self.assertEqual(dropped, {})
+        pages = [s["sourcePage"] for s in out["k"]["sources"]]
+        self.assertNotIn("https://pixabay.com/videos/id-0/", pages)
+
     def _inat_obs(self, n, w=2000, h=1333, code="cc-by"):
         return [{"user": {"name": f"Fot {i}"}, "photos": [{"id": 100 + i, "license_code": code,
                  "url": f"https://inaturalist-open-data.s3.amazonaws.com/photos/{100+i}/square.jpg",
