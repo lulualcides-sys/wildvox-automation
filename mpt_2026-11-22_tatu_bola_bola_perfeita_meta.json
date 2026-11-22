@@ -5,47 +5,91 @@
   "sources": [
     {
       "type": "image",
-      "assetTitle": "inat-661542274.jpg",
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/661542274/original.jpg",
-      "sourcePage": "https://www.inaturalist.org/photos/661542274",
-      "author": "Whaldener Endo",
-      "license": "CC0",
-      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "width": 2048,
-      "height": 1362
-    },
-    {
-      "type": "image",
-      "assetTitle": "inat-88625106.jpg",
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88625106/original.jpg",
-      "sourcePage": "https://www.inaturalist.org/photos/88625106",
-      "author": "Mario Barroso",
+      "assetTitle": "inat-541007697.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541007697/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/541007697",
+      "author": "Fábio Olmos",
       "license": "CC BY 4.0",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "width": 2048,
-      "height": 1362
+      "height": 1365
     },
     {
       "type": "image",
-      "assetTitle": "inat-88625330.jpg",
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88625330/original.jpg",
-      "sourcePage": "https://www.inaturalist.org/photos/88625330",
-      "author": "Mario Barroso",
+      "assetTitle": "inat-137957423.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137957423/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/137957423",
+      "author": "Patricio Cowper Coles",
       "license": "CC BY 4.0",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "width": 2048,
-      "height": 1362
+      "height": 1365
     },
     {
       "type": "image",
-      "assetTitle": "inat-204178179.jpg",
-      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204178179/original.jpg",
-      "sourcePage": "https://www.inaturalist.org/photos/204178179",
-      "author": "Whaldener Endo",
+      "assetTitle": "inat-428752056.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428752056/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/428752056",
+      "author": "demianlescano",
       "license": "CC0",
       "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
       "width": 2048,
-      "height": 1362
+      "height": 1365
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-428752055.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428752055/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/428752055",
+      "author": "demianlescano",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 2048,
+      "height": 1365
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-428752089.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428752089/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/428752089",
+      "author": "demianlescano",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 2048,
+      "height": 1365
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-428752103.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428752103/original.jpeg",
+      "sourcePage": "https://www.inaturalist.org/photos/428752103",
+      "author": "demianlescano",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 2048,
+      "height": 1365
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-719738786.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/719738786/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/719738786",
+      "author": "Barry Stewart",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1365
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-719739073.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/719739073/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/719739073",
+      "author": "Barry Stewart",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1365
     }
   ],
   "editor": "MoneyPrinterTurbo 92e0f9a",
