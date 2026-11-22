@@ -1,0 +1,133 @@
+{
+  "tatu_bola_bola_perfeita": {
+    "title": "O tatu brasileiro que vira uma bola perfeita",
+    "script": "Existe um tatu que vira uma bola perfeita. E ele só existe no Brasil. É o tatu-bola, o único tatu endêmico do país. Ele vive na Caatinga e no Cerrado e pesa menos de dois quilos. Só as duas espécies do gênero Tolypeutes conseguem se fechar por completo. Quando ele se enrola, os escudos da cabeça e da cauda se encaixam na carapaça. A bola fica tão fechada que seus predadores não conseguem abrir. Mas essa defesa tem um preço. O tatu-bola não cava tocas. Quando se sente acuado, ele para e se enrola. Assim, uma pessoa consegue pegá-lo sem nenhum risco. A caça e a perda de habitat para as plantações reduziram muito a espécie. Ele chegou a ser considerado extinto até ser redescoberto em mil novecentos e oitenta e oito. Hoje é vulnerável no mundo e está em perigo no Brasil. A armadura que o protege dos predadores não o protege de nós.",
+    "caption": "O tatu-bola é o único tatu endêmico do Brasil e um dos dois que se fecham numa bola perfeita. Mas essa defesa facilita a caça. #WildVox #TatuBola #Caatinga #Cerrado #CuriosidadesAnimais",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": null,
+      "claims": [
+        {
+          "claim": "Tolypeutes tricinctus é a única espécie de tatu endêmica do Brasil; distribuição restrita à Caatinga e ao Cerrado; peso adulto 1,0-1,8 kg.",
+          "sources": [
+            "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_xenathra/cingulata/ficha_tolypeutes_tricinctus.pdf",
+            "https://xenarthrans.org/species/armadillos-2/brazilian-three-banded-armadillo/"
+          ]
+        },
+        {
+          "claim": "Só as duas espécies de Tolypeutes (T. tricinctus e T. matacus) se enrolam numa bola perfeita que os predadores não abrem; escudos da cabeça e da cauda encaixam na carapaça.",
+          "sources": [
+            "https://xenarthrans.org/species/armadillos-2/brazilian-three-banded-armadillo/"
+          ]
+        },
+        {
+          "claim": "Não escava tocas; acuado, para e se enrola e pode ser apanhado sem risco por quem o captura; caça e perda de habitat (monoculturas) são as principais ameaças.",
+          "sources": [
+            "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_xenathra/cingulata/ficha_tolypeutes_tricinctus.pdf",
+            "https://xenarthrans.org/species/armadillos-2/brazilian-three-banded-armadillo/"
+          ]
+        },
+        {
+          "claim": "Considerado extinto até a redescoberta em 1988; IUCN Vulnerável (A2cd); avaliação nacional ICMBio Em Perigo (EN A2cd).",
+          "sources": [
+            "https://xenarthrans.org/species/armadillos-2/brazilian-three-banded-armadillo/",
+            "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_xenathra/cingulata/ficha_tolypeutes_tricinctus.pdf"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "mascote Fuleco da Copa de 2014 (não confirmado nas fontes lidas)",
+        "redescoberta em 1990 (fontes divergem; usado 1988 do Xenarthrans Specialist Group)",
+        "alguns canídeos conseguem perfurar a carapaça (ressalva do ICMBio; roteiro diz 'seus predadores' de forma geral conforme o XSG)"
+      ]
+    },
+    "species": "Tolypeutes tricinctus",
+    "related_species": [
+      "Tolypeutes matacus"
+    ],
+    "revision": "v1"
+  },
+  "pica_pau_cabeca_de_martelo": {
+    "title": "A cabeça do pica-pau não é um capacete",
+    "script": "Como o pica-pau bate a cabeça na madeira sem machucar o cérebro? Durante muito tempo se disse que o crânio dele funcionava como um capacete que amortece as batidas. Em dois mil e vinte e dois, pesquisadores da Universidade de Antuérpia, na Bélgica, testaram essa ideia. Eles analisaram vídeos em alta velocidade de três espécies de pica-pau. O resultado surpreendeu. A cabeça do pica-pau não absorve o impacto. Ela funciona mais como um martelo rígido. Se o crânio amortecesse a batida, o bico perderia força contra a madeira. Então por que o cérebro não se machuca? O cérebro do pica-pau é pequeno. Os cálculos mostraram que, mesmo nas bicadas mais fortes, a carga no cérebro fica abaixo da que causa concussão em pessoas. Mas existe um limite. Uma bicada com força total em metal poderia ser um erro perigoso. E uma cabeça muito maior provavelmente sofreria concussões. Isso pode explicar por que não existem pica-paus com cabeças bem maiores.",
+    "caption": "Um estudo de 2022 derrubou o mito: a cabeça do pica-pau não amortece as batidas, ela funciona como um martelo rígido. #WildVox #PicaPau #CuriosidadesAnimais #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": null,
+      "claims": [
+        {
+          "claim": "Van Wassenbergh et al., Universiteit Antwerpen (Bélgica), Current Biology 14/07/2022, doi 10.1016/j.cub.2022.05.052: vídeos de alta velocidade de três espécies (Dendrocopos major, Dryocopus pileatus, Dryocopus martius); a cabeça não absorve o choque, age como martelo rígido; absorção prejudicaria a bicada.",
+          "sources": [
+            "https://www.eurekalert.org/news-releases/957444",
+            "https://phys.org/news/2022-07-woodpeckers-stiff-safety-helmets.html"
+          ]
+        },
+        {
+          "claim": "Cérebros pequenos aguentam; mesmo as bicadas mais fortes de mais de 100 analisadas geram cargas cerebrais menores que as de humanos com concussão; bicar metal com força total poderia ser um erro; pode explicar por que não há pica-paus com cabeças e músculos do pescoço muito maiores (concussões).",
+          "sources": [
+            "https://www.eurekalert.org/news-releases/957444",
+            "https://phys.org/news/2022-07-woodpeckers-stiff-safety-helmets.html"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "número de bicadas por dia e valores de desaceleração (ausentes nas fontes)",
+        "língua que envolve o crânio (não verificada nesta pauta)"
+      ]
+    },
+    "species": "Dendrocopos major",
+    "related_species": [
+      "Dryocopus martius",
+      "Dryocopus pileatus"
+    ],
+    "pixabay_queries": ["woodpecker"],
+    "pixabay_required_tags": ["woodpecker"],
+    "revision": "v1"
+  },
+  "araras_comem_barro_sodio": {
+    "title": "Por que araras e papagaios comem barro?",
+    "script": "Por que araras e papagaios comem barro? No Peru, às margens do rio Tambopata, um barranco de argila atrai centenas de aves de uma só vez. Pesquisadores de uma universidade do Texas, nos Estados Unidos, observaram esse comportamento por mais de vinte mil horas. Havia duas ideias principais. A primeira dizia que a argila protege contra toxinas da comida. A segunda dizia que o barro fornece minerais que faltam na dieta. Os dados não apoiaram a ideia das toxinas. As aves comiam mais argila justamente quando havia muita comida. Já o sódio se encaixou melhor. Os pontos preferidos do barranco eram os que tinham mais sódio. E o consumo aumentava na época de reprodução, quando os pais alimentam os filhotes. Em florestas úmidas, a chuva lava o sódio do solo. Mas o estudo mostra uma correlação e ainda faltam testes controlados. Mesmo assim, o barro pode ser o sal da floresta.",
+    "caption": "Araras e papagaios comem barro no Peru. Um estudo de dezesseis anos aponta que o motivo pode ser o sódio. #WildVox #Arara #Amazonia #CuriosidadesAnimais #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": null,
+      "claims": [
+        {
+          "claim": "Hobson & Brightsmith (Texas A&M / Tambopata Macaw Project), Ibis 2017: barreiro Colorado no rio Tambopata, Peru; centenas de aves ao mesmo tempo; mais de 20 mil horas de observação.",
+          "sources": [
+            "https://vetmed.tamu.edu/news/press-releases/texas-am-professor-explores-why-peruvian-parrots-eat-clay/",
+            "https://www.npr.org/sections/thesalt/2017/09/07/547981850/why-do-parrots-and-people-eat-clay"
+          ]
+        },
+        {
+          "claim": "Hipótese das toxinas não apoiada (comiam mais argila quando havia comida abundante); sódio apoiado: ponto preferido tem maior teor de sódio; consumo com pico na reprodução, quando os pais alimentam filhotes; em florestas úmidas o sódio é lavado do solo.",
+          "sources": [
+            "https://vetmed.tamu.edu/news/press-releases/texas-am-professor-explores-why-peruvian-parrots-eat-clay/",
+            "https://www.npr.org/sections/thesalt/2017/09/07/547981850/why-do-parrots-and-people-eat-clay"
+          ]
+        },
+        {
+          "claim": "Ressalva: resultados correlacionais; faltam testes controlados.",
+          "sources": [
+            "https://www.npr.org/sections/thesalt/2017/09/07/547981850/why-do-parrots-and-people-eat-clay"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "número exato de espécies (fontes divergem: 14, 18 ou 9 estudadas)",
+        "distância do oceano (ausente nas fontes)"
+      ]
+    },
+    "species": "Ara macao",
+    "related_species": [
+      "Ara chloropterus",
+      "Ara ararauna"
+    ],
+    "pixabay_queries": ["macaw"],
+    "pixabay_required_tags": ["macaw"],
+    "revision": "v1"
+  }
+}
