@@ -1,0 +1,53 @@
+{
+  "key": "tatu_bola_bola_perfeita",
+  "title": "O tatu brasileiro que vira uma bola perfeita",
+  "caption": "O tatu-bola é o único tatu endêmico do Brasil e um dos dois que se fecham numa bola perfeita. Mas essa defesa facilita a caça. #WildVox #TatuBola #Caatinga #Cerrado #CuriosidadesAnimais",
+  "sources": [
+    {
+      "type": "image",
+      "assetTitle": "inat-661542274.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/661542274/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/661542274",
+      "author": "Whaldener Endo",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 2048,
+      "height": 1362
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-88625106.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88625106/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/88625106",
+      "author": "Mario Barroso",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1362
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-88625330.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88625330/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/88625330",
+      "author": "Mario Barroso",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "width": 2048,
+      "height": 1362
+    },
+    {
+      "type": "image",
+      "assetTitle": "inat-204178179.jpg",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204178179/original.jpg",
+      "sourcePage": "https://www.inaturalist.org/photos/204178179",
+      "author": "Whaldener Endo",
+      "license": "CC0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "width": 2048,
+      "height": 1362
+    }
+  ],
+  "editor": "MoneyPrinterTurbo 92e0f9a",
+  "media_url": "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/mpt_2026-11-22_tatu_bola_bola_perfeita.mp4"
+}
