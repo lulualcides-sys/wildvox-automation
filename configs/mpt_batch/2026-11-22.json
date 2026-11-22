@@ -46,7 +46,7 @@
     "related_species": [
       "Tolypeutes matacus"
     ],
-    "revision": "v1"
+    "revision": "v1b"
   },
   "pica_pau_cabeca_de_martelo": {
     "title": "A cabeça do pica-pau não é um capacete",
@@ -88,11 +88,13 @@
     "pixabay_required_tags": [
       "woodpecker"
     ],
-    "revision": "v2",
+    "revision": "v3",
     "exclude_sources": [
       "https://pixabay.com/videos/id-349249/",
       "https://pixabay.com/videos/id-43758/",
-      "https://pixabay.com/videos/id-43757/"
+      "https://pixabay.com/videos/id-43757/",
+      "https://pixabay.com/videos/id-72427/",
+      "https://pixabay.com/videos/id-382108/"
     ]
   },
   "araras_comem_barro_sodio": {
@@ -141,7 +143,7 @@
     "pixabay_required_tags": [
       "macaw"
     ],
-    "revision": "v2",
+    "revision": "v3",
     "exclude_sources": [
       "https://pixabay.com/videos/id-48737/"
     ]

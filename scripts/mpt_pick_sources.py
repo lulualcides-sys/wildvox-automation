@@ -292,6 +292,16 @@ def pick_batch(batch, used, gather):
     return out, dropped
 
 
+def used_before_day(media_dir, day):
+    """Sources used by earlier renders, ignoring this day's own renders (they get replaced)."""
+    import tempfile
+    with tempfile.TemporaryDirectory() as tmp:
+        for meta in media_dir.glob("*_meta.json"):
+            if not meta.name.startswith(f"mpt_{day}_"):
+                (Path(tmp) / meta.name).write_bytes(meta.read_bytes())
+        return previously_used(Path(tmp))
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--batch", required=True, type=Path)
@@ -299,7 +309,7 @@ def main(argv=None):
     ap.add_argument("--output", required=True, type=Path)
     o = ap.parse_args(argv)
     batch = json.loads(o.batch.read_text(encoding="utf-8"))
-    used = previously_used(o.media_dir)
+    used = used_before_day(o.media_dir, o.batch.stem)
     used |= {p.name.replace("_", " ").casefold() for p in o.media_dir.glob("*.webm")}
 
     def gather(kind, arg):

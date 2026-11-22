@@ -125,6 +125,19 @@ class DailyBatch(unittest.TestCase):
         pages = [s["sourcePage"] for s in out["k"]["sources"]]
         self.assertNotIn("https://pixabay.com/videos/id-0/", pages)
 
+    def test_rerender_same_day_does_not_block_own_previous_sources(self):
+        # 22/11/2026: re-rendering a day's batch treated that day's own earlier renders as
+        # "used", so an already approved candidate lost its photos and changed media.
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d)
+            (p / "mpt_2026-11-22_k_meta.json").write_text(json.dumps(
+                {"sources": [{"sourcePage": "https://www.inaturalist.org/photos/1"}]}))
+            (p / "mpt_2026-11-20_x_meta.json").write_text(json.dumps(
+                {"sources": [{"sourcePage": "https://www.inaturalist.org/photos/2"}]}))
+            used = pick.used_before_day(p, "2026-11-22")
+            self.assertNotIn(pick.canonical_source("https://www.inaturalist.org/photos/1"), used)
+            self.assertIn(pick.canonical_source("https://www.inaturalist.org/photos/2"), used)
+
     def _inat_obs(self, n, w=2000, h=1333, code="cc-by"):
         return [{"user": {"name": f"Fot {i}"}, "photos": [{"id": 100 + i, "license_code": code,
                  "url": f"https://inaturalist-open-data.s3.amazonaws.com/photos/{100+i}/square.jpg",
