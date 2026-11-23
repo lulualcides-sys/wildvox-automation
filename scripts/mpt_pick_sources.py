@@ -225,6 +225,23 @@ def pixabay_candidates(hits, required_tags):
     return out
 
 
+MIN_MIXED_VIDEOS = 2  # fewer real clips than this: photos only
+
+
+def species_video_categories(cand):
+    """Commons video categories for the exact species (explicit ones first)."""
+    cats = list(cand.get("commons_categories") or [])
+    if cand.get("species"):
+        cats.append(f"Category:Videos of {cand['species'].strip()}")
+    return list(dict.fromkeys(cats))
+
+
+def photos_of_exact(species, excl, used, gather, want):
+    ph = [p for p in gather("inat_photos", species) if p["sourcePage"] not in excl]
+    ph += [p for p in gather("commons_photos", species) if p["sourcePage"] not in excl]
+    return choose_photos(ph, used, want=min(want, MAX_PHOTOS))
+
+
 def pick_batch(batch, used, gather):
     out, dropped = {}, {}
     for key, cand in batch.items():
@@ -235,16 +252,32 @@ def pick_batch(batch, used, gather):
                     k = canonical_source(p["assetTitle"])
                     used.difference_update({k, "file:" + k})
             excl = set(cand.get("exclude_sources") or [])  # rejected in visual review
-            # 1) real video of the exact animal
+            # 1) real video of the exact animal: Pixabay + Commons (owner decision 23/11/2026:
+            #    video is the default, photos only when there is not enough video)
             pool = []
             for q in cand.get("pixabay_queries") or []:
                 pool += gather("pixabay", q)
             vids = [c for c in pixabay_candidates(pool, cand.get("pixabay_required_tags") or [])
                     if c.get("sourcePage") not in excl]
+            titles = []
+            for cat in species_video_categories(cand):
+                titles += gather("category", cat)
+            titles = list(dict.fromkeys(titles))
+            if titles:
+                vids += [c for c in gather("verify", titles) if c.get("sourcePage") not in excl]
             picks = choose(vids, used, want)
             if len(picks) >= MIN_SHOTS:
                 out[key] = dict(cand, sources=picks, media_mode="video")
                 continue
+            # 1b) some real video of the exact animal: keep it and complete with photos of it
+            if len(picks) >= MIN_MIXED_VIDEOS and cand.get("species"):
+                fill = photos_of_exact(cand["species"], excl, used, gather, MAX_SHOTS - len(picks))
+                if len(picks) + len(fill) >= MIN_SHOTS:
+                    c2 = dict(cand, sources=picks + fill, media_mode="video_photo")
+                    c2.pop("illustrative_label", None)
+                    out[key] = c2
+                    continue
+                release(fill)
             release(picks)
             def photos_of(species):
                 ph = [p for p in gather("inat_photos", species) if p["sourcePage"] not in excl]

@@ -162,6 +162,60 @@ class DailyBatch(unittest.TestCase):
         import buffer_post_single as bps
         self.assertIn("inaturalist.org/photos/100", bps.credited_caption({"caption": "c #WildVox", "sources": srcs}))
 
+    def test_species_uses_commons_video_before_photos(self):
+        pool = [cand(f"Bradypus variegatus {i}.webm") for i in range(7)]
+        cats = []
+        def gather(kind, arg):
+            if kind == "category":
+                cats.append(arg)
+                return [c["title"] for c in pool]
+            if kind == "verify":
+                return pool
+            if kind == "inat_photos":
+                return pick.inat_photo_candidates(self._inat_obs(5))
+            return []
+        c = {"script": "Preguiça.", "curiosity_fact_sheet": {"x": 1}, "species": "Bradypus variegatus"}
+        out, dropped = pick.pick_batch({"k": c}, set(), gather)
+        self.assertEqual(dropped, {})
+        self.assertIn("Category:Videos of Bradypus variegatus", cats)
+        self.assertEqual(out["k"]["media_mode"], "video")
+        self.assertTrue(all(s["type"] == "video" for s in out["k"]["sources"]))
+        self.assertEqual(len(render.validate_candidate(out["k"])), 7)
+
+    def test_few_videos_completed_with_photos_of_same_species(self):
+        pool = [cand(f"Tolypeutes {i}.webm") for i in range(3)]
+        def gather(kind, arg):
+            if kind == "category":
+                return [c["title"] for c in pool]
+            if kind == "verify":
+                return pool
+            if kind == "inat_photos" and arg == "Tolypeutes tricinctus":
+                return pick.inat_photo_candidates(self._inat_obs(5))
+            return []
+        c = {"script": "Tatu.", "curiosity_fact_sheet": {"x": 1}, "species": "Tolypeutes tricinctus",
+             "illustrative_label": "x"}
+        out, _ = pick.pick_batch({"k": c}, set(), gather)
+        self.assertEqual(out["k"]["media_mode"], "video_photo")
+        types = [s["type"] for s in out["k"]["sources"]]
+        self.assertEqual(types[:3], ["video"] * 3)  # real video first
+        self.assertIn("image", types)
+        self.assertNotIn("illustrative_label", out["k"])
+        self.assertGreaterEqual(len(render.validate_candidate(out["k"])), 6)
+
+    def test_single_video_falls_back_to_photos_only(self):
+        pool = [cand("Lonely 0.webm")]
+        def gather(kind, arg):
+            if kind == "category":
+                return ["File:Lonely 0.webm"]
+            if kind == "verify":
+                return pool
+            if kind == "inat_photos":
+                return pick.inat_photo_candidates(self._inat_obs(4))
+            return []
+        c = {"script": "x.", "curiosity_fact_sheet": {"x": 1}, "species": "Hyla rara"}
+        out, _ = pick.pick_batch({"k": c}, set(), gather)
+        self.assertEqual(out["k"]["media_mode"], "photo")
+
     def test_nc_and_portrait_photos_rejected(self):
         self.assertEqual(pick.inat_photo_candidates(self._inat_obs(3, code="cc-by-nc")), [])
         self.assertEqual(pick.inat_photo_candidates(self._inat_obs(3, w=1000, h=1500)), [])
