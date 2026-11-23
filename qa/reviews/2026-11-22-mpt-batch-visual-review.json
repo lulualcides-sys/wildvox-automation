@@ -1,0 +1,42 @@
+{
+  "day_local": "2026-11-22",
+  "runs": {"batch_v1": 45082179082, "batch_v2": 45083884972, "batch_v3": 45085569975},
+  "news_search": "Sem novidade da semana (15-22/11/2026) com fonte primária confirmada; pauta de curiosidades atemporais verificadas.",
+  "approved": [
+    {
+      "key": "tatu_bola_bola_perfeita",
+      "decision": "APPROVE",
+      "render": "v3 (idêntico ao v1: mesmas 4 fotos)",
+      "media_mode": "exact_photo (Tolypeutes tricinctus; iNaturalist CC0/CC BY 4.0: 661542274, 88625106, 88625330, 204178179)",
+      "checks": {"all_frames_real_three_banded_armadillos": true, "captions_in_bottom_bar": true, "portuguese_errors": "none seen"},
+      "news": "atemporal (ICMBio ficha Tolypeutes tricinctus; IUCN/SSC Anteater, Sloth & Armadillo Specialist Group)"
+    },
+    {
+      "key": "pica_pau_cabeca_de_martelo",
+      "decision": "APPROVE",
+      "render": "v3",
+      "media_mode": "video (Pixabay, pica-paus reais; roteiro genérico sobre pica-paus)",
+      "checks": {"all_frames_real_woodpeckers": true, "captions_in_bottom_bar": true, "subtitle_correction": "alinhada ao roteiro (pica-pau, Antuérpia, concussões, por que)", "portuguese_errors": "none seen"},
+      "history": "v1: legendas desalinhadas ('picapau', 'Antwerpia', 'concursão', 'porque') porque o ano por extenso ('dois mil e vinte e dois') não casou com o '2022' do Whisper; clipes sem pica-pau visível (349249, 43758, 43757). v2: outros pássaros (72427 chapim, 382108 tordo). v3 aprovado.",
+      "news": "atemporal (Van Wassenbergh et al., Current Biology 2022, doi 10.1016/j.cub.2022.05.052)"
+    }
+  ],
+  "not_selected": [
+    {
+      "key": "araras_comem_barro_sodio",
+      "decision": "PASS_VISUAL_NOT_POSTED",
+      "reason": "v3 ok (araras reais, maioria em cativeiro), mas limite de 2 por dia; v1 tinha clipe de viveiro (48737) e v2 tinha foto com placa de texto e aves voando não identificáveis.",
+      "news": "atemporal (Hobson & Brightsmith, Ibis 2017; Texas A&M; NPR)"
+    }
+  ],
+  "pipeline_fixes": [
+    "mpt_pick_sources: caminho Pixabay passou a respeitar exclude_sources (teste de regressão).",
+    "mpt_pick_sources: re-render do mesmo dia não trata as fontes do próprio dia como usadas (causa da troca de fotos do tatu-bola no v2; teste de regressão)."
+  ],
+  "not_used_as_news": [
+    "Ololygon cataguas (perereca nova de Cataguases/MG, UFV; cobertura 22/11/2026, mas artigo primário em Herpetologica não localizado — sem fonte primária)",
+    "Pinguins ameaçados da Nova Zelândia (ScienceDaily 14/11/2026 — fora da janela de 7 dias)",
+    "Possível macaco novo no Laos (Mongabay 20/11/2026 — hipótese, sem descrição formal)",
+    "Répteis dependentes de rochas (Conservation Letters, Mongabay 20/11/2026 — artigo primário inacessível)"
+  ]
+}
