@@ -112,18 +112,6 @@
       "tags": "flamingo, birds, pink, feeding, rush, water, pond, plants, animal, ducks, zoo, wildlife"
     },
     {
-      "url": "https://cdn.pixabay.com/video/2021/07/06/80438-572395842_large.mp4",
-      "type": "video",
-      "assetTitle": "pixabay-80438.mp4",
-      "sourcePage": "https://pixabay.com/videos/id-80438/",
-      "author": "NickyPe",
-      "license": "Pixabay Content License",
-      "license_url": "https://pixabay.com/service/license-summary/",
-      "width": 3840,
-      "height": 2160,
-      "tags": "flamingo, birds, water bird, pink, feathers, plumage, feeding, zoo schmiding"
-    },
-    {
       "url": "https://cdn.pixabay.com/video/2021/11/03/94445-643067804_large.mp4",
       "type": "video",
       "assetTitle": "pixabay-94445.mp4",
@@ -134,6 +122,18 @@
       "width": 3840,
       "height": 2160,
       "tags": "flamingo, pink, legs, beak, to stand, large, swarm"
+    },
+    {
+      "url": "https://cdn.pixabay.com/video/2021/07/06/80438-572395842_large.mp4",
+      "type": "video",
+      "assetTitle": "pixabay-80438.mp4",
+      "sourcePage": "https://pixabay.com/videos/id-80438/",
+      "author": "NickyPe",
+      "license": "Pixabay Content License",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "width": 3840,
+      "height": 2160,
+      "tags": "flamingo, birds, water bird, pink, feathers, plumage, feeding, zoo schmiding"
     },
     {
       "url": "https://cdn.pixabay.com/video/2022/04/25/115000-702976846_large.mp4",
