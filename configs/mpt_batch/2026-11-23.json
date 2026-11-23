@@ -1,0 +1,277 @@
+{
+  "gorilas_escada_viva": {
+    "title": "Duas gorilas que montam uma escada viva",
+    "script": "Duas gorilas descobriram sozinhas como montar uma escada viva. Elas são meias-irmãs, Amelia e Lisha, gorilas-ocidentais-das-terras-baixas do Safári de Ramat Gan, em Israel. Um galho com folhas ficava a uns quatro metros e meio do chão. Uma cerca elétrica no tronco impedia a subida. Então Lisha ficou de quatro, e Amelia subiu nas costas dela para alcançar o galho. Pesquisadores da Universidade de Tel Aviv registraram isso três vezes, em anos diferentes. Nenhuma das duas foi treinada. Num dos vídeos, Lisha se aproxima por conta própria e vira as costas para a irmã. Para os autores, isso é cooperação de verdade, e não usar a outra como ferramenta. O estudo foi divulgado em novembro, na revista científica Primates. A ressalva é importante: são só duas gorilas, em cativeiro, e apenas três registros. Mesmo assim, os pesquisadores dizem que isso ajuda a entender a evolução da cooperação humana.",
+    "caption": "Duas gorilas meias-irmãs aprenderam a formar uma escada viva para alcançar galhos altos, segundo a Universidade de Tel Aviv. Imagens ilustrativas de espécies parentes. #WildVox #Gorila #Ciencia #CuriosidadesAnimais #Primatas",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": "2026-11-16",
+      "claims": [
+        {
+          "claim": "Duas fêmeas adultas meias-irmãs de gorila-ocidental-das-terras-baixas, Amelia e Lisha, no Safári de Ramat Gan (Israel); uma apoia-se de quatro e a outra sobe nas costas para alcançar um galho a ~4,5 m; barreira elétrica no tronco impedia a escalada.",
+          "sources": [
+            "https://www.eurekalert.org/news-releases/1152042",
+            "https://www.sci.news/biology/gorilla-cooperation-15201.html"
+          ]
+        },
+        {
+          "claim": "Três eventos documentados (2021, 2024, 2025); nenhuma das gorilas foi treinada; em vídeo de 2025 Lisha se aproxima por iniciativa própria e vira as costas.",
+          "sources": [
+            "https://www.eurekalert.org/news-releases/1152042"
+          ]
+        },
+        {
+          "claim": "Levitzky e Hershkovitz (Universidade de Tel Aviv): diferença entre usar outro indivíduo como ferramenta e cooperação verdadeira; relevante para entender a evolução humana; ressalva: só dois indivíduos e três eventos.",
+          "sources": [
+            "https://www.eurekalert.org/news-releases/1152042",
+            "https://doi.org/10.1007/s10329-026-01297-6"
+          ]
+        },
+        {
+          "claim": "Publicado na revista Primates (DOI 10.1007/s10329-026-01297-6); comunicado da Universidade de Tel Aviv em 16/11/2026.",
+          "sources": [
+            "https://www.eurekalert.org/news-releases/1152042"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "'primeiro registro' (o comunicado não afirma prioridade; diz apenas 'raro')",
+        "data online do artigo (26/10/2026 segundo sci.news; não confirmada na Springer)"
+      ]
+    },
+    "species": "Gorilla gorilla gorilla",
+    "related_species": [
+      "Gorilla gorilla",
+      "Gorilla beringei"
+    ],
+    "pixabay_queries": [
+      "gorilla"
+    ],
+    "pixabay_required_tags": [
+      "gorilla"
+    ],
+    "revision": "v1"
+  },
+  "tucano_bico_radiador": {
+    "title": "O bico do tucano é um radiador",
+    "script": "O bico do tucano não é só enfeite. Ele funciona como um radiador. O tucano-toco vive principalmente no Cerrado e é o maior de todos os tucanos. O bico pode ocupar até perto da metade da superfície do corpo. Mesmo assim, é leve: por fora tem placas de queratina e, por dentro, uma espuma de osso cheia de ar. Pesquisadores da Unesp de Rio Claro, com colegas do Canadá, estudaram tucanos com câmeras térmicas. Quando faz calor, a ave manda mais sangue para o bico, e o calor escapa. Quando esfria, ela fecha essa passagem. Num teste, o ajuste aconteceu em cerca de dez minutos. O bico pode liberar de um quarto até quatro vezes o calor que o corpo produz em repouso. Segundo os autores, é uma das maiores janelas térmicas do reino animal, comparável às orelhas do elefante. E, na hora de dormir, o tucano esconde o bico debaixo da asa para guardar calor. O maior símbolo do tucano é, na verdade, o seu termostato.",
+    "caption": "Pesquisadores da Unesp mostraram que o bico do tucano-toco controla a temperatura do corpo como um radiador. #WildVox #Tucano #Cerrado #CuriosidadesAnimais #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": null,
+      "claims": [
+        {
+          "claim": "Tattersall, Andrade & Abe, Science 325:468-470 (2009): o tucano-toco controla o fluxo de sangue no bico para regular a perda de calor; uma das maiores janelas térmicas do reino animal, comparável às orelhas do elefante.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/19628866/",
+            "https://ui.adsabs.harvard.edu/abs/2009Sci...325..468T/abstract"
+          ]
+        },
+        {
+          "claim": "O bico pode dissipar de 25% a 400% da produção de calor em repouso; ajuste em ~10 minutos quando a temperatura caiu de 25 para 10 °C; estudo da Unesp Rio Claro com a Brock University (Canadá).",
+          "sources": [
+            "https://revistapesquisa.fapesp.br/en/wp-json/wp/v2/posts/125199",
+            "https://www.nationalgeographic.com/science/article/toucan-play-at-reducing-the-heating-bill"
+          ]
+        },
+        {
+          "claim": "O bico representa até cerca de metade da superfície corporal; ao dormir o tucano esconde o bico sob a asa.",
+          "sources": [
+            "https://www.sciencenews.org/article/toucans-bill-gives-big-chill",
+            "https://www.nationalgeographic.com/science/article/toucan-play-at-reducing-the-heating-bill"
+          ]
+        },
+        {
+          "claim": "Bico leve: placas de queratina por fora e espuma rígida de fibras ósseas por dentro ('mostly air').",
+          "sources": [
+            "https://jacobsschool.ucsd.edu/news/release/417"
+          ]
+        },
+        {
+          "claim": "Tucano-toco é o maior tucano e vive principalmente no Cerrado.",
+          "sources": [
+            "https://ielc.libguides.com/sdzg/factsheets/toco-toucan",
+            "https://revistapesquisa.fapesp.br/en/wp-json/wp/v2/posts/125199"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "60% da superfície do corpo (não encontrado)",
+        "estudo feito na Amazônia (foi em câmara climática na Unesp)"
+      ]
+    },
+    "species": "Ramphastos toco",
+    "related_species": [
+      "Ramphastos tucanus",
+      "Ramphastos vitellinus"
+    ],
+    "pixabay_queries": [
+      "toucan"
+    ],
+    "pixabay_required_tags": [
+      "toucan"
+    ],
+    "revision": "v1"
+  },
+  "elefante_escuta_com_os_pes": {
+    "title": "Elefantes escutam com os pés",
+    "script": "Os elefantes conseguem escutar com os pés. Quando um elefante solta seu ronco grave, o som não viaja só pelo ar. Ele também vira uma vibração que corre pelo chão. A pesquisadora Caitlin O'Connell-Rodwell, da Universidade Stanford, viu elefantes africanos na Namíbia se inclinarem para a frente, levantarem uma pata e ficarem imóveis, como se estivessem ouvindo. Segundo os modelos da equipe, essas vibrações podem ir mais longe pelo solo do que pelo ar. Num experimento, os pesquisadores transformaram alarmes de elefantes sobre leões em vibrações no chão. Os animais se agruparam e foram embora mais cedo. Mas só reagiram aos alarmes de elefantes conhecidos, da mesma região. Como eles sentem isso? A vibração pode subir pelos ossos até o ouvido. E os pés têm sensores de toque muito sensíveis. A ressalva é que o papel exato desses sensores ainda é uma hipótese. Talvez o silêncio de uma manada esteja cheio de conversas.",
+    "caption": "Estudos da Universidade Stanford mostram que elefantes percebem pelo chão as vibrações dos roncos de outros elefantes. #WildVox #Elefante #CuriosidadesAnimais #Ciencia #Natureza",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": null,
+      "claims": [
+        {
+          "claim": "O'Connell-Rodwell (Stanford) observou elefantes africanos no Parque Nacional de Etosha (Namíbia) inclinando-se, levantando uma pata e ficando imóveis; associou a vibrações de manadas se aproximando.",
+          "sources": [
+            "https://news.stanford.edu/pr/01/elephants37.html",
+            "https://www.sciencedaily.com/releases/2001/03/010312071729.htm"
+          ]
+        },
+        {
+          "claim": "Roncos de ~20 Hz geram ondas sísmicas que, segundo modelos, viajam 16-32 km pelo solo contra ~10 km pelo ar.",
+          "sources": [
+            "https://news.stanford.edu/pr/01/elephants37.html"
+          ]
+        },
+        {
+          "claim": "Experimento (J. Acoust. Soc. Am. 2007): alarmes sobre leões convertidos em vibração; elefantes se agruparam e deixaram o bebedouro mais cedo só quando o alarme vinha de elefantes conhecidos de Etosha, não de elefantes do Quênia.",
+          "sources": [
+            "https://med.stanford.edu/news/all-news/2007/05/caller-id-in-the-wild-african-elephants-communicate-by-ground-vibration-stanford-researcher-finds"
+          ]
+        },
+        {
+          "claim": "Duas vias propostas: condução óssea até o ouvido e receptores de toque (corpúsculos de Pacini) nos pés; o papel dos receptores é hipótese.",
+          "sources": [
+            "https://news.stanford.edu/pr/01/elephants37.html",
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC2375831"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "detecção comprovada a 32 km (é alcance modelado do sinal)",
+        "prever chuva a 160 km (especulativo)"
+      ]
+    },
+    "species": "Loxodonta africana",
+    "related_species": [
+      "Loxodonta cyclotis",
+      "Elephas maximus"
+    ],
+    "pixabay_queries": [
+      "elephant"
+    ],
+    "pixabay_required_tags": [
+      "elephant"
+    ],
+    "revision": "v1"
+  },
+  "flamingo_rosa_vem_da_comida": {
+    "title": "Por que o flamingo é cor-de-rosa",
+    "script": "O flamingo não nasce cor-de-rosa. O filhote sai do ovo coberto de penugem cinza. A cor vem da comida. Flamingos filtram da água algas e pequenos crustáceos ricos em pigmentos chamados carotenoides. No fígado, esses pigmentos são transformados e vão parar nas penas, nas pernas e no bico. Por isso, o rosa só aparece depois de alguns anos. Nos zoológicos, a dieta recebe carotenoides extras. Sem eles, a plumagem vai desbotando. E tem uma reviravolta. Os pais alimentam o filhote com um leite produzido na garganta, cheio desses pigmentos. No flamingo-americano, esse leite é vermelho vivo. Com isso, os próprios pais vão perdendo a cor e chegam a ficar quase brancos no fim da temporada de reprodução. Depois, quando o filhote passa a comer sozinho, o rosa volta. Uma pena que cai também perde a cor rapidinho. No fim, a cor de um flamingo conta o que ele comeu e quanto ele deu aos filhos.",
+    "caption": "O rosa do flamingo vem dos pigmentos da comida, e os pais chegam a ficar quase brancos ao alimentar os filhotes. #WildVox #Flamingo #Aves #CuriosidadesAnimais #Natureza",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": null,
+      "claims": [
+        {
+          "claim": "A cor vem de carotenoides de algas e pequenos crustáceos filtrados da água; enzimas do fígado convertem os pigmentos, depositados nas penas, pernas e bico.",
+          "sources": [
+            "https://nationalzoo.si.edu/animals/news/why-are-flamingos-pink-and-other-flamingo-facts",
+            "https://www.smithsonianmag.com/science-nature/for-some-species-you-really-are-what-you-eat-40747423/"
+          ]
+        },
+        {
+          "claim": "Filhotes nascem com penugem cinza; a cor adulta leva alguns anos.",
+          "sources": [
+            "https://animals.sandiegozoo.org/node/68",
+            "https://lazoo.org/explore-your-zoo/our-animals/birds/flamingos"
+          ]
+        },
+        {
+          "claim": "Zoológicos acrescentam carotenoides (cantaxantina, betacaroteno) à dieta; sem eles a plumagem desbota.",
+          "sources": [
+            "https://lazoo.org/explore-your-zoo/our-animals/birds/flamingos",
+            "https://www.smithsonianmag.com/science-nature/for-some-species-you-really-are-what-you-eat-40747423/"
+          ]
+        },
+        {
+          "claim": "Ambos os pais produzem leite de papo (garganta/trato digestivo superior); no flamingo-americano é vermelho vivo; os pais desbotam a quase branco no fim da temporada e recuperam a cor quando o filhote come sozinho; pena caída perde a cor rapidamente.",
+          "sources": [
+            "https://www.smithsonianmag.com/blogs/national-zoo-conservation-biology-institute/2026/07/17/practical-tips-for-anyone-currently-raising-nine-flamingo-chicks-at-the-same-time/",
+            "https://animals.sandiegozoo.org/node/68"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "'só por comer camarão' (simplificação)",
+        "idade exata da cor adulta (fontes variam 2-3 anos)"
+      ]
+    },
+    "species": "Phoenicopterus ruber",
+    "related_species": [
+      "Phoenicopterus roseus",
+      "Phoenicopterus chilensis"
+    ],
+    "pixabay_queries": [
+      "flamingo"
+    ],
+    "pixabay_required_tags": [
+      "flamingo"
+    ],
+    "revision": "v1"
+  },
+  "coruja_gira_a_cabeca": {
+    "title": "Como a coruja gira tanto a cabeça",
+    "script": "Uma coruja consegue virar a cabeça até duzentos e setenta graus para cada lado. Não, ela não dá a volta completa. Ela precisa disso porque os olhos não se mexem. Cada olho fica travado por um anel de placas ósseas. Então, para olhar para o lado, ela vira a cabeça inteira. Mas como ela faz isso sem cortar o sangue que vai para o cérebro? Pesquisadores da Universidade Johns Hopkins estudaram três espécies de corujas norte-americanas. A coruja tem catorze vértebras no pescoço, o dobro do ser humano. Os furos dos ossos por onde passa uma artéria são cerca de dez vezes mais largos que ela, e isso funciona como amortecimento. Na base da cabeça, vasos se dilatam e guardam sangue durante o giro. E ligações entre as artérias criam caminhos alternativos se uma delas for apertada. Nós não temos essas adaptações. Por isso, um movimento brusco do pescoço pode ferir as nossas artérias.",
+    "caption": "Corujas viram a cabeça até 270 graus sem cortar o sangue do cérebro. A Universidade Johns Hopkins descobriu como. #WildVox #Coruja #Aves #CuriosidadesAnimais #Ciencia",
+    "language": "pt-BR",
+    "voice": "pm_alex",
+    "curiosity_fact_sheet": {
+      "news_date": null,
+      "claims": [
+        {
+          "claim": "Estudo da Johns Hopkins (de Kok-Mercado, Gailloud et al., Science 2013) com corujas-das-neves, corujas-barradas e corujões-orelhudos; rotação de até 270° para cada lado.",
+          "sources": [
+            "https://www.eurekalert.org/news-releases/469762",
+            "https://hub.jhu.edu/2013/01/31/owls-rotate-heads-without-injury"
+          ]
+        },
+        {
+          "claim": "Forames vertebrais ~10 vezes o diâmetro da artéria vertebral (amortecimento); vasos na base da cabeça se expandem e acumulam sangue; conexões carótida-vertebral oferecem rotas alternativas; humanos não têm essas adaptações e podem sofrer lesão arterial com movimentos bruscos.",
+          "sources": [
+            "https://www.eurekalert.org/news-releases/469762",
+            "https://www.nationalgeographic.com/animals/article/how-owls-twist-heads-almost-360-degrees"
+          ]
+        },
+        {
+          "claim": "14 vértebras cervicais, o dobro dos humanos; olhos imóveis travados pelo anel esclerótico.",
+          "sources": [
+            "https://www.owlresearchinstitute.org/adaptations",
+            "https://www.nps.gov/bibe/learn/nature/owls.htm?simple=true"
+          ]
+        }
+      ],
+      "excluded_claims": [
+        "giro de 360° (errado)",
+        "olhos 'em forma de tubo' (não confirmado nas fontes lidas)"
+      ]
+    },
+    "species": "Bubo virginianus",
+    "related_species": [
+      "Bubo scandiacus",
+      "Strix varia"
+    ],
+    "pixabay_queries": [
+      "owl"
+    ],
+    "pixabay_required_tags": [
+      "owl"
+    ],
+    "revision": "v1"
+  }
+}
