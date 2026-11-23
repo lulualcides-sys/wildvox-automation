@@ -51,6 +51,9 @@ def main(argv=None):
         print("AWAITING_REVIEW: no approved list; nothing posted")
         return
     approved = set(json.loads(o.approved.read_text(encoding="utf-8")))
+    if not approved:
+        print("SKIPPED: empty approved list (stock already enough); nothing posted")
+        return
     order = [k for k in json.loads(o.batch.read_text(encoding="utf-8")) if k in approved]
     metas = load_metas(o.meta_dir, order)
     if not metas:

@@ -43,6 +43,18 @@ class Stock(unittest.TestCase):
             bps.next_slot(self.now, used, [(12, 40), (19, 35)])
         self.assertEqual(bps.next_slot(self.now, used, [(12, 40), (19, 35)], days=8).day, 26)
 
+    def test_empty_approved_list_is_a_clean_skip(self):
+        import tempfile, io, contextlib
+        import buffer_post_batch as bpb
+        with tempfile.TemporaryDirectory() as t:
+            ap = Path(t) / "d.approved.json"
+            ap.write_text("[]", encoding="utf-8")
+            out = io.StringIO()
+            with contextlib.redirect_stdout(out):
+                bpb.main(["--batch", str(Path(t) / "missing.json"), "--meta-dir", t,
+                          "--tiktok-handle", "wildvox", "--approved", str(ap)])
+            self.assertIn("SKIPPED", out.getvalue())
+
 
 if __name__ == "__main__":
     unittest.main()
