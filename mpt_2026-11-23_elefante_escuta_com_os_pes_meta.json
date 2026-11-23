@@ -49,7 +49,7 @@
       "license_url": "https://pixabay.com/service/license-summary/",
       "width": 3840,
       "height": 2160,
-      "tags": "elephants, sunset, savannah, tanzania, zanzibar, safari, african sunset, travel, elephant, africa"
+      "tags": "elephants, sunset, savannah, tanzania, zanzibar, elephant, safari, african sunset, travel, africa"
     },
     {
       "url": "https://cdn.pixabay.com/video/2022/10/13/134765-760133537_large.mp4",
@@ -74,18 +74,6 @@
       "width": 3840,
       "height": 2160,
       "tags": "elephants, elephant, pachyderm, herd, tusks, family, safari, reserve, animal, fauna"
-    },
-    {
-      "url": "https://cdn.pixabay.com/video/2022/07/22/125062-732633269_large.mp4",
-      "type": "video",
-      "assetTitle": "pixabay-125062.mp4",
-      "sourcePage": "https://pixabay.com/videos/id-125062/",
-      "author": "adege",
-      "license": "Pixabay Content License",
-      "license_url": "https://pixabay.com/service/license-summary/",
-      "width": 3840,
-      "height": 2160,
-      "tags": "elephants, elephant couple, elephant, clay figure, characters"
     },
     {
       "url": "https://cdn.pixabay.com/video/2024/06/20/217512_large.mp4",
@@ -146,6 +134,18 @@
       "width": 3840,
       "height": 2160,
       "tags": "elephant, river, young, thailand, bali, water, nature, bangkok, theatre, burma, asia, cambodia"
+    },
+    {
+      "url": "https://cdn.pixabay.com/video/2022/10/13/134761-760133526_large.mp4",
+      "type": "video",
+      "assetTitle": "pixabay-134761.mp4",
+      "sourcePage": "https://pixabay.com/videos/id-134761/",
+      "author": "Teshy",
+      "license": "Pixabay Content License",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "width": 3840,
+      "height": 2160,
+      "tags": "elephant, tusks, family, animal, nature, wilderness, wildlife, south africa"
     }
   ],
   "editor": "MoneyPrinterTurbo 92e0f9a",
