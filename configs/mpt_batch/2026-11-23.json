@@ -1,8 +1,8 @@
 {
   "gorilas_escada_viva": {
     "title": "Duas gorilas que montam uma escada viva",
-    "script": "Duas gorilas descobriram sozinhas como montar uma escada viva. Elas são meias-irmãs, Amelia e Lisha, gorilas-ocidentais-das-terras-baixas do Safári de Ramat Gan, em Israel. Um galho com folhas ficava a uns quatro metros e meio do chão. Uma cerca elétrica no tronco impedia a subida. Então Lisha ficou de quatro, e Amelia subiu nas costas dela para alcançar o galho. Pesquisadores da Universidade de Tel Aviv registraram isso três vezes, em anos diferentes. Nenhuma das duas foi treinada. Num dos vídeos, Lisha se aproxima por conta própria e vira as costas para a irmã. Para os autores, isso é cooperação de verdade, e não usar a outra como ferramenta. O estudo foi divulgado em novembro, na revista científica Primates. A ressalva é importante: são só duas gorilas, em cativeiro, e apenas três registros. Mesmo assim, os pesquisadores dizem que isso ajuda a entender a evolução da cooperação humana.",
-    "caption": "Duas gorilas meias-irmãs aprenderam a formar uma escada viva para alcançar galhos altos, segundo a Universidade de Tel Aviv. Imagens ilustrativas de espécies parentes. #WildVox #Gorila #Ciencia #CuriosidadesAnimais #Primatas",
+    "script": "Duas gorilas descobriram sozinhas como montar uma escada viva. Elas são meias-irmãs e vivem num safári em Israel. Um galho com folhas ficava a uns quatro metros e meio do chão. Uma cerca elétrica no tronco impedia a subida. Então uma das irmãs ficou de quatro, e a outra subiu nas costas dela para alcançar o galho. Pesquisadores da Universidade de Tel Aviv registraram isso três vezes, em anos diferentes. Nenhuma das duas foi treinada. Num dos vídeos, a irmã que serve de degrau se aproxima por conta própria e vira as costas para a outra. Para os autores, isso é cooperação de verdade, e não usar a outra como ferramenta. O estudo foi divulgado em novembro, numa revista científica sobre primatas. A ressalva é importante: são só duas gorilas, que vivem em cativeiro, e apenas três registros. Mesmo assim, os pesquisadores dizem que isso ajuda a entender a evolução da cooperação humana.",
+    "caption": "Duas gorilas meias-irmãs aprenderam a formar uma escada viva para alcançar galhos altos, segundo a Universidade de Tel Aviv. Imagens ilustrativas de outros gorilas. #WildVox #Gorila #Ciencia #CuriosidadesAnimais #Primatas",
     "language": "pt-BR",
     "voice": "pm_alex",
     "curiosity_fact_sheet": {
@@ -51,69 +51,7 @@
     "pixabay_required_tags": [
       "gorilla"
     ],
-    "revision": "v1"
-  },
-  "tucano_bico_radiador": {
-    "title": "O bico do tucano é um radiador",
-    "script": "O bico do tucano não é só enfeite. Ele funciona como um radiador. O tucano-toco vive principalmente no Cerrado e é o maior de todos os tucanos. O bico pode ocupar até perto da metade da superfície do corpo. Mesmo assim, é leve: por fora tem placas de queratina e, por dentro, uma espuma de osso cheia de ar. Pesquisadores da Unesp de Rio Claro, com colegas do Canadá, estudaram tucanos com câmeras térmicas. Quando faz calor, a ave manda mais sangue para o bico, e o calor escapa. Quando esfria, ela fecha essa passagem. Num teste, o ajuste aconteceu em cerca de dez minutos. O bico pode liberar de um quarto até quatro vezes o calor que o corpo produz em repouso. Segundo os autores, é uma das maiores janelas térmicas do reino animal, comparável às orelhas do elefante. E, na hora de dormir, o tucano esconde o bico debaixo da asa para guardar calor. O maior símbolo do tucano é, na verdade, o seu termostato.",
-    "caption": "Pesquisadores da Unesp mostraram que o bico do tucano-toco controla a temperatura do corpo como um radiador. #WildVox #Tucano #Cerrado #CuriosidadesAnimais #Ciencia",
-    "language": "pt-BR",
-    "voice": "pm_alex",
-    "curiosity_fact_sheet": {
-      "news_date": null,
-      "claims": [
-        {
-          "claim": "Tattersall, Andrade & Abe, Science 325:468-470 (2009): o tucano-toco controla o fluxo de sangue no bico para regular a perda de calor; uma das maiores janelas térmicas do reino animal, comparável às orelhas do elefante.",
-          "sources": [
-            "https://pubmed.ncbi.nlm.nih.gov/19628866/",
-            "https://ui.adsabs.harvard.edu/abs/2009Sci...325..468T/abstract"
-          ]
-        },
-        {
-          "claim": "O bico pode dissipar de 25% a 400% da produção de calor em repouso; ajuste em ~10 minutos quando a temperatura caiu de 25 para 10 °C; estudo da Unesp Rio Claro com a Brock University (Canadá).",
-          "sources": [
-            "https://revistapesquisa.fapesp.br/en/wp-json/wp/v2/posts/125199",
-            "https://www.nationalgeographic.com/science/article/toucan-play-at-reducing-the-heating-bill"
-          ]
-        },
-        {
-          "claim": "O bico representa até cerca de metade da superfície corporal; ao dormir o tucano esconde o bico sob a asa.",
-          "sources": [
-            "https://www.sciencenews.org/article/toucans-bill-gives-big-chill",
-            "https://www.nationalgeographic.com/science/article/toucan-play-at-reducing-the-heating-bill"
-          ]
-        },
-        {
-          "claim": "Bico leve: placas de queratina por fora e espuma rígida de fibras ósseas por dentro ('mostly air').",
-          "sources": [
-            "https://jacobsschool.ucsd.edu/news/release/417"
-          ]
-        },
-        {
-          "claim": "Tucano-toco é o maior tucano e vive principalmente no Cerrado.",
-          "sources": [
-            "https://ielc.libguides.com/sdzg/factsheets/toco-toucan",
-            "https://revistapesquisa.fapesp.br/en/wp-json/wp/v2/posts/125199"
-          ]
-        }
-      ],
-      "excluded_claims": [
-        "60% da superfície do corpo (não encontrado)",
-        "estudo feito na Amazônia (foi em câmara climática na Unesp)"
-      ]
-    },
-    "species": "Ramphastos toco",
-    "related_species": [
-      "Ramphastos tucanus",
-      "Ramphastos vitellinus"
-    ],
-    "pixabay_queries": [
-      "toucan"
-    ],
-    "pixabay_required_tags": [
-      "toucan"
-    ],
-    "revision": "v1"
+    "revision": "v2"
   },
   "elefante_escuta_com_os_pes": {
     "title": "Elefantes escutam com os pés",
@@ -167,7 +105,10 @@
     "pixabay_required_tags": [
       "elephant"
     ],
-    "revision": "v1"
+    "revision": "v2",
+    "exclude_sources": [
+      "https://pixabay.com/videos/id-125062/"
+    ]
   },
   "flamingo_rosa_vem_da_comida": {
     "title": "Por que o flamingo é cor-de-rosa",
@@ -223,11 +164,11 @@
     "pixabay_required_tags": [
       "flamingo"
     ],
-    "revision": "v1"
+    "revision": "v2"
   },
   "coruja_gira_a_cabeca": {
     "title": "Como a coruja gira tanto a cabeça",
-    "script": "Uma coruja consegue virar a cabeça até duzentos e setenta graus para cada lado. Não, ela não dá a volta completa. Ela precisa disso porque os olhos não se mexem. Cada olho fica travado por um anel de placas ósseas. Então, para olhar para o lado, ela vira a cabeça inteira. Mas como ela faz isso sem cortar o sangue que vai para o cérebro? Pesquisadores da Universidade Johns Hopkins estudaram três espécies de corujas norte-americanas. A coruja tem catorze vértebras no pescoço, o dobro do ser humano. Os furos dos ossos por onde passa uma artéria são cerca de dez vezes mais largos que ela, e isso funciona como amortecimento. Na base da cabeça, vasos se dilatam e guardam sangue durante o giro. E ligações entre as artérias criam caminhos alternativos se uma delas for apertada. Nós não temos essas adaptações. Por isso, um movimento brusco do pescoço pode ferir as nossas artérias.",
+    "script": "Uma coruja consegue virar a cabeça até duzentos e setenta graus para cada lado. Não, ela não dá a volta completa. Ela precisa disso porque os olhos não se mexem. Cada olho fica travado por um anel de placas ósseas. Então, para olhar para o lado, ela vira a cabeça inteira. Mas como ela faz isso sem cortar o sangue que vai para o cérebro? Pesquisadores de uma universidade dos Estados Unidos estudaram três espécies de corujas. A coruja tem catorze vértebras no pescoço, o dobro do ser humano. Os furos dos ossos por onde passa uma artéria são cerca de dez vezes mais largos que ela, e isso funciona como amortecimento. Na base da cabeça, vasos se dilatam e guardam sangue durante o giro. E ligações entre as artérias criam caminhos alternativos se uma delas for apertada. Nós não temos essas adaptações. Por isso, um movimento brusco do pescoço pode ferir as nossas artérias.",
     "caption": "Corujas viram a cabeça até 270 graus sem cortar o sangue do cérebro. A Universidade Johns Hopkins descobriu como. #WildVox #Coruja #Aves #CuriosidadesAnimais #Ciencia",
     "language": "pt-BR",
     "voice": "pm_alex",
@@ -272,6 +213,6 @@
     "pixabay_required_tags": [
       "owl"
     ],
-    "revision": "v1"
+    "revision": "v2"
   }
 }
