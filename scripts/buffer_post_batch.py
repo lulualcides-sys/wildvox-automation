@@ -18,6 +18,9 @@ from buffer_post_single import credited_caption, find_channel, next_slot  # noqa
 # Owner decision 18/11/2026: 2 high-quality videos per day (lunch + evening peak).
 DAILY_SLOTS = [(12, 40), (19, 35)]
 MAX_PER_DAY = 2
+# Owner decision 23/11/2026: keep a stock of approved videos scheduled ahead so
+# the channel keeps posting even when the daily Claude run cannot happen.
+LOOKAHEAD_DAYS = 8
 MEDIA_PREFIX = "https://raw.githubusercontent.com/lulualcides-sys/wildvox-automation/media/"
 
 
@@ -86,7 +89,11 @@ def main(argv=None):
         if len(scheduled) + queued >= pb.MAX_PENDING_FREE:
             print(f"STOP: Buffer Free queue full; {m['key']} not scheduled")
             break
-        slot = next_slot(now, used, DAILY_SLOTS)
+        try:
+            slot = next_slot(now, used, DAILY_SLOTS, days=LOOKAHEAD_DAYS)
+        except RuntimeError:
+            print(f"STOP: stock already fills the next {LOOKAHEAD_DAYS} days; {m['key']} not scheduled")
+            break
         pb.validate_public_url(m["media_url"])
         if o.dry_run:
             print(f"DRY {m['key']} -> {slot.isoformat()}")

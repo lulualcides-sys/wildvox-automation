@@ -89,14 +89,14 @@ def find_channel(handle: str):
     return org_id, c["id"]
 
 
-def next_slot(now, used_slots, slots=None):
-    for day in range(0, 3):
+def next_slot(now, used_slots, slots=None, days=3):
+    for day in range(0, days):
         base = now + timedelta(days=day)
         for h, m in (slots or pb.SLOTS):
             slot = base.replace(hour=h, minute=m, second=0, microsecond=0)
             if slot > now + timedelta(minutes=15) and slot not in used_slots:
                 return slot
-    raise RuntimeError("No free slot in the next 3 days")
+    raise RuntimeError(f"No free slot in the next {days} days")
 
 
 def main(argv=None):

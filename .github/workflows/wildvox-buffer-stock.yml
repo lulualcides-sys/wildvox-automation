@@ -1,0 +1,30 @@
+name: WildVox Buffer stock (read-only)
+
+# Read-only: prints `STOCK {...}` (posts already scheduled ahead). Used by the
+# daily routine to decide how many new videos to make. Never creates posts.
+# Run it by pushing a new line to configs/mpt_batch/stock-check.txt
+# (workflow_dispatch only works for workflows on the default branch).
+on:
+  push:
+    branches: ["experimental/mpt-*"]
+    paths: ["configs/mpt_batch/stock-check.txt", ".github/workflows/wildvox-buffer-stock.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  stock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Buffer stock
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+        run: python scripts/buffer_stock.py wildvox
